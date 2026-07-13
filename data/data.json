@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-13T21:51:04+00:00",
+ "generated_at": "2026-07-13T22:51:03+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-13T21:50:56+00:00",
+   "updated_at": "2026-07-13T22:50:53+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -153,9 +153,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 83.18,
+     "price": 83.33,
      "prev_close": 76.01,
-     "change_pct": 9.43,
+     "change_pct": 9.63,
      "closes": [
       83.17,
       78.96,
@@ -175,7 +175,7 @@
       78.02,
       76.3,
       76.01,
-      83.18
+      83.33
      ]
     },
     {
@@ -214,7 +214,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-13T21:50:56+00:00",
+   "updated_at": "2026-07-13T22:50:53+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -225,7 +225,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-13T21:51:01+00:00",
+   "updated_at": "2026-07-13T22:50:59+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -386,8 +386,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-13T21:51:04+00:00",
+   "updated_at": "2026-07-13T22:51:03+00:00",
    "items": [
+    {
+     "title": "Soja volta a ser negociada acima de R$ 140 nos principais portos - O Presente Rural",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNENzVU1WYWcyTFFmZkdfUmxDMFRzbU8yeWxuYUVIUTNZN290NnRpUm1IaU9DRU9hUW53cmRiczhha05DNVR0dWM4dXJWNTBHdWxNRlhXRFFoUlh4OHNMcU11VV9UQ1BkTXhLOWNnbFhDWmVyQ0JKRTc1bTZod0JOdmJUYWRkYjBQb2lRTUFRUzF5bzBvSk5fcFFB?oc=5",
+     "source": "O Presente Rural",
+     "published_at": "2026-07-13T22:29:08+00:00"
+    },
+    {
+     "title": "Produtor de soja é exigente e espera por melhores cotações, mesmo com firmeza nos preços - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOW1hQ0J4U2JLYmxQaURMM2tXdy15bG51SWwtc3JGNWh6T1RUdW9rT2FKTVNRcE92bjE5T1MzQ2xHZjg0Nm0zN2xLcndhdXAwbk44aUQ0WF9oN0lORF93VWZUaWItc1F3RmltelJHdG9iNnhxSEpCNXZLNVYzSjBPZ2xMa3VNbWtLT2h2QWptdkQxY2hldHhHSlA0alVYdHpPVVFyRWtxbG1wcklOQ3R5OUVFY0ZodktOb0VBM3cwSFctWkswRHdLUGVGek9QTEhxRXhzb0w0NmVOSFVNNlplbGFYWjA?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-13T21:32:34+00:00"
+    },
     {
      "title": "Produtor de soja é exigente e espera por melhores cotações, mesmo com firmeza nos preços",
      "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/produtor-de-soja-e-exigente-e-espera-por-melhores-cotacoes-mesmo-com-firmeza-nos-precos/",
@@ -467,6 +479,12 @@
      "published_at": "2026-07-13T19:58:12+00:00"
     },
     {
+     "title": "Continuidade das compras de soja da China nos EUA traz novas altas a Chicago nesta 2a feira - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZVltOFU5NVpSNXk4Y2VldkJIcEZKa0dRMDB0anR2NVdMaDlSY0xqZWZDcXJlZ1dnNExMVWMwMlhDejRIQkRkTzFFVHZPVDBWTFNFazZibkc4U21DOUx1LU1KYzRzVkVoYS1XRlZLdnRxcF9GVVFJUGZFcEI5N2J1OElQeDRvTktKUWs3MkNRa2dWVkY4OHlFajV0a0t2UGVRSm9STjcwYWxOUmR0QTMxRmM4bVF5NmVYWEhpdUR1MFVWdER5eVJPLTBFb2lHMEtNRHYwWEtwS0pmekhFVllsWUJoam55LVnSAewBQVVfeXFMT3g2VjFmTEZlR3ltaHRhdFJqYXBrYTd1QlpQNENqaldvbHFHekJOOXEtQTNrbllvUTJHeFFJZEJ5VGh1TFRITlJ3cDlHYU5rcXprUTZQM2FvclBwOTUteE5mTjBxdGJHYW1NdDlZMlpzSlZ6YmphOUxfSmtGLXZCTWxHRWRZRHVoazB0WFY3dm1ubFlXdmNKVVBIWVpoNXNKRnpnbHRVeE5NZFpLeFRRUFd5UTJRUXBFd1NSa0MwY1lsX3Jrcm1mNWlMTm84cE54cGxVVnFtTXZHYjlfem1CdE9xWmtGVjd6TFdIdjc?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-13T19:53:54+00:00"
+    },
+    {
      "title": "Ouro cai com avanço do dólar e expectativa de aperto monetário nos EUA",
      "link": "https://www.canalrural.com.br/economia/ouro-cai-com-avanco-do-dolar-e-expectativa-de-aperto-monetario-nos-eua/",
      "source": "Canal Rural",
@@ -485,12 +503,6 @@
      "published_at": "2026-07-13T18:22:56+00:00"
     },
     {
-     "title": "Soja volta a ser negociada acima de R$ 140 nos principais portos - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNENzVU1WYWcyTFFmZkdfUmxDMFRzbU8yeWxuYUVIUTNZN290NnRpUm1IaU9DRU9hUW53cmRiczhha05DNVR0dWM4dXJWNTBHdWxNRlhXRFFoUlh4OHNMcU11VV9UQ1BkTXhLOWNnbFhDWmVyQ0JKRTc1bTZod0JOdmJUYWRkYjBQb2lRTUFRUzF5bzBvSk5fcFFB?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-07-13T18:13:55+00:00"
-    },
-    {
      "title": "Setor vê B17 como impulso para soja e cadeia de proteínas - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWHF4STJLUnlZV3NkOG1aNDJQNGVCTVhkOVREZmJKWmZPZUN1SE5CYUpJZWhEMjl3aDhRUEZWNjUzaGYwdHhaSTJzOHkxNFE3M1VxdUREMUN5cUIwQmlVZUlJVjZvZG10cEFPXzVLcXN3anFzRExtaGdOSXBOMGhUNU11NnVZOS0yZmJMdEFnRUFKUUdLenEw?oc=5",
      "source": "CNN Brasil",
@@ -501,18 +513,6 @@
      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LOHgtaDBVRlh6RlpkUER6Q1FRenppTG9SbVBqbWFGYkktX1NnRmJFdnZnVFFGZVdPbmxRWERTUXZGemNrQ1FnOVZYeVI4QXV2NFpveDh3TFFiN0xRc1hydGVHd0FpM28wZEF6ai1hMkxnTFAzRUJB?oc=5",
      "source": "Sociedade Nacional de Agricultura",
      "published_at": "2026-07-13T15:07:00+00:00"
-    },
-    {
-     "title": "Soja/Cepea: Preços avançam com demanda externa aquecida - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNjRrUnlCWnJXWlBqdFN5czhQTjJzZXAwdHdyamdMY3JGQmt5YnVOV2tZQjdFLVhRQjNVMzRUbUtTUmtiMjFFZVcyVXgzMGF4VWF1T05seTFwT0I3R1R5b2RYbGVwYlMwTHN1RzZxamkwWUR2QTRGX1VNTmcxX2F6UUE3WjNrNHRKMVp6VzZBX1B3SXhqS3lsdFJfeURlTVNvSmoyVWJoaHAydTNQaUJrVzR1QU5QU1hu0gG-AUFVX3lxTE85NEVpWTJWc2dqT08wS1YtckZ6T05wM3l0VWJwN2M4RFc5ZzRldWdMcXRhWEFWUTRtUDZXOTdLeURUcnVBeHBJOFllWW4yeDRDRkI3dzB5d1ZfTkRvZnliTHFDY1lwWUFZOFlSMEw4TFlpVE5NYVNJUnBtTlF2ejZ4UjBLMEJ5RHE4RzF6V1JGQmZuRHB5VFEwNDR1Y0ZnZ3I5ZGxaaV9WQ1UzZ2RBeDJVVXBuX1EydUlBZC02Unc?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-13T11:37:29+00:00"
-    },
-    {
-     "title": "Milho mantém firmeza, enquanto soja supera R$ 140 nos portos - Feed&Food",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPN3pBeFY0UlJ6dGgtY0p2VlFWNDY2c2VGckhOdHlpSmNhcUdOR1MwNUp6QUJUTkpxZWt4SmNCdDBlSmpKNjdHcHdZZzhzMVR6RjNNUV8tdjB2M3MyN2ZtU21CQmpNb2pDSU1jVENVUGFmZDdFUU12SkRtYnVISU9nQUFmajYzOG12RndB?oc=5",
-     "source": "Feed&Food",
-     "published_at": "2026-07-13T11:31:00+00:00"
     },
     {
      "title": "Equipe FieldCrops da UFSM coordena evento de soja no Paraguai - UFSM",

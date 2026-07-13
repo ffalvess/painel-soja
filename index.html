@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Painel Soja — Mercado do dia</title>
+<meta name="description" content="Painel diário do mercado de soja: cotações CBOT, câmbio, juros, CEPEA, clima no Centro-Oeste e notícias.">
+<style>
+:root{
+  --page:#f9f9f7; --surface:#fcfcfb;
+  --ink:#0b0b0b; --ink-2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --baseline:#c3c2b7; --ring:rgba(11,11,11,.10);
+  --accent:#2a78d6; --up:#006300; --down:#d03b3b;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --page:#0d0d0d; --surface:#1a1a19;
+    --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
+    --accent:#3987e5; --up:#0ca30c; --down:#e66767;
+  }
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  background:var(--page); color:var(--ink);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:15px; line-height:1.45; padding:20px 16px 48px;
+}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto}
+header{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px;margin-bottom:18px}
+header h1{font-size:22px;font-weight:650}
+header .date{color:var(--ink-2);text-transform:capitalize}
+header .stamp{color:var(--muted);font-size:13px;margin-left:auto}
+section{margin-bottom:26px}
+h2{font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:14px 16px}
+
+/* chips de câmbio e juros */
+.chips{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.chip .lbl{font-size:12px;color:var(--muted)}
+.chip .val{font-size:21px;font-weight:600;margin-top:2px}
+.chip .sub{font-size:12px;color:var(--ink-2);margin-top:2px}
+
+/* tiles de cotações */
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:10px}
+.tile .lbl{font-size:13px;color:var(--ink-2)}
+.tile .row{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-top:3px}
+.tile .val{font-size:24px;font-weight:600}
+.tile .unit{font-size:12px;color:var(--muted)}
+.tile .extra{font-size:12.5px;color:var(--ink-2);margin-top:4px}
+.delta{font-size:13px;font-weight:600}
+.delta.up{color:var(--up)} .delta.down{color:var(--down)} .delta.flat{color:var(--muted)}
+.spark{margin-top:8px;display:block;width:100%;height:40px}
+
+/* destaque CEPEA */
+.cepea{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 22px}
+.cepea .val{font-size:30px;font-weight:650}
+.cepea .lbl{font-size:14px;color:var(--ink-2)}
+.cepea .ref{font-size:12px;color:var(--muted)}
+
+/* colunas notícias + clima */
+.cols{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:22px;align-items:start}
+@media (max-width:860px){.cols{grid-template-columns:1fr}}
+ul.news{list-style:none}
+ul.news li{padding:9px 0;border-bottom:1px solid var(--grid)}
+ul.news li:last-child{border-bottom:0}
+ul.news a{color:var(--ink);text-decoration:none;font-weight:520}
+ul.news a:hover{text-decoration:underline}
+ul.news .meta{font-size:12px;color:var(--muted);margin-top:2px}
+.city{margin-bottom:14px}
+.city:last-child{margin-bottom:0}
+.city .head{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.city .name{font-size:13.5px;font-weight:600}
+.city .sum{font-size:12px;color:var(--ink-2)}
+.city svg{display:block;width:100%;height:74px;margin-top:4px}
+
+footer{margin-top:34px;color:var(--muted);font-size:12.5px;max-width:1180px;margin-left:auto;margin-right:auto}
+footer a{color:var(--ink-2)}
+.warn{font-size:12.5px;color:var(--muted);margin-top:8px}
+.empty{color:var(--muted);font-size:14px}
+#tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--page);
+  font-size:12px;padding:4px 8px;border-radius:6px;opacity:0;transition:opacity .08s;z-index:9;white-space:nowrap}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>🌱 Painel Soja</h1>
+    <span class="date" id="hoje"></span>
+    <span class="stamp" id="stamp"></span>
+  </header>
+
+  <section id="sec-fx" hidden>
+    <h2>Câmbio e macro</h2>
+    <div class="chips" id="chips"></div>
+  </section>
+
+  <section id="sec-cepea" hidden>
+    <h2>Mercado físico</h2>
+    <div class="card cepea" id="cepea"></div>
+  </section>
+
+  <section id="sec-quotes" hidden>
+    <h2>Grãos, energia e bolsa — últimos 30 dias</h2>
+    <div class="tiles" id="tiles"></div>
+  </section>
+
+  <div class="cols">
+    <section id="sec-news" hidden>
+      <h2>Notícias</h2>
+      <div class="card"><ul class="news" id="news"></ul></div>
+    </section>
+    <section id="sec-weather" hidden>
+      <h2>Chuva — próximos 7 dias</h2>
+      <div class="card" id="weather"></div>
+    </section>
+  </div>
+
+  <div class="warn" id="warn" hidden></div>
+
+  <footer>
+    Fontes: CME Group via Yahoo Finance (atraso ~15 min), AwesomeAPI, Banco Central do Brasil (PTAX/SGS),
+    CEPEA/ESALQ, Open-Meteo e feeds RSS das redações citadas. Dados informativos, sem garantia —
+    não constituem recomendação de negociação. Atualização automática a cada hora.
+  </footer>
+</div>
+<div id="tip"></div>
+
+<script>
+"use strict";
+const $ = (id) => document.getElementById(id);
+const nf = (dig=2) => new Intl.NumberFormat("pt-BR",{minimumFractionDigits:dig,maximumFractionDigits:dig});
+const fmt = (v,dig=2) => v==null ? "—" : nf(dig).format(v);
+const SP = "America/Sao_Paulo";
+const BU_POR_SACA = 60/27.2155; // bushels de soja em uma saca de 60 kg
+
+function deltaHtml(pct){
+  if(pct==null) return "";
+  const cls = pct>0.001 ? "up" : pct<-0.001 ? "down" : "flat";
+  const arrow = pct>0.001 ? "▲" : pct<-0.001 ? "▼" : "•";
+  return `<span class="delta ${cls}">${arrow} ${fmt(Math.abs(pct))}%</span>`;
+}
+
+function tempoAtras(iso){
+  if(!iso) return "";
+  const min = Math.round((Date.now()-new Date(iso).getTime())/60000);
+  if(min<1) return "agora";
+  if(min<60) return `há ${min} min`;
+  const h = Math.round(min/60);
+  if(h<24) return `há ${h} h`;
+  const d = Math.round(h/24);
+  return d===1 ? "ontem" : `há ${d} dias`;
+}
+
+function horaSP(iso){
+  return new Intl.DateTimeFormat("pt-BR",{hour:"2-digit",minute:"2-digit",timeZone:SP}).format(new Date(iso));
+}
+
+/* sparkline: linha 2px na cor de apoio, ponto final na cor de destaque */
+function sparkline(closes, unit){
+  if(!closes || closes.length<2) return "";
+  const W=150, H=40, P=5;
+  const min=Math.min(...closes), max=Math.max(...closes), span=(max-min)||1;
+  const x=i=>P+i*(W-2*P)/(closes.length-1);
+  const y=v=>H-P-(v-min)*(H-2*P)/(span);
+  const pts=closes.map((v,i)=>`${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(" ");
+  const lx=x(closes.length-1), ly=y(closes[closes.length-1]);
+  const hover=closes.map((v,i)=>
+    `<circle cx="${x(i).toFixed(1)}" cy="${y(v).toFixed(1)}" r="7" fill="transparent" data-tip="${fmt(v)} ${unit}"/>`).join("");
+  return `<svg class="spark" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true">
+    <polyline points="${pts}" fill="none" stroke="var(--muted)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="${lx}" cy="${ly}" r="4" fill="var(--accent)" stroke="var(--surface)" stroke-width="2"/>
+    ${hover}</svg>`;
+}
+
+function renderFx(fx, rates){
+  const chips=[];
+  if(fx){
+    chips.push({lbl:"Dólar comercial", val:"R$ "+fmt(fx.usdbrl.bid,4), sub:deltaHtml(fx.usdbrl.pct_change)+` <span>hoje</span>`});
+    chips.push({lbl:"Euro comercial", val:"R$ "+fmt(fx.eurbrl.bid,4), sub:deltaHtml(fx.eurbrl.pct_change)+` <span>hoje</span>`});
+    if(fx.ptax) chips.push({lbl:"PTAX venda", val:"R$ "+fmt(fx.ptax.venda,4), sub:`fechamento ${fx.ptax.data.split("-").reverse().join("/")}`});
+  }
+  if(rates){
+    chips.push({lbl:"Selic meta", val:fmt(rates.selic)+"% a.a.", sub:"Banco Central"});
+    if(rates.cdi!=null) chips.push({lbl:"CDI", val:fmt(rates.cdi)+"% a.a.", sub:"anualizado"});
+    if(rates.ipca_12m!=null){
+      const m = rates.ipca_mes ? `mês: ${fmt(rates.ipca_mes.valor)}%` : "";
+      chips.push({lbl:"IPCA 12 meses", val:fmt(rates.ipca_12m)+"%", sub:m});
+    }
+  }
+  if(!chips.length) return;
+  $("chips").innerHTML = chips.map(c=>
+    `<div class="card chip"><div class="lbl">${c.lbl}</div><div class="val">${c.val}</div><div class="sub">${c.sub||""}</div></div>`).join("");
+  $("sec-fx").hidden=false;
+}
+
+function renderQuotes(quotes, fx){
+  if(!quotes || !quotes.items?.length) return;
+  const usd = fx?.usdbrl?.bid;
+  $("tiles").innerHTML = quotes.items.map(q=>{
+    let extra="";
+    if(q.symbol==="ZS=F" && usd && q.price){
+      const saca=(q.price/100)*BU_POR_SACA*usd;
+      extra=`<div class="extra">≈ <b>R$ ${fmt(saca)}/saca</b> · CBOT × câmbio, sem prêmio/frete</div>`;
+    }
+    const dig = q.price>=1000 ? 0 : 2;
+    return `<div class="card tile">
+      <div class="lbl">${q.name}</div>
+      <div class="row"><span class="val">${fmt(q.price,dig)}</span><span class="unit">${q.unit}</span>${deltaHtml(q.change_pct)}</div>
+      ${extra}${sparkline(q.closes,q.unit)}</div>`;
+  }).join("");
+  $("sec-quotes").hidden=false;
+}
+
+function renderCepea(cepea){
+  const ind=cepea?.indicador;
+  if(!ind) return;
+  $("cepea").innerHTML =
+    `<span class="val">R$ ${fmt(ind.valor)}</span>${deltaHtml(ind.var_dia_pct)}
+     <span class="lbl">${ind.nome}</span><span class="ref">ref. ${ind.data}</span>`;
+  $("sec-cepea").hidden=false;
+}
+
+function renderNews(news){
+  if(!news || !news.items?.length) return;
+  $("news").innerHTML = news.items.map(n=>
+    `<li><a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>
+     <div class="meta">${n.source} · ${tempoAtras(n.published_at)}</div></li>`).join("");
+  $("sec-news").hidden=false;
+}
+
+function precipChart(c){
+  const n=c.dates.length, W=210, H=74, P=4, top=14, base=H-16;
+  const slot=(W-2*P)/n, bw=Math.min(20,slot-4);
+  const max=Math.max(...c.precip,1);
+  const iMax=c.precip.indexOf(Math.max(...c.precip));
+  const dias=["D","S","T","Q","Q","S","S"];
+  let bars="";
+  c.precip.forEach((v,i)=>{
+    const x=P+i*slot+(slot-bw)/2;
+    const h=Math.max(v>0?3:0,(v/max)*(base-top));
+    const d=new Date(c.dates[i]+"T12:00:00");
+    const tip=`${d.toLocaleDateString("pt-BR",{weekday:"short",day:"2-digit",month:"2-digit"})}: ${fmt(v,1)} mm`;
+    if(h>0){
+      const r=Math.min(3,h);
+      bars+=`<path d="M${x},${base} v${-(h-r)} q0,${-r} ${r},${-r} h${bw-2*r} q${r},0 ${r},${r} v${h-r} z"
+        fill="var(--accent)" data-tip="${tip}"/>`;
+    } else {
+      bars+=`<rect x="${x}" y="${base-1}" width="${bw}" height="1" fill="var(--grid)" data-tip="${tip}"/>`;
+    }
+    if(i===iMax && v>0)
+      bars+=`<text x="${x+bw/2}" y="${base-h-4}" text-anchor="middle" font-size="10" fill="var(--ink-2)">${fmt(v,0)}</text>`;
+    bars+=`<text x="${x+bw/2}" y="${H-4}" text-anchor="middle" font-size="9.5" fill="var(--muted)">${dias[d.getDay()]}</text>`;
+  });
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="Chuva prevista em ${c.name}">
+    <line x1="${P}" y1="${base}" x2="${W-P}" y2="${base}" stroke="var(--baseline)" stroke-width="1"/>${bars}</svg>`;
+}
+
+function renderWeather(weather){
+  if(!weather || !weather.cities?.length) return;
+  $("weather").innerHTML = weather.cities.map(c=>{
+    const tot=c.precip.reduce((a,b)=>a+(b||0),0);
+    const tmax=Math.max(...c.tmax), tmin=Math.min(...c.tmin);
+    return `<div class="city"><div class="head"><span class="name">${c.name}</span>
+      <span class="sum">${fmt(tot,0)} mm · ${fmt(tmin,0)}–${fmt(tmax,0)} °C</span></div>${precipChart(c)}</div>`;
+  }).join("");
+  $("sec-weather").hidden=false;
+}
+
+function render(data){
+  const s=data.sections||{};
+  $("hoje").textContent=new Intl.DateTimeFormat("pt-BR",{weekday:"long",day:"numeric",month:"long",timeZone:SP}).format(new Date());
+  if(data.generated_at) $("stamp").textContent=`dados de ${horaSP(data.generated_at)} (Brasília)`;
+  renderFx(s.fx, s.rates);
+  renderCepea(s.cepea);
+  renderQuotes(s.quotes, s.fx);
+  renderNews(s.news);
+  renderWeather(s.weather);
+  const errs=(data.errors||[]).map(e=>e.section);
+  if(errs.length){
+    $("warn").textContent=`Fontes indisponíveis na última atualização (mantido valor anterior): ${errs.join(", ")}.`;
+    $("warn").hidden=false;
+  }
+}
+
+/* tooltip compartilhado (sparklines e barras de chuva) */
+const tip=$("tip");
+document.addEventListener("pointerover",e=>{
+  const t=e.target.closest?.("[data-tip]");
+  if(!t) { tip.style.opacity=0; return; }
+  tip.textContent=t.dataset.tip; tip.style.opacity=1;
+});
+document.addEventListener("pointermove",e=>{
+  tip.style.left=Math.min(e.clientX+12,window.innerWidth-tip.offsetWidth-8)+"px";
+  tip.style.top=(e.clientY+14)+"px";
+});
+document.addEventListener("pointerout",()=>{tip.style.opacity=0;});
+
+async function load(){
+  try{
+    const r=await fetch("data/data.json?t="+Date.now(),{cache:"no-store"});
+    if(!r.ok) throw new Error(r.status);
+    render(await r.json());
+  }catch(err){
+    if(window.PRELOADED_DATA){ render(window.PRELOADED_DATA); return; }
+    $("stamp").textContent="ainda sem dados — rode o workflow “Atualizar dados de mercado” no GitHub Actions";
+    console.error(err);
+  }
+}
+load();
+setInterval(load, 10*60*1000); // recarrega os dados a cada 10 min com a aba aberta
+</script>
+</body>
+</html>

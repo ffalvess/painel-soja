@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-13T22:51:03+00:00",
+ "generated_at": "2026-07-13T23:48:38+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-13T22:50:53+00:00",
+   "updated_at": "2026-07-13T23:48:33+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -153,9 +153,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 83.33,
+     "price": 84.31,
      "prev_close": 76.01,
-     "change_pct": 9.63,
+     "change_pct": 10.92,
      "closes": [
       83.17,
       78.96,
@@ -175,7 +175,7 @@
       78.02,
       76.3,
       76.01,
-      83.33
+      84.31
      ]
     },
     {
@@ -214,7 +214,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-13T22:50:53+00:00",
+   "updated_at": "2026-07-13T23:48:33+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -225,7 +225,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-13T22:50:59+00:00",
+   "updated_at": "2026-07-13T23:48:36+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -386,8 +386,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-13T22:51:03+00:00",
+   "updated_at": "2026-07-13T23:48:38+00:00",
    "items": [
+    {
+     "title": "Arroba do boi gordo: acompanhe como os preços iniciaram a semana",
+     "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-acompanhe-como-os-precos-iniciaram-a-semana/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-13T22:39:47+00:00"
+    },
     {
      "title": "Soja volta a ser negociada acima de R$ 140 nos principais portos - O Presente Rural",
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNENzVU1WYWcyTFFmZkdfUmxDMFRzbU8yeWxuYUVIUTNZN290NnRpUm1IaU9DRU9hUW53cmRiczhha05DNVR0dWM4dXJWNTBHdWxNRlhXRFFoUlh4OHNMcU11VV9UQ1BkTXhLOWNnbFhDWmVyQ0JKRTc1bTZod0JOdmJUYWRkYjBQb2lRTUFRUzF5bzBvSk5fcFFB?oc=5",
@@ -485,22 +491,10 @@
      "published_at": "2026-07-13T19:53:54+00:00"
     },
     {
-     "title": "Ouro cai com avanço do dólar e expectativa de aperto monetário nos EUA",
-     "link": "https://www.canalrural.com.br/economia/ouro-cai-com-avanco-do-dolar-e-expectativa-de-aperto-monetario-nos-eua/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-13T19:32:26+00:00"
-    },
-    {
      "title": "Soja e milho sobem em Chicago após nova alta do petróleo - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQXBmbjBfbTh5TUluSVpnMTlsS2V1dFpNT1N2NVg5ZkJISEE2WklGdTVuNnJPMXNOVGt3R04zX29JUHdPc3lKeFpxOHNHTFF4c0FNSENvbWVQUWtWSEZQU0MwcjktR05XX184U3pGZ1NCSWp4WWlRN1dCLTZMa0FYeDIzYnNVOC1NZlhfZ3BYVnlLcm10cE1uZzV2bXBBVzdvWTExMmZFSFRNUlNtZWp0ZV9nMTRNUzjSAcYBQVVfeXFMUFlkTW8yQi1yZG5oalBGOXlSSTlvOXFMSDc1R2plRmtJZjlRb3hSUEFzejFvamFTcUp4TnBxbTJUek9aejlnM01hUGwzaEVfaDg0aFdaZzdRaVFfd21NU1RFaXdqclpIblozYmt0STBpWk0yY09SVTRvUzVBd0R2Y1JYYy1PTnJzaks2QWk2Y05FdkQ1b0c1RGp5a2toMWhFRk91aF9sWllFRlh4UGJfcGh6TGN0U2g2ZWcxcnNBNkowdi1RLUFn?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-07-13T18:28:59+00:00"
-    },
-    {
-     "title": "Fórum do Cesb anuncia parceria com o projeto Soja Brasil! - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSG1jOUhtUmx1XzhodE9tem5oNjNSd2ZWU05Fcm9mWXlKa1lDUGtGYTQ2QlZSUnRmZkx3NWFGUXdyanBWT20zZENmZVY1WGY4UFM5RmxoaDdIYkxYSlM5T294T25GNFgzMzAxUjM4dTN4OWZBeDRjdHFINUZoeFRmNEpjVFlpeG0wcHhZa0d6NTM4TVVsamF1LXE0RklCeEVGR1RxY2pjS3dyN1ZzS2llY0gyMm5Qb1lXZVBSa09CaFpZSUkwTnJJQkVjNEhYZw?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-13T18:22:56+00:00"
     },
     {
      "title": "Setor vê B17 como impulso para soja e cadeia de proteínas - CNN Brasil",
@@ -513,6 +507,12 @@
      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LOHgtaDBVRlh6RlpkUER6Q1FRenppTG9SbVBqbWFGYkktX1NnRmJFdnZnVFFGZVdPbmxRWERTUXZGemNrQ1FnOVZYeVI4QXV2NFpveDh3TFFiN0xRc1hydGVHd0FpM28wZEF6ai1hMkxnTFAzRUJB?oc=5",
      "source": "Sociedade Nacional de Agricultura",
      "published_at": "2026-07-13T15:07:00+00:00"
+    },
+    {
+     "title": "Soja volta aos R$ 140 nos portos e demanda externa impulsiona preços no Brasil - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORmRUVGxLbmw0bzF1MEtRNF9sWG5CZ2NmaHI2c1BhMHZ5MTJGajNGaVAyVDV5UHJHVDZTR0R3VW91LUV2VW5ELTBYQ09VWmRiOFpkUlpEQVJhVWRVOVNfSG95LWRnMEh3cXotaGg4Xy1meXdxZzJkazFhV0FaSnRiS2V6SDROczR4MkZhMWtmX0pKZTItaWppUHZxWS1VWWJoaFI2WUVHLXJJalhUSVFPaHduZk4?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-13T11:48:30+00:00"
     },
     {
      "title": "Equipe FieldCrops da UFSM coordena evento de soja no Paraguai - UFSM",

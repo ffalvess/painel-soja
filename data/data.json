@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-13T23:48:38+00:00",
+ "generated_at": "2026-07-14T01:55:29+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-13T23:48:33+00:00",
+   "updated_at": "2026-07-14T01:55:23+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1193.5,
+     "price": 1189.5,
      "prev_close": 1196.5,
-     "change_pct": -0.25,
+     "change_pct": -0.59,
      "closes": [
       1119.25,
       1130.0,
@@ -30,16 +30,16 @@
       1195.0,
       1179.75,
       1196.5,
-      1193.5
+      1189.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 463.0,
+     "price": 458.25,
      "prev_close": 438.0,
-     "change_pct": 5.71,
+     "change_pct": 4.62,
      "closes": [
       415.5,
       413.75,
@@ -59,16 +59,16 @@
       434.75,
       427.75,
       438.0,
-      463.0
+      458.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 315.6,
+     "price": 313.3,
      "prev_close": 323.1,
-     "change_pct": -2.32,
+     "change_pct": -3.03,
      "closes": [
       302.0,
       304.8,
@@ -88,16 +88,16 @@
       314.5,
       319.5,
       323.1,
-      315.6
+      313.3
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.09,
+     "price": 71.28,
      "prev_close": 70.86,
-     "change_pct": 0.32,
+     "change_pct": 0.59,
      "closes": [
       74.37,
       72.92,
@@ -117,16 +117,16 @@
       71.39,
       70.45,
       70.86,
-      71.09
+      71.28
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 635.25,
+     "price": 635.5,
      "prev_close": 632.0,
-     "change_pct": 0.51,
+     "change_pct": 0.55,
      "closes": [
       589.75,
       596.0,
@@ -146,16 +146,16 @@
       599.5,
       611.25,
       632.0,
-      635.25
+      635.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 84.31,
+     "price": 84.3,
      "prev_close": 76.01,
-     "change_pct": 10.92,
+     "change_pct": 10.91,
      "closes": [
       83.17,
       78.96,
@@ -175,7 +175,7 @@
       78.02,
       76.3,
       76.01,
-      84.31
+      84.3
      ]
     },
     {
@@ -214,7 +214,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-13T23:48:33+00:00",
+   "updated_at": "2026-07-14T01:55:23+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -225,7 +225,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-13T23:48:36+00:00",
+   "updated_at": "2026-07-14T01:55:27+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -240,30 +240,30 @@
      ],
      "precip": [
       1.9,
-      0.1,
-      0.1,
-      1.2,
-      0.6,
+      0.3,
+      0.0,
+      2.0,
+      0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      30.5,
-      33.1,
-      34.2,
-      33.6,
-      33.3,
+      29.9,
+      33.2,
       34.1,
-      34.3
+      33.5,
+      33.5,
+      33.7,
+      34.1
      ],
      "tmin": [
       20.9,
-      20.6,
-      22.2,
-      23.1,
-      23.2,
-      23.5,
-      22.3
+      20.5,
+      21.9,
+      23.0,
+      22.7,
+      23.3,
+      22.4
      ]
     },
     {
@@ -281,28 +281,28 @@
       0.0,
       0.0,
       0.0,
-      0.6,
-      0.3,
+      1.1,
+      0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      27.8,
-      31.6,
-      32.8,
+      28.1,
+      31.3,
       32.3,
-      32.4,
-      32.8,
-      33.2
+      31.7,
+      32.2,
+      32.5,
+      32.9
      ],
      "tmin": [
       21.2,
-      20.1,
-      21.4,
-      22.1,
-      22.2,
-      22.0,
-      21.3
+      20.0,
+      21.0,
+      21.8,
+      21.6,
+      21.6,
+      21.1
      ]
     },
     {
@@ -326,22 +326,22 @@
       0.0
      ],
      "tmax": [
-      24.9,
-      25.6,
-      29.0,
-      29.5,
-      28.9,
-      29.5,
-      29.6
+      24.8,
+      25.7,
+      29.2,
+      29.6,
+      28.7,
+      29.3,
+      29.3
      ],
      "tmin": [
-      16.9,
-      13.0,
+      17.0,
+      13.3,
       14.5,
-      18.7,
-      17.8,
-      17.3,
-      17.4
+      18.3,
+      16.9,
+      16.9,
+      17.2
      ]
     },
     {
@@ -365,29 +365,41 @@
       0.0
      ],
      "tmax": [
-      21.9,
-      21.8,
-      24.2,
-      29.5,
-      30.0,
-      30.2,
-      30.7
+      22.6,
+      22.2,
+      24.4,
+      29.9,
+      30.3,
+      30.3,
+      31.0
      ],
      "tmin": [
       9.6,
-      10.1,
-      11.6,
+      10.4,
+      11.9,
       16.4,
-      20.2,
-      22.3,
-      21.9
+      20.1,
+      22.4,
+      21.3
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-13T23:48:38+00:00",
+   "updated_at": "2026-07-14T01:55:29+00:00",
    "items": [
+    {
+     "title": "Projeto retira agro de corte linear em incentivos tributários federais",
+     "link": "https://www.canalrural.com.br/politica/projeto-retira-agro-de-corte-linear-em-incentivos-tributarios-federais/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T00:12:19+00:00"
+    },
+    {
+     "title": "Pedágio de Trump em Ormuz pode gerar custo de R$ 62 por hectare na cana brasileira",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/pedagio-de-trump-em-ormuz-pode-gerar-custo-de-r-62-por-hectare-na-cana-brasileira/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T00:04:40+00:00"
+    },
     {
      "title": "Arroba do boi gordo: acompanhe como os preços iniciaram a semana",
      "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-acompanhe-como-os-precos-iniciaram-a-semana/",
@@ -455,22 +467,16 @@
      "published_at": "2026-07-13T20:33:09+00:00"
     },
     {
+     "title": "Soja sobe em Chicago por clima para safra dos EUA e alta do petróleo - Money Times",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbm1fNXQtUHlzYlRhYk5GQ0FKNlpfbWUyRzVGeG5adnNhUnlDZC01eE5XM1R6eGF4S1loa0d1bDBLdVVjcGFFN19wQWFQSnh4c21NUjRlQVpFT1l6ckdJNF9ZaEI4Z0FMdnJaZ1ltd2gzUkJVT2VjSThBWDVKc3A0T0V1bmZ2NzkwazkxZGtSSm5OOTVWN3pKWUcxV3BsYWJncmVuQUZSOA?oc=5",
+     "source": "Money Times",
+     "published_at": "2026-07-13T20:33:00+00:00"
+    },
+    {
      "title": "USDA eleva índice de lavouras de soja e milho dos EUA em boas/excelentes condições - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYTcxeDcyOEJubm9kaDNBbjFjaEhmVXNhSEp6dGRlZVFhMlZzcUl3UWRZUGt0QndWX1h3OWRmTktsNmR3Z21aMDZWZDNNUkJVSHZKSHcxei1hU2xZVGtHS2ktb05xQTRyZF9YMzVtQ1BWRmZyR1BaeHVLbzZyNDBPa1U5ck9OUVk3cWdOWi1vdnViakJJRG0wSG5NQ0hmVW9XVG41cFF5emxkZ2I3MllSZkI0SGhXSTdaeDlRU1JsM2RNZ1J4UmphRktXY2R5cE9nSC0zcjNJZ180SzFwVUHSAeMBQVVfeXFMT2hreTRTZXRVd09JbDlDTzdJYTN3b1RVaU53V0x5Z1lUOXB4WDlGTGhWdXRsOWZhR3Z0VjF0V3BzYUlBTnpLeTZxZDJBS0ZRWVFkbExlQUx4V3NYTE1NZ3k2MXBlR2dZZlY2LTdGRmdHdXU3bjI1aUdpSzBzX0FHd2J2U18wcTZFd0ROQmJHVS1nS3hkd2tmcGRLbUJDa1gzUE5Tc2tiRmJodXlGa1ZrQTE2OVd4eHRUWVJ0Z0lmRVZNbmk5QnFRcVZ1b3BuajJLbV9YbkhuYUZxWEtTQXotYWFrbGM?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-13T20:12:21+00:00"
-    },
-    {
-     "title": "Frente fria avança e risco de enchentes preocupa parte do país; veja como fica o tempo na 2ª quinzena de julho",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/frente-fria-avanca-e-risco-de-enchentes-preocupa-parte-do-pais-veja-como-fica-o-tempo-na-2a-quinzena-de-julho/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-13T20:09:40+00:00"
-    },
-    {
-     "title": "O que a Austrália ensina ao Brasil sobre como enfrentar a seca na pecuária?",
-     "link": "https://www.canalrural.com.br/pecuaria/o-que-a-australia-ensina-ao-brasil-sobre-como-enfrentar-a-seca-na-pecuaria/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-13T20:01:00+00:00"
     },
     {
      "title": "Soja sobe em Chicago com demanda chinesa e petróleo em alta - CNN Brasil",
@@ -497,22 +503,16 @@
      "published_at": "2026-07-13T18:28:59+00:00"
     },
     {
-     "title": "Setor vê B17 como impulso para soja e cadeia de proteínas - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWHF4STJLUnlZV3NkOG1aNDJQNGVCTVhkOVREZmJKWmZPZUN1SE5CYUpJZWhEMjl3aDhRUEZWNjUzaGYwdHhaSTJzOHkxNFE3M1VxdUREMUN5cUIwQmlVZUlJVjZvZG10cEFPXzVLcXN3anFzRExtaGdOSXBOMGhUNU11NnVZOS0yZmJMdEFnRUFKUUdLenEw?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-07-13T16:22:16+00:00"
-    },
-    {
      "title": "Soja: Preços avançam com demanda externa aquecida - Sociedade Nacional de Agricultura",
      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LOHgtaDBVRlh6RlpkUER6Q1FRenppTG9SbVBqbWFGYkktX1NnRmJFdnZnVFFGZVdPbmxRWERTUXZGemNrQ1FnOVZYeVI4QXV2NFpveDh3TFFiN0xRc1hydGVHd0FpM28wZEF6ai1hMkxnTFAzRUJB?oc=5",
      "source": "Sociedade Nacional de Agricultura",
      "published_at": "2026-07-13T15:07:00+00:00"
     },
     {
-     "title": "Soja volta aos R$ 140 nos portos e demanda externa impulsiona preços no Brasil - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORmRUVGxLbmw0bzF1MEtRNF9sWG5CZ2NmaHI2c1BhMHZ5MTJGajNGaVAyVDV5UHJHVDZTR0R3VW91LUV2VW5ELTBYQ09VWmRiOFpkUlpEQVJhVWRVOVNfSG95LWRnMEh3cXotaGg4Xy1meXdxZzJkazFhV0FaSnRiS2V6SDROczR4MkZhMWtmX0pKZTItaWppUHZxWS1VWWJoaFI2WUVHLXJJalhUSVFPaHduZk4?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-13T11:48:30+00:00"
+     "title": "Soja e milho começam semana com preços em alta na bolsa de Chicago - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQkJPNVM0dWgyUE9zVjY0Nk81bEVFVnktX04zZ2EtNURWSVNOQXJVbnB6cUs2UVRFLTZMb1B0U2hMTU9YRVMwTHBNSE94QkdnYTVJSndTS2lpQ2RZVG1uZDhJV1ZQaS0zVGtXNGktN2dSN19ZbmI0dGxidUVMWUZ3VmtrRHl6MmNsajRtMXFKSVVST0V5b3ZtR0wzWFg4NnBYUUxoVEtETjJ2QVk2SmNIM1J2NGVyNHVTV0E0YmMtLXlhWnN60gHTAUFVX3lxTE9vZ3huWVJfWDhKZ2FTS3BSUDhKVEl1WmhXZ09JaGVQdlBqT3pHSkdURm5RVG5nTHdTa2Nmdy10dHctdmpLanh3dzNSYlFDTTM2RFJ0aFVRVTNMRXRjbWRiSXM3b1IxcUQxUjdQOHh3dGpKRlpLYUliWDZ6NXBCRmg5QkdJa0pvOFlaUUkxV1dJLW4wMHFWUWl6Qng1UlBpS1o2U29xMDhOdGllc2cwYmtJMkJDbkoxZWwtdGtGbEstajlzcVBpM2FvQ1lLMUJCczAtSXM?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-13T14:13:34+00:00"
     },
     {
      "title": "Equipe FieldCrops da UFSM coordena evento de soja no Paraguai - UFSM",

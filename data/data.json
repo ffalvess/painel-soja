@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-14T20:54:34+00:00",
+ "generated_at": "2026-07-14T21:53:12+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-14T20:54:16+00:00",
+   "updated_at": "2026-07-14T21:53:02+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -158,9 +158,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 85.58,
+     "price": 85.34,
      "prev_close": 83.3,
-     "change_pct": 2.74,
+     "change_pct": 2.45,
      "closes": [
       83.17,
       78.96,
@@ -181,7 +181,7 @@
       76.3,
       76.01,
       83.3,
-      85.58
+      85.34
      ]
     },
     {
@@ -221,7 +221,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-14T19:09:43+00:00",
+   "updated_at": "2026-07-14T21:53:03+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -232,7 +232,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-14T20:54:32+00:00",
+   "updated_at": "2026-07-14T21:53:08+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -393,8 +393,44 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-14T20:54:34+00:00",
+   "updated_at": "2026-07-14T21:53:12+00:00",
    "items": [
+    {
+     "title": "Arroba do boi gordo reage e tem elevação nas principais praças de comercialização",
+     "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-reage-e-tem-elevacao-nas-principais-pracas-de-comercializacao/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T21:43:11+00:00"
+    },
+    {
+     "title": "Senado aprova MP do frete e texto vai à sanção",
+     "link": "https://www.canalrural.com.br/politica/senado-aprova-mp-do-frete-e-texto-vai-a-sancao/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T21:33:06+00:00"
+    },
+    {
+     "title": "Preços da soja caem no Brasil com baixa forte do dólar e negócios voltam a esfriar - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNOXFZVWxVZDg5Z2JUQktaWEZYSGQ1QXZwNU5kRjdvdVRTU0RPaDNWOWlJLS1qeUVud0NPQzZNRGt4Y3BBUnBXXy1qb1I3SmVmT0NZa1MxTzg3dzZQWGZtcktxTFJzZkxQWDZRN0l2MGc4LTNFanY3Um9DZWt2ZDNkaEVDd2JyYnlXV3VjWnRWLWJFMDBRQnE3M01CamI3ZjBxZmttcFFuc2VycWVUMHJ6MGtJNjdLMnNELTRXVXV4dGRPVVRDLXVudjNIeDliTWZNLU94Q1J2S2hWclnSAeABQVVfeXFMTnlsTFZybENlMzY2RmNmc2VzUG1udTRJVmpiUnRGZWNEUGVZbFZodGlPTU92VGRfVmp4d1l1RU5OZjBIQ0dGTjlOaG5fNmk4QS0xVXhabkJHOEg1cDR2ejB6SUdyV2pYS0Nld0Jqc09IV2ZSMkV3NE80SGhGNjZBYURIc0cwUmxtNVFNRDlac2NQTlVPd3FESUFjdlFMcUtuM2RBb2pfNGtzQmxfWmZVMG1Zb3FDSXFLYS1iM192Z0lqRWctRUlLQjU4Z2ROb3Y4LW1nQmk0UWctVTFZTVB4TEw?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-14T21:26:46+00:00"
+    },
+    {
+     "title": "Juros futuros caem na B3 após CPI dos EUA vir abaixo do esperado",
+     "link": "https://www.canalrural.com.br/economia/juros-futuros-caem-na-b3-apos-cpi-dos-eua-vir-abaixo-do-esperado/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T21:22:13+00:00"
+    },
+    {
+     "title": "CCJ aprova projetos com datas para amendoim e sorgo e título para banana",
+     "link": "https://www.canalrural.com.br/politica/ccj-aprova-projetos-com-datas-para-amendoim-e-sorgo-e-titulo-para-banana/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T21:20:47+00:00"
+    },
+    {
+     "title": "Cooperativas do ES poderão receber recursos diretamente do governo após mudança inédita",
+     "link": "https://www.canalrural.com.br/espirito-santo/cooperativas-do-es-poderao-receber-recursos-diretamente-do-governo-apos-mudanca-inedita/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T20:58:49+00:00"
+    },
     {
      "title": "Especialistas defendem previsibilidade orçamentária na reforma do Seguro Rural",
      "link": "https://www.canalrural.com.br/politica/especialistas-defendem-previsibilidade-orcamentaria-na-reforma-do-seguro-rural/",
@@ -406,6 +442,12 @@
      "link": "https://www.canalrural.com.br/aves-e-suinos/setor-avicola-deve-negociar-bloqueio-da-ue-com-mais-facilidade-diz-analista/",
      "source": "Canal Rural",
      "published_at": "2026-07-14T20:17:22+00:00"
+    },
+    {
+     "title": "Soja: line-up prevê embarques de 13,757 mi de toneladas pelo Brasil em julho - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOM2pQZE1HUkNjU1FLRmtyajFSN1NBX3BINW5mMUZUSVBtVFJ2THhrNnhtQnUzNkt3SHhDNm1XTUpIVWVJZThUWmhuTHZla0pzZVRIR2tiQUhTTkNZZ01VSzIxX3hMbHd0R3VfU3RDVVpGM1pxc21ka3c5ZG44SUNvNnRTYjZyZ1FYa2VZWUw0V2o2bTRoU21vVk94T0VTY0lvSmVEa0pWY3I3VUxJbFNqY2VHVTFOV2FSYnVNT1ZIYnNEeHpfYWlpMjlLZWc1bVk5TjVN?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T20:15:44+00:00"
     },
     {
      "title": "Soja: line-up prevê embarques de 13,757 mi de toneladas pelo Brasil em julho",
@@ -426,46 +468,16 @@
      "published_at": "2026-07-14T19:47:36+00:00"
     },
     {
-     "title": "CNA defende avanço do PL 2951 em debate sobre seguro rural",
-     "link": "https://www.canalrural.com.br/politica/cna-defende-avanco-do-pl-2951-em-debate-sobre-seguro-rural/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T19:38:58+00:00"
-    },
-    {
      "title": "Exportações de soja da safra 2025/26 devem crescer 7,5%, diz Conab - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUDVKMjA3dnVoZVpSYS1DSXdFa2MzUmQtaFRnR1dRd2NtWGNiU01pYVFVNGZkdXQ4TGpQclpRMFJVX1U4MGhKOWlVWV9EaE94XzU2cmhORjZuOHMxZnJEZVJJbENEU3Y1QW9oRmY4UGxGdExyUDdsOWRrYldJYnozdTNjbEdlU2dHa2lqd3c1SG1lZl8wSEhPXzkwdUczX1ZzSkpkdk9Cd2JzSmI2eVlrT2gyb1ZXZEV1ZllGWF9ZME1UUlh6VlNDUndmelY3Tjl5d0dF0gHiAUFVX3lxTE1iYnlEa1NxM2hlVldtZ2Exb01PWHVGNV9IVUdNNHF3UmlweW9UVXllc0ZBcGpHWmFDZTd3UTlYejZaQ2t6TExicndGMXAxM3l4SXhEd1dVQmZSaGpyUlJISGoxOFR3Y3k3Q3BPZmdtLXJpcXA4VGZwSklQQmczRzRiQWRuX1htNjRvMTd1TmRuOVQ3NWV0N1VuM3lPeW5sX09VdFg0bEJQelp6N210eTNrMWMxVUVfbzU2YzdEcGxZTk9HUWgzYUEwZzQ3UGV2bzd1U1draWZ0bGxLVktfS3RnUFE?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-07-14T19:35:34+00:00"
     },
     {
-     "title": "Petróleo sobe com tensão entre EUA e Irã e recuo em taxa no Estreito de Ormuz",
-     "link": "https://www.canalrural.com.br/economia/petroleo-sobe-com-tensao-entre-eua-e-ira-e-recuo-em-taxa-no-estreito-de-ormuz/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T19:18:06+00:00"
-    },
-    {
-     "title": "Frio intenso e chuvas fortes marcam o início da semana no Sudeste",
-     "link": "https://www.canalrural.com.br/videos/frio-intenso-e-chuvas-fortes-marcam-o-inicio-da-semana-no-sudeste/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T19:16:11+00:00"
-    },
-    {
      "title": "Demanda aquecida e preços altos impulsionam exportações de soja no Brasil - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQR1lIUXR4SjRrVEZTekxyQWJ5Q3ByUkh5MkRIX1RERzRMQkgzbTQzQUVBS1lwZzZpOTljTnBQakUzSFhPMUl0S0RnYkQ3elh2aE5ZcWNLVmRWSzVYOWZMM3Vla3FIZHJrN01VNDhpdXZqS0ZjUW93NVhTWEdTcm9jSVFhNmFGSm14RHhvak9INUFVQVZVWWt0SS1sc3g0M1BTMUhYLU52QzZCRWFKUl9ZTA?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-14T19:15:52+00:00"
-    },
-    {
-     "title": "Demanda aquecida e preços altos impulsionam exportações de soja no Brasil",
-     "link": "https://www.canalrural.com.br/videos/demanda-aquecida-e-precos-altos-impulsionam-exportacoes-de-soja-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T19:15:52+00:00"
-    },
-    {
-     "title": "Produtores de milho enfrentam preços baixos na colheita em Mato Grosso",
-     "link": "https://www.canalrural.com.br/videos/produtores-de-milho-enfrentam-precos-baixos-na-colheita-em-mato-grosso/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T19:15:41+00:00"
     },
     {
      "title": "Preços mínimos de milho, soja e arroz são atualizados - Revista Cultivar",
@@ -498,12 +510,6 @@
      "published_at": "2026-07-14T14:24:00+00:00"
     },
     {
-     "title": "Volume de soja e milho inspecionado para exportação nos EUA recua na semana - UOL Notícias",
-     "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPcDN3aHJoWFl2bTNxQXlRX213OE94T0t3eUZNZmdMdzhPV0x5bEZWN2pwUC1aLTVROTlkYk1KMUtUS3ZhdmFKN0FBZ2xsbG1DQU84emZUTDZrVk9YZDUyOTJnRkFCcmpzNWZDUkpDTS1vNEtwRkpacEZHS1FhbFdZQ3R1OWplR05ISlFOVTNnb1JmMzRhZGF5eEx0U3ZlX0ptc2VOT3UxS2NVQ1Q2YWRFbWpKeUV3MEY4TUEyRVlyNkN1YTBIY1Q5cXVoTm8zWHc5by10VHgtOXBjQ2ZuYlRoZTFyNmNvb2daMkFORE5uZTA4Z3UwQnJVa3pmb3dVNkJNNFlMZE9kcGJsVUphV3JsNGh2MUpDcXhPZzN3ZGVPcmdrc1hHRVIwcnJBd3I2WVlJVG0tZnZEZ1JIRnd4bzJheUZwVGhKZw?oc=5",
-     "source": "UOL Notícias",
-     "published_at": "2026-07-14T13:30:00+00:00"
-    },
-    {
      "title": "Soja: demanda chinesa reforça exportações dos EUA - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQkF6NUp4c3pxekdTYk9OMjRZYlpWZFlyb0dDMmJuaDVfSVQySGVpemltVExEcWhPb3RQQ1RrSXh1YVBqOU5qSDJxZllpcDFXaHgxQXBYWDhTMXRUaHcyQXJodlV0RFNwcDg1T2RwMF9tSDZwTHI1ajNPYU1DZWhDQVlrcjcxMU5yZVB3MXplM0tIN0RidUw0RmJnSkZMcU0?oc=5",
      "source": "Agrolink",
@@ -532,12 +538,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/14/cafe-da-bebida-do-diabo-aos-best-sellers-de-autoajuda-crista.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-14T08:50:16"
-    },
-    {
-     "title": "Agro bate recorde de exportação no semestre, impulsionado por carnes e soja - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQalRIQjE4LWpfOXJuNC1kZzd5Skl5Y1UxZjQtOE5VLUEtWUFUbmlIQVEtYy1FbzhUVHhNMnFwTVlkZU5nTjdpMUdRUk5iQXNrR0w0aGVzVllzOUhvQlJ3RFlENmxWUlUtYnlKVW9HTjZaT0N2eTUtYlAzaUdiVnRET3NNWmJpZnozX0lCLVMxSDJ6Vk1ZXzVsVFc5bElTRU1HYzR4aEFHM3ZwUzhiQkE?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-07-14T05:15:14+00:00"
     },
     {
      "title": "Após promessas, supermercados seguem sem ampliar venda de ovos livres de gaiolas, diz estudo",
@@ -585,10 +585,6 @@
   {
    "section": "fx",
    "error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
-  },
-  {
-   "section": "rates",
-   "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json"
   },
   {
    "section": "cepea",

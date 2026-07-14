@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-14T21:53:12+00:00",
+ "generated_at": "2026-07-14T22:52:44+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-14T21:53:02+00:00",
+   "updated_at": "2026-07-14T22:52:37+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -158,9 +158,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 85.34,
+     "price": 85.44,
      "prev_close": 83.3,
-     "change_pct": 2.45,
+     "change_pct": 2.57,
      "closes": [
       83.17,
       78.96,
@@ -181,7 +181,7 @@
       76.3,
       76.01,
       83.3,
-      85.34
+      85.44
      ]
     },
     {
@@ -221,7 +221,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-14T21:53:03+00:00",
+   "updated_at": "2026-07-14T22:52:37+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -232,7 +232,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-14T21:53:08+00:00",
+   "updated_at": "2026-07-14T22:52:42+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -393,8 +393,38 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-14T21:53:12+00:00",
+   "updated_at": "2026-07-14T22:52:44+00:00",
    "items": [
+    {
+     "title": "O que a casca de laranja esconde? Pesquisa revela por que ela pode valer mais do que você imagina",
+     "link": "https://www.canalrural.com.br/agricultura/o-que-a-casca-de-laranja-esconde-pesquisa-revela-por-que-ela-pode-valer-mais-do-que-voce-imagina/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T22:21:10+00:00"
+    },
+    {
+     "title": "MDIC mantém contato com os EUA e aguarda definição sobre tarifas",
+     "link": "https://www.canalrural.com.br/economia/mdic-mantem-contato-com-os-eua-e-aguarda-definicao-sobre-tarifas/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T22:16:41+00:00"
+    },
+    {
+     "title": "Mercado de etanol deve ter ampliação de 6% após instituição do E32, projeta NovaBio",
+     "link": "https://www.canalrural.com.br/economia/mercado-de-etanol-deve-ter-ampliacao-de-6-apos-instituicao-do-e32-projeta-novabio/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T22:15:09+00:00"
+    },
+    {
+     "title": "Soja: queda em Chicago e no dólar reduz preços e deixa negociações estagnadas no Brasil - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOM0YtNHNVR0tIb0VHdkllZTdYZzExVllQYkh6UmxmS3dkWlpGd0VXR2xsalVPNjlrUjNhdXVqUUdGM3dzSXp2bHBuVDlTWHY1c2ZkMlpwV04wNVNFNFI5cC1NS3duT2cyNWNtMkdPNWJCTHF5RHA4RHFZdDExdHEwMXFJc0JiRlRCQlRsYmlsdFc0ZFNHaWNTbnM0Q1dZZTNqN05JcDBqak9Ma1pBRVdMallfQkt2d3FKQTZnbENkNHotLV9NdXVEYUpjUEhPS1hzRENPOGNWakQ1amt0RllCelVlSQ?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T21:54:21+00:00"
+    },
+    {
+     "title": "Soja: queda em Chicago reduz preços e deixa negociações estagnadas no Brasil",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/soja-queda-em-chicago-e-no-dolar-reduz-precos-e-deixa-negociacoes-estagnadas-no-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T21:54:21+00:00"
+    },
     {
      "title": "Arroba do boi gordo reage e tem elevação nas principais praças de comercialização",
      "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-reage-e-tem-elevacao-nas-principais-pracas-de-comercializacao/",
@@ -436,36 +466,6 @@
      "link": "https://www.canalrural.com.br/politica/especialistas-defendem-previsibilidade-orcamentaria-na-reforma-do-seguro-rural/",
      "source": "Canal Rural",
      "published_at": "2026-07-14T20:21:40+00:00"
-    },
-    {
-     "title": "Setor avícola deve negociar bloqueio da UE com mais facilidade, diz analista",
-     "link": "https://www.canalrural.com.br/aves-e-suinos/setor-avicola-deve-negociar-bloqueio-da-ue-com-mais-facilidade-diz-analista/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T20:17:22+00:00"
-    },
-    {
-     "title": "Soja: line-up prevê embarques de 13,757 mi de toneladas pelo Brasil em julho - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOM2pQZE1HUkNjU1FLRmtyajFSN1NBX3BINW5mMUZUSVBtVFJ2THhrNnhtQnUzNkt3SHhDNm1XTUpIVWVJZThUWmhuTHZla0pzZVRIR2tiQUhTTkNZZ01VSzIxX3hMbHd0R3VfU3RDVVpGM1pxc21ka3c5ZG44SUNvNnRTYjZyZ1FYa2VZWUw0V2o2bTRoU21vVk94T0VTY0lvSmVEa0pWY3I3VUxJbFNqY2VHVTFOV2FSYnVNT1ZIYnNEeHpfYWlpMjlLZWc1bVk5TjVN?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T20:15:44+00:00"
-    },
-    {
-     "title": "Soja: line-up prevê embarques de 13,757 mi de toneladas pelo Brasil em julho",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/soja-line-up-preve-embarques-de-13757-mi-de-toneladas-pelo-brasil-em-julho/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T20:15:44+00:00"
-    },
-    {
-     "title": "Anater abre seleção para executar ações de adaptação climática no Garantia-Safra",
-     "link": "https://www.canalrural.com.br/agricultura/anater-abre-selecao-para-executar-acoes-de-adaptacao-climatica-no-garantia-safra/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T20:02:40+00:00"
-    },
-    {
-     "title": "PF indicia ex-presidente do INSS e ex-dirigentes em investigação sobre descontos indevidos",
-     "link": "https://www.canalrural.com.br/politica/pf-indicia-ex-presidente-do-inss-e-ex-dirigentes-em-investigacao-sobre-descontos-indevidos/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T19:47:36+00:00"
     },
     {
      "title": "Exportações de soja da safra 2025/26 devem crescer 7,5%, diz Conab - Globo Rural",

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-14T11:21:36+00:00",
+ "generated_at": "2026-07-14T13:20:01+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-14T11:21:31+00:00",
+   "updated_at": "2026-07-14T13:19:53+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1187.5,
+     "price": 1188.0,
      "prev_close": 1202.0,
-     "change_pct": -1.21,
+     "change_pct": -1.16,
      "closes": [
       1119.25,
       1130.0,
@@ -31,7 +31,7 @@
       1179.75,
       1196.5,
       1202.0,
-      1187.5
+      1188.0
      ]
     },
     {
@@ -68,9 +68,9 @@
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 312.4,
+     "price": 313.4,
      "prev_close": 316.8,
-     "change_pct": -1.39,
+     "change_pct": -1.07,
      "closes": [
       302.0,
       304.8,
@@ -91,16 +91,16 @@
       319.5,
       323.1,
       316.8,
-      312.4
+      313.4
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.38,
+     "price": 71.42,
      "prev_close": 73.04,
-     "change_pct": -2.27,
+     "change_pct": -2.22,
      "closes": [
       74.37,
       72.92,
@@ -121,16 +121,16 @@
       70.45,
       70.86,
       73.04,
-      71.38
+      71.42
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 630.5,
+     "price": 632.5,
      "prev_close": 627.0,
-     "change_pct": 0.56,
+     "change_pct": 0.88,
      "closes": [
       589.75,
       596.0,
@@ -151,16 +151,16 @@
       611.25,
       632.0,
       627.0,
-      630.5
+      632.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 86.99,
+     "price": 86.8,
      "prev_close": 83.3,
-     "change_pct": 4.43,
+     "change_pct": 4.2,
      "closes": [
       83.17,
       78.96,
@@ -181,16 +181,16 @@
       76.3,
       76.01,
       83.3,
-      86.99
+      86.8
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 175739.08,
-     "prev_close": 177866.0,
-     "change_pct": -1.2,
+     "price": 176120.98,
+     "prev_close": 175739.0,
+     "change_pct": 0.22,
      "closes": [
       170415.0,
       169649.0,
@@ -212,7 +212,8 @@
       170654.0,
       172742.0,
       177866.0,
-      175739.0
+      175739.0,
+      176120.9844
      ]
     }
    ],
@@ -220,7 +221,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-14T11:21:31+00:00",
+   "updated_at": "2026-07-14T13:19:53+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -231,7 +232,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-14T11:21:34+00:00",
+   "updated_at": "2026-07-14T13:19:58+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -245,30 +246,30 @@
       "2026-07-20"
      ],
      "precip": [
-      0.2,
-      0.5,
-      1.8,
-      0.4,
+      0.3,
+      1.0,
+      1.0,
+      0.0,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      32.4,
+      32.3,
       33.5,
-      32.7,
       32.9,
+      33.1,
       33.3,
       33.6,
       34.3
      ],
      "tmin": [
-      20.2,
-      21.8,
-      22.5,
+      19.6,
+      21.5,
       22.4,
-      22.5,
-      21.8,
+      22.7,
+      22.7,
+      22.2,
       23.2
      ]
     },
@@ -285,30 +286,30 @@
      ],
      "precip": [
       0.0,
-      0.0,
-      2.6,
+      0.1,
+      2.0,
       0.0,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      31.2,
-      32.3,
-      31.6,
+      30.9,
       32.0,
-      32.1,
+      31.8,
+      32.0,
+      32.2,
       32.5,
       33.7
      ],
      "tmin": [
-      19.7,
-      21.1,
-      21.3,
-      21.6,
-      21.5,
+      19.4,
       20.8,
-      22.0
+      21.7,
+      21.7,
+      21.3,
+      20.9,
+      21.9
      ]
     },
     {
@@ -332,22 +333,22 @@
       0.0
      ],
      "tmax": [
-      25.1,
-      28.6,
-      29.3,
-      28.6,
-      29.1,
-      29.1,
+      24.9,
+      28.3,
+      29.0,
+      28.1,
+      28.8,
+      28.8,
       29.7
      ],
      "tmin": [
-      12.9,
+      12.3,
       14.0,
-      18.0,
-      16.6,
-      16.8,
-      17.2,
-      18.7
+      17.7,
+      16.0,
+      16.4,
+      16.9,
+      18.1
      ]
     },
     {
@@ -371,29 +372,107 @@
       0.0
      ],
      "tmax": [
-      22.2,
-      24.5,
-      30.8,
-      30.2,
+      21.9,
+      24.2,
+      30.5,
       30.4,
-      31.1,
+      30.1,
+      30.9,
       31.2
      ],
      "tmin": [
-      10.5,
-      11.6,
-      16.0,
-      20.4,
-      22.3,
-      21.7,
-      23.4
+      9.9,
+      11.5,
+      15.7,
+      20.1,
+      21.5,
+      20.9,
+      22.2
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-14T11:21:36+00:00",
+   "updated_at": "2026-07-14T13:20:01+00:00",
    "items": [
+    {
+     "title": "Aprosoja/MS lança aplicativo com preços de soja e milho por município - A Crítica de Campo Grande",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PSFpmSVAzdGY2dlgwcHRIOFVPUWVLQk1sWENMX1NsYmtsaVkzTHFqOWh1bFhzamU1ZzJmRmJUbFhRbVJRVlFHSXc2cXkwM1FVamw3V21KdUkyV2NaU1hQOFQ3UmtvNVBlSGc?oc=5",
+     "source": "A Crítica de Campo Grande",
+     "published_at": "2026-07-14T13:00:20+00:00"
+    },
+    {
+     "title": "Preços do trigo sobem com estimativa de safra menor nos EUA, aponta Cepea",
+     "link": "https://www.canalrural.com.br/agricultura/trigo/precos-do-trigo-sobem-com-estimativa-de-safra-menor-nos-eua-aponta-cepea/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T12:59:19+00:00"
+    },
+    {
+     "title": "Dólar cai a R$ 5,07 após CPI dos EUA abaixo do esperado",
+     "link": "https://www.canalrural.com.br/economia/dolar-cai-a-r-507-apos-cpi-dos-eua-abaixo-do-esperado/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T12:53:38+00:00"
+    },
+    {
+     "title": "Importação de soja pela China bate recorde em junho, impulsionada pelo Brasil - InfoMoney",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONWNWMUxydXRBNEpRMFpoT3hzNU1OVzlja2NyWE9Xb21reFdISlZZbnM3UFI0YUMyaHlYQnFNamVseEJaUXJ5Y2FRUzhxN1V4SVJFR2tNOV91QURJVDF1ZnNiZnpRRlJDZzlhU1VpdEp3VzJTdE1xaEk2ZXhTT1dmbTUxSlRTNjFNX1ZKbDh0bW9mWnVEZjIyM2I1UFctclBlQVY3WWk0VUd5QzBOd2FWWnROUmRXdw?oc=5",
+     "source": "InfoMoney",
+     "published_at": "2026-07-14T12:39:46+00:00"
+    },
+    {
+     "title": "Seca nas regiões centrais avança e Inmet aponta risco para 2ª safra de milho",
+     "link": "https://www.canalrural.com.br/agricultura/seca-nas-regioes-centrais-avanca-e-inmet-aponta-risco-para-2a-safra-de-milho/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T12:37:23+00:00"
+    },
+    {
+     "title": "Safra de grãos 2025/26 deve alcançar 360,1 milhões de toneladas - Revista Cultivar",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT1pDUjNYeGgtaHJkenFjMnJfbU9BWU9BNk91akpFUzhraGdFRHNOUlRmLTh2blU1Nm14SE4tdWlGUWtCM0kwd2ZrWFB0enpjclpZYXA1ME9YXzVBbTl6dmh1elpUalpCTmFKSndhQnpIMHoyQnI0VEdGOS1tdjc4OGlHeWp4SU04dGkwazN4ZXlTczY1THRFOFNYS0hWTTdPdmdBcURR?oc=5",
+     "source": "Revista Cultivar",
+     "published_at": "2026-07-14T12:28:00+00:00"
+    },
+    {
+     "title": "Conab estima safra recorde de 360,1 milhões de toneladas de grãos em 2025/26",
+     "link": "https://www.canalrural.com.br/agricultura/agronegocio/conab-estima-safra-recorde-de-3601-milhoes-de-toneladas-de-graos-em-2025-26/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T12:25:52+00:00"
+    },
+    {
+     "title": "Recebimento de cacau no Brasil cresce 63,4% no primeiro semestre de 2026",
+     "link": "https://www.canalrural.com.br/agricultura/recebimento-de-cacau-no-brasil-cresce-634-no-primeiro-semestre-de-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T12:12:59+00:00"
+    },
+    {
+     "title": "Conab eleva estimativa da safra de grãos para recorde de 360,1 milhões de t - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU0M3Smc1X3BZMEZubm1qOTh3bFpYakQxVXM4RHI0TjNHZGdiT1NWRVlsczVwMWtfX19Kal9Hbk9xanItOVBuY3NYMDlROWNsajVVdlNldHVVU0FCNVlDekNfVC1wbkYxcERENnpTYUdSekl0ajZEbDlIV25NY2tMUGsteTREWlRPVXBpUUNuNkg2SkxtZWI5Qm5KMURVRmw2ZXZVLS1ua05tSWdTbVE?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-07-14T12:02:36+00:00"
+    },
+    {
+     "title": "Guerra no Irã: empresa de fertilizante Mosaic reduz produção no Brasil por falta de enxofre",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/14/guerra-no-irao-empresa-de-fertilizante-mosaic-reduz-producao-no-brasil-por-falta-de-enxofre.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-14T12:01:56"
+    },
+    {
+     "title": "Câmara pode votar projetos sobre reconhecimento facial e combustíveis nesta terça-feira",
+     "link": "https://www.canalrural.com.br/politica/camara-pode-votar-projetos-sobre-reconhecimento-facial-e-combustiveis-nesta-terca-feira/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T11:41:02+00:00"
+    },
+    {
+     "title": "Luis Rua deixa a Secretaria de Comércio e Relações Internacionais do Mapa",
+     "link": "https://www.canalrural.com.br/politica/luis-rua-deixa-a-secretaria-de-comercio-e-relacoes-internacionais/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T11:28:36+00:00"
+    },
+    {
+     "title": "Frio, chuva, chance de geada e temperaturas próximas de 0°C: confira a previsão do tempo",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/frio-chuva-chance-de-geada-e-temperaturas-proximas-de-0c-confira-a-previsao-do-tempo/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T11:09:03+00:00"
+    },
     {
      "title": "Soja em Chicago: Preços recuam nesta 3ª feira (14), após atingirem picos de dois meses - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONzYxX25Bb2ZkZVJydEs3WkRWcFB0M2NURXZXY0ZXdUwyMGVlalRoUzFYNnFrb0ZTZmFNSnBPZ0t5SUU3bWg3b3JING5QQnFxNE40S0Z1NGwwQV9FZXNhdzZBNmoxQ0NfWDFUcWxEMngzd2lfMC1QQ3huWHM4SVMyb0gyT1Y5bzJVeU1xLW8tQ2l0RFExcDNiSWJmNTRoOE84Nl9zbFc3ZWpvdEZsQTZEbzQ1cGxDTlpsdXhJNW0yYmNPNk1xOVJHMkt3eHJNcHNaeVNnTXM4RXZseDZr0gHiAUFVX3lxTE1GRVFiekVQRWVNMDU5QXRoMm1Dc1pTbGotS19MNGQ5RzRKWGs2dUYzTnVacmRCdnBYTUY1NHNXVzdJUlpJaGZELWR2WXg2QUZoN3VFbEd3LTN0X2RJQlBmWUt2MGg2Rjd5YTRYaGFBd2JRMEVkOWROVXRIaUlnZUpTV2lHdmZPNkFUMnktY3V6c2JBNDR2dlVBRkthYkNselFzX0JKU3FPeU4xOVJsUTZmZHBIX0gzWURiNnFyemJrX1hrN1VLYlkyczQzR2xVZE5na0lUeVIzTEJrcGkwaVRNVUE?oc=5",
@@ -405,6 +484,12 @@
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQTNPTE0tZEpQLTlDMENCS3UyRkVHWVlZa3Ewai05cTFobERYSkdYd1pQNnNmOV9UUGZxZUpWNFU0SFpCOU9tYUxtX0gtVGRkV09hVU91UFBhc3JKc1F6YVJMRHF5cFNYQ0RPSzZVb3RKVno2Z2owSUFfMlBhZjl3T09MVUUyQllJdHp5YVhDRFVTUQ?oc=5",
      "source": "Agrolink",
      "published_at": "2026-07-14T10:01:00+00:00"
+    },
+    {
+     "title": "Soja volta a ser negociada acima de R$ 140 nos principais portos - O Presente Rural",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNENzVU1WYWcyTFFmZkdfUmxDMFRzbU8yeWxuYUVIUTNZN290NnRpUm1IaU9DRU9hUW53cmRiczhha05DNVR0dWM4dXJWNTBHdWxNRlhXRFFoUlh4OHNMcU11VV9UQ1BkTXhLOWNnbFhDWmVyQ0JKRTc1bTZod0JOdmJUYWRkYjBQb2lRTUFRUzF5bzBvSk5fcFFB?oc=5",
+     "source": "O Presente Rural",
+     "published_at": "2026-07-14T09:34:22+00:00"
     },
     {
      "title": "Saca de soja se mantém acima de R$ 140 no porto de Paranaguá - Globo Rural",
@@ -437,12 +522,6 @@
      "published_at": "2026-07-14T07:05:00+00:00"
     },
     {
-     "title": "App gratuito registra preços de soja e milho em MS - Campo Grande News",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaTRhbHp1ekJaRTl4M0RKcE9EeU1GX01DdUxpaEFNVDVGWHdzckhBTWNjYVgyZW1xWWtOcWpoUFQwZy0zcmtoNWIyTFdaWHMtOWE1QVk0ci1qYk16RGd5WkJQS3Voczd2V0VXdEJmZS1HU0wtNjBERTNIekxyelRvOFppSkgtZmVna0dfN2FmZmpoOTBxejZIZVI3Mkc4TnpMellQUDR3WdIBpwFBVV95cUxNdFhnWE1IcS1PXzJqZ2VFRG9zMG5IOWJRTHJIbDlpc1FITDktODVkVVBvZTdVMVVWX1V1YTFPZFlQOEhxT3JTb0hZQ3M4b1Z1WTdmZjFIdkluTzJEdjZyLUVJaGs4cVNFZGRqUzIxTUJ2eDNXaHExdmkzbG12d202UXBCdHZ2T19RUkYyb0lFd3RHVzF0eWdiWWNZNHpweE9rbVlFMTBtZw?oc=5",
-     "source": "Campo Grande News",
-     "published_at": "2026-07-14T03:16:00+00:00"
-    },
-    {
      "title": "Após promessas, supermercados seguem sem ampliar venda de ovos livres de gaiolas, diz estudo",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/14/apos-promessas-supermercados-seguem-sem-ampliar-venda-de-ovos-livres-de-gaiolas-diz-estudo.ghtml",
      "source": "G1 Agronegócios",
@@ -455,82 +534,10 @@
      "published_at": "2026-07-14T00:12:19+00:00"
     },
     {
-     "title": "Pedágio de Trump em Ormuz pode gerar custo de R$ 62 por hectare na cana brasileira",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/pedagio-de-trump-em-ormuz-pode-gerar-custo-de-r-62-por-hectare-na-cana-brasileira/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T00:04:40+00:00"
-    },
-    {
-     "title": "Arroba do boi gordo: acompanhe como os preços iniciaram a semana",
-     "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-acompanhe-como-os-precos-iniciaram-a-semana/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-13T22:39:47+00:00"
-    },
-    {
-     "title": "Soja volta a ser negociada acima de R$ 140 nos principais portos - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNENzVU1WYWcyTFFmZkdfUmxDMFRzbU8yeWxuYUVIUTNZN290NnRpUm1IaU9DRU9hUW53cmRiczhha05DNVR0dWM4dXJWNTBHdWxNRlhXRFFoUlh4OHNMcU11VV9UQ1BkTXhLOWNnbFhDWmVyQ0JKRTc1bTZod0JOdmJUYWRkYjBQb2lRTUFRUzF5bzBvSk5fcFFB?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-07-13T22:29:08+00:00"
-    },
-    {
      "title": "Produtor de soja é exigente e espera por melhores cotações, mesmo com firmeza nos preços - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOW1hQ0J4U2JLYmxQaURMM2tXdy15bG51SWwtc3JGNWh6T1RUdW9rT2FKTVNRcE92bjE5T1MzQ2xHZjg0Nm0zN2xLcndhdXAwbk44aUQ0WF9oN0lORF93VWZUaWItc1F3RmltelJHdG9iNnhxSEpCNXZLNVYzSjBPZ2xMa3VNbWtLT2h2QWptdkQxY2hldHhHSlA0alVYdHpPVVFyRWtxbG1wcklOQ3R5OUVFY0ZodktOb0VBM3cwSFctWkswRHdLUGVGek9QTEhxRXhzb0w0NmVOSFVNNlplbGFYWjA?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-13T21:32:34+00:00"
-    },
-    {
-     "title": "Produtor de soja é exigente e espera por melhores cotações, mesmo com firmeza nos preços",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/produtor-de-soja-e-exigente-e-espera-por-melhores-cotacoes-mesmo-com-firmeza-nos-precos/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-13T21:32:34+00:00"
-    },
-    {
-     "title": "Pecuária pantaneira aposta em genética e manejo para produzir carne de qualidade",
-     "link": "https://www.canalrural.com.br/pecuaria/pecuaria-pantaneira-aposta-em-genetica-e-manejo-para-produzir-carne-de-qualidade/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-13T21:23:26+00:00"
-    },
-    {
-     "title": "Juros futuros sobem com petróleo em alta e tensão no Oriente Médio",
-     "link": "https://www.canalrural.com.br/economia/juros-futuros-sobem-com-petroleo-em-alta-e-tensao-no-oriente-medio/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-13T21:22:20+00:00"
-    },
-    {
-     "title": "Possível cobrança de 20% no Estreito de Ormuz deve acelerar compras de fertilizantes",
-     "link": "https://www.canalrural.com.br/agricultura/possivel-cobranca-de-20-no-estreito-de-ormuz-deve-acelerar-compras-de-fertilizantes/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-13T21:06:41+00:00"
-    },
-    {
-     "title": "Mapa publica preços mínimos para safra de verão 2026/27 e produtos regionais",
-     "link": "https://www.canalrural.com.br/politica/mapa-publica-precos-minimos-para-safra-de-verao-2026-27-e-produtos-regionais/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-13T20:43:05+00:00"
-    },
-    {
-     "title": "Projeto cria programa para doação de remédios, vacinas e ração a animais domésticos",
-     "link": "https://www.canalrural.com.br/politica/projeto-cria-programa-para-doacao-de-remedios-vacinas-e-racao-a-animais-domesticos/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-13T20:39:45+00:00"
-    },
-    {
-     "title": "Soja sobe em Chicago por clima para safra dos EUA e alta do petróleo - Money Times",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbm1fNXQtUHlzYlRhYk5GQ0FKNlpfbWUyRzVGeG5adnNhUnlDZC01eE5XM1R6eGF4S1loa0d1bDBLdVVjcGFFN19wQWFQSnh4c21NUjRlQVpFT1l6ckdJNF9ZaEI4Z0FMdnJaZ1ltd2gzUkJVT2VjSThBWDVKc3A0T0V1bmZ2NzkwazkxZGtSSm5OOTVWN3pKWUcxV3BsYWJncmVuQUZSOA?oc=5",
-     "source": "Money Times",
-     "published_at": "2026-07-13T20:33:00+00:00"
-    },
-    {
-     "title": "Soja sobe em Chicago com demanda chinesa e petróleo em alta - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONDlDTnU0bnZfclBTTHhBT05IbElJMVJRdEN6aGtOVThvU1J1SkhwLTM0NDduZUZmWk94SFZJbzZtaFdHM1BvY21rTUQtUVotT2FhT1NnR29zS25lLUJDVGhzTjlMaXp0bVZ3dU1HdW9oV3FFd3hnaW5WMDdQYTBZaXFJdDlPSlJ4YkdNU09MRks3UUJRRG1YVXlR?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-07-13T19:59:23+00:00"
-    },
-    {
-     "title": "Aplicativo da Aprosoja/MS acompanha preços de soja e milho - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNXRfZGhKYXRTdHN5UzZlWGdwQURwZFdMaWtNUWtGbjA2bmpZdXZDTjhESkdjMXZLQ3FFRi00RzBjU3pTZ2pLQzVDZ21XbndRY3dwaHBOcXB3QWlqRnptT0I1dVZqaURaazdtNkVKVlB5RUhpeE9La3lZWTROQUNoNHN4NDVsdHJmcXZrNUJxUzJfakVaOHBwNVdvYTFwMVE?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-07-13T19:58:12+00:00"
     },
     {
      "title": "Equipe FieldCrops da UFSM coordena evento de soja no Paraguai - UFSM",
@@ -567,12 +574,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/12/por-que-a-carne-nao-deve-ficar-mais-barata.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-12T09:00:36"
-    },
-    {
-     "title": "Temor de super El Niño faz preço do café disparar e alta pode pesar no bolso dos consumidores",
-     "link": "https://g1.globo.com/es/espirito-santo/noticia/2026/07/12/temor-de-super-el-nino-faz-preco-do-cafe-disparar-e-alta-pode-pesar-no-bolso-dos-consumidores.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-12T07:00:51"
     }
    ],
    "failed": [

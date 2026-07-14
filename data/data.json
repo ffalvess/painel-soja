@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-14T07:07:51+00:00",
+ "generated_at": "2026-07-14T09:51:44+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-14T07:07:41+00:00",
+   "updated_at": "2026-07-14T09:51:37+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1190.75,
+     "price": 1191.0,
      "prev_close": 1202.0,
-     "change_pct": -0.94,
+     "change_pct": -0.92,
      "closes": [
       1119.25,
       1130.0,
@@ -31,16 +31,16 @@
       1179.75,
       1196.5,
       1202.0,
-      1190.75
+      1191.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 459.5,
+     "price": 459.75,
      "prev_close": 437.75,
-     "change_pct": 4.97,
+     "change_pct": 5.03,
      "closes": [
       415.5,
       413.75,
@@ -61,16 +61,16 @@
       427.75,
       438.0,
       437.75,
-      459.5
+      459.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 313.6,
+     "price": 314.0,
      "prev_close": 316.8,
-     "change_pct": -1.01,
+     "change_pct": -0.88,
      "closes": [
       302.0,
       304.8,
@@ -91,16 +91,16 @@
       319.5,
       323.1,
       316.8,
-      313.6
+      314.0
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.63,
+     "price": 71.53,
      "prev_close": 73.04,
-     "change_pct": -1.93,
+     "change_pct": -2.07,
      "closes": [
       74.37,
       72.92,
@@ -121,16 +121,16 @@
       70.45,
       70.86,
       73.04,
-      71.63
+      71.53
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 636.25,
+     "price": 636.5,
      "prev_close": 627.0,
-     "change_pct": 1.48,
+     "change_pct": 1.52,
      "closes": [
       589.75,
       596.0,
@@ -151,16 +151,16 @@
       611.25,
       632.0,
       627.0,
-      636.25
+      636.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 85.53,
+     "price": 86.47,
      "prev_close": 83.3,
-     "change_pct": 2.68,
+     "change_pct": 3.81,
      "closes": [
       83.17,
       78.96,
@@ -181,7 +181,7 @@
       76.3,
       76.01,
       83.3,
-      85.53
+      86.47
      ]
     },
     {
@@ -220,7 +220,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-14T07:07:41+00:00",
+   "updated_at": "2026-07-14T09:51:37+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -231,7 +231,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-14T07:07:47+00:00",
+   "updated_at": "2026-07-14T09:51:41+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -245,31 +245,31 @@
       "2026-07-20"
      ],
      "precip": [
-      0.3,
-      0.0,
-      2.0,
-      0.0,
+      0.2,
+      0.5,
+      1.8,
+      0.4,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      33.2,
-      34.1,
+      32.4,
       33.5,
-      33.5,
-      33.7,
-      34.1,
-      34.6
+      32.7,
+      32.9,
+      33.3,
+      33.6,
+      34.3
      ],
      "tmin": [
-      20.5,
-      21.9,
-      23.0,
-      22.7,
-      23.3,
+      20.2,
+      21.8,
+      22.5,
       22.4,
-      23.6
+      22.5,
+      21.8,
+      23.2
      ]
     },
     {
@@ -286,29 +286,29 @@
      "precip": [
       0.0,
       0.0,
-      1.1,
+      2.6,
       0.0,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      31.3,
+      31.2,
       32.3,
-      31.7,
-      32.2,
+      31.6,
+      32.0,
+      32.1,
       32.5,
-      32.9,
       33.7
      ],
      "tmin": [
-      20.0,
-      21.0,
-      21.8,
-      21.6,
-      21.6,
+      19.7,
       21.1,
-      22.6
+      21.3,
+      21.6,
+      21.5,
+      20.8,
+      22.0
      ]
     },
     {
@@ -332,22 +332,22 @@
       0.0
      ],
      "tmax": [
-      25.7,
-      29.2,
-      29.6,
-      28.7,
+      25.1,
+      28.6,
       29.3,
-      29.3,
-      30.0
+      28.6,
+      29.1,
+      29.1,
+      29.7
      ],
      "tmin": [
-      13.3,
-      14.5,
-      18.3,
-      16.9,
-      16.9,
+      12.9,
+      14.0,
+      18.0,
+      16.6,
+      16.8,
       17.2,
-      18.8
+      18.7
      ]
     },
     {
@@ -372,28 +372,58 @@
      ],
      "tmax": [
       22.2,
-      24.4,
-      29.9,
-      30.3,
-      30.3,
-      31.0,
-      30.8
+      24.5,
+      30.8,
+      30.2,
+      30.4,
+      31.1,
+      31.2
      ],
      "tmin": [
-      10.4,
-      11.9,
-      16.4,
-      20.1,
-      22.4,
-      21.3,
-      22.9
+      10.5,
+      11.6,
+      16.0,
+      20.4,
+      22.3,
+      21.7,
+      23.4
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-14T07:07:51+00:00",
+   "updated_at": "2026-07-14T09:51:44+00:00",
    "items": [
+    {
+     "title": "Saca de soja se mantém acima de R$ 140 no porto de Paranaguá - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTEFRMmZXcHU4YW16Q1lDTktMWlV0MzhZTjhOUHZiNkxHdDhMUFFBVy13S3czUzBHS0VBS3Z4YkFleEVTVUpJZnZCcEZ1TG10UHhvMXplcnRKallGa2JFRUQ1alJNZXVIQUw2ZzgzRzYtTGk0NmZKMTZGV3dOX0plZU1vMGhHVHFXUl8zc3U3SXNvdXZvVHBTX0NnYkVXdHFKTEw2dEZjYzd6WHhTQWdLTGVGMElMUFlUSHU40gHKAUFVX3lxTE9WLWNJaFV5UUhMYmg4WDEyOFdJY19EU01nWnUwWVRmMkhIR2o0ZGVmc3dIZHZ6S21WdnhpOWhzZEdpelgyNGhXRFgxMUhTaWNwcEx6U2tGd1VId1lHZ3duYVg1Q2J5dWxtMmJ3X3c4Z0N4YjVLOUFLbFptVjM2TlQ5V0VaRktfNm0wNFhwTk5yRzdTaHVaMXgtTXAtbE1mYU1iUGdldUE1RkNVUUVqV2hIVjdWanp3UThRcjlsWk9ZN2MzSnJZeHBZSEE?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-14T09:15:08+00:00"
+    },
+    {
+     "title": "Café: da bebida 'do diabo' aos best-sellers de autoajuda cristã",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/14/cafe-da-bebida-do-diabo-aos-best-sellers-de-autoajuda-crista.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-14T08:50:16"
+    },
+    {
+     "title": "Crise no Estreito de Ormuz pressiona mercados globais: ouça o Diário Econômico",
+     "link": "https://www.canalrural.com.br/economia/crise-no-estreito-de-ormuz-pressiona-mercados-globais-ouca-o-diario-economico/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T08:45:00+00:00"
+    },
+    {
+     "title": "Da última fronteira agrícola, nasce o romance que faltava sobre a saga da soja no Brasil - GZH",
+     "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPeVc3dExkd3JuQWo2Tklwb1A2U1JVTkV2ZWJfdmpock9PdklOamZDRXBhOTRCckk1UVB0QTBkU1ZYeXptOUhhZENQTWJHY2hKa0t1WUpaaW9aWENkVkpENU5tNEt4MGVqd2R6ZGdYbk1QTzJGejFrTEVDV1VraFpsRER6NEZudXhVZzRIUE1wUE9TbV9hdjFObUFzbzdiMS1tQzdKN0htOHR4ZkZ3d212ZVdIVktIYlJvaU9oeGJYOTdYdHpkTFJ1QnMzRWJCZjF2eWl5R2VWRDhWdEtoS19RTF9SbHllTHFCNkNZa05wOHpnRmpSZS1LSUZDOTFULU9vR3d5c05uWGRGY0FkVVJlOHJqYTJuQ1BuYnE0RUhB?oc=5",
+     "source": "GZH",
+     "published_at": "2026-07-14T07:59:41+00:00"
+    },
+    {
+     "title": "SOJA E TRIGO: confira cotações para esta terça-feira (14) - Brasil 61",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQVJiOHFRSENZaEpIVTAyYTlnVFJZMkljVG1yaEJ5UzJhSjBQY3B0eWVBM0NTd0lXT0tYVWduWTUyek5hT1VWd1R5eHhxZ00zTVkxQlVaS2NFM2Q1Y0hJeTlMRjVTdUVGMHhFOWt4Vll5aEpETUdFbnIxQVNCVDdUNmZVZC01WkMwZWpPX090eWxfQdIBlwFBVV95cUxOcWJiZ0lIUUhqU3ZiUjRKMUVFZ0hxc09tMkMtYzNndTZIQVNBQWFJcnpRUHRGekoxZVVxcjB6dHlrX1J6Q2dQZDBnTVlNanFoS21OdWM3SkplVWU3ZDdkdnZPb0w0N1lnd19LWnF2eEVVN015UW0wa1dtMXJGdWFVeWJGQkVBT0pEXzJ4RkQ3RllSZUtyTXM4?oc=5",
+     "source": "Brasil 61",
+     "published_at": "2026-07-14T07:05:00+00:00"
+    },
     {
      "title": "App gratuito registra preços de soja e milho em MS - Campo Grande News",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaTRhbHp1ekJaRTl4M0RKcE9EeU1GX01DdUxpaEFNVDVGWHdzckhBTWNjYVgyZW1xWWtOcWpoUFQwZy0zcmtoNWIyTFdaWHMtOWE1QVk0ci1qYk16RGd5WkJQS3Voczd2V0VXdEJmZS1HU0wtNjBERTNIekxyelRvOFppSkgtZmVna0dfN2FmZmpoOTBxejZIZVI3Mkc4TnpMellQUDR3WdIBpwFBVV95cUxNdFhnWE1IcS1PXzJqZ2VFRG9zMG5IOWJRTHJIbDlpc1FITDktODVkVVBvZTdVMVVWX1V1YTFPZFlQOEhxT3JTb0hZQ3M4b1Z1WTdmZjFIdkluTzJEdjZyLUVJaGs4cVNFZGRqUzIxTUJ2eDNXaHExdmkzbG12d202UXBCdHZ2T19RUkYyb0lFd3RHVzF0eWdiWWNZNHpweE9rbVlFMTBtZw?oc=5",
@@ -479,12 +509,6 @@
      "published_at": "2026-07-13T20:34:00+00:00"
     },
     {
-     "title": "Acordo para MP do Frete pode levar texto ao plenário do Senado nesta terça-feira",
-     "link": "https://www.canalrural.com.br/politica/acordo-para-mp-do-frete-pode-levar-texto-ao-plenario-do-senado-nesta-terca-feira/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-13T20:33:09+00:00"
-    },
-    {
      "title": "Soja sobe em Chicago por clima para safra dos EUA e alta do petróleo - Money Times",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbm1fNXQtUHlzYlRhYk5GQ0FKNlpfbWUyRzVGeG5adnNhUnlDZC01eE5XM1R6eGF4S1loa0d1bDBLdVVjcGFFN19wQWFQSnh4c21NUjRlQVpFT1l6ckdJNF9ZaEI4Z0FMdnJaZ1ltd2gzUkJVT2VjSThBWDVKc3A0T0V1bmZ2NzkwazkxZGtSSm5OOTVWN3pKWUcxV3BsYWJncmVuQUZSOA?oc=5",
      "source": "Money Times",
@@ -497,34 +521,16 @@
      "published_at": "2026-07-13T20:12:21+00:00"
     },
     {
+     "title": "Soja sobe em Chicago com demanda chinesa e petróleo em alta - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONDlDTnU0bnZfclBTTHhBT05IbElJMVJRdEN6aGtOVThvU1J1SkhwLTM0NDduZUZmWk94SFZJbzZtaFdHM1BvY21rTUQtUVotT2FhT1NnR29zS25lLUJDVGhzTjlMaXp0bVZ3dU1HdW9oV3FFd3hnaW5WMDdQYTBZaXFJdDlPSlJ4YkdNU09MRks3UUJRRG1YVXlR?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-07-13T19:59:23+00:00"
+    },
+    {
      "title": "Aplicativo da Aprosoja/MS acompanha preços de soja e milho - Revista Cultivar",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNXRfZGhKYXRTdHN5UzZlWGdwQURwZFdMaWtNUWtGbjA2bmpZdXZDTjhESkdjMXZLQ3FFRi00RzBjU3pTZ2pLQzVDZ21XbndRY3dwaHBOcXB3QWlqRnptT0I1dVZqaURaazdtNkVKVlB5RUhpeE9La3lZWTROQUNoNHN4NDVsdHJmcXZrNUJxUzJfakVaOHBwNVdvYTFwMVE?oc=5",
      "source": "Revista Cultivar",
      "published_at": "2026-07-13T19:58:12+00:00"
-    },
-    {
-     "title": "Continuidade das compras de soja da China nos EUA traz novas altas a Chicago nesta 2a feira - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZVltOFU5NVpSNXk4Y2VldkJIcEZKa0dRMDB0anR2NVdMaDlSY0xqZWZDcXJlZ1dnNExMVWMwMlhDejRIQkRkTzFFVHZPVDBWTFNFazZibkc4U21DOUx1LU1KYzRzVkVoYS1XRlZLdnRxcF9GVVFJUGZFcEI5N2J1OElQeDRvTktKUWs3MkNRa2dWVkY4OHlFajV0a0t2UGVRSm9STjcwYWxOUmR0QTMxRmM4bVF5NmVYWEhpdUR1MFVWdER5eVJPLTBFb2lHMEtNRHYwWEtwS0pmekhFVllsWUJoam55LVnSAewBQVVfeXFMT3g2VjFmTEZlR3ltaHRhdFJqYXBrYTd1QlpQNENqaldvbHFHekJOOXEtQTNrbllvUTJHeFFJZEJ5VGh1TFRITlJ3cDlHYU5rcXprUTZQM2FvclBwOTUteE5mTjBxdGJHYW1NdDlZMlpzSlZ6YmphOUxfSmtGLXZCTWxHRWRZRHVoazB0WFY3dm1ubFlXdmNKVVBIWVpoNXNKRnpnbHRVeE5NZFpLeFRRUFd5UTJRUXBFd1NSa0MwY1lsX3Jrcm1mNWlMTm84cE54cGxVVnFtTXZHYjlfem1CdE9xWmtGVjd6TFdIdjc?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-13T19:53:54+00:00"
-    },
-    {
-     "title": "Soja e milho sobem em Chicago após nova alta do petróleo - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQXBmbjBfbTh5TUluSVpnMTlsS2V1dFpNT1N2NVg5ZkJISEE2WklGdTVuNnJPMXNOVGt3R04zX29JUHdPc3lKeFpxOHNHTFF4c0FNSENvbWVQUWtWSEZQU0MwcjktR05XX184U3pGZ1NCSWp4WWlRN1dCLTZMa0FYeDIzYnNVOC1NZlhfZ3BYVnlLcm10cE1uZzV2bXBBVzdvWTExMmZFSFRNUlNtZWp0ZV9nMTRNUzjSAcYBQVVfeXFMUFlkTW8yQi1yZG5oalBGOXlSSTlvOXFMSDc1R2plRmtJZjlRb3hSUEFzejFvamFTcUp4TnBxbTJUek9aejlnM01hUGwzaEVfaDg0aFdaZzdRaVFfd21NU1RFaXdqclpIblozYmt0STBpWk0yY09SVTRvUzVBd0R2Y1JYYy1PTnJzaks2QWk2Y05FdkQ1b0c1RGp5a2toMWhFRk91aF9sWllFRlh4UGJfcGh6TGN0U2g2ZWcxcnNBNkowdi1RLUFn?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-13T18:28:59+00:00"
-    },
-    {
-     "title": "Setor vê B17 como impulso para soja e cadeia de proteínas - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWHF4STJLUnlZV3NkOG1aNDJQNGVCTVhkOVREZmJKWmZPZUN1SE5CYUpJZWhEMjl3aDhRUEZWNjUzaGYwdHhaSTJzOHkxNFE3M1VxdUREMUN5cUIwQmlVZUlJVjZvZG10cEFPXzVLcXN3anFzRExtaGdOSXBOMGhUNU11NnVZOS0yZmJMdEFnRUFKUUdLenEw?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-07-13T16:22:16+00:00"
-    },
-    {
-     "title": "Soja: Preços avançam com demanda externa aquecida - Sociedade Nacional de Agricultura",
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5LOHgtaDBVRlh6RlpkUER6Q1FRenppTG9SbVBqbWFGYkktX1NnRmJFdnZnVFFGZVdPbmxRWERTUXZGemNrQ1FnOVZYeVI4QXV2NFpveDh3TFFiN0xRc1hydGVHd0FpM28wZEF6ai1hMkxnTFAzRUJB?oc=5",
-     "source": "Sociedade Nacional de Agricultura",
-     "published_at": "2026-07-13T15:07:00+00:00"
     },
     {
      "title": "Equipe FieldCrops da UFSM coordena evento de soja no Paraguai - UFSM",
@@ -567,12 +573,6 @@
      "link": "https://g1.globo.com/es/espirito-santo/noticia/2026/07/12/temor-de-super-el-nino-faz-preco-do-cafe-disparar-e-alta-pode-pesar-no-bolso-dos-consumidores.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-12T07:00:51"
-    },
-    {
-     "title": "'PF' mais salgado: prato feito fica mais caro apesar do alívio na inflação dos alimentos",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/11/pf-mais-salgado-prato-feito-fica-mais-caro-apesar-do-alivio-na-inflacao-dos-alimentos.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-11T09:00:30"
     }
    ],
    "failed": [

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-14T09:51:44+00:00",
+ "generated_at": "2026-07-14T11:21:36+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-14T09:51:37+00:00",
+   "updated_at": "2026-07-14T11:21:31+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1191.0,
+     "price": 1187.5,
      "prev_close": 1202.0,
-     "change_pct": -0.92,
+     "change_pct": -1.21,
      "closes": [
       1119.25,
       1130.0,
@@ -31,16 +31,16 @@
       1179.75,
       1196.5,
       1202.0,
-      1191.0
+      1187.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 459.75,
+     "price": 457.5,
      "prev_close": 437.75,
-     "change_pct": 5.03,
+     "change_pct": 4.51,
      "closes": [
       415.5,
       413.75,
@@ -61,16 +61,16 @@
       427.75,
       438.0,
       437.75,
-      459.75
+      457.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 314.0,
+     "price": 312.4,
      "prev_close": 316.8,
-     "change_pct": -0.88,
+     "change_pct": -1.39,
      "closes": [
       302.0,
       304.8,
@@ -91,16 +91,16 @@
       319.5,
       323.1,
       316.8,
-      314.0
+      312.4
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.53,
+     "price": 71.38,
      "prev_close": 73.04,
-     "change_pct": -2.07,
+     "change_pct": -2.27,
      "closes": [
       74.37,
       72.92,
@@ -121,16 +121,16 @@
       70.45,
       70.86,
       73.04,
-      71.53
+      71.38
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 636.5,
+     "price": 630.5,
      "prev_close": 627.0,
-     "change_pct": 1.52,
+     "change_pct": 0.56,
      "closes": [
       589.75,
       596.0,
@@ -151,16 +151,16 @@
       611.25,
       632.0,
       627.0,
-      636.5
+      630.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 86.47,
+     "price": 86.99,
      "prev_close": 83.3,
-     "change_pct": 3.81,
+     "change_pct": 4.43,
      "closes": [
       83.17,
       78.96,
@@ -181,7 +181,7 @@
       76.3,
       76.01,
       83.3,
-      86.47
+      86.99
      ]
     },
     {
@@ -220,7 +220,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-14T09:51:37+00:00",
+   "updated_at": "2026-07-14T11:21:31+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -231,7 +231,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-14T09:51:41+00:00",
+   "updated_at": "2026-07-14T11:21:34+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -392,8 +392,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-14T09:51:44+00:00",
+   "updated_at": "2026-07-14T11:21:36+00:00",
    "items": [
+    {
+     "title": "Soja em Chicago: Preços recuam nesta 3ª feira (14), após atingirem picos de dois meses - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONzYxX25Bb2ZkZVJydEs3WkRWcFB0M2NURXZXY0ZXdUwyMGVlalRoUzFYNnFrb0ZTZmFNSnBPZ0t5SUU3bWg3b3JING5QQnFxNE40S0Z1NGwwQV9FZXNhdzZBNmoxQ0NfWDFUcWxEMngzd2lfMC1QQ3huWHM4SVMyb0gyT1Y5bzJVeU1xLW8tQ2l0RFExcDNiSWJmNTRoOE84Nl9zbFc3ZWpvdEZsQTZEbzQ1cGxDTlpsdXhJNW0yYmNPNk1xOVJHMkt3eHJNcHNaeVNnTXM4RXZseDZr0gHiAUFVX3lxTE1GRVFiekVQRWVNMDU5QXRoMm1Dc1pTbGotS19MNGQ5RzRKWGs2dUYzTnVacmRCdnBYTUY1NHNXVzdJUlpJaGZELWR2WXg2QUZoN3VFbEd3LTN0X2RJQlBmWUt2MGg2Rjd5YTRYaGFBd2JRMEVkOWROVXRIaUlnZUpTV2lHdmZPNkFUMnktY3V6c2JBNDR2dlVBRkthYkNselFzX0JKU3FPeU4xOVJsUTZmZHBIX0gzWURiNnFyemJrX1hrN1VLYlkyczQzR2xVZE5na0lUeVIzTEJrcGkwaVRNVUE?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-14T10:47:24+00:00"
+    },
+    {
+     "title": "Soja sobe e pressão sobre silos aumenta - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQTNPTE0tZEpQLTlDMENCS3UyRkVHWVlZa3Ewai05cTFobERYSkdYd1pQNnNmOV9UUGZxZUpWNFU0SFpCOU9tYUxtX0gtVGRkV09hVU91UFBhc3JKc1F6YVJMRHF5cFNYQ0RPSzZVb3RKVno2Z2owSUFfMlBhZjl3T09MVUUyQllJdHp5YVhDRFVTUQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-14T10:01:00+00:00"
+    },
     {
      "title": "Saca de soja se mantém acima de R$ 140 no porto de Paranaguá - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTEFRMmZXcHU4YW16Q1lDTktMWlV0MzhZTjhOUHZiNkxHdDhMUFFBVy13S3czUzBHS0VBS3Z4YkFleEVTVUpJZnZCcEZ1TG10UHhvMXplcnRKallGa2JFRUQ1alJNZXVIQUw2ZzgzRzYtTGk0NmZKMTZGV3dOX0plZU1vMGhHVHFXUl8zc3U3SXNvdXZvVHBTX0NnYkVXdHFKTEw2dEZjYzd6WHhTQWdLTGVGMElMUFlUSHU40gHKAUFVX3lxTE9WLWNJaFV5UUhMYmg4WDEyOFdJY19EU01nWnUwWVRmMkhIR2o0ZGVmc3dIZHZ6S21WdnhpOWhzZEdpelgyNGhXRFgxMUhTaWNwcEx6U2tGd1VId1lHZ3duYVg1Q2J5dWxtMmJ3X3c4Z0N4YjVLOUFLbFptVjM2TlQ5V0VaRktfNm0wNFhwTk5yRzdTaHVaMXgtTXAtbE1mYU1iUGdldUE1RkNVUUVqV2hIVjdWanp3UThRcjlsWk9ZN2MzSnJZeHBZSEE?oc=5",
@@ -503,22 +515,10 @@
      "published_at": "2026-07-13T20:39:45+00:00"
     },
     {
-     "title": "Soja: como preparar a área para a próxima safra? - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRGZLNmtWT1RvdjZsYzluVGxCSGMzUHhPTEVtSV9YeWFTcFBQamctbTJqVXJWa3V4MFY2RUNSM3EzQnJqT0w2ZnNveVpqYU1mX0JqSTZTc29GR1FWRTU3Q2xtYUJqaGp4MDBRZlF5M2ZLXy1SUGs5dUJwWjlZM1lPR1k2Tzllc2lhemFhYW1TdDRnLW9NVEZnamdEWUxpQQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-13T20:34:00+00:00"
-    },
-    {
      "title": "Soja sobe em Chicago por clima para safra dos EUA e alta do petróleo - Money Times",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbm1fNXQtUHlzYlRhYk5GQ0FKNlpfbWUyRzVGeG5adnNhUnlDZC01eE5XM1R6eGF4S1loa0d1bDBLdVVjcGFFN19wQWFQSnh4c21NUjRlQVpFT1l6ckdJNF9ZaEI4Z0FMdnJaZ1ltd2gzUkJVT2VjSThBWDVKc3A0T0V1bmZ2NzkwazkxZGtSSm5OOTVWN3pKWUcxV3BsYWJncmVuQUZSOA?oc=5",
      "source": "Money Times",
      "published_at": "2026-07-13T20:33:00+00:00"
-    },
-    {
-     "title": "USDA eleva índice de lavouras de soja e milho dos EUA em boas/excelentes condições - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYTcxeDcyOEJubm9kaDNBbjFjaEhmVXNhSEp6dGRlZVFhMlZzcUl3UWRZUGt0QndWX1h3OWRmTktsNmR3Z21aMDZWZDNNUkJVSHZKSHcxei1hU2xZVGtHS2ktb05xQTRyZF9YMzVtQ1BWRmZyR1BaeHVLbzZyNDBPa1U5ck9OUVk3cWdOWi1vdnViakJJRG0wSG5NQ0hmVW9XVG41cFF5emxkZ2I3MllSZkI0SGhXSTdaeDlRU1JsM2RNZ1J4UmphRktXY2R5cE9nSC0zcjNJZ180SzFwVUHSAeMBQVVfeXFMT2hreTRTZXRVd09JbDlDTzdJYTN3b1RVaU53V0x5Z1lUOXB4WDlGTGhWdXRsOWZhR3Z0VjF0V3BzYUlBTnpLeTZxZDJBS0ZRWVFkbExlQUx4V3NYTE1NZ3k2MXBlR2dZZlY2LTdGRmdHdXU3bjI1aUdpSzBzX0FHd2J2U18wcTZFd0ROQmJHVS1nS3hkd2tmcGRLbUJDa1gzUE5Tc2tiRmJodXlGa1ZrQTE2OVd4eHRUWVJ0Z0lmRVZNbmk5QnFRcVZ1b3BuajJLbV9YbkhuYUZxWEtTQXotYWFrbGM?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-13T20:12:21+00:00"
     },
     {
      "title": "Soja sobe em Chicago com demanda chinesa e petróleo em alta - CNN Brasil",

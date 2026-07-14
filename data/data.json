@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-14T19:10:11+00:00",
+ "generated_at": "2026-07-14T20:54:34+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-14T19:09:42+00:00",
+   "updated_at": "2026-07-14T20:54:16+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -158,9 +158,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 85.18,
+     "price": 85.58,
      "prev_close": 83.3,
-     "change_pct": 2.26,
+     "change_pct": 2.74,
      "closes": [
       83.17,
       78.96,
@@ -181,16 +181,16 @@
       76.3,
       76.01,
       83.3,
-      85.18
+      85.58
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 176535.11,
+     "price": 176641.1,
      "prev_close": 175739.0,
-     "change_pct": 0.45,
+     "change_pct": 0.51,
      "closes": [
       170415.0,
       169649.0,
@@ -213,7 +213,7 @@
       172742.0,
       177866.0,
       175739.0,
-      176535.1094
+      176641.0938
      ]
     }
    ],
@@ -232,7 +232,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-14T19:10:08+00:00",
+   "updated_at": "2026-07-14T20:54:32+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -393,13 +393,85 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-14T19:10:11+00:00",
+   "updated_at": "2026-07-14T20:54:34+00:00",
    "items": [
     {
-     "title": "ICL cobra votação de projeto que amplia rastreamento no mercado de combustíveis",
-     "link": "https://www.canalrural.com.br/politica/icl-cobra-votacao-de-projeto-que-amplia-rastreamento-no-mercado-de-combustiveis/",
+     "title": "Especialistas defendem previsibilidade orçamentária na reforma do Seguro Rural",
+     "link": "https://www.canalrural.com.br/politica/especialistas-defendem-previsibilidade-orcamentaria-na-reforma-do-seguro-rural/",
      "source": "Canal Rural",
-     "published_at": "2026-07-14T18:43:03+00:00"
+     "published_at": "2026-07-14T20:21:40+00:00"
+    },
+    {
+     "title": "Setor avícola deve negociar bloqueio da UE com mais facilidade, diz analista",
+     "link": "https://www.canalrural.com.br/aves-e-suinos/setor-avicola-deve-negociar-bloqueio-da-ue-com-mais-facilidade-diz-analista/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T20:17:22+00:00"
+    },
+    {
+     "title": "Soja: line-up prevê embarques de 13,757 mi de toneladas pelo Brasil em julho",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/soja-line-up-preve-embarques-de-13757-mi-de-toneladas-pelo-brasil-em-julho/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T20:15:44+00:00"
+    },
+    {
+     "title": "Anater abre seleção para executar ações de adaptação climática no Garantia-Safra",
+     "link": "https://www.canalrural.com.br/agricultura/anater-abre-selecao-para-executar-acoes-de-adaptacao-climatica-no-garantia-safra/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T20:02:40+00:00"
+    },
+    {
+     "title": "PF indicia ex-presidente do INSS e ex-dirigentes em investigação sobre descontos indevidos",
+     "link": "https://www.canalrural.com.br/politica/pf-indicia-ex-presidente-do-inss-e-ex-dirigentes-em-investigacao-sobre-descontos-indevidos/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T19:47:36+00:00"
+    },
+    {
+     "title": "CNA defende avanço do PL 2951 em debate sobre seguro rural",
+     "link": "https://www.canalrural.com.br/politica/cna-defende-avanco-do-pl-2951-em-debate-sobre-seguro-rural/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T19:38:58+00:00"
+    },
+    {
+     "title": "Exportações de soja da safra 2025/26 devem crescer 7,5%, diz Conab - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUDVKMjA3dnVoZVpSYS1DSXdFa2MzUmQtaFRnR1dRd2NtWGNiU01pYVFVNGZkdXQ4TGpQclpRMFJVX1U4MGhKOWlVWV9EaE94XzU2cmhORjZuOHMxZnJEZVJJbENEU3Y1QW9oRmY4UGxGdExyUDdsOWRrYldJYnozdTNjbEdlU2dHa2lqd3c1SG1lZl8wSEhPXzkwdUczX1ZzSkpkdk9Cd2JzSmI2eVlrT2gyb1ZXZEV1ZllGWF9ZME1UUlh6VlNDUndmelY3Tjl5d0dF0gHiAUFVX3lxTE1iYnlEa1NxM2hlVldtZ2Exb01PWHVGNV9IVUdNNHF3UmlweW9UVXllc0ZBcGpHWmFDZTd3UTlYejZaQ2t6TExicndGMXAxM3l4SXhEd1dVQmZSaGpyUlJISGoxOFR3Y3k3Q3BPZmdtLXJpcXA4VGZwSklQQmczRzRiQWRuX1htNjRvMTd1TmRuOVQ3NWV0N1VuM3lPeW5sX09VdFg0bEJQelp6N210eTNrMWMxVUVfbzU2YzdEcGxZTk9HUWgzYUEwZzQ3UGV2bzd1U1draWZ0bGxLVktfS3RnUFE?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-14T19:35:34+00:00"
+    },
+    {
+     "title": "Petróleo sobe com tensão entre EUA e Irã e recuo em taxa no Estreito de Ormuz",
+     "link": "https://www.canalrural.com.br/economia/petroleo-sobe-com-tensao-entre-eua-e-ira-e-recuo-em-taxa-no-estreito-de-ormuz/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T19:18:06+00:00"
+    },
+    {
+     "title": "Frio intenso e chuvas fortes marcam o início da semana no Sudeste",
+     "link": "https://www.canalrural.com.br/videos/frio-intenso-e-chuvas-fortes-marcam-o-inicio-da-semana-no-sudeste/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T19:16:11+00:00"
+    },
+    {
+     "title": "Demanda aquecida e preços altos impulsionam exportações de soja no Brasil - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQR1lIUXR4SjRrVEZTekxyQWJ5Q3ByUkh5MkRIX1RERzRMQkgzbTQzQUVBS1lwZzZpOTljTnBQakUzSFhPMUl0S0RnYkQ3elh2aE5ZcWNLVmRWSzVYOWZMM3Vla3FIZHJrN01VNDhpdXZqS0ZjUW93NVhTWEdTcm9jSVFhNmFGSm14RHhvak9INUFVQVZVWWt0SS1sc3g0M1BTMUhYLU52QzZCRWFKUl9ZTA?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T19:15:52+00:00"
+    },
+    {
+     "title": "Demanda aquecida e preços altos impulsionam exportações de soja no Brasil",
+     "link": "https://www.canalrural.com.br/videos/demanda-aquecida-e-precos-altos-impulsionam-exportacoes-de-soja-no-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T19:15:52+00:00"
+    },
+    {
+     "title": "Produtores de milho enfrentam preços baixos na colheita em Mato Grosso",
+     "link": "https://www.canalrural.com.br/videos/produtores-de-milho-enfrentam-precos-baixos-na-colheita-em-mato-grosso/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T19:15:41+00:00"
+    },
+    {
+     "title": "Preços mínimos de milho, soja e arroz são atualizados - Revista Cultivar",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPS21rMl9uR19tUDBrZlVYak9ieTBBZ3dWUFZjd1hXUC02akw4TTkyN3lveHhldE9YQ2RfRDFIMUVyUXNObkNvdjNzSVRHdVV3eElnU3BwbTVLRlliSmJZRFlPTEkwUnRia25IZkt1dW16dTRLTTJ6WXdZQmRNNlRFdWpiWFJZUlNXYVZWNW13bjc0T3N1S2Zj?oc=5",
+     "source": "Revista Cultivar",
+     "published_at": "2026-07-14T19:11:19+00:00"
     },
     {
      "title": "Soja cai em Chicago diante de condições favoráveis em lavouras nos EUA - Globo Rural",
@@ -414,75 +486,9 @@
      "published_at": "2026-07-14T18:19:00+00:00"
     },
     {
-     "title": "Pimenta diz que trabalha por juros de 5% no Pronaf, 7% no Pronamp e 10% para demais produtores",
-     "link": "https://www.canalrural.com.br/economia/pimenta-diz-que-trabalha-por-juros-de-5-no-pronaf-7-no-pronamp-e-10-para-demais-produtores/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T18:16:42+00:00"
-    },
-    {
-     "title": "Mercado Agrícola - 14.jul.2026 - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE94VmVMMHowU1FtOTAxMnNXbEFmaGlVT1pZNzE0RnRDT2FJT09HUUtUcTNSOElab3dtSHE0RU5SN0U3YzdUZEpjRjZXRUMxbE1RYmNaQVdhTTh3cmhvWU5BUTl3RkpyVjBZdWJTdlJVX2liLXUzcmx3?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-07-14T18:10:00+00:00"
-    },
-    {
-     "title": "CNA lança segundo episódio de série sobre jurisprudência do agro",
-     "link": "https://www.canalrural.com.br/politica/cna-lanca-segundo-episodio-de-serie-sobre-jurisprudencia-do-agro/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T18:08:15+00:00"
-    },
-    {
-     "title": "CNPE referenda regra que veta biodiesel importado na mistura obrigatória ao diesel B",
-     "link": "https://www.canalrural.com.br/politica/cnpe-referenda-regra-que-veta-biodiesel-importado-na-mistura-obrigatoria-ao-diesel-b/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T18:04:25+00:00"
-    },
-    {
-     "title": "Seguro rural: setor cobra novo modelo para evitar quebra financeira no campo",
-     "link": "https://www.canalrural.com.br/agricultura/agronegocio/seguro-rural-setor-cobra-novo-modelo-para-evitar-quebra-financeira-no-campo/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T18:03:52+00:00"
-    },
-    {
-     "title": "Alertas de chuva de 200 mm e vento forte são emitidos pelo Inmet para dois estados",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/alertas-de-chuva-de-200-mm-e-vento-forte-sao-emitidos-pelo-inmet-para-dois-estados/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T17:57:28+00:00"
-    },
-    {
-     "title": "Brasil pode ter até 127 dias de calor extremo por ano até 2075",
-     "link": "https://www.canalrural.com.br/diversos/brasil-pode-ter-ate-127-dias-de-calor-extremo-por-ano-ate-2075/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T17:52:24+00:00"
-    },
-    {
-     "title": "Sessão na Câmara debate desmatamento, licenciamento e projetos com efeito sobre o uso da terra",
-     "link": "https://www.canalrural.com.br/politica/sessao-na-camara-debate-desmatamento-licenciamento-e-projetos-com-efeito-sobre-o-uso-da-terra/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T17:47:32+00:00"
-    },
-    {
-     "title": "Colheita do feijão carioca amplia oferta e acomoda cotações",
-     "link": "https://www.canalrural.com.br/agricultura/colheita-do-feijao-carioca-amplia-oferta-e-acomoda-cotacoes/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T17:23:27+00:00"
-    },
-    {
-     "title": "Setor do biodiesel entrega a Lula carta em defesa da adoção imediata do B17",
-     "link": "https://www.canalrural.com.br/politica/setor-do-biodiesel-entrega-a-lula-carta-em-defesa-da-adocao-imediata-do-b17/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T17:22:02+00:00"
-    },
-    {
-     "title": "Produtores do Mato Grosso aceleram comercialização de soja e milho ao longo de junho, mas reduzem negócios no algodão - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOZ0tfdDVONlU3czVIUU5kcEFadHI2RjZoY1VfYlFRTjFIaHozOGp6NmhwbWFMZU5saV9wY1VFakJDUTNCU212bnFWRjdFa21mSmd2Z1R5MlB0c0NOa3QzeU85eHlWV0E5RUF6X2tONWpNRjh3TXBiSnpqZDZYdWJxcFJ5NUQ1S202ZmpXUWFReDVtMUJzZVp2SzNvcEpOWThxUUVLdmo1eGdzQlNWMElMOEVkaklRaGE4TzI4SURKRU8tTnZDbVdZRW04VGxEYU9hU1dxblNoU0RqdnRfUmlKQVRHbEU4ckl2VmNaTHRrOU9nb04xODhiVGV0ZnBFTVU2NlpLdjhTUFV2clpG0gGSAkFVX3lxTE5UWlVpRy14cVh4R20zTnlZanlDVlpGRUgzOU9MRWNjcXBFbkZnQzUtb3VEaXBfaThYSW53MkZCQ05jZ29GYWxPNE9KaEt4cDNYejY5UURzMkZ6SWp3T3lVT3BKZkxuOXo3VDhHQ2MtTVRGcmdWR1I0Q1RCM3RIeUp4bkdxUndEUVpvd2pZNENSLS1KdjdrcE93Y2lrT1VsSC1NeUZTSC1zdVBSdi1nTjlBX2t5al9hY3FHaHQ5cXd2YndiWVJQZHNkWlpqdExhdXZod0tUcVlZZWFpYzBzT0dyNzBHWmEyeGw4N1BhNUxubnhjRFNGTkZUY3l3RVhDWURwdVVYVElqSUd4OXBpZEVuc2c?oc=5",
+     "title": "Soja cai em Chicago nesta 3ª feira e preços acompanham movimento no Brasil com pressão adicional do dólar - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQV1dxLVFGZkNKYXdqenh1YlpkYXpDYzhkTTFYTXpfeWZQb0dJSmhsOW1wNmNoN0JxVmt1dVpnc2k4Zl8xSG1NcDZjVmdVbkZjbGRTalhHMTFPakpQRHhqaWNxQVRjNXRWdWJtdXRHVXpkVTlkOUQ3M3lWSkhxTFVwbFN3ZVBBeHR0b1NienpXUTlKMHk1UTBoMVl5OXZNczFBSWdGd0VJY3FZeFNsQk1ROFZGeTF0UWFYT3p6XzRWTmtsaTRpSVpxT2xEVUhNQVRKa1h3VDhlbjJ1cjl5M3NLekFMLVlyUDBWZkVVTTVVRE90M2JtWHM3cms5UdIBgAJBVV95cUxNaF9ldW4tMzNtdU1BeWFrODlzNk1kdlpEb1hZajhZT2VDQjNnTjFYSWJuZkJZYURwYkNaUnRZbFFLQlhtWGNaZzR0blg5ejk4SFBUWWZEN09ramNTMHlPWVJjbHBrNmhSRmJNYXVaUjJyOURVVk1xMjU5UElXY04yRklnajBjN0pTb25DZExRUVE0eWNEQnhydFQ0eE1Nc29wSy1pRzF0RXQzRTJMbFVnXzJEUUVDR2JXQ3BWMzJCbV85RWpsVzVBdHJNNkk2dFdIdnBSY0F0d0VmcEwyZXd1QWFBel9yMGNpR1J1TklhNXRpTGJGTXlzTjR6blRHVzUt?oc=5",
      "source": "Notícias Agrícolas",
-     "published_at": "2026-07-14T16:38:55+00:00"
-    },
-    {
-     "title": "Soja cai em Chicago nesta 3ª feira e preços acompanham movimento no Brasil com pressão adicional do dólar - TradingView",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1sRHhORjdScmV4ejAwS1NzNVpCODUtSFZsN3ZsZHgxZUZKUUVzazBjSGRzaHg5dWVESmhGWmhwNndaenMtdTNpVWlUT3N2WW81c1FZcF9qN0I2Nk1mbWVJZFZHSVdUaG9UY1NON2MxWmw5R25I?oc=5",
-     "source": "TradingView",
      "published_at": "2026-07-14T16:16:45+00:00"
     },
     {
@@ -496,6 +502,12 @@
      "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPcDN3aHJoWFl2bTNxQXlRX213OE94T0t3eUZNZmdMdzhPV0x5bEZWN2pwUC1aLTVROTlkYk1KMUtUS3ZhdmFKN0FBZ2xsbG1DQU84emZUTDZrVk9YZDUyOTJnRkFCcmpzNWZDUkpDTS1vNEtwRkpacEZHS1FhbFdZQ3R1OWplR05ISlFOVTNnb1JmMzRhZGF5eEx0U3ZlX0ptc2VOT3UxS2NVQ1Q2YWRFbWpKeUV3MEY4TUEyRVlyNkN1YTBIY1Q5cXVoTm8zWHc5by10VHgtOXBjQ2ZuYlRoZTFyNmNvb2daMkFORE5uZTA4Z3UwQnJVa3pmb3dVNkJNNFlMZE9kcGJsVUphV3JsNGh2MUpDcXhPZzN3ZGVPcmdrc1hHRVIwcnJBd3I2WVlJVG0tZnZEZ1JIRnd4bzJheUZwVGhKZw?oc=5",
      "source": "UOL Notícias",
      "published_at": "2026-07-14T13:30:00+00:00"
+    },
+    {
+     "title": "Soja: demanda chinesa reforça exportações dos EUA - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQkF6NUp4c3pxekdTYk9OMjRZYlpWZFlyb0dDMmJuaDVfSVQySGVpemltVExEcWhPb3RQQ1RrSXh1YVBqOU5qSDJxZllpcDFXaHgxQXBYWDhTMXRUaHcyQXJodlV0RFNwcDg1T2RwMF9tSDZwTHI1ajNPYU1DZWhDQVlrcjcxMU5yZVB3MXplM0tIN0RidUw0RmJnSkZMcU0?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-14T13:29:00+00:00"
     },
     {
      "title": "Importação de soja pela China bate recorde em junho, impulsionada pelo Brasil - InfoMoney",
@@ -516,12 +528,6 @@
      "published_at": "2026-07-14T10:47:24+00:00"
     },
     {
-     "title": "Soja volta a ser negociada acima de R$ 140 nos principais portos - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNENzVU1WYWcyTFFmZkdfUmxDMFRzbU8yeWxuYUVIUTNZN290NnRpUm1IaU9DRU9hUW53cmRiczhha05DNVR0dWM4dXJWNTBHdWxNRlhXRFFoUlh4OHNMcU11VV9UQ1BkTXhLOWNnbFhDWmVyQ0JKRTc1bTZod0JOdmJUYWRkYjBQb2lRTUFRUzF5bzBvSk5fcFFB?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-07-14T09:34:22+00:00"
-    },
-    {
      "title": "Café: da bebida 'do diabo' aos best-sellers de autoajuda cristã",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/14/cafe-da-bebida-do-diabo-aos-best-sellers-de-autoajuda-crista.ghtml",
      "source": "G1 Agronegócios",
@@ -538,12 +544,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/14/apos-promessas-supermercados-seguem-sem-ampliar-venda-de-ovos-livres-de-gaiolas-diz-estudo.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-14T03:01:10"
-    },
-    {
-     "title": "Soja volta aos R$ 140 nos portos e demanda externa impulsiona preços no Brasil - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORmRUVGxLbmw0bzF1MEtRNF9sWG5CZ2NmaHI2c1BhMHZ5MTJGajNGaVAyVDV5UHJHVDZTR0R3VW91LUV2VW5ELTBYQ09VWmRiOFpkUlpEQVJhVWRVOVNfSG95LWRnMEh3cXotaGg4Xy1meXdxZzJkazFhV0FaSnRiS2V6SDROczR4MkZhMWtmX0pKZTItaWppUHZxWS1VWWJoaFI2WUVHLXJJalhUSVFPaHduZk4?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-13T11:48:30+00:00"
     },
     {
      "title": "IAC desenvolve batata-doce que produz 4 vezes mais e tem 'superdose' de vitamina A",
@@ -585,6 +585,10 @@
   {
    "section": "fx",
    "error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
+  },
+  {
+   "section": "rates",
+   "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json"
   },
   {
    "section": "cepea",

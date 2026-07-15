@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-15T20:53:51+00:00",
+ "generated_at": "2026-07-15T21:53:32+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-15T20:53:44+00:00",
+   "updated_at": "2026-07-15T21:53:25+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -163,9 +163,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 85.95,
+     "price": 85.63,
      "prev_close": 84.73,
-     "change_pct": 1.44,
+     "change_pct": 1.06,
      "closes": [
       83.17,
       78.96,
@@ -187,7 +187,7 @@
       76.01,
       83.3,
       84.73,
-      85.95
+      85.63
      ]
     },
     {
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-15T20:53:44+00:00",
+   "updated_at": "2026-07-15T21:53:25+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-15T20:53:48+00:00",
+   "updated_at": "2026-07-15T21:53:29+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,8 +400,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-15T20:53:51+00:00",
+   "updated_at": "2026-07-15T21:53:32+00:00",
    "items": [
+    {
+     "title": "MP das dívidas rurais prevê carência, prazo maior e fundo contra perdas climáticas",
+     "link": "https://www.canalrural.com.br/diversos/mp-das-dividas-rurais-preve-carencia-prazo-maior-e-fundo-contra-perdas-climaticas/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T21:28:39+00:00"
+    },
+    {
+     "title": "Processamento de Soja nos EUA Supera Estimativas em Junho - Forbes Brasil",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObWlhdWFKY2NaT2tZWm5xbWRzRkJyMHRYTnVKRDRuS2dRaWlWSGF2dFJRQm1DSzhac2xiN1ZLLWhObm5OVEVYdmV1VWF1eWZTMHR5bXdqeENJNXNnd3ZlckQyRkJYMlQtN2lvSWRJQkVLcFdwVnNKQzJXY1gxa2dMbTJsc2VyaW1URVBmVVJydmJaTUswRnpTa01nWHpUYm5TWkE?oc=5",
+     "source": "Forbes Brasil",
+     "published_at": "2026-07-15T20:47:22+00:00"
+    },
+    {
+     "title": "Fazenda vê impacto macroeconômico reduzido de novas tarifas dos EUA",
+     "link": "https://www.canalrural.com.br/economia/fazenda-ve-impacto-macroeconomico-reduzido-de-novas-tarifas-dos-eua/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T20:41:44+00:00"
+    },
     {
      "title": "Exportações de petróleo do Brasil para a China batem recorde no primeiro semestre",
      "link": "https://www.canalrural.com.br/economia/exportacoes-de-petroleo-do-brasil-para-a-china-batem-recorde-no-primeiro-semestre/",
@@ -457,18 +475,6 @@
      "published_at": "2026-07-15T20:05:44+00:00"
     },
     {
-     "title": "Investigações comerciais dos EUA já atingem 98% da economia mundial",
-     "link": "https://www.canalrural.com.br/economia/investigacoes-comerciais-dos-eua-ja-atingem-98-da-economia-mundial/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T20:03:41+00:00"
-    },
-    {
-     "title": "Um recomeço para o crédito rural? MP da renegociação de dívidas dá pistas",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/um-recomeco-para-o-credito-rural-mp-da-renegociacao-de-dividas-da-pistas/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T20:00:08+00:00"
-    },
-    {
      "title": "Oscilações climáticas nos EUA movimentam mercado de grãos - Revista Cultivar",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa3kxU1JEeUE4cDFZdVJvam8ySmZBZWhCOVo0UlhycXVuVHVfXzJXajdKcFRwdFdKVUhJRDNFSGU1RVVVcEhuMzI4MUgzR2F6dGVvc0lMS2doZlZmcmI1Q1c2NEhRd005SjlHWFpGZ3pSY2w2YkhDNDE3ajhjNXJZQkV1MERlNFoxWko5TEtMWnNMYjNjRlJ1bnY2dEdldw?oc=5",
      "source": "Revista Cultivar",
@@ -499,12 +505,6 @@
      "published_at": "2026-07-15T16:21:32+00:00"
     },
     {
-     "title": "Soja desvalorizada inibe crescimento na área de sementes forrageiras - Portal DBO",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVVRHQkxUSVZCcmFSRTNsYXp2VGVSVTZiWmtrWFdISl9mbGhYY0hCa3I1Wk5vaElfUFBsam9ickVXUWxUYTZlTEoxSE5ULTBBd3c3ZmtfTEtrWGM5cWxMOHdwdVpZOWJYNEs4eGZNajd1dVBzM1lSYk9GTXRFYlp4MjB5cWRNdDFmWEF4NzVHRHd2WnBRNUxIVTZXV29UeE1nMTBfazVCQjFqckR4QnJ6UFhjeFFwYXFqV2hteA?oc=5",
-     "source": "Portal DBO",
-     "published_at": "2026-07-15T15:33:05+00:00"
-    },
-    {
      "title": "Dívidas rurais: Fazenda e Câmara fecham acordo sobre renegociação, com 10 anos de prazo para quem teve perdas grandes de safra",
      "link": "https://g1.globo.com/economia/noticia/2026/07/15/fazenda-e-camara-anunciam-acordo-sobre-projeto-de-renegociacao-de-dividas-rurais.ghtml",
      "source": "G1 Agronegócios",
@@ -517,10 +517,10 @@
      "published_at": "2026-07-15T15:27:04+00:00"
     },
     {
-     "title": "Safra Francesa de Trigo Soft Projeta Queda de 4% e Acende Alerta no Mercado de Grãos em 2026 - Forbes Brasil",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZ3BUbk03QS1wY3ZoZWtOVEdnMUlNVWl4UTNybnFnaXhrOXd0Zy1wdWpnNjlnb0Z4VlFJTzRXNndtLWJpb0RhMXdkem42dHdpa094c0N6ZkNJRm9jME5HM2NEQzJOdDRRUE1fc2lhclBHeGFzbnk5MlQxNVFTT210OFloSlVvOWVkYjRLcWRaYmF1QWlmaEJ0cG5uaUFKZEtKRFlubVU2VGt5VkhvdFRhSVJTZkV4V19qeGstbE52aTVCbkk1akxlUG9HYkNta1k?oc=5",
-     "source": "Forbes Brasil",
-     "published_at": "2026-07-15T15:17:48+00:00"
+     "title": "Manejo contra doenças e nematoides na soja deve iniciar antes do plantio - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOEpHUnFwcWQwRHEwVTE2cnVZRnFfeE0taWNYdlNXX0FpRUJ4NmdWV3JpTkRQOTZyNk92cll5eE9iNkg3QVBnUGU0MnJJVklVclFGZ3lNVV9pQUIzNklXblRMeElndHdVdmozTW90MFpZbThCWm00UGhtN3lpVktOR0NPLUxOLV9najZwbWl4MVpMNXdxVnNpYmI3cWpodU1kUVlMZ29CeWI1X0lueHp1T0lKT3BSU2tVY0tqeGxR?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-15T14:55:00+00:00"
     },
     {
      "title": "Tarifas dos EUA empurraram Brasil para outros parceiros comerciais, mas dependência chinesa preocupa",

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-15T15:22:56+00:00",
+ "generated_at": "2026-07-15T17:11:09+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-15T15:22:50+00:00",
+   "updated_at": "2026-07-15T17:11:01+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1201.75,
+     "price": 1196.5,
      "prev_close": 1207.25,
-     "change_pct": -0.46,
+     "change_pct": -0.89,
      "closes": [
       1119.25,
       1130.0,
@@ -32,7 +32,7 @@
       1196.5,
       1202.0,
       1207.25,
-      1201.75
+      1196.5
      ]
     },
     {
@@ -70,9 +70,9 @@
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 320.0,
+     "price": 318.4,
      "prev_close": 319.6,
-     "change_pct": 0.13,
+     "change_pct": -0.38,
      "closes": [
       302.0,
       304.8,
@@ -94,16 +94,16 @@
       323.1,
       316.8,
       319.6,
-      320.0
+      318.4
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.31,
+     "price": 70.52,
      "prev_close": 73.04,
-     "change_pct": -3.74,
+     "change_pct": -3.45,
      "closes": [
       74.37,
       72.92,
@@ -125,16 +125,16 @@
       70.86,
       73.04,
       73.04,
-      70.31
+      70.52
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 678.0,
+     "price": 678.5,
      "prev_close": 631.25,
-     "change_pct": 7.41,
+     "change_pct": 7.49,
      "closes": [
       589.75,
       596.0,
@@ -156,16 +156,16 @@
       632.0,
       627.0,
       631.25,
-      678.0
+      678.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 83.73,
+     "price": 84.61,
      "prev_close": 84.73,
-     "change_pct": -1.18,
+     "change_pct": -0.14,
      "closes": [
       83.17,
       78.96,
@@ -187,16 +187,16 @@
       76.01,
       83.3,
       84.73,
-      83.73
+      84.61
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 176329.44,
-     "prev_close": 175739.0,
-     "change_pct": 0.34,
+     "price": 175503.2,
+     "prev_close": 176641.0,
+     "change_pct": -0.64,
      "closes": [
       170415.0,
       169649.0,
@@ -219,7 +219,8 @@
       172742.0,
       177866.0,
       175739.0,
-      176329.4375
+      176641.0,
+      175503.2031
      ]
     }
    ],
@@ -227,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-15T15:22:50+00:00",
+   "updated_at": "2026-07-15T17:11:01+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -238,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-15T15:22:54+00:00",
+   "updated_at": "2026-07-15T17:11:06+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -399,8 +400,80 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-15T15:22:56+00:00",
+   "updated_at": "2026-07-15T17:11:09+00:00",
    "items": [
+    {
+     "title": "Acordo prevê MP para renegociar dívidas de produtores rurais",
+     "link": "https://www.canalrural.com.br/economia/acordo-preve-mp-para-renegociar-dividas-de-produtores-rurais/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T16:51:01+00:00"
+    },
+    {
+     "title": "CPRs em atraso poderão ser renegociadas em até 8 anos, diz Durigan",
+     "link": "https://www.canalrural.com.br/politica/cprs-em-atraso-poderao-ser-renegociadas-em-ate-8-anos-diz-durigan/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T16:47:43+00:00"
+    },
+    {
+     "title": "Renegociação de dívidas rurais terá prazo de até 10 anos, diz Durigan",
+     "link": "https://www.canalrural.com.br/economia/renegociacao-de-dividas-rurais-tera-prazo-de-ate-10-anos-diz-durigan/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T16:28:10+00:00"
+    },
+    {
+     "title": "Argentina colhe 49,7 milhões de toneladas de soja na safra 2025/26 - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNncwR1VmYUZ0VzFDMlB3aEMxOHdhaVcxMllSYlBJdlpqQmVxWUZqNkdGenVSNUp2S25kZG5yU3RlR3drX1ZMM1huZjd5Rkt6WERhemUtUjFHSEVIQWtqR3V4U0hWazR1bDV1elhzeDQzdldXbFY2TE9OYTVxWFdfT3R3ZXpRdVFldTBWVW1IT2JhVTR0aTN5d3hRS2pfU0tXcjdZa1R3dUV3eVZt?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T16:21:32+00:00"
+    },
+    {
+     "title": "Argentina colhe 49,7 milhões de toneladas de soja na safra 2025/26",
+     "link": "https://www.canalrural.com.br/agricultura/argentina-colhe-497-milhoes-de-toneladas-de-soja-na-safra-2025-26/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T16:21:32+00:00"
+    },
+    {
+     "title": "Produção de soja da safra 2025/26 na argentina é a segunda maior em 5 anos - UOL Notícias",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTFhjQ3U2dUh5NFlJVXZRd3JzS2t3cVk4b0hLV0kwLUJ6Y0g1SGxsWUNyZWlaMUtWa0JjeEp1SE80TDR2WkNLd1dKaHYwMEl0R0I2Q2xvTlBqZzJBdndWUWFveXFkdlRmR0tmMDBjRThxdkI5cnFKTWRKMVBYSWxjTFkybnl0MGcxV0QyclNvLTRLNnVFMGF4LXFBOGJlQTlLUUpiVWE2SE9icDRaZF83bUFRS2J4LVozQ3c4dmxuQU1mUVlYVFZoY2stZi1nVG1vUU5vbG5ndjRGeTYyUF91MEt3?oc=5",
+     "source": "UOL Notícias",
+     "published_at": "2026-07-15T16:15:00+00:00"
+    },
+    {
+     "title": "Motta diz que acordo sobre dívidas rurais foi a solução possível",
+     "link": "https://www.canalrural.com.br/politica/motta-diz-que-acordo-sobre-dividas-rurais-foi-a-solucao-possivel/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T15:53:17+00:00"
+    },
+    {
+     "title": "Soja desvalorizada inibe crescimento na área de sementes forrageiras - Portal DBO",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVVRHQkxUSVZCcmFSRTNsYXp2VGVSVTZiWmtrWFdISl9mbGhYY0hCa3I1Wk5vaElfUFBsam9ickVXUWxUYTZlTEoxSE5ULTBBd3c3ZmtfTEtrWGM5cWxMOHdwdVpZOWJYNEs4eGZNajd1dVBzM1lSYk9GTXRFYlp4MjB5cWRNdDFmWEF4NzVHRHd2WnBRNUxIVTZXV29UeE1nMTBfazVCQjFqckR4QnJ6UFhjeFFwYXFqV2hteA?oc=5",
+     "source": "Portal DBO",
+     "published_at": "2026-07-15T15:33:05+00:00"
+    },
+    {
+     "title": "Dívidas rurais: Fazenda e Câmara fecham acordo sobre renegociação, com 10 anos de prazo para quem teve perdas grandes de safra",
+     "link": "https://g1.globo.com/economia/noticia/2026/07/15/fazenda-e-camara-anunciam-acordo-sobre-projeto-de-renegociacao-de-dividas-rurais.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-15T15:32:39"
+    },
+    {
+     "title": "Entregas de fertilizantes crescem 1,6% no primeiro quadrimestre, diz Anda",
+     "link": "https://www.canalrural.com.br/agricultura/entregas-de-fertilizantes-crescem-16-no-primeiro-quadrimestre-diz-anda/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T15:31:09+00:00"
+    },
+    {
+     "title": "Estoques de petróleo dos EUA caem 1,692 milhão de barris na semana",
+     "link": "https://www.canalrural.com.br/economia/estoques-de-petroleo-dos-eua-caem-1692-milhao-de-barris-na-semana/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T15:27:23+00:00"
+    },
+    {
+     "title": "Safra Francesa de Trigo Soft Projeta Queda de 4% e Acende Alerta no Mercado de Grãos em 2026 - Forbes Brasil",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZ3BUbk03QS1wY3ZoZWtOVEdnMUlNVWl4UTNybnFnaXhrOXd0Zy1wdWpnNjlnb0Z4VlFJTzRXNndtLWJpb0RhMXdkem42dHdpa094c0N6ZkNJRm9jME5HM2NEQzJOdDRRUE1fc2lhclBHeGFzbnk5MlQxNVFTT210OFloSlVvOWVkYjRLcWRaYmF1QWlmaEJ0cG5uaUFKZEtKRFlubVU2VGt5VkhvdFRhSVJTZkV4V19qeGstbE52aTVCbkk1akxlUG9HYkNta1k?oc=5",
+     "source": "Forbes Brasil",
+     "published_at": "2026-07-15T15:17:48+00:00"
+    },
     {
      "title": "Manejo contra doenças e nematoides na soja deve iniciar antes do plantio - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOEpHUnFwcWQwRHEwVTE2cnVZRnFfeE0taWNYdlNXX0FpRUJ4NmdWV3JpTkRQOTZyNk92cll5eE9iNkg3QVBnUGU0MnJJVklVclFGZ3lNVV9pQUIzNklXblRMeElndHdVdmozTW90MFpZbThCWm00UGhtN3lpVktOR0NPLUxOLV9najZwbWl4MVpMNXdxVnNpYmI3cWpodU1kUVlMZ29CeWI1X0lueHp1T0lKT3BSU2tVY0tqeGxR?oc=5",
@@ -438,58 +511,10 @@
      "published_at": "2026-07-15T14:15:51+00:00"
     },
     {
-     "title": "BNDES destina R$ 72 bilhões ao agro e Senado aprova novas regras de frete",
-     "link": "https://www.canalrural.com.br/videos/bndes-destina-r-72-bilhoes-ao-agro-e-senado-aprova-novas-regras-de-frete/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T14:15:37+00:00"
-    },
-    {
-     "title": "Meteorologia alerta para calor e seca na Bahia devido ao El Niño",
-     "link": "https://www.canalrural.com.br/videos/meteorologia-alerta-para-calor-e-seca-na-bahia-devido-ao-el-nino/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T14:15:26+00:00"
-    },
-    {
-     "title": "Novo serviço de alerta climático auxilia pecuaristas gaúchos no manejo",
-     "link": "https://www.canalrural.com.br/videos/novo-servico-de-alerta-climatico-auxilia-pecuaristas-gauchos-no-manejo/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T14:15:13+00:00"
-    },
-    {
-     "title": "Inadimplência rural sobe a 8,8% no 1º trimestre e atinge recorde da série da Serasa",
-     "link": "https://www.canalrural.com.br/economia/inadimplencia-rural-sobe-a-88-no-1o-trimestre-e-atinge-recorde-da-serie-da-serasa/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T14:12:51+00:00"
-    },
-    {
-     "title": "Vai chover, fazer calor ou frio no plantio de soja? Saiba as perspectivas para o ciclo 26/27",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/vai-chover-fazer-calor-ou-frio-no-plantio-da-soja-saiba-as-perspectivas-para-o-ciclo-26-27/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T14:08:29+00:00"
-    },
-    {
-     "title": "Roberto Rodrigues analisa desafios da safra 2026 com endividamento e clima",
-     "link": "https://www.canalrural.com.br/videos/roberto-rodrigues-analisa-desafios-da-safra-2026-com-endividamento-e-clima/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T14:08:15+00:00"
-    },
-    {
-     "title": "Aumento da mistura de etanol na gasolina gera incertezas no setor",
-     "link": "https://www.canalrural.com.br/videos/aumento-da-mistura-de-etanol-na-gasolina-gera-incertezas-no-setor/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T14:08:01+00:00"
-    },
-    {
-     "title": "Exportações de milho para o Irã aquecem mercado de grãos no Brasil - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNX001bl9fdzNmSlFxNUsxODlienlJY1p5U0dGX2tZV0NZUzZEOUxMSVlPQjhjM2hvZzgzZ2YxN2s4TkFldWExWnh1TlRXT21OdDViY3NNakFkckt1a2Z2Q1U0V2VmbHZaWno0a3VaWEs2MWZZRjVIc1NiVExheXhNU1FXMVhNaHVBLUo3dVVqVzhDMW96OGh5aHJNd3FkR2w5V0RuV3Robw?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T14:07:00+00:00"
-    },
-    {
      "title": "Preços mínimos de milho, soja e arroz são atualizados - Planeta Arroz",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNM3lmQld2cE5qd1ZDRFpTMDhROV9UQTJ4WjJoWUd1bWZWS0JQRHZPVnZtSFNFRFN5QXEwbnBvaUw3YTJLMzBjaFIySElyTElBcG16QklRMUxUS2szeTdtVnNuVmdGWG54ZlNuMEhjQlFjbDFacXprLVBpTS14QXp0QkFrRGIwSmx3?oc=5",
      "source": "Planeta Arroz",
-     "published_at": "2026-07-15T13:46:37+00:00"
+     "published_at": "2026-07-15T13:46:15+00:00"
     },
     {
      "title": "El Niño deve influenciar abertura do plantio de soja em Mato Grosso do Sul - A Crítica de Campo Grande",
@@ -510,22 +535,10 @@
      "published_at": "2026-07-15T10:55:46+00:00"
     },
     {
-     "title": "Soja oscila entre pressão externa e alta no físico - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYU1EM1ZjZFMwRFFETDNsMDFmZzNZLUxxVTR6U1N5R0tzX1ZGZ1ZxVDNNbjFyQnJTS002b3lEcno4MlZEX2VsQWNNT0llUmpsMGRYMkM0UFpVaU4wUklnTU5mUS1nanZRQXJhazJwdXh2R00yMllnUHd2RXdRcEFma2xYVTJmenhKUXY1V2QycEFYM0tlbUc3TERmOEhhNmxl?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-15T10:40:00+00:00"
-    },
-    {
      "title": "Preço da soja segue com viés de alta no Brasil - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZzRVTXRrSHJqR2xoTlFleC1NVHlMdnFKTjdtWkhpQ3ZuZnVWREF0bnlldkJJM0tuX2NlZFFVZkFMME9udmlVN2JEUFFZYnRYVVctQWxjazNXbGd1MmlhVTRiZFVPTVBuaTIyTFlmUDlwT09zWHZrakJ4Z1NNbDVmdzJCdldQTFd6UUhfZmNPbHpMZUJKS2VFYWhjSXNObFJEOV84M0JmWVczUdIBuAFBVV95cUxOYWxEZTVDTFBnM1ZBSFBXUGRWQ3c5clJ0a3htMjV4WHgycWU5cFcyVm02U0RRZzJBMy12UmY2MHduWU5aQWtlUTdNMmNlR3FaVGtEUGJnZ0N6M3gwYjEtb2VHTmpwNXVPTkx2ZUhtR2FBTGZqOHVPNkt2aVZfM0tSYl9qT3BBNUktZlpzdno3LTVDQnFKdy1WMFAtQTI3cG9zMEhuS2NiN3M2UWVUMmxtb3BiajRST2x1?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-07-15T09:16:08+00:00"
-    },
-    {
-     "title": "Exportações de soja da safra 2025/26 devem crescer 7,5%, diz Conab - brasilagro.com.br",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRE9wNWhpU2JuWVM3UjA5ZVB6b29wVFNrYkVyUVhWbzZsMDlNNWJvLUE3Yml6MkVTeHFBT3dNbHdzQU40c3hFcWNRSzZIR0lVeXpfWTNaNExqakdrUmE4N2NZb3MxUlJPdDlELWFkakJFS2lBZkFrakM4bUhxTDFieDdqMHlfZV9iRzhFQkUyVmtmOW1Ka2FQdkVVTTJqNVFpNHBvRkVraDBKZw?oc=5",
-     "source": "brasilagro.com.br",
-     "published_at": "2026-07-15T08:23:08+00:00"
     },
     {
      "title": "Importação de soja brasileira leva China a bater recorde em junho - brasilagro.com.br",
@@ -552,12 +565,6 @@
      "published_at": "2026-07-15T03:00:26"
     },
     {
-     "title": "SNFZ11 movimenta R$ 325 mil enquanto Conab projeta produção recorde de soja no Brasil - Fiis",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTFJkMG1uWEpVRkhEaTFoSU1tb2twZmNPdmZhRUpwemJlWnhEUkhKRDF5aWRvbVB5QnhWQUZUUmJyV0hKT0UteThyMkRqa2k5dmJTUVVQNDNCZ0ZKQnczRnBUakIxdHNIMzRfVHlnMTlXT1NxUlhyVWdLTllfLVhUcUtONjZULTBSaUlKclhZZmVWcVVxbnlzMHNtRnVGczlVUlE?oc=5",
-     "source": "Fiis",
-     "published_at": "2026-07-14T23:10:05+00:00"
-    },
-    {
      "title": "Guerra no Irã: empresa de fertilizante Mosaic reduz produção no Brasil por falta de enxofre",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/14/guerra-no-irao-empresa-de-fertilizante-mosaic-reduz-producao-no-brasil-por-falta-de-enxofre.ghtml",
      "source": "G1 Agronegócios",
@@ -574,12 +581,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/14/apos-promessas-supermercados-seguem-sem-ampliar-venda-de-ovos-livres-de-gaiolas-diz-estudo.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-14T03:01:10"
-    },
-    {
-     "title": "IAC desenvolve batata-doce que produz 4 vezes mais e tem 'superdose' de vitamina A",
-     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/07/12/iac-desenvolve-batata-doce-que-produz-4-vezes-mais-e-tem-superdose-de-vitamina-a.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-12T10:30:17"
     }
    ],
    "failed": [

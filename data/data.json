@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-15T09:56:17+00:00",
+ "generated_at": "2026-07-15T11:26:47+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-15T09:56:08+00:00",
+   "updated_at": "2026-07-15T11:26:42+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1195.25,
+     "price": 1196.25,
      "prev_close": 1207.25,
-     "change_pct": -0.99,
+     "change_pct": -0.91,
      "closes": [
       1119.25,
       1130.0,
@@ -32,16 +32,16 @@
       1196.5,
       1202.0,
       1207.25,
-      1195.25
+      1196.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 465.0,
+     "price": 465.5,
      "prev_close": 433.75,
-     "change_pct": 7.2,
+     "change_pct": 7.32,
      "closes": [
       415.5,
       413.75,
@@ -63,16 +63,16 @@
       438.0,
       437.75,
       433.75,
-      465.0
+      465.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 317.6,
+     "price": 317.4,
      "prev_close": 319.6,
-     "change_pct": -0.63,
+     "change_pct": -0.69,
      "closes": [
       302.0,
       304.8,
@@ -94,16 +94,16 @@
       323.1,
       316.8,
       319.6,
-      317.6
+      317.4
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.85,
+     "price": 70.96,
      "prev_close": 73.04,
-     "change_pct": -3.0,
+     "change_pct": -2.85,
      "closes": [
       74.37,
       72.92,
@@ -125,16 +125,16 @@
       70.86,
       73.04,
       73.04,
-      70.85
+      70.96
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 663.25,
+     "price": 664.5,
      "prev_close": 631.25,
-     "change_pct": 5.07,
+     "change_pct": 5.27,
      "closes": [
       589.75,
       596.0,
@@ -156,16 +156,16 @@
       632.0,
       627.0,
       631.25,
-      663.25
+      664.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 85.32,
+     "price": 85.48,
      "prev_close": 84.73,
-     "change_pct": 0.7,
+     "change_pct": 0.89,
      "closes": [
       83.17,
       78.96,
@@ -187,7 +187,7 @@
       76.01,
       83.3,
       84.73,
-      85.32
+      85.48
      ]
     },
     {
@@ -226,7 +226,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-15T09:56:08+00:00",
+   "updated_at": "2026-07-15T11:26:42+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -237,7 +237,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-15T09:56:13+00:00",
+   "updated_at": "2026-07-15T11:26:45+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -398,8 +398,38 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-15T09:56:17+00:00",
+   "updated_at": "2026-07-15T11:26:47+00:00",
    "items": [
+    {
+     "title": "Previsão do tempo: veja onde há risco de temporais e geada nesta quarta-feira",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/previsao-do-tempo-veja-onde-ha-risco-de-temporais-e-geada-nesta-quarta-feira/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T11:12:21+00:00"
+    },
+    {
+     "title": "Inflação fraca nos EUA alivia juros, mas petróleo limita otimismo do mercado; ouça o podcast",
+     "link": "https://www.canalrural.com.br/economia/inflacao-fraca-nos-eua-alivia-juros-mas-petroleo-limita-otimismo-do-mercado-ouca-o-podcast/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T11:03:07+00:00"
+    },
+    {
+     "title": "Soja volta a se aproximar dos US$ 12 em Chicago com novas altas nesta 4ª feira (15) - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWF9rVFdfaFp1ZDVPQ21mRlhmYjRvSWl4VVVnNC1TSWRvQ3ZGUjNpTUE2a1VmYkJmNG45b2hWVDlUTE9ISDA0VlVRRnRsZHhkQ090LW5fLVFrbkZ6UEFhLWJ3LUVIY19ob1RjTFpuY0NQbkt6aWxickhmX05RU21nZUNKTWNoNE1YOFAxck1STVFqVEZRTFcwdERpVTV1dnhqdTF6Ml9ocjFsYVVPMVp0bTVKNE0tWUV5TUZYZTdOcmZpeWFPVlJkRWhiX1FsSmdGRUQxbXFMR2psQdIB3wFBVV95cUxPMW4yQms3OEpCYkZyMUZfblI1Q3NVaTNYQTdaek55RlFYb29vMGxxVFZfdExmWlFuZzNTeTVnMW1YS0dDWWxhUXpZYlk0MEFlRklZU2p5SUw3WGZOV0dfSTd1bGs0aEl4Zzh6eUh1UmVDMlEybHpyVXNkMG9uQ1p5UHU0TWl5dTRlS3BHN0RleXZDMnNxVks2VTAzTURLLS1ENU1qbG1hVGF5cEYxMW1FWEdueU51dzVYa1BaNmNKSk9xYUpaRTFfWmxucThUTm5NNTVaY3NnbkJoN1pzVExJ?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-15T10:55:46+00:00"
+    },
+    {
+     "title": "Soja oscila entre pressão externa e alta no físico - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYU1EM1ZjZFMwRFFETDNsMDFmZzNZLUxxVTR6U1N5R0tzX1ZGZ1ZxVDNNbjFyQnJTS002b3lEcno4MlZEX2VsQWNNT0llUmpsMGRYMkM0UFpVaU4wUklnTU5mUS1nanZRQXJhazJwdXh2R00yMllnUHd2RXdRcEFma2xYVTJmenhKUXY1V2QycEFYM0tlbUc3TERmOEhhNmxl?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-15T10:40:00+00:00"
+    },
+    {
+     "title": "A soja lembra da seca? - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBiNjl3QlZTeG9yX0ItajduejhfeFdTZE9TNEZieEJmRHVBTER2YlhqX1pBYnZpaVRNanZsZUJGVTBKamlCbGhIdjRsd0lCZEF6OGJ1bzJhMmtoTTJXN2RXQXI2UWs2aHY4X08zaTlyQk12VXhtNFNyTERrQQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-15T10:00:00+00:00"
+    },
     {
      "title": "Preço da soja segue com viés de alta no Brasil - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZzRVTXRrSHJqR2xoTlFleC1NVHlMdnFKTjdtWkhpQ3ZuZnVWREF0bnlldkJJM0tuX2NlZFFVZkFMME9udmlVN2JEUFFZYnRYVVctQWxjazNXbGd1MmlhVTRiZFVPTVBuaTIyTFlmUDlwT09zWHZrakJ4Z1NNbDVmdzJCdldQTFd6UUhfZmNPbHpMZUJKS2VFYWhjSXNObFJEOV84M0JmWVczUdIBuAFBVV95cUxOYWxEZTVDTFBnM1ZBSFBXUGRWQ3c5clJ0a3htMjV4WHgycWU5cFcyVm02U0RRZzJBMy12UmY2MHduWU5aQWtlUTdNMmNlR3FaVGtEUGJnZ0N6M3gwYjEtb2VHTmpwNXVPTkx2ZUhtR2FBTGZqOHVPNkt2aVZfM0tSYl9qT3BBNUktZlpzdno3LTVDQnFKdy1WMFAtQTI3cG9zMEhuS2NiN3M2UWVUMmxtb3BiajRST2x1?oc=5",
@@ -491,34 +521,10 @@
      "published_at": "2026-07-14T22:21:10+00:00"
     },
     {
-     "title": "MDIC mantém contato com os EUA e aguarda definição sobre tarifas",
-     "link": "https://www.canalrural.com.br/economia/mdic-mantem-contato-com-os-eua-e-aguarda-definicao-sobre-tarifas/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T22:16:41+00:00"
-    },
-    {
-     "title": "Mercado de etanol deve ter ampliação de 6% após instituição do E32, projeta NovaBio",
-     "link": "https://www.canalrural.com.br/economia/mercado-de-etanol-deve-ter-ampliacao-de-6-apos-instituicao-do-e32-projeta-novabio/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T22:15:09+00:00"
-    },
-    {
      "title": "Soja: queda em Chicago reduz preços e deixa negociações estagnadas no Brasil - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOM0YtNHNVR0tIb0VHdkllZTdYZzExVllQYkh6UmxmS3dkWlpGd0VXR2xsalVPNjlrUjNhdXVqUUdGM3dzSXp2bHBuVDlTWHY1c2ZkMlpwV04wNVNFNFI5cC1NS3duT2cyNWNtMkdPNWJCTHF5RHA4RHFZdDExdHEwMXFJc0JiRlRCQlRsYmlsdFc0ZFNHaWNTbnM0Q1dZZTNqN05JcDBqak9Ma1pBRVdMallfQkt2d3FKQTZnbENkNHotLV9NdXVEYUpjUEhPS1hzRENPOGNWakQ1amt0RllCelVlSQ?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-14T21:54:21+00:00"
-    },
-    {
-     "title": "Exportações de soja da safra 2025/26 devem crescer 7,5%, diz Conab - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUDVKMjA3dnVoZVpSYS1DSXdFa2MzUmQtaFRnR1dRd2NtWGNiU01pYVFVNGZkdXQ4TGpQclpRMFJVX1U4MGhKOWlVWV9EaE94XzU2cmhORjZuOHMxZnJEZVJJbENEU3Y1QW9oRmY4UGxGdExyUDdsOWRrYldJYnozdTNjbEdlU2dHa2lqd3c1SG1lZl8wSEhPXzkwdUczX1ZzSkpkdk9Cd2JzSmI2eVlrT2gyb1ZXZEV1ZllGWF9ZME1UUlh6VlNDUndmelY3Tjl5d0dF0gHiAUFVX3lxTE1iYnlEa1NxM2hlVldtZ2Exb01PWHVGNV9IVUdNNHF3UmlweW9UVXllc0ZBcGpHWmFDZTd3UTlYejZaQ2t6TExicndGMXAxM3l4SXhEd1dVQmZSaGpyUlJISGoxOFR3Y3k3Q3BPZmdtLXJpcXA4VGZwSklQQmczRzRiQWRuX1htNjRvMTd1TmRuOVQ3NWV0N1VuM3lPeW5sX09VdFg0bEJQelp6N210eTNrMWMxVUVfbzU2YzdEcGxZTk9HUWgzYUEwZzQ3UGV2bzd1U1draWZ0bGxLVktfS3RnUFE?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-14T19:35:34+00:00"
-    },
-    {
-     "title": "Dessecação pré-plantio da soja: como escolher herbicidas - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLTY4Z1lVcEs1T1l4TUMwelk5RmJlamFndW9RQXJZaUkxd3djNzU2QnJJcXpnU0JJc0JGSEJGUjgydFNLUVd5YWgtTk1KaDl1ak9KeXhJM1Q2OUJWVGNqTENNVTA5cm42R3dLQjNkcXA4bWh5ZUFLZXcyREpsalhYNmdFYWlIa0lVZWduZGMza2YzYnc3MGtOQ0dXd3dtR1Z4M3dZWUdRM3o?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-14T19:33:00+00:00"
     },
     {
      "title": "Preços mínimos de milho, soja e arroz são atualizados - Revista Cultivar",
@@ -527,22 +533,10 @@
      "published_at": "2026-07-14T19:11:19+00:00"
     },
     {
-     "title": "Anec eleva projeções de exportações de soja, milho e farelo de soja do Brasil em julho - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQ0tjX3N2WllQcXNkRFNTR2xNZ3FUbURsZTBlN3hEMXVza1Y0WU5mX2JDYTk5bnp0YWRwWm5wQ2ZoWVpHTFRPeUtLRFhJUUppSGxRRUpMeGh0NG1kWHBOTzZzeHlyR2liRHM1LWlQYXV4VFp2U2RsSVF3Wk13U2lhVzdtc0RBNHp4d2gySHRHRXBwUXFjWHFvMWtEcC1HV3FtOVdwckZ5R3AyUWFxOFhqelh5SDN1N0V4MFVaU0FoMXhQN0wxbzk1bDluMWFkTFZCTFQ1WWczUE50ejdMV0puekNGTdIB6AFBVV95cUxPTm1uUTNBbFNjYXhHVGdOMzV6QVNjMlMxMFVSSzdDVXNKVVZyZ0ViSDE2SFJNMjNSYjhUVnlJNld3cDhIOXBJVE1FeXRKdFQ2Qy1PczduVzNxaUlTa3lVZHpIclJvdy1aT2VoaVg0MmdkZFgyTEhqeXF4MHVxQUcwRENYTktOSDBmNzZaN2RqXzhqTThVaVVJR0FQRU1UZWJoUHdjVjBGUnFUd0NFVjR0eDRnaEFyLXdvUFA1SVljUEZrbUFWa2lYal9HdDBtRXNRVTNvVlRSYmlGT2VfQVpoc3VOb2t3VmNw?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-14T18:19:06+00:00"
-    },
-    {
      "title": "Soja cai em Chicago nesta 3ª feira e preços acompanham movimento no Brasil com pressão adicional do dólar - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQV1dxLVFGZkNKYXdqenh1YlpkYXpDYzhkTTFYTXpfeWZQb0dJSmhsOW1wNmNoN0JxVmt1dVpnc2k4Zl8xSG1NcDZjVmdVbkZjbGRTalhHMTFPakpQRHhqaWNxQVRjNXRWdWJtdXRHVXpkVTlkOUQ3M3lWSkhxTFVwbFN3ZVBBeHR0b1NienpXUTlKMHk1UTBoMVl5OXZNczFBSWdGd0VJY3FZeFNsQk1ROFZGeTF0UWFYT3p6XzRWTmtsaTRpSVpxT2xEVUhNQVRKa1h3VDhlbjJ1cjl5M3NLekFMLVlyUDBWZkVVTTVVRE90M2JtWHM3cms5UdIBgAJBVV95cUxNaF9ldW4tMzNtdU1BeWFrODlzNk1kdlpEb1hZajhZT2VDQjNnTjFYSWJuZkJZYURwYkNaUnRZbFFLQlhtWGNaZzR0blg5ejk4SFBUWWZEN09ramNTMHlPWVJjbHBrNmhSRmJNYXVaUjJyOURVVk1xMjU5UElXY04yRklnajBjN0pTb25DZExRUVE0eWNEQnhydFQ0eE1Nc29wSy1pRzF0RXQzRTJMbFVnXzJEUUVDR2JXQ3BWMzJCbV85RWpsVzVBdHJNNkk2dFdIdnBSY0F0d0VmcEwyZXd1QWFBel9yMGNpR1J1TklhNXRpTGJGTXlzTjR6blRHVzUt?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-14T16:16:45+00:00"
-    },
-    {
-     "title": "Soja: El Niño entra no radar da safra 2026/27 - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb2J5emtHOTJZblpEMDRUcGtlU3dpd1hCTzByTEhoWFZlcDdfTm9uQUh6N0NDUjVDSHhXcUMtYU5SOUNNdm9ETzZzdE9rSGg0ajRvUEtlMHd6d3dKVW9McnRnT3hTWWR1VGthd2NwcVNPWmVicEhCNEpKTTNSZjE5V3hUdTljb1phR0pia2hyeVpTOEtNSlE1NzJn?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-14T14:24:00+00:00"
     },
     {
      "title": "Guerra no Irã: empresa de fertilizante Mosaic reduz produção no Brasil por falta de enxofre",
@@ -567,6 +561,12 @@
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORmRUVGxLbmw0bzF1MEtRNF9sWG5CZ2NmaHI2c1BhMHZ5MTJGajNGaVAyVDV5UHJHVDZTR0R3VW91LUV2VW5ELTBYQ09VWmRiOFpkUlpEQVJhVWRVOVNfSG95LWRnMEh3cXotaGg4Xy1meXdxZzJkazFhV0FaSnRiS2V6SDROczR4MkZhMWtmX0pKZTItaWppUHZxWS1VWWJoaFI2WUVHLXJJalhUSVFPaHduZk4?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-13T11:48:30+00:00"
+    },
+    {
+     "title": "Equipe FieldCrops da UFSM coordena evento de soja no Paraguai - UFSM",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSmtXTnZPQ1dCY3JsWXZWTGE1cjJIejNmYzJKZDQwZHZUMlJ6QnZfZ0VaRlc2RTltZkVuQXRwWUF1MlFfWnlsdWNBMkNHbDdtTFp3Q1A1TmtMdTBZcHpIa2F3THpOdXYtbktmMU96VHdaRV9zX1R3U0pWcGhQeTJhTVRUM2F1TzdlV0VOYnphN0ljNTdxYUlF0gGcAUFVX3lxTE9vZi1rZnJ2R2NiSkZ2Rk96MGZNM1FpVjBEcGNFbjVwVkZESF9aNGtlUzNaQXFyTUg0bjRmaHhtRXJGeEhYVU1RQ0VGMUNGWFNXMklmMzhFZnVrR1JoZWJmTi1iLUh4UHJBMkNvZ1NGNjN2d1Y1YmxoTTEyalBMY3lVVng5LVZ1SFZSdEY5U092ZXJKc3VQQ3k3LVZteg?oc=5",
+     "source": "UFSM",
+     "published_at": "2026-07-13T11:20:51+00:00"
     },
     {
      "title": "IAC desenvolve batata-doce que produz 4 vezes mais e tem 'superdose' de vitamina A",

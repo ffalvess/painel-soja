@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-15T01:52:13+00:00",
+ "generated_at": "2026-07-15T04:46:58+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-15T01:52:05+00:00",
+   "updated_at": "2026-07-15T04:46:49+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1196.0,
-     "prev_close": 1202.0,
-     "change_pct": -0.5,
+     "price": 1194.25,
+     "prev_close": 1207.25,
+     "change_pct": -1.08,
      "closes": [
       1119.25,
       1130.0,
@@ -31,16 +31,17 @@
       1179.75,
       1196.5,
       1202.0,
-      1196.0
+      1207.25,
+      1194.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 460.75,
-     "prev_close": 437.75,
-     "change_pct": 5.25,
+     "price": 461.25,
+     "prev_close": 433.75,
+     "change_pct": 6.34,
      "closes": [
       415.5,
       413.75,
@@ -61,16 +62,17 @@
       427.75,
       438.0,
       437.75,
-      460.75
+      433.75,
+      461.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 317.4,
-     "prev_close": 316.8,
-     "change_pct": 0.19,
+     "price": 316.9,
+     "prev_close": 319.6,
+     "change_pct": -0.84,
      "closes": [
       302.0,
       304.8,
@@ -91,16 +93,17 @@
       319.5,
       323.1,
       316.8,
-      317.4
+      319.6,
+      316.9
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.03,
+     "price": 70.93,
      "prev_close": 73.04,
-     "change_pct": -2.75,
+     "change_pct": -2.89,
      "closes": [
       74.37,
       72.92,
@@ -121,16 +124,17 @@
       70.45,
       70.86,
       73.04,
-      71.03
+      73.04,
+      70.93
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 646.0,
-     "prev_close": 627.0,
-     "change_pct": 3.03,
+     "price": 646.25,
+     "prev_close": 631.25,
+     "change_pct": 2.38,
      "closes": [
       589.75,
       596.0,
@@ -151,16 +155,17 @@
       611.25,
       632.0,
       627.0,
-      646.0
+      631.25,
+      646.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 85.66,
-     "prev_close": 83.3,
-     "change_pct": 2.83,
+     "price": 85.51,
+     "prev_close": 84.73,
+     "change_pct": 0.92,
      "closes": [
       83.17,
       78.96,
@@ -181,7 +186,8 @@
       76.3,
       76.01,
       83.3,
-      85.66
+      84.73,
+      85.51
      ]
     },
     {
@@ -189,8 +195,8 @@
      "name": "Ibovespa",
      "unit": "pontos",
      "price": 176641.1,
-     "prev_close": 175739.0,
-     "change_pct": 0.51,
+     "prev_close": 177866.0,
+     "change_pct": -0.69,
      "closes": [
       170415.0,
       169649.0,
@@ -212,8 +218,7 @@
       170654.0,
       172742.0,
       177866.0,
-      175739.0,
-      176641.0938
+      175739.0
      ]
     }
    ],
@@ -221,7 +226,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-15T01:52:05+00:00",
+   "updated_at": "2026-07-15T04:46:49+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -232,96 +237,96 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-15T01:52:10+00:00",
+   "updated_at": "2026-07-15T04:46:54+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
      "dates": [
-      "2026-07-14",
       "2026-07-15",
       "2026-07-16",
       "2026-07-17",
       "2026-07-18",
       "2026-07-19",
-      "2026-07-20"
+      "2026-07-20",
+      "2026-07-21"
      ],
      "precip": [
-      0.1,
       0.5,
       1.2,
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
      ],
      "tmax": [
-      32.6,
       34.3,
       33.0,
       33.3,
       33.4,
       33.6,
-      34.0
+      34.0,
+      35.2
      ],
      "tmin": [
-      19.6,
       21.7,
       22.3,
       22.3,
       22.2,
       21.8,
-      21.6
+      21.6,
+      23.1
      ]
     },
     {
      "name": "Sinop · MT",
      "dates": [
-      "2026-07-14",
       "2026-07-15",
       "2026-07-16",
       "2026-07-17",
       "2026-07-18",
       "2026-07-19",
-      "2026-07-20"
+      "2026-07-20",
+      "2026-07-21"
      ],
      "precip": [
-      0.0,
       0.7,
       1.4,
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
      ],
      "tmax": [
-      31.3,
       32.3,
       31.8,
       32.1,
       32.2,
       32.4,
-      33.4
+      33.4,
+      34.3
      ],
      "tmin": [
-      19.4,
       21.2,
       21.3,
       21.6,
       21.0,
       20.7,
-      20.5
+      20.5,
+      22.6
      ]
     },
     {
      "name": "Rio Verde · GO",
      "dates": [
-      "2026-07-14",
       "2026-07-15",
       "2026-07-16",
       "2026-07-17",
       "2026-07-18",
       "2026-07-19",
-      "2026-07-20"
+      "2026-07-20",
+      "2026-07-21"
      ],
      "precip": [
       0.0,
@@ -333,68 +338,80 @@
       0.0
      ],
      "tmax": [
-      25.5,
       28.9,
       29.3,
       28.4,
       29.0,
       29.0,
-      29.6
+      29.6,
+      30.8
      ],
      "tmin": [
-      12.3,
       14.6,
       18.1,
       16.6,
       16.2,
       17.0,
-      17.1
+      17.1,
+      19.9
      ]
     },
     {
      "name": "Dourados · MS",
      "dates": [
-      "2026-07-14",
       "2026-07-15",
       "2026-07-16",
       "2026-07-17",
       "2026-07-18",
       "2026-07-19",
-      "2026-07-20"
+      "2026-07-20",
+      "2026-07-21"
      ],
      "precip": [
-      0.0,
       0.0,
       0.0,
       0.1,
       0.0,
       0.0,
+      0.0,
       0.0
      ],
      "tmax": [
-      22.2,
       24.7,
       30.8,
       30.3,
       30.3,
       30.9,
-      30.9
+      30.9,
+      32.3
      ],
      "tmin": [
-      9.9,
       11.7,
       16.1,
       20.4,
       21.8,
       20.8,
-      20.7
+      20.7,
+      22.5
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-15T01:52:13+00:00",
+   "updated_at": "2026-07-15T04:46:58+00:00",
    "items": [
+    {
+     "title": "Nova Zelândia confirma primeiro caso de gripe aviária",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/15/nova-zelandia-confirma-primeiro-caso-de-gripe-aviaria.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-15T04:23:58"
+    },
+    {
+     "title": "Tarifaço de Trump: EUA definem nesta quarta se aplicam novas taxas ao Brasil",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/15/tarifaco-de-trump-eua-definem-nesta-quarta-se-aplicam-novas-taxas-ao-brasil.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-15T03:00:26"
+    },
     {
      "title": "Brasil e USTR fazem quinta reunião sobre tarifas a produtos brasileiros",
      "link": "https://www.canalrural.com.br/economia/brasil-e-ustr-fazem-quinta-reuniao-sobre-tarifas-a-produtos-brasileiros/",
@@ -456,16 +473,10 @@
      "published_at": "2026-07-14T22:15:09+00:00"
     },
     {
-     "title": "Soja: queda em Chicago e no dólar reduz preços e deixa negociações estagnadas no Brasil - Canal Rural",
+     "title": "Soja: queda em Chicago reduz preços e deixa negociações estagnadas no Brasil - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOM0YtNHNVR0tIb0VHdkllZTdYZzExVllQYkh6UmxmS3dkWlpGd0VXR2xsalVPNjlrUjNhdXVqUUdGM3dzSXp2bHBuVDlTWHY1c2ZkMlpwV04wNVNFNFI5cC1NS3duT2cyNWNtMkdPNWJCTHF5RHA4RHFZdDExdHEwMXFJc0JiRlRCQlRsYmlsdFc0ZFNHaWNTbnM0Q1dZZTNqN05JcDBqak9Ma1pBRVdMallfQkt2d3FKQTZnbENkNHotLV9NdXVEYUpjUEhPS1hzRENPOGNWakQ1amt0RllCelVlSQ?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-14T21:54:21+00:00"
-    },
-    {
-     "title": "Soja: line-up prevê embarques de 13,757 mi de toneladas pelo Brasil em julho - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOM2pQZE1HUkNjU1FLRmtyajFSN1NBX3BINW5mMUZUSVBtVFJ2THhrNnhtQnUzNkt3SHhDNm1XTUpIVWVJZThUWmhuTHZla0pzZVRIR2tiQUhTTkNZZ01VSzIxX3hMbHd0R3VfU3RDVVpGM1pxc21ka3c5ZG44SUNvNnRTYjZyZ1FYa2VZWUw0V2o2bTRoU21vVk94T0VTY0lvSmVEa0pWY3I3VUxJbFNqY2VHVTFOV2FSYnVNT1ZIYnNEeHpfYWlpMjlLZWc1bVk5TjVN?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T20:15:44+00:00"
     },
     {
      "title": "Exportações de soja da safra 2025/26 devem crescer 7,5%, diz Conab - Globo Rural",
@@ -517,7 +528,7 @@
     },
     {
      "title": "Importação de soja pela China bate recorde em junho, impulsionada pelo Brasil - InfoMoney",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONWNWMUxydXRBNEpRMFpoT3hzNU1OVzlja2NyWE9Xb21reFdISlZZbnM3UFI0YUMyaHlYQnFNamVseEJaUXJ5Y2FRUzhxN1V4SVJFR2tNOV91QURJVDF1ZnNiZnpRRlJDZzlhU1VpdEp3VzJTdE1xaEk2ZXhTT1dmbTUxSlRTNjFNX1ZKbDh0bW9mWnVEZjIyM2I1UFctclBlQVY3WWk0VUd5QzBOd2FWWnROUmRXdw?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONWNWMUxydXRBNEpRMFpoT3hzNU1OVzlja2NyWE9Xb21reFdISlZZbnM3UFI0YUMyaHlYQnFNamVseEJaUXJ5Y2FRUzhxN1V4SVJFR2tNOV91QURJVDF1ZnNiZnpRRlJDZzlhU1VpdEp3VzJTdE1xaEk2ZXhTT1dmbTUxSlRTNjFNX1ZKbDh0bW9mWnVEZjIyM2I1UFctclBlQVY3WWk0VUd5QzBOd2FWWnROUmRXd9IBuwFBVV95cUxPVmJxZmZHNTRsa3R3aEM5MnJGTHN3aVk0ckNrZ1AyOHZnVm1waDM4VVl2T2hZVWZIZXRoeFIxbmhCeVY3WkhSNDdIaV9uODRiVU40elNBcUdGVENDN1o5QXlFSmhmbWRNVFh2ZV9qY3J3SnRsaU1md0N3YzMwd3pVbVp0bkNJTjBxaUhnbl90SWc2OEptYmhuX1pDX2pLR3kwZDRERURJaHR6RU9Qa25MRmcycGdqRG96QUpB?oc=5",
      "source": "InfoMoney",
      "published_at": "2026-07-14T12:39:46+00:00"
     },
@@ -546,6 +557,12 @@
      "published_at": "2026-07-14T03:01:10"
     },
     {
+     "title": "Soja volta aos R$ 140 nos portos e demanda externa impulsiona preços no Brasil - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORmRUVGxLbmw0bzF1MEtRNF9sWG5CZ2NmaHI2c1BhMHZ5MTJGajNGaVAyVDV5UHJHVDZTR0R3VW91LUV2VW5ELTBYQ09VWmRiOFpkUlpEQVJhVWRVOVNfSG95LWRnMEh3cXotaGg4Xy1meXdxZzJkazFhV0FaSnRiS2V6SDROczR4MkZhMWtmX0pKZTItaWppUHZxWS1VWWJoaFI2WUVHLXJJalhUSVFPaHduZk4?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-13T11:48:30+00:00"
+    },
+    {
      "title": "IAC desenvolve batata-doce que produz 4 vezes mais e tem 'superdose' de vitamina A",
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/07/12/iac-desenvolve-batata-doce-que-produz-4-vezes-mais-e-tem-superdose-de-vitamina-a.ghtml",
      "source": "G1 Agronegócios",
@@ -562,18 +579,6 @@
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/07/12/cultivo-de-girassol-vira-alternativa-de-renda-para-produtores-no-interior-de-sp.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-12T10:30:15"
-    },
-    {
-     "title": "Receita Nosso Campo: aprenda a fazer um bolo de jatobá sem glúten e sem lactose",
-     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/07/12/receita-nosso-campo-aprenda-a-fazer-um-bolo-de-jatoba-sem-gluten-e-sem-lactose.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-12T10:30:13"
-    },
-    {
-     "title": "Por que a carne não deve ficar mais barata mesmo com a redução das exportações para a China?",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/12/por-que-a-carne-nao-deve-ficar-mais-barata.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-12T09:00:36"
     }
    ],
    "failed": [

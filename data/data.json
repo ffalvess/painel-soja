@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-15T21:53:32+00:00",
+ "generated_at": "2026-07-15T22:54:08+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-15T21:53:25+00:00",
+   "updated_at": "2026-07-15T22:53:58+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -163,9 +163,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 85.63,
+     "price": 85.64,
      "prev_close": 84.73,
-     "change_pct": 1.06,
+     "change_pct": 1.07,
      "closes": [
       83.17,
       78.96,
@@ -187,7 +187,7 @@
       76.01,
       83.3,
       84.73,
-      85.63
+      85.64
      ]
     },
     {
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-15T21:53:25+00:00",
+   "updated_at": "2026-07-15T22:53:58+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-15T21:53:29+00:00",
+   "updated_at": "2026-07-15T22:54:02+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,8 +400,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-15T21:53:32+00:00",
+   "updated_at": "2026-07-15T22:54:08+00:00",
    "items": [
+    {
+     "title": "‘Produtor gaúcho precisa de 54 sacas de soja para pagar dívidas; MP não me ajuda’, diz agricultor",
+     "link": "https://www.canalrural.com.br/agricultura/produtor-gaucho-precisa-de-54-sacas-de-soja-para-pagar-dividas-mp-nao-me-ajuda-diz-agricultor/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T22:08:39+00:00"
+    },
+    {
+     "title": "Preços da soja sobem com Chicago em alta; confira as os números no Brasil",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/precos-da-soja-sobem-com-chicago-em-alta-confira-as-os-numeros-no-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T22:02:39+00:00"
+    },
     {
      "title": "MP das dívidas rurais prevê carência, prazo maior e fundo contra perdas climáticas",
      "link": "https://www.canalrural.com.br/diversos/mp-das-dividas-rurais-preve-carencia-prazo-maior-e-fundo-contra-perdas-climaticas/",
@@ -461,18 +473,6 @@
      "link": "https://www.canalrural.com.br/videos/fazenda-de-itapetininga-se-destaca-com-quase-96-sacas-de-soja-por-hectare/",
      "source": "Canal Rural",
      "published_at": "2026-07-15T20:06:19+00:00"
-    },
-    {
-     "title": "Dia Nacional do Pecuarista destaca a importância da pecuária no Brasil",
-     "link": "https://www.canalrural.com.br/videos/dia-nacional-do-pecuarista-destaca-a-importancia-da-pecuaria-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T20:05:58+00:00"
-    },
-    {
-     "title": "Senado aprova medida provisória do frete e adia votação do Profert",
-     "link": "https://www.canalrural.com.br/videos/senado-aprova-medida-provisoria-do-frete-e-adia-votacao-do-profert/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T20:05:44+00:00"
     },
     {
      "title": "Oscilações climáticas nos EUA movimentam mercado de grãos - Revista Cultivar",

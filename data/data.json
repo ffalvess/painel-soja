@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-14T23:47:07+00:00",
+ "generated_at": "2026-07-15T01:52:13+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-14T23:46:58+00:00",
+   "updated_at": "2026-07-15T01:52:05+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1190.5,
+     "price": 1196.0,
      "prev_close": 1202.0,
-     "change_pct": -0.96,
+     "change_pct": -0.5,
      "closes": [
       1119.25,
       1130.0,
@@ -31,16 +31,16 @@
       1179.75,
       1196.5,
       1202.0,
-      1190.5
+      1196.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 459.5,
+     "price": 460.75,
      "prev_close": 437.75,
-     "change_pct": 4.97,
+     "change_pct": 5.25,
      "closes": [
       415.5,
       413.75,
@@ -61,16 +61,16 @@
       427.75,
       438.0,
       437.75,
-      459.5
+      460.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 316.2,
+     "price": 317.4,
      "prev_close": 316.8,
-     "change_pct": -0.19,
+     "change_pct": 0.19,
      "closes": [
       302.0,
       304.8,
@@ -91,16 +91,16 @@
       319.5,
       323.1,
       316.8,
-      316.2
+      317.4
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.69,
+     "price": 71.03,
      "prev_close": 73.04,
-     "change_pct": -3.22,
+     "change_pct": -2.75,
      "closes": [
       74.37,
       72.92,
@@ -121,16 +121,16 @@
       70.45,
       70.86,
       73.04,
-      70.69
+      71.03
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 644.0,
+     "price": 646.0,
      "prev_close": 627.0,
-     "change_pct": 2.71,
+     "change_pct": 3.03,
      "closes": [
       589.75,
       596.0,
@@ -151,16 +151,16 @@
       611.25,
       632.0,
       627.0,
-      644.0
+      646.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 85.28,
+     "price": 85.66,
      "prev_close": 83.3,
-     "change_pct": 2.38,
+     "change_pct": 2.83,
      "closes": [
       83.17,
       78.96,
@@ -181,7 +181,7 @@
       76.3,
       76.01,
       83.3,
-      85.28
+      85.66
      ]
     },
     {
@@ -221,7 +221,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-14T23:46:58+00:00",
+   "updated_at": "2026-07-15T01:52:05+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -232,7 +232,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-14T23:47:03+00:00",
+   "updated_at": "2026-07-15T01:52:10+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -246,9 +246,9 @@
       "2026-07-20"
      ],
      "precip": [
-      0.3,
-      0.2,
-      0.7,
+      0.1,
+      0.5,
+      1.2,
       0.0,
       0.0,
       0.0,
@@ -256,21 +256,21 @@
      ],
      "tmax": [
       32.6,
-      33.9,
-      32.7,
-      33.2,
+      34.3,
+      33.0,
+      33.3,
       33.4,
-      33.7,
-      34.3
+      33.6,
+      34.0
      ],
      "tmin": [
       19.6,
-      21.3,
-      22.5,
-      22.4,
-      22.7,
-      22.0,
-      21.9
+      21.7,
+      22.3,
+      22.3,
+      22.2,
+      21.8,
+      21.6
      ]
     },
     {
@@ -286,8 +286,8 @@
      ],
      "precip": [
       0.0,
-      0.1,
-      1.1,
+      0.7,
+      1.4,
       0.0,
       0.0,
       0.0,
@@ -296,20 +296,20 @@
      "tmax": [
       31.3,
       32.3,
-      31.7,
-      32.0,
+      31.8,
+      32.1,
       32.2,
-      32.5,
-      33.6
+      32.4,
+      33.4
      ],
      "tmin": [
       19.4,
-      20.9,
+      21.2,
       21.3,
-      21.5,
-      21.3,
-      20.6,
-      20.6
+      21.6,
+      21.0,
+      20.7,
+      20.5
      ]
     },
     {
@@ -333,21 +333,21 @@
       0.0
      ],
      "tmax": [
-      25.0,
-      28.3,
-      28.7,
-      28.0,
-      28.8,
+      25.5,
       28.9,
-      29.5
+      29.3,
+      28.4,
+      29.0,
+      29.0,
+      29.6
      ],
      "tmin": [
       12.3,
-      13.9,
-      17.7,
-      15.9,
-      16.3,
-      16.8,
+      14.6,
+      18.1,
+      16.6,
+      16.2,
+      17.0,
       17.1
      ]
     },
@@ -366,35 +366,59 @@
       0.0,
       0.0,
       0.0,
-      0.2,
+      0.1,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      21.7,
-      24.0,
-      30.6,
-      29.9,
-      30.0,
+      22.2,
+      24.7,
       30.8,
-      30.7
+      30.3,
+      30.3,
+      30.9,
+      30.9
      ],
      "tmin": [
       9.9,
-      11.3,
-      15.7,
-      20.3,
-      21.4,
-      21.2,
-      20.8
+      11.7,
+      16.1,
+      20.4,
+      21.8,
+      20.8,
+      20.7
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-14T23:47:07+00:00",
+   "updated_at": "2026-07-15T01:52:13+00:00",
    "items": [
+    {
+     "title": "Brasil e USTR fazem quinta reunião sobre tarifas a produtos brasileiros",
+     "link": "https://www.canalrural.com.br/economia/brasil-e-ustr-fazem-quinta-reuniao-sobre-tarifas-a-produtos-brasileiros/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T01:02:29+00:00"
+    },
+    {
+     "title": "FPA reconhece avanços na tramitação da MP do Frete no Congresso",
+     "link": "https://www.canalrural.com.br/politica/fpa-reconhece-avancos-na-tramitacao-da-mp-do-frete-no-congresso/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T00:58:36+00:00"
+    },
+    {
+     "title": "Cobrança da nova modalidade de contribuição ao Fundesa-RS é adiada",
+     "link": "https://www.canalrural.com.br/pecuaria/cobranca-da-nova-modalidade-de-contribuicao-ao-fundesa-rs-e-adiada/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T00:22:34+00:00"
+    },
+    {
+     "title": "MP do frete reduz impactos sobre preços de insumos e de alimentos, diz FPA",
+     "link": "https://www.canalrural.com.br/nacional/mp-do-frete-reduz-impactos-sobre-precos-de-insumos-e-de-alimentos-diz-fpa/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-14T23:28:19+00:00"
+    },
     {
      "title": "Senado adia para agosto votação do Profert",
      "link": "https://www.canalrural.com.br/politica/senado-adia-para-agosto-votacao-do-profert/",
@@ -438,34 +462,10 @@
      "published_at": "2026-07-14T21:54:21+00:00"
     },
     {
-     "title": "Soja: queda em Chicago reduz preços e deixa negociações estagnadas no Brasil",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/soja-queda-em-chicago-e-no-dolar-reduz-precos-e-deixa-negociacoes-estagnadas-no-brasil/",
+     "title": "Soja: line-up prevê embarques de 13,757 mi de toneladas pelo Brasil em julho - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOM2pQZE1HUkNjU1FLRmtyajFSN1NBX3BINW5mMUZUSVBtVFJ2THhrNnhtQnUzNkt3SHhDNm1XTUpIVWVJZThUWmhuTHZla0pzZVRIR2tiQUhTTkNZZ01VSzIxX3hMbHd0R3VfU3RDVVpGM1pxc21ka3c5ZG44SUNvNnRTYjZyZ1FYa2VZWUw0V2o2bTRoU21vVk94T0VTY0lvSmVEa0pWY3I3VUxJbFNqY2VHVTFOV2FSYnVNT1ZIYnNEeHpfYWlpMjlLZWc1bVk5TjVN?oc=5",
      "source": "Canal Rural",
-     "published_at": "2026-07-14T21:54:21+00:00"
-    },
-    {
-     "title": "Arroba do boi gordo reage e tem elevação nas principais praças de comercialização",
-     "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-reage-e-tem-elevacao-nas-principais-pracas-de-comercializacao/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T21:43:11+00:00"
-    },
-    {
-     "title": "Senado aprova MP do frete e texto vai à sanção",
-     "link": "https://www.canalrural.com.br/politica/senado-aprova-mp-do-frete-e-texto-vai-a-sancao/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T21:33:06+00:00"
-    },
-    {
-     "title": "Preços da soja caem no Brasil com baixa forte do dólar e negócios voltam a esfriar - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNOXFZVWxVZDg5Z2JUQktaWEZYSGQ1QXZwNU5kRjdvdVRTU0RPaDNWOWlJLS1qeUVud0NPQzZNRGt4Y3BBUnBXXy1qb1I3SmVmT0NZa1MxTzg3dzZQWGZtcktxTFJzZkxQWDZRN0l2MGc4LTNFanY3Um9DZWt2ZDNkaEVDd2JyYnlXV3VjWnRWLWJFMDBRQnE3M01CamI3ZjBxZmttcFFuc2VycWVUMHJ6MGtJNjdLMnNELTRXVXV4dGRPVVRDLXVudjNIeDliTWZNLU94Q1J2S2hWclnSAeABQVVfeXFMTnlsTFZybENlMzY2RmNmc2VzUG1udTRJVmpiUnRGZWNEUGVZbFZodGlPTU92VGRfVmp4d1l1RU5OZjBIQ0dGTjlOaG5fNmk4QS0xVXhabkJHOEg1cDR2ejB6SUdyV2pYS0Nld0Jqc09IV2ZSMkV3NE80SGhGNjZBYURIc0cwUmxtNVFNRDlac2NQTlVPd3FESUFjdlFMcUtuM2RBb2pfNGtzQmxfWmZVMG1Zb3FDSXFLYS1iM192Z0lqRWctRUlLQjU4Z2ROb3Y4LW1nQmk0UWctVTFZTVB4TEw?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-14T21:26:46+00:00"
-    },
-    {
-     "title": "Juros futuros caem na B3 após CPI dos EUA vir abaixo do esperado",
-     "link": "https://www.canalrural.com.br/economia/juros-futuros-caem-na-b3-apos-cpi-dos-eua-vir-abaixo-do-esperado/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-14T21:22:13+00:00"
+     "published_at": "2026-07-14T20:15:44+00:00"
     },
     {
      "title": "Exportações de soja da safra 2025/26 devem crescer 7,5%, diz Conab - Globo Rural",
@@ -475,7 +475,7 @@
     },
     {
      "title": "Demanda aquecida e preços altos impulsionam exportações de soja no Brasil - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQR1lIUXR4SjRrVEZTekxyQWJ5Q3ByUkh5MkRIX1RERzRMQkgzbTQzQUVBS1lwZzZpOTljTnBQakUzSFhPMUl0S0RnYkQ3elh2aE5ZcWNLVmRWSzVYOWZMM3Vla3FIZHJrN01VNDhpdXZqS0ZjUW93NVhTWEdTcm9jSVFhNmFGSm14RHhvak9INUFVQVZVWWt0SS1sc3g0M1BTMUhYLU52QzZCRWFKUl9ZTA?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNUUxalQtQjlDS01NYU9GZWZuXzNPbmd2dmRVeTMxcXR4eXRETElTVmQwby1IbWN4dXdxdzVmYjlMcEplMVN4NXlIeDV5bDZkYVh5bUlMWTFYeUgzRG1rel9hR2VGd1dKSHFuX1JzZnlhSjNEZW04WERkTkx5MDRPZ28zN0I2QlBSZnc5ZlZmb1JBNkZwRlVnOHRYS1N0WWFxQUJYYmV4b0ZPLUxoLWlMWWJVQlVjdmhYMkpRWmdPdkdjTzlPb0gtdU1ORS1pRlYwOFE?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-14T19:15:52+00:00"
     },
@@ -492,22 +492,22 @@
      "published_at": "2026-07-14T18:39:00+00:00"
     },
     {
-     "title": "Anec eleva projeções de exportações de soja, milho e farelo de soja do Brasil em julho Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSzRyMFBudmFEaC1iS0NfV3preWwyWDlFaDI2VTNRVWxDalg0eTJGOWl4aGQ0QmhzVWNqRkw3YVFmZmh1SVpueDY0cUFmaXQtWDFPalNiZjJTWElVWU1zamJ4aTVPdlpQeGNUQ0lYRnlENFFvS29MMDM4REIwYnFsZDQ0a2NUa2ZCX1Vma1lVODBIaDkyQjliSTM5TmJMeC1ZTHl1MHZqTzV6NDUycU56V1c1cExpTGYxOUo1ZWh3YnVFOW5wV2QyUEcxb2dDNTRiM1BOX3FDQQ?oc=5",
-     "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "published_at": "2026-07-14T18:19:00+00:00"
-    },
-    {
-     "title": "Armazéns impulsionam negócios com a soja no Mato Grosso - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUWQ2cEstTGI1VzhvbjBWbC1EUUZzejZwV014aXFiOHhUNG41a0FheDlFWUExVEtZZjdVMUhFeWg0cHNLdGc0T2p2UVJRb2xQZkVOcVVXRlVQd05LZ0E4VFl4NGtvT0YxemxlcFg3SE9KbGFxbC0xMnpmNHc2Skh4RHNYb0lEdWVUQmRaQmhqNi1jRlVzT3UwdTV5TG05X0V0em04YlNmaw?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-14T16:59:00+00:00"
+     "title": "Produtores do Mato Grosso aceleram comercialização de soja e milho ao longo de junho, mas reduzem negócios no algodão - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOZ0tfdDVONlU3czVIUU5kcEFadHI2RjZoY1VfYlFRTjFIaHozOGp6NmhwbWFMZU5saV9wY1VFakJDUTNCU212bnFWRjdFa21mSmd2Z1R5MlB0c0NOa3QzeU85eHlWV0E5RUF6X2tONWpNRjh3TXBiSnpqZDZYdWJxcFJ5NUQ1S202ZmpXUWFReDVtMUJzZVp2SzNvcEpOWThxUUVLdmo1eGdzQlNWMElMOEVkaklRaGE4TzI4SURKRU8tTnZDbVdZRW04VGxEYU9hU1dxblNoU0RqdnRfUmlKQVRHbEU4ckl2VmNaTHRrOU9nb04xODhiVGV0ZnBFTVU2NlpLdjhTUFV2clpG0gGSAkFVX3lxTE5UWlVpRy14cVh4R20zTnlZanlDVlpGRUgzOU9MRWNjcXBFbkZnQzUtb3VEaXBfaThYSW53MkZCQ05jZ29GYWxPNE9KaEt4cDNYejY5UURzMkZ6SWp3T3lVT3BKZkxuOXo3VDhHQ2MtTVRGcmdWR1I0Q1RCM3RIeUp4bkdxUndEUVpvd2pZNENSLS1KdjdrcE93Y2lrT1VsSC1NeUZTSC1zdVBSdi1nTjlBX2t5al9hY3FHaHQ5cXd2YndiWVJQZHNkWlpqdExhdXZod0tUcVlZZWFpYzBzT0dyNzBHWmEyeGw4N1BhNUxubnhjRFNGTkZUY3l3RVhDWURwdVVYVElqSUd4OXBpZEVuc2c?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-14T16:38:55+00:00"
     },
     {
      "title": "Soja cai em Chicago nesta 3ª feira e preços acompanham movimento no Brasil com pressão adicional do dólar - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQV1dxLVFGZkNKYXdqenh1YlpkYXpDYzhkTTFYTXpfeWZQb0dJSmhsOW1wNmNoN0JxVmt1dVpnc2k4Zl8xSG1NcDZjVmdVbkZjbGRTalhHMTFPakpQRHhqaWNxQVRjNXRWdWJtdXRHVXpkVTlkOUQ3M3lWSkhxTFVwbFN3ZVBBeHR0b1NienpXUTlKMHk1UTBoMVl5OXZNczFBSWdGd0VJY3FZeFNsQk1ROFZGeTF0UWFYT3p6XzRWTmtsaTRpSVpxT2xEVUhNQVRKa1h3VDhlbjJ1cjl5M3NLekFMLVlyUDBWZkVVTTVVRE90M2JtWHM3cms5UdIBgAJBVV95cUxNaF9ldW4tMzNtdU1BeWFrODlzNk1kdlpEb1hZajhZT2VDQjNnTjFYSWJuZkJZYURwYkNaUnRZbFFLQlhtWGNaZzR0blg5ejk4SFBUWWZEN09ramNTMHlPWVJjbHBrNmhSRmJNYXVaUjJyOURVVk1xMjU5UElXY04yRklnajBjN0pTb25DZExRUVE0eWNEQnhydFQ0eE1Nc29wSy1pRzF0RXQzRTJMbFVnXzJEUUVDR2JXQ3BWMzJCbV85RWpsVzVBdHJNNkk2dFdIdnBSY0F0d0VmcEwyZXd1QWFBel9yMGNpR1J1TklhNXRpTGJGTXlzTjR6blRHVzUt?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-14T16:16:45+00:00"
+    },
+    {
+     "title": "Soja: El Niño entra no radar da safra 2026/27 - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb2J5emtHOTJZblpEMDRUcGtlU3dpd1hCTzByTEhoWFZlcDdfTm9uQUh6N0NDUjVDSHhXcUMtYU5SOUNNdm9ETzZzdE9rSGg0ajRvUEtlMHd6d3dKVW9McnRnT3hTWWR1VGthd2NwcVNPWmVicEhCNEpKTTNSZjE5V3hUdTljb1phR0pia2hyeVpTOEtNSlE1NzJn?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-14T14:24:00+00:00"
     },
     {
      "title": "Soja: demanda chinesa reforça exportações dos EUA - Agrolink",

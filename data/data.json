@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-15T22:54:08+00:00",
+ "generated_at": "2026-07-15T23:54:22+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-15T22:53:58+00:00",
+   "updated_at": "2026-07-15T23:54:14+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -163,9 +163,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 85.64,
+     "price": 85.49,
      "prev_close": 84.73,
-     "change_pct": 1.07,
+     "change_pct": 0.9,
      "closes": [
       83.17,
       78.96,
@@ -187,7 +187,7 @@
       76.01,
       83.3,
       84.73,
-      85.64
+      85.49
      ]
     },
     {
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-15T22:53:58+00:00",
+   "updated_at": "2026-07-15T23:54:14+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-15T22:54:02+00:00",
+   "updated_at": "2026-07-15T23:54:19+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,13 +400,37 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-15T22:54:08+00:00",
+   "updated_at": "2026-07-15T23:54:22+00:00",
    "items": [
+    {
+     "title": "Urgência do novo marco do Seguro Rural é aprovada no Senado",
+     "link": "https://www.canalrural.com.br/politica/urgencia-do-novo-marco-do-seguro-rural-e-aprovada-no-senado/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T22:42:28+00:00"
+    },
+    {
+     "title": "Preços do boi gordo voltam a registrar alta; veja as cotações",
+     "link": "https://www.canalrural.com.br/pecuaria/precos-do-boi-gordo-voltam-a-registrar-alta-veja-as-cotacoes/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T22:41:12+00:00"
+    },
+    {
+     "title": "'Produtor gaúcho precisa de 54 sacas de soja para pagar dívidas; MP não me ajuda', diz agricultor - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTkU4WWl5dHpKaHpjUGZIbXBrdmpjYWFMVF90RWVia0dHclhyMHVDM3piRWpWdUs3VlZ4dTdfRkwzMzJMekYtdGZwdDctSlZ5Yi1qM0lKNmtacHl6eUh3akUxZmZTYVRzRjk4T3pDMk1mY2ZkbTZQal9RUU5FNWFUcmUwM3Z1RHltcC1RVnMyeTlZc09HdDZFWjRCb3dHWVJpZUpoNjF2OHp3Sm5nNlFJMHVGNTFSaUtCSWxhWncwaXlXbWZ6bHpuYXhpLS1hcU9CUVE?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T22:08:39+00:00"
+    },
     {
      "title": "‘Produtor gaúcho precisa de 54 sacas de soja para pagar dívidas; MP não me ajuda’, diz agricultor",
      "link": "https://www.canalrural.com.br/agricultura/produtor-gaucho-precisa-de-54-sacas-de-soja-para-pagar-dividas-mp-nao-me-ajuda-diz-agricultor/",
      "source": "Canal Rural",
      "published_at": "2026-07-15T22:08:39+00:00"
+    },
+    {
+     "title": "Preços da soja sobem com Chicago em alta; confira as os números no Brasil - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaHZCNDNhWjVTTTMzTkM1WloyLUd2bGV3Ni1XVWpiSGtkOFYzUGFwbGQxNkV5TXJUeFYzNVNNaE5kbnRCLXJBRTFiWFZVZmVjQVJ6MTY1OS1MRHl1REF6dTZVOVVscWVpZGRUVzBRSDFqMXR2SVd5Wl9PSUpoc3Q3cjBXR0FnVDdQWUFEc2lBekdnZ1NKRURxSVItUnhkeHQ2ZlFZUU5EWWJwZW03d1loVmU4SW5NbnBDLVNITjJ5b05RUDlsLURmNkFIeFItWXJR?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T22:02:39+00:00"
     },
     {
      "title": "Preços da soja sobem com Chicago em alta; confira as os números no Brasil",
@@ -457,24 +481,6 @@
      "published_at": "2026-07-15T20:06:49+00:00"
     },
     {
-     "title": "Chile declara estado de emergência devido a chuvas intensas previstas",
-     "link": "https://www.canalrural.com.br/videos/chile-declara-estado-de-emergencia-devido-a-chuvas-intensas-previstas/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T20:06:36+00:00"
-    },
-    {
-     "title": "Fazenda de Itapetininga se destaca com quase 96 sacas de soja por hectare - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSEVQV2d5Sko3amNzNmJUM0dRa2JJNUZJYmRPdnNwWm9neVRqYks1aDB2Qm5hMGExRERYbzNTbVNRb2FMQjB5dXl5a0ZGcnMwUFhBUjFwRHIySHRoX29pMF9kd01DVEdqcXVHU09JVTk5cC1vR1AzQmhwS3RVUngzMEE2YmF2ZmtCUlNkaVgxWWRWNVVXUVZtSlk5Z182VUdFdFlvOHpTWkRxN0Y1b0hwbA?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T20:06:19+00:00"
-    },
-    {
-     "title": "Fazenda de Itapetininga se destaca com quase 96 sacas de soja por hectare",
-     "link": "https://www.canalrural.com.br/videos/fazenda-de-itapetininga-se-destaca-com-quase-96-sacas-de-soja-por-hectare/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T20:06:19+00:00"
-    },
-    {
      "title": "Oscilações climáticas nos EUA movimentam mercado de grãos - Revista Cultivar",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa3kxU1JEeUE4cDFZdVJvam8ySmZBZWhCOVo0UlhycXVuVHVfXzJXajdKcFRwdFdKVUhJRDNFSGU1RVVVcEhuMzI4MUgzR2F6dGVvc0lMS2doZlZmcmI1Q1c2NEhRd005SjlHWFpGZ3pSY2w2YkhDNDE3ajhjNXJZQkV1MERlNFoxWko5TEtMWnNMYjNjRlJ1bnY2dEdldw?oc=5",
      "source": "Revista Cultivar",
@@ -493,16 +499,16 @@
      "published_at": "2026-07-15T18:48:16+00:00"
     },
     {
+     "title": "NOPA: Esmagamento de soja dos EUA de junho supera expectativas e aumento de 16% no ano - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTXR4ZGotLWZuTUg2djRWUUpBS0JZRmJ5dGJvZ3l5dFprVHIzRkpzZ1VJM3FjbGd4bDVVa3dmYjBLLXZJb1RBQlQxUTdLc0h0bkkyYnN2UWNzWFd0TEJ6WWFpU3RGWWtaTlcwaG5JblhEaGV4bDRtcUFrNVRlSzNYVjhVNDNlX2JZYlctQVVvQWZuUllycm1PSURxUEtWVDdmMjRMVll4RjY3ckszVlRhQnhiU0ZaclVtc2hvSS04b1c1cWt3a3JwUnJEcE5HeW5MbUR5OFQ1SUtIeEdlbjZqUtIB5gFBVV95cUxQSHVtRmRqODVnMkt1TWFuZWZ2NWhMYmR3TXhmRHBXTEJOM192UVlQTDFGTkl6QldaejRjT1lybEF6eDVPaXcyYlg2RDlZX3BHY1pQRmZ6R2d0c0NhODl4ZWtYNTlEdklvRmZ0eFp0N1dGWmQ0dGpaQThKbXBCVDVlcGU5cG01QVh1emlWSnBZTXN2QTctdk43bjA5U2JTbF84dER5MFg5YzRSVVJyT1NjcFRqY20xVjAzN2NSV0hRXzA0a0p1SVl0VzdvZmkxTzFlSkJTcy1SUVZjZlpEX2xsSGtYZ3V6QQ?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-15T17:32:41+00:00"
+    },
+    {
      "title": "O caminho da soja brasileira até a China - Folha de S.Paulo",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMXdaWkNERWpvd0UtSzQxdDhOUHVYbEJfblBTNTlzN21id1R1R3Exc1JGdFF4UmZrc1NRTTRDWlRwY2U2Umx3MWhNcHFJMUxTRFJWb2tDYllSM1JoNndHNVY5dDFLTkRPcThZNjJPZmpNR1dOM01OVG1JdzJVY1FLVVU5c2Z0RGFGR1R4dmRDbkYtT2JNby1PTHFIUEhtTEdW?oc=5",
      "source": "Folha de S.Paulo",
      "published_at": "2026-07-15T17:20:52+00:00"
-    },
-    {
-     "title": "Argentina colhe 49,7 milhões de toneladas de soja na safra 2025/26 - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNncwR1VmYUZ0VzFDMlB3aEMxOHdhaVcxMllSYlBJdlpqQmVxWUZqNkdGenVSNUp2S25kZG5yU3RlR3drX1ZMM1huZjd5Rkt6WERhemUtUjFHSEVIQWtqR3V4U0hWazR1bDV1elhzeDQzdldXbFY2TE9OYTVxWFdfT3R3ZXpRdVFldTBWVW1IT2JhVTR0aTN5d3hRS2pfU0tXcjdZa1R3dUV3eVZt?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T16:21:32+00:00"
     },
     {
      "title": "Dívidas rurais: Fazenda e Câmara fecham acordo sobre renegociação, com 10 anos de prazo para quem teve perdas grandes de safra",
@@ -527,12 +533,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/15/tarifas-dos-eua-empurraram-brasil-para-outros-parceiros-comerciais-mas-dependencia-chinesa-preocupa.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-15T14:43:42"
-    },
-    {
-     "title": "Soja volta a se aproximar dos US$ 12 em Chicago com novas altas nesta 4ª feira (15) - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWF9rVFdfaFp1ZDVPQ21mRlhmYjRvSWl4VVVnNC1TSWRvQ3ZGUjNpTUE2a1VmYkJmNG45b2hWVDlUTE9ISDA0VlVRRnRsZHhkQ090LW5fLVFrbkZ6UEFhLWJ3LUVIY19ob1RjTFpuY0NQbkt6aWxickhmX05RU21nZUNKTWNoNE1YOFAxck1STVFqVEZRTFcwdERpVTV1dnhqdTF6Ml9ocjFsYVVPMVp0bTVKNE0tWUV5TUZYZTdOcmZpeWFPVlJkRWhiX1FsSmdGRUQxbXFMR2psQdIB3wFBVV95cUxPMW4yQms3OEpCYkZyMUZfblI1Q3NVaTNYQTdaek55RlFYb29vMGxxVFZfdExmWlFuZzNTeTVnMW1YS0dDWWxhUXpZYlk0MEFlRklZU2p5SUw3WGZOV0dfSTd1bGs0aEl4Zzh6eUh1UmVDMlEybHpyVXNkMG9uQ1p5UHU0TWl5dTRlS3BHN0RleXZDMnNxVks2VTAzTURLLS1ENU1qbG1hVGF5cEYxMW1FWEdueU51dzVYa1BaNmNKSk9xYUpaRTFfWmxucThUTm5NNTVaY3NnbkJoN1pzVExJ?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-15T10:55:46+00:00"
     },
     {
      "title": "Preço da soja segue com viés de alta no Brasil - Globo Rural",

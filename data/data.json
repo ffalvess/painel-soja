@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-15T19:02:03+00:00",
+ "generated_at": "2026-07-15T20:53:51+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-15T19:01:56+00:00",
+   "updated_at": "2026-07-15T20:53:44+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -163,9 +163,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 85.09,
+     "price": 85.95,
      "prev_close": 84.73,
-     "change_pct": 0.42,
+     "change_pct": 1.44,
      "closes": [
       83.17,
       78.96,
@@ -187,16 +187,16 @@
       76.01,
       83.3,
       84.73,
-      85.09
+      85.95
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 176091.44,
+     "price": 176010.9,
      "prev_close": 176641.0,
-     "change_pct": -0.31,
+     "change_pct": -0.36,
      "closes": [
       170415.0,
       169649.0,
@@ -220,7 +220,7 @@
       177866.0,
       175739.0,
       176641.0,
-      176091.4375
+      176010.9062
      ]
     }
    ],
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-15T19:01:56+00:00",
+   "updated_at": "2026-07-15T20:53:44+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-15T19:02:00+00:00",
+   "updated_at": "2026-07-15T20:53:48+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -253,8 +253,8 @@
       "2026-07-21"
      ],
      "precip": [
-      0.3,
-      1.2,
+      0.7,
+      0.2,
       0.0,
       0.0,
       0.0,
@@ -262,22 +262,22 @@
       0.0
      ],
      "tmax": [
-      32.9,
-      33.0,
+      33.3,
+      32.8,
+      33.2,
       33.1,
-      33.2,
-      33.2,
+      33.5,
       33.9,
-      35.0
+      34.7
      ],
      "tmin": [
       20.9,
+      22.2,
       22.1,
-      22.1,
-      21.7,
-      21.7,
-      21.5,
-      23.2
+      21.6,
+      21.8,
+      21.6,
+      21.8
      ]
     },
     {
@@ -292,8 +292,8 @@
       "2026-07-21"
      ],
      "precip": [
-      0.3,
-      0.0,
+      0.5,
+      0.2,
       0.0,
       0.0,
       0.0,
@@ -301,22 +301,22 @@
       0.0
      ],
      "tmax": [
-      31.8,
-      31.4,
+      32.0,
       31.6,
-      31.9,
-      32.1,
+      31.6,
+      31.8,
+      32.2,
       33.1,
-      33.9
+      33.7
      ],
      "tmin": [
       20.8,
       21.6,
       21.3,
-      20.5,
+      20.4,
       20.5,
       20.6,
-      22.3
+      20.9
      ]
     },
     {
@@ -340,22 +340,22 @@
       0.0
      ],
      "tmax": [
-      28.3,
-      28.8,
-      28.2,
+      28.5,
+      29.1,
+      28.0,
       28.6,
-      28.7,
-      29.4,
-      31.4
+      28.9,
+      29.6,
+      30.8
      ],
      "tmin": [
       13.9,
-      17.4,
-      16.3,
+      17.6,
+      16.4,
       15.9,
       16.8,
-      16.9,
-      19.2
+      17.2,
+      17.2
      ]
     },
     {
@@ -372,71 +372,119 @@
      "precip": [
       0.0,
       0.0,
-      0.1,
+      0.0,
       0.0,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      24.0,
+      24.4,
       29.0,
-      30.0,
-      29.8,
-      30.2,
-      30.4,
-      32.1
+      29.9,
+      29.9,
+      30.3,
+      30.7,
+      31.8
      ],
      "tmin": [
       11.1,
-      15.6,
+      15.9,
       20.0,
-      20.4,
+      20.6,
       20.0,
-      19.9,
-      22.0
+      20.1,
+      20.1
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-15T19:02:03+00:00",
+   "updated_at": "2026-07-15T20:53:51+00:00",
    "items": [
+    {
+     "title": "Exportações de petróleo do Brasil para a China batem recorde no primeiro semestre",
+     "link": "https://www.canalrural.com.br/economia/exportacoes-de-petroleo-do-brasil-para-a-china-batem-recorde-no-primeiro-semestre/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T20:33:07+00:00"
+    },
+    {
+     "title": "Entenda o que faz a carne do Pantanal conquistar mercados cada vez mais exigentes",
+     "link": "https://www.canalrural.com.br/pecuaria/entenda-o-que-faz-a-carne-do-pantanal-conquistar-mercados-cada-vez-mais-exigentes/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T20:31:21+00:00"
+    },
+    {
+     "title": "Tarifaço dos EUA pode gerar tensões comerciais com o Brasil",
+     "link": "https://www.canalrural.com.br/videos/tarifaco-dos-eua-pode-gerar-tensoes-comerciais-com-o-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T20:15:15+00:00"
+    },
+    {
+     "title": "Portos do Paraná registram recorde de movimentação no primeiro semestre de 2023",
+     "link": "https://www.canalrural.com.br/videos/portos-do-parana-registram-recorde-de-movimentacao-no-primeiro-semestre-de-2023/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T20:06:49+00:00"
+    },
+    {
+     "title": "Chile declara estado de emergência devido a chuvas intensas previstas",
+     "link": "https://www.canalrural.com.br/videos/chile-declara-estado-de-emergencia-devido-a-chuvas-intensas-previstas/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T20:06:36+00:00"
+    },
+    {
+     "title": "Fazenda de Itapetininga se destaca com quase 96 sacas de soja por hectare - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSEVQV2d5Sko3amNzNmJUM0dRa2JJNUZJYmRPdnNwWm9neVRqYks1aDB2Qm5hMGExRERYbzNTbVNRb2FMQjB5dXl5a0ZGcnMwUFhBUjFwRHIySHRoX29pMF9kd01DVEdqcXVHU09JVTk5cC1vR1AzQmhwS3RVUngzMEE2YmF2ZmtCUlNkaVgxWWRWNVVXUVZtSlk5Z182VUdFdFlvOHpTWkRxN0Y1b0hwbA?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T20:06:19+00:00"
+    },
+    {
+     "title": "Fazenda de Itapetininga se destaca com quase 96 sacas de soja por hectare",
+     "link": "https://www.canalrural.com.br/videos/fazenda-de-itapetininga-se-destaca-com-quase-96-sacas-de-soja-por-hectare/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T20:06:19+00:00"
+    },
+    {
+     "title": "Dia Nacional do Pecuarista destaca a importância da pecuária no Brasil",
+     "link": "https://www.canalrural.com.br/videos/dia-nacional-do-pecuarista-destaca-a-importancia-da-pecuaria-no-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T20:05:58+00:00"
+    },
+    {
+     "title": "Senado aprova medida provisória do frete e adia votação do Profert",
+     "link": "https://www.canalrural.com.br/videos/senado-aprova-medida-provisoria-do-frete-e-adia-votacao-do-profert/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T20:05:44+00:00"
+    },
+    {
+     "title": "Investigações comerciais dos EUA já atingem 98% da economia mundial",
+     "link": "https://www.canalrural.com.br/economia/investigacoes-comerciais-dos-eua-ja-atingem-98-da-economia-mundial/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T20:03:41+00:00"
+    },
+    {
+     "title": "Um recomeço para o crédito rural? MP da renegociação de dívidas dá pistas",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/um-recomeco-para-o-credito-rural-mp-da-renegociacao-de-dividas-da-pistas/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T20:00:08+00:00"
+    },
+    {
+     "title": "Oscilações climáticas nos EUA movimentam mercado de grãos - Revista Cultivar",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa3kxU1JEeUE4cDFZdVJvam8ySmZBZWhCOVo0UlhycXVuVHVfXzJXajdKcFRwdFdKVUhJRDNFSGU1RVVVcEhuMzI4MUgzR2F6dGVvc0lMS2doZlZmcmI1Q1c2NEhRd005SjlHWFpGZ3pSY2w2YkhDNDE3ajhjNXJZQkV1MERlNFoxWko5TEtMWnNMYjNjRlJ1bnY2dEdldw?oc=5",
+     "source": "Revista Cultivar",
+     "published_at": "2026-07-15T19:42:30+00:00"
+    },
+    {
+     "title": "Safra argentina de soja termina com rendimento elevado - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaWFYdHZVNkdkVUZFampmTHhEZ0FXSzBnN0hidlg3Y3R0QWlCQTY5ZzY1UEZ0al9rS0N2TW81czF5TG9ONFQ1Ym93T2VuYlpyQUw3NnhrbElsLVVLWmVKVFFqWDF4RUZ6bkdFR1BucWNDVm8weHBCZFhrY3dXTWt4VUhWWTZTMmhrSWhqcFNVaGcwcUtXN2FySmlrT3lCamJmcFFOeUFB?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-15T19:09:00+00:00"
+    },
     {
      "title": "Soja reage no RS após safra de estiagem, mas clima trava desempenho - Jornal do Comércio",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZjVKbWVVRHNXOUZFSWRWRjROYVdjYmFXaGZ1M0ViLUdRajZZdHp4dC11ME0zSUI0NnlaR1VGSVBCOWVWckM2UlU4MFpuLVdFOVVxQkhPQUxMS0c2dlYyYVctUjdHTGlqV25wRGFZejY5OWZyWnZFODM2UjhUN0dwRE0zWTdyWjRTX3ZUVDJheVZLeFFwQTU2Rm5JM2JKSk9yZnBiejN3dUw0QUJtSHhxTlRLc0FwcmhhMEZFb1RHXy1Hanc?oc=5",
      "source": "Jornal do Comércio",
-     "published_at": "2026-07-15T18:45:00+00:00"
-    },
-    {
-     "title": "Exportação de arroz cresce 80% no semestre e dá suporte aos preços no Brasil",
-     "link": "https://www.canalrural.com.br/economia/exportacao-de-arroz-cresce-80-no-semestre-e-da-suporte-aos-precos-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T18:32:29+00:00"
-    },
-    {
-     "title": "Projeto amplia porte de arma para fiscais federais e advocacia pública",
-     "link": "https://www.canalrural.com.br/politica/projeto-amplia-porte-de-arma-para-fiscais-federais-e-advocacia-publica/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T17:58:07+00:00"
-    },
-    {
-     "title": "FPA vê MP das dívidas rurais como freio à inadimplência",
-     "link": "https://www.canalrural.com.br/politica/fpa-ve-mp-das-dividas-rurais-como-freio-a-inadimplencia/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T17:46:55+00:00"
-    },
-    {
-     "title": "NOPA: Esmagamento de soja dos EUA de junho supera expectativas e aumento de 16% no ano - TradingView",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAyUzd4dVU5YkFRcWlnTk5veVdlSUxucGtzVXlXYk4ydFk4YUJSZ1cwbG1nR1hhMzI2STdFOEVoYnBXLWpTNWJwZ1R1QnBLYU5fcGFXeTBsY3RabzBoWlNyNXJvTW1EM1BQczVDanNVMGtEbEVq?oc=5",
-     "source": "TradingView",
-     "published_at": "2026-07-15T17:32:41+00:00"
-    },
-    {
-     "title": "Fazenda prevê fundo garantidor para o agro com aporte de até R$ 2 bilhões",
-     "link": "https://www.canalrural.com.br/economia/fazenda-preve-fundo-garantidor-para-o-agro-com-aporte-de-ate-r-2-bilhoes/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T17:22:46+00:00"
+     "published_at": "2026-07-15T18:48:16+00:00"
     },
     {
      "title": "O caminho da soja brasileira até a China - Folha de S.Paulo",
@@ -445,40 +493,10 @@
      "published_at": "2026-07-15T17:20:52+00:00"
     },
     {
-     "title": "Acordo prevê MP para renegociar dívidas de produtores rurais",
-     "link": "https://www.canalrural.com.br/economia/acordo-preve-mp-para-renegociar-dividas-de-produtores-rurais/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T16:51:01+00:00"
-    },
-    {
-     "title": "CPRs em atraso poderão ser renegociadas em até 8 anos, diz Durigan",
-     "link": "https://www.canalrural.com.br/politica/cprs-em-atraso-poderao-ser-renegociadas-em-ate-8-anos-diz-durigan/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T16:47:43+00:00"
-    },
-    {
-     "title": "Renegociação de dívidas rurais terá prazo de até 10 anos, diz Durigan",
-     "link": "https://www.canalrural.com.br/economia/renegociacao-de-dividas-rurais-tera-prazo-de-ate-10-anos-diz-durigan/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T16:28:10+00:00"
-    },
-    {
      "title": "Argentina colhe 49,7 milhões de toneladas de soja na safra 2025/26 - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNncwR1VmYUZ0VzFDMlB3aEMxOHdhaVcxMllSYlBJdlpqQmVxWUZqNkdGenVSNUp2S25kZG5yU3RlR3drX1ZMM1huZjd5Rkt6WERhemUtUjFHSEVIQWtqR3V4U0hWazR1bDV1elhzeDQzdldXbFY2TE9OYTVxWFdfT3R3ZXpRdVFldTBWVW1IT2JhVTR0aTN5d3hRS2pfU0tXcjdZa1R3dUV3eVZt?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-15T16:21:32+00:00"
-    },
-    {
-     "title": "Argentina colhe 49,7 milhões de toneladas de soja na safra 2025/26",
-     "link": "https://www.canalrural.com.br/agricultura/argentina-colhe-497-milhoes-de-toneladas-de-soja-na-safra-2025-26/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T16:21:32+00:00"
-    },
-    {
-     "title": "Motta diz que acordo sobre dívidas rurais foi a solução possível",
-     "link": "https://www.canalrural.com.br/politica/motta-diz-que-acordo-sobre-dividas-rurais-foi-a-solucao-possivel/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T15:53:17+00:00"
     },
     {
      "title": "Soja desvalorizada inibe crescimento na área de sementes forrageiras - Portal DBO",
@@ -493,10 +511,10 @@
      "published_at": "2026-07-15T15:32:39"
     },
     {
-     "title": "Entregas de fertilizantes crescem 1,6% no primeiro quadrimestre, diz Anda",
-     "link": "https://www.canalrural.com.br/agricultura/entregas-de-fertilizantes-crescem-16-no-primeiro-quadrimestre-diz-anda/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T15:31:09+00:00"
+     "title": "Soja sobe mais de 10 pts em Chicago e volta aos US$ 12 por bushel, na esteira da dispara do trigo - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQcGhiNEtDczVDYmctRkE3OGRLcUJWYjR3QjNfLWtLY1hpcWlTOUZzaE43S0dFRnJFN3N5cnJOeDVCNEdfR05odlZzNFVaNXBXY3hZbXM4Uk5fRG5wbWRiT3JhS0JxZG9SQUF6NF9lcGZielNsMEc5MmlsdzN3R3hiTVNfLWVucW81NU9DMHpTdG8zQ0RnZ2t6WmFHME5WWFZubF9INUY5ZDNjanFWaUN3c1VYREtRX1FGV2ktYjJRN1YwZVUwVHJGOU1ZSnp0elVPOWFmdWZFaE5aeWEyT2d6QXEtTkZzbzZQaVIyeXY4Z9IB9AFBVV95cUxPbEo0YmJoakduaVBSb0JlSnBzblRUM0lydUZUTzJJZWZYU0szNW5tNi1rX3BmSHJpZE5QNllxMklBUTkzMlRibk8wZ2lLOTRldHdjdDlnQ05IWGdiRVlzdHJZTWVMb3hCRkFiZllqdW5PcHI4MXU2TG92aVVkQ05zTVpDbG9hUFFueVhzdWZsblpKaWhpRlNXblZya3JNeDZJQmNMdy1EWXpoS2loTlo3TjljcDNRdG9FWEh5b1o3YVVGTHRPQjM2YjVwSC0yejBqQXlyUWw3VDFpeFpRbk9wMWJPY0FaYlZnRkZTWHU2d0prQndG?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-15T15:27:04+00:00"
     },
     {
      "title": "Safra Francesa de Trigo Soft Projeta Queda de 4% e Acende Alerta no Mercado de Grãos em 2026 - Forbes Brasil",
@@ -505,28 +523,10 @@
      "published_at": "2026-07-15T15:17:48+00:00"
     },
     {
-     "title": "Manejo contra doenças e nematoides na soja deve iniciar antes do plantio - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOEpHUnFwcWQwRHEwVTE2cnVZRnFfeE0taWNYdlNXX0FpRUJ4NmdWV3JpTkRQOTZyNk92cll5eE9iNkg3QVBnUGU0MnJJVklVclFGZ3lNVV9pQUIzNklXblRMeElndHdVdmozTW90MFpZbThCWm00UGhtN3lpVktOR0NPLUxOLV9najZwbWl4MVpMNXdxVnNpYmI3cWpodU1kUVlMZ29CeWI1X0lueHp1T0lKT3BSU2tVY0tqeGxR?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-15T14:55:00+00:00"
-    },
-    {
      "title": "Tarifas dos EUA empurraram Brasil para outros parceiros comerciais, mas dependência chinesa preocupa",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/15/tarifas-dos-eua-empurraram-brasil-para-outros-parceiros-comerciais-mas-dependencia-chinesa-preocupa.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-15T14:43:42"
-    },
-    {
-     "title": "Preços mínimos de milho, soja e arroz são atualizados - Planeta Arroz",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNM3lmQld2cE5qd1ZDRFpTMDhROV9UQTJ4WjJoWUd1bWZWS0JQRHZPVnZtSFNFRFN5QXEwbnBvaUw3YTJLMzBjaFIySElyTElBcG16QklRMUxUS2szeTdtVnNuVmdGWG54ZlNuMEhjQlFjbDFacXprLVBpTS14QXp0QkFrRGIwSmx3?oc=5",
-     "source": "Planeta Arroz",
-     "published_at": "2026-07-15T13:46:15+00:00"
-    },
-    {
-     "title": "Brasil quebra barreira dos 180 milhões de toneladas de soja - Agrimidia",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTWktYU9PMW80TkkxNFpsVnp0enNiMzlBZmEtMnBsWUktQjlUUlVTN0NFak9jZElrUnlHMzc4MVZad1dyTi1uM1BGdEJQb0RlMFdNWmVJTzVXS1JvNGFVRDB3V25BSnd4LWhqYjJZZTEwTzFtU2dnSzBNcEdMdTFHa2EzQVRMS0hLbnR6LWMyTmhld2ROelJybmFHVEFLQU9RcWNRSXc0MkpBRW9Jd3pYNGhvek1fSkdEd0E?oc=5",
-     "source": "Agrimidia",
-     "published_at": "2026-07-15T11:28:10+00:00"
     },
     {
      "title": "Soja volta a se aproximar dos US$ 12 em Chicago com novas altas nesta 4ª feira (15) - Notícias Agrícolas",

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-15T04:46:58+00:00",
+ "generated_at": "2026-07-15T07:10:49+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-15T04:46:49+00:00",
+   "updated_at": "2026-07-15T07:10:40+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -70,9 +70,9 @@
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 316.9,
+     "price": 317.1,
      "prev_close": 319.6,
-     "change_pct": -0.84,
+     "change_pct": -0.78,
      "closes": [
       302.0,
       304.8,
@@ -94,16 +94,16 @@
       323.1,
       316.8,
       319.6,
-      316.9
+      317.1
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.93,
+     "price": 70.89,
      "prev_close": 73.04,
-     "change_pct": -2.89,
+     "change_pct": -2.94,
      "closes": [
       74.37,
       72.92,
@@ -125,16 +125,16 @@
       70.86,
       73.04,
       73.04,
-      70.93
+      70.89
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 646.25,
+     "price": 646.0,
      "prev_close": 631.25,
-     "change_pct": 2.38,
+     "change_pct": 2.34,
      "closes": [
       589.75,
       596.0,
@@ -156,16 +156,16 @@
       632.0,
       627.0,
       631.25,
-      646.25
+      646.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 85.51,
+     "price": 85.84,
      "prev_close": 84.73,
-     "change_pct": 0.92,
+     "change_pct": 1.31,
      "closes": [
       83.17,
       78.96,
@@ -187,7 +187,7 @@
       76.01,
       83.3,
       84.73,
-      85.51
+      85.84
      ]
     },
     {
@@ -226,7 +226,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-15T04:46:49+00:00",
+   "updated_at": "2026-07-15T07:10:40+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -237,7 +237,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-15T04:46:54+00:00",
+   "updated_at": "2026-07-15T07:10:47+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -252,7 +252,7 @@
      ],
      "precip": [
       0.5,
-      1.2,
+      1.0,
       0.0,
       0.0,
       0.0,
@@ -260,22 +260,22 @@
       0.0
      ],
      "tmax": [
-      34.3,
-      33.0,
-      33.3,
       33.4,
-      33.6,
+      32.9,
+      33.2,
+      33.3,
+      33.3,
       34.0,
-      35.2
+      35.0
      ],
      "tmin": [
-      21.7,
-      22.3,
-      22.3,
+      21.5,
       22.2,
-      21.8,
+      22.3,
+      21.7,
       21.6,
-      23.1
+      21.5,
+      23.2
      ]
     },
     {
@@ -290,7 +290,7 @@
       "2026-07-21"
      ],
      "precip": [
-      0.7,
+      1.3,
       1.4,
       0.0,
       0.0,
@@ -299,22 +299,22 @@
       0.0
      ],
      "tmax": [
-      32.3,
+      31.9,
+      31.6,
       31.8,
-      32.1,
-      32.2,
-      32.4,
-      33.4,
-      34.3
+      31.9,
+      32.0,
+      33.2,
+      33.9
      ],
      "tmin": [
-      21.2,
-      21.3,
-      21.6,
       21.0,
-      20.7,
+      21.5,
+      21.5,
       20.5,
-      22.6
+      20.4,
+      20.6,
+      22.2
      ]
     },
     {
@@ -338,22 +338,22 @@
       0.0
      ],
      "tmax": [
+      28.6,
+      29.1,
+      28.3,
+      28.7,
       28.9,
-      29.3,
-      28.4,
-      29.0,
-      29.0,
       29.6,
-      30.8
+      31.4
      ],
      "tmin": [
-      14.6,
-      18.1,
+      14.3,
+      17.9,
       16.6,
       16.2,
+      16.9,
       17.0,
-      17.1,
-      19.9
+      19.5
      ]
     },
     {
@@ -377,28 +377,28 @@
       0.0
      ],
      "tmax": [
-      24.7,
-      30.8,
-      30.3,
-      30.3,
-      30.9,
-      30.9,
-      32.3
+      24.3,
+      29.9,
+      30.2,
+      30.1,
+      30.6,
+      30.7,
+      32.1
      ],
      "tmin": [
-      11.7,
-      16.1,
-      20.4,
-      21.8,
-      20.8,
-      20.7,
-      22.5
+      11.5,
+      15.8,
+      20.3,
+      21.4,
+      20.6,
+      20.6,
+      22.6
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-15T04:46:58+00:00",
+   "updated_at": "2026-07-15T07:10:49+00:00",
    "items": [
     {
      "title": "Nova Zelândia confirma primeiro caso de gripe aviária",
@@ -527,12 +527,6 @@
      "published_at": "2026-07-14T13:29:00+00:00"
     },
     {
-     "title": "Importação de soja pela China bate recorde em junho, impulsionada pelo Brasil - InfoMoney",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONWNWMUxydXRBNEpRMFpoT3hzNU1OVzlja2NyWE9Xb21reFdISlZZbnM3UFI0YUMyaHlYQnFNamVseEJaUXJ5Y2FRUzhxN1V4SVJFR2tNOV91QURJVDF1ZnNiZnpRRlJDZzlhU1VpdEp3VzJTdE1xaEk2ZXhTT1dmbTUxSlRTNjFNX1ZKbDh0bW9mWnVEZjIyM2I1UFctclBlQVY3WWk0VUd5QzBOd2FWWnROUmRXd9IBuwFBVV95cUxPVmJxZmZHNTRsa3R3aEM5MnJGTHN3aVk0ckNrZ1AyOHZnVm1waDM4VVl2T2hZVWZIZXRoeFIxbmhCeVY3WkhSNDdIaV9uODRiVU40elNBcUdGVENDN1o5QXlFSmhmbWRNVFh2ZV9qY3J3SnRsaU1md0N3YzMwd3pVbVp0bkNJTjBxaUhnbl90SWc2OEptYmhuX1pDX2pLR3kwZDRERURJaHR6RU9Qa25MRmcycGdqRG96QUpB?oc=5",
-     "source": "InfoMoney",
-     "published_at": "2026-07-14T12:39:46+00:00"
-    },
-    {
      "title": "Guerra no Irã: empresa de fertilizante Mosaic reduz produção no Brasil por falta de enxofre",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/14/guerra-no-irao-empresa-de-fertilizante-mosaic-reduz-producao-no-brasil-por-falta-de-enxofre.ghtml",
      "source": "G1 Agronegócios",
@@ -561,6 +555,12 @@
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORmRUVGxLbmw0bzF1MEtRNF9sWG5CZ2NmaHI2c1BhMHZ5MTJGajNGaVAyVDV5UHJHVDZTR0R3VW91LUV2VW5ELTBYQ09VWmRiOFpkUlpEQVJhVWRVOVNfSG95LWRnMEh3cXotaGg4Xy1meXdxZzJkazFhV0FaSnRiS2V6SDROczR4MkZhMWtmX0pKZTItaWppUHZxWS1VWWJoaFI2WUVHLXJJalhUSVFPaHduZk4?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-13T11:48:30+00:00"
+    },
+    {
+     "title": "Equipe FieldCrops da UFSM coordena evento de soja no Paraguai - UFSM",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSmtXTnZPQ1dCY3JsWXZWTGE1cjJIejNmYzJKZDQwZHZUMlJ6QnZfZ0VaRlc2RTltZkVuQXRwWUF1MlFfWnlsdWNBMkNHbDdtTFp3Q1A1TmtMdTBZcHpIa2F3THpOdXYtbktmMU96VHdaRV9zX1R3U0pWcGhQeTJhTVRUM2F1TzdlV0VOYnphN0ljNTdxYUlF0gGcAUFVX3lxTE9vZi1rZnJ2R2NiSkZ2Rk96MGZNM1FpVjBEcGNFbjVwVkZESF9aNGtlUzNaQXFyTUg0bjRmaHhtRXJGeEhYVU1RQ0VGMUNGWFNXMklmMzhFZnVrR1JoZWJmTi1iLUh4UHJBMkNvZ1NGNjN2d1Y1YmxoTTEyalBMY3lVVng5LVZ1SFZSdEY5U092ZXJKc3VQQ3k3LVZteg?oc=5",
+     "source": "UFSM",
+     "published_at": "2026-07-13T11:20:51+00:00"
     },
     {
      "title": "IAC desenvolve batata-doce que produz 4 vezes mais e tem 'superdose' de vitamina A",

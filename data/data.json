@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-16T21:02:23+00:00",
+ "generated_at": "2026-07-16T22:52:45+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-16T21:02:17+00:00",
+   "updated_at": "2026-07-16T22:52:36+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-16T21:02:17+00:00",
+   "updated_at": "2026-07-16T22:52:36+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-16T21:02:21+00:00",
+   "updated_at": "2026-07-16T22:52:41+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,8 +400,56 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-16T21:02:23+00:00",
+   "updated_at": "2026-07-16T22:52:45+00:00",
    "items": [
+    {
+     "title": "Brasil divulga defesa na Seção 301 e cobra resposta dos EUA sobre etanol e açúcar",
+     "link": "https://www.canalrural.com.br/economia/brasil-divulga-defesa-na-secao-301-e-cobra-resposta-dos-eua-sobre-etanol-e-acucar/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T22:28:08+00:00"
+    },
+    {
+     "title": "Prêmios firmes e dólar em alta sustentam preços da soja no mercado brasileiro - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZDZzQnJCaXpfSTF5WG1wZWdibVVpR1N4ak00VUdSMGJZTksyczMyRmczNlpoWjFKZFlCZnMxbk9DYlZtelFZZXpJT0VLaFRfeGJXa21NNFYyWFRIXzNCMlZydHRSYmhqYVF2TnZtdTZhRm1MT09QS29YdGtHWFpzaTZFOTBpZ19JOXhmNk53REs3bC1rQzc5ay02VFdlZkxwQXFWSjc0OW40R3Nva1VTak16Y25qcjMtT2JOdEo1QThReEtPTjJZTlhsZ01JbmRDdTZNRlRLOA?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T21:54:38+00:00"
+    },
+    {
+     "title": "Prêmios firmes e dólar em alta sustentam preços da soja no mercado brasileiro",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/premios-firmes-e-dolar-em-alta-sustentam-precos-da-soja-no-mercado-brasileiro/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T21:54:38+00:00"
+    },
+    {
+     "title": "Alckmin diz que Lula orientou diálogo com Trump após investigação do USTR",
+     "link": "https://www.canalrural.com.br/politica/alckmin-diz-que-lula-orientou-dialogo-com-trump-apos-investigacao-do-ustr/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T21:54:07+00:00"
+    },
+    {
+     "title": "Boletim Macrofiscal mantém PIB de 2026 em 2,3% e eleva projeção do IPCA para 5,1%",
+     "link": "https://www.canalrural.com.br/economia/boletim-macrofiscal-mantem-pib-de-2026-em-23-e-eleva-projecao-do-ipca-para-51/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T21:53:05+00:00"
+    },
+    {
+     "title": "Queda de 95% na produção de laranjas na Flórida trouxe lições de combate ao greening a SP",
+     "link": "https://www.canalrural.com.br/agricultura/queda-de-95-na-producao-de-laranjas-na-florida-trouxe-licoes-de-combate-ao-greening-a-sp/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T21:27:33+00:00"
+    },
+    {
+     "title": "VÍDEO: vacas transportadas em ônibus escolar no Pará levantam alerta sobre bem-estar animal; confira",
+     "link": "https://www.canalrural.com.br/diversos/video-vacas-transportadas-em-onibus-escolar-no-para-levantam-alerta-sobre-bem-estar-animal-confira/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T21:01:00+00:00"
+    },
+    {
+     "title": "Ibovespa cai 1,24% com tarifa dos EUA e pressão externa",
+     "link": "https://www.canalrural.com.br/economia/ibovespa-cai-124-com-tarifa-dos-eua-e-pressao-externa/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T20:58:26+00:00"
+    },
     {
      "title": "Fim da moratória da soja pode aumentar a destruição da Amazônia em 1,4 milhões de hectares nos - WWF Brasil",
      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOY1J5SEk2eVg2dmE4VzNoREdydUhJa2lGaHY5VmstYzZRSl9ob0dKWldEbUlVVlU3VV9weVpnWTd0bHJGUjZCakxKSTh5UGhZZjQ3THJEcUpuWFN5RVFGNFpvOXN0ei1NWHRha0xMcDY4b1diaFltbFU3VnhscTFJWWRCcS1yeEJkZlJZOHRKQ29ZWGpUX011Zm4yTDZfT2s0VmUzQjhDQ193YUVRcVhSanBFRXA5UkJSelNwLW5LeHdNSzkyanZQYVRXOGlrWWllR0hYcnJ1Y0xrdUU2cGFtbkFWQ0g2b0E2dzZpb3J4cWxicGJRRndGZQ?oc=5",
@@ -439,46 +487,22 @@
      "published_at": "2026-07-16T20:17:13+00:00"
     },
     {
+     "title": "Preços da soja seguem dando oportunidade de vendas no Brasil, seja por Chicago ou pelo dólar - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNSW01VFdlNTJfTFp5UFpVeGYtZlNQd3lQZEFzckRzTF9wU3gwMHFmRFM3Y21qcDRTbjJRblRCaVFXSGwzODVDNlV1b015QmhWUE9MUW50by1PQmN3WlJjMC1BREFPQUVGYjVraDRPaVV4U09EVU9meUh2bzlra0RUWVRWNXNqRVdmb09NejhDUVJtVDhwelNTSzI4VV9ad2JScDlNTnRmZzNpUGF5TzJRYmh5bXJ5T0hnYTdsU3pvQVBoeW4wd0VIYTBIcmRqTlFsRV9WajZjTFJ3eS10ZlhndmZDRDFLVHPSAewBQVVfeXFMTTgyaDhhUE9pcE56eVBmc2w0d25LbTFMLTF0cWkybDFVcFZTVm1DZkhFbXBTQTVsbTlUQlNmYkNyR0lQaXJjdlAxSHBHcU1uRlFvN185aG8tN2Qtd3BJTHdQbjdYRzlkU0ZUd09PNE8wRnlUd3p0Z1IyekZ2bGF3X253cTdCYWtWb1Q2aERSSXZsWk1uUXVLTWNrNE0wVXRCUHVoWThSS0Y5aDJCNlg0V1YxRWJ5a3Z1d050THBFUVdUMVdJOHZTNHR1eGNCLVBFY1NGclBFQk9yQzlJZ3pjaTJnS0Z6clhLdXczNFc?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-16T19:34:40+00:00"
+    },
+    {
      "title": "Fim da Moratória da Soja ameaça Amazônia em 1,4 milhão de hectares, equivalente a 2 milhões de campos de futebol - Brasil de Fato",
      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSmRPRVowOUhXczFuaFF3UkQ1dlZMdTJaVVZsNkFrTDRTVHV6Yi1ERzEwWU8tWTNOM3BZWXJ1WGItUmNNYVNQYlMxOFE2aERtc0RzSi1ibUxKVVZBWWc1clpjZVppb2Z6cm84eEg1ZWJBYWdhdDJsaElPNW5icWF1U21pU0p2MU1semVjUEdpUldtVkY3c0UwNmNuZnk1enBHNTkwR2NVUEJLSEJuU3BSZ2I4LTdySW1zWXhMZk84U3VDdG12SjBXX1NDTE4zZlppdTJ1WDIzQ3FSdzlrVVJtU3ZBWnJMUDA0dWc?oc=5",
      "source": "Brasil de Fato",
      "published_at": "2026-07-16T19:34:00+00:00"
     },
     {
-     "title": "Tarifa de 25% dos EUA atinge US$ 11 bilhões em exportações brasileiras, diz CNI",
-     "link": "https://www.canalrural.com.br/economia/tarifa-de-25-dos-eua-atinge-us-11-bilhoes-em-exportacoes-brasileiras-diz-cni/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-16T19:22:12+00:00"
-    },
-    {
      "title": "Fim da Moratória da Soja pode aumentar desmatamento em 17% na Amazônia, diz estudo - Capital Reset",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOWdsRzNPT1cxVDFOUURxV19xOFdYSWFZTnNIVlN0YU1xQTlaUjN0aF9aYkpRamY0Znl1TDdXRVA3YXJBUWluckRGSTd3ZHZOLUFweHQtdV95T1dTdzRDM1h5dld2RjAwTHNxdU5yQm54cUhXb2h0bVFtRC1KRnFCRWlqRTRmV3BEdFJpc19VSkxwaVNPVTdhazF3b3BrZUo2dmR1cmVDYWlKb2lhbTBkQmtLU1RMckZEazZoQWFBTmh0X1U?oc=5",
      "source": "Capital Reset",
      "published_at": "2026-07-16T19:21:26+00:00"
-    },
-    {
-     "title": "Petróleo fecha em queda com volatilidade em meio a tensão no Oriente Médio",
-     "link": "https://www.canalrural.com.br/economia/petroleo-fecha-em-queda-com-volatilidade-em-meio-a-tensao-no-oriente-medio/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-16T19:18:20+00:00"
-    },
-    {
-     "title": "Colheita de soja 2025/26 na Argentina atinge 99,9% da área cultivada - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUFV0VHBPZnpTQnlnNU5JcTEyUE1hTDQwcFFBUmhkQ3NUeHpRSndEdFBaOHpUb0pXWGtuczhYb2pwN0RTQ3VEemdkUFBGcFRfLXAyd3htWWd5bXpINWY2RHZPY2hCdHpsdENMQ3lwdFNOUEdFbWFIVXlmcFVyMkJhWnBDeVBvT3p1WDFaWmVmdEg0N1dtT242eldhWDZ3YlBJNW1pNEJtUXkxcEo5OVB2TkxJZ1o2X2YtN2prd1ZHN0JKc0liZzhOeg?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-16T19:17:21+00:00"
-    },
-    {
-     "title": "Colheita de soja 2025/26 na Argentina atinge 99,9% da área cultivada",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/colheita-de-soja-2025-26-na-argentina-atinge-999-da-area-cultivada/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-16T19:17:21+00:00"
-    },
-    {
-     "title": "Pesquisadora do Inpa recebe prêmio internacional por estudo com samburá de abelha amazônica",
-     "link": "https://www.canalrural.com.br/agricultura/pesquisadora-do-inpa-recebe-premio-internacional-por-estudo-com-sambura-de-abelha-amazonica/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-16T19:03:18+00:00"
     },
     {
      "title": "PR Safra 2025/26: complexo soja impulsiona exportações em 2026 - Revista Cultivar",
@@ -493,12 +517,6 @@
      "published_at": "2026-07-16T18:26:52+00:00"
     },
     {
-     "title": "Mauro Vieira atribui tarifa dos EUA à posição do Brasil nas negociações",
-     "link": "https://www.canalrural.com.br/politica/mauro-vieira-atribui-tarifa-dos-eua-a-posicao-do-brasil-nas-negociacoes/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-16T18:17:08+00:00"
-    },
-    {
      "title": "Exportadoras dizem que carne brasileira pode não conseguir atender exigências da UE sobre antimicrobianos",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/exportadoras-dizem-que-carne-brasileira-pode-nao-conseguir-atender-exigencias-da-ue-sobre-antimicrobianos.ghtml",
      "source": "G1 Agronegócios",
@@ -511,22 +529,10 @@
      "published_at": "2026-07-16T18:04:01+00:00"
     },
     {
-     "title": "Vendas semanais de trigo dos EUA somam 235,1 mil toneladas, diz USDA",
-     "link": "https://www.canalrural.com.br/agricultura/vendas-semanais-de-trigo-dos-eua-somam-2351-mil-toneladas-diz-usda/",
+     "title": "Aprosoja MT reconhece MP da renegociação das dívidas rurais como avanço, mas cobra aperfeiçoamentos",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/divida-rural-mp-traz-avancos-mas-precisa-ser-aperfeicoada-avalia-aprosoja-mt/",
      "source": "Canal Rural",
-     "published_at": "2026-07-16T16:17:25+00:00"
-    },
-    {
-     "title": "Bactéria que já infectou detergente é encontrada em dois lotes de água mineral",
-     "link": "https://www.canalrural.com.br/seguranca/bacteria-que-ja-infectou-detergente-e-encontrada-em-dois-lotes-de-agua-mineral/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-16T16:15:01+00:00"
-    },
-    {
-     "title": "BNDES aprova R$ 60,5 milhões para ampliar armazenagem da Coamo no Paraná",
-     "link": "https://www.canalrural.com.br/agricultura/bndes-aprova-r-605-milhoes-para-ampliar-armazenagem-da-coamo-no-parana/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-16T15:54:13+00:00"
+     "published_at": "2026-07-16T17:03:09+00:00"
     },
     {
      "title": "El Niño pode definir preços da soja nos EUA - Agrolink",
@@ -541,22 +547,16 @@
      "published_at": "2026-07-16T14:00:36"
     },
     {
-     "title": "Soja volta a subir em Chicago nesta 5ª, ainda acompanhando os grãos e consolidando os US$ 12 - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNT3E3TDZ4NnBXWWlnSE5tRi1lZ00zbk16QTdWWWk3bFBrVjdfNUxPQzRldDBGR1o3Z05WaEhpVDBkd1R0ZVpiTXRWSGdVeWxQb0RMWkRJdF9nQ05SU2RUcGZLNTNFcXZIZzVXQjVTZmk0SzMzcS1ZalpMVGFaVzJhamc1VUJ1U25CWS1kc3dsMV9Ic3RJOUhISWFOVkVNOFFIYVU2YkZlSW0yTEhDWnRCWjVHR2hGVk1lLU5ZZWxuSF9IS05kU2dzZk5ZWkx5aTJNSlBCVnE5dElCdmRIVlJicEJtRjQtMHfSAewBQVVfeXFMTkswamotc2dvcWdZRVExZGFjdUdaN3NndWRLc2JCQTliUVNzSDFkX2dtem91TktGandYUmdCMXppZ3lKUFVSbkNUWEdOSEhEYkFIUXJoalE3aFNGbmhGdTdPR3lmbzBWZGlvRzRqNkU5M3A2Z3ZySHYyMm1iaVprWFBvMnZQemRHaU93RjN2WGtpZGU3ZXlIbTB1ZURMNUR1UXEza3RRQW9DUGc1OWJKNFdPZmlVTVc2eE13VV9UOF9OR1NfNks0N1p6SW1GenVfeFNIVnc3YVN3T25hc21CR2c5TTNfbDFfakFQNDA?oc=5",
+     "title": "USDA: Vendas semanais de soja da safra 26/27 dos EUA superam expectativas do mercado - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTExUaFdSb1g1MlFaZFcxaExOUUI5YzFQT3ZrMzNkc1NFRzhtc0o3cFJITjVKZ2JBMWFFYmlXX1hybkFIYThhMllJenV0dmlhWmppOXR2dldmVFI1NHRxU3VBeHQ2ejBGSnMwRWxvem96TTNWN3NsYkRXX2FPYXU4SXhMOHJUUGMxcjVLS2lZZEJjWE1DNVh2OXlGS1lUUk9oVi1CZ210Q01WOHdPMF9zc3ZFZ0ZFcjlIR3NDM2lwTENNcGQ1cjQ0czhMT2J0eC1EeFJvRmxyVnA1VVliSDIw0gHkAUFVX3lxTFBfTE50ZHotdnNocXdhUURLSTNtak1nTGVuN3ZSeV9vaUlUWG41cGhmSWcwLVlQZndoc2xnSENHd0JEb1FBYVpZWkFVV2kxd0ZHbWFlZTBaOGRubU9vVThSXzBHT2RqTnpneldaZHp2ak9xZ2wtMXhST05yTXF2eWVhNXcxQmpVY0NTUlpQRnpENEJtME13a2ZIT1h3Mnc2OUJQLWhkMVBFZXQ5OUtZaTNrdDR3UWJZeE9SZjNoMGNTa3JPa3drOXk2Y3NNMXZheFlFY2gzd2N0R1Q0X3U3X0FCSVZRTA?oc=5",
      "source": "Notícias Agrícolas",
-     "published_at": "2026-07-16T10:44:44+00:00"
+     "published_at": "2026-07-16T13:55:21+00:00"
     },
     {
      "title": "Tarifaço de Trump: veja a lista de produtos que ficaram isentos e os que serão impactados pela nova taxa",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/tarifaco-de-trump-veja-a-lista-de-produtos-que-ficaram-isento-da-nova-tarifa-de-25percent.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-16T10:40:30"
-    },
-    {
-     "title": "Preço do bezerro, boi gordo, milho e soja na 1ª metade de julho de 2026 - Farmnews",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYW5HVDQtbWQ5d09BU2xxYXN5YVlzUndtZGFOaXQwRG4tLVQ3MWp4c0tHa25qRGlTQzFxMWczSFlhWllOczZMc0JMTjN5SW41endIMUtsUmRxc0x2WGxYbzRjOVl5ME9VQ0Q4VlBkZDA1d2pxSWFzREpLa01vTWkwSEZlV0R4YVBBYTg5Si1QcjUwaUxjWkZBaVZxMlJvSUJ6YTYxNw?oc=5",
-     "source": "Farmnews",
-     "published_at": "2026-07-16T08:49:46+00:00"
     },
     {
      "title": "'Olho por olho, dente por dente?' O que diz a Lei de Reciprocidade que Lula quer usar contra novo tarifaço dos EUA",

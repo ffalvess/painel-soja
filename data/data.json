@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-16T08:02:35+00:00",
+ "generated_at": "2026-07-16T10:52:53+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-16T08:02:27+00:00",
+   "updated_at": "2026-07-16T10:52:45+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1203.75,
+     "price": 1205.5,
      "prev_close": 1202.25,
-     "change_pct": 0.12,
+     "change_pct": 0.27,
      "closes": [
       1130.0,
       1132.0,
@@ -32,16 +32,16 @@
       1202.0,
       1207.25,
       1202.25,
-      1203.75
+      1205.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 471.5,
+     "price": 471.25,
      "prev_close": 447.5,
-     "change_pct": 5.36,
+     "change_pct": 5.31,
      "closes": [
       413.75,
       421.0,
@@ -63,16 +63,16 @@
       437.75,
       433.75,
       447.5,
-      471.5
+      471.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 321.3,
+     "price": 321.7,
      "prev_close": 318.9,
-     "change_pct": 0.75,
+     "change_pct": 0.88,
      "closes": [
       304.8,
       304.8,
@@ -94,16 +94,16 @@
       316.8,
       319.6,
       318.9,
-      321.3
+      321.7
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.92,
+     "price": 71.06,
      "prev_close": 72.92,
-     "change_pct": -2.74,
+     "change_pct": -2.55,
      "closes": [
       72.92,
       71.54,
@@ -125,16 +125,16 @@
       73.04,
       73.04,
       72.92,
-      70.92
+      71.06
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 688.0,
+     "price": 684.25,
      "prev_close": 677.5,
-     "change_pct": 1.55,
+     "change_pct": 1.0,
      "closes": [
       596.0,
       612.75,
@@ -156,16 +156,16 @@
       627.0,
       631.25,
       677.5,
-      688.0
+      684.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 84.55,
+     "price": 84.8,
      "prev_close": 84.95,
-     "change_pct": -0.47,
+     "change_pct": -0.18,
      "closes": [
       78.96,
       79.55,
@@ -187,7 +187,7 @@
       83.3,
       84.73,
       84.95,
-      84.55
+      84.8
      ]
     },
     {
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-16T08:02:27+00:00",
+   "updated_at": "2026-07-16T10:52:45+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-16T08:02:32+00:00",
+   "updated_at": "2026-07-16T10:52:50+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,13 +400,73 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-16T08:02:35+00:00",
+   "updated_at": "2026-07-16T10:52:53+00:00",
    "items": [
     {
-     "title": "SOJA E TRIGO: confira cotações para esta quinta-feira (16) - Brasil 61",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTllmeUp3MTlyUzd6ZzdoY2lOYmZ2Q1g0VGY1S2ljTDQyR0E4M29jcU1LbmdzbjdHNU1CckxwME5JeF8taE1yamphdWwtNjdoMEw1X3lzR0ozQUdEZE1FTWUwODRhLUYwVXNVd2ZlOVhGZ1NPdlJXUDJ0TllHbnFsVzgxQUJRNjBEUjFHRG4wNGd1LWvSAZgBQVVfeXFMUFRvVmhqYUJKSTNsVXZPd3B6LVlXRnlqd3JDMnBka05VV0VfY3JBaVQ3QlNfMXJfaHI0NGx1d3Y4X01iOXBrQXQteU1Jck12VENLQU9Nbl81NlFYdVkyVlcxbEYzdmpvNll5MERjN1p0Q3hMWUpmUGdqNHYxdldFS2RlX0dTZjNIQnRYcEtOTDRWbElkZ3lrY2g?oc=5",
-     "source": "Brasil 61",
-     "published_at": "2026-07-16T07:05:00+00:00"
+     "title": "MP autoriza renegociação de dívidas rurais e pode alcançar mais de R$ 100 bilhões",
+     "link": "https://www.canalrural.com.br/economia/mp-autoriza-renegociacao-de-dividas-rurais-e-pode-alcancar-mais-de-r-100-bilhoes/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T10:43:01+00:00"
+    },
+    {
+     "title": "Tarifaço de Trump: veja a lista de produtos que ficaram isento da nova tarifa de 25%",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/tarifaco-de-trump-veja-a-lista-de-produtos-que-ficaram-isento-da-nova-tarifa-de-25percent.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-16T10:40:30"
+    },
+    {
+     "title": "Soja avança em Chicago com apoio do petróleo - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZmNnNWhnWEVwRGxYbUdnWU1UcU05NmFReDM3a2FlenRmc3lMMnk1S3V1djczRlZhcV8zYXNkdjRJTUsyb2FlSVhPMEhmd05Rb25Ec1pSRUNfVF93SkEzRXJOcmNjbktSbnR2Qm1USlpsbnVJM1BFRnNGckMtMXczVVRvalpjSEJyeDFoS1htbnExU1hyMk5Odw?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-16T10:39:00+00:00"
+    },
+    {
+     "title": "EUA ampliam lista de produtos brasileiros isentos de tarifa de 25%",
+     "link": "https://www.canalrural.com.br/economia/eua-ampliam-lista-de-produtos-brasileiros-isentos-de-tarifa-de-25/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T10:27:38+00:00"
+    },
+    {
+     "title": "SOJA E TRIGO: confira cotações para esta quinta-feira (16) - Conexão Itajubá",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNDkyd1ZhV3pPWkpzN1BtUHh3SkZia0FESDBlYUR5Xy16ZGZ5bHhZSUppaU5OeEh0VG1Zd0NCcjJIZmVUMWszUzQwT1lyZXJXbWx2U2VsT2RKR2p4bmJPNlNMTV80R2k1ajRUMVlXZ3BJVDFHZldJdjFRa1JzUzFXSUlreldOblNYWDl0OXM1Qng2UHdJUlFpcWlQSjFIS3UwVWVDU0hocUJ0UQ?oc=5",
+     "source": "Conexão Itajubá",
+     "published_at": "2026-07-16T10:15:16+00:00"
+    },
+    {
+     "title": "Clima nos EUA cria oportunidade para venda de soja e milho - Feed&Food",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRzQ2d3lJY2luWkVua1dlVGdMU3dqNlRPWFZKMThyRkxzVGpvd0ZOcFBfUWpzcjFmQmZwZmRFb1BqLWtaUHA4bzlRWnZ2MG1vUWhUVTlFeWotQ2oyMjc2anM4UG5PUUgwNnFHeU9FYVN1QWRzYng3cVBhSTZiUVk1QmJYMzdXNlo0RnRMV0NhYk0?oc=5",
+     "source": "Feed&Food",
+     "published_at": "2026-07-16T10:01:00+00:00"
+    },
+    {
+     "title": "Preço da soja registra queda mesmo com valorização no exterior - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ1pjOVgySkt6TE9JS0VmeVFDcUdueEhuUF9VSWZxUmx4NFJscXpsZTVReVVWYUl6VDYzdnEzemdUQkV5UExiUV9mZjl6N0xyX3FDR1NfNlRYTGRfWlhzT3ZsMGNxYkRQZ0IzYUdYNDgxTm9PZnV3YmNUdlFEVEZnXzVMSDdCWmtjQ0ZVc2lvbWI4X0VibmxjSi0wS2Q5bE9zanY4eHVieWFCdlBiMUtjY1VZaDBYSU9YQktxNGJFY9IBzgFBVV95cUxNZU1Xdm9kc3JSbEF1OXBNMUJrLXV5UHNkVUVzM3JHZFV6cm5ieXo0RVh4QVhjM1ZydXlncC1pOFJ4eFJZMzE4cFBQYnZqa2pFM0t6QzVROHR5UDAtdDVJMzhMSXRpTjZPbW1qMGxuem9oMTg1YUFpVEJsemlnVThOTG9PM2RSN2dxUHpRblFDT1BBUG5JV1c3bUNmeE9BcHZJLWJVX3NrQ0tUOUVwRnhjbnBMOGRfQU41OUJMQlhOYm9NQ3MyZWJ0YUR5RG53UQ?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-16T09:15:08+00:00"
+    },
+    {
+     "title": "Migração de produtores de soja para o Centro-Oeste é tema de livro de ficção - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObVRQUndabGxZN1NDSlVMQWlCR2NUR3ZsUW54emR6V29MNnJkeEN0SWplODJ2VWpHeE52VmxnWUpsMDB5RzBfYXVBUG11eGo3OEcwOTY5UHFFOXEzQUhkRDktU1MxdzM1TFkxa25TQ1ZmLThwc2Jqeng0VzNnU2xfY1V6MHk2ZkNtYW10andJVUNRYmhrWmtHMFozVVJKVlh2aGtDOXlTaGEyZ2M3QndzTTFVVmpPQWVIZ3ZjQWVZUFBBanlTUzVVSEtBRmxlQlV60gHfAUFVX3lxTE5FQXlvZVRtMFZod0Y3dE9wNUR1SGl4LU85Vm9ndzM1M1BWY1M0cG1Kem5WN205aDAtdkVnSndBVVNXNWdRcndkYnJqUzFuUUJxLWdUWlgtZGh3M3BaaWZWUm5ocjNmMzV0bnY2MjBNVjMxMWlpRllYazRpRjZnSl9ncEdpZl93ZGZaNGRSNEw0UXZ0djc5cUl6UFJfd2duT0xMTkVmSTZzTElwUXFVMHRNXzh4VDh2OG1HdnR0VzBfVmpzVWhGUlBLX0tqLW9kV3draDRZSFVSdjFya3dLa0U?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-16T09:00:48+00:00"
+    },
+    {
+     "title": "Preço do bezerro, boi gordo, milho e soja na 1ª metade de julho de 2026 - Farmnews",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWmlpMUxOdjNiM2w4eV85cFlWTlYwbEJrN3dXcl85T1RBTEc1N09FRXFxanJ5UXFzX3VZWlExc0N1YzZieDlBclJ5OExUd0RHdEtaM1JES00xNGpIMkwyNVpOODJsS3RYaGpNTjhoaXp6NTAyakU4SjM5cGJoMkJyOXlwRTlBTl8yQjNYdnJlYzdWTXBFX044aUIzTnNCYnpmVHJ3dTZsaHJaZw?oc=5",
+     "source": "Farmnews",
+     "published_at": "2026-07-16T08:49:46+00:00"
+    },
+    {
+     "title": "Mercado trava à espera do tarifaço norte-americano: ouça os destaques do dia",
+     "link": "https://www.canalrural.com.br/economia/mercado-trava-a-espera-do-tarifaco-norte-americano-ouca-os-destaques-do-dia/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T08:45:00+00:00"
+    },
+    {
+     "title": "'Olho por olho, dente por dente?' O que diz a Lei de Reciprocidade que Lula quer usar contra novo tarifaço dos EUA",
+     "link": "https://g1.globo.com/economia/noticia/2026/07/16/olho-por-olho-dente-por-dente-o-que-diz-a-lei-de-reciprocidade-que-lula-quer-usar-contra-novo-tarifaco-dos-eua.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-16T08:40:08"
     },
     {
      "title": "Produtor colhe mamão de quase 8 kg no interior de São Paulo; veja vídeo",
@@ -493,46 +553,10 @@
      "published_at": "2026-07-15T20:47:22+00:00"
     },
     {
-     "title": "Fazenda vê impacto macroeconômico reduzido de novas tarifas dos EUA",
-     "link": "https://www.canalrural.com.br/economia/fazenda-ve-impacto-macroeconomico-reduzido-de-novas-tarifas-dos-eua/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T20:41:44+00:00"
-    },
-    {
-     "title": "Exportações de petróleo do Brasil para a China batem recorde no primeiro semestre",
-     "link": "https://www.canalrural.com.br/economia/exportacoes-de-petroleo-do-brasil-para-a-china-batem-recorde-no-primeiro-semestre/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T20:33:07+00:00"
-    },
-    {
-     "title": "Entenda o que faz a carne do Pantanal conquistar mercados cada vez mais exigentes",
-     "link": "https://www.canalrural.com.br/pecuaria/entenda-o-que-faz-a-carne-do-pantanal-conquistar-mercados-cada-vez-mais-exigentes/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T20:31:21+00:00"
-    },
-    {
-     "title": "Fazenda de Itapetininga se destaca com quase 96 sacas de soja por hectare - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSEVQV2d5Sko3amNzNmJUM0dRa2JJNUZJYmRPdnNwWm9neVRqYks1aDB2Qm5hMGExRERYbzNTbVNRb2FMQjB5dXl5a0ZGcnMwUFhBUjFwRHIySHRoX29pMF9kd01DVEdqcXVHU09JVTk5cC1vR1AzQmhwS3RVUngzMEE2YmF2ZmtCUlNkaVgxWWRWNVVXUVZtSlk5Z182VUdFdFlvOHpTWkRxN0Y1b0hwbA?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T20:06:19+00:00"
-    },
-    {
      "title": "Oscilações climáticas nos EUA movimentam mercado de grãos - Revista Cultivar",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa3kxU1JEeUE4cDFZdVJvam8ySmZBZWhCOVo0UlhycXVuVHVfXzJXajdKcFRwdFdKVUhJRDNFSGU1RVVVcEhuMzI4MUgzR2F6dGVvc0lMS2doZlZmcmI1Q1c2NEhRd005SjlHWFpGZ3pSY2w2YkhDNDE3ajhjNXJZQkV1MERlNFoxWko5TEtMWnNMYjNjRlJ1bnY2dEdldw?oc=5",
      "source": "Revista Cultivar",
      "published_at": "2026-07-15T19:42:30+00:00"
-    },
-    {
-     "title": "Trigo sobe 5% e lidera disparada dos grãos e da soja na Bolsa de Chicago nesta 4ª feira; impacto é limitado no Brasil - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxObzF6Tk1aYWJMUFdwSUV3V1paTlhFOTlqNkNfaWU0LS1xUEFZNXBpZ3JuNlJIZ0tVRzBSbUpRUkN4SEg1T1p2eTlMY0VCMy1tNXl4dV9ocGZfWTFPajNuT2M0Y1FiN2FBcWVxanZveEZOakFtOHJKYzd5cFduUWpjNmE5RjBBM0I2UzljaTRIV2p1U3lEVkVFdllkV1FjT3B3VFNZUTJGbGQtaXFyQ1h2T0lxd25qZGdzTGYwVGNRbWFFeFNQbHJGVVFlNk11QUllbnRGTGxSOVVzeXd6NzBDTklfeTcxU0g0MVkyQ3Itbm1oSTlVSF9POXBKbWhlZF9Zc29YYUxvVk7SAY4CQVVfeXFMTmdaRmY2T2F4UUszemdXYzBIekZPbGJrNGR5YlA1a010N1ptMDRVejRRQ0xKbW1TdlV1cmZ3YjNpWUYtODcxb2pWYTZ3T0p1WnlmVjJQbmF3LW1nNS1FRDhnMlE1WUkyRnppR3NXbC15Tml3R3hXSW1qU3pkSDk5TEhuenpWV2pGYmpuUmVhR2dMZDM5QXNvdDRWTE1XWGt5RGpWQ0FBZVlnd0lDR0xpZUNLZWRPSVBnTXlGamxNRmxxbW81Nk8wRkQ5Q1owLWtlUjZYbllTWjNibTBKWkZybzFzX05iS2lzYkVYV2MyYjVJVWtyNmdnT3hKVUg1Q3IwQ0YxT3ZzYk10Wklxc3pR?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-15T19:26:58+00:00"
-    },
-    {
-     "title": "Safra argentina de soja termina com rendimento elevado - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaWFYdHZVNkdkVUZFampmTHhEZ0FXSzBnN0hidlg3Y3R0QWlCQTY5ZzY1UEZ0al9rS0N2TW81czF5TG9ONFQ1Ym93T2VuYlpyQUw3NnhrbElsLVVLWmVKVFFqWDF4RUZ6bkdFR1BucWNDVm8weHBCZFhrY3dXTWt4VUhWWTZTMmhrSWhqcFNVaGcwcUtXN2FySmlrT3lCamJmcFFOeUFB?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-15T19:09:00+00:00"
     },
     {
      "title": "NOPA: Esmagamento de soja dos EUA de junho supera expectativas e aumento de 16% no ano - Notícias Agrícolas",
@@ -553,34 +577,10 @@
      "published_at": "2026-07-15T15:32:39"
     },
     {
-     "title": "Soja sobe mais de 10 pts em Chicago e volta aos US$ 12 por bushel, na esteira da dispara do trigo - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQcGhiNEtDczVDYmctRkE3OGRLcUJWYjR3QjNfLWtLY1hpcWlTOUZzaE43S0dFRnJFN3N5cnJOeDVCNEdfR05odlZzNFVaNXBXY3hZbXM4Uk5fRG5wbWRiT3JhS0JxZG9SQUF6NF9lcGZielNsMEc5MmlsdzN3R3hiTVNfLWVucW81NU9DMHpTdG8zQ0RnZ2t6WmFHME5WWFZubF9INUY5ZDNjanFWaUN3c1VYREtRX1FGV2ktYjJRN1YwZVUwVHJGOU1ZSnp0elVPOWFmdWZFaE5aeWEyT2d6QXEtTkZzbzZQaVIyeXY4Z9IB9AFBVV95cUxPbEo0YmJoakduaVBSb0JlSnBzblRUM0lydUZUTzJJZWZYU0szNW5tNi1rX3BmSHJpZE5QNllxMklBUTkzMlRibk8wZ2lLOTRldHdjdDlnQ05IWGdiRVlzdHJZTWVMb3hCRkFiZllqdW5PcHI4MXU2TG92aVVkQ05zTVpDbG9hUFFueVhzdWZsblpKaWhpRlNXblZya3JNeDZJQmNMdy1EWXpoS2loTlo3TjljcDNRdG9FWEh5b1o3YVVGTHRPQjM2YjVwSC0yejBqQXlyUWw3VDFpeFpRbk9wMWJPY0FaYlZnRkZTWHU2d0prQndG?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-15T15:27:04+00:00"
-    },
-    {
-     "title": "Safra Francesa de Trigo Soft Projeta Queda de 4% e Acende Alerta no Mercado de Grãos em 2026 - Forbes Brasil",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZ3BUbk03QS1wY3ZoZWtOVEdnMUlNVWl4UTNybnFnaXhrOXd0Zy1wdWpnNjlnb0Z4VlFJTzRXNndtLWJpb0RhMXdkem42dHdpa094c0N6ZkNJRm9jME5HM2NEQzJOdDRRUE1fc2lhclBHeGFzbnk5MlQxNVFTT210OFloSlVvOWVkYjRLcWRaYmF1QWlmaEJ0cG5uaUFKZEtKRFlubVU2VGt5VkhvdFRhSVJTZkV4V19qeGstbE52aTVCbkk1akxlUG9HYkNta1k?oc=5",
-     "source": "Forbes Brasil",
-     "published_at": "2026-07-15T15:17:48+00:00"
-    },
-    {
      "title": "Tarifas dos EUA empurraram Brasil para outros parceiros comerciais, mas dependência chinesa preocupa",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/15/tarifas-dos-eua-empurraram-brasil-para-outros-parceiros-comerciais-mas-dependencia-chinesa-preocupa.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-15T14:43:42"
-    },
-    {
-     "title": "'Não queremos ser a última geração a comer esse queijo': ondas de calor ameaçam a produção do Parmigiano Reggiano na Itália",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/15/nao-queremos-ser-a-ultima-geracao-a-comer-esse-queijo-ondas-de-calor-ameacam-a-producao-do-parmigiano-reggiano-na-italia.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-15T08:03:29"
-    },
-    {
-     "title": "Nova Zelândia confirma primeiro caso de gripe aviária",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/15/nova-zelandia-confirma-primeiro-caso-de-gripe-aviaria.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-15T04:23:58"
     }
    ],
    "failed": [

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-16T19:58:13+00:00",
+ "generated_at": "2026-07-16T21:02:23+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-16T19:58:08+00:00",
+   "updated_at": "2026-07-16T21:02:17+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -163,9 +163,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 84.33,
+     "price": 84.93,
      "prev_close": 84.95,
-     "change_pct": -0.73,
+     "change_pct": -0.02,
      "closes": [
       78.96,
       79.55,
@@ -187,16 +187,16 @@
       83.3,
       84.73,
       84.95,
-      84.33
+      84.93
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 173696.11,
+     "price": 173825.27,
      "prev_close": 176011.0,
-     "change_pct": -1.32,
+     "change_pct": -1.24,
      "closes": [
       169649.0,
       168454.0,
@@ -220,7 +220,7 @@
       175739.0,
       176641.0,
       176011.0,
-      173696.1094
+      173825.2656
      ]
     }
    ],
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-16T19:58:08+00:00",
+   "updated_at": "2026-07-16T21:02:17+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-16T19:58:11+00:00",
+   "updated_at": "2026-07-16T21:02:21+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,8 +400,44 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-16T19:58:13+00:00",
+   "updated_at": "2026-07-16T21:02:23+00:00",
    "items": [
+    {
+     "title": "Fim da moratória da soja pode aumentar a destruição da Amazônia em 1,4 milhões de hectares nos - WWF Brasil",
+     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOY1J5SEk2eVg2dmE4VzNoREdydUhJa2lGaHY5VmstYzZRSl9ob0dKWldEbUlVVlU3VV9weVpnWTd0bHJGUjZCakxKSTh5UGhZZjQ3THJEcUpuWFN5RVFGNFpvOXN0ei1NWHRha0xMcDY4b1diaFltbFU3VnhscTFJWWRCcS1yeEJkZlJZOHRKQ29ZWGpUX011Zm4yTDZfT2s0VmUzQjhDQ193YUVRcVhSanBFRXA5UkJSelNwLW5LeHdNSzkyanZQYVRXOGlrWWllR0hYcnJ1Y0xrdUU2cGFtbkFWQ0g2b0E2dzZpb3J4cWxicGJRRndGZQ?oc=5",
+     "source": "WWF Brasil",
+     "published_at": "2026-07-16T20:47:19+00:00"
+    },
+    {
+     "title": "EUA excluem pescados brasileiros de novas tarifas de importação",
+     "link": "https://www.canalrural.com.br/economia/eua-excluem-pescados-brasileiros-de-novas-tarifas-de-importacao/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T20:28:34+00:00"
+    },
+    {
+     "title": "Soja fecha em queda em Chicago com foco no clima e na demanda nos EUA - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSEJZZjZrNm9pdjJfYkR6WEhYbHgtZ3lHc2xjejREZmdPZXlfd3k0dHNxYXZpUDVkRGsyN04wSUh6ZE5Nc3RoanBNQmliUENIUDFMYTVtRFRCTU41YWk0bUlfOVFibGRVcDctX1U5UVZodGM2MWg4eENwUEZHV0NWaW42cHJHQ0NleHJmQzFsLXVMVkJjMnV1RWZha0RJdy1XVG5na184TQ?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-07-16T20:24:40+00:00"
+    },
+    {
+     "title": "Suco de laranja brasileiro fica fora da sobretaxa de 25% imposta pelos EUA",
+     "link": "https://www.canalrural.com.br/agricultura/suco-de-laranja-brasileiro-fica-fora-da-sobretaxa-de-25-imposta-pelos-eua/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T20:20:52+00:00"
+    },
+    {
+     "title": "Setor de açúcar e etanol reage a tarifa dos EUA e diz que medida de Trump ignora realidade do mercado",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/as-tarifas-dos-eua-sobre-o-brasil-sao-uma-pilula-amarga-para-os-produtores-de-acucar-e-etanol.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-16T20:18:21"
+    },
+    {
+     "title": "Science publica estudo sobre a Moratória da Soja que consolida seu legado e alerta para os risc - WWF Brasil",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOT2xyX0NnUnp0aGNkSk90SkU1d0w1YVRUR1k3M2lvSS0zTUktd0FSRTBocVFyX2tKbFhWd2VoZm1lWGhtc2RwRDhLSlFoSFZRRnEtY1pkV3JSMXZjZ01mcGVUUTVMUXB4ejM1WVpZa2phZHZRQlVLZHhHRmRhRHZ1QUxVMjUxS21WMDFxaGpCOHlJdS1KcGppeDlGTFdDT3FfYkR1OEFrcXlZeVZiZndJMHItenhTZmFvQmJvXzV6TVBrTk5TNUdVdzJMNk03N1gxcFZaV0Q0cVZJRW5kYzZN?oc=5",
+     "source": "WWF Brasil",
+     "published_at": "2026-07-16T20:17:13+00:00"
+    },
     {
      "title": "Fim da Moratória da Soja ameaça Amazônia em 1,4 milhão de hectares, equivalente a 2 milhões de campos de futebol - Brasil de Fato",
      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSmRPRVowOUhXczFuaFF3UkQ1dlZMdTJaVVZsNkFrTDRTVHV6Yi1ERzEwWU8tWTNOM3BZWXJ1WGItUmNNYVNQYlMxOFE2aERtc0RzSi1ibUxKVVZBWWc1clpjZVppb2Z6cm84eEg1ZWJBYWdhdDJsaElPNW5icWF1U21pU0p2MU1semVjUEdpUldtVkY3c0UwNmNuZnk1enBHNTkwR2NVUEJLSEJuU3BSZ2I4LTdySW1zWXhMZk84U3VDdG12SjBXX1NDTE4zZlppdTJ1WDIzQ3FSdzlrVVJtU3ZBWnJMUDA0dWc?oc=5",
@@ -493,24 +529,6 @@
      "published_at": "2026-07-16T15:54:13+00:00"
     },
     {
-     "title": "Conab suspende atendimento presencial na regional do Amazonas nesta quinta-feira",
-     "link": "https://www.canalrural.com.br/diversos/conab-suspende-atendimento-presencial-na-regional-do-amazonas-nesta-quinta-feira/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-16T15:33:27+00:00"
-    },
-    {
-     "title": "TCU vai apurar aprovação do E32 pelo CNPE após pedido do MP",
-     "link": "https://www.canalrural.com.br/politica/tcu-vai-apurar-aprovacao-do-e32-pelo-cnpe-apos-pedido-do-mp/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-16T15:31:43+00:00"
-    },
-    {
-     "title": "Soja e milho operam em queda na bolsa de Chicago - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZEl1cm42bU1tbTYtNkQtOGU2TGhGY2hmTWpxZmtGZkVsNzRsdUVVeFRucjhINXpNYk81ZGthd3dKeTlrMzBqTWFuaFRFb1AzaUl4b1J4S09kWXI2dldYR1NWZDFtMWg1Yl9WaU10TUFzMm1QVlEza2FMWUlIdEtydmdDSThXUkZsYXVDQy1VRjEtLTRuRkVGcWVyakV3VWpfaktwUFJ0N2VMdW9U0gG7AUFVX3lxTFA2b2ZpYWNLT21MVzA0amZCdV94NE51bDI4YURIaU82Q1hGTWZQakF0LXpJWVUzb3oxTjJGbDV6LXlkT01OemF2S01FdkZ3VzVvWE5ZMDZTZkY2VDFYT2lKQmlTWkNfOU13WWUwalc5YWdjNngxUUNDb2hWX2lZWE9iQWVockRkR2pfb0Fxc18tRi1ITXlQNjR3ZlV6R1hZSHNIajJJY2R5dFlLRE1Va2NQSjNRT3lCekRxd1E?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-16T14:17:38+00:00"
-    },
-    {
      "title": "El Niño pode definir preços da soja nos EUA - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTnVCMFVtamNOZWRHcmhVM3dNdE1HSm1pQUhSeWtTUU1adlhYQ2o3ZGF3Tnh4SU5va3BGQ1BPbXZNUERpMmY3bFBkNlFURmNrX0dycVdKdWZYWHhIaVZRNEVla1hBelhuM2lIbUdmSGJrUmVnWmlMRm4xU285X2I4X2dWUERjN3hDNFpNeU9ZRThJbjcwR0RZ?oc=5",
      "source": "Agrolink",
@@ -521,18 +539,6 @@
      "link": "https://g1.globo.com/economia/noticia/2026/07/16/veja-quais-dos-50-produtos-brasileiros-mais-exportados-aos-eua-passaram-a-pagar-a-nova-tarifa-de-25percent.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-16T14:00:36"
-    },
-    {
-     "title": "USDA: Vendas semanais de soja da safra 26/27 dos EUA superam expectativas do mercado - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTExUaFdSb1g1MlFaZFcxaExOUUI5YzFQT3ZrMzNkc1NFRzhtc0o3cFJITjVKZ2JBMWFFYmlXX1hybkFIYThhMllJenV0dmlhWmppOXR2dldmVFI1NHRxU3VBeHQ2ejBGSnMwRWxvem96TTNWN3NsYkRXX2FPYXU4SXhMOHJUUGMxcjVLS2lZZEJjWE1DNVh2OXlGS1lUUk9oVi1CZ210Q01WOHdPMF9zc3ZFZ0ZFcjlIR3NDM2lwTENNcGQ1cjQ0czhMT2J0eC1EeFJvRmxyVnA1VVliSDIw0gHkAUFVX3lxTFBfTE50ZHotdnNocXdhUURLSTNtak1nTGVuN3ZSeV9vaUlUWG41cGhmSWcwLVlQZndoc2xnSENHd0JEb1FBYVpZWkFVV2kxd0ZHbWFlZTBaOGRubU9vVThSXzBHT2RqTnpneldaZHp2ak9xZ2wtMXhST05yTXF2eWVhNXcxQmpVY0NTUlpQRnpENEJtME13a2ZIT1h3Mnc2OUJQLWhkMVBFZXQ5OUtZaTNrdDR3UWJZeE9SZjNoMGNTa3JPa3drOXk2Y3NNMXZheFlFY2gzd2N0R1Q0X3U3X0FCSVZRTA?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-16T13:55:21+00:00"
-    },
-    {
-     "title": "Clima sozinho não sustenta reação da soja - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeEVoOExiWUdFVmRHbndZcm9UZWRCYnV3ZDBuREdPMVJJTndaQllRZDdGMXhDb0kxWWpxRkJnMXA5amRwVGo2N2czdDlYMWpvS0M5NDd0b2lOZWFiQk5MY0IwWkFENFo2d09xUjU1NjMzLXAyN2p3eXRfNzh6bUhpaUhIM1NhaklodV80UnlucXgzbFZO?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-16T11:28:00+00:00"
     },
     {
      "title": "Soja volta a subir em Chicago nesta 5ª, ainda acompanhando os grãos e consolidando os US$ 12 - Notícias Agrícolas",
@@ -575,12 +581,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/entidades-repercussao-tarifaco.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-16T03:00:42"
-    },
-    {
-     "title": "Tarifaço de Trump: EUA confirmam nova tarifa de 25% sobre produtos brasileiros",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/15/tarifaco-de-trump-eua-confirmam-nova-tarifa-de-25percent-sobre-produtos-brasileiros.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-16T02:58:04"
     }
    ],
    "failed": [

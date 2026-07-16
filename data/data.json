@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-16T22:52:45+00:00",
+ "generated_at": "2026-07-16T23:53:56+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-16T22:52:36+00:00",
+   "updated_at": "2026-07-16T23:53:52+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -163,9 +163,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 84.93,
+     "price": 84.92,
      "prev_close": 84.95,
-     "change_pct": -0.02,
+     "change_pct": -0.04,
      "closes": [
       78.96,
       79.55,
@@ -187,7 +187,7 @@
       83.3,
       84.73,
       84.95,
-      84.93
+      84.92
      ]
     },
     {
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-16T22:52:36+00:00",
+   "updated_at": "2026-07-16T23:53:52+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-16T22:52:41+00:00",
+   "updated_at": "2026-07-16T23:53:54+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,8 +400,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-16T22:52:45+00:00",
+   "updated_at": "2026-07-16T23:53:56+00:00",
    "items": [
+    {
+     "title": "Vendaval de 100 km/h deve atingir áreas de 5 estados, alerta Inmet",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/vendaval-de-100-km-h-deve-atingir-areas-de-5-estados-alerta-inmet/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T22:58:16+00:00"
+    },
     {
      "title": "Brasil divulga defesa na Seção 301 e cobra resposta dos EUA sobre etanol e açúcar",
      "link": "https://www.canalrural.com.br/economia/brasil-divulga-defesa-na-secao-301-e-cobra-resposta-dos-eua-sobre-etanol-e-acucar/",
@@ -523,18 +529,6 @@
      "published_at": "2026-07-16T18:05:57"
     },
     {
-     "title": "Fim da Moratória da Soja pode elevar desmate em 17%, diz estudo - Poder360",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOU5FTVRYX1VqcHZvV2xnZXE5T1JPaVpsb2QtS0FhUmxnTkNGcWRyWC13U0o4UG5MN2hBUllHRzFTWU1rQ2NQNjdtRDhnc2pxWFNxS2tENTAxcUc5Wm9iSWh6U3lDdzZMTEZ1NXdZd2lxSVRxUmZPd04zSlhsVUZ4V2N0dVVrZ2ZEdHNXVlRJZXJMdlNKSTl0M0NCcGhrOWtEYVhV?oc=5",
-     "source": "Poder360",
-     "published_at": "2026-07-16T18:04:01+00:00"
-    },
-    {
-     "title": "Aprosoja MT reconhece MP da renegociação das dívidas rurais como avanço, mas cobra aperfeiçoamentos",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/divida-rural-mp-traz-avancos-mas-precisa-ser-aperfeicoada-avalia-aprosoja-mt/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-16T17:03:09+00:00"
-    },
-    {
      "title": "El Niño pode definir preços da soja nos EUA - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTnVCMFVtamNOZWRHcmhVM3dNdE1HSm1pQUhSeWtTUU1adlhYQ2o3ZGF3Tnh4SU5va3BGQ1BPbXZNUERpMmY3bFBkNlFURmNrX0dycVdKdWZYWHhIaVZRNEVla1hBelhuM2lIbUdmSGJrUmVnWmlMRm4xU285X2I4X2dWUERjN3hDNFpNeU9ZRThJbjcwR0RZ?oc=5",
      "source": "Agrolink",
@@ -557,6 +551,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/tarifaco-de-trump-veja-a-lista-de-produtos-que-ficaram-isento-da-nova-tarifa-de-25percent.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-16T10:40:30"
+    },
+    {
+     "title": "Preço do bezerro, boi gordo, milho e soja na 1ª metade de julho de 2026 - Farmnews",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYW5HVDQtbWQ5d09BU2xxYXN5YVlzUndtZGFOaXQwRG4tLVQ3MWp4c0tHa25qRGlTQzFxMWczSFlhWllOczZMc0JMTjN5SW41endIMUtsUmRxc0x2WGxYbzRjOVl5ME9VQ0Q4VlBkZDA1d2pxSWFzREpLa01vTWkwSEZlV0R4YVBBYTg5Si1QcjUwaUxjWkZBaVZxMlJvSUJ6YTYxNw?oc=5",
+     "source": "Farmnews",
+     "published_at": "2026-07-16T08:49:46+00:00"
     },
     {
      "title": "'Olho por olho, dente por dente?' O que diz a Lei de Reciprocidade que Lula quer usar contra novo tarifaço dos EUA",

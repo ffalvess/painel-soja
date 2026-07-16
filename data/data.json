@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-16T16:13:27+00:00",
+ "generated_at": "2026-07-16T18:01:48+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-16T16:13:22+00:00",
+   "updated_at": "2026-07-16T18:01:29+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1198.25,
+     "price": 1196.0,
      "prev_close": 1202.25,
-     "change_pct": -0.33,
+     "change_pct": -0.52,
      "closes": [
       1130.0,
       1132.0,
@@ -32,16 +32,16 @@
       1202.0,
       1207.25,
       1202.25,
-      1198.25
+      1196.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 464.5,
+     "price": 464.25,
      "prev_close": 447.5,
-     "change_pct": 3.8,
+     "change_pct": 3.74,
      "closes": [
       413.75,
       421.0,
@@ -63,16 +63,16 @@
       437.75,
       433.75,
       447.5,
-      464.5
+      464.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 322.5,
+     "price": 321.8,
      "prev_close": 318.9,
-     "change_pct": 1.13,
+     "change_pct": 0.91,
      "closes": [
       304.8,
       304.8,
@@ -94,16 +94,16 @@
       316.8,
       319.6,
       318.9,
-      322.5
+      321.8
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.91,
+     "price": 70.77,
      "prev_close": 72.92,
-     "change_pct": -2.76,
+     "change_pct": -2.95,
      "closes": [
       72.92,
       71.54,
@@ -125,16 +125,16 @@
       73.04,
       73.04,
       72.92,
-      70.91
+      70.77
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 674.75,
+     "price": 674.5,
      "prev_close": 677.5,
-     "change_pct": -0.41,
+     "change_pct": -0.44,
      "closes": [
       596.0,
       612.75,
@@ -156,16 +156,16 @@
       627.0,
       631.25,
       677.5,
-      674.75
+      674.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 84.75,
+     "price": 84.3,
      "prev_close": 84.95,
-     "change_pct": -0.24,
+     "change_pct": -0.77,
      "closes": [
       78.96,
       79.55,
@@ -187,16 +187,16 @@
       83.3,
       84.73,
       84.95,
-      84.75
+      84.3
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 175062.19,
+     "price": 174012.97,
      "prev_close": 176011.0,
-     "change_pct": -0.54,
+     "change_pct": -1.14,
      "closes": [
       169649.0,
       168454.0,
@@ -220,7 +220,7 @@
       175739.0,
       176641.0,
       176011.0,
-      175062.1875
+      174012.9688
      ]
     }
    ],
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-16T16:13:25+00:00",
+   "updated_at": "2026-07-16T18:01:45+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,8 +400,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-16T16:13:27+00:00",
+   "updated_at": "2026-07-16T18:01:48+00:00",
    "items": [
+    {
+     "title": "Safra dos EUA e El Niño ampliam incertezas para a soja - Revista Cultivar",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRE1VODJfMTBoMkdfQWZ4OTMwMTB4cTFxMWV2cGZwV2lqZ1o3V01lYmN0dzlCa3dPR19sTGJheUZSTGhkd0tpd2tWeXNzZWhHV2VvRExfeTZSaUdMZWhFYjNBVkNKeUNrZlU3aUxySk5sU2dNUmRxM0FFSXNteVYyWFJUQllQLXY1SGpDeGwyaTEzTmJkNFZlQ0ln?oc=5",
+     "source": "Revista Cultivar",
+     "published_at": "2026-07-16T17:30:14+00:00"
+    },
+    {
+     "title": "Vendas semanais de trigo dos EUA somam 235,1 mil toneladas, diz USDA",
+     "link": "https://www.canalrural.com.br/agricultura/vendas-semanais-de-trigo-dos-eua-somam-2351-mil-toneladas-diz-usda/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T16:17:25+00:00"
+    },
+    {
+     "title": "Bactéria que já infectou detergente é encontrada em dois lotes de água mineral",
+     "link": "https://www.canalrural.com.br/seguranca/bacteria-que-ja-infectou-detergente-e-encontrada-em-dois-lotes-de-agua-mineral/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T16:15:01+00:00"
+    },
     {
      "title": "BNDES aprova R$ 60,5 milhões para ampliar armazenagem da Coamo no Paraná",
      "link": "https://www.canalrural.com.br/agricultura/bndes-aprova-r-605-milhoes-para-ampliar-armazenagem-da-coamo-no-parana/",
@@ -461,18 +479,6 @@
      "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/tecnologia-manejo-e-precisao-a-receita-por-tras-de-uma-soja-campea/",
      "source": "Canal Rural",
      "published_at": "2026-07-16T15:00:44+00:00"
-    },
-    {
-     "title": "Cafés do Brasil ficam fora de nova tarifa de 25% dos EUA",
-     "link": "https://www.canalrural.com.br/economia/cafes-do-brasil-ficam-fora-de-nova-tarifa-de-25-dos-eua/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-16T14:53:36+00:00"
-    },
-    {
-     "title": "Urgência para sustar ampliação de reserva no Pantanal avança na Câmara",
-     "link": "https://www.canalrural.com.br/politica/urgencia-para-sustar-ampliacao-de-reserva-no-pantanal-avanca-na-camara/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-16T14:50:41+00:00"
     },
     {
      "title": "Soja e milho operam em queda na bolsa de Chicago - Globo Rural",
@@ -571,12 +577,6 @@
      "published_at": "2026-07-16T02:58:04"
     },
     {
-     "title": "Processamento de Soja nos EUA Supera Estimativas em Junho - Forbes Brasil",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObWlhdWFKY2NaT2tZWm5xbWRzRkJyMHRYTnVKRDRuS2dRaWlWSGF2dFJRQm1DSzhac2xiN1ZLLWhObm5OVEVYdmV1VWF1eWZTMHR5bXdqeENJNXNnd3ZlckQyRkJYMlQtN2lvSWRJQkVLcFdwVnNKQzJXY1gxa2dMbTJsc2VyaW1URVBmVVJydmJaTUswRnpTa01nWHpUYm5TWkE?oc=5",
-     "source": "Forbes Brasil",
-     "published_at": "2026-07-15T20:47:22+00:00"
-    },
-    {
      "title": "Dívidas rurais: Fazenda e Câmara fecham acordo sobre renegociação, com 10 anos de prazo para quem teve perdas grandes de safra",
      "link": "https://g1.globo.com/economia/noticia/2026/07/15/fazenda-e-camara-anunciam-acordo-sobre-projeto-de-renegociacao-de-dividas-rurais.ghtml",
      "source": "G1 Agronegócios",
@@ -592,6 +592,10 @@
   {
    "section": "fx",
    "error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
+  },
+  {
+   "section": "rates",
+   "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json"
   },
   {
    "section": "cepea",

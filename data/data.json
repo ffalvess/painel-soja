@@ -1,18 +1,17 @@
 {
- "generated_at": "2026-07-16T02:02:38+00:00",
+ "generated_at": "2026-07-16T05:34:16+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-16T02:02:33+00:00",
+   "updated_at": "2026-07-16T05:34:11+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1200.25,
-     "prev_close": 1207.25,
-     "change_pct": -0.58,
+     "price": 1200.0,
+     "prev_close": 1202.25,
+     "change_pct": -0.19,
      "closes": [
-      1119.25,
       1130.0,
       1132.0,
       1122.75,
@@ -32,7 +31,8 @@
       1196.5,
       1202.0,
       1207.25,
-      1200.25
+      1202.25,
+      1200.0
      ]
     },
     {
@@ -40,10 +40,9 @@
      "name": "Milho CBOT",
      "unit": "¢/bushel",
      "price": 469.0,
-     "prev_close": 433.75,
-     "change_pct": 8.13,
+     "prev_close": 447.5,
+     "change_pct": 4.8,
      "closes": [
-      415.5,
       413.75,
       421.0,
       417.5,
@@ -63,6 +62,7 @@
       438.0,
       437.75,
       433.75,
+      447.5,
       469.0
      ]
     },
@@ -70,11 +70,10 @@
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 319.9,
-     "prev_close": 319.6,
-     "change_pct": 0.09,
+     "price": 320.1,
+     "prev_close": 318.9,
+     "change_pct": 0.38,
      "closes": [
-      302.0,
       304.8,
       304.8,
       301.3,
@@ -94,18 +93,18 @@
       323.1,
       316.8,
       319.6,
-      319.9
+      318.9,
+      320.1
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.58,
-     "prev_close": 73.04,
-     "change_pct": -3.37,
+     "price": 70.79,
+     "prev_close": 72.92,
+     "change_pct": -2.92,
      "closes": [
-      74.37,
       72.92,
       71.54,
       69.69,
@@ -125,18 +124,18 @@
       70.86,
       73.04,
       73.04,
-      70.58
+      72.92,
+      70.79
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 676.75,
-     "prev_close": 631.25,
-     "change_pct": 7.21,
+     "price": 676.0,
+     "prev_close": 677.5,
+     "change_pct": -0.22,
      "closes": [
-      589.75,
       596.0,
       612.75,
       605.75,
@@ -156,18 +155,18 @@
       632.0,
       627.0,
       631.25,
-      676.75
+      677.5,
+      676.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 85.41,
-     "prev_close": 84.73,
-     "change_pct": 0.8,
+     "price": 84.56,
+     "prev_close": 84.95,
+     "change_pct": -0.46,
      "closes": [
-      83.17,
       78.96,
       79.55,
       79.85,
@@ -187,7 +186,8 @@
       76.01,
       83.3,
       84.73,
-      85.41
+      84.95,
+      84.56
      ]
     },
     {
@@ -220,7 +220,7 @@
       177866.0,
       175739.0,
       176641.0,
-      176010.9062
+      176011.0
      ]
     }
    ],
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-16T02:02:33+00:00",
+   "updated_at": "2026-07-16T05:34:11+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,22 +239,22 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-16T02:02:36+00:00",
+   "updated_at": "2026-07-16T05:34:14+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
      "dates": [
-      "2026-07-15",
       "2026-07-16",
       "2026-07-17",
       "2026-07-18",
       "2026-07-19",
       "2026-07-20",
-      "2026-07-21"
+      "2026-07-21",
+      "2026-07-22"
      ],
      "precip": [
-      0.6,
       0.7,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -262,73 +262,73 @@
       0.0
      ],
      "tmax": [
-      33.3,
       32.6,
       33.0,
       32.9,
       33.4,
       33.9,
-      34.4
+      34.4,
+      35.3
      ],
      "tmin": [
-      20.9,
       22.0,
       21.8,
       21.4,
       21.2,
       21.5,
-      21.8
+      21.8,
+      23.8
      ]
     },
     {
      "name": "Sinop · MT",
      "dates": [
-      "2026-07-15",
       "2026-07-16",
       "2026-07-17",
       "2026-07-18",
       "2026-07-19",
       "2026-07-20",
-      "2026-07-21"
+      "2026-07-21",
+      "2026-07-22"
      ],
      "precip": [
-      0.7,
       0.4,
       0.2,
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0
      ],
      "tmax": [
-      31.9,
       31.3,
       31.4,
       31.7,
       32.3,
       32.9,
-      33.4
+      33.4,
+      34.5
      ],
      "tmin": [
-      20.8,
       21.5,
       21.2,
       20.3,
       20.2,
       20.6,
-      20.7
+      20.7,
+      22.5
      ]
     },
     {
      "name": "Rio Verde · GO",
      "dates": [
-      "2026-07-15",
       "2026-07-16",
       "2026-07-17",
       "2026-07-18",
       "2026-07-19",
       "2026-07-20",
-      "2026-07-21"
+      "2026-07-21",
+      "2026-07-22"
      ],
      "precip": [
       0.0,
@@ -340,34 +340,34 @@
       0.0
      ],
      "tmax": [
-      28.7,
       29.3,
       28.2,
       28.7,
       29.0,
       29.4,
-      30.4
+      30.4,
+      31.2
      ],
      "tmin": [
-      13.9,
       18.1,
       16.7,
       16.0,
       16.7,
       17.1,
-      18.6
+      18.6,
+      20.3
      ]
     },
     {
      "name": "Dourados · MS",
      "dates": [
-      "2026-07-15",
       "2026-07-16",
       "2026-07-17",
       "2026-07-18",
       "2026-07-19",
       "2026-07-20",
-      "2026-07-21"
+      "2026-07-21",
+      "2026-07-22"
      ],
      "precip": [
       0.0,
@@ -379,31 +379,61 @@
       0.0
      ],
      "tmax": [
-      25.7,
       29.9,
       30.5,
       30.2,
       30.7,
       31.1,
-      31.9
+      31.9,
+      31.8
      ],
      "tmin": [
-      11.1,
       16.4,
       19.9,
       21.2,
       20.3,
       21.2,
-      20.4
+      20.4,
+      21.4
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-16T02:02:38+00:00",
+   "updated_at": "2026-07-16T05:34:16+00:00",
    "items": [
     {
-     "title": "Urgência do novo marco do Seguro Rural é aprovada no Senado",
+     "title": "EUA anunciam tarifa de 25% sobre produtos brasileiros; veja itens que serão afetados ou isentos",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/eua-anunciam-tarifa-de-25percent-veja-itens-afetados-ou-isentos.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-16T03:25:05"
+    },
+    {
+     "title": "Tarifaço de Trump: indústria diz que novas taxas ampliam as dificuldades já enfrentadas por exportadores",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/entidades-repercussao-tarifaco.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-16T03:00:42"
+    },
+    {
+     "title": "Tarifaço de Trump: EUA confirmam nova tarifa de 25% sobre produtos brasileiros",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/15/tarifaco-de-trump-eua-confirmam-nova-tarifa-de-25percent-sobre-produtos-brasileiros.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-16T02:58:04"
+    },
+    {
+     "title": "Governo publica MP para renegociar dívidas rurais; veja quem poderá acessar as novas linhas de crédito",
+     "link": "https://www.canalrural.com.br/agricultura/governo-publica-mp-para-renegociar-dividas-rurais-veja-quem-podera-acessar-as-novas-linhas-de-credito/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T01:52:55+00:00"
+    },
+    {
+     "title": "EUA confirmam novo tarifaço sobre produtos do Brasil",
+     "link": "https://www.canalrural.com.br/economia/eua-confirmam-novo-tarifaco-sobre-produtos-do-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T01:38:02+00:00"
+    },
+    {
+     "title": "Urgência do novo marco do seguro rural é aprovada no Senado",
      "link": "https://www.canalrural.com.br/politica/urgencia-do-novo-marco-do-seguro-rural-e-aprovada-no-senado/",
      "source": "Canal Rural",
      "published_at": "2026-07-15T22:42:28+00:00"
@@ -415,16 +445,22 @@
      "published_at": "2026-07-15T22:41:12+00:00"
     },
     {
-     "title": "'Produtor gaúcho precisa de 54 sacas de soja para pagar dívidas; MP não me ajuda', diz agricultor - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTkU4WWl5dHpKaHpjUGZIbXBrdmpjYWFMVF90RWVia0dHclhyMHVDM3piRWpWdUs3VlZ4dTdfRkwzMzJMekYtdGZwdDctSlZ5Yi1qM0lKNmtacHl6eUh3akUxZmZTYVRzRjk4T3pDMk1mY2ZkbTZQal9RUU5FNWFUcmUwM3Z1RHltcC1RVnMyeTlZc09HdDZFWjRCb3dHWVJpZUpoNjF2OHp3Sm5nNlFJMHVGNTFSaUtCSWxhWncwaXlXbWZ6bHpuYXhpLS1hcU9CUVE?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T22:08:39+00:00"
+     "title": "Exportações brasileiras de soja devem atingir 13,76 milhões de toneladas em julho, aponta ANEC - Portal do Agronegócio",
+     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZ3dZX3pBR0RuQWtZczNYbkxkMDdqUVZMWVV2aFFYNDFPdXYtNlotVF80RHhqdDgyZm44a3ZFYkxhSEdvUDV3OThyNHZEbDJrQTVHLXVmcE0zLXNuNHNmWGVlTWdKZEpadlRfakQ3dmlfUXJVazlURzBJOHgwbWNncXpYV3FGM0tma3JwUGNVRV9fdFJucUVMNjZOVC1LUzNLODlCdlc2TEJXRVI3Q1hLeXFLWmltd2pORlRNdHY2aG5FWWx3OVVQT1MxRlkyNURtdHY4R281STFNTENkZGcwWVJFcG51b0lwa1F4SXc0UQ?oc=5",
+     "source": "Portal do Agronegócio",
+     "published_at": "2026-07-15T22:22:49+00:00"
     },
     {
      "title": "‘Produtor gaúcho precisa de 54 sacas de soja para pagar dívidas; MP não me ajuda’, diz agricultor",
      "link": "https://www.canalrural.com.br/agricultura/produtor-gaucho-precisa-de-54-sacas-de-soja-para-pagar-dividas-mp-nao-me-ajuda-diz-agricultor/",
      "source": "Canal Rural",
      "published_at": "2026-07-15T22:08:39+00:00"
+    },
+    {
+     "title": "Preços da soja sobem com Chicago em alta; confira as os números no Brasil - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaHZCNDNhWjVTTTMzTkM1WloyLUd2bGV3Ni1XVWpiSGtkOFYzUGFwbGQxNkV5TXJUeFYzNVNNaE5kbnRCLXJBRTFiWFZVZmVjQVJ6MTY1OS1MRHl1REF6dTZVOVVscWVpZGRUVzBRSDFqMXR2SVd5Wl9PSUpoc3Q3cjBXR0FnVDdQWUFEc2lBekdnZ1NKRURxSVItUnhkeHQ2ZlFZUU5EWWJwZW03d1loVmU4SW5NbnBDLVNITjJ5b05RUDlsLURmNkFIeFItWXJR?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-15T22:02:39+00:00"
     },
     {
      "title": "Preços da soja sobem com Chicago em alta; confira as os números no Brasil",
@@ -463,18 +499,6 @@
      "published_at": "2026-07-15T20:31:21+00:00"
     },
     {
-     "title": "Tarifaço dos EUA pode gerar tensões comerciais com o Brasil",
-     "link": "https://www.canalrural.com.br/videos/tarifaco-dos-eua-pode-gerar-tensoes-comerciais-com-o-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T20:15:15+00:00"
-    },
-    {
-     "title": "Portos do Paraná registram recorde de movimentação no primeiro semestre de 2023",
-     "link": "https://www.canalrural.com.br/videos/portos-do-parana-registram-recorde-de-movimentacao-no-primeiro-semestre-de-2023/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T20:06:49+00:00"
-    },
-    {
      "title": "Fazenda de Itapetininga se destaca com quase 96 sacas de soja por hectare - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSEVQV2d5Sko3amNzNmJUM0dRa2JJNUZJYmRPdnNwWm9neVRqYks1aDB2Qm5hMGExRERYbzNTbVNRb2FMQjB5dXl5a0ZGcnMwUFhBUjFwRHIySHRoX29pMF9kd01DVEdqcXVHU09JVTk5cC1vR1AzQmhwS3RVUngzMEE2YmF2ZmtCUlNkaVgxWWRWNVVXUVZtSlk5Z182VUdFdFlvOHpTWkRxN0Y1b0hwbA?oc=5",
      "source": "Canal Rural",
@@ -491,6 +515,12 @@
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaWFYdHZVNkdkVUZFampmTHhEZ0FXSzBnN0hidlg3Y3R0QWlCQTY5ZzY1UEZ0al9rS0N2TW81czF5TG9ONFQ1Ym93T2VuYlpyQUw3NnhrbElsLVVLWmVKVFFqWDF4RUZ6bkdFR1BucWNDVm8weHBCZFhrY3dXTWt4VUhWWTZTMmhrSWhqcFNVaGcwcUtXN2FySmlrT3lCamJmcFFOeUFB?oc=5",
      "source": "Agrolink",
      "published_at": "2026-07-15T19:09:00+00:00"
+    },
+    {
+     "title": "Soja reage no RS após safra de estiagem, mas clima trava desempenho - Jornal do Comércio",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZjVKbWVVRHNXOUZFSWRWRjROYVdjYmFXaGZ1M0ViLUdRajZZdHp4dC11ME0zSUI0NnlaR1VGSVBCOWVWckM2UlU4MFpuLVdFOVVxQkhPQUxMS0c2dlYyYVctUjdHTGlqV25wRGFZejY5OWZyWnZFODM2UjhUN0dwRE0zWTdyWjRTX3ZUVDJheVZLeFFwQTU2Rm5JM2JKSk9yZnBiejN3dUw0QUJtSHhxTlRLc0FwcmhhMEZFb1RHXy1Hanc?oc=5",
+     "source": "Jornal do Comércio",
+     "published_at": "2026-07-15T18:48:16+00:00"
     },
     {
      "title": "NOPA: Esmagamento de soja dos EUA de junho supera expectativas e aumento de 16% no ano - Notícias Agrícolas",
@@ -517,12 +547,6 @@
      "published_at": "2026-07-15T15:27:04+00:00"
     },
     {
-     "title": "Safra Francesa de Trigo Soft Projeta Queda de 4% e Acende Alerta no Mercado de Grãos em 2026 - Forbes Brasil",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZ3BUbk03QS1wY3ZoZWtOVEdnMUlNVWl4UTNybnFnaXhrOXd0Zy1wdWpnNjlnb0Z4VlFJTzRXNndtLWJpb0RhMXdkem42dHdpa094c0N6ZkNJRm9jME5HM2NEQzJOdDRRUE1fc2lhclBHeGFzbnk5MlQxNVFTT210OFloSlVvOWVkYjRLcWRaYmF1QWlmaEJ0cG5uaUFKZEtKRFlubVU2VGt5VkhvdFRhSVJTZkV4V19qeGstbE52aTVCbkk1akxlUG9HYkNta1k?oc=5",
-     "source": "Forbes Brasil",
-     "published_at": "2026-07-15T15:17:48+00:00"
-    },
-    {
      "title": "Manejo contra doenças e nematoides na soja deve iniciar antes do plantio - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOEpHUnFwcWQwRHEwVTE2cnVZRnFfeE0taWNYdlNXX0FpRUJ4NmdWV3JpTkRQOTZyNk92cll5eE9iNkg3QVBnUGU0MnJJVklVclFGZ3lNVV9pQUIzNklXblRMeElndHdVdmozTW90MFpZbThCWm00UGhtN3lpVktOR0NPLUxOLV9najZwbWl4MVpMNXdxVnNpYmI3cWpodU1kUVlMZ29CeWI1X0lueHp1T0lKT3BSU2tVY0tqeGxR?oc=5",
      "source": "Agrolink",
@@ -541,12 +565,6 @@
      "published_at": "2026-07-15T09:16:08+00:00"
     },
     {
-     "title": "Importação de soja brasileira leva China a bater recorde em junho - brasilagro.com.br",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb3d4SHhJd2NfSFFSd0NydUllbFBXUzZ6ZS1VOUpGdXZ4MDdvbVhubFByRFFnaGFVQVQ5aVFyMGJ3bkhfeS1xeXhPVGZPakZFcGVkYkttWEhvY3NhNTg5Y0JOMlh4elBYWDNXYkpPM0tZNE4wcUhkbzR5bFZxaG1xVGhZd3V5U3dOaXVBRDk1b2M1SEdkOFRmdHBaR2x1cjczaXlFdUhXYm03NGVEQ1E?oc=5",
-     "source": "brasilagro.com.br",
-     "published_at": "2026-07-15T08:18:08+00:00"
-    },
-    {
      "title": "'Não queremos ser a última geração a comer esse queijo': ondas de calor ameaçam a produção do Parmigiano Reggiano na Itália",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/15/nao-queremos-ser-a-ultima-geracao-a-comer-esse-queijo-ondas-de-calor-ameacam-a-producao-do-parmigiano-reggiano-na-italia.ghtml",
      "source": "G1 Agronegócios",
@@ -563,24 +581,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/15/tarifaco-de-trump-eua-definem-nesta-quarta-se-aplicam-novas-taxas-ao-brasil.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-15T03:00:26"
-    },
-    {
-     "title": "Guerra no Irã: empresa de fertilizante Mosaic reduz produção no Brasil por falta de enxofre",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/14/guerra-no-irao-empresa-de-fertilizante-mosaic-reduz-producao-no-brasil-por-falta-de-enxofre.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-14T12:01:56"
-    },
-    {
-     "title": "Café: da bebida 'do diabo' aos best-sellers de autoajuda cristã",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/14/cafe-da-bebida-do-diabo-aos-best-sellers-de-autoajuda-crista.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-14T08:50:16"
-    },
-    {
-     "title": "Após promessas, supermercados seguem sem ampliar venda de ovos livres de gaiolas, diz estudo",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/14/apos-promessas-supermercados-seguem-sem-ampliar-venda-de-ovos-livres-de-gaiolas-diz-estudo.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-14T03:01:10"
     }
    ],
    "failed": [

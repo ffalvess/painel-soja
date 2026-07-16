@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-16T10:52:53+00:00",
+ "generated_at": "2026-07-16T12:17:06+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-16T10:52:45+00:00",
+   "updated_at": "2026-07-16T12:17:00+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1205.5,
+     "price": 1205.25,
      "prev_close": 1202.25,
-     "change_pct": 0.27,
+     "change_pct": 0.25,
      "closes": [
       1130.0,
       1132.0,
@@ -32,16 +32,16 @@
       1202.0,
       1207.25,
       1202.25,
-      1205.5
+      1205.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 471.25,
+     "price": 472.25,
      "prev_close": 447.5,
-     "change_pct": 5.31,
+     "change_pct": 5.53,
      "closes": [
       413.75,
       421.0,
@@ -63,7 +63,7 @@
       437.75,
       433.75,
       447.5,
-      471.25
+      472.25
      ]
     },
     {
@@ -101,9 +101,9 @@
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.06,
+     "price": 71.13,
      "prev_close": 72.92,
-     "change_pct": -2.55,
+     "change_pct": -2.45,
      "closes": [
       72.92,
       71.54,
@@ -125,16 +125,16 @@
       73.04,
       73.04,
       72.92,
-      71.06
+      71.13
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 684.25,
+     "price": 681.25,
      "prev_close": 677.5,
-     "change_pct": 1.0,
+     "change_pct": 0.55,
      "closes": [
       596.0,
       612.75,
@@ -156,16 +156,16 @@
       627.0,
       631.25,
       677.5,
-      684.25
+      681.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 84.8,
+     "price": 85.13,
      "prev_close": 84.95,
-     "change_pct": -0.18,
+     "change_pct": 0.21,
      "closes": [
       78.96,
       79.55,
@@ -187,7 +187,7 @@
       83.3,
       84.73,
       84.95,
-      84.8
+      85.13
      ]
     },
     {
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-16T10:52:45+00:00",
+   "updated_at": "2026-07-16T12:17:00+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-16T10:52:50+00:00",
+   "updated_at": "2026-07-16T12:17:04+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -253,7 +253,7 @@
       "2026-07-22"
      ],
      "precip": [
-      0.3,
+      0.2,
       0.0,
       0.0,
       0.0,
@@ -262,21 +262,21 @@
       0.0
      ],
      "tmax": [
-      32.5,
-      33.1,
-      32.9,
-      33.5,
-      33.8,
-      34.5,
+      32.2,
+      32.8,
+      32.6,
+      33.2,
+      33.7,
+      34.6,
       35.4
      ],
      "tmin": [
-      22.4,
-      22.0,
+      22.2,
+      21.9,
+      21.2,
+      21.1,
       21.6,
-      21.5,
-      21.8,
-      21.5,
+      21.7,
       22.8
      ]
     },
@@ -292,7 +292,7 @@
       "2026-07-22"
      ],
      "precip": [
-      1.6,
+      0.5,
       0.0,
       0.0,
       0.0,
@@ -302,21 +302,21 @@
      ],
      "tmax": [
       31.2,
-      31.4,
-      31.4,
-      32.2,
-      32.9,
-      33.5,
+      31.2,
+      31.2,
+      32.0,
+      32.7,
+      33.6,
       34.4
      ],
      "tmin": [
       21.3,
       21.2,
-      20.2,
-      20.1,
-      21.0,
-      20.7,
-      22.3
+      19.9,
+      19.8,
+      20.9,
+      20.6,
+      22.0
      ]
     },
     {
@@ -340,21 +340,21 @@
       0.0
      ],
      "tmax": [
-      28.8,
-      27.8,
+      28.6,
+      27.7,
+      28.5,
       28.7,
-      28.9,
       29.7,
-      30.6,
+      30.8,
       31.1
      ],
      "tmin": [
-      18.0,
+      17.7,
+      16.5,
+      15.6,
       16.7,
-      15.9,
-      16.6,
-      17.2,
-      17.9,
+      16.9,
+      19.3,
       19.9
      ]
     },
@@ -379,29 +379,53 @@
       0.0
      ],
      "tmax": [
-      30.1,
-      30.6,
+      29.8,
       30.3,
-      30.6,
-      31.1,
-      32.1,
+      30.0,
+      30.3,
+      30.7,
+      31.8,
       32.3
      ],
      "tmin": [
-      16.4,
-      19.9,
-      21.2,
-      20.2,
-      21.2,
-      21.6,
-      22.4
+      16.2,
+      19.7,
+      20.7,
+      20.0,
+      20.5,
+      22.0,
+      22.3
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-16T10:52:53+00:00",
+   "updated_at": "2026-07-16T12:17:06+00:00",
    "items": [
+    {
+     "title": "IPC-S desacelera para 0,20% na segunda quadrissemana de julho",
+     "link": "https://www.canalrural.com.br/economia/ipc-s-desacelera-para-020-na-segunda-quadrissemana-de-julho/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T11:41:21+00:00"
+    },
+    {
+     "title": "Clima sozinho não sustenta reação da soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeEVoOExiWUdFVmRHbndZcm9UZWRCYnV3ZDBuREdPMVJJTndaQllRZDdGMXhDb0kxWWpxRkJnMXA5amRwVGo2N2czdDlYMWpvS0M5NDd0b2lOZWFiQk5MY0IwWkFENFo2d09xUjU1NjMzLXAyN2p3eXRfNzh6bUhpaUhIM1NhaklodV80UnlucXgzbFZO?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-16T11:28:00+00:00"
+    },
+    {
+     "title": "Rio Grande do Sul entra em alerta para temporais e chuva de até 200 mm",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/rio-grande-do-sul-entra-em-alerta-para-temporais-e-chuva-de-ate-200-mm/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T11:27:26+00:00"
+    },
+    {
+     "title": "Soja volta a subir em Chicago nesta 5ª, ainda acompanhando os grãos e consolidando os US$ 12 - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNT3E3TDZ4NnBXWWlnSE5tRi1lZ00zbk16QTdWWWk3bFBrVjdfNUxPQzRldDBGR1o3Z05WaEhpVDBkd1R0ZVpiTXRWSGdVeWxQb0RMWkRJdF9nQ05SU2RUcGZLNTNFcXZIZzVXQjVTZmk0SzMzcS1ZalpMVGFaVzJhamc1VUJ1U25CWS1kc3dsMV9Ic3RJOUhISWFOVkVNOFFIYVU2YkZlSW0yTEhDWnRCWjVHR2hGVk1lLU5ZZWxuSF9IS05kU2dzZk5ZWkx5aTJNSlBCVnE5dElCdmRIVlJicEJtRjQtMHfSAewBQVVfeXFMTkswamotc2dvcWdZRVExZGFjdUdaN3NndWRLc2JCQTliUVNzSDFkX2dtem91TktGandYUmdCMXppZ3lKUFVSbkNUWEdOSEhEYkFIUXJoalE3aFNGbmhGdTdPR3lmbzBWZGlvRzRqNkU5M3A2Z3ZySHYyMm1iaVprWFBvMnZQemRHaU93RjN2WGtpZGU3ZXlIbTB1ZURMNUR1UXEza3RRQW9DUGc1OWJKNFdPZmlVTVc2eE13VV9UOF9OR1NfNks0N1p6SW1GenVfeFNIVnc3YVN3T25hc21CR2c5TTNfbDFfakFQNDA?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-16T10:44:44+00:00"
+    },
     {
      "title": "MP autoriza renegociação de dívidas rurais e pode alcançar mais de R$ 100 bilhões",
      "link": "https://www.canalrural.com.br/economia/mp-autoriza-renegociacao-de-dividas-rurais-e-pode-alcancar-mais-de-r-100-bilhoes/",
@@ -409,16 +433,10 @@
      "published_at": "2026-07-16T10:43:01+00:00"
     },
     {
-     "title": "Tarifaço de Trump: veja a lista de produtos que ficaram isento da nova tarifa de 25%",
+     "title": "Tarifaço de Trump: veja a lista de produtos que ficaram isentos e os que serão afetados",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/tarifaco-de-trump-veja-a-lista-de-produtos-que-ficaram-isento-da-nova-tarifa-de-25percent.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-16T10:40:30"
-    },
-    {
-     "title": "Soja avança em Chicago com apoio do petróleo - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZmNnNWhnWEVwRGxYbUdnWU1UcU05NmFReDM3a2FlenRmc3lMMnk1S3V1djczRlZhcV8zYXNkdjRJTUsyb2FlSVhPMEhmd05Rb25Ec1pSRUNfVF93SkEzRXJOcmNjbktSbnR2Qm1USlpsbnVJM1BFRnNGckMtMXczVVRvalpjSEJyeDFoS1htbnExU1hyMk5Odw?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-16T10:39:00+00:00"
     },
     {
      "title": "EUA ampliam lista de produtos brasileiros isentos de tarifa de 25%",
@@ -433,7 +451,7 @@
      "published_at": "2026-07-16T10:15:16+00:00"
     },
     {
-     "title": "Clima nos EUA cria oportunidade para venda de soja e milho - Feed&Food",
+     "title": "Clima nos EUA abre janela de comercialização para soja e milho - Feed&Food",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRzQ2d3lJY2luWkVua1dlVGdMU3dqNlRPWFZKMThyRkxzVGpvd0ZOcFBfUWpzcjFmQmZwZmRFb1BqLWtaUHA4bzlRWnZ2MG1vUWhUVTlFeWotQ2oyMjc2anM4UG5PUUgwNnFHeU9FYVN1QWRzYng3cVBhSTZiUVk1QmJYMzdXNlo0RnRMV0NhYk0?oc=5",
      "source": "Feed&Food",
      "published_at": "2026-07-16T10:01:00+00:00"
@@ -535,18 +553,6 @@
      "published_at": "2026-07-15T22:02:39+00:00"
     },
     {
-     "title": "Preços da soja sobem com Chicago em alta; confira as os números no Brasil",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/precos-da-soja-sobem-com-chicago-em-alta-confira-as-os-numeros-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T22:02:39+00:00"
-    },
-    {
-     "title": "MP das dívidas rurais prevê carência, prazo maior e fundo contra perdas climáticas",
-     "link": "https://www.canalrural.com.br/diversos/mp-das-dividas-rurais-preve-carencia-prazo-maior-e-fundo-contra-perdas-climaticas/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-15T21:28:39+00:00"
-    },
-    {
      "title": "Processamento de Soja nos EUA Supera Estimativas em Junho - Forbes Brasil",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObWlhdWFKY2NaT2tZWm5xbWRzRkJyMHRYTnVKRDRuS2dRaWlWSGF2dFJRQm1DSzhac2xiN1ZLLWhObm5OVEVYdmV1VWF1eWZTMHR5bXdqeENJNXNnd3ZlckQyRkJYMlQtN2lvSWRJQkVLcFdwVnNKQzJXY1gxa2dMbTJsc2VyaW1URVBmVVJydmJaTUswRnpTa01nWHpUYm5TWkE?oc=5",
      "source": "Forbes Brasil",
@@ -557,12 +563,6 @@
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa3kxU1JEeUE4cDFZdVJvam8ySmZBZWhCOVo0UlhycXVuVHVfXzJXajdKcFRwdFdKVUhJRDNFSGU1RVVVcEhuMzI4MUgzR2F6dGVvc0lMS2doZlZmcmI1Q1c2NEhRd005SjlHWFpGZ3pSY2w2YkhDNDE3ajhjNXJZQkV1MERlNFoxWko5TEtMWnNMYjNjRlJ1bnY2dEdldw?oc=5",
      "source": "Revista Cultivar",
      "published_at": "2026-07-15T19:42:30+00:00"
-    },
-    {
-     "title": "NOPA: Esmagamento de soja dos EUA de junho supera expectativas e aumento de 16% no ano - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTXR4ZGotLWZuTUg2djRWUUpBS0JZRmJ5dGJvZ3l5dFprVHIzRkpzZ1VJM3FjbGd4bDVVa3dmYjBLLXZJb1RBQlQxUTdLc0h0bkkyYnN2UWNzWFd0TEJ6WWFpU3RGWWtaTlcwaG5JblhEaGV4bDRtcUFrNVRlSzNYVjhVNDNlX2JZYlctQVVvQWZuUllycm1PSURxUEtWVDdmMjRMVll4RjY3ckszVlRhQnhiU0ZaclVtc2hvSS04b1c1cWt3a3JwUnJEcE5HeW5MbUR5OFQ1SUtIeEdlbjZqUtIB5gFBVV95cUxQSHVtRmRqODVnMkt1TWFuZWZ2NWhMYmR3TXhmRHBXTEJOM192UVlQTDFGTkl6QldaejRjT1lybEF6eDVPaXcyYlg2RDlZX3BHY1pQRmZ6R2d0c0NhODl4ZWtYNTlEdklvRmZ0eFp0N1dGWmQ0dGpaQThKbXBCVDVlcGU5cG01QVh1emlWSnBZTXN2QTctdk43bjA5U2JTbF84dER5MFg5YzRSVVJyT1NjcFRqY20xVjAzN2NSV0hRXzA0a0p1SVl0VzdvZmkxTzFlSkJTcy1SUVZjZlpEX2xsSGtYZ3V6QQ?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-15T17:32:41+00:00"
     },
     {
      "title": "O caminho da soja brasileira até a China - Folha de S.Paulo",

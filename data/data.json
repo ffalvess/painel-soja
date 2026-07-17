@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-17T10:03:49+00:00",
+ "generated_at": "2026-07-17T12:04:16+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-17T10:03:43+00:00",
+   "updated_at": "2026-07-17T12:04:08+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1189.25,
+     "price": 1196.5,
      "prev_close": 1195.0,
-     "change_pct": -0.48,
+     "change_pct": 0.13,
      "closes": [
       1132.0,
       1122.75,
@@ -32,16 +32,16 @@
       1207.25,
       1202.25,
       1195.0,
-      1189.25
+      1196.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 460.75,
+     "price": 463.75,
      "prev_close": 441.5,
-     "change_pct": 4.36,
+     "change_pct": 5.04,
      "closes": [
       421.0,
       417.5,
@@ -63,16 +63,16 @@
       433.75,
       447.5,
       441.5,
-      460.75
+      463.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 319.0,
+     "price": 320.6,
      "prev_close": 322.9,
-     "change_pct": -1.21,
+     "change_pct": -0.71,
      "closes": [
       304.8,
       301.3,
@@ -94,16 +94,16 @@
       319.6,
       318.9,
       322.9,
-      319.0
+      320.6
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.29,
+     "price": 71.63,
      "prev_close": 72.43,
-     "change_pct": -1.57,
+     "change_pct": -1.1,
      "closes": [
       71.54,
       69.69,
@@ -125,16 +125,16 @@
       73.04,
       72.92,
       72.43,
-      71.29
+      71.63
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 672.25,
+     "price": 676.75,
      "prev_close": 674.75,
-     "change_pct": -0.37,
+     "change_pct": 0.3,
      "closes": [
       612.75,
       605.75,
@@ -156,16 +156,16 @@
       631.25,
       677.5,
       674.75,
-      672.25
+      676.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 85.71,
+     "price": 86.0,
      "prev_close": 84.23,
-     "change_pct": 1.76,
+     "change_pct": 2.1,
      "closes": [
       79.55,
       79.85,
@@ -187,7 +187,7 @@
       84.73,
       84.95,
       84.23,
-      85.71
+      86.0
      ]
     },
     {
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-17T10:03:44+00:00",
+   "updated_at": "2026-07-17T12:04:08+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-17T10:03:47+00:00",
+   "updated_at": "2026-07-17T12:04:12+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,8 +400,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-17T10:03:49+00:00",
+   "updated_at": "2026-07-17T12:04:16+00:00",
    "items": [
+    {
+     "title": "Temporais, vento e granizo: veja a previsão do tempo para todo o Brasil hoje",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/temporais-vento-e-granizo-veja-a-previsao-do-tempo-para-todo-o-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T11:20:25+00:00"
+    },
+    {
+     "title": "SOJA E TRIGO: confira os preços dos grãos nesta sexta-feira (17) - Conexão Itajubá",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOellaVE16WmZabERWemJrQ2tfdkNwcWFWN0cyQW1nMmd5V1k0MS1sSmF6UnljNEZLQVd0X29oSnltdzlMajFKMXlvRVBmeXNyanpZNFVTbW1wWkpCaVBDNUdVLU9hbGx0elFrenBNelFBbDNWTTJzelVtV0JVNVZUZkZfSDJEVTlRazFQX1JXTm52NTUzLWlfcE1BTUN1NzdpUXRZR09JSnEtcV9KWTlqOEJ3?oc=5",
+     "source": "Conexão Itajubá",
+     "published_at": "2026-07-17T11:03:48+00:00"
+    },
     {
      "title": "Soja cai em Chicago e preços avançam no Brasil - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObEZOLS1BcHlpdXpUT3MtVHQ5UDVHV2tpMUhsamE0dzBmcHFDV3VPb3dpSDVYY3VLMGhybkQyUi1YMGQ2VE9ERXNxMDdhVkUyMHB4TV9SRy1hdGdqZVB1T2MycGpua3hqdjhhdVRwUUhYdGlIc2J4YzY1dUNJV0RWWk5wQi13Y1M5RHY5d0M1cU9Hakg4RkxYUVNhWQ?oc=5",
@@ -415,28 +427,22 @@
      "published_at": "2026-07-17T09:14:08+00:00"
     },
     {
-     "title": "Fim da Moratória da Soja pode ampliar destruição da Amazônia - Maringá Post",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeEdfbC0zT1NORlhrdW9OOURsV3ltdDlCcUZTUVRQT3lMUU8tT18yMHMyUE13QVpGUVpIekVDaEhabEptZVp4XzdpSWRrY1NPUFNKSnZkLWtCSzI0aXdUNjF2UGEzY3lWTWxfZ2tBZ3FtRWp2eU9Gam90U2F0MEItLTN3NGpDdjhHYkNmY1hwQnRPTzFBZlppZUlFaDlnNUNv?oc=5",
-     "source": "Maringá Post",
-     "published_at": "2026-07-17T08:55:00+00:00"
-    },
-    {
      "title": "Produzindo Certo Mira 10% da Soja Regenerativa com Apoio Britânico até £ 500 Mil - Forbes Brasil",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaC0xbmFZU1R5UHJLRkNFczdEaFBpdzdHN3ZoaG9uZk1USWR2VFl6dGhOcE1Fd2gzdk91akJkTHlhd1ZSZ25OT1dGTGxKQTU5cW9yb2xtb1RWMEcwNEVRZVdiQ3BjeTlHYVgwMk9pLVd6RVV6MEtTV3ozXzJVU2VTVzY2N2tIWmt0OXNIOTYxaDBQRGhmcFc0ODNDVUxSNFd4cDg2ZVd1UzA3ZGotc2t2OE8wS0otNWtwMENpMg?oc=5",
      "source": "Forbes Brasil",
      "published_at": "2026-07-17T08:00:00+00:00"
     },
     {
-     "title": "SOJA E TRIGO: confira os preços dos grãos nesta sexta-feira (17) - Brasil 61",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORm9Kd1VBOTdobHdoS3NxVlJYdWFIQXhxcG5seXptLTFRSHJUYXRIMEEzOUE2cy1TSGZFU1lIM1RyaENONTFmd1U3Sy1RdmE3MWJ5MG9JM1ZrR05fanBxaTVYWWxOSFo4clpKNnhfYjNQV3NfZ0VnVTN1M3FyMEpXNm0wSVJMWlp1UEYyWkNPOHMtNUZjQmRrdURGUdIBoAFBVV95cUxPY08ycjZOalRid1RQQS1lcDZTNkxYQmRxX0JWR056TFFoUjBQMGZxWlV3cFRqLXFScDNfNzh3eXhfODJualZFSTFYS2lwSHdrREFYXzZ3eklyUWYxa2FmVmlOWjhWUXBPVzdKUHMyVnZwWjVvazRfWldwMENNT0tITFl3YzJmM3Z1Mk1GcDVEZ2tOWGtVVTlSS21MaGRCRXVC?oc=5",
-     "source": "Brasil 61",
-     "published_at": "2026-07-17T07:00:00+00:00"
-    },
-    {
      "title": "Estudo na Science aponta que fim da Moratória da Soja pode desmatar 1,4 milhão de hectares na Amazônia, o equivalente a 2 milhões de campos de futebol - greenpeace.org",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYWlnSk9RRzRUdGJ4RnozSmc3WWJJdFI2d1N5N1Z4bEw4VzVMaUZjcVIxWFE5ZkJwM04wODJ5bVlGRUpZLVR2TllmckdTLWNrVllpdjJJX2VGNE14ZGRfcExaRVM5cTQzN3dKMkR4VWxWOTB5X2JvakhscnJGYURNaVZzMzg?oc=5",
      "source": "greenpeace.org",
-     "published_at": "2026-07-17T02:27:47+00:00"
+     "published_at": "2026-07-17T07:09:12+00:00"
+    },
+    {
+     "title": "Fim da Moratória da Soja pode ampliar destruição da Amazônia - iBand CE",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWjg3WUx1U283UHk4SGVZc2F5Qk5JTzg0eTFBbW1aSUlNTVlGN0syaTl1R2dpcm4xSDNiX09rUmotcVRzM0JvRE9yZkdtYmJSb2IwZU5kTjNxX2MwUFNiQTdtN09IQXpuT1l0RG1NbnpqRlZkX28yU0tyQXVUeFNZU2FjQjNiYTJsd0xaMw?oc=5",
+     "source": "iBand CE",
+     "published_at": "2026-07-17T03:41:00+00:00"
     },
     {
      "title": "Estudo projeta mais 1,4 milhão de hectares desmatados sem Moratória da Soja - Canal Rural",
@@ -497,12 +503,6 @@
      "link": "https://www.canalrural.com.br/agricultura/queda-de-95-na-producao-de-laranjas-na-florida-trouxe-licoes-de-combate-ao-greening-a-sp/",
      "source": "Canal Rural",
      "published_at": "2026-07-16T21:27:33+00:00"
-    },
-    {
-     "title": "VÍDEO: vacas transportadas em ônibus escolar no Pará levantam alerta sobre bem-estar animal; confira",
-     "link": "https://www.canalrural.com.br/diversos/video-vacas-transportadas-em-onibus-escolar-no-para-levantam-alerta-sobre-bem-estar-animal-confira/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-16T21:01:00+00:00"
     },
     {
      "title": "Fim da moratória da soja pode aumentar a destruição da Amazônia em 1,4 milhões de hectares nos - WWF Brasil",

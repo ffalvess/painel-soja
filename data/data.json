@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-17T19:20:34+00:00",
+ "generated_at": "2026-07-17T20:47:10+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-17T19:20:28+00:00",
+   "updated_at": "2026-07-17T20:47:01+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -163,9 +163,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 87.66,
+     "price": 88.13,
      "prev_close": 84.23,
-     "change_pct": 4.07,
+     "change_pct": 4.63,
      "closes": [
       79.55,
       79.85,
@@ -187,16 +187,16 @@
       84.73,
       84.95,
       84.23,
-      87.66
+      88.13
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 173400.58,
+     "price": 173714.08,
      "prev_close": 173825.0,
-     "change_pct": -0.24,
+     "change_pct": -0.06,
      "closes": [
       168454.0,
       168278.0,
@@ -220,7 +220,7 @@
       176641.0,
       176011.0,
       173825.0,
-      173400.5781
+      173714.0781
      ]
     }
    ],
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-17T19:20:28+00:00",
+   "updated_at": "2026-07-17T20:47:01+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-17T19:20:31+00:00",
+   "updated_at": "2026-07-17T20:47:07+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,43 +400,85 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-17T19:20:34+00:00",
+   "updated_at": "2026-07-17T20:47:10+00:00",
    "items": [
     {
-     "title": "Preço em dólares do boi gordo, bezerro, milho e soja na 1ª parte de julho de 2026 - Farmnews",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQWdwallEMlZaN096WDd6YTF6ZW13d1ZsRXRDOU02RERZNmNEb0JqeldrdW82dW04ODRXVWktcWpKWUNCdF9aUGxsU19fcHk1cjMwUk91Ri03ZG5wcFp0UlN6TDBCWkZqWjduVm1fQkRrc3RucFU5czJpaFFKaWpGT2x4LXZ4djVFT1lMeHJEUWNxVWlEUVJ1ZkZMcTRpSmwzM01USTVwWnhQckdlTkxHd0lR?oc=5",
-     "source": "Farmnews",
-     "published_at": "2026-07-17T18:30:12+00:00"
+     "title": "Fim da Moratória da Soja pode ampliar desmatamento da Amazônia em 1,4 milhão de hectares, diz Science - Agrofy News Brasil",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcTU0ZTV2TVN0Rlc4QlM0S2dzUnkySWZDN21FWkh5cTBVZDFSYTVxOUlkaXpTa1BoZm0tdndhczNkTWFwMGRCNGxwbEU4N0VzN1NwaFRncWhkT0hINzV5QUpyWGVlcWxYT2pNZ05mbWJxODVVa1E2YUxHY0J6VDNib0tRTXBPaW5KZUlUSTRvY2xfNEx1cmFRZkoyaF8zN0hnNllwX2h3V21kUDhLbXNxWGI0eEQ0bTZBbXRCVFpOLURvaDZvYS1XeXNVaVFjSndXTXpVNA?oc=5",
+     "source": "Agrofy News Brasil",
+     "published_at": "2026-07-17T20:30:00+00:00"
     },
     {
-     "title": "Soja sobe e milho recua no mercado brasileiro - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbnpKLTFxT3ptUXlJMl9DdzBTN0xzTlYzbjRGVnZ6QzJGb1E4eXV6UEwtR2JDeUQxdUpWR3FwM3h1ckNEVDNPb0NWdlB0b29YQkF0R2tQdmxYRmotaXRyNlNpRDIxZW94aW5pbGZuVFNZbk5yQ2g0TjR3TXRicWFCUFBCTlBVWlBqR3dmc011aEZIUlBaTy1EUmxB?oc=5",
+     "title": "Setor de carne bovina movimenta R$ 1,1 trilhão e enfrenta desafios",
+     "link": "https://www.canalrural.com.br/videos/setor-de-carne-bovina-movimenta-r-11-trilhao-e-enfrenta-desafios/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T20:07:25+00:00"
+    },
+    {
+     "title": "Agroleite 2026: inovação e tecnologia na cadeia do leite em Castro",
+     "link": "https://www.canalrural.com.br/videos/agroleite-2026-inovacao-e-tecnologia-na-cadeia-do-leite-em-castro/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T20:06:56+00:00"
+    },
+    {
+     "title": "Tecnologias nacionais buscam reduzir dependência de fertilizantes importados",
+     "link": "https://www.canalrural.com.br/videos/tecnologias-nacionais-buscam-reduzir-dependencia-de-fertilizantes-importados/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T20:06:46+00:00"
+    },
+    {
+     "title": "Petróleo sobe mais de 4% com escalada de tensões no Oriente Médio",
+     "link": "https://www.canalrural.com.br/economia/petroleo-sobe-mais-de-4-com-escalada-de-tensoes-no-oriente-medio/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T19:56:41+00:00"
+    },
+    {
+     "title": "ANP aponta estabilidade nos preços dos combustíveis na semana",
+     "link": "https://www.canalrural.com.br/economia/anp-aponta-estabilidade-nos-precos-dos-combustiveis-na-semana/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T19:41:14+00:00"
+    },
+    {
+     "title": "MP abre R$ 13,3 bilhões e inclui recursos para o setor agropecuário",
+     "link": "https://www.canalrural.com.br/politica/mp-abre-r-133-bilhoes-e-inclui-recursos-para-o-setor-agropecuario/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T19:37:23+00:00"
+    },
+    {
+     "title": "Controle populacional de javalis ganha incentivo financeiro de R$ 100 por animal abatido",
+     "link": "https://www.canalrural.com.br/diversos/controle-populacional-de-javalis-ganha-incentivo-financeiro-de-r-100-por-animal-abatido/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T19:35:16+00:00"
+    },
+    {
+     "title": "Atualização do SEI Mapa deixará sistema fora do ar entre sexta e sábado",
+     "link": "https://www.canalrural.com.br/diversos/atualizacao-do-sei-mapa-deixara-sistema-fora-do-ar-entre-sexta-e-sabado/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T19:34:32+00:00"
+    },
+    {
+     "title": "Secretária de Agricultura dos EUA defende tarifas contra o Brasil",
+     "link": "https://www.canalrural.com.br/economia/secretaria-de-agricultura-dos-eua-defende-tarifas-contra-o-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T19:32:43+00:00"
+    },
+    {
+     "title": "Soja mantém competitividade e milho recua no Brasil - Revista Cultivar",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVndPNkFaNGFZX3BLR0FfaTBaSGx4RV9UMmU2X1VWQkJlR1RYc2swRG1rMHNSbFZsMFNyYldaWl92dm54Z1V3clhueEpuMWRDRmE4LW5xR1lGYUpFaU9TMHdSVTRwQlpJVHpKTHVKS1BuLVhERjNLZ2huWXFDOVREakdtRTF5cFhINXdldjVVUGtpS3haYnc?oc=5",
+     "source": "Revista Cultivar",
+     "published_at": "2026-07-17T19:28:01+00:00"
+    },
+    {
+     "title": "Petróleo sobe mais de 4% com ataques no Golfo Pérsico e fechamento de Ormuz",
+     "link": "https://www.canalrural.com.br/economia/petroleo-sobe-mais-de-4-com-ataques-no-golfo-persico-e-fechamento-de-ormuz/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T19:23:47+00:00"
+    },
+    {
+     "title": "Chicago registra alta da soja após 35 dias - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU3d4a3dQXzVsaHVDaUh6M3hYRjNNMHVUa01waF9FbjdiR002U1lkQ01yei04TTM3eVR5emo5dmRISmtzV1htWW5lNDVNcWstRk1FdWR0RkJTeWpUWkdDU3ByRmYxZ0VCdFVWaEphR0NYR3RrUndYZVFJMlJLWGt6Qk1mSkZ3VE41MTNsS3RzUG5qSG9xN3c?oc=5",
      "source": "Agrolink",
-     "published_at": "2026-07-17T18:13:00+00:00"
-    },
-    {
-     "title": "PRODUÇÃO DE SOJA DO BRASIL PODE CRESCER MENOS DE 1% EM 26/27 - - Bahia Economica",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQX2VLYldRMUtKSDFKd3NnNmJXUFdWSUl3UUFHREZWaGVoYkN0cFRINDk5RHp5X3hDOXVmN194aVlIMzZYM2tfT09mcDlSeVl0anVKWU9nUlVGeGhfR0VFLWF0ZkVUZUJHdkpJNHB2NzdmYXhMNkFVUE9FTmVHSXpZaWpVLWNCLUhpTk5Vd09RZERlZzdjd2RUdXkwN1lGZmxBV3R6X3Q5UQ?oc=5",
-     "source": "- Bahia Economica",
-     "published_at": "2026-07-17T18:07:00+00:00"
-    },
-    {
-     "title": "Ministro visita unidades da Lactalis e da Masterboi em Pernambuco",
-     "link": "https://www.canalrural.com.br/politica/ministro-visita-unidades-da-lactalis-e-da-masterboi-em-pernambuco/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T17:50:30+00:00"
-    },
-    {
-     "title": "Mais de 50 suínos e 800 kg de carne bovina estragada são apreendidos em abate clandestino",
-     "link": "https://www.canalrural.com.br/seguranca/mais-de-50-suinos-e-800-kg-de-carne-bovina-estragada-sao-apreendidos-em-abate-clandestino/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T17:48:36+00:00"
-    },
-    {
-     "title": "Geopolítica tributária: quando a tarifa chega ao campo",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/geopolitica-tributaria-quando-a-tarifa-chega-ao-campo/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T17:41:34+00:00"
+     "published_at": "2026-07-17T19:22:00+00:00"
     },
     {
      "title": "Produção de soja do Brasil pode crescer menos de 1% em 26/27, limitada por El Niño - InfoMoney",
@@ -463,58 +505,16 @@
      "published_at": "2026-07-17T17:09:35"
     },
     {
-     "title": "Durigan diz que subsídios aos combustíveis serão retirados após recuo do petróleo",
-     "link": "https://www.canalrural.com.br/economia/durigan-diz-que-subsidios-aos-combustiveis-serao-retirados-apos-recuo-do-petroleo/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T17:01:06+00:00"
-    },
-    {
-     "title": "USDA informa venda de 706,6 mil toneladas de soja dos EUA",
-     "link": "https://www.canalrural.com.br/economia/usda-informa-venda-de-7066-mil-toneladas-de-soja-dos-eua/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T16:33:08+00:00"
-    },
-    {
-     "title": "MP da renegociação rural alcança cerca de R$ 100 bilhões em dívidas",
-     "link": "https://www.canalrural.com.br/politica/mp-da-renegociacao-rural-alcanca-cerca-de-r-100-bilhoes-em-dividas/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T16:15:22+00:00"
-    },
-    {
      "title": "Mesmo com cenário adverso, área de soja deve crescer 1,2%, diz Safras - The AgriBiz",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVm5RbU84NDRBZ0w1SFZaMmJrMkVOS0ZEdkNSSmpWWmJIWExfTjNoTGVKbl9EUGtNUHZ0a3gydEFIa0ltTklvSzRqUWJya1l4emQyOVJGNXdXTGVMRm84VDVfemMyRnVORUVsTnN2TkVuallnZTdmVUFsMElOMzdXN2RYeTdkUVVrUTZCeVB5bWxUMXJGaTlZYWpRa0oxZDNLamktSQ?oc=5",
      "source": "The AgriBiz",
      "published_at": "2026-07-17T16:09:08+00:00"
     },
     {
-     "title": "ApexBrasil destaca abertura de 651 mercados ao agro desde 2023",
-     "link": "https://www.canalrural.com.br/economia/apexbrasil-destaca-abertura-de-651-mercados-ao-agro-desde-2023/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T15:47:40+00:00"
-    },
-    {
      "title": "Faltam dois meses para a Abertura Nacional do Plantio de Soja 2026/27! - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRWFTdWQ0bTR1NC10OVZudXE5UnlNM2tHSmxMWWlhekh5S1dNRU04eXkyWk5pQW8tU1FRcDV2MGV3TUx5Z2RHZmhXUkhoMmRoQnFDd0MxUXNsSGJFbkdJVF85YTcwOGpUMjh1amhEQ1JMSFR3Snloakw4VW5taWtlNEpfVER1ZDVsa1pVLUk5NWdpOVYwcWgtdkFleklmc2Y0MXVyWEYteGo2eENBanl0RGMyQWJWa0NKYzdydkpjeXlWajBSU2FrVkg4M24?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-17T15:37:17+00:00"
-    },
-    {
-     "title": "Faltam dois meses para a Abertura Nacional do Plantio de Soja 2026/27!",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/faltam-dois-meses-para-a-abertura-nacional-do-plantio-de-soja-2026-27/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T15:37:17+00:00"
-    },
-    {
-     "title": "Cana e café puxam queda dos preços ao produtor em junho",
-     "link": "https://www.canalrural.com.br/agricultura/agronegocio/cana-e-cafe-puxam-queda-dos-precos-ao-produtor-em-junho/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T15:34:44+00:00"
-    },
-    {
-     "title": "ApexBrasil anuncia plano de R$ 130 milhões para diversificar mercados após tarifa dos EUA",
-     "link": "https://www.canalrural.com.br/economia/apexbrasil-anuncia-plano-de-r-130-milhoes-para-diversificar-mercados-apos-tarifa-dos-eua/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T15:28:03+00:00"
     },
     {
      "title": "Tarifaço deve atingir 36,5% das exportações do agro para os EUA, diz CNA",
@@ -535,10 +535,10 @@
      "published_at": "2026-07-17T13:45:47+00:00"
     },
     {
-     "title": "Argentina aprova soja transgênica com proteção contra nematoides - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPX3JlTXBmQzlzMTdud1pMVU90WTl2UnhJWWRMVDBfYXZEMHZ4bW9DYWh5NF9kSVB2R0xfY28wd25hNk5BSTV6RjliQktZQnI4eUJHbW1BVy1SM1lVZUZsUGZiMnM3Vm1aQ0d3SXg3UXZzTV91ZTJCTmI1Wm9rOWIzX0lwZXZSZFNCX3M5NTlFX2RPeVRHbkV4MS1URjZBZjVVOE8xS2lNaw?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-07-17T13:18:00+00:00"
+     "title": "Preço em dólares do boi gordo, bezerro, milho e soja na 1ª parte de julho de 2026 - Farmnews",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQWdwallEMlZaN096WDd6YTF6ZW13d1ZsRXRDOU02RERZNmNEb0JqeldrdW82dW04ODRXVWktcWpKWUNCdF9aUGxsU19fcHk1cjMwUk91Ri03ZG5wcFp0UlN6TDBCWkZqWjduVm1fQkRrc3RucFU5czJpaFFKaWpGT2x4LXZ4djVFT1lMeHJEUWNxVWlEUVJ1ZkZMcTRpSmwzM01USTVwWnhQckdlTkxHd0lR?oc=5",
+     "source": "Farmnews",
+     "published_at": "2026-07-17T12:36:41+00:00"
     },
     {
      "title": "Produzindo Certo Mira 10% da Soja Regenerativa com Apoio Britânico até £ 500 Mil - Forbes Brasil",

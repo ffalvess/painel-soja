@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-17T21:45:18+00:00",
+ "generated_at": "2026-07-17T22:42:36+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-17T21:45:11+00:00",
+   "updated_at": "2026-07-17T22:42:28+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-17T21:45:11+00:00",
+   "updated_at": "2026-07-17T22:42:29+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-17T21:45:15+00:00",
+   "updated_at": "2026-07-17T22:42:33+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,8 +400,38 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-17T21:45:18+00:00",
+   "updated_at": "2026-07-17T22:42:36+00:00",
    "items": [
+    {
+     "title": "ANP publica em inglês dados consolidados de 2025 sobre petróleo, gás e biocombustíveis",
+     "link": "https://www.canalrural.com.br/economia/anp-publica-em-ingles-dados-consolidados-de-2025-sobre-petroleo-gas-e-biocombustiveis/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T22:10:19+00:00"
+    },
+    {
+     "title": "Alckmin diz que governo buscará reduzir tarifa de 25% dos EUA sobre produtos brasileiros",
+     "link": "https://www.canalrural.com.br/economia/alckmin-diz-que-governo-buscara-reduzir-tarifa-de-25-dos-eua-sobre-produtos-brasileiros/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T22:03:16+00:00"
+    },
+    {
+     "title": "Cotações de soja são impulsionadas nesta sexta-feira; Chicago e dólar são responsáveis - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSVZ0bHRlZ25paE1ZZExVbm1wN0plSzlQMUNpSjk2YVc5TElJeW1Lc2ZsRlRzZ1B3eHpmd1BGN0thZ05RZlI5ejFJY0kxVDgxcm5GYU1La1Q2cnFPdWhjNFVYTE4yQU8ySlZZdjNhb3dmaTg2cHhzdThUR2RhckwzMmZ1LVV1S0JyRFVva3NIWG54ME1EcldRa1F5d24wSDhRcEJmOUhBR1RLWUJSR2hRazh0NWQ3NFBMVFQxRmplZXpzTDh5d2Fod0Y0VC1jQlB2VEw4U1NscUpHckY4b3VxRG5n?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T21:59:37+00:00"
+    },
+    {
+     "title": "Cotações de soja são impulsionadas nesta sexta-feira; Chicago e dólar são responsáveis",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/cotacoes-de-soja-sao-impulsionadas-nesta-sexta-feira-chicago-e-dolar-sao-responsaveis/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T21:59:37+00:00"
+    },
+    {
+     "title": "Juros futuros sobem com avanço do petróleo e aversão ao risco",
+     "link": "https://www.canalrural.com.br/economia/juros-futuros-sobem-com-avanco-do-petroleo-e-aversao-ao-risco/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T21:23:49+00:00"
+    },
     {
      "title": "Com marketing o agrotropical será sucesso mundial",
      "link": "https://www.canalrural.com.br/opiniao-noticias/com-marketing-o-agrotropical-sera-sucesso-mundial/",
@@ -451,30 +481,6 @@
      "published_at": "2026-07-17T20:07:25+00:00"
     },
     {
-     "title": "Agroleite 2026: inovação e tecnologia na cadeia do leite em Castro",
-     "link": "https://www.canalrural.com.br/videos/agroleite-2026-inovacao-e-tecnologia-na-cadeia-do-leite-em-castro/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T20:06:56+00:00"
-    },
-    {
-     "title": "Tecnologias nacionais buscam reduzir dependência de fertilizantes importados",
-     "link": "https://www.canalrural.com.br/videos/tecnologias-nacionais-buscam-reduzir-dependencia-de-fertilizantes-importados/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T20:06:46+00:00"
-    },
-    {
-     "title": "Petróleo sobe mais de 4% com escalada de tensões no Oriente Médio",
-     "link": "https://www.canalrural.com.br/economia/petroleo-sobe-mais-de-4-com-escalada-de-tensoes-no-oriente-medio/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T19:56:41+00:00"
-    },
-    {
-     "title": "ANP aponta estabilidade nos preços dos combustíveis na semana",
-     "link": "https://www.canalrural.com.br/economia/anp-aponta-estabilidade-nos-precos-dos-combustiveis-na-semana/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T19:41:14+00:00"
-    },
-    {
      "title": "Soja mantém competitividade e milho recua no Brasil - Revista Cultivar",
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVndPNkFaNGFZX3BLR0FfaTBaSGx4RV9UMmU2X1VWQkJlR1RYc2swRG1rMHNSbFZsMFNyYldaWl92dm54Z1V3clhueEpuMWRDRmE4LW5xR1lGYUpFaU9TMHdSVTRwQlpJVHpKTHVKS1BuLVhERjNLZ2huWXFDOVREakdtRTF5cFhINXdldjVVUGtpS3haYnc?oc=5",
      "source": "Revista Cultivar",
@@ -485,6 +491,12 @@
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU3d4a3dQXzVsaHVDaUh6M3hYRjNNMHVUa01waF9FbjdiR002U1lkQ01yei04TTM3eVR5emo5dmRISmtzV1htWW5lNDVNcWstRk1FdWR0RkJTeWpUWkdDU3ByRmYxZ0VCdFVWaEphR0NYR3RrUndYZVFJMlJLWGt6Qk1mSkZ3VE41MTNsS3RzUG5qSG9xN3c?oc=5",
      "source": "Agrolink",
      "published_at": "2026-07-17T19:22:00+00:00"
+    },
+    {
+     "title": "Soja avança na bolsa de Chicago após forte alta nos preços do óleo - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbXJpR2xfWkR6YmhwWUVWNUdCbUdmbS1EektleFZyT0FlYnpiMTQybWhtS3l3SW5JUmRMWV92bDdCei1ZcDktdDNZM1dUMjVqd1BkaW5xQThWR29Da3Z0ZGFDY1ZUUS1FQVpWekJicEszLVljaER4WnpqUE5abFRucTg1WHBTWWN0b1BhbHpDYUd3enctUkQyRy1URENlTElxU0dnZXljTTFzb0tyeEI0YWFBVENFYTN2TnBkSE0xaHFGd0ll0gHTAUFVX3lxTE1jY2lOdjNzVUhLRklFYktFUXBuQ3h6ZmRyMElMNW1zTW9GQWRxdjhPRGZ3WnFEa3RWQXJtWUZEM2Zua21vQjRNVjlNa05zakhHc1h3c2lzcDYyN1FrUEF2TnpBTHN5ZUotYTdTWUJwWHlJTkQ2MVp0aWRVQWtVdWFHZDlnOXVreGVvaVZxUlZVanpzN3VmTEZNdnhpLXNOWjU1NmRManU4T2V3QnlCZDFiSjF6ZWh0MUxlMDdMdlY5SklvcW5RajYzRkNCSE5oR0E5WUE?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-17T19:18:01+00:00"
     },
     {
      "title": "Produção de soja do Brasil pode crescer menos de 1% em 26/27, limitada por El Niño - InfoMoney",
@@ -517,22 +529,10 @@
      "published_at": "2026-07-17T16:09:08+00:00"
     },
     {
-     "title": "Faltam dois meses para a Abertura Nacional do Plantio de Soja 2026/27! - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRWFTdWQ0bTR1NC10OVZudXE5UnlNM2tHSmxMWWlhekh5S1dNRU04eXkyWk5pQW8tU1FRcDV2MGV3TUx5Z2RHZmhXUkhoMmRoQnFDd0MxUXNsSGJFbkdJVF85YTcwOGpUMjh1amhEQ1JMSFR3Snloakw4VW5taWtlNEpfVER1ZDVsa1pVLUk5NWdpOVYwcWgtdkFleklmc2Y0MXVyWEYteGo2eENBanl0RGMyQWJWa0NKYzdydkpjeXlWajBSU2FrVkg4M24?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T15:37:17+00:00"
-    },
-    {
      "title": "Tarifaço deve atingir 36,5% das exportações do agro para os EUA, diz CNA",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/17/tarifaco-deve-atingir-365percent-das-exportacoes-do-agro-brasileiro-diz-cna.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-17T15:09:50"
-    },
-    {
-     "title": "Soja impulsiona produção agropecuária de R$ 1,4 tri em junho e lidera faturamento do campo - Economic News Brasil",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTlVyNi15d3drMlNCd2twZ3JVVGZrenFMbnFDdXZCNkZaX2FVOUhCWlRjOGZRRmZzb29KT0pSWjNfcHRLbVhZRVM0dHVqeTZFNWZDSkNaODlzY2RBRlZCRkxIb1NMTmFrWDNPbUFlUW9MVjV6MDM4WkY2VkEwRXBJMjFoNzdUNDEyWUU0TWJqOVZXeG12?oc=5",
-     "source": "Economic News Brasil",
-     "published_at": "2026-07-17T15:03:00+00:00"
     },
     {
      "title": "Como cultivar urucum",
@@ -541,10 +541,10 @@
      "published_at": "2026-07-17T14:33:54"
     },
     {
-     "title": "Preço em dólares do boi gordo, bezerro, milho e soja na 1ª parte de julho de 2026 - Farmnews",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQWdwallEMlZaN096WDd6YTF6ZW13d1ZsRXRDOU02RERZNmNEb0JqeldrdW82dW04ODRXVWktcWpKWUNCdF9aUGxsU19fcHk1cjMwUk91Ri03ZG5wcFp0UlN6TDBCWkZqWjduVm1fQkRrc3RucFU5czJpaFFKaWpGT2x4LXZ4djVFT1lMeHJEUWNxVWlEUVJ1ZkZMcTRpSmwzM01USTVwWnhQckdlTkxHd0lR?oc=5",
-     "source": "Farmnews",
-     "published_at": "2026-07-17T12:36:41+00:00"
+     "title": "USDA informa novas vendas de mais de 700 mil t de soja nesta 6ª feira (17) - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOenYwcDMxeVFXd3ctQnkxVmlzbXJCM2x0QVVZZlZYU1RpdEV0c0tmWktyLWxuTFJuS2V4Wjgwam5MbzZ3WVZwd2xtZDl0Qk9vMzYtZXozc3hUMVQwaWxsOG5Cc2o0aDE0SUlDV0pxcXg5b2NlSGxJRXNLclkySkUyWG5QVDBjNkVRV0JmcW50NzZtZmtDNHhMWnBNU1BOTTFiUmtaeV9MbTdFNE9GZXFoWTEyd3BOUlFsWHRLOEZwd09lVmVXbHotaEg4Y2dKUDDSAdQBQVVfeXFMTnRrSHY0dUFRRV9hMGtlc1pCQWo3YmxNNjlxU2hqR0REZ1VURHh1VG9xWmxiLXVVd2tLTDRpaV90MFF0SjVTTFdoTkpla3V3YnozNXdVdHhmR2FmQWhKbmdheTNZZzFEU2NyZElta0dNT3ZUQUIxd1E5bC01ZlJ5UXozblBmZmNvQjNlVW9RWWRKbnBDQzVBckh3YzJVSGptQzhzYnIzN3ZUcmJZODc1dDRSeTNxNkZMcVBTSkxiRllZQ1pKLW9lNTBoVG1lSjBNX3A5SzM?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-17T13:45:47+00:00"
     },
     {
      "title": "Produzindo Certo Mira 10% da Soja Regenerativa com Apoio Britânico até £ 500 Mil - Forbes Brasil",

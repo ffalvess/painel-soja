@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-17T18:00:24+00:00",
+ "generated_at": "2026-07-17T19:20:34+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-17T17:59:52+00:00",
+   "updated_at": "2026-07-17T19:20:28+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1202.75,
+     "price": 1202.5,
      "prev_close": 1195.0,
-     "change_pct": 0.65,
+     "change_pct": 0.63,
      "closes": [
       1132.0,
       1122.75,
@@ -32,16 +32,16 @@
       1207.25,
       1202.25,
       1195.0,
-      1202.75
+      1202.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 467.5,
+     "price": 468.25,
      "prev_close": 441.5,
-     "change_pct": 5.89,
+     "change_pct": 6.06,
      "closes": [
       421.0,
       417.5,
@@ -63,16 +63,16 @@
       433.75,
       447.5,
       441.5,
-      467.5
+      468.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 318.4,
+     "price": 319.2,
      "prev_close": 322.9,
-     "change_pct": -1.39,
+     "change_pct": -1.15,
      "closes": [
       304.8,
       301.3,
@@ -94,16 +94,16 @@
       319.6,
       318.9,
       322.9,
-      318.4
+      319.2
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 72.64,
+     "price": 72.44,
      "prev_close": 72.43,
-     "change_pct": 0.29,
+     "change_pct": 0.01,
      "closes": [
       71.54,
       69.69,
@@ -125,16 +125,16 @@
       73.04,
       72.92,
       72.43,
-      72.64
+      72.44
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 681.5,
+     "price": 684.75,
      "prev_close": 674.75,
-     "change_pct": 1.0,
+     "change_pct": 1.48,
      "closes": [
       612.75,
       605.75,
@@ -156,16 +156,16 @@
       631.25,
       677.5,
       674.75,
-      681.5
+      684.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.04,
+     "price": 87.66,
      "prev_close": 84.23,
-     "change_pct": 4.52,
+     "change_pct": 4.07,
      "closes": [
       79.55,
       79.85,
@@ -187,16 +187,16 @@
       84.73,
       84.95,
       84.23,
-      88.04
+      87.66
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 173752.48,
+     "price": 173400.58,
      "prev_close": 173825.0,
-     "change_pct": -0.04,
+     "change_pct": -0.24,
      "closes": [
       168454.0,
       168278.0,
@@ -220,7 +220,7 @@
       176641.0,
       176011.0,
       173825.0,
-      173752.4844
+      173400.5781
      ]
     }
    ],
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-17T16:09:51+00:00",
+   "updated_at": "2026-07-17T19:20:28+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-17T18:00:20+00:00",
+   "updated_at": "2026-07-17T19:20:31+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -253,7 +253,7 @@
       "2026-07-23"
      ],
      "precip": [
-      0.3,
+      0.2,
       0.0,
       0.0,
       0.0,
@@ -262,22 +262,22 @@
       0.0
      ],
      "tmax": [
-      32.6,
       32.9,
-      33.1,
-      33.8,
-      34.3,
+      33.2,
+      33.4,
+      33.9,
+      34.6,
       35.1,
-      35.1
+      35.4
      ],
      "tmin": [
       21.9,
-      20.9,
       21.2,
+      21.3,
       21.8,
+      22.7,
       22.2,
-      22.2,
-      23.2
+      22.1
      ]
     },
     {
@@ -292,7 +292,7 @@
       "2026-07-23"
      ],
      "precip": [
-      0.1,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -301,22 +301,22 @@
       0.0
      ],
      "tmax": [
-      31.4,
-      31.5,
-      32.0,
-      32.9,
-      33.6,
-      34.6,
-      34.7
+      31.7,
+      31.8,
+      32.3,
+      33.1,
+      33.9,
+      34.3,
+      34.6
      ],
      "tmin": [
       20.9,
-      19.9,
-      20.0,
-      21.0,
-      21.3,
-      21.0,
-      22.9
+      20.1,
+      20.1,
+      20.9,
+      21.5,
+      21.2,
+      21.4
      ]
     },
     {
@@ -340,22 +340,22 @@
       0.0
      ],
      "tmax": [
-      27.5,
       27.6,
-      28.5,
-      29.6,
-      30.7,
-      31.5,
-      31.3
+      27.5,
+      28.6,
+      29.9,
+      30.6,
+      31.8,
+      31.9
      ],
      "tmin": [
       17.2,
-      15.3,
-      16.4,
-      17.0,
-      18.5,
-      19.1,
-      17.7
+      15.4,
+      16.5,
+      17.2,
+      17.6,
+      20.4,
+      18.7
      ]
     },
     {
@@ -370,38 +370,86 @@
       "2026-07-23"
      ],
      "precip": [
-      0.1,
       0.0,
       0.0,
       0.0,
       0.0,
-      7.7,
-      0.1
+      0.0,
+      3.8,
+      2.7
      ],
      "tmax": [
-      29.6,
-      29.8,
-      29.9,
-      30.8,
+      30.1,
+      30.0,
+      30.0,
+      31.1,
+      31.7,
       31.4,
-      30.5,
-      33.1
+      28.7
      ],
      "tmin": [
       19.6,
       20.7,
-      20.1,
-      19.7,
-      21.3,
       19.8,
+      20.2,
+      21.3,
+      20.2,
       18.9
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-17T18:00:24+00:00",
+   "updated_at": "2026-07-17T19:20:34+00:00",
    "items": [
+    {
+     "title": "Preço em dólares do boi gordo, bezerro, milho e soja na 1ª parte de julho de 2026 - Farmnews",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQWdwallEMlZaN096WDd6YTF6ZW13d1ZsRXRDOU02RERZNmNEb0JqeldrdW82dW04ODRXVWktcWpKWUNCdF9aUGxsU19fcHk1cjMwUk91Ri03ZG5wcFp0UlN6TDBCWkZqWjduVm1fQkRrc3RucFU5czJpaFFKaWpGT2x4LXZ4djVFT1lMeHJEUWNxVWlEUVJ1ZkZMcTRpSmwzM01USTVwWnhQckdlTkxHd0lR?oc=5",
+     "source": "Farmnews",
+     "published_at": "2026-07-17T18:30:12+00:00"
+    },
+    {
+     "title": "Soja sobe e milho recua no mercado brasileiro - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbnpKLTFxT3ptUXlJMl9DdzBTN0xzTlYzbjRGVnZ6QzJGb1E4eXV6UEwtR2JDeUQxdUpWR3FwM3h1ckNEVDNPb0NWdlB0b29YQkF0R2tQdmxYRmotaXRyNlNpRDIxZW94aW5pbGZuVFNZbk5yQ2g0TjR3TXRicWFCUFBCTlBVWlBqR3dmc011aEZIUlBaTy1EUmxB?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-17T18:13:00+00:00"
+    },
+    {
+     "title": "PRODUÇÃO DE SOJA DO BRASIL PODE CRESCER MENOS DE 1% EM 26/27 - - Bahia Economica",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQX2VLYldRMUtKSDFKd3NnNmJXUFdWSUl3UUFHREZWaGVoYkN0cFRINDk5RHp5X3hDOXVmN194aVlIMzZYM2tfT09mcDlSeVl0anVKWU9nUlVGeGhfR0VFLWF0ZkVUZUJHdkpJNHB2NzdmYXhMNkFVUE9FTmVHSXpZaWpVLWNCLUhpTk5Vd09RZERlZzdjd2RUdXkwN1lGZmxBV3R6X3Q5UQ?oc=5",
+     "source": "- Bahia Economica",
+     "published_at": "2026-07-17T18:07:00+00:00"
+    },
+    {
+     "title": "Ministro visita unidades da Lactalis e da Masterboi em Pernambuco",
+     "link": "https://www.canalrural.com.br/politica/ministro-visita-unidades-da-lactalis-e-da-masterboi-em-pernambuco/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T17:50:30+00:00"
+    },
+    {
+     "title": "Mais de 50 suínos e 800 kg de carne bovina estragada são apreendidos em abate clandestino",
+     "link": "https://www.canalrural.com.br/seguranca/mais-de-50-suinos-e-800-kg-de-carne-bovina-estragada-sao-apreendidos-em-abate-clandestino/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T17:48:36+00:00"
+    },
+    {
+     "title": "Geopolítica tributária: quando a tarifa chega ao campo",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/geopolitica-tributaria-quando-a-tarifa-chega-ao-campo/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T17:41:34+00:00"
+    },
+    {
+     "title": "Produção de soja do Brasil pode crescer menos de 1% em 26/27, limitada por El Niño - InfoMoney",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeU1Gb2J1c0VYcUxZcXZkOElIYlRnalpvWXIxaVF4N2VNVG9fRVNuZVB6WXgyMmREaXRubzdPUUhOUEU1UU11Wi0zRGdUZ3BJMHBGVjNfNzlTZGl0NnFSRzZYQ19Dek5mejEwOHZpRTRzc3JwTUtOcFdoM2VmaFE2aTJseE9xMTdYS3FBLXh3blpIRDJhbWo2NTAweHUzMFljYk9ROEc0bjcwcjVvck5WcUVSbjF4NmpLVkx30gHAAUFVX3lxTE43dWpwSm5aMlFyMWVibmxRR2NsS1FLVF9IMWtYZmRsaVdCMm9vQTZYNGdGR2ZOTkhsSjU5TjFSQnR5aTU5SmhrTFV1M2hrWm9IbFpuT0dOTld2eGctNW1ZZVlya1M4UkVaQ3VRUkp4VkpoYlZycl9HTng5RzRSTmJWRDRxMDdWb2hyV0VBNU1ySGNRYjltN01OdTZ2ckNCSXhkemZiZHdGc1VwSTJ3cVVYOGdyV2JMVUI2RGdVTmtaZw?oc=5",
+     "source": "InfoMoney",
+     "published_at": "2026-07-17T17:35:40+00:00"
+    },
+    {
+     "title": "Soja sobe em Chicago nesta 6ª feira com óleo avançando quase 3%; preços no Brasil dão oportunidade - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNeGxVY3diU1lzY25neWh5a3NuTmVnd2F3UjhPdkRwMFpxcHZMYnJaMDliSmk2ajZIUTdoMGRFTUhJOFRIN2FZRnZ0NVkxbTdKQno0Z2pzejNjVml0c2pMdXpwalNFWkFqa25IaC02bUpERllCQk53cm9qcklKaW5mTUpob0l0Q29qTlBqeVVmaVZXWE90THhsSmFPVzUwYjRYVVlFRWFtZkF5VDQtZmVfRVlDUHFGMU95S3dJV1BPSE5wTlhTRHNYcjhIQlNpQjB1c3dqQ09XN1hKcTZnYlV1UnBSd1prczFKdGM2UWlURdIB9AFBVV95cUxPYlh4b2R2SGdZZUhETXRkVWJOTUc2WmxIYWxhelMweU4yRGY2NFpmTElxUnl2ajhuVVlqaUhqZXEzTkZscjMxSFByRnk4QTRwMmFJaGJJZEg1MG5aalB3T0xOQ3lycXNPWFd5SWV2MlpjUkRQeGdqX2syY2NnSzA1SzQwMzl2UEVhNTdxZE9YUV9VV19TRFNXM05XVHNxQndkSDZVVVVDTlJYMFdIc2NhUnJJaHNMRWlzOUJuQS1pMjBxQjBYUjFmREZLcW1qLXdieTVvQVp3eDBCY2tPcEtFRTQ2RXJQLXhVcVJQNTJrY1BIM1BY?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-17T17:12:27+00:00"
+    },
     {
      "title": "Brasil deve colher safra recorde de soja em 2026/27, mas El Niño ameaça produtividade - G1",
      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWEt1ZEItZThWVHh2bHB2OThtZ2F3X2hhRmpvNHJpTGE4bWw4aE12V01SVjZaTUtUQ2k0UUFUd1hOSWxSZEs5bmFrVHpMeG5ELU1nRGlMZHQycFZrTWo5Z29yTGc3bHdtYXYtVEZ0aWFPdVM5Yi12cks4ZjhEYUhzU1FVUERuQUl6UHdjVlY5ZlVtVnhfaTVqb0VSSWdlWE9iajhMT3NNbTQxMkdNSklnY1RvNnBkeDZQeXh3R3I1WGFINHhpc0NtVkFVWk5UeldWSzJYTFF3YjU4MHBFbnNsMlBERHdtd9IB9AFBVV95cUxQb0o4YjBWT19FN3VrRk1Jb2s0ZWJEYlJQZHNfRk8zby1QQTlCNTNkRmhpRGxaTGhCM3Mwd1ZWWlRXNXg1cGtxT2FybGtFVGZjQlg4SElyU3AzQ2t2R1BmMWJzSVpWdnJ1dldRZTF1enl4SmpPdFNERTVfSndEYVpBNUs2bWNLakkyOWFseVczZm9BNlpEMnRzTmNlTXBKXzFoQ0d0dmxTUU8xRUlxTDItUXE4M3BKdGJ6RFZhUmItQlhZMm9ERFk5LW5idnY1b25kU2w0VFU4VUYwaW43V2hGQkEyalBDOHUxREJjckNVRW9oRDNN?oc=5",
@@ -421,28 +469,10 @@
      "published_at": "2026-07-17T17:01:06+00:00"
     },
     {
-     "title": "Produção de soja do Brasil pode crescer menos de 1% em 26/27 em meio a El Niño, prevê Safras Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZ1JWdGx2ZExqREJtTFR3QzBmdUlaampERXg2TnFZOUxIaWZkcTF4ZmxlR002VXVOOUtERkVxN3RyVTF3UUR2UGZGZXR5Z2pJbDlhYTdIbU5VejlrZDlubU1tci1sRnBPNzVxY3EtNzJhWW96cWN6dUoxMVhWTkxRSldxdlQxdEJUSk41b2d4RDJXamdQR05FVGFFQ0xHYTY3b1hIem5QSHhTOERHdVNxdmxMZzR1b1llb0JVTVctTWQ0Qzl5Tkw0SjhkeHZ0QQ?oc=5",
-     "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "published_at": "2026-07-17T16:51:00+00:00"
-    },
-    {
-     "title": "USDA informa venda de 706,6 mil toneladas de soja dos EUA - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUnZsS3V0T3lvUVp0OUx3Q2hyYUh6ejdpTjROR3Y0OXJHVnd3a01zQk5qTjJ1dmt1MUJ4ZkRHTEdGdlZXZ1VSeDUzUzkwRGRVRy1EVkNiOGVadWExazJ0M21hNXhsanlCaHVJQjQ5cjA0eUxxb0JjM3lybWJ0bWRmYzRPcmZYdzR2VDlkeWpIUDdIVXhwb2NWMGdZLWE?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T16:33:08+00:00"
-    },
-    {
      "title": "USDA informa venda de 706,6 mil toneladas de soja dos EUA",
      "link": "https://www.canalrural.com.br/economia/usda-informa-venda-de-7066-mil-toneladas-de-soja-dos-eua/",
      "source": "Canal Rural",
      "published_at": "2026-07-17T16:33:08+00:00"
-    },
-    {
-     "title": "USDA: exportadores de soja dos EUA relatam vendas de 706,6 mil toneladas - UOL Notícias",
-     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQT0xic1NvOVVxN0xkdnFrVWgzN0x6MGoxZU5FVEtUTEFubmFuYjRCaHNWZFFqdkRBbHY1NHdDakZadTBBWHVYVVhUTXJyaEc2V1NqVVR2RWdXZ1VVdmVsN0h1WGhsV0Q2a0k0cFBBUmp4T0s5elgxTG1pa3dlRXJuOFZVV1BQaGNiTGV6Slhjajc4OTI3Z2VIVWI5OFNjeDhScGhXXzBhM0JXZ2pqM0xBX0hhdEtwV1RkdDE2aTFXUThWaGxweWpsTVhpNzhKakNmT1BLZDBvZEtCRHdkcmc?oc=5",
-     "source": "UOL Notícias",
-     "published_at": "2026-07-17T16:30:00+00:00"
     },
     {
      "title": "MP da renegociação rural alcança cerca de R$ 100 bilhões em dívidas",
@@ -463,6 +493,12 @@
      "published_at": "2026-07-17T15:47:40+00:00"
     },
     {
+     "title": "Faltam dois meses para a Abertura Nacional do Plantio de Soja 2026/27! - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRWFTdWQ0bTR1NC10OVZudXE5UnlNM2tHSmxMWWlhekh5S1dNRU04eXkyWk5pQW8tU1FRcDV2MGV3TUx5Z2RHZmhXUkhoMmRoQnFDd0MxUXNsSGJFbkdJVF85YTcwOGpUMjh1amhEQ1JMSFR3Snloakw4VW5taWtlNEpfVER1ZDVsa1pVLUk5NWdpOVYwcWgtdkFleklmc2Y0MXVyWEYteGo2eENBanl0RGMyQWJWa0NKYzdydkpjeXlWajBSU2FrVkg4M24?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T15:37:17+00:00"
+    },
+    {
      "title": "Faltam dois meses para a Abertura Nacional do Plantio de Soja 2026/27!",
      "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/faltam-dois-meses-para-a-abertura-nacional-do-plantio-de-soja-2026-27/",
      "source": "Canal Rural",
@@ -481,28 +517,10 @@
      "published_at": "2026-07-17T15:28:03+00:00"
     },
     {
-     "title": "Morre Fausto Pereira Lima, uma das maiores referências da pecuária brasileira",
-     "link": "https://www.canalrural.com.br/agricultura/morre-fausto-pereira-lima-uma-das-maiores-referencias-da-pecuaria-brasileira/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T15:20:05+00:00"
-    },
-    {
-     "title": "Tarifaço dos Estados Unidos eleva taxa sobre uva brasileira a 35%",
-     "link": "https://www.canalrural.com.br/agricultura/agronegocio/tarifa-dos-estados-unidos-eleva-taxa-sobre-uva-brasileira-a-35-e-preocupa-setor/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T15:15:00+00:00"
-    },
-    {
      "title": "Tarifaço deve atingir 36,5% das exportações do agro para os EUA, diz CNA",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/17/tarifaco-deve-atingir-365percent-das-exportacoes-do-agro-brasileiro-diz-cna.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-17T15:09:50"
-    },
-    {
-     "title": "Tarifa dos EUA atinge US$ 7,2 bilhões das exportações brasileiras, diz ApexBrasil",
-     "link": "https://www.canalrural.com.br/economia/tarifa-dos-eua-atinge-us-72-bilhoes-das-exportacoes-brasileiras-diz-apexbrasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T14:54:04+00:00"
     },
     {
      "title": "Como cultivar urucum",
@@ -517,28 +535,10 @@
      "published_at": "2026-07-17T13:45:47+00:00"
     },
     {
-     "title": "Análise aponta motores da alta de soja e milho - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYXJ3Wkl0Rk9uSjVvN2QyOUJqVnVvakJQZkI4YkRMcmY4eHRZTGhtYjItSmtNbEJBZkY4OWpleHFhQ3U2SVVkbV8xT2ZLWWlYaDhyZzZGRC1Mbkl6NWpFaEVhVWlQR2F1djh3eGllOGJFX3AxUWdJamdYdW4xX2ZkYWZfSC0zT0pUMk8yTUxwRmxyWDhkRHhLMmRxRQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-17T13:39:00+00:00"
-    },
-    {
      "title": "Argentina aprova soja transgênica com proteção contra nematoides - Revista Cultivar",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPX3JlTXBmQzlzMTdud1pMVU90WTl2UnhJWWRMVDBfYXZEMHZ4bW9DYWh5NF9kSVB2R0xfY28wd25hNk5BSTV6RjliQktZQnI4eUJHbW1BVy1SM1lVZUZsUGZiMnM3Vm1aQ0d3SXg3UXZzTV91ZTJCTmI1Wm9rOWIzX0lwZXZSZFNCX3M5NTlFX2RPeVRHbkV4MS1URjZBZjVVOE8xS2lNaw?oc=5",
      "source": "Revista Cultivar",
      "published_at": "2026-07-17T13:18:00+00:00"
-    },
-    {
-     "title": "Preço em dólares do boi gordo, bezerro, milho e soja na 1ª parte de julho de 2026 - Farmnews",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQU1RrQldxNGc1NFIycDhXOE4tQ3VjX0lJVlVncWYzc1VTWlAzekpEQndZa25CM0RFTVFHVm1NMk1RLXlEam9MbWY3dHhpNUhPNzJaUUloRG1TZlVZdjl5eXJSajJxaHUtUHhEMVFodVdPMlJyMF8yeXdfUHI2QkJ5TzdwUjhoU2F5d0tqQ2x3ejdYMWYyLWtyZ0hWQ1RnRWJYWHVCOGVIbWd5MTF1NHFOb2oyTGlzeU0?oc=5",
-     "source": "Farmnews",
-     "published_at": "2026-07-17T12:36:41+00:00"
-    },
-    {
-     "title": "Soja caminha de lado em Chicago nesta 6ª feira, após semana de forte volatilidade - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMmlJYW1YTUJJeE1rTXpCN18xWTVuYjEwVV9Ya0I0SlcyNTNiNWx5UjZJNkJET0xQclZud0tyc2p3UjJrZzBsZGM0WFdhUDZBY2pwQ05sa1pxeFV2cjlSVHNxSldKTURNdzVId1RwUHB4TWpRMlBIVlB1WlUyODA4R05xYldiemlYOHVlZVFEa1ZGZ01Bd0dvSGx4THJldGZfN01XV2RoZ1NBd2k3UjVHQU4xZUNKQ01sZXozT2J5TjMyaDBrVi1Ya2FKSXo0UERiNEdNZzJISnVTQdIB3wFBVV95cUxPOHdRajRNOXFOaE9PX3BLNnRUd1VrT1dxcVFMVzREMjRDX2E3NDFxWXZXSFcyWWlLSFhSTloxUXNYcERmWGJmVUhKcXNJTjdrVDlDcDY1SkdBS0d6NEtXQkVQa3VUYkZTSWtpdjZGUFpPSXE2QldIRzZMWXRLRkxoUFd0NXZWWVRZei1RVlFLU2JBdjJTV2RQdlM5OFYyd3M5dHhUVXFqMVNzYmczeDJkZTJNczlWUGVRRVJFenI5R3RKSFlrS2NtYU0yYnliajdCNDJ1YVNUSEY4S3pTdjRR?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-17T10:38:15+00:00"
     },
     {
      "title": "Produzindo Certo Mira 10% da Soja Regenerativa com Apoio Britânico até £ 500 Mil - Forbes Brasil",
@@ -592,10 +592,6 @@
   {
    "section": "fx",
    "error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
-  },
-  {
-   "section": "rates",
-   "error": "HTTPSConnectionPool(host='api.bcb.gov.br', port=443): Read timed out. (read timeout=25)"
   },
   {
    "section": "cepea",

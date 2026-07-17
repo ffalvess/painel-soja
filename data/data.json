@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-17T07:59:33+00:00",
+ "generated_at": "2026-07-17T10:03:49+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-17T07:59:24+00:00",
+   "updated_at": "2026-07-17T10:03:43+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1189.0,
+     "price": 1189.25,
      "prev_close": 1195.0,
-     "change_pct": -0.5,
+     "change_pct": -0.48,
      "closes": [
       1132.0,
       1122.75,
@@ -32,16 +32,16 @@
       1207.25,
       1202.25,
       1195.0,
-      1189.0
+      1189.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 461.25,
+     "price": 460.75,
      "prev_close": 441.5,
-     "change_pct": 4.47,
+     "change_pct": 4.36,
      "closes": [
       421.0,
       417.5,
@@ -63,16 +63,16 @@
       433.75,
       447.5,
       441.5,
-      461.25
+      460.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 318.7,
+     "price": 319.0,
      "prev_close": 322.9,
-     "change_pct": -1.3,
+     "change_pct": -1.21,
      "closes": [
       304.8,
       301.3,
@@ -94,16 +94,16 @@
       319.6,
       318.9,
       322.9,
-      318.7
+      319.0
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.37,
+     "price": 71.29,
      "prev_close": 72.43,
-     "change_pct": -1.46,
+     "change_pct": -1.57,
      "closes": [
       71.54,
       69.69,
@@ -125,16 +125,16 @@
       73.04,
       72.92,
       72.43,
-      71.37
+      71.29
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 670.0,
+     "price": 672.25,
      "prev_close": 674.75,
-     "change_pct": -0.7,
+     "change_pct": -0.37,
      "closes": [
       612.75,
       605.75,
@@ -156,16 +156,16 @@
       631.25,
       677.5,
       674.75,
-      670.0
+      672.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 84.46,
+     "price": 85.71,
      "prev_close": 84.23,
-     "change_pct": 0.27,
+     "change_pct": 1.76,
      "closes": [
       79.55,
       79.85,
@@ -187,7 +187,7 @@
       84.73,
       84.95,
       84.23,
-      84.46
+      85.71
      ]
     },
     {
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-17T07:59:25+00:00",
+   "updated_at": "2026-07-17T10:03:44+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-17T07:59:29+00:00",
+   "updated_at": "2026-07-17T10:03:47+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,19 +400,37 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-17T07:59:33+00:00",
+   "updated_at": "2026-07-17T10:03:49+00:00",
    "items": [
+    {
+     "title": "Soja cai em Chicago e preços avançam no Brasil - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObEZOLS1BcHlpdXpUT3MtVHQ5UDVHV2tpMUhsamE0dzBmcHFDV3VPb3dpSDVYY3VLMGhybkQyUi1YMGQ2VE9ERXNxMDdhVkUyMHB4TV9SRy1hdGdqZVB1T2MycGpua3hqdjhhdVRwUUhYdGlIc2J4YzY1dUNJV0RWWk5wQi13Y1M5RHY5d0M1cU9Hakg4RkxYUVNhWQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-17T09:42:00+00:00"
+    },
+    {
+     "title": "Preço da soja tem reação e volta ficar acima de R$ 140 a saca - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNjNiSGNsX3IwVGp4TVNOcUE4a0w2dXdRNHdfSlZSNUVDTjVDZXNaQVh1M3NZUlc3QlhCanpuNFRpYWxoYkxOeVk4S2h6RVBCNEM1Wk56eDF5VC1DVWg5TEdRcHpyYnlNSkRzWGZKZW9PbjA3WnNSZGhIYXliLWlOZVlZX3BUMFRzVEpvSHZ1UzJQRVM1ejdDTWR2QmJtODd2WC0zLTlqLW1MM3ZCVzlxdFlYWk5aWF9jLW1EV9IBywFBVV95cUxPM0hJY0FsNHJLRU5ZMUVOTUFvS2k2cHNZdTFUdldxQVBNX0F4SE9kb3l6emRwUmZ3S014OGpIY2lRYW9CY3lCbFNCRk5vdTFYNWRfLTA3cGNQaTU4YkZzblNFQi1zRmxseGtPdzc5MTRGQTlBNXJNZ2lqbWpGTzFkS2xOblVSZVRERkVJLVBXX3JVR29UWTNBSkx5cUcyMVR0ckFOYUFtODJrRWZxcmJYNnMyMTk2NzROVDBUOF9NN1diSHJLOU5GZ2xUWQ?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-17T09:14:08+00:00"
+    },
+    {
+     "title": "Fim da Moratória da Soja pode ampliar destruição da Amazônia - Maringá Post",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeEdfbC0zT1NORlhrdW9OOURsV3ltdDlCcUZTUVRQT3lMUU8tT18yMHMyUE13QVpGUVpIekVDaEhabEptZVp4XzdpSWRrY1NPUFNKSnZkLWtCSzI0aXdUNjF2UGEzY3lWTWxfZ2tBZ3FtRWp2eU9Gam90U2F0MEItLTN3NGpDdjhHYkNmY1hwQnRPTzFBZlppZUlFaDlnNUNv?oc=5",
+     "source": "Maringá Post",
+     "published_at": "2026-07-17T08:55:00+00:00"
+    },
+    {
+     "title": "Produzindo Certo Mira 10% da Soja Regenerativa com Apoio Britânico até £ 500 Mil - Forbes Brasil",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaC0xbmFZU1R5UHJLRkNFczdEaFBpdzdHN3ZoaG9uZk1USWR2VFl6dGhOcE1Fd2gzdk91akJkTHlhd1ZSZ25OT1dGTGxKQTU5cW9yb2xtb1RWMEcwNEVRZVdiQ3BjeTlHYVgwMk9pLVd6RVV6MEtTV3ozXzJVU2VTVzY2N2tIWmt0OXNIOTYxaDBQRGhmcFc0ODNDVUxSNFd4cDg2ZVd1UzA3ZGotc2t2OE8wS0otNWtwMENpMg?oc=5",
+     "source": "Forbes Brasil",
+     "published_at": "2026-07-17T08:00:00+00:00"
+    },
     {
      "title": "SOJA E TRIGO: confira os preços dos grãos nesta sexta-feira (17) - Brasil 61",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORm9Kd1VBOTdobHdoS3NxVlJYdWFIQXhxcG5seXptLTFRSHJUYXRIMEEzOUE2cy1TSGZFU1lIM1RyaENONTFmd1U3Sy1RdmE3MWJ5MG9JM1ZrR05fanBxaTVYWWxOSFo4clpKNnhfYjNQV3NfZ0VnVTN1M3FyMEpXNm0wSVJMWlp1UEYyWkNPOHMtNUZjQmRrdURGUdIBoAFBVV95cUxPY08ycjZOalRid1RQQS1lcDZTNkxYQmRxX0JWR056TFFoUjBQMGZxWlV3cFRqLXFScDNfNzh3eXhfODJualZFSTFYS2lwSHdrREFYXzZ3eklyUWYxa2FmVmlOWjhWUXBPVzdKUHMyVnZwWjVvazRfWldwMENNT0tITFl3YzJmM3Z1Mk1GcDVEZ2tOWGtVVTlSS21MaGRCRXVC?oc=5",
      "source": "Brasil 61",
      "published_at": "2026-07-17T07:00:00+00:00"
-    },
-    {
-     "title": "Fim da Moratória da Soja pode ampliar destruição da Amazônia - iBand CE",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWjg3WUx1U283UHk4SGVZc2F5Qk5JTzg0eTFBbW1aSUlNTVlGN0syaTl1R2dpcm4xSDNiX09rUmotcVRzM0JvRE9yZkdtYmJSb2IwZU5kTjNxX2MwUFNiQTdtN09IQXpuT1l0RG1NbnpqRlZkX28yU0tyQXVUeFNZU2FjQjNiYTJsd0xaMw?oc=5",
-     "source": "iBand CE",
-     "published_at": "2026-07-17T03:41:00+00:00"
     },
     {
      "title": "Estudo na Science aponta que fim da Moratória da Soja pode desmatar 1,4 milhão de hectares na Amazônia, o equivalente a 2 milhões de campos de futebol - greenpeace.org",
@@ -505,12 +523,6 @@
      "published_at": "2026-07-16T20:18:21"
     },
     {
-     "title": "Demanda firme reduz oferta de soja padrão - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSEsyeWFJaXhzYk02Ry1fclFYMzJmSW9Fc1UzUENjdF9IRUY2MTByZmtJczVOUk03VjB3cFNvR0FsdVg3MmxVc1l4Qzd4SzlWZ0d3Wkl4aVBWemFjcUxONzZzMHRhZHdreUdNWktZX0I4LTc1OTRYZmhoS2xDeS1FYmZZQnZHLWxLNVhrbW04cVREQzN4?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-16T19:49:00+00:00"
-    },
-    {
      "title": "Preços da soja seguem dando oportunidade de vendas no Brasil, seja por Chicago ou pelo dólar - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNSW01VFdlNTJfTFp5UFpVeGYtZlNQd3lQZEFzckRzTF9wU3gwMHFmRFM3Y21qcDRTbjJRblRCaVFXSGwzODVDNlV1b015QmhWUE9MUW50by1PQmN3WlJjMC1BREFPQUVGYjVraDRPaVV4U09EVU9meUh2bzlra0RUWVRWNXNqRVdmb09NejhDUVJtVDhwelNTSzI4VV9ad2JScDlNTnRmZzNpUGF5TzJRYmh5bXJ5T0hnYTdsU3pvQVBoeW4wd0VIYTBIcmRqTlFsRV9WajZjTFJ3eS10ZlhndmZDRDFLVHPSAewBQVVfeXFMTTgyaDhhUE9pcE56eVBmc2w0d25LbTFMLTF0cWkybDFVcFZTVm1DZkhFbXBTQTVsbTlUQlNmYkNyR0lQaXJjdlAxSHBHcU1uRlFvN185aG8tN2Qtd3BJTHdQbjdYRzlkU0ZUd09PNE8wRnlUd3p0Z1IyekZ2bGF3X253cTdCYWtWb1Q2aERSSXZsWk1uUXVLTWNrNE0wVXRCUHVoWThSS0Y5aDJCNlg0V1YxRWJ5a3Z1d050THBFUVdUMVdJOHZTNHR1eGNCLVBFY1NGclBFQk9yQzlJZ3pjaTJnS0Z6clhLdXczNFc?oc=5",
      "source": "Notícias Agrícolas",
@@ -527,18 +539,6 @@
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOWdsRzNPT1cxVDFOUURxV19xOFdYSWFZTnNIVlN0YU1xQTlaUjN0aF9aYkpRamY0Znl1TDdXRVA3YXJBUWluckRGSTd3ZHZOLUFweHQtdV95T1dTdzRDM1h5dld2RjAwTHNxdU5yQm54cUhXb2h0bVFtRC1KRnFCRWlqRTRmV3BEdFJpc19VSkxwaVNPVTdhazF3b3BrZUo2dmR1cmVDYWlKb2lhbTBkQmtLU1RMckZEazZoQWFBTmh0X1U?oc=5",
      "source": "Capital Reset",
      "published_at": "2026-07-16T19:21:26+00:00"
-    },
-    {
-     "title": "PR Safra 2025/26: complexo soja impulsiona exportações em 2026 - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYVdSWTBwUFhLdlh5WVBqUUt6eF9HalpnTTJWNDdUVVV6cFZMd0ZfekpEQ1Y0UlVwbS1XUVFHRVU4c3lSYTUySUpDcmRST3BSSXBsS3BvVWpqYzA2emVyTUtmRnRTU0xnTTM4eU9rNWppNkRSSXRFc3hBTEU2TWhNREptNFRhS2Q1emc0M2pWNG5ldEZQTk1GWTNWRDR4VVFGSGZV?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-07-16T18:51:10+00:00"
-    },
-    {
-     "title": "Fim da Moratória da Soja pode elevar desmatamento na Amazônia em 1,4 milhão de hectares, diz estudo - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQejRXd1EzS0JTLTVnRTZCTmpQZ2djN2pzRnQtN0lQMEFybVA0YThOQTZURkdFd2lCOXV2Mno5emt5X09GU0tlQWkwbm54aFVNZDMtRTRqNmlVMk5qOVRkZmd6UjJKalF6Y21abkpReFhWSzNJLUJOQUZaMWkxYXFhYTJCWVd5d01ORGl4Q0l0cnlzbmd2cnNTcmJwcFl0QWE0bzZyckl3WjMtTHczYzY0RTMxTzJFVi1wb1FtNHlYbkhFSFRZWWMzQ1ZXWXNsY3ZGb2N4UkZPYVRwZ0hPaHU1VWc2NGZZOERXZXFRNkp5amRPdDhNZVlnbNIBhwJBVV95cUxNaUZ0NWJaQjg1M2tQZVlsa1h0UVRVQzRwbmpVZFg2RnFteXpwejBGU2RFbmZvZV9NUjhrdkJnVzdoOHpaZ2JIREZmRWJDVTdqVVY5YmRoTzhtWm83WXVGSGpZZUFUUjVpY0pES2pYRG5WdC1lTUN6NHlUMWJFaVJGSndsQ2lDWTI0aEQ3TmhWbVFPbjV1Ul9ZRlQ3TUxzc1ZadXhGSno3TEF2WHVodXlNX2duelAwS3VIeFk5TmR0ZHp5WkpGdE5RelhwNWdIYUc1UnpibmJYRS1veTZOLTFEN3dHYmVIWEJSZWZIQ3FxcDJtWWc5S09kaUJwamtqV0dodVliXzVOTQ?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-16T18:26:52+00:00"
     },
     {
      "title": "Exportadoras dizem que carne brasileira pode não conseguir atender exigências da UE sobre antimicrobianos",

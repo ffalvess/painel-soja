@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-17T22:42:36+00:00",
+ "generated_at": "2026-07-17T23:46:36+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-17T22:42:28+00:00",
+   "updated_at": "2026-07-17T23:46:29+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-17T22:42:29+00:00",
+   "updated_at": "2026-07-17T23:46:29+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-17T22:42:33+00:00",
+   "updated_at": "2026-07-17T23:46:33+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,8 +400,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-17T22:42:36+00:00",
+   "updated_at": "2026-07-17T23:46:36+00:00",
    "items": [
+    {
+     "title": "Investigação dos Estados Unidos pode fazer tarifa ao Brasil subir de 25% para 37,5%",
+     "link": "https://www.canalrural.com.br/economia/investigacao-dos-estados-unidos-pode-fazer-tarifa-ao-brasil-subir-de-25-para-375/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T23:16:31+00:00"
+    },
+    {
+     "title": "Preços do boi gordo encerram a semana em alta; confira as cotações",
+     "link": "https://www.canalrural.com.br/pecuaria/precos-do-boi-gordo-encerram-a-semana-em-alta-confira-as-cotacoes/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T22:47:07+00:00"
+    },
     {
      "title": "ANP publica em inglês dados consolidados de 2025 sobre petróleo, gás e biocombustíveis",
      "link": "https://www.canalrural.com.br/economia/anp-publica-em-ingles-dados-consolidados-de-2025-sobre-petroleo-gas-e-biocombustiveis/",
@@ -467,18 +479,6 @@
      "link": "https://www.canalrural.com.br/economia/tarifa-dos-eua-alcanca-31-das-exportacoes-brasileiras-ao-mercado-norte-americano/",
      "source": "Canal Rural",
      "published_at": "2026-07-17T20:27:18+00:00"
-    },
-    {
-     "title": "Tarifa dos EUA atinge com mais força a uva brasileira, diz Abrafrutas",
-     "link": "https://www.canalrural.com.br/economia/tarifa-dos-eua-atinge-com-mais-forca-a-uva-brasileira-diz-abrafrutas/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T20:22:50+00:00"
-    },
-    {
-     "title": "Setor de carne bovina movimenta R$ 1,1 trilhão e enfrenta desafios",
-     "link": "https://www.canalrural.com.br/videos/setor-de-carne-bovina-movimenta-r-11-trilhao-e-enfrenta-desafios/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T20:07:25+00:00"
     },
     {
      "title": "Soja mantém competitividade e milho recua no Brasil - Revista Cultivar",

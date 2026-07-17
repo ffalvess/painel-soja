@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-16T23:53:56+00:00",
+ "generated_at": "2026-07-17T02:05:51+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-16T23:53:52+00:00",
+   "updated_at": "2026-07-17T02:05:43+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1193.75,
+     "price": 1193.0,
      "prev_close": 1202.25,
-     "change_pct": -0.71,
+     "change_pct": -0.77,
      "closes": [
       1130.0,
       1132.0,
@@ -32,16 +32,16 @@
       1202.0,
       1207.25,
       1202.25,
-      1193.75
+      1193.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 463.5,
+     "price": 461.5,
      "prev_close": 447.5,
-     "change_pct": 3.58,
+     "change_pct": 3.13,
      "closes": [
       413.75,
       421.0,
@@ -63,16 +63,16 @@
       437.75,
       433.75,
       447.5,
-      463.5
+      461.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 322.3,
+     "price": 320.9,
      "prev_close": 318.9,
-     "change_pct": 1.07,
+     "change_pct": 0.63,
      "closes": [
       304.8,
       304.8,
@@ -94,16 +94,16 @@
       316.8,
       319.6,
       318.9,
-      322.3
+      320.9
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.51,
+     "price": 71.2,
      "prev_close": 72.92,
-     "change_pct": -3.3,
+     "change_pct": -2.36,
      "closes": [
       72.92,
       71.54,
@@ -125,16 +125,16 @@
       73.04,
       73.04,
       72.92,
-      70.51
+      71.2
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 674.25,
+     "price": 669.25,
      "prev_close": 677.5,
-     "change_pct": -0.48,
+     "change_pct": -1.22,
      "closes": [
       596.0,
       612.75,
@@ -156,16 +156,16 @@
       627.0,
       631.25,
       677.5,
-      674.25
+      669.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 84.92,
+     "price": 85.1,
      "prev_close": 84.95,
-     "change_pct": -0.04,
+     "change_pct": 0.18,
      "closes": [
       78.96,
       79.55,
@@ -187,7 +187,7 @@
       83.3,
       84.73,
       84.95,
-      84.92
+      85.1
      ]
     },
     {
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-16T23:53:52+00:00",
+   "updated_at": "2026-07-17T02:05:44+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-16T23:53:54+00:00",
+   "updated_at": "2026-07-17T02:05:48+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -253,7 +253,7 @@
       "2026-07-22"
      ],
      "precip": [
-      0.1,
+      1.2,
       0.0,
       0.0,
       0.0,
@@ -263,21 +263,21 @@
      ],
      "tmax": [
       32.5,
+      33.3,
       33.4,
-      33.1,
-      33.5,
-      34.1,
-      34.8,
-      35.3
+      33.7,
+      34.2,
+      34.7,
+      35.4
      ],
      "tmin": [
       22.2,
-      22.1,
-      21.4,
-      21.4,
+      22.4,
+      21.3,
+      21.6,
       21.7,
-      22.1,
-      21.7
+      21.9,
+      22.2
      ]
     },
     {
@@ -292,7 +292,7 @@
       "2026-07-22"
      ],
      "precip": [
-      1.4,
+      2.0,
       0.0,
       0.0,
       0.0,
@@ -301,22 +301,22 @@
       0.0
      ],
      "tmax": [
-      31.4,
       31.6,
       31.8,
-      32.3,
-      33.1,
-      33.7,
-      34.4
+      32.1,
+      32.6,
+      33.3,
+      33.8,
+      34.5
      ],
      "tmin": [
       21.3,
+      21.4,
+      20.5,
+      20.3,
+      20.9,
       21.2,
-      20.2,
-      20.2,
-      20.7,
-      21.2,
-      21.2
+      21.3
      ]
     },
     {
@@ -340,22 +340,22 @@
       0.0
      ],
      "tmax": [
-      29.2,
-      28.0,
-      28.7,
-      28.8,
-      29.9,
-      31.1,
-      31.5
+      29.0,
+      28.1,
+      28.6,
+      28.9,
+      29.8,
+      30.9,
+      31.2
      ],
      "tmin": [
       17.7,
-      17.1,
-      15.9,
-      17.0,
-      17.3,
-      19.0,
-      18.4
+      17.6,
+      16.0,
+      16.9,
+      17.2,
+      17.9,
+      19.2
      ]
     },
     {
@@ -376,32 +376,56 @@
       0.0,
       0.0,
       0.0,
-      0.6
+      0.0
      ],
      "tmax": [
-      30.9,
-      30.5,
-      30.4,
+      31.4,
+      30.6,
       30.7,
-      31.1,
-      32.0,
-      32.0
+      31.0,
+      31.5,
+      32.3,
+      32.5
      ],
      "tmin": [
       16.2,
-      19.7,
-      21.2,
-      20.1,
-      20.6,
-      22.0,
-      22.1
+      19.8,
+      21.3,
+      20.8,
+      20.4,
+      21.7,
+      22.9
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-16T23:53:56+00:00",
+   "updated_at": "2026-07-17T02:05:51+00:00",
    "items": [
+    {
+     "title": "Estudo projeta mais 1,4 milhão de hectares desmatados sem Moratória da Soja - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZ0ZxQkU0WUx0aVZGWFVPeGc5X3ozbWs4V012R25WZHN3UFBUX1g2aU55TFhYaGRYaWY0YU1YLVBQb2pOVUdkQTd2SnhpalN5d0JZSTRzbGVELWFicHdZbnh3T2NBZTMzNEpnTlZON2ZIMGFYRFlldUM2TFA1NEt5OW1fM2pobFAwSWhfdXJvRDhIWXU2ZzMxT3dRcVp0eDNIR3phRXBCUnlGRDF4Ui1JaWpUMmk5eUFz?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T01:00:53+00:00"
+    },
+    {
+     "title": "Estudo projeta mais 1,4 milhão de hectares desmatados sem Moratória da Soja",
+     "link": "https://www.canalrural.com.br/agricultura/estudo-projeta-mais-14-milhao-de-hectares-desmatados-sem-moratoria-da-soja/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T01:00:53+00:00"
+    },
+    {
+     "title": "Governo anuncia programa para apoiar empresas atingidas por novo tarifaço de Trump",
+     "link": "https://www.canalrural.com.br/economia/governo-anuncia-programa-para-apoiar-empresas-atingidas-por-novo-tarifaco-de-trump/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T00:27:56+00:00"
+    },
+    {
+     "title": "Cotação do boi gordo mantém elevação; veja os preços da arroba e do atacado",
+     "link": "https://www.canalrural.com.br/pecuaria/cotacao-do-boi-gordo-mantem-elevacao-veja-os-precos-da-arroba-e-do-atacado/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-16T23:43:16+00:00"
+    },
     {
      "title": "Vendaval de 100 km/h deve atingir áreas de 5 estados, alerta Inmet",
      "link": "https://www.canalrural.com.br/previsao-do-tempo/vendaval-de-100-km-h-deve-atingir-areas-de-5-estados-alerta-inmet/",
@@ -451,34 +475,16 @@
      "published_at": "2026-07-16T21:01:00+00:00"
     },
     {
-     "title": "Ibovespa cai 1,24% com tarifa dos EUA e pressão externa",
-     "link": "https://www.canalrural.com.br/economia/ibovespa-cai-124-com-tarifa-dos-eua-e-pressao-externa/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-16T20:58:26+00:00"
-    },
-    {
      "title": "Fim da moratória da soja pode aumentar a destruição da Amazônia em 1,4 milhões de hectares nos - WWF Brasil",
      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOY1J5SEk2eVg2dmE4VzNoREdydUhJa2lGaHY5VmstYzZRSl9ob0dKWldEbUlVVlU3VV9weVpnWTd0bHJGUjZCakxKSTh5UGhZZjQ3THJEcUpuWFN5RVFGNFpvOXN0ei1NWHRha0xMcDY4b1diaFltbFU3VnhscTFJWWRCcS1yeEJkZlJZOHRKQ29ZWGpUX011Zm4yTDZfT2s0VmUzQjhDQ193YUVRcVhSanBFRXA5UkJSelNwLW5LeHdNSzkyanZQYVRXOGlrWWllR0hYcnJ1Y0xrdUU2cGFtbkFWQ0g2b0E2dzZpb3J4cWxicGJRRndGZQ?oc=5",
      "source": "WWF Brasil",
      "published_at": "2026-07-16T20:47:19+00:00"
     },
     {
-     "title": "EUA excluem pescados brasileiros de novas tarifas de importação",
-     "link": "https://www.canalrural.com.br/economia/eua-excluem-pescados-brasileiros-de-novas-tarifas-de-importacao/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-16T20:28:34+00:00"
-    },
-    {
      "title": "Soja fecha em queda em Chicago com foco no clima e na demanda nos EUA - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSEJZZjZrNm9pdjJfYkR6WEhYbHgtZ3lHc2xjejREZmdPZXlfd3k0dHNxYXZpUDVkRGsyN04wSUh6ZE5Nc3RoanBNQmliUENIUDFMYTVtRFRCTU41YWk0bUlfOVFibGRVcDctX1U5UVZodGM2MWg4eENwUEZHV0NWaW42cHJHQ0NleHJmQzFsLXVMVkJjMnV1RWZha0RJdy1XVG5na184TQ?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-07-16T20:24:40+00:00"
-    },
-    {
-     "title": "Suco de laranja brasileiro fica fora da sobretaxa de 25% imposta pelos EUA",
-     "link": "https://www.canalrural.com.br/agricultura/suco-de-laranja-brasileiro-fica-fora-da-sobretaxa-de-25-imposta-pelos-eua/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-16T20:20:52+00:00"
     },
     {
      "title": "Setor de açúcar e etanol reage a tarifa dos EUA e diz que medida de Trump ignora realidade do mercado",
@@ -491,6 +497,12 @@
      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOT2xyX0NnUnp0aGNkSk90SkU1d0w1YVRUR1k3M2lvSS0zTUktd0FSRTBocVFyX2tKbFhWd2VoZm1lWGhtc2RwRDhLSlFoSFZRRnEtY1pkV3JSMXZjZ01mcGVUUTVMUXB4ejM1WVpZa2phZHZRQlVLZHhHRmRhRHZ1QUxVMjUxS21WMDFxaGpCOHlJdS1KcGppeDlGTFdDT3FfYkR1OEFrcXlZeVZiZndJMHItenhTZmFvQmJvXzV6TVBrTk5TNUdVdzJMNk03N1gxcFZaV0Q0cVZJRW5kYzZN?oc=5",
      "source": "WWF Brasil",
      "published_at": "2026-07-16T20:17:13+00:00"
+    },
+    {
+     "title": "Demanda firme reduz oferta de soja padrão - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSEsyeWFJaXhzYk02Ry1fclFYMzJmSW9Fc1UzUENjdF9IRUY2MTByZmtJczVOUk03VjB3cFNvR0FsdVg3MmxVc1l4Qzd4SzlWZ0d3Wkl4aVBWemFjcUxONzZzMHRhZHdreUdNWktZX0I4LTc1OTRYZmhoS2xDeS1FYmZZQnZHLWxLNVhrbW04cVREQzN4?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-16T19:49:00+00:00"
     },
     {
      "title": "Preços da soja seguem dando oportunidade de vendas no Brasil, seja por Chicago ou pelo dólar - Notícias Agrícolas",
@@ -529,12 +541,6 @@
      "published_at": "2026-07-16T18:05:57"
     },
     {
-     "title": "El Niño pode definir preços da soja nos EUA - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTnVCMFVtamNOZWRHcmhVM3dNdE1HSm1pQUhSeWtTUU1adlhYQ2o3ZGF3Tnh4SU5va3BGQ1BPbXZNUERpMmY3bFBkNlFURmNrX0dycVdKdWZYWHhIaVZRNEVla1hBelhuM2lIbUdmSGJrUmVnWmlMRm4xU285X2I4X2dWUERjN3hDNFpNeU9ZRThJbjcwR0RZ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-16T14:12:00+00:00"
-    },
-    {
      "title": "Veja quais dos 50 produtos brasileiros mais exportados aos EUA passarão a pagar a nova tarifa de 25%",
      "link": "https://g1.globo.com/economia/noticia/2026/07/16/veja-quais-dos-50-produtos-brasileiros-mais-exportados-aos-eua-passaram-a-pagar-a-nova-tarifa-de-25percent.ghtml",
      "source": "G1 Agronegócios",
@@ -551,12 +557,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/tarifaco-de-trump-veja-a-lista-de-produtos-que-ficaram-isento-da-nova-tarifa-de-25percent.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-16T10:40:30"
-    },
-    {
-     "title": "Preço do bezerro, boi gordo, milho e soja na 1ª metade de julho de 2026 - Farmnews",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYW5HVDQtbWQ5d09BU2xxYXN5YVlzUndtZGFOaXQwRG4tLVQ3MWp4c0tHa25qRGlTQzFxMWczSFlhWllOczZMc0JMTjN5SW41endIMUtsUmRxc0x2WGxYbzRjOVl5ME9VQ0Q4VlBkZDA1d2pxSWFzREpLa01vTWkwSEZlV0R4YVBBYTg5Si1QcjUwaUxjWkZBaVZxMlJvSUJ6YTYxNw?oc=5",
-     "source": "Farmnews",
-     "published_at": "2026-07-16T08:49:46+00:00"
     },
     {
      "title": "'Olho por olho, dente por dente?' O que diz a Lei de Reciprocidade que Lula quer usar contra novo tarifaço dos EUA",

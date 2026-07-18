@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-18T22:42:43+00:00",
+ "generated_at": "2026-07-18T23:47:24+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-18T22:42:35+00:00",
+   "updated_at": "2026-07-18T23:47:17+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -222,7 +222,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-18T22:42:35+00:00",
+   "updated_at": "2026-07-18T23:47:17+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -233,7 +233,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-18T22:42:40+00:00",
+   "updated_at": "2026-07-18T23:47:21+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -394,7 +394,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-18T22:42:43+00:00",
+   "updated_at": "2026-07-18T23:47:24+00:00",
    "items": [
     {
      "title": "Arroba do boi cresceu na semana, mas movimento vai se sustentar? Analistas respondem",
@@ -505,16 +505,16 @@
      "published_at": "2026-07-18T07:00:12"
     },
     {
+     "title": "Cotações de soja são impulsionadas nesta sexta-feira; Chicago e dólar são responsáveis - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSVZ0bHRlZ25paE1ZZExVbm1wN0plSzlQMUNpSjk2YVc5TElJeW1Lc2ZsRlRzZ1B3eHpmd1BGN0thZ05RZlI5ejFJY0kxVDgxcm5GYU1La1Q2cnFPdWhjNFVYTE4yQU8ySlZZdjNhb3dmaTg2cHhzdThUR2RhckwzMmZ1LVV1S0JyRFVva3NIWG54ME1EcldRa1F5d24wSDhRcEJmOUhBR1RLWUJSR2hRazh0NWQ3NFBMVFQxRmplZXpzTDh5d2Fod0Y0VC1jQlB2VEw4U1NscUpHckY4b3VxRG5n?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T21:59:37+00:00"
+    },
+    {
      "title": "Consumidores de açúcar dos EUA pedem que governo permita mais importações com tarifas reduzidas",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/17/consumidores-de-acucar-dos-eua-pedem-que-governo-permita-mais-importacoes-com-tarifas-reduzidas.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-17T20:39:52"
-    },
-    {
-     "title": "Soja sobe em Chicago nesta 6ª feira com óleo avançando quase 3%; preços no Brasil dão oportunidade - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNeGxVY3diU1lzY25neWh5a3NuTmVnd2F3UjhPdkRwMFpxcHZMYnJaMDliSmk2ajZIUTdoMGRFTUhJOFRIN2FZRnZ0NVkxbTdKQno0Z2pzejNjVml0c2pMdXpwalNFWkFqa25IaC02bUpERllCQk53cm9qcklKaW5mTUpob0l0Q29qTlBqeVVmaVZXWE90THhsSmFPVzUwYjRYVVlFRWFtZkF5VDQtZmVfRVlDUHFGMU95S3dJV1BPSE5wTlhTRHNYcjhIQlNpQjB1c3dqQ09XN1hKcTZnYlV1UnBSd1prczFKdGM2UWlURdIB9AFBVV95cUxPYlh4b2R2SGdZZUhETXRkVWJOTUc2WmxIYWxhelMweU4yRGY2NFpmTElxUnl2ajhuVVlqaUhqZXEzTkZscjMxSFByRnk4QTRwMmFJaGJJZEg1MG5aalB3T0xOQ3lycXNPWFd5SWV2MlpjUkRQeGdqX2syY2NnSzA1SzQwMzl2UEVhNTdxZE9YUV9VV19TRFNXM05XVHNxQndkSDZVVVVDTlJYMFdIc2NhUnJJaHNMRWlzOUJuQS1pMjBxQjBYUjFmREZLcW1qLXdieTVvQVp3eDBCY2tPcEtFRTQ2RXJQLXhVcVJQNTJrY1BIM1BY?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-17T17:12:27+00:00"
     },
     {
      "title": "Brasil deve colher safra recorde de soja em 2026/27, mas El Niño ameaça produtividade",
@@ -535,6 +535,12 @@
      "published_at": "2026-07-17T14:33:54"
     },
     {
+     "title": "USDA informa novas vendas de mais de 700 mil t de soja nesta 6ª feira (17) - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOenYwcDMxeVFXd3ctQnkxVmlzbXJCM2x0QVVZZlZYU1RpdEV0c0tmWktyLWxuTFJuS2V4Wjgwam5MbzZ3WVZwd2xtZDl0Qk9vMzYtZXozc3hUMVQwaWxsOG5Cc2o0aDE0SUlDV0pxcXg5b2NlSGxJRXNLclkySkUyWG5QVDBjNkVRV0JmcW50NzZtZmtDNHhMWnBNU1BOTTFiUmtaeV9MbTdFNE9GZXFoWTEyd3BOUlFsWHRLOEZwd09lVmVXbHotaEg4Y2dKUDDSAdQBQVVfeXFMTnRrSHY0dUFRRV9hMGtlc1pCQWo3YmxNNjlxU2hqR0REZ1VURHh1VG9xWmxiLXVVd2tLTDRpaV90MFF0SjVTTFdoTkpla3V3YnozNXdVdHhmR2FmQWhKbmdheTNZZzFEU2NyZElta0dNT3ZUQUIxd1E5bC01ZlJ5UXozblBmZmNvQjNlVW9RWWRKbnBDQzVBckh3YzJVSGptQzhzYnIzN3ZUcmJZODc1dDRSeTNxNkZMcVBTSkxiRllZQ1pKLW9lNTBoVG1lSjBNX3A5SzM?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-17T13:45:47+00:00"
+    },
+    {
      "title": "Soja caminha de lado em Chicago nesta 6ª feira, após semana de forte volatilidade - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMmlJYW1YTUJJeE1rTXpCN18xWTVuYjEwVV9Ya0I0SlcyNTNiNWx5UjZJNkJET0xQclZud0tyc2p3UjJrZzBsZGM0WFdhUDZBY2pwQ05sa1pxeFV2cjlSVHNxSldKTURNdzVId1RwUHB4TWpRMlBIVlB1WlUyODA4R05xYldiemlYOHVlZVFEa1ZGZ01Bd0dvSGx4THJldGZfN01XV2RoZ1NBd2k3UjVHQU4xZUNKQ01sZXozT2J5TjMyaDBrVi1Ya2FKSXo0UERiNEdNZzJISnVTQdIB3wFBVV95cUxPOHdRajRNOXFOaE9PX3BLNnRUd1VrT1dxcVFMVzREMjRDX2E3NDFxWXZXSFcyWWlLSFhSTloxUXNYcERmWGJmVUhKcXNJTjdrVDlDcDY1SkdBS0d6NEtXQkVQa3VUYkZTSWtpdjZGUFpPSXE2QldIRzZMWXRLRkxoUFd0NXZWWVRZei1RVlFLU2JBdjJTV2RQdlM5OFYyd3M5dHhUVXFqMVNzYmczeDJkZTJNczlWUGVRRVJFenI5R3RKSFlrS2NtYU0yYnliajdCNDJ1YVNUSEY4S3pTdjRR?oc=5",
      "source": "Notícias Agrícolas",
@@ -545,12 +551,6 @@
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaC0xbmFZU1R5UHJLRkNFczdEaFBpdzdHN3ZoaG9uZk1USWR2VFl6dGhOcE1Fd2gzdk91akJkTHlhd1ZSZ25OT1dGTGxKQTU5cW9yb2xtb1RWMEcwNEVRZVdiQ3BjeTlHYVgwMk9pLVd6RVV6MEtTV3ozXzJVU2VTVzY2N2tIWmt0OXNIOTYxaDBQRGhmcFc0ODNDVUxSNFd4cDg2ZVd1UzA3ZGotc2t2OE8wS0otNWtwMENpMg?oc=5",
      "source": "Forbes Brasil",
      "published_at": "2026-07-17T08:00:00+00:00"
-    },
-    {
-     "title": "Estudo na Science aponta que fim da Moratória da Soja pode desmatar 1,4 milhão de hectares na Amazônia, o equivalente a 2 milhões de campos de futebol - greenpeace.org",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYWlnSk9RRzRUdGJ4RnozSmc3WWJJdFI2d1N5N1Z4bEw4VzVMaUZjcVIxWFE5ZkJwM04wODJ5bVlGRUpZLVR2TllmckdTLWNrVllpdjJJX2VGNE14ZGRfcExaRVM5cTQzN3dKMkR4VWxWOTB5X2JvakhscnJGYURNaVZzMzg?oc=5",
-     "source": "greenpeace.org",
-     "published_at": "2026-07-17T07:09:12+00:00"
     },
     {
      "title": "Setor de açúcar e etanol reage a tarifa dos EUA e diz que medida de Trump ignora realidade do mercado",

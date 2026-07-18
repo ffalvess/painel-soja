@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-18T06:57:45+00:00",
+ "generated_at": "2026-07-18T08:48:44+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-18T06:57:37+00:00",
+   "updated_at": "2026-07-18T08:48:37+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -222,7 +222,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-18T06:57:37+00:00",
+   "updated_at": "2026-07-18T08:48:38+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -233,7 +233,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-18T06:57:42+00:00",
+   "updated_at": "2026-07-18T08:48:42+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -394,8 +394,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-18T06:57:45+00:00",
+   "updated_at": "2026-07-18T08:48:44+00:00",
    "items": [
+    {
+     "title": "Avanço de frente fria deve trazer tempestade e ventos de 100 km/h neste sábado",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/avanco-de-frente-fria-deve-trazer-tempestade-e-ventos-de-100-km-h-neste-sabado/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-18T08:10:00+00:00"
+    },
+    {
+     "title": "Tarifaço: quais os riscos e ganhos se o Brasil adotar a reciprocidade? Entenda o que está em jogo",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/18/tarifaco-os-riscos-e-ganhos-de-o-brasil-adotar-a-reciprocidade.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-18T08:00:29"
+    },
+    {
+     "title": "'Mudamos a rota': produtores do agro já buscam novos mercados após tarifaço de Trump",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/18/mudamos-a-rota-produtores-do-agro-ja-buscam-novos-mercados-apos-tarifaco-de-trump.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-18T07:00:12"
+    },
     {
      "title": "Investigação dos Estados Unidos pode fazer tarifa ao Brasil subir de 25% para 37,5%",
      "link": "https://www.canalrural.com.br/economia/investigacao-dos-estados-unidos-pode-fazer-tarifa-ao-brasil-subir-de-25-para-375/",
@@ -469,16 +487,16 @@
      "published_at": "2026-07-17T20:30:00+00:00"
     },
     {
-     "title": "Tarifa dos EUA alcança 31% das exportações brasileiras ao mercado norte-americano",
-     "link": "https://www.canalrural.com.br/economia/tarifa-dos-eua-alcanca-31-das-exportacoes-brasileiras-ao-mercado-norte-americano/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T20:27:18+00:00"
-    },
-    {
      "title": "Soja mantém competitividade e milho recua no Brasil - Revista Cultivar",
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVndPNkFaNGFZX3BLR0FfaTBaSGx4RV9UMmU2X1VWQkJlR1RYc2swRG1rMHNSbFZsMFNyYldaWl92dm54Z1V3clhueEpuMWRDRmE4LW5xR1lGYUpFaU9TMHdSVTRwQlpJVHpKTHVKS1BuLVhERjNLZ2huWXFDOVREakdtRTF5cFhINXdldjVVUGtpS3haYnc?oc=5",
      "source": "Revista Cultivar",
      "published_at": "2026-07-17T19:28:01+00:00"
+    },
+    {
+     "title": "Chicago registra alta da soja após 35 dias - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU3d4a3dQXzVsaHVDaUh6M3hYRjNNMHVUa01waF9FbjdiR002U1lkQ01yei04TTM3eVR5emo5dmRISmtzV1htWW5lNDVNcWstRk1FdWR0RkJTeWpUWkdDU3ByRmYxZ0VCdFVWaEphR0NYR3RrUndYZVFJMlJLWGt6Qk1mSkZ3VE41MTNsS3RzUG5qSG9xN3c?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-17T19:22:00+00:00"
     },
     {
      "title": "Soja avança na bolsa de Chicago após forte alta nos preços do óleo - Globo Rural",
@@ -547,12 +565,6 @@
      "published_at": "2026-07-17T13:45:47+00:00"
     },
     {
-     "title": "Produzindo Certo Mira 10% da Soja Regenerativa com Apoio Britânico até £ 500 Mil - Forbes Brasil",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaC0xbmFZU1R5UHJLRkNFczdEaFBpdzdHN3ZoaG9uZk1USWR2VFl6dGhOcE1Fd2gzdk91akJkTHlhd1ZSZ25OT1dGTGxKQTU5cW9yb2xtb1RWMEcwNEVRZVdiQ3BjeTlHYVgwMk9pLVd6RVV6MEtTV3ozXzJVU2VTVzY2N2tIWmt0OXNIOTYxaDBQRGhmcFc0ODNDVUxSNFd4cDg2ZVd1UzA3ZGotc2t2OE8wS0otNWtwMENpMg?oc=5",
-     "source": "Forbes Brasil",
-     "published_at": "2026-07-17T08:00:00+00:00"
-    },
-    {
      "title": "Setor de açúcar e etanol reage a tarifa dos EUA e diz que medida de Trump ignora realidade do mercado",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/as-tarifas-dos-eua-sobre-o-brasil-sao-uma-pilula-amarga-para-os-produtores-de-acucar-e-etanol.ghtml",
      "source": "G1 Agronegócios",
@@ -563,18 +575,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/exportadoras-dizem-que-carne-brasileira-pode-nao-conseguir-atender-exigencias-da-ue-sobre-antimicrobianos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-16T18:05:57"
-    },
-    {
-     "title": "Veja quais dos 50 produtos brasileiros mais exportados aos EUA passarão a pagar a nova tarifa de 25%",
-     "link": "https://g1.globo.com/economia/noticia/2026/07/16/veja-quais-dos-50-produtos-brasileiros-mais-exportados-aos-eua-passaram-a-pagar-a-nova-tarifa-de-25percent.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-16T14:00:36"
-    },
-    {
-     "title": "Tarifaço de Trump: veja a lista de produtos que ficaram isentos e os que serão impactados pela nova taxa",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/tarifaco-de-trump-veja-a-lista-de-produtos-que-ficaram-isento-da-nova-tarifa-de-25percent.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-16T10:40:30"
     }
    ],
    "failed": [

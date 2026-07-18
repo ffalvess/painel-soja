@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-18T11:49:42+00:00",
+ "generated_at": "2026-07-18T13:01:40+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-18T11:49:34+00:00",
+   "updated_at": "2026-07-18T13:01:33+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -222,7 +222,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-18T11:49:34+00:00",
+   "updated_at": "2026-07-18T13:01:33+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -233,7 +233,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-18T11:49:39+00:00",
+   "updated_at": "2026-07-18T13:01:36+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -256,21 +256,21 @@
       0.0
      ],
      "tmax": [
-      32.9,
-      33.1,
-      33.5,
-      34.2,
-      34.9,
-      35.2,
+      32.6,
+      32.7,
+      33.4,
+      34.0,
+      34.7,
+      35.0,
       36.0
      ],
      "tmin": [
-      21.1,
+      20.8,
+      20.8,
+      21.3,
       21.2,
-      21.8,
-      21.9,
-      21.8,
-      22.2,
+      21.4,
+      22.1,
       23.6
      ]
     },
@@ -295,22 +295,22 @@
       0.0
      ],
      "tmax": [
+      31.2,
       31.5,
-      32.1,
-      32.7,
-      33.4,
+      32.3,
+      33.0,
+      33.8,
       34.3,
-      34.2,
       34.7
      ],
      "tmin": [
+      19.8,
+      19.6,
       20.1,
-      19.9,
-      20.7,
-      20.5,
-      21.2,
-      21.6,
-      23.9
+      20.1,
+      20.8,
+      21.5,
+      23.4
      ]
     },
     {
@@ -334,22 +334,22 @@
       0.6
      ],
      "tmax": [
-      27.5,
-      28.4,
-      29.9,
-      30.7,
-      31.1,
-      32.4,
+      27.1,
+      28.1,
+      29.5,
+      30.2,
+      30.8,
+      31.9,
       29.8
      ],
      "tmin": [
-      15.7,
-      16.4,
-      16.8,
-      17.5,
-      19.3,
-      20.0,
-      20.5
+      15.3,
+      16.0,
+      16.0,
+      17.1,
+      18.6,
+      19.7,
+      19.0
      ]
     },
     {
@@ -368,34 +368,40 @@
       0.0,
       0.0,
       0.0,
-      23.2,
+      35.2,
       35.3,
       0.0
      ],
      "tmax": [
-      29.9,
-      30.1,
-      31.1,
-      31.8,
-      30.6,
-      21.4,
+      29.6,
+      29.7,
+      30.7,
+      31.5,
+      30.0,
+      20.4,
       24.1
      ],
      "tmin": [
-      21.3,
+      20.8,
+      19.6,
       20.2,
-      20.7,
-      21.6,
-      20.4,
-      16.5,
-      15.6
+      20.8,
+      19.5,
+      16.9,
+      14.0
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-18T11:49:42+00:00",
+   "updated_at": "2026-07-18T13:01:40+00:00",
    "items": [
+    {
+     "title": "Plano Safra reduz juros para recuperar pastagens e elevar a produtividade da pecuária: quais os efeitos para o produtor na prática?",
+     "link": "https://www.canalrural.com.br/pecuaria/plano-safra-reduz-juros-para-recuperar-pastagens-e-elevar-a-produtividade-da-pecuaria-quais-os-efeitos-para-o-produtor-na-pratica/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-18T12:03:00+00:00"
+    },
     {
      "title": "Indústria espera reação nas vendas de insumos para a soja - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOHkxWnpPZWJxeUdnZl9rcUYzZUdqX2E5bmNuaW41R1lSVTlzVGpudDZ0dnpielpXNmphUjRLSFVka3NoREpVaF9ET0NuNHgxRjJlRFNteVdHajF3blJEYTR5WUlvU2NXcEZwX2dUZmFEUjBHTXl4RGxlRjlDa2U1TmtRRm43YzZFOGtuSWFtTzBKd1pZMXJBT3hxUWhKTVVSakdQcHk2N1JOcjhBenNJMEpWYnFrdjlhWFRVUEhHVHdXT2fSAdIBQVVfeXFMT3E0WW56NFJ5TC1NUWg3NnJpdE56Q3FKRnl6enJBQXlMQkhzT2p6YUdfWEw3U3FZQ2loTE5PcUZVSnZucDdBUDl2VmM4WVlVbld4SXcxM3FHLXFMOC1CenRKZlIyZlN0bWRFWVBLWnlxMERKbGJmcXBqT1V3UzRWY1U1R0RTdU1qaGQ4dXJVY3k5SUx4WHJUSnRGTkpYVWpRTl9zV3hWRF9FOWdvTnp1a0R5UmViX0xTWEQ2ODlVM3laSk5TOFdjUmdRakJXV0pWODRB?oc=5",
@@ -487,12 +493,6 @@
      "published_at": "2026-07-17T20:39:52"
     },
     {
-     "title": "Quais os prazos, juros e valores da MP da renegociação de dívidas? Cartilha da CNA esclarece",
-     "link": "https://www.canalrural.com.br/agricultura/quais-os-prazos-juros-e-valores-da-mp-da-renegociacao-de-dividas-cartilha-da-cna-esclarece/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T20:30:51+00:00"
-    },
-    {
      "title": "Fim da Moratória da Soja pode ampliar desmatamento da Amazônia em 1,4 milhão de hectares, diz Science - Agrofy News Brasil",
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcTU0ZTV2TVN0Rlc4QlM0S2dzUnkySWZDN21FWkh5cTBVZDFSYTVxOUlkaXpTa1BoZm0tdndhczNkTWFwMGRCNGxwbEU4N0VzN1NwaFRncWhkT0hINzV5QUpyWGVlcWxYT2pNZ05mbWJxODVVa1E2YUxHY0J6VDNib0tRTXBPaW5KZUlUSTRvY2xfNEx1cmFRZkoyaF8zN0hnNllwX2h3V21kUDhLbXNxWGI0eEQ0bTZBbXRCVFpOLURvaDZvYS1XeXNVaVFjSndXTXpVNA?oc=5",
      "source": "Agrofy News Brasil",
@@ -509,12 +509,6 @@
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU3d4a3dQXzVsaHVDaUh6M3hYRjNNMHVUa01waF9FbjdiR002U1lkQ01yei04TTM3eVR5emo5dmRISmtzV1htWW5lNDVNcWstRk1FdWR0RkJTeWpUWkdDU3ByRmYxZ0VCdFVWaEphR0NYR3RrUndYZVFJMlJLWGt6Qk1mSkZ3VE41MTNsS3RzUG5qSG9xN3c?oc=5",
      "source": "Agrolink",
      "published_at": "2026-07-17T19:22:00+00:00"
-    },
-    {
-     "title": "Preço em dólares do boi gordo, bezerro, milho e soja na 1ª parte de julho de 2026 - Farmnews",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQWdwallEMlZaN096WDd6YTF6ZW13d1ZsRXRDOU02RERZNmNEb0JqeldrdW82dW04ODRXVWktcWpKWUNCdF9aUGxsU19fcHk1cjMwUk91Ri03ZG5wcFp0UlN6TDBCWkZqWjduVm1fQkRrc3RucFU5czJpaFFKaWpGT2x4LXZ4djVFT1lMeHJEUWNxVWlEUVJ1ZkZMcTRpSmwzM01USTVwWnhQckdlTkxHd0lR?oc=5",
-     "source": "Farmnews",
-     "published_at": "2026-07-17T18:30:12+00:00"
     },
     {
      "title": "Soja sobe e milho recua no mercado brasileiro - Agrolink",
@@ -553,12 +547,6 @@
      "published_at": "2026-07-17T14:33:54"
     },
     {
-     "title": "USDA informa novas vendas de mais de 700 mil t de soja nesta 6ª feira (17) - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOenYwcDMxeVFXd3ctQnkxVmlzbXJCM2x0QVVZZlZYU1RpdEV0c0tmWktyLWxuTFJuS2V4Wjgwam5MbzZ3WVZwd2xtZDl0Qk9vMzYtZXozc3hUMVQwaWxsOG5Cc2o0aDE0SUlDV0pxcXg5b2NlSGxJRXNLclkySkUyWG5QVDBjNkVRV0JmcW50NzZtZmtDNHhMWnBNU1BOTTFiUmtaeV9MbTdFNE9GZXFoWTEyd3BOUlFsWHRLOEZwd09lVmVXbHotaEg4Y2dKUDDSAdQBQVVfeXFMTnRrSHY0dUFRRV9hMGtlc1pCQWo3YmxNNjlxU2hqR0REZ1VURHh1VG9xWmxiLXVVd2tLTDRpaV90MFF0SjVTTFdoTkpla3V3YnozNXdVdHhmR2FmQWhKbmdheTNZZzFEU2NyZElta0dNT3ZUQUIxd1E5bC01ZlJ5UXozblBmZmNvQjNlVW9RWWRKbnBDQzVBckh3YzJVSGptQzhzYnIzN3ZUcmJZODc1dDRSeTNxNkZMcVBTSkxiRllZQ1pKLW9lNTBoVG1lSjBNX3A5SzM?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-17T13:45:47+00:00"
-    },
-    {
      "title": "Produzindo Certo Mira 10% da Soja Regenerativa com Apoio Britânico até £ 500 Mil - Forbes Brasil",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaC0xbmFZU1R5UHJLRkNFczdEaFBpdzdHN3ZoaG9uZk1USWR2VFl6dGhOcE1Fd2gzdk91akJkTHlhd1ZSZ25OT1dGTGxKQTU5cW9yb2xtb1RWMEcwNEVRZVdiQ3BjeTlHYVgwMk9pLVd6RVV6MEtTV3ozXzJVU2VTVzY2N2tIWmt0OXNIOTYxaDBQRGhmcFc0ODNDVUxSNFd4cDg2ZVd1UzA3ZGotc2t2OE8wS0otNWtwMENpMg?oc=5",
      "source": "Forbes Brasil",
@@ -575,6 +563,18 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/exportadoras-dizem-que-carne-brasileira-pode-nao-conseguir-atender-exigencias-da-ue-sobre-antimicrobianos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-16T18:05:57"
+    },
+    {
+     "title": "Veja quais dos 50 produtos brasileiros mais exportados aos EUA passarão a pagar a nova tarifa de 25%",
+     "link": "https://g1.globo.com/economia/noticia/2026/07/16/veja-quais-dos-50-produtos-brasileiros-mais-exportados-aos-eua-passaram-a-pagar-a-nova-tarifa-de-25percent.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-16T14:00:36"
+    },
+    {
+     "title": "Tarifaço de Trump: veja a lista de produtos que ficaram isentos e os que serão impactados pela nova taxa",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/tarifaco-de-trump-veja-a-lista-de-produtos-que-ficaram-isento-da-nova-tarifa-de-25percent.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-16T10:40:30"
     }
    ],
    "failed": [

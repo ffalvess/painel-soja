@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-18T13:01:40+00:00",
+ "generated_at": "2026-07-18T14:45:37+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-18T13:01:33+00:00",
+   "updated_at": "2026-07-18T14:45:28+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -222,7 +222,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-18T13:01:33+00:00",
+   "updated_at": "2026-07-18T14:45:28+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -233,7 +233,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-18T13:01:36+00:00",
+   "updated_at": "2026-07-18T14:45:32+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -394,8 +394,32 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-18T13:01:40+00:00",
+   "updated_at": "2026-07-18T14:45:37+00:00",
    "items": [
+    {
+     "title": "Agroleite recebe R$ 11 milhões em investimentos e amplia estrutura para edição de 2026",
+     "link": "https://www.canalrural.com.br/feiras-e-eventos/agroleite-recebe-r-11-milhoes-em-investimentos-e-amplia-estrutura-para-edicao-de-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-18T14:01:00+00:00"
+    },
+    {
+     "title": "Soja e carnes elevam vendas externas do Estado para R$ 45,4 bilhões - LOCAL MT",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc3B1b1hmRFhXLTFDeFBOTGNsM1pXdXNTRXlXVkxZdlA4R2IxREtib3RhTFF6ckNrSGRodXRmN3NsaGxmZXVKdzVRRTQyWjB2eFdwdjhXU2k5VDJ2Vnh2cHpDZ2NvRTktUk5DMGQyeS10SWotaWhXVzZxWFgtOTVEdlNkaHctWk03ZENGN01Zb19SLTM3Qmg3YkstZzB1Z005TVBj?oc=5",
+     "source": "LOCAL MT",
+     "published_at": "2026-07-18T13:36:38+00:00"
+    },
+    {
+     "title": "Soja e carnes elevam vendas externas do Estado para R$ 45,4 bilhões - rdmonline.com.br",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZkhQbVpkcHpIRUF1ZFRVcnZXVlIyVU5kUXJMeUQ2dTJhZXVJemlzaUlmcHN3aTVzY1d4dE1MSlhiTlNLaE1aLW4wZnR5NU5CaHFJNWJaTkUwSFN2QWllZWR3OF9XYnJMLWoyNVFCWUNSaXNKejJ0NUhvWFctamY0Q1EtUXB6T0Q1ZmxFQ0w4ZHJiTzJ5WWc?oc=5",
+     "source": "rdmonline.com.br",
+     "published_at": "2026-07-18T13:32:00+00:00"
+    },
+    {
+     "title": "Caminhão carregado tomba e espalha carga de soja na BR 386, em Jaboticaba - Correio do Povo",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOY3Z3OFZveXJOOUNwVGZ0cWluam9Gd2FjdkNlQVhNaTFPQVM1MUVJZ1RGQWhzTzRlRUU0QVoxTEp5NW9HaGx1bkZnRzY3ekl1SDJfU0UtRmVtaXJWWXpQNzRwa1ZyenhVNzJTYjdVSnNXX1FEZzZCcml1QnpMN2ROUHdWTjJSZzRJQTRSNXQ3UmtrMDlBRnVWMEFRY3RmSFBPb2dabE9naFpUdUstUlh0X2RqM1FGN2EtQ0pYSFNsVl9BNDRVenlGekgyNkR1MG42eTRCZElDQXhpdw?oc=5",
+     "source": "Correio do Povo",
+     "published_at": "2026-07-18T13:20:18+00:00"
+    },
     {
      "title": "Plano Safra reduz juros para recuperar pastagens e elevar a produtividade da pecuária: quais os efeitos para o produtor na prática?",
      "link": "https://www.canalrural.com.br/pecuaria/plano-safra-reduz-juros-para-recuperar-pastagens-e-elevar-a-produtividade-da-pecuaria-quais-os-efeitos-para-o-produtor-na-pratica/",
@@ -481,22 +505,10 @@
      "published_at": "2026-07-17T21:17:06+00:00"
     },
     {
-     "title": "Temporal, risco de transbordamentos e temperaturas de 38°C: o que esperar do tempo nos próximos dias?",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/temporal-risco-de-transbordamentos-e-temperaturas-de-38c-o-que-esperar-do-tempo-nos-proximos-dias/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T20:57:18+00:00"
-    },
-    {
      "title": "Consumidores de açúcar dos EUA pedem que governo permita mais importações com tarifas reduzidas",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/17/consumidores-de-acucar-dos-eua-pedem-que-governo-permita-mais-importacoes-com-tarifas-reduzidas.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-17T20:39:52"
-    },
-    {
-     "title": "Fim da Moratória da Soja pode ampliar desmatamento da Amazônia em 1,4 milhão de hectares, diz Science - Agrofy News Brasil",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcTU0ZTV2TVN0Rlc4QlM0S2dzUnkySWZDN21FWkh5cTBVZDFSYTVxOUlkaXpTa1BoZm0tdndhczNkTWFwMGRCNGxwbEU4N0VzN1NwaFRncWhkT0hINzV5QUpyWGVlcWxYT2pNZ05mbWJxODVVa1E2YUxHY0J6VDNib0tRTXBPaW5KZUlUSTRvY2xfNEx1cmFRZkoyaF8zN0hnNllwX2h3V21kUDhLbXNxWGI0eEQ0bTZBbXRCVFpOLURvaDZvYS1XeXNVaVFjSndXTXpVNA?oc=5",
-     "source": "Agrofy News Brasil",
-     "published_at": "2026-07-17T20:30:00+00:00"
     },
     {
      "title": "Soja mantém competitividade e milho recua no Brasil - Revista Cultivar",
@@ -529,12 +541,6 @@
      "published_at": "2026-07-17T17:09:35"
     },
     {
-     "title": "Mesmo com cenário adverso, área de soja deve crescer 1,2%, diz Safras - The AgriBiz",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVm5RbU84NDRBZ0w1SFZaMmJrMkVOS0ZEdkNSSmpWWmJIWExfTjNoTGVKbl9EUGtNUHZ0a3gydEFIa0ltTklvSzRqUWJya1l4emQyOVJGNXdXTGVMRm84VDVfemMyRnVORUVsTnN2TkVuallnZTdmVUFsMElOMzdXN2RYeTdkUVVrUTZCeVB5bWxUMXJGaTlZYWpRa0oxZDNLamktSQ?oc=5",
-     "source": "The AgriBiz",
-     "published_at": "2026-07-17T16:09:08+00:00"
-    },
-    {
      "title": "Tarifaço deve atingir 36,5% das exportações do agro para os EUA, diz CNA",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/17/tarifaco-deve-atingir-365percent-das-exportacoes-do-agro-brasileiro-diz-cna.ghtml",
      "source": "G1 Agronegócios",
@@ -545,12 +551,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/07/17/como-cultivar-urucum.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-17T14:33:54"
-    },
-    {
-     "title": "Produzindo Certo Mira 10% da Soja Regenerativa com Apoio Britânico até £ 500 Mil - Forbes Brasil",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaC0xbmFZU1R5UHJLRkNFczdEaFBpdzdHN3ZoaG9uZk1USWR2VFl6dGhOcE1Fd2gzdk91akJkTHlhd1ZSZ25OT1dGTGxKQTU5cW9yb2xtb1RWMEcwNEVRZVdiQ3BjeTlHYVgwMk9pLVd6RVV6MEtTV3ozXzJVU2VTVzY2N2tIWmt0OXNIOTYxaDBQRGhmcFc0ODNDVUxSNFd4cDg2ZVd1UzA3ZGotc2t2OE8wS0otNWtwMENpMg?oc=5",
-     "source": "Forbes Brasil",
-     "published_at": "2026-07-17T08:00:00+00:00"
     },
     {
      "title": "Setor de açúcar e etanol reage a tarifa dos EUA e diz que medida de Trump ignora realidade do mercado",

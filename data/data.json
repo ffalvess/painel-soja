@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-18T08:48:44+00:00",
+ "generated_at": "2026-07-18T10:14:07+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-18T08:48:37+00:00",
+   "updated_at": "2026-07-18T10:14:01+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -222,7 +222,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-18T08:48:38+00:00",
+   "updated_at": "2026-07-18T10:14:02+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -233,7 +233,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-18T08:48:42+00:00",
+   "updated_at": "2026-07-18T10:14:05+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -394,8 +394,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-18T08:48:44+00:00",
+   "updated_at": "2026-07-18T10:14:07+00:00",
    "items": [
+    {
+     "title": "Indústria espera reação nas vendas de insumos para a soja - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOHkxWnpPZWJxeUdnZl9rcUYzZUdqX2E5bmNuaW41R1lSVTlzVGpudDZ0dnpielpXNmphUjRLSFVka3NoREpVaF9ET0NuNHgxRjJlRFNteVdHajF3blJEYTR5WUlvU2NXcEZwX2dUZmFEUjBHTXl4RGxlRjlDa2U1TmtRRm43YzZFOGtuSWFtTzBKd1pZMXJBT3hxUWhKTVVSakdQcHk2N1JOcjhBenNJMEpWYnFrdjlhWFRVUEhHVHdXT2fSAdIBQVVfeXFMT3E0WW56NFJ5TC1NUWg3NnJpdE56Q3FKRnl6enJBQXlMQkhzT2p6YUdfWEw3U3FZQ2loTE5PcUZVSnZucDdBUDl2VmM4WVlVbld4SXcxM3FHLXFMOC1CenRKZlIyZlN0bWRFWVBLWnlxMERKbGJmcXBqT1V3UzRWY1U1R0RTdU1qaGQ4dXJVY3k5SUx4WHJUSnRGTkpYVWpRTl9zV3hWRF9FOWdvTnp1a0R5UmViX0xTWEQ2ODlVM3laSk5TOFdjUmdRakJXV0pWODRB?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-18T09:30:12+00:00"
+    },
+    {
+     "title": "Preço da soja sobe e atinge maior patamar em seis meses - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbGlVUFpyNUs5T3pnRUhkckduemZhZ2h2Z2laODBYaXZxQ3BvMG9LdWlGd19ULUpfWUVXNHlqZ3BYYnJhRlpZWlgwVUxCNy1PeTQ1akcta25EOV9FUWlCYWhsRG5PVW9nZTBCU1N3ZW1iV20wTjh2T25lczlOQUw3TGVubVU2RVpSYmJGdDRpU05LRzFtMjBCOW9rUkVQbVJQTHJfLWJvRXI4QThhaXFKSjhlRzdBd9IBxAFBVV95cUxNVkF1WG1SRXRwZ0JsX3RJNWJVVmlKTG8tX0NyQm5qa2JJTG9UWlVrT24xYnVSZFpMNkZMSzNGMGExTDFDaDdHV3F6X2FncGg2azFrMk9vSXdmQU82a3lETldrRDBCQlg0c05Na1MxM1VXR3cyT01DczhpWncycnJwdVVjRzEwRG55dDRjNndEUWRIWk00NUFDYnQ2UlhIbFJiUXpjNXlJa0ZOa09jdUpHTEhDSVVubEliZmtpaHZ5NlV0UFBf?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-18T09:15:08+00:00"
+    },
     {
      "title": "Avanço de frente fria deve trazer tempestade e ventos de 100 km/h neste sábado",
      "link": "https://www.canalrural.com.br/previsao-do-tempo/avanco-de-frente-fria-deve-trazer-tempestade-e-ventos-de-100-km-h-neste-sabado/",
@@ -499,12 +511,6 @@
      "published_at": "2026-07-17T19:22:00+00:00"
     },
     {
-     "title": "Soja avança na bolsa de Chicago após forte alta nos preços do óleo - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbXJpR2xfWkR6YmhwWUVWNUdCbUdmbS1EektleFZyT0FlYnpiMTQybWhtS3l3SW5JUmRMWV92bDdCei1ZcDktdDNZM1dUMjVqd1BkaW5xQThWR29Da3Z0ZGFDY1ZUUS1FQVpWekJicEszLVljaER4WnpqUE5abFRucTg1WHBTWWN0b1BhbHpDYUd3enctUkQyRy1URENlTElxU0dnZXljTTFzb0tyeEI0YWFBVENFYTN2TnBkSE0xaHFGd0ll0gHTAUFVX3lxTE1jY2lOdjNzVUhLRklFYktFUXBuQ3h6ZmRyMElMNW1zTW9GQWRxdjhPRGZ3WnFEa3RWQXJtWUZEM2Zua21vQjRNVjlNa05zakhHc1h3c2lzcDYyN1FrUEF2TnpBTHN5ZUotYTdTWUJwWHlJTkQ2MVp0aWRVQWtVdWFHZDlnOXVreGVvaVZxUlZVanpzN3VmTEZNdnhpLXNOWjU1NmRManU4T2V3QnlCZDFiSjF6ZWh0MUxlMDdMdlY5SklvcW5RajYzRkNCSE5oR0E5WUE?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-17T19:18:01+00:00"
-    },
-    {
      "title": "Preço em dólares do boi gordo, bezerro, milho e soja na 1ª parte de julho de 2026 - Farmnews",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQWdwallEMlZaN096WDd6YTF6ZW13d1ZsRXRDOU02RERZNmNEb0JqeldrdW82dW04ODRXVWktcWpKWUNCdF9aUGxsU19fcHk1cjMwUk91Ri03ZG5wcFp0UlN6TDBCWkZqWjduVm1fQkRrc3RucFU5czJpaFFKaWpGT2x4LXZ4djVFT1lMeHJEUWNxVWlEUVJ1ZkZMcTRpSmwzM01USTVwWnhQckdlTkxHd0lR?oc=5",
      "source": "Farmnews",
@@ -527,12 +533,6 @@
      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNeGxVY3diU1lzY25neWh5a3NuTmVnd2F3UjhPdkRwMFpxcHZMYnJaMDliSmk2ajZIUTdoMGRFTUhJOFRIN2FZRnZ0NVkxbTdKQno0Z2pzejNjVml0c2pMdXpwalNFWkFqa25IaC02bUpERllCQk53cm9qcklKaW5mTUpob0l0Q29qTlBqeVVmaVZXWE90THhsSmFPVzUwYjRYVVlFRWFtZkF5VDQtZmVfRVlDUHFGMU95S3dJV1BPSE5wTlhTRHNYcjhIQlNpQjB1c3dqQ09XN1hKcTZnYlV1UnBSd1prczFKdGM2UWlURdIB9AFBVV95cUxPYlh4b2R2SGdZZUhETXRkVWJOTUc2WmxIYWxhelMweU4yRGY2NFpmTElxUnl2ajhuVVlqaUhqZXEzTkZscjMxSFByRnk4QTRwMmFJaGJJZEg1MG5aalB3T0xOQ3lycXNPWFd5SWV2MlpjUkRQeGdqX2syY2NnSzA1SzQwMzl2UEVhNTdxZE9YUV9VV19TRFNXM05XVHNxQndkSDZVVVVDTlJYMFdIc2NhUnJJaHNMRWlzOUJuQS1pMjBxQjBYUjFmREZLcW1qLXdieTVvQVp3eDBCY2tPcEtFRTQ2RXJQLXhVcVJQNTJrY1BIM1BY?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-17T17:12:27+00:00"
-    },
-    {
-     "title": "Brasil deve colher safra recorde de soja em 2026/27, mas El Niño ameaça produtividade - G1",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWEt1ZEItZThWVHh2bHB2OThtZ2F3X2hhRmpvNHJpTGE4bWw4aE12V01SVjZaTUtUQ2k0UUFUd1hOSWxSZEs5bmFrVHpMeG5ELU1nRGlMZHQycFZrTWo5Z29yTGc3bHdtYXYtVEZ0aWFPdVM5Yi12cks4ZjhEYUhzU1FVUERuQUl6UHdjVlY5ZlVtVnhfaTVqb0VSSWdlWE9iajhMT3NNbTQxMkdNSklnY1RvNnBkeDZQeXh3R3I1WGFINHhpc0NtVkFVWk5UeldWSzJYTFF3YjU4MHBFbnNsMlBERHdtd9IB9AFBVV95cUxQb0o4YjBWT19FN3VrRk1Jb2s0ZWJEYlJQZHNfRk8zby1QQTlCNTNkRmhpRGxaTGhCM3Mwd1ZWWlRXNXg1cGtxT2FybGtFVGZjQlg4SElyU3AzQ2t2R1BmMWJzSVpWdnJ1dldRZTF1enl4SmpPdFNERTVfSndEYVpBNUs2bWNLakkyOWFseVczZm9BNlpEMnRzTmNlTXBKXzFoQ0d0dmxTUU8xRUlxTDItUXE4M3BKdGJ6RFZhUmItQlhZMm9ERFk5LW5idnY1b25kU2w0VFU4VUYwaW43V2hGQkEyalBDOHUxREJjckNVRW9oRDNN?oc=5",
-     "source": "G1",
-     "published_at": "2026-07-17T17:09:35+00:00"
     },
     {
      "title": "Brasil deve colher safra recorde de soja em 2026/27, mas El Niño ameaça produtividade",

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-18T18:54:41+00:00",
+ "generated_at": "2026-07-18T20:01:16+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-18T18:54:31+00:00",
+   "updated_at": "2026-07-18T20:01:12+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -222,7 +222,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-18T18:54:31+00:00",
+   "updated_at": "2026-07-18T20:01:12+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -233,7 +233,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-18T18:54:37+00:00",
+   "updated_at": "2026-07-18T20:01:14+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -256,22 +256,22 @@
       0.0
      ],
      "tmax": [
-      32.6,
-      32.7,
+      33.0,
+      33.1,
       33.4,
-      34.0,
-      34.7,
-      35.0,
-      36.0
+      34.1,
+      34.9,
+      35.1,
+      35.4
      ],
      "tmin": [
       20.8,
-      20.8,
       21.3,
-      21.2,
-      21.4,
-      22.1,
-      23.6
+      21.6,
+      21.3,
+      21.5,
+      22.0,
+      22.6
      ]
     },
     {
@@ -295,22 +295,22 @@
       0.0
      ],
      "tmax": [
-      31.2,
-      31.5,
-      32.3,
-      33.0,
-      33.8,
-      34.3,
-      34.7
+      31.6,
+      32.1,
+      32.5,
+      33.2,
+      33.9,
+      34.4,
+      34.5
      ],
      "tmin": [
       19.8,
-      19.6,
-      20.1,
-      20.1,
-      20.8,
-      21.5,
-      23.4
+      19.9,
+      20.3,
+      20.3,
+      21.2,
+      21.6,
+      22.2
      ]
     },
     {
@@ -334,22 +334,22 @@
       0.6
      ],
      "tmax": [
-      27.1,
-      28.1,
-      29.5,
-      30.2,
-      30.8,
-      31.9,
-      29.8
+      27.2,
+      28.3,
+      29.8,
+      30.1,
+      31.0,
+      32.3,
+      28.9
      ],
      "tmin": [
       15.3,
-      16.0,
-      16.0,
+      16.5,
+      17.0,
       17.1,
-      18.6,
+      19.0,
       19.7,
-      19.0
+      19.9
      ]
     },
     {
@@ -373,28 +373,28 @@
       0.0
      ],
      "tmax": [
-      29.6,
-      29.7,
-      30.7,
-      31.5,
-      30.0,
-      20.4,
-      24.1
+      29.9,
+      29.8,
+      31.0,
+      31.4,
+      29.8,
+      21.4,
+      23.4
      ],
      "tmin": [
       20.8,
       19.6,
-      20.2,
-      20.8,
-      19.5,
-      16.9,
-      14.0
+      20.1,
+      20.9,
+      18.5,
+      17.2,
+      14.5
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-18T18:54:41+00:00",
+   "updated_at": "2026-07-18T20:01:16+00:00",
    "items": [
     {
      "title": "Reino Unido contraria UE e anuncia que continuará comprando carnes do Brasil",
@@ -445,10 +445,10 @@
      "published_at": "2026-07-18T13:36:38+00:00"
     },
     {
-     "title": "Soja e carnes elevam vendas externas do Estado para R$ 45,4 bilhões - rdmonline.com.br",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZkhQbVpkcHpIRUF1ZFRVcnZXVlIyVU5kUXJMeUQ2dTJhZXVJemlzaUlmcHN3aTVzY1d4dE1MSlhiTlNLaE1aLW4wZnR5NU5CaHFJNWJaTkUwSFN2QWllZWR3OF9XYnJMLWoyNVFCWUNSaXNKejJ0NUhvWFctamY0Q1EtUXB6T0Q1ZmxFQ0w4ZHJiTzJ5WWc?oc=5",
-     "source": "rdmonline.com.br",
-     "published_at": "2026-07-18T13:32:00+00:00"
+     "title": "Soja e carnes elevam vendas externas do Estado para R$ 45,4 bilhões - RADAR DIGITAL BRASÍLIA",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSWhndEc4R0VIZjBtSFNFR2x2UFJZcU5IVXRCYUdHZkoxa3gwaVdoc1d1bzFNanNyUzVWbTZqb2dGN29aR2V0WlBQVXRGR2d5SGtHQjh1VFJBTnBkYWtfbWw4blJyNENISHltdTZzNWd6U0I0ZTQzSUhwSUlLcVZlSU05RURzV2Y2ajllTHZ4eXh1VHFKN3UzOUtFeVNCbE9ISXRpUXZiWXRPVFhyNXFxTUVPdVI?oc=5",
+     "source": "RADAR DIGITAL BRASÍLIA",
+     "published_at": "2026-07-18T13:34:47+00:00"
     },
     {
      "title": "Caminhão carregado tomba e espalha carga de soja na BR 386, em Jaboticaba - Correio do Povo",
@@ -461,12 +461,6 @@
      "link": "https://www.canalrural.com.br/pecuaria/plano-safra-reduz-juros-para-recuperar-pastagens-e-elevar-a-produtividade-da-pecuaria-quais-os-efeitos-para-o-produtor-na-pratica/",
      "source": "Canal Rural",
      "published_at": "2026-07-18T12:03:00+00:00"
-    },
-    {
-     "title": "Cotações de soja são impulsionadas nesta sexta-feira; Chicago e dólar são responsáveis - Olhar Alerta",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaTBqcmd5WTAyNEFGNHBCZ2R0ZWlaaG1rWGpvZ1JYZVp0VHhUYXVtMkN1NFhDT2drT1RQdlBmaFZWdEpiSGkybVBmZ1h0aTJadnk2QWlRNnN3ejVrV1JjR25uNlI0akk5N2VzYVVHek9fYUtkT0tVVkdQUUdlcFphSXNxN2xqTTAzMkRudmpKRUZJQm0zOW1LdmQxWW5Xdkowb3JMaS1kMEItRm9OWFZJeXBZNzBHS1VRRERLSGJ3R09qLXk1MHZXS0FB?oc=5",
-     "source": "Olhar Alerta",
-     "published_at": "2026-07-18T11:38:00+00:00"
     },
     {
      "title": "Indústria espera reação nas vendas de insumos para a soja - Globo Rural",
@@ -515,6 +509,12 @@
      "link": "https://www.canalrural.com.br/economia/anp-publica-em-ingles-dados-consolidados-de-2025-sobre-petroleo-gas-e-biocombustiveis/",
      "source": "Canal Rural",
      "published_at": "2026-07-17T22:10:19+00:00"
+    },
+    {
+     "title": "Cotações de soja são impulsionadas nesta sexta-feira; Chicago e dólar são responsáveis - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSVZ0bHRlZ25paE1ZZExVbm1wN0plSzlQMUNpSjk2YVc5TElJeW1Lc2ZsRlRzZ1B3eHpmd1BGN0thZ05RZlI5ejFJY0kxVDgxcm5GYU1La1Q2cnFPdWhjNFVYTE4yQU8ySlZZdjNhb3dmaTg2cHhzdThUR2RhckwzMmZ1LVV1S0JyRFVva3NIWG54ME1EcldRa1F5d24wSDhRcEJmOUhBR1RLWUJSR2hRazh0NWQ3NFBMVFQxRmplZXpzTDh5d2Fod0Y0VC1jQlB2VEw4U1NscUpHckY4b3VxRG5n?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-17T21:59:37+00:00"
     },
     {
      "title": "Consumidores de açúcar dos EUA pedem que governo permita mais importações com tarifas reduzidas",

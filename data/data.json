@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-18T15:50:30+00:00",
+ "generated_at": "2026-07-18T16:50:50+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-18T15:50:20+00:00",
+   "updated_at": "2026-07-18T16:50:43+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -222,7 +222,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-18T15:50:20+00:00",
+   "updated_at": "2026-07-18T16:50:43+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -233,7 +233,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-18T15:50:26+00:00",
+   "updated_at": "2026-07-18T16:50:46+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -394,8 +394,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-18T15:50:30+00:00",
+   "updated_at": "2026-07-18T16:50:50+00:00",
    "items": [
+    {
+     "title": "Você viu? Produtor gaúcho diz precisar de 54 sacas de soja por ano só para pagar dívidas - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcldRbjBPcjNiM085VE5oVVI4MG9xNGc0TzZfdFI3R1hZV0hKZlljUnBGaklvcGN4eXVkUnh4dU56c3Fyemg5TzFEZ0tQRzdxV3NiOEhyWTZLdDhId1ltcjAxN3BESUdfc0FvUnJfanRWeEctT3BNSUg0aHdYZHJVWWVQak1TaXNqcHlKY3Zuc3RVbmRsUnRpa3FodnZwMkJMX2pRdjdEa284MzZ3X1lnRnRVNG1BNkJleXd6Z2pWUGdmUHQwa3BRd3F3?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-18T16:36:29+00:00"
+    },
+    {
+     "title": "Abacate gigante chama atenção no Espírito Santo e quase bate recorde mundial",
+     "link": "https://www.canalrural.com.br/espirito-santo/abacate-gigante-de-24-kg-chama-atencao-no-espirito-santo-e-quase-bate-recorde-mundial/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-18T16:04:00+00:00"
+    },
+    {
+     "title": "Operação prende funcionários da Yara Fertilizantes por roubo e adulteração de cargas",
+     "link": "https://www.canalrural.com.br/seguranca/operacao-prende-funcionarios-da-yara-fertilizantes-por-roubo-e-adulteracao-de-cargas/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-18T15:52:18+00:00"
+    },
     {
      "title": "Crédito rural somou R$ 92,4 bilhões em imóveis com alertas ambientais, diz MapBiomas",
      "link": "https://www.canalrural.com.br/economia/credito-rural-somou-r-924-bilhoes-em-imoveis-com-alertas-ambientais-diz-mapbiomas/",
@@ -431,6 +449,12 @@
      "link": "https://www.canalrural.com.br/pecuaria/plano-safra-reduz-juros-para-recuperar-pastagens-e-elevar-a-produtividade-da-pecuaria-quais-os-efeitos-para-o-produtor-na-pratica/",
      "source": "Canal Rural",
      "published_at": "2026-07-18T12:03:00+00:00"
+    },
+    {
+     "title": "Cotações de soja são impulsionadas nesta sexta-feira; Chicago e dólar são responsáveis - Olhar Alerta",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaTBqcmd5WTAyNEFGNHBCZ2R0ZWlaaG1rWGpvZ1JYZVp0VHhUYXVtMkN1NFhDT2drT1RQdlBmaFZWdEpiSGkybVBmZ1h0aTJadnk2QWlRNnN3ejVrV1JjR25uNlI0akk5N2VzYVVHek9fYUtkT0tVVkdQUUdlcFphSXNxN2xqTTAzMkRudmpKRUZJQm0zOW1LdmQxWW5Xdkowb3JMaS1kMEItRm9OWFZJeXBZNzBHS1VRRERLSGJ3R09qLXk1MHZXS0FB?oc=5",
+     "source": "Olhar Alerta",
+     "published_at": "2026-07-18T11:38:00+00:00"
     },
     {
      "title": "Indústria espera reação nas vendas de insumos para a soja - Globo Rural",
@@ -487,34 +511,10 @@
      "published_at": "2026-07-17T22:03:16+00:00"
     },
     {
-     "title": "Cotações de soja são impulsionadas nesta sexta-feira; Chicago e dólar são responsáveis - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSVZ0bHRlZ25paE1ZZExVbm1wN0plSzlQMUNpSjk2YVc5TElJeW1Lc2ZsRlRzZ1B3eHpmd1BGN0thZ05RZlI5ejFJY0kxVDgxcm5GYU1La1Q2cnFPdWhjNFVYTE4yQU8ySlZZdjNhb3dmaTg2cHhzdThUR2RhckwzMmZ1LVV1S0JyRFVva3NIWG54ME1EcldRa1F5d24wSDhRcEJmOUhBR1RLWUJSR2hRazh0NWQ3NFBMVFQxRmplZXpzTDh5d2Fod0Y0VC1jQlB2VEw4U1NscUpHckY4b3VxRG5n?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T21:59:37+00:00"
-    },
-    {
-     "title": "Cotações de soja são impulsionadas nesta sexta-feira; Chicago e dólar são responsáveis",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/cotacoes-de-soja-sao-impulsionadas-nesta-sexta-feira-chicago-e-dolar-sao-responsaveis/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T21:59:37+00:00"
-    },
-    {
-     "title": "Juros futuros sobem com avanço do petróleo e aversão ao risco",
-     "link": "https://www.canalrural.com.br/economia/juros-futuros-sobem-com-avanco-do-petroleo-e-aversao-ao-risco/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T21:23:49+00:00"
-    },
-    {
      "title": "Consumidores de açúcar dos EUA pedem que governo permita mais importações com tarifas reduzidas",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/17/consumidores-de-acucar-dos-eua-pedem-que-governo-permita-mais-importacoes-com-tarifas-reduzidas.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-17T20:39:52"
-    },
-    {
-     "title": "Soja mantém competitividade e milho recua no Brasil - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVndPNkFaNGFZX3BLR0FfaTBaSGx4RV9UMmU2X1VWQkJlR1RYc2swRG1rMHNSbFZsMFNyYldaWl92dm54Z1V3clhueEpuMWRDRmE4LW5xR1lGYUpFaU9TMHdSVTRwQlpJVHpKTHVKS1BuLVhERjNLZ2huWXFDOVREakdtRTF5cFhINXdldjVVUGtpS3haYnc?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-07-17T19:28:01+00:00"
     },
     {
      "title": "Chicago registra alta da soja após 35 dias - Agrolink",
@@ -547,10 +547,10 @@
      "published_at": "2026-07-17T14:33:54"
     },
     {
-     "title": "Soja caminha de lado em Chicago nesta 6ª feira, após semana de forte volatilidade - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMmlJYW1YTUJJeE1rTXpCN18xWTVuYjEwVV9Ya0I0SlcyNTNiNWx5UjZJNkJET0xQclZud0tyc2p3UjJrZzBsZGM0WFdhUDZBY2pwQ05sa1pxeFV2cjlSVHNxSldKTURNdzVId1RwUHB4TWpRMlBIVlB1WlUyODA4R05xYldiemlYOHVlZVFEa1ZGZ01Bd0dvSGx4THJldGZfN01XV2RoZ1NBd2k3UjVHQU4xZUNKQ01sZXozT2J5TjMyaDBrVi1Ya2FKSXo0UERiNEdNZzJISnVTQdIB3wFBVV95cUxPOHdRajRNOXFOaE9PX3BLNnRUd1VrT1dxcVFMVzREMjRDX2E3NDFxWXZXSFcyWWlLSFhSTloxUXNYcERmWGJmVUhKcXNJTjdrVDlDcDY1SkdBS0d6NEtXQkVQa3VUYkZTSWtpdjZGUFpPSXE2QldIRzZMWXRLRkxoUFd0NXZWWVRZei1RVlFLU2JBdjJTV2RQdlM5OFYyd3M5dHhUVXFqMVNzYmczeDJkZTJNczlWUGVRRVJFenI5R3RKSFlrS2NtYU0yYnliajdCNDJ1YVNUSEY4S3pTdjRR?oc=5",
+     "title": "USDA informa novas vendas de mais de 700 mil t de soja nesta 6ª feira (17) - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOenYwcDMxeVFXd3ctQnkxVmlzbXJCM2x0QVVZZlZYU1RpdEV0c0tmWktyLWxuTFJuS2V4Wjgwam5MbzZ3WVZwd2xtZDl0Qk9vMzYtZXozc3hUMVQwaWxsOG5Cc2o0aDE0SUlDV0pxcXg5b2NlSGxJRXNLclkySkUyWG5QVDBjNkVRV0JmcW50NzZtZmtDNHhMWnBNU1BOTTFiUmtaeV9MbTdFNE9GZXFoWTEyd3BOUlFsWHRLOEZwd09lVmVXbHotaEg4Y2dKUDDSAdQBQVVfeXFMTnRrSHY0dUFRRV9hMGtlc1pCQWo3YmxNNjlxU2hqR0REZ1VURHh1VG9xWmxiLXVVd2tLTDRpaV90MFF0SjVTTFdoTkpla3V3YnozNXdVdHhmR2FmQWhKbmdheTNZZzFEU2NyZElta0dNT3ZUQUIxd1E5bC01ZlJ5UXozblBmZmNvQjNlVW9RWWRKbnBDQzVBckh3YzJVSGptQzhzYnIzN3ZUcmJZODc1dDRSeTNxNkZMcVBTSkxiRllZQ1pKLW9lNTBoVG1lSjBNX3A5SzM?oc=5",
      "source": "Notícias Agrícolas",
-     "published_at": "2026-07-17T10:38:15+00:00"
+     "published_at": "2026-07-17T13:45:47+00:00"
     },
     {
      "title": "Setor de açúcar e etanol reage a tarifa dos EUA e diz que medida de Trump ignora realidade do mercado",

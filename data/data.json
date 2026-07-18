@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-18T20:01:16+00:00",
+ "generated_at": "2026-07-18T21:44:04+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-18T20:01:12+00:00",
+   "updated_at": "2026-07-18T21:43:49+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -222,7 +222,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-18T20:01:12+00:00",
+   "updated_at": "2026-07-18T21:43:49+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -233,7 +233,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-18T20:01:14+00:00",
+   "updated_at": "2026-07-18T21:43:54+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -394,25 +394,31 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-18T20:01:16+00:00",
+   "updated_at": "2026-07-18T21:44:04+00:00",
    "items": [
+    {
+     "title": "Avião de pequeno porte cai em área rural e mata dois passageiros",
+     "link": "https://www.canalrural.com.br/nacional/aviao-de-pequeno-porte-cai-em-area-rural-e-mata-dois-passageiros/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-18T20:37:09+00:00"
+    },
+    {
+     "title": "Viu esta? Casal transforma produção familiar em negócio milionário de doce de leite",
+     "link": "https://www.canalrural.com.br/pecuaria/leite/viu-esta-casal-transforma-producao-familiar-em-negocio-milionario-de-doce-de-leite/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-18T20:35:00+00:00"
+    },
+    {
+     "title": "Após 30 anos como piloto de avião, produtor comanda hoje granja com 280 mil frangos",
+     "link": "https://www.canalrural.com.br/aves-e-suinos/apos-30-anos-como-piloto-de-aviao-produtor-comanda-hoje-granja-com-280-mil-frangos/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-18T19:54:10+00:00"
+    },
     {
      "title": "Reino Unido contraria UE e anuncia que continuará comprando carnes do Brasil",
      "link": "https://www.canalrural.com.br/internacional/reino-unido-contraria-ue-e-anuncia-que-continuara-comprando-carnes-do-brasil/",
      "source": "Canal Rural",
      "published_at": "2026-07-18T18:10:06+00:00"
-    },
-    {
-     "title": "Alta nas cotações da soja melhora cenário para comercialização em MS - diariodigital.com.br",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTzd6X0hjLVFQT3JXbUVkSXRjMmQ2SkN5UDg3R01zRHNjNE56VTRKelF3UTZVZHVnX1hfaVdsaURmU2tKY09VUlZ5ak02Qm14am05dS1XZk4xOEt1YkhuSmNKZWFqNEhhRzY4QkFtUXpTUE1OWk9mWXRZWGtjUURPTUh3YnFXSnJpempmNUU4cVFQQnVsamJTalc4X3VvWUVPZGhRWWVqN01RUDJnQUlv0gGvAUFVX3lxTE5GTUswbVN2alZyMDd5RUh2WlNxLS1mREZGd1huYi1SZHo3d2R4c1dSTTdkZVVqYmZlaGROOUwwbjAzM3NMM2Y3TGpCX1A5Vm9Ha1FSV2hBTDh4aVpyMDNxUFdmNVA1Ynp5Yi05Y2ktRXV4MjdTY0V5a2NfdGh5S0xEeG5KdUptR1NYS3BPMnpWb0lPOUZiaHppdjdtMGVqVEVKYmNiQ3hzbklMNXJZb0U?oc=5",
-     "source": "diariodigital.com.br",
-     "published_at": "2026-07-18T17:00:00+00:00"
-    },
-    {
-     "title": "Você viu? Produtor gaúcho diz precisar de 54 sacas de soja por ano só para pagar dívidas - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcldRbjBPcjNiM085VE5oVVI4MG9xNGc0TzZfdFI3R1hZV0hKZlljUnBGaklvcGN4eXVkUnh4dU56c3Fyemg5TzFEZ0tQRzdxV3NiOEhyWTZLdDhId1ltcjAxN3BESUdfc0FvUnJfanRWeEctT3BNSUg0aHdYZHJVWWVQak1TaXNqcHlKY3Zuc3RVbmRsUnRpa3FodnZwMkJMX2pRdjdEa284MzZ3X1lnRnRVNG1BNkJleXd6Z2pWUGdmUHQwa3BRd3F3?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-18T16:36:29+00:00"
     },
     {
      "title": "Você viu? Produtor gaúcho diz precisar de 54 sacas de soja por ano só para pagar dívidas",
@@ -439,40 +445,10 @@
      "published_at": "2026-07-18T14:01:00+00:00"
     },
     {
-     "title": "Soja e carnes elevam vendas externas do Estado para R$ 45,4 bilhões - LOCAL MT",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc3B1b1hmRFhXLTFDeFBOTGNsM1pXdXNTRXlXVkxZdlA4R2IxREtib3RhTFF6ckNrSGRodXRmN3NsaGxmZXVKdzVRRTQyWjB2eFdwdjhXU2k5VDJ2Vnh2cHpDZ2NvRTktUk5DMGQyeS10SWotaWhXVzZxWFgtOTVEdlNkaHctWk03ZENGN01Zb19SLTM3Qmg3YkstZzB1Z005TVBj?oc=5",
-     "source": "LOCAL MT",
-     "published_at": "2026-07-18T13:36:38+00:00"
-    },
-    {
-     "title": "Soja e carnes elevam vendas externas do Estado para R$ 45,4 bilhões - RADAR DIGITAL BRASÍLIA",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSWhndEc4R0VIZjBtSFNFR2x2UFJZcU5IVXRCYUdHZkoxa3gwaVdoc1d1bzFNanNyUzVWbTZqb2dGN29aR2V0WlBQVXRGR2d5SGtHQjh1VFJBTnBkYWtfbWw4blJyNENISHltdTZzNWd6U0I0ZTQzSUhwSUlLcVZlSU05RURzV2Y2ajllTHZ4eXh1VHFKN3UzOUtFeVNCbE9ISXRpUXZiWXRPVFhyNXFxTUVPdVI?oc=5",
-     "source": "RADAR DIGITAL BRASÍLIA",
-     "published_at": "2026-07-18T13:34:47+00:00"
-    },
-    {
-     "title": "Caminhão carregado tomba e espalha carga de soja na BR 386, em Jaboticaba - Correio do Povo",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOY3Z3OFZveXJOOUNwVGZ0cWluam9Gd2FjdkNlQVhNaTFPQVM1MUVJZ1RGQWhzTzRlRUU0QVoxTEp5NW9HaGx1bkZnRzY3ekl1SDJfU0UtRmVtaXJWWXpQNzRwa1ZyenhVNzJTYjdVSnNXX1FEZzZCcml1QnpMN2ROUHdWTjJSZzRJQTRSNXQ3UmtrMDlBRnVWMEFRY3RmSFBPb2dabE9naFpUdUstUlh0X2RqM1FGN2EtQ0pYSFNsVl9BNDRVenlGekgyNkR1MG42eTRCZElDQXhpdw?oc=5",
-     "source": "Correio do Povo",
-     "published_at": "2026-07-18T13:20:18+00:00"
-    },
-    {
      "title": "Plano Safra reduz juros para recuperar pastagens e elevar a produtividade da pecuária: quais os efeitos para o produtor na prática?",
      "link": "https://www.canalrural.com.br/pecuaria/plano-safra-reduz-juros-para-recuperar-pastagens-e-elevar-a-produtividade-da-pecuaria-quais-os-efeitos-para-o-produtor-na-pratica/",
      "source": "Canal Rural",
      "published_at": "2026-07-18T12:03:00+00:00"
-    },
-    {
-     "title": "Indústria espera reação nas vendas de insumos para a soja - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOHkxWnpPZWJxeUdnZl9rcUYzZUdqX2E5bmNuaW41R1lSVTlzVGpudDZ0dnpielpXNmphUjRLSFVka3NoREpVaF9ET0NuNHgxRjJlRFNteVdHajF3blJEYTR5WUlvU2NXcEZwX2dUZmFEUjBHTXl4RGxlRjlDa2U1TmtRRm43YzZFOGtuSWFtTzBKd1pZMXJBT3hxUWhKTVVSakdQcHk2N1JOcjhBenNJMEpWYnFrdjlhWFRVUEhHVHdXT2fSAdIBQVVfeXFMT3E0WW56NFJ5TC1NUWg3NnJpdE56Q3FKRnl6enJBQXlMQkhzT2p6YUdfWEw3U3FZQ2loTE5PcUZVSnZucDdBUDl2VmM4WVlVbld4SXcxM3FHLXFMOC1CenRKZlIyZlN0bWRFWVBLWnlxMERKbGJmcXBqT1V3UzRWY1U1R0RTdU1qaGQ4dXJVY3k5SUx4WHJUSnRGTkpYVWpRTl9zV3hWRF9FOWdvTnp1a0R5UmViX0xTWEQ2ODlVM3laSk5TOFdjUmdRakJXV0pWODRB?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-18T09:30:12+00:00"
-    },
-    {
-     "title": "Preço da soja sobe e atinge maior patamar em seis meses - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbGlVUFpyNUs5T3pnRUhkckduemZhZ2h2Z2laODBYaXZxQ3BvMG9LdWlGd19ULUpfWUVXNHlqZ3BYYnJhRlpZWlgwVUxCNy1PeTQ1akcta25EOV9FUWlCYWhsRG5PVW9nZTBCU1N3ZW1iV20wTjh2T25lczlOQUw3TGVubVU2RVpSYmJGdDRpU05LRzFtMjBCOW9rUkVQbVJQTHJfLWJvRXI4QThhaXFKSjhlRzdBd9IBxAFBVV95cUxNVkF1WG1SRXRwZ0JsX3RJNWJVVmlKTG8tX0NyQm5qa2JJTG9UWlVrT24xYnVSZFpMNkZMSzNGMGExTDFDaDdHV3F6X2FncGg2azFrMk9vSXdmQU82a3lETldrRDBCQlg0c05Na1MxM1VXR3cyT01DczhpWncycnJwdVVjRzEwRG55dDRjNndEUWRIWk00NUFDYnQ2UlhIbFJiUXpjNXlJa0ZOa09jdUpHTEhDSVVubEliZmtpaHZ5NlV0UFBf?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-18T09:15:08+00:00"
     },
     {
      "title": "Avanço de frente fria deve trazer tempestade e ventos de 100 km/h neste sábado",
@@ -491,30 +467,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/18/mudamos-a-rota-produtores-do-agro-ja-buscam-novos-mercados-apos-tarifaco-de-trump.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-18T07:00:12"
-    },
-    {
-     "title": "Investigação dos Estados Unidos pode fazer tarifa ao Brasil subir de 25% para 37,5%",
-     "link": "https://www.canalrural.com.br/economia/investigacao-dos-estados-unidos-pode-fazer-tarifa-ao-brasil-subir-de-25-para-375/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T23:16:31+00:00"
-    },
-    {
-     "title": "Preços do boi gordo encerram a semana em alta; confira as cotações",
-     "link": "https://www.canalrural.com.br/pecuaria/precos-do-boi-gordo-encerram-a-semana-em-alta-confira-as-cotacoes/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T22:47:07+00:00"
-    },
-    {
-     "title": "ANP publica em inglês dados consolidados de 2025 sobre petróleo, gás e biocombustíveis",
-     "link": "https://www.canalrural.com.br/economia/anp-publica-em-ingles-dados-consolidados-de-2025-sobre-petroleo-gas-e-biocombustiveis/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T22:10:19+00:00"
-    },
-    {
-     "title": "Cotações de soja são impulsionadas nesta sexta-feira; Chicago e dólar são responsáveis - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSVZ0bHRlZ25paE1ZZExVbm1wN0plSzlQMUNpSjk2YVc5TElJeW1Lc2ZsRlRzZ1B3eHpmd1BGN0thZ05RZlI5ejFJY0kxVDgxcm5GYU1La1Q2cnFPdWhjNFVYTE4yQU8ySlZZdjNhb3dmaTg2cHhzdThUR2RhckwzMmZ1LVV1S0JyRFVva3NIWG54ME1EcldRa1F5d24wSDhRcEJmOUhBR1RLWUJSR2hRazh0NWQ3NFBMVFQxRmplZXpzTDh5d2Fod0Y0VC1jQlB2VEw4U1NscUpHckY4b3VxRG5n?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T21:59:37+00:00"
     },
     {
      "title": "Consumidores de açúcar dos EUA pedem que governo permita mais importações com tarifas reduzidas",
@@ -541,18 +493,6 @@
      "published_at": "2026-07-17T14:33:54"
     },
     {
-     "title": "USDA informa novas vendas de mais de 700 mil t de soja nesta 6ª feira (17) - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOenYwcDMxeVFXd3ctQnkxVmlzbXJCM2x0QVVZZlZYU1RpdEV0c0tmWktyLWxuTFJuS2V4Wjgwam5MbzZ3WVZwd2xtZDl0Qk9vMzYtZXozc3hUMVQwaWxsOG5Cc2o0aDE0SUlDV0pxcXg5b2NlSGxJRXNLclkySkUyWG5QVDBjNkVRV0JmcW50NzZtZmtDNHhMWnBNU1BOTTFiUmtaeV9MbTdFNE9GZXFoWTEyd3BOUlFsWHRLOEZwd09lVmVXbHotaEg4Y2dKUDDSAdQBQVVfeXFMTnRrSHY0dUFRRV9hMGtlc1pCQWo3YmxNNjlxU2hqR0REZ1VURHh1VG9xWmxiLXVVd2tLTDRpaV90MFF0SjVTTFdoTkpla3V3YnozNXdVdHhmR2FmQWhKbmdheTNZZzFEU2NyZElta0dNT3ZUQUIxd1E5bC01ZlJ5UXozblBmZmNvQjNlVW9RWWRKbnBDQzVBckh3YzJVSGptQzhzYnIzN3ZUcmJZODc1dDRSeTNxNkZMcVBTSkxiRllZQ1pKLW9lNTBoVG1lSjBNX3A5SzM?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-17T13:45:47+00:00"
-    },
-    {
-     "title": "Soja caminha de lado em Chicago nesta 6ª feira, após semana de forte volatilidade - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMmlJYW1YTUJJeE1rTXpCN18xWTVuYjEwVV9Ya0I0SlcyNTNiNWx5UjZJNkJET0xQclZud0tyc2p3UjJrZzBsZGM0WFdhUDZBY2pwQ05sa1pxeFV2cjlSVHNxSldKTURNdzVId1RwUHB4TWpRMlBIVlB1WlUyODA4R05xYldiemlYOHVlZVFEa1ZGZ01Bd0dvSGx4THJldGZfN01XV2RoZ1NBd2k3UjVHQU4xZUNKQ01sZXozT2J5TjMyaDBrVi1Ya2FKSXo0UERiNEdNZzJISnVTQdIB3wFBVV95cUxPOHdRajRNOXFOaE9PX3BLNnRUd1VrT1dxcVFMVzREMjRDX2E3NDFxWXZXSFcyWWlLSFhSTloxUXNYcERmWGJmVUhKcXNJTjdrVDlDcDY1SkdBS0d6NEtXQkVQa3VUYkZTSWtpdjZGUFpPSXE2QldIRzZMWXRLRkxoUFd0NXZWWVRZei1RVlFLU2JBdjJTV2RQdlM5OFYyd3M5dHhUVXFqMVNzYmczeDJkZTJNczlWUGVRRVJFenI5R3RKSFlrS2NtYU0yYnliajdCNDJ1YVNUSEY4S3pTdjRR?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-17T10:38:15+00:00"
-    },
-    {
      "title": "Setor de açúcar e etanol reage a tarifa dos EUA e diz que medida de Trump ignora realidade do mercado",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/as-tarifas-dos-eua-sobre-o-brasil-sao-uma-pilula-amarga-para-os-produtores-de-acucar-e-etanol.ghtml",
      "source": "G1 Agronegócios",
@@ -575,9 +515,22 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/tarifaco-de-trump-veja-a-lista-de-produtos-que-ficaram-isento-da-nova-tarifa-de-25percent.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-16T10:40:30"
+    },
+    {
+     "title": "'Olho por olho, dente por dente?' O que diz a Lei de Reciprocidade que Lula quer usar contra novo tarifaço dos EUA",
+     "link": "https://g1.globo.com/economia/noticia/2026/07/16/olho-por-olho-dente-por-dente-o-que-diz-a-lei-de-reciprocidade-que-lula-quer-usar-contra-novo-tarifaco-dos-eua.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-16T08:40:08"
+    },
+    {
+     "title": "Produtor colhe mamão de quase 8 kg no interior de São Paulo; veja vídeo",
+     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/07/16/produtor-colhe-mamao-de-quase-8-kg-no-interior-de-sao-paulo-veja-video.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-16T07:01:03"
     }
    ],
    "failed": [
+    "Google News: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=soja+OR+%22mercado+de+gr%C3%A3os%22&hl=pt-BR&gl=BR&ceid=BR:pt-419",
     "Notícias Agrícolas: 404 Client Error: Not Found for url: https://www.noticiasagricolas.com.br/rss/noticias"
    ]
   }

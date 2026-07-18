@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-18T10:14:07+00:00",
+ "generated_at": "2026-07-18T11:49:42+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-18T10:14:01+00:00",
+   "updated_at": "2026-07-18T11:49:34+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -222,7 +222,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-18T10:14:02+00:00",
+   "updated_at": "2026-07-18T11:49:34+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -233,7 +233,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-18T10:14:05+00:00",
+   "updated_at": "2026-07-18T11:49:39+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -394,7 +394,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-18T10:14:07+00:00",
+   "updated_at": "2026-07-18T11:49:42+00:00",
    "items": [
     {
      "title": "Indústria espera reação nas vendas de insumos para a soja - Globo Rural",
@@ -523,12 +523,6 @@
      "published_at": "2026-07-17T18:13:00+00:00"
     },
     {
-     "title": "Produção de soja do Brasil pode crescer menos de 1% em 26/27, limitada por El Niño - InfoMoney",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeU1Gb2J1c0VYcUxZcXZkOElIYlRnalpvWXIxaVF4N2VNVG9fRVNuZVB6WXgyMmREaXRubzdPUUhOUEU1UU11Wi0zRGdUZ3BJMHBGVjNfNzlTZGl0NnFSRzZYQ19Dek5mejEwOHZpRTRzc3JwTUtOcFdoM2VmaFE2aTJseE9xMTdYS3FBLXh3blpIRDJhbWo2NTAweHUzMFljYk9ROEc0bjcwcjVvck5WcUVSbjF4NmpLVkx30gHAAUFVX3lxTE43dWpwSm5aMlFyMWVibmxRR2NsS1FLVF9IMWtYZmRsaVdCMm9vQTZYNGdGR2ZOTkhsSjU5TjFSQnR5aTU5SmhrTFV1M2hrWm9IbFpuT0dOTld2eGctNW1ZZVlya1M4UkVaQ3VRUkp4VkpoYlZycl9HTng5RzRSTmJWRDRxMDdWb2hyV0VBNU1ySGNRYjltN01OdTZ2ckNCSXhkemZiZHdGc1VwSTJ3cVVYOGdyV2JMVUI2RGdVTmtaZw?oc=5",
-     "source": "InfoMoney",
-     "published_at": "2026-07-17T17:35:40+00:00"
-    },
-    {
      "title": "Soja sobe em Chicago nesta 6ª feira com óleo avançando quase 3%; preços no Brasil dão oportunidade - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNeGxVY3diU1lzY25neWh5a3NuTmVnd2F3UjhPdkRwMFpxcHZMYnJaMDliSmk2ajZIUTdoMGRFTUhJOFRIN2FZRnZ0NVkxbTdKQno0Z2pzejNjVml0c2pMdXpwalNFWkFqa25IaC02bUpERllCQk53cm9qcklKaW5mTUpob0l0Q29qTlBqeVVmaVZXWE90THhsSmFPVzUwYjRYVVlFRWFtZkF5VDQtZmVfRVlDUHFGMU95S3dJV1BPSE5wTlhTRHNYcjhIQlNpQjB1c3dqQ09XN1hKcTZnYlV1UnBSd1prczFKdGM2UWlURdIB9AFBVV95cUxPYlh4b2R2SGdZZUhETXRkVWJOTUc2WmxIYWxhelMweU4yRGY2NFpmTElxUnl2ajhuVVlqaUhqZXEzTkZscjMxSFByRnk4QTRwMmFJaGJJZEg1MG5aalB3T0xOQ3lycXNPWFd5SWV2MlpjUkRQeGdqX2syY2NnSzA1SzQwMzl2UEVhNTdxZE9YUV9VV19TRFNXM05XVHNxQndkSDZVVVVDTlJYMFdIc2NhUnJJaHNMRWlzOUJuQS1pMjBxQjBYUjFmREZLcW1qLXdieTVvQVp3eDBCY2tPcEtFRTQ2RXJQLXhVcVJQNTJrY1BIM1BY?oc=5",
      "source": "Notícias Agrícolas",
@@ -563,6 +557,12 @@
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOenYwcDMxeVFXd3ctQnkxVmlzbXJCM2x0QVVZZlZYU1RpdEV0c0tmWktyLWxuTFJuS2V4Wjgwam5MbzZ3WVZwd2xtZDl0Qk9vMzYtZXozc3hUMVQwaWxsOG5Cc2o0aDE0SUlDV0pxcXg5b2NlSGxJRXNLclkySkUyWG5QVDBjNkVRV0JmcW50NzZtZmtDNHhMWnBNU1BOTTFiUmtaeV9MbTdFNE9GZXFoWTEyd3BOUlFsWHRLOEZwd09lVmVXbHotaEg4Y2dKUDDSAdQBQVVfeXFMTnRrSHY0dUFRRV9hMGtlc1pCQWo3YmxNNjlxU2hqR0REZ1VURHh1VG9xWmxiLXVVd2tLTDRpaV90MFF0SjVTTFdoTkpla3V3YnozNXdVdHhmR2FmQWhKbmdheTNZZzFEU2NyZElta0dNT3ZUQUIxd1E5bC01ZlJ5UXozblBmZmNvQjNlVW9RWWRKbnBDQzVBckh3YzJVSGptQzhzYnIzN3ZUcmJZODc1dDRSeTNxNkZMcVBTSkxiRllZQ1pKLW9lNTBoVG1lSjBNX3A5SzM?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-17T13:45:47+00:00"
+    },
+    {
+     "title": "Produzindo Certo Mira 10% da Soja Regenerativa com Apoio Britânico até £ 500 Mil - Forbes Brasil",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaC0xbmFZU1R5UHJLRkNFczdEaFBpdzdHN3ZoaG9uZk1USWR2VFl6dGhOcE1Fd2gzdk91akJkTHlhd1ZSZ25OT1dGTGxKQTU5cW9yb2xtb1RWMEcwNEVRZVdiQ3BjeTlHYVgwMk9pLVd6RVV6MEtTV3ozXzJVU2VTVzY2N2tIWmt0OXNIOTYxaDBQRGhmcFc0ODNDVUxSNFd4cDg2ZVd1UzA3ZGotc2t2OE8wS0otNWtwMENpMg?oc=5",
+     "source": "Forbes Brasil",
+     "published_at": "2026-07-17T08:00:00+00:00"
     },
     {
      "title": "Setor de açúcar e etanol reage a tarifa dos EUA e diz que medida de Trump ignora realidade do mercado",

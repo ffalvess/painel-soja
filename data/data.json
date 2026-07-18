@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-18T17:51:59+00:00",
+ "generated_at": "2026-07-18T18:54:41+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-18T17:51:50+00:00",
+   "updated_at": "2026-07-18T18:54:31+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -222,7 +222,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-18T17:51:50+00:00",
+   "updated_at": "2026-07-18T18:54:31+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -233,7 +233,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-18T17:51:56+00:00",
+   "updated_at": "2026-07-18T18:54:37+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -368,8 +368,8 @@
       0.0,
       0.0,
       0.0,
-      35.2,
-      35.3,
+      34.7,
+      10.6,
       0.0
      ],
      "tmax": [
@@ -394,8 +394,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-18T17:51:59+00:00",
+   "updated_at": "2026-07-18T18:54:41+00:00",
    "items": [
+    {
+     "title": "Reino Unido contraria UE e anuncia que continuará comprando carnes do Brasil",
+     "link": "https://www.canalrural.com.br/internacional/reino-unido-contraria-ue-e-anuncia-que-continuara-comprando-carnes-do-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-18T18:10:06+00:00"
+    },
+    {
+     "title": "Alta nas cotações da soja melhora cenário para comercialização em MS - diariodigital.com.br",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTzd6X0hjLVFQT3JXbUVkSXRjMmQ2SkN5UDg3R01zRHNjNE56VTRKelF3UTZVZHVnX1hfaVdsaURmU2tKY09VUlZ5ak02Qm14am05dS1XZk4xOEt1YkhuSmNKZWFqNEhhRzY4QkFtUXpTUE1OWk9mWXRZWGtjUURPTUh3YnFXSnJpempmNUU4cVFQQnVsamJTalc4X3VvWUVPZGhRWWVqN01RUDJnQUlv0gGvAUFVX3lxTE5GTUswbVN2alZyMDd5RUh2WlNxLS1mREZGd1huYi1SZHo3d2R4c1dSTTdkZVVqYmZlaGROOUwwbjAzM3NMM2Y3TGpCX1A5Vm9Ha1FSV2hBTDh4aVpyMDNxUFdmNVA1Ynp5Yi05Y2ktRXV4MjdTY0V5a2NfdGh5S0xEeG5KdUptR1NYS3BPMnpWb0lPOUZiaHppdjdtMGVqVEVKYmNiQ3hzbklMNXJZb0U?oc=5",
+     "source": "diariodigital.com.br",
+     "published_at": "2026-07-18T17:00:00+00:00"
+    },
     {
      "title": "Você viu? Produtor gaúcho diz precisar de 54 sacas de soja por ano só para pagar dívidas - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcldRbjBPcjNiM085VE5oVVI4MG9xNGc0TzZfdFI3R1hZV0hKZlljUnBGaklvcGN4eXVkUnh4dU56c3Fyemg5TzFEZ0tQRzdxV3NiOEhyWTZLdDhId1ltcjAxN3BESUdfc0FvUnJfanRWeEctT3BNSUg0aHdYZHJVWWVQak1TaXNqcHlKY3Zuc3RVbmRsUnRpa3FodnZwMkJMX2pRdjdEa284MzZ3X1lnRnRVNG1BNkJleXd6Z2pWUGdmUHQwa3BRd3F3?oc=5",
@@ -413,12 +425,6 @@
      "link": "https://www.canalrural.com.br/espirito-santo/abacate-gigante-de-24-kg-chama-atencao-no-espirito-santo-e-quase-bate-recorde-mundial/",
      "source": "Canal Rural",
      "published_at": "2026-07-18T16:04:00+00:00"
-    },
-    {
-     "title": "Operação prende funcionários da Yara Fertilizantes por roubo e adulteração de cargas",
-     "link": "https://www.canalrural.com.br/seguranca/operacao-prende-funcionarios-da-yara-fertilizantes-por-roubo-e-adulteracao-de-cargas/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-18T15:52:18+00:00"
     },
     {
      "title": "Crédito rural somou R$ 92,4 bilhões em imóveis com alertas ambientais, diz MapBiomas",
@@ -515,12 +521,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/17/consumidores-de-acucar-dos-eua-pedem-que-governo-permita-mais-importacoes-com-tarifas-reduzidas.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-17T20:39:52"
-    },
-    {
-     "title": "Soja avança na bolsa de Chicago após forte alta nos preços do óleo - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbXJpR2xfWkR6YmhwWUVWNUdCbUdmbS1EektleFZyT0FlYnpiMTQybWhtS3l3SW5JUmRMWV92bDdCei1ZcDktdDNZM1dUMjVqd1BkaW5xQThWR29Da3Z0ZGFDY1ZUUS1FQVpWekJicEszLVljaER4WnpqUE5abFRucTg1WHBTWWN0b1BhbHpDYUd3enctUkQyRy1URENlTElxU0dnZXljTTFzb0tyeEI0YWFBVENFYTN2TnBkSE0xaHFGd0ll0gHTAUFVX3lxTE1jY2lOdjNzVUhLRklFYktFUXBuQ3h6ZmRyMElMNW1zTW9GQWRxdjhPRGZ3WnFEa3RWQXJtWUZEM2Zua21vQjRNVjlNa05zakhHc1h3c2lzcDYyN1FrUEF2TnpBTHN5ZUotYTdTWUJwWHlJTkQ2MVp0aWRVQWtVdWFHZDlnOXVreGVvaVZxUlZVanpzN3VmTEZNdnhpLXNOWjU1NmRManU4T2V3QnlCZDFiSjF6ZWh0MUxlMDdMdlY5SklvcW5RajYzRkNCSE5oR0E5WUE?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-17T19:18:01+00:00"
     },
     {
      "title": "Brasil deve colher safra recorde de soja em 2026/27, mas El Niño ameaça produtividade",

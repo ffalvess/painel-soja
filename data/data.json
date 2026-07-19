@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-19T10:22:22+00:00",
+ "generated_at": "2026-07-19T11:52:01+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-19T10:22:14+00:00",
+   "updated_at": "2026-07-19T11:51:46+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -216,7 +216,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-19T10:22:14+00:00",
+   "updated_at": "2026-07-19T11:51:47+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -227,7 +227,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-19T10:22:19+00:00",
+   "updated_at": "2026-07-19T11:51:57+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -388,8 +388,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-19T10:22:22+00:00",
+   "updated_at": "2026-07-19T11:52:01+00:00",
    "items": [
+    {
+     "title": "Preço da soja zera perda acumulada em 2026 na parcial de julho - Farmnews",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbWpoVHFPREhnTTZLUC1mTGdiWm5GaDFkdFdTaGZfNDdHZGxaaUEzY0pVaFZfOFVOX0tRLVlyZUpyaTBkZUdORnpwZm16RTRoemhaMnNFZy1XeFZuNWpkcmNNRUtMTXl1QmFsUExtcGdVYV9BenRPZ3J2b3NqVDlrS3ExTDNTY0FUUS1CVnB2SC1UZlZhQVNDQVJEUlZnVnRF?oc=5",
+     "source": "Farmnews",
+     "published_at": "2026-07-19T11:19:05+00:00"
+    },
+    {
+     "title": "Receita Nosso Campo: aprenda a fazer um delicioso cupim casqueirado",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/07/19/receita-nosso-campo-aprenda-a-fazer-um-delicioso-cupim-casqueirado.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-19T10:30:09"
+    },
+    {
+     "title": "Temporais castigam cafezais e produtores aceleram colheita para salvar a safra no interior de SP",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/07/19/temporais-castigam-cafezais-e-produtores-aceleram-colheita-para-salvar-a-safra-no-interior-de-sp.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-19T10:30:08"
+    },
     {
      "title": "Tarifaço pode abrir portas na China, mas analistas veem limites para avanço das exportações brasileiras",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/19/tarifaco-pode-abrir-portas-na-china-mas-analistas-veem-limites-para-avanco-das-exportacoes-brasileiras.ghtml",
@@ -535,12 +553,6 @@
      "published_at": "2026-07-17T14:33:54"
     },
     {
-     "title": "Soja caminha de lado em Chicago nesta 6ª feira, após semana de forte volatilidade - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMmlJYW1YTUJJeE1rTXpCN18xWTVuYjEwVV9Ya0I0SlcyNTNiNWx5UjZJNkJET0xQclZud0tyc2p3UjJrZzBsZGM0WFdhUDZBY2pwQ05sa1pxeFV2cjlSVHNxSldKTURNdzVId1RwUHB4TWpRMlBIVlB1WlUyODA4R05xYldiemlYOHVlZVFEa1ZGZ01Bd0dvSGx4THJldGZfN01XV2RoZ1NBd2k3UjVHQU4xZUNKQ01sZXozT2J5TjMyaDBrVi1Ya2FKSXo0UERiNEdNZzJISnVTQdIB3wFBVV95cUxPOHdRajRNOXFOaE9PX3BLNnRUd1VrT1dxcVFMVzREMjRDX2E3NDFxWXZXSFcyWWlLSFhSTloxUXNYcERmWGJmVUhKcXNJTjdrVDlDcDY1SkdBS0d6NEtXQkVQa3VUYkZTSWtpdjZGUFpPSXE2QldIRzZMWXRLRkxoUFd0NXZWWVRZei1RVlFLU2JBdjJTV2RQdlM5OFYyd3M5dHhUVXFqMVNzYmczeDJkZTJNczlWUGVRRVJFenI5R3RKSFlrS2NtYU0yYnliajdCNDJ1YVNUSEY4S3pTdjRR?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-17T10:38:15+00:00"
-    },
-    {
      "title": "Produzindo Certo Mira 10% da Soja Regenerativa com Apoio Britânico até £ 500 Mil - Forbes Brasil",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaC0xbmFZU1R5UHJLRkNFczdEaFBpdzdHN3ZoaG9uZk1USWR2VFl6dGhOcE1Fd2gzdk91akJkTHlhd1ZSZ25OT1dGTGxKQTU5cW9yb2xtb1RWMEcwNEVRZVdiQ3BjeTlHYVgwMk9pLVd6RVV6MEtTV3ozXzJVU2VTVzY2N2tIWmt0OXNIOTYxaDBQRGhmcFc0ODNDVUxSNFd4cDg2ZVd1UzA3ZGotc2t2OE8wS0otNWtwMENpMg?oc=5",
      "source": "Forbes Brasil",
@@ -557,18 +569,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/as-tarifas-dos-eua-sobre-o-brasil-sao-uma-pilula-amarga-para-os-produtores-de-acucar-e-etanol.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-16T20:18:21"
-    },
-    {
-     "title": "Fim da Moratória da Soja pode aumentar desmatamento em 17% na Amazônia, diz estudo - Capital Reset",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOWdsRzNPT1cxVDFOUURxV19xOFdYSWFZTnNIVlN0YU1xQTlaUjN0aF9aYkpRamY0Znl1TDdXRVA3YXJBUWluckRGSTd3ZHZOLUFweHQtdV95T1dTdzRDM1h5dld2RjAwTHNxdU5yQm54cUhXb2h0bVFtRC1KRnFCRWlqRTRmV3BEdFJpc19VSkxwaVNPVTdhazF3b3BrZUo2dmR1cmVDYWlKb2lhbTBkQmtLU1RMckZEazZoQWFBTmh0X1U?oc=5",
-     "source": "Capital Reset",
-     "published_at": "2026-07-16T19:21:26+00:00"
-    },
-    {
-     "title": "Exportadoras dizem que carne brasileira pode não conseguir atender exigências da UE sobre antimicrobianos",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/exportadoras-dizem-que-carne-brasileira-pode-nao-conseguir-atender-exigencias-da-ue-sobre-antimicrobianos.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-16T18:05:57"
     }
    ],
    "failed": [

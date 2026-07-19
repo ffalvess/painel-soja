@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-18T23:47:24+00:00",
+ "generated_at": "2026-07-19T02:06:39+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-18T23:47:17+00:00",
+   "updated_at": "2026-07-19T02:06:21+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -233,7 +233,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-18T23:47:21+00:00",
+   "updated_at": "2026-07-19T02:06:36+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -256,22 +256,22 @@
       0.0
      ],
      "tmax": [
-      33.0,
       33.1,
       33.4,
-      34.1,
+      33.6,
+      34.3,
+      34.7,
       34.9,
-      35.1,
-      35.4
+      35.8
      ],
      "tmin": [
       20.8,
-      21.3,
-      21.6,
-      21.3,
       21.5,
       22.0,
-      22.6
+      22.3,
+      21.5,
+      21.3,
+      22.0
      ]
     },
     {
@@ -296,21 +296,21 @@
      ],
      "tmax": [
       31.6,
-      32.1,
-      32.5,
-      33.2,
+      32.3,
+      32.7,
+      33.4,
       33.9,
-      34.4,
-      34.5
+      34.6,
+      34.7
      ],
      "tmin": [
       19.8,
-      19.9,
-      20.3,
-      20.3,
-      21.2,
+      20.1,
+      21.0,
+      20.9,
+      21.1,
       21.6,
-      22.2
+      21.6
      ]
     },
     {
@@ -331,25 +331,25 @@
       0.0,
       0.0,
       0.0,
-      0.6
+      0.9
      ],
      "tmax": [
-      27.2,
+      27.5,
       28.3,
-      29.8,
+      29.7,
       30.1,
-      31.0,
-      32.3,
+      31.1,
+      31.7,
       28.9
      ],
      "tmin": [
       15.3,
-      16.5,
+      16.6,
       17.0,
-      17.1,
-      19.0,
-      19.7,
-      19.9
+      16.9,
+      19.6,
+      19.8,
+      18.5
      ]
     },
     {
@@ -368,34 +368,40 @@
       0.0,
       0.0,
       0.0,
-      34.7,
-      10.6,
+      31.2,
+      1.8,
       0.0
      ],
      "tmax": [
+      30.3,
       29.9,
-      29.8,
       31.0,
-      31.4,
-      29.8,
+      31.7,
+      28.5,
       21.4,
-      23.4
+      24.1
      ],
      "tmin": [
       20.8,
-      19.6,
-      20.1,
-      20.9,
-      18.5,
-      17.2,
-      14.5
+      19.7,
+      19.7,
+      20.8,
+      18.7,
+      17.8,
+      17.3
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-18T23:47:24+00:00",
+   "updated_at": "2026-07-19T02:06:39+00:00",
    "items": [
+    {
+     "title": "Safra recorde da soja faz preço do óleo cair mais de 10% em 2026 - R7",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNWhNQVRkdWpHWjZlVWZkZ1VScEVFNzIwZjNxa0RFcWhZWk80RDJoV3FnXzg3alM0S0RjYnNCWC1mYnhXY25OQUdrTmswMnlxSmxwNE51NGxaZUNfS0FqaWYtZnR5OUVWaU5pajdGSlJzMzhaWk9PNGNlY0liNWZrdExLUHFpci03OF85MDlfUWNxNDBzSHBGZE5TbFB3LW5FMHpFV2lxVld5YnYwbm5yWG93?oc=5",
+     "source": "R7",
+     "published_at": "2026-07-19T00:59:03+00:00"
+    },
     {
      "title": "Arroba do boi cresceu na semana, mas movimento vai se sustentar? Analistas respondem",
      "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-cresceu-na-semana-mas-movimento-vai-se-sustentar-analistas-respondem/",
@@ -475,12 +481,6 @@
      "published_at": "2026-07-18T13:34:47+00:00"
     },
     {
-     "title": "Caminhão carregado tomba e espalha carga de soja na BR 386, em Jaboticaba - Correio do Povo",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOY3Z3OFZveXJOOUNwVGZ0cWluam9Gd2FjdkNlQVhNaTFPQVM1MUVJZ1RGQWhzTzRlRUU0QVoxTEp5NW9HaGx1bkZnRzY3ekl1SDJfU0UtRmVtaXJWWXpQNzRwa1ZyenhVNzJTYjdVSnNXX1FEZzZCcml1QnpMN2ROUHdWTjJSZzRJQTRSNXQ3UmtrMDlBRnVWMEFRY3RmSFBPb2dabE9naFpUdUstUlh0X2RqM1FGN2EtQ0pYSFNsVl9BNDRVenlGekgyNkR1MG42eTRCZElDQXhpdw?oc=5",
-     "source": "Correio do Povo",
-     "published_at": "2026-07-18T13:20:18+00:00"
-    },
-    {
      "title": "Indústria espera reação nas vendas de insumos para a soja - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOHkxWnpPZWJxeUdnZl9rcUYzZUdqX2E5bmNuaW41R1lSVTlzVGpudDZ0dnpielpXNmphUjRLSFVka3NoREpVaF9ET0NuNHgxRjJlRFNteVdHajF3blJEYTR5WUlvU2NXcEZwX2dUZmFEUjBHTXl4RGxlRjlDa2U1TmtRRm43YzZFOGtuSWFtTzBKd1pZMXJBT3hxUWhKTVVSakdQcHk2N1JOcjhBenNJMEpWYnFrdjlhWFRVUEhHVHdXT2fSAdIBQVVfeXFMT3E0WW56NFJ5TC1NUWg3NnJpdE56Q3FKRnl6enJBQXlMQkhzT2p6YUdfWEw3U3FZQ2loTE5PcUZVSnZucDdBUDl2VmM4WVlVbld4SXcxM3FHLXFMOC1CenRKZlIyZlN0bWRFWVBLWnlxMERKbGJmcXBqT1V3UzRWY1U1R0RTdU1qaGQ4dXJVY3k5SUx4WHJUSnRGTkpYVWpRTl9zV3hWRF9FOWdvTnp1a0R5UmViX0xTWEQ2ODlVM3laSk5TOFdjUmdRakJXV0pWODRB?oc=5",
      "source": "Globo Rural",
@@ -503,12 +503,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/18/mudamos-a-rota-produtores-do-agro-ja-buscam-novos-mercados-apos-tarifaco-de-trump.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-18T07:00:12"
-    },
-    {
-     "title": "Cotações de soja são impulsionadas nesta sexta-feira; Chicago e dólar são responsáveis - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSVZ0bHRlZ25paE1ZZExVbm1wN0plSzlQMUNpSjk2YVc5TElJeW1Lc2ZsRlRzZ1B3eHpmd1BGN0thZ05RZlI5ejFJY0kxVDgxcm5GYU1La1Q2cnFPdWhjNFVYTE4yQU8ySlZZdjNhb3dmaTg2cHhzdThUR2RhckwzMmZ1LVV1S0JyRFVva3NIWG54ME1EcldRa1F5d24wSDhRcEJmOUhBR1RLWUJSR2hRazh0NWQ3NFBMVFQxRmplZXpzTDh5d2Fod0Y0VC1jQlB2VEw4U1NscUpHckY4b3VxRG5n?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-17T21:59:37+00:00"
     },
     {
      "title": "Consumidores de açúcar dos EUA pedem que governo permita mais importações com tarifas reduzidas",
@@ -553,6 +547,12 @@
      "published_at": "2026-07-17T08:00:00+00:00"
     },
     {
+     "title": "Estudo na Science aponta que fim da Moratória da Soja pode desmatar 1,4 milhão de hectares na Amazônia, o equivalente a 2 milhões de campos de futebol - greenpeace.org",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYWlnSk9RRzRUdGJ4RnozSmc3WWJJdFI2d1N5N1Z4bEw4VzVMaUZjcVIxWFE5ZkJwM04wODJ5bVlGRUpZLVR2TllmckdTLWNrVllpdjJJX2VGNE14ZGRfcExaRVM5cTQzN3dKMkR4VWxWOTB5X2JvakhscnJGYURNaVZzMzg?oc=5",
+     "source": "greenpeace.org",
+     "published_at": "2026-07-17T07:09:12+00:00"
+    },
+    {
      "title": "Setor de açúcar e etanol reage a tarifa dos EUA e diz que medida de Trump ignora realidade do mercado",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/as-tarifas-dos-eua-sobre-o-brasil-sao-uma-pilula-amarga-para-os-produtores-de-acucar-e-etanol.ghtml",
      "source": "G1 Agronegócios",
@@ -586,6 +586,10 @@
   {
    "section": "fx",
    "error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
+  },
+  {
+   "section": "rates",
+   "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json"
   },
   {
    "section": "cepea",

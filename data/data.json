@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-19T16:51:31+00:00",
+ "generated_at": "2026-07-19T17:53:47+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-19T16:51:24+00:00",
+   "updated_at": "2026-07-19T17:53:39+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -216,7 +216,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-19T16:51:24+00:00",
+   "updated_at": "2026-07-19T17:53:39+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -227,7 +227,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-19T16:51:27+00:00",
+   "updated_at": "2026-07-19T17:53:44+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -388,8 +388,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-19T16:51:31+00:00",
+   "updated_at": "2026-07-19T17:53:47+00:00",
    "items": [
+    {
+     "title": "Colheita de café no Brasil atinge 64%, mas segue atrasada em relação ao ano passado",
+     "link": "https://www.canalrural.com.br/agricultura/colheita-de-cafe-no-brasil-atinge-64-mas-segue-atrasada-em-relacao-ao-ano-passado/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-19T17:14:57+00:00"
+    },
+    {
+     "title": "Lavouras de soja e milho extrapolam fazendas e redefinem o mapa de MT - FOLHAMAX",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSV9zVWcyT2NPTmMzYVJtUFN4MG1iT2Y1ZkpNVUxUNkZuMHhnTlJCR3pMV3BiSllSWGtPX3FzWkVXQW5ic3FKYi1XV0dYZTd5dm5Tc3JKRmlfU2twNjdDTk02ckVmOHhPWGdoR29nRVd6MzNVSmc1QllVZXVfVFUzX09POVdtQjBjR2xlamV2OFR1dFdZZC00T0RmVDlKdjhVQ3hoMlJ1VFYxV0o5dU9N?oc=5",
+     "source": "FOLHAMAX",
+     "published_at": "2026-07-19T16:39:00+00:00"
+    },
     {
      "title": "Brasil terá semana dividida entre frente fria e calor extremo; risco de incêndios cresce em diferentes regiões",
      "link": "https://www.canalrural.com.br/previsao-do-tempo/brasil-tera-semana-dividida-entre-frente-fria-e-calor-extremo-risco-de-incendios-cresce-em-diferentes-regioes/",
@@ -407,12 +419,6 @@
      "link": "https://www.canalrural.com.br/pecuaria/irrigacao-de-pastagens-quando-o-investimento-traz-retorno-ao-pecuarista/",
      "source": "Canal Rural",
      "published_at": "2026-07-19T14:44:00+00:00"
-    },
-    {
-     "title": "Nova geografia; Soja e milho redefinem o mapa de MT - Gazeta Digital",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQLTlMVmE4azViaVJPaWswZkM5ZmNkSEFvMzllM3RTYWtETGpocUFqU05Cci1JRG16aVNDMWpnSzFZVmlIdGJmZjRKaE93bzk5VER1YUd5dFE0Snk4NVIzSTduLUpGa0lFbmphMlgwbzJpenBtTFp6UV9oaUx2YmNhbk94TjVSR1VJZGdYeGV6bWlRRUZFU3NUVHdvMVd0T3I3M3hIOS1VZmdvQnpiekE?oc=5",
-     "source": "Gazeta Digital",
-     "published_at": "2026-07-19T14:30:00+00:00"
     },
     {
      "title": "O papel do sojicultor além de proteger a lavoura: o combate aos incêndios é essencial para preservar as florestas - Canal Rural",
@@ -503,12 +509,6 @@
      "link": "https://www.canalrural.com.br/aves-e-suinos/apos-30-anos-como-piloto-de-aviao-produtor-comanda-hoje-granja-com-280-mil-frangos/",
      "source": "Canal Rural",
      "published_at": "2026-07-18T19:54:10+00:00"
-    },
-    {
-     "title": "Reino Unido contraria UE e anuncia que continuará comprando carnes do Brasil",
-     "link": "https://www.canalrural.com.br/internacional/reino-unido-contraria-ue-e-anuncia-que-continuara-comprando-carnes-do-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-18T18:10:06+00:00"
     },
     {
      "title": "Você viu? Produtor gaúcho diz precisar de 54 sacas de soja por ano só para pagar dívidas - Canal Rural",

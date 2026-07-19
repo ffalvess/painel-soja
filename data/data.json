@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-19T05:46:30+00:00",
+ "generated_at": "2026-07-19T08:06:46+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-19T05:46:21+00:00",
+   "updated_at": "2026-07-19T08:06:36+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -216,7 +216,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-19T05:46:22+00:00",
+   "updated_at": "2026-07-19T08:06:36+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -227,7 +227,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-19T05:46:26+00:00",
+   "updated_at": "2026-07-19T08:06:41+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -250,22 +250,22 @@
       0.0
      ],
      "tmax": [
-      33.4,
-      33.6,
-      34.3,
-      34.7,
-      34.9,
-      35.8,
-      36.5
+      33.0,
+      33.2,
+      33.9,
+      34.5,
+      34.8,
+      35.7,
+      36.3
      ],
      "tmin": [
+      21.1,
+      21.9,
+      21.8,
+      20.9,
+      21.4,
       21.5,
-      22.0,
-      22.3,
-      21.5,
-      21.3,
-      22.0,
-      24.2
+      23.5
      ]
     },
     {
@@ -289,22 +289,22 @@
       0.0
      ],
      "tmax": [
-      32.3,
+      31.8,
+      32.0,
       32.7,
-      33.4,
-      33.9,
-      34.6,
+      33.7,
+      34.4,
       34.7,
-      35.4
+      35.6
      ],
      "tmin": [
-      20.1,
-      21.0,
-      20.9,
-      21.1,
+      19.9,
+      20.4,
+      20.6,
+      20.2,
       21.6,
-      21.6,
-      24.0
+      21.5,
+      22.8
      ]
     },
     {
@@ -324,26 +324,26 @@
       0.0,
       0.0,
       0.0,
-      0.9,
-      0.6
+      0.0,
+      0.0
      ],
      "tmax": [
-      28.3,
+      28.1,
       29.7,
       30.1,
-      31.1,
-      31.7,
-      28.9,
-      29.4
+      30.5,
+      32.4,
+      31.8,
+      30.7
      ],
      "tmin": [
-      16.6,
-      17.0,
-      16.9,
-      19.6,
+      16.3,
+      17.2,
+      17.3,
+      18.9,
       19.8,
       18.5,
-      19.4
+      20.4
      ]
     },
     {
@@ -361,40 +361,52 @@
       0.0,
       0.0,
       0.0,
-      31.2,
-      1.8,
-      0.0,
-      1.2
+      27.6,
+      3.2,
+      15.3,
+      6.4
      ],
      "tmax": [
-      29.9,
-      31.0,
-      31.7,
-      28.5,
-      21.4,
+      29.6,
+      30.7,
+      31.4,
+      25.3,
+      23.0,
       24.1,
-      23.8
+      24.5
      ],
      "tmin": [
-      19.7,
-      19.7,
-      20.8,
-      18.7,
-      17.8,
-      17.3,
-      17.0
+      19.5,
+      19.6,
+      20.5,
+      19.5,
+      18.5,
+      18.4,
+      18.1
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-19T05:46:30+00:00",
+   "updated_at": "2026-07-19T08:06:46+00:00",
    "items": [
+    {
+     "title": "Tarifaço pode abrir portas na China, mas analistas veem limites para avanço das exportações brasileiras",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/19/tarifaco-pode-abrir-portas-na-china-mas-analistas-veem-limites-para-avanco-das-exportacoes-brasileiras.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-19T08:00:38"
+    },
+    {
+     "title": "Apicultores usam áreas de preservação ambiental para produzir mel e gerar renda em Aracruz",
+     "link": "https://g1.globo.com/es/espirito-santo/agronegocios/noticia/2026/07/19/apicultores-usam-areas-de-preservacao-ambiental-para-produzir-mel-e-gerar-renda-em-aracruz.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-19T07:01:20"
+    },
     {
      "title": "Safra recorde da soja faz preço do óleo cair mais de 10% em 2026 - R7",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNWhNQVRkdWpHWjZlVWZkZ1VScEVFNzIwZjNxa0RFcWhZWk80RDJoV3FnXzg3alM0S0RjYnNCWC1mYnhXY25OQUdrTmswMnlxSmxwNE51NGxaZUNfS0FqaWYtZnR5OUVWaU5pajdGSlJzMzhaWk9PNGNlY0liNWZrdExLUHFpci03OF85MDlfUWNxNDBzSHBGZE5TbFB3LW5FMHpFV2lxVld5YnYwbm5yWG93?oc=5",
      "source": "R7",
-     "published_at": "2026-07-19T00:59:03+00:00"
+     "published_at": "2026-07-19T02:45:22+00:00"
     },
     {
      "title": "Arroba do boi cresceu na semana, mas movimento vai se sustentar? Analistas respondem",
@@ -481,12 +493,6 @@
      "published_at": "2026-07-18T09:30:12+00:00"
     },
     {
-     "title": "Preço da soja sobe e atinge maior patamar em seis meses - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbGlVUFpyNUs5T3pnRUhkckduemZhZ2h2Z2laODBYaXZxQ3BvMG9LdWlGd19ULUpfWUVXNHlqZ3BYYnJhRlpZWlgwVUxCNy1PeTQ1akcta25EOV9FUWlCYWhsRG5PVW9nZTBCU1N3ZW1iV20wTjh2T25lczlOQUw3TGVubVU2RVpSYmJGdDRpU05LRzFtMjBCOW9rUkVQbVJQTHJfLWJvRXI4QThhaXFKSjhlRzdBd9IBxAFBVV95cUxNVkF1WG1SRXRwZ0JsX3RJNWJVVmlKTG8tX0NyQm5qa2JJTG9UWlVrT24xYnVSZFpMNkZMSzNGMGExTDFDaDdHV3F6X2FncGg2azFrMk9vSXdmQU82a3lETldrRDBCQlg0c05Na1MxM1VXR3cyT01DczhpWncycnJwdVVjRzEwRG55dDRjNndEUWRIWk00NUFDYnQ2UlhIbFJiUXpjNXlJa0ZOa09jdUpHTEhDSVVubEliZmtpaHZ5NlV0UFBf?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-18T09:15:08+00:00"
-    },
-    {
      "title": "Tarifaço: quais os riscos e ganhos se o Brasil adotar a reciprocidade? Entenda o que está em jogo",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/18/tarifaco-os-riscos-e-ganhos-de-o-brasil-adotar-a-reciprocidade.ghtml",
      "source": "G1 Agronegócios",
@@ -505,6 +511,12 @@
      "published_at": "2026-07-17T20:39:52"
     },
     {
+     "title": "Brasil deve colher safra recorde de soja em 2026/27, mas El Niño ameaça produtividade - G1",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWEt1ZEItZThWVHh2bHB2OThtZ2F3X2hhRmpvNHJpTGE4bWw4aE12V01SVjZaTUtUQ2k0UUFUd1hOSWxSZEs5bmFrVHpMeG5ELU1nRGlMZHQycFZrTWo5Z29yTGc3bHdtYXYtVEZ0aWFPdVM5Yi12cks4ZjhEYUhzU1FVUERuQUl6UHdjVlY5ZlVtVnhfaTVqb0VSSWdlWE9iajhMT3NNbTQxMkdNSklnY1RvNnBkeDZQeXh3R3I1WGFINHhpc0NtVkFVWk5UeldWSzJYTFF3YjU4MHBFbnNsMlBERHdtd9IB9AFBVV95cUxQb0o4YjBWT19FN3VrRk1Jb2s0ZWJEYlJQZHNfRk8zby1QQTlCNTNkRmhpRGxaTGhCM3Mwd1ZWWlRXNXg1cGtxT2FybGtFVGZjQlg4SElyU3AzQ2t2R1BmMWJzSVpWdnJ1dldRZTF1enl4SmpPdFNERTVfSndEYVpBNUs2bWNLakkyOWFseVczZm9BNlpEMnRzTmNlTXBKXzFoQ0d0dmxTUU8xRUlxTDItUXE4M3BKdGJ6RFZhUmItQlhZMm9ERFk5LW5idnY1b25kU2w0VFU4VUYwaW43V2hGQkEyalBDOHUxREJjckNVRW9oRDNN?oc=5",
+     "source": "G1",
+     "published_at": "2026-07-17T17:09:35+00:00"
+    },
+    {
      "title": "Brasil deve colher safra recorde de soja em 2026/27, mas El Niño ameaça produtividade",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/17/brasil-deve-colher-safra-recorde-de-soja-em-202627-mas-el-nino-ameaca-produtividade.ghtml",
      "source": "G1 Agronegócios",
@@ -521,6 +533,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/07/17/como-cultivar-urucum.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-17T14:33:54"
+    },
+    {
+     "title": "USDA informa novas vendas de mais de 700 mil t de soja nesta 6ª feira (17) - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOenYwcDMxeVFXd3ctQnkxVmlzbXJCM2x0QVVZZlZYU1RpdEV0c0tmWktyLWxuTFJuS2V4Wjgwam5MbzZ3WVZwd2xtZDl0Qk9vMzYtZXozc3hUMVQwaWxsOG5Cc2o0aDE0SUlDV0pxcXg5b2NlSGxJRXNLclkySkUyWG5QVDBjNkVRV0JmcW50NzZtZmtDNHhMWnBNU1BOTTFiUmtaeV9MbTdFNE9GZXFoWTEyd3BOUlFsWHRLOEZwd09lVmVXbHotaEg4Y2dKUDDSAdQBQVVfeXFMTnRrSHY0dUFRRV9hMGtlc1pCQWo3YmxNNjlxU2hqR0REZ1VURHh1VG9xWmxiLXVVd2tLTDRpaV90MFF0SjVTTFdoTkpla3V3YnozNXdVdHhmR2FmQWhKbmdheTNZZzFEU2NyZElta0dNT3ZUQUIxd1E5bC01ZlJ5UXozblBmZmNvQjNlVW9RWWRKbnBDQzVBckh3YzJVSGptQzhzYnIzN3ZUcmJZODc1dDRSeTNxNkZMcVBTSkxiRllZQ1pKLW9lNTBoVG1lSjBNX3A5SzM?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-17T13:45:47+00:00"
     },
     {
      "title": "Soja caminha de lado em Chicago nesta 6ª feira, após semana de forte volatilidade - Notícias Agrícolas",
@@ -547,28 +565,10 @@
      "published_at": "2026-07-16T20:18:21"
     },
     {
-     "title": "Fim da Moratória da Soja pode aumentar desmatamento em 17% na Amazônia, diz estudo - Capital Reset",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOWdsRzNPT1cxVDFOUURxV19xOFdYSWFZTnNIVlN0YU1xQTlaUjN0aF9aYkpRamY0Znl1TDdXRVA3YXJBUWluckRGSTd3ZHZOLUFweHQtdV95T1dTdzRDM1h5dld2RjAwTHNxdU5yQm54cUhXb2h0bVFtRC1KRnFCRWlqRTRmV3BEdFJpc19VSkxwaVNPVTdhazF3b3BrZUo2dmR1cmVDYWlKb2lhbTBkQmtLU1RMckZEazZoQWFBTmh0X1U?oc=5",
-     "source": "Capital Reset",
-     "published_at": "2026-07-16T19:21:26+00:00"
-    },
-    {
      "title": "Exportadoras dizem que carne brasileira pode não conseguir atender exigências da UE sobre antimicrobianos",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/exportadoras-dizem-que-carne-brasileira-pode-nao-conseguir-atender-exigencias-da-ue-sobre-antimicrobianos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-16T18:05:57"
-    },
-    {
-     "title": "Veja quais dos 50 produtos brasileiros mais exportados aos EUA passarão a pagar a nova tarifa de 25%",
-     "link": "https://g1.globo.com/economia/noticia/2026/07/16/veja-quais-dos-50-produtos-brasileiros-mais-exportados-aos-eua-passaram-a-pagar-a-nova-tarifa-de-25percent.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-16T14:00:36"
-    },
-    {
-     "title": "Tarifaço de Trump: veja a lista de produtos que ficaram isentos e os que serão impactados pela nova taxa",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/tarifaco-de-trump-veja-a-lista-de-produtos-que-ficaram-isento-da-nova-tarifa-de-25percent.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-16T10:40:30"
     }
    ],
    "failed": [

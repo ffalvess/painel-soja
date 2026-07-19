@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-19T13:03:07+00:00",
+ "generated_at": "2026-07-19T14:49:40+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-19T13:03:00+00:00",
+   "updated_at": "2026-07-19T14:49:34+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -216,7 +216,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-19T13:03:00+00:00",
+   "updated_at": "2026-07-19T14:49:34+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -227,7 +227,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-19T13:03:04+00:00",
+   "updated_at": "2026-07-19T14:49:37+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -388,8 +388,32 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-19T13:03:07+00:00",
+   "updated_at": "2026-07-19T14:49:40+00:00",
    "items": [
+    {
+     "title": "O papel do sojicultor além de proteger a lavoura: o combate aos incêndios é essencial para preservar as florestas - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOYTEtSzBJaE9ySEdUWlNTRXFod3NDT0RsLXBjSjZXWHo1UUtRVnlwZlhMQWJTNERyNW1uTzY3NzJRNzNJQTAxc0xZelVJVkhhSldnQXJhcER3Y0lXdWE3alR5X3R1Q3VyRXgyc1YtRWlQQjNXbjdRVUVYemttZWlMY0t2U0NOTDdQNmJ3dzBLbGdmQVZRc1NTdnlyZDhJcmZYdWpta0VvUVo4eG1Ial9Odml6SGpPNnJjUldGMGVuQUNiLXhWalpHSHRHNjBESXgwMUNYVDNXMUljdm1hTHc5MjRrc0dGNWpLQUZHNUJxMXdwejlmLXljZjNYMEZOMXpkbTJFbDN2X2ZiQTNxN3c?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-19T13:45:42+00:00"
+    },
+    {
+     "title": "Soja e pecuária sustentam VBP de R$ 1,4 trilhão em 2026 - RADAR DIGITAL BRASÍLIA",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTTVIQ2VfTU1PbG9SQ3NCc3FSVThNUjJkZXo4b2ZlZExtbjRKUUtIVUNLbTRVancyVjR2ek1pbHF0LTR4WEMxT01McE8xWVRkQUNhdlNJUWI0cHY2UWR3elZ0X2NRSlJYR1hnSmJlcTV0VmlKdGluX3NIOE9VdW5GdFRmclRPQ0U2VHRJMG9YbTdhWE9KMUlRdHJRZjkwY0FpRnNGXw?oc=5",
+     "source": "RADAR DIGITAL BRASÍLIA",
+     "published_at": "2026-07-19T13:36:17+00:00"
+    },
+    {
+     "title": "Soja e pecuária sustentam VBP de R$ 1,4 trilhão em 2026 - Ponta Porã Informa - Notícias de Ponta Porã - MS e - Ponta Porã Informa",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTGZyb0N4VVRxQ0cybW5MTllwUkhtTUVUQlZ0d0FxQ1ZXSVEzNzFFN2dOYTVkUDFqS01MeUJjekpzaVZSeEJxSzdTcHNoSjlDY09INUYtMzItRlVmazJtRHl5Y1lUSEJWWTQ4eUEyYU9zajRlYXRoYWxfel91TjlvTU5aRkZwOU50ay1CNkhQd0s3T0J60gGaAUFVX3lxTE1va3FPNXRiNllqbVRyNFR2TXYzb3p4b2Q2cjhFN19UNFpwRXpickR5WU1xcW9fLUo4RWRkcHMzWm8zaHhRZFdRV0pmNWFCUE9YZ0xzX2lfM0p0b1lVbDF4T2hTOGd4Z0cycjA4akh1OWt2R3E3SnlmNy1hQTlDanZBMG52UUdDQmZtdWtPWFdYZUliT3dtazhBNHc?oc=5",
+     "source": "Ponta Porã Informa",
+     "published_at": "2026-07-19T13:30:08+00:00"
+    },
+    {
+     "title": "Aprosoja/MS lança aplicativo para monitorar preços da soja e do milho - capitalnews.com.br",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOW9PYWkxV1BYckhTckgwbjJGa1FTcjV4QlhxYV85RVZ3bzNVMXFRd1NiTjlzbXg1MUp6MTNCYmRLYzlsTk13VmZKamp5WVZaNzN1Q3QtN3RpUDhLbmpySERoZ3ZxLTU2TDk1QlFfVTV6eE9MUmtZN0llOGlrb1o1Qjg3RDdUMVBLWVNDX3lwRU5HS2tEbmtkd0N1eHZUQWtpSDF4ejhIeUtMamYtX3ZLRmZ3?oc=5",
+     "source": "capitalnews.com.br",
+     "published_at": "2026-07-19T12:59:00+00:00"
+    },
     {
      "title": "Fungo benéfico reduz impacto da principal doença da pupunheira, aponta pesquisa",
      "link": "https://www.canalrural.com.br/agricultura/fungo-benefico-reduz-impacto-da-principal-doenca-da-pupunheira-aponta-pesquisa/",
@@ -493,18 +517,6 @@
      "published_at": "2026-07-18T16:04:00+00:00"
     },
     {
-     "title": "Crédito rural somou R$ 92,4 bilhões em imóveis com alertas ambientais, diz MapBiomas",
-     "link": "https://www.canalrural.com.br/economia/credito-rural-somou-r-924-bilhoes-em-imoveis-com-alertas-ambientais-diz-mapbiomas/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-18T14:46:01+00:00"
-    },
-    {
-     "title": "Indústria espera reação nas vendas de insumos para a soja - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOHkxWnpPZWJxeUdnZl9rcUYzZUdqX2E5bmNuaW41R1lSVTlzVGpudDZ0dnpielpXNmphUjRLSFVka3NoREpVaF9ET0NuNHgxRjJlRFNteVdHajF3blJEYTR5WUlvU2NXcEZwX2dUZmFEUjBHTXl4RGxlRjlDa2U1TmtRRm43YzZFOGtuSWFtTzBKd1pZMXJBT3hxUWhKTVVSakdQcHk2N1JOcjhBenNJMEpWYnFrdjlhWFRVUEhHVHdXT2fSAdIBQVVfeXFMT3E0WW56NFJ5TC1NUWg3NnJpdE56Q3FKRnl6enJBQXlMQkhzT2p6YUdfWEw3U3FZQ2loTE5PcUZVSnZucDdBUDl2VmM4WVlVbld4SXcxM3FHLXFMOC1CenRKZlIyZlN0bWRFWVBLWnlxMERKbGJmcXBqT1V3UzRWY1U1R0RTdU1qaGQ4dXJVY3k5SUx4WHJUSnRGTkpYVWpRTl9zV3hWRF9FOWdvTnp1a0R5UmViX0xTWEQ2ODlVM3laSk5TOFdjUmdRakJXV0pWODRB?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-18T09:30:12+00:00"
-    },
-    {
      "title": "Tarifaço: quais os riscos e ganhos se o Brasil adotar a reciprocidade? Entenda o que está em jogo",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/18/tarifaco-os-riscos-e-ganhos-de-o-brasil-adotar-a-reciprocidade.ghtml",
      "source": "G1 Agronegócios",
@@ -521,12 +533,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/17/consumidores-de-acucar-dos-eua-pedem-que-governo-permita-mais-importacoes-com-tarifas-reduzidas.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-17T20:39:52"
-    },
-    {
-     "title": "Soja sobe em Chicago nesta 6ª feira com óleo avançando quase 3%; preços no Brasil dão oportunidade - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNeGxVY3diU1lzY25neWh5a3NuTmVnd2F3UjhPdkRwMFpxcHZMYnJaMDliSmk2ajZIUTdoMGRFTUhJOFRIN2FZRnZ0NVkxbTdKQno0Z2pzejNjVml0c2pMdXpwalNFWkFqa25IaC02bUpERllCQk53cm9qcklKaW5mTUpob0l0Q29qTlBqeVVmaVZXWE90THhsSmFPVzUwYjRYVVlFRWFtZkF5VDQtZmVfRVlDUHFGMU95S3dJV1BPSE5wTlhTRHNYcjhIQlNpQjB1c3dqQ09XN1hKcTZnYlV1UnBSd1prczFKdGM2UWlURdIB9AFBVV95cUxPYlh4b2R2SGdZZUhETXRkVWJOTUc2WmxIYWxhelMweU4yRGY2NFpmTElxUnl2ajhuVVlqaUhqZXEzTkZscjMxSFByRnk4QTRwMmFJaGJJZEg1MG5aalB3T0xOQ3lycXNPWFd5SWV2MlpjUkRQeGdqX2syY2NnSzA1SzQwMzl2UEVhNTdxZE9YUV9VV19TRFNXM05XVHNxQndkSDZVVVVDTlJYMFdIc2NhUnJJaHNMRWlzOUJuQS1pMjBxQjBYUjFmREZLcW1qLXdieTVvQVp3eDBCY2tPcEtFRTQ2RXJQLXhVcVJQNTJrY1BIM1BY?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-17T17:12:27+00:00"
     },
     {
      "title": "Brasil deve colher safra recorde de soja em 2026/27, mas El Niño ameaça produtividade - G1",
@@ -553,22 +559,16 @@
      "published_at": "2026-07-17T14:33:54"
     },
     {
-     "title": "Produzindo Certo Mira 10% da Soja Regenerativa com Apoio Britânico até £ 500 Mil - Forbes Brasil",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaC0xbmFZU1R5UHJLRkNFczdEaFBpdzdHN3ZoaG9uZk1USWR2VFl6dGhOcE1Fd2gzdk91akJkTHlhd1ZSZ25OT1dGTGxKQTU5cW9yb2xtb1RWMEcwNEVRZVdiQ3BjeTlHYVgwMk9pLVd6RVV6MEtTV3ozXzJVU2VTVzY2N2tIWmt0OXNIOTYxaDBQRGhmcFc0ODNDVUxSNFd4cDg2ZVd1UzA3ZGotc2t2OE8wS0otNWtwMENpMg?oc=5",
-     "source": "Forbes Brasil",
-     "published_at": "2026-07-17T08:00:00+00:00"
+     "title": "Soja caminha de lado em Chicago nesta 6ª feira, após semana de forte volatilidade - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMmlJYW1YTUJJeE1rTXpCN18xWTVuYjEwVV9Ya0I0SlcyNTNiNWx5UjZJNkJET0xQclZud0tyc2p3UjJrZzBsZGM0WFdhUDZBY2pwQ05sa1pxeFV2cjlSVHNxSldKTURNdzVId1RwUHB4TWpRMlBIVlB1WlUyODA4R05xYldiemlYOHVlZVFEa1ZGZ01Bd0dvSGx4THJldGZfN01XV2RoZ1NBd2k3UjVHQU4xZUNKQ01sZXozT2J5TjMyaDBrVi1Ya2FKSXo0UERiNEdNZzJISnVTQdIB3wFBVV95cUxPOHdRajRNOXFOaE9PX3BLNnRUd1VrT1dxcVFMVzREMjRDX2E3NDFxWXZXSFcyWWlLSFhSTloxUXNYcERmWGJmVUhKcXNJTjdrVDlDcDY1SkdBS0d6NEtXQkVQa3VUYkZTSWtpdjZGUFpPSXE2QldIRzZMWXRLRkxoUFd0NXZWWVRZei1RVlFLU2JBdjJTV2RQdlM5OFYyd3M5dHhUVXFqMVNzYmczeDJkZTJNczlWUGVRRVJFenI5R3RKSFlrS2NtYU0yYnliajdCNDJ1YVNUSEY4S3pTdjRR?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-17T10:38:15+00:00"
     },
     {
      "title": "Estudo na Science aponta que fim da Moratória da Soja pode desmatar 1,4 milhão de hectares na Amazônia, o equivalente a 2 milhões de campos de futebol - greenpeace.org",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYWlnSk9RRzRUdGJ4RnozSmc3WWJJdFI2d1N5N1Z4bEw4VzVMaUZjcVIxWFE5ZkJwM04wODJ5bVlGRUpZLVR2TllmckdTLWNrVllpdjJJX2VGNE14ZGRfcExaRVM5cTQzN3dKMkR4VWxWOTB5X2JvakhscnJGYURNaVZzMzg?oc=5",
      "source": "greenpeace.org",
      "published_at": "2026-07-17T07:09:12+00:00"
-    },
-    {
-     "title": "Setor de açúcar e etanol reage a tarifa dos EUA e diz que medida de Trump ignora realidade do mercado",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/16/as-tarifas-dos-eua-sobre-o-brasil-sao-uma-pilula-amarga-para-os-produtores-de-acucar-e-etanol.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-16T20:18:21"
     }
    ],
    "failed": [

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-19T21:44:38+00:00",
+ "generated_at": "2026-07-19T22:44:32+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-19T21:44:31+00:00",
+   "updated_at": "2026-07-19T22:44:24+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -153,9 +153,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.1,
-     "prev_close": 84.23,
-     "change_pct": 4.59,
+     "price": 90.86,
+     "prev_close": 88.1,
+     "change_pct": 3.13,
      "closes": [
       77.9,
       77.08,
@@ -175,7 +175,8 @@
       84.73,
       84.95,
       84.23,
-      88.1
+      88.1,
+      90.86
      ]
     },
     {
@@ -216,7 +217,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-19T21:44:31+00:00",
+   "updated_at": "2026-07-19T22:44:24+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -227,7 +228,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-19T21:44:35+00:00",
+   "updated_at": "2026-07-19T22:44:28+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -388,8 +389,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-19T21:44:38+00:00",
+   "updated_at": "2026-07-19T22:44:32+00:00",
    "items": [
+    {
+     "title": "El Niño 'superpoderoso' ameaça safra de soja 26/27? Consultoria faz alerta - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQQVhUZXdSckcxR3lsXzZINmZJZXRpT09ZemFveGx5ZTlJdlEwN3ZQb0VnSWs4aExaRkdKV21LT3lIbHE3VGc4NmJobUVnMjdiQU91VHhtaDJhcWRDS1dhRXNlSHpaTHB3WHQxaTBPaHZybWVvTUJYRzc5MUNmbEplXzdaYzhDbjJSSGdzT1pyR1IyeENpTDJwS2swM2ZFdENvVlNjcTA0cXRvMC1adzhyNExNaWpDRWNQQWpsZkJzbXJCdW90RzdXcFFubXRsU0NZenJMbWp2cWwwUWNsQWZDcG9zYzRFYVZKSDNwMnpsSG56SUEwSEZSNlNSUE9PVWd2bk0tTWhtNGo?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-19T22:01:00+00:00"
+    },
+    {
+     "title": "El Niño ‘superpoderoso’ ameaça safra de soja 26/27? Consultoria faz alerta",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/el-nino-pode-comprometer-a-safra-de-soja-26-27-consultoria-alerta-para-riscos-climaticos-do-fenomemo-superpoderoso/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-19T22:01:00+00:00"
+    },
     {
      "title": "Senar lança trilha de aprendizagem gratuita sobre IA aplicada ao agro",
      "link": "https://www.canalrural.com.br/agricultura/agronegocio/senar-lanca-trilha-de-aprendizagem-gratuita-sobre-ia-aplicada-ao-agro/",
@@ -505,12 +518,6 @@
      "published_at": "2026-07-18T22:05:38+00:00"
     },
     {
-     "title": "O Brasil está sob ataque! É hora de união nacional",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/o-brasil-esta-sob-ataque-e-hora-de-uniao-nacional/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-18T22:01:14+00:00"
-    },
-    {
      "title": "Indústria espera reação nas vendas de insumos para a soja - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOHkxWnpPZWJxeUdnZl9rcUYzZUdqX2E5bmNuaW41R1lSVTlzVGpudDZ0dnpielpXNmphUjRLSFVka3NoREpVaF9ET0NuNHgxRjJlRFNteVdHajF3blJEYTR5WUlvU2NXcEZwX2dUZmFEUjBHTXl4RGxlRjlDa2U1TmtRRm43YzZFOGtuSWFtTzBKd1pZMXJBT3hxUWhKTVVSakdQcHk2N1JOcjhBenNJMEpWYnFrdjlhWFRVUEhHVHdXT2fSAdIBQVVfeXFMT3E0WW56NFJ5TC1NUWg3NnJpdE56Q3FKRnl6enJBQXlMQkhzT2p6YUdfWEw3U3FZQ2loTE5PcUZVSnZucDdBUDl2VmM4WVlVbld4SXcxM3FHLXFMOC1CenRKZlIyZlN0bWRFWVBLWnlxMERKbGJmcXBqT1V3UzRWY1U1R0RTdU1qaGQ4dXJVY3k5SUx4WHJUSnRGTkpYVWpRTl9zV3hWRF9FOWdvTnp1a0R5UmViX0xTWEQ2ODlVM3laSk5TOFdjUmdRakJXV0pWODRB?oc=5",
      "source": "Globo Rural",
@@ -557,12 +564,6 @@
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOenYwcDMxeVFXd3ctQnkxVmlzbXJCM2x0QVVZZlZYU1RpdEV0c0tmWktyLWxuTFJuS2V4Wjgwam5MbzZ3WVZwd2xtZDl0Qk9vMzYtZXozc3hUMVQwaWxsOG5Cc2o0aDE0SUlDV0pxcXg5b2NlSGxJRXNLclkySkUyWG5QVDBjNkVRV0JmcW50NzZtZmtDNHhMWnBNU1BOTTFiUmtaeV9MbTdFNE9GZXFoWTEyd3BOUlFsWHRLOEZwd09lVmVXbHotaEg4Y2dKUDDSAdQBQVVfeXFMTnRrSHY0dUFRRV9hMGtlc1pCQWo3YmxNNjlxU2hqR0REZ1VURHh1VG9xWmxiLXVVd2tLTDRpaV90MFF0SjVTTFdoTkpla3V3YnozNXdVdHhmR2FmQWhKbmdheTNZZzFEU2NyZElta0dNT3ZUQUIxd1E5bC01ZlJ5UXozblBmZmNvQjNlVW9RWWRKbnBDQzVBckh3YzJVSGptQzhzYnIzN3ZUcmJZODc1dDRSeTNxNkZMcVBTSkxiRllZQ1pKLW9lNTBoVG1lSjBNX3A5SzM?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-17T13:45:47+00:00"
-    },
-    {
-     "title": "Agtech da Soja Regenerativa mira 10% da produção do Brasil com Apoio Britânico de R$ 3,45 milhões - Forbes Brasil",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaC0xbmFZU1R5UHJLRkNFczdEaFBpdzdHN3ZoaG9uZk1USWR2VFl6dGhOcE1Fd2gzdk91akJkTHlhd1ZSZ25OT1dGTGxKQTU5cW9yb2xtb1RWMEcwNEVRZVdiQ3BjeTlHYVgwMk9pLVd6RVV6MEtTV3ozXzJVU2VTVzY2N2tIWmt0OXNIOTYxaDBQRGhmcFc0ODNDVUxSNFd4cDg2ZVd1UzA3ZGotc2t2OE8wS0otNWtwMENpMg?oc=5",
-     "source": "Forbes Brasil",
-     "published_at": "2026-07-17T08:00:00+00:00"
     },
     {
      "title": "Estudo na Science aponta que fim da Moratória da Soja pode desmatar 1,4 milhão de hectares na Amazônia, o equivalente a 2 milhões de campos de futebol - greenpeace.org",

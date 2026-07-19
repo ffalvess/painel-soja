@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-19T14:49:40+00:00",
+ "generated_at": "2026-07-19T15:52:16+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-19T14:49:34+00:00",
+   "updated_at": "2026-07-19T15:52:07+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -216,7 +216,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-19T14:49:34+00:00",
+   "updated_at": "2026-07-19T15:52:07+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -227,7 +227,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-19T14:49:37+00:00",
+   "updated_at": "2026-07-19T15:52:12+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -388,8 +388,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-19T14:49:40+00:00",
+   "updated_at": "2026-07-19T15:52:16+00:00",
    "items": [
+    {
+     "title": "China amplia demanda e Brasil terá disputa maior pela soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQREFhTE9YMUkxV1BtR0c3eWxXbGFBTmNvMDNxRHBkTFM2TUhCa1F3MWNCY2YtMmJhTEFaUW9kTjQ5eTR5RThPcE1TamtRVURob3hpc1pucDdwUUYyWWdoamRIeFg0aHVEdkMxYjA5ZnlONUpVZUZ3RTd1Z284Tk5YRWhYVjI2QTlxSXR5WUZSdHdGckE4NlVadF9Na0J5SnVDYTctdzlXRjBvTEk?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-19T15:01:00+00:00"
+    },
+    {
+     "title": "Irrigação de pastagens: quando o investimento traz retorno ao pecuarista?",
+     "link": "https://www.canalrural.com.br/pecuaria/irrigacao-de-pastagens-quando-o-investimento-traz-retorno-ao-pecuarista/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-19T14:44:00+00:00"
+    },
+    {
+     "title": "Nova geografia; Soja e milho redefinem o mapa de MT - Gazeta Digital",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQLTlMVmE4azViaVJPaWswZkM5ZmNkSEFvMzllM3RTYWtETGpocUFqU05Cci1JRG16aVNDMWpnSzFZVmlIdGJmZjRKaE93bzk5VER1YUd5dFE0Snk4NVIzSTduLUpGa0lFbmphMlgwbzJpenBtTFp6UV9oaUx2YmNhbk94TjVSR1VJZGdYeGV6bWlRRUZFU3NUVHdvMVd0T3I3M3hIOS1VZmdvQnpiekE?oc=5",
+     "source": "Gazeta Digital",
+     "published_at": "2026-07-19T14:30:00+00:00"
+    },
     {
      "title": "O papel do sojicultor além de proteger a lavoura: o combate aos incêndios é essencial para preservar as florestas - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOYTEtSzBJaE9ySEdUWlNTRXFod3NDT0RsLXBjSjZXWHo1UUtRVnlwZlhMQWJTNERyNW1uTzY3NzJRNzNJQTAxc0xZelVJVkhhSldnQXJhcER3Y0lXdWE3alR5X3R1Q3VyRXgyc1YtRWlQQjNXbjdRVUVYemttZWlMY0t2U0NOTDdQNmJ3dzBLbGdmQVZRc1NTdnlyZDhJcmZYdWpta0VvUVo4eG1Ial9Odml6SGpPNnJjUldGMGVuQUNiLXhWalpHSHRHNjBESXgwMUNYVDNXMUljdm1hTHc5MjRrc0dGNWpLQUZHNUJxMXdwejlmLXljZjNYMEZOMXpkbTJFbDN2X2ZiQTNxN3c?oc=5",
@@ -451,12 +469,6 @@
      "published_at": "2026-07-19T07:01:20"
     },
     {
-     "title": "Safra recorde da soja faz preço do óleo cair mais de 10% em 2026 - R7",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNWhNQVRkdWpHWjZlVWZkZ1VScEVFNzIwZjNxa0RFcWhZWk80RDJoV3FnXzg3alM0S0RjYnNCWC1mYnhXY25OQUdrTmswMnlxSmxwNE51NGxaZUNfS0FqaWYtZnR5OUVWaU5pajdGSlJzMzhaWk9PNGNlY0liNWZrdExLUHFpci03OF85MDlfUWNxNDBzSHBGZE5TbFB3LW5FMHpFV2lxVld5YnYwbm5yWG93?oc=5",
-     "source": "R7",
-     "published_at": "2026-07-19T02:45:22+00:00"
-    },
-    {
      "title": "Arroba do boi cresceu na semana, mas movimento vai se sustentar? Analistas respondem",
      "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-cresceu-na-semana-mas-movimento-vai-se-sustentar-analistas-respondem/",
      "source": "Canal Rural",
@@ -493,12 +505,6 @@
      "published_at": "2026-07-18T18:10:06+00:00"
     },
     {
-     "title": "Alta nas cotações da soja melhora cenário para comercialização em MS - diariodigital.com.br",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTzd6X0hjLVFQT3JXbUVkSXRjMmQ2SkN5UDg3R01zRHNjNE56VTRKelF3UTZVZHVnX1hfaVdsaURmU2tKY09VUlZ5ak02Qm14am05dS1XZk4xOEt1YkhuSmNKZWFqNEhhRzY4QkFtUXpTUE1OWk9mWXRZWGtjUURPTUh3YnFXSnJpempmNUU4cVFQQnVsamJTalc4X3VvWUVPZGhRWWVqN01RUDJnQUlv0gGvAUFVX3lxTE5GTUswbVN2alZyMDd5RUh2WlNxLS1mREZGd1huYi1SZHo3d2R4c1dSTTdkZVVqYmZlaGROOUwwbjAzM3NMM2Y3TGpCX1A5Vm9Ha1FSV2hBTDh4aVpyMDNxUFdmNVA1Ynp5Yi05Y2ktRXV4MjdTY0V5a2NfdGh5S0xEeG5KdUptR1NYS3BPMnpWb0lPOUZiaHppdjdtMGVqVEVKYmNiQ3hzbklMNXJZb0U?oc=5",
-     "source": "diariodigital.com.br",
-     "published_at": "2026-07-18T17:00:00+00:00"
-    },
-    {
      "title": "Você viu? Produtor gaúcho diz precisar de 54 sacas de soja por ano só para pagar dívidas - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcldRbjBPcjNiM085VE5oVVI4MG9xNGc0TzZfdFI3R1hZV0hKZlljUnBGaklvcGN4eXVkUnh4dU56c3Fyemg5TzFEZ0tQRzdxV3NiOEhyWTZLdDhId1ltcjAxN3BESUdfc0FvUnJfanRWeEctT3BNSUg0aHdYZHJVWWVQak1TaXNqcHlKY3Zuc3RVbmRsUnRpa3FodnZwMkJMX2pRdjdEa284MzZ3X1lnRnRVNG1BNkJleXd6Z2pWUGdmUHQwa3BRd3F3?oc=5",
      "source": "Canal Rural",
@@ -509,12 +515,6 @@
      "link": "https://www.canalrural.com.br/agricultura/voce-viu-produtor-gaucho-diz-precisar-de-54-sacas-de-soja-por-ano-so-para-pagar-dividas/",
      "source": "Canal Rural",
      "published_at": "2026-07-18T16:36:29+00:00"
-    },
-    {
-     "title": "Abacate gigante chama atenção no Espírito Santo e quase bate recorde mundial",
-     "link": "https://www.canalrural.com.br/espirito-santo/abacate-gigante-de-24-kg-chama-atencao-no-espirito-santo-e-quase-bate-recorde-mundial/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-18T16:04:00+00:00"
     },
     {
      "title": "Tarifaço: quais os riscos e ganhos se o Brasil adotar a reciprocidade? Entenda o que está em jogo",

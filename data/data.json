@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-19T20:07:12+00:00",
+ "generated_at": "2026-07-19T21:44:38+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-19T20:07:04+00:00",
+   "updated_at": "2026-07-19T21:44:31+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -216,7 +216,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-19T20:07:04+00:00",
+   "updated_at": "2026-07-19T21:44:31+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -227,7 +227,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-19T20:07:09+00:00",
+   "updated_at": "2026-07-19T21:44:35+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -388,8 +388,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-19T20:07:12+00:00",
+   "updated_at": "2026-07-19T21:44:38+00:00",
    "items": [
+    {
+     "title": "Senar lança trilha de aprendizagem gratuita sobre IA aplicada ao agro",
+     "link": "https://www.canalrural.com.br/agricultura/agronegocio/senar-lanca-trilha-de-aprendizagem-gratuita-sobre-ia-aplicada-ao-agro/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-19T21:03:37+00:00"
+    },
     {
      "title": "Consultor aponta avanço da área de soja, algodão e feijão, enquanto trigo, arroz e milho de verão devem perder espaço - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNZXJCRVNRTHFZOEtCTkdSUnd1NUFQZjNVWHJWbmEzWndYVjBFUzFVbE82bVNVQ2doNGVzZzZlS2VLUS1GN0tZS1ItLTY4MTk4S3dMU0FkNnRiVERwZTB2ZXM2OXktaXFIUTQ2MFZGUWh6UWl1a3U2N2ltUl9HXzgtRHpYa2NSNGJnWHR6ZkxMbF9oRXYtUC0xLXY5cVlNVUt2bnVCeEgwb25yVUNyUkkyQTJZNHFSSURRR1FxWG5DN2dIb1o4RGc2dmFsYko1cHpzX1BrM29fdVhMLUJjZ3JPZnkyb1JuXzdlMnNDRjNKTHRyZV8zMkl6cDJaaHJSS3gxbGk4aURRbzc?oc=5",
@@ -505,16 +511,10 @@
      "published_at": "2026-07-18T22:01:14+00:00"
     },
     {
-     "title": "Avião de pequeno porte cai em área rural e mata dois passageiros",
-     "link": "https://www.canalrural.com.br/nacional/aviao-de-pequeno-porte-cai-em-area-rural-e-mata-dois-passageiros/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-18T20:37:09+00:00"
-    },
-    {
-     "title": "Você viu? Produtor gaúcho diz precisar de 54 sacas de soja por ano só para pagar dívidas - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcldRbjBPcjNiM085VE5oVVI4MG9xNGc0TzZfdFI3R1hZV0hKZlljUnBGaklvcGN4eXVkUnh4dU56c3Fyemg5TzFEZ0tQRzdxV3NiOEhyWTZLdDhId1ltcjAxN3BESUdfc0FvUnJfanRWeEctT3BNSUg0aHdYZHJVWWVQak1TaXNqcHlKY3Zuc3RVbmRsUnRpa3FodnZwMkJMX2pRdjdEa284MzZ3X1lnRnRVNG1BNkJleXd6Z2pWUGdmUHQwa3BRd3F3?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-18T16:36:29+00:00"
+     "title": "Indústria espera reação nas vendas de insumos para a soja - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOHkxWnpPZWJxeUdnZl9rcUYzZUdqX2E5bmNuaW41R1lSVTlzVGpudDZ0dnpielpXNmphUjRLSFVka3NoREpVaF9ET0NuNHgxRjJlRFNteVdHajF3blJEYTR5WUlvU2NXcEZwX2dUZmFEUjBHTXl4RGxlRjlDa2U1TmtRRm43YzZFOGtuSWFtTzBKd1pZMXJBT3hxUWhKTVVSakdQcHk2N1JOcjhBenNJMEpWYnFrdjlhWFRVUEhHVHdXT2fSAdIBQVVfeXFMT3E0WW56NFJ5TC1NUWg3NnJpdE56Q3FKRnl6enJBQXlMQkhzT2p6YUdfWEw3U3FZQ2loTE5PcUZVSnZucDdBUDl2VmM4WVlVbld4SXcxM3FHLXFMOC1CenRKZlIyZlN0bWRFWVBLWnlxMERKbGJmcXBqT1V3UzRWY1U1R0RTdU1qaGQ4dXJVY3k5SUx4WHJUSnRGTkpYVWpRTl9zV3hWRF9FOWdvTnp1a0R5UmViX0xTWEQ2ODlVM3laSk5TOFdjUmdRakJXV0pWODRB?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-18T09:30:12+00:00"
     },
     {
      "title": "Tarifaço: quais os riscos e ganhos se o Brasil adotar a reciprocidade? Entenda o que está em jogo",
@@ -533,12 +533,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/17/consumidores-de-acucar-dos-eua-pedem-que-governo-permita-mais-importacoes-com-tarifas-reduzidas.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-17T20:39:52"
-    },
-    {
-     "title": "Brasil deve colher safra recorde de soja em 2026/27, mas El Niño ameaça produtividade - G1",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWEt1ZEItZThWVHh2bHB2OThtZ2F3X2hhRmpvNHJpTGE4bWw4aE12V01SVjZaTUtUQ2k0UUFUd1hOSWxSZEs5bmFrVHpMeG5ELU1nRGlMZHQycFZrTWo5Z29yTGc3bHdtYXYtVEZ0aWFPdVM5Yi12cks4ZjhEYUhzU1FVUERuQUl6UHdjVlY5ZlVtVnhfaTVqb0VSSWdlWE9iajhMT3NNbTQxMkdNSklnY1RvNnBkeDZQeXh3R3I1WGFINHhpc0NtVkFVWk5UeldWSzJYTFF3YjU4MHBFbnNsMlBERHdtd9IB9AFBVV95cUxQb0o4YjBWT19FN3VrRk1Jb2s0ZWJEYlJQZHNfRk8zby1QQTlCNTNkRmhpRGxaTGhCM3Mwd1ZWWlRXNXg1cGtxT2FybGtFVGZjQlg4SElyU3AzQ2t2R1BmMWJzSVpWdnJ1dldRZTF1enl4SmpPdFNERTVfSndEYVpBNUs2bWNLakkyOWFseVczZm9BNlpEMnRzTmNlTXBKXzFoQ0d0dmxTUU8xRUlxTDItUXE4M3BKdGJ6RFZhUmItQlhZMm9ERFk5LW5idnY1b25kU2w0VFU4VUYwaW43V2hGQkEyalBDOHUxREJjckNVRW9oRDNN?oc=5",
-     "source": "G1",
-     "published_at": "2026-07-17T17:09:35+00:00"
     },
     {
      "title": "Brasil deve colher safra recorde de soja em 2026/27, mas El Niño ameaça produtividade",
@@ -563,6 +557,12 @@
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOenYwcDMxeVFXd3ctQnkxVmlzbXJCM2x0QVVZZlZYU1RpdEV0c0tmWktyLWxuTFJuS2V4Wjgwam5MbzZ3WVZwd2xtZDl0Qk9vMzYtZXozc3hUMVQwaWxsOG5Cc2o0aDE0SUlDV0pxcXg5b2NlSGxJRXNLclkySkUyWG5QVDBjNkVRV0JmcW50NzZtZmtDNHhMWnBNU1BOTTFiUmtaeV9MbTdFNE9GZXFoWTEyd3BOUlFsWHRLOEZwd09lVmVXbHotaEg4Y2dKUDDSAdQBQVVfeXFMTnRrSHY0dUFRRV9hMGtlc1pCQWo3YmxNNjlxU2hqR0REZ1VURHh1VG9xWmxiLXVVd2tLTDRpaV90MFF0SjVTTFdoTkpla3V3YnozNXdVdHhmR2FmQWhKbmdheTNZZzFEU2NyZElta0dNT3ZUQUIxd1E5bC01ZlJ5UXozblBmZmNvQjNlVW9RWWRKbnBDQzVBckh3YzJVSGptQzhzYnIzN3ZUcmJZODc1dDRSeTNxNkZMcVBTSkxiRllZQ1pKLW9lNTBoVG1lSjBNX3A5SzM?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-17T13:45:47+00:00"
+    },
+    {
+     "title": "Agtech da Soja Regenerativa mira 10% da produção do Brasil com Apoio Britânico de R$ 3,45 milhões - Forbes Brasil",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaC0xbmFZU1R5UHJLRkNFczdEaFBpdzdHN3ZoaG9uZk1USWR2VFl6dGhOcE1Fd2gzdk91akJkTHlhd1ZSZ25OT1dGTGxKQTU5cW9yb2xtb1RWMEcwNEVRZVdiQ3BjeTlHYVgwMk9pLVd6RVV6MEtTV3ozXzJVU2VTVzY2N2tIWmt0OXNIOTYxaDBQRGhmcFc0ODNDVUxSNFd4cDg2ZVd1UzA3ZGotc2t2OE8wS0otNWtwMENpMg?oc=5",
+     "source": "Forbes Brasil",
+     "published_at": "2026-07-17T08:00:00+00:00"
     },
     {
      "title": "Estudo na Science aponta que fim da Moratória da Soja pode desmatar 1,4 milhão de hectares na Amazônia, o equivalente a 2 milhões de campos de futebol - greenpeace.org",

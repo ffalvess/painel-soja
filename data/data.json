@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-19T17:53:47+00:00",
+ "generated_at": "2026-07-19T18:57:30+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-19T17:53:39+00:00",
+   "updated_at": "2026-07-19T18:57:22+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -216,7 +216,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-19T17:53:39+00:00",
+   "updated_at": "2026-07-19T18:57:22+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -227,7 +227,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-19T17:53:44+00:00",
+   "updated_at": "2026-07-19T18:57:27+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -250,22 +250,22 @@
       0.0
      ],
      "tmax": [
-      32.7,
-      33.0,
-      33.6,
-      34.2,
-      34.8,
-      35.1,
-      36.3
+      33.2,
+      33.3,
+      33.8,
+      34.6,
+      35.3,
+      35.6,
+      36.1
      ],
      "tmin": [
       20.6,
-      21.6,
+      22.0,
+      21.7,
+      20.9,
+      21.9,
       21.2,
-      20.5,
-      21.1,
-      21.3,
-      23.0
+      22.1
      ]
     },
     {
@@ -289,22 +289,22 @@
       0.0
      ],
      "tmax": [
-      31.4,
-      31.5,
-      32.4,
-      33.4,
+      32.0,
+      32.0,
+      32.7,
       33.8,
-      34.5,
-      35.6
+      34.0,
+      35.1,
+      35.5
      ],
      "tmin": [
       19.4,
-      20.1,
-      19.8,
-      19.8,
+      20.5,
+      20.4,
+      20.4,
+      21.2,
       21.1,
-      21.0,
-      22.6
+      21.7
      ]
     },
     {
@@ -328,22 +328,22 @@
       0.0
      ],
      "tmax": [
-      27.7,
-      29.5,
-      29.7,
-      30.3,
-      31.7,
-      31.8,
-      30.7
+      27.9,
+      29.6,
+      30.1,
+      30.6,
+      31.1,
+      32.1,
+      32.4
      ],
      "tmin": [
       15.6,
-      17.0,
       17.2,
-      18.4,
-      19.5,
-      17.6,
-      20.4
+      17.2,
+      18.9,
+      19.3,
+      19.4,
+      19.0
      ]
     },
     {
@@ -361,35 +361,47 @@
       0.0,
       0.0,
       0.0,
-      32.7,
-      12.3,
-      19.6,
-      23.8
+      30.4,
+      4.1,
+      8.4,
+      6.7
      ],
      "tmax": [
-      29.2,
-      30.2,
-      31.0,
-      23.5,
-      20.5,
-      22.7,
-      24.5
+      29.7,
+      30.6,
+      31.2,
+      24.2,
+      21.8,
+      23.4,
+      24.1
      ],
      "tmin": [
       19.0,
-      18.9,
-      19.8,
       19.2,
-      18.1,
-      18.1,
-      18.1
+      20.2,
+      17.4,
+      16.1,
+      16.9,
+      17.4
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-19T17:53:47+00:00",
+   "updated_at": "2026-07-19T18:57:30+00:00",
    "items": [
+    {
+     "title": "Embrapa orienta sojicultores a reduzir impactos do El Niño nas lavouras do Sul - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYnZrT2VacWg2cThWX2Y2UXVRd2drRmNGZnhVWE9HNzZRUFhWeXZpZWVCUHVkZ0Z3WE5pc3RsNjZXQi1pRGtuT1RRN1pyTmc3RGZLQkprZTA1VHN6ZXRkZUp4dDBpSmR3ZnRlNENiTk0yOVFLWDhUZDRPM0I4cndvSF9pcWhPRDN5LThzTWd3V21vZVFZSmJhNWVzcjdMOGxWdWZJdVZabW9HV2NXdDl0bWp6NDFfY3VQUm9oMnFRZUZYYzlYbkFBLU9UYlBWc3pyeGx5ZVAxelc?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-19T18:20:00+00:00"
+    },
+    {
+     "title": "Embrapa orienta sojicultores a reduzir impactos do El Niño nas lavouras do Sul",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/embrapa-orienta-sojicultores-a-reduzir-impactos-do-el-nino-nas-lavouras-do-sul/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-19T18:20:00+00:00"
+    },
     {
      "title": "Colheita de café no Brasil atinge 64%, mas segue atrasada em relação ao ano passado",
      "link": "https://www.canalrural.com.br/agricultura/colheita-de-cafe-no-brasil-atinge-64-mas-segue-atrasada-em-relacao-ao-ano-passado/",
@@ -421,8 +433,8 @@
      "published_at": "2026-07-19T14:44:00+00:00"
     },
     {
-     "title": "O papel do sojicultor além de proteger a lavoura: o combate aos incêndios é essencial para preservar as florestas - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOYTEtSzBJaE9ySEdUWlNTRXFod3NDT0RsLXBjSjZXWHo1UUtRVnlwZlhMQWJTNERyNW1uTzY3NzJRNzNJQTAxc0xZelVJVkhhSldnQXJhcER3Y0lXdWE3alR5X3R1Q3VyRXgyc1YtRWlQQjNXbjdRVUVYemttZWlMY0t2U0NOTDdQNmJ3dzBLbGdmQVZRc1NTdnlyZDhJcmZYdWpta0VvUVo4eG1Ial9Odml6SGpPNnJjUldGMGVuQUNiLXhWalpHSHRHNjBESXgwMUNYVDNXMUljdm1hTHc5MjRrc0dGNWpLQUZHNUJxMXdwejlmLXljZjNYMEZOMXpkbTJFbDN2X2ZiQTNxN3c?oc=5",
+     "title": "O papel do sojicultor além de proteger a lavoura: o combate aos incêndios é essencial para preservar as florestas",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/o-papel-do-sojicultor-vai-alem-de-proteger-sua-lavoura-o-combate-aos-incendios-e-essencial-para-preservar-as-florestas/",
      "source": "Canal Rural",
      "published_at": "2026-07-19T13:45:42+00:00"
     },
@@ -431,12 +443,6 @@
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTTVIQ2VfTU1PbG9SQ3NCc3FSVThNUjJkZXo4b2ZlZExtbjRKUUtIVUNLbTRVancyVjR2ek1pbHF0LTR4WEMxT01McE8xWVRkQUNhdlNJUWI0cHY2UWR3elZ0X2NRSlJYR1hnSmJlcTV0VmlKdGluX3NIOE9VdW5GdFRmclRPQ0U2VHRJMG9YbTdhWE9KMUlRdHJRZjkwY0FpRnNGXw?oc=5",
      "source": "RADAR DIGITAL BRASÍLIA",
      "published_at": "2026-07-19T13:36:17+00:00"
-    },
-    {
-     "title": "Soja e pecuária sustentam VBP de R$ 1,4 trilhão em 2026 - Ponta Porã Informa - Notícias de Ponta Porã - MS e - Ponta Porã Informa",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTGZyb0N4VVRxQ0cybW5MTllwUkhtTUVUQlZ0d0FxQ1ZXSVEzNzFFN2dOYTVkUDFqS01MeUJjekpzaVZSeEJxSzdTcHNoSjlDY09INUYtMzItRlVmazJtRHl5Y1lUSEJWWTQ4eUEyYU9zajRlYXRoYWxfel91TjlvTU5aRkZwOU50ay1CNkhQd0s3T0J60gGaAUFVX3lxTE1va3FPNXRiNllqbVRyNFR2TXYzb3p4b2Q2cjhFN19UNFpwRXpickR5WU1xcW9fLUo4RWRkcHMzWm8zaHhRZFdRV0pmNWFCUE9YZ0xzX2lfM0p0b1lVbDF4T2hTOGd4Z0cycjA4akh1OWt2R3E3SnlmNy1hQTlDanZBMG52UUdDQmZtdWtPWFdYZUliT3dtazhBNHc?oc=5",
-     "source": "Ponta Porã Informa",
-     "published_at": "2026-07-19T13:30:08+00:00"
     },
     {
      "title": "Aprosoja/MS lança aplicativo para monitorar preços da soja e do milho - capitalnews.com.br",
@@ -505,18 +511,6 @@
      "published_at": "2026-07-18T20:35:00+00:00"
     },
     {
-     "title": "Após 30 anos como piloto de avião, produtor comanda hoje granja com 280 mil frangos",
-     "link": "https://www.canalrural.com.br/aves-e-suinos/apos-30-anos-como-piloto-de-aviao-produtor-comanda-hoje-granja-com-280-mil-frangos/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-18T19:54:10+00:00"
-    },
-    {
-     "title": "Você viu? Produtor gaúcho diz precisar de 54 sacas de soja por ano só para pagar dívidas - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcldRbjBPcjNiM085VE5oVVI4MG9xNGc0TzZfdFI3R1hZV0hKZlljUnBGaklvcGN4eXVkUnh4dU56c3Fyemg5TzFEZ0tQRzdxV3NiOEhyWTZLdDhId1ltcjAxN3BESUdfc0FvUnJfanRWeEctT3BNSUg0aHdYZHJVWWVQak1TaXNqcHlKY3Zuc3RVbmRsUnRpa3FodnZwMkJMX2pRdjdEa284MzZ3X1lnRnRVNG1BNkJleXd6Z2pWUGdmUHQwa3BRd3F3?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-18T16:36:29+00:00"
-    },
-    {
      "title": "Tarifaço: quais os riscos e ganhos se o Brasil adotar a reciprocidade? Entenda o que está em jogo",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/18/tarifaco-os-riscos-e-ganhos-de-o-brasil-adotar-a-reciprocidade.ghtml",
      "source": "G1 Agronegócios",
@@ -563,6 +557,12 @@
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOenYwcDMxeVFXd3ctQnkxVmlzbXJCM2x0QVVZZlZYU1RpdEV0c0tmWktyLWxuTFJuS2V4Wjgwam5MbzZ3WVZwd2xtZDl0Qk9vMzYtZXozc3hUMVQwaWxsOG5Cc2o0aDE0SUlDV0pxcXg5b2NlSGxJRXNLclkySkUyWG5QVDBjNkVRV0JmcW50NzZtZmtDNHhMWnBNU1BOTTFiUmtaeV9MbTdFNE9GZXFoWTEyd3BOUlFsWHRLOEZwd09lVmVXbHotaEg4Y2dKUDDSAdQBQVVfeXFMTnRrSHY0dUFRRV9hMGtlc1pCQWo3YmxNNjlxU2hqR0REZ1VURHh1VG9xWmxiLXVVd2tLTDRpaV90MFF0SjVTTFdoTkpla3V3YnozNXdVdHhmR2FmQWhKbmdheTNZZzFEU2NyZElta0dNT3ZUQUIxd1E5bC01ZlJ5UXozblBmZmNvQjNlVW9RWWRKbnBDQzVBckh3YzJVSGptQzhzYnIzN3ZUcmJZODc1dDRSeTNxNkZMcVBTSkxiRllZQ1pKLW9lNTBoVG1lSjBNX3A5SzM?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-17T13:45:47+00:00"
+    },
+    {
+     "title": "Agtech da Soja Regenerativa mira 10% da produção do Brasil com Apoio Britânico de R$ 3,45 milhões - Forbes Brasil",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaC0xbmFZU1R5UHJLRkNFczdEaFBpdzdHN3ZoaG9uZk1USWR2VFl6dGhOcE1Fd2gzdk91akJkTHlhd1ZSZ25OT1dGTGxKQTU5cW9yb2xtb1RWMEcwNEVRZVdiQ3BjeTlHYVgwMk9pLVd6RVV6MEtTV3ozXzJVU2VTVzY2N2tIWmt0OXNIOTYxaDBQRGhmcFc0ODNDVUxSNFd4cDg2ZVd1UzA3ZGotc2t2OE8wS0otNWtwMENpMg?oc=5",
+     "source": "Forbes Brasil",
+     "published_at": "2026-07-17T08:00:00+00:00"
     },
     {
      "title": "Estudo na Science aponta que fim da Moratória da Soja pode desmatar 1,4 milhão de hectares na Amazônia, o equivalente a 2 milhões de campos de futebol - greenpeace.org",

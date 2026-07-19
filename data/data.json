@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-19T18:57:30+00:00",
+ "generated_at": "2026-07-19T20:07:12+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-19T18:57:22+00:00",
+   "updated_at": "2026-07-19T20:07:04+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -216,7 +216,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-19T18:57:22+00:00",
+   "updated_at": "2026-07-19T20:07:04+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -227,7 +227,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-19T18:57:27+00:00",
+   "updated_at": "2026-07-19T20:07:09+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -388,13 +388,13 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-19T18:57:30+00:00",
+   "updated_at": "2026-07-19T20:07:12+00:00",
    "items": [
     {
-     "title": "Embrapa orienta sojicultores a reduzir impactos do El Niño nas lavouras do Sul - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYnZrT2VacWg2cThWX2Y2UXVRd2drRmNGZnhVWE9HNzZRUFhWeXZpZWVCUHVkZ0Z3WE5pc3RsNjZXQi1pRGtuT1RRN1pyTmc3RGZLQkprZTA1VHN6ZXRkZUp4dDBpSmR3ZnRlNENiTk0yOVFLWDhUZDRPM0I4cndvSF9pcWhPRDN5LThzTWd3V21vZVFZSmJhNWVzcjdMOGxWdWZJdVZabW9HV2NXdDl0bWp6NDFfY3VQUm9oMnFRZUZYYzlYbkFBLU9UYlBWc3pyeGx5ZVAxelc?oc=5",
+     "title": "Consultor aponta avanço da área de soja, algodão e feijão, enquanto trigo, arroz e milho de verão devem perder espaço - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNZXJCRVNRTHFZOEtCTkdSUnd1NUFQZjNVWHJWbmEzWndYVjBFUzFVbE82bVNVQ2doNGVzZzZlS2VLUS1GN0tZS1ItLTY4MTk4S3dMU0FkNnRiVERwZTB2ZXM2OXktaXFIUTQ2MFZGUWh6UWl1a3U2N2ltUl9HXzgtRHpYa2NSNGJnWHR6ZkxMbF9oRXYtUC0xLXY5cVlNVUt2bnVCeEgwb25yVUNyUkkyQTJZNHFSSURRR1FxWG5DN2dIb1o4RGc2dmFsYko1cHpzX1BrM29fdVhMLUJjZ3JPZnkyb1JuXzdlMnNDRjNKTHRyZV8zMkl6cDJaaHJSS3gxbGk4aURRbzc?oc=5",
      "source": "Canal Rural",
-     "published_at": "2026-07-19T18:20:00+00:00"
+     "published_at": "2026-07-19T19:11:52+00:00"
     },
     {
      "title": "Embrapa orienta sojicultores a reduzir impactos do El Niño nas lavouras do Sul",
@@ -451,6 +451,12 @@
      "published_at": "2026-07-19T12:59:00+00:00"
     },
     {
+     "title": "Soja e pecuária sustentam VBP de R$ 1,4 trilhão em 2026 - plantaonews.com.br",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ1Nqb2xVMmZXR0Zsel8wQl9WU0dvTlpxb1Y3UTBKYWlxSmY4ZXhtQWtmV3ExRF9Uc0FKVXFMd1pvSXZ6XzFlNXRiZE8wTkdxTFN5Y3pZNXo2U3NEYkN4Vl9sM2d5NUJ5eGR3WnVqWmcyUHVCRTNfRU1ybEMyN1ZWZ0Rva0FNVWM1?oc=5",
+     "source": "plantaonews.com.br",
+     "published_at": "2026-07-19T12:32:00+00:00"
+    },
+    {
      "title": "Fungo benéfico reduz impacto da principal doença da pupunheira, aponta pesquisa",
      "link": "https://www.canalrural.com.br/agricultura/fungo-benefico-reduz-impacto-da-principal-doenca-da-pupunheira-aponta-pesquisa/",
      "source": "Canal Rural",
@@ -505,10 +511,10 @@
      "published_at": "2026-07-18T20:37:09+00:00"
     },
     {
-     "title": "Viu esta? Casal transforma produção familiar em negócio milionário de doce de leite",
-     "link": "https://www.canalrural.com.br/pecuaria/leite/viu-esta-casal-transforma-producao-familiar-em-negocio-milionario-de-doce-de-leite/",
+     "title": "Você viu? Produtor gaúcho diz precisar de 54 sacas de soja por ano só para pagar dívidas - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcldRbjBPcjNiM085VE5oVVI4MG9xNGc0TzZfdFI3R1hZV0hKZlljUnBGaklvcGN4eXVkUnh4dU56c3Fyemg5TzFEZ0tQRzdxV3NiOEhyWTZLdDhId1ltcjAxN3BESUdfc0FvUnJfanRWeEctT3BNSUg0aHdYZHJVWWVQak1TaXNqcHlKY3Zuc3RVbmRsUnRpa3FodnZwMkJMX2pRdjdEa284MzZ3X1lnRnRVNG1BNkJleXd6Z2pWUGdmUHQwa3BRd3F3?oc=5",
      "source": "Canal Rural",
-     "published_at": "2026-07-18T20:35:00+00:00"
+     "published_at": "2026-07-18T16:36:29+00:00"
     },
     {
      "title": "Tarifaço: quais os riscos e ganhos se o Brasil adotar a reciprocidade? Entenda o que está em jogo",
@@ -557,12 +563,6 @@
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOenYwcDMxeVFXd3ctQnkxVmlzbXJCM2x0QVVZZlZYU1RpdEV0c0tmWktyLWxuTFJuS2V4Wjgwam5MbzZ3WVZwd2xtZDl0Qk9vMzYtZXozc3hUMVQwaWxsOG5Cc2o0aDE0SUlDV0pxcXg5b2NlSGxJRXNLclkySkUyWG5QVDBjNkVRV0JmcW50NzZtZmtDNHhMWnBNU1BOTTFiUmtaeV9MbTdFNE9GZXFoWTEyd3BOUlFsWHRLOEZwd09lVmVXbHotaEg4Y2dKUDDSAdQBQVVfeXFMTnRrSHY0dUFRRV9hMGtlc1pCQWo3YmxNNjlxU2hqR0REZ1VURHh1VG9xWmxiLXVVd2tLTDRpaV90MFF0SjVTTFdoTkpla3V3YnozNXdVdHhmR2FmQWhKbmdheTNZZzFEU2NyZElta0dNT3ZUQUIxd1E5bC01ZlJ5UXozblBmZmNvQjNlVW9RWWRKbnBDQzVBckh3YzJVSGptQzhzYnIzN3ZUcmJZODc1dDRSeTNxNkZMcVBTSkxiRllZQ1pKLW9lNTBoVG1lSjBNX3A5SzM?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-17T13:45:47+00:00"
-    },
-    {
-     "title": "Agtech da Soja Regenerativa mira 10% da produção do Brasil com Apoio Britânico de R$ 3,45 milhões - Forbes Brasil",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaC0xbmFZU1R5UHJLRkNFczdEaFBpdzdHN3ZoaG9uZk1USWR2VFl6dGhOcE1Fd2gzdk91akJkTHlhd1ZSZ25OT1dGTGxKQTU5cW9yb2xtb1RWMEcwNEVRZVdiQ3BjeTlHYVgwMk9pLVd6RVV6MEtTV3ozXzJVU2VTVzY2N2tIWmt0OXNIOTYxaDBQRGhmcFc0ODNDVUxSNFd4cDg2ZVd1UzA3ZGotc2t2OE8wS0otNWtwMENpMg?oc=5",
-     "source": "Forbes Brasil",
-     "published_at": "2026-07-17T08:00:00+00:00"
     },
     {
      "title": "Estudo na Science aponta que fim da Moratória da Soja pode desmatar 1,4 milhão de hectares na Amazônia, o equivalente a 2 milhões de campos de futebol - greenpeace.org",

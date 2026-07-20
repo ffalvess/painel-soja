@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-20T21:05:26+00:00",
+ "generated_at": "2026-07-20T22:53:38+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-20T21:05:19+00:00",
+   "updated_at": "2026-07-20T22:53:29+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -158,9 +158,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.97,
+     "price": 89.07,
      "prev_close": 88.1,
-     "change_pct": 0.99,
+     "change_pct": 1.1,
      "closes": [
       77.9,
       77.08,
@@ -181,7 +181,7 @@
       84.95,
       84.23,
       88.1,
-      88.97
+      89.07
      ]
     },
     {
@@ -220,7 +220,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-20T21:05:19+00:00",
+   "updated_at": "2026-07-20T22:53:29+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -231,7 +231,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-20T21:05:23+00:00",
+   "updated_at": "2026-07-20T22:53:34+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -392,8 +392,50 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-20T21:05:26+00:00",
+   "updated_at": "2026-07-20T22:53:38+00:00",
    "items": [
+    {
+     "title": "Arroba do boi gordo: confira como os preços iniciaram a semana em 9 estados",
+     "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-confira-como-os-precos-iniciaram-a-semana-em-9-estados/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-20T22:36:09+00:00"
+    },
+    {
+     "title": "Estudo aponta que ruído de barcos afeta comunicação sonora de peixes",
+     "link": "https://www.canalrural.com.br/diversos/estudo-aponta-que-ruido-de-barcos-afeta-comunicacao-sonora-de-peixes/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-20T21:45:58+00:00"
+    },
+    {
+     "title": "Ganhos em Chicago impulsionam preços da soja no mercado brasileiro; confira os números do dia - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdUI1Y0pnMkNTN18wdHJNLVZjdGxtX0ZSXzk5ci1vYlBhYzhHRXhuWkR6WHMxQnhJcnJDRTd5S2xpNGxUTVJLRlRiZEJjZnJYUFlhcFpMR2ZfVEZVSHRubkNiZ1hOQkdkdkNQZF9wbTBVMmpfYkZ4TXBwUl8xMHVydnJVdmxzZW5FWkFnejdUc05OMkJaaG93TEViUUZXdjZlZU42WEpNVnlpSFpMMnhDdzJ2X25CRUZzakhXT0NzWkNVOFd1Nm1WWTE0RVRLTUhWYXVDWV9fczJEYjVrV2NMaVl1cVl2Y3RCSThv?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-20T21:37:41+00:00"
+    },
+    {
+     "title": "Ganhos em Chicago impulsionam preços da soja no mercado brasileiro; confira os números do dia",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/ganhos-em-chicago-impulsionam-precos-da-soja-no-mercado-brasileiro-confira-os-numeros-do-dia/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-20T21:37:41+00:00"
+    },
+    {
+     "title": "USDA divulga condições das lavouras de soja, milho, trigo e algodão dos EUA - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcEp2X3IyU2FIQktWZDMxVzRRWEZVZTRYcUx0OUJEYVJEcWE2V19PSUhkRzZNbTVWSVNwM0Uzakg5OHBnbXRSMTFBamtNVEVPdWh0RGdvcVRWRUlsOWVWYkgzT1hZa2ZxZWlpMG9VWFdDYmxLZUEzY3MwRG5HUXlqelNhWUtZNXd0anhudE44UUZieXFYTVNpdXJmRjRfcFh3Q0t6aFNTZTNRQmptU3o3Z3hLdFdIU2c2bGc?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-20T21:19:13+00:00"
+    },
+    {
+     "title": "USDA divulga condições das lavouras de soja, milho, trigo e algodão dos EUA",
+     "link": "https://www.canalrural.com.br/internacional/usda-divulga-condicoes-das-lavouras-de-soja-milho-trigo-e-algodao-dos-eua/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-20T21:19:13+00:00"
+    },
+    {
+     "title": "Dólar fecha abaixo de R$ 5,09 com apoio do petróleo e do carry trade",
+     "link": "https://www.canalrural.com.br/economia/dolar-fecha-abaixo-de-r-509-com-apoio-do-petroleo-e-do-carry-trade/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-20T20:56:55+00:00"
+    },
     {
      "title": "Chuvas que ultrapassam 150 mm e temperaturas de até 40°C: como fica o tempo no fim de julho e começo de agosto?",
      "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/chuvas-que-ultrapassam-150-mm-e-temperaturas-de-ate-40c-como-fica-o-tempo-no-fim-de-julho-e-comeco-de-agosto/",
@@ -431,46 +473,10 @@
      "published_at": "2026-07-20T19:42:37+00:00"
     },
     {
-     "title": "Semana terá chuva de 150 mm e tempestades mudando de endereço",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/semana-tera-chuva-de-150-mm-e-tempestades-mudando-de-endereco/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-20T19:30:20+00:00"
-    },
-    {
      "title": "Com apoio de demanda chinesa, preço da soja sobe em Chicago - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRFctVEZ6Rm1ObExNbTN1RmxIQTBXc0ViTERGN1licWxuTHZrTHVUTnBOanlOdEx2VTkycFVYTm1oWDR6ZVhFVUdyeHl1UVJFM3VyS282bmVCTjBnRlhxaDJEcU9EbGVMTU10ejllRE5Bc3hjREszR3RkQkZjVURmY3BpM2tNQkVqZWttbm5MRU5NVHllbEJoLW42eWltZlpkZ2hLOC1hZ0pBVFJlcWVMTF9CZHlscE8yS3fSAcgBQVVfeXFMUHpPejRReDkza0s0bU5pTWNBV1NhTW85cjhhb19mb1o1djd5NDhLTTRFa3NLZ0J1Q2o4X1FhbmV4cEstY0RQYUlHNmprcHZ3ZzlLZXMxQ0R4VnhzWFQ0NU9mMVRibkUxT1RiVVVpQ2JWVUJJeTNKWk5vbFBwbF91Rmt2N0p4WFJPR3hUWDI2Z1VPUHk5M2dvZE5uaXVRcTJzYkloX1c5S0pZMHdGWkR5cTV6QVlNTDdWMW14LWRRS3BKLUdYUkFDRno?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-07-20T19:19:08+00:00"
-    },
-    {
-     "title": "Expo Rio Preto 2023 terá programação diversificada e atrações especiais",
-     "link": "https://www.canalrural.com.br/videos/expo-rio-preto-2023-tera-programacao-diversificada-e-atracoes-especiais/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-20T19:15:49+00:00"
-    },
-    {
-     "title": "Crédito restrito e margens apertadas exigem foco em tecnologia na safra de soja",
-     "link": "https://www.canalrural.com.br/videos/credito-restrito-e-margens-apertadas-exigem-foco-em-tecnologia-na-safra-de-soja/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-20T19:15:39+00:00"
-    },
-    {
-     "title": "Convenções partidárias começam para definir candidatos e coligações",
-     "link": "https://www.canalrural.com.br/videos/convencoes-partidarias-comecam-para-definir-candidatos-e-coligacoes/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-20T19:15:28+00:00"
-    },
-    {
-     "title": "Alerta de temporais no Rio Grande do Sul com ventos acima de 120 km/h",
-     "link": "https://www.canalrural.com.br/videos/alerta-de-temporais-no-rio-grande-do-sul-com-ventos-acima-de-120-km-h/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-20T19:15:13+00:00"
-    },
-    {
-     "title": "Exportações de soja do Brasil avançam em julho; dados são da Secex - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeVRmNExsQVl3dGV2T1pXUjZfS0hMcEJ2RThlUFRsNlNYcFpwajhXRUZtLUtqeGlBZ2U1aC04RndhNWppRUhjZkdwVm95ZzVBUWlzdFJmUVpteGJ1NmlfYmZWcVo1VFIzY2RKU2JJUU5QZDBRQmVYWWg5VDctbktvTkRla1pHOVRVYzllNVR3bF9fakVHNHZIM0FZZ25oMHgtODNpSThzcWExYWE3dnB0LVpBaE1jT3BmRUNVS1g3RmhDSTZteXZN?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-20T19:08:23+00:00"
     },
     {
      "title": "Demanda global eleva preços do farelo de soja e movimenta mercado brasileiro - capitalnews.com.br",
@@ -485,10 +491,10 @@
      "published_at": "2026-07-20T18:43:43+00:00"
     },
     {
-     "title": "Soja: Anec eleva projeção de exportação em julho para 13,7 mi de toneladas - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONHR1T1dCMVNDTVFHa3pVY1FySXhFUDluSFBCaXFUeGx4UEo4LWdpSm81T3lyR0NDdXZ2TklvWHNSNXFfRWZQbGFXQVFjZEpKWHpaQUFtTFEtbDNFdGRjMWZhbmctRkZvMU5uOEJBaUNxdW5xYXZaUDBHRG51MllWcm5CQVRqQjhiQ1Q5OG5NZFNRa1E5U09VY1FlZm1fcW0tTEV5SmhmOF9oRnM?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-07-20T18:25:45+00:00"
+     "title": "Mesmo mais cara, soja dos EUA atrai China por 'política' e logística, mas Brasil garante janela firme e prêmios altos - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNQXpWYlhGeHRmMEhCcGxQd2NGbU1uVTRRQzQxeVF1SGVPVS1WTXpyeHI1eW16bWRsZ3E2UV9IZ1dIWTBLRzlqU3NQOUdfX0lPTjA1cWhybTN1UEVETVF2NUpWdU91c2FBeDFDcHpuMHhubkY2Nmt6clEyMExrQ01VMC0tLTczMnNQR2pObElQS1FEMDZfUWpmZnFRM2hFbDJ0UnEzUUt1WS02bTJXSHg3UlJhaU5FT2h1TXdxNjdybTI0SUVfQzR5dGp3Si1IQ0JMaGRqVmJ5ZXdCYVZsQkpRLW9PN3F4WjBYOHdSMy00MWx6elY0UndSSzBxMUxRSTB2Z2VKZjZIY9IBjAJBVV95cUxON3NLLVBUZ2VzdU5GeGNGM3l1VG5mMzItNnZmeWltU2gzVnJsYVdrLTU3MzVFc200MkNzUUNGeEMxWjNqV0dUa2c5V3ZabDlZNnUxako5c2xFemkzYkpNcDNia2VqRVpsWGdpVWRRUDJRRFlzdVdRZGxEQW1wc0w2ek5HZ2xPamRNOW5UV3JzZ3A1clc3bkVxUTE4SlRkcVJHbGRoWlZQd2VQaldkWDU4TVFQOUdsaUtoeHFQZXd2UFJLUWwzYm9ERnNnRWhIZ056bXIyV2NVdkI1Qk5XeUtaamxIRkFtOU02cmNFYWJ1aTZ5U2VybUl1T2NQNHFqQjl2Y2FUOTQ1SnFtbkZr?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-20T17:57:30+00:00"
     },
     {
      "title": "Soja recupera perdas, mas oferta limita novas altas - Agrolink",
@@ -525,12 +531,6 @@
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMlFyWTd5QVp2TU9COWF2ZUdyM1NOSmYyQ2VJSHVLU3NuLWdXX3ZyN0pnTFlLbVp3RjRmbEhzZUwtbWdYcU1mc3UwcFMwckNwdm42SmlkOUhrU1hmZFJTWGhTLVRFcmlqSlJyOEJhbHZXX1U4d0VMS0tXZ1l4NFZXTFBhOEdHZUxWajdGaDRfYTZfRHB5ZDY2d0RSUQ?oc=5",
      "source": "Feed&Food",
      "published_at": "2026-07-20T11:01:00+00:00"
-    },
-    {
-     "title": "Soja/Cepea: Demanda por farelo impulsiona cotações no BR e nos EUA - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdzZjbXZsTlNoeVZRdGlDbmhtR2w3cXNiYXNXVnhRRzlzLXNWckZDZkc3TGlqNVlVSzFZU0VJSzdWUWlCM0M4VUNkY21ZYkh6M3pqeXQ4eTJvTnZIOWFwcllIR3lCcnU1WlE1bF9NUHFheldSb2NNRHZHTTB2Uy1Fa2ZBRWp6cEp1ZW9yNUZfV1BrX1ExcTRRTjZmZGV4ZFM3bVEzSWhQbkQxdWdmUWFYclp6Nk1iZ203dVY0QnlTUFZPR3FkV1hN0gHMAUFVX3lxTE5UaDFhYUZ1bkhBRlY2ajF5dUJ2N0dRRXhtbHlmc1IzNXo5ZnNOT2VZSVl4UFB4MlRWVThsNDBqX0ZZMk9sWF9ZOHkwUVZBSTJHc0VweXdPWHV5TlE4Mm9KYWFUWWxFeXd6emF3a1BuTFphcjI3Ulo0SV9haHRwbVA5d2plYjF2MGsxajVXLVB2OEJWc2sxdU53OG5OcnZBS3h3V2QxWHVnM0tqa19HbUlJZExlWThRcmRCS25JWl9pNl91c0hCZDd2aXlWVg?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-20T10:31:50+00:00"
     },
     {
      "title": "Preço da soja sobe e atinge maior patamar em seis meses - brasilagro.com.br",

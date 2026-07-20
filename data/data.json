@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-20T22:53:38+00:00",
+ "generated_at": "2026-07-20T23:52:28+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-20T22:53:29+00:00",
+   "updated_at": "2026-07-20T23:52:21+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -158,9 +158,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 89.07,
+     "price": 89.0,
      "prev_close": 88.1,
-     "change_pct": 1.1,
+     "change_pct": 1.02,
      "closes": [
       77.9,
       77.08,
@@ -181,7 +181,7 @@
       84.95,
       84.23,
       88.1,
-      89.07
+      89.0
      ]
     },
     {
@@ -220,7 +220,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-20T22:53:29+00:00",
+   "updated_at": "2026-07-20T23:52:21+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -231,7 +231,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-20T22:53:34+00:00",
+   "updated_at": "2026-07-20T23:52:25+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -392,8 +392,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-20T22:53:38+00:00",
+   "updated_at": "2026-07-20T23:52:28+00:00",
    "items": [
+    {
+     "title": "EUA impõem tarifa de 50% sobre produtos canadenses",
+     "link": "https://www.canalrural.com.br/economia/eua-impoem-tarifa-de-50-sobre-produtos-canadenses/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-20T23:27:00+00:00"
+    },
+    {
+     "title": "Argus projeta safra de trigo da Ucrânia em 24,1 milhões de toneladas em 2026/27",
+     "link": "https://www.canalrural.com.br/agricultura/argus-projeta-safra-de-trigo-da-ucrania-em-241-milhoes-de-toneladas-em-2026-27/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-20T23:22:46+00:00"
+    },
+    {
+     "title": "Estados Unidos anunciam cobrança de tarifa de 50% para produtos do Canadá",
+     "link": "https://www.canalrural.com.br/internacional/estados-unidos-anunciam-cobranca-de-tarifa-de-50-para-produtos-do-canada/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-20T23:01:31+00:00"
+    },
     {
      "title": "Arroba do boi gordo: confira como os preços iniciaram a semana em 9 estados",
      "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-confira-como-os-precos-iniciaram-a-semana-em-9-estados/",
@@ -453,24 +471,6 @@
      "link": "https://www.canalrural.com.br/politica/mapa-estuda-ampliar-acesso-de-compradores-a-plataforma-agro-brasilsustentavel/",
      "source": "Canal Rural",
      "published_at": "2026-07-20T20:28:12+00:00"
-    },
-    {
-     "title": "Exportadores correm o risco de assumir sozinhos a tarifa de 25% dos EUA, alerta advogada",
-     "link": "https://www.canalrural.com.br/agricultura/exportadores-correm-o-risco-de-assumir-sozinhos-a-tarifa-de-25-dos-eua-alerta-advogada/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-20T20:26:16+00:00"
-    },
-    {
-     "title": "El Niño reforça necessidade de planejamento na formação de pastagens, alerta especialista",
-     "link": "https://www.canalrural.com.br/pecuaria/el-nino-reforca-necessidade-de-planejamento-na-formacao-de-pastagens/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-20T20:01:00+00:00"
-    },
-    {
-     "title": "Petróleo sobe com escalada de tensão entre EUA e Irã",
-     "link": "https://www.canalrural.com.br/economia/petroleo-sobe-com-escalada-de-tensao-entre-eua-e-ira/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-20T19:42:37+00:00"
     },
     {
      "title": "Com apoio de demanda chinesa, preço da soja sobe em Chicago - Globo Rural",

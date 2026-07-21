@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-21T21:00:52+00:00",
+ "generated_at": "2026-07-21T22:49:02+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-21T21:00:42+00:00",
+   "updated_at": "2026-07-21T22:48:56+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -163,9 +163,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.35,
+     "price": 91.58,
      "prev_close": 89.22,
-     "change_pct": 2.39,
+     "change_pct": 2.65,
      "closes": [
       77.9,
       77.08,
@@ -187,7 +187,7 @@
       84.23,
       88.1,
       89.22,
-      91.35
+      91.58
      ]
     },
     {
@@ -227,7 +227,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-21T21:00:43+00:00",
+   "updated_at": "2026-07-21T22:48:56+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -238,7 +238,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-21T21:00:48+00:00",
+   "updated_at": "2026-07-21T22:49:00+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -399,8 +399,68 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-21T21:00:52+00:00",
+   "updated_at": "2026-07-21T22:49:02+00:00",
    "items": [
+    {
+     "title": "Preços do boi gordo seguem em alta graças a escalas de abate encurtadas",
+     "link": "https://www.canalrural.com.br/pecuaria/precos-do-boi-gordo-seguem-em-alta-gracas-a-escalas-de-abate-encurtadas/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T21:50:43+00:00"
+    },
+    {
+     "title": "Ibovespa fecha estável e dólar comercial cai a R$ 5,0737",
+     "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-estavel-e-dolar-comercial-cai-a-r-50737/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T21:42:18+00:00"
+    },
+    {
+     "title": "Conab mantém suspenso atendimento presencial em Natal até sexta-feira",
+     "link": "https://www.canalrural.com.br/diversos/conab-mantem-suspenso-atendimento-presencial-em-natal-ate-sexta-feira/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T21:34:55+00:00"
+    },
+    {
+     "title": "Soja recua por realização de lucros em Chicago Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQkFmNWo5ZTg1ZHVuX2EweThFaWxVbW1rZ2FHVDhqX29lNmxqazVBYU5OSXZKRGRZTDdiNF9hdk5mWEEyXzd0emJ1TTFwTnJMZW1OY2tOVFZUV1JSdExFMzc3ZkI4YktPN2NPZVJoZnR6WG9DRnNEX1VEZGtHektGdzQ5cGZ2QmRMbmRCRGRwTS04VjNiSWZwa2Y0SEVuZw?oc=5",
+     "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "published_at": "2026-07-21T21:25:00+00:00"
+    },
+    {
+     "title": "Conab divulga nesta quarta-feira o 7º Boletim Prohort 2026",
+     "link": "https://www.canalrural.com.br/economia/conab-divulga-nesta-quarta-feira-o-7o-boletim-prohort-2026-2/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T21:24:33+00:00"
+    },
+    {
+     "title": "Soja recua em Chicago com mercado atento ao clima nos EUA - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMDBCRm8wMm81UEZNSm04X09MRmk1MlZ3bHRlUUJwZzZBekZJQ3VDam0yWlR5NElhSlVWTXlEYkVsQ2VXNjdJWlN0TDluTTNFSFd4RF9jTnptUXo2VmpSMXMtaXdLa0FqbmNIYVJJVlVOcDNVdE5GamgtS0prSzhuTEhSelN1NmR0Q3dkbzhpUXJXRnh3Y29J?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-07-21T21:05:15+00:00"
+    },
+    {
+     "title": "Atendimento presencial da Conab em Natal segue suspenso até sexta-feira",
+     "link": "https://www.canalrural.com.br/diversos/atendimento-presencial-da-conab-em-natal-segue-suspenso-ate-sexta-feira/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T21:05:14+00:00"
+    },
+    {
+     "title": "Dólar cai a R$ 5,0737 com petróleo acima de US$ 90 e avanço do carry trade",
+     "link": "https://www.canalrural.com.br/economia/dolar-cai-a-r-50737-com-petroleo-acima-de-us-90-e-avanco-do-carry-trade/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T20:58:27+00:00"
+    },
+    {
+     "title": "Sojicultores ainda esperam por preços melhores; negócios não andam e dia é fraco para a soja - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZ3luN2s5SnlzbHRDa1JybGFBczlIVnRxd256NlpUb1RGV0dnWDl6OFRObEtHMkdIcllaNENLZGRsWXd6c1ZfOUJ1NVNyYldELW1oc20taXlLQmVrOGotQ3RsTWgzOXNFTlVKS2llV3diR1hGNnZVSVhPZ3JKZVIxLUtNcmhha19UaFdZc3Z6UUhDTjRmRWFiRmdqRFFwUG5sNHBCM3RjZ3pBMWpxTG5jYkZqcUg5TzloeXI3NHFrZUM1bGpJVnlvX3lwejBaOTh2T3FGcmItZnB3RXVWczJrUXFVN0JGQ0VfLUE?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T20:51:05+00:00"
+    },
+    {
+     "title": "Sojicultores ainda esperam por preços melhores; negócios não andam e dia é fraco para a soja",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/sojicultores-ainda-esperam-por-precos-melhores-negocios-nao-andam-e-dia-e-fraco-para-a-soja/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T20:51:05+00:00"
+    },
     {
      "title": "Queda do diesel puxa recuo dos demais combustíveis em julho",
      "link": "https://www.canalrural.com.br/economia/queda-do-diesel-puxa-recuo-dos-demais-combustiveis-em-julho/",
@@ -420,58 +480,10 @@
      "published_at": "2026-07-21T19:30:14+00:00"
     },
     {
-     "title": "Plano Safra: crédito sai ainda em julho e juros estão ‘muito baratos’, diz secretário do Mapa",
-     "link": "https://www.canalrural.com.br/agricultura/plano-safra-credito-sai-ainda-em-julho-e-juros-estao-muito-baratos-diz-secretario-do-mapa/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T19:07:00+00:00"
-    },
-    {
-     "title": "Petróleo sobe com tensão no Oriente Médio e risco à navegação",
-     "link": "https://www.canalrural.com.br/economia/petroleo-sobe-com-tensao-no-oriente-medio-e-risco-a-navegacao/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T19:03:18+00:00"
-    },
-    {
-     "title": "Etanol de milho amplia demanda pelo cereal e muda dinâmica do mercado no Brasil",
-     "link": "https://www.canalrural.com.br/agricultura/etanol-de-milho-amplia-demanda-pelo-cereal-e-muda-dinamica-do-mercado-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T18:46:23+00:00"
-    },
-    {
-     "title": "Tarifaço dos EUA: setor de máquinas pede saída diplomática ao governo",
-     "link": "https://www.canalrural.com.br/economia/tarifaco-dos-eua-setor-de-maquinas-pede-saida-diplomatica-ao-governo/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T18:40:42+00:00"
-    },
-    {
      "title": "Volume de soja para exportação nos EUA cai 33,7% na semana, diz USDA - UOL Economia",
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObng5Y1JpMXFhZE1WdEVrSmhPd01hQ0RxSVNDMW5SRzVybW5vUGFwdnZFN2c0QTdKMHJnNHk2XzdScF9hemU3Tzd6ZXJUN3A0S0I1djhvZmNKc1k2YURPbHJYUllSckM1SzhFS1NwY0dETm8tR3hrRTMwVUxSV196S29waUJIMjZId1p3aklZZTB4WGZZRDd5c0lFNDY1V0ZMWXAwdzVzUWJscmNsd3gyN3RpN0pETE9EZHN6QXVWZHRDaHZWeXkxTzQxVmItcGM?oc=5",
      "source": "UOL Economia",
      "published_at": "2026-07-21T18:23:31+00:00"
-    },
-    {
-     "title": "Exportações de soja do Brasil devem alcançar 13,8 milhões de t em julho, projeta Anec - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPM0V3Rmw4OG9tRWc3ZzQzQW83czA2c3paZ1QxY3JBNGNNT0F3MlB5bVVJVVFUV3ZZSVhidEVMU0pZa2x2NGJ4N3JUWloyQVJac0s5SWNzc1pIcWoxaldMeXpVMWxydzNvYjNLRkxMbUN5UU9DQVJMX1BxTmVhcDg3NTh1ZFNkTFdUdll4dGFvdUs4emZPQ2pFRm1ZOGVPQ3B4dHlrbTdpdlo2c3pSRTlYUXgxdy1ESFFmbjBPQWtwaVZReENEOE9oakR0YjdXWDFlNXpfdTJ2NTB4c0JXY3NN?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T18:21:14+00:00"
-    },
-    {
-     "title": "Exportações de soja do Brasil devem alcançar 13,8 milhões de t em julho, projeta Anec",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/exportacoes-de-soja-do-brasil-devem-alcancar-138-milhoes-de-t-em-julho-projeta-anec/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T18:21:14+00:00"
-    },
-    {
-     "title": "EUA e Jordânia firmam acordo comercial com ampliação para bens agrícolas",
-     "link": "https://www.canalrural.com.br/economia/eua-e-jordania-firmam-acordo-comercial-com-ampliacao-para-bens-agricolas/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T18:18:25+00:00"
-    },
-    {
-     "title": "Governo federal se reúne com setores afetados pelo tarifaço dos EUA",
-     "link": "https://www.canalrural.com.br/videos/governo-federal-se-reune-com-setores-afetados-pelo-tarifaco-dos-eua/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T18:15:45+00:00"
     },
     {
      "title": "Seminário sobre mercado mundial de soja abre inscrições - Revista Cultivar",
@@ -504,28 +516,10 @@
      "published_at": "2026-07-21T15:28:55+00:00"
     },
     {
-     "title": "Soja e milho caem em Chicago após realização de lucros - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUTFaa1l3WUJqNzZIZ3hNOXl2N19vWkppLVNiWklEaGEtTDdEQWd2UlhuV2ZmSmxLVG0yUEdIb19QTFctMDhiRDJycjFrU3ZCaU5UcmpIWnphbHNJal9EYXMyZERVeFluVTFtU0dhXzNBQ0RxRmNtdlUyVmVDVTdmMk5kTUNaZU11QmV6c3lQb0tXemZSZ3JZWTNleVBXWFJKQVdrd3J6OTQ4aWluY3dsVkpCeDHSAcMBQVVfeXFMUDF3MmdnVTNuRjFjVnRPNFg0MGdpSDFVT0ZkSTBDVy1ka0ZHY3ZHX1djMnlyaWdlMTAyWlRmRkp5dC1oN1BpWTZWZ25raFhsbjdxeE9JRG5LN3dlU0VUa3Faa0YyaTltbGhWWGRsdkd5RE1WVnE5LTNUejRwMW85VmZyMjJSSFExQ0x4OFdLX09QX1pSY3gtc25uT1EtOFhyX2JTVGtxc29ibFBBSHRmQXJXeTRPX2hXTUNFNlZWNHVoN0FV?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-21T13:53:31+00:00"
-    },
-    {
      "title": "Soja e carne de aves impulsionam exportações em julho - Feed&Food",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdEhhWDVOVG01UnlheFNVUGV4UjREeU85Mm95OTJzeWlQdVY3SXBuaElTMWc2NG55VEw0TGpoU0h2bjdWNVVtSlZNRXpoajJKU2JzSng0Sm5pVklXVzNfMHczZGVrOE1CQTV5NlhvQjVoa1hIcWJkQ1g5NTVfbXRpRGVpTUM?oc=5",
      "source": "Feed&Food",
      "published_at": "2026-07-21T12:41:00+00:00"
-    },
-    {
-     "title": "USDA divulga condições das lavouras de soja, milho, algodão e trigo nos EUA - Agrimidia",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdXRpVGxFcktOaDktMXRTOWUxRjVlcHd6VkhXNzRDTTJGT19vcUZRNlZhZjV5SGFiSW5wci1SRHYzOTFHeUs4MWZWNEdkTE1BSXlfVm0xSXpFUGE4R0VJR09YM25JalEzVi1BNnBSdmpxYzlvZjZySnlWUXI4UFozYjR4bklkTGxocHdZUHo0T196SGRiWUpEV0thcnVXNzZkcjczSTloeGxSZUJ5SmRoM3ZRQzNLMkE3RzFQYms3VzcyelFMVmZlSHJ0S2hGYWM?oc=5",
-     "source": "Agrimidia",
-     "published_at": "2026-07-21T11:51:16+00:00"
-    },
-    {
-     "title": "Soja brasileira atinge maior cotação do ano: R$ 142,65 a saca - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdnl0RGRONUR4N2dVV01WUDlBSEExUFRFMGE3UDdFRUwzNG9PR3hCXzJraWRDZlVKMi0tWHpYdFF1dzJTNnhoSjJ2VExmTnlLV1NmVEJlRHhjcld4eUt6T2N2WFc5eWR6XzZTSHl0X1c2dWk4Q3pqZl9raDQxWmw3QVZMTnE0UjJxYlQxX2JaRVVSOWNQN2h1Yg?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-07-21T11:37:50+00:00"
     },
     {
      "title": "EUA podem perder para o Brasil o papel de maior exportador agrícola do mundo, diz Financial Times",
@@ -556,6 +550,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/21/ue-nao-flexibilizara-exigencias-sanitarias-para-a-carne-brasileira-diz-embaixador-da-irlanda-que-preside-o-bloco-europeu.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-21T03:00:32"
+    },
+    {
+     "title": "China compra mais soja do Brasil enquanto reduz importações dos EUA - G1",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc0dEMHd5cFNwR2kzZEtXcjU0amQtSzBFZ2lERUtyb1M0MGM2RE10VlRmUUk2NUYtN1E0T1hPWWxSSUN5eUx0eFlueko0MTVuOU50VmhwU2pKWGlMU1FMbkVDMjNpazdEeUtXS1hrcHU4LWFGUVVXYkcyaUNMdE1hcjJabmJHRnVjZTQzUGVtMzNwaUphQWhIbURfQ0FFS0hraWN4aG8wbmJSSGNDSTlCQ3BvVUVvdmN1NUNuREZWUl9nSVVlVWNRYS1ZNWZjdlRS0gHfAUFVX3lxTE5QZ0htV1hNUHp1aXFwWVhHalF2dmR1M1hCOFRBUVA1NTZhU1JIQ1FpZFNldnFHNlFyQjZyNndLMkY4MmJJalluU1BucmJmNTdfOTNSLUpFTWVBbnEzaE9nc0ViQkprUTVvOHFyMGREaXI3dmJwekd5UkdoUVFkYnFwa0hXS0llc0dxM3J2TkV4elpRNHZ5V1B5OTZ0dGIweHZtLWRfOTYxVE9zWkV4MG02ZUdQdUt3Rks5c1FCNHFLeFVjNHBwMUo5eGg0encxdVg4RU13VUhvSVd0R01LMTg?oc=5",
+     "source": "G1",
+     "published_at": "2026-07-20T12:06:21+00:00"
     },
     {
      "title": "China compra mais soja do Brasil enquanto reduz importações dos EUA",

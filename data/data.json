@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-21T15:38:40+00:00",
+ "generated_at": "2026-07-21T17:11:00+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-21T15:38:35+00:00",
+   "updated_at": "2026-07-21T17:10:51+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1218.75,
+     "price": 1222.75,
      "prev_close": 1226.0,
-     "change_pct": -0.59,
+     "change_pct": -0.27,
      "closes": [
       1115.75,
       1117.0,
@@ -32,16 +32,16 @@
       1195.0,
       1204.5,
       1226.0,
-      1218.75
+      1222.75
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 472.25,
+     "price": 475.5,
      "prev_close": 449.5,
-     "change_pct": 5.06,
+     "change_pct": 5.78,
      "closes": [
       411.5,
       409.75,
@@ -63,16 +63,16 @@
       441.5,
       444.75,
       449.5,
-      472.25
+      475.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 324.3,
+     "price": 327.7,
      "prev_close": 323.5,
-     "change_pct": 0.25,
+     "change_pct": 1.3,
      "closes": [
       299.8,
       302.9,
@@ -94,16 +94,16 @@
       322.9,
       320.2,
       323.5,
-      324.3
+      327.7
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.54,
+     "price": 71.36,
      "prev_close": 74.68,
-     "change_pct": -4.2,
+     "change_pct": -4.45,
      "closes": [
       71.15,
       70.59,
@@ -125,16 +125,16 @@
       72.43,
       74.81,
       74.68,
-      71.54
+      71.36
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 669.25,
+     "price": 676.5,
      "prev_close": 674.0,
-     "change_pct": -0.7,
+     "change_pct": 0.37,
      "closes": [
       597.5,
       586.75,
@@ -156,16 +156,16 @@
       674.75,
       682.75,
       674.0,
-      669.25
+      676.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.41,
+     "price": 91.23,
      "prev_close": 89.22,
-     "change_pct": 2.45,
+     "change_pct": 2.25,
      "closes": [
       77.9,
       77.08,
@@ -187,16 +187,16 @@
       84.23,
       88.1,
       89.22,
-      91.41
+      91.23
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 172499.17,
+     "price": 173031.89,
      "prev_close": 173371.0,
-     "change_pct": -0.5,
+     "change_pct": -0.2,
      "closes": [
       170370.0,
       171259.0,
@@ -219,7 +219,7 @@
       173825.0,
       173714.0,
       173371.0,
-      172499.1719
+      173031.8906
      ]
     }
    ],
@@ -227,7 +227,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-21T15:38:36+00:00",
+   "updated_at": "2026-07-21T17:10:52+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -238,7 +238,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-21T15:38:38+00:00",
+   "updated_at": "2026-07-21T17:10:56+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -399,8 +399,32 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-21T15:38:40+00:00",
+   "updated_at": "2026-07-21T17:11:00+00:00",
    "items": [
+    {
+     "title": "Paraná conclui plantio de trigo e colheita da safrinha avança para 29%",
+     "link": "https://www.canalrural.com.br/agricultura/parana-conclui-plantio-de-trigo-e-colheita-da-safrinha-avanca-para-29/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T16:47:02+00:00"
+    },
+    {
+     "title": "Custo da soja sobe para R$ 4,3 mil por hectare no Mato Grosso - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdTQ0b1B5ZmNKZGh0OGtRXzFkVjVhNmtvT2l4VGt2QlQ5VldBaUdOZmx2TlNjZERZSlNwUzdGM3RNQTJoSEliUk45VnpwU3lKQ1hJbjVqN0gzaGlRSE5hbU5XbmFFSmg3RzFIZm94WVQxa2FqUTh6TUdVRmlTb2VyMnJCcGFiOUlXWW5GbGxZZElpV2QwOHlrdlgxRXV3Y1VsTVo2czV3T2luTXJzc3Bz?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-21T16:42:00+00:00"
+    },
+    {
+     "title": "Volume de soja inspecionado para exportação nos EUA cai 33,7% na semana, diz USDA - UOL Notícias",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPM2xXaVRxSjluTE9WckxYdlFtcVREVHdwbUxNTURTYVRiNW5WVTI1Z01Ya1luS29kcVFMMmpvTXQ3M3RnSHhGMWNrMERtZnI5WmpPWGt0NVR3Ymppa3BaeDhDYmNaYlM5aFpTQ1lyVTdDM285Q3VlZ01raDd5anI0RHFwQ3Q0NTVSTkt5QUwxUUFLb2NBQUVTd1VzX3JjU1lFX1ZpanRld1NYTzI3VHdQSzlZYkdsa1h6ZmROY0dabFhDX21RYnFSQmZUbkwxMEdLdTk1Y2t5VHRiejdsNDBzWDEtb3ZOdUk0?oc=5",
+     "source": "UOL Notícias",
+     "published_at": "2026-07-21T16:00:00+00:00"
+    },
+    {
+     "title": "Colheita de café da Expocacer alcança 51% da safra 2026/27",
+     "link": "https://www.canalrural.com.br/agricultura/colheita-de-cafe-da-expocacer-alcanca-51-da-safra-2026-27/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T15:42:19+00:00"
+    },
     {
      "title": "Congresso Nacional retoma atividades em agosto com pauta concentrada",
      "link": "https://www.canalrural.com.br/videos/congresso-nacional-retoma-atividades-em-agosto-com-pauta-concentrada/",
@@ -450,34 +474,22 @@
      "published_at": "2026-07-21T15:05:23+00:00"
     },
     {
-     "title": "Previsão do tempo em São Paulo: chuvas e calor intenso nos próximos dias",
-     "link": "https://www.canalrural.com.br/videos/previsao-do-tempo-em-sao-paulo-chuvas-e-calor-intenso-nos-proximos-dias/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T15:05:12+00:00"
-    },
-    {
-     "title": "Cautela com tarifas e exterior mantém Ibovespa sem reação",
-     "link": "https://www.canalrural.com.br/economia/cautela-com-tarifas-e-exterior-mantem-ibovespa-sem-reacao/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T14:58:44+00:00"
-    },
-    {
      "title": "Inscreva-se para a Abertura Nacional do Plantio da Soja 2026/27; saiba como participar - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYUIxMHJoa0RrOUpnMkVsZmo5Q1FhSHRBRkR1STk4RjlvWnZ5WXpUbkk2N2Y5SjVZU1R3LWZWd2FZM3dhZ0hNblJvX2lJNlVNcmdFazhDaW42UTdHM1BFU2l5NHNkY202NF9vbncxdHV0ZUJqT2JieWVheDJwMU9mYzM2QklPVGota2otSjZwZ3BQenExZTRMbGR6akloZjJkNVA0aHRHWE5GdkJnYzRSd0hMa1pNYklXVVNqeEl0OHp6TWhOZlRBWElRZE90VVRGcmRUYlpGdkc2YVZ3bUxWd29R?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-21T14:46:50+00:00"
     },
     {
-     "title": "Queda no preço ou apenas um respiro para novas altas na soja e no milho ? - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNa3lhUlZFaUN0NnN3N1NXaUlOSW5vMm9WNkhKX0lMRTBLdzhqMnpseloweWEwaGZ2ZDA0WDhqNFlNUWpma3VSMG1aLUg4MVQ1X1h3V0hBbUN1aHpqbWRqUTNlV05Sc3FiN2hfWHVVR1c2OC0wV2ZwMWgzYkx5dVVhLUcyZDdoUzg1anctQ09iNXRKSjcyVHhQcU5QMmlGMGV0WThPNFVLMmlsU2g1bzU4VjBhSU1KelVCQm1oN3F4dFVkOUJmcjd0UGg1cjUzUHFFdndyT3dn0gHbAUFVX3lxTFAzSXhnRXRHb3h5NnRldENYRUk1d190dGdTVVZaMm01VjdBR2FwbVlFMURsTEZBNFNhQnJoaFl0M1FkRS1rdFFDbk1RWU1ZZEtJYTFIcjV3MzNSaEZDNTRLTmUtY1dtcUpuWWpwNlpXaGhQaDJNQ0hIVk5KYW40Y2dWU0trM0pPV1lzcUh6TDNxR0hBbndpYWdUTlV3VFJfbGpxeGM2c3d2Rm9pUXVON28yMXRxOFA4MXN2Qm5qTVNZb0JVSDFBdXVITTBBVG56WXVMY2M2Nm1Ic1ZWMA?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-21T14:38:15+00:00"
-    },
-    {
      "title": "Soja e milho caem em Chicago após realização de lucros - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUTFaa1l3WUJqNzZIZ3hNOXl2N19vWkppLVNiWklEaGEtTDdEQWd2UlhuV2ZmSmxLVG0yUEdIb19QTFctMDhiRDJycjFrU3ZCaU5UcmpIWnphbHNJal9EYXMyZERVeFluVTFtU0dhXzNBQ0RxRmNtdlUyVmVDVTdmMk5kTUNaZU11QmV6c3lQb0tXemZSZ3JZWTNleVBXWFJKQVdrd3J6OTQ4aWluY3dsVkpCeDHSAcMBQVVfeXFMUDF3MmdnVTNuRjFjVnRPNFg0MGdpSDFVT0ZkSTBDVy1ka0ZHY3ZHX1djMnlyaWdlMTAyWlRmRkp5dC1oN1BpWTZWZ25raFhsbjdxeE9JRG5LN3dlU0VUa3Faa0YyaTltbGhWWGRsdkd5RE1WVnE5LTNUejRwMW85VmZyMjJSSFExQ0x4OFdLX09QX1pSY3gtc25uT1EtOFhyX2JTVGtxc29ibFBBSHRmQXJXeTRPX2hXTUNFNlZWNHVoN0FV?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-07-21T13:53:31+00:00"
+    },
+    {
+     "title": "Quedas em Chicago e no dólar devem desfavorecer negócios com soja no Brasil - safras.com.br",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU2c0eVNvYnYtRmpjV1RWczZWVFpkSmF1Z0RNZnBYdmZrcVR3NUdkaGh3dWNzQ2ZCQkJCSGFDRFM2RnFFWVZnS3NPU092YUVrVGQ5MFFxNUdGY2VoUXNTOHhDTklQbFZfMi0tX0tDaXdmVWxJay1NVVowbXNCUTlmZTNxVDZTVjh5NDVlWjkxc3M4d0xJQWFxekJxanJZbEk?oc=5",
+     "source": "safras.com.br",
+     "published_at": "2026-07-21T13:09:02+00:00"
     },
     {
      "title": "Soja e carne de aves impulsionam exportações em julho - Feed&Food",
@@ -528,22 +540,10 @@
      "published_at": "2026-07-21T10:02:19+00:00"
     },
     {
-     "title": "Soja: Chicago impulsiona preços no Brasil - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeU52YnFuRF9HbFRVMFA2ZmJYTEoxT1RFLWoyQ3lKeHRaeXl3RUdMTmdFY19hSzFlS09SejZxOVNvWWxtdnpucldEbkRJUWt1S1djUzlaeFZXaFZlcF9BeVgwZC1rMUNHSV8xSWljUUZUNVNjd3drR1ZRRFVtVVBWcjJDT19ZRWd3bTFIX3NvMjk3cXF1?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-21T09:55:00+00:00"
-    },
-    {
      "title": "Vinhos importados mais baratos perdem espaço com inflação, enquanto rótulos premium avançam",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/21/vinhos-importados-mais-baratos-perdem-espaco-com-inflacao-enquanto-rotulos-premium-avancam.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-21T08:02:29"
-    },
-    {
-     "title": "Soja e pecuária sustentam VBP de R$ 1,4 trilhão em 2026. MT é destaque - Sapicuá",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWUp1X0pZb0dKSndfN0Vzc1VnWDdvVXVoZnVnTzRXb0ZqSDdvT0hHckZ3bngydFJrUVdhNDlid3pHeEE1d1BaWWp6cm5mRW4zaml4U20xc1M2dE5mdncycUE1TWg4SlJjMnlFdVAzM2xZeGFubXh5TjVPMl83aS02bERpZ19DdUYyTmgwZGNmQmd3dERndXphRjJn?oc=5",
-     "source": "Sapicuá",
-     "published_at": "2026-07-21T03:32:02+00:00"
     },
     {
      "title": "UE não flexibilizará exigências sanitárias para a carne brasileira, diz embaixador da Irlanda, que preside o bloco europeu",

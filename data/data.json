@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-21T22:49:02+00:00",
+ "generated_at": "2026-07-21T23:52:14+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-21T22:48:56+00:00",
+   "updated_at": "2026-07-21T23:52:08+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -163,9 +163,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.58,
+     "price": 91.69,
      "prev_close": 89.22,
-     "change_pct": 2.65,
+     "change_pct": 2.77,
      "closes": [
       77.9,
       77.08,
@@ -187,7 +187,7 @@
       84.23,
       88.1,
       89.22,
-      91.58
+      91.69
      ]
     },
     {
@@ -227,7 +227,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-21T22:48:56+00:00",
+   "updated_at": "2026-07-21T23:52:08+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -238,7 +238,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-21T22:49:00+00:00",
+   "updated_at": "2026-07-21T23:52:12+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -399,8 +399,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-21T22:49:02+00:00",
+   "updated_at": "2026-07-21T23:52:14+00:00",
    "items": [
+    {
+     "title": "Processamento de grãos melhora desempenho do gado no confinamento, afirma especialista",
+     "link": "https://www.canalrural.com.br/pecuaria/processamento-de-graos-melhora-desempenho-do-gado-no-confinamento-afirma-especialista/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T23:01:00+00:00"
+    },
+    {
+     "title": "VÍDEO: idoso é resgatado em carro submerso por retroescavadeira",
+     "link": "https://www.canalrural.com.br/nacional/video-idoso-e-resgatado-em-carro-submerso-por-retroescavadeira/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T22:51:29+00:00"
+    },
     {
      "title": "Preços do boi gordo seguem em alta graças a escalas de abate encurtadas",
      "link": "https://www.canalrural.com.br/pecuaria/precos-do-boi-gordo-seguem-em-alta-gracas-a-escalas-de-abate-encurtadas/",
@@ -466,18 +478,6 @@
      "link": "https://www.canalrural.com.br/economia/queda-do-diesel-puxa-recuo-dos-demais-combustiveis-em-julho/",
      "source": "Canal Rural",
      "published_at": "2026-07-21T20:25:10+00:00"
-    },
-    {
-     "title": "Bonsmara: raça ganha força no cruzamento industrial para produção de carne premium",
-     "link": "https://www.canalrural.com.br/pecuaria/bonsmara-raca-ganha-forca-no-cruzamento-industrial-para-producao-de-carne-premium/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T20:01:00+00:00"
-    },
-    {
-     "title": "CNA participa de reunião da Farm no Paraguai com foco sanitário e acordo Mercosul-UE",
-     "link": "https://www.canalrural.com.br/economia/cna-participa-de-reuniao-da-farm-no-paraguai-com-foco-sanitario-e-acordo-mercosul-ue/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T19:30:14+00:00"
     },
     {
      "title": "Volume de soja para exportação nos EUA cai 33,7% na semana, diz USDA - UOL Economia",

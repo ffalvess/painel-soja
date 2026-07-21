@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-21T19:10:19+00:00",
+ "generated_at": "2026-07-21T21:00:52+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-21T19:10:07+00:00",
+   "updated_at": "2026-07-21T21:00:42+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -163,9 +163,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.21,
+     "price": 91.35,
      "prev_close": 89.22,
-     "change_pct": 2.23,
+     "change_pct": 2.39,
      "closes": [
       77.9,
       77.08,
@@ -187,16 +187,16 @@
       84.23,
       88.1,
       89.22,
-      91.21
+      91.35
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 173469.7,
+     "price": 173325.66,
      "prev_close": 173371.0,
-     "change_pct": 0.06,
+     "change_pct": -0.03,
      "closes": [
       170370.0,
       171259.0,
@@ -219,7 +219,7 @@
       173825.0,
       173714.0,
       173371.0,
-      173469.7031
+      173325.6562
      ]
     }
    ],
@@ -227,7 +227,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-21T17:10:52+00:00",
+   "updated_at": "2026-07-21T21:00:43+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -238,7 +238,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-21T19:10:17+00:00",
+   "updated_at": "2026-07-21T21:00:48+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -399,8 +399,38 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-21T19:10:19+00:00",
+   "updated_at": "2026-07-21T21:00:52+00:00",
    "items": [
+    {
+     "title": "Queda do diesel puxa recuo dos demais combustíveis em julho",
+     "link": "https://www.canalrural.com.br/economia/queda-do-diesel-puxa-recuo-dos-demais-combustiveis-em-julho/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T20:25:10+00:00"
+    },
+    {
+     "title": "Bonsmara: raça ganha força no cruzamento industrial para produção de carne premium",
+     "link": "https://www.canalrural.com.br/pecuaria/bonsmara-raca-ganha-forca-no-cruzamento-industrial-para-producao-de-carne-premium/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T20:01:00+00:00"
+    },
+    {
+     "title": "CNA participa de reunião da Farm no Paraguai com foco sanitário e acordo Mercosul-UE",
+     "link": "https://www.canalrural.com.br/economia/cna-participa-de-reuniao-da-farm-no-paraguai-com-foco-sanitario-e-acordo-mercosul-ue/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T19:30:14+00:00"
+    },
+    {
+     "title": "Plano Safra: crédito sai ainda em julho e juros estão ‘muito baratos’, diz secretário do Mapa",
+     "link": "https://www.canalrural.com.br/agricultura/plano-safra-credito-sai-ainda-em-julho-e-juros-estao-muito-baratos-diz-secretario-do-mapa/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T19:07:00+00:00"
+    },
+    {
+     "title": "Petróleo sobe com tensão no Oriente Médio e risco à navegação",
+     "link": "https://www.canalrural.com.br/economia/petroleo-sobe-com-tensao-no-oriente-medio-e-risco-a-navegacao/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T19:03:18+00:00"
+    },
     {
      "title": "Etanol de milho amplia demanda pelo cereal e muda dinâmica do mercado no Brasil",
      "link": "https://www.canalrural.com.br/agricultura/etanol-de-milho-amplia-demanda-pelo-cereal-e-muda-dinamica-do-mercado-no-brasil/",
@@ -412,12 +442,6 @@
      "link": "https://www.canalrural.com.br/economia/tarifaco-dos-eua-setor-de-maquinas-pede-saida-diplomatica-ao-governo/",
      "source": "Canal Rural",
      "published_at": "2026-07-21T18:40:42+00:00"
-    },
-    {
-     "title": "Embrapa promove debate sobre futuro da soja brasileira - AgroRevenda",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSXF4Ulo0aGd3bWxEU0FIalluTTNFUm9WaVlxXzBpdWRXOG1mSVZTRGFfOWNTcU5kRjVXeHZvY3hLb2E4X2hlbnNETGtHYWNiY3VEa2NieGJaalozV19VZGF4WjZwSWt4V0JrdjJlWTFKQThNLW5sLUp1RDBUTlVpWFBYLXByY1NlYTJmdkRLdl82b2VMazRn?oc=5",
-     "source": "AgroRevenda",
-     "published_at": "2026-07-21T18:30:14+00:00"
     },
     {
      "title": "Volume de soja para exportação nos EUA cai 33,7% na semana, diz USDA - UOL Economia",
@@ -450,36 +474,6 @@
      "published_at": "2026-07-21T18:15:45+00:00"
     },
     {
-     "title": "Tarifa dos EUA pode afetar 70% das exportações do Rio Grande do Sul",
-     "link": "https://www.canalrural.com.br/videos/tarifa-dos-eua-pode-afetar-70-das-exportacoes-do-rio-grande-do-sul/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T18:15:32+00:00"
-    },
-    {
-     "title": "Produtores rurais podem manifestar interesse na renegociação de dívidas",
-     "link": "https://www.canalrural.com.br/videos/produtores-rurais-podem-manifestar-interesse-na-renegociacao-de-dividas/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T18:15:20+00:00"
-    },
-    {
-     "title": "Governo brasileiro avalia impactos de novas tarifas dos EUA",
-     "link": "https://www.canalrural.com.br/videos/governo-brasileiro-avalia-impactos-de-novas-tarifas-dos-eua/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T18:15:08+00:00"
-    },
-    {
-     "title": "BNDES aprova R$ 96,2 milhões para nova planta de biodiesel no Paraná",
-     "link": "https://www.canalrural.com.br/economia/bndes-aprova-r-962-milhoes-para-nova-planta-de-biodiesel-no-parana/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T18:09:55+00:00"
-    },
-    {
-     "title": "Atraso na equalização de juros impede acesso ao crédito do Plano Safra",
-     "link": "https://www.canalrural.com.br/videos/atraso-na-equalizacao-de-juros-impede-acesso-ao-credito-do-plano-safra/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T18:05:55+00:00"
-    },
-    {
      "title": "Seminário sobre mercado mundial de soja abre inscrições - Revista Cultivar",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOEJxNWNnYmM5LTJxQ01uZDZ5N01Mb3hrVkh0T1lpZUxEejRoaEZoYlF1OE94ZjNPRlRQWHF3b2FJdkkyQ2dYVzRLNGhLcE8xdFlPNnBNb0xvYU5uTTJoYXZiV1BCMUpLX3J0eVdzYldVMWp2VGlOdE5OUlFzdmg0WEVVbUZFVVV5Mzc4dlhpMWd3SlhMU3Fjc0ZpSQ?oc=5",
      "source": "Revista Cultivar",
@@ -510,16 +504,16 @@
      "published_at": "2026-07-21T15:28:55+00:00"
     },
     {
-     "title": "Queda no preço ou apenas um respiro para novas altas na soja e no milho ? - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNa3lhUlZFaUN0NnN3N1NXaUlOSW5vMm9WNkhKX0lMRTBLdzhqMnpseloweWEwaGZ2ZDA0WDhqNFlNUWpma3VSMG1aLUg4MVQ1X1h3V0hBbUN1aHpqbWRqUTNlV05Sc3FiN2hfWHVVR1c2OC0wV2ZwMWgzYkx5dVVhLUcyZDdoUzg1anctQ09iNXRKSjcyVHhQcU5QMmlGMGV0WThPNFVLMmlsU2g1bzU4VjBhSU1KelVCQm1oN3F4dFVkOUJmcjd0UGg1cjUzUHFFdndyT3dn0gHbAUFVX3lxTFAzSXhnRXRHb3h5NnRldENYRUk1d190dGdTVVZaMm01VjdBR2FwbVlFMURsTEZBNFNhQnJoaFl0M1FkRS1rdFFDbk1RWU1ZZEtJYTFIcjV3MzNSaEZDNTRLTmUtY1dtcUpuWWpwNlpXaGhQaDJNQ0hIVk5KYW40Y2dWU0trM0pPV1lzcUh6TDNxR0hBbndpYWdUTlV3VFJfbGpxeGM2c3d2Rm9pUXVON28yMXRxOFA4MXN2Qm5qTVNZb0JVSDFBdXVITTBBVG56WXVMY2M2Nm1Ic1ZWMA?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-21T14:38:15+00:00"
-    },
-    {
      "title": "Soja e milho caem em Chicago após realização de lucros - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUTFaa1l3WUJqNzZIZ3hNOXl2N19vWkppLVNiWklEaGEtTDdEQWd2UlhuV2ZmSmxLVG0yUEdIb19QTFctMDhiRDJycjFrU3ZCaU5UcmpIWnphbHNJal9EYXMyZERVeFluVTFtU0dhXzNBQ0RxRmNtdlUyVmVDVTdmMk5kTUNaZU11QmV6c3lQb0tXemZSZ3JZWTNleVBXWFJKQVdrd3J6OTQ4aWluY3dsVkpCeDHSAcMBQVVfeXFMUDF3MmdnVTNuRjFjVnRPNFg0MGdpSDFVT0ZkSTBDVy1ka0ZHY3ZHX1djMnlyaWdlMTAyWlRmRkp5dC1oN1BpWTZWZ25raFhsbjdxeE9JRG5LN3dlU0VUa3Faa0YyaTltbGhWWGRsdkd5RE1WVnE5LTNUejRwMW85VmZyMjJSSFExQ0x4OFdLX09QX1pSY3gtc25uT1EtOFhyX2JTVGtxc29ibFBBSHRmQXJXeTRPX2hXTUNFNlZWNHVoN0FV?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-07-21T13:53:31+00:00"
+    },
+    {
+     "title": "Soja e carne de aves impulsionam exportações em julho - Feed&Food",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdEhhWDVOVG01UnlheFNVUGV4UjREeU85Mm95OTJzeWlQdVY3SXBuaElTMWc2NG55VEw0TGpoU0h2bjdWNVVtSlZNRXpoajJKU2JzSng0Sm5pVklXVzNfMHczZGVrOE1CQTV5NlhvQjVoa1hIcWJkQ1g5NTVfbXRpRGVpTUM?oc=5",
+     "source": "Feed&Food",
+     "published_at": "2026-07-21T12:41:00+00:00"
     },
     {
      "title": "USDA divulga condições das lavouras de soja, milho, algodão e trigo nos EUA - Agrimidia",
@@ -538,6 +532,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/21/eua-podem-perder-para-o-brasil-o-papel-de-maior-exportador-agricola-do-mundo-diz-financial-times.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-21T11:27:49"
+    },
+    {
+     "title": "Fim da Moratória da Soja pode aumentar em 17% desmatamento na Amazônia - Instituto Humanitas Unisinos - IHU",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX0hMUnlHNmRFZzVtRGF6cno1Y2ZCeDN6a3BOU21UNXNnTjZ3c09DbG9LaWFMMm5sTl84c0NWNlh0NjRHYzczNGJkdjFiZElFa1dCMVZlTzVVc0lPU085N1I1aTgxOE82WFFITnRiWVlBbnBEei1tZmNXNEdjTnBfZXFzVG1Wcl9hNWhmdF9SVmdwQS1KbGM3QkVmUUNvWk5oc3VLWFhzNA?oc=5",
+     "source": "Instituto Humanitas Unisinos - IHU",
+     "published_at": "2026-07-21T11:03:42+00:00"
     },
     {
      "title": "Soja recua em Chicago nesta 3ª feira após altas expressivas e melhora nas lavouras dos EUA - Notícias Agrícolas",
@@ -591,10 +591,6 @@
   {
    "section": "fx",
    "error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
-  },
-  {
-   "section": "rates",
-   "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados/ultimos/12?formato=json"
   },
   {
    "section": "cepea",

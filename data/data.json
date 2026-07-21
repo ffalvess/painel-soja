@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-21T08:15:17+00:00",
+ "generated_at": "2026-07-21T11:02:55+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-21T08:15:09+00:00",
+   "updated_at": "2026-07-21T11:02:45+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1225.75,
+     "price": 1228.0,
      "prev_close": 1226.0,
-     "change_pct": -0.02,
+     "change_pct": 0.16,
      "closes": [
       1115.75,
       1117.0,
@@ -32,16 +32,16 @@
       1195.0,
       1204.5,
       1226.0,
-      1225.75
+      1228.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 470.75,
+     "price": 472.25,
      "prev_close": 449.5,
-     "change_pct": 4.73,
+     "change_pct": 5.06,
      "closes": [
       411.5,
       409.75,
@@ -63,16 +63,16 @@
       441.5,
       444.75,
       449.5,
-      470.75
+      472.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 324.6,
+     "price": 325.8,
      "prev_close": 323.5,
-     "change_pct": 0.34,
+     "change_pct": 0.71,
      "closes": [
       299.8,
       302.9,
@@ -94,16 +94,16 @@
       322.9,
       320.2,
       323.5,
-      324.6
+      325.8
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 72.24,
+     "price": 72.21,
      "prev_close": 74.68,
-     "change_pct": -3.27,
+     "change_pct": -3.31,
      "closes": [
       71.15,
       70.59,
@@ -125,16 +125,16 @@
       72.43,
       74.81,
       74.68,
-      72.24
+      72.21
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 672.25,
+     "price": 673.75,
      "prev_close": 674.0,
-     "change_pct": -0.26,
+     "change_pct": -0.04,
      "closes": [
       597.5,
       586.75,
@@ -156,16 +156,16 @@
       674.75,
       682.75,
       674.0,
-      672.25
+      673.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.1,
+     "price": 90.08,
      "prev_close": 89.22,
-     "change_pct": -1.26,
+     "change_pct": 0.96,
      "closes": [
       77.9,
       77.08,
@@ -187,7 +187,7 @@
       84.23,
       88.1,
       89.22,
-      88.1
+      90.08
      ]
     },
     {
@@ -226,7 +226,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-21T08:15:09+00:00",
+   "updated_at": "2026-07-21T11:02:45+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -237,7 +237,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-21T08:15:15+00:00",
+   "updated_at": "2026-07-21T11:02:50+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -398,8 +398,44 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-21T08:15:17+00:00",
+   "updated_at": "2026-07-21T11:02:55+00:00",
    "items": [
+    {
+     "title": "Soja recua em Chicago nesta 3ª feira após altas expressivas e melhora nas lavouras dos EUA - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQmt2dHg4NHI5VV84Y2xoYy1QQzJOSU4zcTNTYjdRWEZ0aWY3STZTSXA1c3hycmN6SENSVzRUaklib1dOYmhZd2J4LXlvbEZVY1cwRHhXUEM4ckppeVpRbTV0d0p6RXlua1A2SFZITEFyRThnLWcwMDFOTWRQVWhhVWl2TXNhODRNNlZuTzNDOTVTN2ZKVW5kbUlCaUx3LTJlTFpnVml1aEJqcE55NlVoUm8xYlU4TkZ1TXZuMEJzVkVkSUhrQmdFZGJpUUJqdGZaRGw5OdIB2gFBVV95cUxPb0IzNHkxdFlYcDM1ajJNeWpMaFZPZUlvRTZCX2JhOEVxYmFSNVNITFpNcEI0TjBseGFzOWtQVTZyRW9FZXZnbE9Md0hDcWN0dDlmM0JWTjA2TTJDYVZmZFUySGdnd0dOWXJvQWVQYWstcF9HMEdzUWNsU0RhaG5jY0R5WEU2YjVscFd5UHExLTZtTWZhX1g2YlM2S05vaS1zcXhvai1GT1dwVXpOYnVKRzYtUzFFZjQ5SFhSb0xVU3VyUk8tR3h4Si1JTHZ3ZmNfVUpIQV9OQWotdw?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-21T10:36:26+00:00"
+    },
+    {
+     "title": "O El Niño vai derrubar a produção de soja do Brasil? Para este banco, não - Exame",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNblN0Vklsa0JQTXJzd0E4UDV6bkRGel9DRmtRYkdrSjVxXy1wWTBTNkRGSzNuUjFIVEVxYUc3LXpkMWZBMkJjUW5SNXByMkRQMFpxaGJLcEYyR3RJT3AzMG5fdGhOZVZsWk05UkhkRGZRcVZ3b2xIalR0NWNTUlQweVh6Yi1CM0pDaHVaNEJUd185U3llZll4WVlnSQ?oc=5",
+     "source": "Exame",
+     "published_at": "2026-07-21T10:02:19+00:00"
+    },
+    {
+     "title": "Evento em Ilhéus reúne cadeia do cacau e projeta R$ 25 milhões em negócios",
+     "link": "https://www.canalrural.com.br/feiras-e-eventos/evento-em-ilheus-reune-cadeia-do-cacau-e-projeta-r-25-milhoes-em-negocios/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-21T10:01:00+00:00"
+    },
+    {
+     "title": "Soja: Chicago impulsiona preços no Brasil - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeU52YnFuRF9HbFRVMFA2ZmJYTEoxT1RFLWoyQ3lKeHRaeXl3RUdMTmdFY19hSzFlS09SejZxOVNvWWxtdnpucldEbkRJUWt1S1djUzlaeFZXaFZlcF9BeVgwZC1rMUNHSV8xSWljUUZUNVNjd3drR1ZRRFVtVVBWcjJDT19ZRWd3bTFIX3NvMjk3cXF1?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-21T09:55:00+00:00"
+    },
+    {
+     "title": "Preço da soja sobe no Brasil com alta no exterior e valorização do farelo - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZVROQ0V1TjJ3R2UtQ0JzN2gzYUJ0NEJ4YnJ2NGxpWmRyWTB6UktXaVJpTk84TWFzUk05cFBtYkVac2tsRGhMUkNTWjd3ME0yRkR5MkV1WTdpT2lPM1kyQjFTSDZoT3NscWw2U0p6V3g2WUxncy1hcjNZc253RjZMMFY5VWVkTmh0Q3F3aWswSXpRZFJoOXRVUi1QT3VYWk1QOWNpSG5heTVZMGlwRWlQT21CaHFJN1Z4MlBkbXRmQnFzczdmc2dvZHVlcUttd9IB3AFBVV95cUxPUi0zYVZJcVNrNUp1a2J2OVlIQWZuMVZOZGYtOUt4M1o1V3lRdFFlenJYR2JRYUdXczZrd3NFWGY2em5zOFdESkhwUjMxNWtpRGtSS1EzYXk1Zll5WkZrMlN5YktzTDNzc3ZHMVNTVTI1THpXNmFENjQwaDhFXzBBYTlydUl3bjNfNTM0U0xRZGlfM1Q3cjd3YmZ4dWx4S1VqYldvaTlIMUlXQU85M19fYjFRVmJ3NV9NZlBES19fSDRDQVVUcjk2MklVWF8zLTNta0VVUmtDcW1OaTBz?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-21T09:05:08+00:00"
+    },
+    {
+     "title": "Às vésperas da safra mais valiosa do Brasil, uma multinacional redesenha a oferta de fertilizantes - InvestNews",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zeWNfMmcyX1J4RksyM1E1SXhSY0E1eU9mckdDNHVJWVhJQkpUcm9vX01jS1kzVVk0eFllcWMzWU9maUpnNl9yTDRIdzZsVWdvNFo0TS1YX2JEMERGLXhLeVBIQ2x0aUZBWHZZbkptUmg1XzVxNGdB0gF8QVVfeXFMUC1GLVE4YWZkRnZJY1BmYUcyc2gtSjdoU0VFOTd5cGI1UnM5enFSZ3RNVmxVUHhJandINXNGUG5rTkpaWVJzSEZCR2FfVVJuamRfRFF3RmsyaDNYdnFUanE0cVhFZTJUc19ZU0pxbGNxMnN0LUhfc3NxaWJfRA?oc=5",
+     "source": "InvestNews",
+     "published_at": "2026-07-21T09:00:00+00:00"
+    },
     {
      "title": "Vinhos importados mais baratos perdem espaço com inflação, enquanto rótulos premium avançam",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/21/vinhos-importados-mais-baratos-perdem-espaco-com-inflacao-enquanto-rotulos-premium-avancam.ghtml",
@@ -503,46 +539,10 @@
      "published_at": "2026-07-20T20:29:16+00:00"
     },
     {
-     "title": "Mapa estuda ampliar acesso de compradores à plataforma Agro Brasil+Sustentável",
-     "link": "https://www.canalrural.com.br/politica/mapa-estuda-ampliar-acesso-de-compradores-a-plataforma-agro-brasilsustentavel/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-20T20:28:12+00:00"
-    },
-    {
-     "title": "Com apoio de demanda chinesa, preço da soja sobe em Chicago - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRFctVEZ6Rm1ObExNbTN1RmxIQTBXc0ViTERGN1licWxuTHZrTHVUTnBOanlOdEx2VTkycFVYTm1oWDR6ZVhFVUdyeHl1UVJFM3VyS282bmVCTjBnRlhxaDJEcU9EbGVMTU10ejllRE5Bc3hjREszR3RkQkZjVURmY3BpM2tNQkVqZWttbm5MRU5NVHllbEJoLW42eWltZlpkZ2hLOC1hZ0pBVFJlcWVMTF9CZHlscE8yS3fSAcgBQVVfeXFMUHpPejRReDkza0s0bU5pTWNBV1NhTW85cjhhb19mb1o1djd5NDhLTTRFa3NLZ0J1Q2o4X1FhbmV4cEstY0RQYUlHNmprcHZ3ZzlLZXMxQ0R4VnhzWFQ0NU9mMVRibkUxT1RiVVVpQ2JWVUJJeTNKWk5vbFBwbF91Rmt2N0p4WFJPR3hUWDI2Z1VPUHk5M2dvZE5uaXVRcTJzYkloX1c5S0pZMHdGWkR5cTV6QVlNTDdWMW14LWRRS3BKLUdYUkFDRno?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-20T19:19:08+00:00"
-    },
-    {
-     "title": "Soja: Anec eleva projeção de exportação em julho para 13,7 mi de toneladas - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONHR1T1dCMVNDTVFHa3pVY1FySXhFUDluSFBCaXFUeGx4UEo4LWdpSm81T3lyR0NDdXZ2TklvWHNSNXFfRWZQbGFXQVFjZEpKWHpaQUFtTFEtbDNFdGRjMWZhbmctRkZvMU5uOEJBaUNxdW5xYXZaUDBHRG51MllWcm5CQVRqQjhiQ1Q5OG5NZFNRa1E5U09VY1FlZm1fcW0tTEV5SmhmOF9oRnM?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-07-20T18:25:45+00:00"
-    },
-    {
      "title": "Mesmo mais cara, soja dos EUA atrai China por 'política' e logística, mas Brasil garante janela firme e prêmios altos - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNQXpWYlhGeHRmMEhCcGxQd2NGbU1uVTRRQzQxeVF1SGVPVS1WTXpyeHI1eW16bWRsZ3E2UV9IZ1dIWTBLRzlqU3NQOUdfX0lPTjA1cWhybTN1UEVETVF2NUpWdU91c2FBeDFDcHpuMHhubkY2Nmt6clEyMExrQ01VMC0tLTczMnNQR2pObElQS1FEMDZfUWpmZnFRM2hFbDJ0UnEzUUt1WS02bTJXSHg3UlJhaU5FT2h1TXdxNjdybTI0SUVfQzR5dGp3Si1IQ0JMaGRqVmJ5ZXdCYVZsQkpRLW9PN3F4WjBYOHdSMy00MWx6elY0UndSSzBxMUxRSTB2Z2VKZjZIY9IBjAJBVV95cUxON3NLLVBUZ2VzdU5GeGNGM3l1VG5mMzItNnZmeWltU2gzVnJsYVdrLTU3MzVFc200MkNzUUNGeEMxWjNqV0dUa2c5V3ZabDlZNnUxako5c2xFemkzYkpNcDNia2VqRVpsWGdpVWRRUDJRRFlzdVdRZGxEQW1wc0w2ek5HZ2xPamRNOW5UV3JzZ3A1clc3bkVxUTE4SlRkcVJHbGRoWlZQd2VQaldkWDU4TVFQOUdsaUtoeHFQZXd2UFJLUWwzYm9ERnNnRWhIZ056bXIyV2NVdkI1Qk5XeUtaamxIRkFtOU02cmNFYWJ1aTZ5U2VybUl1T2NQNHFqQjl2Y2FUOTQ1SnFtbkZr?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-20T17:57:30+00:00"
-    },
-    {
-     "title": "Soja recupera perdas, mas oferta limita novas altas - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNakNVc2tZQVMyZERoSE9mbE5GWWdaTEN3bHkxVU1EeVctSnNTSmxEZWphemV0OEpIeno2Zm9VQ1lvYlhidXNVZnV1TGlBU05pdUs4U01uRmdrUjNVSUpXQkhLZE54V1YxSTZRdDVoSmJseWpQc0FTMXA2b2kydll5bUN2d3ljNEpFWEhiekxyR1NNeEZSX25tZUotaFpwRkxfZFE?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-20T17:57:00+00:00"
-    },
-    {
-     "title": "Soja dispara mais de 20 pontos em Chicago e renova máximas em nove semanas nesta 2ª feira - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORXA1TzNGRTdTMDM4WmZzT0xmX19tUE14WkUxVTJGRXhWMTR6NExrZlhiNXNEa1RXZnhTZE53cElZSHlaQTNxdnFaQmtlUjNWend6MTJ3Zm1LeFM3V3FxTzEyZEpaUHc0SXhram9WMk40emNyVGtPdXZEUll1X0J2QmNHa0M4Vl9aeDV6UDRsME5ZdzFXT2kyLUd1c2lneXdjOXNnQ1RoRjJYRmdhV0hreUdPVnBxYkl2b24zV1VlWmtDbElWekJkaEI4WFNLQnppNmlZZkQyLTJuaFNsX3NSS3ZzZTRZUdIB6wFBVV95cUxQTEtGRmUwRGJVZWJlV1dyb3JMd21uc0NLcU9oQTdCZ2FxWllxMWNRMEFVZ2R5b2ltVTZVQ2tKelprOHNLYVZkdjZCNGdNQ3hLd1hhSEw1ZmFYY0VjU250aTBObkZnazhIVkRpZ0NBeWR6bkRDZldKYTU0TlAxd0ptMTdqdUdvb3JGS05uSzgwem9wRjM3Yktxdnc4WkdRZ2hHMXFLMjhLMmRxb1lRLUNoWlhWNHFMbEdMaVpZSDBDUUlsUmdISUQtZTNRaVl2dTR1d1FVektyU1dMeGxQWDJoQWdBeTZRWmd6R2RR?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-20T15:55:01+00:00"
-    },
-    {
-     "title": "China compra mais soja do Brasil enquanto reduz importações dos EUA - G1",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc0dEMHd5cFNwR2kzZEtXcjU0amQtSzBFZ2lERUtyb1M0MGM2RE10VlRmUUk2NUYtN1E0T1hPWWxSSUN5eUx0eFlueko0MTVuOU50VmhwU2pKWGlMU1FMbkVDMjNpazdEeUtXS1hrcHU4LWFGUVVXYkcyaUNMdE1hcjJabmJHRnVjZTQzUGVtMzNwaUphQWhIbURfQ0FFS0hraWN4aG8wbmJSSGNDSTlCQ3BvVUVvdmN1NUNuREZWUl9nSVVlVWNRYS1ZNWZjdlRS0gHfAUFVX3lxTE5QZ0htV1hNUHp1aXFwWVhHalF2dmR1M1hCOFRBUVA1NTZhU1JIQ1FpZFNldnFHNlFyQjZyNndLMkY4MmJJalluU1BucmJmNTdfOTNSLUpFTWVBbnEzaE9nc0ViQkprUTVvOHFyMGREaXI3dmJwekd5UkdoUVFkYnFwa0hXS0llc0dxM3J2TkV4elpRNHZ5V1B5OTZ0dGIweHZtLWRfOTYxVE9zWkV4MG02ZUdQdUt3Rks5c1FCNHFLeFVjNHBwMUo5eGg0encxdVg4RU13VUhvSVd0R01LMTg?oc=5",
-     "source": "G1",
-     "published_at": "2026-07-20T12:06:21+00:00"
     },
     {
      "title": "China compra mais soja do Brasil enquanto reduz importações dos EUA",

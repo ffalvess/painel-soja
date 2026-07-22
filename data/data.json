@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-22T20:58:55+00:00",
+ "generated_at": "2026-07-22T22:07:35+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-22T20:58:49+00:00",
+   "updated_at": "2026-07-22T22:07:27+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.83,
+     "price": 93.88,
      "prev_close": 91.01,
-     "change_pct": 3.1,
+     "change_pct": 3.15,
      "closes": [
       77.9,
       77.08,
@@ -193,7 +193,7 @@
       88.1,
       89.22,
       91.01,
-      93.83
+      93.88
      ]
     },
     {
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-22T20:58:49+00:00",
+   "updated_at": "2026-07-22T22:07:28+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-22T20:58:53+00:00",
+   "updated_at": "2026-07-22T22:07:32+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -406,8 +406,32 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-22T20:58:55+00:00",
+   "updated_at": "2026-07-22T22:07:35+00:00",
    "items": [
+    {
+     "title": "Nova taxação da China à carne brasileira é falsa, esclarece Mapa",
+     "link": "https://www.canalrural.com.br/pecuaria/nova-taxacao-da-china-a-carne-brasileira-e-falsa-esclarece-mapa/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T20:57:32+00:00"
+    },
+    {
+     "title": "Atendimento da Conab no Pará é suspenso na tarde desta quarta-feira",
+     "link": "https://www.canalrural.com.br/diversos/atendimento-da-conab-no-para-e-suspenso-na-tarde-desta-quarta-feira/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T20:49:56+00:00"
+    },
+    {
+     "title": "Mapa nega nova taxação da China sobre carne bovina do Brasil",
+     "link": "https://www.canalrural.com.br/pecuaria/mapa-nega-nova-taxacao-da-china-sobre-carne-bovina-do-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T20:48:28+00:00"
+    },
+    {
+     "title": "Brasil Soberano 3 libera R$ 18,5 bilhões para setores atingidos por tarifas dos EUA",
+     "link": "https://www.canalrural.com.br/economia/brasil-soberano-3-libera-r-185-bilhoes-para-setores-atingidos-por-tarifas-dos-eua/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T20:47:07+00:00"
+    },
     {
      "title": "SP aposta em batata-doce para ampliar produção de etanol e biometano",
      "link": "https://www.canalrural.com.br/agricultura/sp-aposta-em-batata-doce-para-ampliar-producao-de-etanol-e-biometano/",
@@ -415,8 +439,8 @@
      "published_at": "2026-07-22T20:29:02+00:00"
     },
     {
-     "title": "Vazio sanitário da soja já começou em parte do Brasil; entenda por que ele é decisivo para proteger a próxima safra",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/vazio-sanitario-da-soja-ja-comecou-em-parte-do-brasil-entenda-por-que-ele-e-decisivo-para-proteger-a-proxima-safra/",
+     "title": "Vazio sanitário da soja já começou em parte do Brasil; entenda por que ele é decisivo para proteger a próxima safra - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQQ3ZyVmVqMDlHR1lPaUFJUnBkendwNDlEdzNjejRCNG5ienlNaGRvaWpjU2Jxb0hMVHRWTkhuaVFBNGtjelJRV1U2aEROM0JaX2xGU25JQk1XU1oxMl9TYmZKQkpKVllKR29jZkpaSFZLWW5ldE1DdzR2Y1hNVTB5REpsX2dLcElQdmhfXzVQemYwR2lTV2ZRNHBwX0YxRldqMWZQUXFMTzJOS3N0aUNGVVFSRGQ5R3BuYVhtUU01MEgzUUtDUzdaMDZ1dHNUVFdBQ0cwZFM1T2hCVlZFX1YxeU1yTTdNeGdkN0M2MUFtb0piSFlyV29abEtxRHg2UHROZ3dLelBfOE8?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-22T20:28:10+00:00"
     },
@@ -439,45 +463,15 @@
      "published_at": "2026-07-22T20:15:08+00:00"
     },
     {
-     "title": "Milho e soja impulsionam safra do Acre, que deve crescer quase 10% em 2026 - A Gazeta do Acre",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQM2JocUlRTDdCMk9WZkNUXzZTUHhjLUZpaVlJekpCVktiOEpocUZ4ZmJPNlFDWWRYMTRzVlpTak1iblpDRnpVWmN1UlVza1FpUjV5NDV2bHg3YzlJVVJlVEpCWkM4cXhfX1daaE45RkdSdjk2cUtNbkJVcjNpZm5QVHRiWi16SnNueUxVS1ZwR0NfMHhlN0FISjhiNm5fNWVKYmktcXVNb25KMERZREVkbE95bExHX050V2c1YVZRUQ?oc=5",
-     "source": "A Gazeta do Acre",
-     "published_at": "2026-07-22T20:09:39+00:00"
-    },
-    {
      "title": "Tarifa dos EUA impacta severamente exportações da indústria madeireira brasileira",
      "link": "https://www.canalrural.com.br/videos/tarifa-dos-eua-impacta-severamente-exportacoes-da-industria-madeireira-brasileira/",
      "source": "Canal Rural",
      "published_at": "2026-07-22T20:06:04+00:00"
     },
     {
-     "title": "Temporal causa estragos no Rio Grande do Sul e mantém alerta",
-     "link": "https://www.canalrural.com.br/videos/temporal-causa-estragos-no-rio-grande-do-sul-e-mantem-alerta/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T20:05:55+00:00"
-    },
-    {
-     "title": "Preço da soja no Brasil atinge maior patamar desde 2026 com demanda chinesa",
-     "link": "https://www.canalrural.com.br/videos/preco-da-soja-no-brasil-atinge-maior-patamar-desde-2026-com-demanda-chinesa/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T20:05:46+00:00"
-    },
-    {
-     "title": "Práticas sustentáveis na fazenda Jangada Brava aumentam eficiência e reduzem custos",
-     "link": "https://www.canalrural.com.br/videos/praticas-sustentaveis-na-fazenda-jangada-brava-aumentam-eficiencia-e-reduzem-custos/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T20:05:36+00:00"
-    },
-    {
-     "title": "Lei da reciprocidade gera debate sobre tarifas entre Brasil e EUA",
-     "link": "https://www.canalrural.com.br/videos/lei-da-reciprocidade-gera-debate-sobre-tarifas-entre-brasil-e-eua/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T20:05:25+00:00"
-    },
-    {
-     "title": "Soja Talks debate como avanço do caruru-roxo exige nova postura no manejo da planta daninha - Embrapa",
+     "title": "Soja Talks debate como avanço do caruru-roxo exige nova postura no manejo da planta daninha - A Embrapa",
      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMVp1dWM1SV9HQ19nWUtSTURuN0MzZW5TTW5tQlBuX1BRNmVjMkxXWGNkRjJ0bm96NkNLeTdmZk1OcHpIWk5UZHUtZkZvUGw3dWRnQ2RyZGVmajBWN2ZDaU1SekxzNFA1MXh3dHM0NVo4ZHZnMkVlOWlVN1RVbGRMUjFHYlp4OUc2WjRnb09XZEEwTlMtbjFMZ1NZXy1HS2pZZ3p5YXRhbU9sRGE4Q3YyZ2x4T1ZXYnM0Nzh4dnFoejRiajROZ1o0eFA4TGZFa2t3QUJzVEZsaTN2U0hwd3lRUjVxM0tkNnM?oc=5",
-     "source": "Embrapa",
+     "source": "A Embrapa",
      "published_at": "2026-07-22T20:03:45+00:00"
     },
     {
@@ -587,6 +581,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/21/vinhos-importados-mais-baratos-perdem-espaco-com-inflacao-enquanto-rotulos-premium-avancam.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-21T08:02:29"
+    },
+    {
+     "title": "UE não flexibilizará exigências sanitárias para a carne brasileira, diz embaixador da Irlanda, que preside o bloco europeu",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/21/ue-nao-flexibilizara-exigencias-sanitarias-para-a-carne-brasileira-diz-embaixador-da-irlanda-que-preside-o-bloco-europeu.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-21T03:00:32"
     }
    ],
    "failed": [

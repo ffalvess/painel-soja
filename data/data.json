@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-22T08:16:00+00:00",
+ "generated_at": "2026-07-22T11:03:11+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-22T08:15:54+00:00",
+   "updated_at": "2026-07-22T11:03:04+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1224.25,
+     "price": 1225.25,
      "prev_close": 1219.5,
-     "change_pct": 0.39,
+     "change_pct": 0.47,
      "closes": [
       1115.75,
       1117.0,
@@ -33,16 +33,16 @@
       1204.5,
       1226.0,
       1219.5,
-      1224.25
+      1225.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 478.0,
+     "price": 479.75,
      "prev_close": 452.75,
-     "change_pct": 5.58,
+     "change_pct": 5.96,
      "closes": [
       411.5,
       409.75,
@@ -65,16 +65,16 @@
       444.75,
       449.5,
       452.75,
-      478.0
+      479.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 327.5,
+     "price": 328.8,
      "prev_close": 326.7,
-     "change_pct": 0.24,
+     "change_pct": 0.64,
      "closes": [
       299.8,
       302.9,
@@ -97,16 +97,16 @@
       320.2,
       323.5,
       326.7,
-      327.5
+      328.8
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.59,
+     "price": 71.38,
      "prev_close": 74.3,
-     "change_pct": -3.65,
+     "change_pct": -3.93,
      "closes": [
       71.15,
       70.59,
@@ -129,16 +129,16 @@
       74.81,
       74.68,
       74.3,
-      71.59
+      71.38
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 682.75,
+     "price": 687.75,
      "prev_close": 678.0,
-     "change_pct": 0.7,
+     "change_pct": 1.44,
      "closes": [
       597.5,
       586.75,
@@ -161,16 +161,16 @@
       682.75,
       674.0,
       678.0,
-      682.75
+      687.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.97,
+     "price": 84.46,
      "prev_close": 91.01,
-     "change_pct": 3.25,
+     "change_pct": -7.2,
      "closes": [
       77.9,
       77.08,
@@ -193,7 +193,7 @@
       88.1,
       89.22,
       91.01,
-      93.97
+      84.46
      ]
     },
     {
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-22T08:15:54+00:00",
+   "updated_at": "2026-07-22T11:03:04+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-22T08:15:57+00:00",
+   "updated_at": "2026-07-22T11:03:07+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,8 +405,32 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-22T08:16:00+00:00",
+   "updated_at": "2026-07-22T11:03:11+00:00",
    "items": [
+    {
+     "title": "Soja ensaia reação e opera com leves altas em Chicago nesta 4ª feira após realização de lucros - TradingView",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YSEt0dzNnVFhkVnc0b0xhc1JfRXUyVXNXQnNIbnlFS3F1dnhVekNHOUFINFpfUTJpUE96VVNoRGlOdzNtaGROT1dSM0dSN2xVODdVQkJCX0JxSEtSQzN0Tnc3TUZVdHduVkJKT0d2MURmMHZa?oc=5",
+     "source": "TradingView",
+     "published_at": "2026-07-22T10:42:51+00:00"
+    },
+    {
+     "title": "Problema do produtor de soja muda de fase: agora a pressão é sobre o lucro - Exame",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb1ZQb3ZIV2Rsa1F4NkpUZUQ0SHhYOV9lUEwwMHJwdTFUbFFGWm5Ea3JsOHlkUmhwRUNRdlhycng2SUJZd3ZkemRXTUtCNE1QdG1Icm9jVmN1aWxvNVhrcGNwcDVKaXVzRU5Kc2Y5a3RmT0UtOHF2U3Utem94Z0tISVlqYU9OdmwzM0pVSWN0a0RTejNYWlduZmUwQnpQUQ?oc=5",
+     "source": "Exame",
+     "published_at": "2026-07-22T09:57:30+00:00"
+    },
+    {
+     "title": "Portos sustentam alta nos preços da soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdTdvMnZFMllVSjFxLW01WE5JSHMzWEhfU05sWVNaZjhlRy15aTlTTHpnRmhCQktnYkE0Y1ZUSjh3WHhtZUdXMnJDa2FPQl9qSWRNeDR0N19iRThlb3JNSG9feHVya0t4UnpYcW1BYk1Pc2s5R3VyTlFfcmpkOUlwLUFFdnVHS2lOODJ6YnMxMlBNWlE?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-22T09:51:00+00:00"
+    },
+    {
+     "title": "Preço da soja no Brasil acompanha Chicago e cai na maioria das regiões - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNU0FmenNuZHI3THBTSzFSeW9Lal9TS3hoNnJ6RWFKaENSaWRoMHVqZ2c5NVNHa1RQUVBIYnZxWmg0ak1hS0d2Ukp4UEdhTGxRVlBVTm9zNExmZ1QyTWxLX2lmd0d1MDhIR1J2ZUNQZzRJZjlEbjBxXy1zeGdDMmxfbGJNUVJ3cEdvSlp5bjJuVEZsMkdZN3d3ZHdUMHpWYmlOZzU1aDlZMkMzYmJYQlNBY0U4VEdXLWg1YmJGRE1OUllpemZaMG8wbmt30gHYAUFVX3lxTE5wOUJJcVloNXFiNDVHaUpONTg4RGxTci1Ybk1BM0JxbkVEMFBONEhLNlhqdlItdENEOHItRmZqN2x3LVZnZkNQejVaNDROckpmQ0ZScGhiakNaUThDYlB3WS1NN09CSDdqMzFrcmFXYWU5Y3hNYWdGZkV2RXpWaklDcl9QS1pjWnM5S3cyWEd1d3N3YndQbXRsSkZkRHZKZjEyRnB1emVGOGhoVF9HeTJ1M21jRlotZEVJRVZPOFpQT2ZnYm1haEF0ZExWRXNPQjhUbGtRYUV3Qg?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-22T09:05:08+00:00"
+    },
     {
      "title": "SOJA E TRIGO: confira os preços dos grãos nesta quarta-feira (22) - Brasil 61",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNU1hUVVYS3UzbGMtOTNtNnpLREZ6TENUaU1qbGpWVVBwcWcyLVBQbVVkSFpTM2dwQXBsdDFNcTFBQXFBbW4xLThSd2xHVXFtWUFCYmcxX2l0TW9CUWdOMjlBLXVZbG90M1BxX282d1g5bGh1emdPU3hvbDZhWEFKQ2QzNV9Hakh5dUxOY3ZMMFRHeG9rMVVGUzhUcDDSAaIBQVVfeXFMTjhOQUIycmFfVG53RlVkRUN1MGhTWHdmVUdiRHpRbFZ4ZVlDX3JSazV6OHhvSGU3VEhWR0tEcmZrdndOeXRtbmVZTkdaYXAyX0k5LVh6ekxoakVPdThVRlJkaGxlY0xGMDB0cTR2NWpwaF9FWTBiakFvT21jM3lqVDd4d3VJM216YzR2NGZFUFdpZjJ2NzRaV25jNkoxM1VzN0NB?oc=5",
@@ -442,6 +466,12 @@
      "link": "https://www.canalrural.com.br/pecuaria/precos-do-boi-gordo-seguem-em-alta-gracas-a-escalas-de-abate-encurtadas/",
      "source": "Canal Rural",
      "published_at": "2026-07-21T21:50:43+00:00"
+    },
+    {
+     "title": "Soja recua por realização de lucros em Chicago - Money Times",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNd3V4ZXRSU2NYVUJ3VG5zLXlsM1Y1Wi1sTzNVbUtxU25McEhINk9FRlpaRGxrZkpESkd4OWlqbzJZbFNKRnZueHMycjNsRHI4X1dJYlhlRHpqMVdlMUl6U2szUHIyUFNkWGhpYzh1S2lfR05wWlV2ekNqOG5MTUNyeXVycUcwNzhhY2c?oc=5",
+     "source": "Money Times",
+     "published_at": "2026-07-21T21:43:00+00:00"
     },
     {
      "title": "Ibovespa fecha estável e dólar comercial cai a R$ 5,0737",
@@ -480,12 +510,6 @@
      "published_at": "2026-07-21T20:58:27+00:00"
     },
     {
-     "title": "Sojicultores ainda esperam por preços melhores; negócios não andam e dia é fraco para a soja - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZ3luN2s5SnlzbHRDa1JybGFBczlIVnRxd256NlpUb1RGV0dnWDl6OFRObEtHMkdIcllaNENLZGRsWXd6c1ZfOUJ1NVNyYldELW1oc20taXlLQmVrOGotQ3RsTWgzOXNFTlVKS2llV3diR1hGNnZVSVhPZ3JKZVIxLUtNcmhha19UaFdZc3Z6UUhDTjRmRWFiRmdqRFFwUG5sNHBCM3RjZ3pBMWpxTG5jYkZqcUg5TzloeXI3NHFrZUM1bGpJVnlvX3lwejBaOTh2T3FGcmItZnB3RXVWczJrUXFVN0JGQ0VfLUE?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-21T20:51:05+00:00"
-    },
-    {
      "title": "Sojicultores ainda esperam por preços melhores; negócios não andam e dia é fraco para a soja",
      "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/sojicultores-ainda-esperam-por-precos-melhores-negocios-nao-andam-e-dia-e-fraco-para-a-soja/",
      "source": "Canal Rural",
@@ -502,12 +526,6 @@
      "link": "https://www.canalrural.com.br/economia/queda-do-diesel-puxa-recuo-dos-demais-combustiveis-em-julho/",
      "source": "Canal Rural",
      "published_at": "2026-07-21T20:25:10+00:00"
-    },
-    {
-     "title": "Óleo de soja sustenta alta da indústria americana - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZUtYYmdUQnV2YkVMMkpidjhlY21Fcm45bVFJT1FxRVVUeFZMelhKaXY3WnVOYnpQSl9yUEpZeW12ZEU1QVlqYjNXQU9qdkVmQURkY21qWkJwRGFBektJWWtBRDJPTFV5OW9ZVTFLZ0pRSlRZbk0tcHFGTXVUcnB4VEJCSjdPRDFaX0FwX21sbTZsY09QdG51cllZbFFQRlk?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-21T19:22:00+00:00"
     },
     {
      "title": "Volume de soja para exportação nos EUA cai 33,7% na semana, diz USDA - UOL Economia",
@@ -532,24 +550,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/21/o-que-se-sabe-sobre-a-alface-investigada-apos-surto-de-doenca-nos-eua-mexico-nega-ligacao-com-os-casos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-21T17:26:01"
-    },
-    {
-     "title": "Custo da soja sobe para R$ 4,3 mil por hectare no Mato Grosso - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdTQ0b1B5ZmNKZGh0OGtRXzFkVjVhNmtvT2l4VGt2QlQ5VldBaUdOZmx2TlNjZERZSlNwUzdGM3RNQTJoSEliUk45VnpwU3lKQ1hJbjVqN0gzaGlRSE5hbU5XbmFFSmg3RzFIZm94WVQxa2FqUTh6TUdVRmlTb2VyMnJCcGFiOUlXWW5GbGxZZElpV2QwOHlrdlgxRXV3Y1VsTVo2czV3T2luTXJzc3Bz?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-21T16:42:00+00:00"
-    },
-    {
-     "title": "Preço da soja dispara e alcança maior cotação de 2026 - Revista Oeste",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLWhaa29hUTZDb3FpdHhFWWlzNEMtbERFZ3FFY29YRDJpZG9zUGs3VjZNaVlfR2N3TTFCS3RXLTl0QmNtc1FmZ3FXQW5SaEdiaWNSM21sOVZfYW9SWDJiYjRrMThXQTE1Vm1GS2M1TF8xQ3VVYlpXQTBnYzhGSXl6b3lIclBQMUhnTDl1TnhpY2JFbkpzZ0E?oc=5",
-     "source": "Revista Oeste",
-     "published_at": "2026-07-21T15:28:55+00:00"
-    },
-    {
-     "title": "Queda no preço ou apenas um respiro para novas altas na soja e no milho ? - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNa3lhUlZFaUN0NnN3N1NXaUlOSW5vMm9WNkhKX0lMRTBLdzhqMnpseloweWEwaGZ2ZDA0WDhqNFlNUWpma3VSMG1aLUg4MVQ1X1h3V0hBbUN1aHpqbWRqUTNlV05Sc3FiN2hfWHVVR1c2OC0wV2ZwMWgzYkx5dVVhLUcyZDdoUzg1anctQ09iNXRKSjcyVHhQcU5QMmlGMGV0WThPNFVLMmlsU2g1bzU4VjBhSU1KelVCQm1oN3F4dFVkOUJmcjd0UGg1cjUzUHFFdndyT3dn0gHbAUFVX3lxTFAzSXhnRXRHb3h5NnRldENYRUk1d190dGdTVVZaMm01VjdBR2FwbVlFMURsTEZBNFNhQnJoaFl0M1FkRS1rdFFDbk1RWU1ZZEtJYTFIcjV3MzNSaEZDNTRLTmUtY1dtcUpuWWpwNlpXaGhQaDJNQ0hIVk5KYW40Y2dWU0trM0pPV1lzcUh6TDNxR0hBbndpYWdUTlV3VFJfbGpxeGM2c3d2Rm9pUXVON28yMXRxOFA4MXN2Qm5qTVNZb0JVSDFBdXVITTBBVG56WXVMY2M2Nm1Ic1ZWMA?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-21T14:38:15+00:00"
     },
     {
      "title": "EUA podem perder para o Brasil o papel de maior exportador agrícola do mundo, diz Financial Times",

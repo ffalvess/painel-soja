@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-22T19:04:07+00:00",
+ "generated_at": "2026-07-22T20:58:55+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-22T19:04:03+00:00",
+   "updated_at": "2026-07-22T20:58:49+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 94.26,
+     "price": 93.83,
      "prev_close": 91.01,
-     "change_pct": 3.57,
+     "change_pct": 3.1,
      "closes": [
       77.9,
       77.08,
@@ -193,16 +193,16 @@
       88.1,
       89.22,
       91.01,
-      94.26
+      93.83
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 177423.7,
+     "price": 177547.56,
      "prev_close": 173326.0,
-     "change_pct": 2.36,
+     "change_pct": 2.44,
      "closes": [
       170370.0,
       171259.0,
@@ -226,7 +226,7 @@
       173714.0,
       173371.0,
       173326.0,
-      177423.7031
+      177547.5625
      ]
     }
    ],
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-22T19:04:03+00:00",
+   "updated_at": "2026-07-22T20:58:49+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-22T19:04:05+00:00",
+   "updated_at": "2026-07-22T20:58:53+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -406,37 +406,91 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-22T19:04:07+00:00",
+   "updated_at": "2026-07-22T20:58:55+00:00",
    "items": [
     {
-     "title": "Marília Mendonça volta a emocionar fãs com música inédita no dia em que completaria 31 anos",
-     "link": "https://www.canalrural.com.br/entretenimento/marilia-mendonca-volta-a-emocionar-fas-com-musica-inedita-no-dia-em-que-completaria-31-anos/",
+     "title": "SP aposta em batata-doce para ampliar produção de etanol e biometano",
+     "link": "https://www.canalrural.com.br/agricultura/sp-aposta-em-batata-doce-para-ampliar-producao-de-etanol-e-biometano/",
      "source": "Canal Rural",
-     "published_at": "2026-07-22T18:37:23+00:00"
+     "published_at": "2026-07-22T20:29:02+00:00"
     },
     {
-     "title": "Receita Federal libera versão web da DITR em 10 de agosto",
-     "link": "https://www.canalrural.com.br/economia/receita-federal-libera-versao-web-da-ditr-em-10-de-agosto/",
+     "title": "Vazio sanitário da soja já começou em parte do Brasil; entenda por que ele é decisivo para proteger a próxima safra",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/vazio-sanitario-da-soja-ja-comecou-em-parte-do-brasil-entenda-por-que-ele-e-decisivo-para-proteger-a-proxima-safra/",
      "source": "Canal Rural",
-     "published_at": "2026-07-22T18:26:28+00:00"
+     "published_at": "2026-07-22T20:28:10+00:00"
+    },
+    {
+     "title": "Projeto amplia transparência de títulos privados do agronegócio",
+     "link": "https://www.canalrural.com.br/politica/projeto-amplia-transparencia-de-titulos-privados-do-agronegocio/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T20:23:31+00:00"
+    },
+    {
+     "title": "Brasil busca alternativas após tarifaço de 25% dos EUA",
+     "link": "https://www.canalrural.com.br/videos/brasil-busca-alternativas-apos-tarifaco-de-25-dos-eua/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T20:15:18+00:00"
+    },
+    {
+     "title": "Sorriso-MT sedia Global Agribusiness Festival com 10 mil participantes",
+     "link": "https://www.canalrural.com.br/videos/sorriso-mt-sedia-global-agribusiness-festival-com-10-mil-participantes/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T20:15:08+00:00"
+    },
+    {
+     "title": "Milho e soja impulsionam safra do Acre, que deve crescer quase 10% em 2026 - A Gazeta do Acre",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQM2JocUlRTDdCMk9WZkNUXzZTUHhjLUZpaVlJekpCVktiOEpocUZ4ZmJPNlFDWWRYMTRzVlpTak1iblpDRnpVWmN1UlVza1FpUjV5NDV2bHg3YzlJVVJlVEpCWkM4cXhfX1daaE45RkdSdjk2cUtNbkJVcjNpZm5QVHRiWi16SnNueUxVS1ZwR0NfMHhlN0FISjhiNm5fNWVKYmktcXVNb25KMERZREVkbE95bExHX050V2c1YVZRUQ?oc=5",
+     "source": "A Gazeta do Acre",
+     "published_at": "2026-07-22T20:09:39+00:00"
+    },
+    {
+     "title": "Tarifa dos EUA impacta severamente exportações da indústria madeireira brasileira",
+     "link": "https://www.canalrural.com.br/videos/tarifa-dos-eua-impacta-severamente-exportacoes-da-industria-madeireira-brasileira/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T20:06:04+00:00"
+    },
+    {
+     "title": "Temporal causa estragos no Rio Grande do Sul e mantém alerta",
+     "link": "https://www.canalrural.com.br/videos/temporal-causa-estragos-no-rio-grande-do-sul-e-mantem-alerta/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T20:05:55+00:00"
+    },
+    {
+     "title": "Preço da soja no Brasil atinge maior patamar desde 2026 com demanda chinesa",
+     "link": "https://www.canalrural.com.br/videos/preco-da-soja-no-brasil-atinge-maior-patamar-desde-2026-com-demanda-chinesa/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T20:05:46+00:00"
+    },
+    {
+     "title": "Práticas sustentáveis na fazenda Jangada Brava aumentam eficiência e reduzem custos",
+     "link": "https://www.canalrural.com.br/videos/praticas-sustentaveis-na-fazenda-jangada-brava-aumentam-eficiencia-e-reduzem-custos/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T20:05:36+00:00"
+    },
+    {
+     "title": "Lei da reciprocidade gera debate sobre tarifas entre Brasil e EUA",
+     "link": "https://www.canalrural.com.br/videos/lei-da-reciprocidade-gera-debate-sobre-tarifas-entre-brasil-e-eua/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T20:05:25+00:00"
+    },
+    {
+     "title": "Soja Talks debate como avanço do caruru-roxo exige nova postura no manejo da planta daninha - Embrapa",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMVp1dWM1SV9HQ19nWUtSTURuN0MzZW5TTW5tQlBuX1BRNmVjMkxXWGNkRjJ0bm96NkNLeTdmZk1OcHpIWk5UZHUtZkZvUGw3dWRnQ2RyZGVmajBWN2ZDaU1SekxzNFA1MXh3dHM0NVo4ZHZnMkVlOWlVN1RVbGRMUjFHYlp4OUc2WjRnb09XZEEwTlMtbjFMZ1NZXy1HS2pZZ3p5YXRhbU9sRGE4Q3YyZ2x4T1ZXYnM0Nzh4dnFoejRiajROZ1o0eFA4TGZFa2t3QUJzVEZsaTN2U0hwd3lRUjVxM0tkNnM?oc=5",
+     "source": "Embrapa",
+     "published_at": "2026-07-22T20:03:45+00:00"
+    },
+    {
+     "title": "Cadeia da soja impulsiona exportações brasileiras em julho - O Presente Rural",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbVlqMGdzM1RGclpIMUl2RGFfRm4talpnMU5Ia1NZY0pVTmdlbmRlb1dtdzM0cXpJR0hOdWlRMHRabUdoV3JsRVZoUUkzRWpjOGdDbU40dFByZW0wbDdkT216LTFKOExKMTA1YWZmeFdac1M2T203YUlOam9vbG5nN3FFRGRhYVFkMW1UTXdmNXdDZUU?oc=5",
+     "source": "O Presente Rural",
+     "published_at": "2026-07-22T19:30:47+00:00"
     },
     {
      "title": "Custeio da soja sobe 3,35% para a safra 2026/27 em MT - Revista Cultivar",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbzUxQkoxX1F0YTZuTGtNMl9xUHJzOGNSRFdFam9OTXlBVnBMTC1RZExnbHdGQmRjRXYtaGV1cmcyQ0tKcTNtUGZ0SV9LeFcyWENiem5LUjZiendSV2Vyd3BKTlljMW0tZnBqejFQLWNxWHc3eXloZHd1aWFsT0xHMERlLWYwZGVoZWhnWFQ1OUJNaGdtblVF?oc=5",
      "source": "Revista Cultivar",
      "published_at": "2026-07-22T18:10:03+00:00"
-    },
-    {
-     "title": "Fluxo cambial fica positivo em US$ 189 milhões até 17 de julho",
-     "link": "https://www.canalrural.com.br/economia/fluxo-cambial-fica-positivo-em-us-189-milhoes-ate-17-de-julho/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T18:03:19+00:00"
-    },
-    {
-     "title": "EUA caminham para superávit agrícola, afirma Jamieson Greer",
-     "link": "https://www.canalrural.com.br/economia/eua-caminham-para-superavit-agricola-afirma-jamieson-greer/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T17:56:45+00:00"
     },
     {
      "title": "Soja volta a disparar em Chicago nesta 4ª feira na esteira do trigo e jan/27 vai a US$ 12,50 - Notícias Agrícolas",
@@ -451,22 +505,10 @@
      "published_at": "2026-07-22T17:02:11+00:00"
     },
     {
-     "title": "Anec reduz previsão de exportação de soja do Brasil em julho para 13,50 milhões de toneladas",
-     "link": "https://www.canalrural.com.br/economia/anec-reduz-previsao-de-exportacao-de-soja-do-brasil-em-julho-para-1350-milhoes-de-toneladas/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T17:02:11+00:00"
-    },
-    {
      "title": "Previsão da Anec de exportação de soja em julho é revisada para baixo - UOL Notícias",
      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQa053VVpJVGN5OVdHOVF3MEx5dG45RmZZWXdQSGF3R3Vzbkl3bURNZ2RvNlRzZlctTGE5anBKYTBUdU9EcGNSYjFoX2lUOW1FU2QweUVzbENfdWhpMkxSUU5oRHlqU1BYaGtIMHdINTBONVhJVFZ2MnNZQWt6RklNejlBLUlPZWN4ajM1T1JWV2U0MXN1bkJ0SklETVFBeXBlQ1psdklrbFVQWGNKZGtVRzdOUnlnNEdvOUxkSm1FOUJRaWpqME1UY0p5dFFqd0Q0VmtuLURnMmNURkNj?oc=5",
      "source": "UOL Notícias",
      "published_at": "2026-07-22T17:00:00+00:00"
-    },
-    {
-     "title": "Entidades defendem leilão do Tecon-10 e pressionam por decisão na Casa Civil",
-     "link": "https://www.canalrural.com.br/economia/entidades-defendem-leilao-do-tecon-10-e-pressionam-por-decisao-na-casa-civil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T16:43:21+00:00"
     },
     {
      "title": "Cidade espanhola presenteia campeões da Copa com tomates equivalentes ao próprio peso; veja vídeo",
@@ -475,40 +517,10 @@
      "published_at": "2026-07-22T16:33:48"
     },
     {
-     "title": "CNA inicia capacitação sobre direito sindical e representação rural",
-     "link": "https://www.canalrural.com.br/politica/cna-inicia-capacitacao-sobre-direito-sindical-e-representacao-rural/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T15:58:13+00:00"
-    },
-    {
-     "title": "Governo brasileiro discute impactos de tarifa de 25% dos EUA",
-     "link": "https://www.canalrural.com.br/videos/governo-brasileiro-discute-impactos-de-tarifa-de-25-dos-eua/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T15:15:52+00:00"
-    },
-    {
-     "title": "Inteligência artificial e sensores melhoram a suinocultura no Brasil",
-     "link": "https://www.canalrural.com.br/videos/inteligencia-artificial-e-sensores-melhoram-a-suinocultura-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T15:15:42+00:00"
-    },
-    {
-     "title": "Miguel Daoud analisa impacto da sobretaxa de 25% dos EUA no Brasil",
-     "link": "https://www.canalrural.com.br/videos/miguel-daud-analisa-impacto-da-sobretaxa-de-25-dos-eua-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T15:15:30+00:00"
-    },
-    {
      "title": "Desmatamento no Brasil coloca agricultores dos EUA em desvantagem, diz representante comercial americano",
      "link": "https://g1.globo.com/economia/noticia/2026/07/22/jamieson-greer-brasil-eua.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-22T14:48:59"
-    },
-    {
-     "title": "Soja Talks debate como avanço do caruru-roxo exige nova postura no manejo da planta daninha - Embrapa",
-     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMVp1dWM1SV9HQ19nWUtSTURuN0MzZW5TTW5tQlBuX1BRNmVjMkxXWGNkRjJ0bm96NkNLeTdmZk1OcHpIWk5UZHUtZkZvUGw3dWRnQ2RyZGVmajBWN2ZDaU1SekxzNFA1MXh3dHM0NVo4ZHZnMkVlOWlVN1RVbGRMUjFHYlp4OUc2WjRnb09XZEEwTlMtbjFMZ1NZXy1HS2pZZ3p5YXRhbU9sRGE4Q3YyZ2x4T1ZXYnM0Nzh4dnFoejRiajROZ1o0eFA4TGZFa2t3QUJzVEZsaTN2U0hwd3lRUjVxM0tkNnM?oc=5",
-     "source": "Embrapa",
-     "published_at": "2026-07-22T14:11:38+00:00"
     },
     {
      "title": "Soja, milho e trigo sobem em Chicago com falta de chuva nos EUA - Globo Rural",
@@ -535,22 +547,10 @@
      "published_at": "2026-07-22T11:05:00+00:00"
     },
     {
-     "title": "Soja ensaia reação e opera com leves altas em Chicago nesta 4ª feira após realização de lucros - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZ2VfOEVYUzdOVHg3UmhucFhtYVFJWG5ZbE14VE5zS0RWX2h2VVJ4OHpyZy13c3l2ZG9zMjl2a1J4WldLWTYtaDE1aXJNZ245ak51aXZUd3k2QURJR1YxZS1SVk01MnFEemxIcUpyaS1OQXAtSFJhUkhGdmhQdkU4bmlraTFJbHRGOUx2WVpaN0dPdDJVMlR0T0pta2pUUXBiOXU2bUg5aElBUFdENkJSUmVKNFBkYWs3REkzNnNDcGJtRmY3anhhNjMzaFJHaF9xSEtRcWt6Y01EMUVkeUVvNUY4SWx6MWRaNWhyV9IB8gFBVV95cUxNS2xfUl91UGJpUzhYdTltNHBSZFo5RjRZSENhN2F6WkJPSlZUcWtOUDY4QjZuWTFDRHNIWXlEdnRWV0ZDWmJEU0c0VkN5WVdxcUVYSHY5T1dxdVFCT1lTV2xkMXVBdFJrRG1xTktvQjVMWkJTTG1xaW8zUHk1dkFtNXdXY1RSeFFIQnFpSUJUTnNQcWd0MWhsb1l3WFpyVDJiNVZBY1hGWGVWbW1BZ0REcWIwcm9odWpHZVdrQllTN3BpQ1lfWHRuUl9WdmROMUNROGk0UmFPbVdjTEdLYzU4d1dxajhkaklHTjhfdmx2VFg3UQ?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-22T10:42:51+00:00"
-    },
-    {
      "title": "Problema do produtor de soja muda de fase: agora a pressão é sobre o lucro - Exame",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb1ZQb3ZIV2Rsa1F4NkpUZUQ0SHhYOV9lUEwwMHJwdTFUbFFGWm5Ea3JsOHlkUmhwRUNRdlhycng2SUJZd3ZkemRXTUtCNE1QdG1Icm9jVmN1aWxvNVhrcGNwcDVKaXVzRU5Kc2Y5a3RmT0UtOHF2U3Utem94Z0tISVlqYU9OdmwzM0pVSWN0a0RTejNYWlduZmUwQnpQUQ?oc=5",
      "source": "Exame",
      "published_at": "2026-07-22T09:57:30+00:00"
-    },
-    {
-     "title": "SOJA E TRIGO: confira os preços dos grãos nesta quarta-feira (22) - Brasil 61",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNU1hUVVYS3UzbGMtOTNtNnpLREZ6TENUaU1qbGpWVVBwcWcyLVBQbVVkSFpTM2dwQXBsdDFNcTFBQXFBbW4xLThSd2xHVXFtWUFCYmcxX2l0TW9CUWdOMjlBLXVZbG90M1BxX282d1g5bGh1emdPU3hvbDZhWEFKQ2QzNV9Hakh5dUxOY3ZMMFRHeG9rMVVGUzhUcDDSAaIBQVVfeXFMTjhOQUIycmFfVG53RlVkRUN1MGhTWHdmVUdiRHpRbFZ4ZVlDX3JSazV6OHhvSGU3VEhWR0tEcmZrdndOeXRtbmVZTkdaYXAyX0k5LVh6ekxoakVPdThVRlJkaGxlY0xGMDB0cTR2NWpwaF9FWTBiakFvT21jM3lqVDd4d3VJM216YzR2NGZFUFdpZjJ2NzRaV25jNkoxM1VzN0NB?oc=5",
-     "source": "Brasil 61",
-     "published_at": "2026-07-22T07:00:00+00:00"
     },
     {
      "title": "Tarifaço: por que o Brasil evita uma retaliação imediata — e como pode responder aos EUA",

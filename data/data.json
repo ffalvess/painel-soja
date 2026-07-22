@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-22T15:28:12+00:00",
+ "generated_at": "2026-07-22T17:10:59+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-22T15:28:03+00:00",
+   "updated_at": "2026-07-22T17:10:53+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1235.75,
+     "price": 1237.5,
      "prev_close": 1219.5,
-     "change_pct": 1.33,
+     "change_pct": 1.48,
      "closes": [
       1115.75,
       1117.0,
@@ -33,16 +33,16 @@
       1204.5,
       1226.0,
       1219.5,
-      1235.75
+      1237.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 484.25,
+     "price": 483.75,
      "prev_close": 452.75,
-     "change_pct": 6.96,
+     "change_pct": 6.85,
      "closes": [
       411.5,
       409.75,
@@ -65,16 +65,16 @@
       444.75,
       449.5,
       452.75,
-      484.25
+      483.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 333.8,
+     "price": 334.0,
      "prev_close": 326.7,
-     "change_pct": 2.17,
+     "change_pct": 2.23,
      "closes": [
       299.8,
       302.9,
@@ -97,16 +97,16 @@
       320.2,
       323.5,
       326.7,
-      333.8
+      334.0
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 72.21,
+     "price": 72.72,
      "prev_close": 74.3,
-     "change_pct": -2.81,
+     "change_pct": -2.13,
      "closes": [
       71.15,
       70.59,
@@ -129,16 +129,16 @@
       74.81,
       74.68,
       74.3,
-      72.21
+      72.72
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 702.25,
+     "price": 704.0,
      "prev_close": 678.0,
-     "change_pct": 3.58,
+     "change_pct": 3.83,
      "closes": [
       597.5,
       586.75,
@@ -161,16 +161,16 @@
       682.75,
       674.0,
       678.0,
-      702.25
+      704.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 94.16,
+     "price": 93.47,
      "prev_close": 91.01,
-     "change_pct": 3.46,
+     "change_pct": 2.7,
      "closes": [
       77.9,
       77.08,
@@ -193,16 +193,16 @@
       88.1,
       89.22,
       91.01,
-      94.16
+      93.47
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 175663.6,
+     "price": 176490.44,
      "prev_close": 173326.0,
-     "change_pct": 1.35,
+     "change_pct": 1.83,
      "closes": [
       170370.0,
       171259.0,
@@ -226,7 +226,7 @@
       173714.0,
       173371.0,
       173326.0,
-      175663.5938
+      176490.4375
      ]
     }
    ],
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-22T15:28:03+00:00",
+   "updated_at": "2026-07-22T17:10:53+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-22T15:28:10+00:00",
+   "updated_at": "2026-07-22T17:10:57+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -406,8 +406,74 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-22T15:28:12+00:00",
+   "updated_at": "2026-07-22T17:10:59+00:00",
    "items": [
+    {
+     "title": "Anec reduz previsão de exportação de soja do Brasil em julho para 13,50 milhões de toneladas - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWUdJT2o2T1dXcHludE1pRnBtcnUyYlE5Mzh5a0Q1TDU4VTR5RkR6MmZ4bWdfM1B0RnI2MlczSVk0MmVjMUNsdFlLXzNSb2FaOGhZc3BacUlVZmdORmxzb2xSMExOOTlPaWxrOEM2MTFqYTdENktxNHNSdjR6MGU3a3hPZmtVZjlrSWR1NU4tb1ZLaFR5bTZkdWM1Q0FUcHhLNHM2TFNkWXBPMm4yZzlGVE9hTzlVRWtHOTc3a0ZVSDZzLVlDdmdubnF1SQ?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T17:02:11+00:00"
+    },
+    {
+     "title": "Anec reduz previsão de exportação de soja do Brasil em julho para 13,50 milhões de toneladas",
+     "link": "https://www.canalrural.com.br/economia/anec-reduz-previsao-de-exportacao-de-soja-do-brasil-em-julho-para-1350-milhoes-de-toneladas/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T17:02:11+00:00"
+    },
+    {
+     "title": "Previsão da Anec de exportação de soja em julho é revisada para baixo - UOL Notícias",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQa053VVpJVGN5OVdHOVF3MEx5dG45RmZZWXdQSGF3R3Vzbkl3bURNZ2RvNlRzZlctTGE5anBKYTBUdU9EcGNSYjFoX2lUOW1FU2QweUVzbENfdWhpMkxSUU5oRHlqU1BYaGtIMHdINTBONVhJVFZ2MnNZQWt6RklNejlBLUlPZWN4ajM1T1JWV2U0MXN1bkJ0SklETVFBeXBlQ1psdklrbFVQWGNKZGtVRzdOUnlnNEdvOUxkSm1FOUJRaWpqME1UY0p5dFFqd0Q0VmtuLURnMmNURkNj?oc=5",
+     "source": "UOL Notícias",
+     "published_at": "2026-07-22T17:00:00+00:00"
+    },
+    {
+     "title": "Entidades defendem leilão do Tecon-10 e pressionam por decisão na Casa Civil",
+     "link": "https://www.canalrural.com.br/economia/entidades-defendem-leilao-do-tecon-10-e-pressionam-por-decisao-na-casa-civil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T16:43:21+00:00"
+    },
+    {
+     "title": "Cidade espanhola presenteia campeões da Copa com tomates equivalentes ao próprio peso; veja vídeo",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/22/cidade-espanhola-presenteia-campeoes-da-copa-com-tomates-equivalentes-ao-proprio-peso-veja-video.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-22T16:33:48"
+    },
+    {
+     "title": "CNA inicia capacitação sobre direito sindical e representação rural",
+     "link": "https://www.canalrural.com.br/politica/cna-inicia-capacitacao-sobre-direito-sindical-e-representacao-rural/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T15:58:13+00:00"
+    },
+    {
+     "title": "Governo brasileiro discute impactos de tarifa de 25% dos EUA",
+     "link": "https://www.canalrural.com.br/videos/governo-brasileiro-discute-impactos-de-tarifa-de-25-dos-eua/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T15:15:52+00:00"
+    },
+    {
+     "title": "Inteligência artificial e sensores melhoram a suinocultura no Brasil",
+     "link": "https://www.canalrural.com.br/videos/inteligencia-artificial-e-sensores-melhoram-a-suinocultura-no-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T15:15:42+00:00"
+    },
+    {
+     "title": "Miguel Daoud analisa impacto da sobretaxa de 25% dos EUA no Brasil",
+     "link": "https://www.canalrural.com.br/videos/miguel-daud-analisa-impacto-da-sobretaxa-de-25-dos-eua-no-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T15:15:30+00:00"
+    },
+    {
+     "title": "Atraso na equalização de juros do Plano Safra retém R$ 140 bilhões para produtores",
+     "link": "https://www.canalrural.com.br/videos/atraso-na-equalizacao-de-juros-do-plano-safra-retem-r-140-bilhoes-para-produtores/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T15:15:20+00:00"
+    },
+    {
+     "title": "Previsão do tempo em Japira: chuvas e variação térmica nos próximos dias",
+     "link": "https://www.canalrural.com.br/videos/previsao-do-tempo-em-japira-chuvas-e-variacao-termica-nos-proximos-dias/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T15:15:09+00:00"
+    },
     {
      "title": "Produtor de Minas Gerais cria caverna para maturação de queijos",
      "link": "https://www.canalrural.com.br/videos/produtor-de-minas-gerais-cria-caverna-para-maturacao-de-queijos/",
@@ -421,36 +487,6 @@
      "published_at": "2026-07-22T15:05:46+00:00"
     },
     {
-     "title": "Exportação de carne bovina bate recorde e trigo enfrenta queda na safra",
-     "link": "https://www.canalrural.com.br/videos/exportacao-de-carne-bovina-bate-recorde-e-trigo-enfrenta-queda-na-safra/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T15:05:36+00:00"
-    },
-    {
-     "title": "Pesquisadores confirmam podridão-salmão no milho em Mato Grosso",
-     "link": "https://www.canalrural.com.br/videos/pesquisadores-confirmam-podridao-salmao-no-milho-em-mato-grosso/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T15:05:26+00:00"
-    },
-    {
-     "title": "Atraso na liberação do Plano Safra gera preocupação entre produtores",
-     "link": "https://www.canalrural.com.br/videos/atraso-na-liberacao-do-plano-safra-gera-preocupacao-entre-produtores/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T15:05:15+00:00"
-    },
-    {
-     "title": "Augusto Billi é nomeado secretário de Relações Internacionais da Agricultura",
-     "link": "https://www.canalrural.com.br/politica/augusto-billi-e-nomeado-secretario-de-relacoes-internacionais-da-agricultura/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T15:03:05+00:00"
-    },
-    {
-     "title": "Estoques de petróleo dos EUA sobem 2,01 milhões de barris, informa DOE",
-     "link": "https://www.canalrural.com.br/economia/estoques-de-petroleo-dos-eua-sobem-201-milhoes-de-barris-informa-doe/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T14:53:22+00:00"
-    },
-    {
      "title": "Desmatamento no Brasil coloca agricultores dos EUA em desvantagem, diz representante comercial americano",
      "link": "https://g1.globo.com/economia/noticia/2026/07/22/jamieson-greer-brasil-eua.ghtml",
      "source": "G1 Agronegócios",
@@ -458,27 +494,9 @@
     },
     {
      "title": "Os bastidores da liderança da soja brasileira estarão em debate em evento da Embrapa; saiba como participar - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVGtIWVZkWndQMTY3SXNPekRsQWg5TEwtUG5RS3hZOU00eVZCZEZfbTN2SHhiVngwWG1lekt2SU5BczZicTZseFRpVXNZN090cEd2Zk52QVdzaVJlV1hVc19LYlNoVDlXZXE1NEFWX083SWwzYmxqTVFhc2hpU2hKWTRHZ3QxQXpPN21EaThuRWhHbDAzNlZUd3RCSG55SlQ0S0FKeTFtekxpVnQ2dzgwXzY3cDlPb0VHYUY1bTQ1dkFBMUtSSWE3V3lHM0k0cmIyMUN5aEkwSHJmX1k?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOMFRPSWRON2hZT09Vb2dDc3VMTkpTcktMUG9naFZCX0JZSW5rOXhkaHhsRHlWbGxLc0NKVWJQSmh4Rk9UWUd4QU50M3JBTTI3WWJPakxLenVkdV91SnBsZkQ4clpibV9IaHdnNXQ0VVZpdTlWQ0R2Y2hwcGZqZXhwZkRISzRuYmM5eGVnUXVCaUJRRzhLV3BnUnJZb1Q3NVh6WHdJbW10TW5rXy1EU3pPOTRTczdhc1VodG50dHNhWl9wX2hYTGNyaG1USzlQcVpzekI4a2dvdktZQzZrZFFLNTNaZExPb3Y1ZU9RODc5d05zZGMxSDdIOC1EMTJ2Zw?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-22T14:45:12+00:00"
-    },
-    {
-     "title": "Brasil permanece fora do Mapa da Fome e amplia acesso à alimentação saudável",
-     "link": "https://www.canalrural.com.br/politica/brasil-permanece-fora-do-mapa-da-fome-e-amplia-acesso-a-alimentacao-saudavel/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T14:38:08+00:00"
-    },
-    {
-     "title": "Tarifa dos EUA mantém pressão sobre exportações brasileiras de sebo bovino",
-     "link": "https://www.canalrural.com.br/economia/tarifa-dos-eua-mantem-pressao-sobre-exportacoes-brasileiras-de-sebo-bovino/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T14:31:23+00:00"
-    },
-    {
-     "title": "Soja reage no Brasil e em Chicago, impulsiona preços e anima comercialização da safra 2026/27 - Portal do Agronegócio",
-     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNazRnZ0ZVc2Y1empkVnNfeUdwc3phSEx2Vm0tUjFVWU9SQ01temVvT0gxbExlUkNscmIzTkQ0cUZ4eDg3OHRtRGZqMXRjbWpRWWRMbXJ4OEZ3MWRhZjBYVkczYjVxU0VZeElueUh4aTZxSlltLS16ZUY0c2ZEUzh1N3NRX3B5Um5HckM1YUR3a2pIYmxPWlJpY1lHbVpmajRlR0luVXdHbEpZSGlZQUhFcmU3X0dQRkgtLWY4bGl6emNodWVBaGY5Y1pFdXVmRTg5aHpVdE4yYUx2V3gzV0ZZZ1RDQ25yemFHdkM0SGNB?oc=5",
-     "source": "Portal do Agronegócio",
-     "published_at": "2026-07-22T14:30:00+00:00"
     },
     {
      "title": "Soja Talks debate como avanço do caruru-roxo exige nova postura no manejo da planta daninha - Embrapa",
@@ -497,12 +515,6 @@
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUDFzZFd0bjdNQUExOG1WeDM0eDdia0hLSHAtdFQ1WGZmb2hBdHNpaF9EbFdlMEV5TTBDYlBEUEF5NDc2SDl5MndIb0JtMjVkcUhCbXNhMVZDUTZDb1dWb2JNNGtxcG04U3Z1VWNiRnpKejZwTzliYnMwVDJKVzdCYm41c1NFc0pERDVYdGtUWG02S2pHcTBkeXpmWk1qUQ?oc=5",
      "source": "Farmnews",
      "published_at": "2026-07-22T12:45:01+00:00"
-    },
-    {
-     "title": "Abertura do plantio da soja vai debater alimentos, biocombustíveis e energia - RADAR DIGITAL BRASÍLIA",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYktnT3BydXhjckJhRHRIdmZHNzZFMXdjQ0UxdHEzQUYtV2dpdVBSQ0Jpa2dGLWlocUU0dVRKblV5RUtHWTMyNjMyVHI3Y1lvOXJ4QzZKcXFyYlgxWVBCcHNobjlvY2hQdElGd21RNHFLVE5kODFxdmtBTEtkdW1na1o0NVJxWTMzOVZRaHM1VGNOVUQ1TTlVUFVlSVg1VWFSajR3aWhJeHlWSldQSUYtUU9BU19feXN3SThfSU9JSjQxdw?oc=5",
-     "source": "RADAR DIGITAL BRASÍLIA",
-     "published_at": "2026-07-22T12:04:26+00:00"
     },
     {
      "title": "Tarifaço de Trump: lagosta viva é taxada, mas congelada escapa; veja lista de peixes e crustáceos isentos e tarifados",
@@ -575,18 +587,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/21/vinhos-importados-mais-baratos-perdem-espaco-com-inflacao-enquanto-rotulos-premium-avancam.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-21T08:02:29"
-    },
-    {
-     "title": "UE não flexibilizará exigências sanitárias para a carne brasileira, diz embaixador da Irlanda, que preside o bloco europeu",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/21/ue-nao-flexibilizara-exigencias-sanitarias-para-a-carne-brasileira-diz-embaixador-da-irlanda-que-preside-o-bloco-europeu.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-21T03:00:32"
-    },
-    {
-     "title": "China compra mais soja do Brasil enquanto reduz importações dos EUA",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/20/china-compra-mais-soja-do-brasil-enquanto-reduz-importacoes-dos-eua.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-20T12:06:21"
     }
    ],
    "failed": [

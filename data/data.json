@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-21T23:52:14+00:00",
+ "generated_at": "2026-07-22T02:03:28+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-21T23:52:08+00:00",
+   "updated_at": "2026-07-22T02:03:23+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1222.25,
+     "price": 1226.75,
      "prev_close": 1226.0,
-     "change_pct": -0.31,
+     "change_pct": 0.06,
      "closes": [
       1115.75,
       1117.0,
@@ -32,16 +32,16 @@
       1195.0,
       1204.5,
       1226.0,
-      1222.25
+      1226.75
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 475.25,
+     "price": 477.0,
      "prev_close": 449.5,
-     "change_pct": 5.73,
+     "change_pct": 6.12,
      "closes": [
       411.5,
       409.75,
@@ -63,16 +63,16 @@
       441.5,
       444.75,
       449.5,
-      475.25
+      477.0
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 326.9,
+     "price": 328.6,
      "prev_close": 323.5,
-     "change_pct": 1.05,
+     "change_pct": 1.58,
      "closes": [
       299.8,
       302.9,
@@ -94,16 +94,16 @@
       322.9,
       320.2,
       323.5,
-      326.9
+      328.6
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.56,
+     "price": 71.57,
      "prev_close": 74.68,
-     "change_pct": -4.18,
+     "change_pct": -4.16,
      "closes": [
       71.15,
       70.59,
@@ -125,16 +125,16 @@
       72.43,
       74.81,
       74.68,
-      71.56
+      71.57
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 678.5,
+     "price": 683.0,
      "prev_close": 674.0,
-     "change_pct": 0.67,
+     "change_pct": 1.34,
      "closes": [
       597.5,
       586.75,
@@ -156,16 +156,16 @@
       674.75,
       682.75,
       674.0,
-      678.5
+      683.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.69,
+     "price": 92.46,
      "prev_close": 89.22,
-     "change_pct": 2.77,
+     "change_pct": 3.63,
      "closes": [
       77.9,
       77.08,
@@ -187,7 +187,7 @@
       84.23,
       88.1,
       89.22,
-      91.69
+      92.46
      ]
     },
     {
@@ -227,7 +227,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-21T23:52:08+00:00",
+   "updated_at": "2026-07-22T02:03:23+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -238,7 +238,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-21T23:52:12+00:00",
+   "updated_at": "2026-07-22T02:03:26+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -261,22 +261,22 @@
       0.0
      ],
      "tmax": [
-      34.0,
-      34.1,
-      35.0,
-      35.7,
-      36.2,
+      34.2,
+      34.2,
+      34.9,
       36.1,
-      36.0
+      36.0,
+      36.5,
+      36.3
      ],
      "tmin": [
       21.2,
       20.5,
-      21.5,
+      20.9,
       21.3,
-      21.9,
-      21.9,
-      21.5
+      22.2,
+      22.4,
+      22.0
      ]
     },
     {
@@ -300,22 +300,22 @@
       0.0
      ],
      "tmax": [
-      32.4,
+      32.6,
       33.1,
-      33.7,
-      34.6,
-      35.3,
-      35.5,
+      34.3,
+      34.9,
+      35.0,
+      35.1,
       35.3
      ],
      "tmin": [
       20.2,
-      19.6,
-      20.8,
-      21.0,
-      22.0,
+      20.1,
+      20.7,
+      21.2,
       21.7,
-      21.5
+      21.9,
+      21.8
      ]
     },
     {
@@ -339,22 +339,22 @@
       0.0
      ],
      "tmax": [
-      30.0,
-      30.7,
-      31.2,
+      30.2,
+      31.0,
+      31.3,
+      32.1,
       31.9,
-      32.3,
-      32.7,
-      33.5
+      32.6,
+      33.4
      ],
      "tmin": [
       17.3,
-      18.4,
-      18.4,
-      19.9,
-      19.3,
+      19.0,
+      18.7,
+      18.7,
+      18.5,
       20.3,
-      22.2
+      21.7
      ]
     },
     {
@@ -370,36 +370,36 @@
      ],
      "precip": [
       0.0,
-      54.1,
-      17.1,
-      4.3,
-      1.3,
+      33.1,
+      19.7,
+      8.9,
+      12.0,
       0.0,
       0.0
      ],
      "tmax": [
-      31.1,
-      26.6,
-      21.8,
-      24.2,
-      26.2,
-      28.0,
-      30.5
+      31.3,
+      29.3,
+      21.6,
+      23.3,
+      25.7,
+      27.8,
+      30.9
      ],
      "tmin": [
       20.7,
-      19.3,
-      17.3,
+      19.1,
       17.4,
-      17.9,
-      18.0,
-      19.0
+      17.4,
+      17.6,
+      18.2,
+      19.2
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-21T23:52:14+00:00",
+   "updated_at": "2026-07-22T02:03:28+00:00",
    "items": [
     {
      "title": "Processamento de grãos melhora desempenho do gado no confinamento, afirma especialista",
@@ -430,12 +430,6 @@
      "link": "https://www.canalrural.com.br/diversos/conab-mantem-suspenso-atendimento-presencial-em-natal-ate-sexta-feira/",
      "source": "Canal Rural",
      "published_at": "2026-07-21T21:34:55+00:00"
-    },
-    {
-     "title": "Soja recua por realização de lucros em Chicago Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQkFmNWo5ZTg1ZHVuX2EweThFaWxVbW1rZ2FHVDhqX29lNmxqazVBYU5OSXZKRGRZTDdiNF9hdk5mWEEyXzd0emJ1TTFwTnJMZW1OY2tOVFZUV1JSdExFMzc3ZkI4YktPN2NPZVJoZnR6WG9DRnNEX1VEZGtHektGdzQ5cGZ2QmRMbmRCRGRwTS04VjNiSWZwa2Y0SEVuZw?oc=5",
-     "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "published_at": "2026-07-21T21:25:00+00:00"
     },
     {
      "title": "Conab divulga nesta quarta-feira o 7º Boletim Prohort 2026",
@@ -474,10 +468,34 @@
      "published_at": "2026-07-21T20:51:05+00:00"
     },
     {
+     "title": "Soja se mantém no patamar dos R$ 150 nos portos do BR, apesar de realização de lucros em Chicago - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOYTJQUDlNMXBOWlE4MGlJT0c3blVDYXZELUVMdjBtOHBsUGstX3p0aGo4bVNfT184RnRoNzE3dkU2am9OcVRkdUdBUGdNNG5IU1dvM0oxbXJYYXFfS1VFYnE0aDlZVjQ2WlJfbDUyUWVEbWV1WkhzSWpPV09xWFdnNGJJNTlRQ1JDVHlLR014azJIUkEzRm9tYWxJeXM4WWtxMmx4LVl5NVNPbXhSOWU5QW90ZzcxbTFHUzNDbFR6dHlGb2pfMkIwa1p3Q1FtcW5aak16emtFWnpWaElZM3M0MG13LXM2R3dLdXU0QXB30gHzAUFVX3lxTFBxZWFZS0FZZGNXZ2VoNWlBRkM3SzQxY0hocFZVXzlIaEEyMkRUMDZlMVNOeWRzbWFuSG5zQ3kyQmdaaDhYdkNzVEhWT3ZfdVVKbktrMDJkdDBrSU9qYjJpS3otcU9KXzFhLWJpQUMtcFlXOFVRMzRPam5SSVJtaFM3V011eDZXS1lNeE5Gdkw2eFFvYmRpd3dHTlFVM0ZLcGxTQ2djNjd6bTdRdlVPN0FYZU1oc09JTVV0TlJ3TDJUaW5uUHRWSzl0VkFsNXRrNm5oX0lfX3pHZjE0T2xybzJ0RjNvSTVtN1N1N3h5bHNENjAtYw?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-21T20:42:24+00:00"
+    },
+    {
      "title": "Queda do diesel puxa recuo dos demais combustíveis em julho",
      "link": "https://www.canalrural.com.br/economia/queda-do-diesel-puxa-recuo-dos-demais-combustiveis-em-julho/",
      "source": "Canal Rural",
      "published_at": "2026-07-21T20:25:10+00:00"
+    },
+    {
+     "title": "Geopolítica, clima e logística entram no centro do debate da cadeia da soja - O Presente Rural",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZzRldm5mV0djLV9iV1E1Q1FjcVZKVVlDRzh6UEF4SWhiZUtLS2o2MmdsYjJMeHl6S2VUdlJEQk9RaTN6QUUtUEd6WWpONUdKYzlVLUFra3lOODNKaUN0WVEwSWpDcHRYb3FLWnoxQUJqY3lPTTdGS2xrQmQ2TTdmZ0JfU0lYOUxzdHE0ZEMyZjBKQmZsTW5lQVE1WFRXVnRxOXJMNjZuM2I?oc=5",
+     "source": "O Presente Rural",
+     "published_at": "2026-07-21T19:50:30+00:00"
+    },
+    {
+     "title": "Óleo de soja sustenta alta da indústria americana - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZUtYYmdUQnV2YkVMMkpidjhlY21Fcm45bVFJT1FxRVVUeFZMelhKaXY3WnVOYnpQSl9yUEpZeW12ZEU1QVlqYjNXQU9qdkVmQURkY21qWkJwRGFBektJWWtBRDJPTFV5OW9ZVTFLZ0pRSlRZbk0tcHFGTXVUcnB4VEJCSjdPRDFaX0FwX21sbTZsY09QdG51cllZbFFQRlk?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-21T19:22:00+00:00"
+    },
+    {
+     "title": "Embrapa promove debate sobre futuro da soja brasileira - AgroRevenda",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSXF4Ulo0aGd3bWxEU0FIalluTTNFUm9WaVlxXzBpdWRXOG1mSVZTRGFfOWNTcU5kRjVXeHZvY3hLb2E4X2hlbnNETGtHYWNiY3VEa2NieGJaalozV19VZGF4WjZwSWt4V0JrdjJlWTFKQThNLW5sLUp1RDBUTlVpWFBYLXByY1NlYTJmdkRLdl82b2VMazRn?oc=5",
+     "source": "AgroRevenda",
+     "published_at": "2026-07-21T18:30:14+00:00"
     },
     {
      "title": "Volume de soja para exportação nos EUA cai 33,7% na semana, diz USDA - UOL Economia",
@@ -504,12 +522,6 @@
      "published_at": "2026-07-21T17:26:01"
     },
     {
-     "title": "Custo da soja sobe para R$ 4,3 mil por hectare no Mato Grosso - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdTQ0b1B5ZmNKZGh0OGtRXzFkVjVhNmtvT2l4VGt2QlQ5VldBaUdOZmx2TlNjZERZSlNwUzdGM3RNQTJoSEliUk45VnpwU3lKQ1hJbjVqN0gzaGlRSE5hbU5XbmFFSmg3RzFIZm94WVQxa2FqUTh6TUdVRmlTb2VyMnJCcGFiOUlXWW5GbGxZZElpV2QwOHlrdlgxRXV3Y1VsTVo2czV3T2luTXJzc3Bz?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-21T16:42:00+00:00"
-    },
-    {
      "title": "Preço da soja dispara e alcança maior cotação de 2026 - Revista Oeste",
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLWhaa29hUTZDb3FpdHhFWWlzNEMtbERFZ3FFY29YRDJpZG9zUGs3VjZNaVlfR2N3TTFCS3RXLTl0QmNtc1FmZ3FXQW5SaEdiaWNSM21sOVZfYW9SWDJiYjRrMThXQTE1Vm1GS2M1TF8xQ3VVYlpXQTBnYzhGSXl6b3lIclBQMUhnTDl1TnhpY2JFbkpzZ0E?oc=5",
      "source": "Revista Oeste",
@@ -526,18 +538,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/21/eua-podem-perder-para-o-brasil-o-papel-de-maior-exportador-agricola-do-mundo-diz-financial-times.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-21T11:27:49"
-    },
-    {
-     "title": "Fim da Moratória da Soja pode aumentar em 17% desmatamento na Amazônia - Instituto Humanitas Unisinos - IHU",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX0hMUnlHNmRFZzVtRGF6cno1Y2ZCeDN6a3BOU21UNXNnTjZ3c09DbG9LaWFMMm5sTl84c0NWNlh0NjRHYzczNGJkdjFiZElFa1dCMVZlTzVVc0lPU085N1I1aTgxOE82WFFITnRiWVlBbnBEei1tZmNXNEdjTnBfZXFzVG1Wcl9hNWhmdF9SVmdwQS1KbGM3QkVmUUNvWk5oc3VLWFhzNA?oc=5",
-     "source": "Instituto Humanitas Unisinos - IHU",
-     "published_at": "2026-07-21T11:03:42+00:00"
-    },
-    {
-     "title": "Soja recua em Chicago nesta 3ª feira após altas expressivas e melhora nas lavouras dos EUA - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQmt2dHg4NHI5VV84Y2xoYy1QQzJOSU4zcTNTYjdRWEZ0aWY3STZTSXA1c3hycmN6SENSVzRUaklib1dOYmhZd2J4LXlvbEZVY1cwRHhXUEM4ckppeVpRbTV0d0p6RXlua1A2SFZITEFyRThnLWcwMDFOTWRQVWhhVWl2TXNhODRNNlZuTzNDOTVTN2ZKVW5kbUlCaUx3LTJlTFpnVml1aEJqcE55NlVoUm8xYlU4TkZ1TXZuMEJzVkVkSUhrQmdFZGJpUUJqdGZaRGw5OdIB2gFBVV95cUxPb0IzNHkxdFlYcDM1ajJNeWpMaFZPZUlvRTZCX2JhOEVxYmFSNVNITFpNcEI0TjBseGFzOWtQVTZyRW9FZXZnbE9Md0hDcWN0dDlmM0JWTjA2TTJDYVZmZFUySGdnd0dOWXJvQWVQYWstcF9HMEdzUWNsU0RhaG5jY0R5WEU2YjVscFd5UHExLTZtTWZhX1g2YlM2S05vaS1zcXhvai1GT1dwVXpOYnVKRzYtUzFFZjQ5SFhSb0xVU3VyUk8tR3h4Si1JTHZ3ZmNfVUpIQV9OQWotdw?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-21T10:36:26+00:00"
     },
     {
      "title": "Vinhos importados mais baratos perdem espaço com inflação, enquanto rótulos premium avançam",

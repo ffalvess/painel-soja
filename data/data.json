@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-22T17:10:59+00:00",
+ "generated_at": "2026-07-22T19:04:07+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-22T17:10:53+00:00",
+   "updated_at": "2026-07-22T19:04:03+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1237.5,
+     "price": 1238.25,
      "prev_close": 1219.5,
-     "change_pct": 1.48,
+     "change_pct": 1.54,
      "closes": [
       1115.75,
       1117.0,
@@ -33,16 +33,16 @@
       1204.5,
       1226.0,
       1219.5,
-      1237.5
+      1238.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 483.75,
+     "price": 484.25,
      "prev_close": 452.75,
-     "change_pct": 6.85,
+     "change_pct": 6.96,
      "closes": [
       411.5,
       409.75,
@@ -65,16 +65,16 @@
       444.75,
       449.5,
       452.75,
-      483.75
+      484.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 334.0,
+     "price": 332.9,
      "prev_close": 326.7,
-     "change_pct": 2.23,
+     "change_pct": 1.9,
      "closes": [
       299.8,
       302.9,
@@ -97,16 +97,16 @@
       320.2,
       323.5,
       326.7,
-      334.0
+      332.9
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 72.72,
+     "price": 72.73,
      "prev_close": 74.3,
-     "change_pct": -2.13,
+     "change_pct": -2.11,
      "closes": [
       71.15,
       70.59,
@@ -129,16 +129,16 @@
       74.81,
       74.68,
       74.3,
-      72.72
+      72.73
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 704.0,
+     "price": 706.25,
      "prev_close": 678.0,
-     "change_pct": 3.83,
+     "change_pct": 4.17,
      "closes": [
       597.5,
       586.75,
@@ -161,16 +161,16 @@
       682.75,
       674.0,
       678.0,
-      704.0
+      706.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.47,
+     "price": 94.26,
      "prev_close": 91.01,
-     "change_pct": 2.7,
+     "change_pct": 3.57,
      "closes": [
       77.9,
       77.08,
@@ -193,16 +193,16 @@
       88.1,
       89.22,
       91.01,
-      93.47
+      94.26
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 176490.44,
+     "price": 177423.7,
      "prev_close": 173326.0,
-     "change_pct": 1.83,
+     "change_pct": 2.36,
      "closes": [
       170370.0,
       171259.0,
@@ -226,7 +226,7 @@
       173714.0,
       173371.0,
       173326.0,
-      176490.4375
+      177423.7031
      ]
     }
    ],
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-22T17:10:53+00:00",
+   "updated_at": "2026-07-22T19:04:03+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-22T17:10:57+00:00",
+   "updated_at": "2026-07-22T19:04:05+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -269,21 +269,21 @@
      ],
      "tmax": [
       34.1,
-      35.0,
-      36.0,
+      34.8,
+      35.8,
       36.2,
-      36.2,
+      36.3,
       36.0,
-      35.4
+      35.5
      ],
      "tmin": [
       20.4,
-      20.7,
+      20.5,
       21.7,
-      22.0,
-      22.5,
       22.2,
-      24.2
+      21.9,
+      22.0,
+      23.2
      ]
     },
     {
@@ -307,22 +307,22 @@
       0.0
      ],
      "tmax": [
-      32.5,
-      33.5,
+      32.8,
+      33.9,
       34.7,
+      35.1,
+      35.1,
       34.9,
-      35.1,
-      35.1,
-      34.3
+      34.4
      ],
      "tmin": [
       20.0,
-      20.4,
-      21.2,
-      21.4,
+      20.1,
+      21.3,
+      21.1,
+      21.8,
       21.9,
-      21.4,
-      23.8
+      22.3
      ]
     },
     {
@@ -346,22 +346,22 @@
       0.0
      ],
      "tmax": [
-      30.6,
-      31.3,
+      30.4,
+      31.4,
       31.9,
-      30.8,
-      32.1,
-      33.3,
-      32.8
+      31.4,
+      32.5,
+      33.2,
+      32.7
      ],
      "tmin": [
       18.2,
-      18.0,
-      18.9,
-      17.9,
-      19.4,
-      20.5,
-      23.6
+      18.1,
+      19.3,
+      18.5,
+      20.2,
+      20.9,
+      22.8
      ]
     },
     {
@@ -376,38 +376,74 @@
       "2026-07-28"
      ],
      "precip": [
-      43.1,
-      13.2,
-      15.2,
-      10.3,
+      22.3,
+      23.9,
+      1.0,
+      6.7,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      27.1,
-      21.7,
-      23.9,
-      25.4,
-      27.3,
-      29.2,
-      30.7
+      27.6,
+      20.8,
+      24.6,
+      25.2,
+      28.3,
+      29.3,
+      30.8
      ],
      "tmin": [
-      19.4,
-      17.4,
-      16.5,
-      17.3,
-      18.1,
-      18.6,
-      19.9
+      17.8,
+      16.7,
+      16.0,
+      17.7,
+      18.4,
+      19.2,
+      19.1
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-22T17:10:59+00:00",
+   "updated_at": "2026-07-22T19:04:07+00:00",
    "items": [
+    {
+     "title": "Marília Mendonça volta a emocionar fãs com música inédita no dia em que completaria 31 anos",
+     "link": "https://www.canalrural.com.br/entretenimento/marilia-mendonca-volta-a-emocionar-fas-com-musica-inedita-no-dia-em-que-completaria-31-anos/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T18:37:23+00:00"
+    },
+    {
+     "title": "Receita Federal libera versão web da DITR em 10 de agosto",
+     "link": "https://www.canalrural.com.br/economia/receita-federal-libera-versao-web-da-ditr-em-10-de-agosto/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T18:26:28+00:00"
+    },
+    {
+     "title": "Custeio da soja sobe 3,35% para a safra 2026/27 em MT - Revista Cultivar",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbzUxQkoxX1F0YTZuTGtNMl9xUHJzOGNSRFdFam9OTXlBVnBMTC1RZExnbHdGQmRjRXYtaGV1cmcyQ0tKcTNtUGZ0SV9LeFcyWENiem5LUjZiendSV2Vyd3BKTlljMW0tZnBqejFQLWNxWHc3eXloZHd1aWFsT0xHMERlLWYwZGVoZWhnWFQ1OUJNaGdtblVF?oc=5",
+     "source": "Revista Cultivar",
+     "published_at": "2026-07-22T18:10:03+00:00"
+    },
+    {
+     "title": "Fluxo cambial fica positivo em US$ 189 milhões até 17 de julho",
+     "link": "https://www.canalrural.com.br/economia/fluxo-cambial-fica-positivo-em-us-189-milhoes-ate-17-de-julho/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T18:03:19+00:00"
+    },
+    {
+     "title": "EUA caminham para superávit agrícola, afirma Jamieson Greer",
+     "link": "https://www.canalrural.com.br/economia/eua-caminham-para-superavit-agricola-afirma-jamieson-greer/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T17:56:45+00:00"
+    },
+    {
+     "title": "Soja volta a disparar em Chicago nesta 4ª feira na esteira do trigo e jan/27 vai a US$ 12,50 - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZVlrMVNXa0VqZ1V1UGdQdGdlVU5JWVpONlFQMVZOd2ZLMjM4NDlqdjJ3Z2xSR1c3eldlR2hxZHJGWkNUazN1OVpXREoyMzdjYzJlMGl6NU1vTjBuYXBsSmhBbGhNZVBpRW1iQ2RIUk84QzktUWRuVjhON1ZrSEpVZzJfSDNEOXp5REtwZDZ4WTB2NGU3aEJjekFXdUx2VWlpbW90cXUzYk1IZ2tWMEE5TFBscmVqNjh4S3RacUxST1hkQndocHNwR2dHbkx1aWRfb0UwS3ctckY3X2c5dW13Z21xUWZhZi1k0gHuAUFVX3lxTFBMZ2RYMXhxMVE0dWZDVlJZWUxLUEkyWWV3eXhzZk5DQnd5S21kYmNwTjRMQlhqeHJaY0ZsM2I3RTNYR3FKeDFKLUM3ZEwyMXlGVWM5dkE3YXJvdkZyT2JnR01zdXZvOU1PS2puRG9RZjFVemZIcS1WeVZCZW5idXU0VzVTRkFPcml6YVEwaFdwUDJmckxlUXl6Q2FabEF1MWZNY0Z0Z1hpMTY2QWhOdkkwWDdtZkp2Z0h5dF9lUTFSd3Nha04xX2M3dlpQN01wTkJXT3laRDhMWmJuRk53bTUyaXdBcHZQTDA3YS1UbFE?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-22T17:08:22+00:00"
+    },
     {
      "title": "Anec reduz previsão de exportação de soja do Brasil em julho para 13,50 milhões de toneladas - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWUdJT2o2T1dXcHludE1pRnBtcnUyYlE5Mzh5a0Q1TDU4VTR5RkR6MmZ4bWdfM1B0RnI2MlczSVk0MmVjMUNsdFlLXzNSb2FaOGhZc3BacUlVZmdORmxzb2xSMExOOTlPaWxrOEM2MTFqYTdENktxNHNSdjR6MGU3a3hPZmtVZjlrSWR1NU4tb1ZLaFR5bTZkdWM1Q0FUcHhLNHM2TFNkWXBPMm4yZzlGVE9hTzlVRWtHOTc3a0ZVSDZzLVlDdmdubnF1SQ?oc=5",
@@ -463,46 +499,16 @@
      "published_at": "2026-07-22T15:15:30+00:00"
     },
     {
-     "title": "Atraso na equalização de juros do Plano Safra retém R$ 140 bilhões para produtores",
-     "link": "https://www.canalrural.com.br/videos/atraso-na-equalizacao-de-juros-do-plano-safra-retem-r-140-bilhoes-para-produtores/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T15:15:20+00:00"
-    },
-    {
-     "title": "Previsão do tempo em Japira: chuvas e variação térmica nos próximos dias",
-     "link": "https://www.canalrural.com.br/videos/previsao-do-tempo-em-japira-chuvas-e-variacao-termica-nos-proximos-dias/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T15:15:09+00:00"
-    },
-    {
-     "title": "Produtor de Minas Gerais cria caverna para maturação de queijos",
-     "link": "https://www.canalrural.com.br/videos/produtor-de-minas-gerais-cria-caverna-para-maturacao-de-queijos/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T15:05:55+00:00"
-    },
-    {
-     "title": "Alerta de temporais e calor extremo ameaçam colheita de milho no Brasil",
-     "link": "https://www.canalrural.com.br/videos/alerta-de-temporais-e-calor-extremo-ameacam-colheita-de-milho-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T15:05:46+00:00"
-    },
-    {
      "title": "Desmatamento no Brasil coloca agricultores dos EUA em desvantagem, diz representante comercial americano",
      "link": "https://g1.globo.com/economia/noticia/2026/07/22/jamieson-greer-brasil-eua.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-22T14:48:59"
     },
     {
-     "title": "Os bastidores da liderança da soja brasileira estarão em debate em evento da Embrapa; saiba como participar - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOMFRPSWRON2hZT09Vb2dDc3VMTkpTcktMUG9naFZCX0JZSW5rOXhkaHhsRHlWbGxLc0NKVWJQSmh4Rk9UWUd4QU50M3JBTTI3WWJPakxLenVkdV91SnBsZkQ4clpibV9IaHdnNXQ0VVZpdTlWQ0R2Y2hwcGZqZXhwZkRISzRuYmM5eGVnUXVCaUJRRzhLV3BnUnJZb1Q3NVh6WHdJbW10TW5rXy1EU3pPOTRTczdhc1VodG50dHNhWl9wX2hYTGNyaG1USzlQcVpzekI4a2dvdktZQzZrZFFLNTNaZExPb3Y1ZU9RODc5d05zZGMxSDdIOC1EMTJ2Zw?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T14:45:12+00:00"
-    },
-    {
      "title": "Soja Talks debate como avanço do caruru-roxo exige nova postura no manejo da planta daninha - Embrapa",
      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMVp1dWM1SV9HQ19nWUtSTURuN0MzZW5TTW5tQlBuX1BRNmVjMkxXWGNkRjJ0bm96NkNLeTdmZk1OcHpIWk5UZHUtZkZvUGw3dWRnQ2RyZGVmajBWN2ZDaU1SekxzNFA1MXh3dHM0NVo4ZHZnMkVlOWlVN1RVbGRMUjFHYlp4OUc2WjRnb09XZEEwTlMtbjFMZ1NZXy1HS2pZZ3p5YXRhbU9sRGE4Q3YyZ2x4T1ZXYnM0Nzh4dnFoejRiajROZ1o0eFA4TGZFa2t3QUJzVEZsaTN2U0hwd3lRUjVxM0tkNnM?oc=5",
      "source": "Embrapa",
-     "published_at": "2026-07-22T14:11:52+00:00"
+     "published_at": "2026-07-22T14:11:38+00:00"
     },
     {
      "title": "Soja, milho e trigo sobem em Chicago com falta de chuva nos EUA - Globo Rural",
@@ -557,12 +563,6 @@
      "link": "https://g1.globo.com/economia/noticia/2026/07/22/tarifaco-dos-eua-taxa-adicional-de-25percent-passa-a-valer-nesta-quarta-veja-perguntas-e-respostas.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-22T03:00:11"
-    },
-    {
-     "title": "UFU desenvolve cultivares de soja mais resistentes e preserva diversidade do pequizeiro - Comunica UFU",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc3dYZW9RdFdtT0RVWnhfUHIzNWl6WUZrdkYyT2NPSXB2QzNSdlFPMHFDcFVFQ294QjBIS1Vhc0lMbG1faGxXZm1UeTBWX1d1SllqUGlpYXNvck14Tkl2Y1VST3dWUGxGNG1pTl9WUmdFclVvUGo2V2Fyb04zbVFqRWZqRmprMTV2cWRiWE1ib1NJel9OUXRxYUUwMmVFT3FGSTRMYkJxNUFrdG5Hc0J4Z0g2cjNWdkk?oc=5",
-     "source": "Comunica UFU",
-     "published_at": "2026-07-21T17:27:00+00:00"
     },
     {
      "title": "O que se sabe sobre a alface investigada após surto de doença nos EUA; México nega ligação com os casos",

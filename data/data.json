@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-23T22:01:52+00:00",
+ "generated_at": "2026-07-23T23:55:19+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-23T22:01:36+00:00",
+   "updated_at": "2026-07-23T23:55:09+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 100.55,
+     "price": 100.52,
      "prev_close": 94.07,
-     "change_pct": 6.89,
+     "change_pct": 6.86,
      "closes": [
       77.08,
       73.74,
@@ -193,7 +193,7 @@
       89.22,
       91.01,
       94.07,
-      100.55
+      100.52
      ]
     },
     {
@@ -234,9 +234,9 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-23T22:01:36+00:00",
+   "updated_at": "2026-07-23T23:55:10+00:00",
    "selic": 14.25,
-   "cdi": null,
+   "cdi": 14.15,
    "ipca_mes": {
     "valor": 0.16,
     "data": "01/06/2026"
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-23T22:01:48+00:00",
+   "updated_at": "2026-07-23T23:55:15+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -406,8 +406,50 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-23T22:01:52+00:00",
+   "updated_at": "2026-07-23T23:55:19+00:00",
    "items": [
+    {
+     "title": "Carne bovina brasileira fica isenta de sobretaxa de 12,5% aplicada pelos EUA",
+     "link": "https://www.canalrural.com.br/economia/carne-bovina-brasileira-fica-isenta-de-sobretaxa-de-125-aplicada-pelos-eua/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-23T23:07:45+00:00"
+    },
+    {
+     "title": "CMN regulamenta renegociação de dívidas rurais e fixa prazo até 12 de novembro",
+     "link": "https://www.canalrural.com.br/economia/cmn-regulamenta-renegociacao-de-dividas-rurais-e-fixa-prazo-ate-12-de-novembro/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-23T23:02:18+00:00"
+    },
+    {
+     "title": "Área de soja ficará estável pela primeira vez em 20 anos, prevê Rabobank - The AgriBiz",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVzR4dUdEbm1NVHNrTTVrazhFTFFDd3EzVjN4bm9oRm0xbkV5ZTFpclpQellDWXVoLVlWUGpNODVYcVl6SS1rSkJqSXpFbTJQdG1PcnEzSVFULTRLeGxqdVpWczU4bW5LcnZValBYQk9TQ0dBc1J2WWZPLW5kMDYyY0J0VHNLWVFvWk9aMjNlWC1oNFY0cm5FbDZ4bGZzRkhOTFY1akhtNA?oc=5",
+     "source": "The AgriBiz",
+     "published_at": "2026-07-23T22:58:26+00:00"
+    },
+    {
+     "title": "Arroba do boi gordo: cotações seguem em alta com escalas de abate em baixa",
+     "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-cotacoes-seguem-em-alta-com-escalas-de-abate-em-baixa/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-23T22:40:06+00:00"
+    },
+    {
+     "title": "Porto de Santos estuda transbordo de soja com terminal chinês - Brasil 247",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNEZMQ2VmZXl3TGVLN0Fza3FFWDNZdWVIQWY1UVEzcXVBU2puc0lmVHlyRjZnZkRnWmx4UTlETWhETm9adUVpNC1kZ1N5aVliS3hlakdDMzZwSnRLcHVUd0dQcDRDYVQ5bVdwQ3lCWGp1Wkgwc2o1TnNHTkNvRmtUM2poUGRYXzhDdV9HQ3kxYzhDbW5QVmMwbg?oc=5",
+     "source": "Brasil 247",
+     "published_at": "2026-07-23T22:35:00+00:00"
+    },
+    {
+     "title": "Preço da soja caminha para recuperar patamar perdido em 2023 - Farmnews",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQkpORUR5b0J4V2NJb2lsVmQ5azBQclhhQ0w4Wmp0ajR0WGsxOEF1eFlraGowN21RU1V2Z1AxbWxTSU1aMVRybWNqUmhKR0RPRmlBUXRXcXphaUhMSXlrSnNva3F5dDJCUkllVFhGMUgzZFJKWWI1RkprMGF0b0c3Q1lLSENqdl9yUXBDODZrYTlvUGxnaHBpTg?oc=5",
+     "source": "Farmnews",
+     "published_at": "2026-07-23T22:25:18+00:00"
+    },
+    {
+     "title": "Câmara aprova anistia a multas de caminhoneiros e reforça piso do frete",
+     "link": "https://www.canalrural.com.br/politica/camara-aprova-anistia-a-multas-de-caminhoneiros-e-reforca-piso-do-frete/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-23T21:56:14+00:00"
+    },
     {
      "title": "Estados Unidos confirmam nova tarifa de 12,5% ao Brasil",
      "link": "https://www.canalrural.com.br/economia/estados-unidos-confirmam-nova-tarifa-de-125-ao-brasil/",
@@ -425,6 +467,12 @@
      "link": "https://www.canalrural.com.br/agricultura/john-deere-comecara-a-produzir-componentes-eletronicos-de-maquinas-no-brasil/",
      "source": "Canal Rural",
      "published_at": "2026-07-23T21:18:32+00:00"
+    },
+    {
+     "title": "Estudo mostra impacto financeiro na escolha da cultivar de soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTjY4c0VISWI1ZzFYZlRpbkpmTEJ0OFNQMjllaWhWUEVNeGZaZ254dF9pazhlOVJabDFIQlR3WWhsRENxZ1REZmcxdkNRTWJwcWg2dEVvOG83ZTVOelNMNnVrNENRdXlzZ2NDUEg0Unh6OGZWd3FGbVVqbWJXWjFWRC1xVU93X09tbUlMUmplVTlObVEtT3B0TkJieUFDRVEzTFBpUFVQM3pXMjZZM0w1dGFZTEppdG1UeXluc1hTNnUtZw?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-23T21:07:00+00:00"
     },
     {
      "title": "Transporte ferroviário de grãos nos EUA sobe 2% na semana até 11 de julho",
@@ -445,15 +493,9 @@
      "published_at": "2026-07-23T20:42:35+00:00"
     },
     {
-     "title": "Yellen diz que Fed está pronto para elevar juros a qualquer momento",
-     "link": "https://www.canalrural.com.br/economia/yellen-diz-que-fed-esta-pronto-para-elevar-juros-a-qualquer-momento/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-23T20:23:16+00:00"
-    },
-    {
-     "title": "No melhor momento do ano, preços da soja testam R$ 162/sc nos portos com Chicago, prêmios e dólar; momento é de venda - TradingView",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB4ZTVBbGxYSTBBbzhSeE5FbDAzd2NRRzgtU3k4UkZqR2tVWklUSE9DUE9ScEdMenZBNnJ2MWFkOVd0b0ROdFhhWGFLOS05ZjF5dzFraU9nUmNMRVdEMU1BcTRoR0pfeHJhRGViOE1qaWUwUFA0?oc=5",
-     "source": "TradingView",
+     "title": "No melhor momento do ano, preços da soja testam os R$ 162/sc nos portos com Chicago, prêmios e dólar - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeVJ0U2pMcVVybFlGS05kTVdDOER5NXJNLTZ4ZldEbE5IRzgtT19Kal93M3J1aUp1ZUd6Q1RPdy1HWEViS0JtN09mOUFZWHo4OFFHcVVaX0pBbkpodjB3WXFOYklWUVZkZHEzUWtlZEV2cmRCb1ExN2tiWWpKRHZXUUpqN3RYQjF4R3FzRjM2a010bEptZmdEVUo0ZEhfVDRRb1pZeTZyMzJEMWJybk96YmZPcDZEU2F2WmdraDVKaE9EQ2N5V0RvVV9UeEZ3Nk5GSmE1YnMxNnIxanNRRzAwTWVuUVN0dEhKQmpzQkNzWGJXQdIB9wFBVV95cUxNSXNadlY4a20yRzN5Umk0QnZTSWdtX0FxR04zdHRUZEFDY0gxa0hmRG9tckM1bFBtSnUycllzR3JIZUhFcnMwdWJFUU5WQzM0S1hybm5kV2NjS0ZSVkVyYXVzVDlLeHpnOTNOanhKbWhhMkFCZVVhWmZ1ZHV1NnNidWJyalVCUmZ0Tjhzb29SSDV4MEZDVURmQ1pJWmJCWDBEcFJ1clBoMnUwd1NxM291NV90R2l6X2JXZ0IzN2JudmE0WDdEYmhJRTFZaVFpTHZnUl9lMXlsamt1Y0FoRG1MTVY1NUYxTHVlYnVEbzJ3bVhXOWxSRHR3?oc=5",
+     "source": "Notícias Agrícolas",
      "published_at": "2026-07-23T20:13:53+00:00"
     },
     {
@@ -463,22 +505,10 @@
      "published_at": "2026-07-23T19:59:25+00:00"
     },
     {
-     "title": "Lei autoriza até R$ 28,5 bilhões em crédito para exportadoras",
-     "link": "https://www.canalrural.com.br/economia/lei-autoriza-ate-r-285-bilhoes-em-credito-para-exportadoras/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-23T19:46:16+00:00"
-    },
-    {
      "title": "Ministério nega ter pedido flexibilização à UE para carne brasileira e aguarda análise de documentos",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/23/ministerio-nega-ter-pedido-flexibilizacao-a-ue-para-carne-brasileira-e-aguarda-analise-de-documentos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-23T19:43:54"
-    },
-    {
-     "title": "Mapa mantém tratativas com União Europeia sobre antimicrobianos na produção animal",
-     "link": "https://www.canalrural.com.br/politica/mapa-mantem-tratativas-com-uniao-europeia-sobre-antimicrobianos-na-producao-animal/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-23T19:41:58+00:00"
     },
     {
      "title": "Município produtor de soja de MT deve manter área plantada, mas El Niño acende alerta para safra 2026/27 - Canal Rural",
@@ -493,10 +523,10 @@
      "published_at": "2026-07-23T19:01:22+00:00"
     },
     {
-     "title": "O que pode fazer a diferença de até R$ 9,2 mil por hectare na soja (e não é a estiagem) - GZH",
-     "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNcFBucjdpWjdxcTJpdFdwY2xZRTlrQWVhbk02ekRNeDk4VmdkbFVKeHdxM0wxRFlQN2tHRExoeTNOUGpaQnlPeVdUeGdFeDNXZ1d5MXZ4WTl3eW5KXzZnRkd3dUx4Z2VOX1AwOFZlMmY4NDBzUGNDcjRpX21rRUM0aFloSExRZDBGMnp1QW5BLVJsYjVmQkotc0huN2FDaG45M085NzY1aWZSYTZWVVpTS081cGxXRW5admp2V19hMVpoUHBHdEFKazRkU0xZbThmbGR5N3FMZkJxdWs2YzJqWVpsbERwS0Fkbm42QnNWOVc3QlhBY0VNTVNxbEVvV21jME50LVo1RHVUOTc0d2tFQjNxcWJpd1BV?oc=5",
-     "source": "GZH",
-     "published_at": "2026-07-23T18:30:32+00:00"
+     "title": "Soja reage e abre \"janela de oportunidade\" para o produtor brasileiro, que acelera vendas - AgFeed",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNakgwc084VFhuMkRsTjlOOWxsSS1HQ1dfb3FjZVRCSmhSU285TkgzWlMyTFpZTmk2WWtnbTZhMEN5YlRJaXZCMW9saXpmZmY4NHRMWklUWkFSbHE0WFBLdzBUYjBHeERjMlFoVUtrcXNDM1J2ZVV1Q05LUTJnaGVqRGZWenhzXzdNbmJoclZVX1dMSDhJZ2ZuVTRkUGdKSDBjVEloZTJXSjNJaVdVcGpnQ3VlYklEaHlt?oc=5",
+     "source": "AgFeed",
+     "published_at": "2026-07-23T19:00:00+00:00"
     },
     {
      "title": "Soja atinge maior preço de 2026; analista explica os fatores que sustentam a alta da commodity - Canal Rural",
@@ -509,30 +539,6 @@
      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUmZVR2d0cUFkM3lUdUZpMlpzX0NJMXhzU3hQTnNmZkxmYl82VmlhSS1KZGhTZGlia0ZKTTVTLWtpcWR4NUxpSzNwTi1PY0laMHB5QWlFTjdpMDJMSFBHaGxwSGt2ZWYyUzF5eUJVanl1QlRkOERqWGZIbGc2SHFiZFU1NFhsUVYzT2gxUVZhd1VvMG8tam1kQUhzOGFzU2c0dXFGdVY1Q290ODBXQWtoQkV2U0RkM0RHZ3EtcjRoMnQ2N2tEbDJnUXZyU1pDSG5OMVY3OXVLRG8tQWp4ZWxabG8zaw?oc=5",
      "source": "UOL Notícias",
      "published_at": "2026-07-23T15:10:00+00:00"
-    },
-    {
-     "title": "Área de soja deve ser mantida em 450 mil hectares em Querência (MT); El Niño preocupa produtores - safras.com.br",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTHZxbWE2cTFyLW1WalEtcUdVY1pQek1uSVktRXhmZEo2UG9sbjVITk1mcDdSanpabWlFX0JuNlQ4X0lTeGkyamo2Q0t3NWxQTUQwdFBpeGtVbFlrOVlMSHpUX0VyU29sR3NYa08xcEJ5YklaZE1IMGxIdTlaazg2NVRRZ3ZyRmJ0ZVRIWFpHamtRSnV5WjFRa2NCZ0J1NERYbEZQYzVNb2k3akcxT0Z1ZU15WE1XYlk?oc=5",
-     "source": "safras.com.br",
-     "published_at": "2026-07-23T14:16:06+00:00"
-    },
-    {
-     "title": "Preços da soja continuam subindo no Brasil e safra já acumula R$ 16/sc de ganho em quatro meses, reforçando oportunidades - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPQTZ3VnVqaE5IMGpPUF9xaHNMSHk5bGVNUHpBbE1RVlgxN1QxdkJzYTZXN0NYcEtsNXNJTUdpUVRFVVJsVDZLRnZXUldvbXBVOFZVYUdmbE1iaGlNNEtTaXN0bDZfckhSRld5eXBhRUlBR3NoMmFkakpZVkJFSVlUcFdMWk9hOVFRbllKdUh5VWZNNnlZZWxCYXdkS3NiRlZ6eng4a0hrN2VvVk0tMlVISXM1bng0RFdpMVdPb3ZsS2szMURQcDFIbUpoaW9wTk03WTVLc3hTQVhudU11MHVHenN0eURpTFI4eEF6WmNuVGRNRXJlRld6NDVJZ0NVbGZPd1BtLXhlbWNhTkZjd0ZZWGpkYmXSAZoCQVVfeXFMUHNPN3JDVDAwV0M1Y2phWmY0ckhSVkxtMnJpQ1dlek5ScEhxcWJYWDE0cHZIMFUzajNKdV9uWlBZOVNrZm0zb2s2bEhFc3hlTjN5aUdzMVpRSlRNLVNYbklKNk80eFZVYjc1ZjJSb29zMzNGOWpkMmthYktXbEpnRnYzNG9mWkxFNFUzRlhjNjJvRlNQU2hjTnlsZWVUbDV4N2xnRlZzU25zMlNLNmhyR1FUdVp6ZTlqVXVuaDlVeFlIdVpUQ1FLVDRPY1NDMzhwNTgtZUpUNk05eVN0dGR6Q0NJbXNUN3ktNlJUZGFIT0FUdHlsbWx5dDJOOXl3cVpLSzg1Q0gtZ3BjYnJhTlk2UW5UUjJlR3pNelZB?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-23T13:30:31+00:00"
-    },
-    {
-     "title": "Demanda aquecida e alta em Chicago impulsionam preços da soja - Agrimidia",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb2ZrZDVYRzBJVGVfSDItQ0RRZUVhVGxhUVIxRThsUEp1ckRrSjN5eWFxdU9Eek1iMVpxczZFN0NRR3VyLWNMNEJEdVVPTHEyYURCLU5RelZ2V1Q3NjlRcndyalp1NHQxZ0JSSmNWc3hyN1dac0wzUDRUT0ppR3lMTWpJNjRJaC05ZmVqQlRzMHZod3NUMTB4TnRUeG5SeGJVb21uZ0xrWWpNdFFDVGhYRU9nYkJ0WEJFemtKaQ?oc=5",
-     "source": "Agrimidia",
-     "published_at": "2026-07-23T12:00:53+00:00"
-    },
-    {
-     "title": "Soja sobe em Chicago nesta quinta-feira (23) com suporte do óleo, petróleo e clima nos EUA - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPOUpZRl9tTVBqRGhIcER2WjdjT2Ntb2l4Skc2djc4Z3BDcDBnd2IwSVpiRWQtbEROYXVuM1N4aXVyeXFESWVSY2tGXzQ1cnpOYTVmN0tDeUxIWWVNelRzLTViYTd1LVBGc0Jtd2JXQ0hsWHRYV1BRWnZOM255NmhNQlZzQm1SWU5wei1EclB5WkJ4eE1DZHpieWhSTEp1NDhzRW5KYktBVGpKVHFlcENBOUFEWFFZWnZvVThfQjh4ejZQOEdaUWMwZ0pvaXNqT1hZTHViR3o2QUQtWUhJd1NneUpfUnLSAeoBQVVfeXFMTWZiWVdLZWFadTNXZzBhaE9kSUhVQVl6bGV4VFJGR1NJUHFWbFBuby1mN1BEYVdNVElGUHM3alB1WDZSbV8yVjJuaWZpUFdndlNBbTcxczZENW5oQ1FjRFZlTzk5QURVemhWTlRENkluTFJ2cUdzU0ZQLU52VWt0NFF2VTBmWGhUT2tpbUQ4RjhpamZpLWlHT0VzejFCRmdNMjdYTUNqNnFCTVpqZmFCUUxVNENhT3BJTHBkOHI0UVpHcDI4TTZWeTRmdmVsMTJmTVZzTmhyQzdYZDNybUc3bGgzSTVzdVpTOElB?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-23T10:48:01+00:00"
     },
     {
      "title": "O plano da China para se livrar da dependência do agro brasileiro (e por que isso assusta o Brasil)",
@@ -581,12 +587,6 @@
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdnl0RGRONUR4N2dVV01WUDlBSEExUFRFMGE3UDdFRUwzNG9PR3hCXzJraWRDZlVKMi0tWHpYdFF1dzJTNnhoSjJ2VExmTnlLV1NmVEJlRHhjcld4eUt6T2N2WFc5eWR6XzZTSHl0X1c2dWk4Q3pqZl9raDQxWmw3QVZMTnE0UjJxYlQxX2JaRVVSOWNQN2h1Yg?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-07-21T11:37:50+00:00"
-    },
-    {
-     "title": "EUA podem perder para o Brasil o papel de maior exportador agrícola do mundo, diz Financial Times",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/21/eua-podem-perder-para-o-brasil-o-papel-de-maior-exportador-agricola-do-mundo-diz-financial-times.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-21T11:27:49"
     }
    ],
    "failed": [

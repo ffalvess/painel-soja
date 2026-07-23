@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-23T17:13:41+00:00",
+ "generated_at": "2026-07-23T19:05:35+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-23T17:13:36+00:00",
+   "updated_at": "2026-07-23T19:05:26+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1246.25,
+     "price": 1241.0,
      "prev_close": 1233.0,
-     "change_pct": 1.07,
+     "change_pct": 0.65,
      "closes": [
       1117.0,
       1108.75,
@@ -33,16 +33,16 @@
       1226.0,
       1219.5,
       1233.0,
-      1246.25
+      1241.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 488.75,
+     "price": 486.75,
      "prev_close": 462.0,
-     "change_pct": 5.79,
+     "change_pct": 5.36,
      "closes": [
       409.75,
       407.0,
@@ -65,16 +65,16 @@
       449.5,
       452.75,
       462.0,
-      488.75
+      486.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 333.0,
+     "price": 331.6,
      "prev_close": 331.6,
-     "change_pct": 0.42,
+     "change_pct": 0.0,
      "closes": [
       302.9,
       303.6,
@@ -97,16 +97,16 @@
       323.5,
       326.7,
       331.6,
-      333.0
+      331.6
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 72.94,
+     "price": 72.85,
      "prev_close": 75.48,
-     "change_pct": -3.37,
+     "change_pct": -3.48,
      "closes": [
       70.59,
       69.46,
@@ -129,16 +129,16 @@
       74.68,
       74.3,
       75.48,
-      72.94
+      72.85
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 701.75,
+     "price": 694.5,
      "prev_close": 705.75,
-     "change_pct": -0.57,
+     "change_pct": -1.59,
      "closes": [
       586.75,
       585.75,
@@ -161,16 +161,16 @@
       674.0,
       678.0,
       705.75,
-      701.75
+      694.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 100.83,
+     "price": 100.81,
      "prev_close": 94.07,
-     "change_pct": 7.19,
+     "change_pct": 7.16,
      "closes": [
       77.08,
       73.74,
@@ -193,16 +193,16 @@
       89.22,
       91.01,
       94.07,
-      100.83
+      100.81
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 176574.73,
+     "price": 176736.05,
      "prev_close": 177548.0,
-     "change_pct": -0.55,
+     "change_pct": -0.46,
      "closes": [
       171259.0,
       170507.0,
@@ -226,7 +226,7 @@
       173371.0,
       173326.0,
       177548.0,
-      176574.7344
+      176736.0469
      ]
     }
    ],
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-23T17:13:36+00:00",
+   "updated_at": "2026-07-23T19:05:26+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-23T17:13:39+00:00",
+   "updated_at": "2026-07-23T19:05:32+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,14 +400,50 @@
       18.4,
       18.8,
       19.2,
-      19.1
+      19.0
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-23T17:13:41+00:00",
+   "updated_at": "2026-07-23T19:05:35+00:00",
    "items": [
+    {
+     "title": "Bactéria que causa doença grave em peixes é identificada pela primeira vez no Brasil",
+     "link": "https://www.canalrural.com.br/agricultura/bacteria-que-causa-doenca-grave-em-peixes-e-identificada-pela-primeira-vez-no-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-23T18:35:42+00:00"
+    },
+    {
+     "title": "O que pode fazer a diferença de até R$ 9,2 mil por hectare na soja (e não é a estiagem) - GZH",
+     "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNcFBucjdpWjdxcTJpdFdwY2xZRTlrQWVhbk02ekRNeDk4VmdkbFVKeHdxM0wxRFlQN2tHRExoeTNOUGpaQnlPeVdUeGdFeDNXZ1d5MXZ4WTl3eW5KXzZnRkd3dUx4Z2VOX1AwOFZlMmY4NDBzUGNDcjRpX21rRUM0aFloSExRZDBGMnp1QW5BLVJsYjVmQkotc0huN2FDaG45M085NzY1aWZSYTZWVVpTS081cGxXRW5admp2V19hMVpoUHBHdEFKazRkU0xZbThmbGR5N3FMZkJxdWs2YzJqWVpsbERwS0Fkbm42QnNWOVc3QlhBY0VNTVNxbEVvV21jME50LVo1RHVUOTc0d2tFQjNxcWJpd1BV?oc=5",
+     "source": "GZH",
+     "published_at": "2026-07-23T18:30:32+00:00"
+    },
+    {
+     "title": "Câmara aprova incentivos a fertilizantes e mudanças no seguro rural",
+     "link": "https://www.canalrural.com.br/politica/camara-aprova-incentivos-a-fertilizantes-e-mudancas-no-seguro-rural/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-23T18:25:52+00:00"
+    },
+    {
+     "title": "Exportações brasileiras ao México caem 42,5% no primeiro semestre, diz CNI",
+     "link": "https://www.canalrural.com.br/economia/exportacoes-brasileiras-ao-mexico-caem-425-no-primeiro-semestre-diz-cni/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-23T18:18:10+00:00"
+    },
+    {
+     "title": "Ouro cai 2,45% com avanço do petróleo e dos Treasuries",
+     "link": "https://www.canalrural.com.br/economia/ouro-cai-245-com-avanco-do-petroleo-e-dos-treasuries/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-23T17:51:48+00:00"
+    },
+    {
+     "title": "Empresa dos EUA recolhe 1,59 milhão de dúzias de ovos por risco de Salmonella",
+     "link": "https://www.canalrural.com.br/aves-e-suinos/empresa-dos-eua-recolhe-159-milhao-de-duzias-de-ovos-por-risco-de-salmonella/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-23T16:58:22+00:00"
+    },
     {
      "title": "EUA vendem 332,7 mil toneladas de milho da safra 2025/26 em uma semana",
      "link": "https://www.canalrural.com.br/economia/eua-vendem-3327-mil-toneladas-de-milho-da-safra-2025-26-em-uma-semana/",
@@ -451,40 +487,10 @@
      "published_at": "2026-07-23T14:56:55+00:00"
     },
     {
-     "title": "Cachaça de alambique do Circuito das Águas Paulista recebe Indicação Geográfica",
-     "link": "https://www.canalrural.com.br/agricultura/cachaca-de-alambique-do-circuito-das-aguas-paulista-recebe-indicacao-geografica/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-23T14:46:51+00:00"
-    },
-    {
-     "title": "Fazenda autoriza equalização de juros para financiamentos do Plano Safra 2026/27",
-     "link": "https://www.canalrural.com.br/economia/fazenda-autoriza-equalizacao-de-juros-para-financiamentos-do-plano-safra-2026-27/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-23T14:42:31+00:00"
-    },
-    {
-     "title": "MPF pede suspensão do aumento de etanol anidro para 32% na gasolina",
-     "link": "https://www.canalrural.com.br/politica/mpf-pede-suspensao-do-aumento-de-etanol-anidro-para-32-na-gasolina/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-23T14:22:58+00:00"
-    },
-    {
      "title": "Área de soja deve ser mantida em 450 mil hectares em Querência (MT); El Niño preocupa produtores - safras.com.br",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTHZxbWE2cTFyLW1WalEtcUdVY1pQek1uSVktRXhmZEo2UG9sbjVITk1mcDdSanpabWlFX0JuNlQ4X0lTeGkyamo2Q0t3NWxQTUQwdFBpeGtVbFlrOVlMSHpUX0VyU29sR3NYa08xcEJ5YklaZE1IMGxIdTlaazg2NVRRZ3ZyRmJ0ZVRIWFpHamtRSnV5WjFRa2NCZ0J1NERYbEZQYzVNb2k3akcxT0Z1ZU15WE1XYlk?oc=5",
      "source": "safras.com.br",
      "published_at": "2026-07-23T14:16:06+00:00"
-    },
-    {
-     "title": "Tarifa adicional dos EUA impacta exportações brasileiras e governo reage",
-     "link": "https://www.canalrural.com.br/videos/tarifa-adicional-dos-eua-impacta-exportacoes-brasileiras-e-governo-reage/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-23T14:15:32+00:00"
-    },
-    {
-     "title": "Meteorologista alerta para trégua temporária no RS e temporais em SP e MS",
-     "link": "https://www.canalrural.com.br/videos/meteorologista-alerta-para-tregua-temporaria-no-rs-e-temporais-em-sp-e-ms/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-23T14:15:22+00:00"
     },
     {
      "title": "Soja dispara em Chicago, rompe novos patamares e cria oportunidades de venda; clima nos EUA e novo risco no campo entram no radar - Portal do Agronegócio",
@@ -533,12 +539,6 @@
      "link": "https://g1.globo.com/economia/noticia/2026/07/23/o-plano-da-china-para-se-livrar-da-dependencia-do-agro-brasileiro-e-por-que-isso-assusta-o-brasil.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-23T07:43:55"
-    },
-    {
-     "title": "Soja Talks debate como avanço do caruru-roxo exige nova postura no manejo da planta daninha - Embrapa",
-     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMVp1dWM1SV9HQ19nWUtSTURuN0MzZW5TTW5tQlBuX1BRNmVjMkxXWGNkRjJ0bm96NkNLeTdmZk1OcHpIWk5UZHUtZkZvUGw3dWRnQ2RyZGVmajBWN2ZDaU1SekxzNFA1MXh3dHM0NVo4ZHZnMkVlOWlVN1RVbGRMUjFHYlp4OUc2WjRnb09XZEEwTlMtbjFMZ1NZXy1HS2pZZ3p5YXRhbU9sRGE4Q3YyZ2x4T1ZXYnM0Nzh4dnFoejRiajROZ1o0eFA4TGZFa2t3QUJzVEZsaTN2U0hwd3lRUjVxM0tkNnM?oc=5",
-     "source": "Embrapa",
-     "published_at": "2026-07-22T20:08:52+00:00"
     },
     {
      "title": "Cidade espanhola presenteia campeões da Copa com tomates equivalentes ao próprio peso; veja vídeo",

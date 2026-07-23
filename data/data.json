@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-23T08:20:42+00:00",
+ "generated_at": "2026-07-23T11:04:50+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-23T08:20:33+00:00",
+   "updated_at": "2026-07-23T11:04:43+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1239.75,
+     "price": 1244.5,
      "prev_close": 1233.0,
-     "change_pct": 0.55,
+     "change_pct": 0.93,
      "closes": [
       1117.0,
       1108.75,
@@ -33,16 +33,16 @@
       1226.0,
       1219.5,
       1233.0,
-      1239.75
+      1244.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 486.0,
+     "price": 489.0,
      "prev_close": 462.0,
-     "change_pct": 5.19,
+     "change_pct": 5.84,
      "closes": [
       409.75,
       407.0,
@@ -65,16 +65,16 @@
       449.5,
       452.75,
       462.0,
-      486.0
+      489.0
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 332.9,
+     "price": 333.8,
      "prev_close": 331.6,
-     "change_pct": 0.39,
+     "change_pct": 0.66,
      "closes": [
       302.9,
       303.6,
@@ -97,16 +97,16 @@
       323.5,
       326.7,
       331.6,
-      332.9
+      333.8
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 73.28,
+     "price": 73.42,
      "prev_close": 75.48,
-     "change_pct": -2.91,
+     "change_pct": -2.73,
      "closes": [
       70.59,
       69.46,
@@ -129,16 +129,16 @@
       74.68,
       74.3,
       75.48,
-      73.28
+      73.42
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 705.5,
+     "price": 706.25,
      "prev_close": 705.75,
-     "change_pct": -0.04,
+     "change_pct": 0.07,
      "closes": [
       586.75,
       585.75,
@@ -161,16 +161,16 @@
       674.0,
       678.0,
       705.75,
-      705.5
+      706.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 86.17,
+     "price": 92.68,
      "prev_close": 94.07,
-     "change_pct": -8.4,
+     "change_pct": -1.48,
      "closes": [
       77.08,
       73.74,
@@ -193,7 +193,7 @@
       89.22,
       91.01,
       94.07,
-      86.17
+      92.68
      ]
     },
     {
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-23T08:20:33+00:00",
+   "updated_at": "2026-07-23T11:04:43+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-23T08:20:39+00:00",
+   "updated_at": "2026-07-23T11:04:48+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -406,8 +406,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-23T08:20:42+00:00",
+   "updated_at": "2026-07-23T11:04:50+00:00",
    "items": [
+    {
+     "title": "Vazio sanitário da soja 2026: planejamento e sementes de alta tecnologia podem definir a produtividade da próxima safra - Portal do Agronegócio",
+     "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQVVl1RUNlNlQ5aWgyRnVKTlFIdzNoSmliQnJfUDFCWERJMDlNMzlDQ0R4V2ZEY09PelgwVVZxZTM1a3RvZEV0SjduaWRsOTgwb1h0OGNXTWhfLXRabDhUSmd5VXo4Ry1nbnplYnBrOEZzUzhaUnJkdHhhOGNQSHpEdGVFYi1HbTBtV0F6VERVeV9PSHhrQ094NXI1SXIwdXhxRXAtWU5OeElIRWhkUEc5cW9zTWNCcm5jczlvYWxrR3dSU3Y1MTBCWUJFV0RDS3d4T1lZd2lKOEs5YzBEYVdZWFFkWTZRM3Y4aHhUT29rYWFYMkJnRS1hVDBac254eEtYRVk3V1ZGbzYybkROcWRlQw?oc=5",
+     "source": "Portal do Agronegócio",
+     "published_at": "2026-07-23T11:00:00+00:00"
+    },
+    {
+     "title": "A todo vapor: demanda aquecida impulsiona preços da soja; saiba os números do dia - Olhar Alerta",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWXJndzQxTUQ2bnpMd3dEQ25jT3FqS29rZGNiYkVsb2NlSG9VQzJNOUZCS25NRHF2ZXV1R0NVN2pIdVdaMjJ1eVF5ZENjdXNIWjU0aGQ1dGJncGtlZ09wWEZsVmdaN0syTEhkZjJtZktwc0VnT1UzVjBTc1VLQUgyeWpIWU1QR2R2dkxVQ0JXOE9vLXJUUHZvUWYtZUxKZElJaUVvUHZidnJVaENoZllCaEF2c3RZTnZTc3JlODZkMHBBUQ?oc=5",
+     "source": "Olhar Alerta",
+     "published_at": "2026-07-23T10:11:00+00:00"
+    },
+    {
+     "title": "Preço da soja sobe em quase todas as regiões brasileiras - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTXBZTjJGSzk2aHhoTlBTNHVyRlA5TnlidmU5U1ZkbnI3OWFnTTlwODBCWC05clYyaEZ3X1Y1NXpvRUFGMHBBVnhZUGEzM3AtMkh1RmlRY3hYWHNHeE1ILUdMdTBUaHNNb0RzTEVMU0ZfcmpjZjRidEVlSkZkRHIzRDlfWXJtYlZjRHRFLUVLV2EyeVJ3ZktHVTBVX04yc2RJcTlyZ3NOYjM4ZmREdDFMN1g5a3A0NGPSAcYBQVVfeXFMUHV5WmRrN1k4SzRWYTBMQ0JuTjRqSnB1LXV2Q0Z2bmJvZ0NIcnhZZE1IZ3J1aE1MNDJ0Y3NJcXZvSnZlLUdCUWgyN0U4UXZDWXc2VHRCbURrTXhUM1c2eHhDcUVxSjFCZHJJS3BEVy1jUkM2M0VlXzdRV1A4OU1OMkhhSlc4aHZ0VHZiX3B6eG00NWdnUjFBa2dKZ0ZBT0p5ZWlGa2k5NnRIX0R0Sld4SlRlUWNnSFhDaTdueF9kNm5HNVFVdVZR?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-23T09:05:08+00:00"
+    },
     {
      "title": "O plano da China para se livrar da dependência do agro brasileiro (e por que isso assusta o Brasil)",
      "link": "https://g1.globo.com/economia/noticia/2026/07/23/o-plano-da-china-para-se-livrar-da-dependencia-do-agro-brasileiro-e-por-que-isso-assusta-o-brasil.ghtml",
@@ -493,10 +511,10 @@
      "published_at": "2026-07-22T20:08:52+00:00"
     },
     {
-     "title": "Cadeia da soja impulsiona exportações brasileiras em julho - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbVlqMGdzM1RGclpIMUl2RGFfRm4talpnMU5Ia1NZY0pVTmdlbmRlb1dtdzM0cXpJR0hOdWlRMHRabUdoV3JsRVZoUUkzRWpjOGdDbU40dFByZW0wbDdkT216LTFKOExKMTA1YWZmeFdac1M2T203YUlOam9vbG5nN3FFRGRhYVFkMW1UTXdmNXdDZUU?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-07-22T19:30:47+00:00"
+     "title": "Preço da soja no Brasil atinge maior patamar desde 2026 com demanda chinesa - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa0x6bmEtcnpCMk1fU3EzamdlTWE5NjdIQTQyMFgzbEhXU3MwY3ZsVTZGRUd5WGp1WUVPZ2FNekZWckZKWU9tend3VkJ4dXNDdFB0VGFJS19xdzRGQ2Q4c2FKSUhta3ZtWWlvWmlzYVN4M0NaNlFZdnh4NG50bGoyS2g5SWh4Y05pLXFzNE1wODJvanJBTGVJa2NqXzFibGRFUDhaa0RPMGRiSDRTV1U5TnBMTQ?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-22T20:05:46+00:00"
     },
     {
      "title": "Soja sobe mais de 1% em Chicago impulsionada por disparada do trigo e escalada entre Rússia e Ucrânia - Notícias Agrícolas",
@@ -517,12 +535,6 @@
      "published_at": "2026-07-22T17:08:22+00:00"
     },
     {
-     "title": "Previsão da Anec de exportação de soja em julho é revisada para baixo - UOL Notícias",
-     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQa053VVpJVGN5OVdHOVF3MEx5dG45RmZZWXdQSGF3R3Vzbkl3bURNZ2RvNlRzZlctTGE5anBKYTBUdU9EcGNSYjFoX2lUOW1FU2QweUVzbENfdWhpMkxSUU5oRHlqU1BYaGtIMHdINTBONVhJVFZ2MnNZQWt6RklNejlBLUlPZWN4ajM1T1JWV2U0MXN1bkJ0SklETVFBeXBlQ1psdklrbFVQWGNKZGtVRzdOUnlnNEdvOUxkSm1FOUJRaWpqME1UY0p5dFFqd0Q0VmtuLURnMmNURkNj?oc=5",
-     "source": "UOL Notícias",
-     "published_at": "2026-07-22T17:00:00+00:00"
-    },
-    {
      "title": "Cidade espanhola presenteia campeões da Copa com tomates equivalentes ao próprio peso; veja vídeo",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/22/cidade-espanhola-presenteia-campeoes-da-copa-com-tomates-equivalentes-ao-proprio-peso-veja-video.ghtml",
      "source": "G1 Agronegócios",
@@ -533,18 +545,6 @@
      "link": "https://g1.globo.com/economia/noticia/2026/07/22/jamieson-greer-brasil-eua.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-22T14:48:59"
-    },
-    {
-     "title": "Os bastidores da liderança da soja brasileira estarão em debate em evento da Embrapa; saiba como participar - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOMFRPSWRON2hZT09Vb2dDc3VMTkpTcktMUG9naFZCX0JZSW5rOXhkaHhsRHlWbGxLc0NKVWJQSmh4Rk9UWUd4QU50M3JBTTI3WWJPakxLenVkdV91SnBsZkQ4clpibV9IaHdnNXQ0VVZpdTlWQ0R2Y2hwcGZqZXhwZkRISzRuYmM5eGVnUXVCaUJRRzhLV3BnUnJZb1Q3NVh6WHdJbW10TW5rXy1EU3pPOTRTczdhc1VodG50dHNhWl9wX2hYTGNyaG1USzlQcVpzekI4a2dvdktZQzZrZFFLNTNaZExPb3Y1ZU9RODc5d05zZGMxSDdIOC1EMTJ2Zw?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-22T14:45:12+00:00"
-    },
-    {
-     "title": "Soja, milho e trigo sobem em Chicago com falta de chuva nos EUA - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWEhDSV9IVzN2ZzNKcm9aRGNjbndRaFdKbG1LckVJY0VPallsQWFobEUwNzJrX2NsQnBKWEMwMnVCTzVEWW1YR3VZZXd1RkwtYmhzbWJfeTJ1OXZudmZlTVlWVTBCclBzTmxUWUNiZG1KWHlBczg2X2QzY1VSQVJLM1NmY1lkcnpXSVJUbDhQTjBPREFfTDZFYm9lWWZ6VjVCcnVPVkdab1J5bkpXVFcwVmdRU0JCWWtHOTUzYVJzSdIBzgFBVV95cUxQc2piUHNxWWVuNG1Bd0d0QUQ1elM3emNnM0RfNXo2N0c4N0pEQTFMSGs0R3d2QTZjVExaSlRrWU1xeWd1LWRTejd1VVN3REpTSnM3LUR4TWc4NUVvLTEzSkRKUjBpWE1uTGhkbWRodHp1RFlrWjBOc0hCbzVnT3FpNElfN01nZ0s3M2xmeGtsM0s3MnVoZHpTRS1LcWlldmg5Ym02UXg4aF8yQmpZSVBSRmczaGlkbG9FenY4N1pVeDlJM0JFMG10aU1YQUU3QQ?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-22T13:47:45+00:00"
     },
     {
      "title": "Tarifaço de Trump: lagosta viva é taxada, mas congelada escapa; veja lista de peixes e crustáceos isentos e tarifados",

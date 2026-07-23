@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-23T15:51:20+00:00",
+ "generated_at": "2026-07-23T17:13:41+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-23T15:51:05+00:00",
+   "updated_at": "2026-07-23T17:13:36+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1242.75,
+     "price": 1246.25,
      "prev_close": 1233.0,
-     "change_pct": 0.79,
+     "change_pct": 1.07,
      "closes": [
       1117.0,
       1108.75,
@@ -33,16 +33,16 @@
       1226.0,
       1219.5,
       1233.0,
-      1242.75
+      1246.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 485.0,
+     "price": 488.75,
      "prev_close": 462.0,
-     "change_pct": 4.98,
+     "change_pct": 5.79,
      "closes": [
       409.75,
       407.0,
@@ -65,16 +65,16 @@
       449.5,
       452.75,
       462.0,
-      485.0
+      488.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 331.6,
+     "price": 333.0,
      "prev_close": 331.6,
-     "change_pct": 0.0,
+     "change_pct": 0.42,
      "closes": [
       302.9,
       303.6,
@@ -97,16 +97,16 @@
       323.5,
       326.7,
       331.6,
-      331.6
+      333.0
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 73.21,
+     "price": 72.94,
      "prev_close": 75.48,
-     "change_pct": -3.01,
+     "change_pct": -3.37,
      "closes": [
       70.59,
       69.46,
@@ -129,16 +129,16 @@
       74.68,
       74.3,
       75.48,
-      73.21
+      72.94
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 698.75,
+     "price": 701.75,
      "prev_close": 705.75,
-     "change_pct": -0.99,
+     "change_pct": -0.57,
      "closes": [
       586.75,
       585.75,
@@ -161,16 +161,16 @@
       674.0,
       678.0,
       705.75,
-      698.75
+      701.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 87.17,
+     "price": 100.83,
      "prev_close": 94.07,
-     "change_pct": -7.33,
+     "change_pct": 7.19,
      "closes": [
       77.08,
       73.74,
@@ -193,16 +193,16 @@
       89.22,
       91.01,
       94.07,
-      87.17
+      100.83
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 176703.78,
+     "price": 176574.73,
      "prev_close": 177548.0,
-     "change_pct": -0.48,
+     "change_pct": -0.55,
      "closes": [
       171259.0,
       170507.0,
@@ -226,7 +226,7 @@
       173371.0,
       173326.0,
       177548.0,
-      176703.7812
+      176574.7344
      ]
     }
    ],
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-23T15:51:05+00:00",
+   "updated_at": "2026-07-23T17:13:36+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-23T15:51:09+00:00",
+   "updated_at": "2026-07-23T17:13:39+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -406,13 +406,19 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-23T15:51:20+00:00",
+   "updated_at": "2026-07-23T17:13:41+00:00",
    "items": [
     {
      "title": "EUA vendem 332,7 mil toneladas de milho da safra 2025/26 em uma semana",
      "link": "https://www.canalrural.com.br/economia/eua-vendem-3327-mil-toneladas-de-milho-da-safra-2025-26-em-uma-semana/",
      "source": "Canal Rural",
      "published_at": "2026-07-23T15:48:08+00:00"
+    },
+    {
+     "title": "Soja atinge maior preço de 2026; analista explica os fatores que sustentam a alta da commodity - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTG5YSVRXbXZreGZYLTZMeEdTQXJGU3U5Mi1FS2JuMndwMDJlQlpHcnpuN19tdGdPX01DdHNsUDhqS09SN1F4SHEzR1FDdkdYMmx1em90bWdDd0ZrX2FOamFPSVJTSmZqQzMzcXlZdHpFWUNlMmdCMTlSanZ4N1NWQ3Vjenp3R2M4c0FMV2lJTzhWbWRrYXJOenBRSEVISjBCY1JHQk5zRGNHdmNsaS0zSUNqZTJJVTktV1J5ZEpwaVR6aHE5bUYxSmt6NEZMa0VmUks3b0lqcWhjbHFRNk8wMVFOWDFPdnQyOGEweg?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-23T15:17:40+00:00"
     },
     {
      "title": "Soja atinge maior preço de 2026; analista explica os fatores que sustentam a alta da commodity",
@@ -425,6 +431,12 @@
      "link": "https://www.canalrural.com.br/opiniao-noticias/tarifaco-dos-eua-socorro-primeiro-solucoes-depois/",
      "source": "Canal Rural",
      "published_at": "2026-07-23T15:13:30+00:00"
+    },
+    {
+     "title": "EUA vendem 56,4 mil toneladas de soja da safra 2025/26 na semana, revela USDA - UOL Notícias",
+     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUmZVR2d0cUFkM3lUdUZpMlpzX0NJMXhzU3hQTnNmZkxmYl82VmlhSS1KZGhTZGlia0ZKTTVTLWtpcWR4NUxpSzNwTi1PY0laMHB5QWlFTjdpMDJMSFBHaGxwSGt2ZWYyUzF5eUJVanl1QlRkOERqWGZIbGc2SHFiZFU1NFhsUVYzT2gxUVZhd1VvMG8tam1kQUhzOGFzU2c0dXFGdVY1Q290ODBXQWtoQkV2U0RkM0RHZ3EtcjRoMnQ2N2tEbDJnUXZyU1pDSG5OMVY3OXVLRG8tQWp4ZWxabG8zaw?oc=5",
+     "source": "UOL Notícias",
+     "published_at": "2026-07-23T15:10:00+00:00"
     },
     {
      "title": "Liderança é essencial para fortalecer o setor produtivo em São Paulo",
@@ -457,6 +469,12 @@
      "published_at": "2026-07-23T14:22:58+00:00"
     },
     {
+     "title": "Área de soja deve ser mantida em 450 mil hectares em Querência (MT); El Niño preocupa produtores - safras.com.br",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTHZxbWE2cTFyLW1WalEtcUdVY1pQek1uSVktRXhmZEo2UG9sbjVITk1mcDdSanpabWlFX0JuNlQ4X0lTeGkyamo2Q0t3NWxQTUQwdFBpeGtVbFlrOVlMSHpUX0VyU29sR3NYa08xcEJ5YklaZE1IMGxIdTlaazg2NVRRZ3ZyRmJ0ZVRIWFpHamtRSnV5WjFRa2NCZ0J1NERYbEZQYzVNb2k3akcxT0Z1ZU15WE1XYlk?oc=5",
+     "source": "safras.com.br",
+     "published_at": "2026-07-23T14:16:06+00:00"
+    },
+    {
      "title": "Tarifa adicional dos EUA impacta exportações brasileiras e governo reage",
      "link": "https://www.canalrural.com.br/videos/tarifa-adicional-dos-eua-impacta-exportacoes-brasileiras-e-governo-reage/",
      "source": "Canal Rural",
@@ -469,10 +487,58 @@
      "published_at": "2026-07-23T14:15:22+00:00"
     },
     {
+     "title": "Soja dispara em Chicago, rompe novos patamares e cria oportunidades de venda; clima nos EUA e novo risco no campo entram no radar - Portal do Agronegócio",
+     "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNT0NTaTVNN0UtVzMzU1FUc25lOWhWWXRjZV9tWGU4N3pLSmNjcUhLMjA2ZWFCbl9GT0JsS0hQT0w2a3dGeU1fTmx6bVQ2bFZVTGtFQ3lwNG95aE1hM0ljOTdZeF9DWkVubWFvSzlaeHRjQ2UwblRBbG1uOWVFSUo2Yi0teDRNLUFZWGdKNkloWVltN2JiOExtdm9mZGVKTWRPbnplcDV0NnUxUldnUGFCeHRiWDVzTmJocHAya09kdjBpaTlWWjFMcHV1RDVLNEt6SXJJb3lQMmJENk1TcEdpal82dnJWM05wVHhXQllrSElhaVZBMHpBS29CLTRKLWJfbGd2Q3JMemhTR19tN0VuUTlfc0JNUnBIZGhiTA?oc=5",
+     "source": "Portal do Agronegócio",
+     "published_at": "2026-07-23T14:10:00+00:00"
+    },
+    {
+     "title": "Frete consome até 60% do valor do milho produzido em Mato Grosso do Sul - A Crítica de Campo Grande",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdHFvcDVTYmpiSzRMWlpoWXNDOTdEbldFaXVCMEZmLWxlOV9ZS3M1SDd6eUswSEU1d2szRFdMXzlYdktGZXVNME1mckVOcTEwcFhNQ1c5Y0FBNVhTVEYzME5adGw4WGdYZHVIVjZXYk1QSGJCNXg1Zjc0bmhGS1NDdw?oc=5",
+     "source": "A Crítica de Campo Grande",
+     "published_at": "2026-07-23T13:56:13+00:00"
+    },
+    {
+     "title": "USDA informa nova venda de 126 mil t de soja nesta 5ª feira (27) - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTEZHZkx1NFRkWXdJTjJnQlE2S2RtcFNMYWFkdmZ2NV9GWHRMdTZ1eXo2Q2djdDRkWGU5VmxCa3BLTllTU3BLZkl6X3JpWUV4Z0VVMnd0VkxoQmNvbEVIY3g3Q2JDZW53dUJ0UU5OSXVidVBsUlk3ZzFmMFI1RDY0QzFBQW5mMW9fcG9rZnA3S1p1RkVlMVhtLTFZVGx6TktjTVBxTm8teXhJZGpxaUJRTjZRR3ZURjVtT1FxdFlzamJFd9IBxwFBVV95cUxQT2h1UThKRVdhbUxCMkJGbktfODNNSXdHd2VBZzZlazFBMXdhT2xXMjRlTFdJTUZYWVlpUGNXRkdnYkU0SW9uWC01akEyMjNpcUNxeUFTTDF0dHo4RkxSTjRoelFRM2h0dllhT20xZ1ZiS196c3FNb3k1TG5nMno3TmRnenNGSTRGUnRxS093X1FGU0xnNk1fYUZDaTdFNW9hYlFWLXVhNjJfTWliYy0yUmxBUFFTWWVjRmJiMDhvWWczOFRmM253?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-23T13:07:00+00:00"
+    },
+    {
+     "title": "Demanda aquecida e alta em Chicago impulsionam preços da soja - Agrimidia",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb2ZrZDVYRzBJVGVfSDItQ0RRZUVhVGxhUVIxRThsUEp1ckRrSjN5eWFxdU9Eek1iMVpxczZFN0NRR3VyLWNMNEJEdVVPTHEyYURCLU5RelZ2V1Q3NjlRcndyalp1NHQxZ0JSSmNWc3hyN1dac0wzUDRUT0ppR3lMTWpJNjRJaC05ZmVqQlRzMHZod3NUMTB4TnRUeG5SeGJVb21uZ0xrWWpNdFFDVGhYRU9nYkJ0WEJFemtKaQ?oc=5",
+     "source": "Agrimidia",
+     "published_at": "2026-07-23T12:00:53+00:00"
+    },
+    {
+     "title": "Safra da soja injeta quase R$ 3 bilhões na Zona Sul - A Hora do Sul",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb3pSX3hiNVZGQzFrbUZLbzRBU0FXQk8zWHZDVUdoQW16NHZmNjYzY09EU21MZXhLa1VfTGw2eGJSUjlady1FRG1iUkN4cXNpcHhPUm1UT2RtZXV3bTVZV0ZZUlk2b0prQmozUExiSDJHYWlrTmdxX2NpZ3pHR0tmOVpKYWlSYzNNdVNVa0JHOG1ybXJtVEppdzdrRE95SUU?oc=5",
+     "source": "A Hora do Sul",
+     "published_at": "2026-07-23T11:56:00+00:00"
+    },
+    {
+     "title": "Soja sobe em Chicago nesta quinta-feira (23) com suporte do óleo, petróleo e clima nos EUA - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPOUpZRl9tTVBqRGhIcER2WjdjT2Ntb2l4Skc2djc4Z3BDcDBnd2IwSVpiRWQtbEROYXVuM1N4aXVyeXFESWVSY2tGXzQ1cnpOYTVmN0tDeUxIWWVNelRzLTViYTd1LVBGc0Jtd2JXQ0hsWHRYV1BRWnZOM255NmhNQlZzQm1SWU5wei1EclB5WkJ4eE1DZHpieWhSTEp1NDhzRW5KYktBVGpKVHFlcENBOUFEWFFZWnZvVThfQjh4ejZQOEdaUWMwZ0pvaXNqT1hZTHViR3o2QUQtWUhJd1NneUpfUnLSAeoBQVVfeXFMTWZiWVdLZWFadTNXZzBhaE9kSUhVQVl6bGV4VFJGR1NJUHFWbFBuby1mN1BEYVdNVElGUHM3alB1WDZSbV8yVjJuaWZpUFdndlNBbTcxczZENW5oQ1FjRFZlTzk5QURVemhWTlRENkluTFJ2cUdzU0ZQLU52VWt0NFF2VTBmWGhUT2tpbUQ4RjhpamZpLWlHT0VzejFCRmdNMjdYTUNqNnFCTVpqZmFCUUxVNENhT3BJTHBkOHI0UVpHcDI4TTZWeTRmdmVsMTJmTVZzTmhyQzdYZDNybUc3bGgzSTVzdVpTOElB?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-23T10:48:01+00:00"
+    },
+    {
+     "title": "Preço da soja sobe em quase todas as regiões brasileiras - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTXBZTjJGSzk2aHhoTlBTNHVyRlA5TnlidmU5U1ZkbnI3OWFnTTlwODBCWC05clYyaEZ3X1Y1NXpvRUFGMHBBVnhZUGEzM3AtMkh1RmlRY3hYWHNHeE1ILUdMdTBUaHNNb0RzTEVMU0ZfcmpjZjRidEVlSkZkRHIzRDlfWXJtYlZjRHRFLUVLV2EyeVJ3ZktHVTBVX04yc2RJcTlyZ3NOYjM4ZmREdDFMN1g5a3A0NGPSAcYBQVVfeXFMUHV5WmRrN1k4SzRWYTBMQ0JuTjRqSnB1LXV2Q0Z2bmJvZ0NIcnhZZE1IZ3J1aE1MNDJ0Y3NJcXZvSnZlLUdCUWgyN0U4UXZDWXc2VHRCbURrTXhUM1c2eHhDcUVxSjFCZHJJS3BEVy1jUkM2M0VlXzdRV1A4OU1OMkhhSlc4aHZ0VHZiX3B6eG00NWdnUjFBa2dKZ0ZBT0p5ZWlGa2k5NnRIX0R0Sld4SlRlUWNnSFhDaTdueF9kNm5HNVFVdVZR?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-23T09:05:08+00:00"
+    },
+    {
      "title": "O plano da China para se livrar da dependência do agro brasileiro (e por que isso assusta o Brasil)",
      "link": "https://g1.globo.com/economia/noticia/2026/07/23/o-plano-da-china-para-se-livrar-da-dependencia-do-agro-brasileiro-e-por-que-isso-assusta-o-brasil.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-23T07:43:55"
+    },
+    {
+     "title": "Soja Talks debate como avanço do caruru-roxo exige nova postura no manejo da planta daninha - Embrapa",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNMVp1dWM1SV9HQ19nWUtSTURuN0MzZW5TTW5tQlBuX1BRNmVjMkxXWGNkRjJ0bm96NkNLeTdmZk1OcHpIWk5UZHUtZkZvUGw3dWRnQ2RyZGVmajBWN2ZDaU1SekxzNFA1MXh3dHM0NVo4ZHZnMkVlOWlVN1RVbGRMUjFHYlp4OUc2WjRnb09XZEEwTlMtbjFMZ1NZXy1HS2pZZ3p5YXRhbU9sRGE4Q3YyZ2x4T1ZXYnM0Nzh4dnFoejRiajROZ1o0eFA4TGZFa2t3QUJzVEZsaTN2U0hwd3lRUjVxM0tkNnM?oc=5",
+     "source": "Embrapa",
+     "published_at": "2026-07-22T20:08:52+00:00"
     },
     {
      "title": "Cidade espanhola presenteia campeões da Copa com tomates equivalentes ao próprio peso; veja vídeo",
@@ -511,38 +577,19 @@
      "published_at": "2026-07-21T17:26:01"
     },
     {
+     "title": "Soja brasileira atinge maior cotação do ano: R$ 142,65 a saca - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdnl0RGRONUR4N2dVV01WUDlBSEExUFRFMGE3UDdFRUwzNG9PR3hCXzJraWRDZlVKMi0tWHpYdFF1dzJTNnhoSjJ2VExmTnlLV1NmVEJlRHhjcld4eUt6T2N2WFc5eWR6XzZTSHl0X1c2dWk4Q3pqZl9raDQxWmw3QVZMTnE0UjJxYlQxX2JaRVVSOWNQN2h1Yg?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-07-21T11:37:50+00:00"
+    },
+    {
      "title": "EUA podem perder para o Brasil o papel de maior exportador agrícola do mundo, diz Financial Times",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/21/eua-podem-perder-para-o-brasil-o-papel-de-maior-exportador-agricola-do-mundo-diz-financial-times.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-21T11:27:49"
-    },
-    {
-     "title": "Vinhos importados mais baratos perdem espaço com inflação, enquanto rótulos premium avançam",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/21/vinhos-importados-mais-baratos-perdem-espaco-com-inflacao-enquanto-rotulos-premium-avancam.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-21T08:02:29"
-    },
-    {
-     "title": "UE não flexibilizará exigências sanitárias para a carne brasileira, diz embaixador da Irlanda, que preside o bloco europeu",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/21/ue-nao-flexibilizara-exigencias-sanitarias-para-a-carne-brasileira-diz-embaixador-da-irlanda-que-preside-o-bloco-europeu.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-21T03:00:32"
-    },
-    {
-     "title": "China compra mais soja do Brasil enquanto reduz importações dos EUA",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/20/china-compra-mais-soja-do-brasil-enquanto-reduz-importacoes-dos-eua.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-20T12:06:21"
-    },
-    {
-     "title": "Exportações de carne bovina batem recorde no 1º semestre, mas cota da China e restrições da UE preocupam setor",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/20/exportacoes-de-carne-bovina-batem-recorde-no-1o-semestre-mas-cota-da-china-e-restricoes-da-ue-preocupam-setor.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-20T11:35:24"
     }
    ],
    "failed": [
-    "Google News: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=soja+OR+%22mercado+de+gr%C3%A3os%22&hl=pt-BR&gl=BR&ceid=BR:pt-419",
     "Notícias Agrícolas: 404 Client Error: Not Found for url: https://www.noticiasagricolas.com.br/rss/noticias"
    ]
   }

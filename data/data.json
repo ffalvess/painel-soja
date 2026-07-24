@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-24T05:44:18+00:00",
+ "generated_at": "2026-07-24T08:14:57+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-24T05:44:09+00:00",
+   "updated_at": "2026-07-24T08:14:51+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1249.75,
+     "price": 1249.5,
      "prev_close": 1237.5,
-     "change_pct": 0.99,
+     "change_pct": 0.97,
      "closes": [
       1108.75,
       1127.5,
@@ -33,16 +33,16 @@
       1219.5,
       1233.0,
       1237.5,
-      1249.75
+      1249.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 489.25,
+     "price": 489.5,
      "prev_close": 464.0,
-     "change_pct": 5.44,
+     "change_pct": 5.5,
      "closes": [
       407.0,
       414.75,
@@ -65,16 +65,16 @@
       452.75,
       462.0,
       464.0,
-      489.25
+      489.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 333.1,
+     "price": 334.9,
      "prev_close": 329.9,
-     "change_pct": 0.97,
+     "change_pct": 1.52,
      "closes": [
       303.6,
       308.2,
@@ -97,16 +97,16 @@
       326.7,
       331.6,
       329.9,
-      333.1
+      334.9
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 72.96,
+     "price": 72.56,
      "prev_close": 75.59,
-     "change_pct": -3.48,
+     "change_pct": -4.01,
      "closes": [
       69.46,
       70.81,
@@ -129,16 +129,16 @@
       74.3,
       75.48,
       75.59,
-      72.96
+      72.56
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 704.25,
+     "price": 703.75,
      "prev_close": 696.25,
-     "change_pct": 1.15,
+     "change_pct": 1.08,
      "closes": [
       585.75,
       591.0,
@@ -161,16 +161,16 @@
       678.0,
       705.75,
       696.25,
-      704.25
+      703.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 100.29,
+     "price": 92.58,
      "prev_close": 100.69,
-     "change_pct": -0.4,
+     "change_pct": -8.05,
      "closes": [
       73.74,
       75.26,
@@ -193,7 +193,7 @@
       91.01,
       94.07,
       100.69,
-      100.29
+      92.58
      ]
     },
     {
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-24T05:44:09+00:00",
+   "updated_at": "2026-07-24T08:14:51+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-24T05:44:14+00:00",
+   "updated_at": "2026-07-24T08:14:54+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -260,7 +260,7 @@
      ],
      "precip": [
       0.0,
-      0.0,
+      0.3,
       0.0,
       0.0,
       0.0,
@@ -268,22 +268,22 @@
       0.0
      ],
      "tmax": [
-      35.7,
-      35.9,
-      36.2,
-      35.9,
       35.4,
-      34.6,
-      35.3
+      35.9,
+      36.7,
+      36.1,
+      35.6,
+      34.9,
+      35.6
      ],
      "tmin": [
+      21.2,
+      21.8,
       21.8,
       21.6,
-      21.7,
-      21.7,
-      23.0,
-      23.7,
-      24.9
+      22.4,
+      23.5,
+      24.3
      ]
     },
     {
@@ -303,26 +303,26 @@
       0.0,
       0.0,
       0.0,
-      0.6,
+      0.3,
       0.0
      ],
      "tmax": [
-      34.4,
-      34.5,
-      34.9,
-      35.0,
+      34.1,
       34.3,
+      35.2,
+      34.9,
+      34.2,
       34.0,
-      34.5
+      34.6
      ],
      "tmin": [
+      20.9,
       21.5,
-      21.6,
-      21.8,
       21.5,
-      22.9,
-      23.0,
-      24.2
+      21.4,
+      22.2,
+      23.1,
+      23.6
      ]
     },
     {
@@ -338,7 +338,7 @@
      ],
      "precip": [
       0.0,
-      1.4,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -346,22 +346,22 @@
       0.0
      ],
      "tmax": [
-      31.9,
-      30.8,
-      31.6,
-      32.4,
-      33.4,
-      33.4,
-      33.3
+      31.8,
+      31.4,
+      31.7,
+      32.6,
+      32.2,
+      33.6,
+      33.1
      ],
      "tmin": [
       19.3,
-      18.8,
-      19.7,
-      20.1,
-      20.9,
-      22.3,
-      22.8
+      18.2,
+      19.5,
+      20.6,
+      22.2,
+      20.7,
+      22.1
      ]
     },
     {
@@ -376,38 +376,50 @@
       "2026-07-30"
      ],
      "precip": [
-      0.8,
-      2.6,
+      3.5,
+      4.3,
       0.0,
       0.0,
       0.0,
-      12.0,
-      0.0
+      38.8,
+      3.2
      ],
      "tmax": [
-      25.2,
-      24.5,
-      27.8,
-      28.9,
-      30.8,
-      30.1,
-      25.0
+      25.0,
+      22.8,
+      27.9,
+      29.9,
+      31.1,
+      30.3,
+      26.9
      ],
      "tmin": [
-      16.4,
-      16.4,
-      18.0,
-      18.8,
-      18.8,
-      19.0,
-      19.0
+      16.5,
+      17.6,
+      17.5,
+      19.1,
+      19.3,
+      18.4,
+      18.3
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-24T05:44:18+00:00",
+   "updated_at": "2026-07-24T08:14:57+00:00",
    "items": [
+    {
+     "title": "SOJA E TRIGO: confira os preços dos grãos nesta sexta-feira (24) - Brasil 61",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMTllaHZSQkZXV2dwN1VtYXNWU3p4dEd6WUp4YkEtLU1XazE3LUh2aEoyajE4TmFRYUxRQk5VdXZXUUtJR2EybjVSVTh3MkloT2t5OGR6eld1UDJkcS04RURLRW5iaG1OZjR6VFRNdHV2QzYwTkFBVllaQzFscGJqSUlZRFBRX2FPSDJLUjJ6Zjgwb0Fid1puZHotc9IBoAFBVV95cUxNSnZRSlJmVENoTldybmcxUkFZZkRlWHpjc3FNVmtPMDZIeW54eDRkVTNjcG9OWEc5SmNkU24yYU5wMkM3SEI3LVRubHd4UlNxRzB4aUpDMkg0d0pYSzlUdkZqVkszODZkVTZXc0ZRSnhkUkp5YVdIWXJGY2ZjbUM2cUpkUGpVWVgzLS0ta0o3Slg5NkI1el9ObTVVWnh1OERx?oc=5",
+     "source": "Brasil 61",
+     "published_at": "2026-07-24T07:05:00+00:00"
+    },
+    {
+     "title": "Casca enrugada do ovo pode ser sinal de estresse nas galinhas; veja por que isso acontece",
+     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/07/24/casca-enrugada-do-ovo-pode-ser-sinal-de-estresse-nas-galinhas-veja-por-que-isso-acontece.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-24T06:00:12"
+    },
     {
      "title": "Brasil mantém negociação com EUA e não descarta reciprocidade comercial",
      "link": "https://www.canalrural.com.br/economia/brasil-mantem-negociacao-com-eua-e-nao-descarta-reciprocidade-comercial/",
@@ -523,12 +535,6 @@
      "published_at": "2026-07-23T19:00:00+00:00"
     },
     {
-     "title": "Porto de Santos faz acordo de estudos para transbordo off shore de soja - Porto de Santos",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQS1Y0UjN4Qm1QbVdYanVNdFJzRFY2Mmlrd0FtWFI3WUN5VU9SUEt3T2wyS3hvVVRkaW9abEYzdnNFdTlLUFloYjB1V2VuYXA5bXVyaHZCaDJtZzNLcmZsS19oTEY4a1lOVFQxekVpSUlMdTEtZ1ZYNWxpbUZvRFQybmlTTlJrUGZIb3E3ZGt2YTlxOVZReG0taHAzNDQ5RDJrSTBYTG9tcjk1WTg5X3U1VmNhdl8wX3M?oc=5",
-     "source": "Porto de Santos",
-     "published_at": "2026-07-23T18:06:00+00:00"
-    },
-    {
      "title": "Soja atinge maior preço de 2026; analista explica os fatores que sustentam a alta da commodity - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTG5YSVRXbXZreGZYLTZMeEdTQXJGU3U5Mi1FS2JuMndwMDJlQlpHcnpuN19tdGdPX01DdHNsUDhqS09SN1F4SHEzR1FDdkdYMmx1em90bWdDd0ZrX2FOamFPSVJTSmZqQzMzcXlZdHpFWUNlMmdCMTlSanZ4N1NWQ3Vjenp3R2M4c0FMV2lJTzhWbWRrYXJOenBRSEVISjBCY1JHQk5zRGNHdmNsaS0zSUNqZTJJVTktV1J5ZEpwaVR6aHE5bUYxSmt6NEZMa0VmUks3b0lqcWhjbHFRNk8wMVFOWDFPdnQyOGEweg?oc=5",
      "source": "Canal Rural",
@@ -581,12 +587,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/21/o-que-se-sabe-sobre-a-alface-investigada-apos-surto-de-doenca-nos-eua-mexico-nega-ligacao-com-os-casos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-21T17:26:01"
-    },
-    {
-     "title": "Soja brasileira atinge maior cotação do ano: R$ 142,65 a saca - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdnl0RGRONUR4N2dVV01WUDlBSEExUFRFMGE3UDdFRUwzNG9PR3hCXzJraWRDZlVKMi0tWHpYdFF1dzJTNnhoSjJ2VExmTnlLV1NmVEJlRHhjcld4eUt6T2N2WFc5eWR6XzZTSHl0X1c2dWk4Q3pqZl9raDQxWmw3QVZMTnE0UjJxYlQxX2JaRVVSOWNQN2h1Yg?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-07-21T11:37:50+00:00"
     }
    ],
    "failed": [

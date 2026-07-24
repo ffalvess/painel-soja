@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-24T10:58:12+00:00",
+ "generated_at": "2026-07-24T12:20:12+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-24T10:58:03+00:00",
+   "updated_at": "2026-07-24T12:20:06+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1249.25,
+     "price": 1244.0,
      "prev_close": 1237.5,
-     "change_pct": 0.95,
+     "change_pct": 0.53,
      "closes": [
       1108.75,
       1127.5,
@@ -33,16 +33,16 @@
       1219.5,
       1233.0,
       1237.5,
-      1249.25
+      1244.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 489.75,
+     "price": 484.5,
      "prev_close": 464.0,
-     "change_pct": 5.55,
+     "change_pct": 4.42,
      "closes": [
       407.0,
       414.75,
@@ -65,16 +65,16 @@
       452.75,
       462.0,
       464.0,
-      489.75
+      484.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 334.5,
+     "price": 332.4,
      "prev_close": 329.9,
-     "change_pct": 1.39,
+     "change_pct": 0.76,
      "closes": [
       303.6,
       308.2,
@@ -97,16 +97,16 @@
       326.7,
       331.6,
       329.9,
-      334.5
+      332.4
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 72.25,
+     "price": 72.22,
      "prev_close": 75.59,
-     "change_pct": -4.42,
+     "change_pct": -4.46,
      "closes": [
       69.46,
       70.81,
@@ -129,16 +129,16 @@
       74.3,
       75.48,
       75.59,
-      72.25
+      72.22
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 703.5,
+     "price": 686.5,
      "prev_close": 696.25,
-     "change_pct": 1.04,
+     "change_pct": -1.4,
      "closes": [
       585.75,
       591.0,
@@ -161,16 +161,16 @@
       678.0,
       705.75,
       696.25,
-      703.5
+      686.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 92.05,
+     "price": 91.98,
      "prev_close": 100.69,
-     "change_pct": -8.58,
+     "change_pct": -8.65,
      "closes": [
       73.74,
       75.26,
@@ -193,7 +193,7 @@
       91.01,
       94.07,
       100.69,
-      92.05
+      91.98
      ]
     },
     {
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-24T10:58:03+00:00",
+   "updated_at": "2026-07-24T12:20:06+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-24T10:58:08+00:00",
+   "updated_at": "2026-07-24T12:20:10+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -406,8 +406,44 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-24T10:58:12+00:00",
+   "updated_at": "2026-07-24T12:20:12+00:00",
    "items": [
+    {
+     "title": "Como começar na produção de leite? Cartilha gratuita reúne orientações para produtores",
+     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/07/24/como-comecar-na-producao-de-leite-cartilha-gratuita-reune-orientacoes-para-produtores.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-24T11:56:04"
+    },
+    {
+     "title": "Poder de compra do avicultor cai frente a milho e farelo de soja",
+     "link": "https://www.canalrural.com.br/frango/poder-de-compra-do-avicultor-cai-frente-a-milho-e-farelo-de-soja/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T11:53:55+00:00"
+    },
+    {
+     "title": "Frente fria derruba temperaturas e muda o tempo no Sudeste; confira a previsão",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/frente-fria-derruba-temperaturas-e-muda-o-tempo-no-sudeste-confira-a-previsao/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T11:19:49+00:00"
+    },
+    {
+     "title": "Petróleo dispara e pressiona inflação global; saiba o que vai nortear o mercado hoje",
+     "link": "https://www.canalrural.com.br/economia/petroleo-dispara-e-pressiona-inflacao-global-saiba-o-que-vai-nortear-o-mercado-hoje/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T11:08:31+00:00"
+    },
+    {
+     "title": "Brasil proíbe foie gras após classificar técnica como maus-tratos",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/24/brasil-proibe-foie-gras-apos-classificar-tecnica-como-maus-tratos.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-24T11:03:38"
+    },
+    {
+     "title": "Soja sobe em Chicago nesta 6ª feira e amplia recuperação com clima nos EUA, demanda e derivados - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQVRGTHJJOWphSnhqWWNlR1llakRKVmtWemhsWTY0ZS1iNF9PdGVsdEtpN2J3NU05bjBZZ0VwQUlrREtaVl9uZS1KQnhZNHVBeGlhTGFrMHJQWTRhUnNweEZCZ3MxbmdXU0lWb0JfOGJobmFPSlVRTDNPSG9QTVVLU3JELVVWUzRPVTlqUENuMjVoOWtnV1AzMmlESkFDdkxrNG9DZ2RRTFVzX1R1MVZ5OXJOSnJ6UjlOZlVIMFZCVTRUWUFBT0dQcXRSY3hoZFg5bGEyNVUzV1YtOVk0N1NvRUJNR05fTXRldEJEVNIB8gFBVV95cUxNX0JtNk1POWpSLTdNeXpYWFFxSDBNeFZwQ2Jwb2Y5bXZoQmJqU3daTFFqZzgzRlF3dDhMSnRCeWdNVE1oTVRuOXZSTngtNkl3SHJBTVh5Ty1HLXFxLXpiYmxuZFRPamRKSFJhM0ZibnMyaS1IaXJVclBCellES0tFRThFb0hSYzA1YlVSemZWSTUyQUtHYjY2MEFhb281NUU1TEFpaENrZUtNdnRYaTdOc3JXZEIwZkJRUVk3NUhUb3Rxdm12bWRsSkUyOXZWNEwtdUE1LUotWGk0WnZJMGExeWRFbDM5UEtBTnJXcEVHWnYxdw?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-24T10:44:30+00:00"
+    },
     {
      "title": "EUA impõem tarifa de 12,5% sobre produtos brasileiros e Brasil fala em reciprocidade",
      "link": "https://www.canalrural.com.br/economia/eua-impoem-tarifa-de-125-sobre-produtos-brasileiros-e-brasil-fala-em-reciprocidade/",
@@ -427,16 +463,10 @@
      "published_at": "2026-07-24T09:13:00+00:00"
     },
     {
-     "title": "Preço da soja tem altas generalizadas nas regiões brasileiras - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWHNQMkxiZ2xCZ3RyVjBVLU5ENzJpYVIyVmV0SEpYcWtlSDJPSHM3TC1IZl9OZ2RQNlZRNDFNMUpMNnZtelNCYldiU1ZGZkpjemRuWmpudFlsbi1HQnktTTdoWF95Y0o1a3JZNEF1bXh0NXMwQ2R0NFZmanlrME1NS1BKUzd2aW5SNks2dEdzZF91M05HY1ZBd0hmNEtTeUt2Ul9nMGxqdFE3b3BaT0h3UVJuUldGa3FlbE5pMnlR0gHMAUFVX3lxTFBKVnltbkdtem5oM0U0eWI5U3lnLTlhV1VmazBQTERycEJrNUlJX0EweWdvVkpSc21GZWIxdjVJMS1UZDNIR3NlV1dEVHV1eHRWODF3THREYzBIOVBmenN6R1dYYjNBSm9TQ3JUZEZpc0dSR2lhMWJrbGpyZkpBMTNvMmItemMwVUhVblh4S1dvQjlrSmxCak5UZkdxdEZ6SWZBRVJFcDZtSVViOUo2VmJISGNLbHZtRFg1QTlkQ0tvZFhDazlzWTRZZ0h4YQ?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-24T09:05:08+00:00"
-    },
-    {
-     "title": "Estudo global refuta tese de cartel entre tradings na Moratória da Soja - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQlg2MkVNOUh0allxV0s3d1pOQnJUWUozOEhENGUzNU9WM2FUUW10aFRvSHY5Q25FLTRmWjhDSG9hVThjLUV1blJNVmwwRHctYkRGMk9wamdCNEVYc29xNGtRZVpFcjZlX05JNXVQa1o0VzNiMDA4YTlxRVg2TFhSOUw4cC1Ndkd0QWV1SFZKYjcyM2stX2VETEVkSHRISmFXV1VDUFVWX2hkeFplNzc1dWQ4WDNhTFBLYVk5SnJnbE1OWHlRZjA0UmthUG5vWDhBWTVNX1pEYks4UW5YRk5fdS1BTjQySDjSAfYBQVVfeXFMUFZNU2t3cVpHQXBqTmR5SnFVemJjRjAxZnp4ejVVSEVXenpNT0hjNTB4dFUwN1d2SU53UFo2QjNmMXFiSTNlUDZiLW16dkxaVmNtYXpKSWRuU053bm9zQnh6NmpPMWp6dDFaeEp0ai1KZFJNcWFlNmNwT21VaDl0dlNGeFROdldsQURacGR5eWJGcDF2czhxa3dKQmtWTVB4UUFidlRwVEp4aWI2Rzh6aENMUmpTcVhBZnlzOU9FVmlRTmZDc2hiYk1nNjlucFQ0ek9PeVZpYnk4ODV4RFBLYW9MZ2dDeTNGbkxJeVN1TVM1YmplcnJB?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-24T08:02:32+00:00"
+     "title": "Estudo global refuta tese de cartel entre tradings na Moratória da Soja - Valor Econômico",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNY1gzVjhmaDVfYV9zYjN1akhHSGtWbW5xU1MwTnpQQ2dVNi1HcTVpOXFfVUxCREdVMUcxU3FpVUxDNC1uSFIxU1g0cUxoZE5ycWo2U3Jvb2VpTUdCVXd2bXpvdUxtT21WTTg3Qk9OU1BRZGxtaHk4YWxWWV9CWGtGeVF2Y1BwRlo1Tm1HN1NUS3NCeFdMRm9BOExJeVVPbWgwdW8xTzNDS19DWXJGbjhHbmtEaVRJbm1rRlpOT3JvcnJHMzBQUUM0QnRQeTZYdHRraGFDWE5CYnFyYVNU0gHcAUFVX3lxTE1jWDNWOGZoNV9hX3NiM3VqSEdIa1ZtbnFTUzBOelBDZ1U2LUdxNWk5cV9VTEJER1UxRzFTcWlVTEM0LW5IUjFTWDRxTGhkTnJxajZTcm9vZWlNR0JVd3Ztem91TG1PbVZNODdCT05TUFFkbG1oeThhbFZZX0JYa0Z5UXZjUHBGWjVObUc3U1RLc0J4V0xGb0E4TEl5VU9taDB1bzFPM0NLX0NZckZuOEdua0RpVElubWtGWk5Pcm9yckczMFBRQzRCdFB5Nlh0dGtoYUNYTkJicXJhU1Q?oc=5",
+     "source": "Valor Econômico",
+     "published_at": "2026-07-24T08:00:20+00:00"
     },
     {
      "title": "SOJA E TRIGO: confira os preços dos grãos nesta sexta-feira (24) - Brasil 61",
@@ -499,40 +529,22 @@
      "published_at": "2026-07-23T22:25:18+00:00"
     },
     {
-     "title": "Câmara aprova anistia a multas de caminhoneiros e reforça piso do frete",
-     "link": "https://www.canalrural.com.br/politica/camara-aprova-anistia-a-multas-de-caminhoneiros-e-reforca-piso-do-frete/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-23T21:56:14+00:00"
-    },
-    {
-     "title": "Estados Unidos confirmam nova tarifa de 12,5% ao Brasil",
-     "link": "https://www.canalrural.com.br/economia/estados-unidos-confirmam-nova-tarifa-de-125-ao-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-23T21:42:14+00:00"
-    },
-    {
-     "title": "Demanda aquecida no mercado de soja segura preços firmes; produtor segue retraído",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/demanda-aquecida-no-mercado-de-soja-segura-precos-firmes-produtor-segue-retraido/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-23T21:39:32+00:00"
-    },
-    {
      "title": "No melhor momento do ano, preços da soja testam os R$ 162/sc nos portos com Chicago, prêmios e dólar - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeVJ0U2pMcVVybFlGS05kTVdDOER5NXJNLTZ4ZldEbE5IRzgtT19Kal93M3J1aUp1ZUd6Q1RPdy1HWEViS0JtN09mOUFZWHo4OFFHcVVaX0pBbkpodjB3WXFOYklWUVZkZHEzUWtlZEV2cmRCb1ExN2tiWWpKRHZXUUpqN3RYQjF4R3FzRjM2a010bEptZmdEVUo0ZEhfVDRRb1pZeTZyMzJEMWJybk96YmZPcDZEU2F2WmdraDVKaE9EQ2N5V0RvVV9UeEZ3Nk5GSmE1YnMxNnIxanNRRzAwTWVuUVN0dEhKQmpzQkNzWGJXQdIB9wFBVV95cUxNSXNadlY4a20yRzN5Umk0QnZTSWdtX0FxR04zdHRUZEFDY0gxa0hmRG9tckM1bFBtSnUycllzR3JIZUhFcnMwdWJFUU5WQzM0S1hybm5kV2NjS0ZSVkVyYXVzVDlLeHpnOTNOanhKbWhhMkFCZVVhWmZ1ZHV1NnNidWJyalVCUmZ0Tjhzb29SSDV4MEZDVURmQ1pJWmJCWDBEcFJ1clBoMnUwd1NxM291NV90R2l6X2JXZ0IzN2JudmE0WDdEYmhJRTFZaVFpTHZnUl9lMXlsamt1Y0FoRG1MTVY1NUYxTHVlYnVEbzJ3bVhXOWxSRHR3?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-23T20:13:53+00:00"
     },
     {
-     "title": "Porto de Santos fará estudos para transbordo offshore de soja - Agência iNFRA",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNFFGLWJPYUk0c1hqZ0d5RnhPZmNHMzgxUDhDUVZDazdTNzZHOW1XTnRtSjVYUlRRTVhwMkhMcFpyZDJtel94UFpWRmNOelkwQVJOSWFBWm4wZ0hndXlOLVZmQk5lVEpiNkpDTGR4Y3dDQUZZNm9XZFk2VDFBaThZZWdqUGFxaG9pUlNSTDBmVnJtYnh1Mm1v?oc=5",
-     "source": "Agência iNFRA",
-     "published_at": "2026-07-23T19:59:38+00:00"
-    },
-    {
      "title": "Ministério nega ter pedido flexibilização à UE para carne brasileira e aguarda análise de documentos",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/23/ministerio-nega-ter-pedido-flexibilizacao-a-ue-para-carne-brasileira-e-aguarda-analise-de-documentos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-23T19:43:54"
+    },
+    {
+     "title": "Município produtor de soja de MT deve manter área plantada, mas El Niño acende alerta para safra 2026/27 - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQS3hGQ0VUU096TngtQmdtZXQ5ZGM4OFN4S0FxczFpdjZReEQ2RWlhSW9ZNF9yYVFfYmNDRmk5R1B4bmZTdGNvbkdrVWNBUWNOY2YtTWhFd0ZaY3FqLXVTOG9jZWwyZm1DU1lBMXZWLUpSSmladFB4bHEtdkwxMkdKRnljWkQybVBadjRJZktzRmNmdm9pcWQ1eEpZcjJ2MVFTWG5sdEdXaHA0MlpDYkJJLXFDZ0ZCdmJnV25fOUdNR2RrcnZtb3ZMb1cyV25GQkd0cmUwR3JoblFndkRYbUFRMXlCMEw4UjBGRkc1bllUNkhtUzJ3OFY1MjhB?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-23T19:17:45+00:00"
     },
     {
      "title": "Soja reage e abre \"janela de oportunidade\" para o produtor brasileiro, que acelera vendas - AgFeed",
@@ -575,18 +587,6 @@
      "link": "https://g1.globo.com/economia/noticia/2026/07/22/tarifaco-por-que-o-brasil-evita-uma-retaliacao-imediata-e-como-pode-responder-aos-eua.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-22T03:00:15"
-    },
-    {
-     "title": "Tarifaço dos EUA: taxa adicional de 25% passa a valer nesta quarta; veja perguntas e respostas",
-     "link": "https://g1.globo.com/economia/noticia/2026/07/22/tarifaco-dos-eua-taxa-adicional-de-25percent-passa-a-valer-nesta-quarta-veja-perguntas-e-respostas.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-22T03:00:11"
-    },
-    {
-     "title": "O que se sabe sobre a alface investigada após surto de doença nos EUA; México nega ligação com os casos",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/21/o-que-se-sabe-sobre-a-alface-investigada-apos-surto-de-doenca-nos-eua-mexico-nega-ligacao-com-os-casos.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-21T17:26:01"
     }
    ],
    "failed": [

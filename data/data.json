@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-23T23:55:19+00:00",
+ "generated_at": "2026-07-24T02:06:32+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-23T23:55:09+00:00",
+   "updated_at": "2026-07-24T02:06:17+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1241.0,
+     "price": 1246.5,
      "prev_close": 1233.0,
-     "change_pct": 0.65,
+     "change_pct": 1.09,
      "closes": [
       1117.0,
       1108.75,
@@ -33,16 +33,16 @@
       1226.0,
       1219.5,
       1233.0,
-      1241.0
+      1246.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 486.75,
+     "price": 488.5,
      "prev_close": 462.0,
-     "change_pct": 5.36,
+     "change_pct": 5.74,
      "closes": [
       409.75,
       407.0,
@@ -65,16 +65,16 @@
       449.5,
       452.75,
       462.0,
-      486.75
+      488.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 331.6,
+     "price": 332.7,
      "prev_close": 331.6,
-     "change_pct": 0.0,
+     "change_pct": 0.33,
      "closes": [
       302.9,
       303.6,
@@ -97,16 +97,16 @@
       323.5,
       326.7,
       331.6,
-      331.6
+      332.7
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 72.85,
+     "price": 72.6,
      "prev_close": 75.48,
-     "change_pct": -3.48,
+     "change_pct": -3.82,
      "closes": [
       70.59,
       69.46,
@@ -129,16 +129,16 @@
       74.68,
       74.3,
       75.48,
-      72.85
+      72.6
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 694.5,
+     "price": 698.25,
      "prev_close": 705.75,
-     "change_pct": -1.59,
+     "change_pct": -1.06,
      "closes": [
       586.75,
       585.75,
@@ -161,16 +161,16 @@
       674.0,
       678.0,
       705.75,
-      694.5
+      698.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 100.52,
+     "price": 100.0,
      "prev_close": 94.07,
-     "change_pct": 6.86,
+     "change_pct": 6.3,
      "closes": [
       77.08,
       73.74,
@@ -193,7 +193,7 @@
       89.22,
       91.01,
       94.07,
-      100.52
+      100.0
      ]
     },
     {
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-23T23:55:10+00:00",
+   "updated_at": "2026-07-24T02:06:17+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-23T23:55:15+00:00",
+   "updated_at": "2026-07-24T02:06:29+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -269,21 +269,21 @@
      ],
      "tmax": [
       35.1,
-      35.5,
+      35.7,
+      35.9,
       36.2,
-      36.6,
-      35.8,
-      35.1,
-      34.8
+      35.9,
+      35.4,
+      34.6
      ],
      "tmin": [
       20.3,
-      20.9,
       21.8,
-      22.1,
-      22.0,
+      21.6,
+      21.7,
+      21.7,
       23.0,
-      23.5
+      23.7
      ]
     },
     {
@@ -307,22 +307,22 @@
       0.6
      ],
      "tmax": [
-      33.8,
-      34.3,
-      34.8,
-      35.0,
-      35.0,
+      33.7,
       34.4,
-      33.9
+      34.5,
+      34.9,
+      35.0,
+      34.3,
+      34.0
      ],
      "tmin": [
       19.8,
-      21.6,
-      22.0,
       21.5,
-      21.7,
+      21.6,
+      21.8,
+      21.5,
       22.9,
-      23.2
+      23.0
      ]
     },
     {
@@ -339,29 +339,29 @@
      "precip": [
       0.0,
       0.0,
-      0.7,
+      1.4,
       0.0,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      30.5,
-      31.7,
-      30.7,
+      30.6,
       31.9,
-      32.9,
-      33.5,
-      33.1
+      30.8,
+      31.6,
+      32.4,
+      33.4,
+      33.4
      ],
      "tmin": [
       18.2,
-      19.1,
-      18.4,
-      19.6,
-      20.8,
-      21.3,
-      21.6
+      19.3,
+      18.8,
+      19.7,
+      20.1,
+      20.9,
+      22.3
      ]
     },
     {
@@ -376,9 +376,9 @@
       "2026-07-29"
      ],
      "precip": [
-      1.0,
       0.4,
-      20.9,
+      0.8,
+      2.6,
       0.0,
       0.0,
       0.0,
@@ -386,28 +386,46 @@
      ],
      "tmax": [
       21.4,
-      25.9,
-      23.8,
-      27.9,
-      29.6,
-      31.0,
-      30.5
+      25.2,
+      24.5,
+      27.8,
+      28.9,
+      30.8,
+      30.1
      ],
      "tmin": [
       16.1,
-      16.3,
-      17.5,
-      17.9,
-      19.2,
-      19.2,
+      16.4,
+      16.4,
+      18.0,
+      18.8,
+      18.8,
       19.0
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-23T23:55:19+00:00",
+   "updated_at": "2026-07-24T02:06:32+00:00",
    "items": [
+    {
+     "title": "Brasil mantém negociação com EUA e não descarta reciprocidade comercial",
+     "link": "https://www.canalrural.com.br/economia/brasil-mantem-negociacao-com-eua-e-nao-descarta-reciprocidade-comercial/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T01:01:49+00:00"
+    },
+    {
+     "title": "Fazenda prorroga por 30 dias subsídio de R$ 0,44 por litro da gasolina",
+     "link": "https://www.canalrural.com.br/economia/fazenda-prorroga-por-30-dias-subsidio-de-r-044-por-litro-da-gasolina/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T00:31:30+00:00"
+    },
+    {
+     "title": "Governo diz que acionará Lei da Recriprocidade contra nova sobretaxa dos EUA",
+     "link": "https://www.canalrural.com.br/politica/governo-diz-que-acionara-lei-da-recriprocidade-contra-nova-sobretaxa-dos-eua/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-23T23:53:08+00:00"
+    },
     {
      "title": "Carne bovina brasileira fica isenta de sobretaxa de 12,5% aplicada pelos EUA",
      "link": "https://www.canalrural.com.br/economia/carne-bovina-brasileira-fica-isenta-de-sobretaxa-de-125-aplicada-pelos-eua/",
@@ -431,12 +449,6 @@
      "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-cotacoes-seguem-em-alta-com-escalas-de-abate-em-baixa/",
      "source": "Canal Rural",
      "published_at": "2026-07-23T22:40:06+00:00"
-    },
-    {
-     "title": "Porto de Santos estuda transbordo de soja com terminal chinês - Brasil 247",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNEZMQ2VmZXl3TGVLN0Fza3FFWDNZdWVIQWY1UVEzcXVBU2puc0lmVHlyRjZnZkRnWmx4UTlETWhETm9adUVpNC1kZ1N5aVliS3hlakdDMzZwSnRLcHVUd0dQcDRDYVQ5bVdwQ3lCWGp1Wkgwc2o1TnNHTkNvRmtUM2poUGRYXzhDdV9HQ3kxYzhDbW5QVmMwbg?oc=5",
-     "source": "Brasil 247",
-     "published_at": "2026-07-23T22:35:00+00:00"
     },
     {
      "title": "Preço da soja caminha para recuperar patamar perdido em 2023 - Farmnews",
@@ -475,25 +487,7 @@
      "published_at": "2026-07-23T21:07:00+00:00"
     },
     {
-     "title": "Transporte ferroviário de grãos nos EUA sobe 2% na semana até 11 de julho",
-     "link": "https://www.canalrural.com.br/economia/transporte-ferroviario-de-graos-nos-eua-sobe-2-na-semana-ate-11-de-julho/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-23T21:02:31+00:00"
-    },
-    {
-     "title": "Balança comercial marítima brasileira tem salto de 20% no primeiro trimestre",
-     "link": "https://www.canalrural.com.br/economia/balanca-comercial-maritima-brasileira-tem-salto-de-20-no-primeiro-trimestre/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-23T21:00:04+00:00"
-    },
-    {
-     "title": "Yellen diz que tarifa dos EUA contra o Brasil reflete visão pessoal de Trump",
-     "link": "https://www.canalrural.com.br/economia/yellen-diz-que-tarifa-dos-eua-contra-o-brasil-reflete-visao-pessoal-de-trump/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-23T20:42:35+00:00"
-    },
-    {
-     "title": "No melhor momento do ano, preços da soja testam os R$ 162/sc nos portos com Chicago, prêmios e dólar - Notícias Agrícolas",
+     "title": "No melhor momento do ano, preços da soja testam R$ 162/sc nos portos com Chicago, prêmios e dólar; momento é de venda - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeVJ0U2pMcVVybFlGS05kTVdDOER5NXJNLTZ4ZldEbE5IRzgtT19Kal93M3J1aUp1ZUd6Q1RPdy1HWEViS0JtN09mOUFZWHo4OFFHcVVaX0pBbkpodjB3WXFOYklWUVZkZHEzUWtlZEV2cmRCb1ExN2tiWWpKRHZXUUpqN3RYQjF4R3FzRjM2a010bEptZmdEVUo0ZEhfVDRRb1pZeTZyMzJEMWJybk96YmZPcDZEU2F2WmdraDVKaE9EQ2N5V0RvVV9UeEZ3Nk5GSmE1YnMxNnIxanNRRzAwTWVuUVN0dEhKQmpzQkNzWGJXQdIB9wFBVV95cUxNSXNadlY4a20yRzN5Umk0QnZTSWdtX0FxR04zdHRUZEFDY0gxa0hmRG9tckM1bFBtSnUycllzR3JIZUhFcnMwdWJFUU5WQzM0S1hybm5kV2NjS0ZSVkVyYXVzVDlLeHpnOTNOanhKbWhhMkFCZVVhWmZ1ZHV1NnNidWJyalVCUmZ0Tjhzb29SSDV4MEZDVURmQ1pJWmJCWDBEcFJ1clBoMnUwd1NxM291NV90R2l6X2JXZ0IzN2JudmE0WDdEYmhJRTFZaVFpTHZnUl9lMXlsamt1Y0FoRG1MTVY1NUYxTHVlYnVEbzJ3bVhXOWxSRHR3?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-23T20:13:53+00:00"
@@ -502,7 +496,7 @@
      "title": "Porto de Santos fará estudos para transbordo offshore de soja - Agência iNFRA",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNFFGLWJPYUk0c1hqZ0d5RnhPZmNHMzgxUDhDUVZDazdTNzZHOW1XTnRtSjVYUlRRTVhwMkhMcFpyZDJtel94UFpWRmNOelkwQVJOSWFBWm4wZ0hndXlOLVZmQk5lVEpiNkpDTGR4Y3dDQUZZNm9XZFk2VDFBaThZZWdqUGFxaG9pUlNSTDBmVnJtYnh1Mm1v?oc=5",
      "source": "Agência iNFRA",
-     "published_at": "2026-07-23T19:59:25+00:00"
+     "published_at": "2026-07-23T19:59:38+00:00"
     },
     {
      "title": "Ministério nega ter pedido flexibilização à UE para carne brasileira e aguarda análise de documentos",
@@ -527,6 +521,12 @@
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNakgwc084VFhuMkRsTjlOOWxsSS1HQ1dfb3FjZVRCSmhSU285TkgzWlMyTFpZTmk2WWtnbTZhMEN5YlRJaXZCMW9saXpmZmY4NHRMWklUWkFSbHE0WFBLdzBUYjBHeERjMlFoVUtrcXNDM1J2ZVV1Q05LUTJnaGVqRGZWenhzXzdNbmJoclZVX1dMSDhJZ2ZuVTRkUGdKSDBjVEloZTJXSjNJaVdVcGpnQ3VlYklEaHlt?oc=5",
      "source": "AgFeed",
      "published_at": "2026-07-23T19:00:00+00:00"
+    },
+    {
+     "title": "Porto de Santos faz acordo de estudos para transbordo off shore de soja - Porto de Santos",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQS1Y0UjN4Qm1QbVdYanVNdFJzRFY2Mmlrd0FtWFI3WUN5VU9SUEt3T2wyS3hvVVRkaW9abEYzdnNFdTlLUFloYjB1V2VuYXA5bXVyaHZCaDJtZzNLcmZsS19oTEY4a1lOVFQxekVpSUlMdTEtZ1ZYNWxpbUZvRFQybmlTTlJrUGZIb3E3ZGt2YTlxOVZReG0taHAzNDQ5RDJrSTBYTG9tcjk1WTg5X3U1VmNhdl8wX3M?oc=5",
+     "source": "Porto de Santos",
+     "published_at": "2026-07-23T18:06:00+00:00"
     },
     {
      "title": "Soja atinge maior preço de 2026; analista explica os fatores que sustentam a alta da commodity - Canal Rural",

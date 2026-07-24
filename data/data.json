@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-24T21:59:48+00:00",
+ "generated_at": "2026-07-24T23:07:32+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-24T21:59:42+00:00",
+   "updated_at": "2026-07-24T23:07:23+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-24T21:59:42+00:00",
+   "updated_at": "2026-07-24T23:07:24+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-24T21:59:45+00:00",
+   "updated_at": "2026-07-24T23:07:28+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -406,8 +406,38 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-24T21:59:48+00:00",
+   "updated_at": "2026-07-24T23:07:32+00:00",
    "items": [
+    {
+     "title": "Número de espécies exóticas de moluscos no Brasil aumenta 215% em 15 anos",
+     "link": "https://www.canalrural.com.br/nacional/numero-de-especies-exoticas-de-moluscos-no-brasil-aumenta-215-em-15-anos/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T22:13:05+00:00"
+    },
+    {
+     "title": "Mercado de soja tem preços firmes, mas retenção dos produtores limita os negócios - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWUhxMXlCS2lQY25TZllWYjNDOVd4Z0NxX243UzFmaHhYbGt1VjhGMXdYR3JmREZxZUNQUDlqelhSS3dVRk5INGdlZ1Nab2ptRTBheUZTQzV3aEFpQmU3Qk92TFhidDRpbjFScUstVzdDSUNNaGs2bmo5WWU2YjRlQWVPT0hOSkZITS1mN2o4RFo5ZGk1ZktybUx3WDljdTlYWGZ5c1dCQlBaYllrU0dWU093UUlFVXJIdnhyVkhIMUIyT28xSGRXMGNSWFNvaFN1X2RFeTN2ZkJXeVU?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T22:08:45+00:00"
+    },
+    {
+     "title": "Mercado de soja tem preços firmes, mas retenção dos produtores limita os negócios",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/mercado-de-soja-tem-precos-firmes-mas-retencao-dos-produtores-limita-os-negocios/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T22:08:45+00:00"
+    },
+    {
+     "title": "Preços do boi gordo: veja como terminaram os negócios da arroba na semana",
+     "link": "https://www.canalrural.com.br/pecuaria/precos-do-boi-gordo-veja-como-terminaram-os-negocios-da-arroba-na-semana/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T22:05:07+00:00"
+    },
+    {
+     "title": "CNA cumpre agenda na Argentina com foco em comércio e integração no Mercosul",
+     "link": "https://www.canalrural.com.br/economia/cna-cumpre-agenda-na-argentina-com-foco-em-comercio-e-integracao-no-mercosul/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T21:45:06+00:00"
+    },
     {
      "title": "Ibovespa fecha em queda de 1,52% e dólar comercial recua a R$ 5,0809",
      "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-queda-de-152-e-dolar-comercial-recua-a-r-50809/",
@@ -451,26 +481,8 @@
      "published_at": "2026-07-24T20:53:11+00:00"
     },
     {
-     "title": "Tornado, calorão de 40°C e mais de 200 mm de chuva: Brasil entra em semana de extremos; confira",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/tornado-calorao-de-40c-e-mais-de-200-mm-de-chuva-brasil-entra-em-semana-de-extremos-confira/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T20:48:13+00:00"
-    },
-    {
-     "title": "Tarifas dos EUA atingem 23,1% das exportações brasileiras ao país, diz MDIC",
-     "link": "https://www.canalrural.com.br/economia/tarifas-dos-eua-atingem-231-das-exportacoes-brasileiras-ao-pais-diz-mdic/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T20:42:48+00:00"
-    },
-    {
-     "title": "Justiça suspende leilão de fazenda avaliada em R$ 77,6 milhões",
-     "link": "https://www.canalrural.com.br/agricultura/justica-suspende-leilao-de-fazenda-avaliada-em-r-776-milhoes/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T20:35:40+00:00"
-    },
-    {
      "title": "Chicago registra maior cotação da soja desde 2024 - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcXVYbmQ1bzdnNlIya2JUeTRRU1IwcEJxd3B5M29QRDkxVkxaVmNWTzZscDVySlF5QUNIbzBqN2VROGlhVV9KUmpkTkVvMkJfM2x6Q1E4clNWYWNYTGI4cFRJN05PVHA0ZDFfdEZZY0QtYnN6dTBlY1FZY1JEb3hJMHR4cVZqZkFLT1ltV084cGh3ZDdnYjYtdU4wQ0tqYWM?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbjFpX2FUV2w5djZGSkJrTE5fQml0NUs3dlB2eFVvTGtya0hRb3RCRUYtUzBmOEJwV1dfNzlodnQ1SGJPTGZMMUJZQ3NSdUNtNEowdHhtNjRlV2h0MmtZcmo3U1REMG9seXhLdV9oVDc4STVReDdOQVlLMWxwQUdFV3BVUjJyMDF4NU42dExHOWJVQUVJSzN3eFhTV1lqRThtT2p5VURoT3BwdmZfT081UnFfOHl4RmpD?oc=5",
      "source": "Agrolink",
      "published_at": "2026-07-24T20:29:00+00:00"
     },
@@ -479,12 +491,6 @@
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSWdvalJSWGFkUkVGel9CenduSF9uYV9JRkYxTS1ER3ZZaGlmc0x0ZWhQcUhuREtHY29DNlBsMTRvaE55bzY0V0xSQmwza2NtdDhFUktETUJvZjMycEdBaDFNcnlfRlR1bWxKc0FQTnR2ODNhRjg5dFFFNnQ0OUdhNU15V3g5eUtCMk1naEhjWVRFMEU?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-07-24T20:18:24+00:00"
-    },
-    {
-     "title": "Nova tarifa dos EUA gera preocupações e desafios ao Brasil",
-     "link": "https://www.canalrural.com.br/videos/nova-tarifa-dos-eua-gera-preocupacoes-e-desafios-ao-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T20:15:20+00:00"
     },
     {
      "title": "Rabobank prevê pausa na expansão da soja no Brasil - Revista Cultivar",
@@ -527,12 +533,6 @@
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOc1FjVDZuWW1rSG5OOU9VV1BPUUF6OExSVks0am85WkJrRUl3RzFaQW5pOUR5Tm1rZ3p6RFQ4ZXhEX2c3NkRoSHlMQkNNYnRfWXNMeVJoM2hQT01OOGRpTEpfUThmYnV1b0N1eEt1RFBYLS1nTDMyaFNUcFRIZUpPMUExVnBSS1Z4NnhzZEx5TzBYS0RLREpXRlFNbnZrWW9LRm1NNTFPQ3J5UlRGcm5uaUR1STFjR3hfa2hMRkhLUUhFYnlYMVBjaXFRd9IB2gFBVV95cUxOMmJIbl9jMzN6ZzNKbUdiR2dxeUlUQTduQkpvWFQ5WkwxSk03OXlBMUtiM0cwOXVLdVhIWTJaeUVZbjBhVkNkeWpiOEFaV19QUkhDNkZZZzZodmU3QzBBa013UFhrVDlZQktaWEtxTktadWxhelIyV0hMV1VCaHZJNl8yTTJtZzFPNER0UkdhUFpqc2VDMnRkdXYxS3NlY2xKdTYzRVRuOTZpeTN3SS1yWGs1b3NwOFptVk1uOEtTSlBQT3hiaXNNZ04wY2Q5Uzk0MTN2R3huYk9Sdw?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-07-24T15:06:16+00:00"
-    },
-    {
-     "title": "Fim da corrida por terras? Área de soja deve parar de crescer em 2026/27 - Exame",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM0g5aWJkaENTU2hUQkwyeFhCc3ZYbjlkN3gxR3RjNXpIakNYUUZfNGNCRXlNbWYzak5mUXlnM0FFQlBYVms4MTZORmstaWhSTWdQM3VxMGRyRmR4Ti00dUxXbFk1VjV4VE9WTDU4ajJLVVpOeTAtVTFyeVlMYWlwVlVvMWV3a0drNHY0QU5RU2IzREh3VU1qd085RQ?oc=5",
-     "source": "Exame",
-     "published_at": "2026-07-24T14:09:28+00:00"
     },
     {
      "title": "EUA fazem recall de quase 1,6 milhão de dúzias de ovos por risco de salmonela",

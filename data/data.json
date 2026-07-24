@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-24T16:34:33+00:00",
+ "generated_at": "2026-07-24T18:14:18+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-24T16:34:28+00:00",
+   "updated_at": "2026-07-24T18:14:12+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -40,9 +40,9 @@
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 486.0,
+     "price": 485.5,
      "prev_close": 464.0,
-     "change_pct": 4.74,
+     "change_pct": 4.63,
      "closes": [
       407.0,
       414.75,
@@ -65,16 +65,16 @@
       452.75,
       462.0,
       464.0,
-      486.0
+      485.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 334.1,
+     "price": 334.8,
      "prev_close": 329.9,
-     "change_pct": 1.27,
+     "change_pct": 1.49,
      "closes": [
       303.6,
       308.2,
@@ -97,16 +97,16 @@
       326.7,
       331.6,
       329.9,
-      334.1
+      334.8
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 72.47,
+     "price": 72.0,
      "prev_close": 75.59,
-     "change_pct": -4.13,
+     "change_pct": -4.75,
      "closes": [
       69.46,
       70.81,
@@ -129,16 +129,16 @@
       74.3,
       75.48,
       75.59,
-      72.47
+      72.0
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 674.75,
+     "price": 675.75,
      "prev_close": 696.25,
-     "change_pct": -3.09,
+     "change_pct": -2.94,
      "closes": [
       585.75,
       591.0,
@@ -161,16 +161,16 @@
       678.0,
       705.75,
       696.25,
-      674.75
+      675.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 96.13,
+     "price": 96.32,
      "prev_close": 100.69,
-     "change_pct": -4.53,
+     "change_pct": -4.34,
      "closes": [
       73.74,
       75.26,
@@ -193,16 +193,16 @@
       91.01,
       94.07,
       100.69,
-      96.13
+      96.32
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 174815.58,
+     "price": 174210.31,
      "prev_close": 176724.0,
-     "change_pct": -1.08,
+     "change_pct": -1.42,
      "closes": [
       170507.0,
       171990.0,
@@ -226,7 +226,7 @@
       173326.0,
       177548.0,
       176724.0,
-      174815.5781
+      174210.3125
      ]
     }
    ],
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-24T16:34:28+00:00",
+   "updated_at": "2026-07-24T18:14:12+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-24T16:34:30+00:00",
+   "updated_at": "2026-07-24T18:14:15+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -406,8 +406,50 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-24T16:34:33+00:00",
+   "updated_at": "2026-07-24T18:14:18+00:00",
    "items": [
+    {
+     "title": "Imazon aponta queda de 10% no desmatamento da Amazônia no primeiro semestre",
+     "link": "https://www.canalrural.com.br/politica/imazon-aponta-queda-de-10-no-desmatamento-da-amazonia-no-primeiro-semestre/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T18:03:25+00:00"
+    },
+    {
+     "title": "China libera registro para exportação brasileira de polpas e frutas congeladas",
+     "link": "https://www.canalrural.com.br/economia/china-libera-registro-para-exportacao-brasileira-de-polpas-e-frutas-congeladas/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T18:00:30+00:00"
+    },
+    {
+     "title": "Soja brasileira deve bater recorde de exportação com 110 milhões de toneladas na safra 2026/27 - Portal do Agronegócio",
+     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQnRyTmFDUXVhZVEwSWZPYkJGeUYyc2otQzQ5SWtaeU1yR3VWOEpwaXNEMjVRZGpaV2lEcFp6bnNNcUZRSDVUS21zZUZIcVhNWEtkc1ZRWnNLYlByUml2cFVMX1drUlZGUzk0RmpDZkU2WmVHNzFmNnIycjEwMlYtQ04wZHB0T1FWbHlpTDZFX3BJZTU2SVdxbXhPdm5valQtVklOd1dneTVDR1pHS29NUzdqclNwUXNjaEh0aXhWMUZibVFkakVnZGVZSHY1ek5DYXlqeC1aRXJuVXd1LWdjbkJmQUQ2bmtZdFUxQnhzSUY?oc=5",
+     "source": "Portal do Agronegócio",
+     "published_at": "2026-07-24T18:00:00+00:00"
+    },
+    {
+     "title": "BNDES e IBP fecham acordo para conectar startups ao setor de energia",
+     "link": "https://www.canalrural.com.br/economia/bndes-e-ibp-fecham-acordo-para-conectar-startups-ao-setor-de-energia/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T17:49:11+00:00"
+    },
+    {
+     "title": "Javalis se tornam 'sócios indesejados' e reviram lavouras de soja no ciclo 26/27; Famato explica como reduzir prejuízos - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNNEdqM0R2WFZ0WFFyWUR6czNvM0VlblFVZUhyQndXUVdBXzBnc2xpdjRIYng4bm41QXFSNWxCNlE3eGtlQ1NQZ3J4RVhOUEt5c0JVcnJRWWlKbnhSOXZ3a3ZHSGl2bTgxQ1k4U0gwbWRvemdTaXZuVmRDNVNKZUNvNWtGNVV2SkNZaUVjWXgwWTZwVUdfbDhTSEpGcHpzV0NtUTNJbnpONWdlaWE2UWx0dXVqNjdlbm4zVWVSeU1vU3VrZGdyWW1QWFVFQngzS0pfSnlGMlR0U2s4SW5UVUpBNlNFQ2RWZzdaS3hVU1AwZ1NTUFFybW5Zbk84LVE1SWRLR295d0xxZ0F1a1k?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T17:23:55+00:00"
+    },
+    {
+     "title": "Exclusão do café de tarifas nos EUA preserva mercado de US$ 2,5 bilhões",
+     "link": "https://www.canalrural.com.br/economia/exclusao-do-cafe-de-tarifas-nos-eua-preserva-mercado-de-us-25-bilhoes/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T17:23:28+00:00"
+    },
+    {
+     "title": "Veto ao foie gras no Brasil reacende tensão comercial com a França após acordo Mercosul-UE",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/24/veto-ao-foie-gras-no-brasil-reacende-tensao-comercial-com-a-franca-apos-acordo-mercosul-ue.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-24T16:49:46"
+    },
     {
      "title": "EUA reduzem cota de importação de açúcar bruto destinada ao Brasil para 2027",
      "link": "https://www.canalrural.com.br/economia/eua-reduzem-cota-de-importacao-de-acucar-bruto-destinada-ao-brasil-para-2027/",
@@ -445,40 +487,10 @@
      "published_at": "2026-07-24T15:15:31+00:00"
     },
     {
-     "title": "Expert XP 2026 destaca a importância do agronegócio no mercado financeiro",
-     "link": "https://www.canalrural.com.br/videos/expert-xp-2023-destaca-a-importancia-do-agronegocio-no-mercado-financeiro/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T15:15:21+00:00"
-    },
-    {
-     "title": "Família Lamenha inova com produção de queijo verde na Mantiqueira",
-     "link": "https://www.canalrural.com.br/videos/familia-lamenha-inova-com-producao-de-queijo-verde-na-mantiqueira/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T15:15:09+00:00"
-    },
-    {
      "title": "Preços do trigo e milho caem em Chicago; soja abre perto da estabilidade - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOc1FjVDZuWW1rSG5OOU9VV1BPUUF6OExSVks0am85WkJrRUl3RzFaQW5pOUR5Tm1rZ3p6RFQ4ZXhEX2c3NkRoSHlMQkNNYnRfWXNMeVJoM2hQT01OOGRpTEpfUThmYnV1b0N1eEt1RFBYLS1nTDMyaFNUcFRIZUpPMUExVnBSS1Z4NnhzZEx5TzBYS0RLREpXRlFNbnZrWW9LRm1NNTFPQ3J5UlRGcm5uaUR1STFjR3hfa2hMRkhLUUhFYnlYMVBjaXFRd9IB2gFBVV95cUxOMmJIbl9jMzN6ZzNKbUdiR2dxeUlUQTduQkpvWFQ5WkwxSk03OXlBMUtiM0cwOXVLdVhIWTJaeUVZbjBhVkNkeWpiOEFaV19QUkhDNkZZZzZodmU3QzBBa013UFhrVDlZQktaWEtxTktadWxhelIyV0hMV1VCaHZJNl8yTTJtZzFPNER0UkdhUFpqc2VDMnRkdXYxS3NlY2xKdTYzRVRuOTZpeTN3SS1yWGs1b3NwOFptVk1uOEtTSlBQT3hiaXNNZ04wY2Q5Uzk0MTN2R3huYk9Sdw?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-07-24T15:06:16+00:00"
-    },
-    {
-     "title": "Alta do petróleo pressiona custos e desafia o agronegócio brasileiro",
-     "link": "https://www.canalrural.com.br/videos/alta-do-petroleo-pressiona-custos-e-desafia-o-agronegocio-brasileiro/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T15:05:53+00:00"
-    },
-    {
-     "title": "Previsão do tempo em Guarujá do Sul não aponta risco de geada",
-     "link": "https://www.canalrural.com.br/videos/previsao-do-tempo-em-guaruja-do-sul-nao-aponta-risco-de-geada/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T15:05:44+00:00"
-    },
-    {
-     "title": "Meteorologista analisa trégua de chuvas no RS e catástrofe no Chile",
-     "link": "https://www.canalrural.com.br/videos/meteorologista-analisa-tregua-de-chuvas-no-rs-e-catastrofe-no-chile/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T15:05:34+00:00"
     },
     {
      "title": "Fim da corrida por terras? Área de soja deve parar de crescer em 2026/27 - Exame",
@@ -535,12 +547,6 @@
      "published_at": "2026-07-24T08:00:20+00:00"
     },
     {
-     "title": "SOJA E TRIGO: confira os preços dos grãos nesta sexta-feira (24) - Brasil 61",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMTllaHZSQkZXV2dwN1VtYXNWU3p4dEd6WUp4YkEtLU1XazE3LUh2aEoyajE4TmFRYUxRQk5VdXZXUUtJR2EybjVSVTh3MkloT2t5OGR6eld1UDJkcS04RURLRW5iaG1OZjR6VFRNdHV2QzYwTkFBVllaQzFscGJqSUlZRFBRX2FPSDJLUjJ6Zjgwb0Fid1puZHotc9IBoAFBVV95cUxNSnZRSlJmVENoTldybmcxUkFZZkRlWHpjc3FNVmtPMDZIeW54eDRkVTNjcG9OWEc5SmNkU24yYU5wMkM3SEI3LVRubHd4UlNxRzB4aUpDMkg0d0pYSzlUdkZqVkszODZkVTZXc0ZRSnhkUkp5YVdIWXJGY2ZjbUM2cUpkUGpVWVgzLS0ta0o3Slg5NkI1el9ObTVVWnh1OERx?oc=5",
-     "source": "Brasil 61",
-     "published_at": "2026-07-24T07:05:00+00:00"
-    },
-    {
      "title": "Casca enrugada do ovo pode ser sinal de estresse nas galinhas; veja por que isso acontece",
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/07/24/casca-enrugada-do-ovo-pode-ser-sinal-de-estresse-nas-galinhas-veja-por-que-isso-acontece.ghtml",
      "source": "G1 Agronegócios",
@@ -551,12 +557,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/23/ministerio-nega-ter-pedido-flexibilizacao-a-ue-para-carne-brasileira-e-aguarda-analise-de-documentos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-23T19:43:54"
-    },
-    {
-     "title": "Soja reage e abre \"janela de oportunidade\" para o produtor brasileiro, que acelera vendas - AgFeed",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX001M1RSMzctY084TjlfWlJZTTBuYzdoN0hCZGN0dWNNY1V2MmVha3hWVXdQYjNWZ2RYRzh5TTBKenJsYXlTQWczM1lBTVFxT2lCNTJCM0c1WGNlMlNfLWtsaEZKcFNfT1hEOEswaDIyNmgydnZqUXExNnU2QVpfdUk4VmJleEVfYlFrSE5BdncwZlNiYkFNMHpQVFNFU3BEWFRwX0Y2cnhvMTFlaGxybE5NZlhUVlZHNXc?oc=5",
-     "source": "AgFeed",
-     "published_at": "2026-07-23T19:00:00+00:00"
     },
     {
      "title": "Soja atinge maior preço de 2026; analista explica os fatores que sustentam a alta da commodity - Canal Rural",

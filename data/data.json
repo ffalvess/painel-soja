@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-24T20:15:17+00:00",
+ "generated_at": "2026-07-24T21:59:48+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-24T20:15:11+00:00",
+   "updated_at": "2026-07-24T21:59:42+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 97.61,
+     "price": 98.38,
      "prev_close": 100.69,
-     "change_pct": -3.06,
+     "change_pct": -2.29,
      "closes": [
       73.74,
       75.26,
@@ -193,16 +193,16 @@
       91.01,
       94.07,
       100.69,
-      97.61
+      98.38
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 174185.17,
+     "price": 174041.95,
      "prev_close": 176724.0,
-     "change_pct": -1.44,
+     "change_pct": -1.52,
      "closes": [
       170507.0,
       171990.0,
@@ -226,7 +226,7 @@
       173326.0,
       177548.0,
       176724.0,
-      174185.1719
+      174041.9531
      ]
     }
    ],
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-24T20:15:12+00:00",
+   "updated_at": "2026-07-24T21:59:42+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-24T20:15:15+00:00",
+   "updated_at": "2026-07-24T21:59:45+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -406,37 +406,85 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-24T20:15:17+00:00",
+   "updated_at": "2026-07-24T21:59:48+00:00",
    "items": [
     {
-     "title": "Renegociação de dívidas avança, mas crédito ainda é um desafio para produtores",
-     "link": "https://www.canalrural.com.br/videos/renegociacao-de-dividas-avanca-mas-credito-ainda-e-um-desafio-para-produtores/",
+     "title": "Ibovespa fecha em queda de 1,52% e dólar comercial recua a R$ 5,0809",
+     "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-queda-de-152-e-dolar-comercial-recua-a-r-50809/",
      "source": "Canal Rural",
-     "published_at": "2026-07-24T20:06:31+00:00"
+     "published_at": "2026-07-24T21:41:48+00:00"
     },
     {
-     "title": "Feira da Cooabriel em São Gabriel da Palha busca novo recorde de negócios",
-     "link": "https://www.canalrural.com.br/videos/feira-da-cooabriel-em-sao-gabriel-da-palha-busca-novo-recorde-de-negocios/",
+     "title": "Juros futuros recuam com queda do petróleo e sinal de negociação entre EUA e Irã",
+     "link": "https://www.canalrural.com.br/economia/juros-futuros-recuam-com-queda-do-petroleo-e-sinal-de-negociacao-entre-eua-e-ira/",
      "source": "Canal Rural",
-     "published_at": "2026-07-24T20:06:20+00:00"
+     "published_at": "2026-07-24T21:21:53+00:00"
     },
     {
-     "title": "Temporais causam estragos no Sudeste e alertam para novos riscos",
-     "link": "https://www.canalrural.com.br/videos/temporais-causam-estragos-no-sudeste-e-alertam-para-novos-riscos/",
+     "title": "Dólar fecha em baixa a R$ 5,0809 e acumula recuo de 0,59% na semana",
+     "link": "https://www.canalrural.com.br/economia/dolar-fecha-em-baixa-a-r-50809-e-acumula-recuo-de-059-na-semana/",
      "source": "Canal Rural",
-     "published_at": "2026-07-24T20:06:11+00:00"
+     "published_at": "2026-07-24T21:17:32+00:00"
     },
     {
-     "title": "Produtores enfrentam desafios climáticos e econômicos no Brasil",
-     "link": "https://www.canalrural.com.br/videos/produtores-enfrentam-desafios-climaticos-e-economicos-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T20:05:59+00:00"
+     "title": "Soja sobe no Brasil com prêmios elevados - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQb3dlaWxtNVhONWNwbDgxbTEtajd6eXpZOXM2UVRTdGtxQ3N4ZXZSaGMwNUpwQV9mYVNpckw1eWx5MHdKb091ajRNMkk0RDdaakh3NUNPX2pfUGNVV3VLUzdoZUJLbkxLUVRrNFprS2ViX0FxNHBEUHZhWjN5a0gwS0tFUS1fMUNmYmdsUEx3cExfTTQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-24T21:15:00+00:00"
     },
     {
-     "title": "Expert XP discute seguro climático e desafios da safra 2023/24",
-     "link": "https://www.canalrural.com.br/videos/expert-xp-discute-seguro-climatico-e-desafios-da-safra-2023-24/",
+     "title": "Conab abre pregão para transporte de 16 mil toneladas de milho",
+     "link": "https://www.canalrural.com.br/economia/conab-abre-pregao-para-transporte-de-16-mil-toneladas-de-milho/",
      "source": "Canal Rural",
-     "published_at": "2026-07-24T20:05:48+00:00"
+     "published_at": "2026-07-24T21:10:39+00:00"
+    },
+    {
+     "title": "Indústria do tabaco pede apoio do MDIC para ficar fora do tarifaço dos EUA",
+     "link": "https://www.canalrural.com.br/economia/industria-do-tabaco-pede-apoio-do-mdic-para-ficar-fora-do-tarifaco-dos-eua/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T21:06:29+00:00"
+    },
+    {
+     "title": "Preço do etanol cai em 15 estados e no Distrito Federal, diz ANP",
+     "link": "https://www.canalrural.com.br/economia/preco-do-etanol-cai-em-15-estados-e-no-distrito-federal-diz-anp/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T20:53:11+00:00"
+    },
+    {
+     "title": "Tornado, calorão de 40°C e mais de 200 mm de chuva: Brasil entra em semana de extremos; confira",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/tornado-calorao-de-40c-e-mais-de-200-mm-de-chuva-brasil-entra-em-semana-de-extremos-confira/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T20:48:13+00:00"
+    },
+    {
+     "title": "Tarifas dos EUA atingem 23,1% das exportações brasileiras ao país, diz MDIC",
+     "link": "https://www.canalrural.com.br/economia/tarifas-dos-eua-atingem-231-das-exportacoes-brasileiras-ao-pais-diz-mdic/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T20:42:48+00:00"
+    },
+    {
+     "title": "Justiça suspende leilão de fazenda avaliada em R$ 77,6 milhões",
+     "link": "https://www.canalrural.com.br/agricultura/justica-suspende-leilao-de-fazenda-avaliada-em-r-776-milhoes/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T20:35:40+00:00"
+    },
+    {
+     "title": "Chicago registra maior cotação da soja desde 2024 - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcXVYbmQ1bzdnNlIya2JUeTRRU1IwcEJxd3B5M29QRDkxVkxaVmNWTzZscDVySlF5QUNIbzBqN2VROGlhVV9KUmpkTkVvMkJfM2x6Q1E4clNWYWNYTGI4cFRJN05PVHA0ZDFfdEZZY0QtYnN6dTBlY1FZY1JEb3hJMHR4cVZqZkFLT1ltV084cGh3ZDdnYjYtdU4wQ0tqYWM?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-24T20:29:00+00:00"
+    },
+    {
+     "title": "Soja sobe, milho fecha estável e trigo recua em Chicago - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSWdvalJSWGFkUkVGel9CenduSF9uYV9JRkYxTS1ER3ZZaGlmc0x0ZWhQcUhuREtHY29DNlBsMTRvaE55bzY0V0xSQmwza2NtdDhFUktETUJvZjMycEdBaDFNcnlfRlR1bWxKc0FQTnR2ODNhRjg5dFFFNnQ0OUdhNU15V3g5eUtCMk1naEhjWVRFMEU?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-07-24T20:18:24+00:00"
+    },
+    {
+     "title": "Nova tarifa dos EUA gera preocupações e desafios ao Brasil",
+     "link": "https://www.canalrural.com.br/videos/nova-tarifa-dos-eua-gera-preocupacoes-e-desafios-ao-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-24T20:15:20+00:00"
     },
     {
      "title": "Rabobank prevê pausa na expansão da soja no Brasil - Revista Cultivar",
@@ -445,46 +493,10 @@
      "published_at": "2026-07-24T19:52:21+00:00"
     },
     {
-     "title": "Tomaria? Ambev lança cerveja sem álcool com 10 gramas de proteína",
-     "link": "https://www.canalrural.com.br/curiosidades/tomaria-ambev-lanca-cerveja-sem-alcool-com-10-gramas-de-proteina/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T19:45:00+00:00"
-    },
-    {
-     "title": "Moretti diz que subsídios a combustíveis cabem na meta fiscal",
-     "link": "https://www.canalrural.com.br/economia/moretti-diz-que-subsidios-a-combustiveis-cabem-na-meta-fiscal/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T19:41:52+00:00"
-    },
-    {
-     "title": "Chuva acima da média eleva risco no trigo gaúcho e interrompe operações na cana",
-     "link": "https://www.canalrural.com.br/agricultura/chuva-acima-da-media-eleva-risco-no-trigo-gaucho-e-interrompe-operacoes-na-cana/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T19:27:14+00:00"
-    },
-    {
-     "title": "O ‘incômodo’ de Trump: Brasil, agroexportador mundial!",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/o-incomodo-de-trump-brasil-agroexportador-mundial/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T19:18:37+00:00"
-    },
-    {
-     "title": "Petróleo cai no dia, mas encerra semana com alta perto de 10%",
-     "link": "https://www.canalrural.com.br/economia/petroleo-cai-no-dia-mas-encerra-semana-com-alta-perto-de-10/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T19:17:56+00:00"
-    },
-    {
      "title": "Soja dispara no Brasil, negócios superam 5 mi de t e preços seguem nos melhores níveis do ano - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTE9RZE45aVhkMFdlbUlMTml4bllCRHNwcUZOekVGVEdkQ21YeHVDa25nR2gzZWR0QnZQR2RjOXF5Yk8xU1lXSmRKR21uZFRXdUlMbHk5N0pyNTdIMTA5R01sRmc2ZmN0YmM5ODdqZEF3WXVYZHFrM2puZDdQc3RjZGlxZGNsZWdzclJxaW9PUzJyRTR0Mzg3Q1lvQWZId1Nkd2F0MkRVWWV5bUxjUmd2MHMtckpaa0VBUlBtN0hhZGlTNUtMek1hd2hHZkxQUzk0dmlvRlV5UlRGd3ZTcWhJc3FFLTVpejkyY3lV0gHwAUFVX3lxTE4xT3pfTzdsSHJtUkhuVHBGR1RjUjJlUnhRUkN0V1F3V0wwREdFanl2bFl5VGJwdTdyNE00VUlLN1RHNWhvTzdDVVNoSVhFdFB2MVgtazdUSGFIZ2ZNRzhLWkdWcFQteUlTX25BZzVMVmJjQlFTTW15YWtsOXRqYUpDcFZCN3FISFo1VHhURGJ6dnVaQ2FSdC1Wb1MwdlcyOHR4ZDV6TGFFZzRrRm1CYU1zdEphWXc4R1p3TVZSWGV3czA5OWprZ3JKSHdJdGVydnczdTNqVFVjaEl2X0ZjaHc3M044UUIwU2I4YjBJMGRTRg?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-24T18:56:33+00:00"
-    },
-    {
-     "title": "Cade recomenda condenação de Bayer e Monsanto no mercado de semente de soja - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUUh2Yi1PdVlpNXZXaDNNbGpxc2FqbjJMQWNXYVBpSWEySFJmT054djNDaEFvOXRIT0NrYXNybHVlaWE2RlRpNWhoNWJhNE1uMzNleWlzNUt5d3ZHdkpLRVpWbjRpN1VOeXZoWktLTkNrMkZTencwWlg3WWZNcnNpV1A3Z1dEemlWZlR2Q2JnY1FnNktpVGE0Xzh5amE5V0hWNDR4N3U2NFNfaFZJN3RJ?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-07-24T18:12:55+00:00"
     },
     {
      "title": "Javalis se tornam 'sócios indesejados' e reviram lavouras de soja no ciclo 26/27; Famato explica como reduzir prejuízos - Canal Rural",
@@ -529,34 +541,16 @@
      "published_at": "2026-07-24T13:42:30"
     },
     {
-     "title": "Saca de soja chega a R$ 160 no porto de Rio Grande - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMkMyNjJ2NXpRRFF3a0pYSEkwTW5SZzZyYkpuVjhKYmc0S19RWmRzcmlFVC11V2k0bFJiX0x3MTBNWVo1eC1xcVNsUGhvTkNadWxkdVhhQ3dkOGNkMU5oaHNOUHJJNmpsVzN2WUtiMFE4RXFmN0JfYnRjdXJDejRNdUZDeTdYaFMxNGtrMnpuUnZ2Q1JBamtaSW4wRk1vUlk1?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-24T12:09:00+00:00"
-    },
-    {
      "title": "Como começar na produção de leite? Cartilha gratuita reúne orientações para produtores",
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/07/24/como-comecar-na-producao-de-leite-cartilha-gratuita-reune-orientacoes-para-produtores.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-24T11:56:04"
     },
     {
-     "title": "Poder de compra do avicultor cai frente a milho e farelo de soja - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYWE4QUptRFU3cUpRZHR1clc5NGN1ZXdGNzJrVklSbWZQSTRramp2UFJMWjZxZnowRVZnTTFrcWFGQUphaFR4YUZ3SGpIakhpdFJvTk9LeVpOVEhyVWZfVEZmNmV0cndtbXpuSktRajZJNmQzd1g1R2VaLU5vU042QWNlSU5zVG5RMmhFbHg4R3ZjSWR6YUtiWFBYRVZ4MmdNd1dlSw?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T11:53:55+00:00"
-    },
-    {
      "title": "Brasil proíbe foie gras após classificar técnica como maus-tratos",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/24/brasil-proibe-foie-gras-apos-classificar-tecnica-como-maus-tratos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-24T11:03:38"
-    },
-    {
-     "title": "Mercado da soja fecha firme no país - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTGJ3amwxaEdfQnZRV0EzTmlzWjlvajY2T0JpU2sxZktuRnJzMnZGd1g5SkRtZmo5b1Ewb1ltMmstQU5IYWNZaVVob2U5WG11eXM2VHVfU3dkbXBpOFFzN2Zndmp1cHZFMGs5SGpSNjUyUUVocHpqX3BzdVhLRFB0NmJQdHN1M0t4bHQ5VQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-24T10:11:00+00:00"
     },
     {
      "title": "Estudo global refuta tese de cartel entre tradings na Moratória da Soja - Valor Econômico",
@@ -575,6 +569,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/23/ministerio-nega-ter-pedido-flexibilizacao-a-ue-para-carne-brasileira-e-aguarda-analise-de-documentos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-23T19:43:54"
+    },
+    {
+     "title": "Soja atinge maior preço de 2026; analista explica os fatores que sustentam a alta da commodity - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTG5YSVRXbXZreGZYLTZMeEdTQXJGU3U5Mi1FS2JuMndwMDJlQlpHcnpuN19tdGdPX01DdHNsUDhqS09SN1F4SHEzR1FDdkdYMmx1em90bWdDd0ZrX2FOamFPSVJTSmZqQzMzcXlZdHpFWUNlMmdCMTlSanZ4N1NWQ3Vjenp3R2M4c0FMV2lJTzhWbWRrYXJOenBRSEVISjBCY1JHQk5zRGNHdmNsaS0zSUNqZTJJVTktV1J5ZEpwaVR6aHE5bUYxSmt6NEZMa0VmUks3b0lqcWhjbHFRNk8wMVFOWDFPdnQyOGEweg?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-23T15:17:40+00:00"
     },
     {
      "title": "O plano da China para se livrar da dependência do agro brasileiro (e por que isso assusta o Brasil)",

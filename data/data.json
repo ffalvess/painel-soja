@@ -1,18 +1,17 @@
 {
- "generated_at": "2026-07-25T02:06:09+00:00",
+ "generated_at": "2026-07-25T05:38:37+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-25T02:06:00+00:00",
+   "updated_at": "2026-07-25T05:38:28+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1252.5,
+     "price": 1253.5,
      "prev_close": 1237.5,
-     "change_pct": 1.21,
+     "change_pct": 1.29,
      "closes": [
-      1108.75,
       1127.5,
       1126.25,
       1108.75,
@@ -33,7 +32,7 @@
       1219.5,
       1233.0,
       1237.5,
-      1252.5
+      1248.0
      ]
     },
     {
@@ -44,7 +43,6 @@
      "prev_close": 464.0,
      "change_pct": 5.01,
      "closes": [
-      407.0,
       414.75,
       412.75,
       402.0,
@@ -65,18 +63,17 @@
       452.75,
       462.0,
       464.0,
-      487.25
+      464.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 335.3,
+     "price": 335.2,
      "prev_close": 329.9,
-     "change_pct": 1.64,
+     "change_pct": 1.61,
      "closes": [
-      303.6,
       308.2,
       307.0,
       304.7,
@@ -97,18 +94,17 @@
       326.7,
       331.6,
       329.9,
-      335.3
+      331.3
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.87,
+     "price": 72.01,
      "prev_close": 75.59,
-     "change_pct": -4.92,
+     "change_pct": -4.74,
      "closes": [
-      69.46,
       70.81,
       71.3,
       69.07,
@@ -129,18 +125,17 @@
       74.3,
       75.48,
       75.59,
-      71.87
+      74.33
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 679.0,
+     "price": 678.0,
      "prev_close": 696.25,
-     "change_pct": -2.48,
+     "change_pct": -2.62,
      "closes": [
-      585.75,
       591.0,
       578.25,
       569.5,
@@ -161,18 +156,17 @@
       678.0,
       705.75,
       696.25,
-      679.0
+      678.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 98.38,
+     "price": 96.78,
      "prev_close": 100.69,
-     "change_pct": -2.29,
+     "change_pct": -3.88,
      "closes": [
-      73.74,
       75.26,
       71.99,
       73.15,
@@ -193,7 +187,7 @@
       91.01,
       94.07,
       100.69,
-      98.38
+      96.78
      ]
     },
     {
@@ -201,8 +195,8 @@
      "name": "Ibovespa",
      "unit": "pontos",
      "price": 174041.95,
-     "prev_close": 176724.0,
-     "change_pct": -1.52,
+     "prev_close": 177548.0,
+     "change_pct": -1.97,
      "closes": [
       170507.0,
       171990.0,
@@ -225,8 +219,7 @@
       173371.0,
       173326.0,
       177548.0,
-      176724.0,
-      174041.9531
+      176724.0
      ]
     }
    ],
@@ -234,7 +227,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-25T02:06:01+00:00",
+   "updated_at": "2026-07-25T05:38:29+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,18 +238,18 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-25T02:06:06+00:00",
+   "updated_at": "2026-07-25T05:38:33+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
      "dates": [
-      "2026-07-24",
       "2026-07-25",
       "2026-07-26",
       "2026-07-27",
       "2026-07-28",
       "2026-07-29",
-      "2026-07-30"
+      "2026-07-30",
+      "2026-07-31"
      ],
      "precip": [
       0.0,
@@ -268,34 +261,34 @@
       0.0
      ],
      "tmax": [
-      35.7,
       35.8,
       35.7,
       35.7,
       35.5,
       35.0,
-      35.5
+      35.5,
+      36.5
      ],
      "tmin": [
-      20.8,
       21.1,
       21.7,
       21.4,
       22.5,
       23.2,
-      23.3
+      23.3,
+      24.1
      ]
     },
     {
      "name": "Sinop · MT",
      "dates": [
-      "2026-07-24",
       "2026-07-25",
       "2026-07-26",
       "2026-07-27",
       "2026-07-28",
       "2026-07-29",
-      "2026-07-30"
+      "2026-07-30",
+      "2026-07-31"
      ],
      "precip": [
       0.0,
@@ -307,38 +300,38 @@
       0.0
      ],
      "tmax": [
-      34.1,
       34.4,
       34.8,
       34.7,
       34.2,
       34.0,
-      34.7
+      34.7,
+      35.4
      ],
      "tmin": [
-      20.5,
       21.4,
       21.4,
       21.8,
       22.2,
       22.7,
-      22.5
+      22.5,
+      23.9
      ]
     },
     {
      "name": "Rio Verde · GO",
      "dates": [
-      "2026-07-24",
       "2026-07-25",
       "2026-07-26",
       "2026-07-27",
       "2026-07-28",
       "2026-07-29",
-      "2026-07-30"
+      "2026-07-30",
+      "2026-07-31"
      ],
      "precip": [
-      0.0,
       0.4,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -346,68 +339,74 @@
       0.0
      ],
      "tmax": [
-      31.9,
       31.0,
       31.6,
       32.3,
       32.1,
       33.5,
-      33.3
+      33.3,
+      33.8
      ],
      "tmin": [
-      19.3,
       18.1,
       19.4,
       20.0,
       22.3,
       20.9,
-      22.0
+      22.0,
+      23.0
      ]
     },
     {
      "name": "Dourados · MS",
      "dates": [
-      "2026-07-24",
       "2026-07-25",
       "2026-07-26",
       "2026-07-27",
       "2026-07-28",
       "2026-07-29",
-      "2026-07-30"
+      "2026-07-30",
+      "2026-07-31"
      ],
      "precip": [
-      3.8,
       1.7,
       0.0,
       0.0,
       0.0,
       18.1,
-      2.7
+      2.7,
+      0.8
      ],
      "tmax": [
-      25.6,
       26.2,
       28.1,
       30.2,
       31.3,
       30.9,
-      28.6
+      28.6,
+      28.0
      ],
      "tmin": [
-      16.9,
       17.0,
       17.8,
       18.8,
       18.7,
       19.8,
-      18.8
+      18.8,
+      18.3
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-25T02:06:09+00:00",
+   "updated_at": "2026-07-25T05:38:37+00:00",
    "items": [
+    {
+     "title": "Como é feito o foie gras, alimento que foi proibido por Lula e reacendeu a tensão comercial com a França",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/25/como-e-feito-o-foie-gras.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-25T03:00:32"
+    },
     {
      "title": "65% dos produtores acreditam ser vistos de forma negativa pela população urbana",
      "link": "https://www.canalrural.com.br/agricultura/65-dos-produtores-acreditam-ser-vistos-de-forma-negativa-pela-populacao-urbana/",
@@ -425,6 +424,12 @@
      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95WG5jS0VHSFV3TlRrQnhfNDlhTjhyMGtuS0t2UkZueVZEMlhfZ0JDeUtIc08wZVNvOUtwLTdubnZNT3hSdUNpQmwwVEFnaHVQNUx4RTYxc0RHZEhqdjkyVl8yMmd5bjBXYkNKdHhoaHR6dXkxcGswWWgxRUVKSTg?oc=5",
      "source": "AgFeed",
      "published_at": "2026-07-24T22:37:00+00:00"
+    },
+    {
+     "title": "Boletim semanal: Soja e boi lideram altas, enquanto café robusta recua 4% na semana - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSUxSSXF5bVVGalhOS2NxRXhYeEpHdndsTk9LeFk1Rnl1NUdFS1VNaUZ2TGQxQkIzdVd6cDYwSWk4RzhxRWtzMTBiVk9CMjBwd002QW1uQV9MNXQ0ZzJ1azhaZVZZbHVsdThZSktoOHV5MU9TRUlPUFh6UDdEaDJjR0VuOGZWRm5TajJYT2ZFVlVscS1IWndzQWlRYUZDZlRvX2ZNbkNCOFd2aWpZWHpLTWhmMERlaGk3ZzZVa01TVHgySFVRdDhERzd3Z3I?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-24T22:17:00+00:00"
     },
     {
      "title": "Número de espécies exóticas de moluscos no Brasil aumenta 215% em 15 anos",
@@ -487,12 +492,6 @@
      "published_at": "2026-07-24T21:10:39+00:00"
     },
     {
-     "title": "Chicago registra maior cotação da soja desde 2024 - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbjFpX2FUV2w5djZGSkJrTE5fQml0NUs3dlB2eFVvTGtya0hRb3RCRUYtUzBmOEJwV1dfNzlodnQ1SGJPTGZMMUJZQ3NSdUNtNEowdHhtNjRlV2h0MmtZcmo3U1REMG9seXhLdV9oVDc4STVReDdOQVlLMWxwQUdFV3BVUjJyMDF4NU42dExHOWJVQUVJSzN3eFhTV1lqRThtT2p5VURoT3BwdmZfT081UnFfOHl4RmpD?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-24T20:29:00+00:00"
-    },
-    {
      "title": "Soja sobe, milho fecha estável e trigo recua em Chicago - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSWdvalJSWGFkUkVGel9CenduSF9uYV9JRkYxTS1ER3ZZaGlmc0x0ZWhQcUhuREtHY29DNlBsMTRvaE55bzY0V0xSQmwza2NtdDhFUktETUJvZjMycEdBaDFNcnlfRlR1bWxKc0FQTnR2ODNhRjg5dFFFNnQ0OUdhNU15V3g5eUtCMk1naEhjWVRFMEU?oc=5",
      "source": "CNN Brasil",
@@ -551,12 +550,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/24/brasil-proibe-foie-gras-apos-classificar-tecnica-como-maus-tratos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-24T11:03:38"
-    },
-    {
-     "title": "Estudo global refuta tese de cartel entre tradings na Moratória da Soja - Valor Econômico",
-     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNY1gzVjhmaDVfYV9zYjN1akhHSGtWbW5xU1MwTnpQQ2dVNi1HcTVpOXFfVUxCREdVMUcxU3FpVUxDNC1uSFIxU1g0cUxoZE5ycWo2U3Jvb2VpTUdCVXd2bXpvdUxtT21WTTg3Qk9OU1BRZGxtaHk4YWxWWV9CWGtGeVF2Y1BwRlo1Tm1HN1NUS3NCeFdMRm9BOExJeVVPbWgwdW8xTzNDS19DWXJGbjhHbmtEaVRJbm1rRlpOT3JvcnJHMzBQUUM0QnRQeTZYdHRraGFDWE5CYnFyYVNU0gHcAUFVX3lxTE1jWDNWOGZoNV9hX3NiM3VqSEdIa1ZtbnFTUzBOelBDZ1U2LUdxNWk5cV9VTEJER1UxRzFTcWlVTEM0LW5IUjFTWDRxTGhkTnJxajZTcm9vZWlNR0JVd3Ztem91TG1PbVZNODdCT05TUFFkbG1oeThhbFZZX0JYa0Z5UXZjUHBGWjVObUc3U1RLc0J4V0xGb0E4TEl5VU9taDB1bzFPM0NLX0NZckZuOEdua0RpVElubWtGWk5Pcm9yckczMFBRQzRCdFB5Nlh0dGtoYUNYTkJicXJhU1Q?oc=5",
-     "source": "Valor Econômico",
-     "published_at": "2026-07-24T08:00:20+00:00"
     },
     {
      "title": "Casca enrugada do ovo pode ser sinal de estresse nas galinhas; veja por que isso acontece",

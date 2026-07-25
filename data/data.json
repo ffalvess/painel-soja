@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-25T13:11:09+00:00",
+ "generated_at": "2026-07-25T14:57:43+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-25T13:11:03+00:00",
+   "updated_at": "2026-07-25T14:57:34+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-25T13:11:04+00:00",
+   "updated_at": "2026-07-25T14:57:34+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-25T13:11:07+00:00",
+   "updated_at": "2026-07-25T14:57:39+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,8 +400,38 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-25T13:11:09+00:00",
+   "updated_at": "2026-07-25T14:57:43+00:00",
    "items": [
+    {
+     "title": "Renegociação de dívidas dá poder aos bancos e exige rapidez do produtor, diz ex-secretário do Mapa",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/renegociacao-de-dividas-da-poder-aos-bancos-e-exige-rapidez-do-produtor-diz-ex-secretario-do-mapa/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-25T14:34:16+00:00"
+    },
+    {
+     "title": "El Niño forte pode reduzir em até 10% a produção de grãos, avalia pesquisador da FGV",
+     "link": "https://www.canalrural.com.br/agricultura/el-nino-forte-pode-reduzir-em-ate-10-a-producao-de-graos-diz-eduardo-assad/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-25T14:12:31+00:00"
+    },
+    {
+     "title": "Conheça o ingrediente de perfumes de luxo que está sendo descartado na produção de suco",
+     "link": "https://www.canalrural.com.br/agricultura/o-ingrediente-de-perfumes-de-luxo-que-esta-sendo-descartado-na-producao-de-suco/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-25T14:01:00+00:00"
+    },
+    {
+     "title": "Dia da Agricultura Familiar: setor responde por 40% do PIB agropecuário do RS",
+     "link": "https://www.canalrural.com.br/agricultura/dia-da-agricultura-familiar-setor-responde-por-40-do-pib-agropecuario-do-rs/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-25T12:54:36+00:00"
+    },
+    {
+     "title": "Poder de compra do avicultor cai frente a milho e farelo de soja - Rádio Itatiaia",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdnhMenhxTG1IUUZsTWtyTTVzUDZDemZuZEtiMm1sU0I5WUdpcWxIa2lkYmV3ZHBybEl1WVVIRDIwaHZLdDRseldnM2YyU3pyNUhUTW96RWp0eGpvMUVBWEhtVnY0cks3QU1UUHljM2ZqZWxSWEZWU1B5dmRGVUZUUHN6LURsNkc0cWFhRVdvTlZGT0VySkJmV2JzUGJWd3c?oc=5",
+     "source": "Rádio Itatiaia",
+     "published_at": "2026-07-25T10:45:26+00:00"
+    },
     {
      "title": "Clima nos EUA será decisivo para rumos do mercado de soja - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRlMwWW1ETExfek8tQWJ4YW5qRWJFNlZvQWc5ZFBCNU4zSTBOdGRaRVFBLVZwMzE3NVdxaGkzbTYwSGtQWng0cE14OVVpSFo4V0tqdkswVmhZeXNRM1BIclFkTGRJS2t6WjdnTXpJdUhOQVEzOUVVRHZfeUVtNWx3TU5XOFR6Zmd4RnVIV3ZGYVl5RTBpY3RzZTZ2dVlkeG1Tc0pfbDIzTnN2YkNFN3NJNTNIUFRDZnVnOEFCWTJhR3hUSWfSAdIBQVVfeXFMT0NscklpM0FBOEZDMzZ2VmY4aG5MaWRNZm1yUExnYU4yakh4UWM5MFN1RndkOXFWdExrazJDc19rZzhmcjV0QVdjWWxSR1phbEY5enFrOHctbDN6OWVYNERvYl9Oa3dJaENpUzlja3BBTFZySXRTNXppTjZaa2VUZThNb3NZc2M2ZlVjbXNXcFdrMmxBMEgyRm1wN09hMGVEY3B0YnljWkJVN3VnM204UVhRWjFVXzBvTWo4WFc0R2JyNjBrUXFWYUdLLVg4Z1lOMTJB?oc=5",
@@ -475,12 +505,6 @@
      "published_at": "2026-07-24T22:13:05+00:00"
     },
     {
-     "title": "Mercado de soja tem preços firmes, mas retenção dos produtores limita os negócios - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWUhxMXlCS2lQY25TZllWYjNDOVd4Z0NxX243UzFmaHhYbGt1VjhGMXdYR3JmREZxZUNQUDlqelhSS3dVRk5INGdlZ1Nab2ptRTBheUZTQzV3aEFpQmU3Qk92TFhidDRpbjFScUstVzdDSUNNaGs2bmo5WWU2YjRlQWVPT0hOSkZITS1mN2o4RFo5ZGk1ZktybUx3WDljdTlYWGZ5c1dCQlBaYllrU0dWU093UUlFVXJIdnhyVkhIMUIyT28xSGRXMGNSWFNvaFN1X2RFeTN2ZkJXeVU?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T22:08:45+00:00"
-    },
-    {
      "title": "Mercado de soja tem preços firmes, mas retenção dos produtores limita os negócios",
      "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/mercado-de-soja-tem-precos-firmes-mas-retencao-dos-produtores-limita-os-negocios/",
      "source": "Canal Rural",
@@ -497,30 +521,6 @@
      "link": "https://www.canalrural.com.br/economia/cna-cumpre-agenda-na-argentina-com-foco-em-comercio-e-integracao-no-mercosul/",
      "source": "Canal Rural",
      "published_at": "2026-07-24T21:45:06+00:00"
-    },
-    {
-     "title": "Ibovespa fecha em queda de 1,52% e dólar comercial recua a R$ 5,0809",
-     "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-queda-de-152-e-dolar-comercial-recua-a-r-50809/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T21:41:48+00:00"
-    },
-    {
-     "title": "Juros futuros recuam com queda do petróleo e sinal de negociação entre EUA e Irã",
-     "link": "https://www.canalrural.com.br/economia/juros-futuros-recuam-com-queda-do-petroleo-e-sinal-de-negociacao-entre-eua-e-ira/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T21:21:53+00:00"
-    },
-    {
-     "title": "Dólar fecha em baixa a R$ 5,0809 e acumula recuo de 0,59% na semana",
-     "link": "https://www.canalrural.com.br/economia/dolar-fecha-em-baixa-a-r-50809-e-acumula-recuo-de-059-na-semana/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T21:17:32+00:00"
-    },
-    {
-     "title": "Conab abre pregão para transporte de 16 mil toneladas de milho",
-     "link": "https://www.canalrural.com.br/economia/conab-abre-pregao-para-transporte-de-16-mil-toneladas-de-milho/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T21:10:39+00:00"
     },
     {
      "title": "Chicago registra maior cotação da soja desde 2024 - Agrolink",

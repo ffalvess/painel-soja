@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-25T20:12:39+00:00",
+ "generated_at": "2026-07-25T21:48:40+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-25T20:12:31+00:00",
+   "updated_at": "2026-07-25T21:48:32+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -195,8 +195,8 @@
      "name": "Ibovespa",
      "unit": "pontos",
      "price": 174041.95,
-     "prev_close": 177548.0,
-     "change_pct": -1.97,
+     "prev_close": 176724.0,
+     "change_pct": -1.52,
      "closes": [
       170507.0,
       171990.0,
@@ -219,7 +219,8 @@
       173371.0,
       173326.0,
       177548.0,
-      176724.0
+      176724.0,
+      174042.0
      ]
     }
    ],
@@ -227,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-25T20:12:32+00:00",
+   "updated_at": "2026-07-25T21:48:32+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -238,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-25T20:12:37+00:00",
+   "updated_at": "2026-07-25T21:48:37+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -399,8 +400,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-25T20:12:39+00:00",
+   "updated_at": "2026-07-25T21:48:40+00:00",
    "items": [
+    {
+     "title": "Espírito Santo lança mostra para vender café conilon de alta qualidade em grandes volume",
+     "link": "https://www.canalrural.com.br/espirito-santo/espirito-santo-lanca-mostra-para-vender-cafe-conilon-de-alta-qualidade-em-grandes-volume/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-25T20:02:00+00:00"
+    },
+    {
+     "title": "Pecuária nacional perde referência na genética do nelore mocho",
+     "link": "https://www.canalrural.com.br/pecuaria/pecuaria-nacional-perde-referencia-na-genetica-do-nelore-mocho/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-25T19:54:57+00:00"
+    },
     {
      "title": "Do campo ao boteco: bolovo valoriza carne suína, ovos caipiras e trigo",
      "link": "https://www.canalrural.com.br/aves-e-suinos/do-campo-ao-boteco-bolovo-valoriza-carne-suina-ovos-caipiras-e-trigo/",
@@ -418,12 +431,6 @@
      "link": "https://www.canalrural.com.br/opiniao-noticias/a-disputa-pelo-prato-do-futuro-e-por-que-nao-associamos-o-feijao-a-proteina/",
      "source": "Canal Rural",
      "published_at": "2026-07-25T19:05:00+00:00"
-    },
-    {
-     "title": "Soja avança mais de 10% no mês e boi gordo chega a R$ 343,75 - Vitória News",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVGtLajRKcFZPOGM3UG5jdUdGZVNnTldZYnFJQ0FLUmhwTVRLcHRxZF9BSTdRd3hJRWhQZnl1V3BqRFo0OWJPSXNCcU9aNTdhSXdLM1dZenFhSjVXbHUwQzlsOTZ6MjRCTVFmUU1feEFTdHRJRUl2MU5BV2pXTEJLZlR5UTNaTHliWVBEag?oc=5",
-     "source": "Vitória News",
-     "published_at": "2026-07-25T18:16:16+00:00"
     },
     {
      "title": "Nelore pintado: bois entregam média de 19 arrobas em confinamento de MT; confira",
@@ -474,18 +481,6 @@
      "published_at": "2026-07-25T15:05:00+00:00"
     },
     {
-     "title": "Renegociação de dívidas dá poder aos bancos e exige rapidez do produtor, diz ex-secretário do Mapa",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/renegociacao-de-dividas-da-poder-aos-bancos-e-exige-rapidez-do-produtor-diz-ex-secretario-do-mapa/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-25T14:34:16+00:00"
-    },
-    {
-     "title": "El Niño forte pode reduzir em até 10% a produção de grãos, avalia pesquisador da FGV",
-     "link": "https://www.canalrural.com.br/agricultura/el-nino-forte-pode-reduzir-em-ate-10-a-producao-de-graos-diz-eduardo-assad/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-25T14:12:31+00:00"
-    },
-    {
      "title": "Clima nos EUA será decisivo para rumos do mercado de soja - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRlMwWW1ETExfek8tQWJ4YW5qRWJFNlZvQWc5ZFBCNU4zSTBOdGRaRVFBLVZwMzE3NVdxaGkzbTYwSGtQWng0cE14OVVpSFo4V0tqdkswVmhZeXNRM1BIclFkTGRJS2t6WjdnTXpJdUhOQVEzOUVVRHZfeUVtNWx3TU5XOFR6Zmd4RnVIV3ZGYVl5RTBpY3RzZTZ2dVlkeG1Tc0pfbDIzTnN2YkNFN3NJNTNIUFRDZnVnOEFCWTJhR3hUSWfSAdIBQVVfeXFMT0NscklpM0FBOEZDMzZ2VmY4aG5MaWRNZm1yUExnYU4yakh4UWM5MFN1RndkOXFWdExrazJDc19rZzhmcjV0QVdjWWxSR1phbEY5enFrOHctbDN6OWVYNERvYl9Oa3dJaENpUzlja3BBTFZySXRTNXppTjZaa2VUZThNb3NZc2M2ZlVjbXNXcFdrMmxBMEgyRm1wN09hMGVEY3B0YnljWkJVN3VnM204UVhRWjFVXzBvTWo4WFc0R2JyNjBrUXFWYUdLLVg4Z1lOMTJB?oc=5",
      "source": "Globo Rural",
@@ -493,7 +488,7 @@
     },
     {
      "title": "Do Rio Grande ao Cerrado, a epopeia da soja brasileira – finalmente – vira romance - AgFeed",
-     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5dWFlR2otdXBLeDdMRjdBcXhRcnN5MG5FMHA4cEpZUXlKV1NxcGk2YWNpdjd4UVdDT0hyTllkb1k1MExmVmZkdXZLc2paNzA5UWhkWjBR?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBjcWFFYmVrMTBtZHpNVm1lQ0tIaTVCcXVOdTRyY184TE5vcWFoQ01oZnlUcjBsWjdBbld2RWpRRUgxSnNaVWdhaEdLN0psVFY4cThybF9ubw?oc=5",
      "source": "AgFeed",
      "published_at": "2026-07-25T10:16:00+00:00"
     },
@@ -580,6 +575,12 @@
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTG5YSVRXbXZreGZYLTZMeEdTQXJGU3U5Mi1FS2JuMndwMDJlQlpHcnpuN19tdGdPX01DdHNsUDhqS09SN1F4SHEzR1FDdkdYMmx1em90bWdDd0ZrX2FOamFPSVJTSmZqQzMzcXlZdHpFWUNlMmdCMTlSanZ4N1NWQ3Vjenp3R2M4c0FMV2lJTzhWbWRrYXJOenBRSEVISjBCY1JHQk5zRGNHdmNsaS0zSUNqZTJJVTktV1J5ZEpwaVR6aHE5bUYxSmt6NEZMa0VmUks3b0lqcWhjbHFRNk8wMVFOWDFPdnQyOGEweg?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-23T15:17:40+00:00"
+    },
+    {
+     "title": "O plano da China para se livrar da dependência do agro brasileiro (e por que isso assusta o Brasil)",
+     "link": "https://g1.globo.com/economia/noticia/2026/07/23/o-plano-da-china-para-se-livrar-da-dependencia-do-agro-brasileiro-e-por-que-isso-assusta-o-brasil.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-23T07:43:55"
     }
    ],
    "failed": [

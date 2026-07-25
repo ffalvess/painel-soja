@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-25T14:57:43+00:00",
+ "generated_at": "2026-07-25T16:04:33+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-25T14:57:34+00:00",
+   "updated_at": "2026-07-25T16:04:25+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-25T14:57:34+00:00",
+   "updated_at": "2026-07-25T16:04:25+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-25T14:57:39+00:00",
+   "updated_at": "2026-07-25T16:04:29+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,8 +400,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-25T14:57:43+00:00",
+   "updated_at": "2026-07-25T16:04:33+00:00",
    "items": [
+    {
+     "title": "Dívidas rurais, barter e tarifaço: os temas do novo Radar Rural",
+     "link": "https://www.canalrural.com.br/agricultura/agronegocio/dividas-rurais-barter-e-tarifaco-os-temas-do-novo-radar-rural/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-25T15:34:38+00:00"
+    },
+    {
+     "title": "Por que o brasileiro coloca tanto açúcar no café? Especialista explica hábito",
+     "link": "https://www.canalrural.com.br/agricultura/por-que-o-brasileiro-coloca-tanto-acucar-no-cafe-especialista-explica-habito/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-25T15:05:00+00:00"
+    },
     {
      "title": "Renegociação de dívidas dá poder aos bancos e exige rapidez do produtor, diz ex-secretário do Mapa",
      "link": "https://www.canalrural.com.br/opiniao-noticias/renegociacao-de-dividas-da-poder-aos-bancos-e-exige-rapidez-do-produtor-diz-ex-secretario-do-mapa/",
@@ -509,18 +521,6 @@
      "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/mercado-de-soja-tem-precos-firmes-mas-retencao-dos-produtores-limita-os-negocios/",
      "source": "Canal Rural",
      "published_at": "2026-07-24T22:08:45+00:00"
-    },
-    {
-     "title": "Preços do boi gordo: veja como terminaram os negócios da arroba na semana",
-     "link": "https://www.canalrural.com.br/pecuaria/precos-do-boi-gordo-veja-como-terminaram-os-negocios-da-arroba-na-semana/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T22:05:07+00:00"
-    },
-    {
-     "title": "CNA cumpre agenda na Argentina com foco em comércio e integração no Mercosul",
-     "link": "https://www.canalrural.com.br/economia/cna-cumpre-agenda-na-argentina-com-foco-em-comercio-e-integracao-no-mercosul/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T21:45:06+00:00"
     },
     {
      "title": "Chicago registra maior cotação da soja desde 2024 - Agrolink",

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-25T07:57:34+00:00",
+ "generated_at": "2026-07-25T09:47:45+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-25T07:57:29+00:00",
+   "updated_at": "2026-07-25T09:47:36+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-25T07:57:29+00:00",
+   "updated_at": "2026-07-25T09:47:36+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-25T07:57:32+00:00",
+   "updated_at": "2026-07-25T09:47:41+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,8 +400,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-25T07:57:34+00:00",
+   "updated_at": "2026-07-25T09:47:45+00:00",
    "items": [
+    {
+     "title": "Preço da soja no Brasil atinge maior valor de 2026 - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeHI5VlJnTnJfUHZBY3dGMFVQQ0o3U1AxSGgwSDYtSF82OThUUUgxRUhwUHFiVFBBMlZCUm8wWFQ4dFhpMU5lMzc1V2F4RjlNWFJvSUJzMHFJZEd1LTJUZUNrb2M0T1o4ZFlyNUVLZ2p5d042T0N4aExKdS0xZ0NSSl9GbHZLMWMxWUtQQUh4VjdCbTUxbUxPRGVPWUs0bHkwMkUyUVhoczIxcWNrbGZ30gG-AUFVX3lxTFB4NlhfdWZ0UG5LM0g5VDM4cnJtSkFMTjNXdW51V29JQ2dXZ2VkbnNjWHA5S29QZHlmS29SRDlrX2wxUUs4OTNHSGQtdUpjUm83YlpkbTdRc3dELW40T3BZTVZsQ0VaRm0tdUdfajRQb05vWnhWbXBVWFZ3SzZvY2ZZbDVIb2YzR1NVMzFiUG9xazJhZVRaanhoNlRSMV9FZjJqMjNod3JndmlGQnhXcld1ckcxWXMxMlc2YWMzWXc?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-25T09:10:08+00:00"
+    },
+    {
+     "title": "Alagoas amplia cultivo de soja e usa “protetor solar” para produção de sementes - Movimento Econômico",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNN0V6ckU5dmtFdkY5WXR5TnIwMXhHSTJlNXdQNkNUeWRsS2d1QVVMSFFRdEd1WHBwcDFLdmlWSnNGWUxqdjdvQ3NvcE9NSUEtQnA3ZWstcjBxV08xamtQdXVFVEdhZGxzWFJfNDZ1X2xzNzRRVkhyQlVDQXNQZnJ0amdqWUpjcTkwb1NjWnlTdTJMNEhjN2FGVTdTREQ2Z2Z6NnhaN2lKUFIwTXZKVzUzN3NxZUJXamNjckFrUkNZZHBVd2VyUTE1NkE1cTBtV3ZFMWM1MEdn?oc=5",
+     "source": "Movimento Econômico",
+     "published_at": "2026-07-25T07:53:00+00:00"
+    },
     {
      "title": "Acordo entre EUA e China ganha tração na soja, mas Brasil segue competitivo - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbXpGRHRfengzVFFsMnBEdFBSTWNVS1pmSkRrOWJPVEk5SDJaYUVOYnVBbFZuRHhlTGtEWnJEdU9nS3hyNFFtNG0wNHFFWGRlTmRHY1gydXYtQm8zVmpUdkNVOFRMYm5yNjh0LTJ4bGVsUGtQM2Nwd1lpbklSXzVwYjE0S0VEdXc2cWZSalJSNW1vd194cFFDUjEtUnc4QTl2LTFSVURFWmROMVBTLUE?oc=5",
@@ -487,12 +499,6 @@
      "published_at": "2026-07-24T21:17:32+00:00"
     },
     {
-     "title": "Soja sobe no Brasil com prêmios elevados - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQb3dlaWxtNVhONWNwbDgxbTEtajd6eXpZOXM2UVRTdGtxQ3N4ZXZSaGMwNUpwQV9mYVNpckw1eWx5MHdKb091ajRNMkk0RDdaakh3NUNPX2pfUGNVV3VLUzdoZUJLbkxLUVRrNFprS2ViX0FxNHBEUHZhWjN5a0gwS0tFUS1fMUNmYmdsUEx3cExfTTQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-24T21:15:00+00:00"
-    },
-    {
      "title": "Conab abre pregão para transporte de 16 mil toneladas de milho",
      "link": "https://www.canalrural.com.br/economia/conab-abre-pregao-para-transporte-de-16-mil-toneladas-de-milho/",
      "source": "Canal Rural",
@@ -503,12 +509,6 @@
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbjFpX2FUV2w5djZGSkJrTE5fQml0NUs3dlB2eFVvTGtya0hRb3RCRUYtUzBmOEJwV1dfNzlodnQ1SGJPTGZMMUJZQ3NSdUNtNEowdHhtNjRlV2h0MmtZcmo3U1REMG9seXhLdV9oVDc4STVReDdOQVlLMWxwQUdFV3BVUjJyMDF4NU42dExHOWJVQUVJSzN3eFhTV1lqRThtT2p5VURoT3BwdmZfT081UnFfOHl4RmpD?oc=5",
      "source": "Agrolink",
      "published_at": "2026-07-24T20:29:00+00:00"
-    },
-    {
-     "title": "Soja sobe, milho fecha estável e trigo recua em Chicago - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSWdvalJSWGFkUkVGel9CenduSF9uYV9JRkYxTS1ER3ZZaGlmc0x0ZWhQcUhuREtHY29DNlBsMTRvaE55bzY0V0xSQmwza2NtdDhFUktETUJvZjMycEdBaDFNcnlfRlR1bWxKc0FQTnR2ODNhRjg5dFFFNnQ0OUdhNU15V3g5eUtCMk1naEhjWVRFMEU?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-07-24T20:18:24+00:00"
     },
     {
      "title": "Rabobank prevê pausa na expansão da soja no Brasil - Revista Cultivar",
@@ -533,12 +533,6 @@
      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPS05kSkZSMG5ZdmE1bVRhaGFvMWNvR2d5WldLWXNQVXhQTm5NdFRGS2JpZGhmSTZnRnZOQ2NJTURkOG45emFfempyd0J1eklqNEE3YTJjVnQ1VjhfRndrR21oeXp3Ml95cy1nTk5kMGFtMUdGT2hsRVYzSVBnbllmOWU5aVduRy1SQjZDUGpEMHhjSzJZTzFvZUF1S3k1TjVTNFNPZ1FaSmZLSGF6NExINWlxNXgxTmZHbE5XUjZvNEFLRGlhZ191VXd4UEVtTjJpUGR4a28teW1fVUF2Vm5LZnVXQU0tQdIB6wFBVV95cUxObV9yUk5oQTdSVVhBd1haZ1RrRExUazE1cVFGckpxVU5EWEEwM25SU1JPeGMweTUxVFBrbHhJZzFycm1sZHpqazJmNmN0S19YVHBJdW5ISXF1ZWxnT2hob2VaVEZ3SU5fXzVuUUoyOGFHWmlCTU4wZ0NZM2FIbGxQY29XS3YxUm9fWGRmSkJWU1ZkWnBFSExBaTBJSEltTzYyVFFYdjdMLVIyeVJqM2NvY3ZsNFB5N2xxM3RubGp5WWRxcUUzTElsVWY3WEFSRTlCRFhRSUd0QVZoN2QzcHZxMEhpa1h4VV9JcHUw?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-24T15:59:05+00:00"
-    },
-    {
-     "title": "Área de soja ficará estável pela primeira vez em 20 anos, prevê Rabobank - The AgriBiz",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZHBYUWVZMXEzek5obWg1Y1VGZnczSVhFaW5BNGpPX2hiQm1OTWRNSERITlViekJ3S0Y0dm1LRlZfZDUyeTAwZ1RRRzdSdFgwVXRXNlJSZDlUSnM1ZTIzVjYtWDdQZGNJc0czUXlMM05TSl9nbFFsZE8xN28xWVFKN0o4SmlNa0dnNzZBT2ZyZ0tEbnJsVVZZTTZkSnJBWERkbTVZdFlSZGtQTjEt?oc=5",
-     "source": "The AgriBiz",
-     "published_at": "2026-07-24T15:13:27+00:00"
     },
     {
      "title": "Preços do trigo e milho caem em Chicago; soja abre perto da estabilidade - Globo Rural",
@@ -581,6 +575,12 @@
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTG5YSVRXbXZreGZYLTZMeEdTQXJGU3U5Mi1FS2JuMndwMDJlQlpHcnpuN19tdGdPX01DdHNsUDhqS09SN1F4SHEzR1FDdkdYMmx1em90bWdDd0ZrX2FOamFPSVJTSmZqQzMzcXlZdHpFWUNlMmdCMTlSanZ4N1NWQ3Vjenp3R2M4c0FMV2lJTzhWbWRrYXJOenBRSEVISjBCY1JHQk5zRGNHdmNsaS0zSUNqZTJJVTktV1J5ZEpwaVR6aHE5bUYxSmt6NEZMa0VmUks3b0lqcWhjbHFRNk8wMVFOWDFPdnQyOGEweg?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-23T15:17:40+00:00"
+    },
+    {
+     "title": "O plano da China para se livrar da dependência do agro brasileiro (e por que isso assusta o Brasil)",
+     "link": "https://g1.globo.com/economia/noticia/2026/07/23/o-plano-da-china-para-se-livrar-da-dependencia-do-agro-brasileiro-e-por-que-isso-assusta-o-brasil.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-23T07:43:55"
     }
    ],
    "failed": [

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-25T21:48:40+00:00",
+ "generated_at": "2026-07-25T22:47:23+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-25T21:48:32+00:00",
+   "updated_at": "2026-07-25T22:47:17+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-25T21:48:32+00:00",
+   "updated_at": "2026-07-25T22:47:18+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-25T21:48:37+00:00",
+   "updated_at": "2026-07-25T22:47:21+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,8 +400,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-25T21:48:40+00:00",
+   "updated_at": "2026-07-25T22:47:23+00:00",
    "items": [
+    {
+     "title": "Arroba teve alta de 4,5% na semana, mas elevação não deve se sustentar no curto prazo",
+     "link": "https://www.canalrural.com.br/pecuaria/arroba-teve-alta-de-45-na-semana-mas-elevacao-nao-deve-se-sustentar-no-curto-prazo/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-25T22:01:00+00:00"
+    },
     {
      "title": "Espírito Santo lança mostra para vender café conilon de alta qualidade em grandes volume",
      "link": "https://www.canalrural.com.br/espirito-santo/espirito-santo-lanca-mostra-para-vender-cafe-conilon-de-alta-qualidade-em-grandes-volume/",
@@ -473,12 +479,6 @@
      "link": "https://www.canalrural.com.br/agricultura/agronegocio/dividas-rurais-barter-e-tarifaco-os-temas-do-novo-radar-rural/",
      "source": "Canal Rural",
      "published_at": "2026-07-25T15:34:38+00:00"
-    },
-    {
-     "title": "Por que o brasileiro coloca tanto açúcar no café? Especialista explica hábito",
-     "link": "https://www.canalrural.com.br/agricultura/por-que-o-brasileiro-coloca-tanto-acucar-no-cafe-especialista-explica-habito/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-25T15:05:00+00:00"
     },
     {
      "title": "Clima nos EUA será decisivo para rumos do mercado de soja - Globo Rural",

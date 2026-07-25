@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-25T17:54:08+00:00",
+ "generated_at": "2026-07-25T18:58:54+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-25T17:54:00+00:00",
+   "updated_at": "2026-07-25T18:58:45+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-25T17:54:00+00:00",
+   "updated_at": "2026-07-25T18:58:46+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-25T17:54:04+00:00",
+   "updated_at": "2026-07-25T18:58:50+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -258,26 +258,26 @@
       0.0,
       0.0,
       0.0,
-      0.0,
+      0.6,
       0.0
      ],
      "tmax": [
-      35.6,
-      36.1,
-      36.1,
-      35.6,
+      35.3,
+      35.3,
+      36.3,
+      35.3,
+      34.1,
       34.8,
-      35.6,
-      36.8
+      36.4
      ],
      "tmin": [
       21.2,
-      22.1,
       21.7,
-      22.1,
-      23.0,
-      23.1,
-      23.4
+      21.9,
+      21.9,
+      22.9,
+      23.4,
+      22.3
      ]
     },
     {
@@ -292,31 +292,31 @@
       "2026-07-31"
      ],
      "precip": [
+      0.5,
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.6,
-      0.0,
+      0.3,
+      0.3,
       0.0
      ],
      "tmax": [
-      34.1,
-      34.5,
-      35.0,
-      34.3,
       33.5,
-      34.6,
-      35.3
+      34.0,
+      34.8,
+      34.1,
+      33.8,
+      34.3,
+      35.0
      ],
      "tmin": [
       21.4,
-      22.2,
-      21.3,
-      21.9,
+      21.6,
+      21.5,
       22.3,
-      22.9,
-      23.2
+      22.1,
+      22.8,
+      21.7
      ]
     },
     {
@@ -331,7 +331,7 @@
       "2026-07-31"
      ],
      "precip": [
-      0.0,
+      0.4,
       0.0,
       0.0,
       0.0,
@@ -340,22 +340,22 @@
       0.0
      ],
      "tmax": [
-      30.2,
+      29.5,
+      30.4,
       32.0,
-      32.2,
-      33.1,
+      33.2,
       33.5,
-      34.4,
-      33.2
+      33.2,
+      32.9
      ],
      "tmin": [
       16.7,
-      19.1,
-      20.1,
-      20.4,
-      20.7,
-      20.7,
-      22.7
+      18.7,
+      18.9,
+      20.0,
+      21.6,
+      20.0,
+      21.5
      ]
     },
     {
@@ -370,38 +370,50 @@
       "2026-07-31"
      ],
      "precip": [
-      7.6,
+      7.2,
       0.0,
       0.0,
       0.0,
-      18.6,
-      0.6,
+      16.4,
+      0.1,
       0.0
      ],
      "tmax": [
-      26.0,
-      28.4,
-      30.6,
-      31.3,
-      30.9,
-      27.6,
-      28.6
+      24.0,
+      27.7,
+      30.2,
+      31.1,
+      29.8,
+      27.8,
+      28.4
      ],
      "tmin": [
       17.8,
-      17.6,
-      19.0,
-      18.6,
-      19.6,
-      18.3,
-      20.4
+      17.3,
+      18.5,
+      18.7,
+      19.4,
+      18.0,
+      20.0
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-25T17:54:08+00:00",
+   "updated_at": "2026-07-25T18:58:54+00:00",
    "items": [
+    {
+     "title": "Soja avança mais de 10% no mês e boi gordo chega a R$ 343,75 - Vitória News",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVGtLajRKcFZPOGM3UG5jdUdGZVNnTldZYnFJQ0FLUmhwTVRLcHRxZF9BSTdRd3hJRWhQZnl1V3BqRFo0OWJPSXNCcU9aNTdhSXdLM1dZenFhSjVXbHUwQzlsOTZ6MjRCTVFmUU1feEFTdHRJRUl2MU5BV2pXTEJLZlR5UTNaTHliWVBEag?oc=5",
+     "source": "Vitória News",
+     "published_at": "2026-07-25T18:16:16+00:00"
+    },
+    {
+     "title": "Nelore pintado: bois entregam média de 19 arrobas em confinamento de MT; confira",
+     "link": "https://www.canalrural.com.br/pecuaria/nelore-pintado-bois-entregam-media-de-19-arrobas-em-confinamento-de-mt-confira/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-25T18:07:08+00:00"
+    },
     {
      "title": "Rio Grande do Sul volta a enfrentar risco de temporais e chuva acima de 100 mm",
      "link": "https://www.canalrural.com.br/previsao-do-tempo/rio-grande-do-sul-volta-a-enfrentar-risco-de-temporais-e-chuva-acima-de-100-mm/",
@@ -469,12 +481,6 @@
      "published_at": "2026-07-25T12:54:36+00:00"
     },
     {
-     "title": "Poder de compra do avicultor cai frente a milho e farelo de soja - Rádio Itatiaia",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdnhMenhxTG1IUUZsTWtyTTVzUDZDemZuZEtiMm1sU0I5WUdpcWxIa2lkYmV3ZHBybEl1WVVIRDIwaHZLdDRseldnM2YyU3pyNUhUTW96RWp0eGpvMUVBWEhtVnY0cks3QU1UUHljM2ZqZWxSWEZWU1B5dmRGVUZUUHN6LURsNkc0cWFhRVdvTlZGT0VySkJmV2JzUGJWd3c?oc=5",
-     "source": "Rádio Itatiaia",
-     "published_at": "2026-07-25T10:45:26+00:00"
-    },
-    {
      "title": "Clima nos EUA será decisivo para rumos do mercado de soja - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRlMwWW1ETExfek8tQWJ4YW5qRWJFNlZvQWc5ZFBCNU4zSTBOdGRaRVFBLVZwMzE3NVdxaGkzbTYwSGtQWng0cE14OVVpSFo4V0tqdkswVmhZeXNRM1BIclFkTGRJS2t6WjdnTXpJdUhOQVEzOUVVRHZfeUVtNWx3TU5XOFR6Zmd4RnVIV3ZGYVl5RTBpY3RzZTZ2dVlkeG1Tc0pfbDIzTnN2YkNFN3NJNTNIUFRDZnVnOEFCWTJhR3hUSWfSAdIBQVVfeXFMT0NscklpM0FBOEZDMzZ2VmY4aG5MaWRNZm1yUExnYU4yakh4UWM5MFN1RndkOXFWdExrazJDc19rZzhmcjV0QVdjWWxSR1phbEY5enFrOHctbDN6OWVYNERvYl9Oa3dJaENpUzlja3BBTFZySXRTNXppTjZaa2VUZThNb3NZc2M2ZlVjbXNXcFdrMmxBMEgyRm1wN09hMGVEY3B0YnljWkJVN3VnM204UVhRWjFVXzBvTWo4WFc0R2JyNjBrUXFWYUdLLVg4Z1lOMTJB?oc=5",
      "source": "Globo Rural",
@@ -515,12 +521,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/25/como-e-feito-o-foie-gras.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-25T03:00:32"
-    },
-    {
-     "title": "65% dos produtores acreditam ser vistos de forma negativa pela população urbana",
-     "link": "https://www.canalrural.com.br/agricultura/65-dos-produtores-acreditam-ser-vistos-de-forma-negativa-pela-populacao-urbana/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T22:46:35+00:00"
     },
     {
      "title": "Soja tem melhor preço do ano - AgFeed",

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-25T16:04:33+00:00",
+ "generated_at": "2026-07-25T17:54:08+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-25T16:04:25+00:00",
+   "updated_at": "2026-07-25T17:54:00+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-25T16:04:25+00:00",
+   "updated_at": "2026-07-25T17:54:00+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-25T16:04:29+00:00",
+   "updated_at": "2026-07-25T17:54:04+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,8 +400,38 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-25T16:04:33+00:00",
+   "updated_at": "2026-07-25T17:54:08+00:00",
    "items": [
+    {
+     "title": "Rio Grande do Sul volta a enfrentar risco de temporais e chuva acima de 100 mm",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/rio-grande-do-sul-volta-a-enfrentar-risco-de-temporais-e-chuva-acima-de-100-mm/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-25T17:36:04+00:00"
+    },
+    {
+     "title": "Leite de jumenta pode reduzir uso de antibióticos na reprodução equina, aponta estudo",
+     "link": "https://www.canalrural.com.br/pecuaria/leite-de-jumenta-pode-reduzir-uso-de-antibioticos-na-reproducao-equina-aponta-estudo/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-25T16:56:00+00:00"
+    },
+    {
+     "title": "Cepea: soja, milho e boi gordo fecham em alta na sexta-feira - boca.com.br",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLVJPVUVKM0cyVldfLUJFcFFyVnBCdTJkeUZUcWN3cTdHbEg3WEFLUkpNV29XZTFyd0tLNjV5ZXJCRWE4R1htWU9CX1c3amtnX1hYVE5xN0FydENxcUhjUGJpSTR1cF9Ucl84MEFyQnBlbV9mUTQ0VnVfdkswdy0tUExHTWN4Zlo2LW9RV3luS1NxZnJW?oc=5",
+     "source": "boca.com.br",
+     "published_at": "2026-07-25T16:20:13+00:00"
+    },
+    {
+     "title": "Cepea: Soja, milho e boi gordo encerram semana com novas altas - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWUhOTjNRTktDQjRGRmhUdU5GeVdfQjg2TzNyT1p3U2RySUJ3MHVWcDJzVGVUWG5ZNEp3aVBubWJIczJFc1FxRVFvcmpIZjZJVExNRmxDWlBRSFY3a3VJOWZZSXptRHpTbTJiU1VwY0lWb0hVM19vZEljMFVNUnQzQ2VLalBKTXhHel9oTDZyUE1Kb2VzbldLRGhBcG5TRi1zSHg4Z0Q1S2RKYklJekRncDlYd01OQQ?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-25T16:05:46+00:00"
+    },
+    {
+     "title": "Cepea: Soja, milho e boi gordo encerram semana com novas altas",
+     "link": "https://www.canalrural.com.br/agricultura/agronegocio/cepea-soja-milho-e-boi-gordo-encerram-semana-com-novas-altas/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-25T16:05:46+00:00"
+    },
     {
      "title": "Dívidas rurais, barter e tarifaço: os temas do novo Radar Rural",
      "link": "https://www.canalrural.com.br/agricultura/agronegocio/dividas-rurais-barter-e-tarifaco-os-temas-do-novo-radar-rural/",
@@ -493,12 +523,6 @@
      "published_at": "2026-07-24T22:46:35+00:00"
     },
     {
-     "title": "FAO confirma Brasil fora do Mapa da Fome e destaca agricultura familiar",
-     "link": "https://www.canalrural.com.br/politica/fao-confirma-brasil-fora-do-mapa-da-fome-e-destaca-agricultura-familiar/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T22:46:18+00:00"
-    },
-    {
      "title": "Soja tem melhor preço do ano - AgFeed",
      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95WG5jS0VHSFV3TlRrQnhfNDlhTjhyMGtuS0t2UkZueVZEMlhfZ0JDeUtIc08wZVNvOUtwLTdubnZNT3hSdUNpQmwwVEFnaHVQNUx4RTYxc0RHZEhqdjkyVl8yMmd5bjBXYkNKdHhoaHR6dXkxcGswWWgxRUVKSTg?oc=5",
      "source": "AgFeed",
@@ -509,30 +533,6 @@
      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSUxSSXF5bVVGalhOS2NxRXhYeEpHdndsTk9LeFk1Rnl1NUdFS1VNaUZ2TGQxQkIzdVd6cDYwSWk4RzhxRWtzMTBiVk9CMjBwd002QW1uQV9MNXQ0ZzJ1azhaZVZZbHVsdThZSktoOHV5MU9TRUlPUFh6UDdEaDJjR0VuOGZWRm5TajJYT2ZFVlVscS1IWndzQWlRYUZDZlRvX2ZNbkNCOFd2aWpZWHpLTWhmMERlaGk3ZzZVa01TVHgySFVRdDhERzd3Z3I?oc=5",
      "source": "Agrolink",
      "published_at": "2026-07-24T22:17:00+00:00"
-    },
-    {
-     "title": "Número de espécies exóticas de moluscos no Brasil aumenta 215% em 15 anos",
-     "link": "https://www.canalrural.com.br/nacional/numero-de-especies-exoticas-de-moluscos-no-brasil-aumenta-215-em-15-anos/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T22:13:05+00:00"
-    },
-    {
-     "title": "Mercado de soja tem preços firmes, mas retenção dos produtores limita os negócios",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/mercado-de-soja-tem-precos-firmes-mas-retencao-dos-produtores-limita-os-negocios/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-24T22:08:45+00:00"
-    },
-    {
-     "title": "Chicago registra maior cotação da soja desde 2024 - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbjFpX2FUV2w5djZGSkJrTE5fQml0NUs3dlB2eFVvTGtya0hRb3RCRUYtUzBmOEJwV1dfNzlodnQ1SGJPTGZMMUJZQ3NSdUNtNEowdHhtNjRlV2h0MmtZcmo3U1REMG9seXhLdV9oVDc4STVReDdOQVlLMWxwQUdFV3BVUjJyMDF4NU42dExHOWJVQUVJSzN3eFhTV1lqRThtT2p5VURoT3BwdmZfT081UnFfOHl4RmpD?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-24T20:29:00+00:00"
-    },
-    {
-     "title": "Rabobank prevê pausa na expansão da soja no Brasil - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTjM3QkM3MVEzTGtfZWZ6RV9vam41cjc0cUdKNkFDYUJRWkxrMnQ3YW9uLVB1d1lSLWV2ME1rUDY2Z3ZWVHZQVjBNeE9xWGRuU3RmVk12SVRJdVJISzdTZ1FlZ0VXa3BWLVRvbjZ1akIyUktOMDBBUy1FbUcwTWFUUlhBUi10RW5UQ3REa1ZrMGo5aGZ3?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-07-24T19:52:21+00:00"
     },
     {
      "title": "Soja dispara no Brasil, negócios superam 5 mi de t e preços seguem nos melhores níveis do ano - Notícias Agrícolas",

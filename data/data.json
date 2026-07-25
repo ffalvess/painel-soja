@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-25T09:47:45+00:00",
+ "generated_at": "2026-07-25T11:04:54+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-25T09:47:36+00:00",
+   "updated_at": "2026-07-25T11:04:49+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -228,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-25T09:47:36+00:00",
+   "updated_at": "2026-07-25T11:04:49+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-25T09:47:41+00:00",
+   "updated_at": "2026-07-25T11:04:52+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,8 +400,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-25T09:47:45+00:00",
+   "updated_at": "2026-07-25T11:04:54+00:00",
    "items": [
+    {
+     "title": "Clima nos EUA será decisivo para rumos do mercado de soja - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRlMwWW1ETExfek8tQWJ4YW5qRWJFNlZvQWc5ZFBCNU4zSTBOdGRaRVFBLVZwMzE3NVdxaGkzbTYwSGtQWng0cE14OVVpSFo4V0tqdkswVmhZeXNRM1BIclFkTGRJS2t6WjdnTXpJdUhOQVEzOUVVRHZfeUVtNWx3TU5XOFR6Zmd4RnVIV3ZGYVl5RTBpY3RzZTZ2dVlkeG1Tc0pfbDIzTnN2YkNFN3NJNTNIUFRDZnVnOEFCWTJhR3hUSWfSAdIBQVVfeXFMT0NscklpM0FBOEZDMzZ2VmY4aG5MaWRNZm1yUExnYU4yakh4UWM5MFN1RndkOXFWdExrazJDc19rZzhmcjV0QVdjWWxSR1phbEY5enFrOHctbDN6OWVYNERvYl9Oa3dJaENpUzlja3BBTFZySXRTNXppTjZaa2VUZThNb3NZc2M2ZlVjbXNXcFdrMmxBMEgyRm1wN09hMGVEY3B0YnljWkJVN3VnM204UVhRWjFVXzBvTWo4WFc0R2JyNjBrUXFWYUdLLVg4Z1lOMTJB?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-25T10:45:08+00:00"
+    },
+    {
+     "title": "Do Rio Grande ao Cerrado, a epopeia da soja brasileira – finalmente – vira romance - AgFeed",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5dWFlR2otdXBLeDdMRjdBcXhRcnN5MG5FMHA4cEpZUXlKV1NxcGk2YWNpdjd4UVdDT0hyTllkb1k1MExmVmZkdXZLc2paNzA5UWhkWjBR?oc=5",
+     "source": "AgFeed",
+     "published_at": "2026-07-25T10:16:00+00:00"
+    },
     {
      "title": "Preço da soja no Brasil atinge maior valor de 2026 - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeHI5VlJnTnJfUHZBY3dGMFVQQ0o3U1AxSGgwSDYtSF82OThUUUgxRUhwUHFiVFBBMlZCUm8wWFQ4dFhpMU5lMzc1V2F4RjlNWFJvSUJzMHFJZEd1LTJUZUNrb2M0T1o4ZFlyNUVLZ2p5d042T0N4aExKdS0xZ0NSSl9GbHZLMWMxWUtQQUh4VjdCbTUxbUxPRGVPWUs0bHkwMkUyUVhoczIxcWNrbGZ30gG-AUFVX3lxTFB4NlhfdWZ0UG5LM0g5VDM4cnJtSkFMTjNXdW51V29JQ2dXZ2VkbnNjWHA5S29QZHlmS29SRDlrX2wxUUs4OTNHSGQtdUpjUm83YlpkbTdRc3dELW40T3BZTVZsQ0VaRm0tdUdfajRQb05vWnhWbXBVWFZ3SzZvY2ZZbDVIb2YzR1NVMzFiUG9xazJhZVRaanhoNlRSMV9FZjJqMjNod3JndmlGQnhXcld1ckcxWXMxMlc2YWMzWXc?oc=5",
@@ -449,6 +461,12 @@
      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95WG5jS0VHSFV3TlRrQnhfNDlhTjhyMGtuS0t2UkZueVZEMlhfZ0JDeUtIc08wZVNvOUtwLTdubnZNT3hSdUNpQmwwVEFnaHVQNUx4RTYxc0RHZEhqdjkyVl8yMmd5bjBXYkNKdHhoaHR6dXkxcGswWWgxRUVKSTg?oc=5",
      "source": "AgFeed",
      "published_at": "2026-07-24T22:37:00+00:00"
+    },
+    {
+     "title": "Boletim semanal: Soja e boi lideram altas, enquanto café robusta recua 4% na semana - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSUxSSXF5bVVGalhOS2NxRXhYeEpHdndsTk9LeFk1Rnl1NUdFS1VNaUZ2TGQxQkIzdVd6cDYwSWk4RzhxRWtzMTBiVk9CMjBwd002QW1uQV9MNXQ0ZzJ1azhaZVZZbHVsdThZSktoOHV5MU9TRUlPUFh6UDdEaDJjR0VuOGZWRm5TajJYT2ZFVlVscS1IWndzQWlRYUZDZlRvX2ZNbkNCOFd2aWpZWHpLTWhmMERlaGk3ZzZVa01TVHgySFVRdDhERzd3Z3I?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-24T22:17:00+00:00"
     },
     {
      "title": "Número de espécies exóticas de moluscos no Brasil aumenta 215% em 15 anos",
@@ -529,18 +547,6 @@
      "published_at": "2026-07-24T16:49:46"
     },
     {
-     "title": "Clima nos EUA sustenta altas da soja em Chicago, apesar da pressão do trigo e do petróleo - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPS05kSkZSMG5ZdmE1bVRhaGFvMWNvR2d5WldLWXNQVXhQTm5NdFRGS2JpZGhmSTZnRnZOQ2NJTURkOG45emFfempyd0J1eklqNEE3YTJjVnQ1VjhfRndrR21oeXp3Ml95cy1nTk5kMGFtMUdGT2hsRVYzSVBnbllmOWU5aVduRy1SQjZDUGpEMHhjSzJZTzFvZUF1S3k1TjVTNFNPZ1FaSmZLSGF6NExINWlxNXgxTmZHbE5XUjZvNEFLRGlhZ191VXd4UEVtTjJpUGR4a28teW1fVUF2Vm5LZnVXQU0tQdIB6wFBVV95cUxObV9yUk5oQTdSVVhBd1haZ1RrRExUazE1cVFGckpxVU5EWEEwM25SU1JPeGMweTUxVFBrbHhJZzFycm1sZHpqazJmNmN0S19YVHBJdW5ISXF1ZWxnT2hob2VaVEZ3SU5fXzVuUUoyOGFHWmlCTU4wZ0NZM2FIbGxQY29XS3YxUm9fWGRmSkJWU1ZkWnBFSExBaTBJSEltTzYyVFFYdjdMLVIyeVJqM2NvY3ZsNFB5N2xxM3RubGp5WWRxcUUzTElsVWY3WEFSRTlCRFhRSUd0QVZoN2QzcHZxMEhpa1h4VV9JcHUw?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-24T15:59:05+00:00"
-    },
-    {
-     "title": "Preços do trigo e milho caem em Chicago; soja abre perto da estabilidade - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOc1FjVDZuWW1rSG5OOU9VV1BPUUF6OExSVks0am85WkJrRUl3RzFaQW5pOUR5Tm1rZ3p6RFQ4ZXhEX2c3NkRoSHlMQkNNYnRfWXNMeVJoM2hQT01OOGRpTEpfUThmYnV1b0N1eEt1RFBYLS1nTDMyaFNUcFRIZUpPMUExVnBSS1Z4NnhzZEx5TzBYS0RLREpXRlFNbnZrWW9LRm1NNTFPQ3J5UlRGcm5uaUR1STFjR3hfa2hMRkhLUUhFYnlYMVBjaXFRd9IB2gFBVV95cUxOMmJIbl9jMzN6ZzNKbUdiR2dxeUlUQTduQkpvWFQ5WkwxSk03OXlBMUtiM0cwOXVLdVhIWTJaeUVZbjBhVkNkeWpiOEFaV19QUkhDNkZZZzZodmU3QzBBa013UFhrVDlZQktaWEtxTktadWxhelIyV0hMV1VCaHZJNl8yTTJtZzFPNER0UkdhUFpqc2VDMnRkdXYxS3NlY2xKdTYzRVRuOTZpeTN3SS1yWGs1b3NwOFptVk1uOEtTSlBQT3hiaXNNZ04wY2Q5Uzk0MTN2R3huYk9Sdw?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-24T15:06:16+00:00"
-    },
-    {
      "title": "EUA fazem recall de quase 1,6 milhão de dúzias de ovos por risco de salmonela",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/24/eua-fazem-recall-de-quase-16-milhao-de-duzias-de-ovos-por-risco-de-salmonela.ghtml",
      "source": "G1 Agronegócios",
@@ -575,12 +581,6 @@
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTG5YSVRXbXZreGZYLTZMeEdTQXJGU3U5Mi1FS2JuMndwMDJlQlpHcnpuN19tdGdPX01DdHNsUDhqS09SN1F4SHEzR1FDdkdYMmx1em90bWdDd0ZrX2FOamFPSVJTSmZqQzMzcXlZdHpFWUNlMmdCMTlSanZ4N1NWQ3Vjenp3R2M4c0FMV2lJTzhWbWRrYXJOenBRSEVISjBCY1JHQk5zRGNHdmNsaS0zSUNqZTJJVTktV1J5ZEpwaVR6aHE5bUYxSmt6NEZMa0VmUks3b0lqcWhjbHFRNk8wMVFOWDFPdnQyOGEweg?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-23T15:17:40+00:00"
-    },
-    {
-     "title": "O plano da China para se livrar da dependência do agro brasileiro (e por que isso assusta o Brasil)",
-     "link": "https://g1.globo.com/economia/noticia/2026/07/23/o-plano-da-china-para-se-livrar-da-dependencia-do-agro-brasileiro-e-por-que-isso-assusta-o-brasil.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-23T07:43:55"
     }
    ],
    "failed": [

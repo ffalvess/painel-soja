@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-25T18:58:54+00:00",
+ "generated_at": "2026-07-25T20:12:39+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-25T18:58:45+00:00",
+   "updated_at": "2026-07-25T20:12:31+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -195,8 +195,8 @@
      "name": "Ibovespa",
      "unit": "pontos",
      "price": 174041.95,
-     "prev_close": 176724.0,
-     "change_pct": -1.52,
+     "prev_close": 177548.0,
+     "change_pct": -1.97,
      "closes": [
       170507.0,
       171990.0,
@@ -219,8 +219,7 @@
       173371.0,
       173326.0,
       177548.0,
-      176724.0,
-      174042.0
+      176724.0
      ]
     }
    ],
@@ -228,7 +227,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-25T18:58:46+00:00",
+   "updated_at": "2026-07-25T20:12:32+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,7 +238,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-25T18:58:50+00:00",
+   "updated_at": "2026-07-25T20:12:37+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -400,8 +399,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-25T18:58:54+00:00",
+   "updated_at": "2026-07-25T20:12:39+00:00",
    "items": [
+    {
+     "title": "Do campo ao boteco: bolovo valoriza carne suína, ovos caipiras e trigo",
+     "link": "https://www.canalrural.com.br/aves-e-suinos/do-campo-ao-boteco-bolovo-valoriza-carne-suina-ovos-caipiras-e-trigo/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-25T19:32:31+00:00"
+    },
+    {
+     "title": "O vinho e o vento: como a soja ameaça os parreirais do Rio Grande do Sul - NeoFeed",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNmUzakV0LUo4cEpSVWdQb2I2S2F2N0UzRWJmcURpTWxzalhVa1UtZGhkNDdVZm92ZGo5TWJWSVB5N1E2emRiQ3RJcDZFNjdZc3hKTnFReFdtcVpmellKNHBMdUo3SFU2djZ3T2JoQTVkRTV0aEEyYnFGdzhqMTRkSGNsQ3lBZ0FkdE9hb09SRHNISHlJZmdjWGtjXzJua3UzbXVZ?oc=5",
+     "source": "NeoFeed",
+     "published_at": "2026-07-25T19:22:00+00:00"
+    },
+    {
+     "title": "A disputa pelo prato do futuro, e por que não associamos o feijão à proteína?",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/a-disputa-pelo-prato-do-futuro-e-por-que-nao-associamos-o-feijao-a-proteina/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-25T19:05:00+00:00"
+    },
     {
      "title": "Soja avança mais de 10% no mês e boi gordo chega a R$ 343,75 - Vitória News",
      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVGtLajRKcFZPOGM3UG5jdUdGZVNnTldZYnFJQ0FLUmhwTVRLcHRxZF9BSTdRd3hJRWhQZnl1V3BqRFo0OWJPSXNCcU9aNTdhSXdLM1dZenFhSjVXbHUwQzlsOTZ6MjRCTVFmUU1feEFTdHRJRUl2MU5BV2pXTEJLZlR5UTNaTHliWVBEag?oc=5",
@@ -469,18 +486,6 @@
      "published_at": "2026-07-25T14:12:31+00:00"
     },
     {
-     "title": "Conheça o ingrediente de perfumes de luxo que está sendo descartado na produção de suco",
-     "link": "https://www.canalrural.com.br/agricultura/o-ingrediente-de-perfumes-de-luxo-que-esta-sendo-descartado-na-producao-de-suco/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-25T14:01:00+00:00"
-    },
-    {
-     "title": "Dia da Agricultura Familiar: setor responde por 40% do PIB agropecuário do RS",
-     "link": "https://www.canalrural.com.br/agricultura/dia-da-agricultura-familiar-setor-responde-por-40-do-pib-agropecuario-do-rs/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-25T12:54:36+00:00"
-    },
-    {
      "title": "Clima nos EUA será decisivo para rumos do mercado de soja - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRlMwWW1ETExfek8tQWJ4YW5qRWJFNlZvQWc5ZFBCNU4zSTBOdGRaRVFBLVZwMzE3NVdxaGkzbTYwSGtQWng0cE14OVVpSFo4V0tqdkswVmhZeXNRM1BIclFkTGRJS2t6WjdnTXpJdUhOQVEzOUVVRHZfeUVtNWx3TU5XOFR6Zmd4RnVIV3ZGYVl5RTBpY3RzZTZ2dVlkeG1Tc0pfbDIzTnN2YkNFN3NJNTNIUFRDZnVnOEFCWTJhR3hUSWfSAdIBQVVfeXFMT0NscklpM0FBOEZDMzZ2VmY4aG5MaWRNZm1yUExnYU4yakh4UWM5MFN1RndkOXFWdExrazJDc19rZzhmcjV0QVdjWWxSR1phbEY5enFrOHctbDN6OWVYNERvYl9Oa3dJaENpUzlja3BBTFZySXRTNXppTjZaa2VUZThNb3NZc2M2ZlVjbXNXcFdrMmxBMEgyRm1wN09hMGVEY3B0YnljWkJVN3VnM204UVhRWjFVXzBvTWo4WFc0R2JyNjBrUXFWYUdLLVg4Z1lOMTJB?oc=5",
      "source": "Globo Rural",
@@ -521,12 +526,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/25/como-e-feito-o-foie-gras.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-25T03:00:32"
-    },
-    {
-     "title": "Soja tem melhor preço do ano - AgFeed",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95WG5jS0VHSFV3TlRrQnhfNDlhTjhyMGtuS0t2UkZueVZEMlhfZ0JDeUtIc08wZVNvOUtwLTdubnZNT3hSdUNpQmwwVEFnaHVQNUx4RTYxc0RHZEhqdjkyVl8yMmd5bjBXYkNKdHhoaHR6dXkxcGswWWgxRUVKSTg?oc=5",
-     "source": "AgFeed",
-     "published_at": "2026-07-24T22:37:00+00:00"
     },
     {
      "title": "Boletim semanal: Soja e boi lideram altas, enquanto café robusta recua 4% na semana - Agrolink",

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-25T05:38:37+00:00",
+ "generated_at": "2026-07-25T07:57:34+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-25T05:38:28+00:00",
+   "updated_at": "2026-07-25T07:57:29+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -195,8 +195,8 @@
      "name": "Ibovespa",
      "unit": "pontos",
      "price": 174041.95,
-     "prev_close": 177548.0,
-     "change_pct": -1.97,
+     "prev_close": 176724.0,
+     "change_pct": -1.52,
      "closes": [
       170507.0,
       171990.0,
@@ -219,7 +219,8 @@
       173371.0,
       173326.0,
       177548.0,
-      176724.0
+      176724.0,
+      174042.0
      ]
     }
    ],
@@ -227,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-25T05:38:29+00:00",
+   "updated_at": "2026-07-25T07:57:29+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -238,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-25T05:38:33+00:00",
+   "updated_at": "2026-07-25T07:57:32+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -257,26 +258,26 @@
       0.0,
       0.0,
       0.0,
-      0.0,
+      0.3,
       0.0
      ],
      "tmax": [
-      35.8,
-      35.7,
-      35.7,
       35.5,
-      35.0,
-      35.5,
-      36.5
+      35.9,
+      36.1,
+      35.6,
+      34.7,
+      35.3,
+      36.8
      ],
      "tmin": [
-      21.1,
-      21.7,
-      21.4,
-      22.5,
-      23.2,
-      23.3,
-      24.1
+      21.5,
+      22.0,
+      21.8,
+      22.1,
+      23.4,
+      23.1,
+      23.8
      ]
     },
     {
@@ -300,22 +301,22 @@
       0.0
      ],
      "tmax": [
-      34.4,
-      34.8,
-      34.7,
       34.2,
-      34.0,
       34.7,
-      35.4
+      35.1,
+      34.5,
+      33.9,
+      34.4,
+      35.3
      ],
      "tmin": [
-      21.4,
-      21.4,
+      21.5,
+      21.8,
       21.8,
       22.2,
       22.7,
       22.5,
-      23.9
+      23.2
      ]
     },
     {
@@ -330,7 +331,7 @@
       "2026-07-31"
      ],
      "precip": [
-      0.4,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -340,21 +341,21 @@
      ],
      "tmax": [
       31.0,
-      31.6,
-      32.3,
-      32.1,
-      33.5,
-      33.3,
-      33.8
+      31.1,
+      32.4,
+      33.1,
+      33.4,
+      34.0,
+      33.2
      ],
      "tmin": [
-      18.1,
-      19.4,
-      20.0,
-      22.3,
+      17.7,
+      19.0,
+      20.3,
+      21.3,
       20.9,
-      22.0,
-      23.0
+      21.2,
+      22.6
      ]
     },
     {
@@ -369,38 +370,50 @@
       "2026-07-31"
      ],
      "precip": [
-      1.7,
+      12.9,
       0.0,
       0.0,
       0.0,
-      18.1,
-      2.7,
-      0.8
+      22.4,
+      1.6,
+      0.0
      ],
      "tmax": [
-      26.2,
+      25.6,
+      27.8,
+      30.1,
+      31.0,
+      31.1,
       28.1,
-      30.2,
-      31.3,
-      30.9,
-      28.6,
-      28.0
+      28.6
      ],
      "tmin": [
-      17.0,
-      17.8,
+      17.2,
+      17.7,
       18.8,
-      18.7,
-      19.8,
       18.8,
-      18.3
+      19.6,
+      18.8,
+      20.6
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-25T05:38:37+00:00",
+   "updated_at": "2026-07-25T07:57:34+00:00",
    "items": [
+    {
+     "title": "Acordo entre EUA e China ganha tração na soja, mas Brasil segue competitivo - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbXpGRHRfengzVFFsMnBEdFBSTWNVS1pmSkRrOWJPVEk5SDJaYUVOYnVBbFZuRHhlTGtEWnJEdU9nS3hyNFFtNG0wNHFFWGRlTmRHY1gydXYtQm8zVmpUdkNVOFRMYm5yNjh0LTJ4bGVsUGtQM2Nwd1lpbklSXzVwYjE0S0VEdXc2cWZSalJSNW1vd194cFFDUjEtUnc4QTl2LTFSVURFWmROMVBTLUE?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-07-25T07:04:56+00:00"
+    },
+    {
+     "title": "Vinho europeu deve ficar até 20% mais barato com acordo UE-Mercosul, mas redução ainda é tímida",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/25/vinho-europeu-acordo-ue-mercosul.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-25T06:00:36"
+    },
     {
      "title": "Como é feito o foie gras, alimento que foi proibido por Lula e reacendeu a tensão comercial com a França",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/25/como-e-feito-o-foie-gras.ghtml",
@@ -424,12 +437,6 @@
      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95WG5jS0VHSFV3TlRrQnhfNDlhTjhyMGtuS0t2UkZueVZEMlhfZ0JDeUtIc08wZVNvOUtwLTdubnZNT3hSdUNpQmwwVEFnaHVQNUx4RTYxc0RHZEhqdjkyVl8yMmd5bjBXYkNKdHhoaHR6dXkxcGswWWgxRUVKSTg?oc=5",
      "source": "AgFeed",
      "published_at": "2026-07-24T22:37:00+00:00"
-    },
-    {
-     "title": "Boletim semanal: Soja e boi lideram altas, enquanto café robusta recua 4% na semana - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSUxSSXF5bVVGalhOS2NxRXhYeEpHdndsTk9LeFk1Rnl1NUdFS1VNaUZ2TGQxQkIzdVd6cDYwSWk4RzhxRWtzMTBiVk9CMjBwd002QW1uQV9MNXQ0ZzJ1azhaZVZZbHVsdThZSktoOHV5MU9TRUlPUFh6UDdEaDJjR0VuOGZWRm5TajJYT2ZFVlVscS1IWndzQWlRYUZDZlRvX2ZNbkNCOFd2aWpZWHpLTWhmMERlaGk3ZzZVa01TVHgySFVRdDhERzd3Z3I?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-24T22:17:00+00:00"
     },
     {
      "title": "Número de espécies exóticas de moluscos no Brasil aumenta 215% em 15 anos",
@@ -490,6 +497,12 @@
      "link": "https://www.canalrural.com.br/economia/conab-abre-pregao-para-transporte-de-16-mil-toneladas-de-milho/",
      "source": "Canal Rural",
      "published_at": "2026-07-24T21:10:39+00:00"
+    },
+    {
+     "title": "Chicago registra maior cotação da soja desde 2024 - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbjFpX2FUV2w5djZGSkJrTE5fQml0NUs3dlB2eFVvTGtya0hRb3RCRUYtUzBmOEJwV1dfNzlodnQ1SGJPTGZMMUJZQ3NSdUNtNEowdHhtNjRlV2h0MmtZcmo3U1REMG9seXhLdV9oVDc4STVReDdOQVlLMWxwQUdFV3BVUjJyMDF4NU42dExHOWJVQUVJSzN3eFhTV1lqRThtT2p5VURoT3BwdmZfT081UnFfOHl4RmpD?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-24T20:29:00+00:00"
     },
     {
      "title": "Soja sobe, milho fecha estável e trigo recua em Chicago - CNN Brasil",
@@ -568,18 +581,6 @@
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOTG5YSVRXbXZreGZYLTZMeEdTQXJGU3U5Mi1FS2JuMndwMDJlQlpHcnpuN19tdGdPX01DdHNsUDhqS09SN1F4SHEzR1FDdkdYMmx1em90bWdDd0ZrX2FOamFPSVJTSmZqQzMzcXlZdHpFWUNlMmdCMTlSanZ4N1NWQ3Vjenp3R2M4c0FMV2lJTzhWbWRrYXJOenBRSEVISjBCY1JHQk5zRGNHdmNsaS0zSUNqZTJJVTktV1J5ZEpwaVR6aHE5bUYxSmt6NEZMa0VmUks3b0lqcWhjbHFRNk8wMVFOWDFPdnQyOGEweg?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-23T15:17:40+00:00"
-    },
-    {
-     "title": "O plano da China para se livrar da dependência do agro brasileiro (e por que isso assusta o Brasil)",
-     "link": "https://g1.globo.com/economia/noticia/2026/07/23/o-plano-da-china-para-se-livrar-da-dependencia-do-agro-brasileiro-e-por-que-isso-assusta-o-brasil.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-23T07:43:55"
-    },
-    {
-     "title": "Cidade espanhola presenteia campeões da Copa com tomates equivalentes ao próprio peso; veja vídeo",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/22/cidade-espanhola-presenteia-campeoes-da-copa-com-tomates-equivalentes-ao-proprio-peso-veja-video.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-22T16:33:48"
     }
    ],
    "failed": [

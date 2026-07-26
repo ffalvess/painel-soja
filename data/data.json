@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-26T11:58:32+00:00",
+ "generated_at": "2026-07-26T13:26:29+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-26T11:58:08+00:00",
+   "updated_at": "2026-07-26T13:26:20+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -189,8 +189,8 @@
      "name": "Ibovespa",
      "unit": "pontos",
      "price": 174041.95,
-     "prev_close": 176724.0,
-     "change_pct": -1.52,
+     "prev_close": 177548.0,
+     "change_pct": -1.97,
      "closes": [
       170507.0,
       171990.0,
@@ -213,8 +213,7 @@
       173371.0,
       173326.0,
       177548.0,
-      176724.0,
-      174042.0
+      176724.0
      ]
     }
    ],
@@ -222,7 +221,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-26T11:58:08+00:00",
+   "updated_at": "2026-07-26T13:26:20+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -233,7 +232,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-26T11:58:29+00:00",
+   "updated_at": "2026-07-26T13:26:26+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -251,27 +250,27 @@
       0.0,
       0.0,
       0.0,
-      0.0,
+      0.3,
       0.0,
       0.0
      ],
      "tmax": [
-      35.5,
-      36.0,
-      35.3,
-      34.8,
+      35.2,
       35.9,
-      36.3,
+      35.4,
+      34.5,
+      35.2,
+      36.6,
       35.8
      ],
      "tmin": [
-      22.0,
-      22.0,
-      22.0,
-      22.8,
-      23.7,
-      22.1,
-      24.1
+      21.7,
+      21.6,
+      21.6,
+      22.6,
+      23.6,
+      22.4,
+      24.0
      ]
     },
     {
@@ -289,28 +288,28 @@
       0.2,
       0.0,
       0.0,
-      0.6,
+      0.0,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      34.1,
-      34.8,
-      34.1,
-      34.1,
+      33.9,
       34.5,
-      35.2,
+      33.6,
+      33.9,
+      34.7,
+      35.5,
       34.7
      ],
      "tmin": [
-      22.2,
-      21.0,
-      22.2,
-      22.2,
-      22.6,
-      22.0,
-      23.3
+      21.9,
+      20.9,
+      22.3,
+      22.4,
+      23.2,
+      21.9,
+      22.9
      ]
     },
     {
@@ -334,21 +333,21 @@
       0.0
      ],
      "tmax": [
-      29.7,
-      31.5,
-      32.4,
+      29.4,
+      31.0,
+      32.3,
+      33.0,
       33.3,
-      33.5,
       32.7,
       31.6
      ],
      "tmin": [
-      17.7,
+      17.1,
+      18.7,
       19.0,
-      19.0,
-      20.6,
-      20.0,
-      21.1,
+      19.6,
+      19.3,
+      21.6,
       22.5
      ]
     },
@@ -367,35 +366,47 @@
       0.0,
       0.0,
       0.0,
-      12.6,
-      6.3,
+      13.0,
+      0.0,
       0.0,
       0.0
      ],
      "tmax": [
       27.8,
-      30.6,
-      31.4,
-      31.6,
-      27.8,
+      30.4,
+      31.2,
+      30.1,
+      28.1,
       28.0,
       30.9
      ],
      "tmin": [
-      17.5,
-      18.5,
-      18.7,
-      19.4,
-      18.1,
-      18.3,
+      17.4,
+      18.2,
+      18.8,
+      20.0,
+      19.0,
+      19.9,
       20.2
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-26T11:58:32+00:00",
+   "updated_at": "2026-07-26T13:26:29+00:00",
    "items": [
+    {
+     "title": "A rentabilidade do agro está sendo comprimida, e o juro alto faz parte do problema",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/a-rentabilidade-do-agro-esta-sendo-comprimida-e-o-juro-alto-faz-parte-do-problema/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-26T12:30:00+00:00"
+    },
+    {
+     "title": "Escolha da semente define produtividade e vida útil das pastagens",
+     "link": "https://www.canalrural.com.br/pecuaria/escolha-da-semente-define-produtividade-e-vida-util-das-pastagens/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-26T12:03:00+00:00"
+    },
     {
      "title": "Parque Estadual abriga maior remanescente de Mata Atlântica do interior paulista",
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/07/26/parque-estadual-abriga-maior-remanescente-de-mata-atlantica-do-interior-paulista.ghtml",
@@ -425,12 +436,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/26/arroz-cafe-trigo-e-mais-como-a-crise-dos-fertilizantes-em-ano-de-el-nino-pode-pressionar-precos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-26T07:01:08"
-    },
-    {
-     "title": "Produtores aceleram vendas de soja para liberar espaço em armazéns para próxima safra - Estadão MT",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQU3lTaVVmQThXWTUyb3dWTlQ2alV2RE8xN0FsRTIwbHBuQmgtNnlJYmdlNGpyR3Rra3lueTk3YS1ReGVwN3d2alZmeUhnLXFfRFprcktleEg0amdnREhseWFQOWtzSEtia1lOak9fYXNuWHpxV2hoVGgtYmtMc2NGRFhGYTA2WDF3SWpseWdnbEh4emhLUG5nckQzbFZNdWdFVkw5TzZ2OGdGVlNIRU1PYWk4d2k5MHQ2ZlozaEIzMXVVdURjamEzOWZYbldUdW9KWUk0NXUtREg?oc=5",
-     "source": "Estadão MT",
-     "published_at": "2026-07-26T00:02:00+00:00"
     },
     {
      "title": "Arroba teve alta de 4,5% na semana, mas elevação não deve se sustentar no curto prazo",
@@ -493,18 +498,6 @@
      "published_at": "2026-07-25T16:05:46+00:00"
     },
     {
-     "title": "Cepea: Soja, milho e boi gordo encerram semana com novas altas",
-     "link": "https://www.canalrural.com.br/agricultura/agronegocio/cepea-soja-milho-e-boi-gordo-encerram-semana-com-novas-altas/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-25T16:05:46+00:00"
-    },
-    {
-     "title": "Dívidas rurais, barter e tarifaço: os temas do novo Radar Rural",
-     "link": "https://www.canalrural.com.br/agricultura/agronegocio/dividas-rurais-barter-e-tarifaco-os-temas-do-novo-radar-rural/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-25T15:34:38+00:00"
-    },
-    {
      "title": "Do Rio Grande ao Cerrado, a epopeia da soja brasileira – finalmente – vira romance - AgFeed",
      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBjcWFFYmVrMTBtZHpNVm1lQ0tIaTVCcXVOdTRyY184TE5vcWFoQ01oZnlUcjBsWjdBbld2RWpRRUgxSnNaVWdhaEdLN0psVFY4cThybF9ubw?oc=5",
      "source": "AgFeed",
@@ -521,6 +514,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/25/como-e-feito-o-foie-gras.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-25T03:00:32"
+    },
+    {
+     "title": "Soja tem melhor preço do ano - AgFeed",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95WG5jS0VHSFV3TlRrQnhfNDlhTjhyMGtuS0t2UkZueVZEMlhfZ0JDeUtIc08wZVNvOUtwLTdubnZNT3hSdUNpQmwwVEFnaHVQNUx4RTYxc0RHZEhqdjkyVl8yMmd5bjBXYkNKdHhoaHR6dXkxcGswWWgxRUVKSTg?oc=5",
+     "source": "AgFeed",
+     "published_at": "2026-07-24T22:37:00+00:00"
     },
     {
      "title": "Boletim semanal: Soja e boi lideram altas, enquanto café robusta recua 4% na semana - Agrolink",

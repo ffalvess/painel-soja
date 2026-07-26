@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-26T13:26:29+00:00",
+ "generated_at": "2026-07-26T14:59:56+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-26T13:26:20+00:00",
+   "updated_at": "2026-07-26T14:59:48+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -189,8 +189,8 @@
      "name": "Ibovespa",
      "unit": "pontos",
      "price": 174041.95,
-     "prev_close": 177548.0,
-     "change_pct": -1.97,
+     "prev_close": 176724.0,
+     "change_pct": -1.52,
      "closes": [
       170507.0,
       171990.0,
@@ -213,7 +213,8 @@
       173371.0,
       173326.0,
       177548.0,
-      176724.0
+      176724.0,
+      174042.0
      ]
     }
    ],
@@ -221,7 +222,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-26T13:26:20+00:00",
+   "updated_at": "2026-07-26T14:59:48+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -232,7 +233,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-26T13:26:26+00:00",
+   "updated_at": "2026-07-26T14:59:53+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -393,8 +394,38 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-26T13:26:29+00:00",
+   "updated_at": "2026-07-26T14:59:56+00:00",
    "items": [
+    {
+     "title": "Rio Grande do Sul tem 206 cidades afetadas por fortes chuvas",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/rio-grande-do-sul-tem-206-cidades-afetadas-por-fortes-chuvas/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-26T14:35:00+00:00"
+    },
+    {
+     "title": "Ventos acima de 100 km/h e chuva de 150 milímetros: ciclone coloca Sul em alerta",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/ventos-acima-de-100-km-h-e-chuva-de-150-milimetros-ciclone-coloca-sul-em-alerta/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-26T14:05:00+00:00"
+    },
+    {
+     "title": "O futuro da proteína animal passa pelo Brasil",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/o-futuro-da-proteina-animal-passa-pelo-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-26T14:04:12+00:00"
+    },
+    {
+     "title": "MT bate recorde e exporta 24 milhões de toneladas de soja no semestre - Estadão MT",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVnJrNFBWb0dnYnk3SW81SDFOLXFVOWZEWjJNdXhpM0FwLUUwbjduSFh2eElZRUJaZnc4RnNNOHlLUTBiNk5SU2tMOWF4QmRPallFcFkyWUhqNU5vM3FqcnpjUTJCdFk1cnNCWlc4bTRyTUgwVS11S2xrOVluclJ2Y1U0c0FrNEpYNjh4aWVfdXRLNGg2TnVGU1BXNkhkcjlZbG9fa0lhSERGQ0ZCTndPQUd6REpDLTZ2R29zNHgzOXFhUmM?oc=5",
+     "source": "Estadão MT",
+     "published_at": "2026-07-26T14:02:00+00:00"
+    },
+    {
+     "title": "Logística ainda desafia competitividade da soja e do milho em Mato Grosso do Sul, aponta Aprosoja - capitalnews.com.br",
+     "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPcE84bWlQT3RKRUVQUHU2MmJtSFBaOVZzUk9fZ3Q0ZWdXQU1MSi1HWnB5X1JnNTd6NXhNenh1bF9md3BLd3AzeVM3X25WdlYyZTdaVGhsbXlfU3M2bGRZSWJaaEtMMHlsSFNqTnFWSzBJb0xacXp2ZEhMaUw0NW9YNmNaNWRHbU55X19EazdIQ2F5cUxQeEp2aFhWR2h3QjRIVlJLSFptcFBTaHltTXlIUHJRUV81WVdXdF9tUjgxRTJRNlBGNVg0TEJZbkY2OTBrQk5JX2FWaWl3OFNSM1M4ZEprd1IwNl85VGRrb20yYmpaOHdoREZBZUx0ZlIwZw?oc=5",
+     "source": "capitalnews.com.br",
+     "published_at": "2026-07-26T13:26:00+00:00"
+    },
     {
      "title": "A rentabilidade do agro está sendo comprimida, e o juro alto faz parte do problema",
      "link": "https://www.canalrural.com.br/opiniao-noticias/a-rentabilidade-do-agro-esta-sendo-comprimida-e-o-juro-alto-faz-parte-do-problema/",
@@ -474,28 +505,16 @@
      "published_at": "2026-07-25T19:05:00+00:00"
     },
     {
-     "title": "Nelore pintado: bois entregam média de 19 arrobas em confinamento de MT; confira",
-     "link": "https://www.canalrural.com.br/pecuaria/nelore-pintado-bois-entregam-media-de-19-arrobas-em-confinamento-de-mt-confira/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-25T18:07:08+00:00"
-    },
-    {
-     "title": "Rio Grande do Sul volta a enfrentar risco de temporais e chuva acima de 100 mm",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/rio-grande-do-sul-volta-a-enfrentar-risco-de-temporais-e-chuva-acima-de-100-mm/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-25T17:36:04+00:00"
-    },
-    {
-     "title": "Leite de jumenta pode reduzir uso de antibióticos na reprodução equina, aponta estudo",
-     "link": "https://www.canalrural.com.br/pecuaria/leite-de-jumenta-pode-reduzir-uso-de-antibioticos-na-reproducao-equina-aponta-estudo/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-25T16:56:00+00:00"
-    },
-    {
      "title": "Cepea: Soja, milho e boi gordo encerram semana com novas altas - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWUhOTjNRTktDQjRGRmhUdU5GeVdfQjg2TzNyT1p3U2RySUJ3MHVWcDJzVGVUWG5ZNEp3aVBubWJIczJFc1FxRVFvcmpIZjZJVExNRmxDWlBRSFY3a3VJOWZZSXptRHpTbTJiU1VwY0lWb0hVM19vZEljMFVNUnQzQ2VLalBKTXhHel9oTDZyUE1Kb2VzbldLRGhBcG5TRi1zSHg4Z0Q1S2RKYklJekRncDlYd01OQQ?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-25T16:05:46+00:00"
+    },
+    {
+     "title": "Clima nos EUA será decisivo para rumos do mercado de soja - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRlMwWW1ETExfek8tQWJ4YW5qRWJFNlZvQWc5ZFBCNU4zSTBOdGRaRVFBLVZwMzE3NVdxaGkzbTYwSGtQWng0cE14OVVpSFo4V0tqdkswVmhZeXNRM1BIclFkTGRJS2t6WjdnTXpJdUhOQVEzOUVVRHZfeUVtNWx3TU5XOFR6Zmd4RnVIV3ZGYVl5RTBpY3RzZTZ2dVlkeG1Tc0pfbDIzTnN2YkNFN3NJNTNIUFRDZnVnOEFCWTJhR3hUSWfSAdIBQVVfeXFMT0NscklpM0FBOEZDMzZ2VmY4aG5MaWRNZm1yUExnYU4yakh4UWM5MFN1RndkOXFWdExrazJDc19rZzhmcjV0QVdjWWxSR1phbEY5enFrOHctbDN6OWVYNERvYl9Oa3dJaENpUzlja3BBTFZySXRTNXppTjZaa2VUZThNb3NZc2M2ZlVjbXNXcFdrMmxBMEgyRm1wN09hMGVEY3B0YnljWkJVN3VnM204UVhRWjFVXzBvTWo4WFc0R2JyNjBrUXFWYUdLLVg4Z1lOMTJB?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-25T10:45:08+00:00"
     },
     {
      "title": "Do Rio Grande ao Cerrado, a epopeia da soja brasileira – finalmente – vira romance - AgFeed",
@@ -516,12 +535,6 @@
      "published_at": "2026-07-25T03:00:32"
     },
     {
-     "title": "Soja tem melhor preço do ano - AgFeed",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95WG5jS0VHSFV3TlRrQnhfNDlhTjhyMGtuS0t2UkZueVZEMlhfZ0JDeUtIc08wZVNvOUtwLTdubnZNT3hSdUNpQmwwVEFnaHVQNUx4RTYxc0RHZEhqdjkyVl8yMmd5bjBXYkNKdHhoaHR6dXkxcGswWWgxRUVKSTg?oc=5",
-     "source": "AgFeed",
-     "published_at": "2026-07-24T22:37:00+00:00"
-    },
-    {
      "title": "Boletim semanal: Soja e boi lideram altas, enquanto café robusta recua 4% na semana - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSUxSSXF5bVVGalhOS2NxRXhYeEpHdndsTk9LeFk1Rnl1NUdFS1VNaUZ2TGQxQkIzdVd6cDYwSWk4RzhxRWtzMTBiVk9CMjBwd002QW1uQV9MNXQ0ZzJ1azhaZVZZbHVsdThZSktoOHV5MU9TRUlPUFh6UDdEaDJjR0VuOGZWRm5TajJYT2ZFVlVscS1IWndzQWlRYUZDZlRvX2ZNbkNCOFd2aWpZWHpLTWhmMERlaGk3ZzZVa01TVHgySFVRdDhERzd3Z3I?oc=5",
      "source": "Agrolink",
@@ -538,12 +551,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/24/veto-ao-foie-gras-no-brasil-reacende-tensao-comercial-com-a-franca-apos-acordo-mercosul-ue.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-24T16:49:46"
-    },
-    {
-     "title": "Clima nos EUA sustenta altas da soja em Chicago, apesar da pressão do trigo e do petróleo - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPS05kSkZSMG5ZdmE1bVRhaGFvMWNvR2d5WldLWXNQVXhQTm5NdFRGS2JpZGhmSTZnRnZOQ2NJTURkOG45emFfempyd0J1eklqNEE3YTJjVnQ1VjhfRndrR21oeXp3Ml95cy1nTk5kMGFtMUdGT2hsRVYzSVBnbllmOWU5aVduRy1SQjZDUGpEMHhjSzJZTzFvZUF1S3k1TjVTNFNPZ1FaSmZLSGF6NExINWlxNXgxTmZHbE5XUjZvNEFLRGlhZ191VXd4UEVtTjJpUGR4a28teW1fVUF2Vm5LZnVXQU0tQdIB6wFBVV95cUxObV9yUk5oQTdSVVhBd1haZ1RrRExUazE1cVFGckpxVU5EWEEwM25SU1JPeGMweTUxVFBrbHhJZzFycm1sZHpqazJmNmN0S19YVHBJdW5ISXF1ZWxnT2hob2VaVEZ3SU5fXzVuUUoyOGFHWmlCTU4wZ0NZM2FIbGxQY29XS3YxUm9fWGRmSkJWU1ZkWnBFSExBaTBJSEltTzYyVFFYdjdMLVIyeVJqM2NvY3ZsNFB5N2xxM3RubGp5WWRxcUUzTElsVWY3WEFSRTlCRFhRSUd0QVZoN2QzcHZxMEhpa1h4VV9JcHUw?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-24T15:59:05+00:00"
     },
     {
      "title": "EUA fazem recall de quase 1,6 milhão de dúzias de ovos por risco de salmonela",
@@ -568,12 +575,6 @@
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc3dYZW9RdFdtT0RVWnhfUHIzNWl6WUZrdkYyT2NPSXB2QzNSdlFPMHFDcFVFQ294QjBIS1Vhc0lMbG1faGxXZm1UeTBWX1d1SllqUGlpYXNvck14Tkl2Y1VST3dWUGxGNG1pTl9WUmdFclVvUGo2V2Fyb04zbVFqRWZqRmprMTV2cWRiWE1ib1NJel9OUXRxYUUwMmVFT3FGSTRMYkJxNUFrdG5Hc0J4Z0g2cjNWdkk?oc=5",
      "source": "Comunica UFU",
      "published_at": "2026-07-24T07:00:00+00:00"
-    },
-    {
-     "title": "Casca enrugada do ovo pode ser sinal de estresse nas galinhas; veja por que isso acontece",
-     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/07/24/casca-enrugada-do-ovo-pode-ser-sinal-de-estresse-nas-galinhas-veja-por-que-isso-acontece.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-24T06:00:12"
     }
    ],
    "failed": [

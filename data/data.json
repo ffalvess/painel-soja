@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-26T22:54:34+00:00",
+ "generated_at": "2026-07-26T23:55:11+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-26T22:54:25+00:00",
+   "updated_at": "2026-07-26T23:55:03+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -158,9 +158,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.81,
+     "price": 91.96,
      "prev_close": 96.78,
-     "change_pct": -5.14,
+     "change_pct": -4.98,
      "closes": [
       71.99,
       73.15,
@@ -182,7 +182,7 @@
       94.07,
       100.69,
       96.78,
-      91.81
+      91.96
      ]
     },
     {
@@ -190,8 +190,8 @@
      "name": "Ibovespa",
      "unit": "pontos",
      "price": 174041.95,
-     "prev_close": 176724.0,
-     "change_pct": -1.52,
+     "prev_close": 177548.0,
+     "change_pct": -1.97,
      "closes": [
       170507.0,
       171990.0,
@@ -214,8 +214,7 @@
       173371.0,
       173326.0,
       177548.0,
-      176724.0,
-      174042.0
+      176724.0
      ]
     }
    ],
@@ -223,7 +222,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-26T22:54:25+00:00",
+   "updated_at": "2026-07-26T23:55:03+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -234,7 +233,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-26T22:54:30+00:00",
+   "updated_at": "2026-07-26T23:55:08+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -395,8 +394,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-26T22:54:34+00:00",
+   "updated_at": "2026-07-26T23:55:11+00:00",
    "items": [
+    {
+     "title": "Porto de Santos firma acordo com complexo chinês para estudar transbordo de soja em alto-mar - G1",
+     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbVpLNjRYXy13S2lGWmdTTUpDYkdUMnhJNnhsM0xpNGQzVnBNSkFDdzFsVk5tXzBzc1NzNXAwR3J4RHJrOHJJclJlLVVFX1hXX1NZY1FkUjdZeDlES0JtQUlRWHJPd09Cd0NZeWR6SmtXSkF1elpEZjBFenEwS3NoRkNRVnV3ek1kMWVuejJHVEs2bTJUUjR6ZDZ3ZVZ3SHBJVlYtQ0NRejZtaTdqYTU4U09JY2stMy00blM0YnhYdndJSHRtRWR3bW9SN0dPZDVnOFFjRTZCVEY3ZGZ2YnZiUU5VN3UwZTVUSXpsT3JZV2pfLU5CRk85Q9IBhwJBVV95cUxOVlF3cUdaM1Q2dzdoakVfRUNfYzV3bW8wNGUyRUl6MWdiUldXVkZBVlpOdW5fZkRxS2xURFJvSHQ0QnlXRHo1VHdpOU4ydVRMSkMzdzc4amladldDZXhfNXNDWGxYNmQ5b0Y3dXF1VXN0OG85MWJnVlhGNGZMbkVOYldQaFV1ay1CTmFXTHpxeFJwajBrTWlVd1V4V21nSVh1SS1acFhDTzNVU0pYaDJRX3ZiMXRqNEVUcENvOUFPcWZQX0ZhY1RJd0Q3R19qN2pVODBJMnFEX1RyVGl2NUJwMlZQVVZCb2xRRjhXeXVEcXVUTW9xYlc1c1BVRHQtbmxrbHp6OG0zNA?oc=5",
+     "source": "G1",
+     "published_at": "2026-07-26T23:06:37+00:00"
+    },
     {
      "title": "Brasil encerra ciclo de expansão da soja após 20 anos, projeta RaboBank - Times Brasil | CNBC",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdkpLVGZkMkZhWmlaanF4THNWaHUwX1gwU1BYRUZYTjNDOEVYWTMxb3FNeF9qc0trYWtVdFY0eEp4NjB6TE1RVFNmVGV3cWdQNnNVU19QeGZWRDJIblFxLUwtMjd5anV0eGZFd1QtdURDb0w2b3UxMC1EaXFDTXNWTXk0WDF0ZFBoRTlwelp0cnFER01QMG1faExYMjc?oc=5",
@@ -510,12 +515,6 @@
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNmUzakV0LUo4cEpSVWdQb2I2S2F2N0UzRWJmcURpTWxzalhVa1UtZGhkNDdVZm92ZGo5TWJWSVB5N1E2emRiQ3RJcDZFNjdZc3hKTnFReFdtcVpmellKNHBMdUo3SFU2djZ3T2JoQTVkRTV0aEEyYnFGdzhqMTRkSGNsQ3lBZ0FkdE9hb09SRHNISHlJZmdjWGtjXzJua3UzbXVZ?oc=5",
      "source": "NeoFeed",
      "published_at": "2026-07-25T19:22:00+00:00"
-    },
-    {
-     "title": "Clima nos EUA será decisivo para rumos do mercado de soja - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRlMwWW1ETExfek8tQWJ4YW5qRWJFNlZvQWc5ZFBCNU4zSTBOdGRaRVFBLVZwMzE3NVdxaGkzbTYwSGtQWng0cE14OVVpSFo4V0tqdkswVmhZeXNRM1BIclFkTGRJS2t6WjdnTXpJdUhOQVEzOUVVRHZfeUVtNWx3TU5XOFR6Zmd4RnVIV3ZGYVl5RTBpY3RzZTZ2dVlkeG1Tc0pfbDIzTnN2YkNFN3NJNTNIUFRDZnVnOEFCWTJhR3hUSWfSAdIBQVVfeXFMT0NscklpM0FBOEZDMzZ2VmY4aG5MaWRNZm1yUExnYU4yakh4UWM5MFN1RndkOXFWdExrazJDc19rZzhmcjV0QVdjWWxSR1phbEY5enFrOHctbDN6OWVYNERvYl9Oa3dJaENpUzlja3BBTFZySXRTNXppTjZaa2VUZThNb3NZc2M2ZlVjbXNXcFdrMmxBMEgyRm1wN09hMGVEY3B0YnljWkJVN3VnM204UVhRWjFVXzBvTWo4WFc0R2JyNjBrUXFWYUdLLVg4Z1lOMTJB?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-25T10:45:08+00:00"
     },
     {
      "title": "Do Rio Grande ao Cerrado, a epopeia da soja brasileira – finalmente – vira romance - AgFeed",

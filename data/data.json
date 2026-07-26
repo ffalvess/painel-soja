@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-26T17:58:05+00:00",
+ "generated_at": "2026-07-26T19:12:51+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-26T17:57:54+00:00",
+   "updated_at": "2026-07-26T19:12:42+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -189,8 +189,8 @@
      "name": "Ibovespa",
      "unit": "pontos",
      "price": 174041.95,
-     "prev_close": 177548.0,
-     "change_pct": -1.97,
+     "prev_close": 176724.0,
+     "change_pct": -1.52,
      "closes": [
       170507.0,
       171990.0,
@@ -213,7 +213,8 @@
       173371.0,
       173326.0,
       177548.0,
-      176724.0
+      176724.0,
+      174042.0
      ]
     }
    ],
@@ -221,7 +222,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-26T17:57:55+00:00",
+   "updated_at": "2026-07-26T19:12:42+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -232,7 +233,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-26T17:58:01+00:00",
+   "updated_at": "2026-07-26T19:12:47+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -249,32 +250,71 @@
       0.0,
       0.0,
       0.0,
-      0.0,
+      0.1,
       0.3,
       0.0,
       0.0
      ],
      "tmax": [
-      35.2,
+      35.6,
       35.9,
-      35.4,
-      34.5,
+      35.1,
+      34.1,
       35.2,
       36.6,
-      35.8
+      36.3
      ],
      "tmin": [
       21.7,
       21.6,
-      21.6,
-      22.6,
-      23.6,
-      22.4,
-      24.0
+      22.5,
+      22.9,
+      23.8,
+      22.8,
+      23.0
      ]
     },
     {
      "name": "Sinop · MT",
+     "dates": [
+      "2026-07-26",
+      "2026-07-27",
+      "2026-07-28",
+      "2026-07-29",
+      "2026-07-30",
+      "2026-07-31",
+      "2026-08-01"
+     ],
+     "precip": [
+      0.0,
+      0.0,
+      0.1,
+      0.3,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "tmax": [
+      34.5,
+      34.3,
+      34.0,
+      33.8,
+      34.0,
+      35.3,
+      34.9
+     ],
+     "tmin": [
+      21.9,
+      21.3,
+      22.3,
+      22.4,
+      22.9,
+      23.0,
+      22.7
+     ]
+    },
+    {
+     "name": "Rio Verde · GO",
      "dates": [
       "2026-07-26",
       "2026-07-27",
@@ -294,61 +334,22 @@
       0.0
      ],
      "tmax": [
-      33.9,
-      34.5,
-      33.6,
-      33.9,
-      34.7,
-      35.5,
-      34.7
-     ],
-     "tmin": [
-      21.9,
-      20.9,
-      22.3,
-      22.4,
-      23.2,
-      21.9,
-      22.9
-     ]
-    },
-    {
-     "name": "Rio Verde · GO",
-     "dates": [
-      "2026-07-26",
-      "2026-07-27",
-      "2026-07-28",
-      "2026-07-29",
-      "2026-07-30",
-      "2026-07-31",
-      "2026-08-01"
-     ],
-     "precip": [
-      0.1,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0
-     ],
-     "tmax": [
-      29.4,
-      31.0,
-      32.3,
-      33.0,
-      33.3,
+      29.1,
+      30.8,
+      32.1,
+      32.8,
+      33.8,
       32.7,
-      31.6
+      31.8
      ],
      "tmin": [
       17.1,
-      18.7,
-      19.0,
-      19.6,
-      19.3,
-      21.6,
-      22.5
+      18.4,
+      18.5,
+      20.4,
+      20.0,
+      20.4,
+      21.0
      ]
     },
     {
@@ -366,40 +367,40 @@
       0.0,
       0.0,
       0.0,
-      13.0,
-      0.0,
+      31.5,
+      1.5,
       0.0,
       0.0
      ],
      "tmax": [
       27.8,
-      30.4,
+      30.5,
       31.2,
-      30.1,
-      28.1,
-      28.0,
+      30.8,
+      27.5,
+      27.1,
       30.9
      ],
      "tmin": [
       17.4,
-      18.2,
-      18.8,
-      20.0,
-      19.0,
-      19.9,
-      20.2
+      18.3,
+      18.9,
+      19.6,
+      18.1,
+      18.4,
+      19.3
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-26T17:58:05+00:00",
+   "updated_at": "2026-07-26T19:12:51+00:00",
    "items": [
     {
-     "title": "Exportação deve absorver mais de 60% da soja de MT em 2026/27 - Estadão MT",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdnFjak91b2U3WVhHZ21haVJrMnk4Z3daRTFXWmt1LVhQWnJzTnZINnB6LTFmaGhkTmVLTjFpMzh5VnpqX0lhM2hnV1BKNWNidml3UUtiRkl2RnRIUE5WM3ZURGFoeG5rb09HSUpicFMxeV9KanJrSHIxU01qeTFhbGZhOVJEYlprSGEtZUk3Vi1sZFB6YmgtRXdyOEI1WkJRbEdZYnRPLVRHY19YdjBPX2ZrNmF6UQ?oc=5",
-     "source": "Estadão MT",
-     "published_at": "2026-07-26T16:07:00+00:00"
+     "title": "Com mais de 90% de acerto, tecnologia identifica milho tolerante à seca",
+     "link": "https://www.canalrural.com.br/agricultura/com-mais-de-90-de-acerto-tecnologia-identifica-milho-mais-tolerante-a-seca/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-26T18:05:00+00:00"
     },
     {
      "title": "Estudo da FAO aponta que bioinsumos podem reduzir custos no campo",
@@ -430,6 +431,12 @@
      "link": "https://www.canalrural.com.br/opiniao-noticias/o-futuro-da-proteina-animal-passa-pelo-brasil/",
      "source": "Canal Rural",
      "published_at": "2026-07-26T14:04:12+00:00"
+    },
+    {
+     "title": "MT bate recorde e exporta 24 milhões de toneladas de soja no semestre - Estadão MT",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVnJrNFBWb0dnYnk3SW81SDFOLXFVOWZEWjJNdXhpM0FwLUUwbjduSFh2eElZRUJaZnc4RnNNOHlLUTBiNk5SU2tMOWF4QmRPallFcFkyWUhqNU5vM3FqcnpjUTJCdFk1cnNCWlc4bTRyTUgwVS11S2xrOVluclJ2Y1U0c0FrNEpYNjh4aWVfdXRLNGg2TnVGU1BXNkhkcjlZbG9fa0lhSERGQ0ZCTndPQUd6REpDLTZ2R29zNHgzOXFhUmM?oc=5",
+     "source": "Estadão MT",
+     "published_at": "2026-07-26T14:02:00+00:00"
     },
     {
      "title": "Logística ainda desafia competitividade da soja e do milho em Mato Grosso do Sul, aponta Aprosoja - capitalnews.com.br",
@@ -490,12 +497,6 @@
      "link": "https://www.canalrural.com.br/espirito-santo/espirito-santo-lanca-mostra-para-vender-cafe-conilon-de-alta-qualidade-em-grandes-volume/",
      "source": "Canal Rural",
      "published_at": "2026-07-25T20:02:00+00:00"
-    },
-    {
-     "title": "Pecuária nacional perde referência na genética do nelore mocho",
-     "link": "https://www.canalrural.com.br/pecuaria/pecuaria-nacional-perde-referencia-na-genetica-do-nelore-mocho/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-25T19:54:57+00:00"
     },
     {
      "title": "O vinho e o vento: como a soja ameaça os parreirais do Rio Grande do Sul - NeoFeed",

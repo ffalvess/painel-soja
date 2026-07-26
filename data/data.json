@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-26T16:07:18+00:00",
+ "generated_at": "2026-07-26T17:58:05+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-26T16:07:12+00:00",
+   "updated_at": "2026-07-26T17:57:54+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -189,8 +189,8 @@
      "name": "Ibovespa",
      "unit": "pontos",
      "price": 174041.95,
-     "prev_close": 176724.0,
-     "change_pct": -1.52,
+     "prev_close": 177548.0,
+     "change_pct": -1.97,
      "closes": [
       170507.0,
       171990.0,
@@ -213,8 +213,7 @@
       173371.0,
       173326.0,
       177548.0,
-      176724.0,
-      174042.0
+      176724.0
      ]
     }
    ],
@@ -222,7 +221,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-26T16:07:12+00:00",
+   "updated_at": "2026-07-26T17:57:55+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -233,7 +232,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-26T16:07:15+00:00",
+   "updated_at": "2026-07-26T17:58:01+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -394,8 +393,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-26T16:07:18+00:00",
+   "updated_at": "2026-07-26T17:58:05+00:00",
    "items": [
+    {
+     "title": "Exportação deve absorver mais de 60% da soja de MT em 2026/27 - Estadão MT",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdnFjak91b2U3WVhHZ21haVJrMnk4Z3daRTFXWmt1LVhQWnJzTnZINnB6LTFmaGhkTmVLTjFpMzh5VnpqX0lhM2hnV1BKNWNidml3UUtiRkl2RnRIUE5WM3ZURGFoeG5rb09HSUpicFMxeV9KanJrSHIxU01qeTFhbGZhOVJEYlprSGEtZUk3Vi1sZFB6YmgtRXdyOEI1WkJRbEdZYnRPLVRHY19YdjBPX2ZrNmF6UQ?oc=5",
+     "source": "Estadão MT",
+     "published_at": "2026-07-26T16:07:00+00:00"
+    },
+    {
+     "title": "Estudo da FAO aponta que bioinsumos podem reduzir custos no campo",
+     "link": "https://www.canalrural.com.br/agricultura/estudo-da-fao-aponta-que-bioinsumos-podem-reduzir-custos-no-campo/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-26T16:01:00+00:00"
+    },
     {
      "title": "ABM lança guia para prefeituras sobre prevenção aos efeitos do El Niño",
      "link": "https://www.canalrural.com.br/politica/abm-lanca-guia-para-prefeituras-sobre-prevencao-aos-efeitos-do-el-nino/",
@@ -419,12 +430,6 @@
      "link": "https://www.canalrural.com.br/opiniao-noticias/o-futuro-da-proteina-animal-passa-pelo-brasil/",
      "source": "Canal Rural",
      "published_at": "2026-07-26T14:04:12+00:00"
-    },
-    {
-     "title": "MT bate recorde e exporta 24 milhões de toneladas de soja no semestre - Estadão MT",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVnJrNFBWb0dnYnk3SW81SDFOLXFVOWZEWjJNdXhpM0FwLUUwbjduSFh2eElZRUJaZnc4RnNNOHlLUTBiNk5SU2tMOWF4QmRPallFcFkyWUhqNU5vM3FqcnpjUTJCdFk1cnNCWlc4bTRyTUgwVS11S2xrOVluclJ2Y1U0c0FrNEpYNjh4aWVfdXRLNGg2TnVGU1BXNkhkcjlZbG9fa0lhSERGQ0ZCTndPQUd6REpDLTZ2R29zNHgzOXFhUmM?oc=5",
-     "source": "Estadão MT",
-     "published_at": "2026-07-26T14:02:00+00:00"
     },
     {
      "title": "Logística ainda desafia competitividade da soja e do milho em Mato Grosso do Sul, aponta Aprosoja - capitalnews.com.br",
@@ -493,22 +498,10 @@
      "published_at": "2026-07-25T19:54:57+00:00"
     },
     {
-     "title": "Do campo ao boteco: bolovo valoriza carne suína, ovos caipiras e trigo",
-     "link": "https://www.canalrural.com.br/aves-e-suinos/do-campo-ao-boteco-bolovo-valoriza-carne-suina-ovos-caipiras-e-trigo/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-25T19:32:31+00:00"
-    },
-    {
      "title": "O vinho e o vento: como a soja ameaça os parreirais do Rio Grande do Sul - NeoFeed",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNmUzakV0LUo4cEpSVWdQb2I2S2F2N0UzRWJmcURpTWxzalhVa1UtZGhkNDdVZm92ZGo5TWJWSVB5N1E2emRiQ3RJcDZFNjdZc3hKTnFReFdtcVpmellKNHBMdUo3SFU2djZ3T2JoQTVkRTV0aEEyYnFGdzhqMTRkSGNsQ3lBZ0FkdE9hb09SRHNISHlJZmdjWGtjXzJua3UzbXVZ?oc=5",
      "source": "NeoFeed",
      "published_at": "2026-07-25T19:22:00+00:00"
-    },
-    {
-     "title": "Clima nos EUA será decisivo para rumos do mercado de soja - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRlMwWW1ETExfek8tQWJ4YW5qRWJFNlZvQWc5ZFBCNU4zSTBOdGRaRVFBLVZwMzE3NVdxaGkzbTYwSGtQWng0cE14OVVpSFo4V0tqdkswVmhZeXNRM1BIclFkTGRJS2t6WjdnTXpJdUhOQVEzOUVVRHZfeUVtNWx3TU5XOFR6Zmd4RnVIV3ZGYVl5RTBpY3RzZTZ2dVlkeG1Tc0pfbDIzTnN2YkNFN3NJNTNIUFRDZnVnOEFCWTJhR3hUSWfSAdIBQVVfeXFMT0NscklpM0FBOEZDMzZ2VmY4aG5MaWRNZm1yUExnYU4yakh4UWM5MFN1RndkOXFWdExrazJDc19rZzhmcjV0QVdjWWxSR1phbEY5enFrOHctbDN6OWVYNERvYl9Oa3dJaENpUzlja3BBTFZySXRTNXppTjZaa2VUZThNb3NZc2M2ZlVjbXNXcFdrMmxBMEgyRm1wN09hMGVEY3B0YnljWkJVN3VnM204UVhRWjFVXzBvTWo4WFc0R2JyNjBrUXFWYUdLLVg4Z1lOMTJB?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-25T10:45:08+00:00"
     },
     {
      "title": "Do Rio Grande ao Cerrado, a epopeia da soja brasileira – finalmente – vira romance - AgFeed",
@@ -533,6 +526,12 @@
      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSUxSSXF5bVVGalhOS2NxRXhYeEpHdndsTk9LeFk1Rnl1NUdFS1VNaUZ2TGQxQkIzdVd6cDYwSWk4RzhxRWtzMTBiVk9CMjBwd002QW1uQV9MNXQ0ZzJ1azhaZVZZbHVsdThZSktoOHV5MU9TRUlPUFh6UDdEaDJjR0VuOGZWRm5TajJYT2ZFVlVscS1IWndzQWlRYUZDZlRvX2ZNbkNCOFd2aWpZWHpLTWhmMERlaGk3ZzZVa01TVHgySFVRdDhERzd3Z3I?oc=5",
      "source": "Agrolink",
      "published_at": "2026-07-24T22:17:00+00:00"
+    },
+    {
+     "title": "Soja dispara no Brasil, negócios superam 5 mi de t e preços seguem nos melhores níveis do ano - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTE9RZE45aVhkMFdlbUlMTml4bllCRHNwcUZOekVGVEdkQ21YeHVDa25nR2gzZWR0QnZQR2RjOXF5Yk8xU1lXSmRKR21uZFRXdUlMbHk5N0pyNTdIMTA5R01sRmc2ZmN0YmM5ODdqZEF3WXVYZHFrM2puZDdQc3RjZGlxZGNsZWdzclJxaW9PUzJyRTR0Mzg3Q1lvQWZId1Nkd2F0MkRVWWV5bUxjUmd2MHMtckpaa0VBUlBtN0hhZGlTNUtMek1hd2hHZkxQUzk0dmlvRlV5UlRGd3ZTcWhJc3FFLTVpejkyY3lV0gHwAUFVX3lxTE4xT3pfTzdsSHJtUkhuVHBGR1RjUjJlUnhRUkN0V1F3V0wwREdFanl2bFl5VGJwdTdyNE00VUlLN1RHNWhvTzdDVVNoSVhFdFB2MVgtazdUSGFIZ2ZNRzhLWkdWcFQteUlTX25BZzVMVmJjQlFTTW15YWtsOXRqYUpDcFZCN3FISFo1VHhURGJ6dnVaQ2FSdC1Wb1MwdlcyOHR4ZDV6TGFFZzRrRm1CYU1zdEphWXc4R1p3TVZSWGV3czA5OWprZ3JKSHdJdGVydnczdTNqVFVjaEl2X0ZjaHc3M044UUIwU2I4YjBJMGRTRg?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-24T18:56:33+00:00"
     },
     {
      "title": "Veto ao foie gras no Brasil reacende tensão comercial com a França após acordo Mercosul-UE",

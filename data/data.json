@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-26T21:53:48+00:00",
+ "generated_at": "2026-07-26T22:54:34+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-26T21:53:40+00:00",
+   "updated_at": "2026-07-26T22:54:25+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -158,9 +158,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 96.78,
-     "prev_close": 100.69,
-     "change_pct": -3.88,
+     "price": 91.81,
+     "prev_close": 96.78,
+     "change_pct": -5.14,
      "closes": [
       71.99,
       73.15,
@@ -181,7 +181,8 @@
       91.01,
       94.07,
       100.69,
-      96.78
+      96.78,
+      91.81
      ]
     },
     {
@@ -189,8 +190,8 @@
      "name": "Ibovespa",
      "unit": "pontos",
      "price": 174041.95,
-     "prev_close": 177548.0,
-     "change_pct": -1.97,
+     "prev_close": 176724.0,
+     "change_pct": -1.52,
      "closes": [
       170507.0,
       171990.0,
@@ -213,7 +214,8 @@
       173371.0,
       173326.0,
       177548.0,
-      176724.0
+      176724.0,
+      174042.0
      ]
     }
    ],
@@ -221,7 +223,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-26T21:53:40+00:00",
+   "updated_at": "2026-07-26T22:54:25+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -232,7 +234,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-26T21:53:45+00:00",
+   "updated_at": "2026-07-26T22:54:30+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -393,8 +395,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-26T21:53:48+00:00",
+   "updated_at": "2026-07-26T22:54:34+00:00",
    "items": [
+    {
+     "title": "Brasil encerra ciclo de expansão da soja após 20 anos, projeta RaboBank - Times Brasil | CNBC",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdkpLVGZkMkZhWmlaanF4THNWaHUwX1gwU1BYRUZYTjNDOEVYWTMxb3FNeF9qc0trYWtVdFY0eEp4NjB6TE1RVFNmVGV3cWdQNnNVU19QeGZWRDJIblFxLUwtMjd5anV0eGZFd1QtdURDb0w2b3UxMC1EaXFDTXNWTXk0WDF0ZFBoRTlwelp0cnFER01QMG1faExYMjc?oc=5",
+     "source": "Times Brasil | CNBC",
+     "published_at": "2026-07-26T22:30:00+00:00"
+    },
+    {
+     "title": "Exportações de soja do Brasil podem atingir 110 milhões de t na safra 26/27, projeta consultoria - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNbG1sQ19IYmZjLUF4aVdsS1pjcU1CNDBPWmVfSHlaeUtVVVI4TGR2Nlp5Rnl6X3hBR0VjUFY4WEF3T01Xd09RVnhFZms4bWFFa0V5SjNBU3duMFNPZzlnbC15Wl9VVXYxa3l6dmp1TVZZUXFDekZVajJPQnFZaVZXbGZLS0dBV21fMWx3al9LR2pmSm5xTmtEUWV3V3NmQUVKM2dJWmo5N0M0dTFwNl92QkhHS0o4RjhBcS1kNjUzSmlSLU1EQkZkaGZ1cVJGcGtSZ3V0TW4zTzRjdlpfVkd0eG1fQjRoYXRFb1QzQ2tWVQ?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-26T22:01:00+00:00"
+    },
+    {
+     "title": "Exportações de soja do Brasil podem atingir 110 milhões de t na safra 26/27, projeta consultoria",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/exportacoes-de-soja-do-brasil-podem-atingir-110-milhoes-de-t-na-safra-26-27-projeta-consultoria/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-26T22:01:00+00:00"
+    },
     {
      "title": "Exportação de noz-pecã brasileira perde ritmo com entraves externos",
      "link": "https://www.canalrural.com.br/agricultura/exportacao-de-noz-peca-brasileira-perde-ritmo-o-que-aconteceu/",
@@ -406,12 +426,6 @@
      "link": "https://www.canalrural.com.br/agricultura/com-mais-de-90-de-acerto-tecnologia-identifica-milho-mais-tolerante-a-seca/",
      "source": "Canal Rural",
      "published_at": "2026-07-26T18:05:00+00:00"
-    },
-    {
-     "title": "Exportação deve absorver mais de 60% da soja de MT em 2026/27 - Estadão MT",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdnFjak91b2U3WVhHZ21haVJrMnk4Z3daRTFXWmt1LVhQWnJzTnZINnB6LTFmaGhkTmVLTjFpMzh5VnpqX0lhM2hnV1BKNWNidml3UUtiRkl2RnRIUE5WM3ZURGFoeG5rb09HSUpicFMxeV9KanJrSHIxU01qeTFhbGZhOVJEYlprSGEtZUk3Vi1sZFB6YmgtRXdyOEI1WkJRbEdZYnRPLVRHY19YdjBPX2ZrNmF6UQ?oc=5",
-     "source": "Estadão MT",
-     "published_at": "2026-07-26T16:07:00+00:00"
     },
     {
      "title": "Estudo da FAO aponta que bioinsumos podem reduzir custos no campo",
@@ -492,12 +506,6 @@
      "published_at": "2026-07-26T07:01:08"
     },
     {
-     "title": "Arroba teve alta de 4,5% na semana, mas elevação não deve se sustentar no curto prazo",
-     "link": "https://www.canalrural.com.br/pecuaria/arroba-teve-alta-de-45-na-semana-mas-elevacao-nao-deve-se-sustentar-no-curto-prazo/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-25T22:01:00+00:00"
-    },
-    {
      "title": "O vinho e o vento: como a soja ameaça os parreirais do Rio Grande do Sul - NeoFeed",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNmUzakV0LUo4cEpSVWdQb2I2S2F2N0UzRWJmcURpTWxzalhVa1UtZGhkNDdVZm92ZGo5TWJWSVB5N1E2emRiQ3RJcDZFNjdZc3hKTnFReFdtcVpmellKNHBMdUo3SFU2djZ3T2JoQTVkRTV0aEEyYnFGdzhqMTRkSGNsQ3lBZ0FkdE9hb09SRHNISHlJZmdjWGtjXzJua3UzbXVZ?oc=5",
      "source": "NeoFeed",
@@ -568,12 +576,6 @@
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc3dYZW9RdFdtT0RVWnhfUHIzNWl6WUZrdkYyT2NPSXB2QzNSdlFPMHFDcFVFQ294QjBIS1Vhc0lMbG1faGxXZm1UeTBWX1d1SllqUGlpYXNvck14Tkl2Y1VST3dWUGxGNG1pTl9WUmdFclVvUGo2V2Fyb04zbVFqRWZqRmprMTV2cWRiWE1ib1NJel9OUXRxYUUwMmVFT3FGSTRMYkJxNUFrdG5Hc0J4Z0g2cjNWdkk?oc=5",
      "source": "Comunica UFU",
      "published_at": "2026-07-24T07:00:00+00:00"
-    },
-    {
-     "title": "Casca enrugada do ovo pode ser sinal de estresse nas galinhas; veja por que isso acontece",
-     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/07/24/casca-enrugada-do-ovo-pode-ser-sinal-de-estresse-nas-galinhas-veja-por-que-isso-acontece.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-24T06:00:12"
     }
    ],
    "failed": [

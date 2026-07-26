@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-25T23:54:48+00:00",
+ "generated_at": "2026-07-26T02:10:29+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-25T23:54:41+00:00",
+   "updated_at": "2026-07-26T02:10:17+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -238,7 +238,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-25T23:54:46+00:00",
+   "updated_at": "2026-07-26T02:10:26+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -257,26 +257,26 @@
       0.0,
       0.0,
       0.0,
-      0.6,
+      0.3,
       0.0
      ],
      "tmax": [
-      35.3,
-      35.3,
-      36.3,
-      35.3,
-      34.1,
-      34.8,
-      36.4
+      35.2,
+      35.6,
+      36.1,
+      35.4,
+      34.5,
+      35.5,
+      36.6
      ],
      "tmin": [
       21.2,
-      21.7,
       21.9,
       21.9,
-      22.9,
-      23.4,
-      22.3
+      21.9,
+      22.7,
+      23.6,
+      22.7
      ]
     },
     {
@@ -291,31 +291,31 @@
       "2026-07-31"
      ],
      "precip": [
-      0.5,
-      0.0,
-      0.0,
-      0.0,
       0.3,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
       0.3,
       0.0
      ],
      "tmax": [
-      33.5,
       34.0,
+      34.3,
       34.8,
       34.1,
-      33.8,
-      34.3,
-      35.0
+      33.7,
+      34.0,
+      35.4
      ],
      "tmin": [
       21.4,
-      21.6,
-      21.5,
-      22.3,
-      22.1,
+      21.7,
+      21.3,
+      22.2,
+      21.8,
       22.8,
-      21.7
+      21.8
      ]
     },
     {
@@ -330,7 +330,7 @@
       "2026-07-31"
      ],
      "precip": [
-      0.4,
+      0.2,
       0.0,
       0.0,
       0.0,
@@ -340,21 +340,21 @@
      ],
      "tmax": [
       29.5,
-      30.4,
-      32.0,
-      33.2,
-      33.5,
-      33.2,
-      32.9
+      30.2,
+      31.7,
+      32.7,
+      33.4,
+      33.8,
+      32.7
      ],
      "tmin": [
       16.7,
-      18.7,
-      18.9,
+      17.8,
+      19.0,
+      20.2,
+      20.2,
       20.0,
-      21.6,
-      20.0,
-      21.5
+      20.5
      ]
     },
     {
@@ -369,38 +369,50 @@
       "2026-07-31"
      ],
      "precip": [
-      7.2,
+      7.3,
       0.0,
       0.0,
       0.0,
-      16.4,
-      0.1,
+      10.5,
+      0.3,
       0.0
      ],
      "tmax": [
-      24.0,
+      25.4,
       27.7,
-      30.2,
-      31.1,
-      29.8,
-      27.8,
-      28.4
+      30.3,
+      31.0,
+      29.3,
+      27.9,
+      28.2
      ],
      "tmin": [
       17.8,
-      17.3,
-      18.5,
-      18.7,
-      19.4,
-      18.0,
-      20.0
+      17.1,
+      18.2,
+      18.6,
+      20.2,
+      18.4,
+      20.1
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-25T23:54:48+00:00",
+   "updated_at": "2026-07-26T02:10:29+00:00",
    "items": [
+    {
+     "title": "Soja avança mais de 10% no mês e boi gordo chega a R$ 343,75 - Vitória News",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVGtLajRKcFZPOGM3UG5jdUdGZVNnTldZYnFJQ0FLUmhwTVRLcHRxZF9BSTdRd3hJRWhQZnl1V3BqRFo0OWJPSXNCcU9aNTdhSXdLM1dZenFhSjVXbHUwQzlsOTZ6MjRCTVFmUU1feEFTdHRJRUl2MU5BV2pXTEJLZlR5UTNaTHliWVBEag?oc=5",
+     "source": "Vitória News",
+     "published_at": "2026-07-26T00:38:28+00:00"
+    },
+    {
+     "title": "Produtores aceleram vendas de soja para liberar espaço em armazéns para próxima safra - Estadão MT",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQU3lTaVVmQThXWTUyb3dWTlQ2alV2RE8xN0FsRTIwbHBuQmgtNnlJYmdlNGpyR3Rra3lueTk3YS1ReGVwN3d2alZmeUhnLXFfRFprcktleEg0amdnREhseWFQOWtzSEtia1lOak9fYXNuWHpxV2hoVGgtYmtMc2NGRFhGYTA2WDF3SWpseWdnbEh4emhLUG5nckQzbFZNdWdFVkw5TzZ2OGdGVlNIRU1PYWk4d2k5MHQ2ZlozaEIzMXVVdURjamEzOWZYbldUdW9KWUk0NXUtREg?oc=5",
+     "source": "Estadão MT",
+     "published_at": "2026-07-26T00:02:00+00:00"
+    },
     {
      "title": "Arroba teve alta de 4,5% na semana, mas elevação não deve se sustentar no curto prazo",
      "link": "https://www.canalrural.com.br/pecuaria/arroba-teve-alta-de-45-na-semana-mas-elevacao-nao-deve-se-sustentar-no-curto-prazo/",
@@ -456,12 +468,6 @@
      "published_at": "2026-07-25T16:56:00+00:00"
     },
     {
-     "title": "Cepea: soja, milho e boi gordo fecham em alta na sexta-feira - boca.com.br",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLVJPVUVKM0cyVldfLUJFcFFyVnBCdTJkeUZUcWN3cTdHbEg3WEFLUkpNV29XZTFyd0tLNjV5ZXJCRWE4R1htWU9CX1c3amtnX1hYVE5xN0FydENxcUhjUGJpSTR1cF9Ucl84MEFyQnBlbV9mUTQ0VnVfdkswdy0tUExHTWN4Zlo2LW9RV3luS1NxZnJW?oc=5",
-     "source": "boca.com.br",
-     "published_at": "2026-07-25T16:20:13+00:00"
-    },
-    {
      "title": "Cepea: Soja, milho e boi gordo encerram semana com novas altas - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWUhOTjNRTktDQjRGRmhUdU5GeVdfQjg2TzNyT1p3U2RySUJ3MHVWcDJzVGVUWG5ZNEp3aVBubWJIczJFc1FxRVFvcmpIZjZJVExNRmxDWlBRSFY3a3VJOWZZSXptRHpTbTJiU1VwY0lWb0hVM19vZEljMFVNUnQzQ2VLalBKTXhHel9oTDZyUE1Kb2VzbldLRGhBcG5TRi1zSHg4Z0Q1S2RKYklJekRncDlYd01OQQ?oc=5",
      "source": "Canal Rural",
@@ -502,12 +508,6 @@
      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNN0V6ckU5dmtFdkY5WXR5TnIwMXhHSTJlNXdQNkNUeWRsS2d1QVVMSFFRdEd1WHBwcDFLdmlWSnNGWUxqdjdvQ3NvcE9NSUEtQnA3ZWstcjBxV08xamtQdXVFVEdhZGxzWFJfNDZ1X2xzNzRRVkhyQlVDQXNQZnJ0amdqWUpjcTkwb1NjWnlTdTJMNEhjN2FGVTdTREQ2Z2Z6NnhaN2lKUFIwTXZKVzUzN3NxZUJXamNjckFrUkNZZHBVd2VyUTE1NkE1cTBtV3ZFMWM1MEdn?oc=5",
      "source": "Movimento Econômico",
      "published_at": "2026-07-25T07:53:00+00:00"
-    },
-    {
-     "title": "Acordo entre EUA e China ganha tração na soja, mas Brasil segue competitivo - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbXpGRHRfengzVFFsMnBEdFBSTWNVS1pmSkRrOWJPVEk5SDJaYUVOYnVBbFZuRHhlTGtEWnJEdU9nS3hyNFFtNG0wNHFFWGRlTmRHY1gydXYtQm8zVmpUdkNVOFRMYm5yNjh0LTJ4bGVsUGtQM2Nwd1lpbklSXzVwYjE0S0VEdXc2cWZSalJSNW1vd194cFFDUjEtUnc4QTl2LTFSVURFWmROMVBTLUE?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-07-25T07:04:56+00:00"
     },
     {
      "title": "Vinho europeu deve ficar até 20% mais barato com acordo UE-Mercosul, mas redução ainda é tímida",
@@ -591,6 +591,10 @@
   {
    "section": "fx",
    "error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
+  },
+  {
+   "section": "rates",
+   "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados/ultimos/12?formato=json"
   },
   {
    "section": "cepea",

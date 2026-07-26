@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-26T10:39:46+00:00",
+ "generated_at": "2026-07-26T11:58:32+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-26T10:39:40+00:00",
+   "updated_at": "2026-07-26T11:58:08+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -222,7 +222,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-26T10:39:41+00:00",
+   "updated_at": "2026-07-26T11:58:08+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -233,7 +233,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-26T10:39:43+00:00",
+   "updated_at": "2026-07-26T11:58:29+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -394,7 +394,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-26T10:39:46+00:00",
+   "updated_at": "2026-07-26T11:58:32+00:00",
    "items": [
     {
      "title": "Parque Estadual abriga maior remanescente de Mata Atlântica do interior paulista",
@@ -523,12 +523,6 @@
      "published_at": "2026-07-25T03:00:32"
     },
     {
-     "title": "Soja tem melhor preço do ano - AgFeed",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95WG5jS0VHSFV3TlRrQnhfNDlhTjhyMGtuS0t2UkZueVZEMlhfZ0JDeUtIc08wZVNvOUtwLTdubnZNT3hSdUNpQmwwVEFnaHVQNUx4RTYxc0RHZEhqdjkyVl8yMmd5bjBXYkNKdHhoaHR6dXkxcGswWWgxRUVKSTg?oc=5",
-     "source": "AgFeed",
-     "published_at": "2026-07-24T22:37:00+00:00"
-    },
-    {
      "title": "Boletim semanal: Soja e boi lideram altas, enquanto café robusta recua 4% na semana - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSUxSSXF5bVVGalhOS2NxRXhYeEpHdndsTk9LeFk1Rnl1NUdFS1VNaUZ2TGQxQkIzdVd6cDYwSWk4RzhxRWtzMTBiVk9CMjBwd002QW1uQV9MNXQ0ZzJ1azhaZVZZbHVsdThZSktoOHV5MU9TRUlPUFh6UDdEaDJjR0VuOGZWRm5TajJYT2ZFVlVscS1IWndzQWlRYUZDZlRvX2ZNbkNCOFd2aWpZWHpLTWhmMERlaGk3ZzZVa01TVHgySFVRdDhERzd3Z3I?oc=5",
      "source": "Agrolink",
@@ -569,6 +563,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/24/brasil-proibe-foie-gras-apos-classificar-tecnica-como-maus-tratos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-24T11:03:38"
+    },
+    {
+     "title": "UFU desenvolve cultivares de soja mais resistentes e preserva diversidade do pequizeiro - Comunica UFU",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc3dYZW9RdFdtT0RVWnhfUHIzNWl6WUZrdkYyT2NPSXB2QzNSdlFPMHFDcFVFQ294QjBIS1Vhc0lMbG1faGxXZm1UeTBWX1d1SllqUGlpYXNvck14Tkl2Y1VST3dWUGxGNG1pTl9WUmdFclVvUGo2V2Fyb04zbVFqRWZqRmprMTV2cWRiWE1ib1NJel9OUXRxYUUwMmVFT3FGSTRMYkJxNUFrdG5Hc0J4Z0g2cjNWdkk?oc=5",
+     "source": "Comunica UFU",
+     "published_at": "2026-07-24T07:00:00+00:00"
     },
     {
      "title": "Casca enrugada do ovo pode ser sinal de estresse nas galinhas; veja por que isso acontece",

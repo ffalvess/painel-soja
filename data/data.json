@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-26T19:12:51+00:00",
+ "generated_at": "2026-07-26T20:51:05+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-26T19:12:42+00:00",
+   "updated_at": "2026-07-26T20:50:55+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -222,7 +222,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-26T19:12:42+00:00",
+   "updated_at": "2026-07-26T20:50:55+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -233,7 +233,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-26T19:12:47+00:00",
+   "updated_at": "2026-07-26T20:51:01+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -394,13 +394,25 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-26T19:12:51+00:00",
+   "updated_at": "2026-07-26T20:51:05+00:00",
    "items": [
+    {
+     "title": "Exportação de noz-pecã brasileira perde ritmo com entraves externos",
+     "link": "https://www.canalrural.com.br/agricultura/exportacao-de-noz-peca-brasileira-perde-ritmo-o-que-aconteceu/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-26T20:02:00+00:00"
+    },
     {
      "title": "Com mais de 90% de acerto, tecnologia identifica milho tolerante à seca",
      "link": "https://www.canalrural.com.br/agricultura/com-mais-de-90-de-acerto-tecnologia-identifica-milho-mais-tolerante-a-seca/",
      "source": "Canal Rural",
      "published_at": "2026-07-26T18:05:00+00:00"
+    },
+    {
+     "title": "Exportação deve absorver mais de 60% da soja de MT em 2026/27 - Estadão MT",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdnFjak91b2U3WVhHZ21haVJrMnk4Z3daRTFXWmt1LVhQWnJzTnZINnB6LTFmaGhkTmVLTjFpMzh5VnpqX0lhM2hnV1BKNWNidml3UUtiRkl2RnRIUE5WM3ZURGFoeG5rb09HSUpicFMxeV9KanJrSHIxU01qeTFhbGZhOVJEYlprSGEtZUk3Vi1sZFB6YmgtRXdyOEI1WkJRbEdZYnRPLVRHY19YdjBPX2ZrNmF6UQ?oc=5",
+     "source": "Estadão MT",
+     "published_at": "2026-07-26T16:07:00+00:00"
     },
     {
      "title": "Estudo da FAO aponta que bioinsumos podem reduzir custos no campo",
@@ -431,12 +443,6 @@
      "link": "https://www.canalrural.com.br/opiniao-noticias/o-futuro-da-proteina-animal-passa-pelo-brasil/",
      "source": "Canal Rural",
      "published_at": "2026-07-26T14:04:12+00:00"
-    },
-    {
-     "title": "MT bate recorde e exporta 24 milhões de toneladas de soja no semestre - Estadão MT",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVnJrNFBWb0dnYnk3SW81SDFOLXFVOWZEWjJNdXhpM0FwLUUwbjduSFh2eElZRUJaZnc4RnNNOHlLUTBiNk5SU2tMOWF4QmRPallFcFkyWUhqNU5vM3FqcnpjUTJCdFk1cnNCWlc4bTRyTUgwVS11S2xrOVluclJ2Y1U0c0FrNEpYNjh4aWVfdXRLNGg2TnVGU1BXNkhkcjlZbG9fa0lhSERGQ0ZCTndPQUd6REpDLTZ2R29zNHgzOXFhUmM?oc=5",
-     "source": "Estadão MT",
-     "published_at": "2026-07-26T14:02:00+00:00"
     },
     {
      "title": "Logística ainda desafia competitividade da soja e do milho em Mato Grosso do Sul, aponta Aprosoja - capitalnews.com.br",
@@ -493,16 +499,16 @@
      "published_at": "2026-07-25T22:01:00+00:00"
     },
     {
-     "title": "Espírito Santo lança mostra para vender café conilon de alta qualidade em grandes volume",
-     "link": "https://www.canalrural.com.br/espirito-santo/espirito-santo-lanca-mostra-para-vender-cafe-conilon-de-alta-qualidade-em-grandes-volume/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-25T20:02:00+00:00"
-    },
-    {
      "title": "O vinho e o vento: como a soja ameaça os parreirais do Rio Grande do Sul - NeoFeed",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNmUzakV0LUo4cEpSVWdQb2I2S2F2N0UzRWJmcURpTWxzalhVa1UtZGhkNDdVZm92ZGo5TWJWSVB5N1E2emRiQ3RJcDZFNjdZc3hKTnFReFdtcVpmellKNHBMdUo3SFU2djZ3T2JoQTVkRTV0aEEyYnFGdzhqMTRkSGNsQ3lBZ0FkdE9hb09SRHNISHlJZmdjWGtjXzJua3UzbXVZ?oc=5",
      "source": "NeoFeed",
      "published_at": "2026-07-25T19:22:00+00:00"
+    },
+    {
+     "title": "Clima nos EUA será decisivo para rumos do mercado de soja - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRlMwWW1ETExfek8tQWJ4YW5qRWJFNlZvQWc5ZFBCNU4zSTBOdGRaRVFBLVZwMzE3NVdxaGkzbTYwSGtQWng0cE14OVVpSFo4V0tqdkswVmhZeXNRM1BIclFkTGRJS2t6WjdnTXpJdUhOQVEzOUVVRHZfeUVtNWx3TU5XOFR6Zmd4RnVIV3ZGYVl5RTBpY3RzZTZ2dVlkeG1Tc0pfbDIzTnN2YkNFN3NJNTNIUFRDZnVnOEFCWTJhR3hUSWfSAdIBQVVfeXFMT0NscklpM0FBOEZDMzZ2VmY4aG5MaWRNZm1yUExnYU4yakh4UWM5MFN1RndkOXFWdExrazJDc19rZzhmcjV0QVdjWWxSR1phbEY5enFrOHctbDN6OWVYNERvYl9Oa3dJaENpUzlja3BBTFZySXRTNXppTjZaa2VUZThNb3NZc2M2ZlVjbXNXcFdrMmxBMEgyRm1wN09hMGVEY3B0YnljWkJVN3VnM204UVhRWjFVXzBvTWo4WFc0R2JyNjBrUXFWYUdLLVg4Z1lOMTJB?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-25T10:45:08+00:00"
     },
     {
      "title": "Do Rio Grande ao Cerrado, a epopeia da soja brasileira – finalmente – vira romance - AgFeed",
@@ -539,12 +545,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/24/veto-ao-foie-gras-no-brasil-reacende-tensao-comercial-com-a-franca-apos-acordo-mercosul-ue.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-24T16:49:46"
-    },
-    {
-     "title": "Clima nos EUA sustenta altas da soja em Chicago, apesar da pressão do trigo e do petróleo - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPS05kSkZSMG5ZdmE1bVRhaGFvMWNvR2d5WldLWXNQVXhQTm5NdFRGS2JpZGhmSTZnRnZOQ2NJTURkOG45emFfempyd0J1eklqNEE3YTJjVnQ1VjhfRndrR21oeXp3Ml95cy1nTk5kMGFtMUdGT2hsRVYzSVBnbllmOWU5aVduRy1SQjZDUGpEMHhjSzJZTzFvZUF1S3k1TjVTNFNPZ1FaSmZLSGF6NExINWlxNXgxTmZHbE5XUjZvNEFLRGlhZ191VXd4UEVtTjJpUGR4a28teW1fVUF2Vm5LZnVXQU0tQdIB6wFBVV95cUxObV9yUk5oQTdSVVhBd1haZ1RrRExUazE1cVFGckpxVU5EWEEwM25SU1JPeGMweTUxVFBrbHhJZzFycm1sZHpqazJmNmN0S19YVHBJdW5ISXF1ZWxnT2hob2VaVEZ3SU5fXzVuUUoyOGFHWmlCTU4wZ0NZM2FIbGxQY29XS3YxUm9fWGRmSkJWU1ZkWnBFSExBaTBJSEltTzYyVFFYdjdMLVIyeVJqM2NvY3ZsNFB5N2xxM3RubGp5WWRxcUUzTElsVWY3WEFSRTlCRFhRSUd0QVZoN2QzcHZxMEhpa1h4VV9JcHUw?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-24T15:59:05+00:00"
     },
     {
      "title": "EUA fazem recall de quase 1,6 milhão de dúzias de ovos por risco de salmonela",

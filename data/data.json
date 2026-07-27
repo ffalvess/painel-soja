@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-27T16:12:00+00:00",
+ "generated_at": "2026-07-27T18:20:54+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-27T16:11:54+00:00",
+   "updated_at": "2026-07-27T18:20:46+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1217.75,
+     "price": 1214.25,
      "prev_close": 1248.0,
-     "change_pct": -2.42,
+     "change_pct": -2.7,
      "closes": [
       1108.75,
       1116.75,
@@ -31,16 +31,16 @@
       1233.0,
       1237.5,
       1248.0,
-      1217.75
+      1214.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 474.75,
+     "price": 474.0,
      "prev_close": 464.25,
-     "change_pct": 2.26,
+     "change_pct": 2.1,
      "closes": [
       402.0,
       412.75,
@@ -61,16 +61,16 @@
       462.0,
       464.0,
       464.25,
-      474.75
+      474.0
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 323.8,
+     "price": 324.5,
      "prev_close": 331.3,
-     "change_pct": -2.26,
+     "change_pct": -2.05,
      "closes": [
       304.7,
       304.7,
@@ -91,16 +91,16 @@
       331.6,
       329.9,
       331.3,
-      323.8
+      324.5
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 69.92,
+     "price": 69.57,
      "prev_close": 74.33,
-     "change_pct": -5.93,
+     "change_pct": -6.4,
      "closes": [
       69.07,
       66.74,
@@ -121,16 +121,16 @@
       75.48,
       75.59,
       74.33,
-      69.92
+      69.57
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 667.5,
+     "price": 660.5,
      "prev_close": 678.0,
-     "change_pct": -1.55,
+     "change_pct": -2.58,
      "closes": [
       569.5,
       580.75,
@@ -151,16 +151,16 @@
       705.75,
       696.25,
       678.0,
-      667.5
+      660.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 89.51,
+     "price": 88.27,
      "prev_close": 96.78,
-     "change_pct": -7.51,
+     "change_pct": -8.79,
      "closes": [
       73.15,
       72.92,
@@ -181,16 +181,16 @@
       94.07,
       100.69,
       96.78,
-      89.51
+      88.27
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 174806.33,
-     "prev_close": 174042.0,
-     "change_pct": 0.44,
+     "price": 174879.94,
+     "prev_close": 176724.0,
+     "change_pct": -1.04,
      "closes": [
       173205.0,
       172024.0,
@@ -211,8 +211,7 @@
       173326.0,
       177548.0,
       176724.0,
-      174042.0,
-      174806.3281
+      174879.9375
      ]
     }
    ],
@@ -220,7 +219,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-27T16:11:54+00:00",
+   "updated_at": "2026-07-27T18:20:46+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -231,7 +230,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-27T16:11:57+00:00",
+   "updated_at": "2026-07-27T18:20:50+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -392,8 +391,38 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-27T16:12:00+00:00",
+   "updated_at": "2026-07-27T18:20:54+00:00",
    "items": [
+    {
+     "title": "Manejo Integrado de Pragas pode ser a chave para reduzir perdas e aumentar produtividade da soja",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/manejo-integrado-de-pragas-pode-ser-a-chave-para-reduzir-perdas-e-aumentar-a-produtividade-da-soja/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-27T17:39:53+00:00"
+    },
+    {
+     "title": "Temporal atinge produção rural na região de Ribeirão Preto",
+     "link": "https://www.canalrural.com.br/agricultura/temporal-atinge-producao-rural-na-regiao-de-ribeirao-preto/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-27T17:29:22+00:00"
+    },
+    {
+     "title": "Infraestrutura e gestão são essenciais para o agronegócio em SC",
+     "link": "https://www.canalrural.com.br/videos/infraestrutura-e-gestao-sao-essenciais-para-o-agronegocio-em-sc/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-27T17:15:09+00:00"
+    },
+    {
+     "title": "Partido Novo oficializa candidatura de Romeu Zema à Presidência da República",
+     "link": "https://www.canalrural.com.br/politica/eleicoes/partido-novo-oficializa-candidatura-de-romeu-zema-a-presidencia-da-republica/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-27T16:39:38+00:00"
+    },
+    {
+     "title": "Tarifaço e crédito rural: principais acontecimentos da semana no Brasil",
+     "link": "https://www.canalrural.com.br/videos/tarifaco-e-credito-rural-principais-acontecimentos-da-semana-no-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-27T16:05:14+00:00"
+    },
     {
      "title": "Conab registra vegetação acima da média histórica nas lavouras de inverno",
      "link": "https://www.canalrural.com.br/agricultura/conab-registra-vegetacao-acima-da-media-historica-nas-lavouras-de-inverno/",
@@ -425,40 +454,16 @@
      "published_at": "2026-07-27T15:15:21+00:00"
     },
     {
-     "title": "Festival de Investimentos Expert XP aproxima mercado financeiro e agro",
-     "link": "https://www.canalrural.com.br/videos/festival-de-investimentos-expert-xp-aproxima-mercado-financeiro-e-agro/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-27T15:15:10+00:00"
-    },
-    {
      "title": "Brasil pode perder mais de US$ 500 milhões com bloqueio da União Europeia",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/27/brasil-bloqueio-uniao-europeia.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-27T14:59:34"
     },
     {
-     "title": "China, Paraguai e Palau abrem mercados para produtos brasileiros",
-     "link": "https://www.canalrural.com.br/economia/china-paraguai-e-palau-abrem-mercados-para-produtos-brasileiros/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-27T14:55:36+00:00"
-    },
-    {
      "title": "Soja em MS: 80% vendida e clima dos EUA decide - Campo Grande News",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQTNIUU4wTFBVNDNRTGRMdW1tQXRZVVluWkRDVGhLTWg2bEdfTVVTNmZIYktzZllPbkpCSUtwcGhYQzY2aE1mRE9jMWJPXy1qR1cxV3dBam5qVV9RMU9iNU5CcWVQMFNiOFRDOTctWGF6LUdndlctMFJyZHNXVFlMYU12SFhZWU1PV240S19TLVBJa1poRXAySWZkRkl3OG9fbGFIdEpBSTJKQkt5NWlLTm9UU2pUc01wLTNaQ1VMUHJud9IBwgFBVV95cUxQcU1LWnBfcms0eUxxcWg0ZS1KQkQ4RS1NU3hwWG9RMHJEYWdHRThpTlBON28xcW45bl9fV2JjMG5TSUx6N3RzQUhXYV9KdTU3WW84SEZVMGZKTEV5YzVxZ0ZRbWVaaXZsNk5nak5oUTQzcGljRUN6WW1xMXFqRmZtbVQycFljdVMwZnFJcEpwcXhSdk4wR2tCbmdfMm84Rm9oR1Z4d0RsVk1rcS0xSUdELU5zMFZxR1kxdU5WSXRnRVRVQQ?oc=5",
      "source": "Campo Grande News",
      "published_at": "2026-07-27T14:45:00+00:00"
-    },
-    {
-     "title": "Colheita da safrinha de milho chega a 60% no centro-sul, diz AgRural",
-     "link": "https://www.canalrural.com.br/agricultura/colheita-da-safrinha-de-milho-chega-a-60-no-centro-sul-diz-agrural/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-27T14:41:09+00:00"
-    },
-    {
-     "title": "Expectativa de diálogo entre EUA e Irã derruba petróleo, diz StoneX",
-     "link": "https://www.canalrural.com.br/economia/expectativa-de-dialogo-entre-eua-e-ira-derruba-petroleo-diz-stonex/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-27T14:23:41+00:00"
     },
     {
      "title": "Após onda de incêndios, veja como uma raça de vaca quase esquecida ajuda a Espanha a reduzir queimadas",
@@ -479,12 +484,6 @@
      "published_at": "2026-07-27T13:57:37+00:00"
     },
     {
-     "title": "Defasagem do diesel fecha em 58%, mesmo com queda do petróleo",
-     "link": "https://www.canalrural.com.br/economia/defasagem-do-diesel-fecha-em-58-mesmo-com-queda-do-petroleo/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-27T13:57:15+00:00"
-    },
-    {
      "title": "El Niño aumenta pressão sobre os preços da soja - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMHRSNkdlci12ZHdxNXB5NWlYZzZvU3FXMDE5ajF5SWxBWTlBSTVzMVRvQ0NKYzhVV0dYWkNyRHVOaG91ZHFTLWt0X2hpdmtwR0htNHdfZFdxY09VZWF6VzVsbmxUVnBsblJlRmtVVlpVcUE2NUNCM1luZTN6eVIwVzcwcVpiTjJaZDRNTVRHbzFJSHd3a3BQd29UQ28?oc=5",
      "source": "Agrolink",
@@ -495,12 +494,6 @@
      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOcjZHYl9aZDA3Ym9VbHM2aFhTSlhycHplTGlyclNDM3hEVGYyWnE5SHpGUHRLZHIycXI0QWw3OG9yUVRXRVNVTHRDOGxlS2QzaUNLMmp3QmY4dnNNOWFscl84a3FTQmNsdzV6bm5wWGpTRkZYeFhNeVdieEV4NU5rNzQ3MnRYY0Q0T2FLZUhZbkY4emRiSFJaYmFzSkNaS2JFODdXRlpDSkpRNU84MDROMDZCbEZOcng3WWlFUVg1SkREXzh1SEgyeHhjR3NoWXgxZG5laUJocWxEaXZaWGc?oc=5",
      "source": "Agrimidia",
      "published_at": "2026-07-27T12:21:37+00:00"
-    },
-    {
-     "title": "Demanda por soja brasileira eleva prêmios de exportação e sustenta preços no mercado interno - Agrofy News Brasil",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVmJPc21ISURPTFlTY3FKeVdhVHYtTnZWaThMTjgtRmsyQ0VmUVNGc2VZTmtRb21vUElFVzNEVjMtSTgtV3EtQlJ1Vzd3dXNfMXRUYWdPMFV5ZmxiNnp0cnFlR0ZXYnlVc1pHMkVPc0VvemNyTk5WLXdnVHZTWTRGb1BvaGJVTWNKWVY3Z1F5T0FYa216dmhLMHRUR1FwM0tDVkkwLTF4WWVUYzJ2NHd6R3Q0Q0JYN2xnOEw2U2ZzSTlMSVlLSUE?oc=5",
-     "source": "Agrofy News Brasil",
-     "published_at": "2026-07-27T12:00:00+00:00"
     },
     {
      "title": "Soja brasileira acumula alta de mais de 10% em julho - CNN Brasil",
@@ -533,10 +526,16 @@
      "published_at": "2026-07-27T09:12:07+00:00"
     },
     {
-     "title": "Acordo entre EUA e China ganha tração na soja; Brasil segue competitivo - brasilagro.com.br",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMGZ6VnMwd2VCM3dTanVlZ1BzX0U3LTFqNVZ6MnNKWjRwaTRHOV9uTkcwT3B4SXJkQVk5UmY1VUFrM1VrNURBUGFzWGJvMmttSXJwbGMxYmdQTDJCdENjUS1zOGlWM0lsUVlVcjBTb081VWI5a3FndmNTbUhrNE5tR285M0JDN2g5eXRUZXNZSE1yTDNtdzMwQURuLXJWQlRpSUxwV3ZwbGpXOWNXbHN4M3Z6Y0k?oc=5",
+     "title": "Oferta limitada sustenta milho, e soja ganha força com exportações - Feed&Food",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTVJfTmY4Z2MzNm8zZzc4eE5IT19TemstWXVSMi1uekZJZzlodmJKNzJZTW9sSUJScGFOUzFfVTdlU0hhX18wUzE5cHg2dGdlV2VZMGNaZTExUDFpLXd1OFFnMFVHc3pzTmJqdHhTZTVoVS1lNThPVXFPd0ZIYVhyLXFmTDlsZGtiR2IwUzVTTlNEbkl5?oc=5",
+     "source": "Feed&Food",
+     "published_at": "2026-07-27T09:01:00+00:00"
+    },
+    {
+     "title": "Preço da soja no Brasil atinge maior valor de 2026 - brasilagro.com.br",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMmtKbFJqbVI3eG41UWpmbTk4bmp6RXozcEt6b240aXp0d3p0bmtRdE82cHIteElkdWxnV0VCSlBDN2lJS3U2eVlrdUhwZkM4a2ZwTWpxTE9IX0sxU0d1ajhobDdUSVFUTnpUbUxMbWtjTDRLd3VERnQ3eUFZQ19POW5tTlA3MmgwV2JZeE91bDhDaTZhcDMzRkZn?oc=5",
      "source": "brasilagro.com.br",
-     "published_at": "2026-07-27T08:23:13+00:00"
+     "published_at": "2026-07-27T07:43:13+00:00"
     },
     {
      "title": "SOJA E TRIGO: confira cotações para esta segunda-feira (27) - Brasil 61",

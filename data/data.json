@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-26T23:55:11+00:00",
+ "generated_at": "2026-07-27T02:23:54+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-26T23:55:03+00:00",
+   "updated_at": "2026-07-27T02:23:47+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1253.5,
-     "prev_close": 1237.5,
-     "change_pct": 1.29,
+     "price": 1241.5,
+     "prev_close": 1248.0,
+     "change_pct": -0.52,
      "closes": [
       1126.25,
       1108.75,
@@ -31,16 +31,17 @@
       1219.5,
       1233.0,
       1237.5,
-      1253.5
+      1248.0,
+      1241.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 487.25,
-     "prev_close": 464.0,
-     "change_pct": 5.01,
+     "price": 482.5,
+     "prev_close": 464.25,
+     "change_pct": 3.93,
      "closes": [
       412.75,
       402.0,
@@ -61,16 +62,17 @@
       452.75,
       462.0,
       464.0,
-      487.25
+      464.25,
+      482.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 335.2,
-     "prev_close": 329.9,
-     "change_pct": 1.61,
+     "price": 332.3,
+     "prev_close": 331.3,
+     "change_pct": 0.3,
      "closes": [
       307.0,
       304.7,
@@ -91,16 +93,17 @@
       326.7,
       331.6,
       329.9,
-      335.2
+      331.3,
+      332.3
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 72.01,
-     "prev_close": 75.59,
-     "change_pct": -4.74,
+     "price": 70.98,
+     "prev_close": 74.33,
+     "change_pct": -4.51,
      "closes": [
       71.3,
       69.07,
@@ -121,16 +124,17 @@
       74.3,
       75.48,
       75.59,
-      72.01
+      74.33,
+      70.98
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 678.0,
-     "prev_close": 696.25,
-     "change_pct": -2.62,
+     "price": 677.25,
+     "prev_close": 678.0,
+     "change_pct": -0.11,
      "closes": [
       578.25,
       569.5,
@@ -151,16 +155,17 @@
       678.0,
       705.75,
       696.25,
-      678.0
+      678.0,
+      677.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.96,
+     "price": 93.02,
      "prev_close": 96.78,
-     "change_pct": -4.98,
+     "change_pct": -3.89,
      "closes": [
       71.99,
       73.15,
@@ -182,7 +187,7 @@
       94.07,
       100.69,
       96.78,
-      91.96
+      93.02
      ]
     },
     {
@@ -190,8 +195,8 @@
      "name": "Ibovespa",
      "unit": "pontos",
      "price": 174041.95,
-     "prev_close": 177548.0,
-     "change_pct": -1.97,
+     "prev_close": 176724.0,
+     "change_pct": -1.52,
      "closes": [
       170507.0,
       171990.0,
@@ -214,7 +219,8 @@
       173371.0,
       173326.0,
       177548.0,
-      176724.0
+      176724.0,
+      174042.0
      ]
     }
    ],
@@ -222,7 +228,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-26T23:55:03+00:00",
+   "updated_at": "2026-07-27T02:23:47+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -233,7 +239,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-26T23:55:08+00:00",
+   "updated_at": "2026-07-27T02:23:51+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -251,27 +257,27 @@
       0.0,
       0.0,
       0.1,
-      0.3,
+      0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      35.6,
-      35.9,
-      35.1,
-      34.1,
       35.2,
-      36.6,
-      36.3
+      35.6,
+      35.2,
+      34.4,
+      35.5,
+      36.5,
+      35.9
      ],
      "tmin": [
       21.7,
       21.6,
-      22.5,
-      22.9,
-      23.8,
-      22.8,
-      23.0
+      22.1,
+      22.6,
+      22.6,
+      21.3,
+      22.8
      ]
     },
     {
@@ -288,29 +294,29 @@
      "precip": [
       0.0,
       0.0,
-      0.1,
-      0.3,
+      0.5,
+      0.8,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
       34.5,
-      34.3,
+      34.4,
       34.0,
-      33.8,
+      33.6,
       34.0,
-      35.3,
-      34.9
+      35.2,
+      34.7
      ],
      "tmin": [
       21.9,
-      21.3,
+      21.4,
+      22.1,
+      22.1,
       22.3,
-      22.4,
-      22.9,
-      23.0,
-      22.7
+      21.5,
+      22.2
      ]
     },
     {
@@ -335,21 +341,21 @@
      ],
      "tmax": [
       29.1,
-      30.8,
-      32.1,
-      32.8,
-      33.8,
-      32.7,
-      31.8
+      30.9,
+      32.3,
+      33.0,
+      33.1,
+      32.5,
+      31.6
      ],
      "tmin": [
       17.1,
-      18.4,
-      18.5,
-      20.4,
-      20.0,
-      20.4,
-      21.0
+      18.6,
+      19.4,
+      20.6,
+      19.6,
+      21.3,
+      20.4
      ]
     },
     {
@@ -364,37 +370,37 @@
       "2026-08-01"
      ],
      "precip": [
+      0.2,
       0.0,
       0.0,
-      0.0,
-      31.5,
-      1.5,
+      7.0,
+      4.2,
       0.0,
       0.0
      ],
      "tmax": [
-      27.8,
-      30.5,
-      31.2,
+      28.1,
       30.8,
-      27.5,
-      27.1,
-      30.9
+      31.4,
+      31.7,
+      28.0,
+      28.2,
+      31.3
      ],
      "tmin": [
       17.4,
-      18.3,
-      18.9,
-      19.6,
-      18.1,
       18.4,
+      18.8,
+      20.1,
+      18.5,
+      19.9,
       19.3
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-26T23:55:11+00:00",
+   "updated_at": "2026-07-27T02:23:54+00:00",
    "items": [
     {
      "title": "Porto de Santos firma acordo com complexo chinês para estudar transbordo de soja em alto-mar - G1",
@@ -553,6 +559,12 @@
      "published_at": "2026-07-24T16:49:46"
     },
     {
+     "title": "Clima nos EUA sustenta altas da soja em Chicago, apesar da pressão do trigo e do petróleo - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPS05kSkZSMG5ZdmE1bVRhaGFvMWNvR2d5WldLWXNQVXhQTm5NdFRGS2JpZGhmSTZnRnZOQ2NJTURkOG45emFfempyd0J1eklqNEE3YTJjVnQ1VjhfRndrR21oeXp3Ml95cy1nTk5kMGFtMUdGT2hsRVYzSVBnbllmOWU5aVduRy1SQjZDUGpEMHhjSzJZTzFvZUF1S3k1TjVTNFNPZ1FaSmZLSGF6NExINWlxNXgxTmZHbE5XUjZvNEFLRGlhZ191VXd4UEVtTjJpUGR4a28teW1fVUF2Vm5LZnVXQU0tQdIB6wFBVV95cUxObV9yUk5oQTdSVVhBd1haZ1RrRExUazE1cVFGckpxVU5EWEEwM25SU1JPeGMweTUxVFBrbHhJZzFycm1sZHpqazJmNmN0S19YVHBJdW5ISXF1ZWxnT2hob2VaVEZ3SU5fXzVuUUoyOGFHWmlCTU4wZ0NZM2FIbGxQY29XS3YxUm9fWGRmSkJWU1ZkWnBFSExBaTBJSEltTzYyVFFYdjdMLVIyeVJqM2NvY3ZsNFB5N2xxM3RubGp5WWRxcUUzTElsVWY3WEFSRTlCRFhRSUd0QVZoN2QzcHZxMEhpa1h4VV9JcHUw?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-24T15:59:05+00:00"
+    },
+    {
      "title": "EUA fazem recall de quase 1,6 milhão de dúzias de ovos por risco de salmonela",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/24/eua-fazem-recall-de-quase-16-milhao-de-duzias-de-ovos-por-risco-de-salmonela.ghtml",
      "source": "G1 Agronegócios",
@@ -569,12 +581,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/24/brasil-proibe-foie-gras-apos-classificar-tecnica-como-maus-tratos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-24T11:03:38"
-    },
-    {
-     "title": "UFU desenvolve cultivares de soja mais resistentes e preserva diversidade do pequizeiro - Comunica UFU",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc3dYZW9RdFdtT0RVWnhfUHIzNWl6WUZrdkYyT2NPSXB2QzNSdlFPMHFDcFVFQ294QjBIS1Vhc0lMbG1faGxXZm1UeTBWX1d1SllqUGlpYXNvck14Tkl2Y1VST3dWUGxGNG1pTl9WUmdFclVvUGo2V2Fyb04zbVFqRWZqRmprMTV2cWRiWE1ib1NJel9OUXRxYUUwMmVFT3FGSTRMYkJxNUFrdG5Hc0J4Z0g2cjNWdkk?oc=5",
-     "source": "Comunica UFU",
-     "published_at": "2026-07-24T07:00:00+00:00"
     }
    ],
    "failed": [

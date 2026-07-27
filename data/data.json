@@ -1,18 +1,17 @@
 {
- "generated_at": "2026-07-27T02:23:54+00:00",
+ "generated_at": "2026-07-27T06:22:52+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-27T02:23:47+00:00",
+   "updated_at": "2026-07-27T06:22:45+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1241.5,
+     "price": 1237.25,
      "prev_close": 1248.0,
-     "change_pct": -0.52,
+     "change_pct": -0.86,
      "closes": [
-      1126.25,
       1108.75,
       1116.75,
       1126.25,
@@ -32,18 +31,17 @@
       1233.0,
       1237.5,
       1248.0,
-      1241.5
+      1237.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 482.5,
+     "price": 480.75,
      "prev_close": 464.25,
-     "change_pct": 3.93,
+     "change_pct": 3.55,
      "closes": [
-      412.75,
       402.0,
       412.75,
       421.0,
@@ -63,18 +61,17 @@
       462.0,
       464.0,
       464.25,
-      482.5
+      480.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 332.3,
+     "price": 331.1,
      "prev_close": 331.3,
-     "change_pct": 0.3,
+     "change_pct": -0.06,
      "closes": [
-      307.0,
       304.7,
       304.7,
       306.6,
@@ -94,18 +91,17 @@
       331.6,
       329.9,
       331.3,
-      332.3
+      331.1
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.98,
+     "price": 70.41,
      "prev_close": 74.33,
-     "change_pct": -4.51,
+     "change_pct": -5.27,
      "closes": [
-      71.3,
       69.07,
       66.74,
       67.02,
@@ -125,18 +121,17 @@
       75.48,
       75.59,
       74.33,
-      70.98
+      70.41
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 677.25,
+     "price": 678.5,
      "prev_close": 678.0,
-     "change_pct": -0.11,
+     "change_pct": 0.07,
      "closes": [
-      578.25,
       569.5,
       580.75,
       592.0,
@@ -156,18 +151,17 @@
       705.75,
       696.25,
       678.0,
-      677.25
+      678.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.02,
+     "price": 90.84,
      "prev_close": 96.78,
-     "change_pct": -3.89,
+     "change_pct": -6.14,
      "closes": [
-      71.99,
       73.15,
       72.92,
       71.57,
@@ -187,7 +181,7 @@
       94.07,
       100.69,
       96.78,
-      93.02
+      90.84
      ]
     },
     {
@@ -228,7 +222,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-27T02:23:47+00:00",
+   "updated_at": "2026-07-27T06:22:45+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -239,99 +233,99 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-27T02:23:51+00:00",
+   "updated_at": "2026-07-27T06:22:49+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
      "dates": [
-      "2026-07-26",
       "2026-07-27",
       "2026-07-28",
       "2026-07-29",
       "2026-07-30",
       "2026-07-31",
-      "2026-08-01"
+      "2026-08-01",
+      "2026-08-02"
      ],
      "precip": [
-      0.0,
       0.0,
       0.0,
       0.1,
       0.0,
       0.0,
+      0.0,
       0.0
      ],
      "tmax": [
-      35.2,
       35.6,
       35.2,
       34.4,
       35.5,
       36.5,
-      35.9
+      35.9,
+      35.0
      ],
      "tmin": [
-      21.7,
       21.6,
       22.1,
       22.6,
       22.6,
       21.3,
-      22.8
+      22.8,
+      24.2
      ]
     },
     {
      "name": "Sinop · MT",
      "dates": [
-      "2026-07-26",
       "2026-07-27",
       "2026-07-28",
       "2026-07-29",
       "2026-07-30",
       "2026-07-31",
-      "2026-08-01"
+      "2026-08-01",
+      "2026-08-02"
      ],
      "precip": [
-      0.0,
       0.0,
       0.5,
       0.8,
       0.0,
       0.0,
+      0.0,
       0.0
      ],
      "tmax": [
-      34.5,
       34.4,
       34.0,
       33.6,
       34.0,
       35.2,
-      34.7
+      34.7,
+      34.5
      ],
      "tmin": [
-      21.9,
       21.4,
       22.1,
       22.1,
       22.3,
       21.5,
-      22.2
+      22.2,
+      23.8
      ]
     },
     {
      "name": "Rio Verde · GO",
      "dates": [
-      "2026-07-26",
       "2026-07-27",
       "2026-07-28",
       "2026-07-29",
       "2026-07-30",
       "2026-07-31",
-      "2026-08-01"
+      "2026-08-01",
+      "2026-08-02"
      ],
      "precip": [
-      0.2,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -340,68 +334,86 @@
       0.0
      ],
      "tmax": [
-      29.1,
       30.9,
       32.3,
       33.0,
       33.1,
       32.5,
-      31.6
+      31.6,
+      31.5
      ],
      "tmin": [
-      17.1,
       18.6,
       19.4,
       20.6,
       19.6,
       21.3,
-      20.4
+      20.4,
+      20.8
      ]
     },
     {
      "name": "Dourados · MS",
      "dates": [
-      "2026-07-26",
       "2026-07-27",
       "2026-07-28",
       "2026-07-29",
       "2026-07-30",
       "2026-07-31",
-      "2026-08-01"
+      "2026-08-01",
+      "2026-08-02"
      ],
      "precip": [
-      0.2,
       0.0,
       0.0,
       7.0,
       4.2,
       0.0,
-      0.0
+      0.0,
+      0.4
      ],
      "tmax": [
-      28.1,
       30.8,
       31.4,
       31.7,
       28.0,
       28.2,
-      31.3
+      31.3,
+      28.3
      ],
      "tmin": [
-      17.4,
       18.4,
       18.8,
       20.1,
       18.5,
       19.9,
-      19.3
+      19.3,
+      19.6
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-27T02:23:54+00:00",
+   "updated_at": "2026-07-27T06:22:52+00:00",
    "items": [
+    {
+     "title": "Clima e fundos ampliam volatilidade da soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkMwYnJfT3dQZ0lwQW5nd3VnRnBGa2FPNVJkdjBVTlgwTHRwRFMtelF1dEN0a2ZsVVlxbWltMGVfNUtCQUNwWl9EUlNNTS02T1FzVTVZaHdlODVIVl8zMk16UzhTUGhLeURuMWxDNUlDQkE4TEtQZHhvcVgwb2p0QjJZbU5XYUdyNm81XzNQdTc3Z0luNEpB?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-27T05:00:00+00:00"
+    },
+    {
+     "title": "Estudo sobre fim da moratória da soja deve servir de alerta - O GLOBO",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYlg2MmJjYU5OYjJYRzRDSlNqcmpaYVdnLTN5NHl2Qnp5RS1jcHUxbEtwT3g2LWFib3pyaG1wNDZZTHlCTVRaczg3RXhKZUl5LWlCX2pnQWVYTXNVMVo0dEE2bV9kRTRVdnRhMU90S2NOeFZ2VldMRThJVkxXVHFGamZWQkhDQ2pNbFdFVDVpaUtTWVVyeWwxeHNHMG5GTnZUdEFNZGdnVzZRVDFtakFUZ1BSWExqaEpuak9GUDdHRWrSAc8BQVVfeXFMTmpSY255d3RSTW1ibFJnQ0NxMWxubWVvbXo0TlMzZXUzaGZrRDFOX3pwSDdWbmF5cUhjcVp4bTl2SXNhSW11aDRMMVlKMTQ0NWlDWm9GTlcxOUVJTHNEVE91ekRkU1AyZ0Jaa2xFSzZGeW5MV2x4SjNLT0ZmTUJVZVd1MWE0QzJ5c2llazBRWnc5REx3VTlvTEN2MmxqOVV4aUx6Nlg4bC1TMF95cC1iYzJDWW55X0FHbXhtQ2hkeG5oaWsxQmVNaGlKMi10VHY0?oc=5",
+     "source": "O GLOBO",
+     "published_at": "2026-07-27T03:10:12+00:00"
+    },
+    {
+     "title": "Lagarta que ataca soja e algodão abriga fungos capazes de degradar isopor - Agência FAPESP",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUGx4OU5uOVNRZm1OTkhOQ3cwaS04S3luX2JZaWF4ZzByaXBkZXlmaTl3dTNzRGFQMzdFaHR0UWo5cnZmaVJka2NHcERtekEyY3dBMGliSW1RaGd3NW9SQ0IwSDBCRm5KZHhtUlpYUEtETXNwUWJCMGV4VXo5V0VHVzJVQUMxTkY4ZzhaVVpqQzh4aGl2X0V3ZEFWTU5VRGpRd0tuUWxhLVQ?oc=5",
+     "source": "Agência FAPESP",
+     "published_at": "2026-07-27T03:00:41+00:00"
+    },
     {
      "title": "Porto de Santos firma acordo com complexo chinês para estudar transbordo de soja em alto-mar - G1",
      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbVpLNjRYXy13S2lGWmdTTUpDYkdUMnhJNnhsM0xpNGQzVnBNSkFDdzFsVk5tXzBzc1NzNXAwR3J4RHJrOHJJclJlLVVFX1hXX1NZY1FkUjdZeDlES0JtQUlRWHJPd09Cd0NZeWR6SmtXSkF1elpEZjBFenEwS3NoRkNRVnV3ek1kMWVuejJHVEs2bTJUUjR6ZDZ3ZVZ3SHBJVlYtQ0NRejZtaTdqYTU4U09JY2stMy00blM0YnhYdndJSHRtRWR3bW9SN0dPZDVnOFFjRTZCVEY3ZGZ2YnZiUU5VN3UwZTVUSXpsT3JZV2pfLU5CRk85Q9IBhwJBVV95cUxOVlF3cUdaM1Q2dzdoakVfRUNfYzV3bW8wNGUyRUl6MWdiUldXVkZBVlpOdW5fZkRxS2xURFJvSHQ0QnlXRHo1VHdpOU4ydVRMSkMzdzc4amladldDZXhfNXNDWGxYNmQ5b0Y3dXF1VXN0OG85MWJnVlhGNGZMbkVOYldQaFV1ay1CTmFXTHpxeFJwajBrTWlVd1V4V21nSVh1SS1acFhDTzNVU0pYaDJRX3ZiMXRqNEVUcENvOUFPcWZQX0ZhY1RJd0Q3R19qN2pVODBJMnFEX1RyVGl2NUJwMlZQVVZCb2xRRjhXeXVEcXVUTW9xYlc1c1BVRHQtbmxrbHp6OG0zNA?oc=5",
@@ -505,12 +517,6 @@
      "published_at": "2026-07-26T10:30:12"
     },
     {
-     "title": "Araripe desponta como nova fronteira agrícola do Nordeste com milho e soja - Movimento Econômico",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPX2dZVHU4bEp1SUFYVU4zbTVaV1hIVHVMR1NOMzE1WlZzcU9JQm9IaFN3ZzZobmtvZmxXQVNzY0g4SmpLUkczREQtS2cyM2QxX0I0b2tVLV9nUVNZcTBGU3M4dnFkMERneDJ4Sm5JSVcyRFJmZUFmMVpJRkxDLXBhcXBvb1o4R0RsX3E3YUhtRXg2NmtPUFc0dHFqV3NNR2RsMHdZbmlTWklJeURKRDlMRGdseG5Qelp6YVlnZFNlLXZBQlA5RkNybkJmNlk?oc=5",
-     "source": "Movimento Econômico",
-     "published_at": "2026-07-26T10:00:58+00:00"
-    },
-    {
      "title": "Arroz, café, trigo e mais: como a crise dos fertilizantes — em ano de El Niño — pode pressionar preços",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/26/arroz-cafe-trigo-e-mais-como-a-crise-dos-fertilizantes-em-ano-de-el-nino-pode-pressionar-precos.ghtml",
      "source": "G1 Agronegócios",
@@ -541,12 +547,6 @@
      "published_at": "2026-07-25T03:00:32"
     },
     {
-     "title": "Boletim semanal: Soja e boi lideram altas, enquanto café robusta recua 4% na semana - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSUxSSXF5bVVGalhOS2NxRXhYeEpHdndsTk9LeFk1Rnl1NUdFS1VNaUZ2TGQxQkIzdVd6cDYwSWk4RzhxRWtzMTBiVk9CMjBwd002QW1uQV9MNXQ0ZzJ1azhaZVZZbHVsdThZSktoOHV5MU9TRUlPUFh6UDdEaDJjR0VuOGZWRm5TajJYT2ZFVlVscS1IWndzQWlRYUZDZlRvX2ZNbkNCOFd2aWpZWHpLTWhmMERlaGk3ZzZVa01TVHgySFVRdDhERzd3Z3I?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-24T22:17:00+00:00"
-    },
-    {
      "title": "Soja dispara no Brasil, negócios superam 5 mi de t e preços seguem nos melhores níveis do ano - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTE9RZE45aVhkMFdlbUlMTml4bllCRHNwcUZOekVGVEdkQ21YeHVDa25nR2gzZWR0QnZQR2RjOXF5Yk8xU1lXSmRKR21uZFRXdUlMbHk5N0pyNTdIMTA5R01sRmc2ZmN0YmM5ODdqZEF3WXVYZHFrM2puZDdQc3RjZGlxZGNsZWdzclJxaW9PUzJyRTR0Mzg3Q1lvQWZId1Nkd2F0MkRVWWV5bUxjUmd2MHMtckpaa0VBUlBtN0hhZGlTNUtMek1hd2hHZkxQUzk0dmlvRlV5UlRGd3ZTcWhJc3FFLTVpejkyY3lV0gHwAUFVX3lxTE4xT3pfTzdsSHJtUkhuVHBGR1RjUjJlUnhRUkN0V1F3V0wwREdFanl2bFl5VGJwdTdyNE00VUlLN1RHNWhvTzdDVVNoSVhFdFB2MVgtazdUSGFIZ2ZNRzhLWkdWcFQteUlTX25BZzVMVmJjQlFTTW15YWtsOXRqYUpDcFZCN3FISFo1VHhURGJ6dnVaQ2FSdC1Wb1MwdlcyOHR4ZDV6TGFFZzRrRm1CYU1zdEphWXc4R1p3TVZSWGV3czA5OWprZ3JKSHdJdGVydnczdTNqVFVjaEl2X0ZjaHc3M044UUIwU2I4YjBJMGRTRg?oc=5",
      "source": "Notícias Agrícolas",
@@ -557,12 +557,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/24/veto-ao-foie-gras-no-brasil-reacende-tensao-comercial-com-a-franca-apos-acordo-mercosul-ue.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-24T16:49:46"
-    },
-    {
-     "title": "Clima nos EUA sustenta altas da soja em Chicago, apesar da pressão do trigo e do petróleo - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPS05kSkZSMG5ZdmE1bVRhaGFvMWNvR2d5WldLWXNQVXhQTm5NdFRGS2JpZGhmSTZnRnZOQ2NJTURkOG45emFfempyd0J1eklqNEE3YTJjVnQ1VjhfRndrR21oeXp3Ml95cy1nTk5kMGFtMUdGT2hsRVYzSVBnbllmOWU5aVduRy1SQjZDUGpEMHhjSzJZTzFvZUF1S3k1TjVTNFNPZ1FaSmZLSGF6NExINWlxNXgxTmZHbE5XUjZvNEFLRGlhZ191VXd4UEVtTjJpUGR4a28teW1fVUF2Vm5LZnVXQU0tQdIB6wFBVV95cUxObV9yUk5oQTdSVVhBd1haZ1RrRExUazE1cVFGckpxVU5EWEEwM25SU1JPeGMweTUxVFBrbHhJZzFycm1sZHpqazJmNmN0S19YVHBJdW5ISXF1ZWxnT2hob2VaVEZ3SU5fXzVuUUoyOGFHWmlCTU4wZ0NZM2FIbGxQY29XS3YxUm9fWGRmSkJWU1ZkWnBFSExBaTBJSEltTzYyVFFYdjdMLVIyeVJqM2NvY3ZsNFB5N2xxM3RubGp5WWRxcUUzTElsVWY3WEFSRTlCRFhRSUd0QVZoN2QzcHZxMEhpa1h4VV9JcHUw?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-24T15:59:05+00:00"
     },
     {
      "title": "EUA fazem recall de quase 1,6 milhão de dúzias de ovos por risco de salmonela",

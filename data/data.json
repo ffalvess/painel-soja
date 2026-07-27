@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-27T22:00:41+00:00",
+ "generated_at": "2026-07-27T23:57:47+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-27T22:00:31+00:00",
+   "updated_at": "2026-07-27T23:57:37+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -158,9 +158,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 87.68,
+     "price": 87.93,
      "prev_close": 96.78,
-     "change_pct": -9.4,
+     "change_pct": -9.14,
      "closes": [
       73.15,
       72.92,
@@ -181,7 +181,7 @@
       94.07,
       100.69,
       96.78,
-      87.68
+      87.93
      ]
     },
     {
@@ -219,7 +219,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-27T22:00:31+00:00",
+   "updated_at": "2026-07-27T23:57:37+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -230,7 +230,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-27T22:00:37+00:00",
+   "updated_at": "2026-07-27T23:57:42+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -391,8 +391,38 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-27T22:00:41+00:00",
+   "updated_at": "2026-07-27T23:57:47+00:00",
    "items": [
+    {
+     "title": "Temporais no noroeste paulista mobilizam ajuda e atingem áreas rurais",
+     "link": "https://www.canalrural.com.br/agricultura/temporais-no-noroeste-paulista-mobilizam-ajuda-e-atingem-areas-rurais/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-27T23:14:34+00:00"
+    },
+    {
+     "title": "Pesquisa amplia potencial de fungo contra uma das doenças mais destrutivas da agricultura",
+     "link": "https://www.canalrural.com.br/agricultura/pesquisa-amplia-potencial-de-fungo-contra-uma-das-doencas-mais-destrutivas-da-agricultura/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-27T22:34:00+00:00"
+    },
+    {
+     "title": "Bahia recebe encerramento do lançamento do Plano Safra da Agricultura Familiar 2026/27",
+     "link": "https://www.canalrural.com.br/politica/bahia-recebe-encerramento-do-lancamento-do-plano-safra-da-agricultura-familiar-2026-27/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-27T22:33:13+00:00"
+    },
+    {
+     "title": "Preços do boi gordo iniciam a semana em alta: veja a cotação da arroba",
+     "link": "https://www.canalrural.com.br/pecuaria/precos-do-boi-gordo-iniciam-a-semana-em-alta-veja-a-cotacao-da-arroba/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-27T22:15:31+00:00"
+    },
+    {
+     "title": "Soja no Brasil apresenta recuo devido à queda em Chicago; confira as cotações do dia - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPR0oxaWtjcWFpak9JWWEzSGQxYjdHajRpdmpPb0haZy04aEtlWmVNbG40MmplaUFVX2d4VTFHeG5fR2ljdkthY2tZdkdpWmNwSW5mNzlaY3RvaU9WNHJYV0Y5cHNpU2pZallBMTUwX00tUXRodkxXRXkya2EzalVIeXp2cVllY3g1ZHUzWklaTWp2U0xVVXBhSmlPM3lkR2JYS0ZoNmE0dnZ2SFNxaG5uYmp6N0xqRE44N0xVOUhGOEJOV1czdjlGUUc5Zk9sdnFuMm9OMVJGVVZrOHFtQjZV?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-27T21:53:27+00:00"
+    },
     {
      "title": "Soja no Brasil apresenta recuo devido à queda em Chicago; confira as cotações do dia",
      "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/soja-no-brasil-apresenta-recuo-devido-a-queda-em-chicago-confira-as-cotacoes-do-dia/",
@@ -430,40 +460,10 @@
      "published_at": "2026-07-27T21:12:17+00:00"
     },
     {
-     "title": "USDA reduz classificações de milho e soja dos EUA após clima quente e seco Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSV9sRFc2eUhfR2w5eF9nWHJHcl9xUmtSbHlsOEJWRlh1U3h3bktZcE1Da0dhUjN0UExyODYtYW55cEZETFhUTWUtVTRyUHNVOWpzRk1pbE5WNlpiUTJGN1EyQVVCSnRBRGdLTmNxTHNhNzlBZDZ3Mm9wUWU1WkViMXpwdF9YdnNhU0lfX3psbEQyUkNSZjJ2YWdzWU9IbHczOFVRY3h2OHVLZnRLZE4yTlRZa2pmVEx1YUF2SjN5Z2U1MzhFd1J5ZA?oc=5",
-     "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "published_at": "2026-07-27T20:55:00+00:00"
-    },
-    {
      "title": "Dólar sobe a R$ 5,1122 e fecha no maior nível em duas semanas",
      "link": "https://www.canalrural.com.br/economia/dolar-sobe-a-r-51122-e-fecha-no-maior-nivel-em-duas-semanas/",
      "source": "Canal Rural",
      "published_at": "2026-07-27T20:51:52+00:00"
-    },
-    {
-     "title": "Polícia apreende 28 pés de maconha e quatro estufas de cultivo durante operação",
-     "link": "https://www.canalrural.com.br/seguranca/policia-apreende-28-pes-de-maconha-e-quatro-estufas-de-cultivo-durante-operacao/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-27T20:36:07+00:00"
-    },
-    {
-     "title": "IBGE abre programação na SBPC com oficina sobre inovação e agenda inclui Censo Agropecuário",
-     "link": "https://www.canalrural.com.br/diversos/ibge-abre-programacao-na-sbpc-com-oficina-sobre-inovacao-e-agenda-inclui-censo-agropecuario/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-27T20:27:21+00:00"
-    },
-    {
-     "title": "‘EUA querem impor seu etanol no Brasil e ainda taxar o nosso açúcar’, diz NovaBio",
-     "link": "https://www.canalrural.com.br/agricultura/eua-querem-impor-seu-etanol-no-brasil-e-ainda-taxar-o-nosso-acucar-diz-novabio/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-27T20:23:37+00:00"
-    },
-    {
-     "title": "Agricultura familiar é essencial para economia e sucessão no Rio Grande do Sul",
-     "link": "https://www.canalrural.com.br/videos/agricultura-familiar-e-essencial-para-economia-e-sucessao-no-rio-grande-do-sul/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-27T20:15:54+00:00"
     },
     {
      "title": "Safrinha e clima nos EUA pressionam mercado de grãos - Revista Cultivar",
@@ -482,6 +482,12 @@
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcVZfcDV1Wm9HWjZjdnAwNXlKRi03ZXlHUWhiREJoVXJYMlViVHYzSVBtR2VOWTZaV25VSU5ieHhkelpwRndLZ1NzWTZUZXhpa1JkdlNhX0U3WkthOVdQVjdYbDAxc1BzNGVpelBFdFNOTXhSOHowam5Jb3JUdlhpUWhxR1FrNHBFTC1fOUtRakQ4NGM3UTFxYm1uOHdtdm9RQ2IyN2pOVkNwOXhhdFlIXzc3OHFSS3laODJ6WThSQ2pVS0FZbVE?oc=5",
      "source": "CartaCapital",
      "published_at": "2026-07-27T18:23:00+00:00"
+    },
+    {
+     "title": "Soja: Demanda por soja do Brasil aumenta prêmio de exportação e sustenta cotação interna - Sociedade Nacional de Agricultura",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUktNV0FRNGtVNUZhbk5iZm4wS09yMV91RUJKdndQY1dKdlBIc2lram9nU1lXNUxjdFRXSmNvYUpmd1IxVklHdjVaYzVIOUpoeTlVU0pGYWZHLTB5Z0JpcWg5UjduU2p2ZjZyV3B2R1lJUm1WTUVjRE8xVktWOEk1VTNSVXhVLWphUG1HYXhCQTM5dXROSXExOVpaQ3kyeE9jemU2a1E3OEtJUU0?oc=5",
+     "source": "Sociedade Nacional de Agricultura",
+     "published_at": "2026-07-27T17:35:00+00:00"
     },
     {
      "title": "Soja desaba mais de 40 pontos em Chicago com tombo de 7% do petróleo e realização de lucros - Notícias Agrícolas",
@@ -536,12 +542,6 @@
      "link": "https://g1.globo.com/economia/noticia/2026/07/27/apos-tarifaco-de-trump-lula-discute-acordo-china-mercosul-com-xi-jinping.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-27T11:08:11"
-    },
-    {
-     "title": "Fim da Moratória da Soja pode custar 1,4 milhão de hectares à Amazônia - Mongabay Brasil",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONFRnM04taWVuU0JGaFM4aHp4dTE2LWxOUXlaekNBVGZXVFpSREhZTVpvUDJfQ09TT1IyYnF1U3U4YThpeVpSM1JUcjlsS0M3VFZYUkJmSElldHRhQjFtNFFHZUVpcmFFQTQ2ZE56M2RkUkV0Z0xqWE5aY1lEN3dibXFHMFNfWFJnTzQwendxOUxoSTBvQUx1N1cwN2RqWjVjblVoWEZqOW9yTk5uT1FyTTNEaUs3YnpNcXBoaQ?oc=5",
-     "source": "Mongabay Brasil",
-     "published_at": "2026-07-27T09:12:07+00:00"
     },
     {
      "title": "O fazendeiro que quis abandonar o narcotráfico na Colômbia, mas não pôde",

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-28T05:41:01+00:00",
+ "generated_at": "2026-07-28T08:23:41+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-28T05:40:55+00:00",
+   "updated_at": "2026-07-28T08:23:34+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1212.0,
+     "price": 1207.0,
      "prev_close": 1208.5,
-     "change_pct": 0.29,
+     "change_pct": -0.12,
      "closes": [
       1108.75,
       1116.75,
@@ -32,16 +32,16 @@
       1237.5,
       1248.0,
       1208.5,
-      1212.0
+      1207.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 476.0,
+     "price": 474.25,
      "prev_close": 451.75,
-     "change_pct": 5.37,
+     "change_pct": 4.98,
      "closes": [
       402.0,
       412.75,
@@ -63,16 +63,16 @@
       464.0,
       464.25,
       451.75,
-      476.0
+      474.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 325.1,
+     "price": 322.9,
      "prev_close": 320.8,
-     "change_pct": 1.34,
+     "change_pct": 0.65,
      "closes": [
       304.7,
       304.7,
@@ -94,16 +94,16 @@
       329.9,
       331.3,
       320.8,
-      325.1
+      322.9
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 69.03,
+     "price": 68.87,
      "prev_close": 71.46,
-     "change_pct": -3.4,
+     "change_pct": -3.62,
      "closes": [
       69.07,
       66.74,
@@ -125,16 +125,16 @@
       75.59,
       74.33,
       71.46,
-      69.03
+      68.87
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 660.5,
+     "price": 653.5,
      "prev_close": 660.0,
-     "change_pct": 0.08,
+     "change_pct": -0.98,
      "closes": [
       569.5,
       580.75,
@@ -156,16 +156,16 @@
       696.25,
       678.0,
       660.0,
-      660.5
+      653.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 87.34,
+     "price": 85.78,
      "prev_close": 88.36,
-     "change_pct": -1.15,
+     "change_pct": -2.92,
      "closes": [
       73.15,
       72.92,
@@ -187,7 +187,7 @@
       100.69,
       96.78,
       88.36,
-      87.34
+      85.78
      ]
     },
     {
@@ -226,7 +226,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-28T05:40:55+00:00",
+   "updated_at": "2026-07-28T08:23:34+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -237,7 +237,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-28T05:40:59+00:00",
+   "updated_at": "2026-07-28T08:23:38+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -252,30 +252,30 @@
      ],
      "precip": [
       0.0,
-      0.3,
+      0.6,
       0.2,
       0.0,
       0.0,
-      0.0,
+      0.6,
       0.0
      ],
      "tmax": [
-      34.9,
-      34.4,
-      35.4,
-      36.4,
-      36.0,
       35.0,
-      35.7
+      34.1,
+      35.4,
+      36.5,
+      35.7,
+      35.1,
+      35.5
      ],
      "tmin": [
-      22.1,
-      22.4,
+      21.6,
+      22.5,
+      22.6,
+      21.2,
+      22.3,
       22.8,
-      21.0,
-      22.1,
-      23.3,
-      24.2
+      24.4
      ]
     },
     {
@@ -290,8 +290,8 @@
       "2026-08-03"
      ],
      "precip": [
-      0.1,
-      0.1,
+      0.0,
+      0.6,
       0.1,
       0.0,
       0.0,
@@ -299,21 +299,21 @@
       0.0
      ],
      "tmax": [
-      33.8,
+      34.1,
       33.7,
-      34.4,
-      35.2,
-      34.8,
-      34.4,
-      34.7
+      34.5,
+      35.3,
+      34.6,
+      34.3,
+      34.8
      ],
      "tmin": [
       21.9,
-      21.9,
+      22.3,
+      22.5,
+      22.0,
+      22.2,
       22.8,
-      20.7,
-      22.1,
-      23.0,
       24.2
      ]
     },
@@ -338,22 +338,22 @@
       0.0
      ],
      "tmax": [
-      32.0,
-      32.7,
-      32.7,
-      32.6,
-      31.7,
+      31.3,
+      32.3,
+      32.2,
+      32.1,
+      31.6,
       31.4,
-      31.7
+      31.1
      ],
      "tmin": [
-      19.7,
+      19.2,
+      19.9,
+      19.0,
       20.3,
-      19.4,
-      20.6,
-      20.7,
-      19.1,
-      21.2
+      20.4,
+      18.9,
+      21.5
      ]
     },
     {
@@ -369,37 +369,43 @@
      ],
      "precip": [
       0.0,
-      2.8,
-      0.4,
+      18.6,
+      3.9,
       0.0,
       0.0,
-      0.6,
+      0.0,
       0.0
      ],
      "tmax": [
-      32.2,
-      27.2,
-      29.9,
-      29.5,
-      33.4,
-      30.3,
-      30.6
+      32.3,
+      25.8,
+      26.8,
+      28.4,
+      30.9,
+      27.9,
+      29.7
      ],
      "tmin": [
-      19.2,
-      19.2,
-      18.4,
-      19.8,
-      19.7,
-      19.7,
-      20.8
+      19.1,
+      19.6,
+      18.1,
+      19.1,
+      19.3,
+      20.7,
+      20.1
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-28T05:41:01+00:00",
+   "updated_at": "2026-07-28T08:23:41+00:00",
    "items": [
+    {
+     "title": "SOJA E TRIGO: confira os preços dos grãos nesta terça-feira (28) - Brasil 61",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc2N4YXUzZ1FtbXRLMjEwOFlVczNuVWExckx4bHYxY1JtdEhPei1xb3RwLTFudFlMa3BvbUJZNG1LWDJCNG9yWS1nU0p0WEhvek1XY3VXd1BLQXFnd1U4bTZlWGFtbHlVNXBWRzlqLTBXbU9yM3hqVkcwR0dYWHRBbDlSRDA2dG5xT3dVQ09NM3UwOTFYRWxuNF8zSdIBoAFBVV95cUxQWGl5dk1oUGp1NUo4VVh2TDMzV1hZSEtVUVZOUVVpb2hSRUhqMkpKRzhtanJCa1RNcjhmUV9CWks4OFlQQXNvZEtGNjh1NmViZTkxeERyb3ZxaHBGZFRGNUEtMGJDZ3hFVXllNlA5d0hnZzBJOEhkbHNTcWtLTTJMTU1JMk9iR2RReUtvcF9JcVUyYmVZMW5HM3FRYnpwVHZy?oc=5",
+     "source": "Brasil 61",
+     "published_at": "2026-07-28T07:00:00+00:00"
+    },
     {
      "title": "Alta da soja abre janela para fixação de margens - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMTJMbVh1T0YxRExWblZLcTVXbXZRX3FxMzE2VWtKTmtRUGt6NFJYb2RZdGhGd21NYnlGM0JaajhaX1ZOSEd4WGc1QV9wZG9fZHViMURkRFlDY05mVE9MUFRGWm1WUGpqS2pDdDhyVHNZa1lzMFpZRVkwakktdGN4RHp2cU5VOXJsZnptQ2dfZHJpS2ZCd0FBSkdMR3FGdw?oc=5",
@@ -503,10 +509,22 @@
      "published_at": "2026-07-27T20:11:08+00:00"
     },
     {
+     "title": "Soja e petróleo caem nas bolsas depois de alta no mês - Revista Oeste",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaVM4TWFyNVhXTzI3dmYtOWgyMkJkWjgyOE5LWHgtTkwwLWphNV85b2ZnbGpwLUl5MnN6YS1jQjVIa0dVdjZRRU8yTkV6QTAzZkd3QjZrRTFWcV9udmVfSDUxc282ZjVtbkgyWU5hSjB6dVBuR1ZYR0xVX1J0NXNrTUhmbGRYYldWVS1HeU95eVZ5dw?oc=5",
+     "source": "Revista Oeste",
+     "published_at": "2026-07-27T18:23:04+00:00"
+    },
+    {
      "title": "Soja: Demanda por soja do Brasil aumenta prêmio de exportação e sustenta cotação interna - Sociedade Nacional de Agricultura",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUktNV0FRNGtVNUZhbk5iZm4wS09yMV91RUJKdndQY1dKdlBIc2lram9nU1lXNUxjdFRXSmNvYUpmd1IxVklHdjVaYzVIOUpoeTlVU0pGYWZHLTB5Z0JpcWg5UjduU2p2ZjZyV3B2R1lJUm1WTUVjRE8xVktWOEk1VTNSVXhVLWphUG1HYXhCQTM5dXROSXExOVpaQ3kyeE9jemU2a1E3OEtJUU0?oc=5",
      "source": "Sociedade Nacional de Agricultura",
      "published_at": "2026-07-27T17:35:00+00:00"
+    },
+    {
+     "title": "Soja desaba mais de 40 pontos em Chicago com tombo de 7% do petróleo e realização de lucros - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQLXZOS1Y4WV84cVFHWnhXOEJhOUxwTHNlb0NqRTdtOWpNWDRXZVFLaW4xRDJtNVU1Q2NibklWcGJXTXdHczZuOUpuT2ZLN0RWR2ljbVBYa3pKV3pwNjBqUVdFV2JfcVBBN3U5U0FoZ2xWSm1rejJKbjNIMWtUMEtGR0t0dV96T0ZPU0tXSGxMMVZvc0lNRzBYWXg2YXZ5QlFzWUhTcnVVN2hLc3JqRUIzMWg0am5pMWczT1RTRzR0YWtleWZjMm45YXEwOWZGSGQwOXFFendHYW1PbTVGNFdYM2c5Y0dHczMx0gHuAUFVX3lxTE5ocld1R1JHb0k3cFVXMGE5VENtRFRHbkdHNnhvQVpZX2VqMEg5SDlzRnFDQUw5bEladjB3Q19qSXl6MmpPZndyNHhFVDl5cWhvVFF1SGNGTmlQeWIwbzB3c2k1Q0dxdDA5Z0lqeFg4SDlUWGIzdlNJcDBsekl4bklDQTMwVzN1ZmNULWN2eVdTampJWGU5QnktN25KdWRrX3M5aV9jVV9fMkNjQi1jZFBFZUZ6RE9hQzNCbnBISVltcS1ldzBIdkM0NHhXU19wRnV1VG5sRWd5VGNlYXZJS3lCYVJYam9wQ0FMT1ZTUEE?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-27T17:02:06+00:00"
     },
     {
      "title": "Brasil pode perder mais de US$ 500 milhões com bloqueio da União Europeia",
@@ -521,22 +539,10 @@
      "published_at": "2026-07-27T14:10:08"
     },
     {
-     "title": "USDA informa novas vendas de soja nesta 2ª feira (57) para China e demais destinos - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNmpxTF95YVJuLU5vc2VNdTBZZmZkdnF3MjRKVzVFZ2Zwby15TjVtS0hDSEs4U3h5bTVwU1JtMnMxbjhwMWJfcjhFODFFZGQ5UGZkYnJQVzV4WlQ2V1lWWmNwYmtZaFNFbXF0b2hZckJuazJGOWRDZ0lwMERzd3R6ZjY4Z3pmUlByRXJLM09vcVljZUkwSkd2azJIb2NWNXo5ZlpaZUhNS2dRQThyd0U5a0liTkIxbHpYUXZQcU9mY0gtU1M1aXVrRXdtQjhWOW92X3FIQ2xqaFk1LUHSAeABQVVfeXFMTUppaG1ETGRPR1VVV05ITGlac3pZLVN5MW1vVU01TUZxYXZIRXpoTFZhZm4wOW51RUxWbzg4bXJlclNJaXdTRV9FTkY4eWRXdHVULUFHZm95cFo4Rk5sY3I0ckJPT2NXeF91RXZ5bmVSclBidnlGOFI2RjFBU0szS3gzMjI0ZkNKczV4ZWFpSmpGNEszUzQzbjJaUVNObHBSTHRNcmpiM2Y2SUMwQnd1VTdQYUp5VHVSUkx0bjhLa1JTaHNPRUdHUWw1SHIzNkRmREZOX0RDTS1wbzlTX05wOXk?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-27T14:02:04+00:00"
-    },
-    {
      "title": "Soja e milho recuam em Chicago após pausa nos ataques entre EUA e Irã - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQ05DQVR5c1dLTkcwMmhFalpWR2syeUc4Zm9ma19obFlEYlZqQlRwYWpidWRwYmtITkNRcU42MFZ5NjB0aFhqZVVTZDlYY1VTQk5CeFV1ZmRlNFFWd0FLSmt2UHBOODdsQ3Z0N3pWV3lVVDEycGhMQ2tMNE1ZdjAtX1JuSTNkbGtva2ljX3VMRm1JbldBUF9PLUlGQjNEakkwSUZQUDVJbXU2eTJDNEEySDZaeGU0TDl6Qjh3VmFqSW1hYmdZTTBfTdIB1wFBVV95cUxPUUs0eGZDTkdMcXRxaTAxalkyUlVGSkdoNy1IR1pnYTJjUkxnV3dUVVNGRnRlTGRfaFBoZkVvM3MxZzdiWGJrRHJKc3BLQ2lfLTNrblJOTDVvZTVJMHVxRjNjcHQyamw0OG1yQmQ5WFVCWnYzWGRYaDV4UTgtVklwZFAxcmUwZVFHMVM3RGVqZjlUQjZIUGY3SWZCZTRGTEdqd05oMGNoTG5EcjNST3ZLRzJfLUJXSkhPdEd3ZE5ScWxodWlmYVRwZ0hreWFGM0s2Z3ZaNzZocw?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-07-27T13:57:37+00:00"
-    },
-    {
-     "title": "Soja brasileira acumula alta de mais de 10% em julho - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcE1GUHFJcVVpX3NZVnIyb2pHZlZZbm5hdkxVQUNxQlNhVWxuUVpndlBibXMwVWYwczVZQTYwVXk4YnpsWmZwdU1wOFE5UDRkcUM3RzVPNjRoX0N0QlJaQUZZNU5zbGF1R2hoZnN2MmdnVmJPb2VfZnh1LS1vSFZsQ21NaE10S1gtbEltREtwYw?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-07-27T11:36:36+00:00"
     },
     {
      "title": "Após tarifaço de Trump, Lula discute acordo China-Mercosul com Xi Jinping",
@@ -573,12 +579,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/26/arroz-cafe-trigo-e-mais-como-a-crise-dos-fertilizantes-em-ano-de-el-nino-pode-pressionar-precos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-26T07:01:08"
-    },
-    {
-     "title": "Vinho europeu deve ficar até 20% mais barato com acordo UE-Mercosul, mas redução ainda é tímida",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/25/vinho-europeu-acordo-ue-mercosul.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-25T06:00:36"
     }
    ],
    "failed": [

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-27T23:57:47+00:00",
+ "generated_at": "2026-07-28T02:34:21+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-27T23:57:37+00:00",
+   "updated_at": "2026-07-28T02:34:16+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1211.5,
+     "price": 1214.5,
      "prev_close": 1248.0,
-     "change_pct": -2.92,
+     "change_pct": -2.68,
      "closes": [
       1108.75,
       1116.75,
@@ -31,16 +31,16 @@
       1233.0,
       1237.5,
       1248.0,
-      1211.5
+      1214.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 473.25,
+     "price": 476.75,
      "prev_close": 464.25,
-     "change_pct": 1.94,
+     "change_pct": 2.69,
      "closes": [
       402.0,
       412.75,
@@ -61,16 +61,16 @@
       462.0,
       464.0,
       464.25,
-      473.25
+      476.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 324.1,
+     "price": 326.0,
      "prev_close": 331.3,
-     "change_pct": -2.17,
+     "change_pct": -1.6,
      "closes": [
       304.7,
       304.7,
@@ -91,16 +91,16 @@
       331.6,
       329.9,
       331.3,
-      324.1
+      326.0
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 69.53,
+     "price": 69.1,
      "prev_close": 74.33,
-     "change_pct": -6.46,
+     "change_pct": -7.04,
      "closes": [
       69.07,
       66.74,
@@ -121,16 +121,16 @@
       75.48,
       75.59,
       74.33,
-      69.53
+      69.1
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 658.0,
+     "price": 662.5,
      "prev_close": 678.0,
-     "change_pct": -2.95,
+     "change_pct": -2.29,
      "closes": [
       569.5,
       580.75,
@@ -151,16 +151,16 @@
       705.75,
       696.25,
       678.0,
-      658.0
+      662.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 87.93,
+     "price": 87.26,
      "prev_close": 96.78,
-     "change_pct": -9.14,
+     "change_pct": -9.84,
      "closes": [
       73.15,
       72.92,
@@ -181,7 +181,7 @@
       94.07,
       100.69,
       96.78,
-      87.93
+      87.26
      ]
     },
     {
@@ -189,8 +189,8 @@
      "name": "Ibovespa",
      "unit": "pontos",
      "price": 175334.45,
-     "prev_close": 176724.0,
-     "change_pct": -0.79,
+     "prev_close": 174042.0,
+     "change_pct": 0.74,
      "closes": [
       173205.0,
       172024.0,
@@ -211,6 +211,7 @@
       173326.0,
       177548.0,
       176724.0,
+      174042.0,
       175334.4531
      ]
     }
@@ -219,7 +220,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-27T23:57:37+00:00",
+   "updated_at": "2026-07-28T02:34:16+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -230,7 +231,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-27T23:57:42+00:00",
+   "updated_at": "2026-07-28T02:34:19+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -246,29 +247,29 @@
      "precip": [
       0.0,
       0.0,
-      0.0,
-      0.1,
+      0.3,
+      0.2,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
       36.0,
-      35.1,
+      34.9,
       34.4,
-      35.2,
-      36.5,
+      35.4,
+      36.4,
       36.0,
-      35.1
+      35.0
      ],
      "tmin": [
       20.8,
-      22.0,
-      22.9,
-      22.6,
-      22.0,
-      22.5,
-      23.1
+      22.1,
+      22.4,
+      22.8,
+      21.0,
+      22.1,
+      23.3
      ]
     },
     {
@@ -284,30 +285,30 @@
      ],
      "precip": [
       0.0,
-      0.2,
-      0.2,
-      0.0,
+      0.1,
+      0.1,
+      0.1,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      34.5,
-      34.2,
-      33.6,
-      34.3,
-      35.3,
+      34.7,
+      33.8,
+      33.7,
+      34.4,
+      35.2,
       34.8,
-      34.5
+      34.4
      ],
      "tmin": [
       20.9,
-      21.6,
-      22.3,
-      22.5,
-      21.1,
+      21.9,
+      21.9,
+      22.8,
+      20.7,
       22.1,
-      22.8
+      23.0
      ]
     },
     {
@@ -331,22 +332,22 @@
       0.0
      ],
      "tmax": [
-      30.5,
-      31.4,
-      32.8,
-      32.4,
-      32.5,
+      30.6,
+      32.0,
+      32.7,
+      32.7,
+      32.6,
       31.7,
-      31.7
+      31.4
      ],
      "tmin": [
       18.4,
-      19.0,
       19.7,
-      18.9,
-      20.2,
-      20.8,
-      18.8
+      20.3,
+      19.4,
+      20.6,
+      20.7,
+      19.1
      ]
     },
     {
@@ -363,36 +364,48 @@
      "precip": [
       0.1,
       0.0,
-      4.4,
-      0.6,
+      2.8,
+      0.4,
       0.0,
       0.0,
-      0.0
+      0.6
      ],
      "tmax": [
-      30.9,
-      31.8,
-      27.8,
+      31.6,
+      32.2,
+      27.2,
+      29.9,
       29.5,
-      29.5,
-      32.7,
-      30.7
+      33.4,
+      30.3
      ],
      "tmin": [
       18.6,
-      19.1,
-      20.1,
+      19.2,
+      19.2,
       18.4,
-      19.9,
       19.8,
-      20.6
+      19.7,
+      19.7
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-27T23:57:47+00:00",
+   "updated_at": "2026-07-28T02:34:21+00:00",
    "items": [
+    {
+     "title": "Brasil aciona OMC em disputa com os EUA por tarifas adicionais",
+     "link": "https://www.canalrural.com.br/economia/brasil-aciona-omc-em-disputa-com-os-eua-por-tarifas-adicionais/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-28T00:31:56+00:00"
+    },
+    {
+     "title": "Tensões no Oriente Médio e risco de El Niño elevam preços da soja no mercado brasileiro - O Presente Rural",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOLVQ0OFpLb3AxOG9iTmcydWJPcldJYVIwOGhDN1Q4TjRRbmZ2cEw3RjkyM3dvdUphUEpNQ2ZnVXJKdy1IYUpBcV9NMnNhRjdoNjlyNnFaQmhfb1pOREQ4U0tULXFHNS15bnBUY2hWVm0tZ1ZrOUxEM1hVVlpUV2lKWXdKYUJFaWZoMUZDQzNxWXZQLWY1bDNGVmttWXltLUM2djE1S09OTzFXRlNtYWpwMm1IUm1NTURfcGc?oc=5",
+     "source": "O Presente Rural",
+     "published_at": "2026-07-28T00:01:02+00:00"
+    },
     {
      "title": "Temporais no noroeste paulista mobilizam ajuda e atingem áreas rurais",
      "link": "https://www.canalrural.com.br/agricultura/temporais-no-noroeste-paulista-mobilizam-ajuda-e-atingem-areas-rurais/",
@@ -430,6 +443,12 @@
      "published_at": "2026-07-27T21:53:27+00:00"
     },
     {
+     "title": "USDA reduz classificações de milho e soja dos EUA após clima quente e seco - Money Times",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSS03LVNqNTByajA5WUh1eTNtZ1gtMUtRM21tOGEzUnRBNjE5dkNxdlpxYWNJUmI3LXZ2MlllT2Rsd0lyQ0ExZXdqS1lyX1NHSHY0S0FDRUlXM1o3ei1LazM3bk4zdk1HYjc5YzgtTjd6SldZUGJObmxvYzRmQkRkcmY2S2FqaTN3QmYyb2xJRWpuekp2LVRWZDdfSFAtbUpHWWczSFU4NDVBbmhqMWdn?oc=5",
+     "source": "Money Times",
+     "published_at": "2026-07-27T21:49:00+00:00"
+    },
+    {
      "title": "FAO mantém Brasil fora do Mapa da Fome e destaca agricultura familiar",
      "link": "https://www.canalrural.com.br/agricultura/fao-mantem-brasil-fora-do-mapa-da-fome-e-destaca-agricultura-familiar/",
      "source": "Canal Rural",
@@ -460,28 +479,16 @@
      "published_at": "2026-07-27T21:12:17+00:00"
     },
     {
-     "title": "Dólar sobe a R$ 5,1122 e fecha no maior nível em duas semanas",
-     "link": "https://www.canalrural.com.br/economia/dolar-sobe-a-r-51122-e-fecha-no-maior-nivel-em-duas-semanas/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-27T20:51:52+00:00"
-    },
-    {
      "title": "Safrinha e clima nos EUA pressionam mercado de grãos - Revista Cultivar",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTzJXUkpwVTN5SlROVnczMkphLXA0UWEteGowblAwQmJoMGdBdm15Rm13b2FvenBjd0lHMEdPRk1nZkNCNW1nd0JOSUxZV0NoN0x2dGZuc0RKNWtNODg3WXFEUkhYSFNyUmlQZFJSSGlhaXA3SmNXbVJsLWtrcFZGUVJIb2hJdFBmR2dQQ3Q0SkNEdENmcnRF?oc=5",
      "source": "Revista Cultivar",
      "published_at": "2026-07-27T20:11:08+00:00"
     },
     {
-     "title": "Seguro rural: 99% das áreas de soja e milho atendem exigências no Paraná - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOejI0LUNvNWRNXzc5R3VmWkk0OGZKU1FnaU9LTkFQQXRKRmZ3QVBGbWM4X2RpeUtIc095X0xsbFVZeDFQRlRiaUptMFJHWXFkS2NJdWJaSElUWHhOSU5wSDY3cUxJVGFUUDJGejR2SlRpSnlBZE42dGNyRzlncjRCa3M4TUV0akZWeHRtVGFaQjBBcE45c0J3UnJzeEVDNUNaSlZhNzMwUXJ4dGUtNk1OWGc1Qk9jSDNERGRtbkV3?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-27T18:35:00+00:00"
-    },
-    {
-     "title": "Daniel Camargos: Resistência indígena arranca novo recuo no corredor da soja pelo Tapajós - CartaCapital",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcVZfcDV1Wm9HWjZjdnAwNXlKRi03ZXlHUWhiREJoVXJYMlViVHYzSVBtR2VOWTZaV25VSU5ieHhkelpwRndLZ1NzWTZUZXhpa1JkdlNhX0U3WkthOVdQVjdYbDAxc1BzNGVpelBFdFNOTXhSOHowam5Jb3JUdlhpUWhxR1FrNHBFTC1fOUtRakQ4NGM3UTFxYm1uOHdtdm9RQ2IyN2pOVkNwOXhhdFlIXzc3OHFSS3laODJ6WThSQ2pVS0FZbVE?oc=5",
-     "source": "CartaCapital",
-     "published_at": "2026-07-27T18:23:00+00:00"
+     "title": "Soja e petróleo caem nas bolsas depois de alta no mês - Revista Oeste",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaVM4TWFyNVhXTzI3dmYtOWgyMkJkWjgyOE5LWHgtTkwwLWphNV85b2ZnbGpwLUl5MnN6YS1jQjVIa0dVdjZRRU8yTkV6QTAzZkd3QjZrRTFWcV9udmVfSDUxc282ZjVtbkgyWU5hSjB6dVBuR1ZYR0xVX1J0NXNrTUhmbGRYYldWVS1HeU95eVZ5dw?oc=5",
+     "source": "Revista Oeste",
+     "published_at": "2026-07-27T18:23:04+00:00"
     },
     {
      "title": "Soja: Demanda por soja do Brasil aumenta prêmio de exportação e sustenta cotação interna - Sociedade Nacional de Agricultura",
@@ -530,12 +537,6 @@
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcE1GUHFJcVVpX3NZVnIyb2pHZlZZbm5hdkxVQUNxQlNhVWxuUVpndlBibXMwVWYwczVZQTYwVXk4YnpsWmZwdU1wOFE5UDRkcUM3RzVPNjRoX0N0QlJaQUZZNU5zbGF1R2hoZnN2MmdnVmJPb2VfZnh1LS1vSFZsQ21NaE10S1gtbEltREtwYw?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-07-27T11:36:36+00:00"
-    },
-    {
-     "title": "Demanda pela soja brasileira sustenta preços no mercado interno, aponta Cepea - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT1VMWjJ5QW5UUGx6T3ZmOTBmbVNjdFVreHVqdFo5N1FTektsbTM4d2U0Y3FnS2k4Y1BXaFJmanFyRE0zamVuS1BJVEZrQWo3WnBIbnhPVG82RFBiNDNSbm1HczhKZDBmVHdTZ1Z2eklTQjQ3TU9TNnJHQmpPb1M2dURIb3RId203YzMwRG9tWjFGUjJ1cjhnaHBmYjF5Nm1ZcmlyZ1BhaHZEUUxjRS16Zzlndk5uaWcwclppc1htY0pYUQ?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-27T11:20:27+00:00"
     },
     {
      "title": "Após tarifaço de Trump, Lula discute acordo China-Mercosul com Xi Jinping",

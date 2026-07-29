@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-29T20:46:58+00:00",
+ "generated_at": "2026-07-29T21:54:52+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-29T20:46:51+00:00",
+   "updated_at": "2026-07-29T21:54:44+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 90.85,
+     "price": 90.54,
      "prev_close": 84.09,
-     "change_pct": 8.04,
+     "change_pct": 7.67,
      "closes": [
       73.15,
       72.92,
@@ -193,7 +193,7 @@
       96.78,
       88.36,
       84.09,
-      90.85
+      90.54
      ]
     },
     {
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-29T20:46:51+00:00",
+   "updated_at": "2026-07-29T21:54:44+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-29T20:46:55+00:00",
+   "updated_at": "2026-07-29T21:54:49+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -406,13 +406,55 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-29T20:46:58+00:00",
+   "updated_at": "2026-07-29T21:54:52+00:00",
    "items": [
+    {
+     "title": "Renegociação das dívidas rurais: solução estrutural ou novo adiamento?",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/renegociacao-das-dividas-rurais-solucao-estrutural-ou-novo-adiamento/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-29T21:35:18+00:00"
+    },
+    {
+     "title": "Soja cai por condições climáticas favoráveis nos EUA Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTVI2MUZ0bWpGYVRTU3dtMWkzTlJvbjQtY0VIdHlGN2hJemtMYkhBLUJ5OXRlYkhpdHE3MWNUbmVHeVU4SXBZYUt1LW5tM1FacV84bXdfWm5OOWpUSGRvV09zZ0xKOXVnMWxlN05ZTG1raFpkdU1xclBKa01wa011VGtULWNtN3Uxa2xkMkgwRzFzSlZIdFoycTBoNndDcmtseHdYV3h3?oc=5",
+     "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "published_at": "2026-07-29T21:31:00+00:00"
+    },
+    {
+     "title": "Avião cai no interior de São Paulo e pega fogo",
+     "link": "https://www.canalrural.com.br/diversos/aviao-cai-no-interior-de-sao-paulo-e-pega-fogo/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-29T21:18:10+00:00"
+    },
+    {
+     "title": "Dólar fecha em queda após Fed manter juros e Warsh adotar tom mais ameno",
+     "link": "https://www.canalrural.com.br/economia/dolar-fecha-em-queda-apos-fed-manter-juros-e-warsh-adotar-tom-mais-ameno/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-29T20:53:10+00:00"
+    },
+    {
+     "title": "Maurício Saito destaca papel do Sebrae na transformação do agro em Mato Grosso do Sul",
+     "link": "https://www.canalrural.com.br/agricultura/mauricio-saito-destaca-papel-do-sebrae-na-transformacao-do-agro-em-mato-grosso-do-sul/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-29T20:48:49+00:00"
+    },
     {
      "title": "Clima favorável nos EUA derruba Chicago e pressiona mercado brasileiro de soja - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSmZiS3lJcWFSMTc3aFdEYllMZ1FIQVlMQll6SG9xUEQxSGV3eUw4dDVhX09wcXYtVnhKQnZ6QnZUUThMckdaczlaM0dIaUpIblpET3VYa25jRVFMTExGNjU2NXNKTFVzTjM2c1lWMDFHUVZpY0hwR0NUekY5RVRCY2NQQzZjcVl5bVlmQTlZUXEyZVZWdUpkUnloNDNHUHFxV2drT2ZWQnFpVlVPeEp1MWo3bGk1aFotcHphLW1SVFBLaTlveC1obmkyOEJsQzREYXJ6SmhxcFE?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-29T20:25:07+00:00"
+    },
+    {
+     "title": "Clima favorável nos EUA derruba Chicago e pressiona mercado brasileiro de soja",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/clima-favoravel-nos-eua-derruba-chicago-e-pressiona-mercado-brasileiro-de-soja/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-29T20:25:07+00:00"
+    },
+    {
+     "title": "El Niño será forte, e manejo da lavoura deve orientar reação do produtor",
+     "link": "https://www.canalrural.com.br/agricultura/el-nino-sera-forte-e-manejo-da-lavoura-deve-orientar-reacao-do-produtor/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-29T20:18:55+00:00"
     },
     {
      "title": "Brasil busca diversificar mercados e enfrenta barreiras comerciais",
@@ -439,36 +481,6 @@
      "published_at": "2026-07-29T20:09:53+00:00"
     },
     {
-     "title": "Déficit de armazenagem de grãos no Brasil supera 130 milhões de toneladas",
-     "link": "https://www.canalrural.com.br/videos/deficit-de-armazenagem-de-graos-no-brasil-supera-130-milhoes-de-toneladas/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-29T20:05:58+00:00"
-    },
-    {
-     "title": "Temporal causa destruição e prejuízos em propriedade rural no RS",
-     "link": "https://www.canalrural.com.br/videos/temporal-causa-destruicao-e-prejuizos-em-propriedade-rural-no-rs/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-29T20:05:47+00:00"
-    },
-    {
-     "title": "Tornado causa destruição em Giruá e preocupa produtores rurais",
-     "link": "https://www.canalrural.com.br/videos/tornado-causa-destruicao-em-girua-e-preocupa-produtores-rurais/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-29T20:05:36+00:00"
-    },
-    {
-     "title": "43ª exposição nacional do cavalo manga larga marchador em BH",
-     "link": "https://www.canalrural.com.br/videos/43a-exposicao-nacional-do-cavalo-manga-larga-marchador-em-bh/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-29T20:05:24+00:00"
-    },
-    {
-     "title": "Fenômenos extremos no Sul do Brasil: tornados e granizo em alta frequência",
-     "link": "https://www.canalrural.com.br/videos/fenomenos-extremos-no-sul-do-brasil-tornados-e-granizo-em-alta-frequencia/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-29T20:05:14+00:00"
-    },
-    {
      "title": "Futuros do milho acompanham perdas da soja e fecham quarta-feira caindo 2% em Chicago - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPR1FhRS1fNU9rNU5idnhxc1h1b0xHd0d4WlA5Ti1BUW5uRkpfNjlYczVSZHJ2RUpsWWtjcFFQUXJhTmpZcUhjQzkwSjZEb3ZueTdNUTdhM2M0ZWZta1g2VVJRUzQzSFM5VUdVUU5WYWlKd19HNDBDVEJyR2pZWDB6ZWdsZkdsZXlKbDRMWTBhSkdPTkczZmpGMUpvWUU4SUlMbEJ5NGh3a1dwTjFoZ0s2QjY3MVdHOG5FY2lGRzZlbkpYSlU4bGJWNlhTRFdYNWRUaEpCZ2hoZm1xM1kzMDQ5SkNB0gHnAUFVX3lxTE1QbXA3Wkd4c25vMDBLbXQ0Y0UtblMxeDhhMzRyRkFWbFBXTlNoMlpfa1ZJQXZtU0lxM3J1MGR1YUZXb3J4UmhzSmpoZ3NCWkl2VVhyT3JlbXBlbjFYc3RCZk15MmNpSXZMcjhIcGpzaXRDUm00RGJNSURJMFBoY1NocVpBSEVMN29qOGxubnVud3VzY1RwTUNodVdOeV9vSC02LUxpZ0doOEpXSDhjTkNnXzhFX28tYkpmOG1IMkkwY1BJaWJoZHlZRWtmQkNWQ051M190UVA3dXpZTlZNc3pUWEJqaHhyaw?oc=5",
      "source": "Notícias Agrícolas",
@@ -481,18 +493,6 @@
      "published_at": "2026-07-29T20:01:59+00:00"
     },
     {
-     "title": "Anvisa suspende venda de queijo artesanal e molho pesto; veja as marcas e lotes afetados",
-     "link": "https://www.canalrural.com.br/seguranca/anvisa-suspende-venda-de-queijo-artesanal-e-molho-pesto-veja-as-marcas-e-lotes-afetados/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-29T19:25:29+00:00"
-    },
-    {
-     "title": "Estudo aponta caminhos para fortalecer rastreabilidade da soja e da carne bovina no Brasil - capitalnews.com.br",
-     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPY2FmckplcW9SelR6a1NQdzlyeEhtUlY0S1NmdEg5LXN4b3J0MkZOUjJ1T3dQUmZLOUJIMmRrLTFvdkJGaVpZSGhoV3l5RTJUMjRmM1lLOWJPc0VLeXQ4MC1JblkyOG4ybV9GQWJnQnlBdGF6bnFvOG9sS1EtNlZicHY2ckJpd2RGRkZwNGw1N3I1aXAxVmZab2xJOHNPejMzNHk1ZXpaYkVVME43M2R5QVkzcHdYV2dSQmZBTkpVdm9udEVrcW1uR3JGalFtc25uZURhVGNMbXlRU2VYZFJnRzkxd0IxOFpUXzBEaG01TmZ0LTAtNEE?oc=5",
-     "source": "capitalnews.com.br",
-     "published_at": "2026-07-29T19:22:00+00:00"
-    },
-    {
      "title": "Estudo aponta avanços e desafios na rastreabilidade das cadeias da soja e da carne bovina - O Presente Rural",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTGFyT2ZFa2ppeE15U2RBUW13eFV5RkdNYXppem5oa2E0aEJvX0RYaXBYZ1BreDJxTk5CSGdLZndVajdjdnhDemI5RmU3b0FQZW5JUTcyQVd6QzBEM2JQMTN0RDFNaDdzQVJMWDFucnRjZHpVSVVld0g2SHQ1YjZnM2hnRzlnQ1NDMDNDSDdoUnMwUEN2R2FCcXdBZGo4QUNxS2dLMVluUWg4cU51QXZwNFZpZDN5NFc4Ylk4bg?oc=5",
      "source": "O Presente Rural",
@@ -503,6 +503,12 @@
      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQmVhbDQ1Vm16dzE1dk5PMVU1ZjQtbEpzRDZ5X1JndTRoWVVrVDJPemtBSWZnYXA2NVpvWmlORmJEVzdQbXZZWlotWEZCc19mSjNNeGxxTm5vNUNvV0dEYjBlVDczM3NFaGd1amVudGxZZS1SOVVNeGpHZldOVE91Q2pKN3IyRlQzZ2RRa3h0VUV3UlFDOHlJVUJQV20zdkpBYlFablB4bkVDZjZoZEhaS3BqbkVBOFEzeDZ5MnpDT0RBa3RaeFBic1paSlI5YkVPMUZUV0drRUkyS3NjUFppVk9rMA?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-29T18:56:44+00:00"
+    },
+    {
+     "title": "Soja fecha em forte baixa em Chicago com previsão de clima mais favorável nos EUA - safras.com.br",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVkdtY2dSRW5mNWdKYTFGTmZZcjNqbUVNWnNYOFA1enR2TVJhVlJyVURRbFBmSmZ2clhrRms0eU5Ic3pZSGhVR3czUk5aeGxsVWhad3VFTkVKbTRxZHl4SEVkTTBaWll2MC1Ud3ZqQy1hamtncmNOMHRVU1M1NF9MS2R0QjMydmc4TXNiNXdIdFkyZVVOTjYyWE1qTkM5MG53OGpGejhPUQ?oc=5",
+     "source": "safras.com.br",
+     "published_at": "2026-07-29T18:41:29+00:00"
     },
     {
      "title": "Soja cai 2% em Chicago com previsão de chuva em áreas produtoras nos EUA - Globo Rural",
@@ -527,12 +533,6 @@
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcTdfMndCejh3S01sTU1aeEg2LUQ5Q2lkcGhKcl9nRnNYWTQ3UmVaMkh1ODJVSll0aFVxMllhdmhZTUhNbnJYOHFCQ2F1QzVXcF9tZnFtUmdRdVZfck9WRV9DZUlBUE9vV1lKWXpSWUU3OUxBV19uY2xfZ1d3RGtpbmRHZkdoWjRlUnE5eDNXQmhBM1ZqU2xCc2NZb0JXTi0xU1YzNTVrNVdHV0JaYUk3UzBBc2dncXhPU3FQLUFUNHY3QjBoQ3NlX2VPT3J2X1d4THgtSnc4aWZ4WFdzZnJQcHVn0gHnAUFVX3lxTFBoVERDcVlqVGFWZnRkU3VablBQbnJvb1dESmpyUU1LV25zNm1tUzZvTlJhVXhMNGhLMDFlQ2ltVDM0RDM2NXJKYU1NWmdib0hmS1BYS2poSk9VRDJvSkt6T2Y5RjB5VzlVelJZYjZ0TU9ScU5SbWFfOFAzX1V3VjBydXVQcHRqeDNhbmE0MXBma3FoUE1HZjU3UnM1RVF0azBpM19EQ0Z4aEpCTG9Fa0FFZGp4SHBvVWVlUlFNRHhuSzhjbVZnOTdTWkpuVm5uV3g1Wm5JcVJ3bGcwN1pkS3k4UWh1azd3VQ?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-29T13:16:52+00:00"
-    },
-    {
-     "title": "Soja cai mais de 12 pontos em Chicago nesta 4ª e clima nos EUA volta a pressionar mercado - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPVl85Z2ZWM0lxdDQwVDBJajZWYjZQOXpHQjhaQzl3RmVjZkFBVWVNWjVfVGF1VHFQdG9vNHNMYnNUM3h4QUhmLUVvMnB2a2U2QUtuSkJMcUFnd2NwdUh3OGtqRURfQlpEWlp4dkdCbHhnZTNLLXdYU1JwVjdPWWpSVzBMTndtTkdhbFJPMjFNWWlhRW9Sd0kxc0lpTmVYa2dxUzRZNElNSThqTWI3cWx2b25pd2pZX0FaVWhtSFJWNTd4cmppdTB5cnlPZkV3Y0pjR0RZU1V6S1VsMndjcXB6ZW5va3cwQdIB6wFBVV95cUxQdE5Mc2V0U0VKb1FyZDZxNDBMOTFyWDNUZU5NNG1LUnA2cGV1RUd6WW9nRzJDMG1XT2tDOU90NFRlUWpwNVpyUXUtV1RHSk1OU0hUSlBsNTZlRWxacThRRjY2RFRSYmFyakRzOEJ3OXlINS1aeFVQc2xENnE4RDNsendtSU1hREFIaGhqd2pQWWRoS2poQnB5LUV1dWVXVm4yYUhCNk5zQnJ6aDcyVFFmZEZ6Vnp6c1Q0TFAycTd0bEVSWFZ3Yk9pdmhzUkdDbHRMcFN4dDBhVHRnM3hsbHRvbTVQOVViNUVtWkww?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-29T10:40:56+00:00"
     },
     {
      "title": "Consultoria aponta mercado cauteloso para a soja - Agrolink",

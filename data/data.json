@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-29T11:19:07+00:00",
+ "generated_at": "2026-07-29T13:55:16+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-29T11:19:02+00:00",
+   "updated_at": "2026-07-29T13:55:10+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1207.0,
+     "price": 1205.0,
      "prev_close": 1212.0,
-     "change_pct": -0.41,
+     "change_pct": -0.58,
      "closes": [
       1108.75,
       1116.75,
@@ -33,16 +33,16 @@
       1248.0,
       1208.5,
       1212.0,
-      1207.0
+      1205.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 477.25,
+     "price": 476.5,
      "prev_close": 458.5,
-     "change_pct": 4.09,
+     "change_pct": 3.93,
      "closes": [
       402.0,
       412.75,
@@ -65,16 +65,16 @@
       464.25,
       451.75,
       458.5,
-      477.25
+      476.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 323.2,
+     "price": 323.9,
      "prev_close": 320.3,
-     "change_pct": 0.91,
+     "change_pct": 1.12,
      "closes": [
       304.7,
       304.7,
@@ -97,16 +97,16 @@
       331.3,
       320.8,
       320.3,
-      323.2
+      323.9
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 69.01,
+     "price": 68.02,
      "prev_close": 70.76,
-     "change_pct": -2.47,
+     "change_pct": -3.87,
      "closes": [
       69.07,
       66.74,
@@ -129,16 +129,16 @@
       74.33,
       71.46,
       70.76,
-      69.01
+      68.02
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 660.5,
+     "price": 665.0,
      "prev_close": 662.5,
-     "change_pct": -0.3,
+     "change_pct": 0.38,
      "closes": [
       569.5,
       580.75,
@@ -161,16 +161,16 @@
       678.0,
       660.0,
       662.5,
-      660.5
+      665.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.56,
+     "price": 89.57,
      "prev_close": 84.09,
-     "change_pct": 5.32,
+     "change_pct": 6.52,
      "closes": [
       73.15,
       72.92,
@@ -193,16 +193,16 @@
       96.78,
       88.36,
       84.09,
-      88.56
+      89.57
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 176564.75,
-     "prev_close": 175335.0,
-     "change_pct": 0.7,
+     "price": 175924.95,
+     "prev_close": 176565.0,
+     "change_pct": -0.36,
      "closes": [
       173205.0,
       172024.0,
@@ -225,7 +225,8 @@
       176724.0,
       174042.0,
       175335.0,
-      176565.0
+      176565.0,
+      175924.9531
      ]
     }
    ],
@@ -233,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-29T11:19:02+00:00",
+   "updated_at": "2026-07-29T13:55:10+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -244,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-29T11:19:05+00:00",
+   "updated_at": "2026-07-29T13:55:14+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -258,8 +259,8 @@
       "2026-08-04"
      ],
      "precip": [
-      0.2,
-      0.2,
+      0.1,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -267,22 +268,22 @@
       0.0
      ],
      "tmax": [
-      34.4,
-      35.6,
+      34.3,
+      35.5,
+      36.1,
       35.9,
+      34.6,
       35.9,
-      34.9,
-      36.0,
       35.7
      ],
      "tmin": [
-      22.6,
-      23.1,
-      21.9,
-      22.4,
+      22.5,
+      22.9,
+      21.6,
+      22.5,
+      22.7,
       22.8,
-      24.4,
-      23.8
+      23.6
      ]
     },
     {
@@ -297,7 +298,7 @@
       "2026-08-04"
      ],
      "precip": [
-      1.1,
+      0.7,
       0.1,
       0.0,
       0.0,
@@ -307,21 +308,21 @@
      ],
      "tmax": [
       33.0,
-      34.2,
+      34.0,
       34.8,
-      34.8,
-      34.6,
-      34.8,
+      34.7,
+      34.1,
+      34.9,
       34.9
      ],
      "tmin": [
-      22.5,
       22.3,
+      22.1,
       21.3,
-      22.3,
+      22.0,
+      22.6,
       22.9,
-      23.0,
-      23.6
+      23.4
      ]
     },
     {
@@ -346,20 +347,20 @@
      ],
      "tmax": [
       32.0,
-      32.3,
-      32.0,
+      32.1,
       31.9,
-      31.8,
-      30.7,
+      31.6,
+      31.3,
+      30.8,
       31.9
      ],
      "tmin": [
-      19.9,
-      20.1,
-      20.2,
-      19.9,
-      19.9,
-      20.3,
+      20.0,
+      19.0,
+      19.8,
+      19.4,
+      18.9,
+      20.0,
       20.4
      ]
     },
@@ -375,43 +376,85 @@
       "2026-08-04"
      ],
      "precip": [
-      2.8,
-      12.3,
+      18.2,
+      9.3,
       0.0,
       0.0,
       0.0,
-      7.8,
+      0.3,
       0.0
      ],
      "tmax": [
-      27.2,
-      26.1,
-      28.8,
-      31.3,
-      26.3,
-      25.5,
+      30.9,
+      27.9,
+      27.9,
+      30.5,
+      28.0,
+      28.6,
       29.1
      ],
      "tmin": [
-      20.2,
-      18.4,
-      19.0,
+      19.3,
+      18.2,
+      18.7,
       19.4,
-      20.3,
-      19.7,
-      18.8
+      19.6,
+      18.5,
+      19.0
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-29T11:19:07+00:00",
+   "updated_at": "2026-07-29T13:55:16+00:00",
    "items": [
     {
-     "title": "Bunge eleva lucro e projeção após avanço no processamento - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUEZ1VnZZNEhsRm9YNTZIZy0taUx6Q21maDM3X2Qxal9lTTRlaUFQRzZBSzJUWWpfRllrdkZRRzNOVkRrcW45Q2dPaDVPZWV5SUVSRDg5OWpEV1FzUnFHU1hoOXRleEo5U3RkcmVnQ1UzdnoyWUdLSHRCQmxNMDFtZ2FSOVBEVGhSY0dLdXlRVDV1V2RlZlJoZm55OS00dw?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-07-29T10:45:00+00:00"
+     "title": "Produtores atingidos por temporal em SP terão crédito de até R$ 150 mil e juros de 3% ao ano",
+     "link": "https://www.canalrural.com.br/agricultura/produtores-atingidos-por-temporal-em-sp-terao-credito-de-ate-r-150-mil-e-juros-de-3-ao-ano/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-29T13:31:11+00:00"
+    },
+    {
+     "title": "Cotações do milho em Chicago acompanham a soja e registram perdas nesta quarta-feira - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcTdfMndCejh3S01sTU1aeEg2LUQ5Q2lkcGhKcl9nRnNYWTQ3UmVaMkh1ODJVSll0aFVxMllhdmhZTUhNbnJYOHFCQ2F1QzVXcF9tZnFtUmdRdVZfck9WRV9DZUlBUE9vV1lKWXpSWUU3OUxBV19uY2xfZ1d3RGtpbmRHZkdoWjRlUnE5eDNXQmhBM1ZqU2xCc2NZb0JXTi0xU1YzNTVrNVdHV0JaYUk3UzBBc2dncXhPU3FQLUFUNHY3QjBoQ3NlX2VPT3J2X1d4THgtSnc4aWZ4WFdzZnJQcHVn0gHnAUFVX3lxTFBoVERDcVlqVGFWZnRkU3VablBQbnJvb1dESmpyUU1LV25zNm1tUzZvTlJhVXhMNGhLMDFlQ2ltVDM0RDM2NXJKYU1NWmdib0hmS1BYS2poSk9VRDJvSkt6T2Y5RjB5VzlVelJZYjZ0TU9ScU5SbWFfOFAzX1V3VjBydXVQcHRqeDNhbmE0MXBma3FoUE1HZjU3UnM1RVF0azBpM19EQ0Z4aEpCTG9Fa0FFZGp4SHBvVWVlUlFNRHhuSzhjbVZnOTdTWkpuVm5uV3g1Wm5JcVJ3bGcwN1pkS3k4UWh1azd3VQ?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-29T13:16:52+00:00"
+    },
+    {
+     "title": "Soja recua com previsão de chuvas benéficas no meio-oeste dos EUA em agosto - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOelJnQWlDczB1Q2NhTVh4VENwcVE2bDlwNlZHQnR3enRTcWd2S2FOV2hBQUFxYmRFUnBQZXY3cmxBVzdkLUVkZTNBdnpEZmRadzk0aERMcDljN1M1TkwwM0xGOWZ0R1F6SnRNRUF2aFR5TFVWd245bkc2UDUyS2g4OXdjdmJXY0FiR1hIRVItQjR4a0dNQUNOdjBzUlcwSko3Y05FWHVWdGx6NDZQd1dwNVdJN0ZUSk1oZkNySW1ETm1DQmZYcnhUZW1pMGw4OTQ?oc=5",
+     "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "published_at": "2026-07-29T13:14:00+00:00"
+    },
+    {
+     "title": "Conab abre credenciamento para serviços privados de armazenagem até 31 de dezembro",
+     "link": "https://www.canalrural.com.br/politica/conab-abre-credenciamento-para-servicos-privados-de-armazenagem-ate-31-de-dezembro/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-29T13:03:59+00:00"
+    },
+    {
+     "title": "Tornado no RS: o que se sabe sobre o fenômeno e os impactos no meio rural",
+     "link": "https://www.canalrural.com.br/nacional/rio-grande-do-sul/tornado-no-rs-o-que-se-sabe-sobre-o-fenomeno-e-os-impactos-no-meio-rural/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-29T12:40:49+00:00"
+    },
+    {
+     "title": "Crédito rural avança em debate sobre renegociação e soluções estruturantes",
+     "link": "https://www.canalrural.com.br/economia/credito-rural-avanca-em-debate-sobre-renegociacao-e-solucoes-estruturantes/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-29T12:40:05+00:00"
+    },
+    {
+     "title": "Arroz sobe no RS, mas chuvas reduzem ritmo das negociações",
+     "link": "https://www.canalrural.com.br/agricultura/arroz/arroz-sobe-no-rs-mas-chuvas-reduzem-ritmo-das-negociacoes/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-29T11:43:12+00:00"
+    },
+    {
+     "title": "Chuva no fim da colheita ameaça qualidade do café, alerta Cepea",
+     "link": "https://www.canalrural.com.br/agricultura/cafe/chuva-no-fim-da-colheita-ameaca-qualidade-do-cafe-alerta-cepea/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-29T11:08:07+00:00"
     },
     {
      "title": "Estudo aponta falha em antiparasitário e nova alternativa contra a bicheira de umbigo",
@@ -462,6 +505,12 @@
      "published_at": "2026-07-29T09:15:08+00:00"
     },
     {
+     "title": "Petrobras já usa até 8,5% de óleo de soja na produção de diesel R na Reduc - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNTFOQmZrdDlENmFRWlktNGxtU0VpNS1XeUhVdk55cEYyelVSc0E2T29CMW9Sbi1OdUsyaUxIQTlIUm1IaVVjY2ZXNFRhekpQWHhqekNwSHFNcFprbEVrdjRjNkhPalZTVnczeF9ZNTRFc29zdUVUMXlkSUxpZGN1YmNnRkNZM0FPcU5oQ19tRG4wcm9yU2xhbU9WTkkwQ3MzcER5VzN6RnRGQlBmVmthYXdxVkl6ek5lcFFMYXNjdm9wVjk1QWZHN0xIWFZiWThoSDJoN2tRLWVrelhLMzg40gHuAUFVX3lxTE5pd0p4OFpQTWR2eXZ4MndCbDVsN3JJb2ZkR0lsM1VUU1FMYkdDWS11MnNjVWN5LUVaN1Q3VnIyNEZyaEN2RDR4MXdXWjNKYzZKUGdsZGsxUVJtVndMdUZNVGlqUlhTTGs2UWZ1MTQ1WWNfbXgyTGdSWTFmeGFWV0NPRU43MFJQeXVyVjRKS3dnem1tUTM2UkhVWVVuQTZjdG5hYTRQSDQ2TWc5WlBXUVU3dkdYSmh2UzJINklTR2tWN0lsSnExUllZeTNUY2UwaHRSY0xVblVQLXdmaHNoR3NEdElYQ0JpSUtPRzVNNHc?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-07-29T09:00:21+00:00"
+    },
+    {
      "title": "Com fim da Moratória da Soja, US$ 8,2 bi em serviços ambientais poderão ‘sumir’ - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNTA5NUJWcW44QUpHZHIybDJtbzNScXQ5VFpwQ3kwVjhvQzRiR2l4TW1hMlV2bk84Vy0yWjFSZ2xJRnhNekRHbHlXUXVqOUlmeFVwYWVQSmdxZTNHYzhKWE1nVktPblNFemh6cy1wbk95OUNHTzdMM0dUR3pXS0d0aFNMc2EyRHFMYWg3OEp0WkJiVVRVd1NJRmJYZ05YdmNyNUN3OFpDN0dYUjA3eDV1MUtIa2VpYlVVOG9sMEQyTjVtOE51blZvNUY4dnJFRWVtZ3BhdENOZk1ocm04cnhrdUFkU1BlQUVubFRn0gH6AUFVX3lxTFBoZUtxbVN0Nk5tZml5X0loTnlGdHhlNWpNVVdxZmsyS1RqZGZpMDg3c2lpSzRlVjFuS1FYUHRfNzJESUNvcWRxVTVFWWhDLTlyVGpHRC1NTWhuQjZjX2ZkdURZZHJGNkgxXzgyX04wOVlHUTRZRm4tYnplb1ZwYU5MZGRhQW1hLThic1Bnd0NqR0JERC0wclFZTUVicmFhMTJqTUota3VfVUt3LW9QWXVWUzVBRFpIUDd1MmUyM1BESFl2UHU2c2dmUDJrSDBwNGx1a0hONWpoejV6RGJ6THNkQ1pMMG1za2pjMGtUQnBBaFpWeW1pMXRVWkE?oc=5",
      "source": "Globo Rural",
@@ -480,40 +529,10 @@
      "published_at": "2026-07-28T23:02:28+00:00"
     },
     {
-     "title": "ABPA projeta recuperação da suinocultura brasileira em 2027",
-     "link": "https://www.canalrural.com.br/aves-e-suinos/abpa-projeta-recuperacao-da-suinocultura-brasileira-em-2027/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-28T22:57:17+00:00"
-    },
-    {
      "title": "Mercado de soja mostra reação tímida em dia de poucos negócios - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUzFyX3ZkOURrOU54UElaVm82YTh3b1VIVmVYSjVhXzU1Z01adFdkTDJhckZ4X3N0SVh6OUc1NGx6STZVUmItWGROR0Nab2JUU0VoSW5HOTI3LVVHQ3E1UTlDVmJTMzZldFZ1ZFlsTGh4eE84Vi1sWGVDbWNTcTNTb0l3RTMtX0pxWGRxTWZOUnhfbXpITHl6d2tPQUs3MlpOY3lMRzU0ZVZRbXA5WDgxOHotOFUxRktpMlRkZTZRY0pQV2M?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-28T22:43:48+00:00"
-    },
-    {
-     "title": "Mercado de soja mostra reação tímida em dia de poucos negócios",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/mercado-de-soja-mostra-reacao-timida-em-dia-de-poucos-negocios/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-28T22:43:48+00:00"
-    },
-    {
-     "title": "Arroba do boi gordo: pouca oferta de gado para abate sustenta preços no mercado",
-     "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-pouca-oferta-de-gado-para-abate-sustenta-precos-no-mercado/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-28T22:29:40+00:00"
-    },
-    {
-     "title": "Cafés do Brasil ficam isentos de tarifas dos Estados Unidos",
-     "link": "https://www.canalrural.com.br/economia/cafes-do-brasil-ficam-isentos-de-tarifas-dos-estados-unidos/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-28T22:18:16+00:00"
-    },
-    {
-     "title": "CNA participa de reunião empresarial ibero-americana em Brasília",
-     "link": "https://www.canalrural.com.br/politica/cna-participa-de-reuniao-empresarial-ibero-americana-em-brasilia/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-28T22:16:50+00:00"
     },
     {
      "title": "Estudo propõe integrar rastreabilidade da soja e da carne bovina - Canal Rural",
@@ -522,28 +541,10 @@
      "published_at": "2026-07-28T22:15:29+00:00"
     },
     {
-     "title": "Estudo propõe integrar rastreabilidade da soja e da carne bovina",
-     "link": "https://www.canalrural.com.br/diversos/estudo-propoe-integrar-rastreabilidade-da-soja-e-da-carne-bovina/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-28T22:15:29+00:00"
-    },
-    {
-     "title": "Soja: exportações avançam em julho; cenário é positivo para Fiagros - suno.com.br",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZjB3UGQ1MHFOUi1JZk1YRWdZVWZLRDcyeHpYTlpSY3BWTWY0YjFJSktnb1gwMTVIa1VZQi1BVHVVN3pocjVrZjBTSFVDZHVLampTVk5NX1FQcWlZVVNDNC1MNXktOTdXNUF4R3FoMlk0YnlGa1kxRDlpLTZxd2dMRjJ4UFI3TUtrM29iU2NtdVVNMDVSUXdQellwSDgyNngt0gGmAUFVX3lxTE5wVTRwR3RrMWtzeVdWdkFVZVA3V1QxeEU2V1ByTzktSHVJM3N1MG93NjctMnRoZHVtd2U2cDNiVXk5VTJmeUxqVHFHMzVQS2tock55em9YN0pYT0V0ZnBFQjVRdnc1ckNjSmc4SDVycVU3bjlGV2lESS12TUV6Y2Y2YTlfLTIwMmZfQnlJTU9xZHZOdC1pZjNMdlMyOXdVOXhxT05YbGc?oc=5",
-     "source": "suno.com.br",
-     "published_at": "2026-07-28T21:55:10+00:00"
-    },
-    {
-     "title": "Soja reage em Chicago após tombo de mais de 3% e portos brasileiros mantêm preços acima de R$ 150/saca nesta 3ª feira - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQUENvb29QYnBNemZ3N0paZ2NOYlFuNXVJNm1Ca0dualdmMnJpczJpZmNPemdjSEFHN2NSTmczSlF6M0ZYMktmcUdFOVNiNEZKRmxGa3lEdkRicjRvdHl3My1zWG1Mb3NxcEhKUUttX285R1E2bl90TlhQVUtqLXFsMlhodFRSV2ZRaHJOQUc3V1dpLTFVd3FCTVJhX2xESTBDandBcFh1c3FWYWxRaURBcG5jcUpoTWcycW9wY0ZBR2lGd3pKTjZFbEdodjFzQ0V4UFpsWUNnaWVlMkV0N1dNOGcyV2VZMGNj0gHuAUFVX3lxTFBsRDFudkdCc0k1T2Z2TnpZVUtYb1RsemFPWVFxUktTYTN1ZEdLT3NEZHNCTWhOdHN6eXozb3VNWmxUclFFZEVkbFdmZWEtWEtrMU9kVXI2SS13OE10MXkyOEVJYjFzR3FQb2Uxc1ItUjZoYzYwM1J4U19yaDNRTHN2c2F3Sy0yaThKRDczMlBVODJxR1NQVnQ2c1J3OEZjaGNpUGJxN01qMGh0a3JRQ0t3LUFka2VTZVBiQ0xKbU1IdkQ0RVhqVUJueXU3eFk2VWo1a3puUmxpZEhhemlaLVBRa0VDdC1WQmJzcEg3Q0E?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-28T19:58:22+00:00"
-    },
-    {
-     "title": "Preço da soja em dólares em julho próximo de US$30 por saca! - Farmnews",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTFJVR3JVU1ZUSkg5ak1hZDVZRHlmaE8xQjhuQTVLS2RTR3hPU0oyYnRtTWVjUU96eDNHTnh1UUgteTB6NGs3UmJJeTgwcGhGRXU4d19zSDVZYjlJU0ZpM20wSXJzYmo5bmZGU0dFZW04VmRSSlNlTnJ4V0hkU1JqZi1jbEF3TWVuOVJ0QnM4ZjlybE54Zmc?oc=5",
-     "source": "Farmnews",
-     "published_at": "2026-07-28T17:08:25+00:00"
+     "title": "Demanda chinesa e conflito no Oriente Médio sustentam as cotações da soja em Chicago - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOX0ZLcENaLWloNjVwYjgxb3ZZRU04cHR5UXFBLUplU1JqT1hnRnlyUVM0LWtaMUtkMURsSFk2c0JXRC1kTmROak0xeDZjSldCX3F6Q1RLQUNWTkxCNDY2OTdTcGlzZ19ib0ctaDVTaDgwRjNsakVDMEIzQ0ZKMUhNTXc4ZVVMSTBMTVBuX21BdlBfTXNkUURWRUlPMlY2VVpzNXZ6WmZ4NG1hOXV5a09lOE1CbXdaTU9DVDNsREtOSmlRbXdUbjRJQzM1bUVZZw?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-28T19:54:00+00:00"
     },
     {
      "title": "Brasil avalia acionar OMC contra veto da União Europeia à carne brasileira e vê motivação política",

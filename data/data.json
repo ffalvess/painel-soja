@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-29T21:54:52+00:00",
+ "generated_at": "2026-07-29T22:55:58+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-29T21:54:44+00:00",
+   "updated_at": "2026-07-29T22:55:51+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 90.54,
+     "price": 90.4,
      "prev_close": 84.09,
-     "change_pct": 7.67,
+     "change_pct": 7.5,
      "closes": [
       73.15,
       72.92,
@@ -193,7 +193,7 @@
       96.78,
       88.36,
       84.09,
-      90.54
+      90.4
      ]
     },
     {
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-29T21:54:44+00:00",
+   "updated_at": "2026-07-29T22:55:51+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-29T21:54:49+00:00",
+   "updated_at": "2026-07-29T22:55:55+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -406,8 +406,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-29T21:54:52+00:00",
+   "updated_at": "2026-07-29T22:55:58+00:00",
    "items": [
+    {
+     "title": "Déficit de armazenagem pressiona sojicultor e amplia perdas após a colheita",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/deficit-de-armazenagem-pressiona-sojicultor-e-amplia-perdas-apos-a-colheita/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-29T22:23:22+00:00"
+    },
     {
      "title": "Renegociação das dívidas rurais: solução estrutural ou novo adiamento?",
      "link": "https://www.canalrural.com.br/opiniao-noticias/renegociacao-das-dividas-rurais-solucao-estrutural-ou-novo-adiamento/",
@@ -473,12 +479,6 @@
      "link": "https://www.canalrural.com.br/videos/tarifa-dos-eua-impacta-exportacoes-de-calcados-de-couro-no-brasil/",
      "source": "Canal Rural",
      "published_at": "2026-07-29T20:15:14+00:00"
-    },
-    {
-     "title": "Projeto mira restauração de 600 mil hectares de vegetação nativa no Brasil",
-     "link": "https://www.canalrural.com.br/politica/projeto-mira-restauracao-de-600-mil-hectares-de-vegetacao-nativa-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-29T20:09:53+00:00"
     },
     {
      "title": "Futuros do milho acompanham perdas da soja e fecham quarta-feira caindo 2% em Chicago - Notícias Agrícolas",

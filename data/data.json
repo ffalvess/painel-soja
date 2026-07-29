@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-29T22:55:58+00:00",
+ "generated_at": "2026-07-29T23:57:24+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-29T22:55:51+00:00",
+   "updated_at": "2026-07-29T23:57:15+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 90.4,
+     "price": 90.29,
      "prev_close": 84.09,
-     "change_pct": 7.5,
+     "change_pct": 7.37,
      "closes": [
       73.15,
       72.92,
@@ -193,7 +193,7 @@
       96.78,
       88.36,
       84.09,
-      90.4
+      90.29
      ]
     },
     {
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-29T22:55:51+00:00",
+   "updated_at": "2026-07-29T23:57:15+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-29T22:55:55+00:00",
+   "updated_at": "2026-07-29T23:57:21+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -406,13 +406,31 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-29T22:55:58+00:00",
+   "updated_at": "2026-07-29T23:57:24+00:00",
    "items": [
+    {
+     "title": "JBS assina acordo com Highland Foods para ampliar presença na Coreia do Sul",
+     "link": "https://www.canalrural.com.br/economia/jbs-assina-acordo-com-highland-foods-para-ampliar-presenca-na-coreia-do-sul/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-29T23:13:04+00:00"
+    },
+    {
+     "title": "Baixa oferta sustenta preços do boi gordo em meio à lentidão nas negociações",
+     "link": "https://www.canalrural.com.br/pecuaria/baixa-oferta-sustenta-precos-do-boi-gordo-em-meio-a-lentidao-nas-negociacoes/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-29T22:53:45+00:00"
+    },
     {
      "title": "Déficit de armazenagem pressiona sojicultor e amplia perdas após a colheita",
      "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/deficit-de-armazenagem-pressiona-sojicultor-e-amplia-perdas-apos-a-colheita/",
      "source": "Canal Rural",
      "published_at": "2026-07-29T22:23:22+00:00"
+    },
+    {
+     "title": "Soja brasileira bate recordes em 2026 com processamento em alta e exportações de 115,4 milhões de toneladas - Portal do Agronegócio",
+     "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOYUx4VThRQmZJZ1pRcWpCcnE4dDA2aUZZdktaaXQydmZUNlpUM3BTMnVvRzNWSnVZY1dkTGVxd3prYWZ2dHludU5ZY2s2VjBBVlRtSDJsMUVWV0VXZWVkZElrdlAzQUpVMUhnZlVZZXdxU2xaNGFleWpxeXlSTHo2SUsyVERMSHRIcGpLZ19zOUt6c1BfRXQ0b2Q5b2owTXd2amhBam94ZWJiOENMX0pSYWVaVWd5STdRMHhMb1ZNdjNGTWQ4eGtzS0hqMk5vVWdaanY0aWJzSVJlSVJXRHVzSHVaRWtvWGluTXRKVmRXSFNsZnFFYU9ueDFFdnJ4emRyTXc?oc=5",
+     "source": "Portal do Agronegócio",
+     "published_at": "2026-07-29T22:00:00+00:00"
     },
     {
      "title": "Renegociação das dívidas rurais: solução estrutural ou novo adiamento?",
@@ -469,18 +487,6 @@
      "published_at": "2026-07-29T20:15:34+00:00"
     },
     {
-     "title": "Meteorologia brasileira: desafios na prevenção de desastres naturais",
-     "link": "https://www.canalrural.com.br/videos/meteorologia-brasileira-desafios-na-prevencao-de-desastres-naturais/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-29T20:15:24+00:00"
-    },
-    {
-     "title": "Tarifa dos EUA impacta exportações de calçados de couro no Brasil",
-     "link": "https://www.canalrural.com.br/videos/tarifa-dos-eua-impacta-exportacoes-de-calcados-de-couro-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-29T20:15:14+00:00"
-    },
-    {
      "title": "Futuros do milho acompanham perdas da soja e fecham quarta-feira caindo 2% em Chicago - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPR1FhRS1fNU9rNU5idnhxc1h1b0xHd0d4WlA5Ti1BUW5uRkpfNjlYczVSZHJ2RUpsWWtjcFFQUXJhTmpZcUhjQzkwSjZEb3ZueTdNUTdhM2M0ZWZta1g2VVJRUzQzSFM5VUdVUU5WYWlKd19HNDBDVEJyR2pZWDB6ZWdsZkdsZXlKbDRMWTBhSkdPTkczZmpGMUpvWUU4SUlMbEJ5NGh3a1dwTjFoZ0s2QjY3MVdHOG5FY2lGRzZlbkpYSlU4bGJWNlhTRFdYNWRUaEpCZ2hoZm1xM1kzMDQ5SkNB0gHnAUFVX3lxTE1QbXA3Wkd4c25vMDBLbXQ0Y0UtblMxeDhhMzRyRkFWbFBXTlNoMlpfa1ZJQXZtU0lxM3J1MGR1YUZXb3J4UmhzSmpoZ3NCWkl2VVhyT3JlbXBlbjFYc3RCZk15MmNpSXZMcjhIcGpzaXRDUm00RGJNSURJMFBoY1NocVpBSEVMN29qOGxubnVud3VzY1RwTUNodVdOeV9vSC02LUxpZ0doOEpXSDhjTkNnXzhFX28tYkpmOG1IMkkwY1BJaWJoZHlZRWtmQkNWQ051M190UVA3dXpZTlZNc3pUWEJqaHhyaw?oc=5",
      "source": "Notícias Agrícolas",
@@ -503,12 +509,6 @@
      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQmVhbDQ1Vm16dzE1dk5PMVU1ZjQtbEpzRDZ5X1JndTRoWVVrVDJPemtBSWZnYXA2NVpvWmlORmJEVzdQbXZZWlotWEZCc19mSjNNeGxxTm5vNUNvV0dEYjBlVDczM3NFaGd1amVudGxZZS1SOVVNeGpHZldOVE91Q2pKN3IyRlQzZ2RRa3h0VUV3UlFDOHlJVUJQV20zdkpBYlFablB4bkVDZjZoZEhaS3BqbkVBOFEzeDZ5MnpDT0RBa3RaeFBic1paSlI5YkVPMUZUV0drRUkyS3NjUFppVk9rMA?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-07-29T18:56:44+00:00"
-    },
-    {
-     "title": "Soja fecha em forte baixa em Chicago com previsão de clima mais favorável nos EUA - safras.com.br",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVkdtY2dSRW5mNWdKYTFGTmZZcjNqbUVNWnNYOFA1enR2TVJhVlJyVURRbFBmSmZ2clhrRms0eU5Ic3pZSGhVR3czUk5aeGxsVWhad3VFTkVKbTRxZHl4SEVkTTBaWll2MC1Ud3ZqQy1hamtncmNOMHRVU1M1NF9MS2R0QjMydmc4TXNiNXdIdFkyZVVOTjYyWE1qTkM5MG53OGpGejhPUQ?oc=5",
-     "source": "safras.com.br",
-     "published_at": "2026-07-29T18:41:29+00:00"
     },
     {
      "title": "Soja cai 2% em Chicago com previsão de chuva em áreas produtoras nos EUA - Globo Rural",

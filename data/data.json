@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-30T19:16:19+00:00",
+ "generated_at": "2026-07-30T21:01:29+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-30T19:16:09+00:00",
+   "updated_at": "2026-07-30T21:01:19+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.99,
+     "price": 89.45,
      "prev_close": 90.74,
-     "change_pct": -1.93,
+     "change_pct": -1.42,
      "closes": [
       72.92,
       71.57,
@@ -193,16 +193,16 @@
       88.36,
       84.09,
       90.74,
-      88.99
+      89.45
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 176404.4,
+     "price": 177158.86,
      "prev_close": 173885.0,
-     "change_pct": 1.45,
+     "change_pct": 1.88,
      "closes": [
       172024.0,
       171689.0,
@@ -226,7 +226,7 @@
       175335.0,
       176565.0,
       173885.0,
-      176404.4062
+      177158.8594
      ]
     }
    ],
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-30T19:16:10+00:00",
+   "updated_at": "2026-07-30T21:01:19+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-30T19:16:15+00:00",
+   "updated_at": "2026-07-30T21:01:25+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -406,8 +406,44 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-30T19:16:19+00:00",
+   "updated_at": "2026-07-30T21:01:29+00:00",
    "items": [
+    {
+     "title": "Ibovespa sobe 1,88% e volta aos 177 mil pontos",
+     "link": "https://www.canalrural.com.br/economia/ibovespa-sobe-188-e-volta-aos-177-mil-pontos/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T20:46:39+00:00"
+    },
+    {
+     "title": "Sojicultor aponta custo dos insumos como maior desafio para planejar a safra",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/produtor-aponta-custo-dos-insumos-como-maior-desafio-para-planejar-a-safra-de-soja-26-27/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T20:32:25+00:00"
+    },
+    {
+     "title": "Safra recorde e avanço do processamento sustentam expansão da cadeia da soja em 2026 - agrolink.com.br",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQS1dSMXlUUkNERDhnUWdKOUozb0pkcllaeFdOT2lDM3pRZHlKRmc3WnJOek15V3lfRHBjdVBWclpUVjFrcmJhbVBVVWhjVGl1TDAxREwtTi1fQldJTExTTGR3TTA3YTNabVNGdzA1djg5SFlQeUxoZWk0MTRub01rQ2VCUDduTm5ydmFGZFVLeXFud3NkNi1HNktSWjNkczBoV1lwckZiUk5vRWZFNnEzMW42Z3JJS3hoMElXZDRnLWZadVZPLVBJTk9icWtubFk?oc=5",
+     "source": "agrolink.com.br",
+     "published_at": "2026-07-30T20:27:00+00:00"
+    },
+    {
+     "title": "Maior demanda sustenta valorização do algodão em pluma no mercado interno",
+     "link": "https://www.canalrural.com.br/agricultura/maior-demanda-sustenta-valorizacao-do-algodao-em-pluma-no-mercado-interno/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T20:06:37+00:00"
+    },
+    {
+     "title": "Congresso Brasileiro do Agronegócio celebra 25 anos com debates sobre geopolítica, investimentos e futuro do setor",
+     "link": "https://www.canalrural.com.br/feiras-e-eventos/congresso-brasileiro-do-agronegocio-celebra-25-anos-com-debates-sobre-geopolitica-investimentos-e-futuro-do-setor/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T19:07:12+00:00"
+    },
+    {
+     "title": "Cão farejador ajuda a localizar mais de meia tonelada de maconha em carreta carregada com milho",
+     "link": "https://www.canalrural.com.br/seguranca/cao-farejador-ajuda-a-localizar-mais-de-meia-tonelada-de-maconha-em-carreta-carregada-com-milho/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T18:58:09+00:00"
+    },
     {
      "title": "Transição energética amplia oportunidades para a soja - Revista Cultivar",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTUMteGRHUUNUUG9McFA4NTRnbEE4MktnVGliV1AzcTBkaXc5YndGeUYwQ0o5Y1N3M3FCWGJWVEozck5FTTdvUmN2TXdaaTUxNkh4MjNRYkU5aDN1Zmo3aHc5cnUybzhLbDNHYnhHOGtNb0pkYmFGT2lfbFBIcm5RQno0cGVaTjhva0FVN2I4bW53WVc0S1E2aA?oc=5",
@@ -446,7 +482,7 @@
     },
     {
      "title": "Prêmio de exportação da soja: o que é e por que acompanhar? - Farmnews",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVlpHV3RPbDVDVlJjNFBaOVZxWHRvN2ZSYmxxY01CU0trUHFqSS1OenBsOVhNYTE2b2tNWGl4MlpGbURBQ1FjR1JJeFM1UGM5TVdpSGxneTlqSEx2TktlcnJrSks3ZktQS212VGQ5UnM4TENaYVpCcWJNakdxMEN5bGVqZW1sNnNjN3NHTVFqb3o1OHM?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbmxyNDBNQW8yaFpMbGRURllBd2d3Uld4OTdIbTlLVmlFVVROQ3VQVmx3VXE3Ym8tY1VwZGNNTGNuNzRFNWFiazJJSEhSaDc5YTNhZ2RXMFRiMGM2YlZfZFlUVGstVXVNNUltQUZkcXdnbGxYVG1qV2JqclpDN0pyRTJXekpGNktQbmMyY19XcmZJMkYzc0c1WA?oc=5",
      "source": "Farmnews",
      "published_at": "2026-07-30T16:37:57+00:00"
     },
@@ -463,46 +499,16 @@
      "published_at": "2026-07-30T16:12:06+00:00"
     },
     {
-     "title": "Na avaliação de economista, El Niño intenso pode obrigar o sojicultor a replantar e elevar os gastos",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/na-avaliacao-de-economista-el-nino-intenso-pode-obrigar-o-sojicultor-a-replantar-e-elevar-os-gastos-saiba-mais/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T15:50:31+00:00"
-    },
-    {
-     "title": "O agro evoluiu. A formação veterinária também precisa evoluir",
-     "link": "https://www.canalrural.com.br/projetos/conteudo-patrocinado/o-agro-evoluiu-a-formacao-veterinaria-tambem-precisa-evoluir/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T15:30:00+00:00"
-    },
-    {
-     "title": "Brasil retomará em agosto negociação com os EUA sobre exceções tarifárias",
-     "link": "https://www.canalrural.com.br/economia/brasil-retomara-em-agosto-negociacao-com-os-eua-sobre-excecoes-tarifarias/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T15:28:46+00:00"
-    },
-    {
-     "title": "Genética e biosseguridade: pilares da produtividade na suinocultura",
-     "link": "https://www.canalrural.com.br/videos/genetica-e-biosseguridade-pilares-da-produtividade-na-suinocultura/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T15:15:31+00:00"
-    },
-    {
-     "title": "Defesa Civil do RS emite alerta vermelho para inundações após tornado",
-     "link": "https://www.canalrural.com.br/videos/defesa-civil-do-rs-emite-alerta-vermelho-para-inundacoes-apos-tornado/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T15:15:21+00:00"
-    },
-    {
      "title": "Produção de soja e milho pode bater recorde em 2026/27 - Feed&Food",
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMVFfV3lsWmc4ejJMYWd0LV9WemxXTVpKQzFJLXRMQTZKUWd3WlhoX3I4ZDF3Z0E0bzRSdi1XVXNLSTZWeUliTVFqbldCMU5OS2t6em9kVnFEZmgzT2c4NVVCZjNhWG9MV0phd1l0RG5NOWduY3hvSktFajZZMktTbHplbw?oc=5",
      "source": "Feed&Food",
      "published_at": "2026-07-30T15:07:46+00:00"
     },
     {
-     "title": "Vendas semanais de soja dos EUA 2025/26 somam 302,3 mil toneladas - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTG56eVd5eTl1LXgtcno5emZGV3drS1hjUXNrSDAxTGR1NTRQV0s4VDFmOFJLSDBVamsybS1rU19MRTIxY1hTSXFzSjVDYXpuTE1lSnBRUS1pT1NSZFgyY2JHVU1IWGZUUXZxMDlJQ3FpaFVldjU0cGZWQTVhanZ0UE9sQmtTblZJSnpOc09EX2d2R1pETU91OEpvUzgyLXk4Ukd5QTBNTQ?oc=5",
+     "title": "Datagro projeta recorde para milho e alta na produção de soja em 2026/27 - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQk9GX1NYcDBHaUM4NDBLYlhVTm4wMGNtenp0MmM2dmR0cHVROHVWdzhsQUVqZTlmNHBPWjdyclNyTng4WDJ0RDU4ZGZxNUhwaWw5US1xbUIzOGVVcFpsUm14b0tlbGJoampkR21uZUhyNGNqOEpqNkRIV2NNUUlvNVBxeC1LazlTU2E3VkNKei1EOHdPUjAtVUNVUlg1amF0Rl9sQ0JjdDVKZEV4QjJSUnNrRmltdDlZazVDR191ZXhJMzN5RkE?oc=5",
      "source": "Canal Rural",
-     "published_at": "2026-07-30T14:43:22+00:00"
+     "published_at": "2026-07-30T14:42:08+00:00"
     },
     {
      "title": "Edital da Conab para armazenagem de farelo de soja recebe propostas até sexta-feira (31) - www.gov.br",
@@ -529,16 +535,10 @@
      "published_at": "2026-07-30T13:24:13+00:00"
     },
     {
-     "title": "Preferência da China pela soja brasileira pressiona cotações em Chicago - agrimidia.com.br",
+     "title": "Preferência da China pela soja brasileira pressiona cotações em Chicago - Agrimidia",
      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeDIwRU1sYjR3ZGM2RnpUVk14NEM0UzFndjh4blF1ZUhvRkc5QW45TnNPVFRoLUo5VTBwVk55NkpDRFBLcXhBaFEyOW04X0c4bGUzN25ObVVLcXdkbFJwR2NOUXV3OUZNLVZJemVneG1aVXRCZ1ZqaU1SMzN1Z01wQlJJQVkzYWN1NExLblhGbjVkUWwyUXlFVy12eWs5ZE9jdG1OU0xVYndPajlRVDI5UncwNWg3TzF2cjQzcmVKVTBrUEVxSmNFQlBjYlI?oc=5",
-     "source": "agrimidia.com.br",
+     "source": "Agrimidia",
      "published_at": "2026-07-30T11:44:22+00:00"
-    },
-    {
-     "title": "Baixa liquidez limita negócios com soja - agrolink.com.br",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQlJpRkZvYk9uR1c1bFZUWFFBellUcXdYR1ZHd0Z5YktEbkRpTGtET3dSMm9DTWdNbWMzTldZa3MzbzNORmlER1pXQ09XbHZoS1JRTENOcHcwWHZITnpZLThSNDhCRGxaeWEycVMtMDhYZzJ2ZVd2Z0xIRnBIU045VXVZX2dZRnVGRnRrSnU2azJoUQ?oc=5",
-     "source": "agrolink.com.br",
-     "published_at": "2026-07-30T08:41:00+00:00"
     },
     {
      "title": "Tecnologia, carne e IA: o que empresas de Brasil e Coreia do Sul negociaram em reunião fechada",

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-30T15:47:38+00:00",
+ "generated_at": "2026-07-30T17:19:52+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-30T15:47:31+00:00",
+   "updated_at": "2026-07-30T17:19:44+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1191.0,
+     "price": 1194.25,
      "prev_close": 1178.0,
-     "change_pct": 1.1,
+     "change_pct": 1.38,
      "closes": [
       1116.75,
       1126.25,
@@ -33,16 +33,16 @@
       1208.5,
       1212.0,
       1178.0,
-      1191.0
+      1194.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 472.0,
+     "price": 471.25,
      "prev_close": 449.0,
-     "change_pct": 5.12,
+     "change_pct": 4.96,
      "closes": [
       412.75,
       421.0,
@@ -65,16 +65,16 @@
       451.75,
       458.5,
       449.0,
-      472.0
+      471.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 323.0,
+     "price": 324.4,
      "prev_close": 315.3,
-     "change_pct": 2.44,
+     "change_pct": 2.89,
      "closes": [
       304.7,
       306.6,
@@ -97,16 +97,16 @@
       320.8,
       320.3,
       315.3,
-      323.0
+      324.4
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.39,
+     "price": 67.44,
      "prev_close": 69.17,
-     "change_pct": -2.57,
+     "change_pct": -2.5,
      "closes": [
       66.74,
       67.02,
@@ -129,16 +129,16 @@
       71.46,
       70.76,
       69.17,
-      67.39
+      67.44
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 669.75,
+     "price": 669.0,
      "prev_close": 660.75,
-     "change_pct": 1.36,
+     "change_pct": 1.25,
      "closes": [
       580.75,
       592.0,
@@ -161,16 +161,16 @@
       660.0,
       662.5,
       660.75,
-      669.75
+      669.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 89.87,
+     "price": 89.68,
      "prev_close": 90.74,
-     "change_pct": -0.96,
+     "change_pct": -1.17,
      "closes": [
       72.92,
       71.57,
@@ -193,16 +193,16 @@
       88.36,
       84.09,
       90.74,
-      89.87
+      89.68
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 175412.62,
+     "price": 176100.95,
      "prev_close": 173885.0,
-     "change_pct": 0.88,
+     "change_pct": 1.27,
      "closes": [
       172024.0,
       171689.0,
@@ -226,7 +226,7 @@
       175335.0,
       176565.0,
       173885.0,
-      175412.625
+      176100.9531
      ]
     }
    ],
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-30T15:47:31+00:00",
+   "updated_at": "2026-07-30T17:19:45+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-30T15:47:36+00:00",
+   "updated_at": "2026-07-30T17:19:49+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -406,8 +406,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-30T15:47:38+00:00",
+   "updated_at": "2026-07-30T17:19:52+00:00",
    "items": [
+    {
+     "title": "Soja busca reação em Chicago, mas clima favorável nos EUA ainda limita recuperação dos preços - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbk90S3ZDLV9pR01RMWdvdHhwQm1XbG5CbmlNOXJqTTBkLV9hVWVHOXhtRFBxU2llWU5iN19HUHQwV19EMGF6aUk4R0VDa2JoWFZrLUhiVk43YTM4bUIwa1BJY19oUFNEdXFRN041Q3d6QWI1S2pmOTNzMWFzTG8tTkFqR1l2SlV1Um56X2djYzBBdnFWdzNMQmVCSkEzTDZHb04wR1k4NmRUcjl3Uk02bFd0X2d3d3NWQWJLSk1vMkxXRXNFV2ZzN0E5T0RHZ1JDWk1WQUZHRklBTjhlMHZrZEN4YXROcjlYbXpZ0gHwAUFVX3lxTE1vaXNmVTlUVjkzeUlZTEJhMW4xYmhwZHlFMHJ3QXQ4SzFnY241T182MXIycGExQ3BCTVdQcy15Y0l0cktIbjJ2dUJMczlsS1lrV1BNVGl3VFZtSU5CcGQ0YmZnSEY3YVRrYUQ5dWtaYzJEQ2VQNGM1Nm9hczR2eDdqbEJmZVFFV0lyYmNQS2g1RFFUT2hPWHdCMkU3YlFCS0VXZll3VU1SQmN4b0tDYnp0ZDFDMFJqdk5sTXd6NW5RWmwtSTA1YTBpTms0UkhWTXNsZUhKbjdUanVLM29iWllhWkNjWURoeDJuU29vdUFGZA?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-30T16:32:32+00:00"
+    },
+    {
+     "title": "Brasil deve superar meta de 700 aberturas de mercados em 2026, diz Mapa",
+     "link": "https://www.canalrural.com.br/economia/brasil-deve-superar-meta-de-700-aberturas-de-mercados-em-2026-diz-mapa/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T16:12:06+00:00"
+    },
+    {
+     "title": "Na avaliação de economista, El Niño intenso pode obrigar o sojicultor a replantar e elevar os gastos",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/na-avaliacao-de-economista-el-nino-intenso-pode-obrigar-o-sojicultor-a-replantar-e-elevar-os-gastos-saiba-mais/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T15:50:31+00:00"
+    },
     {
      "title": "O agro evoluiu. A formação veterinária também precisa evoluir",
      "link": "https://www.canalrural.com.br/projetos/conteudo-patrocinado/o-agro-evoluiu-a-formacao-veterinaria-tambem-precisa-evoluir/",
@@ -469,21 +487,9 @@
      "published_at": "2026-07-30T15:05:40+00:00"
     },
     {
-     "title": "São Paulo libera crédito emergencial para produtores afetados por temporal",
-     "link": "https://www.canalrural.com.br/videos/sao-paulo-libera-credito-emergencial-para-produtores-afetados-por-temporal/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T15:05:25+00:00"
-    },
-    {
-     "title": "Frente fria provoca ventos fortes e temporais em várias regiões do Brasil",
-     "link": "https://www.canalrural.com.br/videos/frente-fria-provoca-ventos-fortes-e-temporais-em-varias-regioes-do-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T15:05:13+00:00"
-    },
-    {
-     "title": "Vendas semanais de soja dos EUA 2025/26 somam 302,3 mil toneladas - canalrural.com.br",
+     "title": "Vendas semanais de soja dos EUA 2025/26 somam 302,3 mil toneladas - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTG56eVd5eTl1LXgtcno5emZGV3drS1hjUXNrSDAxTGR1NTRQV0s4VDFmOFJLSDBVamsybS1rU19MRTIxY1hTSXFzSjVDYXpuTE1lSnBRUS1pT1NSZFgyY2JHVU1IWGZUUXZxMDlJQ3FpaFVldjU0cGZWQTVhanZ0UE9sQmtTblZJSnpOc09EX2d2R1pETU91OEpvUzgyLXk4Ukd5QTBNTQ?oc=5",
-     "source": "canalrural.com.br",
+     "source": "Canal Rural",
      "published_at": "2026-07-30T14:43:22+00:00"
     },
     {
@@ -511,22 +517,16 @@
      "published_at": "2026-07-30T13:29:00+00:00"
     },
     {
-     "title": "Uso de gordura bovina cresce, mas óleo de soja ainda domina produção de biodiesel no primeiro semestre de 2026 - Minaspetro",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORjlFS2xPeWRTLTJqdlZKX0FNMy1TNThyQkluekZ2bVJPRDJseHV6WkhpNUdDNk9KYUg3XzYyZXNESVJLS2NRck8tLXhhckJMbFVUV1hncElzX2NacHdvbTBKT0tvSWhreWg0YjdDdXhNWTRkaEN3NE5GSXkxM3ZOcEluYVBqaTQ2WEJtU1lKS0puX1h2ZWtJd3dvU2s4bHpEN0FkdHdmZ2R1MU1wT3FkSTFBcXhoNFUyLVFsb3NIQjYtT2hWWVpoSHdnQkxxNUxGSmc?oc=5",
-     "source": "Minaspetro",
-     "published_at": "2026-07-30T13:22:50+00:00"
+     "title": "Brasil amplia área de soja pela 20ª vez seguida na safra 2026/27 - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYTBvQ0dNZHJja3VjVWRhVDRwc2ZBN0hLQW52U0pxejhXMjRMWUxXd1BPanRfYmJIWjl3NzhGTmw4MkdpSG1mVVdBcVlKeDI5aGIzZlY5RWpPQTN3U09QejhvZmpUUTU5WFVIUk9TZm1ucGNNWWplTHQ1ZmEzM3ZxaTh5UHU2aFBYWngtUThDNllqcllXcklBXzhiMVVwNFFv?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-07-30T13:24:13+00:00"
     },
     {
      "title": "Preferência da China pela soja brasileira pressiona cotações em Chicago - Agrimidia",
      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeDIwRU1sYjR3ZGM2RnpUVk14NEM0UzFndjh4blF1ZUhvRkc5QW45TnNPVFRoLUo5VTBwVk55NkpDRFBLcXhBaFEyOW04X0c4bGUzN25ObVVLcXdkbFJwR2NOUXV3OUZNLVZJemVneG1aVXRCZ1ZqaU1SMzN1Z01wQlJJQVkzYWN1NExLblhGbjVkUWwyUXlFVy12eWs5ZE9jdG1OU0xVYndPajlRVDI5UncwNWg3TzF2cjQzcmVKVTBrUEVxSmNFQlBjYlI?oc=5",
      "source": "Agrimidia",
      "published_at": "2026-07-30T11:44:22+00:00"
-    },
-    {
-     "title": "Soja tenta reagir em Chicago após forte liquidação; portos brasileiros seguem perto de R$ 150/sc - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMEM3LXByX0tOWDBfRi1qWGVuQy14Rm9WLVJHM0QwdVl4THM1dndDdTNCUi01Mks5bDJWSlBaY2RHdWtVMjMzZWJpdjVJR3VKRDFEZTFKVklrQndYUUR6MHJSaWZ1ajZjMmxQUjMzaU85VFB3Z19aN2JRNDF5ajJHeG5rZnR0OGF4dTBMWjlHT2N2VDk1VlM4d0hQNHVBUjV3LVNqcGRIWkJReVZydFJTMDdkUGR3NW85R2lTQzlFc2UtQ1RtaDgxX0FESTJSc25aM1c5OXlyd1VaUHNiYWRJakh6bDBOOS1qZEJDdVFn0gHzAUFVX3lxTE55bUhFOHFiUDZxcF9wSFdpb2FTVmJ3dXc5My1qX3ZhZ0t6cHJMaXdiTFprb25rMW9CenBBazhVcmtaQlVvMDhKejd6aE54ZWNtRTlLdHZ3NFRwdW1sY2JGTDBQUGp1bk1WQXpTQ2F4amdVZnZpMVhyZW4yeFc1c3ZnMHdjWHFrOWpCS2xoVnJYb3RNQmRTX3pvVThVQnVuSjBvclJ1NGNhQldVX1kxRk9GVDVpT1FDazJBemUtRVlaWFhKRW1MUXhvU1RSYV9WV0dqTk1vb3B6ODNDUzZPdkZoMTJLdlFMbDFRUEd6Y0RVcjJVcw?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-30T10:35:05+00:00"
     },
     {
      "title": "Saca de soja volta a ser negociada abaixo de R$ 147 em Paranaguá - Globo Rural",

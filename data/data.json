@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-30T13:45:09+00:00",
+ "generated_at": "2026-07-30T15:47:38+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-30T13:44:59+00:00",
+   "updated_at": "2026-07-30T15:47:31+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1196.25,
+     "price": 1191.0,
      "prev_close": 1178.0,
-     "change_pct": 1.55,
+     "change_pct": 1.1,
      "closes": [
       1116.75,
       1126.25,
@@ -33,16 +33,16 @@
       1208.5,
       1212.0,
       1178.0,
-      1196.25
+      1191.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 474.0,
+     "price": 472.0,
      "prev_close": 449.0,
-     "change_pct": 5.57,
+     "change_pct": 5.12,
      "closes": [
       412.75,
       421.0,
@@ -65,16 +65,16 @@
       451.75,
       458.5,
       449.0,
-      474.0
+      472.0
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 322.2,
+     "price": 323.0,
      "prev_close": 315.3,
-     "change_pct": 2.19,
+     "change_pct": 2.44,
      "closes": [
       304.7,
       306.6,
@@ -97,16 +97,16 @@
       320.8,
       320.3,
       315.3,
-      322.2
+      323.0
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.78,
+     "price": 67.39,
      "prev_close": 69.17,
-     "change_pct": -2.01,
+     "change_pct": -2.57,
      "closes": [
       66.74,
       67.02,
@@ -129,16 +129,16 @@
       71.46,
       70.76,
       69.17,
-      67.78
+      67.39
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 676.5,
+     "price": 669.75,
      "prev_close": 660.75,
-     "change_pct": 2.38,
+     "change_pct": 1.36,
      "closes": [
       580.75,
       592.0,
@@ -161,16 +161,16 @@
       660.0,
       662.5,
       660.75,
-      676.5
+      669.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 89.52,
+     "price": 89.87,
      "prev_close": 90.74,
-     "change_pct": -1.34,
+     "change_pct": -0.96,
      "closes": [
       72.92,
       71.57,
@@ -193,16 +193,16 @@
       88.36,
       84.09,
       90.74,
-      89.52
+      89.87
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 174662.88,
+     "price": 175412.62,
      "prev_close": 173885.0,
-     "change_pct": 0.45,
+     "change_pct": 0.88,
      "closes": [
       172024.0,
       171689.0,
@@ -226,7 +226,7 @@
       175335.0,
       176565.0,
       173885.0,
-      174662.875
+      175412.625
      ]
     }
    ],
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-30T13:44:59+00:00",
+   "updated_at": "2026-07-30T15:47:31+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-30T13:45:05+00:00",
+   "updated_at": "2026-07-30T15:47:36+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -406,19 +406,109 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-30T13:45:09+00:00",
+   "updated_at": "2026-07-30T15:47:38+00:00",
    "items": [
+    {
+     "title": "O agro evoluiu. A formação veterinária também precisa evoluir",
+     "link": "https://www.canalrural.com.br/projetos/conteudo-patrocinado/o-agro-evoluiu-a-formacao-veterinaria-tambem-precisa-evoluir/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T15:30:00+00:00"
+    },
+    {
+     "title": "Brasil retomará em agosto negociação com os EUA sobre exceções tarifárias",
+     "link": "https://www.canalrural.com.br/economia/brasil-retomara-em-agosto-negociacao-com-os-eua-sobre-excecoes-tarifarias/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T15:28:46+00:00"
+    },
+    {
+     "title": "USDA informa nova venda de soja dos EUA para China nesta 5ª feira (30) - TradingView",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBwZWZqZlFtalR6Sm9sMFc3a0tnWEs3MkhfcGNUNEV5OXFHVno5TUVHYlZGbFYzb2JoM0w1MlBTUHJmUFpaV3NjY1JJNDdmd2hGYmFXN0R2SVI0UV9uZVNJeFpzMUV1QmxsdkM4a1VGZ05sbXV4?oc=5",
+     "source": "TradingView",
+     "published_at": "2026-07-30T15:23:25+00:00"
+    },
+    {
+     "title": "Genética e biosseguridade: pilares da produtividade na suinocultura",
+     "link": "https://www.canalrural.com.br/videos/genetica-e-biosseguridade-pilares-da-produtividade-na-suinocultura/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T15:15:31+00:00"
+    },
+    {
+     "title": "Defesa Civil do RS emite alerta vermelho para inundações após tornado",
+     "link": "https://www.canalrural.com.br/videos/defesa-civil-do-rs-emite-alerta-vermelho-para-inundacoes-apos-tornado/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T15:15:21+00:00"
+    },
+    {
+     "title": "Miguel Daoud analisa ações do Brasil na OMC contra EUA e UE",
+     "link": "https://www.canalrural.com.br/videos/miguel-daoud-analisa-acoes-do-brasil-na-omc-contra-eua-e-ue/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T15:15:10+00:00"
+    },
+    {
+     "title": "Produção de soja e milho pode bater recorde em 2026/27 - Feed&Food",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMVFfV3lsWmc4ejJMYWd0LV9WemxXTVpKQzFJLXRMQTZKUWd3WlhoX3I4ZDF3Z0E0bzRSdi1XVXNLSTZWeUliTVFqbldCMU5OS2t6em9kVnFEZmgzT2c4NVVCZjNhWG9MV0phd1l0RG5NOWduY3hvSktFajZZMktTbHplbw?oc=5",
+     "source": "Feed&Food",
+     "published_at": "2026-07-30T15:07:46+00:00"
+    },
+    {
+     "title": "A importância da colostragem correta na redução da mortalidade de bezerros",
+     "link": "https://www.canalrural.com.br/videos/a-importancia-da-colostragem-correta-na-reducao-da-mortalidade-de-bezerros/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T15:06:09+00:00"
+    },
+    {
+     "title": "Brasil avalia acionar OMC contra veto da União Europeia às carnes",
+     "link": "https://www.canalrural.com.br/videos/brasil-avalia-acionar-omc-contra-veto-da-uniao-europeia-as-carnes/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T15:05:52+00:00"
+    },
+    {
+     "title": "Exportações de carne de frango batem recorde no Porto de Paranaguá",
+     "link": "https://www.canalrural.com.br/videos/exportacoes-de-carne-de-frango-batem-recorde-no-porto-de-paranagua/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T15:05:40+00:00"
+    },
+    {
+     "title": "São Paulo libera crédito emergencial para produtores afetados por temporal",
+     "link": "https://www.canalrural.com.br/videos/sao-paulo-libera-credito-emergencial-para-produtores-afetados-por-temporal/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T15:05:25+00:00"
+    },
+    {
+     "title": "Frente fria provoca ventos fortes e temporais em várias regiões do Brasil",
+     "link": "https://www.canalrural.com.br/videos/frente-fria-provoca-ventos-fortes-e-temporais-em-varias-regioes-do-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T15:05:13+00:00"
+    },
+    {
+     "title": "Vendas semanais de soja dos EUA 2025/26 somam 302,3 mil toneladas - canalrural.com.br",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTG56eVd5eTl1LXgtcno5emZGV3drS1hjUXNrSDAxTGR1NTRQV0s4VDFmOFJLSDBVamsybS1rU19MRTIxY1hTSXFzSjVDYXpuTE1lSnBRUS1pT1NSZFgyY2JHVU1IWGZUUXZxMDlJQ3FpaFVldjU0cGZWQTVhanZ0UE9sQmtTblZJSnpOc09EX2d2R1pETU91OEpvUzgyLXk4Ukd5QTBNTQ?oc=5",
+     "source": "canalrural.com.br",
+     "published_at": "2026-07-30T14:43:22+00:00"
+    },
+    {
+     "title": "Edital da Conab para armazenagem de farelo de soja recebe propostas até sexta-feira (31) - www.gov.br",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZkt5ekdrUTcxUG00cW5UbGxsOUduZUZ6OUVmTlNjd1hzaGcyUXNoV2ZWU0JrZ1VjZ3JRVmFtZmRTZTRBblRIZFZ4QTBVWlA0TlBKVUgxdHNuQ2lCSklOM19ZNUJjbHlyWXNPbW5OeFZzeklFRWNuUkF6ak13M2tsT25JbHlRelQtMDRnZEE5ZGlVS2hNZy1BQl9TNGlKNFJQSER1T1V2d1VGS00xbGo4RldaWm5XaXJpY2FHbGZ1ekdXeTRDeHdaNnFvWlJHZnBs?oc=5",
+     "source": "www.gov.br",
+     "published_at": "2026-07-30T14:40:36+00:00"
+    },
+    {
+     "title": "Bunge eleva projeção de lucro para 2026 após trimestre forte com processamento de soja e \"efeito Viterra\" - AgFeed",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOck1WbklPanJXU1NvWXJqZ1pnU2VsS0w3LXR4SEpEQXFRcjdXZnJPaEY3TzRIcDFQN25mOE94c21YbEZULUVTZ2RoWUs1VnpIZm1fVUxoLWNCcEdGVEktSkYwT1NUQy0wbTZEekM2Z2tHek5DeGpsM0F2eGtrY2ZlalMyeG5DYzNueXhjaGxxZ1NYMlhveTI2M0MwVWhHT0JzRnhsRGxycXd3cGZfMVZQVHhtV20wTHd0ZTFBU2pPaXhfYzlvQS02MWhlTF9aNkU?oc=5",
+     "source": "AgFeed",
+     "published_at": "2026-07-30T14:20:00+00:00"
+    },
+    {
+     "title": "Safra 2026/27 pode renovar recordes de soja e milho no Brasil - Agrishow",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZ0xxaEV6SjliOGZkWTJ2aVYzb0lfekI2U2ZocERmLXZrS0lGSGhna1h0Z1BQaWhYOG5IZzdBWEt0ZEpkTDFpNFNFTnVBYmlaSGJCZWJ3anVMQU40bEx5MkxUXzgySGlZRVBHeTlpZGQtQ09lR3B6S1Fiem1uTVdHNWJXNXJsQkVyZWZRcGQ4d19Pa0dhOXJrS3JMT2wyOTVRNHlTd0NRNTROUVUybHpieWZpb3cxNml3TWRTbS1B?oc=5",
+     "source": "Agrishow",
+     "published_at": "2026-07-30T14:00:40+00:00"
+    },
     {
      "title": "Datagro vê aumento de 0,3% no plantio de soja do Brasil em 2026/27 Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVktpTGp0VnFLU2prNFdiQnVyOFZ1aDhGdmY1alUyVVYzclFXdHRPZ2VqS3BBOHdZM3g4NGpoXzFCa2dnQ3VFMjItMUtOeHR6ckNvOXZ4Ym1qeFZKdnJmbWp4NThnUm14UUtmWHQ1eFM5UVFIbXhTaEg4LWp2UktNcml5b0VCcEhRbDR0YlhUY2xrNWpfdm5heGlqQjVLeUE0TGFMVzl6S1lfbVg3cmJVM0g3VU0xdlVad1E?oc=5",
      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
      "published_at": "2026-07-30T13:29:00+00:00"
-    },
-    {
-     "title": "Brasil amplia área de soja pela 20ª vez seguida na safra 2026/27 - cnnbrasil.com.br",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYTBvQ0dNZHJja3VjVWRhVDRwc2ZBN0hLQW52U0pxejhXMjRMWUxXd1BPanRfYmJIWjl3NzhGTmw4MkdpSG1mVVdBcVlKeDI5aGIzZlY5RWpPQTN3U09QejhvZmpUUTU5WFVIUk9TZm1ucGNNWWplTHQ1ZmEzM3ZxaTh5UHU2aFBYWngtUThDNllqcllXcklBXzhiMVVwNFFv?oc=5",
-     "source": "cnnbrasil.com.br",
-     "published_at": "2026-07-30T13:24:13+00:00"
     },
     {
      "title": "Uso de gordura bovina cresce, mas óleo de soja ainda domina produção de biodiesel no primeiro semestre de 2026 - Minaspetro",
@@ -427,70 +517,10 @@
      "published_at": "2026-07-30T13:22:50+00:00"
     },
     {
-     "title": "Exportações agroindustriais da Argentina somam 63 milhões de toneladas no semestre",
-     "link": "https://www.canalrural.com.br/economia/exportacoes-agroindustriais-da-argentina-somam-63-milhoes-de-toneladas-no-semestre/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T13:17:05+00:00"
-    },
-    {
-     "title": "Dólar cai para a faixa de R$ 5,09 após dados dos EUA",
-     "link": "https://www.canalrural.com.br/economia/dolar-cai-para-a-faixa-de-r-509-apos-dados-dos-eua/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T13:12:12+00:00"
-    },
-    {
-     "title": "Propostas ampliam mercado para alimentos artesanais de pequenos produtores",
-     "link": "https://www.canalrural.com.br/politica/propostas-ampliam-mercado-para-alimentos-artesanais-de-pequenos-produtores/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T12:58:52+00:00"
-    },
-    {
-     "title": "CNA conhece projeto de Centro de Bioeconomia e Inovação da Caatinga",
-     "link": "https://www.canalrural.com.br/economia/cna-conhece-projeto-de-centro-de-bioeconomia-e-inovacao-da-caatinga/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T12:57:01+00:00"
-    },
-    {
-     "title": "Juros futuros recuam pela manhã com dólar, petróleo e Treasuries",
-     "link": "https://www.canalrural.com.br/economia/juros-futuros-recuam-pela-manha-com-dolar-petroleo-e-treasuries/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T12:47:31+00:00"
-    },
-    {
-     "title": "FAO: Brasil já superou meta global de produção de alimentos para 2050",
-     "link": "https://www.canalrural.com.br/agricultura/fao-brasil-ja-superou-meta-global-de-producao-de-alimentos-para-2050/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T12:31:09+00:00"
-    },
-    {
-     "title": "Acordo Mercosul-UE avança com salvaguardas e amplia debate no agro",
-     "link": "https://www.canalrural.com.br/economia/acordo-mercosul-ue-avanca-com-salvaguardas-e-amplia-debate-no-agro/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T12:25:47+00:00"
-    },
-    {
-     "title": "Adido agrícola do Chile no Brasil deixa cargo após quase quatro anos",
-     "link": "https://www.canalrural.com.br/agricultura/adido-agricola-do-chile-no-brasil-deixa-cargo-apos-quase-quatro-anos/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T12:13:14+00:00"
-    },
-    {
      "title": "Preferência da China pela soja brasileira pressiona cotações em Chicago - Agrimidia",
      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeDIwRU1sYjR3ZGM2RnpUVk14NEM0UzFndjh4blF1ZUhvRkc5QW45TnNPVFRoLUo5VTBwVk55NkpDRFBLcXhBaFEyOW04X0c4bGUzN25ObVVLcXdkbFJwR2NOUXV3OUZNLVZJemVneG1aVXRCZ1ZqaU1SMzN1Z01wQlJJQVkzYWN1NExLblhGbjVkUWwyUXlFVy12eWs5ZE9jdG1OU0xVYndPajlRVDI5UncwNWg3TzF2cjQzcmVKVTBrUEVxSmNFQlBjYlI?oc=5",
      "source": "Agrimidia",
      "published_at": "2026-07-30T11:44:22+00:00"
-    },
-    {
-     "title": "Demanda interna limita novas altas da arroba do boi gordo, diz Cepea",
-     "link": "https://www.canalrural.com.br/pecuaria/demanda-interna-limita-novas-altas-da-arroba-do-boi-gordo-diz-cepea/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T11:20:34+00:00"
-    },
-    {
-     "title": "Frente fria avança para o Sudeste após dias de temporais no Sul; veja a previsão do tempo",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/frente-fria-avanca-para-o-sudeste-apos-dias-de-temporais-no-sul-veja-a-previsao-do-tempo/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T11:07:52+00:00"
     },
     {
      "title": "Soja tenta reagir em Chicago após forte liquidação; portos brasileiros seguem perto de R$ 150/sc - Notícias Agrícolas",
@@ -517,40 +547,10 @@
      "published_at": "2026-07-30T08:03:28"
     },
     {
-     "title": "SOJA E TRIGO: confira cotações para esta quinta feira (30) - Brasil 61",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObGRMRWhiQmFSNUdFeEZDUG9LcjFDNHluLXhIQWNwMDliZjV4ME1tN2YtbGFmRS1WM09USkswUE5sY2tQbjdfVHVuVGlsNm1LdVpwMjdnNDJkTFQ5ZlhjWWFJR1poeThnZmU3VHd1bFEyNkM3VW5mSWhNa2F6U0RVV1V4YUdHTW02Y2daSmVOenVRLWPSAZgBQVVfeXFMUDFaR1RRSVZTQldfWExBLURhcUpTYVhDczJGNjJTZ2ZPWF9TWFFPYURTbTRuUFVGR3RoelppMFBZLVdCamhxRjZxZEZrTDlOZmdTWDNDT01Pbm5FWC1IWFNiT3RBaTJyQlkwcUNhUHlhZVFMZDdsX1AwUW82cll4Sjdxa2Y5Y3J6c2w3dVI1MmM5ZmR5VGZrN0Q?oc=5",
-     "source": "Brasil 61",
-     "published_at": "2026-07-30T07:05:00+00:00"
-    },
-    {
-     "title": "DATAGRO projeta nova alta na produção brasileira de soja e milho para a safra 2026/27 - SBA1",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMUNNSHdzMVVRaXlxMWVlLTZsNERNendKMzdZcGlud1ZydDE1RTgtTUF4ZlU4VmNrQVIwQUNVVl9EQnllWms3OWVNMzZ5VXY4XzVwUWxUWHE2MEx5dXJfejVWemxrMUJrYmJWeDNTVkVsQ0hZNlJUTXNZblBvczRYeERpTW5qODJEY0NLQXloTi01RWxhTUVWX01paFFvRGI1RmJGRUhFeG8wNnN1WWktcWZsUlRTcVJnTHR2OHFqQzh0Z0k?oc=5",
-     "source": "SBA1",
-     "published_at": "2026-07-30T05:56:00+00:00"
-    },
-    {
      "title": "Por que a carpa nishikigoi pode valer até US$ 1,5 milhão?",
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/07/30/por-que-a-carpa-nishikigoi-pode-valer-ate-us-15-milhao.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-30T05:00:08"
-    },
-    {
-     "title": "O fim da Moratória da Soja abrirá as portas para um novo ciclo de devastação na Amazônia | - Blog do Pedlowski",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQenBsS3BvTEZrMjExVGVvWkIzSzJPbWE1UEJyY2wxd01mdkFvN3EzU0hxVWZ1S0VrLS1Pb0MxWWh6ZllnLUF3aGtPTTBDOUYwRXFYTE94NDQtdGNneFh1WUhiT0dmUUpCVlRFMnF0bWxDczNXRXdoMUNocEtYMHhYa0tFRjlDNy1hbi1zWVZjTEoxSFluNmw1STBFazBUYU9VRlRyQVpOVXRmOExhakVBWl83Tkg2eG5tQVVmU00tUDVHQ3Rkb1Vv?oc=5",
-     "source": "Blog do Pedlowski",
-     "published_at": "2026-07-29T23:49:08+00:00"
-    },
-    {
-     "title": "Processamento de soja cresce 7,9% e supera 23 milhões de toneladas neste ano - brazileconomy.com.br",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUUMyZkpKTzVTZGltRFpnaXJubi1OWWZkR3JxVi1EdzFoTlZVeWluUTdUSUFsQlpJZWxhQ29nME90NC1HVUFWNG5XQXIyeFYzdEM5TTI4NWMyR1VjWGhIUGl5NWpQeWVIOUcySWNZZ3lDd21sUnFabnVobC14S3Fjc295VXlzQmNpdTBTQ0c1WkJEQWhScVBCVXo2RFQ0bldCZDNnNzYwZ3RhZVJvWU9jR0FDRGVZOEFoZU5GSTdwbXBjQQ?oc=5",
-     "source": "brazileconomy.com.br",
-     "published_at": "2026-07-29T22:17:18+00:00"
-    },
-    {
-     "title": "Clima favorável nos EUA derruba Chicago e pressiona mercado brasileiro de soja - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSmZiS3lJcWFSMTc3aFdEYllMZ1FIQVlMQll6SG9xUEQxSGV3eUw4dDVhX09wcXYtVnhKQnZ6QnZUUThMckdaczlaM0dIaUpIblpET3VYa25jRVFMTExGNjU2NXNKTFVzTjM2c1lWMDFHUVZpY0hwR0NUekY5RVRCY2NQQzZjcVl5bVlmQTlZUXEyZVZWdUpkUnloNDNHUHFxV2drT2ZWQnFpVlVPeEp1MWo3bGk1aFotcHphLW1SVFBLaTlveC1obmkyOEJsQzREYXJ6SmhxcFE?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-29T20:25:07+00:00"
     },
     {
      "title": "Vacas monitoradas por IA viram garantia de empréstimos em operação inédita no Brasil",

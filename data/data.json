@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-30T21:01:29+00:00",
+ "generated_at": "2026-07-30T22:59:15+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-30T21:01:19+00:00",
+   "updated_at": "2026-07-30T22:59:09+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-30T21:01:19+00:00",
+   "updated_at": "2026-07-30T22:59:09+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-30T21:01:25+00:00",
+   "updated_at": "2026-07-30T22:59:12+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -406,8 +406,50 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-30T21:01:29+00:00",
+   "updated_at": "2026-07-30T22:59:15+00:00",
    "items": [
+    {
+     "title": "CMN atualiza regras do Eco Invest Brasil e cria regime para fundos de inovação",
+     "link": "https://www.canalrural.com.br/economia/cmn-atualiza-regras-do-eco-invest-brasil-e-cria-regime-para-fundos-de-inovacao/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T22:13:27+00:00"
+    },
+    {
+     "title": "Boi gordo volta a registrar negócios acima da referência média; Norte lidera altas",
+     "link": "https://www.canalrural.com.br/pecuaria/boi-gordo-volta-a-registrar-negocios-acima-da-referencia-media-norte-lidera-altas/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T22:04:07+00:00"
+    },
+    {
+     "title": "Ibovespa fecha em alta de 1,88% e dólar comercial cai 0,93%",
+     "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-alta-de-188-e-dolar-comercial-cai-093/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T21:41:49+00:00"
+    },
+    {
+     "title": "Soja brasileira tem poucos negócios e preços recuam; confira o cenário da commodity - canalrural.com.br",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMGhDWkVWM3lBRUpmb0dEb3BELUZTSnI4RWFXMUU0bFNPTGMxaTNUTFIwekNhUVJzWXBMNHRKa2xEbFkxT3M4QktTUU5zaDhmbzdENFk2VzgxU2pxWVRnZklZaERqUXd5N3NQZ3BhTE1VX3pKQ2M4VkFjWV8tMjR6VjVFUlcwSGdqZkF3Yy13T1BPZGNJeFdEX1dDTl9OSHVvb2JPRHdaT29TVzQxcG1sUEVkSEVYaU9IU09haVlKVFo4aHdZTkdkZUl0dmFuM0FYako4UlVkN3gtQmxPWkE?oc=5",
+     "source": "canalrural.com.br",
+     "published_at": "2026-07-30T21:40:56+00:00"
+    },
+    {
+     "title": "Soja brasileira tem poucos negócios e preços recuam; confira o cenário da commodity",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/soja-brasileira-tem-poucos-negocios-e-precos-recuam-confira-o-cenario-da-commodity/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T21:40:56+00:00"
+    },
+    {
+     "title": "Sérgio Sacani palestra sobre IA e tecnologia no agro durante Agroleite 2026",
+     "link": "https://www.canalrural.com.br/agricultura/agronegocio/sergio-sacani-palestra-sobre-ia-e-tecnologia-no-agro-durante-agroleite-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T21:38:38+00:00"
+    },
+    {
+     "title": "Juros futuros caem com expectativa de corte da Selic e alívio externo",
+     "link": "https://www.canalrural.com.br/economia/juros-futuros-caem-com-expectativa-de-corte-da-selic-e-alivio-externo/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T21:18:39+00:00"
+    },
     {
      "title": "Ibovespa sobe 1,88% e volta aos 177 mil pontos",
      "link": "https://www.canalrural.com.br/economia/ibovespa-sobe-188-e-volta-aos-177-mil-pontos/",
@@ -421,9 +463,9 @@
      "published_at": "2026-07-30T20:32:25+00:00"
     },
     {
-     "title": "Safra recorde e avanço do processamento sustentam expansão da cadeia da soja em 2026 - agrolink.com.br",
+     "title": "Safra recorde e avanço do processamento sustentam expansão da cadeia da soja em 2026 - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQS1dSMXlUUkNERDhnUWdKOUozb0pkcllaeFdOT2lDM3pRZHlKRmc3WnJOek15V3lfRHBjdVBWclpUVjFrcmJhbVBVVWhjVGl1TDAxREwtTi1fQldJTExTTGR3TTA3YTNabVNGdzA1djg5SFlQeUxoZWk0MTRub01rQ2VCUDduTm5ydmFGZFVLeXFud3NkNi1HNktSWjNkczBoV1lwckZiUk5vRWZFNnEzMW42Z3JJS3hoMElXZDRnLWZadVZPLVBJTk9icWtubFk?oc=5",
-     "source": "agrolink.com.br",
+     "source": "Agrolink",
      "published_at": "2026-07-30T20:27:00+00:00"
     },
     {
@@ -439,12 +481,6 @@
      "published_at": "2026-07-30T19:07:12+00:00"
     },
     {
-     "title": "Cão farejador ajuda a localizar mais de meia tonelada de maconha em carreta carregada com milho",
-     "link": "https://www.canalrural.com.br/seguranca/cao-farejador-ajuda-a-localizar-mais-de-meia-tonelada-de-maconha-em-carreta-carregada-com-milho/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T18:58:09+00:00"
-    },
-    {
      "title": "Transição energética amplia oportunidades para a soja - Revista Cultivar",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTUMteGRHUUNUUG9McFA4NTRnbEE4MktnVGliV1AzcTBkaXc5YndGeUYwQ0o5Y1N3M3FCWGJWVEozck5FTTdvUmN2TXdaaTUxNkh4MjNRYkU5aDN1Zmo3aHc5cnUybzhLbDNHYnhHOGtNb0pkYmFGT2lfbFBIcm5RQno0cGVaTjhva0FVN2I4bW53WVc0S1E2aA?oc=5",
      "source": "Revista Cultivar",
@@ -457,58 +493,16 @@
      "published_at": "2026-07-30T18:39:40+00:00"
     },
     {
-     "title": "Conab leva cadastro do Venda em Balcão à Festa do Agricultor em Bom Jesus",
-     "link": "https://www.canalrural.com.br/pecuaria/conab-leva-cadastro-do-venda-em-balcao-a-festa-do-agricultor-em-bom-jesus/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T17:49:50+00:00"
-    },
-    {
-     "title": "CNA e TCU discutem modernização do crédito rural",
-     "link": "https://www.canalrural.com.br/economia/cna-e-tcu-discutem-modernizacao-do-credito-rural/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T17:31:11+00:00"
-    },
-    {
-     "title": "Etanol lidera queda dos combustíveis em julho, aponta monitor da Veloe e Fipe",
-     "link": "https://www.canalrural.com.br/economia/etanol-lidera-queda-dos-combustiveis-em-julho-aponta-monitor-da-veloe-e-fipe/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T17:03:23+00:00"
-    },
-    {
-     "title": "Chamada Nordeste leva 41 projetos de mais de R$ 50 bilhões para avaliação",
-     "link": "https://www.canalrural.com.br/economia/chamada-nordeste-leva-41-projetos-de-mais-de-r-50-bilhoes-para-avaliacao/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T17:00:13+00:00"
-    },
-    {
      "title": "Prêmio de exportação da soja: o que é e por que acompanhar? - Farmnews",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbmxyNDBNQW8yaFpMbGRURllBd2d3Uld4OTdIbTlLVmlFVVROQ3VQVmx3VXE3Ym8tY1VwZGNNTGNuNzRFNWFiazJJSEhSaDc5YTNhZ2RXMFRiMGM2YlZfZFlUVGstVXVNNUltQUZkcXdnbGxYVG1qV2JqclpDN0pyRTJXekpGNktQbmMyY19XcmZJMkYzc0c1WA?oc=5",
      "source": "Farmnews",
      "published_at": "2026-07-30T16:37:57+00:00"
     },
     {
-     "title": "Soja busca reação em Chicago, mas clima favorável nos EUA ainda limita recuperação dos preços - Notícias Agrícolas",
+     "title": "Soja busca reação em Chicago, mas clima favorável nos EUA ainda limita recuperação dos preços - noticiasagricolas.com.br",
      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbk90S3ZDLV9pR01RMWdvdHhwQm1XbG5CbmlNOXJqTTBkLV9hVWVHOXhtRFBxU2llWU5iN19HUHQwV19EMGF6aUk4R0VDa2JoWFZrLUhiVk43YTM4bUIwa1BJY19oUFNEdXFRN041Q3d6QWI1S2pmOTNzMWFzTG8tTkFqR1l2SlV1Um56X2djYzBBdnFWdzNMQmVCSkEzTDZHb04wR1k4NmRUcjl3Uk02bFd0X2d3d3NWQWJLSk1vMkxXRXNFV2ZzN0E5T0RHZ1JDWk1WQUZHRklBTjhlMHZrZEN4YXROcjlYbXpZ0gHwAUFVX3lxTE1vaXNmVTlUVjkzeUlZTEJhMW4xYmhwZHlFMHJ3QXQ4SzFnY241T182MXIycGExQ3BCTVdQcy15Y0l0cktIbjJ2dUJMczlsS1lrV1BNVGl3VFZtSU5CcGQ0YmZnSEY3YVRrYUQ5dWtaYzJEQ2VQNGM1Nm9hczR2eDdqbEJmZVFFV0lyYmNQS2g1RFFUT2hPWHdCMkU3YlFCS0VXZll3VU1SQmN4b0tDYnp0ZDFDMFJqdk5sTXd6NW5RWmwtSTA1YTBpTms0UkhWTXNsZUhKbjdUanVLM29iWllhWkNjWURoeDJuU29vdUFGZA?oc=5",
-     "source": "Notícias Agrícolas",
+     "source": "noticiasagricolas.com.br",
      "published_at": "2026-07-30T16:32:32+00:00"
-    },
-    {
-     "title": "Brasil deve superar meta de 700 aberturas de mercados em 2026, diz Mapa",
-     "link": "https://www.canalrural.com.br/economia/brasil-deve-superar-meta-de-700-aberturas-de-mercados-em-2026-diz-mapa/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T16:12:06+00:00"
-    },
-    {
-     "title": "Produção de soja e milho pode bater recorde em 2026/27 - Feed&Food",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMVFfV3lsWmc4ejJMYWd0LV9WemxXTVpKQzFJLXRMQTZKUWd3WlhoX3I4ZDF3Z0E0bzRSdi1XVXNLSTZWeUliTVFqbldCMU5OS2t6em9kVnFEZmgzT2c4NVVCZjNhWG9MV0phd1l0RG5NOWduY3hvSktFajZZMktTbHplbw?oc=5",
-     "source": "Feed&Food",
-     "published_at": "2026-07-30T15:07:46+00:00"
-    },
-    {
-     "title": "Datagro projeta recorde para milho e alta na produção de soja em 2026/27 - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQk9GX1NYcDBHaUM4NDBLYlhVTm4wMGNtenp0MmM2dmR0cHVROHVWdzhsQUVqZTlmNHBPWjdyclNyTng4WDJ0RDU4ZGZxNUhwaWw5US1xbUIzOGVVcFpsUm14b0tlbGJoampkR21uZUhyNGNqOEpqNkRIV2NNUUlvNVBxeC1LazlTU2E3VkNKei1EOHdPUjAtVUNVUlg1amF0Rl9sQ0JjdDVKZEV4QjJSUnNrRmltdDlZazVDR191ZXhJMzN5RkE?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T14:42:08+00:00"
     },
     {
      "title": "Edital da Conab para armazenagem de farelo de soja recebe propostas até sexta-feira (31) - www.gov.br",
@@ -533,6 +527,12 @@
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYTBvQ0dNZHJja3VjVWRhVDRwc2ZBN0hLQW52U0pxejhXMjRMWUxXd1BPanRfYmJIWjl3NzhGTmw4MkdpSG1mVVdBcVlKeDI5aGIzZlY5RWpPQTN3U09QejhvZmpUUTU5WFVIUk9TZm1ucGNNWWplTHQ1ZmEzM3ZxaTh5UHU2aFBYWngtUThDNllqcllXcklBXzhiMVVwNFFv?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-07-30T13:24:13+00:00"
+    },
+    {
+     "title": "Soja e milho podem renovar recordes na safra 2026/27 - Feed&Food",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMVFfV3lsWmc4ejJMYWd0LV9WemxXTVpKQzFJLXRMQTZKUWd3WlhoX3I4ZDF3Z0E0bzRSdi1XVXNLSTZWeUliTVFqbldCMU5OS2t6em9kVnFEZmgzT2c4NVVCZjNhWG9MV0phd1l0RG5NOWduY3hvSktFajZZMktTbHplbw?oc=5",
+     "source": "Feed&Food",
+     "published_at": "2026-07-30T13:01:00+00:00"
     },
     {
      "title": "Preferência da China pela soja brasileira pressiona cotações em Chicago - Agrimidia",

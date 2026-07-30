@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-29T23:57:24+00:00",
+ "generated_at": "2026-07-30T02:23:08+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-29T23:57:15+00:00",
+   "updated_at": "2026-07-30T02:22:59+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1191.5,
+     "price": 1191.0,
      "prev_close": 1212.0,
-     "change_pct": -1.69,
+     "change_pct": -1.73,
      "closes": [
       1108.75,
       1116.75,
@@ -33,16 +33,16 @@
       1248.0,
       1208.5,
       1212.0,
-      1191.5
+      1191.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 471.0,
+     "price": 470.25,
      "prev_close": 458.5,
-     "change_pct": 2.73,
+     "change_pct": 2.56,
      "closes": [
       402.0,
       412.75,
@@ -65,16 +65,16 @@
       464.25,
       451.75,
       458.5,
-      471.0
+      470.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 324.0,
+     "price": 321.7,
      "prev_close": 320.3,
-     "change_pct": 1.16,
+     "change_pct": 0.44,
      "closes": [
       304.7,
       304.7,
@@ -97,16 +97,16 @@
       331.3,
       320.8,
       320.3,
-      324.0
+      321.7
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.64,
+     "price": 67.37,
      "prev_close": 70.76,
-     "change_pct": -4.41,
+     "change_pct": -4.79,
      "closes": [
       69.07,
       66.74,
@@ -129,16 +129,16 @@
       74.33,
       71.46,
       70.76,
-      67.64
+      67.37
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 660.0,
+     "price": 664.75,
      "prev_close": 662.5,
-     "change_pct": -0.38,
+     "change_pct": 0.34,
      "closes": [
       569.5,
       580.75,
@@ -161,16 +161,16 @@
       678.0,
       660.0,
       662.5,
-      660.0
+      664.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 90.29,
+     "price": 89.55,
      "prev_close": 84.09,
-     "change_pct": 7.37,
+     "change_pct": 6.49,
      "closes": [
       73.15,
       72.92,
@@ -193,7 +193,7 @@
       96.78,
       88.36,
       84.09,
-      90.29
+      89.55
      ]
     },
     {
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-29T23:57:15+00:00",
+   "updated_at": "2026-07-30T02:22:59+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-29T23:57:21+00:00",
+   "updated_at": "2026-07-30T02:23:04+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -259,8 +259,8 @@
       "2026-08-04"
      ],
      "precip": [
-      0.4,
-      0.4,
+      1.2,
+      0.2,
       0.0,
       0.0,
       0.0,
@@ -269,21 +269,21 @@
      ],
      "tmax": [
       34.4,
-      34.9,
+      34.8,
+      36.3,
       36.1,
-      35.9,
-      34.9,
-      35.6,
-      35.5
+      35.2,
+      35.3,
+      35.4
      ],
      "tmin": [
       22.5,
-      22.8,
-      21.4,
-      21.9,
-      23.1,
-      22.3,
-      21.4
+      22.5,
+      20.7,
+      22.2,
+      22.6,
+      22.2,
+      21.8
      ]
     },
     {
@@ -299,7 +299,7 @@
      ],
      "precip": [
       0.8,
-      0.7,
+      0.2,
       0.0,
       0.0,
       0.0,
@@ -307,22 +307,22 @@
       0.0
      ],
      "tmax": [
-      32.5,
-      34.0,
-      34.6,
-      34.6,
-      34.3,
-      34.5,
-      34.5
+      32.4,
+      33.7,
+      35.0,
+      34.9,
+      34.2,
+      34.4,
+      34.3
      ],
      "tmin": [
       22.3,
+      22.4,
+      21.0,
+      22.0,
       22.2,
-      21.2,
-      21.9,
-      22.9,
-      22.2,
-      21.2
+      22.0,
+      21.0
      ]
     },
     {
@@ -347,21 +347,21 @@
      ],
      "tmax": [
       31.9,
-      31.9,
-      31.8,
-      31.6,
-      31.2,
-      30.3,
-      31.8
+      32.2,
+      32.2,
+      31.7,
+      31.3,
+      29.9,
+      31.7
      ],
      "tmin": [
       20.0,
-      18.2,
       20.1,
-      19.4,
+      19.7,
+      19.8,
+      18.5,
       19.1,
-      19.3,
-      19.3
+      18.1
      ]
     },
     {
@@ -376,38 +376,50 @@
       "2026-08-04"
      ],
      "precip": [
-      17.4,
-      4.1,
+      4.8,
+      9.1,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.4,
+      0.6,
+      0.3
      ],
      "tmax": [
       32.1,
-      28.1,
-      28.4,
+      27.5,
+      29.1,
       31.8,
-      28.9,
-      29.0,
-      28.8
+      30.4,
+      31.7,
+      28.5
      ],
      "tmin": [
-      20.3,
-      18.4,
+      19.3,
+      18.5,
       19.6,
       19.6,
-      19.2,
-      19.9,
-      19.3
+      18.7,
+      19.8,
+      19.4
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-29T23:57:24+00:00",
+   "updated_at": "2026-07-30T02:23:08+00:00",
    "items": [
+    {
+     "title": "Projeto Restaura Biomas mira recuperação de 600 mil hectares até 2030",
+     "link": "https://www.canalrural.com.br/diversos/projeto-restaura-biomas-mira-recuperacao-de-600-mil-hectares-ate-2030/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T01:04:30+00:00"
+    },
+    {
+     "title": "Argentina defende mais abertura e flexibilidade no Mercosul",
+     "link": "https://www.canalrural.com.br/economia/argentina-defende-mais-abertura-e-flexibilidade-no-mercosul/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T00:48:15+00:00"
+    },
     {
      "title": "JBS assina acordo com Highland Foods para ampliar presença na Coreia do Sul",
      "link": "https://www.canalrural.com.br/economia/jbs-assina-acordo-com-highland-foods-para-ampliar-presenca-na-coreia-do-sul/",
@@ -475,18 +487,6 @@
      "published_at": "2026-07-29T20:25:07+00:00"
     },
     {
-     "title": "El Niño será forte, e manejo da lavoura deve orientar reação do produtor",
-     "link": "https://www.canalrural.com.br/agricultura/el-nino-sera-forte-e-manejo-da-lavoura-deve-orientar-reacao-do-produtor/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-29T20:18:55+00:00"
-    },
-    {
-     "title": "Brasil busca diversificar mercados e enfrenta barreiras comerciais",
-     "link": "https://www.canalrural.com.br/videos/brasil-busca-diversificar-mercados-e-enfrenta-barreiras-comerciais/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-29T20:15:34+00:00"
-    },
-    {
      "title": "Futuros do milho acompanham perdas da soja e fecham quarta-feira caindo 2% em Chicago - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPR1FhRS1fNU9rNU5idnhxc1h1b0xHd0d4WlA5Ti1BUW5uRkpfNjlYczVSZHJ2RUpsWWtjcFFQUXJhTmpZcUhjQzkwSjZEb3ZueTdNUTdhM2M0ZWZta1g2VVJRUzQzSFM5VUdVUU5WYWlKd19HNDBDVEJyR2pZWDB6ZWdsZkdsZXlKbDRMWTBhSkdPTkczZmpGMUpvWUU4SUlMbEJ5NGh3a1dwTjFoZ0s2QjY3MVdHOG5FY2lGRzZlbkpYSlU4bGJWNlhTRFdYNWRUaEpCZ2hoZm1xM1kzMDQ5SkNB0gHnAUFVX3lxTE1QbXA3Wkd4c25vMDBLbXQ0Y0UtblMxeDhhMzRyRkFWbFBXTlNoMlpfa1ZJQXZtU0lxM3J1MGR1YUZXb3J4UmhzSmpoZ3NCWkl2VVhyT3JlbXBlbjFYc3RCZk15MmNpSXZMcjhIcGpzaXRDUm00RGJNSURJMFBoY1NocVpBSEVMN29qOGxubnVud3VzY1RwTUNodVdOeV9vSC02LUxpZ0doOEpXSDhjTkNnXzhFX28tYkpmOG1IMkkwY1BJaWJoZHlZRWtmQkNWQ051M190UVA3dXpZTlZNc3pUWEJqaHhyaw?oc=5",
      "source": "Notícias Agrícolas",
@@ -535,10 +535,10 @@
      "published_at": "2026-07-29T13:16:52+00:00"
     },
     {
-     "title": "Consultoria aponta mercado cauteloso para a soja - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNXdEMU9ZUklTX0pnY2JVM3o0TkZvamZ5dUxpMkdEbzY0a0k4bGN4eDlfdlBVRVh1YUM1SF9XZU81T0Z1SnRrd05NdkpldUxpU0hoNG1mSmJ1c3FzbEVnMTlBanBMVGNfSnRQQzNkdVktUWhZODI3YlpGOFpPSDN6LUFBOHdfVWtyWklsaTJhbUtETnVOV2NvbFJOZk1iUQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-29T09:36:00+00:00"
+     "title": "Soja cai mais de 12 pontos em Chicago nesta 4ª e clima nos EUA volta a pressionar mercado - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPVl85Z2ZWM0lxdDQwVDBJajZWYjZQOXpHQjhaQzl3RmVjZkFBVWVNWjVfVGF1VHFQdG9vNHNMYnNUM3h4QUhmLUVvMnB2a2U2QUtuSkJMcUFnd2NwdUh3OGtqRURfQlpEWlp4dkdCbHhnZTNLLXdYU1JwVjdPWWpSVzBMTndtTkdhbFJPMjFNWWlhRW9Sd0kxc0lpTmVYa2dxUzRZNElNSThqTWI3cWx2b25pd2pZX0FaVWhtSFJWNTd4cmppdTB5cnlPZkV3Y0pjR0RZU1V6S1VsMndjcXB6ZW5va3cwQdIB6wFBVV95cUxQdE5Mc2V0U0VKb1FyZDZxNDBMOTFyWDNUZU5NNG1LUnA2cGV1RUd6WW9nRzJDMG1XT2tDOU90NFRlUWpwNVpyUXUtV1RHSk1OU0hUSlBsNTZlRWxacThRRjY2RFRSYmFyakRzOEJ3OXlINS1aeFVQc2xENnE4RDNsendtSU1hREFIaGhqd2pQWWRoS2poQnB5LUV1dWVXVm4yYUhCNk5zQnJ6aDcyVFFmZEZ6Vnp6c1Q0TFAycTd0bEVSWFZ3Yk9pdmhzUkdDbHRMcFN4dDBhVHRnM3hsbHRvbTVQOVViNUVtWkww?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-29T10:40:56+00:00"
     },
     {
      "title": "Vacas monitoradas por IA viram garantia de empréstimos em operação inédita no Brasil",

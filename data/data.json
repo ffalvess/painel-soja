@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-30T22:59:15+00:00",
+ "generated_at": "2026-07-31T00:06:33+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-30T22:59:09+00:00",
+   "updated_at": "2026-07-31T00:06:27+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 89.45,
+     "price": 89.38,
      "prev_close": 90.74,
-     "change_pct": -1.42,
+     "change_pct": -1.5,
      "closes": [
       72.92,
       71.57,
@@ -193,7 +193,7 @@
       88.36,
       84.09,
       90.74,
-      89.45
+      89.38
      ]
     },
     {
@@ -234,7 +234,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-30T22:59:09+00:00",
+   "updated_at": "2026-07-31T00:06:27+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -245,7 +245,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-30T22:59:12+00:00",
+   "updated_at": "2026-07-31T00:06:31+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -259,7 +259,7 @@
       "2026-08-05"
      ],
      "precip": [
-      0.8,
+      0.5,
       0.0,
       0.0,
       0.0,
@@ -298,7 +298,7 @@
       "2026-08-05"
      ],
      "precip": [
-      0.2,
+      0.1,
       0.0,
       0.0,
       0.0,
@@ -380,7 +380,7 @@
       0.0,
       0.0,
       0.0,
-      0.3,
+      0.0,
       0.0,
       0.0
      ],
@@ -406,8 +406,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-30T22:59:15+00:00",
+   "updated_at": "2026-07-31T00:06:33+00:00",
    "items": [
+    {
+     "title": "Colheita de café no Brasil chega a 78% e segue atrasada, aponta consultoria",
+     "link": "https://www.canalrural.com.br/agricultura/cafe/colheita-de-cafe-no-brasil-chega-a-78-e-segue-atrasada-aponta-consultoria/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T23:24:59+00:00"
+    },
+    {
+     "title": "Fiemg vê avanço em venda direta de gás da União no mercado livre",
+     "link": "https://www.canalrural.com.br/economia/fiemg-ve-avanco-em-venda-direta-de-gas-da-uniao-no-mercado-livre/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-30T22:58:21+00:00"
+    },
     {
      "title": "CMN atualiza regras do Eco Invest Brasil e cria regime para fundos de inovação",
      "link": "https://www.canalrural.com.br/economia/cmn-atualiza-regras-do-eco-invest-brasil-e-cria-regime-para-fundos-de-inovacao/",
@@ -427,9 +439,9 @@
      "published_at": "2026-07-30T21:41:49+00:00"
     },
     {
-     "title": "Soja brasileira tem poucos negócios e preços recuam; confira o cenário da commodity - canalrural.com.br",
+     "title": "Soja brasileira tem poucos negócios e preços recuam; confira o cenário da commodity - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMGhDWkVWM3lBRUpmb0dEb3BELUZTSnI4RWFXMUU0bFNPTGMxaTNUTFIwekNhUVJzWXBMNHRKa2xEbFkxT3M4QktTUU5zaDhmbzdENFk2VzgxU2pxWVRnZklZaERqUXd5N3NQZ3BhTE1VX3pKQ2M4VkFjWV8tMjR6VjVFUlcwSGdqZkF3Yy13T1BPZGNJeFdEX1dDTl9OSHVvb2JPRHdaT29TVzQxcG1sUEVkSEVYaU9IU09haVlKVFo4aHdZTkdkZUl0dmFuM0FYako4UlVkN3gtQmxPWkE?oc=5",
-     "source": "canalrural.com.br",
+     "source": "Canal Rural",
      "published_at": "2026-07-30T21:40:56+00:00"
     },
     {
@@ -469,28 +481,10 @@
      "published_at": "2026-07-30T20:27:00+00:00"
     },
     {
-     "title": "Maior demanda sustenta valorização do algodão em pluma no mercado interno",
-     "link": "https://www.canalrural.com.br/agricultura/maior-demanda-sustenta-valorizacao-do-algodao-em-pluma-no-mercado-interno/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T20:06:37+00:00"
-    },
-    {
-     "title": "Congresso Brasileiro do Agronegócio celebra 25 anos com debates sobre geopolítica, investimentos e futuro do setor",
-     "link": "https://www.canalrural.com.br/feiras-e-eventos/congresso-brasileiro-do-agronegocio-celebra-25-anos-com-debates-sobre-geopolitica-investimentos-e-futuro-do-setor/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-30T19:07:12+00:00"
-    },
-    {
      "title": "Transição energética amplia oportunidades para a soja - Revista Cultivar",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTUMteGRHUUNUUG9McFA4NTRnbEE4MktnVGliV1AzcTBkaXc5YndGeUYwQ0o5Y1N3M3FCWGJWVEozck5FTTdvUmN2TXdaaTUxNkh4MjNRYkU5aDN1Zmo3aHc5cnUybzhLbDNHYnhHOGtNb0pkYmFGT2lfbFBIcm5RQno0cGVaTjhva0FVN2I4bW53WVc0S1E2aA?oc=5",
      "source": "Revista Cultivar",
      "published_at": "2026-07-30T18:43:50+00:00"
-    },
-    {
-     "title": "Brasil deve elevar produção de soja a 185,6 milhões de toneladas, diz Datagro - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeDRJM2tjX2hjRnF3QlJoM0lCeHpMN0FUdmFmTnJ4a2pMdW5sX0ZUaUdGd2hFZG9WQmRPYWRXbnZJaUV6YXZscENwMWI2Z2FSTnM2UEpKTFZVdFFWODl0ZHlTUEhKamJNLWV0V0VWZE5wY1dpY05EcWZhczlOaHVGMlNETE1TVjhOU0NTQV93YmJ0Z3VTNEVhbWI0VTRLbUFsQmx1U1pWN1pZc0g4dWdTWk1rMmkxbzBLRFlnQXRxOUNMTmpNeExjVkF4a0pYVFpZQ2hUZNIB4wFBVV95cUxPcEF3RVJTclJxdnpHbU13NE9PUDlsN1hsc0c1ZU1qVUl5eFBkN2VnVFo0bmFxZzdYV1duVDREWk15UFd3ckhrUFFZV25GcGpsUVl0bkt2VGlvY0x3Y1lCZmFYeFRpbzlTT3ZUcTJIR1BtU1ZCeDQyTmxmWTg4LXhzWWxoQXBMT3d0R1BzZ1p2MVlVRHAza015MGRhWWJrNDNFZC1zNjI4ZWJ2dEY4dW1ZWG1yRjNMNTBDYmFlcnl6WTI0MVdLbG1JcW5WTVZxald5ZHlkWTAyWHMyWXZYV3F6Vnl0Zw?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-30T18:39:40+00:00"
     },
     {
      "title": "Prêmio de exportação da soja: o que é e por que acompanhar? - Farmnews",
@@ -503,6 +497,12 @@
      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbk90S3ZDLV9pR01RMWdvdHhwQm1XbG5CbmlNOXJqTTBkLV9hVWVHOXhtRFBxU2llWU5iN19HUHQwV19EMGF6aUk4R0VDa2JoWFZrLUhiVk43YTM4bUIwa1BJY19oUFNEdXFRN041Q3d6QWI1S2pmOTNzMWFzTG8tTkFqR1l2SlV1Um56X2djYzBBdnFWdzNMQmVCSkEzTDZHb04wR1k4NmRUcjl3Uk02bFd0X2d3d3NWQWJLSk1vMkxXRXNFV2ZzN0E5T0RHZ1JDWk1WQUZHRklBTjhlMHZrZEN4YXROcjlYbXpZ0gHwAUFVX3lxTE1vaXNmVTlUVjkzeUlZTEJhMW4xYmhwZHlFMHJ3QXQ4SzFnY241T182MXIycGExQ3BCTVdQcy15Y0l0cktIbjJ2dUJMczlsS1lrV1BNVGl3VFZtSU5CcGQ0YmZnSEY3YVRrYUQ5dWtaYzJEQ2VQNGM1Nm9hczR2eDdqbEJmZVFFV0lyYmNQS2g1RFFUT2hPWHdCMkU3YlFCS0VXZll3VU1SQmN4b0tDYnp0ZDFDMFJqdk5sTXd6NW5RWmwtSTA1YTBpTms0UkhWTXNsZUhKbjdUanVLM29iWllhWkNjWURoeDJuU29vdUFGZA?oc=5",
      "source": "noticiasagricolas.com.br",
      "published_at": "2026-07-30T16:32:32+00:00"
+    },
+    {
+     "title": "USDA informa nova venda de soja dos EUA para China nesta 5ª feira (30) - noticiasagricolas.com.br",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObl9iUnBScnJibmZUVnhWVXVEaThOS0tKOWliRzA2UlBRZ01CTnlpbDFZMk56VDFwcUNaeVZXVmJzNVgyWnMxb3pQSk9pOUY0RXBkQ3ppYnM4Tkg2bEpvN0U3RVk1MlVqWmlTdzAzZVVvSDZwOEx4dDZZelZRbHp4bjU5WHRvVExOd3BRQUxZSEtCZDRndk1DYzQwWlVVVFhxX1MwSWVfcTNua25HWDFkalZGRUpXczdFTUw4REFkNzZSekN6VE5UaDlB0gHPAUFVX3lxTE9zeGQwRmVnWmwyazdVTEhzRHplNjJobWpIY2pncUg4c0ppaTFIWXdDT3NTZkJLWUtEQm0tRzRHN3R4ZmVsa21YaWd2QU9oY2dYUEJYdTRpdFF4ZjVDYkJicTU0NmVRaDlvN25aWU53dDNnbDgzRVJhSkxUNnVRM1psMWpDa1p3Z2ZBcWpaWVF3dEdUdFh6U0RTbUFmcHBkOHJ0SEZQOUIwUnpwdkd6TmhDVXBKX1U2LTQ5NjZ2bDBhb0xsNUhkQWFZa3UtcWQtYw?oc=5",
+     "source": "noticiasagricolas.com.br",
+     "published_at": "2026-07-30T15:23:25+00:00"
     },
     {
      "title": "Edital da Conab para armazenagem de farelo de soja recebe propostas até sexta-feira (31) - www.gov.br",
@@ -533,12 +533,6 @@
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMVFfV3lsWmc4ejJMYWd0LV9WemxXTVpKQzFJLXRMQTZKUWd3WlhoX3I4ZDF3Z0E0bzRSdi1XVXNLSTZWeUliTVFqbldCMU5OS2t6em9kVnFEZmgzT2c4NVVCZjNhWG9MV0phd1l0RG5NOWduY3hvSktFajZZMktTbHplbw?oc=5",
      "source": "Feed&Food",
      "published_at": "2026-07-30T13:01:00+00:00"
-    },
-    {
-     "title": "Preferência da China pela soja brasileira pressiona cotações em Chicago - Agrimidia",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeDIwRU1sYjR3ZGM2RnpUVk14NEM0UzFndjh4blF1ZUhvRkc5QW45TnNPVFRoLUo5VTBwVk55NkpDRFBLcXhBaFEyOW04X0c4bGUzN25ObVVLcXdkbFJwR2NOUXV3OUZNLVZJemVneG1aVXRCZ1ZqaU1SMzN1Z01wQlJJQVkzYWN1NExLblhGbjVkUWwyUXlFVy12eWs5ZE9jdG1OU0xVYndPajlRVDI5UncwNWg3TzF2cjQzcmVKVTBrUEVxSmNFQlBjYlI?oc=5",
-     "source": "Agrimidia",
-     "published_at": "2026-07-30T11:44:22+00:00"
     },
     {
      "title": "Tecnologia, carne e IA: o que empresas de Brasil e Coreia do Sul negociaram em reunião fechada",
@@ -587,6 +581,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/27/o-fazendeiro-que-quis-abandonar-o-narcotrafico-na-colombia-mas-nao-pode.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-27T07:01:03"
+    },
+    {
+     "title": "Parque Estadual abriga maior remanescente de Mata Atlântica do interior paulista",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/07/26/parque-estadual-abriga-maior-remanescente-de-mata-atlantica-do-interior-paulista.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-26T10:30:15"
     }
    ],
    "failed": [

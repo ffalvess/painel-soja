@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-31T22:08:03+00:00",
+ "generated_at": "2026-07-31T23:56:51+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-31T22:07:55+00:00",
+   "updated_at": "2026-07-31T23:56:44+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-31T22:07:55+00:00",
+   "updated_at": "2026-07-31T23:56:44+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-31T22:08:00+00:00",
+   "updated_at": "2026-07-31T23:56:48+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,8 +413,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-31T22:08:03+00:00",
+   "updated_at": "2026-07-31T23:56:51+00:00",
    "items": [
+    {
+     "title": "Milho: oferta contida e consumidores abastecidos mantêm mercado sem reação",
+     "link": "https://www.canalrural.com.br/agricultura/milho-oferta-contida-e-consumidores-abastecidos-mantem-mercado-sem-reacao/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-31T23:08:22+00:00"
+    },
+    {
+     "title": "Cadeia da soja pode responder por 21,2% do PIB do agronegócio em 2026 - opresenterural.com.br",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmN1NXBwUHk1M3FqNkV0ZlJkTXhlTUdmMk5aQzlCaVBfaEEyTEdfX2ZNMU5nUEZEV1VuZTh0cnMwQ1Z5QWNTenBvSUlURTBWUWV0ZGFfWWgzUWozUjNDUExhcE5uNmhoUXZtb3gybUxyczFrSmk2WlFEX18wekZpZlpWSVNwZUhEZ0tBSjFVU2Z0bjFMM2tmbl8xTVR5YlU?oc=5",
+     "source": "opresenterural.com.br",
+     "published_at": "2026-07-31T23:02:56+00:00"
+    },
+    {
+     "title": "63ª Expo Rio Preto reúne agro, produtores, shows e atrações para o público infantil",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/07/31/63a-expo-rio-preto-reune-agro-produtores-shows-e-atracoes-para-o-publico-infantil.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-31T22:08:11"
+    },
     {
      "title": "Ibovespa fecha em alta de 0,47% e dólar comercial sobe a R$ 5,0704",
      "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-alta-de-047-e-dolar-comercial-sobe-a-r-50704/",
@@ -452,6 +470,12 @@
      "published_at": "2026-07-31T21:01:00+00:00"
     },
     {
+     "title": "Cadeia da soja mira quase 5% do PIB do Brasil e fortalece fundamentos do SNAG11 - Fiis",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdFJmSjJ4ekxYMVBJbGdFVmpWYzJKRjRqTGt3UTVRRjZqT28zTlRHNnpmYjkxNHpmTjd1enZWM2lHcmFVRHVIeU4tSFVueHFRdE1CUzdMZXMtcnlacVlST0NwUkt4WndYa0c3a01SY1Z1MlVXZGF5Y29HMzNjOEMtdkdMWFgxczBPMnpGVWpSekdhOXFDckFZdFhUOXd6UQ?oc=5",
+     "source": "Fiis",
+     "published_at": "2026-07-31T21:00:09+00:00"
+    },
+    {
      "title": "Ibovespa fecha julho em alta e encosta nos 178 mil pontos",
      "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-julho-em-alta-e-encosta-nos-178-mil-pontos/",
      "source": "Canal Rural",
@@ -482,12 +506,6 @@
      "published_at": "2026-07-31T20:18:47+00:00"
     },
     {
-     "title": "Polícia prende suspeito de furto de R$ 1 milhão em gado no Espírito Santo",
-     "link": "https://www.canalrural.com.br/diversos/policia-prende-suspeito-de-furto-de-r-1-milhao-em-gado-no-espirito-santo/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T20:12:44+00:00"
-    },
-    {
      "title": "Secagem mal feita pode causar trincas e perda de peso na soja, aponta estudo - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX09uTFpldlNPSXRIQ25LdDhmLV8tTHg5UVVtczNSMGczQ3JUTF81ZHVSUVk5dTdVTVdJTm8yTmtNSFl0dUliQjJYems0UGN6dkdBcEwzcnFOeTR3QTBCN2t0RE9ac1BfWjR6NXA1RGNLcUhrMzlXR00xMWFpbVVKdngxdDYwM2YySFh0dDg2SThmRUYycDI5OWJDdkZWV1BlX294Wnk5SGZWN2tGZmNveFA5SDd6MllQWnAxdWlkMkZOR00?oc=5",
      "source": "Agrolink",
@@ -498,12 +516,6 @@
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQU9jQjRTckZVUzdoUlN1RF94WjNrd2dYcURLckxlTUpvSXlGUllUUWRIdXlhRlpPYndtWWZqX2FwcFVuT1lIQnphNmMwX3l5bkZkRDFPY2VWZnIxREFnaXVTT25KQk4yWGNHVEtnLTI5cVlvdEJPbHduVVpNeHRxWWg2T0d6eVIxRXktRjYzNWM0WFZHTmR5Qm9mUTFnYktaUTZWVGxfVVBfd1J6V0xRNC01MTR0am5Ib3RJZVV6U19ISW5kMTVpUm5RZw?oc=5",
      "source": "www.gov.br",
      "published_at": "2026-07-31T18:58:51+00:00"
-    },
-    {
-     "title": "PIB da cadeia de soja e biodiesel deve avançar 6,87% em 2026, aponta estudo - InfoMoney",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNak9SaDJXY0NUY1RMQWl3aElZTWZ1YndpN0dBZzdQNkQzaTVZYmRMWVBXNnVSUmtBaWJCTnNRY1JUUDl4akVuUkxWYlhzeGlMdVcteDhuc09EYjhVbDdXUjg0N29JUmNQQnI2V3RoeDJZaHhQMHFJYVB3M01TVlVLS1Y4N2wyQkJBYlFISzQwQ1NuSnBNN1drNnlSSUthbWlrLUJ6ZmViNm5ZN2xnWTRER9IBtgFBVV95cUxNa0xHa1RCcDhSQXFPZTN4V0V0QnQwTlBLVW5kNmpSS0dFdmdxT0FPZFJxemJELVpJb1pkS1U2ekloVFl6bjV4b1VUcVhnb0lqZFh1UGtnT3NOYVduRWgtZXVwd25CaXg5LWVWSk01ck5rYWl1YXJBZnBZVUlKT0p3VEhrR3ZNRGdtamJlR0pnNy1WaUpnRURRdk9obkxqQ19peDNsVVp2cm5WV1g0aU10c01sYTFkUQ?oc=5",
-     "source": "InfoMoney",
-     "published_at": "2026-07-31T18:53:46+00:00"
     },
     {
      "title": "WWF-Brasil lança nota técnica que estima impacto econômico da Moratória da Soja - WWF Brasil",
@@ -522,12 +534,6 @@
      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZ0lyTEpGRXY1SUJvLWhaSExWQ3hBYkNoaUlkTUJzcTBDRVB2QnR1OGNyVDI1U0luV1FlTHZjX1FCeTlEaFpoRWZGaU9uX0dVaTB2clRhSFcxR2h2TXJJcGtGajEzYUxfYlQ3U2RfY09GZkdjVlJhaGRkUzQ3R2xQRHNhTnhzZEpLSjBSVkZQRjNhbXBZdzNQLTVwdmVmdnZjWkVpUUxJNEFnS1JWakt1SkNGSkQ4ZUF3cDllZ2xXZEpyYUdQVlluU0xRNGNDTlpmUDk5OWtTLXhjRkhOWXcyNktDaTZiQdIB6wFBVV95cUxQc0F1UExnUHVKdlBWWm12X2Y2XzJycW1FOW03Qzc1LUx5Uk1YT3FFa0h5WTBTYkE0ckt5dHJNWllRSU9JeXJxZm5hMF9IOUM4bG9rN1RnQkZWQmhVal9EOTJDNG5qVW1jczVGYXkzTkZfdzBqNUVLY0NsUTVOc1FGcTAzZVVqTjFGYzhiNUVmVnZ3UWlhb1F5QWlPU05WNGlGbk9Zd0cwOC1xdDFDc01CczVWY0R4U1N5U3FDdDlOZG9hNlo1VEJwSHo5dWd0Vi02R1FKaFBMYW5kLVJraVpvbWVMWS1xWUhGN1FV?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-31T16:02:10+00:00"
-    },
-    {
-     "title": "Levantamento projeta safra de soja de 185,6 milhões de toneladas em 2026/27 - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPazZFbGtQLWVjbTdoTVJWRFRsYlRXNjJqWEswdGZoTmhYY2ZscHFlbnU2NUhlQUs3eVhrZDEyZ2kwUWt2YlR0QS1iZmo5TDYtS1JjVkMzYkhxNnBIZkpOOEkwanRyLWoyVUhyUlJpY3RWUGdxSDY3dnkzRmxfWW84bUdPUDN0TWxod1FPN3U5RloyeXcyUm95Tm1mQmt5RWJQeGVaSWIzeWhnNXRVZkxxR3BhME1uLVBF?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T15:33:25+00:00"
     },
     {
      "title": "PIB da cadeia da soja e biodiesel deve crescer 6,87% em 2026 - Globo Rural",
@@ -588,12 +594,6 @@
      "link": "https://g1.globo.com/politica/noticia/2026/07/28/brasil-avalia-acionar-omc-contra-veto-da-uniao-europeia-a-carne-brasileira-e-ve-motivacao-politica.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-28T16:15:29"
-    },
-    {
-     "title": "Brasil pode perder mais de US$ 500 milhões com bloqueio da União Europeia",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/27/brasil-bloqueio-uniao-europeia.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-27T14:59:34"
     }
    ],
    "failed": [

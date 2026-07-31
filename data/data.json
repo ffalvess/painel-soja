@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-07-31T04:18:10+00:00",
+ "generated_at": "2026-07-31T07:46:56+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-31T04:18:04+00:00",
+   "updated_at": "2026-07-31T07:46:46+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1193.5,
+     "price": 1191.5,
      "prev_close": 1177.25,
-     "change_pct": 1.38,
+     "change_pct": 1.21,
      "closes": [
       1116.75,
       1126.25,
@@ -34,16 +34,16 @@
       1212.0,
       1178.0,
       1177.25,
-      1193.5
+      1191.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 468.5,
+     "price": 467.25,
      "prev_close": 445.75,
-     "change_pct": 5.1,
+     "change_pct": 4.82,
      "closes": [
       412.75,
       421.0,
@@ -67,16 +67,16 @@
       458.5,
       449.0,
       445.75,
-      468.5
+      467.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 323.8,
-     "prev_close": 315.3,
-     "change_pct": 2.7,
+     "price": 323.5,
+     "prev_close": 314.1,
+     "change_pct": 2.99,
      "closes": [
       304.7,
       306.6,
@@ -99,16 +99,17 @@
       320.8,
       320.3,
       315.3,
-      314.1
+      314.1,
+      323.5
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 66.52,
+     "price": 66.59,
      "prev_close": 68.35,
-     "change_pct": -2.68,
+     "change_pct": -2.57,
      "closes": [
       66.74,
       67.02,
@@ -132,16 +133,16 @@
       70.76,
       69.17,
       68.35,
-      66.52
+      66.59
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 656.5,
+     "price": 656.75,
      "prev_close": 663.5,
-     "change_pct": -1.06,
+     "change_pct": -1.02,
      "closes": [
       580.75,
       592.0,
@@ -165,16 +166,16 @@
       662.5,
       660.75,
       663.5,
-      656.5
+      656.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.05,
-     "prev_close": 90.74,
-     "change_pct": -2.96,
+     "price": 88.08,
+     "prev_close": 89.03,
+     "change_pct": -1.07,
      "closes": [
       72.92,
       71.57,
@@ -197,7 +198,8 @@
       88.36,
       84.09,
       90.74,
-      89.03
+      89.03,
+      88.08
      ]
     },
     {
@@ -238,7 +240,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-31T04:18:05+00:00",
+   "updated_at": "2026-07-31T07:46:47+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -249,7 +251,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-31T04:18:07+00:00",
+   "updated_at": "2026-07-31T07:46:51+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -272,22 +274,22 @@
       0.0
      ],
      "tmax": [
-      35.7,
-      35.5,
-      35.3,
+      35.8,
+      35.4,
+      35.4,
       35.2,
-      35.7,
-      35.7,
-      36.3
+      35.4,
+      35.8,
+      35.8
      ],
      "tmin": [
-      21.0,
-      21.9,
-      22.8,
-      21.8,
+      20.4,
+      22.2,
       22.6,
-      21.6,
-      24.6
+      22.2,
+      22.2,
+      21.9,
+      23.5
      ]
     },
     {
@@ -311,22 +313,22 @@
       0.0
      ],
      "tmax": [
-      34.2,
+      34.0,
       34.5,
-      34.2,
-      34.4,
-      34.5,
+      34.7,
+      34.3,
+      34.3,
       35.0,
-      35.0
+      34.7
      ],
      "tmin": [
-      20.6,
-      21.7,
-      22.1,
-      21.2,
-      21.9,
-      21.8,
-      23.1
+      20.9,
+      22.2,
+      22.0,
+      20.8,
+      21.3,
+      21.3,
+      22.8
      ]
     },
     {
@@ -350,22 +352,22 @@
       0.0
      ],
      "tmax": [
-      30.9,
       31.3,
+      31.4,
       30.7,
-      30.5,
-      31.6,
-      31.9,
-      32.9
+      29.9,
+      31.0,
+      31.5,
+      32.6
      ],
      "tmin": [
+      18.2,
+      19.1,
       18.4,
-      18.9,
-      18.4,
-      18.3,
-      20.3,
-      19.9,
-      22.6
+      18.2,
+      20.6,
+      20.6,
+      21.8
      ]
     },
     {
@@ -384,34 +386,64 @@
       0.0,
       0.0,
       0.0,
-      0.0,
+      0.3,
       0.0,
       8.4
      ],
      "tmax": [
-      27.9,
+      27.8,
       30.9,
-      30.0,
-      29.3,
-      30.4,
-      31.6,
-      32.0
+      30.9,
+      27.6,
+      29.4,
+      30.7,
+      30.4
      ],
      "tmin": [
-      18.0,
-      19.1,
-      18.5,
-      19.7,
-      18.5,
-      18.3,
-      17.9
+      17.6,
+      18.9,
+      18.7,
+      19.9,
+      17.7,
+      18.4,
+      18.6
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-31T04:18:10+00:00",
+   "updated_at": "2026-07-31T07:46:56+00:00",
    "items": [
+    {
+     "title": "Produtores de soja cortam investimentos na safra 2026/27 - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZE1hVnI2RTNQWlZ3SjVMN1p3VmdBWWJVdnktZmhTVkM4Y2xqbFZGV19Md0hBaElad1FRb1pCYnExc2tGeS1EOGpCOV9qZEVuMEptczNwOUlYRnNTcWZLYTBHU2p1STRNSmR2T2ljSHRmZ25oY3ZpaERqa2Nnb0ZWdlBlYjFqUmhJZ1dQUVgxUkxJTXNZd0E?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-07-31T07:10:46+00:00"
+    },
+    {
+     "title": "ES vai ganhar polo logístico do agronegócio com aeroporto e galpões para café, pimenta e fertilizantes",
+     "link": "https://g1.globo.com/es/espirito-santo/agronegocios/noticia/2026/07/31/es-vai-ganhar-polo-logistico-do-agronegocio-com-aeroporto-e-galpoes-para-cafe-pimenta-e-fertilizantes.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-31T07:01:04"
+    },
+    {
+     "title": "SOJA E TRIGO: confira os preços dos grãos nesta sexta-feira (31) - Brasil 61",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOenRxQXcteFZYM3plUUJoSEFvakdpQW5EZW1jajdLQWJLWkVhdzdiZVQ5dGdQc3oyUTF1UExvOEdHY1MtTTNsNFJWWWdoNXY0UDVENHRmV1prLU9rdXNNVXI0dWxGamdZY1Y1NFdGeVhJY3k4SUJHU1RZNTBiQkxhdXRvY195WUd1U2F3VVJDUk1yYTJrUDU1cmQxc9IBoAFBVV95cUxNYlhGQk96TXUwNmdJM3dJRWJBVnJsbUJ6c3haczhGTmx0Z3FzdWNmWDQ2TFVlaUdXeFFpTkJ0cXl1dU80b3FkR1IyTGVJMWxFdERuRjBmYnNGUDN1SXg1dlh0Y3Z2OUhxclU4X3B3d3RldTYyZngwamZqNmVWeE56R2FqMEl6YWNwTjJlLUxWSDU4dkRkeFBWXzYzV2U0QkEt?oc=5",
+     "source": "Brasil 61",
+     "published_at": "2026-07-31T07:00:00+00:00"
+    },
+    {
+     "title": "Não era onça: gato-mourisco cruza fazenda e surpreende moradora no interior do RJ",
+     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/07/31/nao-era-onca-gato-mourisco-cruza-fazenda-e-surpreende-moradora-no-interior-do-rj.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-31T06:02:45"
+    },
+    {
+     "title": "Clima e geopolítica sustentam soja e milho - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZjFCRU0yOUhqMHVSbklkRzJQazg4Qi12a3Y5T3VxNEJoOG10Vi1IcnJCNXRmUndTaEFmX0JJN1VUaF9YNXhtdlBKaGdIYjN3RWItZ1FJa2NuUzRWNjZHemtyNDZvY21sdENOSzJQcTFmeUYyc1JzOTBpVktwMk1CWkZfckdXMDNKOUJ2cFVsTmZ6VGhCMEE?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-31T05:45:00+00:00"
+    },
     {
      "title": "Colheita de café no Brasil chega a 78% e segue atrasada, aponta consultoria",
      "link": "https://www.canalrural.com.br/agricultura/cafe/colheita-de-cafe-no-brasil-chega-a-78-e-segue-atrasada-aponta-consultoria/",
@@ -503,34 +535,16 @@
      "published_at": "2026-07-30T16:32:32+00:00"
     },
     {
-     "title": "Plantio de Soja no Brasil Deve Ser Estável com Alta de Apenas 0,3% na Safra 2026/27 - forbes.com.br",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOT2lfNnBESjE4RUZONkZTamtwV1RKZ1Z5UXJrTFFiYTJqYkNRUTNzTWdyRkJTQXFaRTcxMU5WajNlczZsRlpsLXpxN2ZTYWpTUE80dFlIVjZNTHN4VVg5N2xSR05RSHdNMVEtZWhWSG5wLWxyMVlvSXFJWGhwWGVzcGMycEhwMHUtREpNZFpTczktUEczZllUU1lSMXdKZUpGeTFtcS1UTjY5YUx0c0N5ZVBfb2owZHF0bkVfRndiQ3RQQQ?oc=5",
-     "source": "forbes.com.br",
-     "published_at": "2026-07-30T16:25:03+00:00"
-    },
-    {
      "title": "Edital da Conab para armazenagem de farelo de soja recebe propostas até sexta-feira (31) - www.gov.br",
      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZkt5ekdrUTcxUG00cW5UbGxsOUduZUZ6OUVmTlNjd1hzaGcyUXNoV2ZWU0JrZ1VjZ3JRVmFtZmRTZTRBblRIZFZ4QTBVWlA0TlBKVUgxdHNuQ2lCSklOM19ZNUJjbHlyWXNPbW5OeFZzeklFRWNuUkF6ak13M2tsT25JbHlRelQtMDRnZEE5ZGlVS2hNZy1BQl9TNGlKNFJQSER1T1V2d1VGS00xbGo4RldaWm5XaXJpY2FHbGZ1ekdXeTRDeHdaNnFvWlJHZnBs?oc=5",
      "source": "www.gov.br",
      "published_at": "2026-07-30T14:40:36+00:00"
     },
     {
-     "title": "Bunge eleva projeção de lucro para 2026 após trimestre forte com processamento de soja e \"efeito Viterra\" - AgFeed",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOck1WbklPanJXU1NvWXJqZ1pnU2VsS0w3LXR4SEpEQXFRcjdXZnJPaEY3TzRIcDFQN25mOE94c21YbEZULUVTZ2RoWUs1VnpIZm1fVUxoLWNCcEdGVEktSkYwT1NUQy0wbTZEekM2Z2tHek5DeGpsM0F2eGtrY2ZlalMyeG5DYzNueXhjaGxxZ1NYMlhveTI2M0MwVWhHT0JzRnhsRGxycXd3cGZfMVZQVHhtV20wTHd0ZTFBU2pPaXhfYzlvQS02MWhlTF9aNkU?oc=5",
-     "source": "AgFeed",
-     "published_at": "2026-07-30T14:20:00+00:00"
-    },
-    {
      "title": "Safra 2026/27 pode renovar recordes de soja e milho no Brasil - Agrishow",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZ0xxaEV6SjliOGZkWTJ2aVYzb0lfekI2U2ZocERmLXZrS0lGSGhna1h0Z1BQaWhYOG5IZzdBWEt0ZEpkTDFpNFNFTnVBYmlaSGJCZWJ3anVMQU40bEx5MkxUXzgySGlZRVBHeTlpZGQtQ09lR3B6S1Fiem1uTVdHNWJXNXJsQkVyZWZRcGQ4d19Pa0dhOXJrS3JMT2wyOTVRNHlTd0NRNTROUVUybHpieWZpb3cxNml3TWRTbS1B?oc=5",
      "source": "Agrishow",
      "published_at": "2026-07-30T14:00:40+00:00"
-    },
-    {
-     "title": "Brasil amplia área de soja pela 20ª vez seguida na safra 2026/27 - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYTBvQ0dNZHJja3VjVWRhVDRwc2ZBN0hLQW52U0pxejhXMjRMWUxXd1BPanRfYmJIWjl3NzhGTmw4MkdpSG1mVVdBcVlKeDI5aGIzZlY5RWpPQTN3U09QejhvZmpUUTU5WFVIUk9TZm1ucGNNWWplTHQ1ZmEzM3ZxaTh5UHU2aFBYWngtUThDNllqcllXcklBXzhiMVVwNFFv?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-07-30T13:24:13+00:00"
     },
     {
      "title": "Soja e milho podem renovar recordes na safra 2026/27 - Feed&Food",
@@ -579,18 +593,6 @@
      "link": "https://g1.globo.com/economia/noticia/2026/07/27/apos-tarifaco-de-trump-lula-discute-acordo-china-mercosul-com-xi-jinping.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-27T11:08:11"
-    },
-    {
-     "title": "O fazendeiro que quis abandonar o narcotráfico na Colômbia, mas não pôde",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/27/o-fazendeiro-que-quis-abandonar-o-narcotrafico-na-colombia-mas-nao-pode.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-27T07:01:03"
-    },
-    {
-     "title": "Parque Estadual abriga maior remanescente de Mata Atlântica do interior paulista",
-     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/07/26/parque-estadual-abriga-maior-remanescente-de-mata-atlantica-do-interior-paulista.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-26T10:30:15"
     }
    ],
    "failed": [

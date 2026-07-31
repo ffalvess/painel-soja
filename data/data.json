@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-31T20:58:12+00:00",
+ "generated_at": "2026-07-31T22:08:03+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-31T20:58:07+00:00",
+   "updated_at": "2026-07-31T22:07:55+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-31T20:58:07+00:00",
+   "updated_at": "2026-07-31T22:07:55+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-31T20:58:10+00:00",
+   "updated_at": "2026-07-31T22:08:00+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,11 +413,65 @@
    ]
   },
   "news": {
-   "updated_at": "2026-07-31T20:58:12+00:00",
+   "updated_at": "2026-07-31T22:08:03+00:00",
    "items": [
     {
-     "title": "Chuva prevista para a próxima semana pode prejudicar trabalhos em campo",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/chuva-prevista-para-a-proxima-semana-pode-prejudicar-trabalhos-em-campo/",
+     "title": "Ibovespa fecha em alta de 0,47% e dólar comercial sobe a R$ 5,0704",
+     "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-alta-de-047-e-dolar-comercial-sobe-a-r-50704/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-31T21:48:22+00:00"
+    },
+    {
+     "title": "Frísia inaugura linha para suínos e dobra produção de ração em Carambeí",
+     "link": "https://www.canalrural.com.br/aves-e-suinos/frisia-inaugura-linha-para-suinos-e-dobra-producao-de-racao-em-carambei/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-31T21:41:50+00:00"
+    },
+    {
+     "title": "Fiesp defende edital do Tecon-10 com desinvestimento para evitar concentração",
+     "link": "https://www.canalrural.com.br/economia/fiesp-defende-edital-do-tecon-10-com-desinvestimento-para-evitar-concentracao/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-31T21:19:05+00:00"
+    },
+    {
+     "title": "Mercado da soja tem ritmo lento e registra pequenas oscilações nos preços - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSlgtVW5qSEFNUDhoY1R5N25qRkQ4RUIxQ2Z2dHlyLU5GODFzRDBlcGMzY05UczhELV9GejFEeEd1WXZ5dklDWXV2UHpVY2w4RDgteDVYc3JHT3V0NWQteUM1VW4zNlBPaFdOUUp0MG5NSEt3MUV3R0VLM1RwanQ2c3pidFdpLW5vRG1WN0EzWDJha0VjTUg5dy1TV1pVa092ZFhoSjlpb2Z5R2h0d09JNjlNZlRsN2dnaVVOV3RB?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-31T21:02:01+00:00"
+    },
+    {
+     "title": "Mercado da soja tem ritmo lento e registra pequenas oscilações nos preços",
+     "link": "https://www.canalrural.com.br/agricultura/soja/mercado-da-soja-tem-ritmo-lento-e-registra-pequenas-oscilacoes-nos-precos/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-31T21:02:01+00:00"
+    },
+    {
+     "title": "Com nova frente fria, temporais voltam a ganhar força no Sul no fim de semana",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/com-nova-frente-fria-temporais-voltam-a-ganhar-forca-no-sul-neste-fim-de-semana/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-31T21:01:00+00:00"
+    },
+    {
+     "title": "Ibovespa fecha julho em alta e encosta nos 178 mil pontos",
+     "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-julho-em-alta-e-encosta-nos-178-mil-pontos/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-31T20:58:13+00:00"
+    },
+    {
+     "title": "Aneel mantém bandeira tarifária amarela para agosto",
+     "link": "https://www.canalrural.com.br/economia/aneel-mantem-bandeira-tarifaria-amarela-para-agosto/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-31T20:54:08+00:00"
+    },
+    {
+     "title": "El Niño pode reduzir produção de trigo no Sul, avalia Câmara Setorial em São Paulo",
+     "link": "https://www.canalrural.com.br/agricultura/el-nino-pode-reduzir-producao-de-trigo-no-sul-avalia-camara-setorial-em-sao-paulo/",
+     "source": "Canal Rural",
+     "published_at": "2026-07-31T20:42:34+00:00"
+    },
+    {
+     "title": "Nova frente fria pode provocar chuva de até 100 mm e risco de tornados",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/nova-frente-fria-pode-provocar-chuva-de-ate-100-mm-e-risco-de-tornados/",
      "source": "Canal Rural",
      "published_at": "2026-07-31T20:23:09+00:00"
     },
@@ -434,58 +488,10 @@
      "published_at": "2026-07-31T20:12:44+00:00"
     },
     {
-     "title": "Gasolina sobe, gás de cozinha cai e diesel fica estável no fim de julho, diz ANP",
-     "link": "https://www.canalrural.com.br/economia/gasolina-sobe-gas-de-cozinha-cai-e-diesel-fica-estavel-no-fim-de-julho-diz-anp/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T20:12:10+00:00"
-    },
-    {
-     "title": "Desapropriação da Fazenda Itahyê será anunciada para reforma agrária em São Paulo",
-     "link": "https://www.canalrural.com.br/politica/desapropriacao-da-fazenda-itahye-sera-anunciada-para-reforma-agraria-em-sao-paulo/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T19:28:21+00:00"
-    },
-    {
      "title": "Secagem mal feita pode causar trincas e perda de peso na soja, aponta estudo - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX09uTFpldlNPSXRIQ25LdDhmLV8tTHg5UVVtczNSMGczQ3JUTF81ZHVSUVk5dTdVTVdJTm8yTmtNSFl0dUliQjJYems0UGN6dkdBcEwzcnFOeTR3QTBCN2t0RE9ac1BfWjR6NXA1RGNLcUhrMzlXR00xMWFpbVVKdngxdDYwM2YySFh0dDg2SThmRUYycDI5OWJDdkZWV1BlX294Wnk5SGZWN2tGZmNveFA5SDd6MllQWnAxdWlkMkZOR00?oc=5",
      "source": "Agrolink",
      "published_at": "2026-07-31T19:23:00+00:00"
-    },
-    {
-     "title": "Luís Eduardo Magalhães recebe a 4ª edição do Simpósio Brasileiro de Solos Arenosos",
-     "link": "https://www.canalrural.com.br/videos/luis-eduardo-magalhaes-recebe-a-4a-edicao-do-simposio-brasileiro-de-solos-arenosos/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T19:15:30+00:00"
-    },
-    {
-     "title": "Impacto do tarifaço dos EUA sobre etanol de milho brasileiro é limitado, diz Unem",
-     "link": "https://www.canalrural.com.br/videos/impacto-do-tarifaco-dos-eua-sobre-etanol-de-milho-brasileiro-e-limitado-diz-unem/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T19:15:20+00:00"
-    },
-    {
-     "title": "Rio Grande do Sul em alerta para temporais, ventos fortes e granizo",
-     "link": "https://www.canalrural.com.br/videos/rio-grande-do-sul-em-alerta-para-temporais-ventos-fortes-e-granizo/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T19:15:09+00:00"
-    },
-    {
-     "title": "PIB da cadeia de soja e biodiesel deve crescer 6,87% em 2026",
-     "link": "https://www.canalrural.com.br/economia/pib-da-cadeia-de-soja-e-biodiesel-deve-crescer-687-em-2026/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T19:13:39+00:00"
-    },
-    {
-     "title": "Conab prorroga até 14 de agosto inscrições para armazenagem de farelo de soja",
-     "link": "https://www.canalrural.com.br/agricultura/conab-prorroga-ate-14-de-agosto-inscricoes-para-armazenagem-de-farelo-de-soja/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T19:09:13+00:00"
-    },
-    {
-     "title": "Novo tarifaço dos EUA pode causar prejuízo de US$ 1 bilhão em Piracicaba",
-     "link": "https://www.canalrural.com.br/videos/novo-tarifaco-dos-eua-pode-causar-prejuizo-de-us-1-bilhao-em-piracicaba/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T19:05:56+00:00"
     },
     {
      "title": "Conab prorroga inscrições do chamamento público para armazenagem de farelo de soja - www.gov.br",
@@ -504,12 +510,6 @@
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbC1CQkt3YUI0RExEQklKMERKVGtON2cwNDRVc2haV296ME1kYUpZam50eW5kWk5JWTROYTdpMjZGVmRncW5raVNQOVhwR0xoTTFfek9oLTA1MEtXTGJDbXFac0FzcWdxZ0tFV1RCbFRVb0VkLVZlOER4TTlEelNad0JPOXpqbDl3dm1fSlBlZHlLS1RYa24tQ0lOQXBuT0d2M0NUV091Z1pUZDN1TlE?oc=5",
      "source": "WWF Brasil",
      "published_at": "2026-07-31T18:02:15+00:00"
-    },
-    {
-     "title": "Cadeia da soja pode responder por 21,2% do PIB do agronegócio em 2026 - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmN1NXBwUHk1M3FqNkV0ZlJkTXhlTUdmMk5aQzlCaVBfaEEyTEdfX2ZNMU5nUEZEV1VuZTh0cnMwQ1Z5QWNTenBvSUlURTBWUWV0ZGFfWWgzUWozUjNDUExhcE5uNmhoUXZtb3gybUxyczFrSmk2WlFEX18wekZpZlpWSVNwZUhEZ0tBSjFVU2Z0bjFMM2tmbl8xTVR5YlU?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-07-31T17:07:52+00:00"
     },
     {
      "title": "Veja como construir viveiros escavados",
@@ -536,15 +536,9 @@
      "published_at": "2026-07-31T14:43:30+00:00"
     },
     {
-     "title": "Edital da Conab para armazenagem de farelo de soja recebe propostas até sexta-feira (31) - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQR0JiWTNTcmp4eEFIMkYxNDFzNFBvVmdsTGFqZVpsZlZObGgzNHM0T0pXRUNvRUVyRWhyNWZpWF9wYmZ2VUtaX01NT0hZWmhjM2g0eHRtZ281TG5CYWNwRDFFQ3UzSGpsLTJrcXRYVnhlRTdsUW9qX2JtRWJHWmpkZm9BQThJWWVGTnc2eXYtckE5VXpjS3FpMGFLUmtwUG9hZTRlMjNqYkxaQ2JQaVJYYWxScTNxMXZzNWlLcnRHdHJPNng1c3pLQm9YVFFNWndCN3Z6ZGdDY3QtM0Ytd2FndVF5Z2N2QTlnc1RRNVpmcV8yakFh0gH6AUFVX3lxTFBzcVJ4VFp3UDFYTFotbGtoRmgyRWdxZ3hQQ2RBdnBjV1dmeDMxWm5feFN3X2xJcHVaWndKM0lQQmYtUGtUTXJ3YUlMbFgxbF9FR3JsZll4RmtkWlRMUzNNQUxwUlhpellGSkY5V3pScVZmZVIzNUJWcXNTWkNacFFTVno1a1JJRnJRRFUzX25RampETlA2RzJRcGhnS2t4NGdNLUNVWnJkdzlRSWxYSThMRkVLRkVlUmd1UW8zVlM4WDgxNHo1dnp6eHN6SWlWY0piZ3NHQ3dGUGpRZlJwWmxLSHY5c2tXbk9USXV5VWFEeDZpTG5WaE1VM0E?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-31T14:17:07+00:00"
-    },
-    {
-     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - Embrapa",
+     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - A Embrapa",
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZmM0Q3lwWHY5cHRwSlowVzlNR0xEVzZneF9iY1hzWHM5NkkzY0p6SHBfVTVibTJnaTlnakJsa0NyZlZQQjdnZURCRm45T0d4eHJpWG9GMnI0TmhINXV2RC00eU03MG5VWjczbnNseDE0eWVyTWZkd25tSV96Y21iT2xkVkNiYk1yalVzdEdsNmhaT2JqWWRFRngzRlM4Z2ZaeDNwemoxdXNiRkNqbDJrRzJMWVluUXRTRnpTUjVZbWFQaHRtYXpmWW9JV3pJclRKUnV2bHJMZnJNU3NZanQ0dzFTVlY1ZFBfblBFVA?oc=5",
-     "source": "Embrapa",
+     "source": "A Embrapa",
      "published_at": "2026-07-31T12:48:34+00:00"
     },
     {
@@ -552,6 +546,12 @@
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVlpHV3RPbDVDVlJjNFBaOVZxWHRvN2ZSYmxxY01CU0trUHFqSS1OenBsOVhNYTE2b2tNWGl4MlpGbURBQ1FjR1JJeFM1UGM5TVdpSGxneTlqSEx2TktlcnJrSks3ZktQS212VGQ5UnM4TENaYVpCcWJNakdxMEN5bGVqZW1sNnNjN3NHTVFqb3o1OHM?oc=5",
      "source": "Farmnews",
      "published_at": "2026-07-31T12:48:03+00:00"
+    },
+    {
+     "title": "Soja anda de lado em Chicago nesta sexta-feira, com melhora do clima nos EUA trazendo pressão - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNbTJMOU1LRnNQemt1b1c3a1NsaFl5U2RRVFZ6cmJoMGFfVHZ2dnR0cXJBS1lMR0VObWF0MmN2WEtXM1BPWUU4Z3VnaVdQdXVLSlA3T2dkZzljMGRtYldsVVdiU240RUliX05MXzMyTzVUMnhIWW5VTnFNRGpGaF85QjJFeU9FQTdoX3ZGOEhvbFpkXzEtUWtGbDVLRWZLWVFvekNKcUZneVFxRjczUUdmZUluUkM4WFdyVno5UzBrUzR6eGc0X3JlUzhQMVVpVU9DaWljVEt3cDZ1NzBuS3ZJVXh6NG42b1NCWHlr0gHwAUFVX3lxTE15SVhkcHlyMlAtNjJOczlTMDdLSThvRGpVWmRQUk5qZUNOUmxWNVo4aFgtVXN3eVc1TFkzLWJ5WGhTWUlON3JrSVQ2cDVTQUNPU2tPdm5FdjdiS3RkUnFwSlpWdFd4LVNSTkZFRTV2Y3l0aTBVWTJ6QW9ILWpiTllIZWY5amFIdGNBX0tCSm1JNkRlZWMzSWFTVHU0LW1qUEZiUzFaeFFVUVQtOTFRUW9hUDd4Vm1jUGtUY2NwODV6d0QwcGlDclJvUnlQLWhwdEJ5MHVBbGR4dlNmdDluZHVSY0kwZm1xMHNzMjE3WDA4Rw?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-31T10:42:19+00:00"
     },
     {
      "title": "ES vai ganhar polo logístico do agronegócio com aeroporto e galpões para café, pimenta e fertilizantes",

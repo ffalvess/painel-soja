@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-01T05:50:01+00:00",
+ "generated_at": "2026-08-01T08:10:29+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-01T05:49:44+00:00",
+   "updated_at": "2026-08-01T08:10:19+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-01T05:49:44+00:00",
+   "updated_at": "2026-08-01T08:10:19+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-01T05:49:59+00:00",
+   "updated_at": "2026-08-01T08:10:24+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -269,22 +269,22 @@
       0.0
      ],
      "tmax": [
-      34.8,
-      35.5,
-      35.1,
-      35.1,
+      34.7,
+      35.2,
+      34.7,
+      34.9,
       35.7,
-      35.7,
-      36.5
+      35.4,
+      35.2
      ],
      "tmin": [
       22.3,
-      22.6,
+      22.7,
+      22.0,
+      21.3,
+      21.4,
       21.6,
-      21.7,
-      21.9,
-      21.6,
-      24.3
+      24.7
      ]
     },
     {
@@ -308,22 +308,22 @@
       0.0
      ],
      "tmax": [
+      33.6,
+      34.2,
+      33.8,
       33.9,
-      34.5,
-      33.9,
-      34.3,
-      34.9,
-      34.6,
-      36.1
+      35.0,
+      34.4,
+      34.3
      ],
      "tmin": [
-      21.5,
-      21.9,
+      21.6,
+      21.7,
+      20.6,
+      20.9,
       21.1,
-      21.0,
-      21.1,
-      21.5,
-      23.2
+      21.7,
+      23.9
      ]
     },
     {
@@ -347,22 +347,22 @@
       0.0
      ],
      "tmax": [
-      31.1,
-      30.6,
-      30.3,
+      31.0,
       30.5,
-      31.9,
-      32.2,
-      33.9
+      30.2,
+      30.7,
+      32.0,
+      32.7,
+      33.8
      ],
      "tmin": [
-      19.1,
+      19.0,
+      18.0,
       18.2,
-      18.1,
-      19.4,
-      20.8,
-      21.1,
-      24.2
+      19.7,
+      19.9,
+      20.3,
+      23.1
      ]
     },
     {
@@ -382,33 +382,39 @@
       0.0,
       0.0,
       0.0,
-      6.4,
-      0.8
+      1.1,
+      26.8
      ],
      "tmax": [
-      31.0,
-      29.8,
-      26.3,
-      29.9,
-      30.5,
-      32.7,
-      24.9
+      31.1,
+      29.7,
+      26.8,
+      30.0,
+      28.5,
+      31.7,
+      26.4
      ],
      "tmin": [
-      18.9,
-      20.0,
+      19.1,
       19.4,
-      16.9,
-      18.2,
+      19.5,
       18.8,
-      18.6
+      18.3,
+      20.4,
+      19.1
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-01T05:50:01+00:00",
+   "updated_at": "2026-08-01T08:10:29+00:00",
    "items": [
+    {
+     "title": "Os biscoitos realmente eram melhores antigamente? Entenda por que tanta gente tem essa impressão",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/01/os-biscoitos-realmente-eram-melhores-antigamente-entenda-por-que-tanta-gente-tem-essa-impressao.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-01T07:00:10"
+    },
     {
      "title": "Milho: oferta contida e consumidores abastecidos mantêm mercado sem reação",
      "link": "https://www.canalrural.com.br/agricultura/milho-oferta-contida-e-consumidores-abastecidos-mantem-mercado-sem-reacao/",
@@ -534,12 +540,6 @@
      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZ0lyTEpGRXY1SUJvLWhaSExWQ3hBYkNoaUlkTUJzcTBDRVB2QnR1OGNyVDI1U0luV1FlTHZjX1FCeTlEaFpoRWZGaU9uX0dVaTB2clRhSFcxR2h2TXJJcGtGajEzYUxfYlQ3U2RfY09GZkdjVlJhaGRkUzQ3R2xQRHNhTnhzZEpLSjBSVkZQRjNhbXBZdzNQLTVwdmVmdnZjWkVpUUxJNEFnS1JWakt1SkNGSkQ4ZUF3cDllZ2xXZEpyYUdQVlluU0xRNGNDTlpmUDk5OWtTLXhjRkhOWXcyNktDaTZiQdIB6wFBVV95cUxQc0F1UExnUHVKdlBWWm12X2Y2XzJycW1FOW03Qzc1LUx5Uk1YT3FFa0h5WTBTYkE0ckt5dHJNWllRSU9JeXJxZm5hMF9IOUM4bG9rN1RnQkZWQmhVal9EOTJDNG5qVW1jczVGYXkzTkZfdzBqNUVLY0NsUTVOc1FGcTAzZVVqTjFGYzhiNUVmVnZ3UWlhb1F5QWlPU05WNGlGbk9Zd0cwOC1xdDFDc01CczVWY0R4U1N5U3FDdDlOZG9hNlo1VEJwSHo5dWd0Vi02R1FKaFBMYW5kLVJraVpvbWVMWS1xWUhGN1FV?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-31T16:02:10+00:00"
-    },
-    {
-     "title": "PIB da cadeia da soja e biodiesel deve crescer 6,87% em 2026 - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYVVDZkRaeEREQmVSTTJJMFA0VHBzLTlpY2FWZ182NGRhZ3NuMll0S3NVRzVyR3NGOHpRbWE2azRIZmtTbE9KMEEzNEhtNWxNMms2ZVV4YmZPbVVjbDY3c08yUmhIUnkzdHUzVlJkTWdpSFB5UFlGRTJRcFFxNFpZNmc1Mzk5ZUdiazRYMnVJRTJtWmE3NXhqNXRaZE95QTQ5cGswYjc4WE4zQ0VnME5UQTRQa0J5NWh4a0F2ZkJQdEVwUVpXNXM4bUJGSHBnd9IB3AFBVV95cUxNWEpCNGZyWE1QZ3ZneFJyU1UycnNkLTFidXZkTklMWVM2ODI3ekk0MnhoWmlxakJ3ajdmWmFfVVdhR2w3aHYxS0hrVDRWN2ZycFI2NDJld25jZWw5cTkwcXAyVVJka1VMOHZTWTBEZ1ZQSEZwSjJaR05xMGpXMzFIM2xZM25CQWRaY1ZwRE5fbW1Va1pRdS1kLUhuNXp3T0tyRU54UGtmQTZMbkszZmh5Nms5OTAzeERZTV9MZFFoX1RnWXNocDJudlRXcDdvRmI0RFAxd29TT285M1RS?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-07-31T14:43:30+00:00"
     },
     {
      "title": "Edital da Conab para armazenagem de farelo de soja recebe propostas até sexta-feira (31) - Notícias Agrícolas",

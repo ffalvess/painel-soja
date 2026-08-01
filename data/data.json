@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-01T19:11:06+00:00",
+ "generated_at": "2026-08-01T20:43:07+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-01T19:10:59+00:00",
+   "updated_at": "2026-08-01T20:42:43+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-01T19:10:59+00:00",
+   "updated_at": "2026-08-01T20:42:43+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-01T19:11:03+00:00",
+   "updated_at": "2026-08-01T20:43:05+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +407,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-01T19:11:06+00:00",
+   "updated_at": "2026-08-01T20:43:07+00:00",
    "items": [
+    {
+     "title": "Radar Rural debate reação do Brasil ao tarifaço e desafios da safra de soja - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNHFLQzNEX2xVOVV2SHBPczI3Q0JPSGpMYWNZU203djVnMU9BWHh0U05KN1dzRXNCb3Jfdko0UDV6TDExcXhJYWFSV3E3RWI2bThrUjdhT2RLZGdad1dSUzdJemR2eVpzWFZYLXRLZlQ4N1ZrNFIxNDJkNjFUMUt4U203bWVoRnZxWWU0QjlHbU5jQ3dVR1RJU25XcUt3RTA3T3VuejN4cHhLQjY3TXlVZWdkVFRTYmJQY1hhRXVkUm1jU0VhVlUxUmhn?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-01T20:03:00+00:00"
+    },
+    {
+     "title": "Radar Rural debate reação do Brasil ao tarifaço e desafios da safra de soja",
+     "link": "https://www.canalrural.com.br/agricultura/agronegocio/radar-rural-debate-reacao-do-brasil-ao-tarifaco-e-desafios-da-safra-de-soja/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-01T20:03:00+00:00"
+    },
     {
      "title": "Declaração do ITR 2026 começa em agosto com mudanças no envio",
      "link": "https://www.canalrural.com.br/economia/declaracao-do-itr-2026-comeca-em-agosto-com-mudancas-no-envio/",
@@ -500,28 +512,10 @@
      "published_at": "2026-08-01T07:00:10"
     },
     {
-     "title": "Milho: oferta contida e consumidores abastecidos mantêm mercado sem reação",
-     "link": "https://www.canalrural.com.br/agricultura/milho-oferta-contida-e-consumidores-abastecidos-mantem-mercado-sem-reacao/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T23:08:22+00:00"
-    },
-    {
-     "title": "Cadeia da soja pode responder por 21,2% do PIB do agronegócio em 2026 - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmN1NXBwUHk1M3FqNkV0ZlJkTXhlTUdmMk5aQzlCaVBfaEEyTEdfX2ZNMU5nUEZEV1VuZTh0cnMwQ1Z5QWNTenBvSUlURTBWUWV0ZGFfWWgzUWozUjNDUExhcE5uNmhoUXZtb3gybUxyczFrSmk2WlFEX18wekZpZlpWSVNwZUhEZ0tBSjFVU2Z0bjFMM2tmbl8xTVR5YlU?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-07-31T23:02:56+00:00"
-    },
-    {
      "title": "63ª Expo Rio Preto reúne agro, produtores, shows e atrações para o público infantil",
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/07/31/63a-expo-rio-preto-reune-agro-produtores-shows-e-atracoes-para-o-publico-infantil.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-31T22:08:11"
-    },
-    {
-     "title": "Mercado da soja tem ritmo lento e registra pequenas oscilações nos preços - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSlgtVW5qSEFNUDhoY1R5N25qRkQ4RUIxQ2Z2dHlyLU5GODFzRDBlcGMzY05UczhELV9GejFEeEd1WXZ5dklDWXV2UHpVY2w4RDgteDVYc3JHT3V0NWQteUM1VW4zNlBPaFdOUUp0MG5NSEt3MUV3R0VLM1RwanQ2c3pidFdpLW5vRG1WN0EzWDJha0VjTUg5dy1TV1pVa092ZFhoSjlpb2Z5R2h0d09JNjlNZlRsN2dnaVVOV3RB?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T21:02:01+00:00"
     },
     {
      "title": "Soja recua após melhora do clima nos EUA - Agrolink",
@@ -540,6 +534,12 @@
      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZ0lyTEpGRXY1SUJvLWhaSExWQ3hBYkNoaUlkTUJzcTBDRVB2QnR1OGNyVDI1U0luV1FlTHZjX1FCeTlEaFpoRWZGaU9uX0dVaTB2clRhSFcxR2h2TXJJcGtGajEzYUxfYlQ3U2RfY09GZkdjVlJhaGRkUzQ3R2xQRHNhTnhzZEpLSjBSVkZQRjNhbXBZdzNQLTVwdmVmdnZjWkVpUUxJNEFnS1JWakt1SkNGSkQ4ZUF3cDllZ2xXZEpyYUdQVlluU0xRNGNDTlpmUDk5OWtTLXhjRkhOWXcyNktDaTZiQdIB6wFBVV95cUxQc0F1UExnUHVKdlBWWm12X2Y2XzJycW1FOW03Qzc1LUx5Uk1YT3FFa0h5WTBTYkE0ckt5dHJNWllRSU9JeXJxZm5hMF9IOUM4bG9rN1RnQkZWQmhVal9EOTJDNG5qVW1jczVGYXkzTkZfdzBqNUVLY0NsUTVOc1FGcTAzZVVqTjFGYzhiNUVmVnZ3UWlhb1F5QWlPU05WNGlGbk9Zd0cwOC1xdDFDc01CczVWY0R4U1N5U3FDdDlOZG9hNlo1VEJwSHo5dWd0Vi02R1FKaFBMYW5kLVJraVpvbWVMWS1xWUhGN1FV?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-31T16:02:10+00:00"
+    },
+    {
+     "title": "Levantamento projeta safra de soja de 185,6 milhões de toneladas em 2026/27 - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPazZFbGtQLWVjbTdoTVJWRFRsYlRXNjJqWEswdGZoTmhYY2ZscHFlbnU2NUhlQUs3eVhrZDEyZ2kwUWt2YlR0QS1iZmo5TDYtS1JjVkMzYkhxNnBIZkpOOEkwanRyLWoyVUhyUlJpY3RWUGdxSDY3dnkzRmxfWW84bUdPUDN0TWxod1FPN3U5RloyeXcyUm95Tm1mQmt5RWJQeGVaSWIzeWhnNXRVZkxxR3BhME1uLVBF?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-31T15:33:25+00:00"
     },
     {
      "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - Embrapa",

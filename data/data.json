@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-01T22:48:18+00:00",
+ "generated_at": "2026-08-01T23:51:58+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-01T22:48:11+00:00",
+   "updated_at": "2026-08-01T23:51:50+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-01T22:48:11+00:00",
+   "updated_at": "2026-08-01T23:51:51+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-01T22:48:15+00:00",
+   "updated_at": "2026-08-01T23:51:55+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,12 +407,18 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-01T22:48:18+00:00",
+   "updated_at": "2026-08-01T23:51:58+00:00",
    "items": [
     {
-     "title": "Preços da soja sobem em julho, enquanto clima e custos preocupam próxima safra - canalrural.com.br",
+     "title": "Carreta tomba e derrama carga de soja na Raposo Tavares em Itapetininga - G1",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSjVFYllWR3h0eU9iNXVzTGdTbmZ6anNTM1dIVDUxNWVaUF9aU2tJZWo2WXlyTTVpdHhWOFZRem5wbGxiUFBxMFlwZXhTT2hpOEdFdlpEV0REaDhYbVFFSUNwVGNxZnJsUEdad1hKRXZHY0hfWUFqV2VBX3ZHY1kyaWdMck1OUTgwNjkwLXNyS1JMLXdRcFJpeS1vaEJRSDlMUmJMa0RTVk1qWnBOc2lwOE1iSFVKTV9odjVyYlFQalBSTGotcXNhMWZzTVVpNHMwX3FhSllETdIB5gFBVV95cUxONlA0c2MyNGlmbHVkU0ljZXYzNGNLdUZUODJIV1YzREFMS3lOb2oxaGpYX2J1dXlZbmJPcHZuQS0xX1EwSU1Cb0xhcS1pVEtaOE5FTU12LVc1LXU4U3BrOUhtLTIwbE0zaUxLY0REMXNHRmI5aWpiU1pZT0d4VTJqYWlobG9VWTJSSzNPUkFYT0JyOEFYNkFWV0Z2Rml3MW9IdEpYeGpwMm1TVU5VTFVDTXRkTW9FZjROZldlY0hqcS1ObkhTTEpYYVlZT3VFQ05QN2ZMcFN4eFlfY215WDNmNUVKenpxUQ?oc=5",
+     "source": "G1",
+     "published_at": "2026-08-01T23:11:10+00:00"
+    },
+    {
+     "title": "Preços da soja sobem em julho, enquanto clima e custos preocupam próxima safra - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYmo1SlhvWHZMMVdnNUZneVJSRENfWms4Ujk4Qkd1TVF4MHppaVJzRUxQQ0JTLUhraGVKc0w0Sl9hTEtEMVpTX1NxdEs0R3hacDNJTWhZREFzTWF4c1dWTHN3RllmWmc4a0h2YlBfb3U4SUtPTDJUM21DOFRwZWo5ZFdQZGUtZU5HRHFRUkU5dW1GbTRON3p6QXlpUGZCRmMzRG1OSU0teVdxOVNIaHluaUZUaEhGZ2gtZ0VKbUZST1V1Snc?oc=5",
-     "source": "canalrural.com.br",
+     "source": "Canal Rural",
      "published_at": "2026-08-01T22:02:00+00:00"
     },
     {
@@ -428,9 +434,9 @@
      "published_at": "2026-08-01T21:02:19+00:00"
     },
     {
-     "title": "Radar Rural debate reação do Brasil ao tarifaço e desafios da safra de soja - canalrural.com.br",
+     "title": "Radar Rural debate reação do Brasil ao tarifaço e desafios da safra de soja - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNHFLQzNEX2xVOVV2SHBPczI3Q0JPSGpMYWNZU203djVnMU9BWHh0U05KN1dzRXNCb3Jfdko0UDV6TDExcXhJYWFSV3E3RWI2bThrUjdhT2RLZGdad1dSUzdJemR2eVpzWFZYLXRLZlQ4N1ZrNFIxNDJkNjFUMUt4U203bWVoRnZxWWU0QjlHbU5jQ3dVR1RJU25XcUt3RTA3T3VuejN4cHhLQjY3TXlVZWdkVFRTYmJQY1hhRXVkUm1jU0VhVlUxUmhn?oc=5",
-     "source": "canalrural.com.br",
+     "source": "Canal Rural",
      "published_at": "2026-08-01T20:03:00+00:00"
     },
     {
@@ -506,9 +512,9 @@
      "published_at": "2026-08-01T12:20:05+00:00"
     },
     {
-     "title": "Preço da soja registra terceiro dia de queda no Brasil, mas fecha julho com alta de 8% - globorural.globo.com",
+     "title": "Preço da soja registra terceiro dia de queda no Brasil, mas fecha julho com alta de 8% - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSXd3SnRLdFJaalZzOUFZcFRPeDV0bWtyanQxQ19GTldfZGx6UnNRMkUySjdmTVJNOWp5OUFMS014UVg2aEJJY2lZVDduaHJscW1QVExfVGtsam5VY3ZwTjBiZWY4YzJYek90ZEZhanY5MDVqcmtkclk5a0NRY3B5MzE3MmppOE83R0VYWHRuUTBOMTBJSHlyVzdwdEEzRGo5RTM5R1YyUjZFZU56OWhWWVdJTVduTGh4b0lTM29YLTl5d2pHY25TQTlhOVhMZTdwU3gyR0N6aGlycDR3dFVFXzl2cUFtUdIB9AFBVV95cUxNR3dYdEE1QldMWnBzSXZPRGxkRU5zM3JmSWFkdlBrZ3ZrdlBiekJoWnpGSFBTenVRdlluUElod0FibTlmamVyZGNRUU5Fb1ZPWnhwdElmWGs4WXBEVlEzeTRJbVcwMzI1T2xuWEFHUFh6eEVDU0hMTk9ZTHJoU2JVRG16Tmxudm5zVDRZQjdaWmF5SGpSWUUyTllxZkVteE1ySVczREJ3akNITmtGem1FRk9lTmFITTdBazFZdkxJMTJKREV3UEVENUlubWZPOXZyNmgxUnVmSkExU19aT09lVi1rRl8xS0kxWml6VDJnM3Z1QXE0?oc=5",
-     "source": "globorural.globo.com",
+     "source": "Globo Rural",
      "published_at": "2026-08-01T09:14:08+00:00"
     },
     {
@@ -542,9 +548,9 @@
      "published_at": "2026-07-31T16:02:10+00:00"
     },
     {
-     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - Embrapa",
+     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - embrapa.br",
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZmM0Q3lwWHY5cHRwSlowVzlNR0xEVzZneF9iY1hzWHM5NkkzY0p6SHBfVTVibTJnaTlnakJsa0NyZlZQQjdnZURCRm45T0d4eHJpWG9GMnI0TmhINXV2RC00eU03MG5VWjczbnNseDE0eWVyTWZkd25tSV96Y21iT2xkVkNiYk1yalVzdEdsNmhaT2JqWWRFRngzRlM4Z2ZaeDNwemoxdXNiRkNqbDJrRzJMWVluUXRTRnpTUjVZbWFQaHRtYXpmWW9JV3pJclRKUnV2bHJMZnJNU3NZanQ0dzFTVlY1ZFBfblBFVA?oc=5",
-     "source": "Embrapa",
+     "source": "embrapa.br",
      "published_at": "2026-07-31T12:48:34+00:00"
     },
     {
@@ -582,12 +588,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/29/brasil-faz-primeira-operacao-usando-vacas-monitoradas-por-ia-como-garantia-para-emprestimos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-29T08:03:21"
-    },
-    {
-     "title": "Brasil avalia acionar OMC contra veto da União Europeia à carne brasileira e vê motivação política",
-     "link": "https://g1.globo.com/politica/noticia/2026/07/28/brasil-avalia-acionar-omc-contra-veto-da-uniao-europeia-a-carne-brasileira-e-ve-motivacao-politica.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-28T16:15:29"
     }
    ],
    "failed": [

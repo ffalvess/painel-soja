@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-01T14:55:16+00:00",
+ "generated_at": "2026-08-01T15:56:36+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-01T14:55:04+00:00",
+   "updated_at": "2026-08-01T15:56:31+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-01T14:55:04+00:00",
+   "updated_at": "2026-08-01T15:56:31+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-01T14:55:12+00:00",
+   "updated_at": "2026-08-01T15:56:34+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,7 +407,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-01T14:55:16+00:00",
+   "updated_at": "2026-08-01T15:56:36+00:00",
    "items": [
     {
      "title": "Agosto terá chuva extrema no Sul e risco de onda de calor em grande parte do Brasil; confira com a Climatempo",
@@ -452,16 +452,16 @@
      "published_at": "2026-08-01T12:03:00+00:00"
     },
     {
+     "title": "MPF apura o licenciamento de PCH ligada ao 'Rei da Soja' - Diario de Cuiabá",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOG9HRzUzTzRTMTZ2Z3NmXzlWc2R4X240QmVURXhlT2IxR3hQTTBidU1UVjlRbzVOOXBTVVdOS29MazFNbnFFTzF4UWd4U3VrQlZ5SVlXblNsNF9IRE4tMnRVY01HbUVKeGxSTG1nZDUxbTNXdDJ5a1hjOHlsZXZ1VXBoejdOT2RyMlM1bWZhSjk5RkdZQVQ0VFcwTHVRbzZiUFhUNTVsOA?oc=5",
+     "source": "Diario de Cuiabá",
+     "published_at": "2026-08-01T12:00:00+00:00"
+    },
+    {
      "title": "Propaganda é a arte da emoção fecundando a razão",
      "link": "https://www.canalrural.com.br/opiniao-noticias/propaganda-e-a-arte-da-emocao-fecundando-a-razao/",
      "source": "Canal Rural",
      "published_at": "2026-08-01T11:01:00+00:00"
-    },
-    {
-     "title": "Produzir mais ou gerar mais valor? O novo desafio da soja brasileira - Portal 93 - Portal 93",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObG1Rek1zczV6dWExWnlWZUdRd0Jkc0R2aUo0UmZxcW9FRkVzcVZGQ2Zlemd6c1ptX21PRzVhbGFBUnI0dGZoYWs2TTRLZVU4WS0tVTZXMG9UOXZESFA5d1U5OFJidjl1YVhzR0ptWGlJc2ttLTRKN1dlY0FQdUoyQkdxTWdxdzUtSW04aGNqZW9RYnFYRGh2cEs2a05tUdIBngFBVV95cUxObG1Rek1zczV6dWExWnlWZUdRd0Jkc0R2aUo0UmZxcW9FRkVzcVZGQ2Zlemd6c1ptX21PRzVhbGFBUnI0dGZoYWs2TTRLZVU4WS0tVTZXMG9UOXZESFA5d1U5OFJidjl1YVhzR0ptWGlJc2ttLTRKN1dlY0FQdUoyQkdxTWdxdzUtSW04aGNqZW9RYnFYRGh2cEs2a05tUQ?oc=5",
-     "source": "Portal 93",
-     "published_at": "2026-08-01T10:00:42+00:00"
     },
     {
      "title": "Preço da soja registra terceiro dia de queda no Brasil, mas fecha julho com alta de 8% - Globo Rural",
@@ -482,9 +482,9 @@
      "published_at": "2026-07-31T23:08:22+00:00"
     },
     {
-     "title": "Cadeia da soja pode responder por 21,2% do PIB do agronegócio em 2026 - opresenterural.com.br",
+     "title": "Cadeia da soja pode responder por 21,2% do PIB do agronegócio em 2026 - O Presente Rural",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmN1NXBwUHk1M3FqNkV0ZlJkTXhlTUdmMk5aQzlCaVBfaEEyTEdfX2ZNMU5nUEZEV1VuZTh0cnMwQ1Z5QWNTenBvSUlURTBWUWV0ZGFfWWgzUWozUjNDUExhcE5uNmhoUXZtb3gybUxyczFrSmk2WlFEX18wekZpZlpWSVNwZUhEZ0tBSjFVU2Z0bjFMM2tmbl8xTVR5YlU?oc=5",
-     "source": "opresenterural.com.br",
+     "source": "O Presente Rural",
      "published_at": "2026-07-31T23:02:56+00:00"
     },
     {
@@ -512,9 +512,9 @@
      "published_at": "2026-07-31T21:19:05+00:00"
     },
     {
-     "title": "Mercado da soja tem ritmo lento e registra pequenas oscilações nos preços - Canal Rural",
+     "title": "Mercado da soja tem ritmo lento e registra pequenas oscilações nos preços - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSlgtVW5qSEFNUDhoY1R5N25qRkQ4RUIxQ2Z2dHlyLU5GODFzRDBlcGMzY05UczhELV9GejFEeEd1WXZ5dklDWXV2UHpVY2w4RDgteDVYc3JHT3V0NWQteUM1VW4zNlBPaFdOUUp0MG5NSEt3MUV3R0VLM1RwanQ2c3pidFdpLW5vRG1WN0EzWDJha0VjTUg5dy1TV1pVa092ZFhoSjlpb2Z5R2h0d09JNjlNZlRsN2dnaVVOV3RB?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-07-31T21:02:01+00:00"
     },
     {

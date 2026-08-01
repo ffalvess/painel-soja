@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-01T13:26:35+00:00",
+ "generated_at": "2026-08-01T14:55:16+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-01T13:26:28+00:00",
+   "updated_at": "2026-08-01T14:55:04+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-01T13:26:28+00:00",
+   "updated_at": "2026-08-01T14:55:04+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-01T13:26:33+00:00",
+   "updated_at": "2026-08-01T14:55:12+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,13 +407,43 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-01T13:26:35+00:00",
+   "updated_at": "2026-08-01T14:55:16+00:00",
    "items": [
+    {
+     "title": "Agosto terá chuva extrema no Sul e risco de onda de calor em grande parte do Brasil; confira com a Climatempo",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/agosto-tera-chuva-extrema-no-sul-e-risco-de-onda-de-calor-em-grande-parte-do-brasil-confira-com-a-climatempo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-01T14:15:13+00:00"
+    },
+    {
+     "title": "JBS abre mais de 40 vagas na Seara em São Paulo; veja como se candidatar",
+     "link": "https://www.canalrural.com.br/vagas-de-emprego/jbs-abre-mais-de-40-vagas-para-atuacao-no-cd-da-seara-em-sao-paulo-veja-como-se-candidatar/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-01T14:01:00+00:00"
+    },
+    {
+     "title": "Trigo: safra menor e custos em alta acendem alerta para mercado no Brasil",
+     "link": "https://www.canalrural.com.br/agricultura/trigo-safra-menor-e-custos-em-alta-acendem-alerta-para-mercado-no-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-01T13:36:57+00:00"
+    },
+    {
+     "title": "Governo oficializa prorrogação do Desenrola até o fim de agosto",
+     "link": "https://www.canalrural.com.br/economia/governo-oficializa-prorrogacao-do-desenrola-ate-o-fim-de-agosto/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-01T13:25:57+00:00"
+    },
     {
      "title": "Preço da soja entra em declínio no Brasil após chegar ao maior valor do ano - MundoCoop",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMkViM04yU3MxUy1oQlNQVEJhQjNmTWIwTVhqZFkza3llWHJjTjNkRjZDcWpSNHF2aXFDTWkwc0kyVTdQR1drcUNKY01oR1haazczS3dmYU56aTVlUWNYZXlXVWRvT0wtdXZxeTJBZWxiLVppRzRsVHo2NDFHN0RCUzRudFJDR3RKMVJfa3ZhdVNiY1FaWHZPaUdyNjhkWi1ENlBaNjdsU2U2M0VMcTMwQ2t4dw?oc=5",
      "source": "MundoCoop",
      "published_at": "2026-08-01T13:00:00+00:00"
+    },
+    {
+     "title": "Conab prorroga prazo para empresas armazenarem farelo de soja em unidades da companhia - Primeira Página",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQURaX1pROWhQVmo2bzJlb2RlLUZRNWIzQUhybzlsQ1R5Zzd4QU03LXNoS2JVT1M3dkxUNDVjUmIwVVR1Q0dTZTdQZ2djeGZpd2lfbFNWNEtnUDY3NURnUkVxeUdIdlFrLUV2dVdNaXBFOUt0czlkYmZoZG9MRnQ0OHBPcXJBYkJIMjUxUURqN2pncTl4ZnlQWXpDZWYwQ2Z4X0FLNTlLN2tOaFlmMXh5QzFpMVcxcmZsamRmc1N5Yw?oc=5",
+     "source": "Primeira Página",
+     "published_at": "2026-08-01T12:20:05+00:00"
     },
     {
      "title": "Gasolina com 32% de etanol entra em vigor; veja o que muda",
@@ -426,6 +456,12 @@
      "link": "https://www.canalrural.com.br/opiniao-noticias/propaganda-e-a-arte-da-emocao-fecundando-a-razao/",
      "source": "Canal Rural",
      "published_at": "2026-08-01T11:01:00+00:00"
+    },
+    {
+     "title": "Produzir mais ou gerar mais valor? O novo desafio da soja brasileira - Portal 93 - Portal 93",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObG1Rek1zczV6dWExWnlWZUdRd0Jkc0R2aUo0UmZxcW9FRkVzcVZGQ2Zlemd6c1ptX21PRzVhbGFBUnI0dGZoYWs2TTRLZVU4WS0tVTZXMG9UOXZESFA5d1U5OFJidjl1YVhzR0ptWGlJc2ttLTRKN1dlY0FQdUoyQkdxTWdxdzUtSW04aGNqZW9RYnFYRGh2cEs2a05tUdIBngFBVV95cUxObG1Rek1zczV6dWExWnlWZUdRd0Jkc0R2aUo0UmZxcW9FRkVzcVZGQ2Zlemd6c1ptX21PRzVhbGFBUnI0dGZoYWs2TTRLZVU4WS0tVTZXMG9UOXZESFA5d1U5OFJidjl1YVhzR0ptWGlJc2ttLTRKN1dlY0FQdUoyQkdxTWdxdzUtSW04aGNqZW9RYnFYRGh2cEs2a05tUQ?oc=5",
+     "source": "Portal 93",
+     "published_at": "2026-08-01T10:00:42+00:00"
     },
     {
      "title": "Preço da soja registra terceiro dia de queda no Brasil, mas fecha julho com alta de 8% - Globo Rural",
@@ -446,9 +482,9 @@
      "published_at": "2026-07-31T23:08:22+00:00"
     },
     {
-     "title": "Cadeia da soja pode responder por 21,2% do PIB do agronegócio em 2026 - O Presente Rural",
+     "title": "Cadeia da soja pode responder por 21,2% do PIB do agronegócio em 2026 - opresenterural.com.br",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmN1NXBwUHk1M3FqNkV0ZlJkTXhlTUdmMk5aQzlCaVBfaEEyTEdfX2ZNMU5nUEZEV1VuZTh0cnMwQ1Z5QWNTenBvSUlURTBWUWV0ZGFfWWgzUWozUjNDUExhcE5uNmhoUXZtb3gybUxyczFrSmk2WlFEX18wekZpZlpWSVNwZUhEZ0tBSjFVU2Z0bjFMM2tmbl8xTVR5YlU?oc=5",
-     "source": "O Presente Rural",
+     "source": "opresenterural.com.br",
      "published_at": "2026-07-31T23:02:56+00:00"
     },
     {
@@ -482,52 +518,16 @@
      "published_at": "2026-07-31T21:02:01+00:00"
     },
     {
-     "title": "Mercado da soja tem ritmo lento e registra pequenas oscilações nos preços",
-     "link": "https://www.canalrural.com.br/agricultura/soja/mercado-da-soja-tem-ritmo-lento-e-registra-pequenas-oscilacoes-nos-precos/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T21:02:01+00:00"
-    },
-    {
-     "title": "Com nova frente fria, temporais voltam a ganhar força no Sul no fim de semana",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/com-nova-frente-fria-temporais-voltam-a-ganhar-forca-no-sul-neste-fim-de-semana/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T21:01:00+00:00"
-    },
-    {
      "title": "Cadeia da soja mira quase 5% do PIB do Brasil e fortalece fundamentos do SNAG11 - Fiis",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdFJmSjJ4ekxYMVBJbGdFVmpWYzJKRjRqTGt3UTVRRjZqT28zTlRHNnpmYjkxNHpmTjd1enZWM2lHcmFVRHVIeU4tSFVueHFRdE1CUzdMZXMtcnlacVlST0NwUkt4WndYa0c3a01SY1Z1MlVXZGF5Y29HMzNjOEMtdkdMWFgxczBPMnpGVWpSekdhOXFDckFZdFhUOXd6UQ?oc=5",
      "source": "Fiis",
      "published_at": "2026-07-31T21:00:09+00:00"
     },
     {
-     "title": "Ibovespa fecha julho em alta e encosta nos 178 mil pontos",
-     "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-julho-em-alta-e-encosta-nos-178-mil-pontos/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T20:58:13+00:00"
-    },
-    {
-     "title": "Aneel mantém bandeira tarifária amarela para agosto",
-     "link": "https://www.canalrural.com.br/economia/aneel-mantem-bandeira-tarifaria-amarela-para-agosto/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T20:54:08+00:00"
-    },
-    {
      "title": "Soja recua em Chicago com vendas de fundos e previsão de chuvas nos EUA - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUHIyWVpMRWI4OVRjbG4zcnJCSGo1c05vRGtyaWVOOFV6Q2FZWU1BYVd6bDNzRlhwVEpZd2lhQnNGR0xrU3NoX3A0NE1fM25rOE0yLTdGcU5fdXBjM2wwbE5XV1VmOU55RkpsTzE5UU9QYURMalhwbFloVEVWcnVhdVd3RG9qa1AtandOLXQ0VWRxS04ya1EwUXQ1SHRlV1hYNTVVOUgxcWtOZw?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-07-31T20:18:47+00:00"
-    },
-    {
-     "title": "Conab prorroga até 14 de agosto inscrições para armazenagem de farelo de soja - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVzNaM3JxMllyR1NCWXF0dmIzbi1TdVZlMkNFVU5BNFJ1Nmp4eTVxU0NqX0VXS2xzb3FiU2s0Vm9TZURSMWt1RTZSUnFCTXQxNnFLWFM3WTg4akE0MlNoTUc2dFlQdmg0VGhEd2NjRFlyNEFuNzRPdlQ1cHhjN3YwcVQ0N0lEamVLRFE4bEFxQUlJbXlJa29LQ01hdDhzcFA1aFBVZUFMbHFrNFkyQWtuYlk0c1MwU29kSWhZVA?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T19:09:13+00:00"
-    },
-    {
-     "title": "Conab prorroga inscrições do chamamento público para armazenagem de farelo de soja - www.gov.br",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQU9jQjRTckZVUzdoUlN1RF94WjNrd2dYcURLckxlTUpvSXlGUllUUWRIdXlhRlpPYndtWWZqX2FwcFVuT1lIQnphNmMwX3l5bkZkRDFPY2VWZnIxREFnaXVTT25KQk4yWGNHVEtnLTI5cVlvdEJPbHduVVpNeHRxWWg2T0d6eVIxRXktRjYzNWM0WFZHTmR5Qm9mUTFnYktaUTZWVGxfVVBfd1J6V0xRNC01MTR0am5Ib3RJZVV6U19ISW5kMTVpUm5RZw?oc=5",
-     "source": "www.gov.br",
-     "published_at": "2026-07-31T18:58:51+00:00"
     },
     {
      "title": "PIB da cadeia de soja e biodiesel deve avançar 6,87% em 2026, aponta estudo - InfoMoney",

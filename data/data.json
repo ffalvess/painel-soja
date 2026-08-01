@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-01T08:10:29+00:00",
+ "generated_at": "2026-08-01T10:30:36+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-01T08:10:19+00:00",
+   "updated_at": "2026-08-01T10:30:31+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-01T08:10:19+00:00",
+   "updated_at": "2026-08-01T10:30:31+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-01T08:10:24+00:00",
+   "updated_at": "2026-08-01T10:30:34+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +407,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-01T08:10:29+00:00",
+   "updated_at": "2026-08-01T10:30:36+00:00",
    "items": [
+    {
+     "title": "Preço da soja registra terceiro dia de queda no Brasil, mas fecha julho com alta de 8% - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSXd3SnRLdFJaalZzOUFZcFRPeDV0bWtyanQxQ19GTldfZGx6UnNRMkUySjdmTVJNOWp5OUFMS014UVg2aEJJY2lZVDduaHJscW1QVExfVGtsam5VY3ZwTjBiZWY4YzJYek90ZEZhanY5MDVqcmtkclk5a0NRY3B5MzE3MmppOE83R0VYWHRuUTBOMTBJSHlyVzdwdEEzRGo5RTM5R1YyUjZFZU56OWhWWVdJTVduTGh4b0lTM29YLTl5d2pHY25TQTlhOVhMZTdwU3gyR0N6aGlycDR3dFVFXzl2cUFtUdIB9AFBVV95cUxNR3dYdEE1QldMWnBzSXZPRGxkRU5zM3JmSWFkdlBrZ3ZrdlBiekJoWnpGSFBTenVRdlluUElod0FibTlmamVyZGNRUU5Fb1ZPWnhwdElmWGs4WXBEVlEzeTRJbVcwMzI1T2xuWEFHUFh6eEVDU0hMTk9ZTHJoU2JVRG16Tmxudm5zVDRZQjdaWmF5SGpSWUUyTllxZkVteE1ySVczREJ3akNITmtGem1FRk9lTmFITTdBazFZdkxJMTJKREV3UEVENUlubWZPOXZyNmgxUnVmSkExU19aT09lVi1rRl8xS0kxWml6VDJnM3Z1QXE0?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-01T09:14:08+00:00"
+    },
     {
      "title": "Os biscoitos realmente eram melhores antigamente? Entenda por que tanta gente tem essa impressão",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/01/os-biscoitos-realmente-eram-melhores-antigamente-entenda-por-que-tanta-gente-tem-essa-impressao.ghtml",
@@ -500,9 +506,9 @@
      "published_at": "2026-07-31T20:23:09+00:00"
     },
     {
-     "title": "Soja recua em Chicago com vendas de fundos e previsão de chuvas nos EUA - CNN Brasil",
+     "title": "Soja recua em Chicago com vendas de fundos e previsão de chuvas nos EUA - cnnbrasil.com.br",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUHIyWVpMRWI4OVRjbG4zcnJCSGo1c05vRGtyaWVOOFV6Q2FZWU1BYVd6bDNzRlhwVEpZd2lhQnNGR0xrU3NoX3A0NE1fM25rOE0yLTdGcU5fdXBjM2wwbE5XV1VmOU55RkpsTzE5UU9QYURMalhwbFloVEVWcnVhdVd3RG9qa1AtandOLXQ0VWRxS04ya1EwUXQ1SHRlV1hYNTVVOUgxcWtOZw?oc=5",
-     "source": "CNN Brasil",
+     "source": "cnnbrasil.com.br",
      "published_at": "2026-07-31T20:18:47+00:00"
     },
     {
@@ -516,6 +522,12 @@
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQU9jQjRTckZVUzdoUlN1RF94WjNrd2dYcURLckxlTUpvSXlGUllUUWRIdXlhRlpPYndtWWZqX2FwcFVuT1lIQnphNmMwX3l5bkZkRDFPY2VWZnIxREFnaXVTT25KQk4yWGNHVEtnLTI5cVlvdEJPbHduVVpNeHRxWWg2T0d6eVIxRXktRjYzNWM0WFZHTmR5Qm9mUTFnYktaUTZWVGxfVVBfd1J6V0xRNC01MTR0am5Ib3RJZVV6U19ISW5kMTVpUm5RZw?oc=5",
      "source": "www.gov.br",
      "published_at": "2026-07-31T18:58:51+00:00"
+    },
+    {
+     "title": "PIB da cadeia de soja e biodiesel deve avançar 6,87% em 2026, aponta estudo - InfoMoney",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNak9SaDJXY0NUY1RMQWl3aElZTWZ1YndpN0dBZzdQNkQzaTVZYmRMWVBXNnVSUmtBaWJCTnNRY1JUUDl4akVuUkxWYlhzeGlMdVcteDhuc09EYjhVbDdXUjg0N29JUmNQQnI2V3RoeDJZaHhQMHFJYVB3M01TVlVLS1Y4N2wyQkJBYlFISzQwQ1NuSnBNN1drNnlSSUthbWlrLUJ6ZmViNm5ZN2xnWTRER9IBtgFBVV95cUxNa0xHa1RCcDhSQXFPZTN4V0V0QnQwTlBLVW5kNmpSS0dFdmdxT0FPZFJxemJELVpJb1pkS1U2ekloVFl6bjV4b1VUcVhnb0lqZFh1UGtnT3NOYVduRWgtZXVwd25CaXg5LWVWSk01ck5rYWl1YXJBZnBZVUlKT0p3VEhrR3ZNRGdtamJlR0pnNy1WaUpnRURRdk9obkxqQ19peDNsVVp2cm5WV1g0aU10c01sYTFkUQ?oc=5",
+     "source": "InfoMoney",
+     "published_at": "2026-07-31T18:53:46+00:00"
     },
     {
      "title": "WWF-Brasil lança nota técnica que estima impacto econômico da Moratória da Soja - WWF Brasil",
@@ -540,12 +552,6 @@
      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZ0lyTEpGRXY1SUJvLWhaSExWQ3hBYkNoaUlkTUJzcTBDRVB2QnR1OGNyVDI1U0luV1FlTHZjX1FCeTlEaFpoRWZGaU9uX0dVaTB2clRhSFcxR2h2TXJJcGtGajEzYUxfYlQ3U2RfY09GZkdjVlJhaGRkUzQ3R2xQRHNhTnhzZEpLSjBSVkZQRjNhbXBZdzNQLTVwdmVmdnZjWkVpUUxJNEFnS1JWakt1SkNGSkQ4ZUF3cDllZ2xXZEpyYUdQVlluU0xRNGNDTlpmUDk5OWtTLXhjRkhOWXcyNktDaTZiQdIB6wFBVV95cUxQc0F1UExnUHVKdlBWWm12X2Y2XzJycW1FOW03Qzc1LUx5Uk1YT3FFa0h5WTBTYkE0ckt5dHJNWllRSU9JeXJxZm5hMF9IOUM4bG9rN1RnQkZWQmhVal9EOTJDNG5qVW1jczVGYXkzTkZfdzBqNUVLY0NsUTVOc1FGcTAzZVVqTjFGYzhiNUVmVnZ3UWlhb1F5QWlPU05WNGlGbk9Zd0cwOC1xdDFDc01CczVWY0R4U1N5U3FDdDlOZG9hNlo1VEJwSHo5dWd0Vi02R1FKaFBMYW5kLVJraVpvbWVMWS1xWUhGN1FV?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-31T16:02:10+00:00"
-    },
-    {
-     "title": "Edital da Conab para armazenagem de farelo de soja recebe propostas até sexta-feira (31) - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQR0JiWTNTcmp4eEFIMkYxNDFzNFBvVmdsTGFqZVpsZlZObGgzNHM0T0pXRUNvRUVyRWhyNWZpWF9wYmZ2VUtaX01NT0hZWmhjM2g0eHRtZ281TG5CYWNwRDFFQ3UzSGpsLTJrcXRYVnhlRTdsUW9qX2JtRWJHWmpkZm9BQThJWWVGTnc2eXYtckE5VXpjS3FpMGFLUmtwUG9hZTRlMjNqYkxaQ2JQaVJYYWxScTNxMXZzNWlLcnRHdHJPNng1c3pLQm9YVFFNWndCN3Z6ZGdDY3QtM0Ytd2FndVF5Z2N2QTlnc1RRNVpmcV8yakFh0gH6AUFVX3lxTFBzcVJ4VFp3UDFYTFotbGtoRmgyRWdxZ3hQQ2RBdnBjV1dmeDMxWm5feFN3X2xJcHVaWndKM0lQQmYtUGtUTXJ3YUlMbFgxbF9FR3JsZll4RmtkWlRMUzNNQUxwUlhpellGSkY5V3pScVZmZVIzNUJWcXNTWkNacFFTVno1a1JJRnJRRFUzX25RampETlA2RzJRcGhnS2t4NGdNLUNVWnJkdzlRSWxYSThMRkVLRkVlUmd1UW8zVlM4WDgxNHo1dnp6eHN6SWlWY0piZ3NHQ3dGUGpRZlJwWmxLSHY5c2tXbk9USXV5VWFEeDZpTG5WaE1VM0E?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-07-31T14:17:07+00:00"
     },
     {
      "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - Embrapa",
@@ -582,12 +588,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/29/brasil-faz-primeira-operacao-usando-vacas-monitoradas-por-ia-como-garantia-para-emprestimos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-29T08:03:21"
-    },
-    {
-     "title": "Brasil avalia acionar OMC contra veto da União Europeia à carne brasileira e vê motivação política",
-     "link": "https://g1.globo.com/politica/noticia/2026/07/28/brasil-avalia-acionar-omc-contra-veto-da-uniao-europeia-a-carne-brasileira-e-ve-motivacao-politica.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-28T16:15:29"
     }
    ],
    "failed": [

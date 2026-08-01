@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-01T15:56:36+00:00",
+ "generated_at": "2026-08-01T16:56:35+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-01T15:56:31+00:00",
+   "updated_at": "2026-08-01T16:56:29+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-01T15:56:31+00:00",
+   "updated_at": "2026-08-01T16:56:29+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-01T15:56:34+00:00",
+   "updated_at": "2026-08-01T16:56:33+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +407,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-01T15:56:36+00:00",
+   "updated_at": "2026-08-01T16:56:35+00:00",
    "items": [
+    {
+     "title": "‘O clima nós não controlamos, mas o manejo, sim’: produtores se preparam para o super El Niño",
+     "link": "https://www.canalrural.com.br/agricultura/o-clima-nos-nao-controlamos-mas-o-manejo-sim-produtores-se-preparam-para-o-super-el-nino/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-01T16:05:00+00:00"
+    },
     {
      "title": "Agosto terá chuva extrema no Sul e risco de onda de calor em grande parte do Brasil; confira com a Climatempo",
      "link": "https://www.canalrural.com.br/previsao-do-tempo/agosto-tera-chuva-extrema-no-sul-e-risco-de-onda-de-calor-em-grande-parte-do-brasil-confira-com-a-climatempo/",
@@ -506,12 +512,6 @@
      "published_at": "2026-07-31T21:41:50+00:00"
     },
     {
-     "title": "Fiesp defende edital do Tecon-10 com desinvestimento para evitar concentração",
-     "link": "https://www.canalrural.com.br/economia/fiesp-defende-edital-do-tecon-10-com-desinvestimento-para-evitar-concentracao/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T21:19:05+00:00"
-    },
-    {
      "title": "Mercado da soja tem ritmo lento e registra pequenas oscilações nos preços - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSlgtVW5qSEFNUDhoY1R5N25qRkQ4RUIxQ2Z2dHlyLU5GODFzRDBlcGMzY05UczhELV9GejFEeEd1WXZ5dklDWXV2UHpVY2w4RDgteDVYc3JHT3V0NWQteUM1VW4zNlBPaFdOUUp0MG5NSEt3MUV3R0VLM1RwanQ2c3pidFdpLW5vRG1WN0EzWDJha0VjTUg5dy1TV1pVa092ZFhoSjlpb2Z5R2h0d09JNjlNZlRsN2dnaVVOV3RB?oc=5",
      "source": "canalrural.com.br",
@@ -548,6 +548,12 @@
      "published_at": "2026-07-31T16:16:24"
     },
     {
+     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - Embrapa",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZmM0Q3lwWHY5cHRwSlowVzlNR0xEVzZneF9iY1hzWHM5NkkzY0p6SHBfVTVibTJnaTlnakJsa0NyZlZQQjdnZURCRm45T0d4eHJpWG9GMnI0TmhINXV2RC00eU03MG5VWjczbnNseDE0eWVyTWZkd25tSV96Y21iT2xkVkNiYk1yalVzdEdsNmhaT2JqWWRFRngzRlM4Z2ZaeDNwemoxdXNiRkNqbDJrRzJMWVluUXRTRnpTUjVZbWFQaHRtYXpmWW9JV3pJclRKUnV2bHJMZnJNU3NZanQ0dzFTVlY1ZFBfblBFVA?oc=5",
+     "source": "Embrapa",
+     "published_at": "2026-07-31T12:48:34+00:00"
+    },
+    {
      "title": "ES vai ganhar polo logístico do agronegócio com aeroporto e galpões para café, pimenta e fertilizantes",
      "link": "https://g1.globo.com/es/espirito-santo/agronegocios/noticia/2026/07/31/es-vai-ganhar-polo-logistico-do-agronegocio-com-aeroporto-e-galpoes-para-cafe-pimenta-e-fertilizantes.ghtml",
      "source": "G1 Agronegócios",
@@ -582,12 +588,6 @@
      "link": "https://g1.globo.com/politica/noticia/2026/07/28/brasil-avalia-acionar-omc-contra-veto-da-uniao-europeia-a-carne-brasileira-e-ve-motivacao-politica.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-28T16:15:29"
-    },
-    {
-     "title": "Brasil pode perder mais de US$ 500 milhões com bloqueio da União Europeia",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/27/brasil-bloqueio-uniao-europeia.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-27T14:59:34"
     }
    ],
    "failed": [

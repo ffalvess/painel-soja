@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-01T21:48:44+00:00",
+ "generated_at": "2026-08-01T22:48:18+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-01T21:48:39+00:00",
+   "updated_at": "2026-08-01T22:48:11+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-01T21:48:39+00:00",
+   "updated_at": "2026-08-01T22:48:11+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-01T21:48:42+00:00",
+   "updated_at": "2026-08-01T22:48:15+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +407,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-01T21:48:44+00:00",
+   "updated_at": "2026-08-01T22:48:18+00:00",
    "items": [
+    {
+     "title": "Preços da soja sobem em julho, enquanto clima e custos preocupam próxima safra - canalrural.com.br",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYmo1SlhvWHZMMVdnNUZneVJSRENfWms4Ujk4Qkd1TVF4MHppaVJzRUxQQ0JTLUhraGVKc0w0Sl9hTEtEMVpTX1NxdEs0R3hacDNJTWhZREFzTWF4c1dWTHN3RllmWmc4a0h2YlBfb3U4SUtPTDJUM21DOFRwZWo5ZFdQZGUtZU5HRHFRUkU5dW1GbTRON3p6QXlpUGZCRmMzRG1OSU0teVdxOVNIaHluaUZUaEhGZ2gtZ0VKbUZST1V1Snc?oc=5",
+     "source": "canalrural.com.br",
+     "published_at": "2026-08-01T22:02:00+00:00"
+    },
+    {
+     "title": "Preços da soja sobem em julho, enquanto clima e custos preocupam próxima safra",
+     "link": "https://www.canalrural.com.br/agricultura/soja/precos-da-soja-sobem-em-julho-enquanto-clima-e-custos-preocupam-proxima-safra/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-01T22:02:00+00:00"
+    },
     {
      "title": "Cachaça: setor mantém força no Brasil com mais de 1,5 mil produtores; adivinhe qual estado tem maior número",
      "link": "https://www.canalrural.com.br/diversos/cachaca-setor-mantem-forca-no-brasil-com-mais-de-15-mil-estabelecimentos-produtores-adivinhe-qual-estado-tem-o-maior-numero/",
@@ -494,15 +506,9 @@
      "published_at": "2026-08-01T12:20:05+00:00"
     },
     {
-     "title": "Gasolina com 32% de etanol entra em vigor; veja o que muda",
-     "link": "https://www.canalrural.com.br/economia/gasolina-com-32-de-etanol-entra-em-vigor-veja-o-que-muda/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-01T12:03:00+00:00"
-    },
-    {
-     "title": "Preço da soja registra terceiro dia de queda no Brasil, mas fecha julho com alta de 8% - Globo Rural",
+     "title": "Preço da soja registra terceiro dia de queda no Brasil, mas fecha julho com alta de 8% - globorural.globo.com",
      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSXd3SnRLdFJaalZzOUFZcFRPeDV0bWtyanQxQ19GTldfZGx6UnNRMkUySjdmTVJNOWp5OUFMS014UVg2aEJJY2lZVDduaHJscW1QVExfVGtsam5VY3ZwTjBiZWY4YzJYek90ZEZhanY5MDVqcmtkclk5a0NRY3B5MzE3MmppOE83R0VYWHRuUTBOMTBJSHlyVzdwdEEzRGo5RTM5R1YyUjZFZU56OWhWWVdJTVduTGh4b0lTM29YLTl5d2pHY25TQTlhOVhMZTdwU3gyR0N6aGlycDR3dFVFXzl2cUFtUdIB9AFBVV95cUxNR3dYdEE1QldMWnBzSXZPRGxkRU5zM3JmSWFkdlBrZ3ZrdlBiekJoWnpGSFBTenVRdlluUElod0FibTlmamVyZGNRUU5Fb1ZPWnhwdElmWGs4WXBEVlEzeTRJbVcwMzI1T2xuWEFHUFh6eEVDU0hMTk9ZTHJoU2JVRG16Tmxudm5zVDRZQjdaWmF5SGpSWUUyTllxZkVteE1ySVczREJ3akNITmtGem1FRk9lTmFITTdBazFZdkxJMTJKREV3UEVENUlubWZPOXZyNmgxUnVmSkExU19aT09lVi1rRl8xS0kxWml6VDJnM3Z1QXE0?oc=5",
-     "source": "Globo Rural",
+     "source": "globorural.globo.com",
      "published_at": "2026-08-01T09:14:08+00:00"
     },
     {
@@ -534,12 +540,6 @@
      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZ0lyTEpGRXY1SUJvLWhaSExWQ3hBYkNoaUlkTUJzcTBDRVB2QnR1OGNyVDI1U0luV1FlTHZjX1FCeTlEaFpoRWZGaU9uX0dVaTB2clRhSFcxR2h2TXJJcGtGajEzYUxfYlQ3U2RfY09GZkdjVlJhaGRkUzQ3R2xQRHNhTnhzZEpLSjBSVkZQRjNhbXBZdzNQLTVwdmVmdnZjWkVpUUxJNEFnS1JWakt1SkNGSkQ4ZUF3cDllZ2xXZEpyYUdQVlluU0xRNGNDTlpmUDk5OWtTLXhjRkhOWXcyNktDaTZiQdIB6wFBVV95cUxQc0F1UExnUHVKdlBWWm12X2Y2XzJycW1FOW03Qzc1LUx5Uk1YT3FFa0h5WTBTYkE0ckt5dHJNWllRSU9JeXJxZm5hMF9IOUM4bG9rN1RnQkZWQmhVal9EOTJDNG5qVW1jczVGYXkzTkZfdzBqNUVLY0NsUTVOc1FGcTAzZVVqTjFGYzhiNUVmVnZ3UWlhb1F5QWlPU05WNGlGbk9Zd0cwOC1xdDFDc01CczVWY0R4U1N5U3FDdDlOZG9hNlo1VEJwSHo5dWd0Vi02R1FKaFBMYW5kLVJraVpvbWVMWS1xWUhGN1FV?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-31T16:02:10+00:00"
-    },
-    {
-     "title": "Levantamento projeta safra de soja de 185,6 milhões de toneladas em 2026/27 - canalrural.com.br",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPazZFbGtQLWVjbTdoTVJWRFRsYlRXNjJqWEswdGZoTmhYY2ZscHFlbnU2NUhlQUs3eVhrZDEyZ2kwUWt2YlR0QS1iZmo5TDYtS1JjVkMzYkhxNnBIZkpOOEkwanRyLWoyVUhyUlJpY3RWUGdxSDY3dnkzRmxfWW84bUdPUDN0TWxod1FPN3U5RloyeXcyUm95Tm1mQmt5RWJQeGVaSWIzeWhnNXRVZkxxR3BhME1uLVBF?oc=5",
-     "source": "canalrural.com.br",
-     "published_at": "2026-07-31T15:33:25+00:00"
     },
     {
      "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - Embrapa",

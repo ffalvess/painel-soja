@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-01T10:30:36+00:00",
+ "generated_at": "2026-08-01T11:58:32+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-01T10:30:31+00:00",
+   "updated_at": "2026-08-01T11:58:26+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-01T10:30:31+00:00",
+   "updated_at": "2026-08-01T11:58:27+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-01T10:30:34+00:00",
+   "updated_at": "2026-08-01T11:58:30+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +407,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-01T10:30:36+00:00",
+   "updated_at": "2026-08-01T11:58:32+00:00",
    "items": [
+    {
+     "title": "Propaganda é a arte da emoção fecundando a razão",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/propaganda-e-a-arte-da-emocao-fecundando-a-razao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-01T11:01:00+00:00"
+    },
     {
      "title": "Preço da soja registra terceiro dia de queda no Brasil, mas fecha julho com alta de 8% - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSXd3SnRLdFJaalZzOUFZcFRPeDV0bWtyanQxQ19GTldfZGx6UnNRMkUySjdmTVJNOWp5OUFMS014UVg2aEJJY2lZVDduaHJscW1QVExfVGtsam5VY3ZwTjBiZWY4YzJYek90ZEZhanY5MDVqcmtkclk5a0NRY3B5MzE3MmppOE83R0VYWHRuUTBOMTBJSHlyVzdwdEEzRGo5RTM5R1YyUjZFZU56OWhWWVdJTVduTGh4b0lTM29YLTl5d2pHY25TQTlhOVhMZTdwU3gyR0N6aGlycDR3dFVFXzl2cUFtUdIB9AFBVV95cUxNR3dYdEE1QldMWnBzSXZPRGxkRU5zM3JmSWFkdlBrZ3ZrdlBiekJoWnpGSFBTenVRdlluUElod0FibTlmamVyZGNRUU5Fb1ZPWnhwdElmWGs4WXBEVlEzeTRJbVcwMzI1T2xuWEFHUFh6eEVDU0hMTk9ZTHJoU2JVRG16Tmxudm5zVDRZQjdaWmF5SGpSWUUyTllxZkVteE1ySVczREJ3akNITmtGem1FRk9lTmFITTdBazFZdkxJMTJKREV3UEVENUlubWZPOXZyNmgxUnVmSkExU19aT09lVi1rRl8xS0kxWml6VDJnM3Z1QXE0?oc=5",
@@ -500,15 +506,9 @@
      "published_at": "2026-07-31T20:42:34+00:00"
     },
     {
-     "title": "Nova frente fria pode provocar chuva de até 100 mm e risco de tornados",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/nova-frente-fria-pode-provocar-chuva-de-ate-100-mm-e-risco-de-tornados/",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T20:23:09+00:00"
-    },
-    {
-     "title": "Soja recua em Chicago com vendas de fundos e previsão de chuvas nos EUA - cnnbrasil.com.br",
+     "title": "Soja recua em Chicago com vendas de fundos e previsão de chuvas nos EUA - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUHIyWVpMRWI4OVRjbG4zcnJCSGo1c05vRGtyaWVOOFV6Q2FZWU1BYVd6bDNzRlhwVEpZd2lhQnNGR0xrU3NoX3A0NE1fM25rOE0yLTdGcU5fdXBjM2wwbE5XV1VmOU55RkpsTzE5UU9QYURMalhwbFloVEVWcnVhdVd3RG9qa1AtandOLXQ0VWRxS04ya1EwUXQ1SHRlV1hYNTVVOUgxcWtOZw?oc=5",
-     "source": "cnnbrasil.com.br",
+     "source": "CNN Brasil",
      "published_at": "2026-07-31T20:18:47+00:00"
     },
     {
@@ -548,16 +548,10 @@
      "published_at": "2026-07-31T16:16:24"
     },
     {
-     "title": "Soja segue pressionada pelo clima nos EUA e Chicago opera lateralizada nesta sexta-feira - Notícias Agrícolas",
+     "title": "Soja segue pressionada pelo clima nos EUA e Chicago opera lateralizada nesta sexta-feira - noticiasagricolas.com.br",
      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZ0lyTEpGRXY1SUJvLWhaSExWQ3hBYkNoaUlkTUJzcTBDRVB2QnR1OGNyVDI1U0luV1FlTHZjX1FCeTlEaFpoRWZGaU9uX0dVaTB2clRhSFcxR2h2TXJJcGtGajEzYUxfYlQ3U2RfY09GZkdjVlJhaGRkUzQ3R2xQRHNhTnhzZEpLSjBSVkZQRjNhbXBZdzNQLTVwdmVmdnZjWkVpUUxJNEFnS1JWakt1SkNGSkQ4ZUF3cDllZ2xXZEpyYUdQVlluU0xRNGNDTlpmUDk5OWtTLXhjRkhOWXcyNktDaTZiQdIB6wFBVV95cUxQc0F1UExnUHVKdlBWWm12X2Y2XzJycW1FOW03Qzc1LUx5Uk1YT3FFa0h5WTBTYkE0ckt5dHJNWllRSU9JeXJxZm5hMF9IOUM4bG9rN1RnQkZWQmhVal9EOTJDNG5qVW1jczVGYXkzTkZfdzBqNUVLY0NsUTVOc1FGcTAzZVVqTjFGYzhiNUVmVnZ3UWlhb1F5QWlPU05WNGlGbk9Zd0cwOC1xdDFDc01CczVWY0R4U1N5U3FDdDlOZG9hNlo1VEJwSHo5dWd0Vi02R1FKaFBMYW5kLVJraVpvbWVMWS1xWUhGN1FV?oc=5",
-     "source": "Notícias Agrícolas",
+     "source": "noticiasagricolas.com.br",
      "published_at": "2026-07-31T16:02:10+00:00"
-    },
-    {
-     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - Embrapa",
-     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZmM0Q3lwWHY5cHRwSlowVzlNR0xEVzZneF9iY1hzWHM5NkkzY0p6SHBfVTVibTJnaTlnakJsa0NyZlZQQjdnZURCRm45T0d4eHJpWG9GMnI0TmhINXV2RC00eU03MG5VWjczbnNseDE0eWVyTWZkd25tSV96Y21iT2xkVkNiYk1yalVzdEdsNmhaT2JqWWRFRngzRlM4Z2ZaeDNwemoxdXNiRkNqbDJrRzJMWVluUXRTRnpTUjVZbWFQaHRtYXpmWW9JV3pJclRKUnV2bHJMZnJNU3NZanQ0dzFTVlY1ZFBfblBFVA?oc=5",
-     "source": "Embrapa",
-     "published_at": "2026-07-31T12:48:34+00:00"
     },
     {
      "title": "ES vai ganhar polo logístico do agronegócio com aeroporto e galpões para café, pimenta e fertilizantes",
@@ -588,6 +582,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/29/brasil-faz-primeira-operacao-usando-vacas-monitoradas-por-ia-como-garantia-para-emprestimos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-29T08:03:21"
+    },
+    {
+     "title": "Brasil avalia acionar OMC contra veto da União Europeia à carne brasileira e vê motivação política",
+     "link": "https://g1.globo.com/politica/noticia/2026/07/28/brasil-avalia-acionar-omc-contra-veto-da-uniao-europeia-a-carne-brasileira-e-ve-motivacao-politica.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-28T16:15:29"
     }
    ],
    "failed": [

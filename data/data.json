@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-01T16:56:35+00:00",
+ "generated_at": "2026-08-01T17:58:24+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-01T16:56:29+00:00",
+   "updated_at": "2026-08-01T17:58:17+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-01T16:56:29+00:00",
+   "updated_at": "2026-08-01T17:58:17+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-01T16:56:33+00:00",
+   "updated_at": "2026-08-01T17:58:21+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +407,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-01T16:56:35+00:00",
+   "updated_at": "2026-08-01T17:58:24+00:00",
    "items": [
+    {
+     "title": "Geopolítica, China e biodiesel pautam seminário da Embrapa sobre liderança brasileira no mercado da soja - Feed&Food",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSnpfZEFWZzRNTkp4T1pqQXZLbVRvUnZjOURlck5sZlhfSm5LR3VVMnIwMlhhdUFlcDI5Y0l3UVdyMTh6NlRPT01rMkZVQmxJYjZVWnNicjI3ek15b21DbnJLZjI4aXhNM1R5cHhiYVpOTFIwY2k1em9ZWU9STV9val9idlhyRl8yNVh1RnB5alNXWkJYaWtWbXQyWFVRajljTHV3WXkzU2lZbWZKQXJlR2gtVmYzQzRlRHhJXzRYVHZvcWhnTzc0?oc=5",
+     "source": "Feed&Food",
+     "published_at": "2026-08-01T17:14:00+00:00"
+    },
+    {
+     "title": "Boletim semanal de preços: soja recua em Chicago, milho oscila e boi fecha julho em alta - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMVRocDJCREVxZzRDeUwxYUhTbUZEWEVMWWR6dVVzMlIwdnNkdEh6MXZBSzVIRVBMX2xWdlVLN1J6NVZrb0hLM2c2N3FRN1d0RzFaUUZoQVI5d19BZFBtWEpiV2NiaGh3RHA1VXR3dzVGUVRHVV9xY2QtOUxCNExNdlpQTER1bHoxNGtLdXRzdWZuOFpTcklFbF82X3BtdnNMNF9OTG1GcEZxVkVMdW9MNHh5Q3N6RmNYQWFGMjdQM2JHYjJDQ3pXWWY0ek00SzFxN2lz?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-01T16:41:00+00:00"
+    },
     {
      "title": "‘O clima nós não controlamos, mas o manejo, sim’: produtores se preparam para o super El Niño",
      "link": "https://www.canalrural.com.br/agricultura/o-clima-nos-nao-controlamos-mas-o-manejo-sim-produtores-se-preparam-para-o-super-el-nino/",
@@ -456,12 +468,6 @@
      "link": "https://www.canalrural.com.br/economia/gasolina-com-32-de-etanol-entra-em-vigor-veja-o-que-muda/",
      "source": "Canal Rural",
      "published_at": "2026-08-01T12:03:00+00:00"
-    },
-    {
-     "title": "MPF apura o licenciamento de PCH ligada ao 'Rei da Soja' - Diario de Cuiabá",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOG9HRzUzTzRTMTZ2Z3NmXzlWc2R4X240QmVURXhlT2IxR3hQTTBidU1UVjlRbzVOOXBTVVdOS29MazFNbnFFTzF4UWd4U3VrQlZ5SVlXblNsNF9IRE4tMnRVY01HbUVKeGxSTG1nZDUxbTNXdDJ5a1hjOHlsZXZ1VXBoejdOT2RyMlM1bWZhSjk5RkdZQVQ0VFcwTHVRbzZiUFhUNTVsOA?oc=5",
-     "source": "Diario de Cuiabá",
-     "published_at": "2026-08-01T12:00:00+00:00"
     },
     {
      "title": "Propaganda é a arte da emoção fecundando a razão",
@@ -512,16 +518,10 @@
      "published_at": "2026-07-31T21:41:50+00:00"
     },
     {
-     "title": "Mercado da soja tem ritmo lento e registra pequenas oscilações nos preços - canalrural.com.br",
+     "title": "Mercado da soja tem ritmo lento e registra pequenas oscilações nos preços - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSlgtVW5qSEFNUDhoY1R5N25qRkQ4RUIxQ2Z2dHlyLU5GODFzRDBlcGMzY05UczhELV9GejFEeEd1WXZ5dklDWXV2UHpVY2w4RDgteDVYc3JHT3V0NWQteUM1VW4zNlBPaFdOUUp0MG5NSEt3MUV3R0VLM1RwanQ2c3pidFdpLW5vRG1WN0EzWDJha0VjTUg5dy1TV1pVa092ZFhoSjlpb2Z5R2h0d09JNjlNZlRsN2dnaVVOV3RB?oc=5",
-     "source": "canalrural.com.br",
+     "source": "Canal Rural",
      "published_at": "2026-07-31T21:02:01+00:00"
-    },
-    {
-     "title": "Cadeia da soja mira quase 5% do PIB do Brasil e fortalece fundamentos do SNAG11 - Fiis",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdFJmSjJ4ekxYMVBJbGdFVmpWYzJKRjRqTGt3UTVRRjZqT28zTlRHNnpmYjkxNHpmTjd1enZWM2lHcmFVRHVIeU4tSFVueHFRdE1CUzdMZXMtcnlacVlST0NwUkt4WndYa0c3a01SY1Z1MlVXZGF5Y29HMzNjOEMtdkdMWFgxczBPMnpGVWpSekdhOXFDckFZdFhUOXd6UQ?oc=5",
-     "source": "Fiis",
-     "published_at": "2026-07-31T21:00:09+00:00"
     },
     {
      "title": "Soja recua em Chicago com vendas de fundos e previsão de chuvas nos EUA - CNN Brasil",
@@ -530,28 +530,28 @@
      "published_at": "2026-07-31T20:18:47+00:00"
     },
     {
-     "title": "PIB da cadeia de soja e biodiesel deve avançar 6,87% em 2026, aponta estudo - InfoMoney",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNak9SaDJXY0NUY1RMQWl3aElZTWZ1YndpN0dBZzdQNkQzaTVZYmRMWVBXNnVSUmtBaWJCTnNRY1JUUDl4akVuUkxWYlhzeGlMdVcteDhuc09EYjhVbDdXUjg0N29JUmNQQnI2V3RoeDJZaHhQMHFJYVB3M01TVlVLS1Y4N2wyQkJBYlFISzQwQ1NuSnBNN1drNnlSSUthbWlrLUJ6ZmViNm5ZN2xnWTRER9IBtgFBVV95cUxNa0xHa1RCcDhSQXFPZTN4V0V0QnQwTlBLVW5kNmpSS0dFdmdxT0FPZFJxemJELVpJb1pkS1U2ekloVFl6bjV4b1VUcVhnb0lqZFh1UGtnT3NOYVduRWgtZXVwd25CaXg5LWVWSk01ck5rYWl1YXJBZnBZVUlKT0p3VEhrR3ZNRGdtamJlR0pnNy1WaUpnRURRdk9obkxqQ19peDNsVVp2cm5WV1g0aU10c01sYTFkUQ?oc=5",
-     "source": "InfoMoney",
-     "published_at": "2026-07-31T18:53:46+00:00"
-    },
-    {
-     "title": "Soja recua após melhora do clima nos EUA - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQTNrcHhfZUljUmJCeDIwXzZyaWZYNDAtVlpSVC15OEtXdUo4THJNOE9FcHEwcEpUc2t5THd4N1ltTlFvM2dPNmpqUFdocGR5T2tPTzNNMGxtVlQ4SUNYekxjclpSSWt6bkRMRXFLSHBNZjFfU1AxRzBkdWQxcHBHM203YlJsakFDRnBpMWNkdXZTSDQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-31T17:02:00+00:00"
-    },
-    {
      "title": "Veja como construir viveiros escavados",
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/07/31/veja-como-construir-viveiros-escavados.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-31T16:16:24"
     },
     {
+     "title": "Soja segue pressionada pelo clima nos EUA e Chicago opera lateralizada nesta sexta-feira - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZ0lyTEpGRXY1SUJvLWhaSExWQ3hBYkNoaUlkTUJzcTBDRVB2QnR1OGNyVDI1U0luV1FlTHZjX1FCeTlEaFpoRWZGaU9uX0dVaTB2clRhSFcxR2h2TXJJcGtGajEzYUxfYlQ3U2RfY09GZkdjVlJhaGRkUzQ3R2xQRHNhTnhzZEpLSjBSVkZQRjNhbXBZdzNQLTVwdmVmdnZjWkVpUUxJNEFnS1JWakt1SkNGSkQ4ZUF3cDllZ2xXZEpyYUdQVlluU0xRNGNDTlpmUDk5OWtTLXhjRkhOWXcyNktDaTZiQdIB6wFBVV95cUxQc0F1UExnUHVKdlBWWm12X2Y2XzJycW1FOW03Qzc1LUx5Uk1YT3FFa0h5WTBTYkE0ckt5dHJNWllRSU9JeXJxZm5hMF9IOUM4bG9rN1RnQkZWQmhVal9EOTJDNG5qVW1jczVGYXkzTkZfdzBqNUVLY0NsUTVOc1FGcTAzZVVqTjFGYzhiNUVmVnZ3UWlhb1F5QWlPU05WNGlGbk9Zd0cwOC1xdDFDc01CczVWY0R4U1N5U3FDdDlOZG9hNlo1VEJwSHo5dWd0Vi02R1FKaFBMYW5kLVJraVpvbWVMWS1xWUhGN1FV?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-31T16:02:10+00:00"
+    },
+    {
      "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - Embrapa",
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZmM0Q3lwWHY5cHRwSlowVzlNR0xEVzZneF9iY1hzWHM5NkkzY0p6SHBfVTVibTJnaTlnakJsa0NyZlZQQjdnZURCRm45T0d4eHJpWG9GMnI0TmhINXV2RC00eU03MG5VWjczbnNseDE0eWVyTWZkd25tSV96Y21iT2xkVkNiYk1yalVzdEdsNmhaT2JqWWRFRngzRlM4Z2ZaeDNwemoxdXNiRkNqbDJrRzJMWVluUXRTRnpTUjVZbWFQaHRtYXpmWW9JV3pJclRKUnV2bHJMZnJNU3NZanQ0dzFTVlY1ZFBfblBFVA?oc=5",
      "source": "Embrapa",
      "published_at": "2026-07-31T12:48:34+00:00"
+    },
+    {
+     "title": "Soja anda de lado em Chicago nesta sexta-feira, com melhora do clima nos EUA trazendo pressão - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNbTJMOU1LRnNQemt1b1c3a1NsaFl5U2RRVFZ6cmJoMGFfVHZ2dnR0cXJBS1lMR0VObWF0MmN2WEtXM1BPWUU4Z3VnaVdQdXVLSlA3T2dkZzljMGRtYldsVVdiU240RUliX05MXzMyTzVUMnhIWW5VTnFNRGpGaF85QjJFeU9FQTdoX3ZGOEhvbFpkXzEtUWtGbDVLRWZLWVFvekNKcUZneVFxRjczUUdmZUluUkM4WFdyVno5UzBrUzR6eGc0X3JlUzhQMVVpVU9DaWljVEt3cDZ1NzBuS3ZJVXh6NG42b1NCWHlr0gHwAUFVX3lxTE15SVhkcHlyMlAtNjJOczlTMDdLSThvRGpVWmRQUk5qZUNOUmxWNVo4aFgtVXN3eVc1TFkzLWJ5WGhTWUlON3JrSVQ2cDVTQUNPU2tPdm5FdjdiS3RkUnFwSlpWdFd4LVNSTkZFRTV2Y3l0aTBVWTJ6QW9ILWpiTllIZWY5amFIdGNBX0tCSm1JNkRlZWMzSWFTVHU0LW1qUEZiUzFaeFFVUVQtOTFRUW9hUDd4Vm1jUGtUY2NwODV6d0QwcGlDclJvUnlQLWhwdEJ5MHVBbGR4dlNmdDluZHVSY0kwZm1xMHNzMjE3WDA4Rw?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-07-31T10:42:19+00:00"
     },
     {
      "title": "ES vai ganhar polo logístico do agronegócio com aeroporto e galpões para café, pimenta e fertilizantes",

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-31T23:56:51+00:00",
+ "generated_at": "2026-08-01T02:36:04+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-07-31T23:56:44+00:00",
+   "updated_at": "2026-08-01T02:35:56+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-07-31T23:56:44+00:00",
+   "updated_at": "2026-08-01T02:35:56+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-07-31T23:56:48+00:00",
+   "updated_at": "2026-08-01T02:36:00+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -276,21 +276,21 @@
      ],
      "tmax": [
       35.7,
-      35.2,
-      35.6,
-      35.0,
-      35.4,
-      35.6,
+      34.8,
+      35.5,
+      35.1,
+      35.1,
+      35.7,
       35.7
      ],
      "tmin": [
       20.1,
-      22.2,
-      23.0,
+      22.3,
+      22.6,
+      21.6,
       21.7,
-      22.0,
       21.9,
-      21.8
+      21.6
      ]
     },
     {
@@ -315,21 +315,21 @@
      ],
      "tmax": [
       33.9,
+      33.9,
+      34.5,
+      33.9,
       34.3,
-      34.6,
-      34.1,
-      34.4,
       34.9,
       34.6
      ],
      "tmin": [
       20.6,
       21.5,
-      22.2,
-      21.3,
-      21.2,
+      21.9,
+      21.1,
       21.0,
-      22.0
+      21.1,
+      21.5
      ]
     },
     {
@@ -353,21 +353,21 @@
       0.0
      ],
      "tmax": [
-      31.2,
-      31.2,
-      30.5,
+      31.1,
+      31.1,
+      30.6,
       30.3,
-      31.2,
-      31.7,
-      32.1
+      30.5,
+      31.9,
+      32.2
      ],
      "tmin": [
       17.7,
-      18.8,
+      19.1,
       18.2,
-      18.2,
-      19.5,
-      20.6,
+      18.1,
+      19.4,
+      20.8,
       21.1
      ]
     },
@@ -387,33 +387,33 @@
       0.0,
       0.0,
       0.0,
-      1.5,
+      0.0,
       0.0,
       6.4
      ],
      "tmax": [
-      27.5,
-      30.7,
-      29.3,
-      26.5,
-      25.9,
-      30.3,
-      32.1
+      28.4,
+      31.0,
+      29.8,
+      26.3,
+      29.9,
+      30.5,
+      32.7
      ],
      "tmin": [
       17.2,
       18.9,
-      19.3,
-      19.8,
-      17.0,
-      17.4,
-      17.8
+      20.0,
+      19.4,
+      16.9,
+      18.2,
+      18.8
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-07-31T23:56:51+00:00",
+   "updated_at": "2026-08-01T02:36:04+00:00",
    "items": [
     {
      "title": "Milho: oferta contida e consumidores abastecidos mantêm mercado sem reação",
@@ -422,9 +422,9 @@
      "published_at": "2026-07-31T23:08:22+00:00"
     },
     {
-     "title": "Cadeia da soja pode responder por 21,2% do PIB do agronegócio em 2026 - opresenterural.com.br",
+     "title": "Cadeia da soja pode responder por 21,2% do PIB do agronegócio em 2026 - O Presente Rural",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVmN1NXBwUHk1M3FqNkV0ZlJkTXhlTUdmMk5aQzlCaVBfaEEyTEdfX2ZNMU5nUEZEV1VuZTh0cnMwQ1Z5QWNTenBvSUlURTBWUWV0ZGFfWWgzUWozUjNDUExhcE5uNmhoUXZtb3gybUxyczFrSmk2WlFEX18wekZpZlpWSVNwZUhEZ0tBSjFVU2Z0bjFMM2tmbl8xTVR5YlU?oc=5",
-     "source": "opresenterural.com.br",
+     "source": "O Presente Rural",
      "published_at": "2026-07-31T23:02:56+00:00"
     },
     {
@@ -512,16 +512,16 @@
      "published_at": "2026-07-31T19:23:00+00:00"
     },
     {
+     "title": "Conab prorroga até 14 de agosto inscrições para armazenagem de farelo de soja - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVzNaM3JxMllyR1NCWXF0dmIzbi1TdVZlMkNFVU5BNFJ1Nmp4eTVxU0NqX0VXS2xzb3FiU2s0Vm9TZURSMWt1RTZSUnFCTXQxNnFLWFM3WTg4akE0MlNoTUc2dFlQdmg0VGhEd2NjRFlyNEFuNzRPdlQ1cHhjN3YwcVQ0N0lEamVLRFE4bEFxQUlJbXlJa29LQ01hdDhzcFA1aFBVZUFMbHFrNFkyQWtuYlk0c1MwU29kSWhZVA?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-31T19:09:13+00:00"
+    },
+    {
      "title": "Conab prorroga inscrições do chamamento público para armazenagem de farelo de soja - www.gov.br",
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQU9jQjRTckZVUzdoUlN1RF94WjNrd2dYcURLckxlTUpvSXlGUllUUWRIdXlhRlpPYndtWWZqX2FwcFVuT1lIQnphNmMwX3l5bkZkRDFPY2VWZnIxREFnaXVTT25KQk4yWGNHVEtnLTI5cVlvdEJPbHduVVpNeHRxWWg2T0d6eVIxRXktRjYzNWM0WFZHTmR5Qm9mUTFnYktaUTZWVGxfVVBfd1J6V0xRNC01MTR0am5Ib3RJZVV6U19ISW5kMTVpUm5RZw?oc=5",
      "source": "www.gov.br",
      "published_at": "2026-07-31T18:58:51+00:00"
-    },
-    {
-     "title": "WWF-Brasil lança nota técnica que estima impacto econômico da Moratória da Soja - WWF Brasil",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbC1CQkt3YUI0RExEQklKMERKVGtON2cwNDRVc2haV296ME1kYUpZam50eW5kWk5JWTROYTdpMjZGVmRncW5raVNQOVhwR0xoTTFfek9oLTA1MEtXTGJDbXFac0FzcWdxZ0tFV1RCbFRVb0VkLVZlOER4TTlEelNad0JPOXpqbDl3dm1fSlBlZHlLS1RYa24tQ0lOQXBuT0d2M0NUV091Z1pUZDN1TlE?oc=5",
-     "source": "WWF Brasil",
-     "published_at": "2026-07-31T18:02:15+00:00"
     },
     {
      "title": "Veja como construir viveiros escavados",
@@ -542,9 +542,9 @@
      "published_at": "2026-07-31T14:43:30+00:00"
     },
     {
-     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - A Embrapa",
+     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - Embrapa",
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZmM0Q3lwWHY5cHRwSlowVzlNR0xEVzZneF9iY1hzWHM5NkkzY0p6SHBfVTVibTJnaTlnakJsa0NyZlZQQjdnZURCRm45T0d4eHJpWG9GMnI0TmhINXV2RC00eU03MG5VWjczbnNseDE0eWVyTWZkd25tSV96Y21iT2xkVkNiYk1yalVzdEdsNmhaT2JqWWRFRngzRlM4Z2ZaeDNwemoxdXNiRkNqbDJrRzJMWVluUXRTRnpTUjVZbWFQaHRtYXpmWW9JV3pJclRKUnV2bHJMZnJNU3NZanQ0dzFTVlY1ZFBfblBFVA?oc=5",
-     "source": "A Embrapa",
+     "source": "Embrapa",
      "published_at": "2026-07-31T12:48:34+00:00"
     },
     {

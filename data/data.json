@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-02T20:46:26+00:00",
+ "generated_at": "2026-08-02T21:49:20+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-02T20:46:17+00:00",
+   "updated_at": "2026-08-02T21:49:14+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -229,7 +229,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-02T20:46:17+00:00",
+   "updated_at": "2026-08-02T21:49:15+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -240,7 +240,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-02T20:46:23+00:00",
+   "updated_at": "2026-08-02T21:49:18+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -401,7 +401,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-02T20:46:26+00:00",
+   "updated_at": "2026-08-02T21:49:20+00:00",
    "items": [
     {
      "title": "Certificação revela quanto produtores de lã podem ganhar a mais no RS",
@@ -524,15 +524,9 @@
      "published_at": "2026-08-01T20:03:00+00:00"
     },
     {
-     "title": "Preço da soja foi o destaque de julho, seguido do boi gordo - Farmnews",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVW9fQ25zbDhHQ2U1VWlPemdVRlZOX0t6UEpndEQ4WElZUTNXMFFaU2o2dXZwMGdFUDV5VGlMaU9YTHVoc3VWUVRXVlEyUWJYSUdicGhDMnBlaVh0dm90cjAzWE1vSG9uSXhwUVgzNnpOYXExZlVfbHRjODNJRGp3Rmo0ZXNTMHVjQXFoaW96YjZvcFk4YVE?oc=5",
-     "source": "Farmnews",
-     "published_at": "2026-08-01T19:53:26+00:00"
-    },
-    {
-     "title": "Boletim semanal de preços: soja recua em Chicago, milho oscila e boi fecha julho em alta - agrolink.com.br",
+     "title": "Boletim semanal de preços: soja recua em Chicago, milho oscila e boi fecha julho em alta - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMVRocDJCREVxZzRDeUwxYUhTbUZEWEVMWWR6dVVzMlIwdnNkdEh6MXZBSzVIRVBMX2xWdlVLN1J6NVZrb0hLM2c2N3FRN1d0RzFaUUZoQVI5d19BZFBtWEpiV2NiaGh3RHA1VXR3dzVGUVRHVV9xY2QtOUxCNExNdlpQTER1bHoxNGtLdXRzdWZuOFpTcklFbF82X3BtdnNMNF9OTG1GcEZxVkVMdW9MNHh5Q3N6RmNYQWFGMjdQM2JHYjJDQ3pXWWY0ek00SzFxN2lz?oc=5",
-     "source": "agrolink.com.br",
+     "source": "Agrolink",
      "published_at": "2026-08-01T16:41:00+00:00"
     },
     {
@@ -554,9 +548,9 @@
      "published_at": "2026-07-31T21:02:01+00:00"
     },
     {
-     "title": "Soja recua após melhora do clima nos EUA - agrolink.com.br",
+     "title": "Soja recua após melhora do clima nos EUA - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQTNrcHhfZUljUmJCeDIwXzZyaWZYNDAtVlpSVC15OEtXdUo4THJNOE9FcHEwcEpUc2t5THd4N1ltTlFvM2dPNmpqUFdocGR5T2tPTzNNMGxtVlQ4SUNYekxjclpSSWt6bkRMRXFLSHBNZjFfU1AxRzBkdWQxcHBHM203YlJsakFDRnBpMWNkdXZTSDQ?oc=5",
-     "source": "agrolink.com.br",
+     "source": "Agrolink",
      "published_at": "2026-07-31T17:02:00+00:00"
     },
     {
@@ -582,6 +576,12 @@
      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNbTJMOU1LRnNQemt1b1c3a1NsaFl5U2RRVFZ6cmJoMGFfVHZ2dnR0cXJBS1lMR0VObWF0MmN2WEtXM1BPWUU4Z3VnaVdQdXVLSlA3T2dkZzljMGRtYldsVVdiU240RUliX05MXzMyTzVUMnhIWW5VTnFNRGpGaF85QjJFeU9FQTdoX3ZGOEhvbFpkXzEtUWtGbDVLRWZLWVFvekNKcUZneVFxRjczUUdmZUluUkM4WFdyVno5UzBrUzR6eGc0X3JlUzhQMVVpVU9DaWljVEt3cDZ1NzBuS3ZJVXh6NG42b1NCWHlr0gHwAUFVX3lxTE15SVhkcHlyMlAtNjJOczlTMDdLSThvRGpVWmRQUk5qZUNOUmxWNVo4aFgtVXN3eVc1TFkzLWJ5WGhTWUlON3JrSVQ2cDVTQUNPU2tPdm5FdjdiS3RkUnFwSlpWdFd4LVNSTkZFRTV2Y3l0aTBVWTJ6QW9ILWpiTllIZWY5amFIdGNBX0tCSm1JNkRlZWMzSWFTVHU0LW1qUEZiUzFaeFFVUVQtOTFRUW9hUDd4Vm1jUGtUY2NwODV6d0QwcGlDclJvUnlQLWhwdEJ5MHVBbGR4dlNmdDluZHVSY0kwZm1xMHNzMjE3WDA4Rw?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-31T10:42:19+00:00"
+    },
+    {
+     "title": "ES vai ganhar polo logístico do agronegócio com aeroporto e galpões para café, pimenta e fertilizantes",
+     "link": "https://g1.globo.com/es/espirito-santo/agronegocios/noticia/2026/07/31/es-vai-ganhar-polo-logistico-do-agronegocio-com-aeroporto-e-galpoes-para-cafe-pimenta-e-fertilizantes.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-31T07:01:04"
     }
    ],
    "failed": [

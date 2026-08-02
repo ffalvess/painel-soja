@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-02T02:09:17+00:00",
+ "generated_at": "2026-08-02T05:50:30+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-02T02:09:07+00:00",
+   "updated_at": "2026-08-02T05:50:23+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -12,7 +12,6 @@
      "prev_close": 1177.25,
      "change_pct": 0.87,
      "closes": [
-      1126.25,
       1131.75,
       1182.25,
       1196.75,
@@ -33,7 +32,7 @@
       1212.0,
       1178.0,
       1177.25,
-      1172.0
+      1187.5
      ]
     },
     {
@@ -44,7 +43,6 @@
      "prev_close": 445.75,
      "change_pct": 4.09,
      "closes": [
-      421.0,
       425.0,
       440.75,
       442.5,
@@ -65,7 +63,7 @@
       458.5,
       449.0,
       445.75,
-      440.75
+      464.0
      ]
     },
     {
@@ -76,7 +74,6 @@
      "prev_close": 314.1,
      "change_pct": 2.26,
      "closes": [
-      306.6,
       307.7,
       315.0,
       318.4,
@@ -97,7 +94,7 @@
       320.3,
       315.3,
       314.1,
-      312.2
+      321.2
      ]
     },
     {
@@ -108,7 +105,6 @@
      "prev_close": 68.35,
      "change_pct": -2.12,
      "closes": [
-      67.02,
       66.95,
       68.15,
       68.79,
@@ -129,7 +125,7 @@
       70.76,
       69.17,
       68.35,
-      67.12
+      66.9
      ]
     },
     {
@@ -140,7 +136,6 @@
      "prev_close": 663.5,
      "change_pct": -3.65,
      "closes": [
-      592.0,
       590.5,
       606.0,
       609.25,
@@ -172,7 +167,6 @@
      "prev_close": 89.03,
      "change_pct": 1.22,
      "closes": [
-      71.57,
       71.8,
       71.99,
       74.16,
@@ -235,7 +229,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-02T02:09:08+00:00",
+   "updated_at": "2026-08-02T05:50:24+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -246,18 +240,18 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-02T02:09:12+00:00",
+   "updated_at": "2026-08-02T05:50:27+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
      "dates": [
-      "2026-08-01",
       "2026-08-02",
       "2026-08-03",
       "2026-08-04",
       "2026-08-05",
       "2026-08-06",
-      "2026-08-07"
+      "2026-08-07",
+      "2026-08-08"
      ],
      "precip": [
       0.0,
@@ -269,34 +263,34 @@
       0.0
      ],
      "tmax": [
-      35.0,
       35.1,
       34.6,
       34.7,
       35.4,
       35.2,
-      35.7
+      35.7,
+      35.9
      ],
      "tmin": [
-      22.2,
       22.3,
       21.5,
       21.3,
       21.2,
       21.3,
-      22.8
+      22.8,
+      25.4
      ]
     },
     {
      "name": "Sinop · MT",
      "dates": [
-      "2026-08-01",
       "2026-08-02",
       "2026-08-03",
       "2026-08-04",
       "2026-08-05",
       "2026-08-06",
-      "2026-08-07"
+      "2026-08-07",
+      "2026-08-08"
      ],
      "precip": [
       0.0,
@@ -308,34 +302,34 @@
       0.0
      ],
      "tmax": [
-      33.6,
       33.6,
       33.7,
       33.6,
       34.4,
       34.3,
-      34.7
+      34.7,
+      35.4
      ],
      "tmin": [
-      21.6,
       22.2,
       20.6,
       20.9,
       21.4,
       21.5,
-      22.5
+      22.5,
+      24.5
      ]
     },
     {
      "name": "Rio Verde · GO",
      "dates": [
-      "2026-08-01",
       "2026-08-02",
       "2026-08-03",
       "2026-08-04",
       "2026-08-05",
       "2026-08-06",
-      "2026-08-07"
+      "2026-08-07",
+      "2026-08-08"
      ],
      "precip": [
       0.0,
@@ -347,67 +341,67 @@
       0.0
      ],
      "tmax": [
-      31.3,
       30.8,
       29.8,
       31.0,
       31.6,
       32.7,
-      33.2
+      33.2,
+      32.9
      ],
      "tmin": [
-      18.8,
       18.1,
       18.1,
       20.0,
       20.1,
       20.7,
-      22.0
+      22.0,
+      21.7
      ]
     },
     {
      "name": "Dourados · MS",
      "dates": [
-      "2026-08-01",
       "2026-08-02",
       "2026-08-03",
       "2026-08-04",
       "2026-08-05",
       "2026-08-06",
-      "2026-08-07"
+      "2026-08-07",
+      "2026-08-08"
      ],
      "precip": [
-      0.0,
       0.0,
       0.0,
       0.3,
       0.0,
       6.5,
-      11.5
+      11.5,
+      1.4
      ],
      "tmax": [
-      31.9,
       30.7,
       29.0,
       28.8,
       28.4,
       29.7,
-      24.4
+      24.4,
+      25.5
      ],
      "tmin": [
-      18.6,
       19.5,
       20.2,
       20.6,
       18.3,
       17.4,
-      18.9
+      18.9,
+      16.3
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-02T02:09:17+00:00",
+   "updated_at": "2026-08-02T05:50:30+00:00",
    "items": [
     {
      "title": "Carreta tomba e derrama carga de soja na Raposo Tavares em Itapetininga - G1",
@@ -432,6 +426,12 @@
      "link": "https://www.canalrural.com.br/diversos/cachaca-setor-mantem-forca-no-brasil-com-mais-de-15-mil-estabelecimentos-produtores-adivinhe-qual-estado-tem-o-maior-numero/",
      "source": "Canal Rural",
      "published_at": "2026-08-01T21:02:19+00:00"
+    },
+    {
+     "title": "AGROBV 2026 - Campo experimental une pesquisas e inovação para fortalecer a agricultura de Roraima - Prefeitura Municipal de Boa Vista",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQb0JWcGRLU0U1Mll4bm83c0xhXzhKVFoxQ293S1pyUFRYOEJSR1UzTUFTT2VxeDdjdVlxd1dpVkJINjRFNmVaNEpTb25VN1BsUFdRZF93UklfSlc2TF9uNVZTMWpZWUZOeUhaVHVkd2tWMUNrRW9hQUlzUVBGWXZBRGpycHpBS2dmMlRqV05DWDQzU19VblpQY1pza3ZrY0ZXTkJBcGlIVjJtbURjSU5NQXZZZ1M3aTFpX1JyYnNXMllZcV9YVXlyanJsM19tVklUenZoNU5n?oc=5",
+     "source": "Prefeitura Municipal de Boa Vista",
+     "published_at": "2026-08-01T20:11:10+00:00"
     },
     {
      "title": "Radar Rural debate reação do Brasil ao tarifaço e desafios da safra de soja - Canal Rural",
@@ -464,9 +464,9 @@
      "published_at": "2026-08-01T17:14:00+00:00"
     },
     {
-     "title": "Boletim semanal de preços: soja recua em Chicago, milho oscila e boi fecha julho em alta - Agrolink",
+     "title": "Boletim semanal de preços: soja recua em Chicago, milho oscila e boi fecha julho em alta - agrolink.com.br",
      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMVRocDJCREVxZzRDeUwxYUhTbUZEWEVMWWR6dVVzMlIwdnNkdEh6MXZBSzVIRVBMX2xWdlVLN1J6NVZrb0hLM2c2N3FRN1d0RzFaUUZoQVI5d19BZFBtWEpiV2NiaGh3RHA1VXR3dzVGUVRHVV9xY2QtOUxCNExNdlpQTER1bHoxNGtLdXRzdWZuOFpTcklFbF82X3BtdnNMNF9OTG1GcEZxVkVMdW9MNHh5Q3N6RmNYQWFGMjdQM2JHYjJDQ3pXWWY0ek00SzFxN2lz?oc=5",
-     "source": "Agrolink",
+     "source": "agrolink.com.br",
      "published_at": "2026-08-01T16:41:00+00:00"
     },
     {
@@ -506,9 +506,9 @@
      "published_at": "2026-08-01T13:00:00+00:00"
     },
     {
-     "title": "Conab prorroga prazo para empresas armazenarem farelo de soja em unidades da companhia - Primeira Página",
+     "title": "Conab prorroga prazo para empresas armazenarem farelo de soja em unidades da companhia - primeirapagina.com.br",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQURaX1pROWhQVmo2bzJlb2RlLUZRNWIzQUhybzlsQ1R5Zzd4QU03LXNoS2JVT1M3dkxUNDVjUmIwVVR1Q0dTZTdQZ2djeGZpd2lfbFNWNEtnUDY3NURnUkVxeUdIdlFrLUV2dVdNaXBFOUt0czlkYmZoZG9MRnQ0OHBPcXJBYkJIMjUxUURqN2pncTl4ZnlQWXpDZWYwQ2Z4X0FLNTlLN2tOaFlmMXh5QzFpMVcxcmZsamRmc1N5Yw?oc=5",
-     "source": "Primeira Página",
+     "source": "primeirapagina.com.br",
      "published_at": "2026-08-01T12:20:05+00:00"
     },
     {
@@ -522,12 +522,6 @@
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/07/31/63a-expo-rio-preto-reune-agro-produtores-shows-e-atracoes-para-o-publico-infantil.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-31T22:08:11"
-    },
-    {
-     "title": "Soja recua após melhora do clima nos EUA - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQTNrcHhfZUljUmJCeDIwXzZyaWZYNDAtVlpSVC15OEtXdUo4THJNOE9FcHEwcEpUc2t5THd4N1ltTlFvM2dPNmpqUFdocGR5T2tPTzNNMGxtVlQ4SUNYekxjclpSSWt6bkRMRXFLSHBNZjFfU1AxRzBkdWQxcHBHM203YlJsakFDRnBpMWNkdXZTSDQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-07-31T17:02:00+00:00"
     },
     {
      "title": "Veja como construir viveiros escavados",

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-02T17:07:54+00:00",
+ "generated_at": "2026-08-02T19:00:45+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-02T17:07:45+00:00",
+   "updated_at": "2026-08-02T19:00:39+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -229,7 +229,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-02T17:07:45+00:00",
+   "updated_at": "2026-08-02T19:00:39+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -240,7 +240,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-02T17:07:50+00:00",
+   "updated_at": "2026-08-02T19:00:43+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -254,7 +254,7 @@
       "2026-08-08"
      ],
      "precip": [
-      0.0,
+      1.0,
       0.0,
       0.0,
       0.0,
@@ -263,22 +263,22 @@
       0.0
      ],
      "tmax": [
-      34.4,
-      34.5,
-      34.3,
+      34.1,
+      34.7,
+      34.6,
       35.0,
-      35.1,
+      35.2,
       35.6,
-      36.0
+      36.5
      ],
      "tmin": [
       22.3,
-      20.9,
       21.4,
+      21.7,
       21.3,
-      21.0,
-      22.5,
-      24.6
+      21.3,
+      22.9,
+      23.2
      ]
     },
     {
@@ -293,7 +293,7 @@
       "2026-08-08"
      ],
      "precip": [
-      0.1,
+      1.0,
       0.0,
       0.0,
       0.0,
@@ -302,22 +302,22 @@
       0.0
      ],
      "tmax": [
-      33.4,
-      33.3,
-      33.6,
-      34.1,
-      34.3,
-      34.7,
-      34.9
+      33.8,
+      33.7,
+      33.9,
+      34.2,
+      34.4,
+      34.5,
+      35.6
      ],
      "tmin": [
       22.3,
-      20.7,
-      20.7,
-      21.2,
+      20.5,
+      21.3,
+      21.3,
       21.4,
-      22.4,
-      24.3
+      23.0,
+      23.7
      ]
     },
     {
@@ -341,22 +341,22 @@
       0.0
      ],
      "tmax": [
-      30.4,
+      30.9,
       29.5,
-      30.0,
-      31.5,
-      32.6,
-      33.5,
-      33.6
+      30.3,
+      31.3,
+      32.8,
+      33.8,
+      34.3
      ],
      "tmin": [
       17.7,
-      17.8,
-      19.6,
-      19.0,
-      19.0,
-      21.6,
-      23.1
+      18.8,
+      20.3,
+      19.4,
+      21.5,
+      21.9,
+      22.4
      ]
     },
     {
@@ -373,36 +373,54 @@
      "precip": [
       0.0,
       0.0,
-      4.1,
-      1.7,
-      3.3,
-      11.4,
-      6.4
+      0.0,
+      3.2,
+      0.0,
+      5.1,
+      0.6
      ],
      "tmax": [
-      29.4,
-      27.7,
-      28.8,
-      28.4,
-      30.7,
-      26.1,
-      29.8
+      26.5,
+      27.3,
+      29.5,
+      26.5,
+      31.1,
+      27.5,
+      31.7
      ],
      "tmin": [
       18.6,
-      19.7,
-      18.1,
-      17.8,
-      18.5,
+      21.0,
       19.1,
-      16.5
+      17.7,
+      18.0,
+      19.3,
+      20.8
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-02T17:07:54+00:00",
+   "updated_at": "2026-08-02T19:00:45+00:00",
    "items": [
+    {
+     "title": "Falhas na colostragem estão entre as principais causas de morte de bezerros; veja como evitá-las",
+     "link": "https://www.canalrural.com.br/pecuaria/falhas-na-colostragem-estao-entre-as-principais-causas-de-morte-de-bezerros-veja-como-evita-las/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-02T18:05:00+00:00"
+    },
+    {
+     "title": "'Rei da Soja' entra na mira do MPF por projeto de hidrelétricas - Diario de Cuiabá",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTll0Ylowc0tsVVl2YmlPUlRncVpycVQ1ZkNZRUpMd0NJVjA5QjJXbERCWks1cm9oOUxuWDVIYlVma2dKTmJZZmFJTUx3aXV4SjBDZGpEQVZwdG1PeE5LZHluQVdsV0xMNmVUUVEtQ3IwRWJWZEUyd1EzTHhSMmdWWHp4NnNRdklqa2dES1hIT3g2cWV1TEZ1aGVORlltT0lLT2NpajRpam5RWk9fSTVRcUNTS0pILVAt?oc=5",
+     "source": "Diario de Cuiabá",
+     "published_at": "2026-08-02T17:00:00+00:00"
+    },
+    {
+     "title": "A dívida do Brasil cresce. Onde está o problema?",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/a-divida-do-brasil-cresce-onde-esta-o-problema/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-02T16:45:00+00:00"
+    },
     {
      "title": "Empresa contrata 200 profissionais para laboratórios de algodão",
      "link": "https://www.canalrural.com.br/vagas-de-emprego/empresa-contrata-200-profissionais-para-laboratorios-de-algodao/",
@@ -512,22 +530,10 @@
      "published_at": "2026-08-01T20:03:00+00:00"
     },
     {
-     "title": "Radar Rural debate reação do Brasil ao tarifaço e desafios da safra de soja",
-     "link": "https://www.canalrural.com.br/agricultura/agronegocio/radar-rural-debate-reacao-do-brasil-ao-tarifaco-e-desafios-da-safra-de-soja/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-01T20:03:00+00:00"
-    },
-    {
      "title": "Preço da soja foi o destaque de julho, seguido do boi gordo - Farmnews",
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVW9fQ25zbDhHQ2U1VWlPemdVRlZOX0t6UEpndEQ4WElZUTNXMFFaU2o2dXZwMGdFUDV5VGlMaU9YTHVoc3VWUVRXVlEyUWJYSUdicGhDMnBlaVh0dm90cjAzWE1vSG9uSXhwUVgzNnpOYXExZlVfbHRjODNJRGp3Rmo0ZXNTMHVjQXFoaW96YjZvcFk4YVE?oc=5",
      "source": "Farmnews",
      "published_at": "2026-08-01T19:53:26+00:00"
-    },
-    {
-     "title": "Declaração do ITR 2026 começa em agosto com mudanças no envio",
-     "link": "https://www.canalrural.com.br/economia/declaracao-do-itr-2026-comeca-em-agosto-com-mudancas-no-envio/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-01T18:40:53+00:00"
     },
     {
      "title": "Boletim semanal de preços: soja recua em Chicago, milho oscila e boi fecha julho em alta - Agrolink",
@@ -548,12 +554,6 @@
      "published_at": "2026-07-31T22:08:11"
     },
     {
-     "title": "Mercado da soja tem ritmo lento e registra pequenas oscilações nos preços - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSlgtVW5qSEFNUDhoY1R5N25qRkQ4RUIxQ2Z2dHlyLU5GODFzRDBlcGMzY05UczhELV9GejFEeEd1WXZ5dklDWXV2UHpVY2w4RDgteDVYc3JHT3V0NWQteUM1VW4zNlBPaFdOUUp0MG5NSEt3MUV3R0VLM1RwanQ2c3pidFdpLW5vRG1WN0EzWDJha0VjTUg5dy1TV1pVa092ZFhoSjlpb2Z5R2h0d09JNjlNZlRsN2dnaVVOV3RB?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T21:02:01+00:00"
-    },
-    {
      "title": "Soja recua após melhora do clima nos EUA - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQTNrcHhfZUljUmJCeDIwXzZyaWZYNDAtVlpSVC15OEtXdUo4THJNOE9FcHEwcEpUc2t5THd4N1ltTlFvM2dPNmpqUFdocGR5T2tPTzNNMGxtVlQ4SUNYekxjclpSSWt6bkRMRXFLSHBNZjFfU1AxRzBkdWQxcHBHM203YlJsakFDRnBpMWNkdXZTSDQ?oc=5",
      "source": "Agrolink",
@@ -572,9 +572,9 @@
      "published_at": "2026-07-31T16:02:10+00:00"
     },
     {
-     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - embrapa.br",
+     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - A Embrapa",
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZmM0Q3lwWHY5cHRwSlowVzlNR0xEVzZneF9iY1hzWHM5NkkzY0p6SHBfVTVibTJnaTlnakJsa0NyZlZQQjdnZURCRm45T0d4eHJpWG9GMnI0TmhINXV2RC00eU03MG5VWjczbnNseDE0eWVyTWZkd25tSV96Y21iT2xkVkNiYk1yalVzdEdsNmhaT2JqWWRFRngzRlM4Z2ZaeDNwemoxdXNiRkNqbDJrRzJMWVluUXRTRnpTUjVZbWFQaHRtYXpmWW9JV3pJclRKUnV2bHJMZnJNU3NZanQ0dzFTVlY1ZFBfblBFVA?oc=5",
-     "source": "embrapa.br",
+     "source": "A Embrapa",
      "published_at": "2026-07-31T12:48:34+00:00"
     },
     {

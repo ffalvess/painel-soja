@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-02T11:57:31+00:00",
+ "generated_at": "2026-08-02T13:20:14+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-02T11:57:22+00:00",
+   "updated_at": "2026-08-02T13:20:05+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -229,7 +229,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-02T11:57:22+00:00",
+   "updated_at": "2026-08-02T13:20:05+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -240,7 +240,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-02T11:57:26+00:00",
+   "updated_at": "2026-08-02T13:20:10+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -263,22 +263,22 @@
       0.0
      ],
      "tmax": [
-      34.9,
+      34.4,
       34.5,
-      34.6,
+      34.3,
+      35.0,
       35.1,
-      35.2,
-      35.4,
+      35.6,
       36.0
      ],
      "tmin": [
-      22.5,
-      20.8,
+      22.3,
+      20.9,
       21.4,
-      21.1,
       21.3,
-      22.4,
-      24.8
+      21.0,
+      22.5,
+      24.6
      ]
     },
     {
@@ -293,7 +293,7 @@
       "2026-08-08"
      ],
      "precip": [
-      0.0,
+      0.1,
       0.0,
       0.0,
       0.0,
@@ -302,22 +302,22 @@
       0.0
      ],
      "tmax": [
-      33.7,
+      33.4,
+      33.3,
       33.6,
-      33.6,
+      34.1,
       34.3,
-      34.4,
-      34.8,
+      34.7,
       34.9
      ],
      "tmin": [
-      22.2,
-      20.9,
+      22.3,
       20.7,
-      21.1,
-      21.6,
+      20.7,
+      21.2,
+      21.4,
       22.4,
-      24.4
+      24.3
      ]
     },
     {
@@ -341,22 +341,22 @@
       0.0
      ],
      "tmax": [
-      30.6,
-      29.6,
-      29.4,
+      30.4,
+      29.5,
+      30.0,
       31.5,
       32.6,
       33.5,
       33.6
      ],
      "tmin": [
-      17.9,
-      17.6,
-      19.7,
-      19.1,
-      20.1,
-      21.9,
-      23.7
+      17.7,
+      17.8,
+      19.6,
+      19.0,
+      19.0,
+      21.6,
+      23.1
      ]
     },
     {
@@ -373,36 +373,48 @@
      "precip": [
       0.0,
       0.0,
-      0.9,
-      0.0,
-      9.7,
-      37.7,
+      4.1,
+      1.7,
+      3.3,
+      11.4,
       6.4
      ],
      "tmax": [
       29.4,
-      28.9,
-      29.5,
-      28.9,
-      28.3,
-      26.0,
+      27.7,
+      28.8,
+      28.4,
+      30.7,
+      26.1,
       29.8
      ],
      "tmin": [
-      19.1,
-      20.3,
-      19.8,
-      18.5,
-      18.5,
+      18.6,
+      19.7,
       18.1,
+      17.8,
+      18.5,
+      19.1,
       16.5
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-02T11:57:31+00:00",
+   "updated_at": "2026-08-02T13:20:14+00:00",
    "items": [
+    {
+     "title": "JMMC da Opep manifesta preocupação com ataques à infraestrutura de energia",
+     "link": "https://www.canalrural.com.br/economia/jmmc-da-opep-manifesta-preocupacao-com-ataques-a-infraestrutura-de-energia/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-02T12:52:46+00:00"
+    },
+    {
+     "title": "‘O Brasil tem muito para mostrar de uma nova agricultura’, diz representante da FAO",
+     "link": "https://www.canalrural.com.br/agricultura/o-brasil-tem-muito-para-mostrar-de-uma-nova-agricultura-diz-representante-da-fao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-02T12:03:00+00:00"
+    },
     {
      "title": "Colheita de cana-de-açúcar no interior paulista demanda três turnos de trabalho",
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/02/colheita-de-cana-de-acucar-no-interior-paulista-demanda-tres-turnos-de-trabalho.ghtml",
@@ -524,24 +536,6 @@
      "published_at": "2026-08-01T14:15:13+00:00"
     },
     {
-     "title": "JBS abre mais de 40 vagas na Seara em São Paulo; veja como se candidatar",
-     "link": "https://www.canalrural.com.br/vagas-de-emprego/jbs-abre-mais-de-40-vagas-para-atuacao-no-cd-da-seara-em-sao-paulo-veja-como-se-candidatar/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-01T14:01:00+00:00"
-    },
-    {
-     "title": "Trigo: safra menor e custos em alta acendem alerta para mercado no Brasil",
-     "link": "https://www.canalrural.com.br/agricultura/trigo-safra-menor-e-custos-em-alta-acendem-alerta-para-mercado-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-01T13:36:57+00:00"
-    },
-    {
-     "title": "Preço da soja entra em declínio no Brasil após chegar ao maior valor do ano - MundoCoop",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMkViM04yU3MxUy1oQlNQVEJhQjNmTWIwTVhqZFkza3llWHJjTjNkRjZDcWpSNHF2aXFDTWkwc0kyVTdQR1drcUNKY01oR1haazczS3dmYU56aTVlUWNYZXlXVWRvT0wtdXZxeTJBZWxiLVppRzRsVHo2NDFHN0RCUzRudFJDR3RKMVJfa3ZhdVNiY1FaWHZPaUdyNjhkWi1ENlBaNjdsU2U2M0VMcTMwQ2t4dw?oc=5",
-     "source": "MundoCoop",
-     "published_at": "2026-08-01T13:00:00+00:00"
-    },
-    {
      "title": "Os biscoitos realmente eram melhores antigamente? Entenda por que tanta gente tem essa impressão",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/01/os-biscoitos-realmente-eram-melhores-antigamente-entenda-por-que-tanta-gente-tem-essa-impressao.ghtml",
      "source": "G1 Agronegócios",
@@ -552,6 +546,12 @@
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/07/31/63a-expo-rio-preto-reune-agro-produtores-shows-e-atracoes-para-o-publico-infantil.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-31T22:08:11"
+    },
+    {
+     "title": "Mercado da soja tem ritmo lento e registra pequenas oscilações nos preços - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSlgtVW5qSEFNUDhoY1R5N25qRkQ4RUIxQ2Z2dHlyLU5GODFzRDBlcGMzY05UczhELV9GejFEeEd1WXZ5dklDWXV2UHpVY2w4RDgteDVYc3JHT3V0NWQteUM1VW4zNlBPaFdOUUp0MG5NSEt3MUV3R0VLM1RwanQ2c3pidFdpLW5vRG1WN0EzWDJha0VjTUg5dy1TV1pVa092ZFhoSjlpb2Z5R2h0d09JNjlNZlRsN2dnaVVOV3RB?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-07-31T21:02:01+00:00"
     },
     {
      "title": "Soja recua após melhora do clima nos EUA - Agrolink",
@@ -572,9 +572,9 @@
      "published_at": "2026-07-31T16:02:10+00:00"
     },
     {
-     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - embrapa.br",
+     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - Embrapa",
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZmM0Q3lwWHY5cHRwSlowVzlNR0xEVzZneF9iY1hzWHM5NkkzY0p6SHBfVTVibTJnaTlnakJsa0NyZlZQQjdnZURCRm45T0d4eHJpWG9GMnI0TmhINXV2RC00eU03MG5VWjczbnNseDE0eWVyTWZkd25tSV96Y21iT2xkVkNiYk1yalVzdEdsNmhaT2JqWWRFRngzRlM4Z2ZaeDNwemoxdXNiRkNqbDJrRzJMWVluUXRTRnpTUjVZbWFQaHRtYXpmWW9JV3pJclRKUnV2bHJMZnJNU3NZanQ0dzFTVlY1ZFBfblBFVA?oc=5",
-     "source": "embrapa.br",
+     "source": "Embrapa",
      "published_at": "2026-07-31T12:48:34+00:00"
     },
     {

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-02T08:11:57+00:00",
+ "generated_at": "2026-08-02T10:29:21+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-02T08:11:48+00:00",
+   "updated_at": "2026-08-02T10:29:12+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -229,7 +229,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-02T08:11:48+00:00",
+   "updated_at": "2026-08-02T10:29:13+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -240,7 +240,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-02T08:11:53+00:00",
+   "updated_at": "2026-08-02T10:29:17+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -401,8 +401,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-02T08:11:57+00:00",
+   "updated_at": "2026-08-02T10:29:21+00:00",
    "items": [
+    {
+     "title": "Frente fria se afasta e muda o tempo no Brasil; veja a previsão para hoje",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/frente-fria-se-afasta-e-muda-o-tempo-no-brasil-veja-a-previsao-para-hoje/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-02T08:29:00+00:00"
+    },
     {
      "title": "Vacas leiteiras tiram férias? Entenda por que elas passam dois meses sem produzir leite",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/02/vacas-leiteiras-tiram-ferias-entenda-por-que-elas-passam-dois-meses-sem-produzir-leite.ghtml",
@@ -422,9 +428,9 @@
      "published_at": "2026-08-02T07:01:08"
     },
     {
-     "title": "Carreta tomba e derrama carga de soja na Raposo Tavares em Itapetininga - g1.globo.com",
+     "title": "Carreta tomba e derrama carga de soja na Raposo Tavares em Itapetininga - G1",
      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSjVFYllWR3h0eU9iNXVzTGdTbmZ6anNTM1dIVDUxNWVaUF9aU2tJZWo2WXlyTTVpdHhWOFZRem5wbGxiUFBxMFlwZXhTT2hpOEdFdlpEV0REaDhYbVFFSUNwVGNxZnJsUEdad1hKRXZHY0hfWUFqV2VBX3ZHY1kyaWdMck1OUTgwNjkwLXNyS1JMLXdRcFJpeS1vaEJRSDlMUmJMa0RTVk1qWnBOc2lwOE1iSFVKTV9odjVyYlFQalBSTGotcXNhMWZzTVVpNHMwX3FhSllETdIB5gFBVV95cUxONlA0c2MyNGlmbHVkU0ljZXYzNGNLdUZUODJIV1YzREFMS3lOb2oxaGpYX2J1dXlZbmJPcHZuQS0xX1EwSU1Cb0xhcS1pVEtaOE5FTU12LVc1LXU4U3BrOUhtLTIwbE0zaUxLY0REMXNHRmI5aWpiU1pZT0d4VTJqYWlobG9VWTJSSzNPUkFYT0JyOEFYNkFWV0Z2Rml3MW9IdEpYeGpwMm1TVU5VTFVDTXRkTW9FZjROZldlY0hqcS1ObkhTTEpYYVlZT3VFQ05QN2ZMcFN4eFlfY215WDNmNUVKenpxUQ?oc=5",
-     "source": "g1.globo.com",
+     "source": "G1",
      "published_at": "2026-08-01T23:11:10+00:00"
     },
     {
@@ -512,12 +518,6 @@
      "published_at": "2026-08-01T13:36:57+00:00"
     },
     {
-     "title": "Governo oficializa prorrogação do Desenrola até o fim de agosto",
-     "link": "https://www.canalrural.com.br/economia/governo-oficializa-prorrogacao-do-desenrola-ate-o-fim-de-agosto/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-01T13:25:57+00:00"
-    },
-    {
      "title": "Preço da soja entra em declínio no Brasil após chegar ao maior valor do ano - MundoCoop",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMkViM04yU3MxUy1oQlNQVEJhQjNmTWIwTVhqZFkza3llWHJjTjNkRjZDcWpSNHF2aXFDTWkwc0kyVTdQR1drcUNKY01oR1haazczS3dmYU56aTVlUWNYZXlXVWRvT0wtdXZxeTJBZWxiLVppRzRsVHo2NDFHN0RCUzRudFJDR3RKMVJfa3ZhdVNiY1FaWHZPaUdyNjhkWi1ENlBaNjdsU2U2M0VMcTMwQ2t4dw?oc=5",
      "source": "MundoCoop",
@@ -554,9 +554,9 @@
      "published_at": "2026-07-31T16:02:10+00:00"
     },
     {
-     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - Embrapa",
+     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - embrapa.br",
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZmM0Q3lwWHY5cHRwSlowVzlNR0xEVzZneF9iY1hzWHM5NkkzY0p6SHBfVTVibTJnaTlnakJsa0NyZlZQQjdnZURCRm45T0d4eHJpWG9GMnI0TmhINXV2RC00eU03MG5VWjczbnNseDE0eWVyTWZkd25tSV96Y21iT2xkVkNiYk1yalVzdEdsNmhaT2JqWWRFRngzRlM4Z2ZaeDNwemoxdXNiRkNqbDJrRzJMWVluUXRTRnpTUjVZbWFQaHRtYXpmWW9JV3pJclRKUnV2bHJMZnJNU3NZanQ0dzFTVlY1ZFBfblBFVA?oc=5",
-     "source": "Embrapa",
+     "source": "embrapa.br",
      "published_at": "2026-07-31T12:48:34+00:00"
     },
     {

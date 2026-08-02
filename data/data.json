@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-01T23:51:58+00:00",
+ "generated_at": "2026-08-02T02:09:17+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-01T23:51:50+00:00",
+   "updated_at": "2026-08-02T02:09:07+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-01T23:51:51+00:00",
+   "updated_at": "2026-08-02T02:09:08+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-01T23:51:55+00:00",
+   "updated_at": "2026-08-02T02:09:12+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -270,21 +270,21 @@
      ],
      "tmax": [
       35.0,
-      35.3,
-      34.5,
+      35.1,
       34.6,
-      35.3,
+      34.7,
       35.4,
-      36.0
+      35.2,
+      35.7
      ],
      "tmin": [
       22.2,
-      22.4,
-      22.1,
-      22.2,
-      21.0,
+      22.3,
       21.5,
-      22.7
+      21.3,
+      21.2,
+      21.3,
+      22.8
      ]
     },
     {
@@ -308,22 +308,22 @@
       0.0
      ],
      "tmax": [
-      33.7,
-      34.1,
+      33.6,
       33.6,
       33.7,
+      33.6,
       34.4,
-      34.4,
-      34.9
+      34.3,
+      34.7
      ],
      "tmin": [
       21.6,
       22.2,
+      20.6,
       20.9,
-      20.7,
-      21.0,
-      22.0,
-      22.2
+      21.4,
+      21.5,
+      22.5
      ]
     },
     {
@@ -348,21 +348,21 @@
      ],
      "tmax": [
       31.3,
-      30.7,
-      29.9,
       30.8,
-      31.4,
-      32.9,
-      33.5
+      29.8,
+      31.0,
+      31.6,
+      32.7,
+      33.2
      ],
      "tmin": [
       18.8,
-      17.9,
-      18.4,
-      20.4,
-      19.5,
-      21.1,
-      21.5
+      18.1,
+      18.1,
+      20.0,
+      20.1,
+      20.7,
+      22.0
      ]
     },
     {
@@ -380,34 +380,34 @@
       0.0,
       0.0,
       0.0,
+      0.3,
       0.0,
-      4.5,
-      1.1,
-      6.4
+      6.5,
+      11.5
      ],
      "tmax": [
-      31.7,
-      29.8,
+      31.9,
+      30.7,
       29.0,
-      28.7,
-      28.9,
-      24.5,
-      21.8
+      28.8,
+      28.4,
+      29.7,
+      24.4
      ],
      "tmin": [
       18.6,
       19.5,
-      20.0,
-      20.5,
-      18.0,
-      18.1,
-      17.8
+      20.2,
+      20.6,
+      18.3,
+      17.4,
+      18.9
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-01T23:51:58+00:00",
+   "updated_at": "2026-08-02T02:09:17+00:00",
    "items": [
     {
      "title": "Carreta tomba e derrama carga de soja na Raposo Tavares em Itapetininga - G1",
@@ -512,12 +512,6 @@
      "published_at": "2026-08-01T12:20:05+00:00"
     },
     {
-     "title": "Preço da soja registra terceiro dia de queda no Brasil, mas fecha julho com alta de 8% - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOSXd3SnRLdFJaalZzOUFZcFRPeDV0bWtyanQxQ19GTldfZGx6UnNRMkUySjdmTVJNOWp5OUFMS014UVg2aEJJY2lZVDduaHJscW1QVExfVGtsam5VY3ZwTjBiZWY4YzJYek90ZEZhanY5MDVqcmtkclk5a0NRY3B5MzE3MmppOE83R0VYWHRuUTBOMTBJSHlyVzdwdEEzRGo5RTM5R1YyUjZFZU56OWhWWVdJTVduTGh4b0lTM29YLTl5d2pHY25TQTlhOVhMZTdwU3gyR0N6aGlycDR3dFVFXzl2cUFtUdIB9AFBVV95cUxNR3dYdEE1QldMWnBzSXZPRGxkRU5zM3JmSWFkdlBrZ3ZrdlBiekJoWnpGSFBTenVRdlluUElod0FibTlmamVyZGNRUU5Fb1ZPWnhwdElmWGs4WXBEVlEzeTRJbVcwMzI1T2xuWEFHUFh6eEVDU0hMTk9ZTHJoU2JVRG16Tmxudm5zVDRZQjdaWmF5SGpSWUUyTllxZkVteE1ySVczREJ3akNITmtGem1FRk9lTmFITTdBazFZdkxJMTJKREV3UEVENUlubWZPOXZyNmgxUnVmSkExU19aT09lVi1rRl8xS0kxWml6VDJnM3Z1QXE0?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-01T09:14:08+00:00"
-    },
-    {
      "title": "Os biscoitos realmente eram melhores antigamente? Entenda por que tanta gente tem essa impressão",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/01/os-biscoitos-realmente-eram-melhores-antigamente-entenda-por-que-tanta-gente-tem-essa-impressao.ghtml",
      "source": "G1 Agronegócios",
@@ -548,9 +542,9 @@
      "published_at": "2026-07-31T16:02:10+00:00"
     },
     {
-     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - embrapa.br",
+     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - Embrapa",
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZmM0Q3lwWHY5cHRwSlowVzlNR0xEVzZneF9iY1hzWHM5NkkzY0p6SHBfVTVibTJnaTlnakJsa0NyZlZQQjdnZURCRm45T0d4eHJpWG9GMnI0TmhINXV2RC00eU03MG5VWjczbnNseDE0eWVyTWZkd25tSV96Y21iT2xkVkNiYk1yalVzdEdsNmhaT2JqWWRFRngzRlM4Z2ZaeDNwemoxdXNiRkNqbDJrRzJMWVluUXRTRnpTUjVZbWFQaHRtYXpmWW9JV3pJclRKUnV2bHJMZnJNU3NZanQ0dzFTVlY1ZFBfblBFVA?oc=5",
-     "source": "embrapa.br",
+     "source": "Embrapa",
      "published_at": "2026-07-31T12:48:34+00:00"
     },
     {
@@ -588,6 +582,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/29/brasil-faz-primeira-operacao-usando-vacas-monitoradas-por-ia-como-garantia-para-emprestimos.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-29T08:03:21"
+    },
+    {
+     "title": "Brasil avalia acionar OMC contra veto da União Europeia à carne brasileira e vê motivação política",
+     "link": "https://g1.globo.com/politica/noticia/2026/07/28/brasil-avalia-acionar-omc-contra-veto-da-uniao-europeia-a-carne-brasileira-e-ve-motivacao-politica.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-07-28T16:15:29"
     }
    ],
    "failed": [

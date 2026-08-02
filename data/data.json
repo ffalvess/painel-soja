@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-02T05:50:30+00:00",
+ "generated_at": "2026-08-02T08:11:57+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-02T05:50:23+00:00",
+   "updated_at": "2026-08-02T08:11:48+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -229,7 +229,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-02T05:50:24+00:00",
+   "updated_at": "2026-08-02T08:11:48+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -240,7 +240,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-02T05:50:27+00:00",
+   "updated_at": "2026-08-02T08:11:53+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -263,22 +263,22 @@
       0.0
      ],
      "tmax": [
-      35.1,
+      34.9,
+      34.5,
       34.6,
-      34.7,
-      35.4,
+      35.1,
       35.2,
-      35.7,
-      35.9
+      35.4,
+      36.0
      ],
      "tmin": [
-      22.3,
-      21.5,
+      22.5,
+      20.8,
+      21.4,
+      21.1,
       21.3,
-      21.2,
-      21.3,
-      22.8,
-      25.4
+      22.4,
+      24.8
      ]
     },
     {
@@ -302,22 +302,22 @@
       0.0
      ],
      "tmax": [
-      33.6,
       33.7,
       33.6,
-      34.4,
+      33.6,
       34.3,
-      34.7,
-      35.4
+      34.4,
+      34.8,
+      34.9
      ],
      "tmin": [
       22.2,
-      20.6,
       20.9,
-      21.4,
-      21.5,
-      22.5,
-      24.5
+      20.7,
+      21.1,
+      21.6,
+      22.4,
+      24.4
      ]
     },
     {
@@ -341,22 +341,22 @@
       0.0
      ],
      "tmax": [
-      30.8,
-      29.8,
-      31.0,
-      31.6,
-      32.7,
-      33.2,
-      32.9
+      30.6,
+      29.6,
+      29.4,
+      31.5,
+      32.6,
+      33.5,
+      33.6
      ],
      "tmin": [
-      18.1,
-      18.1,
-      20.0,
+      17.9,
+      17.6,
+      19.7,
+      19.1,
       20.1,
-      20.7,
-      22.0,
-      21.7
+      21.9,
+      23.7
      ]
     },
     {
@@ -373,40 +373,58 @@
      "precip": [
       0.0,
       0.0,
-      0.3,
+      0.9,
       0.0,
-      6.5,
-      11.5,
-      1.4
+      9.7,
+      37.7,
+      6.4
      ],
      "tmax": [
-      30.7,
-      29.0,
-      28.8,
-      28.4,
-      29.7,
-      24.4,
-      25.5
+      29.4,
+      28.9,
+      29.5,
+      28.9,
+      28.3,
+      26.0,
+      29.8
      ],
      "tmin": [
-      19.5,
-      20.2,
-      20.6,
-      18.3,
-      17.4,
-      18.9,
-      16.3
+      19.1,
+      20.3,
+      19.8,
+      18.5,
+      18.5,
+      18.1,
+      16.5
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-02T05:50:30+00:00",
+   "updated_at": "2026-08-02T08:11:57+00:00",
    "items": [
     {
-     "title": "Carreta tomba e derrama carga de soja na Raposo Tavares em Itapetininga - G1",
+     "title": "Vacas leiteiras tiram férias? Entenda por que elas passam dois meses sem produzir leite",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/02/vacas-leiteiras-tiram-ferias-entenda-por-que-elas-passam-dois-meses-sem-produzir-leite.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-02T07:01:19"
+    },
+    {
+     "title": "Comunidade faz mutirão para salvar colheita de café de produtor após acidente no ES: 'Largo o meu para ajudar o outro'",
+     "link": "https://g1.globo.com/es/espirito-santo/agronegocios/noticia/2026/08/02/comunidade-faz-mutirao-para-salvar-colheita-de-cafe-de-produtor-apos-acidente-no-es-largo-o-meu-para-ajudar-o-outro.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-02T07:01:18"
+    },
+    {
+     "title": "O que vai na sua xícara: um mergulho na composição química dos grãos de café brasileiros",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/02/o-que-vai-na-sua-xicara-um-mergulho-na-composicao-quimica-dos-graos-de-cafe-brasileiros.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-02T07:01:08"
+    },
+    {
+     "title": "Carreta tomba e derrama carga de soja na Raposo Tavares em Itapetininga - g1.globo.com",
      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSjVFYllWR3h0eU9iNXVzTGdTbmZ6anNTM1dIVDUxNWVaUF9aU2tJZWo2WXlyTTVpdHhWOFZRem5wbGxiUFBxMFlwZXhTT2hpOEdFdlpEV0REaDhYbVFFSUNwVGNxZnJsUEdad1hKRXZHY0hfWUFqV2VBX3ZHY1kyaWdMck1OUTgwNjkwLXNyS1JMLXdRcFJpeS1vaEJRSDlMUmJMa0RTVk1qWnBOc2lwOE1iSFVKTV9odjVyYlFQalBSTGotcXNhMWZzTVVpNHMwX3FhSllETdIB5gFBVV95cUxONlA0c2MyNGlmbHVkU0ljZXYzNGNLdUZUODJIV1YzREFMS3lOb2oxaGpYX2J1dXlZbmJPcHZuQS0xX1EwSU1Cb0xhcS1pVEtaOE5FTU12LVc1LXU4U3BrOUhtLTIwbE0zaUxLY0REMXNHRmI5aWpiU1pZT0d4VTJqYWlobG9VWTJSSzNPUkFYT0JyOEFYNkFWV0Z2Rml3MW9IdEpYeGpwMm1TVU5VTFVDTXRkTW9FZjROZldlY0hqcS1ObkhTTEpYYVlZT3VFQ05QN2ZMcFN4eFlfY215WDNmNUVKenpxUQ?oc=5",
-     "source": "G1",
+     "source": "g1.globo.com",
      "published_at": "2026-08-01T23:11:10+00:00"
     },
     {
@@ -464,9 +482,9 @@
      "published_at": "2026-08-01T17:14:00+00:00"
     },
     {
-     "title": "Boletim semanal de preços: soja recua em Chicago, milho oscila e boi fecha julho em alta - agrolink.com.br",
+     "title": "Boletim semanal de preços: soja recua em Chicago, milho oscila e boi fecha julho em alta - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMVRocDJCREVxZzRDeUwxYUhTbUZEWEVMWWR6dVVzMlIwdnNkdEh6MXZBSzVIRVBMX2xWdlVLN1J6NVZrb0hLM2c2N3FRN1d0RzFaUUZoQVI5d19BZFBtWEpiV2NiaGh3RHA1VXR3dzVGUVRHVV9xY2QtOUxCNExNdlpQTER1bHoxNGtLdXRzdWZuOFpTcklFbF82X3BtdnNMNF9OTG1GcEZxVkVMdW9MNHh5Q3N6RmNYQWFGMjdQM2JHYjJDQ3pXWWY0ek00SzFxN2lz?oc=5",
-     "source": "agrolink.com.br",
+     "source": "Agrolink",
      "published_at": "2026-08-01T16:41:00+00:00"
     },
     {
@@ -506,12 +524,6 @@
      "published_at": "2026-08-01T13:00:00+00:00"
     },
     {
-     "title": "Conab prorroga prazo para empresas armazenarem farelo de soja em unidades da companhia - primeirapagina.com.br",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQURaX1pROWhQVmo2bzJlb2RlLUZRNWIzQUhybzlsQ1R5Zzd4QU03LXNoS2JVT1M3dkxUNDVjUmIwVVR1Q0dTZTdQZ2djeGZpd2lfbFNWNEtnUDY3NURnUkVxeUdIdlFrLUV2dVdNaXBFOUt0czlkYmZoZG9MRnQ0OHBPcXJBYkJIMjUxUURqN2pncTl4ZnlQWXpDZWYwQ2Z4X0FLNTlLN2tOaFlmMXh5QzFpMVcxcmZsamRmc1N5Yw?oc=5",
-     "source": "primeirapagina.com.br",
-     "published_at": "2026-08-01T12:20:05+00:00"
-    },
-    {
      "title": "Os biscoitos realmente eram melhores antigamente? Entenda por que tanta gente tem essa impressão",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/01/os-biscoitos-realmente-eram-melhores-antigamente-entenda-por-que-tanta-gente-tem-essa-impressao.ghtml",
      "source": "G1 Agronegócios",
@@ -522,6 +534,12 @@
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/07/31/63a-expo-rio-preto-reune-agro-produtores-shows-e-atracoes-para-o-publico-infantil.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-31T22:08:11"
+    },
+    {
+     "title": "Soja recua após melhora do clima nos EUA - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQTNrcHhfZUljUmJCeDIwXzZyaWZYNDAtVlpSVC15OEtXdUo4THJNOE9FcHEwcEpUc2t5THd4N1ltTlFvM2dPNmpqUFdocGR5T2tPTzNNMGxtVlQ4SUNYekxjclpSSWt6bkRMRXFLSHBNZjFfU1AxRzBkdWQxcHBHM203YlJsakFDRnBpMWNkdXZTSDQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-07-31T17:02:00+00:00"
     },
     {
      "title": "Veja como construir viveiros escavados",
@@ -564,24 +582,6 @@
      "link": "https://g1.globo.com/economia/noticia/2026/07/30/tecnologia-carne-e-ia-o-que-empresas-de-brasil-e-coreia-do-sul-negociaram-em-reuniao-fechada.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-30T08:03:28"
-    },
-    {
-     "title": "Por que a carpa nishikigoi pode valer até US$ 1,5 milhão?",
-     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/07/30/por-que-a-carpa-nishikigoi-pode-valer-ate-us-15-milhao.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-30T05:00:08"
-    },
-    {
-     "title": "Vacas monitoradas por IA viram garantia de empréstimos em operação inédita no Brasil",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/29/brasil-faz-primeira-operacao-usando-vacas-monitoradas-por-ia-como-garantia-para-emprestimos.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-29T08:03:21"
-    },
-    {
-     "title": "Brasil avalia acionar OMC contra veto da União Europeia à carne brasileira e vê motivação política",
-     "link": "https://g1.globo.com/politica/noticia/2026/07/28/brasil-avalia-acionar-omc-contra-veto-da-uniao-europeia-a-carne-brasileira-e-ve-motivacao-politica.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-28T16:15:29"
     }
    ],
    "failed": [

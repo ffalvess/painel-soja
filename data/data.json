@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-02T13:20:14+00:00",
+ "generated_at": "2026-08-02T14:57:03+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-02T13:20:05+00:00",
+   "updated_at": "2026-08-02T14:56:57+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -229,7 +229,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-02T13:20:05+00:00",
+   "updated_at": "2026-08-02T14:56:57+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -240,7 +240,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-02T13:20:10+00:00",
+   "updated_at": "2026-08-02T14:57:01+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -401,8 +401,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-02T13:20:14+00:00",
+   "updated_at": "2026-08-02T14:57:03+00:00",
    "items": [
+    {
+     "title": "Estudo revela que polinizadores são essenciais para preservar canelas-de-ema no Cerrado",
+     "link": "https://www.canalrural.com.br/sustentabilidade/estudo-revela-que-polinizadores-sao-essenciais-para-preservar-canelas-de-ema-no-cerrado/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-02T14:04:00+00:00"
+    },
+    {
+     "title": "Frente fria, ciclone e calor acima de 40ºC: veja como fica o tempo no Brasil nesta semana",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/frente-fria-ciclone-e-calor-acima-de-40oc-veja-como-fica-o-tempo-no-brasil-nesta-semana/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-02T13:01:00+00:00"
+    },
     {
      "title": "JMMC da Opep manifesta preocupação com ataques à infraestrutura de energia",
      "link": "https://www.canalrural.com.br/economia/jmmc-da-opep-manifesta-preocupacao-com-ataques-a-infraestrutura-de-energia/",
@@ -500,6 +512,12 @@
      "published_at": "2026-08-01T20:03:00+00:00"
     },
     {
+     "title": "Preço da soja foi o destaque de julho, seguido do boi gordo - Farmnews",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVW9fQ25zbDhHQ2U1VWlPemdVRlZOX0t6UEpndEQ4WElZUTNXMFFaU2o2dXZwMGdFUDV5VGlMaU9YTHVoc3VWUVRXVlEyUWJYSUdicGhDMnBlaVh0dm90cjAzWE1vSG9uSXhwUVgzNnpOYXExZlVfbHRjODNJRGp3Rmo0ZXNTMHVjQXFoaW96YjZvcFk4YVE?oc=5",
+     "source": "Farmnews",
+     "published_at": "2026-08-01T19:53:26+00:00"
+    },
+    {
      "title": "Declaração do ITR 2026 começa em agosto com mudanças no envio",
      "link": "https://www.canalrural.com.br/economia/declaracao-do-itr-2026-comeca-em-agosto-com-mudancas-no-envio/",
      "source": "Canal Rural",
@@ -524,18 +542,6 @@
      "published_at": "2026-08-01T16:41:00+00:00"
     },
     {
-     "title": "‘O clima nós não controlamos, mas o manejo, sim’: produtores de uva se preparam para o super El Niño",
-     "link": "https://www.canalrural.com.br/agricultura/o-clima-nos-nao-controlamos-mas-o-manejo-sim-produtores-se-preparam-para-o-super-el-nino/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-01T16:05:00+00:00"
-    },
-    {
-     "title": "Agosto terá chuva extrema no Sul e risco de onda de calor em grande parte do Brasil; confira com a Climatempo",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/agosto-tera-chuva-extrema-no-sul-e-risco-de-onda-de-calor-em-grande-parte-do-brasil-confira-com-a-climatempo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-01T14:15:13+00:00"
-    },
-    {
      "title": "Os biscoitos realmente eram melhores antigamente? Entenda por que tanta gente tem essa impressão",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/01/os-biscoitos-realmente-eram-melhores-antigamente-entenda-por-que-tanta-gente-tem-essa-impressao.ghtml",
      "source": "G1 Agronegócios",
@@ -546,12 +552,6 @@
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/07/31/63a-expo-rio-preto-reune-agro-produtores-shows-e-atracoes-para-o-publico-infantil.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-07-31T22:08:11"
-    },
-    {
-     "title": "Mercado da soja tem ritmo lento e registra pequenas oscilações nos preços - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSlgtVW5qSEFNUDhoY1R5N25qRkQ4RUIxQ2Z2dHlyLU5GODFzRDBlcGMzY05UczhELV9GejFEeEd1WXZ5dklDWXV2UHpVY2w4RDgteDVYc3JHT3V0NWQteUM1VW4zNlBPaFdOUUp0MG5NSEt3MUV3R0VLM1RwanQ2c3pidFdpLW5vRG1WN0EzWDJha0VjTUg5dy1TV1pVa092ZFhoSjlpb2Z5R2h0d09JNjlNZlRsN2dnaVVOV3RB?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-07-31T21:02:01+00:00"
     },
     {
      "title": "Soja recua após melhora do clima nos EUA - Agrolink",

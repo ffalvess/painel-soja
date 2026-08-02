@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-02T10:29:21+00:00",
+ "generated_at": "2026-08-02T11:57:31+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-02T10:29:12+00:00",
+   "updated_at": "2026-08-02T11:57:22+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -229,7 +229,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-02T10:29:13+00:00",
+   "updated_at": "2026-08-02T11:57:22+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -240,7 +240,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-02T10:29:17+00:00",
+   "updated_at": "2026-08-02T11:57:26+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -401,8 +401,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-02T10:29:21+00:00",
+   "updated_at": "2026-08-02T11:57:31+00:00",
    "items": [
+    {
+     "title": "Colheita de cana-de-açúcar no interior paulista demanda três turnos de trabalho",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/02/colheita-de-cana-de-acucar-no-interior-paulista-demanda-tres-turnos-de-trabalho.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-02T10:30:16"
+    },
+    {
+     "title": "Parceria busca recuperar produção de gengibre em Tapiraí",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/02/parceria-busca-recuperar-producao-de-gengibre-em-tapirai.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-02T10:30:14"
+    },
+    {
+     "title": "Receita Nosso Campo: aprenda a fazer uma torta francesa de frutas",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/02/receita-nosso-campo-aprenda-a-fazer-uma-torta-francesa-de-frutas.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-02T10:30:12"
+    },
     {
      "title": "Frente fria se afasta e muda o tempo no Brasil; veja a previsão para hoje",
      "link": "https://www.canalrural.com.br/previsao-do-tempo/frente-fria-se-afasta-e-muda-o-tempo-no-brasil-veja-a-previsao-para-hoje/",
@@ -564,24 +582,6 @@
      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNbTJMOU1LRnNQemt1b1c3a1NsaFl5U2RRVFZ6cmJoMGFfVHZ2dnR0cXJBS1lMR0VObWF0MmN2WEtXM1BPWUU4Z3VnaVdQdXVLSlA3T2dkZzljMGRtYldsVVdiU240RUliX05MXzMyTzVUMnhIWW5VTnFNRGpGaF85QjJFeU9FQTdoX3ZGOEhvbFpkXzEtUWtGbDVLRWZLWVFvekNKcUZneVFxRjczUUdmZUluUkM4WFdyVno5UzBrUzR6eGc0X3JlUzhQMVVpVU9DaWljVEt3cDZ1NzBuS3ZJVXh6NG42b1NCWHlr0gHwAUFVX3lxTE15SVhkcHlyMlAtNjJOczlTMDdLSThvRGpVWmRQUk5qZUNOUmxWNVo4aFgtVXN3eVc1TFkzLWJ5WGhTWUlON3JrSVQ2cDVTQUNPU2tPdm5FdjdiS3RkUnFwSlpWdFd4LVNSTkZFRTV2Y3l0aTBVWTJ6QW9ILWpiTllIZWY5amFIdGNBX0tCSm1JNkRlZWMzSWFTVHU0LW1qUEZiUzFaeFFVUVQtOTFRUW9hUDd4Vm1jUGtUY2NwODV6d0QwcGlDclJvUnlQLWhwdEJ5MHVBbGR4dlNmdDluZHVSY0kwZm1xMHNzMjE3WDA4Rw?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-31T10:42:19+00:00"
-    },
-    {
-     "title": "ES vai ganhar polo logístico do agronegócio com aeroporto e galpões para café, pimenta e fertilizantes",
-     "link": "https://g1.globo.com/es/espirito-santo/agronegocios/noticia/2026/07/31/es-vai-ganhar-polo-logistico-do-agronegocio-com-aeroporto-e-galpoes-para-cafe-pimenta-e-fertilizantes.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-31T07:01:04"
-    },
-    {
-     "title": "Não era onça: gato-mourisco cruza fazenda e surpreende moradora no interior do RJ",
-     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/07/31/nao-era-onca-gato-mourisco-cruza-fazenda-e-surpreende-moradora-no-interior-do-rj.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-31T06:02:45"
-    },
-    {
-     "title": "Tecnologia, carne e IA: o que empresas de Brasil e Coreia do Sul negociaram em reunião fechada",
-     "link": "https://g1.globo.com/economia/noticia/2026/07/30/tecnologia-carne-e-ia-o-que-empresas-de-brasil-e-coreia-do-sul-negociaram-em-reuniao-fechada.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-30T08:03:28"
     }
    ],
    "failed": [

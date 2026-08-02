@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-02T16:00:02+00:00",
+ "generated_at": "2026-08-02T17:07:54+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-02T15:59:53+00:00",
+   "updated_at": "2026-08-02T17:07:45+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -229,7 +229,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-02T15:59:54+00:00",
+   "updated_at": "2026-08-02T17:07:45+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -240,7 +240,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-02T15:59:58+00:00",
+   "updated_at": "2026-08-02T17:07:50+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -401,8 +401,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-02T16:00:02+00:00",
+   "updated_at": "2026-08-02T17:07:54+00:00",
    "items": [
+    {
+     "title": "Empresa contrata 200 profissionais para laboratórios de algodão",
+     "link": "https://www.canalrural.com.br/vagas-de-emprego/empresa-contrata-200-profissionais-para-laboratorios-de-algodao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-02T16:02:00+00:00"
+    },
     {
      "title": "Estudo revela que polinizadores são essenciais para preservar canelas-de-ema no Cerrado",
      "link": "https://www.canalrural.com.br/sustentabilidade/estudo-revela-que-polinizadores-sao-essenciais-para-preservar-canelas-de-ema-no-cerrado/",
@@ -524,12 +530,6 @@
      "published_at": "2026-08-01T18:40:53+00:00"
     },
     {
-     "title": "Entre fundamentos mais sólidos e novas incertezas: o delicado ponto de inflexão do mercado de arroz",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/entre-fundamentos-mais-solidos-e-novas-incertezas-o-delicado-ponto-de-inflexao-do-mercado-de-arroz/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-01T18:03:00+00:00"
-    },
-    {
      "title": "Boletim semanal de preços: soja recua em Chicago, milho oscila e boi fecha julho em alta - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMVRocDJCREVxZzRDeUwxYUhTbUZEWEVMWWR6dVVzMlIwdnNkdEh6MXZBSzVIRVBMX2xWdlVLN1J6NVZrb0hLM2c2N3FRN1d0RzFaUUZoQVI5d19BZFBtWEpiV2NiaGh3RHA1VXR3dzVGUVRHVV9xY2QtOUxCNExNdlpQTER1bHoxNGtLdXRzdWZuOFpTcklFbF82X3BtdnNMNF9OTG1GcEZxVkVMdW9MNHh5Q3N6RmNYQWFGMjdQM2JHYjJDQ3pXWWY0ek00SzFxN2lz?oc=5",
      "source": "Agrolink",
@@ -572,9 +572,9 @@
      "published_at": "2026-07-31T16:02:10+00:00"
     },
     {
-     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - Embrapa",
+     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - embrapa.br",
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZmM0Q3lwWHY5cHRwSlowVzlNR0xEVzZneF9iY1hzWHM5NkkzY0p6SHBfVTVibTJnaTlnakJsa0NyZlZQQjdnZURCRm45T0d4eHJpWG9GMnI0TmhINXV2RC00eU03MG5VWjczbnNseDE0eWVyTWZkd25tSV96Y21iT2xkVkNiYk1yalVzdEdsNmhaT2JqWWRFRngzRlM4Z2ZaeDNwemoxdXNiRkNqbDJrRzJMWVluUXRTRnpTUjVZbWFQaHRtYXpmWW9JV3pJclRKUnV2bHJMZnJNU3NZanQ0dzFTVlY1ZFBfblBFVA?oc=5",
-     "source": "Embrapa",
+     "source": "embrapa.br",
      "published_at": "2026-07-31T12:48:34+00:00"
     },
     {

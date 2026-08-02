@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-02T21:49:20+00:00",
+ "generated_at": "2026-08-02T22:49:59+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-02T21:49:14+00:00",
+   "updated_at": "2026-08-02T22:49:53+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -229,7 +229,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-02T21:49:15+00:00",
+   "updated_at": "2026-08-02T22:49:53+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -240,7 +240,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-02T21:49:18+00:00",
+   "updated_at": "2026-08-02T22:49:56+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -401,8 +401,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-02T21:49:20+00:00",
+   "updated_at": "2026-08-02T22:49:59+00:00",
    "items": [
+    {
+     "title": "Boi gordo: oferta mais restrita fortalece preços da arroba em julho; saiba o que esperar de agosto",
+     "link": "https://www.canalrural.com.br/pecuaria/boi-gordo-oferta-mais-restrita-fortalece-precos-da-arroba-em-julho-saiba-o-que-esperar-de-agosto/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-02T22:05:00+00:00"
+    },
     {
      "title": "Certificação revela quanto produtores de lã podem ganhar a mais no RS",
      "link": "https://www.canalrural.com.br/pecuaria/certificacao-revela-quanto-produtores-de-la-podem-ganhar-a-mais-no-rs/",
@@ -506,12 +512,6 @@
      "published_at": "2026-08-01T22:02:00+00:00"
     },
     {
-     "title": "Preços da soja sobem em julho, enquanto clima e custos preocupam próxima safra",
-     "link": "https://www.canalrural.com.br/agricultura/soja/precos-da-soja-sobem-em-julho-enquanto-clima-e-custos-preocupam-proxima-safra/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-01T22:02:00+00:00"
-    },
-    {
      "title": "AGROBV 2026 - Campo experimental une pesquisas e inovação para fortalecer a agricultura de Roraima - Prefeitura Municipal de Boa Vista",
      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQb0JWcGRLU0U1Mll4bm83c0xhXzhKVFoxQ293S1pyUFRYOEJSR1UzTUFTT2VxeDdjdVlxd1dpVkJINjRFNmVaNEpTb25VN1BsUFdRZF93UklfSlc2TF9uNVZTMWpZWUZOeUhaVHVkd2tWMUNrRW9hQUlzUVBGWXZBRGpycHpBS2dmMlRqV05DWDQzU19VblpQY1pza3ZrY0ZXTkJBcGlIVjJtbURjSU5NQXZZZ1M3aTFpX1JyYnNXMllZcV9YVXlyanJsM19tVklUenZoNU5n?oc=5",
      "source": "Prefeitura Municipal de Boa Vista",
@@ -522,6 +522,12 @@
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNHFLQzNEX2xVOVV2SHBPczI3Q0JPSGpMYWNZU203djVnMU9BWHh0U05KN1dzRXNCb3Jfdko0UDV6TDExcXhJYWFSV3E3RWI2bThrUjdhT2RLZGdad1dSUzdJemR2eVpzWFZYLXRLZlQ4N1ZrNFIxNDJkNjFUMUt4U203bWVoRnZxWWU0QjlHbU5jQ3dVR1RJU25XcUt3RTA3T3VuejN4cHhLQjY3TXlVZWdkVFRTYmJQY1hhRXVkUm1jU0VhVlUxUmhn?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-01T20:03:00+00:00"
+    },
+    {
+     "title": "Preço da soja foi o destaque de julho, seguido do boi gordo - Farmnews",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVW9fQ25zbDhHQ2U1VWlPemdVRlZOX0t6UEpndEQ4WElZUTNXMFFaU2o2dXZwMGdFUDV5VGlMaU9YTHVoc3VWUVRXVlEyUWJYSUdicGhDMnBlaVh0dm90cjAzWE1vSG9uSXhwUVgzNnpOYXExZlVfbHRjODNJRGp3Rmo0ZXNTMHVjQXFoaW96YjZvcFk4YVE?oc=5",
+     "source": "Farmnews",
+     "published_at": "2026-08-01T19:53:26+00:00"
     },
     {
      "title": "Boletim semanal de preços: soja recua em Chicago, milho oscila e boi fecha julho em alta - Agrolink",
@@ -566,9 +572,9 @@
      "published_at": "2026-07-31T16:02:10+00:00"
     },
     {
-     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - A Embrapa",
+     "title": "Impacto da geopolítica global no agro brasileiro abre debate em seminário sobre mercado de soja - Embrapa",
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZmM0Q3lwWHY5cHRwSlowVzlNR0xEVzZneF9iY1hzWHM5NkkzY0p6SHBfVTVibTJnaTlnakJsa0NyZlZQQjdnZURCRm45T0d4eHJpWG9GMnI0TmhINXV2RC00eU03MG5VWjczbnNseDE0eWVyTWZkd25tSV96Y21iT2xkVkNiYk1yalVzdEdsNmhaT2JqWWRFRngzRlM4Z2ZaeDNwemoxdXNiRkNqbDJrRzJMWVluUXRTRnpTUjVZbWFQaHRtYXpmWW9JV3pJclRKUnV2bHJMZnJNU3NZanQ0dzFTVlY1ZFBfblBFVA?oc=5",
-     "source": "A Embrapa",
+     "source": "Embrapa",
      "published_at": "2026-07-31T12:48:34+00:00"
     },
     {
@@ -576,12 +582,6 @@
      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNbTJMOU1LRnNQemt1b1c3a1NsaFl5U2RRVFZ6cmJoMGFfVHZ2dnR0cXJBS1lMR0VObWF0MmN2WEtXM1BPWUU4Z3VnaVdQdXVLSlA3T2dkZzljMGRtYldsVVdiU240RUliX05MXzMyTzVUMnhIWW5VTnFNRGpGaF85QjJFeU9FQTdoX3ZGOEhvbFpkXzEtUWtGbDVLRWZLWVFvekNKcUZneVFxRjczUUdmZUluUkM4WFdyVno5UzBrUzR6eGc0X3JlUzhQMVVpVU9DaWljVEt3cDZ1NzBuS3ZJVXh6NG42b1NCWHlr0gHwAUFVX3lxTE15SVhkcHlyMlAtNjJOczlTMDdLSThvRGpVWmRQUk5qZUNOUmxWNVo4aFgtVXN3eVc1TFkzLWJ5WGhTWUlON3JrSVQ2cDVTQUNPU2tPdm5FdjdiS3RkUnFwSlpWdFd4LVNSTkZFRTV2Y3l0aTBVWTJ6QW9ILWpiTllIZWY5amFIdGNBX0tCSm1JNkRlZWMzSWFTVHU0LW1qUEZiUzFaeFFVUVQtOTFRUW9hUDd4Vm1jUGtUY2NwODV6d0QwcGlDclJvUnlQLWhwdEJ5MHVBbGR4dlNmdDluZHVSY0kwZm1xMHNzMjE3WDA4Rw?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-07-31T10:42:19+00:00"
-    },
-    {
-     "title": "ES vai ganhar polo logístico do agronegócio com aeroporto e galpões para café, pimenta e fertilizantes",
-     "link": "https://g1.globo.com/es/espirito-santo/agronegocios/noticia/2026/07/31/es-vai-ganhar-polo-logistico-do-agronegocio-com-aeroporto-e-galpoes-para-cafe-pimenta-e-fertilizantes.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-07-31T07:01:04"
     }
    ],
    "failed": [

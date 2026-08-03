@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-03T18:45:57+00:00",
+ "generated_at": "2026-08-03T20:22:37+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-03T18:45:50+00:00",
+   "updated_at": "2026-08-03T20:22:27+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -194,9 +194,9 @@
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 177640.72,
+     "price": 177984.62,
      "prev_close": 177999.0,
-     "change_pct": -0.2,
+     "change_pct": -0.01,
      "closes": [
       174266.0,
       172448.0,
@@ -219,7 +219,7 @@
       173885.0,
       177159.0,
       177999.0,
-      177640.7188
+      177984.625
      ]
     }
    ],
@@ -227,7 +227,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-03T18:45:50+00:00",
+   "updated_at": "2026-08-03T20:22:28+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -238,7 +238,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-03T18:45:54+00:00",
+   "updated_at": "2026-08-03T20:22:34+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -399,8 +399,74 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-03T18:45:57+00:00",
+   "updated_at": "2026-08-03T20:22:37+00:00",
    "items": [
+    {
+     "title": "Estatais chinesas fecham grandes compras de soja dos EUA - Money Times",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUjdqbC1nUnJMajMyaUcyamRrTk5pd1NyTHNBcUV3bEZSeHVXUzdtZk9zTkFpbDRlX053RWJNVUtNOTlkY0lUc3djR2Z1aE45RldzRlZMUzlCSl9CLUp0UXBDVmtzYlc1OXNYY0tkc1l2d2pZaHdXOGtES3NmS3VDTkxBcDJjR1V5R2xCNHlzYkxDb1RnWUFV?oc=5",
+     "source": "Money Times",
+     "published_at": "2026-08-03T20:15:00+00:00"
+    },
+    {
+     "title": "Agroleite 2026 inicia em Castro, Paraná, com foco na pecuária leiteira",
+     "link": "https://www.canalrural.com.br/videos/agroleite-2026-inicia-em-castro-parana-com-foco-na-pecuaria-leiteira/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-03T20:05:23+00:00"
+    },
+    {
+     "title": "Encontro da imprensa destaca a importância da comunicação no agro catarinense",
+     "link": "https://www.canalrural.com.br/videos/encontro-da-imprensa-destaca-a-importancia-da-comunicacao-no-agro-catarinense/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-03T20:05:13+00:00"
+    },
+    {
+     "title": "Inmet prevê El Niño muito forte entre a primavera e o início do verão",
+     "link": "https://www.canalrural.com.br/diversos/inmet-preve-el-nino-muito-forte-entre-a-primavera-e-o-inicio-do-verao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-03T19:28:45+00:00"
+    },
+    {
+     "title": "ANP debate revisão das regras para compra de etanol anidro e estoques de entressafra",
+     "link": "https://www.canalrural.com.br/politica/anp-debate-revisao-das-regras-para-compra-de-etanol-anidro-e-estoques-de-entressafra/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-03T19:26:39+00:00"
+    },
+    {
+     "title": "Consultoria projeta recorde na produção de soja e milho em 2026/27 - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWUxVWmVWZHBqOWZ1aGZ1aUNjWG1ONWtkY2xaSnRaTV96dHR5YV9NQUFXTjhMd2dZcktYS0pxXzItdmpBUHRzZ1FTOFkxQTBZU3VNSzN5SFRKVWNsWVhZNzIzN1JmUHNrSXJJNHl0MnFFbU9EcFhwWXJOX1VQZ1o1NWNSYTF0WE5mamRhbHJqNWxGR2J3cEh2cERKWWVKVzdSeDlvWFpJNmxpWWpJSXZsVTVaUndIQUhDOXJVR2VYUVFNeWpnZ1BZ0gHWAUFVX3lxTE9lNzQ1OGlVZ212QjZTR1M2dXQtOTB1RXVITENzckV4dlRhOFBvMDdNTHpSM3IzZHNCblNDVmZSU0tETzZrbXQ5RXFoZXBUaFN2VU5Qc19fUlVTd29kOG5JVVdFN1VQOWtWNnFCZ2NxWHY3YmhiYnpJNXlJMkJQNlM3a3BBWklfTGF6aC1KaFpTZU9EcUtVdm1NQ1ZNaTRJNE9UdWxxZFFsbGhpcTd1eGczZGtnbEIzQjk3Um00b0djMmFkcHc3elYzaEhFUDF6UGRJVmhuR2c?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-03T19:16:13+00:00"
+    },
+    {
+     "title": "Congresso Nacional retoma atividades com foco nas eleições de 2024",
+     "link": "https://www.canalrural.com.br/videos/congresso-nacional-retoma-atividades-com-foco-nas-eleicoes-de-2024/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-03T19:05:38+00:00"
+    },
+    {
+     "title": "Expectativas do mercado sobre juros e emprego em pauta esta semana",
+     "link": "https://www.canalrural.com.br/videos/expectativas-do-mercado-sobre-juros-e-emprego-em-pauta-esta-semana/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-03T19:05:30+00:00"
+    },
+    {
+     "title": "Ciclone extratropical traz temporais e geadas ao sul do Brasil",
+     "link": "https://www.canalrural.com.br/videos/ciclone-extratropical-traz-temporais-e-geadas-ao-sul-do-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-03T19:05:17+00:00"
+    },
+    {
+     "title": "Julgamento sobre cobrança do Funrural no STF é adiado",
+     "link": "https://www.canalrural.com.br/politica/julgamento-sobre-cobranca-do-funrural-no-stf-e-adiado/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-03T19:02:36+00:00"
+    },
+    {
+     "title": "Edital Recaatingar abre seleção para recuperar áreas degradadas da Caatinga",
+     "link": "https://www.canalrural.com.br/politica/edital-recaatingar-abre-selecao-para-recuperar-areas-degradadas-da-caatinga/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-03T18:51:57+00:00"
+    },
     {
      "title": "Brotações avançam até 80% no segundo semestre e elevam risco de greening",
      "link": "https://www.canalrural.com.br/diversos/brotacoes-avancam-ate-80-no-segundo-semestre-e-elevam-risco-de-greening/",
@@ -408,34 +474,10 @@
      "published_at": "2026-08-03T18:26:42+00:00"
     },
     {
-     "title": "Prioridades do Congresso em ano eleitoral: desafios e preocupações",
-     "link": "https://www.canalrural.com.br/videos/prioridades-do-congresso-em-ano-eleitoral-desafios-e-preocupacoes/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-03T18:15:10+00:00"
-    },
-    {
      "title": "Soja e milho caem com clima favorável nos EUA - Revista Cultivar",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVTNUaFRCODlEcm4zZ3Y3QURWUzFBTmhkaTBLcWg4QnJBWkNVbHZseVhwUHAtdjNZYkNPV3Fxbl80OThiejR2WXpQcjJqa3ljbFlpNGJaZk41TEpHWkJ0M3BsV0J5bk1LNXR1TW5jNFFmSWtDSzhpQUZqSFZjMUgybTRtU3pNdHJ3OHVVSGRn?oc=5",
      "source": "Revista Cultivar",
-     "published_at": "2026-08-03T18:03:30+00:00"
-    },
-    {
-     "title": "Receita e CGIBS vão suspender exigência de campos da CBS e IBS em documentos fiscais",
-     "link": "https://www.canalrural.com.br/politica/receita-e-cgibs-vao-suspender-exigencia-de-campos-da-cbs-e-ibs-em-documentos-fiscais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-03T17:39:25+00:00"
-    },
-    {
-     "title": "TCU votará solução consensual sobre multas ligadas à suspensão de atividades no agro",
-     "link": "https://www.canalrural.com.br/politica/tcu-votara-solucao-consensual-sobre-multas-ligadas-a-suspensao-de-atividades-no-agro/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-03T17:19:01+00:00"
-    },
-    {
-     "title": "illycaffè registra receita recorde de 373 milhões de euros no primeiro semestre",
-     "link": "https://www.canalrural.com.br/economia/illycaffe-registra-receita-recorde-de-373-milhoes-de-euros-no-primeiro-semestre/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-03T16:32:55+00:00"
+     "published_at": "2026-08-03T18:03:00+00:00"
     },
     {
      "title": "Brasil Pode Colher 183,1 Milhões de Toneladas de Soja em 2026/27 Se o Clima Colaborar - Forbes Brasil",
@@ -444,28 +486,10 @@
      "published_at": "2026-08-03T15:49:59+00:00"
     },
     {
-     "title": "SIAVS 2026 reúne CEOs para debater futuro da proteína animal",
-     "link": "https://www.canalrural.com.br/aves-e-suinos/siavs-2026-reune-ceos-para-debater-futuro-da-proteina-animal/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-03T15:49:56+00:00"
-    },
-    {
      "title": "Estatais Chinesas Compram 1 Milhão de Toneladas de Soja dos EUA Antes de Reunião Presidencial - Forbes Brasil",
      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOazR3RklVcmt3aU50S0RERUxRTVltNkhhalBVd3IwS3JNNmZtTlJGNmhPcmVGSzd5eGNzY0xwclMxci1WT2dQeGJscmI3YmJjQVg4cEV6Q04xSGhfajFHMGlrWUVBblp5dmJ5WXBhNkhQb2V1bUdUc1RINTRiUXl1Z3lzeTJGc092S2xtSXNqZTZPdm9taDFxTWhyYWFRVmg3U1NzLTM4Z0JmWnFVR25GTEFzcTdQR1hsb0hLblNTYktxMnRST3pBVVRRZ1lIeUpIWXc?oc=5",
      "source": "Forbes Brasil",
      "published_at": "2026-08-03T15:37:57+00:00"
-    },
-    {
-     "title": "EUA reportam venda de 624,15 mil toneladas de soja para China e destinos desconhecidos - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQThGTTJZOVpuQ2gtTHljMTB6MWpGMDdwc2J1T29jYzFpSk1QMFBpcl9xVjNrRTRtVy1Hakk5V1FrcWVsXzBKV2ZEdlppc3o4blhOdmJmenlFM29kVC1mM1NZcmFTRzZmWk8wNGVaR1F1T25Wd3prZ0pscDMyUVo5dVlxVjdkdG1sc3p2aGV6REFoU3Q2XzhaSVZmdkFtQVNQV05JRExrLU1BT3IyTmxYdnM3WHhiSFJ2Tk9OTTZGUkRoQTg?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-03T15:17:17+00:00"
-    },
-    {
-     "title": "EUA reportam venda de 624,15 mil toneladas de soja para China e destinos desconhecidos",
-     "link": "https://www.canalrural.com.br/economia/eua-reportam-venda-de-62415-mil-toneladas-de-soja-para-china-e-destinos-desconhecidos/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-03T15:17:17+00:00"
     },
     {
      "title": "Próxima safra de soja exige atenção a custos e endividamento dos produtores - Canal Rural",
@@ -474,27 +498,9 @@
      "published_at": "2026-08-03T15:15:13+00:00"
     },
     {
-     "title": "Próxima safra de soja exige atenção a custos e endividamento dos produtores",
-     "link": "https://www.canalrural.com.br/videos/proxima-safra-de-soja-exige-atencao-a-custos-e-endividamento-dos-produtores/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-03T15:15:13+00:00"
-    },
-    {
-     "title": "Crescimento do agronegócio no Brasil supera infraestrutura disponível",
-     "link": "https://www.canalrural.com.br/videos/crescimento-do-agronegocio-no-brasil-supera-infraestrutura-disponivel/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-03T15:06:05+00:00"
-    },
-    {
-     "title": "Brasil e México celebram 10 anos de acordo sobre cachaça e tequila",
-     "link": "https://www.canalrural.com.br/videos/brasil-e-mexico-celebram-10-anos-de-acordo-sobre-cachaca-e-tequila/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-03T15:05:54+00:00"
-    },
-    {
-     "title": "Milho fica estável e soja acumula alta em julho - Feed&Food",
+     "title": "Milho fica estável e soja acumula alta em julho - feedfood.com.br",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeDRIanQwYThWWDhsQkJ0cTJmLWdjMldBYUE2MEJSdmx3Rjc0ZWlVZmNObXpzYzFJQVpZaG5GaFVyUE5hZDg5cXp6S19qYUZ6eEZSWUJ6TWEwY3pNWU5tb3VEN0dRU2hrRE5uZHhtMnY0VU5XTWtKZXhzdFVIYTNtNzdYc2E2NnozYkR4M05B?oc=5",
-     "source": "Feed&Food",
+     "source": "feedfood.com.br",
      "published_at": "2026-08-03T14:11:48+00:00"
     },
     {
@@ -502,12 +508,6 @@
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTFpvS1RIdVZTa0JvajEyVG1xUlBPT3Z5eGdMSDdodVJXeTNSbWRTNzFpLVZwQ3BSTjJua1BVWXNxZ3E2Z19yNlQ5MEcwUFVHSjVOb3FCRTNuNzBUa0x1RkNvRVZZckppM2wyUFJkSVV0T2NkazlUYkJLb25xVTEtUmppUmsxR25haE5LMUQ5ZWpCdnNhajIwcDZ4MlY2UVY1X1E?oc=5",
      "source": "Farmnews",
      "published_at": "2026-08-03T14:00:07+00:00"
-    },
-    {
-     "title": "Soja e milho caem em Chicago pressionados pela queda do petróleo - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONEV6d19OOExwc09vdGE1bm01enhrdzkzRUpkRlVmSE5ianVzdXJUMmNDTUUwYnNNRndyczFNbnpXY1BJMUtESlBGQVN0ZVB0Y0VBNGR3T29CSU5EcXR1bmhjbVpqdXhQTFlUa05WNkZqUllUaExkVTVSRVZsakxlSnZuc3hyZ0NvNlFEOFRDSl9OdmI5eHB2WnRrSWhjLUZXSnJKejFiNTMyRndYck1oX01rdDdzMXJHUGZzaWZRQVctZ9IB0AFBVV95cUxPd05QYjVab2prVHVkUDVsaWhaeVBHc2pWNjJiSE5MUXUxWFhTRWl0R19XZTF4VnV2QVBTdnk5RU5TVm5vY19UUGFLZkgzWWEyOU94dmhmdTlLV0E2bmVrdXFMQnd2TURrUVBsbk84aXYzSWRXZWFtRk9QbGdNRGJod2lVMGJobG9Cc3Yxb1llNWtCSjNjbmxBdjF2aWh1NzVqRUhJeE9zNXEyMTROWGxsaEhfZ214dVBLUnFQbEg5Vk1JYnc2NHBvWlZ5VFgyVzRh?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-03T13:56:20+00:00"
     },
     {
      "title": "UE compra pouco da carne bovina do Brasil, mas paga mais e abre portas para outros mercados",
@@ -534,16 +534,16 @@
      "published_at": "2026-08-03T12:41:19"
     },
     {
-     "title": "Soja fecha julho com maior média de 2026 - Agrimidia",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNY2x2cHRHVVVRUjJzeVk1YTlQWl9wSXp4TDBLT25wTmJJWVRkSWwydjFsUDlmQVAxRXRudUMxM19qVFVPcS1GVlI1UWdIakhGbk9aaHdtaUxDMm5Dei1PTmd4LUEwZFZ0WnJyZnhfeDAwOW9GdjExcUtxQ1RVZlBXRDcycTUyUjUwRVNISEI3S2hYc0l6Zm91bDFzcXpUNnphZnRJ?oc=5",
-     "source": "Agrimidia",
-     "published_at": "2026-08-03T11:50:26+00:00"
-    },
-    {
      "title": "CESB: a jornada da produtividade da soja brasileira - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSGcydFF3V1pmTkFfVE1VVl9QZTZXUWxuc1dlMUxVcGN5Q25nNEducUF2LW53X1RYWFhyRjkxTkMzbTl2V0Y1a3UyWklOTEdFUHlDNEhJaHE3RnBmQk5KY0g2UzN2Mi1SeHE2X1lSMGVIejUyRGd4Zkl0MF92Z3ZDb3JEV2pNbG12YkdKNUFxM1c3RlJrOGNKcDdRZmhLMVYtUEFlaGdxamtXazFUbFE?oc=5",
      "source": "Agrolink",
      "published_at": "2026-08-03T11:23:03+00:00"
+    },
+    {
+     "title": "Preço da soja recua no fim de julho, mas fecha mês no maior nível de 2026 - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQV3J0eVB5ZzVlZWZZTEF0dEFEb244S0c2akhxVW03aTkzVFkzRFJrRGtLbGk0bXRGRFNEQ0pHNEN1aGNzLUY5TFRPNGNzYzJBVW9pemJNUHVFNHFJbHluazF0TFFmUW9BRHk4c1ZySzItSzRLMzQxRmVXd05ydFpOWHhwT1VuZ2lKb2Y0aFlPTW9DRENKRUQzajFYRXh4bUtvSFN3ZkFlZmN1R0hyYXZYQmIzUU42bnQzS3ZSdGZOcDNTNWNHU1RwWW5JVXZfc2Uz?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-03T11:19:01+00:00"
     },
     {
      "title": "Soja/Cepea: Cotações recuam no fim de julho; médias são as maiores de 2026 - Notícias Agrícolas",
@@ -552,10 +552,10 @@
      "published_at": "2026-08-03T10:48:04+00:00"
     },
     {
-     "title": "Soja abre agosto em queda na Bolsa de Chicago com clima favorável nos EUA e pressão do petróleo - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbkM2anNHX3dJQ3huZ1c5WXc1dnpOOU8yX1EtZS11NE11cGJNeEF3MXB1VnY4SkIzc2RtWFNlSDhib2szYnpwZ3dpVlJwQmxiSEZEdEFKZFNKaVhLdVZLZnJXTlpaZ2RxMU9xRWdXZnNKdjNnUHJKR1Q5N3loVndZb2dyYkhKZHJ0SDVHam8yZkZwS211U2FGWHJhZVpaaXF0eVA4a2lsWC0zLTdSdGpNN1BHdGo5UmNaMDQ4V01jVExhd0VsSnlvQ0Q0OFVobHVVOTFoQ3pMOF9EMTJscWszekZndlBUV2JCYjktdllGa9IB9AFBVV95cUxONXQyNHJQU3VWRldVdmRZZHRVTERySWY5cFRMVUxrQUJWaUVzS1hQdG1yUENSQzFZWVBSZDBRUDVoR1ZCZkVEQUd5QzZ3WlJtZm9qcEs1a0FGWXRGWXdEcUY5dS1WMlBMLXl4OEtCVjhyRTk0ZXQwNXU2NkJTaG02b0taR1BQOTI4WlFlSzYzeUZieGxmeGRGYTYyV2s2WmRvdlR2dnRQMElwNzBDd2RJcmY3dFBUQUtpVzhsZWhDTG5jVnByd3BobFE2SEx2NVM5b3ZZNUh4UHJqZV9TVXF6MDZ1X3AtRGt3Q1phY0JqRWVYYTVT?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-03T10:33:41+00:00"
+     "title": "Cotação da soja sobe ao maior patamar no ano - Correio do Povo",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYS1CbmE2ZXotNFpwZEtVSzJ5STJrMmVUUkdOcHBnZmpRMXdsemNOQ0JLNVF6THR6dEFxU01YWDV5QktqSkt3ZkxFVUtHeGxaazIzU3l3bFN1NEdlTkNGemkwLTlEUmViTWtnakpNa0pxbFFUTVkwb0hscmdxNjJJYTVyQXJXTW5JS3lITnQzRUV2M01uMHV1MFY5TlpnSXVMeTVJa3dkQ202M2M?oc=5",
+     "source": "Correio do Povo",
+     "published_at": "2026-08-03T08:00:09+00:00"
     },
     {
      "title": "Colheita de cana-de-açúcar no interior paulista demanda três turnos de trabalho",

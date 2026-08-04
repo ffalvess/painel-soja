@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-04T21:06:01+00:00",
+ "generated_at": "2026-08-04T22:57:01+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-04T21:05:52+00:00",
+   "updated_at": "2026-08-04T22:56:55+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 78.89,
+     "price": 78.87,
      "prev_close": 83.77,
-     "change_pct": -5.83,
+     "change_pct": -5.85,
      "closes": [
       71.99,
       74.16,
@@ -193,7 +193,7 @@
       89.03,
       90.12,
       83.77,
-      78.89
+      78.87
      ]
     },
     {
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-04T21:05:52+00:00",
+   "updated_at": "2026-08-04T22:56:55+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-04T21:05:57+00:00",
+   "updated_at": "2026-08-04T22:56:59+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,8 +405,62 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-04T21:06:01+00:00",
+   "updated_at": "2026-08-04T22:57:01+00:00",
    "items": [
+    {
+     "title": "Especialistas e líderes do setor analisam os impactos da geopolítica na cotonicultura brasileira",
+     "link": "https://www.canalrural.com.br/nacional/bahia/especialistas-e-lideres-do-setor-analisam-os-impactos-da-geopolitica-na-cotonicultura-brasileira/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-04T22:30:00+00:00"
+    },
+    {
+     "title": "Conab prorroga edital para armazenagem de farelo de soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWnJpSGt1WnZUTFNWbHlmVHpoZ0lldGNaMXhXeGYwYnI0QzNrM1hCLTdiYlpoa25CZFhiZUI5aWZhbGRRSUhTZGJBS2FvdUJTeUVPZ1JoR3ZUUURSU3lNRHVNWjdrSmYwRDhSaWJESGh5clhWSjN1aDNFVkZlUnVldGFQeEhDLVpBellDOXZBZl8xUDBTS1h0V3U5WDVJSFNHT3NHMVdYeGc?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-04T21:49:00+00:00"
+    },
+    {
+     "title": "Ibovespa fecha em leve queda e dólar comercial sobe a R$ 5,1309",
+     "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-leve-queda-e-dolar-comercial-sobe-a-r-51309/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-04T21:42:32+00:00"
+    },
+    {
+     "title": "Viralizou, mas é fake: Anvisa reforça que não há presença de plástico ou petróleo em ovos",
+     "link": "https://www.canalrural.com.br/seguranca/viralizou-mas-e-fake-anvisa-reforca-que-nao-ha-presenca-de-plastico-ou-petroleo-em-ovos/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-04T21:32:28+00:00"
+    },
+    {
+     "title": "Percepção de risco eleitoral faz juros futuros subirem no fim do pregão",
+     "link": "https://www.canalrural.com.br/economia/percepcao-de-risco-eleitoral-faz-juros-futuros-subirem-no-fim-do-pregao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-04T21:17:14+00:00"
+    },
+    {
+     "title": "Carne suína não vive bom momento, mas ‘céu de brigadeiro’ vai voltar, segundo ABCS",
+     "link": "https://www.canalrural.com.br/aves-e-suinos/carne-suina-nao-vive-bom-momento-mas-ceu-de-brigadeiro-vai-voltar-segundo-abcs/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-04T21:11:41+00:00"
+    },
+    {
+     "title": "STF marca para agosto julgamentos decisivos sobre licenciamento ambiental, terras indígenas e moratória da soja - Brasil de Fato",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZ1pVWnVmU29zMGVXaVpGcF92VWU1RGgwajZaTFQ5Nzc1QlU2MjhmNXdUZ3loa01HOWt0Ymk5OTRHWXhCQVE3aG1qd2RIRkZlYVd3OVlMNE5oOFE1ODk5QlJjUXMzcVd2eU52MXBZaUVENHIwdFBLU0d6TnVHMmFlSGZBWFJnMFhXQnJZZU4zUkh4eVMwQ1R3ZWl1dndkQ0tMMXNXSk5jUTJaaVZjNVQ1RmZjSVROc0ZxcVhGb2VPdVZtcXA1Ri03WVNZQkQ0VF9XXzc0alFhTzhJc01veFJQUjd0SU9GQjBwYXc?oc=5",
+     "source": "Brasil de Fato",
+     "published_at": "2026-08-04T21:02:00+00:00"
+    },
+    {
+     "title": "Soja: veja como ficaram as cotações no Brasil e em Chicago - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2lDM2FZYVhJV2xHOHZNS0pKTFFCQWQ5SllMOHhTSHhaM2JhNV9HZ291VTZCbXQxUVdOMktrTk5GQVN0Ty1rMkRYVTg3WEIydGMxV1pOS3VJbWVYT21VVllpdjN3S0RqUHpqa1pfdGdnOENXbnNuSjM4LWg4MWZHUFVfOWg5emY1S0Ezc2oxdFVIRENTR0NUV2xBNVBIV3BQeEQwTjlGNm1pVW5GaVIzNkNnR1lBSWZ0b0V0bA?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-04T21:00:18+00:00"
+    },
+    {
+     "title": "Soja: veja como ficaram as cotações no Brasil e em Chicago",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/soja-veja-como-ficaram-as-cotacoes-no-brasil-e-em-chicago/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-04T21:00:18+00:00"
+    },
     {
      "title": "Malásia e Cuba abrem mercado para produtos brasileiros",
      "link": "https://www.canalrural.com.br/economia/malasia-e-cuba-abrem-mercado-para-produtos-brasileiros/",
@@ -432,42 +486,6 @@
      "published_at": "2026-08-04T20:10:51+00:00"
     },
     {
-     "title": "Etanol amplia vantagem sobre gasolina em São Paulo, diz Unica",
-     "link": "https://www.canalrural.com.br/economia/etanol-amplia-vantagem-sobre-gasolina-em-sao-paulo-diz-unica/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-04T19:57:20+00:00"
-    },
-    {
-     "title": "Brasil não terá problema de abastecimento de diesel, diz presidente da Ipiranga",
-     "link": "https://www.canalrural.com.br/economia/brasil-nao-tera-problema-de-abastecimento-de-diesel-diz-presidente-da-ipiranga/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-04T19:47:58+00:00"
-    },
-    {
-     "title": "Georreferenciamento e CAR: o novo cruzamento de dados do fisco",
-     "link": "https://www.canalrural.com.br/diversos/georreferenciamento-e-car-o-novo-cruzamento-de-dados-do-fisco/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-04T19:45:44+00:00"
-    },
-    {
-     "title": "CNA defende tecnologia e financiamento para adaptação climática no campo",
-     "link": "https://www.canalrural.com.br/agricultura/cna-defende-tecnologia-e-financiamento-para-adaptacao-climatica-no-campo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-04T19:29:53+00:00"
-    },
-    {
-     "title": "USDA aponta piora na condição do milho nos EUA e estabilidade da soja",
-     "link": "https://www.canalrural.com.br/agricultura/usda-aponta-piora-na-condicao-do-milho-nos-eua-e-estabilidade-da-soja/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-04T19:23:05+00:00"
-    },
-    {
-     "title": "Expo Rio Preto inicia 63ª edição com mais de 1.200 animais de diversas raças",
-     "link": "https://www.canalrural.com.br/videos/expo-rio-preto-inicia-63a-edicao-com-mais-de-1-200-animais-de-diversas-racas/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-04T19:15:26+00:00"
-    },
-    {
      "title": "Nova tecnologia à base de RNA combate percevejos nas lavouras de soja - Jornal da Unicamp",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMDVOV19seFJqNmtiSnlhaVFGcU5pVDVJdlBTRGUyTXJHaHpWaEdfOWZWS0xHTFV5RnF4aS1ZYkhhMkplcDB3TVlCbmZ5V21wWFZZWmJoRzJ3R2VZb2x2VnYxNGpZcWRrWnBEX1ZDZi1oaTF0RnpSc0xVMHRpU19YOFFfa3JKN3p1bGpaOF9uTWplNEdWOFdKdzY2UGF3eVRPZkp5MDVtcFdCdTNTdlhSdmdqZHJXOWc?oc=5",
      "source": "Jornal da Unicamp",
@@ -484,12 +502,6 @@
      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdkpQbzJPcUY5TU16dUFieHNQWGlLMWZfSk9EOVdzTnI3WXZ0eHVtN0ZVbVh3bE5JMzZSS3RGUGRpdndMMkdIZHRCNm9QQUJnZ0tXQkNaQjRfd1pDYnhCMVo3czE4anhCTlg0QXFIak1aeUtMR0ZvYkFCUHFUSzV6SkIycGxHSnpwbm9hbXdvdW9MN2dYYXBvRHpZR1Y3N2VwcEh0clRLRkZxU3g2M0Q5bkM0a29SRjlWY1NndnVQaDV0MWZzQl9TM3J0WTFkWWMwZVBPYjJ0T2VCV2N4SDFVX2NjSGpZOEND0gHuAUFVX3lxTE9rUnpWWXFDTXJuSGYyOXJfaWVEcXhxU3VacDRvbGxiS1BmQWhYbzJGc1VmLWpOV3ZCbVdVZlc4SU9odlZvZ0pseW9PVlVabFRtVlR6UGxuQk9tOXh6ZThIVkNUdGxjUFJJSVFfZFB3MklGVTVyRlVnZzJXVEVtVDNWYklsUk9TZUE3MmlnUVBxaFBHdGRMSUhpTFFHckFKcW4xVF9JZ2ZpZ2hMdjcyRGMxS2dvUThKMU1pbk8wNy1sdzlkNWVlRkwtMFdaakpiSGJIbFdBcXk4OXV5VEtXM2k4ZnAyanZib3J5RHdtN0E?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-04T17:25:14+00:00"
-    },
-    {
-     "title": "Soja mais cara em Mato Grosso reduz margem da indústria de esmagamento, aponta Imea - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVlBab3VpVFlxSFB3NVg1SWNoQk5CbjREbmktZGlJS1VrLUpqc2RvRTRwWEpBSmVpTDNETTlMVlNMN3FQVXpJd3MtR3JhSk9jakI3Zko3U1czd3BLOWpONUJsQ3Jpd0FVMzRudU1RQWlkMl9ONUxmR2ZGTnVTR3FjdjJRbVBhcVZST05BLUZnbElyYk9JZFR1SmNzeTB6OUszQzltakt2V1RzZ09wMGNmQm03eUZlWHNMMzl6LXNYeFpIeU52N0RibU9TV09icERRRUx5YWs5eTh6aThUaEE?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-04T13:13:51+00:00"
     },
     {
      "title": "E-book explica como cultivar e consumir soja como hortaliça - Jornal da USP",
@@ -514,18 +526,6 @@
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdEhqUkpZcURySGhIRzZBdTd3RTNHZFkwVjVCUEp2cmxTYWY1REVSYUI3LV9hOGdXS2F1Qm8xNDJtWFg1NFl4ODQyd3ZkUzkwQTFiUU1DWU5ob2UtLTc3cXg4dHBhOHV0YmloNFBiY0o0RmN4dDRaMmVEc0tVVy1CT0ZWdkN6bnhUQlAtRmNDcWpqZElKNzRNS3p3SGdZUQ?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-08-04T11:40:47+00:00"
-    },
-    {
-     "title": "Oligomicina A controla antracnose da soja em estudo - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYXJpSkVXcUFzUjR1aHc2ZGpTSnNvWE52TUgwcjhJdFgwN3NrM0FZYnFMbzBHVlVSUlM1cFZraV83OUE3V19DbTBXZUhfMXVxVHBqbG5CQkwwajBDSjVQdmMxZ2Fqa3RlQV90VjY5blY3cG1MWWdLTDNZQ0I1WDJnVGF5aV9mMFMzVTRTbkdOU01Ncnk5NGc?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-08-04T11:09:00+00:00"
-    },
-    {
-     "title": "Soja inicia agosto com vendas seletivas e recuos - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMXZDTXR1V2FrN3N4LUt2SWNtNXV1bWpycy1sSnNSUFBMaXR6eWlEUkJNT1RRMjJ2TG1ET1RaTUpza3E2M3kxUVJoLWdqd1p0U1lNRk82RzhVVHhGdGNzc0FQQ2FSX3ZRM20xZmVrY3JFTnAxZEl2ejFNS3RCT1pfRjRtRVozaTBRQVZ2LWNUTTd1VU5YX0JEdkliVnI5UQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-04T09:19:00+00:00"
     },
     {
      "title": "O STF e a moratória da soja: muito além dos benefícios fiscais - JOTA Info",

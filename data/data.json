@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-05T19:21:09+00:00",
+ "generated_at": "2026-08-05T21:01:46+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-05T19:21:02+00:00",
+   "updated_at": "2026-08-05T21:01:37+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -173,9 +173,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 79.47,
+     "price": 79.28,
      "prev_close": 79.36,
-     "change_pct": 0.14,
+     "change_pct": -0.1,
      "closes": [
       71.99,
       74.16,
@@ -199,16 +199,16 @@
       90.12,
       83.77,
       79.36,
-      79.47
+      79.28
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 178073.81,
+     "price": 177726.17,
      "prev_close": 177895.0,
-     "change_pct": 0.1,
+     "change_pct": -0.09,
      "closes": [
       172448.0,
       172021.0,
@@ -232,7 +232,7 @@
       177999.0,
       178000.0,
       177895.0,
-      178073.8125
+      177726.1719
      ]
     }
    ],
@@ -240,7 +240,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-05T19:21:02+00:00",
+   "updated_at": "2026-08-05T21:01:37+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -251,7 +251,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-05T19:21:06+00:00",
+   "updated_at": "2026-08-05T21:01:42+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -412,43 +412,91 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-05T19:21:09+00:00",
+   "updated_at": "2026-08-05T21:01:46+00:00",
    "items": [
+    {
+     "title": "Safra menor e importações elevam custo da moagem de trigo, diz Abitrigo",
+     "link": "https://www.canalrural.com.br/economia/safra-menor-e-importacoes-elevam-custo-da-moagem-de-trigo-diz-abitrigo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T20:47:57+00:00"
+    },
+    {
+     "title": "Futuros de trigo em Chicago se firmam, enquanto milho e soja recuam com previsão de chuva - br.tradingview.com",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8wZUUxcWIyQU40bFRFRWI2WUJ4akUxX19Sa2daNkpCSS15MTA4NUlYSUwyZlU5Zm9kTXB3djRtNzNWdW51a053VGYxVlhGcHlwVmZaem1tVERNV3JIRkZicHZTZlBKQjRZUUpYcUgwaEhSQ0dKampR?oc=5",
+     "source": "br.tradingview.com",
+     "published_at": "2026-08-05T20:35:44+00:00"
+    },
+    {
+     "title": "Ciclone bomba se forma e ameaça trazer temporais, granizo e ventos acima de 100 km/h; saiba onde",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/ciclone-bomba-se-forma-no-oceano-e-ameaca-trazer-temporais-granizo-e-ventos-acima-de-100-km-h-saiba-onde/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T20:31:35+00:00"
+    },
+    {
+     "title": "Frete de exportações marítimas dispara e gera preocupação no agro",
+     "link": "https://www.canalrural.com.br/videos/frete-de-exportacoes-maritimas-dispara-e-gera-preocupacao-no-agro/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T20:15:23+00:00"
+    },
+    {
+     "title": "Equilíbrio entre caminhoneiros e indústria é essencial para logística",
+     "link": "https://www.canalrural.com.br/videos/equilibrio-entre-caminhoneiros-e-industria-e-essencial-para-logistica/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T20:15:11+00:00"
+    },
+    {
+     "title": "Governo sanciona novas regras para fiscalização do frete rodoviário",
+     "link": "https://www.canalrural.com.br/videos/governo-sanciona-novas-regras-para-fiscalizacao-do-frete-rodoviario/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T20:06:01+00:00"
+    },
+    {
+     "title": "SIAVS 2026: maior evento de proteína animal da América Latina",
+     "link": "https://www.canalrural.com.br/videos/siavs-2026-maior-evento-de-proteina-animal-da-america-latina/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T20:05:51+00:00"
+    },
+    {
+     "title": "Projeto leva soluções ao semiárido e reúne mil produtores na Bahia",
+     "link": "https://www.canalrural.com.br/videos/projeto-leva-solucoes-ao-semiarido-e-reune-mil-produtores-na-bahia/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T20:05:41+00:00"
+    },
+    {
+     "title": "Exportações de maçã do Brasil crescem 220% no primeiro semestre de 2023",
+     "link": "https://www.canalrural.com.br/videos/exportacoes-de-maca-do-brasil-crescem-220-no-primeiro-semestre-de-2023/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T20:05:30+00:00"
+    },
+    {
+     "title": "Ciclone bomba traz alerta de tempo severo e risco de geada no Sul",
+     "link": "https://www.canalrural.com.br/videos/ciclone-bomba-traz-alerta-de-tempo-severo-e-risco-de-geada-no-sul/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T20:05:18+00:00"
+    },
+    {
+     "title": "Produtor troca escritório pela agricultura orgânica e encontra propósito no campo",
+     "link": "https://www.canalrural.com.br/agricultura/produtor-troca-escritorio-pela-agricultura-organica-e-encontra-proposito-no-campo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T19:37:38+00:00"
+    },
+    {
+     "title": "Câmara setorial debate safra, dívidas rurais e manejo da soja em Londrina - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ040LVl5bXk4ekFwMnVET1FVQS1pbWY4N1BwYV9udFV5S3FmdUY5YmtnVzVXU19uNFVfMEtLT2tVbHNsclo1YXdUMEkxNXI3YjdtbmQtN1hvOG5NZ2pjVVdFZlY2Vi0yeFNCZGFGaXlkSDl3R0pMeVJ2TlZ2OWdhRHFQUno3Rk5tc1B3M0l2cE5OR2Y2R2t6QmhmdHZyc1pnLUtfclhqYjQ0OVdHMUM1X2JZWmNEQQ?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T19:25:46+00:00"
+    },
+    {
+     "title": "CNA participa de reunião da Câmara Setorial da Cadeia Produtiva da Soja - Portal CNA Brasil",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeTFyeGdyVTYxcjRRalpBY2VONmEweE5td2JlZGJPczFjVEpIZmYxN3RRT29mWE9RMlV5dE44bE4wNEp6Q01GMlo5S3A2MkVyMkdWcjBmVENwdjdNQXhkTXIzdEZNeEtFS0tSWktISXVuRFNPOFRsSmdyVE9vX3N3UTItQWFjVWRVTGVVV2RrRnV6cjRNUmkzbGJGd2t1MFdCeDFZaTNjYWY?oc=5",
+     "source": "Portal CNA Brasil",
+     "published_at": "2026-08-05T19:21:15+00:00"
+    },
     {
      "title": "Milho bate recorde em MT e soja segue sob influência do clima - Revista Cultivar",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWEtsdTRib3F6UTNMc1hSTXpJdUI4U09yTGdsV3BwMF8wX3F6QUh3SW90VHU5OUFkMlBqSDktNy1pQlhyS0QzVU04Zlc2ZjY4V3hreEZyYl9JR2pUa3BucGdjaVZBdHdVNHo2eE5xdGhIcVJqM3hIMVdyOU1rM29EWHBLRmpTdld4d0Z2Mngzd0tudDQ3b0RqZFJnWGdueHpuRVdZ?oc=5",
      "source": "Revista Cultivar",
      "published_at": "2026-08-05T18:38:47+00:00"
-    },
-    {
-     "title": "Estudo da Aprosoja/MS revela desafios da logística para soja e milho em Mato Grosso do Sul - capitalnews.com.br",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOd0h5MXdfNXFYcDEwdndJR1lXWVJkY1F1U01sQUt4T1pXUVJiOTVpSnBPVGVvSEVqQktveVZWcV9jLTBHVjVnXzdPT05ac3VUdURkRmllbzhSel83WjF6QWQwbTdYMnNDb3BIdUJNaFhSTWxVdWNTQnBVdE5PeVQyU0ZqRk1oVEhSMUtPN1g1Szl6RldOdU91RjFpajdOM2NIbHh1X0ZBZXp4OUJpVW15X3YyeERPekF6d2x1dVlYajE4ZlQwWDBFY3hzci1QQQ?oc=5",
-     "source": "capitalnews.com.br",
-     "published_at": "2026-08-05T18:13:00+00:00"
-    },
-    {
-     "title": "IC-Br cai 0,57% em julho, com alta das commodities agropecuárias",
-     "link": "https://www.canalrural.com.br/economia/ic-br-cai-057-em-julho-com-alta-das-commodities-agropecuarias/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T18:02:56+00:00"
-    },
-    {
-     "title": "‘Cardápio Forrageiro’ orienta escolha de plantas resistentes para a pecuária no Semiárido baiano",
-     "link": "https://www.canalrural.com.br/pecuaria/cardapio-forrageiro-orienta-escolha-de-plantas-resistentes-para-a-pecuaria-no-semiarido-baiano/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T18:02:31+00:00"
-    },
-    {
-     "title": "Ciclone bomba pode se formar entre o Uruguai e o litoral do RS",
-     "link": "https://www.canalrural.com.br/diversos/ciclone-bomba-pode-se-formar-entre-o-uruguai-e-o-litoral-do-rs/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T17:31:23+00:00"
-    },
-    {
-     "title": "Lula defende seriedade fiscal para reduzir juros e critica limite a investimentos",
-     "link": "https://www.canalrural.com.br/economia/lula-defende-seriedade-fiscal-para-reduzir-juros-e-critica-limite-a-investimentos/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T16:59:34+00:00"
     },
     {
      "title": "ARTIGO - O maior risco da próxima safra de soja talvez não esteja no preço - AgFeed",
@@ -457,52 +505,10 @@
      "published_at": "2026-08-05T16:31:00+00:00"
     },
     {
-     "title": "Cecafé destaca rastreabilidade para atender exigências do mercado externo",
-     "link": "https://www.canalrural.com.br/agricultura/cecafe-destaca-rastreabilidade-para-atender-exigencias-do-mercado-externo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T15:49:32+00:00"
-    },
-    {
-     "title": "Sicredi Dexis libera R$ 385,9 milhões no primeiro mês do ano-safra 2026/27",
-     "link": "https://www.canalrural.com.br/economia/sicredi-dexis-libera-r-3859-milhoes-no-primeiro-mes-do-ano-safra-2026-27/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T15:48:35+00:00"
-    },
-    {
-     "title": "Prestes a ‘caducar’, governo sanciona MP do Frete dentro do prazo",
-     "link": "https://www.canalrural.com.br/nacional/prestes-a-caducar-governo-sanciona-mp-do-frete-dentro-do-prazo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T15:26:04+00:00"
-    },
-    {
      "title": "STF julga marco temporal, Moratória da Soja e licenciamento ambiental - OpiniãoCE",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTWVKS0hNbkZsVExOVGhobUNEeHFyWWI4ZVF2akFKZTJkTTQyZFYtSXVERldVN2dpOGNoQTF2U1NON3BFSnN1elk4WW9mdnFoeGVPMFcxdU1tRzVQVnI2VlpTeW5KcXZvMDVXcEFveWxqNGRrVTJHQTh1dlgwbVNDdmJqLTNTZ0stTml5ZklNVnRwUTVwYTJlaVNNQ2U4Y192UFVjVjFQMkxudWl4TDRieldaWkJNNXc?oc=5",
      "source": "OpiniãoCE",
      "published_at": "2026-08-05T15:16:57+00:00"
-    },
-    {
-     "title": "CNA apresenta Projeto Forrageiras e centros do Senar a jornalistas na Bahia",
-     "link": "https://www.canalrural.com.br/pecuaria/cna-apresenta-projeto-forrageiras-e-centros-do-senar-a-jornalistas-na-bahia/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T15:06:48+00:00"
-    },
-    {
-     "title": "Otimismo de produtores rurais dos EUA sobe em julho, mostra pesquisa",
-     "link": "https://www.canalrural.com.br/economia/otimismo-de-produtores-rurais-dos-eua-sobe-em-julho-mostra-pesquisa/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T14:47:45+00:00"
-    },
-    {
-     "title": "Preço do arroz atinge maior média em 11 meses com oferta restrita no RS",
-     "link": "https://www.canalrural.com.br/agricultura/arroz/preco-do-arroz-atinge-maior-media-em-11-meses-com-oferta-restrita-no-rs/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T14:40:07+00:00"
-    },
-    {
-     "title": "Soja recua em Chicago com clima favorável nos EUA, mas dólar sustenta preços no Brasil e produtores seguram vendas - Portal do Agronegócio",
-     "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQQk9ZX3BsQjU5b0l6N0Exam5zRmFxeXZwSGd0enVHRWM0UTRsUDFqRG1uY2dYa2hMc2xWQkh2Q2Rocms0S2FNUDdhUVBzYWRKNFpzQ1JUTXZ6NTZuc3g3N1dwMFp6ZExmOWxBVEM3QjBsQkFaMEFWZUZLTEdnMjBfWW1kUTFHZk02VlBPN21sdFg2QnpQb20wejZZckc2V1BWbWlWZm9hZ1pwQlM2Y09QRTZ2cU9lZUJHTDlUT0dyWTR1QW52QzFVdGRULTNmWmtEbHlMOUppeVg0SjNtWVJGR2JIaWdKczZaYXNCcC1jRFd1Z29hMXJ1bnhxblJ3S0ZIVDcyeGFhWmRIUQ?oc=5",
-     "source": "Portal do Agronegócio",
-     "published_at": "2026-08-05T14:30:00+00:00"
     },
     {
      "title": "Soja, petróleo e contêineres impulsionam portos do Norte e do Nordeste - Portal BE News",
@@ -545,12 +551,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/veto-da-ue-atinge-carne-e-mel-brasileiros-enquanto-ganhavam-espaco-no-mercado-europeu.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-05T05:00:08"
-    },
-    {
-     "title": "Datagro prevê alta de 1,5% na produção de soja na safra 26/27 - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeEIwOTh0cXU3Vjc2MXNRa3pSRVp5c01PQ2F4bU1zTFlFRDNiMXIwY3NvUFNNWGJaTWhwMlNacWpxTmljNVR0S19oX1E5dWllQjdXbTNfVEVDOUZVb0ljVzkzRUdJMDVPSFM1YVoyVGtfeHd6TnFjOHdhaVdQdlJTRTBsbHZ4MkNuT0FKMG0yd2o3d2pmVzZKZUJOX3I5UQ?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T00:05:45+00:00"
     },
     {
      "title": "Café: entenda como inverno atípico e chuvoso em julho pode impactar exportação e qualidade da bebida",

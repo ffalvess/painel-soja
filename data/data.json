@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-04T22:57:01+00:00",
+ "generated_at": "2026-08-05T00:01:18+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-04T22:56:55+00:00",
+   "updated_at": "2026-08-05T00:01:10+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 78.87,
+     "price": 78.78,
      "prev_close": 83.77,
-     "change_pct": -5.85,
+     "change_pct": -5.96,
      "closes": [
       71.99,
       74.16,
@@ -193,7 +193,7 @@
       89.03,
       90.12,
       83.77,
-      78.87
+      78.78
      ]
     },
     {
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-04T22:56:55+00:00",
+   "updated_at": "2026-08-05T00:01:11+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-04T22:56:59+00:00",
+   "updated_at": "2026-08-05T00:01:15+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,8 +405,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-04T22:57:01+00:00",
+   "updated_at": "2026-08-05T00:01:18+00:00",
    "items": [
+    {
+     "title": "Siavs 2026 abre com foco na expansão dos mercados e na força da proteína animal brasileira",
+     "link": "https://www.canalrural.com.br/diversos/siavs-2026-abre-com-foco-na-expansao-dos-mercados-e-na-forca-da-proteina-animal-brasileira/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-04T23:10:38+00:00"
+    },
+    {
+     "title": "Arroba do boi gordo avança com oferta restrita e escalas de abate curtas",
+     "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-avanca-com-oferta-restrita-e-escalas-de-abate-curtas/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-04T22:46:05+00:00"
+    },
     {
      "title": "Especialistas e líderes do setor analisam os impactos da geopolítica na cotonicultura brasileira",
      "link": "https://www.canalrural.com.br/nacional/bahia/especialistas-e-lideres-do-setor-analisam-os-impactos-da-geopolitica-na-cotonicultura-brasileira/",
@@ -474,18 +486,6 @@
      "published_at": "2026-08-04T20:36:53+00:00"
     },
     {
-     "title": "Ação da BSCA no Chile projeta US$ 5,56 milhões para cafés especiais",
-     "link": "https://www.canalrural.com.br/economia/acao-da-bsca-no-chile-projeta-us-556-milhoes-para-cafes-especiais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-04T20:33:26+00:00"
-    },
-    {
-     "title": "STF inicia análise de leis sobre soja, terras indígenas e licenciamento",
-     "link": "https://www.canalrural.com.br/politica/stf-inicia-analise-de-leis-sobre-soja-terras-indigenas-e-licenciamento/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-04T20:10:51+00:00"
-    },
-    {
      "title": "Nova tecnologia à base de RNA combate percevejos nas lavouras de soja - Jornal da Unicamp",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMDVOV19seFJqNmtiSnlhaVFGcU5pVDVJdlBTRGUyTXJHaHpWaEdfOWZWS0xHTFV5RnF4aS1ZYkhhMkplcDB3TVlCbmZ5V21wWFZZWmJoRzJ3R2VZb2x2VnYxNGpZcWRrWnBEX1ZDZi1oaTF0RnpSc0xVMHRpU19YOFFfa3JKN3p1bGpaOF9uTWplNEdWOFdKdzY2UGF3eVRPZkp5MDVtcFdCdTNTdlhSdmdqZHJXOWc?oc=5",
      "source": "Jornal da Unicamp",
@@ -502,6 +502,12 @@
      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdkpQbzJPcUY5TU16dUFieHNQWGlLMWZfSk9EOVdzTnI3WXZ0eHVtN0ZVbVh3bE5JMzZSS3RGUGRpdndMMkdIZHRCNm9QQUJnZ0tXQkNaQjRfd1pDYnhCMVo3czE4anhCTlg0QXFIak1aeUtMR0ZvYkFCUHFUSzV6SkIycGxHSnpwbm9hbXdvdW9MN2dYYXBvRHpZR1Y3N2VwcEh0clRLRkZxU3g2M0Q5bkM0a29SRjlWY1NndnVQaDV0MWZzQl9TM3J0WTFkWWMwZVBPYjJ0T2VCV2N4SDFVX2NjSGpZOEND0gHuAUFVX3lxTE9rUnpWWXFDTXJuSGYyOXJfaWVEcXhxU3VacDRvbGxiS1BmQWhYbzJGc1VmLWpOV3ZCbVdVZlc4SU9odlZvZ0pseW9PVlVabFRtVlR6UGxuQk9tOXh6ZThIVkNUdGxjUFJJSVFfZFB3MklGVTVyRlVnZzJXVEVtVDNWYklsUk9TZUE3MmlnUVBxaFBHdGRMSUhpTFFHckFKcW4xVF9JZ2ZpZ2hMdjcyRGMxS2dvUThKMU1pbk8wNy1sdzlkNWVlRkwtMFdaakpiSGJIbFdBcXk4OXV5VEtXM2k4ZnAyanZib3J5RHdtN0E?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-04T17:25:14+00:00"
+    },
+    {
+     "title": "Tempo seco pode esconder risco de doenças na soja - AgroRevenda",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOR0NqOHNJSUpNMjI3VGFGZC00ci0wUFZvUVdkOXFzLWU5REJVdnpKUWlmTmhYYU1TMlJuMmxJMU1rakh4M3VoVHJsS3llZFlXcjI1c2JvcFhiNGtwRkREaHliY0dqYTQ1cnhBMTV5dDZLamU1WDlFMEhyRV96NC1XUGdGa0ZObmRERUFEeUUtY2g?oc=5",
+     "source": "AgroRevenda",
+     "published_at": "2026-08-04T17:12:56+00:00"
     },
     {
      "title": "E-book explica como cultivar e consumir soja como hortaliça - Jornal da USP",
@@ -568,12 +574,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/03/china-soja-eua.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-03T12:41:19"
-    },
-    {
-     "title": "Cotação da soja sobe ao maior patamar no ano - Correio do Povo",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYS1CbmE2ZXotNFpwZEtVSzJ5STJrMmVUUkdOcHBnZmpRMXdsemNOQ0JLNVF6THR6dEFxU01YWDV5QktqSkt3ZkxFVUtHeGxaazIzU3l3bFN1NEdlTkNGemkwLTlEUmViTWtnakpNa0pxbFFUTVkwb0hscmdxNjJJYTVyQXJXTW5JS3lITnQzRUV2M01uMHV1MFY5TlpnSXVMeTVJa3dkQ202M2M?oc=5",
-     "source": "Correio do Povo",
-     "published_at": "2026-08-03T08:00:09+00:00"
     },
     {
      "title": "Colheita de cana-de-açúcar no interior paulista demanda três turnos de trabalho",

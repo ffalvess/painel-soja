@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-05T21:01:46+00:00",
+ "generated_at": "2026-08-05T22:52:34+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-05T21:01:37+00:00",
+   "updated_at": "2026-08-05T22:52:24+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -173,9 +173,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 79.28,
+     "price": 79.49,
      "prev_close": 79.36,
-     "change_pct": -0.1,
+     "change_pct": 0.16,
      "closes": [
       71.99,
       74.16,
@@ -199,7 +199,7 @@
       90.12,
       83.77,
       79.36,
-      79.28
+      79.49
      ]
     },
     {
@@ -240,8 +240,8 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-05T21:01:37+00:00",
-   "selic": 14.25,
+   "updated_at": "2026-08-05T22:52:25+00:00",
+   "selic": 14.0,
    "cdi": 14.15,
    "ipca_mes": {
     "valor": 0.16,
@@ -251,7 +251,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-05T21:01:42+00:00",
+   "updated_at": "2026-08-05T22:52:30+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -412,19 +412,37 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-05T21:01:46+00:00",
+   "updated_at": "2026-08-05T22:52:34+00:00",
    "items": [
+    {
+     "title": "Copom corta Selic para 14% e mantém viés altista para riscos da inflação",
+     "link": "https://www.canalrural.com.br/economia/copom-corta-selic-para-14-e-mantem-vies-altista-para-riscos-da-inflacao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T22:23:39+00:00"
+    },
+    {
+     "title": "Copom reduz Selic para 14% ao ano após corte de 0,25 ponto percentual",
+     "link": "https://www.canalrural.com.br/agricultura/copom-reduz-selic-para-14-ao-ano-apos-corte-de-025-ponto-percentual/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T22:04:10+00:00"
+    },
+    {
+     "title": "Brasil deve se reinventar para seguir líder na soja - AgroRevenda",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWkE4UU90ZkJVTVRRcHU2UklMU19aTndKeU5OM3p5YldMYk9KNlBGR0hybzBpdjVDcDJEdG1vTFhial8wVTNmV1dodHBjWXVOTTBrWTNSQmdqcnQ2bFBmSXM0eWxWTUhOemZfejRKTTl6SmZ5cmM5ZHZxWmFBT2Z1dFA5emppb0g2eVB6RUNFMU4tbE0?oc=5",
+     "source": "AgroRevenda",
+     "published_at": "2026-08-05T21:07:53+00:00"
+    },
+    {
+     "title": "Como a escolha da semente influencia a produtividade da soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZjRFUFJWb210RFNMM2F5MXRIb2l1N29MU3NFS3ZZRi0yRklYZHJJLWZ2R3Rsb1hyQ1hqYnhsMTlfOUU2TFo0Rk05QmhxWUJld3hJM3VGeW9CaEc1elR4SXJPVGdab3pNUDR0c2RDWF9Ed3pHVm50N3o0cDFpTjhEcUtHMldkdG5ydjh1TEpQREE2YWpoX0UzTkxmQWk2TUJoaGRwQldjd2NZcXJPT3c?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-05T21:02:00+00:00"
+    },
     {
      "title": "Safra menor e importações elevam custo da moagem de trigo, diz Abitrigo",
      "link": "https://www.canalrural.com.br/economia/safra-menor-e-importacoes-elevam-custo-da-moagem-de-trigo-diz-abitrigo/",
      "source": "Canal Rural",
      "published_at": "2026-08-05T20:47:57+00:00"
-    },
-    {
-     "title": "Futuros de trigo em Chicago se firmam, enquanto milho e soja recuam com previsão de chuva - br.tradingview.com",
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8wZUUxcWIyQU40bFRFRWI2WUJ4akUxX19Sa2daNkpCSS15MTA4NUlYSUwyZlU5Zm9kTXB3djRtNzNWdW51a053VGYxVlhGcHlwVmZaem1tVERNV3JIRkZicHZTZlBKQjRZUUpYcUgwaEhSQ0dKampR?oc=5",
-     "source": "br.tradingview.com",
-     "published_at": "2026-08-05T20:35:44+00:00"
     },
     {
      "title": "Ciclone bomba se forma e ameaça trazer temporais, granizo e ventos acima de 100 km/h; saiba onde",
@@ -469,21 +487,9 @@
      "published_at": "2026-08-05T20:05:30+00:00"
     },
     {
-     "title": "Ciclone bomba traz alerta de tempo severo e risco de geada no Sul",
-     "link": "https://www.canalrural.com.br/videos/ciclone-bomba-traz-alerta-de-tempo-severo-e-risco-de-geada-no-sul/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T20:05:18+00:00"
-    },
-    {
-     "title": "Produtor troca escritório pela agricultura orgânica e encontra propósito no campo",
-     "link": "https://www.canalrural.com.br/agricultura/produtor-troca-escritorio-pela-agricultura-organica-e-encontra-proposito-no-campo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T19:37:38+00:00"
-    },
-    {
-     "title": "Câmara setorial debate safra, dívidas rurais e manejo da soja em Londrina - Canal Rural",
+     "title": "Câmara setorial debate safra, dívidas rurais e manejo da soja em Londrina - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ040LVl5bXk4ekFwMnVET1FVQS1pbWY4N1BwYV9udFV5S3FmdUY5YmtnVzVXU19uNFVfMEtLT2tVbHNsclo1YXdUMEkxNXI3YjdtbmQtN1hvOG5NZ2pjVVdFZlY2Vi0yeFNCZGFGaXlkSDl3R0pMeVJ2TlZ2OWdhRHFQUno3Rk5tc1B3M0l2cE5OR2Y2R2t6QmhmdHZyc1pnLUtfclhqYjQ0OVdHMUM1X2JZWmNEQQ?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-05T19:25:46+00:00"
     },
     {
@@ -491,12 +497,6 @@
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeTFyeGdyVTYxcjRRalpBY2VONmEweE5td2JlZGJPczFjVEpIZmYxN3RRT29mWE9RMlV5dE44bE4wNEp6Q01GMlo5S3A2MkVyMkdWcjBmVENwdjdNQXhkTXIzdEZNeEtFS0tSWktISXVuRFNPOFRsSmdyVE9vX3N3UTItQWFjVWRVTGVVV2RrRnV6cjRNUmkzbGJGd2t1MFdCeDFZaTNjYWY?oc=5",
      "source": "Portal CNA Brasil",
      "published_at": "2026-08-05T19:21:15+00:00"
-    },
-    {
-     "title": "Milho bate recorde em MT e soja segue sob influência do clima - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWEtsdTRib3F6UTNMc1hSTXpJdUI4U09yTGdsV3BwMF8wX3F6QUh3SW90VHU5OUFkMlBqSDktNy1pQlhyS0QzVU04Zlc2ZjY4V3hreEZyYl9JR2pUa3BucGdjaVZBdHdVNHo2eE5xdGhIcVJqM3hIMVdyOU1rM29EWHBLRmpTdld4d0Z2Mngzd0tudDQ3b0RqZFJnWGdueHpuRVdZ?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-08-05T18:38:47+00:00"
     },
     {
      "title": "ARTIGO - O maior risco da próxima safra de soja talvez não esteja no preço - AgFeed",
@@ -508,7 +508,13 @@
      "title": "STF julga marco temporal, Moratória da Soja e licenciamento ambiental - OpiniãoCE",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTWVKS0hNbkZsVExOVGhobUNEeHFyWWI4ZVF2akFKZTJkTTQyZFYtSXVERldVN2dpOGNoQTF2U1NON3BFSnN1elk4WW9mdnFoeGVPMFcxdU1tRzVQVnI2VlpTeW5KcXZvMDVXcEFveWxqNGRrVTJHQTh1dlgwbVNDdmJqLTNTZ0stTml5ZklNVnRwUTVwYTJlaVNNQ2U4Y192UFVjVjFQMkxudWl4TDRieldaWkJNNXc?oc=5",
      "source": "OpiniãoCE",
-     "published_at": "2026-08-05T15:16:57+00:00"
+     "published_at": "2026-08-05T15:35:36+00:00"
+    },
+    {
+     "title": "Clima nos EUA pressiona soja em Chicago; mercado físico no Brasil opera em ritmo lento - sba1.com",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMy1nR2VaTEE0djJlQVNRb3BQZkxwZTR1eTNqSVVCSDNzQ0xMRkJ4NjhPN1BjOFltd2hvSXhKdGFoSVV2V002aDZkdW80QWs2eGl1Q3l3NEVXbk9YU084UDVRZzFlQ2JLNzQtemxma1RTbEdDaEpIaUwyYlB1ZW9hVGFjbzh3VkhmWDR0R01hdVAwVUJWUDR0MmF0Ri1zV1ZQb2tDb3A5MjRIMDRBajBpNWVrck9wOHE2WU1DbHdveTU0dFU?oc=5",
+     "source": "sba1.com",
+     "published_at": "2026-08-05T14:06:00+00:00"
     },
     {
      "title": "Soja, petróleo e contêineres impulsionam portos do Norte e do Nordeste - Portal BE News",
@@ -533,12 +539,6 @@
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxObDFBVmEwdDliUy0tU1gxeWNhT2VtVkJmVE9GbGwtaU03eVZRTnpKdGlGLU1WVnlVYmNkRUZnYk9RZGtfYTJQU0tpNHU4Ymo3UzFmZ2Etc3lSZ2JZb0Y3VE9DSVhTck0tdmpmZThJTmRQVHN0VDJLQ0ZDVGlydGF0UThNdGozdXlFcERJcUJ5cnUzZXlvZm9tY3VlTDZvYWRQWmtLSFlMVEFyRk9ldlN4dklsUHdFZi1pR3VuYndCbUxrcTFtS3NaaDBfMXdCV0FSZXp4dUNkM25qYjdQUlU1bnkzNC1pbXlKb2wwX9IB8gFBVV95cUxQTGRyTXh5YTZtUDdTYVZGOGNmcnpnYTVtQ29OZ05ZYnB6ZmQteHRIX19JSkN4cUdHMDVuZWE4S2pHYWRNbjh3QVUxQzFOWlM0TDRUVU9vN2N0SVo4bFRhZVdqSlJxZGVpOGFrWktoNmpwQmpoN3NCYVhDb0REUDRZZGV3ZUkycElyUVFsMXJLckR2aFBSbUFXT0VLTHVjVmhwWENrejhQdmFZckVacTJkaWJqZG5KaVowOUhFYjhVNTJlZFNIcWlfYlM1T0h2eUVRa3RvV0p5SkZWYzJJWXQ5VExwOVRFeHU3cjZvMmc3ZVFIUQ?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-05T10:47:47+00:00"
-    },
-    {
-     "title": "Soja tem estabilidade e vendas contidas nos estados - agrolink.com.br",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV25xWU40TjVJVDZxSTAzOGQ4QmlZQ1o3Wm9GUE5mZGlOM0Zfem9uVnhqVXd4cGZ0Q1VtOV8yTWxqVHlOZE9GWUpNMUFBSnl5ZU1pZGpGOFpnZGkzM0NYOWkyenhWTnJwaXZ5dV83SFl5NXo5bXlSejVjbWR2OEE0WG92Ym03MklOc3UzX0xrQkJaREROTkliRWdEYWdfRWVORHc?oc=5",
-     "source": "agrolink.com.br",
-     "published_at": "2026-08-05T09:22:00+00:00"
     },
     {
      "title": "Após trégua nos preços, azeite volta a ser ameaçado por calor extremo e incêndios na Europa",

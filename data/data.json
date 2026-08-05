@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-05T03:55:07+00:00",
+ "generated_at": "2026-08-05T06:22:22+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-05T03:54:55+00:00",
+   "updated_at": "2026-08-05T06:22:15+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1178.75,
-     "prev_close": 1168.75,
-     "change_pct": 0.86,
+     "price": 1178.25,
+     "prev_close": 1155.0,
+     "change_pct": 2.01,
      "closes": [
       1182.25,
       1196.75,
@@ -33,16 +33,17 @@
       1177.25,
       1172.0,
       1168.75,
-      1178.75
+      1155.0,
+      1178.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 464.0,
-     "prev_close": 449.25,
-     "change_pct": 3.28,
+     "price": 463.75,
+     "prev_close": 442.25,
+     "change_pct": 4.86,
      "closes": [
       440.75,
       442.5,
@@ -65,7 +66,8 @@
       445.75,
       440.75,
       449.25,
-      464.0
+      442.25,
+      463.75
      ]
     },
     {
@@ -73,8 +75,8 @@
      "name": "Farelo de soja",
      "unit": "US$/t curta",
      "price": 317.7,
-     "prev_close": 313.4,
-     "change_pct": 1.37,
+     "prev_close": 310.6,
+     "change_pct": 2.29,
      "closes": [
       315.0,
       318.4,
@@ -97,6 +99,7 @@
       314.1,
       312.2,
       313.4,
+      310.6,
       317.7
      ]
     },
@@ -104,9 +107,9 @@
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.48,
-     "prev_close": 68.69,
-     "change_pct": -1.76,
+     "price": 67.5,
+     "prev_close": 68.18,
+     "change_pct": -1.0,
      "closes": [
       68.15,
       68.79,
@@ -129,16 +132,17 @@
       68.35,
       67.12,
       68.69,
-      67.48
+      68.18,
+      67.5
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 636.75,
-     "prev_close": 651.0,
-     "change_pct": -2.19,
+     "price": 637.75,
+     "prev_close": 638.5,
+     "change_pct": -0.12,
      "closes": [
       606.0,
       609.25,
@@ -161,16 +165,17 @@
       663.5,
       639.25,
       651.0,
-      636.75
+      638.5,
+      637.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 78.5,
-     "prev_close": 83.77,
-     "change_pct": -6.29,
+     "price": 79.03,
+     "prev_close": 79.36,
+     "change_pct": -0.42,
      "closes": [
       71.99,
       74.16,
@@ -193,7 +198,8 @@
       89.03,
       90.12,
       83.77,
-      78.5
+      79.36,
+      79.03
      ]
     },
     {
@@ -233,7 +239,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-05T03:54:55+00:00",
+   "updated_at": "2026-08-05T06:22:15+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -244,7 +250,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-05T03:55:01+00:00",
+   "updated_at": "2026-08-05T06:22:19+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,8 +411,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-05T03:55:07+00:00",
+   "updated_at": "2026-08-05T06:22:22+00:00",
    "items": [
+    {
+     "title": "Após trégua nos preços, azeite volta a ser ameaçado por calor extremo e incêndios na Europa",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/apos-tregua-nos-precos-azeite-volta-a-ser-ameacado-por-calor-extremo-e-incendios-na-europa.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-05T05:00:10"
+    },
+    {
+     "title": "Veto da UE atinge carne e mel brasileiros enquanto ganhavam espaço no mercado europeu",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/veto-da-ue-atinge-carne-e-mel-brasileiros-enquanto-ganhavam-espaco-no-mercado-europeu.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-05T05:00:08"
+    },
     {
      "title": "STF julga marco temporal, licenciamento e Moratória da Soja em agosto - climainfo.org.br",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSVZDdktrQXVUWTdhS2lYeGwtNm54dmJ3SW9ieDFlVUNjdVdJekdKUHY3ZVBSUGVaSExVUFRMS2FnVkdtSUlIZ3RhcEdma2EyR2FyNjZXRVNuVl9fOFltZEdFSjNScGxCYi1zeVkwanBUeV9fakxyUDlZYUcyNUp4N0FYMi1mTHR2QVdEa3Zab3ZHeEZuaHM3d1B0djhBNEt5SzBVZlJKS0k?oc=5",
@@ -480,9 +498,9 @@
      "published_at": "2026-08-04T21:49:00+00:00"
     },
     {
-     "title": "STF marca para agosto julgamentos decisivos sobre licenciamento ambiental, terras indígenas e moratória da soja - Brasil de Fato",
+     "title": "STF marca para agosto julgamentos decisivos sobre licenciamento ambiental, terras indígenas e moratória da soja - brasildefato.com.br",
      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZ1pVWnVmU29zMGVXaVpGcF92VWU1RGgwajZaTFQ5Nzc1QlU2MjhmNXdUZ3loa01HOWt0Ymk5OTRHWXhCQVE3aG1qd2RIRkZlYVd3OVlMNE5oOFE1ODk5QlJjUXMzcVd2eU52MXBZaUVENHIwdFBLU0d6TnVHMmFlSGZBWFJnMFhXQnJZZU4zUkh4eVMwQ1R3ZWl1dndkQ0tMMXNXSk5jUTJaaVZjNVQ1RmZjSVROc0ZxcVhGb2VPdVZtcXA1Ri03WVNZQkQ0VF9XXzc0alFhTzhJc01veFJQUjd0SU9GQjBwYXc?oc=5",
-     "source": "Brasil de Fato",
+     "source": "brasildefato.com.br",
      "published_at": "2026-08-04T21:02:00+00:00"
     },
     {
@@ -574,18 +592,6 @@
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/02/colheita-de-cana-de-acucar-no-interior-paulista-demanda-tres-turnos-de-trabalho.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-02T10:30:16"
-    },
-    {
-     "title": "Parceria busca recuperar produção de gengibre em Tapiraí",
-     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/02/parceria-busca-recuperar-producao-de-gengibre-em-tapirai.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-02T10:30:14"
-    },
-    {
-     "title": "Receita Nosso Campo: aprenda a fazer uma torta de frutas",
-     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/02/receita-nosso-campo-aprenda-a-fazer-uma-torta-francesa-de-frutas.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-02T10:30:12"
     }
    ],
    "failed": [

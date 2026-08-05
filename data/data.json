@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-05T22:52:34+00:00",
+ "generated_at": "2026-08-05T23:54:37+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-05T22:52:24+00:00",
+   "updated_at": "2026-08-05T23:54:29+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -173,9 +173,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 79.49,
+     "price": 79.36,
      "prev_close": 79.36,
-     "change_pct": 0.16,
+     "change_pct": 0.0,
      "closes": [
       71.99,
       74.16,
@@ -199,7 +199,7 @@
       90.12,
       83.77,
       79.36,
-      79.49
+      79.36
      ]
     },
     {
@@ -240,7 +240,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-05T22:52:25+00:00",
+   "updated_at": "2026-08-05T23:54:29+00:00",
    "selic": 14.0,
    "cdi": 14.15,
    "ipca_mes": {
@@ -251,7 +251,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-05T22:52:30+00:00",
+   "updated_at": "2026-08-05T23:54:33+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -412,8 +412,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-05T22:52:34+00:00",
+   "updated_at": "2026-08-05T23:54:37+00:00",
    "items": [
+    {
+     "title": "Javali: uma ameaça que o Brasil não pode mais ignorar",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/javali-uma-ameaca-que-o-brasil-nao-pode-mais-ignorar/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T23:10:40+00:00"
+    },
+    {
+     "title": "O que sustentou os preços da soja hoje? Confira as cotações em dia menos movimentado",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/o-que-sustentou-os-precos-da-soja-hoje-confira-as-cotacoes-em-dia-menos-movimentado/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T22:32:22+00:00"
+    },
     {
      "title": "Copom corta Selic para 14% e mantém viés altista para riscos da inflação",
      "link": "https://www.canalrural.com.br/economia/copom-corta-selic-para-14-e-mantem-vies-altista-para-riscos-da-inflacao/",
@@ -427,9 +439,9 @@
      "published_at": "2026-08-05T22:04:10+00:00"
     },
     {
-     "title": "Brasil deve se reinventar para seguir líder na soja - AgroRevenda",
+     "title": "Brasil deve se reinventar para seguir líder na soja - agrorevenda.com.br",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWkE4UU90ZkJVTVRRcHU2UklMU19aTndKeU5OM3p5YldMYk9KNlBGR0hybzBpdjVDcDJEdG1vTFhial8wVTNmV1dodHBjWXVOTTBrWTNSQmdqcnQ2bFBmSXM0eWxWTUhOemZfejRKTTl6SmZ5cmM5ZHZxWmFBT2Z1dFA5emppb0g2eVB6RUNFMU4tbE0?oc=5",
-     "source": "AgroRevenda",
+     "source": "agrorevenda.com.br",
      "published_at": "2026-08-05T21:07:53+00:00"
     },
     {
@@ -443,6 +455,12 @@
      "link": "https://www.canalrural.com.br/economia/safra-menor-e-importacoes-elevam-custo-da-moagem-de-trigo-diz-abitrigo/",
      "source": "Canal Rural",
      "published_at": "2026-08-05T20:47:57+00:00"
+    },
+    {
+     "title": "Prêmios da soja estão nos melhores momentos do ano e são pilar fundamental para preços no Brasil - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQ1VpX1A3Y3lfak42MUFwY1g4SnV6Tm1waXlmQjl2bXFab01TY0Z0dDg2eHZBVEJHM1dyREljVi1oT3JkVmhLUTQ1MXBZVWtVbWEwbDlZdHpRdXNYQi15UHhjTjVKMnhUTmVhbXQtN2dDY2xORFp0ZlFyV1BJZVVyV1djX1hIQm5oTEIyTzJSUFMyTnoyUmlPdkQ5UkpjUlpMSjg0djJlM2ZCTjZ4bllUOFBYSFlibDR0UEFJRW03SXdBSkNMWS1jUk0wcUJPWXdLXzZ3YTdNZHVNWVV0Ykt6aS16b19FZXh0NnZjemRvbVLSAfYBQVVfeXFMTzNkellDeDhxVjhmSkY3SlJ0OGM2bmtydlZ5OGFYTGJpeFR2cWs0STFjOE05U1NKck1SSERieFBWMzU4dUVJOGNiaEd5QnNXc1pRUEQzSHcxSm5sc3dZYUltbFozRkhMdVRWOW0tb0gtR3poOURZZDZXWWZ4NVNkSnVWbmc0TVo2U0hKb1BCX2xTRWt5b1pacEp4S29HaWtQbTZXU0d2azdMVlM5SDRDQmVadnFLeG4xRkluOVZfR3UxX1h1S3JWZV91T2lrbFdzOHVySHVXRXVHSTFYV0xqWFlFREExU3JhanM1S0JCa2JIako5eTlR?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-05T20:45:31+00:00"
     },
     {
      "title": "Ciclone bomba se forma e ameaça trazer temporais, granizo e ventos acima de 100 km/h; saiba onde",
@@ -475,21 +493,9 @@
      "published_at": "2026-08-05T20:05:51+00:00"
     },
     {
-     "title": "Projeto leva soluções ao semiárido e reúne mil produtores na Bahia",
-     "link": "https://www.canalrural.com.br/videos/projeto-leva-solucoes-ao-semiarido-e-reune-mil-produtores-na-bahia/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T20:05:41+00:00"
-    },
-    {
-     "title": "Exportações de maçã do Brasil crescem 220% no primeiro semestre de 2023",
-     "link": "https://www.canalrural.com.br/videos/exportacoes-de-maca-do-brasil-crescem-220-no-primeiro-semestre-de-2023/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T20:05:30+00:00"
-    },
-    {
-     "title": "Câmara setorial debate safra, dívidas rurais e manejo da soja em Londrina - canalrural.com.br",
+     "title": "Câmara setorial debate safra, dívidas rurais e manejo da soja em Londrina - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ040LVl5bXk4ekFwMnVET1FVQS1pbWY4N1BwYV9udFV5S3FmdUY5YmtnVzVXU19uNFVfMEtLT2tVbHNsclo1YXdUMEkxNXI3YjdtbmQtN1hvOG5NZ2pjVVdFZlY2Vi0yeFNCZGFGaXlkSDl3R0pMeVJ2TlZ2OWdhRHFQUno3Rk5tc1B3M0l2cE5OR2Y2R2t6QmhmdHZyc1pnLUtfclhqYjQ0OVdHMUM1X2JZWmNEQQ?oc=5",
-     "source": "canalrural.com.br",
+     "source": "Canal Rural",
      "published_at": "2026-08-05T19:25:46+00:00"
     },
     {
@@ -511,9 +517,9 @@
      "published_at": "2026-08-05T15:35:36+00:00"
     },
     {
-     "title": "Clima nos EUA pressiona soja em Chicago; mercado físico no Brasil opera em ritmo lento - sba1.com",
+     "title": "Clima nos EUA pressiona soja em Chicago; mercado físico no Brasil opera em ritmo lento - SBA1",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMy1nR2VaTEE0djJlQVNRb3BQZkxwZTR1eTNqSVVCSDNzQ0xMRkJ4NjhPN1BjOFltd2hvSXhKdGFoSVV2V002aDZkdW80QWs2eGl1Q3l3NEVXbk9YU084UDVRZzFlQ2JLNzQtemxma1RTbEdDaEpIaUwyYlB1ZW9hVGFjbzh3VkhmWDR0R01hdVAwVUJWUDR0MmF0Ri1zV1ZQb2tDb3A5MjRIMDRBajBpNWVrck9wOHE2WU1DbHdveTU0dFU?oc=5",
-     "source": "sba1.com",
+     "source": "SBA1",
      "published_at": "2026-08-05T14:06:00+00:00"
     },
     {
@@ -533,12 +539,6 @@
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNkZIYjJETHN1cExWQWZXVU5ZVm5kckc0X2Z3ZEtlUG1Qd1hySVNESERNR0xfdjZHNS16SmZvTlpfSXFiaEtDRHJpYkNMUlZzc3pTTXlCenpUR3k3eDZqbGdZRUJQVGtyU2luUWg3M1ktYWp3X1BuNDlkenNiSDJTSDNyeVZPYTNRSjl0d1A3UlhKN1NhcHV2dEpKVktEZlAwNVE?oc=5",
      "source": "Agrimidia",
      "published_at": "2026-08-05T12:53:43+00:00"
-    },
-    {
-     "title": "Soja amplia perdas em Chicago nesta 4ª feira (5), com clima favorável nos EUA e pressão do farelo - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxObDFBVmEwdDliUy0tU1gxeWNhT2VtVkJmVE9GbGwtaU03eVZRTnpKdGlGLU1WVnlVYmNkRUZnYk9RZGtfYTJQU0tpNHU4Ymo3UzFmZ2Etc3lSZ2JZb0Y3VE9DSVhTck0tdmpmZThJTmRQVHN0VDJLQ0ZDVGlydGF0UThNdGozdXlFcERJcUJ5cnUzZXlvZm9tY3VlTDZvYWRQWmtLSFlMVEFyRk9ldlN4dklsUHdFZi1pR3VuYndCbUxrcTFtS3NaaDBfMXdCV0FSZXp4dUNkM25qYjdQUlU1bnkzNC1pbXlKb2wwX9IB8gFBVV95cUxQTGRyTXh5YTZtUDdTYVZGOGNmcnpnYTVtQ29OZ05ZYnB6ZmQteHRIX19JSkN4cUdHMDVuZWE4S2pHYWRNbjh3QVUxQzFOWlM0TDRUVU9vN2N0SVo4bFRhZVdqSlJxZGVpOGFrWktoNmpwQmpoN3NCYVhDb0REUDRZZGV3ZUkycElyUVFsMXJLckR2aFBSbUFXT0VLTHVjVmhwWENrejhQdmFZckVacTJkaWJqZG5KaVowOUhFYjhVNTJlZFNIcWlfYlM1T0h2eUVRa3RvV0p5SkZWYzJJWXQ5VExwOVRFeHU3cjZvMmc3ZVFIUQ?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-05T10:47:47+00:00"
     },
     {
      "title": "Após trégua nos preços, azeite volta a ser ameaçado por calor extremo e incêndios na Europa",

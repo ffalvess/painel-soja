@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-05T17:41:56+00:00",
+ "generated_at": "2026-08-05T19:21:09+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-05T17:41:42+00:00",
+   "updated_at": "2026-08-05T19:21:02+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1174.5,
+     "price": 1176.75,
      "prev_close": 1155.0,
-     "change_pct": 1.69,
+     "change_pct": 1.88,
      "closes": [
       1182.25,
       1196.75,
@@ -34,16 +34,16 @@
       1172.0,
       1168.75,
       1155.0,
-      1174.5
+      1176.75
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 461.5,
+     "price": 460.75,
      "prev_close": 442.25,
-     "change_pct": 4.35,
+     "change_pct": 4.18,
      "closes": [
       440.75,
       442.5,
@@ -67,16 +67,16 @@
       440.75,
       449.25,
       442.25,
-      461.5
+      460.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 315.7,
+     "price": 316.2,
      "prev_close": 310.6,
-     "change_pct": 1.64,
+     "change_pct": 1.8,
      "closes": [
       315.0,
       318.4,
@@ -100,7 +100,7 @@
       312.2,
       313.4,
       310.6,
-      315.7
+      316.2
      ]
     },
     {
@@ -140,9 +140,9 @@
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 647.0,
+     "price": 644.0,
      "prev_close": 638.5,
-     "change_pct": 1.33,
+     "change_pct": 0.86,
      "closes": [
       606.0,
       609.25,
@@ -166,16 +166,16 @@
       639.25,
       651.0,
       638.5,
-      647.0
+      644.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 78.76,
+     "price": 79.47,
      "prev_close": 79.36,
-     "change_pct": -0.76,
+     "change_pct": 0.14,
      "closes": [
       71.99,
       74.16,
@@ -199,16 +199,16 @@
       90.12,
       83.77,
       79.36,
-      78.76
+      79.47
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 178152.22,
+     "price": 178073.81,
      "prev_close": 177895.0,
-     "change_pct": 0.14,
+     "change_pct": 0.1,
      "closes": [
       172448.0,
       172021.0,
@@ -232,7 +232,7 @@
       177999.0,
       178000.0,
       177895.0,
-      178152.2188
+      178073.8125
      ]
     }
    ],
@@ -240,7 +240,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-05T17:41:42+00:00",
+   "updated_at": "2026-08-05T19:21:02+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -251,7 +251,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-05T17:41:50+00:00",
+   "updated_at": "2026-08-05T19:21:06+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -274,22 +274,22 @@
       0.0
      ],
      "tmax": [
-      34.3,
-      34.9,
-      35.2,
-      36.3,
-      36.0,
-      37.5,
-      35.4
+      34.7,
+      35.1,
+      35.3,
+      36.1,
+      36.2,
+      37.6,
+      35.7
      ],
      "tmin": [
       20.6,
-      20.8,
-      22.1,
-      22.6,
-      22.9,
-      23.2,
-      26.5
+      21.0,
+      22.2,
+      22.7,
+      23.0,
+      23.5,
+      25.3
      ]
     },
     {
@@ -310,25 +310,25 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.6
      ],
      "tmax": [
-      33.4,
-      33.7,
+      33.6,
       34.1,
-      35.0,
-      35.4,
-      36.5,
-      36.3
+      34.4,
+      35.1,
+      35.3,
+      36.3,
+      35.5
      ],
      "tmin": [
       20.0,
-      21.6,
-      21.6,
-      22.4,
-      23.4,
-      23.4,
-      25.4
+      21.7,
+      21.7,
+      22.8,
+      23.1,
+      23.3,
+      25.2
      ]
     },
     {
@@ -352,22 +352,22 @@
       0.0
      ],
      "tmax": [
-      30.7,
-      31.7,
-      33.0,
+      31.4,
+      32.2,
+      33.3,
       33.6,
-      34.5,
-      35.4,
-      33.9
+      34.7,
+      35.3,
+      34.2
      ],
      "tmin": [
       17.7,
-      19.6,
+      19.9,
       21.7,
-      22.0,
-      23.1,
-      21.4,
-      23.5
+      22.3,
+      23.2,
+      21.5,
+      21.6
      ]
     },
     {
@@ -382,38 +382,68 @@
       "2026-08-11"
      ],
      "precip": [
-      9.3,
-      0.0,
-      4.6,
-      0.2,
-      2.4,
-      6.2,
-      0.1
+      9.5,
+      0.7,
+      5.3,
+      0.5,
+      1.5,
+      7.5,
+      0.0
      ],
      "tmax": [
-      28.1,
-      30.6,
-      29.1,
-      31.2,
-      31.3,
-      29.1,
-      23.0
+      28.4,
+      30.2,
+      29.3,
+      31.1,
+      31.8,
+      26.5,
+      26.7
      ],
      "tmin": [
       17.7,
-      17.4,
+      17.3,
       19.1,
       20.2,
-      21.2,
-      20.1,
-      15.1
+      20.8,
+      18.6,
+      16.2
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-05T17:41:56+00:00",
+   "updated_at": "2026-08-05T19:21:09+00:00",
    "items": [
+    {
+     "title": "Milho bate recorde em MT e soja segue sob influência do clima - Revista Cultivar",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWEtsdTRib3F6UTNMc1hSTXpJdUI4U09yTGdsV3BwMF8wX3F6QUh3SW90VHU5OUFkMlBqSDktNy1pQlhyS0QzVU04Zlc2ZjY4V3hreEZyYl9JR2pUa3BucGdjaVZBdHdVNHo2eE5xdGhIcVJqM3hIMVdyOU1rM29EWHBLRmpTdld4d0Z2Mngzd0tudDQ3b0RqZFJnWGdueHpuRVdZ?oc=5",
+     "source": "Revista Cultivar",
+     "published_at": "2026-08-05T18:38:47+00:00"
+    },
+    {
+     "title": "Estudo da Aprosoja/MS revela desafios da logística para soja e milho em Mato Grosso do Sul - capitalnews.com.br",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOd0h5MXdfNXFYcDEwdndJR1lXWVJkY1F1U01sQUt4T1pXUVJiOTVpSnBPVGVvSEVqQktveVZWcV9jLTBHVjVnXzdPT05ac3VUdURkRmllbzhSel83WjF6QWQwbTdYMnNDb3BIdUJNaFhSTWxVdWNTQnBVdE5PeVQyU0ZqRk1oVEhSMUtPN1g1Szl6RldOdU91RjFpajdOM2NIbHh1X0ZBZXp4OUJpVW15X3YyeERPekF6d2x1dVlYajE4ZlQwWDBFY3hzci1QQQ?oc=5",
+     "source": "capitalnews.com.br",
+     "published_at": "2026-08-05T18:13:00+00:00"
+    },
+    {
+     "title": "IC-Br cai 0,57% em julho, com alta das commodities agropecuárias",
+     "link": "https://www.canalrural.com.br/economia/ic-br-cai-057-em-julho-com-alta-das-commodities-agropecuarias/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T18:02:56+00:00"
+    },
+    {
+     "title": "‘Cardápio Forrageiro’ orienta escolha de plantas resistentes para a pecuária no Semiárido baiano",
+     "link": "https://www.canalrural.com.br/pecuaria/cardapio-forrageiro-orienta-escolha-de-plantas-resistentes-para-a-pecuaria-no-semiarido-baiano/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T18:02:31+00:00"
+    },
+    {
+     "title": "Ciclone bomba pode se formar entre o Uruguai e o litoral do RS",
+     "link": "https://www.canalrural.com.br/diversos/ciclone-bomba-pode-se-formar-entre-o-uruguai-e-o-litoral-do-rs/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T17:31:23+00:00"
+    },
     {
      "title": "Lula defende seriedade fiscal para reduzir juros e critica limite a investimentos",
      "link": "https://www.canalrural.com.br/economia/lula-defende-seriedade-fiscal-para-reduzir-juros-e-critica-limite-a-investimentos/",
@@ -487,34 +517,10 @@
      "published_at": "2026-08-05T13:53:12"
     },
     {
-     "title": "Mosaic reverte lucro e registra prejuízo de US$ 272,8 milhões no 2º trimestre",
-     "link": "https://www.canalrural.com.br/economia/mosaic-reverte-lucro-e-registra-prejuizo-de-us-2728-milhoes-no-2o-trimestre/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T13:48:06+00:00"
-    },
-    {
-     "title": "Dólar cai diante de expectativa pelo Copom e apetite por risco no exterior",
-     "link": "https://www.canalrural.com.br/economia/dolar-cai-diante-de-expectativa-pelo-copom-e-apetite-por-risco-no-exterior/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T13:32:05+00:00"
-    },
-    {
-     "title": "Curva de juros recua levemente à espera da decisão do Banco Central",
-     "link": "https://www.canalrural.com.br/economia/curva-de-juros-recua-levemente-a-espera-da-decisao-do-banco-central/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T13:18:20+00:00"
-    },
-    {
      "title": "Alta da soja em MT comprime margem da esmagadora em julho - Agrimidia",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNkZIYjJETHN1cExWQWZXVU5ZVm5kckc0X2Z3ZEtlUG1Qd1hySVNESERNR0xfdjZHNS16SmZvTlpfSXFiaEtDRHJpYkNMUlZzc3pTTXlCenpUR3k3eDZqbGdZRUJQVGtyU2luUWg3M1ktYWp3X1BuNDlkenNiSDJTSDNyeVZPYTNRSjl0d1A3UlhKN1NhcHV2dEpKVktEZlAwNVE?oc=5",
      "source": "Agrimidia",
      "published_at": "2026-08-05T12:53:43+00:00"
-    },
-    {
-     "title": "Sinograin vende dois terços da soja em leilão para liberar espaço para cargas dos EUA Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNU0NybE5SMGlNZDBqdVExVEhrNmtHNDhQRVM0cE03OVRfU2lLekpINTJNRjBiSTBQek1kd1RrZTdVZ2t6cG1vTWgtV2laNXZIakd6dlNBUFhVV3M5TlA3aTN2djAyRmRhNGd0a2V5UUhRVnY2NHNMMWFxeFFsaFFwZk56NVJpdnRQMjZHamtoNjJfUTZBMWpCZ0tmd0p1Sm9RaTd3aFFDSllocEM2YkY4U0h3cE9kMFNrb2JHQnNHYThLeXdPY0dfa0dtakJ2VmJ5X3BLc2podw?oc=5",
-     "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "published_at": "2026-08-05T11:15:00+00:00"
     },
     {
      "title": "Soja amplia perdas em Chicago nesta 4ª feira (5), com clima favorável nos EUA e pressão do farelo - Notícias Agrícolas",
@@ -523,9 +529,9 @@
      "published_at": "2026-08-05T10:47:47+00:00"
     },
     {
-     "title": "Soja tem estabilidade e vendas contidas nos estados - Agrolink",
+     "title": "Soja tem estabilidade e vendas contidas nos estados - agrolink.com.br",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV25xWU40TjVJVDZxSTAzOGQ4QmlZQ1o3Wm9GUE5mZGlOM0Zfem9uVnhqVXd4cGZ0Q1VtOV8yTWxqVHlOZE9GWUpNMUFBSnl5ZU1pZGpGOFpnZGkzM0NYOWkyenhWTnJwaXZ5dV83SFl5NXo5bXlSejVjbWR2OEE0WG92Ym03MklOc3UzX0xrQkJaREROTkliRWdEYWdfRWVORHc?oc=5",
-     "source": "Agrolink",
+     "source": "agrolink.com.br",
      "published_at": "2026-08-05T09:22:00+00:00"
     },
     {
@@ -545,12 +551,6 @@
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeEIwOTh0cXU3Vjc2MXNRa3pSRVp5c01PQ2F4bU1zTFlFRDNiMXIwY3NvUFNNWGJaTWhwMlNacWpxTmljNVR0S19oX1E5dWllQjdXbTNfVEVDOUZVb0ljVzkzRUdJMDVPSFM1YVoyVGtfeHd6TnFjOHdhaVdQdlJTRTBsbHZ4MkNuT0FKMG0yd2o3d2pmVzZKZUJOX3I5UQ?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-05T00:05:45+00:00"
-    },
-    {
-     "title": "Nova tecnologia à base de RNA combate percevejos nas lavouras de soja - Jornal da Unicamp",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMDVOV19seFJqNmtiSnlhaVFGcU5pVDVJdlBTRGUyTXJHaHpWaEdfOWZWS0xHTFV5RnF4aS1ZYkhhMkplcDB3TVlCbmZ5V21wWFZZWmJoRzJ3R2VZb2x2VnYxNGpZcWRrWnBEX1ZDZi1oaTF0RnpSc0xVMHRpU19YOFFfa3JKN3p1bGpaOF9uTWplNEdWOFdKdzY2UGF3eVRPZkp5MDVtcFdCdTNTdlhSdmdqZHJXOWc?oc=5",
-     "source": "Jornal da Unicamp",
-     "published_at": "2026-08-04T18:05:47+00:00"
     },
     {
      "title": "Café: entenda como inverno atípico e chuvoso em julho pode impactar exportação e qualidade da bebida",
@@ -589,9 +589,9 @@
      "published_at": "2026-08-03T12:41:19"
     },
     {
-     "title": "Cotação da soja sobe ao maior patamar no ano - correiodopovo.com.br",
+     "title": "Cotação da soja sobe ao maior patamar no ano - Correio do Povo",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYS1CbmE2ZXotNFpwZEtVSzJ5STJrMmVUUkdOcHBnZmpRMXdsemNOQ0JLNVF6THR6dEFxU01YWDV5QktqSkt3ZkxFVUtHeGxaazIzU3l3bFN1NEdlTkNGemkwLTlEUmViTWtnakpNa0pxbFFUTVkwb0hscmdxNjJJYTVyQXJXTW5JS3lITnQzRUV2M01uMHV1MFY5TlpnSXVMeTVJa3dkQ202M2M?oc=5",
-     "source": "correiodopovo.com.br",
+     "source": "Correio do Povo",
      "published_at": "2026-08-03T08:00:09+00:00"
     }
    ],

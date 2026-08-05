@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-05T15:58:37+00:00",
+ "generated_at": "2026-08-05T17:41:56+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-05T15:58:26+00:00",
+   "updated_at": "2026-08-05T17:41:42+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1171.5,
+     "price": 1174.5,
      "prev_close": 1155.0,
-     "change_pct": 1.43,
+     "change_pct": 1.69,
      "closes": [
       1182.25,
       1196.75,
@@ -34,16 +34,16 @@
       1172.0,
       1168.75,
       1155.0,
-      1171.5
+      1174.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 460.5,
+     "price": 461.5,
      "prev_close": 442.25,
-     "change_pct": 4.13,
+     "change_pct": 4.35,
      "closes": [
       440.75,
       442.5,
@@ -67,16 +67,16 @@
       440.75,
       449.25,
       442.25,
-      460.5
+      461.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 315.5,
+     "price": 315.7,
      "prev_close": 310.6,
-     "change_pct": 1.58,
+     "change_pct": 1.64,
      "closes": [
       315.0,
       318.4,
@@ -100,16 +100,16 @@
       312.2,
       313.4,
       310.6,
-      315.5
+      315.7
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.12,
+     "price": 67.22,
      "prev_close": 68.18,
-     "change_pct": -1.55,
+     "change_pct": -1.41,
      "closes": [
       68.15,
       68.79,
@@ -133,16 +133,16 @@
       67.12,
       68.69,
       68.18,
-      67.12
+      67.22
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 645.5,
+     "price": 647.0,
      "prev_close": 638.5,
-     "change_pct": 1.1,
+     "change_pct": 1.33,
      "closes": [
       606.0,
       609.25,
@@ -166,16 +166,16 @@
       639.25,
       651.0,
       638.5,
-      645.5
+      647.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 79.46,
+     "price": 78.76,
      "prev_close": 79.36,
-     "change_pct": 0.13,
+     "change_pct": -0.76,
      "closes": [
       71.99,
       74.16,
@@ -199,16 +199,16 @@
       90.12,
       83.77,
       79.36,
-      79.46
+      78.76
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 178579.11,
+     "price": 178152.22,
      "prev_close": 177895.0,
-     "change_pct": 0.38,
+     "change_pct": 0.14,
      "closes": [
       172448.0,
       172021.0,
@@ -232,7 +232,7 @@
       177999.0,
       178000.0,
       177895.0,
-      178579.1094
+      178152.2188
      ]
     }
    ],
@@ -240,7 +240,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-05T15:58:27+00:00",
+   "updated_at": "2026-08-05T17:41:42+00:00",
    "selic": 14.25,
    "cdi": 14.15,
    "ipca_mes": {
@@ -251,7 +251,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-05T15:58:32+00:00",
+   "updated_at": "2026-08-05T17:41:50+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -412,8 +412,32 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-05T15:58:37+00:00",
+   "updated_at": "2026-08-05T17:41:56+00:00",
    "items": [
+    {
+     "title": "Lula defende seriedade fiscal para reduzir juros e critica limite a investimentos",
+     "link": "https://www.canalrural.com.br/economia/lula-defende-seriedade-fiscal-para-reduzir-juros-e-critica-limite-a-investimentos/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T16:59:34+00:00"
+    },
+    {
+     "title": "ARTIGO - O maior risco da próxima safra de soja talvez não esteja no preço - AgFeed",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYmI0TlQ5Y1BRcGJ3dlBLUVI1bHFia2Zab1JfT0RONVM0b0VoU0pOTVFsVzgzaVBJRUJfTlZ2OGxRclRjd1l5LXRBNEgwTnRWN1c5NVFaOFdpYVd4dVg5X24yTG42NXBiYzRsZ1JHRUZtS1hCcW9Bd3FkSUZxZktqM0FVTVduQmR5X0RkMGpTRkxPd3RuOTlfSUV0cWtraklhbHFWLUtUZDdaYm53dzl3Vg?oc=5",
+     "source": "AgFeed",
+     "published_at": "2026-08-05T16:31:00+00:00"
+    },
+    {
+     "title": "Cecafé destaca rastreabilidade para atender exigências do mercado externo",
+     "link": "https://www.canalrural.com.br/agricultura/cecafe-destaca-rastreabilidade-para-atender-exigencias-do-mercado-externo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T15:49:32+00:00"
+    },
+    {
+     "title": "Sicredi Dexis libera R$ 385,9 milhões no primeiro mês do ano-safra 2026/27",
+     "link": "https://www.canalrural.com.br/economia/sicredi-dexis-libera-r-3859-milhoes-no-primeiro-mes-do-ano-safra-2026-27/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-05T15:48:35+00:00"
+    },
     {
      "title": "Prestes a ‘caducar’, governo sanciona MP do Frete dentro do prazo",
      "link": "https://www.canalrural.com.br/nacional/prestes-a-caducar-governo-sanciona-mp-do-frete-dentro-do-prazo/",
@@ -457,12 +481,6 @@
      "published_at": "2026-08-05T13:59:00+00:00"
     },
     {
-     "title": "Queda em Chicago pressiona soja, mas prêmios seguram preços no Brasil, avalia analista - RCN 67",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOURuazRvWUZRX3o0VlYzdDlyWlhBZkhoQXlfeXp4QmRLc0NGNFBqRGtLOU96YjgyU3BRZTBWOVhSUC1RTlMwajNMc1ZqdVRVaXNpbmF1ZGpYOE5rcGtfdWhNZVRXejJ0cW5LZU1sdElXSF9PaTdobVVfY0hkQzc4eEJDRlV4bmdyMk45anUxMGNhZUN5Ukg2clhRdnRCWmlUeENXMUQ1MzJUb2xFT1dZME5ZT2VYMVhoVDVLLUV1SQ?oc=5",
-     "source": "RCN 67",
-     "published_at": "2026-08-05T13:58:42+00:00"
-    },
-    {
      "title": "Produção de carne bovina do Brasil deve cair em 2026 em meio a tarifas, barreiras comerciais e incertezas no mercado global",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/producao-de-carne-bovina-do-brasil-deve-cair-em-2026-em-meio-a-tarifas-barreiras-comerciais-e-incertezas-no-mercado-global.ghtml",
      "source": "G1 Agronegócios",
@@ -491,24 +509,6 @@
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNkZIYjJETHN1cExWQWZXVU5ZVm5kckc0X2Z3ZEtlUG1Qd1hySVNESERNR0xfdjZHNS16SmZvTlpfSXFiaEtDRHJpYkNMUlZzc3pTTXlCenpUR3k3eDZqbGdZRUJQVGtyU2luUWg3M1ktYWp3X1BuNDlkenNiSDJTSDNyeVZPYTNRSjl0d1A3UlhKN1NhcHV2dEpKVktEZlAwNVE?oc=5",
      "source": "Agrimidia",
      "published_at": "2026-08-05T12:53:43+00:00"
-    },
-    {
-     "title": "Boi gordo: oferta restrita mantém mercado firme, diz Cepea",
-     "link": "https://www.canalrural.com.br/pecuaria/boi-gordo-oferta-restrita-mantem-mercado-firme-diz-cepea/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T12:46:57+00:00"
-    },
-    {
-     "title": "Banco do Brasil abre contratações da linha Aquisição Inovadora do Move Máquinas Agrícolas",
-     "link": "https://www.canalrural.com.br/economia/banco-do-brasil-abre-contratacoes-da-linha-aquisicao-inovadora-do-move-maquinas-agricolas/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T12:41:45+00:00"
-    },
-    {
-     "title": "FPA reforça defesa do leite brasileiro após reconhecimento de dumping",
-     "link": "https://www.canalrural.com.br/pecuaria/fpa-reforca-defesa-do-leite-brasileiro-apos-reconhecimento-de-dumping/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T12:31:02+00:00"
     },
     {
      "title": "Sinograin vende dois terços da soja em leilão para liberar espaço para cargas dos EUA Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
@@ -589,9 +589,9 @@
      "published_at": "2026-08-03T12:41:19"
     },
     {
-     "title": "Cotação da soja sobe ao maior patamar no ano - Correio do Povo",
+     "title": "Cotação da soja sobe ao maior patamar no ano - correiodopovo.com.br",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYS1CbmE2ZXotNFpwZEtVSzJ5STJrMmVUUkdOcHBnZmpRMXdsemNOQ0JLNVF6THR6dEFxU01YWDV5QktqSkt3ZkxFVUtHeGxaazIzU3l3bFN1NEdlTkNGemkwLTlEUmViTWtnakpNa0pxbFFUTVkwb0hscmdxNjJJYTVyQXJXTW5JS3lITnQzRUV2M01uMHV1MFY5TlpnSXVMeTVJa3dkQ202M2M?oc=5",
-     "source": "Correio do Povo",
+     "source": "correiodopovo.com.br",
      "published_at": "2026-08-03T08:00:09+00:00"
     }
    ],

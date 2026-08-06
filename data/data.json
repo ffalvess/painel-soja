@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-05T23:54:37+00:00",
+ "generated_at": "2026-08-06T02:00:24+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-05T23:54:29+00:00",
+   "updated_at": "2026-08-06T02:00:15+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1176.75,
+     "price": 1177.0,
      "prev_close": 1155.0,
-     "change_pct": 1.88,
+     "change_pct": 1.9,
      "closes": [
       1182.25,
       1196.75,
@@ -34,16 +34,16 @@
       1172.0,
       1168.75,
       1155.0,
-      1176.75
+      1177.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 460.75,
+     "price": 461.75,
      "prev_close": 442.25,
-     "change_pct": 4.18,
+     "change_pct": 4.41,
      "closes": [
       440.75,
       442.5,
@@ -67,16 +67,16 @@
       440.75,
       449.25,
       442.25,
-      460.75
+      461.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 316.2,
+     "price": 316.9,
      "prev_close": 310.6,
-     "change_pct": 1.8,
+     "change_pct": 2.03,
      "closes": [
       315.0,
       318.4,
@@ -100,16 +100,16 @@
       312.2,
       313.4,
       310.6,
-      316.2
+      316.9
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.22,
+     "price": 67.09,
      "prev_close": 68.18,
-     "change_pct": -1.41,
+     "change_pct": -1.6,
      "closes": [
       68.15,
       68.79,
@@ -133,16 +133,16 @@
       67.12,
       68.69,
       68.18,
-      67.22
+      67.09
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 644.0,
+     "price": 645.75,
      "prev_close": 638.5,
-     "change_pct": 0.86,
+     "change_pct": 1.14,
      "closes": [
       606.0,
       609.25,
@@ -166,16 +166,16 @@
       639.25,
       651.0,
       638.5,
-      644.0
+      645.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 79.36,
+     "price": 80.04,
      "prev_close": 79.36,
-     "change_pct": 0.0,
+     "change_pct": 0.86,
      "closes": [
       71.99,
       74.16,
@@ -199,7 +199,7 @@
       90.12,
       83.77,
       79.36,
-      79.36
+      80.04
      ]
     },
     {
@@ -240,7 +240,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-05T23:54:29+00:00",
+   "updated_at": "2026-08-06T02:00:15+00:00",
    "selic": 14.0,
    "cdi": 14.15,
    "ipca_mes": {
@@ -251,7 +251,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-05T23:54:33+00:00",
+   "updated_at": "2026-08-06T02:00:20+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -274,22 +274,22 @@
       0.0
      ],
      "tmax": [
-      34.7,
       35.1,
-      35.3,
-      36.1,
+      35.2,
+      35.1,
       36.2,
-      37.6,
-      35.7
+      36.5,
+      37.7,
+      37.9
      ],
      "tmin": [
       20.6,
-      21.0,
+      21.2,
       22.2,
-      22.7,
-      23.0,
-      23.5,
-      25.3
+      22.4,
+      22.6,
+      23.2,
+      24.4
      ]
     },
     {
@@ -310,25 +310,25 @@
       0.0,
       0.0,
       0.0,
-      0.6
+      0.0
      ],
      "tmax": [
-      33.6,
+      33.7,
       34.1,
       34.4,
-      35.1,
       35.3,
-      36.3,
-      35.5
+      35.6,
+      36.4,
+      37.2
      ],
      "tmin": [
       20.0,
-      21.7,
-      21.7,
+      21.9,
+      21.8,
+      22.4,
       22.8,
-      23.1,
       23.3,
-      25.2
+      23.7
      ]
     },
     {
@@ -352,21 +352,21 @@
       0.0
      ],
      "tmax": [
-      31.4,
-      32.2,
-      33.3,
-      33.6,
+      31.3,
+      32.1,
+      33.2,
+      33.7,
       34.7,
-      35.3,
-      34.2
+      35.4,
+      34.3
      ],
      "tmin": [
       17.7,
-      19.9,
-      21.7,
+      20.3,
+      21.9,
       22.3,
       23.2,
-      21.5,
+      23.1,
       21.6
      ]
     },
@@ -382,66 +382,108 @@
       "2026-08-11"
      ],
      "precip": [
-      9.5,
-      0.7,
-      5.3,
-      0.5,
       1.5,
-      7.5,
+      0.1,
+      9.7,
+      0.2,
+      5.9,
+      3.9,
       0.0
      ],
      "tmax": [
       28.4,
-      30.2,
-      29.3,
-      31.1,
-      31.8,
-      26.5,
-      26.7
+      31.0,
+      28.2,
+      31.3,
+      31.3,
+      29.0,
+      27.3
      ],
      "tmin": [
       17.7,
-      17.3,
+      17.7,
       19.1,
       20.2,
-      20.8,
-      18.6,
-      16.2
+      19.3,
+      20.0,
+      18.8
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-05T23:54:37+00:00",
+   "updated_at": "2026-08-06T02:00:24+00:00",
    "items": [
     {
-     "title": "Javali: uma ameaça que o Brasil não pode mais ignorar",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/javali-uma-ameaca-que-o-brasil-nao-pode-mais-ignorar/",
+     "title": "Inteligência artificial no agro brasileiro: desafios e oportunidades",
+     "link": "https://www.canalrural.com.br/videos/inteligencia-artificial-no-agro-brasileiro-desafios-e-oportunidades/",
      "source": "Canal Rural",
-     "published_at": "2026-08-05T23:10:40+00:00"
+     "published_at": "2026-08-06T01:05:36+00:00"
     },
     {
-     "title": "O que sustentou os preços da soja hoje? Confira as cotações em dia menos movimentado",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/o-que-sustentou-os-precos-da-soja-hoje-confira-as-cotacoes-em-dia-menos-movimentado/",
+     "title": "Encontro na AmCham Brasil discute preparativos para a COP 31",
+     "link": "https://www.canalrural.com.br/videos/encontro-na-amcham-brasil-discute-preparativos-para-a-cop-31/",
      "source": "Canal Rural",
-     "published_at": "2026-08-05T22:32:22+00:00"
+     "published_at": "2026-08-06T01:05:25+00:00"
     },
     {
-     "title": "Copom corta Selic para 14% e mantém viés altista para riscos da inflação",
-     "link": "https://www.canalrural.com.br/economia/copom-corta-selic-para-14-e-mantem-vies-altista-para-riscos-da-inflacao/",
+     "title": "Arroz, cafés especiais e trigo apresentam novidades no mercado",
+     "link": "https://www.canalrural.com.br/videos/arroz-cafes-especiais-e-trigo-apresentam-novidades-no-mercado/",
      "source": "Canal Rural",
-     "published_at": "2026-08-05T22:23:39+00:00"
+     "published_at": "2026-08-06T01:05:15+00:00"
     },
     {
-     "title": "Copom reduz Selic para 14% ao ano após corte de 0,25 ponto percentual",
-     "link": "https://www.canalrural.com.br/agricultura/copom-reduz-selic-para-14-ao-ano-apos-corte-de-025-ponto-percentual/",
+     "title": "Ciclone bomba traz alerta de tempo severo e frio intenso no Brasil",
+     "link": "https://www.canalrural.com.br/videos/ciclone-bomba-traz-alerta-de-tempo-severo-e-frio-intenso-no-brasil/",
      "source": "Canal Rural",
-     "published_at": "2026-08-05T22:04:10+00:00"
+     "published_at": "2026-08-06T00:15:19+00:00"
     },
     {
-     "title": "Brasil deve se reinventar para seguir líder na soja - agrorevenda.com.br",
+     "title": "Soja em Mato Grosso atinge maior preço do ano, mas indústria enfrenta desafios",
+     "link": "https://www.canalrural.com.br/videos/soja-em-mato-grosso-atinge-maior-preco-do-ano-mas-industria-enfrenta-desafios/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-06T00:15:10+00:00"
+    },
+    {
+     "title": "Tirso Meirelles critica MP do frete e defende melhorias na logística do país",
+     "link": "https://www.canalrural.com.br/videos/tirso-meirelles-critica-mp-do-frete-e-defende-melhorias-na-logistica-do-pais/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-06T00:05:59+00:00"
+    },
+    {
+     "title": "Lula sanciona MP que altera regras de frete e fiscalização do transporte",
+     "link": "https://www.canalrural.com.br/videos/lula-sanciona-mp-que-altera-regras-de-frete-e-fiscalizacao-do-transporte/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-06T00:05:49+00:00"
+    },
+    {
+     "title": "Lula sanciona MP que estabelece novas regras para frete rodoviário de cargas",
+     "link": "https://www.canalrural.com.br/videos/lula-sanciona-mp-que-estabelece-novas-regras-para-frete-rodoviario-de-cargas/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-06T00:05:38+00:00"
+    },
+    {
+     "title": "Copom reduz taxa Selic para 14% ao ano em reunião recente",
+     "link": "https://www.canalrural.com.br/videos/copom-reduz-taxa-selic-para-14-ao-ano-em-reuniao-recente/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-06T00:05:27+00:00"
+    },
+    {
+     "title": "Cerca de 3 mil filhotes de javali nascem por dia e causam prejuízos no Brasil",
+     "link": "https://www.canalrural.com.br/videos/cerca-de-3-mil-filhotes-de-javali-nascem-por-dia-e-causam-prejuizos-no-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-06T00:05:17+00:00"
+    },
+    {
+     "title": "Recorde da soja entra no radar do SNAG11; veja os números de 2026 - suno.com.br",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTUR2OEtHZ1I3Qk1TbDBaWUhKbHIzU25wX0I0b2xGbDdqaXd5cVUxcThXS1JaUUNxZ1Zkc3dScHZwZ1JlMjRBOWt2Z0ZfOGhjUFZPQVpWc2Y3LWI1aVhXUzFUVlZNSVI3RVh6TFNGak5sWk93Yl9nbmZxdFJEWUpMc25UcU4yQmZmQ1B0VlpjWEF3TDdDMjZrVWRRZEJvU1E?oc=5",
+     "source": "suno.com.br",
+     "published_at": "2026-08-05T23:05:04+00:00"
+    },
+    {
+     "title": "Brasil deve se reinventar para seguir líder na soja - AgroRevenda",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWkE4UU90ZkJVTVRRcHU2UklMU19aTndKeU5OM3p5YldMYk9KNlBGR0hybzBpdjVDcDJEdG1vTFhial8wVTNmV1dodHBjWXVOTTBrWTNSQmdqcnQ2bFBmSXM0eWxWTUhOemZfejRKTTl6SmZ5cmM5ZHZxWmFBT2Z1dFA5emppb0g2eVB6RUNFMU4tbE0?oc=5",
-     "source": "agrorevenda.com.br",
+     "source": "AgroRevenda",
      "published_at": "2026-08-05T21:07:53+00:00"
     },
     {
@@ -451,46 +493,22 @@
      "published_at": "2026-08-05T21:02:00+00:00"
     },
     {
-     "title": "Safra menor e importações elevam custo da moagem de trigo, diz Abitrigo",
-     "link": "https://www.canalrural.com.br/economia/safra-menor-e-importacoes-elevam-custo-da-moagem-de-trigo-diz-abitrigo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T20:47:57+00:00"
-    },
-    {
      "title": "Prêmios da soja estão nos melhores momentos do ano e são pilar fundamental para preços no Brasil - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQ1VpX1A3Y3lfak42MUFwY1g4SnV6Tm1waXlmQjl2bXFab01TY0Z0dDg2eHZBVEJHM1dyREljVi1oT3JkVmhLUTQ1MXBZVWtVbWEwbDlZdHpRdXNYQi15UHhjTjVKMnhUTmVhbXQtN2dDY2xORFp0ZlFyV1BJZVVyV1djX1hIQm5oTEIyTzJSUFMyTnoyUmlPdkQ5UkpjUlpMSjg0djJlM2ZCTjZ4bllUOFBYSFlibDR0UEFJRW03SXdBSkNMWS1jUk0wcUJPWXdLXzZ3YTdNZHVNWVV0Ykt6aS16b19FZXh0NnZjemRvbVLSAfYBQVVfeXFMTzNkellDeDhxVjhmSkY3SlJ0OGM2bmtydlZ5OGFYTGJpeFR2cWs0STFjOE05U1NKck1SSERieFBWMzU4dUVJOGNiaEd5QnNXc1pRUEQzSHcxSm5sc3dZYUltbFozRkhMdVRWOW0tb0gtR3poOURZZDZXWWZ4NVNkSnVWbmc0TVo2U0hKb1BCX2xTRWt5b1pacEp4S29HaWtQbTZXU0d2azdMVlM5SDRDQmVadnFLeG4xRkluOVZfR3UxX1h1S3JWZV91T2lrbFdzOHVySHVXRXVHSTFYV0xqWFlFREExU3JhanM1S0JCa2JIako5eTlR?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-05T20:45:31+00:00"
     },
     {
-     "title": "Ciclone bomba se forma e ameaça trazer temporais, granizo e ventos acima de 100 km/h; saiba onde",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/ciclone-bomba-se-forma-no-oceano-e-ameaca-trazer-temporais-granizo-e-ventos-acima-de-100-km-h-saiba-onde/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T20:31:35+00:00"
+     "title": "Recorde da soja em 2026 entra no radar do SNAG11; veja os números - Fiis",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM2h5emRLV1lmOXQ2MDZrOGtNem9IeHN0OURmRlJlZ21IT3hmQXhLbm5LOUtVOGI0VHVNVGJaS1JTMjZpTEJXc1JhX0pvQVl6ZXAwMUdwTjFWaUtjVGRLRGRsemViUWlRWHlqbDlpSXVobGpNQTZkaWJMa0hpeE50ZlE4dWliVmY4SUE?oc=5",
+     "source": "Fiis",
+     "published_at": "2026-08-05T19:40:07+00:00"
     },
     {
-     "title": "Frete de exportações marítimas dispara e gera preocupação no agro",
-     "link": "https://www.canalrural.com.br/videos/frete-de-exportacoes-maritimas-dispara-e-gera-preocupacao-no-agro/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T20:15:23+00:00"
-    },
-    {
-     "title": "Equilíbrio entre caminhoneiros e indústria é essencial para logística",
-     "link": "https://www.canalrural.com.br/videos/equilibrio-entre-caminhoneiros-e-industria-e-essencial-para-logistica/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T20:15:11+00:00"
-    },
-    {
-     "title": "Governo sanciona novas regras para fiscalização do frete rodoviário",
-     "link": "https://www.canalrural.com.br/videos/governo-sanciona-novas-regras-para-fiscalizacao-do-frete-rodoviario/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T20:06:01+00:00"
-    },
-    {
-     "title": "SIAVS 2026: maior evento de proteína animal da América Latina",
-     "link": "https://www.canalrural.com.br/videos/siavs-2026-maior-evento-de-proteina-animal-da-america-latina/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-05T20:05:51+00:00"
+     "title": "CNA participa de reunião da Câmara Setorial da Cadeia Produtiva da Soja - Portal CNA Brasil",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeTFyeGdyVTYxcjRRalpBY2VONmEweE5td2JlZGJPczFjVEpIZmYxN3RRT29mWE9RMlV5dE44bE4wNEp6Q01GMlo5S3A2MkVyMkdWcjBmVENwdjdNQXhkTXIzdEZNeEtFS0tSWktISXVuRFNPOFRsSmdyVE9vX3N3UTItQWFjVWRVTGVVV2RrRnV6cjRNUmkzbGJGd2t1MFdCeDFZaTNjYWY?oc=5",
+     "source": "Portal CNA Brasil",
+     "published_at": "2026-08-05T19:28:31+00:00"
     },
     {
      "title": "Câmara setorial debate safra, dívidas rurais e manejo da soja em Londrina - Canal Rural",
@@ -499,28 +517,10 @@
      "published_at": "2026-08-05T19:25:46+00:00"
     },
     {
-     "title": "CNA participa de reunião da Câmara Setorial da Cadeia Produtiva da Soja - Portal CNA Brasil",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeTFyeGdyVTYxcjRRalpBY2VONmEweE5td2JlZGJPczFjVEpIZmYxN3RRT29mWE9RMlV5dE44bE4wNEp6Q01GMlo5S3A2MkVyMkdWcjBmVENwdjdNQXhkTXIzdEZNeEtFS0tSWktISXVuRFNPOFRsSmdyVE9vX3N3UTItQWFjVWRVTGVVV2RrRnV6cjRNUmkzbGJGd2t1MFdCeDFZaTNjYWY?oc=5",
-     "source": "Portal CNA Brasil",
-     "published_at": "2026-08-05T19:21:15+00:00"
-    },
-    {
      "title": "ARTIGO - O maior risco da próxima safra de soja talvez não esteja no preço - AgFeed",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYmI0TlQ5Y1BRcGJ3dlBLUVI1bHFia2Zab1JfT0RONVM0b0VoU0pOTVFsVzgzaVBJRUJfTlZ2OGxRclRjd1l5LXRBNEgwTnRWN1c5NVFaOFdpYVd4dVg5X24yTG42NXBiYzRsZ1JHRUZtS1hCcW9Bd3FkSUZxZktqM0FVTVduQmR5X0RkMGpTRkxPd3RuOTlfSUV0cWtraklhbHFWLUtUZDdaYm53dzl3Vg?oc=5",
      "source": "AgFeed",
      "published_at": "2026-08-05T16:31:00+00:00"
-    },
-    {
-     "title": "STF julga marco temporal, Moratória da Soja e licenciamento ambiental - OpiniãoCE",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTWVKS0hNbkZsVExOVGhobUNEeHFyWWI4ZVF2akFKZTJkTTQyZFYtSXVERldVN2dpOGNoQTF2U1NON3BFSnN1elk4WW9mdnFoeGVPMFcxdU1tRzVQVnI2VlpTeW5KcXZvMDVXcEFveWxqNGRrVTJHQTh1dlgwbVNDdmJqLTNTZ0stTml5ZklNVnRwUTVwYTJlaVNNQ2U4Y192UFVjVjFQMkxudWl4TDRieldaWkJNNXc?oc=5",
-     "source": "OpiniãoCE",
-     "published_at": "2026-08-05T15:35:36+00:00"
-    },
-    {
-     "title": "Clima nos EUA pressiona soja em Chicago; mercado físico no Brasil opera em ritmo lento - SBA1",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMy1nR2VaTEE0djJlQVNRb3BQZkxwZTR1eTNqSVVCSDNzQ0xMRkJ4NjhPN1BjOFltd2hvSXhKdGFoSVV2V002aDZkdW80QWs2eGl1Q3l3NEVXbk9YU084UDVRZzFlQ2JLNzQtemxma1RTbEdDaEpIaUwyYlB1ZW9hVGFjbzh3VkhmWDR0R01hdVAwVUJWUDR0MmF0Ri1zV1ZQb2tDb3A5MjRIMDRBajBpNWVrck9wOHE2WU1DbHdveTU0dFU?oc=5",
-     "source": "SBA1",
-     "published_at": "2026-08-05T14:06:00+00:00"
     },
     {
      "title": "Soja, petróleo e contêineres impulsionam portos do Norte e do Nordeste - Portal BE News",

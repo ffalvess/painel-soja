@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-06T08:24:22+00:00",
+ "generated_at": "2026-08-06T11:15:40+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-06T08:24:11+00:00",
+   "updated_at": "2026-08-06T11:15:27+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1175.0,
+     "price": 1175.5,
      "prev_close": 1151.5,
-     "change_pct": 2.04,
+     "change_pct": 2.08,
      "closes": [
       1182.25,
       1196.75,
@@ -35,7 +35,7 @@
       1168.75,
       1155.0,
       1151.5,
-      1175.0
+      1175.5
      ]
     },
     {
@@ -76,9 +76,9 @@
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 316.5,
+     "price": 316.6,
      "prev_close": 309.3,
-     "change_pct": 2.33,
+     "change_pct": 2.36,
      "closes": [
       315.0,
       318.4,
@@ -103,16 +103,16 @@
       313.4,
       310.6,
       309.3,
-      316.5
+      316.6
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.07,
+     "price": 67.19,
      "prev_close": 67.75,
-     "change_pct": -1.0,
+     "change_pct": -0.83,
      "closes": [
       68.15,
       68.79,
@@ -137,16 +137,16 @@
       68.69,
       68.18,
       67.75,
-      67.07
+      67.19
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 639.75,
+     "price": 647.0,
      "prev_close": 642.25,
-     "change_pct": -0.39,
+     "change_pct": 0.74,
      "closes": [
       606.0,
       609.25,
@@ -171,16 +171,16 @@
       651.0,
       638.5,
       642.25,
-      639.75
+      647.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 80.0,
+     "price": 80.21,
      "prev_close": 79.45,
-     "change_pct": 0.69,
+     "change_pct": 0.96,
      "closes": [
       71.99,
       74.16,
@@ -205,7 +205,7 @@
       83.77,
       79.36,
       79.45,
-      80.0
+      80.21
      ]
     },
     {
@@ -246,7 +246,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-06T08:24:12+00:00",
+   "updated_at": "2026-08-06T11:15:27+00:00",
    "selic": 14.0,
    "cdi": 14.15,
    "ipca_mes": {
@@ -257,7 +257,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-06T08:24:16+00:00",
+   "updated_at": "2026-08-06T11:15:37+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -418,8 +418,38 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-06T08:24:22+00:00",
+   "updated_at": "2026-08-06T11:15:40+00:00",
    "items": [
+    {
+     "title": "Soja busca direção em Chicago com clima favorável nos EUA e tensão geopolítica limitando novas baixas - TradingView",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1lVkNsTVAzWHNqSDBJbW92Umc1aWNQMHpwMS1QcGtTUEFHblZjeWIteXRhLWlId3IzUGpEZ052V2tfM2FMd0xmUVV5WHo4VVpDVThXYVA0Y1lCSUJsVG95WDZzQmdPaEpUekRqdXo2TFpKckI2?oc=5",
+     "source": "TradingView",
+     "published_at": "2026-08-06T10:30:25+00:00"
+    },
+    {
+     "title": "Consultores que influenciam mais de 8 milhões de hectares de soja discutem manejo e desafios fitossanitários no Cerrado - Portal do Agronegócio",
+     "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPeVhlR0pIR05fbVhhMmY0bGdWbEpPZEJjM1lNVzFsTDM2b0NQem1uLWVZUTd4UFNmUHZUejJXTjBkYXdaSmdWN01BX0RjMy1hOXp5M0xNMk4wODV2emw2Q05JSVlkR3NIX1JGbnRDTWhMNUtScDZ4bEpqT3BhSjQ2OHFJNXFTZWdSWGY2V1RCRTA5ZFEzcTJNcEk4RDd5dUhBQzNsb0VpQnI1RDM5RDJrNHNpUlpKQnhOMUFDUXNfYzhiUWJLQ2RZclRtanhGcnhlOXNKZkNNT1V2WmwzcFotWUZWRXdjUTl0TE9KUEoxVXBZM2phQldhTy14djNCZDI0UEZkeGp5VFFEZ1djM0Z5R1J3?oc=5",
+     "source": "Portal do Agronegócio",
+     "published_at": "2026-08-06T10:00:00+00:00"
+    },
+    {
+     "title": "Selic recua para 14%, mas Copom freia expectativa de novos cortes; ouça o podcast",
+     "link": "https://www.canalrural.com.br/economia/selic-recua-para-14-mas-copom-freia-expectativa-de-novos-cortes-ouca-o-podcast/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-06T09:28:50+00:00"
+    },
+    {
+     "title": "Mercado de soja tem baixa liquidez no interior - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUnZFcFRPTmZVU1NsV1praHBpNnIzNkVjOU1hTkM2MURxZG81aGplVjlWTkxpeUU2ZkNZTVhqNGdMSTRfNWtpNGhTVWhzZkVoQnJtbGF3aVV1M255Q0hxb2xBeFRHWWM5ZTZ0ajc1enZ3Mldoa3VvWVNqMXd6eThQV3Y2TVFZWFJkbGd5QjVvT2FJcC1fd2RwRFJONA?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-06T09:26:00+00:00"
+    },
+    {
+     "title": "Frente fria, ciclone e temporais no Sul; veja a previsão do tempo para todo o Brasil",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/frente-fria-pode-virar-ciclone-e-levar-temporais-ao-sul-veja-a-previsao-do-tempo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-06T08:31:00+00:00"
+    },
     {
      "title": "SOJA E TRIGO: confira os preços dos grãos nesta quinta-feira (6) - Brasil 61",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSmQ1MXNiRnVFSklPS2EtZTNOTjhGd2V4cUR0VFpFWGZ2amphRHJmNDUyb2RUUkRWTUhtNVpCUUFmN3d0bGN4VWpzUXluN1VqQXhJTE80dHV0QXJsSnBSQWU3Qm84Qy1rSlppY1BiQ1FhWm80SXBHT3AycHFHS3M1YkJHNzRtR2VkZDh3VUpxdWxwR2tUOFoyNElhY9IBoAFBVV95cUxNYTlveGdFYzRfQWFTVElieEthV2xraWtKSkhWUGdfTF9Fck5RU2JXTmVST1dydHR1aGRtX1Z6cUh4RHdPUGpoVGEwdDc2VXgxTXJqSUEta0RlVm9vRk9wRVhHX0pwNnVrM292Z1RwajRjdFdNY1pTa1dnZ09RQnhzLWllXzUzUzIxVUs5QnI2ZENIN0RqN2RhZjk0dlNBMzJj?oc=5",
@@ -475,18 +505,6 @@
      "published_at": "2026-08-06T00:05:38+00:00"
     },
     {
-     "title": "Copom reduz taxa Selic para 14% ao ano em reunião recente",
-     "link": "https://www.canalrural.com.br/videos/copom-reduz-taxa-selic-para-14-ao-ano-em-reuniao-recente/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-06T00:05:27+00:00"
-    },
-    {
-     "title": "Cerca de 3 mil filhotes de javali nascem por dia e causam prejuízos no Brasil",
-     "link": "https://www.canalrural.com.br/videos/cerca-de-3-mil-filhotes-de-javali-nascem-por-dia-e-causam-prejuizos-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-06T00:05:17+00:00"
-    },
-    {
      "title": "Recorde da soja entra no radar do SNAG11; veja os números de 2026 - suno.com.br",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTUR2OEtHZ1I3Qk1TbDBaWUhKbHIzU25wX0I0b2xGbDdqaXd5cVUxcThXS1JaUUNxZ1Zkc3dScHZwZ1JlMjRBOWt2Z0ZfOGhjUFZPQVpWc2Y3LWI1aVhXUzFUVlZNSVI3RVh6TFNGak5sWk93Yl9nbmZxdFJEWUpMc25UcU4yQmZmQ1B0VlpjWEF3TDdDMjZrVWRRZEJvU1E?oc=5",
      "source": "suno.com.br",
@@ -497,12 +515,6 @@
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWkE4UU90ZkJVTVRRcHU2UklMU19aTndKeU5OM3p5YldMYk9KNlBGR0hybzBpdjVDcDJEdG1vTFhial8wVTNmV1dodHBjWXVOTTBrWTNSQmdqcnQ2bFBmSXM0eWxWTUhOemZfejRKTTl6SmZ5cmM5ZHZxWmFBT2Z1dFA5emppb0g2eVB6RUNFMU4tbE0?oc=5",
      "source": "AgroRevenda",
      "published_at": "2026-08-05T21:07:53+00:00"
-    },
-    {
-     "title": "Como a escolha da semente influencia a produtividade da soja - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZjRFUFJWb210RFNMM2F5MXRIb2l1N29MU3NFS3ZZRi0yRklYZHJJLWZ2R3Rsb1hyQ1hqYnhsMTlfOUU2TFo0Rk05QmhxWUJld3hJM3VGeW9CaEc1elR4SXJPVGdab3pNUDR0c2RDWF9Ed3pHVm50N3o0cDFpTjhEcUtHMldkdG5ydjh1TEpQREE2YWpoX0UzTkxmQWk2TUJoaGRwQldjd2NZcXJPT3c?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-05T21:02:00+00:00"
     },
     {
      "title": "Prêmios da soja estão nos melhores momentos do ano e são pilar fundamental para preços no Brasil - Notícias Agrícolas",
@@ -539,12 +551,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/producao-de-carne-bovina-do-brasil-deve-cair-em-2026-em-meio-a-tarifas-barreiras-comerciais-e-incertezas-no-mercado-global.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-05T13:53:12"
-    },
-    {
-     "title": "Alta da soja em MT comprime margem da esmagadora em julho - agrimidia.com.br",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNkZIYjJETHN1cExWQWZXVU5ZVm5kckc0X2Z3ZEtlUG1Qd1hySVNESERNR0xfdjZHNS16SmZvTlpfSXFiaEtDRHJpYkNMUlZzc3pTTXlCenpUR3k3eDZqbGdZRUJQVGtyU2luUWg3M1ktYWp3X1BuNDlkenNiSDJTSDNyeVZPYTNRSjl0d1A3UlhKN1NhcHV2dEpKVktEZlAwNVE?oc=5",
-     "source": "agrimidia.com.br",
-     "published_at": "2026-08-05T12:53:43+00:00"
     },
     {
      "title": "Após trégua nos preços, azeite volta a ser ameaçado por calor extremo e incêndios na Europa",
@@ -593,12 +599,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/03/china-soja-eua.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-03T12:41:19"
-    },
-    {
-     "title": "Cotação da soja sobe ao maior patamar no ano - Correio do Povo",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYS1CbmE2ZXotNFpwZEtVSzJ5STJrMmVUUkdOcHBnZmpRMXdsemNOQ0JLNVF6THR6dEFxU01YWDV5QktqSkt3ZkxFVUtHeGxaazIzU3l3bFN1NEdlTkNGemkwLTlEUmViTWtnakpNa0pxbFFUTVkwb0hscmdxNjJJYTVyQXJXTW5JS3lITnQzRUV2M01uMHV1MFY5TlpnSXVMeTVJa3dkQ202M2M?oc=5",
-     "source": "Correio do Povo",
-     "published_at": "2026-08-03T08:00:09+00:00"
     }
    ],
    "failed": [

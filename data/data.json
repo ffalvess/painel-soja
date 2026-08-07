@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-07T15:50:30+00:00",
+ "generated_at": "2026-08-07T16:46:45+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-07T15:50:25+00:00",
+   "updated_at": "2026-08-07T16:46:34+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1179.75,
+     "price": 1178.25,
      "prev_close": 1157.25,
-     "change_pct": 1.94,
+     "change_pct": 1.81,
      "closes": [
       1196.75,
       1195.0,
@@ -35,16 +35,16 @@
       1155.0,
       1151.5,
       1157.25,
-      1179.75
+      1178.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 465.25,
+     "price": 463.75,
      "prev_close": 439.0,
-     "change_pct": 5.98,
+     "change_pct": 5.64,
      "closes": [
       442.5,
       434.75,
@@ -69,16 +69,16 @@
       442.25,
       436.75,
       439.0,
-      465.25
+      463.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 315.2,
+     "price": 314.4,
      "prev_close": 310.7,
-     "change_pct": 1.45,
+     "change_pct": 1.19,
      "closes": [
       318.4,
       314.5,
@@ -103,16 +103,16 @@
       310.6,
       309.3,
       310.7,
-      315.2
+      314.4
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.82,
+     "price": 67.92,
      "prev_close": 67.7,
-     "change_pct": 0.18,
+     "change_pct": 0.32,
      "closes": [
       68.79,
       71.39,
@@ -137,16 +137,16 @@
       68.18,
       67.75,
       67.7,
-      67.82
+      67.92
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 643.0,
+     "price": 641.0,
      "prev_close": 631.25,
-     "change_pct": 1.86,
+     "change_pct": 1.54,
      "closes": [
       609.25,
       599.5,
@@ -171,16 +171,16 @@
       638.5,
       642.25,
       631.25,
-      643.0
+      641.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 83.42,
+     "price": 83.7,
      "prev_close": 82.49,
-     "change_pct": 1.13,
+     "change_pct": 1.47,
      "closes": [
       74.16,
       78.02,
@@ -205,16 +205,16 @@
       79.36,
       79.45,
       82.49,
-      83.42
+      83.7
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 173052.17,
+     "price": 172586.48,
      "prev_close": 175546.0,
-     "change_pct": -1.42,
+     "change_pct": -1.69,
      "closes": [
       172021.0,
       170654.0,
@@ -239,7 +239,7 @@
       177895.0,
       177726.0,
       175546.0,
-      173052.1719
+      172586.4844
      ]
     }
    ],
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-07T15:50:25+00:00",
+   "updated_at": "2026-08-07T16:46:35+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-07T15:50:28+00:00",
+   "updated_at": "2026-08-07T16:46:40+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-07T15:50:30+00:00",
+   "updated_at": "2026-08-07T16:46:45+00:00",
    "items": [
+    {
+     "title": "Exportadores dos EUA relatam venda de 238 mil t de soja à China - UOL Notícias",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVkFlRWdHb0kxUzczY2o4N1VJTVZVRkZWc1VVTmFmQkZ2SFpBUGNWbDYtZUpOVVYyR0ZudklNUlVNOV9nNTYzVmZFZU9PSEh2RVhGTGVwYUNXRGpMVE1sM2hnMWFLNjBzTFgtZjBFVkhrODVMTzFISHRmUjlMVGZJb1NWNDYwVlZvLTVkdnkzd1BWMlZQc2d1R3lPWkstdHZ6YzhhRm03bEJraTVfbmZjNU5fUnRzdjEzWnNURVB6bFdoc19kOG5OeHFjYk1pRzNKSUpuVg?oc=5",
+     "source": "UOL Notícias",
+     "published_at": "2026-08-07T15:50:00+00:00"
+    },
+    {
+     "title": "Importações de Soja Pela China Caem 1,6% em Julho ante Preocupações com Rebanho Suíno - Forbes Brasil",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZmNXS1g3TzBZRkJXal91emlwYmJPMTBncmJ4QmVpWjdRQzdIR3dRQXVZVjZyLWFockItZUV1Y01kaUpvUDV6ZFFvQUxfTktSNGFJb2dKSnFGTFVUNVB6djE3aWhIUkRkQ3Z0Yl8xekZ3M2hra21uczQ3ZE5jVlNMMG5JX2YzaktVd0QwaVdwX2NmSWVwRnBzZkVlZWlral92WnZ3Z0ZZcFFyY2wwbDQ0elhzY2hseHBMQVdHRXJ6NUZVbGtH?oc=5",
+     "source": "Forbes Brasil",
+     "published_at": "2026-08-07T15:46:19+00:00"
+    },
     {
      "title": "Produtor se retrai e comercialização de soja perde fôlego no Brasil - safras.com.br",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV0Q1clpRZFh2aU5FMmotY1dKRjBRbVhVV1pyT05GdlVQVkFpWDN2a1JnVFIxaEdxZWt3WHdyRTFDTnBWRGF0RlRmbUVYUkJGMHJfTHNkaUtKY2JPaktDcGZBaVFidHpvTlRDZ014WVFlRTZSc1p2UzNvOUpHb0NJS2JxWTFzQ3VGbWN0cXZXZWVoR0VK?oc=5",
@@ -458,9 +470,9 @@
      "published_at": "2026-08-07T13:48:34+00:00"
     },
     {
-     "title": "Soja sobe 2,75% e milho mantém estabilidade em Mato Grosso do Sul - A Crítica de Campo Grande",
+     "title": "Soja sobe 2,75% e milho mantém estabilidade em Mato Grosso do Sul - acritica.net",
      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pRVN2VGxjY1BoUVhqVEY1aEdmYmFUR21QNUhac1FncFBIazA3NUMwdkVsSkdxQjNLOHRuRGxlUThmU1REM1J3VzJwTlcyQ0tCT0NBOVFraGZzZklZQ29MbkhYSElMd0ZyOXRTQ0xZdw?oc=5",
-     "source": "A Crítica de Campo Grande",
+     "source": "acritica.net",
      "published_at": "2026-08-07T13:41:30+00:00"
     },
     {
@@ -530,18 +542,6 @@
      "published_at": "2026-08-07T12:02:20"
     },
     {
-     "title": "SOJA E TRIGO: confira cotações para esta sexta-feira (7) - Conexão Itajubá",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWWxWTzdUQ2RCSUduTURtbUVLcXNab1o4VE5ieDNGOUFCaEVFT1RWYWIwYnhkNjBGNGwzeFpyTzFON2FDR0hoLWhJZEhJcmVmSU15Z2tOSXdWcVJyc1lkOXZYVkJsVGVRRjd1cDMtTEVCYjlwSmtiNDFhOXlVbEZOUDVQRmMzQWtWa3l1aFJxRWxrZXVXM2JhYjdfNWhraXVnZENLOGdJMA?oc=5",
-     "source": "Conexão Itajubá",
-     "published_at": "2026-08-07T11:33:25+00:00"
-    },
-    {
-     "title": "Mercado Agrícola - 7.ago.2026 - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5SU2FiQXpmbVVyQjkyNjcwWkhfUnl2NzFLMmVsTzh0eGJrYmlWZGNsTkJqNHdtdkIxckZBSjl6Nnl4YVpHZ09XWTBsMGk3bDBjYWNaUlU3VXlDVUlHMFVpZHR6QnRXbU1mLVE0UFZVTkh3YWJhUGc?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-08-07T11:20:00+00:00"
-    },
-    {
      "title": "Como criar galinhas poedeiras e frangos caipiras",
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/como-criar-galinhas-poedeiras-e-frangos-caipiras.ghtml",
      "source": "G1 Agronegócios",
@@ -566,9 +566,9 @@
      "published_at": "2026-08-07T08:04:39"
     },
     {
-     "title": "Soja sobe R$ 3,20 em MS e milho fica estável em julho - Campo Grande News",
+     "title": "Soja sobe R$ 3,20 em MS e milho fica estável em julho - campograndenews.com.br",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNTg0SlZsY3A4ZldaRGhDR0lkZzBEbVpqam8wT3JuOEEteFpOTnJpM2c2ejRoeDFzRUVsc3F0dkZBSGNYbkt4dXBkdjQteXpUY0hoQ05UWWJ1b1gtN1ZITjgydWVDUTN4VUdzTG93c3ZnZ21ENjVORFRXRi1qcExsSDlpQldHZUM2SGNMandfNl9fYTh5LUNoOURnRXY2RTZwZlNEd2p6NG5SanpPcGtaY3VEVXjSAbQBQVVfeXFMT1VoWGNDS29udG1GNzZUek0tVjU5WGxKN3U2c0ZTemJZc0VGMWtSRS1GdnpodHNXMXJXTHQxNjNNMUdXaWdDcmpMWVF3ZG1LQjhqRWd5YXpzaDJHYmNpRUhYTDZXMUc4djYxclFUVjJSZzRGcXN1REJHM3dGd2RKU3VlUTFsWUQwbEdvbGxiUmh3bFh6eF9kYmlxUXJyaUI4QVRkV1dlMy0yOVVFc2E1SnJwXzJk?oc=5",
-     "source": "Campo Grande News",
+     "source": "campograndenews.com.br",
      "published_at": "2026-08-07T03:07:00+00:00"
     },
     {
@@ -578,9 +578,9 @@
      "published_at": "2026-08-07T03:00:52"
     },
     {
-     "title": "CNA participa de evento sobre desafios do Brasil como líder na produção de soja - cnabrasil.org.br",
+     "title": "CNA participa de evento sobre desafios do Brasil como líder na produção de soja - Portal CNA Brasil",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNN3oyWFBzcnV2VnBzeTZyNmgxN2ZsbFZMQUxob0ExZzhVS1RxV2g1NmlIRkJzQ2JPUmp0aTJzMzVJWkNJa3loMElWMGRnR0tFYk1HMFB4N0REVDlaN0JBNTBQRG9aclBrV1FzOV9jelVHMFlMNGVGYVBnY0xmbkszRkFkazVaWVJkSXlCSHNyaC1jWnIwNDdxenVOaFZsQjdHUzlYQVMyU2VBcFdxQWt5WEN3aw?oc=5",
-     "source": "cnabrasil.org.br",
+     "source": "Portal CNA Brasil",
      "published_at": "2026-08-06T19:35:06+00:00"
     },
     {

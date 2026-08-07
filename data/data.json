@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-07T16:46:45+00:00",
+ "generated_at": "2026-08-07T17:43:07+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-07T16:46:34+00:00",
+   "updated_at": "2026-08-07T17:43:02+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1178.25,
+     "price": 1178.0,
      "prev_close": 1157.25,
-     "change_pct": 1.81,
+     "change_pct": 1.79,
      "closes": [
       1196.75,
       1195.0,
@@ -35,16 +35,16 @@
       1155.0,
       1151.5,
       1157.25,
-      1178.25
+      1178.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 463.75,
+     "price": 463.5,
      "prev_close": 439.0,
-     "change_pct": 5.64,
+     "change_pct": 5.58,
      "closes": [
       442.5,
       434.75,
@@ -69,16 +69,16 @@
       442.25,
       436.75,
       439.0,
-      463.75
+      463.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 314.4,
+     "price": 313.8,
      "prev_close": 310.7,
-     "change_pct": 1.19,
+     "change_pct": 1.0,
      "closes": [
       318.4,
       314.5,
@@ -103,16 +103,16 @@
       310.6,
       309.3,
       310.7,
-      314.4
+      313.8
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.92,
+     "price": 67.95,
      "prev_close": 67.7,
-     "change_pct": 0.32,
+     "change_pct": 0.37,
      "closes": [
       68.79,
       71.39,
@@ -137,16 +137,16 @@
       68.18,
       67.75,
       67.7,
-      67.92
+      67.95
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 641.0,
+     "price": 642.5,
      "prev_close": 631.25,
-     "change_pct": 1.54,
+     "change_pct": 1.78,
      "closes": [
       609.25,
       599.5,
@@ -171,16 +171,16 @@
       638.5,
       642.25,
       631.25,
-      641.0
+      642.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 83.7,
+     "price": 83.33,
      "prev_close": 82.49,
-     "change_pct": 1.47,
+     "change_pct": 1.02,
      "closes": [
       74.16,
       78.02,
@@ -205,16 +205,16 @@
       79.36,
       79.45,
       82.49,
-      83.7
+      83.33
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 172586.48,
+     "price": 172635.34,
      "prev_close": 175546.0,
-     "change_pct": -1.69,
+     "change_pct": -1.66,
      "closes": [
       172021.0,
       170654.0,
@@ -239,7 +239,7 @@
       177895.0,
       177726.0,
       175546.0,
-      172586.4844
+      172635.3438
      ]
     }
    ],
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-07T16:46:35+00:00",
+   "updated_at": "2026-08-07T17:43:02+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-07T16:46:40+00:00",
+   "updated_at": "2026-08-07T17:43:06+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-07T16:46:45+00:00",
+   "updated_at": "2026-08-07T17:43:07+00:00",
    "items": [
+    {
+     "title": "Exportações de carne bovina caem em julho, enquanto frango e suína avançam",
+     "link": "https://www.canalrural.com.br/economia/exportacoes-de-carne-bovina-caem-em-julho-enquanto-frango-e-suina-avancam/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T17:16:39+00:00"
+    },
+    {
+     "title": "BNDES aprova R$ 7,1 bilhões do Plano Safra 2026/27 em oito dias",
+     "link": "https://www.canalrural.com.br/economia/bndes-aprova-r-71-bilhoes-do-plano-safra-2026-27-em-oito-dias-2/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T16:36:47+00:00"
+    },
     {
      "title": "Exportadores dos EUA relatam venda de 238 mil t de soja à China - UOL Notícias",
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVkFlRWdHb0kxUzczY2o4N1VJTVZVRkZWc1VVTmFmQkZ2SFpBUGNWbDYtZUpOVVYyR0ZudklNUlVNOV9nNTYzVmZFZU9PSEh2RVhGTGVwYUNXRGpMVE1sM2hnMWFLNjBzTFgtZjBFVkhrODVMTzFISHRmUjlMVGZJb1NWNDYwVlZvLTVkdnkzd1BWMlZQc2d1R3lPWkstdHZ6YzhhRm03bEJraTVfbmZjNU5fUnRzdjEzWnNURVB6bFdoc19kOG5OeHFjYk1pRzNKSUpuVg?oc=5",
@@ -452,12 +464,6 @@
      "published_at": "2026-08-07T14:59:10+00:00"
     },
     {
-     "title": "BNDES aprova R$ 7,1 bilhões do Plano Safra 2026/27 em oito dias",
-     "link": "https://www.canalrural.com.br/economia/bndes-aprova-r-71-bilhoes-do-plano-safra-2026-27-em-oito-dias/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T14:53:26+00:00"
-    },
-    {
      "title": "Seara supera R$ 4 bilhões em investimentos no SuperAgro em dez anos",
      "link": "https://www.canalrural.com.br/aves-e-suinos/seara-supera-r-4-bilhoes-em-investimentos-no-superagro-em-dez-anos/",
      "source": "Canal Rural",
@@ -470,9 +476,9 @@
      "published_at": "2026-08-07T13:48:34+00:00"
     },
     {
-     "title": "Soja sobe 2,75% e milho mantém estabilidade em Mato Grosso do Sul - acritica.net",
+     "title": "Soja sobe 2,75% e milho mantém estabilidade em Mato Grosso do Sul - A Crítica de Campo Grande",
      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pRVN2VGxjY1BoUVhqVEY1aEdmYmFUR21QNUhac1FncFBIazA3NUMwdkVsSkdxQjNLOHRuRGxlUThmU1REM1J3VzJwTlcyQ0tCT0NBOVFraGZzZklZQ29MbkhYSElMd0ZyOXRTQ0xZdw?oc=5",
-     "source": "acritica.net",
+     "source": "A Crítica de Campo Grande",
      "published_at": "2026-08-07T13:41:30+00:00"
     },
     {
@@ -506,18 +512,6 @@
      "published_at": "2026-08-07T13:16:29+00:00"
     },
     {
-     "title": "ANP aprova nova resolução para qualidade e especificação do biometano",
-     "link": "https://www.canalrural.com.br/politica/anp-aprova-nova-resolucao-para-qualidade-e-especificacao-do-biometano/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T13:15:44+00:00"
-    },
-    {
-     "title": "FPA defende avanço de biodiesel, etanol e biometano no Congresso",
-     "link": "https://www.canalrural.com.br/politica/fpa-defende-avanco-de-biodiesel-etanol-e-biometano-no-congresso-2/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T13:13:51+00:00"
-    },
-    {
      "title": "Exportação de soja cresce 9,3% em julho e receita avança 17,4% - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQXBKa3ctSTJVTVJhZS1fNkdyYXY1T25Jc1BuUzllSXp5eFZTdmFVQUJMdUZNRDdlbXlKSmZVWllSZEpGdDgxRWRqenlPSHRRd01CODVxWDRRZTB5Q0lkWmlwemxheGhxeDAtWjlYSjBTeE45SUJVRk9XUmZsTk9ITTQ4QXZqNGV5UmFmUDV1Mm5uWFAyamtpSzktRnN4NEU?oc=5",
      "source": "Canal Rural",
@@ -530,16 +524,22 @@
      "published_at": "2026-08-07T12:51:38"
     },
     {
-     "title": "Exportação de soja em julho cresce 9,3% em volume na comparação anual, diz Secex - UOL Notícias",
-     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPOUN2Q2lseEs3bU1heDR6WGNqUVl5U19kNzVKbHJUNmhGbkg4VmE2WlpVWDdVakRucjBwRUlQR2pDRVQ3VHl6OUduZFdGdzZQNXdLYTE4eERteEZLOU8xUmQ5bVVXTWxfazQ1LVF6SFZhbm9IcGRGVV9YNjNjSktPcWxqLWFJUkFvRlZpdDVMRXlVWkh3cG11X0V6MU9XbU9NSy1sZ0RMVktrSnZiS09wRWxwTmRtZXE1VnVoSk1tek9MX0U2R1hCTGZ1dFBhRmZPMFQtcFNWd0RnQnpVb3Y2SGtyXzlkZ2M?oc=5",
-     "source": "UOL Notícias",
-     "published_at": "2026-08-07T12:45:00+00:00"
+     "title": "Análise aponta pressão sobre prêmios da soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUVZqNmI3Skx5YmlZNmRNeVgyZGRnTWtWNGs3RDVONWg0bTFEc2pxV3JRQnNxeXBNdkdFTUFoa05mY3FKNEVuQ2VJTUM3aXNZandiNWJiTHhtS2gwX1ZHUGd0R1ZkVjFIZVVvZTlOY29sV0IteFJSanFabGs5dkRGejAwOHdsZGx4OGpkb0R1Zko1NjN1b3ZjeA?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-07T12:26:00+00:00"
     },
     {
      "title": "JBS anuncia investimento de US$ 5 bilhões para expandir negócios na Ásia",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/jbs-anuncia-investimento-de-us-5-bilhoes-para-expandir-negocios-na-asia.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-07T12:02:20"
+    },
+    {
+     "title": "Mercado Agrícola - 7.ago.2026 - Revista Cultivar",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5SU2FiQXpmbVVyQjkyNjcwWkhfUnl2NzFLMmVsTzh0eGJrYmlWZGNsTkJqNHdtdkIxckZBSjl6Nnl4YVpHZ09XWTBsMGk3bDBjYWNaUlU3VXlDVUlHMFVpZHR6QnRXbU1mLVE0UFZVTkh3YWJhUGc?oc=5",
+     "source": "Revista Cultivar",
+     "published_at": "2026-08-07T11:20:00+00:00"
     },
     {
      "title": "Como criar galinhas poedeiras e frangos caipiras",
@@ -554,21 +554,15 @@
      "published_at": "2026-08-07T10:38:13+00:00"
     },
     {
-     "title": "Mercado da soja mantém cautela e preços mistos - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOTNYcmZaWEpjb2psbFZ0YjFjcXd1bkZJNVktZUU5OGt2ZGM5UDBYSTBYWGk2RDNDV0IyMG9yOENPRVRKdmVVU0xFdnl0amtFZzNLR2ZtdW5QekNFQjVFdk11MDBCaEViV2ptc3BmbnNjWGZlLUVhSXpwVlZtR2VHTkNEdmthNzAxcUstenNlMnpycUdqVVdTSXdQTQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-07T09:25:00+00:00"
-    },
-    {
      "title": "INFOGRÁFICO mostra como o tarifaço mudou o mapa das exportações brasileiras aos EUA",
      "link": "https://g1.globo.com/economia/noticia/2026/08/07/infografico-mostra-como-o-tarifaco-mudou-o-mapa-das-exportacoes-brasileiras-aos-eua.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-07T08:04:39"
     },
     {
-     "title": "Soja sobe R$ 3,20 em MS e milho fica estável em julho - campograndenews.com.br",
+     "title": "Soja sobe R$ 3,20 em MS e milho fica estável em julho - Campo Grande News",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNTg0SlZsY3A4ZldaRGhDR0lkZzBEbVpqam8wT3JuOEEteFpOTnJpM2c2ejRoeDFzRUVsc3F0dkZBSGNYbkt4dXBkdjQteXpUY0hoQ05UWWJ1b1gtN1ZITjgydWVDUTN4VUdzTG93c3ZnZ21ENjVORFRXRi1qcExsSDlpQldHZUM2SGNMandfNl9fYTh5LUNoOURnRXY2RTZwZlNEd2p6NG5SanpPcGtaY3VEVXjSAbQBQVVfeXFMT1VoWGNDS29udG1GNzZUek0tVjU5WGxKN3U2c0ZTemJZc0VGMWtSRS1GdnpodHNXMXJXTHQxNjNNMUdXaWdDcmpMWVF3ZG1LQjhqRWd5YXpzaDJHYmNpRUhYTDZXMUc4djYxclFUVjJSZzRGcXN1REJHM3dGd2RKU3VlUTFsWUQwbEdvbGxiUmh3bFh6eF9kYmlxUXJyaUI4QVRkV1dlMy0yOVVFc2E1SnJwXzJk?oc=5",
-     "source": "campograndenews.com.br",
+     "source": "Campo Grande News",
      "published_at": "2026-08-07T03:07:00+00:00"
     },
     {
@@ -578,9 +572,9 @@
      "published_at": "2026-08-07T03:00:52"
     },
     {
-     "title": "CNA participa de evento sobre desafios do Brasil como líder na produção de soja - Portal CNA Brasil",
+     "title": "CNA participa de evento sobre desafios do Brasil como líder na produção de soja - cnabrasil.org.br",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNN3oyWFBzcnV2VnBzeTZyNmgxN2ZsbFZMQUxob0ExZzhVS1RxV2g1NmlIRkJzQ2JPUmp0aTJzMzVJWkNJa3loMElWMGRnR0tFYk1HMFB4N0REVDlaN0JBNTBQRG9aclBrV1FzOV9jelVHMFlMNGVGYVBnY0xmbkszRkFkazVaWVJkSXlCSHNyaC1jWnIwNDdxenVOaFZsQjdHUzlYQVMyU2VBcFdxQWt5WEN3aw?oc=5",
-     "source": "Portal CNA Brasil",
+     "source": "cnabrasil.org.br",
      "published_at": "2026-08-06T19:35:06+00:00"
     },
     {
@@ -600,6 +594,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/veto-da-ue-atinge-carne-e-mel-brasileiros-enquanto-ganhavam-espaco-no-mercado-europeu.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-05T05:00:08"
+    },
+    {
+     "title": "Café: entenda como inverno atípico e chuvoso em julho pode impactar exportação e qualidade da bebida",
+     "link": "https://g1.globo.com/sp/piracicaba-regiao/noticia/2026/08/04/cafe-entenda-como-inverno-atipico-e-chuvoso-em-julho-pode-impactar-exportacao-precos-e-qualidade-da-bebida.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-04T12:14:19"
     }
    ],
    "failed": [

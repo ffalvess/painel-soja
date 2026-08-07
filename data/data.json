@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-07T05:30:49+00:00",
+ "generated_at": "2026-08-07T07:05:11+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-07T05:30:41+00:00",
+   "updated_at": "2026-08-07T07:04:57+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -42,9 +42,9 @@
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 464.5,
+     "price": 463.75,
      "prev_close": 439.0,
-     "change_pct": 5.81,
+     "change_pct": 5.64,
      "closes": [
       442.5,
       434.75,
@@ -69,16 +69,16 @@
       442.25,
       436.75,
       439.0,
-      464.5
+      463.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 317.3,
+     "price": 317.6,
      "prev_close": 310.7,
-     "change_pct": 2.12,
+     "change_pct": 2.22,
      "closes": [
       318.4,
       314.5,
@@ -103,16 +103,16 @@
       310.6,
       309.3,
       310.7,
-      317.3
+      317.6
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.72,
+     "price": 67.6,
      "prev_close": 67.7,
-     "change_pct": 0.03,
+     "change_pct": -0.15,
      "closes": [
       68.79,
       71.39,
@@ -137,7 +137,7 @@
       68.18,
       67.75,
       67.7,
-      67.72
+      67.6
      ]
     },
     {
@@ -178,9 +178,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 83.77,
+     "price": 83.44,
      "prev_close": 82.49,
-     "change_pct": 1.55,
+     "change_pct": 1.15,
      "closes": [
       74.16,
       78.02,
@@ -205,7 +205,7 @@
       79.36,
       79.45,
       82.49,
-      83.77
+      83.44
      ]
     },
     {
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-07T05:30:41+00:00",
+   "updated_at": "2026-08-07T07:04:58+00:00",
    "selic": 14.0,
    "cdi": 14.15,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-07T05:30:45+00:00",
+   "updated_at": "2026-08-07T07:05:08+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -281,22 +281,22 @@
       0.0
      ],
      "tmax": [
-      34.7,
-      35.7,
-      36.3,
-      38.0,
+      35.1,
+      35.8,
       36.2,
-      36.2,
-      36.1
+      37.7,
+      36.8,
+      36.1,
+      35.9
      ],
      "tmin": [
       21.8,
-      22.7,
       22.3,
-      23.0,
-      25.9,
-      22.9,
-      23.9
+      22.1,
+      22.8,
+      26.3,
+      22.7,
+      23.5
      ]
     },
     {
@@ -320,22 +320,22 @@
       0.0
      ],
      "tmax": [
-      33.9,
-      34.7,
+      33.7,
+      34.8,
       35.6,
       36.7,
-      36.0,
+      36.4,
       35.4,
       35.2
      ],
      "tmin": [
-      21.8,
-      23.0,
-      22.5,
-      22.6,
-      25.9,
-      22.7,
-      24.4
+      21.6,
+      22.8,
+      22.9,
+      23.4,
+      25.0,
+      22.2,
+      23.7
      ]
     },
     {
@@ -359,22 +359,22 @@
       0.0
      ],
      "tmax": [
-      32.7,
-      33.5,
-      34.8,
-      35.5,
+      32.6,
+      33.4,
+      34.9,
+      35.3,
       33.9,
-      33.5,
-      32.6
+      32.9,
+      32.1
      ],
      "tmin": [
-      21.2,
-      21.6,
-      22.8,
-      22.3,
-      21.2,
-      21.2,
-      24.7
+      21.0,
+      21.4,
+      22.2,
+      22.0,
+      21.4,
+      21.5,
+      23.9
      ]
     },
     {
@@ -389,37 +389,37 @@
       "2026-08-13"
      ],
      "precip": [
-      9.6,
+      11.1,
       0.0,
-      2.1,
-      27.5,
-      0.1,
+      6.0,
+      6.5,
+      2.0,
       0.0,
-      0.0
+      0.6
      ],
      "tmax": [
-      27.2,
-      30.4,
-      31.4,
-      25.0,
-      24.6,
-      28.4,
-      26.9
+      28.0,
+      30.5,
+      31.3,
+      27.8,
+      25.1,
+      27.4,
+      31.2
      ],
      "tmin": [
-      18.8,
-      19.7,
-      20.9,
-      19.8,
-      18.9,
-      16.9,
-      19.1
+      18.4,
+      19.3,
+      20.2,
+      19.6,
+      19.5,
+      17.0,
+      19.7
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-07T05:30:49+00:00",
+   "updated_at": "2026-08-07T07:05:11+00:00",
    "items": [
     {
      "title": "Soja avança e já ocupa 62% da área plantada nas regiões metropolitanas da Amazônia Legal - Conexão Tocantins",
@@ -536,9 +536,9 @@
      "published_at": "2026-08-06T20:15:07+00:00"
     },
     {
-     "title": "Agro de MS amplia exportações em 12,4% com destaque para soja e carne bovina - Sistema Famasul",
+     "title": "Agro de MS amplia exportações em 12,4% com destaque para soja e carne bovina - portal.sistemafamasul.com.br",
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOXo3cFVPbFhNRlB6bW1UYnNqUDFRNkVrc2lHdDJzemt3RXVtVFhOTWVsNWk5c0NFa0N6bjAyX3A2bGhwT2hmQVlfeVhraEtCNnhRamhSeXllaEdxUkZ3RjNDWWV3b1BYa3M0Wl9YMEpJbU5EdTQ2bENmOEM5QzY2MVRUdmhHU2h1UmFpVTVnc1ZnWHEwSjZZam9kNkI0RmFNaFVVa2p5TFhIUDFFVGFudUlZS0xSWTMzWXZMR2pWRmF1NFMyZzV2UU5n?oc=5",
-     "source": "Sistema Famasul",
+     "source": "portal.sistemafamasul.com.br",
      "published_at": "2026-08-06T19:42:35+00:00"
     },
     {

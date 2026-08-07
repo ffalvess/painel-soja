@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-07T20:33:56+00:00",
+ "generated_at": "2026-08-07T21:33:05+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-07T20:33:48+00:00",
+   "updated_at": "2026-08-07T21:32:59+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -178,9 +178,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 82.12,
+     "price": 82.27,
      "prev_close": 82.49,
-     "change_pct": -0.45,
+     "change_pct": -0.27,
      "closes": [
       74.16,
       78.02,
@@ -205,7 +205,7 @@
       79.36,
       79.45,
       82.49,
-      82.12
+      82.27
      ]
     },
     {
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-07T20:33:48+00:00",
+   "updated_at": "2026-08-07T21:33:00+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-07T20:33:52+00:00",
+   "updated_at": "2026-08-07T21:33:03+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,13 +419,25 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-07T20:33:56+00:00",
+   "updated_at": "2026-08-07T21:33:05+00:00",
    "items": [
+    {
+     "title": "Dólar cai a R$ 5,08 com payroll fraco nos EUA, mas fecha semana em alta",
+     "link": "https://www.canalrural.com.br/economia/dolar-cai-a-r-508-com-payroll-fraco-nos-eua-mas-fecha-semana-em-alta/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T21:01:34+00:00"
+    },
     {
      "title": "Estudo da Embrapa identifica 27 novos registros de abelhas nativas na cultura da soja - Agrofy News Brasil",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdTFZcXcyeS1hTEVaNERPbF9QajA2Y0xHWGtpLVUtXzlCS21aZ1FpY3F3SVlKVlVNU3pEOVBObnUwVVJvRmU5YzE0UDRmQXhVQWVtc2pDR1ppcWxUVDhFSzdvSEZrb0x6Y1dMTnFVQmpWSGc2Wm9JeHZKUGVJUWl6R2dtUl95SnI0NktZZS1YUk9aR0Y2Rkk4OG5TckpQbXJDREMzeDBZYUZkSVR0TE9NQ1lZRE5RQ0E4RUV3OFVqRGl0Zw?oc=5",
      "source": "Agrofy News Brasil",
      "published_at": "2026-08-07T20:09:05+00:00"
+    },
+    {
+     "title": "Soja fecha com leves baixas em Chicago nesta 6ª, mas com semana firme no Brasil - TradingView",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4yMDl0Rm9HcEVxY0FNWDk4dzJ4MG9wWXBjWUtSa2FiZ1RKUkF0ZGltWE1FV2pDbmRveHI2bERkN2E1QW0zam9ZeVhSUkJTX0Y0cmlsSGZuWXVxdk9ocUJidVRzdEF6czRMdk0yLWhmbzlhQzJ1?oc=5",
+     "source": "TradingView",
+     "published_at": "2026-08-07T20:05:03+00:00"
     },
     {
      "title": "Vacas que combatem fogo? Conheça a raça que virou aliada na prevenção de incêndios",
@@ -492,18 +504,6 @@
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRXVVODB6YjVLQ0NpeHU5Y2VmdmR0TVNkVWw0dmJQbG5YQVVKeng3ZnpsOHRaMUJyS09ZUU9USkJKQzJZcExRV3BVdVFDVm5jd3ljanpzeGhRSXFyX0RMdXk4enNSZTRfMlFZZmZYcmJReHhUdkxLUVI5dzJrRnVHWUZkSlpramJabUdCRHlaRXpiZ0NtNHJfcEJsd0VLX3VOdnNQYzhWOWI0MTFIejc2dkt4WjY?oc=5",
      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
      "published_at": "2026-08-07T18:06:00+00:00"
-    },
-    {
-     "title": "China compra quase 1 milhão de toneladas de soja dos EUA em uma semana; mercado já avalia impactos para o Brasil - TradingView",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE10eWpIQUotc1VIR00wbGNiYlhHblpobTJEb0QxLUZmSnFNRXQzbjZ2amlKQUVKYVhjb2QtZHp4QWRPWnByVWp6YkhhZ0JBRnJiTkVnb3VlemJmNFprd2lLLTZjakZEbTZWazV1N0ZneDdKdkw1?oc=5",
-     "source": "TradingView",
-     "published_at": "2026-08-07T17:59:55+00:00"
-    },
-    {
-     "title": "Agro de US$ 1 trilhão: o desafio para os candidatos à Presidência",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/agro-de-us-1-trilhao-o-desafio-para-os-candidatos-a-presidencia/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T17:37:43+00:00"
     },
     {
      "title": "Exportadores dos EUA relatam venda de 238 mil t de soja à China - UOL Notícias",

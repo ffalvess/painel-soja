@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-07T19:48:03+00:00",
+ "generated_at": "2026-08-07T20:33:56+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-07T19:47:52+00:00",
+   "updated_at": "2026-08-07T20:33:48+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -178,9 +178,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 82.03,
+     "price": 82.12,
      "prev_close": 82.49,
-     "change_pct": -0.56,
+     "change_pct": -0.45,
      "closes": [
       74.16,
       78.02,
@@ -205,16 +205,16 @@
       79.36,
       79.45,
       82.49,
-      82.03
+      82.12
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 172494.94,
+     "price": 172513.42,
      "prev_close": 175546.0,
-     "change_pct": -1.74,
+     "change_pct": -1.73,
      "closes": [
       172021.0,
       170654.0,
@@ -239,7 +239,7 @@
       177895.0,
       177726.0,
       175546.0,
-      172494.9375
+      172513.4219
      ]
     }
    ],
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-07T19:47:53+00:00",
+   "updated_at": "2026-08-07T20:33:48+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-07T19:47:57+00:00",
+   "updated_at": "2026-08-07T20:33:52+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-07T19:48:03+00:00",
+   "updated_at": "2026-08-07T20:33:56+00:00",
    "items": [
+    {
+     "title": "Estudo da Embrapa identifica 27 novos registros de abelhas nativas na cultura da soja - Agrofy News Brasil",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdTFZcXcyeS1hTEVaNERPbF9QajA2Y0xHWGtpLVUtXzlCS21aZ1FpY3F3SVlKVlVNU3pEOVBObnUwVVJvRmU5YzE0UDRmQXhVQWVtc2pDR1ppcWxUVDhFSzdvSEZrb0x6Y1dMTnFVQmpWSGc2Wm9JeHZKUGVJUWl6R2dtUl95SnI0NktZZS1YUk9aR0Y2Rkk4OG5TckpQbXJDREMzeDBZYUZkSVR0TE9NQ1lZRE5RQ0E4RUV3OFVqRGl0Zw?oc=5",
+     "source": "Agrofy News Brasil",
+     "published_at": "2026-08-07T20:09:05+00:00"
+    },
+    {
+     "title": "Vacas que combatem fogo? Conheça a raça que virou aliada na prevenção de incêndios",
+     "link": "https://www.canalrural.com.br/pecuaria/vacas-que-combatem-fogo-conheca-a-raca-que-virou-aliada-na-prevencao-de-incendios/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T19:53:55+00:00"
+    },
+    {
+     "title": "Soja fecha em baixa em Chicago apesar de novas compras da China nos EUA - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTkFLUWFlVDZDaF9PV3VpNHhwODR3aE1heWVaaUxyUy1UdE1MTENITXI0VEsxblY5YkwydXVCbmNoMDFzSGhxRW94QkRhSl9wZHhZcjVHUjVzeklRM3ZjaGdqck9JdmJ4a0JlMzZGQ2dmWUR1OFBIelo2LUpnR1RLMnE4NWw5Z3J5dFlfdldSTFgyS3ZMWDhhMGpBS19CMFB1dFp4ZlFtY2tNQQ?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-08-07T19:46:37+00:00"
+    },
     {
      "title": "ANP revoga autorização de operação da Refit por unanimidade",
      "link": "https://www.canalrural.com.br/economia/anp-revoga-autorizacao-de-operacao-da-refit-por-unanimidade/",
@@ -488,12 +506,6 @@
      "published_at": "2026-08-07T17:37:43+00:00"
     },
     {
-     "title": "Chuvas dificultam manejo, mas trigo avança bem no Rio Grande do Sul",
-     "link": "https://www.canalrural.com.br/agricultura/chuvas-dificultam-manejo-mas-trigo-avanca-bem-no-rio-grande-do-sul/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T17:28:05+00:00"
-    },
-    {
      "title": "Exportadores dos EUA relatam venda de 238 mil t de soja à China - UOL Notícias",
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVkFlRWdHb0kxUzczY2o4N1VJTVZVRkZWc1VVTmFmQkZ2SFpBUGNWbDYtZUpOVVYyR0ZudklNUlVNOV9nNTYzVmZFZU9PSEh2RVhGTGVwYUNXRGpMVE1sM2hnMWFLNjBzTFgtZjBFVkhrODVMTzFISHRmUjlMVGZJb1NWNDYwVlZvLTVkdnkzd1BWMlZQc2d1R3lPWkstdHZ6YzhhRm03bEJraTVfbmZjNU5fUnRzdjEzWnNURVB6bFdoc19kOG5OeHFjYk1pRzNKSUpuVg?oc=5",
      "source": "UOL Notícias",
@@ -512,9 +524,9 @@
      "published_at": "2026-08-07T15:03:34+00:00"
     },
     {
-     "title": "Soja sobe 2,75% e milho mantém estabilidade em Mato Grosso do Sul - A Crítica de Campo Grande",
+     "title": "Soja sobe 2,75% e milho mantém estabilidade em Mato Grosso do Sul - acritica.net",
      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pRVN2VGxjY1BoUVhqVEY1aEdmYmFUR21QNUhac1FncFBIazA3NUMwdkVsSkdxQjNLOHRuRGxlUThmU1REM1J3VzJwTlcyQ0tCT0NBOVFraGZzZklZQ29MbkhYSElMd0ZyOXRTQ0xZdw?oc=5",
-     "source": "A Crítica de Campo Grande",
+     "source": "acritica.net",
      "published_at": "2026-08-07T13:40:00+00:00"
     },
     {
@@ -548,21 +560,15 @@
      "published_at": "2026-08-07T12:02:20"
     },
     {
-     "title": "Mercado Agrícola - 7.ago.2026 - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5SU2FiQXpmbVVyQjkyNjcwWkhfUnl2NzFLMmVsTzh0eGJrYmlWZGNsTkJqNHdtdkIxckZBSjl6Nnl4YVpHZ09XWTBsMGk3bDBjYWNaUlU3VXlDVUlHMFVpZHR6QnRXbU1mLVE0UFZVTkh3YWJhUGc?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-08-07T11:20:00+00:00"
-    },
-    {
      "title": "Como criar galinhas poedeiras e frangos caipiras",
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/como-criar-galinhas-poedeiras-e-frangos-caipiras.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-07T11:06:13"
     },
     {
-     "title": "Soja sobe em Chicago nesta 6ª com apoio dos derivados e recuperação técnica, mas ainda de olho no clima - Notícias Agrícolas",
+     "title": "Soja sobe em Chicago nesta 6ª com apoio dos derivados e recuperação técnica, mas ainda de olho no clima - noticiasagricolas.com.br",
      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObjh1cE5MYzhoazE4b3RNYkpFemZXd0xUd2tZYTdCUjZUbVk1Q0pHUm42VUhfbTd6SThCUUJOSGdIVE1fdWVDSXpXVHFwd285RHA2NUVSSGNvS2swbkV2N3R6X2l0NEJabXpXd00zRkVNbVVoYWJpcjFQSjFoT1lMel9wUG1hNU9nUWtqOUFxN29Wa2hPbHUxcFhLdUY4V3RYa3JvR0VEQTcwSFJGbklQaU1GWGJGNDB6Q1JFOUFfVkdZeFRnSVI3bkpua0JxT2hOWGlNaUxfeENQbnA5Nml6SDNmWEpBVExYNDI1bE5Bd2J2dWhfXzBJ0gH8AUFVX3lxTFBlWk54YU1VdDY1WnFqYTZSZlRfUWdkcmlqN3JoTzNjZVdwQVVZMWk2alU1cGloNjBtNV9pS0U1aG5XYmg3bzBub2VmQnlycDd2cnBGQ1BOZDNPNC1odkZ5M09yNGdZd0JDeGloeEdwVFY3T2FFY00yVnlnQnJETnBoNHFfdjl6azFXN0c5Sy0xWGdjOFp1LURIbjhCbUVMVUFjc0FOeTR6cWdNVXdzLW5lTUdGZC1WN3czZHROaVozcW9nZTItMGlvRGYxcnNJSDJQaEE0Y0lMLWRXY2FzRmZWU1h0bmZsY1R3X01TS3plb3RmMWhnbTd3RlNzQg?oc=5",
-     "source": "Notícias Agrícolas",
+     "source": "noticiasagricolas.com.br",
      "published_at": "2026-08-07T10:38:13+00:00"
     },
     {
@@ -570,12 +576,6 @@
      "link": "https://g1.globo.com/economia/noticia/2026/08/07/infografico-mostra-como-o-tarifaco-mudou-o-mapa-das-exportacoes-brasileiras-aos-eua.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-07T08:04:39"
-    },
-    {
-     "title": "Soja sobe R$ 3,20 em MS e milho fica estável em julho - Campo Grande News",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNTg0SlZsY3A4ZldaRGhDR0lkZzBEbVpqam8wT3JuOEEteFpOTnJpM2c2ejRoeDFzRUVsc3F0dkZBSGNYbkt4dXBkdjQteXpUY0hoQ05UWWJ1b1gtN1ZITjgydWVDUTN4VUdzTG93c3ZnZ21ENjVORFRXRi1qcExsSDlpQldHZUM2SGNMandfNl9fYTh5LUNoOURnRXY2RTZwZlNEd2p6NG5SanpPcGtaY3VEVXjSAbQBQVVfeXFMT1VoWGNDS29udG1GNzZUek0tVjU5WGxKN3U2c0ZTemJZc0VGMWtSRS1GdnpodHNXMXJXTHQxNjNNMUdXaWdDcmpMWVF3ZG1LQjhqRWd5YXpzaDJHYmNpRUhYTDZXMUc4djYxclFUVjJSZzRGcXN1REJHM3dGd2RKU3VlUTFsWUQwbEdvbGxiUmh3bFh6eF9kYmlxUXJyaUI4QVRkV1dlMy0yOVVFc2E1SnJwXzJk?oc=5",
-     "source": "Campo Grande News",
-     "published_at": "2026-08-07T03:07:00+00:00"
     },
     {
      "title": "Como a cerveja é feita? Do lúpulo à levedura, veja o caminho da bebida até chegar ao copo",

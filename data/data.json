@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-07T18:45:34+00:00",
+ "generated_at": "2026-08-07T19:48:03+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-07T18:45:25+00:00",
+   "updated_at": "2026-08-07T19:47:52+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -178,9 +178,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 83.44,
+     "price": 82.03,
      "prev_close": 82.49,
-     "change_pct": 1.15,
+     "change_pct": -0.56,
      "closes": [
       74.16,
       78.02,
@@ -205,16 +205,16 @@
       79.36,
       79.45,
       82.49,
-      83.44
+      82.03
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 172591.88,
+     "price": 172494.94,
      "prev_close": 175546.0,
-     "change_pct": -1.68,
+     "change_pct": -1.74,
      "closes": [
       172021.0,
       170654.0,
@@ -239,7 +239,7 @@
       177895.0,
       177726.0,
       175546.0,
-      172591.875
+      172494.9375
      ]
     }
    ],
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-07T18:45:25+00:00",
+   "updated_at": "2026-08-07T19:47:53+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-07T18:45:29+00:00",
+   "updated_at": "2026-08-07T19:47:57+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -281,22 +281,22 @@
       0.0
      ],
      "tmax": [
-      34.6,
-      35.6,
+      34.8,
+      35.7,
       36.2,
-      37.9,
-      37.7,
-      36.0,
-      35.9
+      37.2,
+      37.8,
+      36.3,
+      36.4
      ],
      "tmin": [
       21.5,
+      22.3,
       22.0,
-      22.0,
-      22.7,
+      23.0,
       26.0,
-      23.3,
-      23.2
+      23.5,
+      23.1
      ]
     },
     {
@@ -320,22 +320,22 @@
       0.0
      ],
      "tmax": [
-      33.5,
-      34.5,
+      33.7,
+      34.8,
+      35.6,
+      36.3,
+      36.2,
       35.7,
-      36.7,
-      36.7,
-      35.1,
-      35.2
+      35.6
      ],
      "tmin": [
       21.3,
-      22.6,
-      22.6,
-      23.0,
-      25.6,
       22.4,
-      23.5
+      22.6,
+      23.1,
+      25.3,
+      22.6,
+      22.5
      ]
     },
     {
@@ -359,22 +359,22 @@
       0.0
      ],
      "tmax": [
-      32.3,
-      33.1,
+      31.8,
+      33.3,
       34.6,
-      35.0,
-      33.7,
-      32.5,
-      32.1
+      35.2,
+      33.9,
+      32.8,
+      32.5
      ],
      "tmin": [
       20.7,
-      21.3,
+      20.8,
       22.1,
-      23.5,
+      23.0,
+      21.4,
       21.2,
-      21.3,
-      22.9
+      22.0
      ]
     },
     {
@@ -389,38 +389,80 @@
       "2026-08-13"
      ],
      "precip": [
-      10.7,
+      9.4,
       0.0,
-      1.2,
-      1.4,
-      0.4,
+      4.5,
+      2.1,
       0.0,
-      0.6
+      0.0,
+      0.2
      ],
      "tmax": [
+      28.6,
+      31.0,
+      31.9,
+      28.7,
+      25.9,
       27.8,
-      30.7,
-      31.6,
-      28.3,
-      26.4,
-      27.9,
-      31.2
+      32.8
      ],
      "tmin": [
       18.9,
-      18.9,
-      21.4,
-      19.9,
-      19.1,
+      19.8,
+      20.2,
+      19.6,
+      19.4,
       17.4,
-      19.8
+      19.0
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-07T18:45:34+00:00",
+   "updated_at": "2026-08-07T19:48:03+00:00",
    "items": [
+    {
+     "title": "ANP revoga autorização de operação da Refit por unanimidade",
+     "link": "https://www.canalrural.com.br/economia/anp-revoga-autorizacao-de-operacao-da-refit-por-unanimidade/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T19:42:01+00:00"
+    },
+    {
+     "title": "Brasil registra recorde de exportações em julho apesar de tarifas dos EUA",
+     "link": "https://www.canalrural.com.br/videos/brasil-registra-recorde-de-exportacoes-em-julho-apesar-de-tarifas-dos-eua/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T19:10:09+00:00"
+    },
+    {
+     "title": "Crise diplomática entre Brasil, EUA e Argentina impacta eleições",
+     "link": "https://www.canalrural.com.br/videos/crise-diplomatica-entre-brasil-eua-e-argentina-impacta-eleicoes/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T19:05:53+00:00"
+    },
+    {
+     "title": "Temporais no Rio Grande do Sul causam estragos e deixam 288 mil sem energia",
+     "link": "https://www.canalrural.com.br/videos/temporais-no-rio-grande-do-sul-causam-estragos-e-deixam-288-mil-sem-energia/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T19:05:44+00:00"
+    },
+    {
+     "title": "El Niño forte traz desafios significativos para a safra 2026/27",
+     "link": "https://www.canalrural.com.br/videos/el-nino-forte-traz-desafios-significativos-para-a-safra-2026-27/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T19:05:33+00:00"
+    },
+    {
+     "title": "Agroleite discute desafios do crédito rural em cenário de endividamento",
+     "link": "https://www.canalrural.com.br/videos/agroleite-discute-desafios-do-credito-rural-em-cenario-de-endividamento/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T19:05:22+00:00"
+    },
+    {
+     "title": "Siavs 2026 registra recorde de público com 35 mil visitantes de 65 países",
+     "link": "https://www.canalrural.com.br/videos/siavs-2026-registra-recorde-de-publico-com-35-mil-visitantes-de-65-paises/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T19:05:12+00:00"
+    },
     {
      "title": "Tomate entra na lista do PGPAF com bônus válidos entre 10 de agosto e 9 de setembro",
      "link": "https://www.canalrural.com.br/politica/tomate-entra-na-lista-do-pgpaf-com-bonus-validos-entre-10-de-agosto-e-9-de-setembro/",
@@ -452,15 +494,9 @@
      "published_at": "2026-08-07T17:28:05+00:00"
     },
     {
-     "title": "Exportações de carne bovina caem em julho, enquanto frango e suína avançam",
-     "link": "https://www.canalrural.com.br/economia/exportacoes-de-carne-bovina-caem-em-julho-enquanto-frango-e-suina-avancam/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T17:16:39+00:00"
-    },
-    {
-     "title": "Exportadores dos EUA relatam venda de 238 mil t de soja à China - noticias.uol.com.br",
+     "title": "Exportadores dos EUA relatam venda de 238 mil t de soja à China - UOL Notícias",
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVkFlRWdHb0kxUzczY2o4N1VJTVZVRkZWc1VVTmFmQkZ2SFpBUGNWbDYtZUpOVVYyR0ZudklNUlVNOV9nNTYzVmZFZU9PSEh2RVhGTGVwYUNXRGpMVE1sM2hnMWFLNjBzTFgtZjBFVkhrODVMTzFISHRmUjlMVGZJb1NWNDYwVlZvLTVkdnkzd1BWMlZQc2d1R3lPWkstdHZ6YzhhRm03bEJraTVfbmZjNU5fUnRzdjEzWnNURVB6bFdoc19kOG5OeHFjYk1pRzNKSUpuVg?oc=5",
-     "source": "noticias.uol.com.br",
+     "source": "UOL Notícias",
      "published_at": "2026-08-07T15:50:00+00:00"
     },
     {
@@ -476,52 +512,16 @@
      "published_at": "2026-08-07T15:03:34+00:00"
     },
     {
-     "title": "Lucro da Ourofino cai 33,3% no segundo trimestre, para R$ 15,9 milhões",
-     "link": "https://www.canalrural.com.br/economia/lucro-da-ourofino-cai-333-no-segundo-trimestre-para-r-159-milhoes/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T14:59:10+00:00"
-    },
-    {
-     "title": "BNDES aprova R$ 7,1 bilhões do Plano Safra 2026/27 em oito dias",
-     "link": "https://www.canalrural.com.br/economia/bndes-aprova-r-71-bilhoes-do-plano-safra-2026-27-em-oito-dias/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T14:53:26+00:00"
-    },
-    {
-     "title": "Seara supera R$ 4 bilhões em investimentos no SuperAgro em dez anos",
-     "link": "https://www.canalrural.com.br/aves-e-suinos/seara-supera-r-4-bilhoes-em-investimentos-no-superagro-em-dez-anos/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T14:24:28+00:00"
-    },
-    {
-     "title": "Ciclone extratropical gera tornado e causa estragos no Rio Grande do Sul; veja imagens",
-     "link": "https://www.canalrural.com.br/nacional/rio-grande-do-sul/ciclone-extratropical-gera-tornado-e-causa-estragos-no-rio-grande-do-sul/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T13:48:34+00:00"
-    },
-    {
      "title": "Soja sobe 2,75% e milho mantém estabilidade em Mato Grosso do Sul - A Crítica de Campo Grande",
      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pRVN2VGxjY1BoUVhqVEY1aEdmYmFUR21QNUhac1FncFBIazA3NUMwdkVsSkdxQjNLOHRuRGxlUThmU1REM1J3VzJwTlcyQ0tCT0NBOVFraGZzZklZQ29MbkhYSElMd0ZyOXRTQ0xZdw?oc=5",
      "source": "A Crítica de Campo Grande",
-     "published_at": "2026-08-07T13:41:30+00:00"
+     "published_at": "2026-08-07T13:40:00+00:00"
     },
     {
      "title": "Soja sobe em Chicago puxada pela demanda chinesa em alta - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNGhkSHZKVTgzNzFnRFcwMEt4bExiREFwX1VSZFBCSU9oeUFRZl9aNDEtMWFiaVQ2ZzZWUUkxa3BVaW15dExvQ3dGR2JOMDZGX3Rhcnc0ODJfYy1OOHlFc2EyUzF3UmxKUlBXM2lrSXE1R2NwU0w2Zjd1dnRDcUpCbjBHLVlycWNQdUxNM3dVVldyUUJzT2FGTDhUdExtTG81eXlHaVBLQjZkc0duY2VBVGlRVmgtZmfSAcYBQVVfeXFMUHhQWjJEUHRuR1VqakJJMU5KNXBqMjBJSndVYXlLUUIxZTNHbGVnTVBTeEQyY3RVUnFaTVZTc2E2aG5iZWFKT1Z3M2g5Q3JtRnVRNGxJMDNoVE9lUjJNN1Fzek9jZFJ3S2RkazRFWlpXWUtMdXZHamhacEhYenFNeUUtNl9FS1VKVmtzZ2VBMzFMT1FFRnFsY3hUTTdzR0ZPcWpKa3R3aUx3N05SWTN2VWwtbTdCQmZLeFloYUhZbWp3SkhsdEFR?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-08-07T13:35:39+00:00"
-    },
-    {
-     "title": "Índice de alimentos da FAO sobe 0,6% em julho com alta de cereais, açúcar e óleos vegetais",
-     "link": "https://www.canalrural.com.br/economia/indice-de-alimentos-da-fao-sobe-06-em-julho-com-alta-de-cereais-acucar-e-oleos-vegetais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T13:23:19+00:00"
-    },
-    {
-     "title": "Crédito rural despenca e inadimplência aumenta: e agora?",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/credito-rural-despenca-e-inadimplencia-aumenta-e-agora/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T13:22:40+00:00"
     },
     {
      "title": "Exportação de soja cresce 9,3% em julho e receita avança 17,4% - Canal Rural",

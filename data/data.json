@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-07T17:43:07+00:00",
+ "generated_at": "2026-08-07T18:45:34+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-07T17:43:02+00:00",
+   "updated_at": "2026-08-07T18:45:25+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1178.0,
+     "price": 1176.0,
      "prev_close": 1157.25,
-     "change_pct": 1.79,
+     "change_pct": 1.62,
      "closes": [
       1196.75,
       1195.0,
@@ -35,16 +35,16 @@
       1155.0,
       1151.5,
       1157.25,
-      1178.0
+      1176.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 463.5,
+     "price": 461.5,
      "prev_close": 439.0,
-     "change_pct": 5.58,
+     "change_pct": 5.13,
      "closes": [
       442.5,
       434.75,
@@ -69,16 +69,16 @@
       442.25,
       436.75,
       439.0,
-      463.5
+      461.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 313.8,
+     "price": 313.5,
      "prev_close": 310.7,
-     "change_pct": 1.0,
+     "change_pct": 0.9,
      "closes": [
       318.4,
       314.5,
@@ -103,16 +103,16 @@
       310.6,
       309.3,
       310.7,
-      313.8
+      313.5
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.95,
+     "price": 67.87,
      "prev_close": 67.7,
-     "change_pct": 0.37,
+     "change_pct": 0.25,
      "closes": [
       68.79,
       71.39,
@@ -137,16 +137,16 @@
       68.18,
       67.75,
       67.7,
-      67.95
+      67.87
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 642.5,
+     "price": 638.25,
      "prev_close": 631.25,
-     "change_pct": 1.78,
+     "change_pct": 1.11,
      "closes": [
       609.25,
       599.5,
@@ -171,16 +171,16 @@
       638.5,
       642.25,
       631.25,
-      642.5
+      638.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 83.33,
+     "price": 83.44,
      "prev_close": 82.49,
-     "change_pct": 1.02,
+     "change_pct": 1.15,
      "closes": [
       74.16,
       78.02,
@@ -205,16 +205,16 @@
       79.36,
       79.45,
       82.49,
-      83.33
+      83.44
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 172635.34,
+     "price": 172591.88,
      "prev_close": 175546.0,
-     "change_pct": -1.66,
+     "change_pct": -1.68,
      "closes": [
       172021.0,
       170654.0,
@@ -239,7 +239,7 @@
       177895.0,
       177726.0,
       175546.0,
-      172635.3438
+      172591.875
      ]
     }
    ],
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-07T17:43:02+00:00",
+   "updated_at": "2026-08-07T18:45:25+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-07T17:43:06+00:00",
+   "updated_at": "2026-08-07T18:45:29+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,38 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-07T17:43:07+00:00",
+   "updated_at": "2026-08-07T18:45:34+00:00",
    "items": [
+    {
+     "title": "Tomate entra na lista do PGPAF com bônus válidos entre 10 de agosto e 9 de setembro",
+     "link": "https://www.canalrural.com.br/politica/tomate-entra-na-lista-do-pgpaf-com-bonus-validos-entre-10-de-agosto-e-9-de-setembro/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T18:21:15+00:00"
+    },
+    {
+     "title": "Sinograin vai leiloar mais meio milhão de toneladas de soja Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRXVVODB6YjVLQ0NpeHU5Y2VmdmR0TVNkVWw0dmJQbG5YQVVKeng3ZnpsOHRaMUJyS09ZUU9USkJKQzJZcExRV3BVdVFDVm5jd3ljanpzeGhRSXFyX0RMdXk4enNSZTRfMlFZZmZYcmJReHhUdkxLUVI5dzJrRnVHWUZkSlpramJabUdCRHlaRXpiZ0NtNHJfcEJsd0VLX3VOdnNQYzhWOWI0MTFIejc2dkt4WjY?oc=5",
+     "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "published_at": "2026-08-07T18:06:00+00:00"
+    },
+    {
+     "title": "China compra quase 1 milhão de toneladas de soja dos EUA em uma semana; mercado já avalia impactos para o Brasil - TradingView",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE10eWpIQUotc1VIR00wbGNiYlhHblpobTJEb0QxLUZmSnFNRXQzbjZ2amlKQUVKYVhjb2QtZHp4QWRPWnByVWp6YkhhZ0JBRnJiTkVnb3VlemJmNFprd2lLLTZjakZEbTZWazV1N0ZneDdKdkw1?oc=5",
+     "source": "TradingView",
+     "published_at": "2026-08-07T17:59:55+00:00"
+    },
+    {
+     "title": "Agro de US$ 1 trilhão: o desafio para os candidatos à Presidência",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/agro-de-us-1-trilhao-o-desafio-para-os-candidatos-a-presidencia/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T17:37:43+00:00"
+    },
+    {
+     "title": "Chuvas dificultam manejo, mas trigo avança bem no Rio Grande do Sul",
+     "link": "https://www.canalrural.com.br/agricultura/chuvas-dificultam-manejo-mas-trigo-avanca-bem-no-rio-grande-do-sul/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T17:28:05+00:00"
+    },
     {
      "title": "Exportações de carne bovina caem em julho, enquanto frango e suína avançam",
      "link": "https://www.canalrural.com.br/economia/exportacoes-de-carne-bovina-caem-em-julho-enquanto-frango-e-suina-avancam/",
@@ -428,15 +458,9 @@
      "published_at": "2026-08-07T17:16:39+00:00"
     },
     {
-     "title": "BNDES aprova R$ 7,1 bilhões do Plano Safra 2026/27 em oito dias",
-     "link": "https://www.canalrural.com.br/economia/bndes-aprova-r-71-bilhoes-do-plano-safra-2026-27-em-oito-dias-2/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T16:36:47+00:00"
-    },
-    {
-     "title": "Exportadores dos EUA relatam venda de 238 mil t de soja à China - UOL Notícias",
+     "title": "Exportadores dos EUA relatam venda de 238 mil t de soja à China - noticias.uol.com.br",
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVkFlRWdHb0kxUzczY2o4N1VJTVZVRkZWc1VVTmFmQkZ2SFpBUGNWbDYtZUpOVVYyR0ZudklNUlVNOV9nNTYzVmZFZU9PSEh2RVhGTGVwYUNXRGpMVE1sM2hnMWFLNjBzTFgtZjBFVkhrODVMTzFISHRmUjlMVGZJb1NWNDYwVlZvLTVkdnkzd1BWMlZQc2d1R3lPWkstdHZ6YzhhRm03bEJraTVfbmZjNU5fUnRzdjEzWnNURVB6bFdoc19kOG5OeHFjYk1pRzNKSUpuVg?oc=5",
-     "source": "UOL Notícias",
+     "source": "noticias.uol.com.br",
      "published_at": "2026-08-07T15:50:00+00:00"
     },
     {
@@ -452,16 +476,16 @@
      "published_at": "2026-08-07T15:03:34+00:00"
     },
     {
-     "title": "Demanda interna sustenta preços da soja e do milho em Mato Grosso do Sul - progresso.com.br",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZW02b1kxczBJbmZRUnpkcW50M3kweWRhYjNfWTc2R2toaU5weC1HZmpma1lXdVNCTzZFcXBudnlfTkhKTUxBVWQxSk8ybmxXYzVpZnZyTlJjWFJ5eVpUYzhrc3dXa0JEX0tTRXNRLVgxRVpVbFJ1V3N4NVRRS01PdkVDUV9LWnpMSVU1Sm8xbWQwQnZCOHdVX000R2R5bHRWT1h5ME1QME9VOF9mV1FuNlJzR3VrLVFxc05B?oc=5",
-     "source": "progresso.com.br",
-     "published_at": "2026-08-07T15:00:00+00:00"
-    },
-    {
      "title": "Lucro da Ourofino cai 33,3% no segundo trimestre, para R$ 15,9 milhões",
      "link": "https://www.canalrural.com.br/economia/lucro-da-ourofino-cai-333-no-segundo-trimestre-para-r-159-milhoes/",
      "source": "Canal Rural",
      "published_at": "2026-08-07T14:59:10+00:00"
+    },
+    {
+     "title": "BNDES aprova R$ 7,1 bilhões do Plano Safra 2026/27 em oito dias",
+     "link": "https://www.canalrural.com.br/economia/bndes-aprova-r-71-bilhoes-do-plano-safra-2026-27-em-oito-dias/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T14:53:26+00:00"
     },
     {
      "title": "Seara supera R$ 4 bilhões em investimentos no SuperAgro em dez anos",
@@ -498,18 +522,6 @@
      "link": "https://www.canalrural.com.br/opiniao-noticias/credito-rural-despenca-e-inadimplencia-aumenta-e-agora/",
      "source": "Canal Rural",
      "published_at": "2026-08-07T13:22:40+00:00"
-    },
-    {
-     "title": "JBS fecha joint venture com fundo soberano da Indonésia",
-     "link": "https://www.canalrural.com.br/economia/jbs-fecha-joint-venture-com-fundo-soberano-da-indonesia/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T13:17:47+00:00"
-    },
-    {
-     "title": "Dólar cai ante o real após payroll dos EUA mostrar corte de vagas",
-     "link": "https://www.canalrural.com.br/economia/dolar-cai-ante-o-real-apos-payroll-dos-eua-mostrar-corte-de-vagas/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T13:16:29+00:00"
     },
     {
      "title": "Exportação de soja cresce 9,3% em julho e receita avança 17,4% - Canal Rural",
@@ -572,12 +584,6 @@
      "published_at": "2026-08-07T03:00:52"
     },
     {
-     "title": "CNA participa de evento sobre desafios do Brasil como líder na produção de soja - cnabrasil.org.br",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNN3oyWFBzcnV2VnBzeTZyNmgxN2ZsbFZMQUxob0ExZzhVS1RxV2g1NmlIRkJzQ2JPUmp0aTJzMzVJWkNJa3loMElWMGRnR0tFYk1HMFB4N0REVDlaN0JBNTBQRG9aclBrV1FzOV9jelVHMFlMNGVGYVBnY0xmbkszRkFkazVaWVJkSXlCSHNyaC1jWnIwNDdxenVOaFZsQjdHUzlYQVMyU2VBcFdxQWt5WEN3aw?oc=5",
-     "source": "cnabrasil.org.br",
-     "published_at": "2026-08-06T19:35:06+00:00"
-    },
-    {
      "title": "Produção de carne bovina do Brasil deve cair em 2026 em meio a tarifas, barreiras comerciais e incertezas no mercado global",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/producao-de-carne-bovina-do-brasil-deve-cair-em-2026-em-meio-a-tarifas-barreiras-comerciais-e-incertezas-no-mercado-global.ghtml",
      "source": "G1 Agronegócios",
@@ -594,12 +600,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/veto-da-ue-atinge-carne-e-mel-brasileiros-enquanto-ganhavam-espaco-no-mercado-europeu.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-05T05:00:08"
-    },
-    {
-     "title": "Café: entenda como inverno atípico e chuvoso em julho pode impactar exportação e qualidade da bebida",
-     "link": "https://g1.globo.com/sp/piracicaba-regiao/noticia/2026/08/04/cafe-entenda-como-inverno-atipico-e-chuvoso-em-julho-pode-impactar-exportacao-precos-e-qualidade-da-bebida.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-04T12:14:19"
     }
    ],
    "failed": [

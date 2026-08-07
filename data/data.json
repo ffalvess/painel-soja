@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-07T21:33:05+00:00",
+ "generated_at": "2026-08-07T22:28:33+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-07T21:32:59+00:00",
+   "updated_at": "2026-08-07T22:28:27+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-07T21:33:00+00:00",
+   "updated_at": "2026-08-07T22:28:27+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-07T21:33:03+00:00",
+   "updated_at": "2026-08-07T22:28:31+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,32 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-07T21:33:05+00:00",
+   "updated_at": "2026-08-07T22:28:33+00:00",
    "items": [
+    {
+     "title": "Desmatamento na Amazônia recua 36,87% no ciclo 2025/2026",
+     "link": "https://www.canalrural.com.br/diversos/desmatamento-na-amazonia-recua-3687-no-ciclo-2025-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T22:00:18+00:00"
+    },
+    {
+     "title": "Ibovespa fecha em queda de 1,73% e dólar comercial recua a R$ 5,0836",
+     "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-queda-de-173-e-dolar-comercial-recua-a-r-50836/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T21:42:13+00:00"
+    },
+    {
+     "title": "Caminhão carregado com soja invade área de escape na BR-277 em Morretes - Folha do Litoral News",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQXN3aHRoRmJnc0V5ZDhueHNDVDhnTWVKbTdSc2sxY3BxVnVGVUtjZ2NiOFN0ZVljWUwxS01TTXBJeEdkZGs5OUxuTE15ZTRKM2RuWjItbXkxRHA1MVo1MzBxSkdGUnl5ck5tSm5KTVoxM3RmLXFtd0xSNEtmdERVM3BuTzhNOEcwMjFuRHVnRjJzREJJWVpNQmQzZnVxWFUwdzdCVHFXb2lUMGFYdkE4ZVBQckJaWDlfdHlYbg?oc=5",
+     "source": "Folha do Litoral News",
+     "published_at": "2026-08-07T21:36:04+00:00"
+    },
+    {
+     "title": "Seguro rural em agosto: PSR reserva R$ 1 milhão para soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTkdNWG9uOGtPTzlNeERic2RGZFlQYVZERk9qNFZQcmxuYjAtclBmZjUyZG5zbUlBcVpZVXNRNXVDTmlrcGRmRU9wTmEwV3ZHM3FWQ01jVFRkMmhrSjBOS2ZsbUc1TVJxZTg3UXJ3a0xTVV90ZFVDSkg3WkVNV09xSkZDbGJvaFpTVEhxY0VRNU9tdzdYamliR1FPcXVXVTRjWUdYT2ZRaGxSQQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-07T21:08:00+00:00"
+    },
     {
      "title": "Dólar cai a R$ 5,08 com payroll fraco nos EUA, mas fecha semana em alta",
      "link": "https://www.canalrural.com.br/economia/dolar-cai-a-r-508-com-payroll-fraco-nos-eua-mas-fecha-semana-em-alta/",
@@ -431,7 +455,7 @@
      "title": "Estudo da Embrapa identifica 27 novos registros de abelhas nativas na cultura da soja - Agrofy News Brasil",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdTFZcXcyeS1hTEVaNERPbF9QajA2Y0xHWGtpLVUtXzlCS21aZ1FpY3F3SVlKVlVNU3pEOVBObnUwVVJvRmU5YzE0UDRmQXhVQWVtc2pDR1ppcWxUVDhFSzdvSEZrb0x6Y1dMTnFVQmpWSGc2Wm9JeHZKUGVJUWl6R2dtUl95SnI0NktZZS1YUk9aR0Y2Rkk4OG5TckpQbXJDREMzeDBZYUZkSVR0TE9NQ1lZRE5RQ0E4RUV3OFVqRGl0Zw?oc=5",
      "source": "Agrofy News Brasil",
-     "published_at": "2026-08-07T20:09:05+00:00"
+     "published_at": "2026-08-07T20:06:55+00:00"
     },
     {
      "title": "Soja fecha com leves baixas em Chicago nesta 6ª, mas com semana firme no Brasil - TradingView",
@@ -488,22 +512,16 @@
      "published_at": "2026-08-07T19:05:22+00:00"
     },
     {
-     "title": "Siavs 2026 registra recorde de público com 35 mil visitantes de 65 países",
-     "link": "https://www.canalrural.com.br/videos/siavs-2026-registra-recorde-de-publico-com-35-mil-visitantes-de-65-paises/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T19:05:12+00:00"
-    },
-    {
-     "title": "Tomate entra na lista do PGPAF com bônus válidos entre 10 de agosto e 9 de setembro",
-     "link": "https://www.canalrural.com.br/politica/tomate-entra-na-lista-do-pgpaf-com-bonus-validos-entre-10-de-agosto-e-9-de-setembro/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T18:21:15+00:00"
-    },
-    {
      "title": "Sinograin vai leiloar mais meio milhão de toneladas de soja Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRXVVODB6YjVLQ0NpeHU5Y2VmdmR0TVNkVWw0dmJQbG5YQVVKeng3ZnpsOHRaMUJyS09ZUU9USkJKQzJZcExRV3BVdVFDVm5jd3ljanpzeGhRSXFyX0RMdXk4enNSZTRfMlFZZmZYcmJReHhUdkxLUVI5dzJrRnVHWUZkSlpramJabUdCRHlaRXpiZ0NtNHJfcEJsd0VLX3VOdnNQYzhWOWI0MTFIejc2dkt4WjY?oc=5",
      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
      "published_at": "2026-08-07T18:06:00+00:00"
+    },
+    {
+     "title": "China compra quase 1 milhão de toneladas de soja dos EUA em uma semana; mercado já avalia impactos para o Brasil - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPblNQdHc0N3dDVi1GOVQ5RkdfVDlRZ2lsUTlmOVpXMHllVURzbW5oV0w1dy05Tm9tc3dVOUk3aVFERW9JQUR2QnJ1cWNKbTJ6ZHY1VnFRR1pkbGNGQ1Q4cEExbnhCbWVKTlVWWWl4bkh2VllhRDNYeV85ejZSMWdHOXlmRDQyU2VYb1gwWXYzTFEtcFlfV0NCYl9DXzY4RU1VTG1tZHJmam5udGRmbFk1eDNTZjZLN0ZsY1A1ckVxenBjUy1TelRDU1k4VE83TkFaOW5zQjJxWWlOajVObG11TEk5WkFQNDJ4cDZMdEljSERTWGVEdHJfbHo5RERYcTEweHBQY9IBigJBVV95cUxPNHJZVjFaWmNxM1RiZTFpRTg4d1BHX1hVNV9Cck5ENDR1UUxkYjZaZjg1cEpZVUc2UzZWM2YxTTJDWGNzai1LeExDeEYxTERqel9hRWxLSUtyMUhFWGF5WlhLOXY3UGVxZkpYZ3ExelZoX0k4NTllSGVBZ1RPZ09OWDZHZk9zTWtuZXByZF9kQ2FJd3dXdlo5WVRIbEdLdVJMOGRCSW1NRkpqNk5wNTlkZkxRcER3S3Rhd3dKRzhuMk9CcEpwZ2dJWU9Ca1ByZlNYYm9HUk5oNVptN2RaLU5MQkpDQ2dBeTZ2TFJIdThFWmo2ZllHYmtTVlNUN20yODJDMVBRLWh4UE1aQQ?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-07T17:59:55+00:00"
     },
     {
      "title": "Exportadores dos EUA relatam venda de 238 mil t de soja à China - UOL Notícias",
@@ -524,12 +542,6 @@
      "published_at": "2026-08-07T15:03:34+00:00"
     },
     {
-     "title": "Soja sobe 2,75% e milho mantém estabilidade em Mato Grosso do Sul - acritica.net",
-     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pRVN2VGxjY1BoUVhqVEY1aEdmYmFUR21QNUhac1FncFBIazA3NUMwdkVsSkdxQjNLOHRuRGxlUThmU1REM1J3VzJwTlcyQ0tCT0NBOVFraGZzZklZQ29MbkhYSElMd0ZyOXRTQ0xZdw?oc=5",
-     "source": "acritica.net",
-     "published_at": "2026-08-07T13:40:00+00:00"
-    },
-    {
      "title": "Soja sobe em Chicago puxada pela demanda chinesa em alta - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNGhkSHZKVTgzNzFnRFcwMEt4bExiREFwX1VSZFBCSU9oeUFRZl9aNDEtMWFiaVQ2ZzZWUUkxa3BVaW15dExvQ3dGR2JOMDZGX3Rhcnc0ODJfYy1OOHlFc2EyUzF3UmxKUlBXM2lrSXE1R2NwU0w2Zjd1dnRDcUpCbjBHLVlycWNQdUxNM3dVVldyUUJzT2FGTDhUdExtTG81eXlHaVBLQjZkc0duY2VBVGlRVmgtZmfSAcYBQVVfeXFMUHhQWjJEUHRuR1VqakJJMU5KNXBqMjBJSndVYXlLUUIxZTNHbGVnTVBTeEQyY3RVUnFaTVZTc2E2aG5iZWFKT1Z3M2g5Q3JtRnVRNGxJMDNoVE9lUjJNN1Fzek9jZFJ3S2RkazRFWlpXWUtMdXZHamhacEhYenFNeUUtNl9FS1VKVmtzZ2VBMzFMT1FFRnFsY3hUTTdzR0ZPcWpKa3R3aUx3N05SWTN2VWwtbTdCQmZLeFloYUhZbWp3SkhsdEFR?oc=5",
      "source": "Globo Rural",
@@ -548,12 +560,6 @@
      "published_at": "2026-08-07T12:51:38"
     },
     {
-     "title": "Análise aponta pressão sobre prêmios da soja - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUVZqNmI3Skx5YmlZNmRNeVgyZGRnTWtWNGs3RDVONWg0bTFEc2pxV3JRQnNxeXBNdkdFTUFoa05mY3FKNEVuQ2VJTUM3aXNZandiNWJiTHhtS2gwX1ZHUGd0R1ZkVjFIZVVvZTlOY29sV0IteFJSanFabGs5dkRGejAwOHdsZGx4OGpkb0R1Zko1NjN1b3ZjeA?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-07T12:26:00+00:00"
-    },
-    {
      "title": "JBS anuncia investimento de US$ 5 bilhões para expandir negócios na Ásia",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/jbs-anuncia-investimento-de-us-5-bilhoes-para-expandir-negocios-na-asia.ghtml",
      "source": "G1 Agronegócios",
@@ -564,12 +570,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/como-criar-galinhas-poedeiras-e-frangos-caipiras.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-07T11:06:13"
-    },
-    {
-     "title": "Soja sobe em Chicago nesta 6ª com apoio dos derivados e recuperação técnica, mas ainda de olho no clima - noticiasagricolas.com.br",
-     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObjh1cE5MYzhoazE4b3RNYkpFemZXd0xUd2tZYTdCUjZUbVk1Q0pHUm42VUhfbTd6SThCUUJOSGdIVE1fdWVDSXpXVHFwd285RHA2NUVSSGNvS2swbkV2N3R6X2l0NEJabXpXd00zRkVNbVVoYWJpcjFQSjFoT1lMel9wUG1hNU9nUWtqOUFxN29Wa2hPbHUxcFhLdUY4V3RYa3JvR0VEQTcwSFJGbklQaU1GWGJGNDB6Q1JFOUFfVkdZeFRnSVI3bkpua0JxT2hOWGlNaUxfeENQbnA5Nml6SDNmWEpBVExYNDI1bE5Bd2J2dWhfXzBJ0gH8AUFVX3lxTFBlWk54YU1VdDY1WnFqYTZSZlRfUWdkcmlqN3JoTzNjZVdwQVVZMWk2alU1cGloNjBtNV9pS0U1aG5XYmg3bzBub2VmQnlycDd2cnBGQ1BOZDNPNC1odkZ5M09yNGdZd0JDeGloeEdwVFY3T2FFY00yVnlnQnJETnBoNHFfdjl6azFXN0c5Sy0xWGdjOFp1LURIbjhCbUVMVUFjc0FOeTR6cWdNVXdzLW5lTUdGZC1WN3czZHROaVozcW9nZTItMGlvRGYxcnNJSDJQaEE0Y0lMLWRXY2FzRmZWU1h0bmZsY1R3X01TS3plb3RmMWhnbTd3RlNzQg?oc=5",
-     "source": "noticiasagricolas.com.br",
-     "published_at": "2026-08-07T10:38:13+00:00"
     },
     {
      "title": "INFOGRÁFICO mostra como o tarifaço mudou o mapa das exportações brasileiras aos EUA",

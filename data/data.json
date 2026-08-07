@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-07T09:55:11+00:00",
+ "generated_at": "2026-08-07T10:46:36+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-07T09:55:05+00:00",
+   "updated_at": "2026-08-07T10:46:31+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1181.5,
+     "price": 1182.75,
      "prev_close": 1157.25,
-     "change_pct": 2.1,
+     "change_pct": 2.2,
      "closes": [
       1196.75,
       1195.0,
@@ -35,16 +35,16 @@
       1155.0,
       1151.5,
       1157.25,
-      1181.5
+      1182.75
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 464.75,
+     "price": 465.5,
      "prev_close": 439.0,
-     "change_pct": 5.87,
+     "change_pct": 6.04,
      "closes": [
       442.5,
       434.75,
@@ -69,7 +69,7 @@
       442.25,
       436.75,
       439.0,
-      464.75
+      465.5
      ]
     },
     {
@@ -110,9 +110,9 @@
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.56,
+     "price": 67.55,
      "prev_close": 67.7,
-     "change_pct": -0.21,
+     "change_pct": -0.22,
      "closes": [
       68.79,
       71.39,
@@ -137,16 +137,16 @@
       68.18,
       67.75,
       67.7,
-      67.56
+      67.55
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 635.0,
+     "price": 634.25,
      "prev_close": 631.25,
-     "change_pct": 0.59,
+     "change_pct": 0.48,
      "closes": [
       609.25,
       599.5,
@@ -171,16 +171,16 @@
       638.5,
       642.25,
       631.25,
-      635.0
+      634.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 82.44,
+     "price": 81.96,
      "prev_close": 82.49,
-     "change_pct": -0.06,
+     "change_pct": -0.64,
      "closes": [
       74.16,
       78.02,
@@ -205,7 +205,7 @@
       79.36,
       79.45,
       82.49,
-      82.44
+      81.96
      ]
     },
     {
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-07T09:55:06+00:00",
+   "updated_at": "2026-08-07T10:46:32+00:00",
    "selic": 14.0,
    "cdi": 14.15,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-07T09:55:08+00:00",
+   "updated_at": "2026-08-07T10:46:34+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,19 +419,25 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-07T09:55:11+00:00",
+   "updated_at": "2026-08-07T10:46:36+00:00",
    "items": [
+    {
+     "title": "Estudo registra taxa recorde de deformações em peixes no litoral norte do ES",
+     "link": "https://www.canalrural.com.br/diversos/estudo-registra-taxa-recorde-de-deformacoes-em-peixes-no-litoral-norte-do-es/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T10:19:39+00:00"
+    },
+    {
+     "title": "Poucos negócios, alterações pontuais: como ficaram os preços da soja? - olharalerta.com.br",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTXJXT0xVcXMyZE9IbzVKZjd0V3IzY0xNdnNFd3pQUl9ORXkwQmtHQjhQQ1lGYkRuOWJQUy04dHd5S05xMDFLUHpKZ2tyMndzVktEUTV3NFdOYkptVExMM3RBY2V1RnlWeXNLSXZYMnFnOGtKcnM0YmVCOW9lek5XMU1NNzlpQUx1MXJIZTQ4TlBiUmxMRDlaUnFUdXJpMDFtTEpNNDRKNFZPcFI5T1BVaA?oc=5",
+     "source": "olharalerta.com.br",
+     "published_at": "2026-08-07T09:49:00+00:00"
+    },
     {
      "title": "Oriente Médio eleva tensão nos mercados; veja o que esperar do payroll dos EUA",
      "link": "https://www.canalrural.com.br/economia/oriente-medio-eleva-tensao-nos-mercados-veja-o-que-esperar-do-payroll-dos-eua/",
      "source": "Canal Rural",
      "published_at": "2026-08-07T09:37:14+00:00"
-    },
-    {
-     "title": "Mercado da soja mantém cautela e preços mistos - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOTNYcmZaWEpjb2psbFZ0YjFjcXd1bkZJNVktZUU5OGt2ZGM5UDBYSTBYWGk2RDNDV0IyMG9yOENPRVRKdmVVU0xFdnl0amtFZzNLR2ZtdW5QekNFQjVFdk11MDBCaEViV2ptc3BmbnNjWGZlLUVhSXpwVlZtR2VHTkNEdmthNzAxcUstenNlMnpycUdqVVdTSXdQTQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-07T09:25:00+00:00"
     },
     {
      "title": "Ventos podem passar de 90 km/h com avanço de frente fria no Sul e Sudeste",
@@ -458,9 +464,9 @@
      "published_at": "2026-08-07T05:05:04+00:00"
     },
     {
-     "title": "Soja sobe R$ 3,20 em MS e milho fica estável em julho - Campo Grande News",
+     "title": "Soja sobe R$ 3,20 em MS e milho fica estável em julho - campograndenews.com.br",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNTg0SlZsY3A4ZldaRGhDR0lkZzBEbVpqam8wT3JuOEEteFpOTnJpM2c2ejRoeDFzRUVsc3F0dkZBSGNYbkt4dXBkdjQteXpUY0hoQ05UWWJ1b1gtN1ZITjgydWVDUTN4VUdzTG93c3ZnZ21ENjVORFRXRi1qcExsSDlpQldHZUM2SGNMandfNl9fYTh5LUNoOURnRXY2RTZwZlNEd2p6NG5SanpPcGtaY3VEVXjSAbQBQVVfeXFMT1VoWGNDS29udG1GNzZUek0tVjU5WGxKN3U2c0ZTemJZc0VGMWtSRS1GdnpodHNXMXJXTHQxNjNNMUdXaWdDcmpMWVF3ZG1LQjhqRWd5YXpzaDJHYmNpRUhYTDZXMUc4djYxclFUVjJSZzRGcXN1REJHM3dGd2RKU3VlUTFsWUQwbEdvbGxiUmh3bFh6eF9kYmlxUXJyaUI4QVRkV1dlMy0yOVVFc2E1SnJwXzJk?oc=5",
-     "source": "Campo Grande News",
+     "source": "campograndenews.com.br",
      "published_at": "2026-08-07T03:07:00+00:00"
     },
     {
@@ -516,12 +522,6 @@
      "link": "https://www.canalrural.com.br/videos/cooxupe-conquista-na-justica-devolucao-de-mais-de-r-622-milhoes/",
      "source": "Canal Rural",
      "published_at": "2026-08-07T00:06:05+00:00"
-    },
-    {
-     "title": "Ciclone bomba provoca temporais e ventos fortes no Sul do Brasil",
-     "link": "https://www.canalrural.com.br/videos/ciclone-bomba-provoca-temporais-e-ventos-fortes-no-sul-do-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T00:05:55+00:00"
     },
     {
      "title": "Soja e petróleo impulsionam comércio exterior brasileiro em julho - Jornal GGN",

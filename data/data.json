@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-07T11:40:21+00:00",
+ "generated_at": "2026-08-07T12:48:40+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-07T11:40:16+00:00",
+   "updated_at": "2026-08-07T12:48:33+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1180.5,
+     "price": 1182.25,
      "prev_close": 1157.25,
-     "change_pct": 2.01,
+     "change_pct": 2.16,
      "closes": [
       1196.75,
       1195.0,
@@ -35,16 +35,16 @@
       1155.0,
       1151.5,
       1157.25,
-      1180.5
+      1182.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 464.5,
+     "price": 465.5,
      "prev_close": 439.0,
-     "change_pct": 5.81,
+     "change_pct": 6.04,
      "closes": [
       442.5,
       434.75,
@@ -69,16 +69,16 @@
       442.25,
       436.75,
       439.0,
-      464.5
+      465.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 316.5,
+     "price": 316.7,
      "prev_close": 310.7,
-     "change_pct": 1.87,
+     "change_pct": 1.93,
      "closes": [
       318.4,
       314.5,
@@ -103,16 +103,16 @@
       310.6,
       309.3,
       310.7,
-      316.5
+      316.7
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.37,
+     "price": 67.72,
      "prev_close": 67.7,
-     "change_pct": -0.49,
+     "change_pct": 0.03,
      "closes": [
       68.79,
       71.39,
@@ -137,16 +137,16 @@
       68.18,
       67.75,
       67.7,
-      67.37
+      67.72
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 633.5,
+     "price": 636.5,
      "prev_close": 631.25,
-     "change_pct": 0.36,
+     "change_pct": 0.83,
      "closes": [
       609.25,
       599.5,
@@ -171,16 +171,16 @@
       638.5,
       642.25,
       631.25,
-      633.5
+      636.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 81.83,
+     "price": 81.8,
      "prev_close": 82.49,
-     "change_pct": -0.8,
+     "change_pct": -0.84,
      "closes": [
       74.16,
       78.02,
@@ -205,7 +205,7 @@
       79.36,
       79.45,
       82.49,
-      81.83
+      81.8
      ]
     },
     {
@@ -247,9 +247,9 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-07T11:40:16+00:00",
+   "updated_at": "2026-08-07T12:48:33+00:00",
    "selic": 14.0,
-   "cdi": 14.15,
+   "cdi": 13.9,
    "ipca_mes": {
     "valor": 0.16,
     "data": "01/06/2026"
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-07T11:40:19+00:00",
+   "updated_at": "2026-08-07T12:48:37+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -281,22 +281,22 @@
       0.0
      ],
      "tmax": [
-      35.1,
-      35.8,
+      34.6,
+      35.6,
       36.2,
+      37.9,
       37.7,
-      36.8,
-      36.1,
+      36.0,
       35.9
      ],
      "tmin": [
-      21.8,
-      22.3,
-      22.1,
-      22.8,
-      26.3,
+      21.5,
+      22.0,
+      22.0,
       22.7,
-      23.5
+      26.0,
+      23.3,
+      23.2
      ]
     },
     {
@@ -320,22 +320,22 @@
       0.0
      ],
      "tmax": [
-      33.7,
-      34.8,
-      35.6,
+      33.5,
+      34.5,
+      35.7,
       36.7,
-      36.4,
-      35.4,
+      36.7,
+      35.1,
       35.2
      ],
      "tmin": [
-      21.6,
-      22.8,
-      22.9,
-      23.4,
-      25.0,
-      22.2,
-      23.7
+      21.3,
+      22.6,
+      22.6,
+      23.0,
+      25.6,
+      22.4,
+      23.5
      ]
     },
     {
@@ -359,22 +359,22 @@
       0.0
      ],
      "tmax": [
-      32.6,
-      33.4,
-      34.9,
-      35.3,
-      33.9,
-      32.9,
+      32.3,
+      33.1,
+      34.6,
+      35.0,
+      33.7,
+      32.5,
       32.1
      ],
      "tmin": [
-      21.0,
-      21.4,
-      22.2,
-      22.0,
-      21.4,
-      21.5,
-      23.9
+      20.7,
+      21.3,
+      22.1,
+      23.5,
+      21.2,
+      21.3,
+      22.9
      ]
     },
     {
@@ -389,38 +389,56 @@
       "2026-08-13"
      ],
      "precip": [
-      11.1,
+      10.7,
       0.0,
-      6.0,
-      6.5,
-      2.0,
+      1.2,
+      1.4,
+      0.4,
       0.0,
       0.6
      ],
      "tmax": [
-      28.0,
-      30.5,
-      31.3,
       27.8,
-      25.1,
-      27.4,
+      30.7,
+      31.6,
+      28.3,
+      26.4,
+      27.9,
       31.2
      ],
      "tmin": [
-      18.4,
-      19.3,
-      20.2,
-      19.6,
-      19.5,
-      17.0,
-      19.7
+      18.9,
+      18.9,
+      21.4,
+      19.9,
+      19.1,
+      17.4,
+      19.8
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-07T11:40:21+00:00",
+   "updated_at": "2026-08-07T12:48:40+00:00",
    "items": [
+    {
+     "title": "Análise aponta pressão sobre prêmios da soja - agrolink.com.br",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUVZqNmI3Skx5YmlZNmRNeVgyZGRnTWtWNGs3RDVONWg0bTFEc2pxV3JRQnNxeXBNdkdFTUFoa05mY3FKNEVuQ2VJTUM3aXNZandiNWJiTHhtS2gwX1ZHUGd0R1ZkVjFIZVVvZTlOY29sV0IteFJSanFabGs5dkRGejAwOHdsZGx4OGpkb0R1Zko1NjN1b3ZjeA?oc=5",
+     "source": "agrolink.com.br",
+     "published_at": "2026-08-07T12:26:00+00:00"
+    },
+    {
+     "title": "Agro de MS amplia exportações em 12,4% com destaque para soja e carne bovina - progresso.com.br",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdUJPYzB0MGVyNUNVTTlDWld5VXB1S1BJMVZvOEJwcjZqNUlLQ3ByYnJRUmFVbWFSUlZORUVZX0owWFZaWW9tS1ljRldTZkp0S0cxU09ONlJXRzVOS1hDWGdqdG14eEVreENmVVZLNEFFUmhwdGpiRWRFSTg2TW5IVmVHQlBuRlNOTFlkblpuX1hjdjRKT19MMzN0b3hTNUF2QVJsVVBVLVJrN2JBd2o0Nm1HTVZ5Q25mLXRKTnpn?oc=5",
+     "source": "progresso.com.br",
+     "published_at": "2026-08-07T12:04:36+00:00"
+    },
+    {
+     "title": "JBS anuncia investimento de US$ 5 bilhões para expandir negócios na Ásia",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/jbs-anuncia-investimento-de-us-5-bilhoes-para-expandir-negocios-na-asia.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-07T12:02:20"
+    },
     {
      "title": "SOJA E TRIGO: confira cotações para esta sexta-feira (7) - Conexão Itajubá",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWWxWTzdUQ2RCSUduTURtbUVLcXNab1o4VE5ieDNGOUFCaEVFT1RWYWIwYnhkNjBGNGwzeFpyTzFON2FDR0hoLWhJZEhJcmVmSU15Z2tOSXdWcVJyc1lkOXZYVkJsVGVRRjd1cDMtTEVCYjlwSmtiNDFhOXlVbEZOUDVQRmMzQWtWa3l1aFJxRWxrZXVXM2JhYjdfNWhraXVnZENLOGdJMA?oc=5",
@@ -458,12 +476,6 @@
      "published_at": "2026-08-07T10:19:39+00:00"
     },
     {
-     "title": "Poucos negócios, alterações pontuais: como ficaram os preços da soja? - olharalerta.com.br",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTXJXT0xVcXMyZE9IbzVKZjd0V3IzY0xNdnNFd3pQUl9ORXkwQmtHQjhQQ1lGYkRuOWJQUy04dHd5S05xMDFLUHpKZ2tyMndzVktEUTV3NFdOYkptVExMM3RBY2V1RnlWeXNLSXZYMnFnOGtKcnM0YmVCOW9lek5XMU1NNzlpQUx1MXJIZTQ4TlBiUmxMRDlaUnFUdXJpMDFtTEpNNDRKNFZPcFI5T1BVaA?oc=5",
-     "source": "olharalerta.com.br",
-     "published_at": "2026-08-07T09:49:00+00:00"
-    },
-    {
      "title": "Oriente Médio eleva tensão nos mercados; veja o que esperar do payroll dos EUA",
      "link": "https://www.canalrural.com.br/economia/oriente-medio-eleva-tensao-nos-mercados-veja-o-que-esperar-do-payroll-dos-eua/",
      "source": "Canal Rural",
@@ -480,12 +492,6 @@
      "link": "https://g1.globo.com/economia/noticia/2026/08/07/infografico-mostra-como-o-tarifaco-mudou-o-mapa-das-exportacoes-brasileiras-aos-eua.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-07T08:04:39"
-    },
-    {
-     "title": "Soja avança e já ocupa 62% da área plantada nas regiões metropolitanas da Amazônia Legal - conexaoto.com.br",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORzhNT0U2WVVic3NjUDRsVWpVNXd4QVpmeThpZHZGSmR3bC1xSVZDZzlmT0dVVWlnQnRFX0RTdXEwZ0pWeVlqVFR2dU1zeWZoU2FWU1J3d2VDMXRPWFBnbUF3VHh6YklPdFpCX3RMcFQ4LUZVX2RxMldnbm1DbG5pQTg5WDdXWnBGQ3FzZzBmQmVHaW1heklTaldDaUx3LVNaLXVET2s0Q0RWSU5TTTBPZkZoTEVKaVh4R0ZTWm9razg?oc=5",
-     "source": "conexaoto.com.br",
-     "published_at": "2026-08-07T05:05:04+00:00"
     },
     {
      "title": "Soja sobe R$ 3,20 em MS e milho fica estável em julho - Campo Grande News",
@@ -542,10 +548,16 @@
      "published_at": "2026-08-07T00:10:10+00:00"
     },
     {
-     "title": "Soja atinge maior preço do ano em Mato Grosso - Agrolink",
+     "title": "Soja atinge maior preço do ano em Mato Grosso - agrolink.com.br",
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTU5CZW1RMG42ZlhUNXZ3N09aaHY3ckZtS2x0djRZU3pTT3pkMGljd1BOS0JBSFkxN2dLZHFrb2NFdC1sQW9SamZaRnBVSC13V2xfYUdRdGdQVnZtMjFkbnZwSHhjcC0tbHloX2t0RURWcDRDd3lmRVp4RmNpOGJrUFQ2Z2lKeGw4dWlzY2JTMF91dV9yblVSbVln?oc=5",
-     "source": "Agrolink",
+     "source": "agrolink.com.br",
      "published_at": "2026-08-06T21:20:00+00:00"
+    },
+    {
+     "title": "Poucos negócios, alterações pontuais: como ficaram os preços da soja? - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZHZDMk9hck9VQUg2NEowaXBReGVURlliWXJsRGlwTE5sSFJsbWpaNTJDWGhKd21pcnJuMktfd1p0S0hDSDVkWkpHYWFISXZfWVBRYXRiSUtvNkowVmVtdi1zNTM1S0xOOVl1RVJ1c25yemNLcVoxcWVTeVVOeklKT3V4VkVDeDhIS29kUG5lVlVENmJhRzFsVHpRejRpRjFMRWNCOXEydEt5V3V2Nk4tTzNhbThrd3BITFZCLTU3MXBOakZrYU81Ug?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-06T21:08:32+00:00"
     },
     {
      "title": "Soja volta a subir em Chicago e, com prêmios fortes no Brasil, preços seguem próximos dos R$ 150 para o disponível nos portos - Notícias Agrícolas",
@@ -554,21 +566,15 @@
      "published_at": "2026-08-06T20:15:07+00:00"
     },
     {
-     "title": "Agro de MS amplia exportações em 12,4% com destaque para soja e carne bovina - Sistema Famasul",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOXo3cFVPbFhNRlB6bW1UYnNqUDFRNkVrc2lHdDJzemt3RXVtVFhOTWVsNWk5c0NFa0N6bjAyX3A2bGhwT2hmQVlfeVhraEtCNnhRamhSeXllaEdxUkZ3RjNDWWV3b1BYa3M0Wl9YMEpJbU5EdTQ2bENmOEM5QzY2MVRUdmhHU2h1UmFpVTVnc1ZnWHEwSjZZam9kNkI0RmFNaFVVa2p5TFhIUDFFVGFudUlZS0xSWTMzWXZMR2pWRmF1NFMyZzV2UU5n?oc=5",
-     "source": "Sistema Famasul",
-     "published_at": "2026-08-06T19:42:35+00:00"
-    },
-    {
      "title": "Seminário em Londrina debate liderança do Brasil na produção de soja - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZnZ4WGVnUVEtWmUxRlZ6a24zN1hlZExkNG9FOXdnN0lEeHVoYXR2cGwwNVRuWUtmS0JlOWJmX25hVmtwVEtUbHZaNmNrcFRCQ2hmZlljeVF4TWtJNy1FUHdtdXBhXzBIOVFqV29jX0hZSEVmZHhjbDlNc1dDZ2M4dHRBSXVRQXFna1lzTE5WTVJLZk0za1A3NzZyUkJzelNzek44NnFjUlMyNS02NXh3QQ?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-06T19:36:32+00:00"
     },
     {
-     "title": "CNA participa de evento sobre desafios do Brasil como líder na produção de soja - Portal CNA Brasil",
+     "title": "CNA participa de evento sobre desafios do Brasil como líder na produção de soja - cnabrasil.org.br",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNN3oyWFBzcnV2VnBzeTZyNmgxN2ZsbFZMQUxob0ExZzhVS1RxV2g1NmlIRkJzQ2JPUmp0aTJzMzVJWkNJa3loMElWMGRnR0tFYk1HMFB4N0REVDlaN0JBNTBQRG9aclBrV1FzOV9jelVHMFlMNGVGYVBnY0xmbkszRkFkazVaWVJkSXlCSHNyaC1jWnIwNDdxenVOaFZsQjdHUzlYQVMyU2VBcFdxQWt5WEN3aw?oc=5",
-     "source": "Portal CNA Brasil",
+     "source": "cnabrasil.org.br",
      "published_at": "2026-08-06T19:35:06+00:00"
     },
     {
@@ -594,12 +600,6 @@
      "link": "https://g1.globo.com/sp/piracicaba-regiao/noticia/2026/08/04/cafe-entenda-como-inverno-atipico-e-chuvoso-em-julho-pode-impactar-exportacao-precos-e-qualidade-da-bebida.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-04T12:14:19"
-    },
-    {
-     "title": "Bezerro nasce com três orelhas, uma delas nas costas; entenda o caso",
-     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/04/bezerro-nasce-com-tres-orelhas-uma-delas-nas-costas-entenda-o-caso.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-04T06:00:30"
     }
    ],
    "failed": [

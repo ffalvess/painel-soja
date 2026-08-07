@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-07T08:51:36+00:00",
+ "generated_at": "2026-08-07T09:55:11+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-07T08:51:24+00:00",
+   "updated_at": "2026-08-07T09:55:05+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1183.25,
+     "price": 1181.5,
      "prev_close": 1157.25,
-     "change_pct": 2.25,
+     "change_pct": 2.1,
      "closes": [
       1196.75,
       1195.0,
@@ -35,7 +35,7 @@
       1155.0,
       1151.5,
       1157.25,
-      1183.25
+      1181.5
      ]
     },
     {
@@ -76,9 +76,9 @@
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 317.4,
+     "price": 317.1,
      "prev_close": 310.7,
-     "change_pct": 2.16,
+     "change_pct": 2.06,
      "closes": [
       318.4,
       314.5,
@@ -103,16 +103,16 @@
       310.6,
       309.3,
       310.7,
-      317.4
+      317.1
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.61,
+     "price": 67.56,
      "prev_close": 67.7,
-     "change_pct": -0.13,
+     "change_pct": -0.21,
      "closes": [
       68.79,
       71.39,
@@ -137,16 +137,16 @@
       68.18,
       67.75,
       67.7,
-      67.61
+      67.56
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 635.75,
+     "price": 635.0,
      "prev_close": 631.25,
-     "change_pct": 0.71,
+     "change_pct": 0.59,
      "closes": [
       609.25,
       599.5,
@@ -171,16 +171,16 @@
       638.5,
       642.25,
       631.25,
-      635.75
+      635.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 83.28,
+     "price": 82.44,
      "prev_close": 82.49,
-     "change_pct": 0.96,
+     "change_pct": -0.06,
      "closes": [
       74.16,
       78.02,
@@ -205,7 +205,7 @@
       79.36,
       79.45,
       82.49,
-      83.28
+      82.44
      ]
     },
     {
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-07T08:51:24+00:00",
+   "updated_at": "2026-08-07T09:55:06+00:00",
    "selic": 14.0,
    "cdi": 14.15,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-07T08:51:30+00:00",
+   "updated_at": "2026-08-07T09:55:08+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-07T08:51:36+00:00",
+   "updated_at": "2026-08-07T09:55:11+00:00",
    "items": [
+    {
+     "title": "Oriente Médio eleva tensão nos mercados; veja o que esperar do payroll dos EUA",
+     "link": "https://www.canalrural.com.br/economia/oriente-medio-eleva-tensao-nos-mercados-veja-o-que-esperar-do-payroll-dos-eua/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T09:37:14+00:00"
+    },
+    {
+     "title": "Mercado da soja mantém cautela e preços mistos - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOTNYcmZaWEpjb2psbFZ0YjFjcXd1bkZJNVktZUU5OGt2ZGM5UDBYSTBYWGk2RDNDV0IyMG9yOENPRVRKdmVVU0xFdnl0amtFZzNLR2ZtdW5QekNFQjVFdk11MDBCaEViV2ptc3BmbnNjWGZlLUVhSXpwVlZtR2VHTkNEdmthNzAxcUstenNlMnpycUdqVVdTSXdQTQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-07T09:25:00+00:00"
+    },
+    {
+     "title": "Ventos podem passar de 90 km/h com avanço de frente fria no Sul e Sudeste",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/ventos-podem-passar-de-90-km-h-com-avanco-de-frente-fria-no-sul-e-sudeste/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T09:01:00+00:00"
+    },
     {
      "title": "INFOGRÁFICO mostra como o tarifaço mudou o mapa das exportações brasileiras aos EUA",
      "link": "https://g1.globo.com/economia/noticia/2026/08/07/infografico-mostra-como-o-tarifaco-mudou-o-mapa-das-exportacoes-brasileiras-aos-eua.ghtml",
@@ -506,18 +524,6 @@
      "published_at": "2026-08-07T00:05:55+00:00"
     },
     {
-     "title": "Impactos do El Niño geram preocupação entre agricultores do Rio Grande do Sul",
-     "link": "https://www.canalrural.com.br/videos/impactos-do-el-nino-geram-preocupacao-entre-agricultores-do-rio-grande-do-sul/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T00:05:40+00:00"
-    },
-    {
-     "title": "Indústria de trigo enfrenta desafios com safra menor e mais importações em 2026",
-     "link": "https://www.canalrural.com.br/videos/industria-de-trigo-enfrenta-desafios-com-safra-menor-e-mais-importacoes-em-2026/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T00:05:28+00:00"
-    },
-    {
      "title": "Soja e petróleo impulsionam comércio exterior brasileiro em julho - Jornal GGN",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbjVPMFZlX3FBMC1Leld0X1UxaDBwcnR4ejd4aGRFOHlsLTI4dU5vc0lwQzIzekxoZ3JGREN1V1RaaWp3cll2ejZTS0FTTFpFN3dpOFFSbFFtT29VMmhfaU5TNHlrVnBGVXduOTE0R0huVk5XaWhWdUVObnFXTkozUDJwRzlQUjBHc21aSWJ4dGVGU0U?oc=5",
      "source": "Jornal GGN",
@@ -530,16 +536,16 @@
      "published_at": "2026-08-06T21:20:00+00:00"
     },
     {
-     "title": "Poucos negócios, alterações pontuais: como ficaram os preços da soja? - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZHZDMk9hck9VQUg2NEowaXBReGVURlliWXJsRGlwTE5sSFJsbWpaNTJDWGhKd21pcnJuMktfd1p0S0hDSDVkWkpHYWFISXZfWVBRYXRiSUtvNkowVmVtdi1zNTM1S0xOOVl1RVJ1c25yemNLcVoxcWVTeVVOeklKT3V4VkVDeDhIS29kUG5lVlVENmJhRzFsVHpRejRpRjFMRWNCOXEydEt5V3V2Nk4tTzNhbThrd3BITFZCLTU3MXBOakZrYU81Ug?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-06T21:08:32+00:00"
-    },
-    {
      "title": "Brasil registra alta nas exportações em julho com destaque para soja e minerais - Portal Agro2",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWnNCandrazNCSEh2dWdKTlg4RFNzN2lZdlg1XzdPbVJCenE0NnhROXk2Rnd5b3RmcFU2bWtuVHlaUTI2X3NxQmx3M0M5dEZiYldqZDJHaGNhMkxqdUJSMmR6VzQ5R1JaWWFad2ttajVqOUdFVTBqRjh5UFg0alduY1ctM09QNHF3RGFJTGlxdDEzbnVPSk1DYmtVNi0tRDJOZ3g3QWlxcEV2VzRGWDBuLW95SQ?oc=5",
      "source": "Portal Agro2",
      "published_at": "2026-08-06T20:19:46+00:00"
+    },
+    {
+     "title": "Soja volta a subir em Chicago e, com prêmios fortes no Brasil, preços seguem próximos dos R$ 150 para o disponível nos portos - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQUHdYRVVjS3lHOEk4MHQtRjItNmRiYkxhVU1oeENrOHdTV2l1OHJ3RVVfeEJnQzBLVVdPUmp2OXItSlhIOUxXa0o5YW1hdGhGTVJkZ3pNcEMyOVBWUnRyS2ltMjJXMFVsYmZZbEZkdWhBMjVYUVFkdU1IR0pKYnY2WW15SVhMQ2E3bWpock92ZTNiOU5XZ2hwdDI3enhEUURCaDZTYzluZDNwRmg2ZUktQ1lLY3BZT0V5ZnhVUl9ndlFmY21ENG84eE1zcG5Ba2lCVmZHTGdmcGZVc0FKU2VOdEQwelBFclZBSnVPbTRKdHV6el9iYTllSUJMM3VSdExTOHFENm5WdnRBbnc3aS1jNNIBlgJBVV95cUxNMFh2d29YMFNJTnZYWFUxV192N0ZXME9KTVF0dGFfb1lVT2hqMF9uS190bVNyNm9sQml3ZmRVUXlUM2lITUV0LWVOVHJIai1FanJiY1Y5LTJhQVNBNzFEWVUyeUV4ajZvczVBaWJLUldlM1JZTXhUYTFBT29mbVN1T1RtdFlzbHNTeXQ1d3ZkTnVPYmlrYmljaTZmT0VZaGJwUm02NmRxc1V0MDJtU1BuYVZJWE5tQS1wSmh5S181YU5IampHb3VDalFsb3ExMm02ZlpCZTJSQThRMnNCVUh0NUlVS0p2bzVyLVRXYkxtek44V0VibWxVVjFFWTZCYjNKRGJHdWRfT3hYdjNqVHc2Mjd1QVhfQQ?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-06T20:15:07+00:00"
     },
     {
      "title": "Agro de MS amplia exportações em 12,4% com destaque para soja e carne bovina - Sistema Famasul",
@@ -558,12 +564,6 @@
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNN3oyWFBzcnV2VnBzeTZyNmgxN2ZsbFZMQUxob0ExZzhVS1RxV2g1NmlIRkJzQ2JPUmp0aTJzMzVJWkNJa3loMElWMGRnR0tFYk1HMFB4N0REVDlaN0JBNTBQRG9aclBrV1FzOV9jelVHMFlMNGVGYVBnY0xmbkszRkFkazVaWVJkSXlCSHNyaC1jWnIwNDdxenVOaFZsQjdHUzlYQVMyU2VBcFdxQWt5WEN3aw?oc=5",
      "source": "Portal CNA Brasil",
      "published_at": "2026-08-06T19:35:06+00:00"
-    },
-    {
-     "title": "USDA confirma demanda firme pela soja e milho dos EUA, apesar de menor ritmo na safra velha - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObmtlNFFkZkw0XzV0RGhzX1Q2ak9qTmJMM0VhNG1Jb1U4aGE4WlVyRURzRDRZZE1fVW9ETi1MNkttd2pzWFk1X1ZkZUdvTzA4ajlwdGU3RFVsSmZsSHdpbHVaTlVHaFlTbGYyS05FeS1wQWtuei0zMjBWMUlwZVg4SGdqMGhqWlloeWVWakJDYzN0UHBSd3F1cnpIbTlaMjdKMmw3VDU5X1BjTC1ScXZPWFBad2JoUHlLcnp3eEtwUE11YldDR1N4Q2c0NjY2RWJyX05QMF9KbWdIZEtYMmk3NnlWZ2lNcldP0gHuAUFVX3lxTE1vanNKeE9OVkZsTGR1eVd2Z2twTmFRb1B4Nm15Zm9rbGtKZUhNeWZtZ1d3MXI5LUR5TjYtUDNDZ3F5LXdtOTRLaWp2S3h2SmZhYmQ2N09jTi11ZnVUUFEzQnhScE52WnRWS1ZQQ20wNWYtUE9Md0ROZXhGLUNGT3dxRHRKeV9xVWtnWnlxMjNTLXFEaUpOOTNUcm1vdC13LVRld0lYdzVTdFVjUi1vOG5qdl9tQlhKVEt3ZEVLMjIxcDJWQkw5dzlZRWhtMzQ2ZGlIN3Y2Y01tQjhBQktLZVdITnVzREs5VVlGaV9nb0E?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-06T15:06:48+00:00"
     },
     {
      "title": "Produção de carne bovina do Brasil deve cair em 2026 em meio a tarifas, barreiras comerciais e incertezas no mercado global",

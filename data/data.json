@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-07T22:28:33+00:00",
+ "generated_at": "2026-08-07T23:28:03+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-07T22:28:27+00:00",
+   "updated_at": "2026-08-07T23:27:57+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-07T22:28:27+00:00",
+   "updated_at": "2026-08-07T23:27:57+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-07T22:28:31+00:00",
+   "updated_at": "2026-08-07T23:28:01+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,10 +419,52 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-07T22:28:33+00:00",
+   "updated_at": "2026-08-07T23:28:03+00:00",
    "items": [
     {
-     "title": "Desmatamento na Amazônia recua 36,87% no ciclo 2025/2026",
+     "title": "Exportações de carne bovina caem 18% em julho, aponta SECEX",
+     "link": "https://www.canalrural.com.br/videos/exportacoes-de-carne-bovina-caem-18-em-julho-aponta-secex/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T23:06:09+00:00"
+    },
+    {
+     "title": "Mercado financeiro reduz estimativa da inflação em 2026 pela quinta vez",
+     "link": "https://www.canalrural.com.br/videos/mercado-financeiro-reduz-estimativa-da-inflacao-em-2026-pela-quinta-vez/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T23:05:57+00:00"
+    },
+    {
+     "title": "PIB do agronegócio brasileiro recua 2% no primeiro trimestre de 2026",
+     "link": "https://www.canalrural.com.br/videos/pib-do-agronegocio-brasileiro-recua-2-no-primeiro-trimestre-de-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T23:05:47+00:00"
+    },
+    {
+     "title": "PIB do agronegócio registra queda de 2% no primeiro trimestre de 2026",
+     "link": "https://www.canalrural.com.br/videos/pib-do-agronegocio-registra-queda-de-2-no-primeiro-trimestre-de-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T23:05:35+00:00"
+    },
+    {
+     "title": "Boi gordo: dia fecha com poucos negócios; veja como ficaram os preços da arroba",
+     "link": "https://www.canalrural.com.br/pecuaria/boi-gordo-dia-fecha-com-poucos-negocios-veja-como-ficaram-os-precos-da-arroba/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T22:50:17+00:00"
+    },
+    {
+     "title": "Soja: veja como ficaram as cotações no fechamento de hoje - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZWttSE9NWnMwanN6YXJLSzdUNU9FSFFqYkVvcWxOQmpyaHhSeXNmb3NIa1ZsUkdZcVV3eVZSR1lqVG9nSmpPVWtzbzk5UW4wVEdyRHJCN2loZURTOFBBeG1wdzQ3T3p5dUljd2VzYXhwSXk4MFZJTlRJZ1Q3SV8yVE9FRlhIbzd0WG1Vb0R0SWRSaHc4V3hjV244b3o3Nmg1SHhpeWF3V2RPYmF1S0J5MU4yZGF4aU95bjI0?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T22:34:55+00:00"
+    },
+    {
+     "title": "Soja: veja como ficaram as cotações no fechamento de hoje",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/soja-veja-como-ficaram-as-cotacoes-no-fechamento-de-hoje/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T22:34:55+00:00"
+    },
+    {
+     "title": "Desmatamento na Amazônia é o menor da década",
      "link": "https://www.canalrural.com.br/diversos/desmatamento-na-amazonia-recua-3687-no-ciclo-2025-2026/",
      "source": "Canal Rural",
      "published_at": "2026-08-07T22:00:18+00:00"
@@ -458,9 +500,9 @@
      "published_at": "2026-08-07T20:06:55+00:00"
     },
     {
-     "title": "Soja fecha com leves baixas em Chicago nesta 6ª, mas com semana firme no Brasil - TradingView",
+     "title": "Soja fecha com leves baixas em Chicago nesta 6ª, mas com semana firme no Brasil - br.tradingview.com",
      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4yMDl0Rm9HcEVxY0FNWDk4dzJ4MG9wWXBjWUtSa2FiZ1RKUkF0ZGltWE1FV2pDbmRveHI2bERkN2E1QW0zam9ZeVhSUkJTX0Y0cmlsSGZuWXVxdk9ocUJidVRzdEF6czRMdk0yLWhmbzlhQzJ1?oc=5",
-     "source": "TradingView",
+     "source": "br.tradingview.com",
      "published_at": "2026-08-07T20:05:03+00:00"
     },
     {
@@ -474,42 +516,6 @@
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTkFLUWFlVDZDaF9PV3VpNHhwODR3aE1heWVaaUxyUy1UdE1MTENITXI0VEsxblY5YkwydXVCbmNoMDFzSGhxRW94QkRhSl9wZHhZcjVHUjVzeklRM3ZjaGdqck9JdmJ4a0JlMzZGQ2dmWUR1OFBIelo2LUpnR1RLMnE4NWw5Z3J5dFlfdldSTFgyS3ZMWDhhMGpBS19CMFB1dFp4ZlFtY2tNQQ?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-08-07T19:46:37+00:00"
-    },
-    {
-     "title": "ANP revoga autorização de operação da Refit por unanimidade",
-     "link": "https://www.canalrural.com.br/economia/anp-revoga-autorizacao-de-operacao-da-refit-por-unanimidade/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T19:42:01+00:00"
-    },
-    {
-     "title": "Brasil registra recorde de exportações em julho apesar de tarifas dos EUA",
-     "link": "https://www.canalrural.com.br/videos/brasil-registra-recorde-de-exportacoes-em-julho-apesar-de-tarifas-dos-eua/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T19:10:09+00:00"
-    },
-    {
-     "title": "Crise diplomática entre Brasil, EUA e Argentina impacta eleições",
-     "link": "https://www.canalrural.com.br/videos/crise-diplomatica-entre-brasil-eua-e-argentina-impacta-eleicoes/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T19:05:53+00:00"
-    },
-    {
-     "title": "Temporais no Rio Grande do Sul causam estragos e deixam 288 mil sem energia",
-     "link": "https://www.canalrural.com.br/videos/temporais-no-rio-grande-do-sul-causam-estragos-e-deixam-288-mil-sem-energia/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T19:05:44+00:00"
-    },
-    {
-     "title": "El Niño forte traz desafios significativos para a safra 2026/27",
-     "link": "https://www.canalrural.com.br/videos/el-nino-forte-traz-desafios-significativos-para-a-safra-2026-27/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T19:05:33+00:00"
-    },
-    {
-     "title": "Agroleite discute desafios do crédito rural em cenário de endividamento",
-     "link": "https://www.canalrural.com.br/videos/agroleite-discute-desafios-do-credito-rural-em-cenario-de-endividamento/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T19:05:22+00:00"
     },
     {
      "title": "Sinograin vai leiloar mais meio milhão de toneladas de soja Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
@@ -546,12 +552,6 @@
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNGhkSHZKVTgzNzFnRFcwMEt4bExiREFwX1VSZFBCSU9oeUFRZl9aNDEtMWFiaVQ2ZzZWUUkxa3BVaW15dExvQ3dGR2JOMDZGX3Rhcnc0ODJfYy1OOHlFc2EyUzF3UmxKUlBXM2lrSXE1R2NwU0w2Zjd1dnRDcUpCbjBHLVlycWNQdUxNM3dVVldyUUJzT2FGTDhUdExtTG81eXlHaVBLQjZkc0duY2VBVGlRVmgtZmfSAcYBQVVfeXFMUHhQWjJEUHRuR1VqakJJMU5KNXBqMjBJSndVYXlLUUIxZTNHbGVnTVBTeEQyY3RVUnFaTVZTc2E2aG5iZWFKT1Z3M2g5Q3JtRnVRNGxJMDNoVE9lUjJNN1Fzek9jZFJ3S2RkazRFWlpXWUtMdXZHamhacEhYenFNeUUtNl9FS1VKVmtzZ2VBMzFMT1FFRnFsY3hUTTdzR0ZPcWpKa3R3aUx3N05SWTN2VWwtbTdCQmZLeFloYUhZbWp3SkhsdEFR?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-08-07T13:35:39+00:00"
-    },
-    {
-     "title": "Exportação de soja cresce 9,3% em julho e receita avança 17,4% - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQXBKa3ctSTJVTVJhZS1fNkdyYXY1T25Jc1BuUzllSXp5eFZTdmFVQUJMdUZNRDdlbXlKSmZVWllSZEpGdDgxRWRqenlPSHRRd01CODVxWDRRZTB5Q0lkWmlwemxheGhxeDAtWjlYSjBTeE45SUJVRk9XUmZsTk9ITTQ4QXZqNGV5UmFmUDV1Mm5uWFAyamtpSzktRnN4NEU?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T12:53:09+00:00"
     },
     {
      "title": "Embrapa lança nova cultivar de braquiária com potencial de aumentar ganho de peso bovino por hectare",

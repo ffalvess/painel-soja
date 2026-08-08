@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-08T10:24:51+00:00",
+ "generated_at": "2026-08-08T11:22:12+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-08T10:24:41+00:00",
+   "updated_at": "2026-08-08T11:22:04+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-08T10:24:41+00:00",
+   "updated_at": "2026-08-08T11:22:05+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-08T10:24:47+00:00",
+   "updated_at": "2026-08-08T11:22:09+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,8 +413,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-08T10:24:51+00:00",
+   "updated_at": "2026-08-08T11:22:12+00:00",
    "items": [
+    {
+     "title": "Após sequência de altas, soja volta a ser negociada acima de R$ 145 - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbEZpa1hxQ0xtSE5BczJSTVdBdkNOSjlsYjJxeDZfdlg2ZzVDb2I5VndBMVE4UE1FOUtKSHBoa3NfREJwS2FUaGp6UXJpT2x1ZHRDeGdZZkRya0t5ZHBnRlRSQUswWURmbHh3TUYxX2hhMjh2WGpmRExmWjJhRGZJSEQ5RmFDVjR2X2I0T0dWVXc3azVtS1hxWUtjcEtwOFV6aFEwcGpucVpRc0xQb1NXUlB5Y3pwZ0pTSnNjM1ZMc01PRjTSAdIBQVVfeXFMUGxib3RlQ3RxT2xwQlQ2X095NnhyaWRsOHp6WGwxVXFvTTBuWkd2akJpTFhicDFaM2dGalZCMlNyMW5jakEweDVtMEN5ZzdFSnU3bDBBVzJ0Y1BDWERobGpnc1BqY2pUQ1FzNF9lRDMybk1KMVp0QTREakJ6T3dkVGFzaTcxTnNkME9LMTBwcjNULUhKWDdHMzBJRW1hZ3k4eFU4eVBTRXFGdVNsYWc2QjBrMnhGek5qZXF0elNKT1ZwOW1heGlUVHRLZ20tN2lhUm1n?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-08T10:14:08+00:00"
+    },
     {
      "title": "Estiagem deve reduzir em 50% produção de soja em Roraima e Aprosoja prevê prejuízo de R$ 500 milhões - Folha BV",
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTDlfeDRNMWdGYUFfS0JGTVJyS2JidDJxY0FJWEdOV2ZtQkc2ZmMzWm1xcGRhUk55bFZsQnVabTRJeDEtcGlKMmJvUWVEeWUzTzU0MmdnUGZTNGhSUkgxX0JpTjEwaHpIV1ZXUFA1UHlHcF85RGRiTGw4QWtLcFpRZEdsNXVZaXZWSllrU1lGNWVpQWNoNVYyeDJFWHA1UjZ2aFFQbm50VlZ0Nkp3X3A0U3RIMkNBdWVtMmtuLXFGc1hJZ29xejZSRWdzWQ?oc=5",
@@ -422,9 +428,9 @@
      "published_at": "2026-08-08T10:00:00+00:00"
     },
     {
-     "title": "Saca de soja bate R$ 145,15 na primeira semana de agosto - opresenterural.com.br",
+     "title": "Saca de soja bate R$ 145,15 na primeira semana de agosto - O Presente Rural",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPekhMUTBlbmpkWW0wN0lvZlNfY2tTUkRwaHI5OXhsTEFNV0tlUUhUenpWQmhRaFhSb3Z1Yk9WWlpGR19fcDZjNW92V2NrVjFQNXRmR0R0eTlrcllBMURBMVNjVUpGMDVNSXUzRkdNcjNIbWpXanFrZDN6SFhDemktZ0R1T3FSQ0J1ejBlRGlB?oc=5",
-     "source": "opresenterural.com.br",
+     "source": "O Presente Rural",
      "published_at": "2026-08-08T09:19:49+00:00"
     },
     {
@@ -588,12 +594,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/producao-de-carne-bovina-do-brasil-deve-cair-em-2026-em-meio-a-tarifas-barreiras-comerciais-e-incertezas-no-mercado-global.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-05T13:53:12"
-    },
-    {
-     "title": "Após trégua nos preços, azeite volta a ser ameaçado por calor extremo e incêndios na Europa",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/apos-tregua-nos-precos-azeite-volta-a-ser-ameacado-por-calor-extremo-e-incendios-na-europa.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-05T05:00:10"
     }
    ],
    "failed": [

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-08T06:40:38+00:00",
+ "generated_at": "2026-08-08T07:43:29+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-08T06:40:29+00:00",
+   "updated_at": "2026-08-08T07:43:23+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-08T06:40:29+00:00",
+   "updated_at": "2026-08-08T07:43:23+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-08T06:40:34+00:00",
+   "updated_at": "2026-08-08T07:43:26+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -269,28 +269,28 @@
       0.0,
       0.0,
       0.0,
-      0.0,
+      0.3,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      35.6,
-      36.4,
-      37.4,
-      37.6,
-      36.0,
+      35.8,
+      36.3,
+      37.3,
+      37.3,
       36.2,
-      36.4
+      36.0,
+      36.1
      ],
      "tmin": [
       22.5,
-      22.6,
+      22.4,
       23.5,
-      25.9,
-      23.4,
-      22.5,
-      23.9
+      25.3,
+      23.2,
+      22.2,
+      22.9
      ]
     },
     {
@@ -314,22 +314,22 @@
       0.0
      ],
      "tmax": [
-      34.4,
+      34.7,
       35.5,
+      36.2,
       36.4,
-      36.5,
+      35.3,
       35.4,
-      35.5,
-      35.6
+      35.4
      ],
      "tmin": [
+      22.7,
       22.6,
+      23.2,
+      24.6,
+      22.9,
       22.4,
-      23.3,
-      25.4,
-      22.4,
-      22.3,
-      23.0
+      22.5
      ]
     },
     {
@@ -354,21 +354,21 @@
      ],
      "tmax": [
       33.0,
-      34.9,
+      34.3,
       35.2,
-      33.9,
-      33.1,
-      32.6,
-      33.2
+      33.8,
+      33.2,
+      32.7,
+      33.0
      ],
      "tmin": [
       20.7,
+      22.3,
       21.9,
-      21.9,
-      20.9,
-      21.3,
-      23.0,
-      23.4
+      20.3,
+      21.2,
+      23.7,
+      23.3
      ]
     },
     {
@@ -384,37 +384,49 @@
      ],
      "precip": [
       0.0,
-      1.3,
-      10.8,
+      0.9,
+      11.2,
+      0.1,
       0.0,
       0.0,
-      0.5,
-      0.4
+      0.0
      ],
      "tmax": [
-      30.5,
+      30.6,
       31.6,
-      26.6,
-      25.8,
-      27.6,
-      32.7,
-      26.7
+      26.0,
+      25.2,
+      27.5,
+      32.5,
+      28.4
      ],
      "tmin": [
-      17.4,
-      21.7,
+      16.7,
+      20.8,
       19.9,
-      18.6,
-      17.0,
-      18.8,
+      18.5,
+      17.1,
+      18.7,
       18.7
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-08T06:40:38+00:00",
+   "updated_at": "2026-08-08T07:43:29+00:00",
    "items": [
+    {
+     "title": "China compra quase 1 milhão de toneladas de soja dos EUA - Associação Comercial e Industrial de Araçatuba",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFByU3ZZRUNLVzVlSV9mUDZNeTRaSTViby1tYmp4U1BnUFFaZVhHMGxic1FpOGdwOWpyRkhBdldlVnZXRS1id05DZFVnUExuRHl5enlHOFl6TENfWDlX?oc=5",
+     "source": "Associação Comercial e Industrial de Araçatuba",
+     "published_at": "2026-08-08T07:24:40+00:00"
+    },
+    {
+     "title": "Crise no país da cerveja: Alemanha está bebendo menos, e cervejarias fecham — ou apostam no 'zero álcool'",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/08/crise-no-pais-da-cerveja-alemanha-esta-bebendo-menos-e-cervejarias-fecham-ou-apostam-no-zero-alcool.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-08T07:01:06"
+    },
     {
      "title": "Temporais e frente fria provocam alertas de chuvas no Sudeste",
      "link": "https://www.canalrural.com.br/videos/temporais-e-frente-fria-provocam-alertas-de-chuvas-no-sudeste/",
@@ -476,9 +488,9 @@
      "published_at": "2026-08-07T22:50:17+00:00"
     },
     {
-     "title": "Soja: veja como ficaram as cotações no fechamento de hoje - canalrural.com.br",
+     "title": "Soja: veja como ficaram as cotações no fechamento de hoje - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZWttSE9NWnMwanN6YXJLSzdUNU9FSFFqYkVvcWxOQmpyaHhSeXNmb3NIa1ZsUkdZcVV3eVZSR1lqVG9nSmpPVWtzbzk5UW4wVEdyRHJCN2loZURTOFBBeG1wdzQ3T3p5dUljd2VzYXhwSXk4MFZJTlRJZ1Q3SV8yVE9FRlhIbzd0WG1Vb0R0SWRSaHc4V3hjV244b3o3Nmg1SHhpeWF3V2RPYmF1S0J5MU4yZGF4aU95bjI0?oc=5",
-     "source": "canalrural.com.br",
+     "source": "Canal Rural",
      "published_at": "2026-08-07T22:34:55+00:00"
     },
     {
@@ -494,9 +506,9 @@
      "published_at": "2026-08-07T21:55:13+00:00"
     },
     {
-     "title": "Seguro rural em agosto: PSR reserva R$ 1 milhão para soja - Agrolink",
+     "title": "Seguro rural em agosto: PSR reserva R$ 1 milhão para soja - agrolink.com.br",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTkdNWG9uOGtPTzlNeERic2RGZFlQYVZERk9qNFZQcmxuYjAtclBmZjUyZG5zbUlBcVpZVXNRNXVDTmlrcGRmRU9wTmEwV3ZHM3FWQ01jVFRkMmhrSjBOS2ZsbUc1TVJxZTg3UXJ3a0xTVV90ZFVDSkg3WkVNV09xSkZDbGJvaFpTVEhxY0VRNU9tdzdYamliR1FPcXVXVTRjWUdYT2ZRaGxSQQ?oc=5",
-     "source": "Agrolink",
+     "source": "agrolink.com.br",
      "published_at": "2026-08-07T21:08:00+00:00"
     },
     {
@@ -524,21 +536,15 @@
      "published_at": "2026-08-07T15:50:00+00:00"
     },
     {
-     "title": "Soja sobe em Chicago puxada pela demanda chinesa em alta - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNGhkSHZKVTgzNzFnRFcwMEt4bExiREFwX1VSZFBCSU9oeUFRZl9aNDEtMWFiaVQ2ZzZWUUkxa3BVaW15dExvQ3dGR2JOMDZGX3Rhcnc0ODJfYy1OOHlFc2EyUzF3UmxKUlBXM2lrSXE1R2NwU0w2Zjd1dnRDcUpCbjBHLVlycWNQdUxNM3dVVldyUUJzT2FGTDhUdExtTG81eXlHaVBLQjZkc0duY2VBVGlRVmgtZmfSAcYBQVVfeXFMUHhQWjJEUHRuR1VqakJJMU5KNXBqMjBJSndVYXlLUUIxZTNHbGVnTVBTeEQyY3RVUnFaTVZTc2E2aG5iZWFKT1Z3M2g5Q3JtRnVRNGxJMDNoVE9lUjJNN1Fzek9jZFJ3S2RkazRFWlpXWUtMdXZHamhacEhYenFNeUUtNl9FS1VKVmtzZ2VBMzFMT1FFRnFsY3hUTTdzR0ZPcWpKa3R3aUx3N05SWTN2VWwtbTdCQmZLeFloYUhZbWp3SkhsdEFR?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-07T13:35:39+00:00"
-    },
-    {
      "title": "Grupo suspeito de roubar toneladas de soja é alvo de operação em MT - G1",
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdkM1QjNDZUstaTVIanZYTmpYcThkUlN3Qkt6dE55X0JUVTRlcHBXMHYwV0RMV2owOEVxbndrdmNCeTJBT0pUbzRlUWlYVXdnalBTMkJyaXAyWHpJYmk5TWQza0RUdDh0b3FfcURoN2tFMzhzNjdSd1puS0EwaUZuX25vbWhoZjI2Mk5OdUNQeVhXcmNFRDhfYTV6TGJIMjVMSUZUMy1qVTE1aU9KOTNIT2FtQVNPZDAyeGd4ZERIMkY4SW5wUDhz0gHWAUFVX3lxTFBxT2d2QWU3WDk2MzEwLTFXV3FBX3paaDRzNmVXZzZqdTdpR0ppMjVBd2RJbmtaQy13M0d5aWhPOEcxUi1MY3RzM1VWN1dVZ1BxSnotVnVmWnZxVG5YRHltZklseWtJZ3h2aGtIa0hhdktNYnByV2pfOXdLVWpBTlhyenNGV1JLQTRrOUtkMXVUeDFEVlZvcVlpN2J0RWcyT2NmcDlYN2k2YUxwdlluZHhoTjJRMGVxU1hrRTNNbE1ZdGg2UHpyRjlXc1Yya1J3aTlwTlNfakE?oc=5",
      "source": "G1",
      "published_at": "2026-08-07T13:17:21+00:00"
     },
     {
-     "title": "Exportação de soja cresce 9,3% em julho e receita avança 17,4% - canalrural.com.br",
+     "title": "Exportação de soja cresce 9,3% em julho e receita avança 17,4% - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQXBKa3ctSTJVTVJhZS1fNkdyYXY1T25Jc1BuUzllSXp5eFZTdmFVQUJMdUZNRDdlbXlKSmZVWllSZEpGdDgxRWRqenlPSHRRd01CODVxWDRRZTB5Q0lkWmlwemxheGhxeDAtWjlYSjBTeE45SUJVRk9XUmZsTk9ITTQ4QXZqNGV5UmFmUDV1Mm5uWFAyamtpSzktRnN4NEU?oc=5",
-     "source": "canalrural.com.br",
+     "source": "Canal Rural",
      "published_at": "2026-08-07T12:53:09+00:00"
     },
     {
@@ -558,12 +564,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/como-criar-galinhas-poedeiras-e-frangos-caipiras.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-07T11:06:13"
-    },
-    {
-     "title": "Soja sobe em Chicago nesta 6ª com apoio dos derivados e recuperação técnica, mas ainda de olho no clima - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObjh1cE5MYzhoazE4b3RNYkpFemZXd0xUd2tZYTdCUjZUbVk1Q0pHUm42VUhfbTd6SThCUUJOSGdIVE1fdWVDSXpXVHFwd285RHA2NUVSSGNvS2swbkV2N3R6X2l0NEJabXpXd00zRkVNbVVoYWJpcjFQSjFoT1lMel9wUG1hNU9nUWtqOUFxN29Wa2hPbHUxcFhLdUY4V3RYa3JvR0VEQTcwSFJGbklQaU1GWGJGNDB6Q1JFOUFfVkdZeFRnSVI3bkpua0JxT2hOWGlNaUxfeENQbnA5Nml6SDNmWEpBVExYNDI1bE5Bd2J2dWhfXzBJ0gH8AUFVX3lxTFBlWk54YU1VdDY1WnFqYTZSZlRfUWdkcmlqN3JoTzNjZVdwQVVZMWk2alU1cGloNjBtNV9pS0U1aG5XYmg3bzBub2VmQnlycDd2cnBGQ1BOZDNPNC1odkZ5M09yNGdZd0JDeGloeEdwVFY3T2FFY00yVnlnQnJETnBoNHFfdjl6azFXN0c5Sy0xWGdjOFp1LURIbjhCbUVMVUFjc0FOeTR6cWdNVXdzLW5lTUdGZC1WN3czZHROaVozcW9nZTItMGlvRGYxcnNJSDJQaEE0Y0lMLWRXY2FzRmZWU1h0bmZsY1R3X01TS3plb3RmMWhnbTd3RlNzQg?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-07T10:38:13+00:00"
     },
     {
      "title": "INFOGRÁFICO mostra como o tarifaço mudou o mapa das exportações brasileiras aos EUA",

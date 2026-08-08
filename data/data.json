@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-08T20:21:46+00:00",
+ "generated_at": "2026-08-08T21:23:37+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-08T20:21:36+00:00",
+   "updated_at": "2026-08-08T21:23:31+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-08T20:21:37+00:00",
+   "updated_at": "2026-08-08T21:23:31+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-08T20:21:42+00:00",
+   "updated_at": "2026-08-08T21:23:34+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,8 +413,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-08T20:21:46+00:00",
+   "updated_at": "2026-08-08T21:23:37+00:00",
    "items": [
+    {
+     "title": "Açúcar em excesso pode agravar inflamação pulmonar associada à asma, aponta estudo",
+     "link": "https://www.canalrural.com.br/diversos/acucar-em-excesso-pode-agravar-inflamacao-pulmonar-associada-a-asma-aponta-estudo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-08T20:20:48+00:00"
+    },
     {
      "title": "Pecuária reúne eventos sobre genética, manejo e inovação na próxima semana; veja a programação",
      "link": "https://www.canalrural.com.br/feiras-e-eventos/pecuaria-reune-eventos-sobre-genetica-manejo-e-inovacao-na-proxima-semana-veja-a-programacao/",
@@ -482,12 +488,6 @@
      "published_at": "2026-08-08T13:40:03+00:00"
     },
     {
-     "title": "Lula apresenta seu projeto para um possível próximo mandato",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/lula-apresenta-seu-projeto-para-um-possivel-proximo-mandato/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-08T13:39:26+00:00"
-    },
-    {
      "title": "Preço da soja registra nova alta no porto de Paranaguá - portal lj",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMTd3dmE5azE3QTVMNmdqbTJ1cTlqR0dPRURqWEJwbUROVnFSOWs4bVNIUC1FTWRKOTlJWDNscURxLVhCZmxFemtrQWpOR01QLVd6Ml9UYUxWcG5aZFhubkQ2dy1kbnhXOUlKclV2OVZmQ1VhQUxjN25oc3dxN0xUTlNxUEJmeHZf?oc=5",
      "source": "portal lj",
@@ -548,12 +548,6 @@
      "published_at": "2026-08-07T22:34:55+00:00"
     },
     {
-     "title": "Importações de soja ​pela China em julho caíram 1,6% ​em relação a 2025 - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51TloxSVdvcDFNVUhzdmxybVRoSXJISnVtd2o1OGpwV0RSeXBYbGhxYlQ2bzNISi1UX0M0T05sd1ZCcjVZcktGNDNhaDJ1WDh6OF9Hb1pKbUxzbzhOdlFNREhraXpRY0JiM0RySzJn?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-08-07T22:00:04+00:00"
-    },
-    {
      "title": "China compra quase 1 milhão de toneladas de soja dos EUA em uma semana; mercado já avalia impactos para o Brasil - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPblNQdHc0N3dDVi1GOVQ5RkdfVDlRZ2lsUTlmOVpXMHllVURzbW5oV0w1dy05Tm9tc3dVOUk3aVFERW9JQUR2QnJ1cWNKbTJ6ZHY1VnFRR1pkbGNGQ1Q4cEExbnhCbWVKTlVWWWl4bkh2VllhRDNYeV85ejZSMWdHOXlmRDQyU2VYb1gwWXYzTFEtcFlfV0NCYl9DXzY4RU1VTG1tZHJmam5udGRmbFk1eDNTZjZLN0ZsY1A1ckVxenBjUy1TelRDU1k4VE83TkFaOW5zQjJxWWlOajVObG11TEk5WkFQNDJ4cDZMdEljSERTWGVEdHJfbHo5RERYcTEweHBQY9IBigJBVV95cUxPNHJZVjFaWmNxM1RiZTFpRTg4d1BHX1hVNV9Cck5ENDR1UUxkYjZaZjg1cEpZVUc2UzZWM2YxTTJDWGNzai1LeExDeEYxTERqel9hRWxLSUtyMUhFWGF5WlhLOXY3UGVxZkpYZ3ExelZoX0k4NTllSGVBZ1RPZ09OWDZHZk9zTWtuZXByZF9kQ2FJd3dXdlo5WVRIbEdLdVJMOGRCSW1NRkpqNk5wNTlkZkxRcER3S3Rhd3dKRzhuMk9CcEpwZ2dJWU9Ca1ByZlNYYm9HUk5oNVptN2RaLU5MQkpDQ2dBeTZ2TFJIdThFWmo2ZllHYmtTVlNUN20yODJDMVBRLWh4UE1aQQ?oc=5",
      "source": "Notícias Agrícolas",
@@ -594,6 +588,12 @@
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeWZZbE9VSndJbGE1YTNSLXJmUW5WTkxkajBzVFo3SGxIZm16SENuVzdqZmFEX0ZfZVVCbUVlZUVpNkkyS3BXXzVwSWYzQWptVDFhWVFaREVmbXQtREpVYnFOTGYyWjBfUF81aF9JTjN6QmNJa3BRZHFDemUwdHMtN1Qyb19UbXpNNGM2Y1hoMnZpeVlqTjlFY0tiSEtDNDNlZjZqUmFFNGQ3ZC1sUUVSMjREVXdrTzhIYzktaEF3NNIBxAFBVV95cUxPUnczZFpzM2c2elVlWng1ano4MHo2T0Y1a1ZJdU5Sdk5sS0kzQkx1ejM5QnpRVzlYRTJCSUR6d2tKQnpKaUd6R1FhekVQdVQ3VksteGpMbzdNcURtczQwWGlwQXhnaExzcmtLWFY4bVNhclhpWTdnM2hHOE9kRWxiLW5Gdm9YYllXU2htbHJEcDZJc1JVZEtQVEpzeWdiNEZ0NDZRWUN5VXBwQzhaTWRXTTVKTkJtTHNVUF9uN29WR1VRU2ts?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-06T14:07:42+00:00"
+    },
+    {
+     "title": "ARTIGO - O maior risco da próxima safra de soja talvez não esteja no preço - AgFeed",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQnlKWU1oWFU1OUJvNThaMXBfbHctb25QNGNrVjQ2X2s4dUdYTU9KbVkzNjBWTHJDQkhuMXIxdXVNZWlBSlF6Q1pnMlNKUHJBRmZOMjczX3dZUl9JU1N1QS1xZnZZRGQ3eFFkc0tKRk10cVVZNHJkNXFJWmUtdDBNME9jdUFDNEFyUlcxbUs1Slh1SktNMlBPZ0RNeU1YdGxDMDl1U2ZuOTMxYUU1WXpzWTNn?oc=5",
+     "source": "AgFeed",
+     "published_at": "2026-08-05T16:31:00+00:00"
     }
    ],
    "failed": [

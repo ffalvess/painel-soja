@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-08T14:25:41+00:00",
+ "generated_at": "2026-08-08T15:22:52+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-08T14:25:33+00:00",
+   "updated_at": "2026-08-08T15:22:47+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-08T14:25:33+00:00",
+   "updated_at": "2026-08-08T15:22:47+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-08T14:25:37+00:00",
+   "updated_at": "2026-08-08T15:22:50+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,8 +413,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-08T14:25:41+00:00",
+   "updated_at": "2026-08-08T15:22:52+00:00",
    "items": [
+    {
+     "title": "Saca de soja bate R$ 145,15 na primeira semana de agosto - O Presente Rural",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPekhMUTBlbmpkWW0wN0lvZlNfY2tTUkRwaHI5OXhsTEFNV0tlUUhUenpWQmhRaFhSb3Z1Yk9WWlpGR19fcDZjNW92V2NrVjFQNXRmR0R0eTlrcllBMURBMVNjVUpGMDVNSXUzRkdNcjNIbWpXanFrZDN6SFhDemktZ0R1T3FSQ0J1ejBlRGlB?oc=5",
+     "source": "O Presente Rural",
+     "published_at": "2026-08-08T14:47:34+00:00"
+    },
+    {
+     "title": "Anvisa determina apreensão de seis tipos de sal vendidos irregularmente",
+     "link": "https://www.canalrural.com.br/seguranca/anvisa-determina-apreensao-de-seis-tipos-de-sal-vendidos-irregularmente/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-08T14:38:34+00:00"
+    },
     {
      "title": "Vacas, novilhas ou machos? Veja qual categoria exige mais atenção na estiagem",
      "link": "https://www.canalrural.com.br/pecuaria/vacas-novilhas-ou-machos-veja-qual-categoria-exige-mais-atencao-na-estiagem/",
@@ -446,8 +458,8 @@
      "published_at": "2026-08-08T12:03:00+00:00"
     },
     {
-     "title": "Agenda do STF: Ministros devem julgar na próxima semana processos sobre moratória da soja | Legislação - Valor Econômico",
-     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQVJ3SjVETXItQjZ1Sm1nT2NFbXBfZlAyQW1XR1hUSzRIVm02TTNSYnNCdTY3U2toZm9LRm9xUGZYWnQ4WlNTdVNLdkVNWDN1V0R2NUhJWVhhaXEyR3AyVmNzYU4zZmJXX2tRcDJDcXhFcEVuRlgzcGxyV0ZaRlhBand4eklWTmVsbDFUcVhUbENQVTF2RkwyUWg1RHJ3RTI3ZGt4My1zMDdHblFSRXBpdjROVEk0c2hoSUdYc3MyQ2tLekV6eFpIbGVkUlZIZGY3SmVGTUdfTEg4LThuNnJtVGlR?oc=5",
+     "title": "Agenda do STF: Ministros devem julgar na próxima semana processos sobre moratória da soja - Valor Econômico",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQVJ3SjVETXItQjZ1Sm1nT2NFbXBfZlAyQW1XR1hUSzRIVm02TTNSYnNCdTY3U2toZm9LRm9xUGZYWnQ4WlNTdVNLdkVNWDN1V0R2NUhJWVhhaXEyR3AyVmNzYU4zZmJXX2tRcDJDcXhFcEVuRlgzcGxyV0ZaRlhBand4eklWTmVsbDFUcVhUbENQVTF2RkwyUWg1RHJ3RTI3ZGt4My1zMDdHblFSRXBpdjROVEk0c2hoSUdYc3MyQ2tLekV6eFpIbGVkUlZIZGY3SmVGTUdfTEg4LThuNnJtVGlR0gHwAUFVX3lxTE0tN1dId3U0V1ZDcDdRU1NRUXNQalZyZGJkRGdqUDlvYWhHZTk0cDVxamhDd1JCVzhqSHRrdmNKUXJvaDZFaGNCeTZpQUNnTWdJdkRUZXlMV3dpbVNBYTZKdzZveHRqVkxBTkhHSEM5a3NDdUdfOFY2YUhmcWRmVE5fS3BQMUxPTl9NR2lLY09BTDdMOTdXcm9odFhqdElmRExUVFdId1c0ZTdVWk03T01UWlRTdi1DUno2ZW81NjhBZ1ZkdkctNHZKWE1VRjZSdlV6dVhWVG1tNjFjazVyY0RORUIxczRVNkRzMTk4c1JyMw?oc=5",
      "source": "Valor Econômico",
      "published_at": "2026-08-08T12:00:19+00:00"
     },
@@ -470,16 +482,10 @@
      "published_at": "2026-08-08T10:14:08+00:00"
     },
     {
-     "title": "Estiagem deve reduzir em 50% produção de soja em Roraima e Aprosoja prevê prejuízo de R$ 500 milhões - Folha BV",
+     "title": "Estiagem deve reduzir em 50% produção de soja em Roraima e Aprosoja prevê prejuízo de R$ 500 milhões - folhabv.com.br",
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTDlfeDRNMWdGYUFfS0JGTVJyS2JidDJxY0FJWEdOV2ZtQkc2ZmMzWm1xcGRhUk55bFZsQnVabTRJeDEtcGlKMmJvUWVEeWUzTzU0MmdnUGZTNGhSUkgxX0JpTjEwaHpIV1ZXUFA1UHlHcF85RGRiTGw4QWtLcFpRZEdsNXVZaXZWSllrU1lGNWVpQWNoNVYyeDJFWHA1UjZ2aFFQbm50VlZ0Nkp3X3A0U3RIMkNBdWVtMmtuLXFGc1hJZ29xejZSRWdzWQ?oc=5",
-     "source": "Folha BV",
+     "source": "folhabv.com.br",
      "published_at": "2026-08-08T10:00:00+00:00"
-    },
-    {
-     "title": "Saca de soja bate R$ 145,15 na primeira semana de agosto - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPekhMUTBlbmpkWW0wN0lvZlNfY2tTUkRwaHI5OXhsTEFNV0tlUUhUenpWQmhRaFhSb3Z1Yk9WWlpGR19fcDZjNW92V2NrVjFQNXRmR0R0eTlrcllBMURBMVNjVUpGMDVNSXUzRkdNcjNIbWpXanFrZDN6SFhDemktZ0R1T3FSQ0J1ejBlRGlB?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-08-08T09:19:49+00:00"
     },
     {
      "title": "Produção pioneira no Brasil de ostra em lata tenta driblar instabilidades na maricultura e dar mais opções a turistas",
@@ -534,12 +540,6 @@
      "link": "https://www.canalrural.com.br/videos/caves-2026-encerra-com-recorde-de-visitantes-e-inovacoes-no-setor/",
      "source": "Canal Rural",
      "published_at": "2026-08-07T23:15:09+00:00"
-    },
-    {
-     "title": "Exportações de carne bovina caem 18% em julho, aponta SECEX",
-     "link": "https://www.canalrural.com.br/videos/exportacoes-de-carne-bovina-caem-18-em-julho-aponta-secex/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T23:06:09+00:00"
     },
     {
      "title": "Soja: veja como ficaram as cotações no fechamento de hoje - Canal Rural",

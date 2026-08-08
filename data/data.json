@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-08T09:31:14+00:00",
+ "generated_at": "2026-08-08T10:24:51+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-08T09:31:05+00:00",
+   "updated_at": "2026-08-08T10:24:41+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-08T09:31:06+00:00",
+   "updated_at": "2026-08-08T10:24:41+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-08T09:31:09+00:00",
+   "updated_at": "2026-08-08T10:24:47+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,8 +413,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-08T09:31:14+00:00",
+   "updated_at": "2026-08-08T10:24:51+00:00",
    "items": [
+    {
+     "title": "Estiagem deve reduzir em 50% produção de soja em Roraima e Aprosoja prevê prejuízo de R$ 500 milhões - Folha BV",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTDlfeDRNMWdGYUFfS0JGTVJyS2JidDJxY0FJWEdOV2ZtQkc2ZmMzWm1xcGRhUk55bFZsQnVabTRJeDEtcGlKMmJvUWVEeWUzTzU0MmdnUGZTNGhSUkgxX0JpTjEwaHpIV1ZXUFA1UHlHcF85RGRiTGw4QWtLcFpRZEdsNXVZaXZWSllrU1lGNWVpQWNoNVYyeDJFWHA1UjZ2aFFQbm50VlZ0Nkp3X3A0U3RIMkNBdWVtMmtuLXFGc1hJZ29xejZSRWdzWQ?oc=5",
+     "source": "Folha BV",
+     "published_at": "2026-08-08T10:00:00+00:00"
+    },
     {
      "title": "Saca de soja bate R$ 145,15 na primeira semana de agosto - opresenterural.com.br",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPekhMUTBlbmpkWW0wN0lvZlNfY2tTUkRwaHI5OXhsTEFNV0tlUUhUenpWQmhRaFhSb3Z1Yk9WWlpGR19fcDZjNW92V2NrVjFQNXRmR0R0eTlrcllBMURBMVNjVUpGMDVNSXUzRkdNcjNIbWpXanFrZDN6SFhDemktZ0R1T3FSQ0J1ejBlRGlB?oc=5",
@@ -540,12 +546,6 @@
      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWWxGdGNNcERtYnk0S0JqRzNUcHdFaUg3Sk9hN3AtWlVBczlDVmlURFp6b1ZYZk1BbjE0WTZfdWEtS0w2ajlPQ1RqaFhuU2E0UGt4RW5HOWExejdFZjNXSTUwd29DcmxUOFZteEtjazFLcW9aT1Nha2NSSXRUUzkteXVkZGpaN0xRUUs5S0RMWEEtRV94VlhwelVOeUVEbThsTHJrVy1iQ1JWOGVha1ZOLUM5YnVndVdLcXNTaDRteG01QUtIaF96NjlLU1NTcHNkaHBDYWYtWThxNm9uMDB5OFBsY25HT2VkV2c?oc=5",
      "source": "stonex.com",
      "published_at": "2026-08-07T17:40:00+00:00"
-    },
-    {
-     "title": "Exportadores dos EUA relatam venda de 238 mil t de soja à China - UOL Notícias",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVkFlRWdHb0kxUzczY2o4N1VJTVZVRkZWc1VVTmFmQkZ2SFpBUGNWbDYtZUpOVVYyR0ZudklNUlVNOV9nNTYzVmZFZU9PSEh2RVhGTGVwYUNXRGpMVE1sM2hnMWFLNjBzTFgtZjBFVkhrODVMTzFISHRmUjlMVGZJb1NWNDYwVlZvLTVkdnkzd1BWMlZQc2d1R3lPWkstdHZ6YzhhRm03bEJraTVfbmZjNU5fUnRzdjEzWnNURVB6bFdoc19kOG5OeHFjYk1pRzNKSUpuVg?oc=5",
-     "source": "UOL Notícias",
-     "published_at": "2026-08-07T15:50:00+00:00"
     },
     {
      "title": "Grupo suspeito de roubar toneladas de soja é alvo de operação em MT - G1",

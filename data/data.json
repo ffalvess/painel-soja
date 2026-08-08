@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-08T04:50:47+00:00",
+ "generated_at": "2026-08-08T05:37:41+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-08T04:50:36+00:00",
+   "updated_at": "2026-08-08T05:37:31+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-08T04:50:36+00:00",
+   "updated_at": "2026-08-08T05:37:32+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-08T04:50:42+00:00",
+   "updated_at": "2026-08-08T05:37:37+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,7 +413,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-08T04:50:47+00:00",
+   "updated_at": "2026-08-08T05:37:41+00:00",
    "items": [
     {
      "title": "Temporais e frente fria provocam alertas de chuvas no Sudeste",
@@ -506,21 +506,15 @@
      "published_at": "2026-08-07T20:06:55+00:00"
     },
     {
-     "title": "Soja fecha com leves baixas em Chicago nesta 6ª, mas com semana firme no Brasil - TradingView",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4yMDl0Rm9HcEVxY0FNWDk4dzJ4MG9wWXBjWUtSa2FiZ1RKUkF0ZGltWE1FV2pDbmRveHI2bERkN2E1QW0zam9ZeVhSUkJTX0Y0cmlsSGZuWXVxdk9ocUJidVRzdEF6czRMdk0yLWhmbzlhQzJ1?oc=5",
-     "source": "TradingView",
-     "published_at": "2026-08-07T20:05:03+00:00"
-    },
-    {
      "title": "China compra quase 1 milhão de toneladas de soja dos EUA em uma semana; mercado já avalia impactos para o Brasil - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPblNQdHc0N3dDVi1GOVQ5RkdfVDlRZ2lsUTlmOVpXMHllVURzbW5oV0w1dy05Tm9tc3dVOUk3aVFERW9JQUR2QnJ1cWNKbTJ6ZHY1VnFRR1pkbGNGQ1Q4cEExbnhCbWVKTlVWWWl4bkh2VllhRDNYeV85ejZSMWdHOXlmRDQyU2VYb1gwWXYzTFEtcFlfV0NCYl9DXzY4RU1VTG1tZHJmam5udGRmbFk1eDNTZjZLN0ZsY1A1ckVxenBjUy1TelRDU1k4VE83TkFaOW5zQjJxWWlOajVObG11TEk5WkFQNDJ4cDZMdEljSERTWGVEdHJfbHo5RERYcTEweHBQY9IBigJBVV95cUxPNHJZVjFaWmNxM1RiZTFpRTg4d1BHX1hVNV9Cck5ENDR1UUxkYjZaZjg1cEpZVUc2UzZWM2YxTTJDWGNzai1LeExDeEYxTERqel9hRWxLSUtyMUhFWGF5WlhLOXY3UGVxZkpYZ3ExelZoX0k4NTllSGVBZ1RPZ09OWDZHZk9zTWtuZXByZF9kQ2FJd3dXdlo5WVRIbEdLdVJMOGRCSW1NRkpqNk5wNTlkZkxRcER3S3Rhd3dKRzhuMk9CcEpwZ2dJWU9Ca1ByZlNYYm9HUk5oNVptN2RaLU5MQkpDQ2dBeTZ2TFJIdThFWmo2ZllHYmtTVlNUN20yODJDMVBRLWh4UE1aQQ?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-07T17:59:55+00:00"
     },
     {
-     "title": "Safra de soja no Paraguai: clima será decisivo em 2026/27 - stonex.com",
+     "title": "Safra de soja no Paraguai: clima será decisivo em 2026/27 - StoneX",
      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWWxGdGNNcERtYnk0S0JqRzNUcHdFaUg3Sk9hN3AtWlVBczlDVmlURFp6b1ZYZk1BbjE0WTZfdWEtS0w2ajlPQ1RqaFhuU2E0UGt4RW5HOWExejdFZjNXSTUwd29DcmxUOFZteEtjazFLcW9aT1Nha2NSSXRUUzkteXVkZGpaN0xRUUs5S0RMWEEtRV94VlhwelVOeUVEbThsTHJrVy1iQ1JWOGVha1ZOLUM5YnVndVdLcXNTaDRteG01QUtIaF96NjlLU1NTcHNkaHBDYWYtWThxNm9uMDB5OFBsY25HT2VkV2c?oc=5",
-     "source": "stonex.com",
+     "source": "StoneX",
      "published_at": "2026-08-07T17:40:00+00:00"
     },
     {
@@ -564,6 +558,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/como-criar-galinhas-poedeiras-e-frangos-caipiras.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-07T11:06:13"
+    },
+    {
+     "title": "Soja sobe em Chicago nesta 6ª com apoio dos derivados e recuperação técnica, mas ainda de olho no clima - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObjh1cE5MYzhoazE4b3RNYkpFemZXd0xUd2tZYTdCUjZUbVk1Q0pHUm42VUhfbTd6SThCUUJOSGdIVE1fdWVDSXpXVHFwd285RHA2NUVSSGNvS2swbkV2N3R6X2l0NEJabXpXd00zRkVNbVVoYWJpcjFQSjFoT1lMel9wUG1hNU9nUWtqOUFxN29Wa2hPbHUxcFhLdUY4V3RYa3JvR0VEQTcwSFJGbklQaU1GWGJGNDB6Q1JFOUFfVkdZeFRnSVI3bkpua0JxT2hOWGlNaUxfeENQbnA5Nml6SDNmWEpBVExYNDI1bE5Bd2J2dWhfXzBJ0gH8AUFVX3lxTFBlWk54YU1VdDY1WnFqYTZSZlRfUWdkcmlqN3JoTzNjZVdwQVVZMWk2alU1cGloNjBtNV9pS0U1aG5XYmg3bzBub2VmQnlycDd2cnBGQ1BOZDNPNC1odkZ5M09yNGdZd0JDeGloeEdwVFY3T2FFY00yVnlnQnJETnBoNHFfdjl6azFXN0c5Sy0xWGdjOFp1LURIbjhCbUVMVUFjc0FOeTR6cWdNVXdzLW5lTUdGZC1WN3czZHROaVozcW9nZTItMGlvRGYxcnNJSDJQaEE0Y0lMLWRXY2FzRmZWU1h0bmZsY1R3X01TS3plb3RmMWhnbTd3RlNzQg?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-07T10:38:13+00:00"
     },
     {
      "title": "INFOGRÁFICO mostra como o tarifaço mudou o mapa das exportações brasileiras aos EUA",

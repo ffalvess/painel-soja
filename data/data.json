@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-08T07:43:29+00:00",
+ "generated_at": "2026-08-08T08:33:13+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-08T07:43:23+00:00",
+   "updated_at": "2026-08-08T08:33:08+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-08T07:43:23+00:00",
+   "updated_at": "2026-08-08T08:33:08+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-08T07:43:26+00:00",
+   "updated_at": "2026-08-08T08:33:12+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,8 +413,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-08T07:43:29+00:00",
+   "updated_at": "2026-08-08T08:33:13+00:00",
    "items": [
+    {
+     "title": "Super El Niño deve pressionar inflação dos alimentos em 2027; feijão e arroz lideram alta",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/08/super-el-nino-deve-pressionar-inflacao-dos-alimentos-em-2027-feijao-e-arroz-lideram-alta.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-08T08:00:49"
+    },
     {
      "title": "China compra quase 1 milhão de toneladas de soja dos EUA - Associação Comercial e Industrial de Araçatuba",
      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFByU3ZZRUNLVzVlSV9mUDZNeTRaSTViby1tYmp4U1BnUFFaZVhHMGxic1FpOGdwOWpyRkhBdldlVnZXRS1id05DZFVnUExuRHl5enlHOFl6TENfWDlX?oc=5",
@@ -494,15 +500,15 @@
      "published_at": "2026-08-07T22:34:55+00:00"
     },
     {
-     "title": "Importações de soja ​pela China em julho caíram 1,6% ​em relação a 2025 - CNN Brasil",
+     "title": "Importações de soja ​pela China em julho caíram 1,6% ​em relação a 2025 - cnnbrasil.com.br",
      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51TloxSVdvcDFNVUhzdmxybVRoSXJISnVtd2o1OGpwV0RSeXBYbGhxYlQ2bzNISi1UX0M0T05sd1ZCcjVZcktGNDNhaDJ1WDh6OF9Hb1pKbUxzbzhOdlFNREhraXpRY0JiM0RySzJn?oc=5",
-     "source": "CNN Brasil",
+     "source": "cnnbrasil.com.br",
      "published_at": "2026-08-07T22:00:04+00:00"
     },
     {
-     "title": "Anec mantém previsão de exportação recorde de soja do Brasil em 2026 - CNN Brasil",
+     "title": "Anec mantém previsão de exportação recorde de soja do Brasil em 2026 - cnnbrasil.com.br",
      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qQ3FGbHNnU1hiVWM0Z1RRWWNqeXR6MDdnMEdNU2FiZFE5YXpuQWhEeHhwTWRIaExQdEsyc1dObVp6OF9QVEx2Z3ZaYTlFMDNXdWtNNG85NDlpUkZ4dEFLQ01henc0NlZDVlE?oc=5",
-     "source": "CNN Brasil",
+     "source": "cnnbrasil.com.br",
      "published_at": "2026-08-07T21:55:13+00:00"
     },
     {
@@ -588,12 +594,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/apos-tregua-nos-precos-azeite-volta-a-ser-ameacado-por-calor-extremo-e-incendios-na-europa.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-05T05:00:10"
-    },
-    {
-     "title": "Veto da UE atinge carne e mel brasileiros enquanto ganhavam espaço no mercado europeu",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/veto-da-ue-atinge-carne-e-mel-brasileiros-enquanto-ganhavam-espaco-no-mercado-europeu.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-05T05:00:08"
     }
    ],
    "failed": [

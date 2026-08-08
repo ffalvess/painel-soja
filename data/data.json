@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-08T18:27:48+00:00",
+ "generated_at": "2026-08-08T19:23:51+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-08T18:27:20+00:00",
+   "updated_at": "2026-08-08T19:23:43+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-08T17:23:26+00:00",
+   "updated_at": "2026-08-08T19:23:43+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-08T18:27:45+00:00",
+   "updated_at": "2026-08-08T19:23:47+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -275,22 +275,22 @@
       0.0
      ],
      "tmax": [
-      35.7,
-      36.2,
-      37.4,
-      37.6,
       36.1,
+      36.7,
+      37.2,
+      37.7,
       35.9,
-      36.1
+      36.3,
+      36.5
      ],
      "tmin": [
       22.1,
-      22.4,
+      23.0,
       23.3,
-      25.6,
-      22.8,
-      21.6,
-      22.7
+      25.3,
+      23.0,
+      21.9,
+      22.1
      ]
     },
     {
@@ -314,22 +314,22 @@
       0.0
      ],
      "tmax": [
-      34.6,
-      35.3,
-      36.1,
+      34.8,
+      35.8,
       36.2,
-      35.0,
-      35.3,
-      35.4
+      36.7,
+      35.2,
+      35.4,
+      35.5
      ],
      "tmin": [
       22.4,
-      22.6,
+      22.8,
       23.4,
-      24.4,
+      24.0,
       22.2,
-      21.7,
-      22.4
+      21.6,
+      20.6
      ]
     },
     {
@@ -354,21 +354,21 @@
      ],
      "tmax": [
       32.7,
-      34.2,
-      34.8,
-      33.5,
+      34.5,
+      35.0,
+      33.9,
       33.1,
-      32.5,
-      33.0
+      32.8,
+      33.6
      ],
      "tmin": [
       20.4,
       22.1,
-      22.1,
+      21.6,
       20.9,
-      21.0,
-      23.1,
-      23.5
+      22.0,
+      24.1,
+      22.9
      ]
     },
     {
@@ -383,38 +383,50 @@
       "2026-08-14"
      ],
      "precip": [
-      0.0,
-      1.0,
-      3.1,
+      0.1,
+      2.6,
+      5.4,
       0.0,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      30.4,
-      31.4,
-      27.4,
-      26.4,
-      28.9,
-      32.9,
-      28.4
+      30.7,
+      31.3,
+      26.8,
+      26.2,
+      28.7,
+      33.1,
+      29.6
      ],
      "tmin": [
       16.8,
-      21.5,
-      19.9,
-      19.1,
-      17.6,
-      19.3,
-      18.4
+      20.0,
+      19.7,
+      18.4,
+      17.3,
+      19.0,
+      19.0
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-08T18:27:48+00:00",
+   "updated_at": "2026-08-08T19:23:51+00:00",
    "items": [
+    {
+     "title": "Lula rebate argumento dos EUA e cita queda do desmatamento na Amazônia",
+     "link": "https://www.canalrural.com.br/internacional/lula-rebate-argumento-dos-eua-e-cita-queda-do-desmatamento-na-amazonia/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-08T18:26:29+00:00"
+    },
+    {
+     "title": "Grande Muralha Verde soma 1,66 milhão de hectares em restauração no Sahel",
+     "link": "https://www.canalrural.com.br/diversos/grande-muralha-verde-soma-166-milhao-de-hectares-em-restauracao-no-sahel/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-08T18:19:20+00:00"
+    },
     {
      "title": "De volta ao jogo: maçã brasileira dispara nas exportações e mira novos mercados",
      "link": "https://www.canalrural.com.br/agricultura/hortifruti/de-volta-ao-jogo-maca-brasileira-dispara-nas-exportacoes-e-mira-novos-mercados/",
@@ -434,9 +446,9 @@
      "published_at": "2026-08-08T16:03:00+00:00"
     },
     {
-     "title": "Saca de soja bate R$ 145,15 na primeira semana de agosto - opresenterural.com.br",
+     "title": "Saca de soja bate R$ 145,15 na primeira semana de agosto - O Presente Rural",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPekhMUTBlbmpkWW0wN0lvZlNfY2tTUkRwaHI5OXhsTEFNV0tlUUhUenpWQmhRaFhSb3Z1Yk9WWlpGR19fcDZjNW92V2NrVjFQNXRmR0R0eTlrcllBMURBMVNjVUpGMDVNSXUzRkdNcjNIbWpXanFrZDN6SFhDemktZ0R1T3FSQ0J1ejBlRGlB?oc=5",
-     "source": "opresenterural.com.br",
+     "source": "O Presente Rural",
      "published_at": "2026-08-08T14:47:34+00:00"
     },
     {
@@ -482,9 +494,9 @@
      "published_at": "2026-08-08T12:03:00+00:00"
     },
     {
-     "title": "Agenda do STF: Ministros devem julgar na próxima semana processos sobre moratória da soja - valor.globo.com",
+     "title": "Agenda do STF: Ministros devem julgar na próxima semana processos sobre moratória da soja - Valor Econômico",
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQVJ3SjVETXItQjZ1Sm1nT2NFbXBfZlAyQW1XR1hUSzRIVm02TTNSYnNCdTY3U2toZm9LRm9xUGZYWnQ4WlNTdVNLdkVNWDN1V0R2NUhJWVhhaXEyR3AyVmNzYU4zZmJXX2tRcDJDcXhFcEVuRlgzcGxyV0ZaRlhBand4eklWTmVsbDFUcVhUbENQVTF2RkwyUWg1RHJ3RTI3ZGt4My1zMDdHblFSRXBpdjROVEk0c2hoSUdYc3MyQ2tLekV6eFpIbGVkUlZIZGY3SmVGTUdfTEg4LThuNnJtVGlR0gHwAUFVX3lxTE0tN1dId3U0V1ZDcDdRU1NRUXNQalZyZGJkRGdqUDlvYWhHZTk0cDVxamhDd1JCVzhqSHRrdmNKUXJvaDZFaGNCeTZpQUNnTWdJdkRUZXlMV3dpbVNBYTZKdzZveHRqVkxBTkhHSEM5a3NDdUdfOFY2YUhmcWRmVE5fS3BQMUxPTl9NR2lLY09BTDdMOTdXcm9odFhqdElmRExUVFdId1c0ZTdVWk03T01UWlRTdi1DUno2ZW81NjhBZ1ZkdkctNHZKWE1VRjZSdlV6dVhWVG1tNjFjazVyY0RORUIxczRVNkRzMTk4c1JyMw?oc=5",
-     "source": "valor.globo.com",
+     "source": "Valor Econômico",
      "published_at": "2026-08-08T12:00:19+00:00"
     },
     {
@@ -494,9 +506,9 @@
      "published_at": "2026-08-08T11:55:00+00:00"
     },
     {
-     "title": "Soja e milho podem superar US$ 12 e US$ 5 em Chicago com efeitos do El Niño, diz BTG - moneytimes.com.br",
+     "title": "Soja e milho podem superar US$ 12 e US$ 5 em Chicago com efeitos do El Niño, diz BTG - Money Times",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORDIzZlo4eU9qS09GVWJSZFlmWWo5Q3hpTVVkcnNESktzRklHN3BiWkUtVEw2WDRoQ3g1dU94WVUtVTI3YTlWQm9QVVpmdV9KSXBXYmNaMVJmT3prQjVGQ3NSTFFrdHZZYnhtdlJzWTA0eDMtYURvMnFRMGpDa3o5X0FfRGxNNGxyUV9BcUJEcFliaVZIUHR3UnNqMjR2Yk1lNEZ6NVl3QjlYZGVWaWJiYnpBS2poczNP?oc=5",
-     "source": "moneytimes.com.br",
+     "source": "Money Times",
      "published_at": "2026-08-08T11:30:00+00:00"
     },
     {
@@ -528,18 +540,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/08/crise-no-pais-da-cerveja-alemanha-esta-bebendo-menos-e-cervejarias-fecham-ou-apostam-no-zero-alcool.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-08T07:01:06"
-    },
-    {
-     "title": "Temporais e frente fria provocam alertas de chuvas no Sudeste",
-     "link": "https://www.canalrural.com.br/videos/temporais-e-frente-fria-provocam-alertas-de-chuvas-no-sudeste/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-08T00:05:21+00:00"
-    },
-    {
-     "title": "Forrageiras aumentam produção de leite para mais de 20 litros por animal na Bahia",
-     "link": "https://www.canalrural.com.br/videos/forrageiras-aumentam-producao-de-leite-para-mais-de-20-litros-por-animal-na-bahia/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-08T00:05:10+00:00"
     },
     {
      "title": "Soja: veja como ficaram as cotações no fechamento de hoje - Canal Rural",
@@ -605,10 +605,6 @@
   {
    "section": "fx",
    "error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
-  },
-  {
-   "section": "rates",
-   "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados/ultimos/12?formato=json"
   },
   {
    "section": "cepea",

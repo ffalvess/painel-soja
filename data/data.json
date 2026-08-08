@@ -1,18 +1,17 @@
 {
- "generated_at": "2026-08-08T03:19:55+00:00",
+ "generated_at": "2026-08-08T04:50:47+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-08T03:19:31+00:00",
+   "updated_at": "2026-08-08T04:50:36+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1176.0,
+     "price": 1176.25,
      "prev_close": 1157.25,
-     "change_pct": 1.62,
+     "change_pct": 1.64,
      "closes": [
-      1196.75,
       1195.0,
       1179.75,
       1196.5,
@@ -35,7 +34,7 @@
       1155.0,
       1151.5,
       1157.25,
-      1176.0
+      1156.5
      ]
     },
     {
@@ -46,7 +45,6 @@
      "prev_close": 439.0,
      "change_pct": 5.13,
      "closes": [
-      442.5,
       434.75,
       427.75,
       438.0,
@@ -69,18 +67,17 @@
       442.25,
       436.75,
       439.0,
-      461.5
+      439.0
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 313.5,
+     "price": 313.4,
      "prev_close": 310.7,
-     "change_pct": 0.9,
+     "change_pct": 0.87,
      "closes": [
-      318.4,
       314.5,
       319.5,
       323.1,
@@ -103,18 +100,17 @@
       310.6,
       309.3,
       310.7,
-      313.5
+      308.1
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.87,
+     "price": 67.88,
      "prev_close": 67.7,
-     "change_pct": 0.25,
+     "change_pct": 0.27,
      "closes": [
-      68.79,
       71.39,
       70.45,
       70.86,
@@ -137,18 +133,17 @@
       68.18,
       67.75,
       67.7,
-      67.87
+      68.16
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 638.25,
+     "price": 639.75,
      "prev_close": 631.25,
-     "change_pct": 1.11,
+     "change_pct": 1.35,
      "closes": [
-      609.25,
       599.5,
       611.25,
       632.0,
@@ -171,18 +166,17 @@
       638.5,
       642.25,
       631.25,
-      638.25
+      639.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 82.27,
+     "price": 83.55,
      "prev_close": 82.49,
-     "change_pct": -0.27,
+     "change_pct": 1.29,
      "closes": [
-      74.16,
       78.02,
       76.3,
       76.01,
@@ -205,7 +199,7 @@
       79.36,
       79.45,
       82.49,
-      82.27
+      83.55
      ]
     },
     {
@@ -247,9 +241,9 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-08T03:19:31+00:00",
+   "updated_at": "2026-08-08T04:50:36+00:00",
    "selic": 14.0,
-   "cdi": null,
+   "cdi": 13.9,
    "ipca_mes": {
     "valor": 0.16,
     "data": "01/06/2026"
@@ -258,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-08T03:19:51+00:00",
+   "updated_at": "2026-08-08T04:50:42+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,7 +413,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-08T03:19:55+00:00",
+   "updated_at": "2026-08-08T04:50:47+00:00",
    "items": [
     {
      "title": "Temporais e frente fria provocam alertas de chuvas no Sudeste",
@@ -482,9 +476,9 @@
      "published_at": "2026-08-07T22:50:17+00:00"
     },
     {
-     "title": "Soja: veja como ficaram as cotações no fechamento de hoje - Canal Rural",
+     "title": "Soja: veja como ficaram as cotações no fechamento de hoje - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZWttSE9NWnMwanN6YXJLSzdUNU9FSFFqYkVvcWxOQmpyaHhSeXNmb3NIa1ZsUkdZcVV3eVZSR1lqVG9nSmpPVWtzbzk5UW4wVEdyRHJCN2loZURTOFBBeG1wdzQ3T3p5dUljd2VzYXhwSXk4MFZJTlRJZ1Q3SV8yVE9FRlhIbzd0WG1Vb0R0SWRSaHc4V3hjV244b3o3Nmg1SHhpeWF3V2RPYmF1S0J5MU4yZGF4aU95bjI0?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-07T22:34:55+00:00"
     },
     {
@@ -524,9 +518,9 @@
      "published_at": "2026-08-07T17:59:55+00:00"
     },
     {
-     "title": "Safra de soja no Paraguai: clima será decisivo em 2026/27 - StoneX",
+     "title": "Safra de soja no Paraguai: clima será decisivo em 2026/27 - stonex.com",
      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWWxGdGNNcERtYnk0S0JqRzNUcHdFaUg3Sk9hN3AtWlVBczlDVmlURFp6b1ZYZk1BbjE0WTZfdWEtS0w2ajlPQ1RqaFhuU2E0UGt4RW5HOWExejdFZjNXSTUwd29DcmxUOFZteEtjazFLcW9aT1Nha2NSSXRUUzkteXVkZGpaN0xRUUs5S0RMWEEtRV94VlhwelVOeUVEbThsTHJrVy1iQ1JWOGVha1ZOLUM5YnVndVdLcXNTaDRteG01QUtIaF96NjlLU1NTcHNkaHBDYWYtWThxNm9uMDB5OFBsY25HT2VkV2c?oc=5",
-     "source": "StoneX",
+     "source": "stonex.com",
      "published_at": "2026-08-07T17:40:00+00:00"
     },
     {
@@ -542,15 +536,15 @@
      "published_at": "2026-08-07T15:03:34+00:00"
     },
     {
-     "title": "Soja sobe em Chicago puxada pela demanda chinesa em alta - Globo Rural",
+     "title": "Soja sobe em Chicago puxada pela demanda chinesa em alta - globorural.globo.com",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNGhkSHZKVTgzNzFnRFcwMEt4bExiREFwX1VSZFBCSU9oeUFRZl9aNDEtMWFiaVQ2ZzZWUUkxa3BVaW15dExvQ3dGR2JOMDZGX3Rhcnc0ODJfYy1OOHlFc2EyUzF3UmxKUlBXM2lrSXE1R2NwU0w2Zjd1dnRDcUpCbjBHLVlycWNQdUxNM3dVVldyUUJzT2FGTDhUdExtTG81eXlHaVBLQjZkc0duY2VBVGlRVmgtZmfSAcYBQVVfeXFMUHhQWjJEUHRuR1VqakJJMU5KNXBqMjBJSndVYXlLUUIxZTNHbGVnTVBTeEQyY3RVUnFaTVZTc2E2aG5iZWFKT1Z3M2g5Q3JtRnVRNGxJMDNoVE9lUjJNN1Fzek9jZFJ3S2RkazRFWlpXWUtMdXZHamhacEhYenFNeUUtNl9FS1VKVmtzZ2VBMzFMT1FFRnFsY3hUTTdzR0ZPcWpKa3R3aUx3N05SWTN2VWwtbTdCQmZLeFloYUhZbWp3SkhsdEFR?oc=5",
-     "source": "Globo Rural",
+     "source": "globorural.globo.com",
      "published_at": "2026-08-07T13:35:39+00:00"
     },
     {
-     "title": "Exportação de soja cresce 9,3% em julho e receita avança 17,4% - Canal Rural",
+     "title": "Exportação de soja cresce 9,3% em julho e receita avança 17,4% - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQXBKa3ctSTJVTVJhZS1fNkdyYXY1T25Jc1BuUzllSXp5eFZTdmFVQUJMdUZNRDdlbXlKSmZVWllSZEpGdDgxRWRqenlPSHRRd01CODVxWDRRZTB5Q0lkWmlwemxheGhxeDAtWjlYSjBTeE45SUJVRk9XUmZsTk9ITTQ4QXZqNGV5UmFmUDV1Mm5uWFAyamtpSzktRnN4NEU?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-07T12:53:09+00:00"
     },
     {

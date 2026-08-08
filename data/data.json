@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-08T16:25:17+00:00",
+ "generated_at": "2026-08-08T17:23:33+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-08T16:25:07+00:00",
+   "updated_at": "2026-08-08T17:23:25+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-08T16:25:07+00:00",
+   "updated_at": "2026-08-08T17:23:26+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-08T16:25:13+00:00",
+   "updated_at": "2026-08-08T17:23:30+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,7 +413,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-08T16:25:17+00:00",
+   "updated_at": "2026-08-08T17:23:33+00:00",
    "items": [
     {
      "title": "Exportações do agro de MS avançam 12,4% no primeiro semestre de 2026",
@@ -464,6 +464,12 @@
      "published_at": "2026-08-08T13:39:26+00:00"
     },
     {
+     "title": "Preço da soja registra nova alta no porto de Paranaguá - portal lj",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMTd3dmE5azE3QTVMNmdqbTJ1cTlqR0dPRURqWEJwbUROVnFSOWs4bVNIUC1FTWRKOTlJWDNscURxLVhCZmxFemtrQWpOR01QLVd6Ml9UYUxWcG5aZFhubkQ2dy1kbnhXOUlKclV2OVZmQ1VhQUxjN25oc3dxN0xUTlNxUEJmeHZf?oc=5",
+     "source": "portal lj",
+     "published_at": "2026-08-08T12:40:49+00:00"
+    },
+    {
      "title": "‘Não é neste ano que vamos comer picanha barata’, diz analista sobre mercado da carne",
      "link": "https://www.canalrural.com.br/pecuaria/nao-e-esse-ano-que-vamos-comer-picanha-barata-diz-analista-sobre-mercado-da-carne/",
      "source": "Canal Rural",
@@ -482,15 +488,15 @@
      "published_at": "2026-08-08T11:55:00+00:00"
     },
     {
-     "title": "Soja e milho podem superar US$ 12 e US$ 5 em Chicago com efeitos do El Niño, diz BTG - Money Times",
+     "title": "Soja e milho podem superar US$ 12 e US$ 5 em Chicago com efeitos do El Niño, diz BTG - moneytimes.com.br",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORDIzZlo4eU9qS09GVWJSZFlmWWo5Q3hpTVVkcnNESktzRklHN3BiWkUtVEw2WDRoQ3g1dU94WVUtVTI3YTlWQm9QVVpmdV9KSXBXYmNaMVJmT3prQjVGQ3NSTFFrdHZZYnhtdlJzWTA0eDMtYURvMnFRMGpDa3o5X0FfRGxNNGxyUV9BcUJEcFliaVZIUHR3UnNqMjR2Yk1lNEZ6NVl3QjlYZGVWaWJiYnpBS2poczNP?oc=5",
-     "source": "Money Times",
+     "source": "moneytimes.com.br",
      "published_at": "2026-08-08T11:30:00+00:00"
     },
     {
-     "title": "Após sequência de altas, soja volta a ser negociada acima de R$ 145 - globorural.globo.com",
+     "title": "Após sequência de altas, soja volta a ser negociada acima de R$ 145 - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbEZpa1hxQ0xtSE5BczJSTVdBdkNOSjlsYjJxeDZfdlg2ZzVDb2I5VndBMVE4UE1FOUtKSHBoa3NfREJwS2FUaGp6UXJpT2x1ZHRDeGdZZkRya0t5ZHBnRlRSQUswWURmbHh3TUYxX2hhMjh2WGpmRExmWjJhRGZJSEQ5RmFDVjR2X2I0T0dWVXc3azVtS1hxWUtjcEtwOFV6aFEwcGpucVpRc0xQb1NXUlB5Y3pwZ0pTSnNjM1ZMc01PRjTSAdIBQVVfeXFMUGxib3RlQ3RxT2xwQlQ2X095NnhyaWRsOHp6WGwxVXFvTTBuWkd2akJpTFhicDFaM2dGalZCMlNyMW5jakEweDVtMEN5ZzdFSnU3bDBBVzJ0Y1BDWERobGpnc1BqY2pUQ1FzNF9lRDMybk1KMVp0QTREakJ6T3dkVGFzaTcxTnNkME9LMTBwcjNULUhKWDdHMzBJRW1hZ3k4eFU4eVBTRXFGdVNsYWc2QjBrMnhGek5qZXF0elNKT1ZwOW1heGlUVHRLZ20tN2lhUm1n?oc=5",
-     "source": "globorural.globo.com",
+     "source": "Globo Rural",
      "published_at": "2026-08-08T10:14:08+00:00"
     },
     {
@@ -512,9 +518,9 @@
      "published_at": "2026-08-08T08:00:49"
     },
     {
-     "title": "China compra quase 1 milhão de toneladas de soja dos EUA - aciara.com.br",
+     "title": "China compra quase 1 milhão de toneladas de soja dos EUA - Associação Comercial e Industrial de Araçatuba",
      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFByU3ZZRUNLVzVlSV9mUDZNeTRaSTViby1tYmp4U1BnUFFaZVhHMGxic1FpOGdwOWpyRkhBdldlVnZXRS1id05DZFVnUExuRHl5enlHOFl6TENfWDlX?oc=5",
-     "source": "aciara.com.br",
+     "source": "Associação Comercial e Industrial de Araçatuba",
      "published_at": "2026-08-08T07:24:14+00:00"
     },
     {
@@ -552,12 +558,6 @@
      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51TloxSVdvcDFNVUhzdmxybVRoSXJISnVtd2o1OGpwV0RSeXBYbGhxYlQ2bzNISi1UX0M0T05sd1ZCcjVZcktGNDNhaDJ1WDh6OF9Hb1pKbUxzbzhOdlFNREhraXpRY0JiM0RySzJn?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-08-07T22:00:04+00:00"
-    },
-    {
-     "title": "China compra quase 1 milhão de toneladas de soja dos EUA em uma semana; mercado já avalia impactos para o Brasil - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPblNQdHc0N3dDVi1GOVQ5RkdfVDlRZ2lsUTlmOVpXMHllVURzbW5oV0w1dy05Tm9tc3dVOUk3aVFERW9JQUR2QnJ1cWNKbTJ6ZHY1VnFRR1pkbGNGQ1Q4cEExbnhCbWVKTlVWWWl4bkh2VllhRDNYeV85ejZSMWdHOXlmRDQyU2VYb1gwWXYzTFEtcFlfV0NCYl9DXzY4RU1VTG1tZHJmam5udGRmbFk1eDNTZjZLN0ZsY1A1ckVxenBjUy1TelRDU1k4VE83TkFaOW5zQjJxWWlOajVObG11TEk5WkFQNDJ4cDZMdEljSERTWGVEdHJfbHo5RERYcTEweHBQY9IBigJBVV95cUxPNHJZVjFaWmNxM1RiZTFpRTg4d1BHX1hVNV9Cck5ENDR1UUxkYjZaZjg1cEpZVUc2UzZWM2YxTTJDWGNzai1LeExDeEYxTERqel9hRWxLSUtyMUhFWGF5WlhLOXY3UGVxZkpYZ3ExelZoX0k4NTllSGVBZ1RPZ09OWDZHZk9zTWtuZXByZF9kQ2FJd3dXdlo5WVRIbEdLdVJMOGRCSW1NRkpqNk5wNTlkZkxRcER3S3Rhd3dKRzhuMk9CcEpwZ2dJWU9Ca1ByZlNYYm9HUk5oNVptN2RaLU5MQkpDQ2dBeTZ2TFJIdThFWmo2ZllHYmtTVlNUN20yODJDMVBRLWh4UE1aQQ?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-07T17:59:55+00:00"
     },
     {
      "title": "Embrapa lança nova cultivar de braquiária com potencial de aumentar ganho de peso bovino por hectare",

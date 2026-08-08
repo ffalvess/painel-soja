@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-07T23:28:03+00:00",
+ "generated_at": "2026-08-08T01:07:57+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-07T23:27:57+00:00",
+   "updated_at": "2026-08-08T01:07:52+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-07T23:27:57+00:00",
+   "updated_at": "2026-08-08T01:07:53+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-07T23:28:01+00:00",
+   "updated_at": "2026-08-08T01:07:55+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -281,22 +281,22 @@
       0.0
      ],
      "tmax": [
-      34.8,
-      35.7,
-      36.2,
-      37.2,
-      37.8,
-      36.3,
-      36.4
+      34.7,
+      35.6,
+      36.4,
+      37.4,
+      37.6,
+      36.0,
+      36.2
      ],
      "tmin": [
       21.5,
-      22.3,
-      22.0,
-      23.0,
-      26.0,
+      22.5,
+      22.6,
       23.5,
-      23.1
+      25.9,
+      23.4,
+      22.5
      ]
     },
     {
@@ -320,22 +320,22 @@
       0.0
      ],
      "tmax": [
-      33.7,
-      34.8,
-      35.6,
-      36.3,
-      36.2,
-      35.7,
-      35.6
+      33.9,
+      34.4,
+      35.5,
+      36.4,
+      36.5,
+      35.4,
+      35.5
      ],
      "tmin": [
       21.3,
+      22.6,
       22.4,
-      22.6,
-      23.1,
-      25.3,
-      22.6,
-      22.5
+      23.3,
+      25.4,
+      22.4,
+      22.3
      ]
     },
     {
@@ -360,21 +360,21 @@
      ],
      "tmax": [
       31.8,
-      33.3,
-      34.6,
+      33.0,
+      34.9,
       35.2,
       33.9,
-      32.8,
-      32.5
+      33.1,
+      32.6
      ],
      "tmin": [
       20.7,
-      20.8,
-      22.1,
-      23.0,
-      21.4,
-      21.2,
-      22.0
+      20.7,
+      21.9,
+      21.9,
+      20.9,
+      21.3,
+      23.0
      ]
     },
     {
@@ -389,38 +389,68 @@
       "2026-08-13"
      ],
      "precip": [
-      9.4,
+      10.0,
       0.0,
-      4.5,
-      2.1,
+      1.3,
+      10.8,
       0.0,
       0.0,
-      0.2
+      0.5
      ],
      "tmax": [
       28.6,
-      31.0,
-      31.9,
-      28.7,
-      25.9,
-      27.8,
-      32.8
+      30.5,
+      31.6,
+      26.6,
+      25.8,
+      27.6,
+      32.7
      ],
      "tmin": [
-      18.9,
-      19.8,
-      20.2,
-      19.6,
-      19.4,
+      17.9,
       17.4,
-      19.0
+      21.7,
+      19.9,
+      18.6,
+      17.0,
+      18.8
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-07T23:28:03+00:00",
+   "updated_at": "2026-08-08T01:07:57+00:00",
    "items": [
+    {
+     "title": "Temporais e frente fria provocam alertas de chuvas no Sudeste",
+     "link": "https://www.canalrural.com.br/videos/temporais-e-frente-fria-provocam-alertas-de-chuvas-no-sudeste/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-08T00:05:21+00:00"
+    },
+    {
+     "title": "Forrageiras aumentam produção de leite para mais de 20 litros por animal na Bahia",
+     "link": "https://www.canalrural.com.br/videos/forrageiras-aumentam-producao-de-leite-para-mais-de-20-litros-por-animal-na-bahia/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-08T00:05:10+00:00"
+    },
+    {
+     "title": "Crédito rural apresenta queda significativa no início da safra 2026/27",
+     "link": "https://www.canalrural.com.br/videos/credito-rural-apresenta-queda-significativa-no-inicio-da-safra-2026-27/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T23:15:29+00:00"
+    },
+    {
+     "title": "Santa Catarina se destaca na produção e exportação de mel em 2026",
+     "link": "https://www.canalrural.com.br/videos/santa-catarina-se-destaca-na-producao-e-exportacao-de-mel-em-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T23:15:19+00:00"
+    },
+    {
+     "title": "CAVES 2026 encerra com recorde de visitantes e inovações no setor",
+     "link": "https://www.canalrural.com.br/videos/caves-2026-encerra-com-recorde-de-visitantes-e-inovacoes-no-setor/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-07T23:15:09+00:00"
+    },
     {
      "title": "Exportações de carne bovina caem 18% em julho, aponta SECEX",
      "link": "https://www.canalrural.com.br/videos/exportacoes-de-carne-bovina-caem-18-em-julho-aponta-secex/",
@@ -458,22 +488,10 @@
      "published_at": "2026-08-07T22:34:55+00:00"
     },
     {
-     "title": "Soja: veja como ficaram as cotações no fechamento de hoje",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/soja-veja-como-ficaram-as-cotacoes-no-fechamento-de-hoje/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T22:34:55+00:00"
-    },
-    {
-     "title": "Desmatamento na Amazônia é o menor da década",
-     "link": "https://www.canalrural.com.br/diversos/desmatamento-na-amazonia-recua-3687-no-ciclo-2025-2026/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T22:00:18+00:00"
-    },
-    {
-     "title": "Ibovespa fecha em queda de 1,73% e dólar comercial recua a R$ 5,0836",
-     "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-queda-de-173-e-dolar-comercial-recua-a-r-50836/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T21:42:13+00:00"
+     "title": "Importações de soja ​pela China em julho caíram 1,6% ​em relação a 2025 - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51TloxSVdvcDFNVUhzdmxybVRoSXJISnVtd2o1OGpwV0RSeXBYbGhxYlQ2bzNISi1UX0M0T05sd1ZCcjVZcktGNDNhaDJ1WDh6OF9Hb1pKbUxzbzhOdlFNREhraXpRY0JiM0RySzJn?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-08-07T22:00:04+00:00"
     },
     {
      "title": "Caminhão carregado com soja invade área de escape na BR-277 em Morretes - Folha do Litoral News",
@@ -488,34 +506,16 @@
      "published_at": "2026-08-07T21:08:00+00:00"
     },
     {
-     "title": "Dólar cai a R$ 5,08 com payroll fraco nos EUA, mas fecha semana em alta",
-     "link": "https://www.canalrural.com.br/economia/dolar-cai-a-r-508-com-payroll-fraco-nos-eua-mas-fecha-semana-em-alta/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T21:01:34+00:00"
-    },
-    {
      "title": "Estudo da Embrapa identifica 27 novos registros de abelhas nativas na cultura da soja - Agrofy News Brasil",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdTFZcXcyeS1hTEVaNERPbF9QajA2Y0xHWGtpLVUtXzlCS21aZ1FpY3F3SVlKVlVNU3pEOVBObnUwVVJvRmU5YzE0UDRmQXhVQWVtc2pDR1ppcWxUVDhFSzdvSEZrb0x6Y1dMTnFVQmpWSGc2Wm9JeHZKUGVJUWl6R2dtUl95SnI0NktZZS1YUk9aR0Y2Rkk4OG5TckpQbXJDREMzeDBZYUZkSVR0TE9NQ1lZRE5RQ0E4RUV3OFVqRGl0Zw?oc=5",
      "source": "Agrofy News Brasil",
      "published_at": "2026-08-07T20:06:55+00:00"
     },
     {
-     "title": "Soja fecha com leves baixas em Chicago nesta 6ª, mas com semana firme no Brasil - br.tradingview.com",
+     "title": "Soja fecha com leves baixas em Chicago nesta 6ª, mas com semana firme no Brasil - TradingView",
      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4yMDl0Rm9HcEVxY0FNWDk4dzJ4MG9wWXBjWUtSa2FiZ1RKUkF0ZGltWE1FV2pDbmRveHI2bERkN2E1QW0zam9ZeVhSUkJTX0Y0cmlsSGZuWXVxdk9ocUJidVRzdEF6czRMdk0yLWhmbzlhQzJ1?oc=5",
-     "source": "br.tradingview.com",
+     "source": "TradingView",
      "published_at": "2026-08-07T20:05:03+00:00"
-    },
-    {
-     "title": "Vacas que combatem fogo? Conheça a raça que virou aliada na prevenção de incêndios",
-     "link": "https://www.canalrural.com.br/pecuaria/vacas-que-combatem-fogo-conheca-a-raca-que-virou-aliada-na-prevencao-de-incendios/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-07T19:53:55+00:00"
-    },
-    {
-     "title": "Soja fecha em baixa em Chicago apesar de novas compras da China nos EUA - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTkFLUWFlVDZDaF9PV3VpNHhwODR3aE1heWVaaUxyUy1UdE1MTENITXI0VEsxblY5YkwydXVCbmNoMDFzSGhxRW94QkRhSl9wZHhZcjVHUjVzeklRM3ZjaGdqck9JdmJ4a0JlMzZGQ2dmWUR1OFBIelo2LUpnR1RLMnE4NWw5Z3J5dFlfdldSTFgyS3ZMWDhhMGpBS19CMFB1dFp4ZlFtY2tNQQ?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-08-07T19:46:37+00:00"
     },
     {
      "title": "Sinograin vai leiloar mais meio milhão de toneladas de soja Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
@@ -536,16 +536,16 @@
      "published_at": "2026-08-07T15:50:00+00:00"
     },
     {
-     "title": "Importações de Soja Pela China Caem 1,6% em Julho ante Preocupações com Rebanho Suíno - Forbes Brasil",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZmNXS1g3TzBZRkJXal91emlwYmJPMTBncmJ4QmVpWjdRQzdIR3dRQXVZVjZyLWFockItZUV1Y01kaUpvUDV6ZFFvQUxfTktSNGFJb2dKSnFGTFVUNVB6djE3aWhIUkRkQ3Z0Yl8xekZ3M2hra21uczQ3ZE5jVlNMMG5JX2YzaktVd0QwaVdwX2NmSWVwRnBzZkVlZWlral92WnZ3Z0ZZcFFyY2wwbDQ0elhzY2hseHBMQVdHRXJ6NUZVbGtH?oc=5",
-     "source": "Forbes Brasil",
-     "published_at": "2026-08-07T15:46:19+00:00"
-    },
-    {
      "title": "Produtor se retrai e comercialização de soja perde fôlego no Brasil - safras.com.br",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV0Q1clpRZFh2aU5FMmotY1dKRjBRbVhVV1pyT05GdlVQVkFpWDN2a1JnVFIxaEdxZWt3WHdyRTFDTnBWRGF0RlRmbUVYUkJGMHJfTHNkaUtKY2JPaktDcGZBaVFidHpvTlRDZ014WVFlRTZSc1p2UzNvOUpHb0NJS2JxWTFzQ3VGbWN0cXZXZWVoR0VK?oc=5",
      "source": "safras.com.br",
      "published_at": "2026-08-07T15:03:34+00:00"
+    },
+    {
+     "title": "Soja reage em Chicago com compras da China e recompra de posições - SBA1",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTzNPeHA0bTNBZ3otWnBua2VhUktNUDBudVlCY1NTYWpIUUJTWGIzakdkdGkzakFCeHpjY1RBY0U1U2FObUgxcVhpek1YMG9fMDFkQnJkWUgwZ3R5Z2ZuRkF5Q3cxcW1EUXVPTlB4bHJzZ1pHeko3ZHdDUWVxdXpUb1R4M2VHWjJxZklsX3Z6YTBONVlodGI2emdpdmUtb2FfbTByZU9mR2c?oc=5",
+     "source": "SBA1",
+     "published_at": "2026-08-07T14:04:00+00:00"
     },
     {
      "title": "Soja sobe em Chicago puxada pela demanda chinesa em alta - Globo Rural",

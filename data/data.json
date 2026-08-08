@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-08T19:23:51+00:00",
+ "generated_at": "2026-08-08T20:21:46+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-08T19:23:43+00:00",
+   "updated_at": "2026-08-08T20:21:36+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-08T19:23:43+00:00",
+   "updated_at": "2026-08-08T20:21:37+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-08T19:23:47+00:00",
+   "updated_at": "2026-08-08T20:21:42+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,8 +413,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-08T19:23:51+00:00",
+   "updated_at": "2026-08-08T20:21:46+00:00",
    "items": [
+    {
+     "title": "Pecuária reúne eventos sobre genética, manejo e inovação na próxima semana; veja a programação",
+     "link": "https://www.canalrural.com.br/feiras-e-eventos/pecuaria-reune-eventos-sobre-genetica-manejo-e-inovacao-na-proxima-semana-veja-a-programacao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-08T20:03:00+00:00"
+    },
     {
      "title": "Lula rebate argumento dos EUA e cita queda do desmatamento na Amazônia",
      "link": "https://www.canalrural.com.br/internacional/lula-rebate-argumento-dos-eua-e-cita-queda-do-desmatamento-na-amazonia/",
@@ -464,9 +470,9 @@
      "published_at": "2026-08-08T14:01:00+00:00"
     },
     {
-     "title": "Mercado de grãos segue sensível a riscos logísticos - Agrolink",
+     "title": "Mercado de grãos segue sensível a riscos logísticos - agrolink.com.br",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZHpmcEgzNkZfa0hrYS0wMVVSWFRSYmlrSkpoeFhiU2l0OThUcUxHQy1RWEt1UjRieHIyWEtjSF9NNlNBUzc5T0c5M0w1RXpyRTdIa3hHd1N1Zm1sajM5aXFmLVFpd2dBNGI5RkwtckVMOTc0bTNNd0JvTE9Cb3V5dDNkZG40bDhST1VMR3pwT0w4TFY0UVFnT3E3NEpyWkI1ZVE?oc=5",
-     "source": "Agrolink",
+     "source": "agrolink.com.br",
      "published_at": "2026-08-08T13:45:00+00:00"
     },
     {
@@ -488,21 +494,15 @@
      "published_at": "2026-08-08T12:40:49+00:00"
     },
     {
-     "title": "‘Não é neste ano que vamos comer picanha barata’, diz analista sobre mercado da carne",
-     "link": "https://www.canalrural.com.br/pecuaria/nao-e-esse-ano-que-vamos-comer-picanha-barata-diz-analista-sobre-mercado-da-carne/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-08T12:03:00+00:00"
-    },
-    {
      "title": "Agenda do STF: Ministros devem julgar na próxima semana processos sobre moratória da soja - Valor Econômico",
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQVJ3SjVETXItQjZ1Sm1nT2NFbXBfZlAyQW1XR1hUSzRIVm02TTNSYnNCdTY3U2toZm9LRm9xUGZYWnQ4WlNTdVNLdkVNWDN1V0R2NUhJWVhhaXEyR3AyVmNzYU4zZmJXX2tRcDJDcXhFcEVuRlgzcGxyV0ZaRlhBand4eklWTmVsbDFUcVhUbENQVTF2RkwyUWg1RHJ3RTI3ZGt4My1zMDdHblFSRXBpdjROVEk0c2hoSUdYc3MyQ2tLekV6eFpIbGVkUlZIZGY3SmVGTUdfTEg4LThuNnJtVGlR0gHwAUFVX3lxTE0tN1dId3U0V1ZDcDdRU1NRUXNQalZyZGJkRGdqUDlvYWhHZTk0cDVxamhDd1JCVzhqSHRrdmNKUXJvaDZFaGNCeTZpQUNnTWdJdkRUZXlMV3dpbVNBYTZKdzZveHRqVkxBTkhHSEM5a3NDdUdfOFY2YUhmcWRmVE5fS3BQMUxPTl9NR2lLY09BTDdMOTdXcm9odFhqdElmRExUVFdId1c0ZTdVWk03T01UWlRTdi1DUno2ZW81NjhBZ1ZkdkctNHZKWE1VRjZSdlV6dVhWVG1tNjFjazVyY0RORUIxczRVNkRzMTk4c1JyMw?oc=5",
      "source": "Valor Econômico",
      "published_at": "2026-08-08T12:00:19+00:00"
     },
     {
-     "title": "Soja recua com melhora do clima nos Estados Unidos - Agrolink",
+     "title": "Soja recua com melhora do clima nos Estados Unidos - agrolink.com.br",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQREVaeEVweUd4TDZ3aUdmYzlvOGpkVHd2cHRFenZxUV9Ja2NvaEs4bHZPTlN2SXpGYkRzNWtOaDN6QXZydE5Od3dtVkpuTldBVktlOFl2VnY0RUhYSi1VM2I4MTV1OUl0Z091RTlPckt4amZzSm1tcVkyZGlldmcxN1YwbEs2aG5BanV0WnNGS2stci1DMUduVUl2QnY3RzBJ?oc=5",
-     "source": "Agrolink",
+     "source": "agrolink.com.br",
      "published_at": "2026-08-08T11:55:00+00:00"
     },
     {
@@ -590,10 +590,10 @@
      "published_at": "2026-08-07T03:00:52"
     },
     {
-     "title": "Produção de carne bovina do Brasil deve cair em 2026 em meio a tarifas, barreiras comerciais e incertezas no mercado global",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/producao-de-carne-bovina-do-brasil-deve-cair-em-2026-em-meio-a-tarifas-barreiras-comerciais-e-incertezas-no-mercado-global.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-05T13:53:12"
+     "title": "China compra mais 122 mil t de soja dos EUA nesta 5ª feira (6) - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeWZZbE9VSndJbGE1YTNSLXJmUW5WTkxkajBzVFo3SGxIZm16SENuVzdqZmFEX0ZfZVVCbUVlZUVpNkkyS3BXXzVwSWYzQWptVDFhWVFaREVmbXQtREpVYnFOTGYyWjBfUF81aF9JTjN6QmNJa3BRZHFDemUwdHMtN1Qyb19UbXpNNGM2Y1hoMnZpeVlqTjlFY0tiSEtDNDNlZjZqUmFFNGQ3ZC1sUUVSMjREVXdrTzhIYzktaEF3NNIBxAFBVV95cUxPUnczZFpzM2c2elVlWng1ano4MHo2T0Y1a1ZJdU5Sdk5sS0kzQkx1ejM5QnpRVzlYRTJCSUR6d2tKQnpKaUd6R1FhekVQdVQ3VksteGpMbzdNcURtczQwWGlwQXhnaExzcmtLWFY4bVNhclhpWTdnM2hHOE9kRWxiLW5Gdm9YYllXU2htbHJEcDZJc1JVZEtQVEpzeWdiNEZ0NDZRWUN5VXBwQzhaTWRXTTVKTkJtTHNVUF9uN29WR1VRU2ts?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-06T14:07:42+00:00"
     }
    ],
    "failed": [

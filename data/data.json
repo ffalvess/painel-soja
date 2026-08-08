@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-08T22:21:58+00:00",
+ "generated_at": "2026-08-08T23:21:53+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-08T22:21:50+00:00",
+   "updated_at": "2026-08-08T23:21:48+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-08T22:21:50+00:00",
+   "updated_at": "2026-08-08T23:21:48+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-08T22:21:55+00:00",
+   "updated_at": "2026-08-08T23:21:51+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,7 +413,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-08T22:21:58+00:00",
+   "updated_at": "2026-08-08T23:21:53+00:00",
    "items": [
     {
      "title": "Boi gordo: escalas curtas e comportamento mais agressivo do comprador puxam preços",
@@ -464,9 +464,9 @@
      "published_at": "2026-08-08T16:03:00+00:00"
     },
     {
-     "title": "Saca de soja bate R$ 145,15 na primeira semana de agosto - opresenterural.com.br",
+     "title": "Saca de soja bate R$ 145,15 na primeira semana de agosto - O Presente Rural",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPekhMUTBlbmpkWW0wN0lvZlNfY2tTUkRwaHI5OXhsTEFNV0tlUUhUenpWQmhRaFhSb3Z1Yk9WWlpGR19fcDZjNW92V2NrVjFQNXRmR0R0eTlrcllBMURBMVNjVUpGMDVNSXUzRkdNcjNIbWpXanFrZDN6SFhDemktZ0R1T3FSQ0J1ejBlRGlB?oc=5",
-     "source": "opresenterural.com.br",
+     "source": "O Presente Rural",
      "published_at": "2026-08-08T14:47:34+00:00"
     },
     {
@@ -494,9 +494,9 @@
      "published_at": "2026-08-08T12:40:49+00:00"
     },
     {
-     "title": "Agenda do STF: Ministros devem julgar na próxima semana processos sobre moratória da soja - valor.globo.com",
+     "title": "Agenda do STF: Ministros devem julgar na próxima semana processos sobre moratória da soja - Valor Econômico",
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQVJ3SjVETXItQjZ1Sm1nT2NFbXBfZlAyQW1XR1hUSzRIVm02TTNSYnNCdTY3U2toZm9LRm9xUGZYWnQ4WlNTdVNLdkVNWDN1V0R2NUhJWVhhaXEyR3AyVmNzYU4zZmJXX2tRcDJDcXhFcEVuRlgzcGxyV0ZaRlhBand4eklWTmVsbDFUcVhUbENQVTF2RkwyUWg1RHJ3RTI3ZGt4My1zMDdHblFSRXBpdjROVEk0c2hoSUdYc3MyQ2tLekV6eFpIbGVkUlZIZGY3SmVGTUdfTEg4LThuNnJtVGlR0gHwAUFVX3lxTE0tN1dId3U0V1ZDcDdRU1NRUXNQalZyZGJkRGdqUDlvYWhHZTk0cDVxamhDd1JCVzhqSHRrdmNKUXJvaDZFaGNCeTZpQUNnTWdJdkRUZXlMV3dpbVNBYTZKdzZveHRqVkxBTkhHSEM5a3NDdUdfOFY2YUhmcWRmVE5fS3BQMUxPTl9NR2lLY09BTDdMOTdXcm9odFhqdElmRExUVFdId1c0ZTdVWk03T01UWlRTdi1DUno2ZW81NjhBZ1ZkdkctNHZKWE1VRjZSdlV6dVhWVG1tNjFjazVyY0RORUIxczRVNkRzMTk4c1JyMw?oc=5",
-     "source": "valor.globo.com",
+     "source": "Valor Econômico",
      "published_at": "2026-08-08T12:00:19+00:00"
     },
     {
@@ -506,9 +506,9 @@
      "published_at": "2026-08-08T11:55:00+00:00"
     },
     {
-     "title": "Soja e milho podem superar US$ 12 e US$ 5 em Chicago com efeitos do El Niño, diz BTG - moneytimes.com.br",
+     "title": "Soja e milho podem superar US$ 12 e US$ 5 em Chicago com efeitos do El Niño, diz BTG - Money Times",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORDIzZlo4eU9qS09GVWJSZFlmWWo5Q3hpTVVkcnNESktzRklHN3BiWkUtVEw2WDRoQ3g1dU94WVUtVTI3YTlWQm9QVVpmdV9KSXBXYmNaMVJmT3prQjVGQ3NSTFFrdHZZYnhtdlJzWTA0eDMtYURvMnFRMGpDa3o5X0FfRGxNNGxyUV9BcUJEcFliaVZIUHR3UnNqMjR2Yk1lNEZ6NVl3QjlYZGVWaWJiYnpBS2poczNP?oc=5",
-     "source": "moneytimes.com.br",
+     "source": "Money Times",
      "published_at": "2026-08-08T11:30:00+00:00"
     },
     {
@@ -530,9 +530,9 @@
      "published_at": "2026-08-08T08:00:49"
     },
     {
-     "title": "China compra quase 1 milhão de toneladas de soja dos EUA - aciara.com.br",
+     "title": "China compra quase 1 milhão de toneladas de soja dos EUA - Associação Comercial e Industrial de Araçatuba",
      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFByU3ZZRUNLVzVlSV9mUDZNeTRaSTViby1tYmp4U1BnUFFaZVhHMGxic1FpOGdwOWpyRkhBdldlVnZXRS1id05DZFVnUExuRHl5enlHOFl6TENfWDlX?oc=5",
-     "source": "aciara.com.br",
+     "source": "Associação Comercial e Industrial de Araçatuba",
      "published_at": "2026-08-08T07:24:14+00:00"
     },
     {

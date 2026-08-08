@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-08T12:34:18+00:00",
+ "generated_at": "2026-08-08T13:40:32+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-08T12:34:12+00:00",
+   "updated_at": "2026-08-08T13:40:25+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-08T12:34:12+00:00",
+   "updated_at": "2026-08-08T13:40:25+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-08T12:34:16+00:00",
+   "updated_at": "2026-08-08T13:40:29+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,7 +413,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-08T12:34:18+00:00",
+   "updated_at": "2026-08-08T13:40:32+00:00",
    "items": [
     {
      "title": "‘Não é neste ano que vamos comer picanha barata’, diz analista sobre mercado da carne",
@@ -422,9 +422,9 @@
      "published_at": "2026-08-08T12:03:00+00:00"
     },
     {
-     "title": "Agenda do STF: Ministros devem julgar na próxima semana processos sobre moratória da soja - Valor Econômico",
+     "title": "Agenda do STF: Ministros devem julgar na próxima semana processos sobre moratória da soja | Legislação - valor.globo.com",
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQVJ3SjVETXItQjZ1Sm1nT2NFbXBfZlAyQW1XR1hUSzRIVm02TTNSYnNCdTY3U2toZm9LRm9xUGZYWnQ4WlNTdVNLdkVNWDN1V0R2NUhJWVhhaXEyR3AyVmNzYU4zZmJXX2tRcDJDcXhFcEVuRlgzcGxyV0ZaRlhBand4eklWTmVsbDFUcVhUbENQVTF2RkwyUWg1RHJ3RTI3ZGt4My1zMDdHblFSRXBpdjROVEk0c2hoSUdYc3MyQ2tLekV6eFpIbGVkUlZIZGY3SmVGTUdfTEg4LThuNnJtVGlR?oc=5",
-     "source": "Valor Econômico",
+     "source": "valor.globo.com",
      "published_at": "2026-08-08T12:00:19+00:00"
     },
     {
@@ -548,12 +548,6 @@
      "published_at": "2026-08-07T22:00:04+00:00"
     },
     {
-     "title": "Anec mantém previsão de exportação recorde de soja do Brasil em 2026 - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qQ3FGbHNnU1hiVWM0Z1RRWWNqeXR6MDdnMEdNU2FiZFE5YXpuQWhEeHhwTWRIaExQdEsyc1dObVp6OF9QVEx2Z3ZaYTlFMDNXdWtNNG85NDlpUkZ4dEFLQ01henc0NlZDVlE?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-08-07T21:55:13+00:00"
-    },
-    {
      "title": "Seguro rural em agosto: PSR reserva R$ 1 milhão para soja - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTkdNWG9uOGtPTzlNeERic2RGZFlQYVZERk9qNFZQcmxuYjAtclBmZjUyZG5zbUlBcVpZVXNRNXVDTmlrcGRmRU9wTmEwV3ZHM3FWQ01jVFRkMmhrSjBOS2ZsbUc1TVJxZTg3UXJ3a0xTVV90ZFVDSkg3WkVNV09xSkZDbGJvaFpTVEhxY0VRNU9tdzdYamliR1FPcXVXVTRjWUdYT2ZRaGxSQQ?oc=5",
      "source": "Agrolink",
@@ -594,6 +588,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/como-a-cerveja-e-feita-do-lupulo-a-levedura-veja-o-caminho-da-bebida-ate-chegar-ao-copo.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-07T03:00:52"
+    },
+    {
+     "title": "Produção de carne bovina do Brasil deve cair em 2026 em meio a tarifas, barreiras comerciais e incertezas no mercado global",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/producao-de-carne-bovina-do-brasil-deve-cair-em-2026-em-meio-a-tarifas-barreiras-comerciais-e-incertezas-no-mercado-global.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-05T13:53:12"
     }
    ],
    "failed": [

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-08T05:37:41+00:00",
+ "generated_at": "2026-08-08T06:40:38+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-08T05:37:31+00:00",
+   "updated_at": "2026-08-08T06:40:29+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-08T05:37:32+00:00",
+   "updated_at": "2026-08-08T06:40:29+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-08T05:37:37+00:00",
+   "updated_at": "2026-08-08T06:40:34+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,7 +413,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-08T05:37:41+00:00",
+   "updated_at": "2026-08-08T06:40:38+00:00",
    "items": [
     {
      "title": "Temporais e frente fria provocam alertas de chuvas no Sudeste",
@@ -524,16 +524,16 @@
      "published_at": "2026-08-07T15:50:00+00:00"
     },
     {
-     "title": "Produtor se retrai e comercialização de soja perde fôlego no Brasil - safras.com.br",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV0Q1clpRZFh2aU5FMmotY1dKRjBRbVhVV1pyT05GdlVQVkFpWDN2a1JnVFIxaEdxZWt3WHdyRTFDTnBWRGF0RlRmbUVYUkJGMHJfTHNkaUtKY2JPaktDcGZBaVFidHpvTlRDZ014WVFlRTZSc1p2UzNvOUpHb0NJS2JxWTFzQ3VGbWN0cXZXZWVoR0VK?oc=5",
-     "source": "safras.com.br",
-     "published_at": "2026-08-07T15:03:34+00:00"
+     "title": "Soja sobe em Chicago puxada pela demanda chinesa em alta - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNGhkSHZKVTgzNzFnRFcwMEt4bExiREFwX1VSZFBCSU9oeUFRZl9aNDEtMWFiaVQ2ZzZWUUkxa3BVaW15dExvQ3dGR2JOMDZGX3Rhcnc0ODJfYy1OOHlFc2EyUzF3UmxKUlBXM2lrSXE1R2NwU0w2Zjd1dnRDcUpCbjBHLVlycWNQdUxNM3dVVldyUUJzT2FGTDhUdExtTG81eXlHaVBLQjZkc0duY2VBVGlRVmgtZmfSAcYBQVVfeXFMUHhQWjJEUHRuR1VqakJJMU5KNXBqMjBJSndVYXlLUUIxZTNHbGVnTVBTeEQyY3RVUnFaTVZTc2E2aG5iZWFKT1Z3M2g5Q3JtRnVRNGxJMDNoVE9lUjJNN1Fzek9jZFJ3S2RkazRFWlpXWUtMdXZHamhacEhYenFNeUUtNl9FS1VKVmtzZ2VBMzFMT1FFRnFsY3hUTTdzR0ZPcWpKa3R3aUx3N05SWTN2VWwtbTdCQmZLeFloYUhZbWp3SkhsdEFR?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-07T13:35:39+00:00"
     },
     {
-     "title": "Soja sobe em Chicago puxada pela demanda chinesa em alta - globorural.globo.com",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNGhkSHZKVTgzNzFnRFcwMEt4bExiREFwX1VSZFBCSU9oeUFRZl9aNDEtMWFiaVQ2ZzZWUUkxa3BVaW15dExvQ3dGR2JOMDZGX3Rhcnc0ODJfYy1OOHlFc2EyUzF3UmxKUlBXM2lrSXE1R2NwU0w2Zjd1dnRDcUpCbjBHLVlycWNQdUxNM3dVVldyUUJzT2FGTDhUdExtTG81eXlHaVBLQjZkc0duY2VBVGlRVmgtZmfSAcYBQVVfeXFMUHhQWjJEUHRuR1VqakJJMU5KNXBqMjBJSndVYXlLUUIxZTNHbGVnTVBTeEQyY3RVUnFaTVZTc2E2aG5iZWFKT1Z3M2g5Q3JtRnVRNGxJMDNoVE9lUjJNN1Fzek9jZFJ3S2RkazRFWlpXWUtMdXZHamhacEhYenFNeUUtNl9FS1VKVmtzZ2VBMzFMT1FFRnFsY3hUTTdzR0ZPcWpKa3R3aUx3N05SWTN2VWwtbTdCQmZLeFloYUhZbWp3SkhsdEFR?oc=5",
-     "source": "globorural.globo.com",
-     "published_at": "2026-08-07T13:35:39+00:00"
+     "title": "Grupo suspeito de roubar toneladas de soja é alvo de operação em MT - G1",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdkM1QjNDZUstaTVIanZYTmpYcThkUlN3Qkt6dE55X0JUVTRlcHBXMHYwV0RMV2owOEVxbndrdmNCeTJBT0pUbzRlUWlYVXdnalBTMkJyaXAyWHpJYmk5TWQza0RUdDh0b3FfcURoN2tFMzhzNjdSd1puS0EwaUZuX25vbWhoZjI2Mk5OdUNQeVhXcmNFRDhfYTV6TGJIMjVMSUZUMy1qVTE1aU9KOTNIT2FtQVNPZDAyeGd4ZERIMkY4SW5wUDhz0gHWAUFVX3lxTFBxT2d2QWU3WDk2MzEwLTFXV3FBX3paaDRzNmVXZzZqdTdpR0ppMjVBd2RJbmtaQy13M0d5aWhPOEcxUi1MY3RzM1VWN1dVZ1BxSnotVnVmWnZxVG5YRHltZklseWtJZ3h2aGtIa0hhdktNYnByV2pfOXdLVWpBTlhyenNGV1JLQTRrOUtkMXVUeDFEVlZvcVlpN2J0RWcyT2NmcDlYN2k2YUxwdlluZHhoTjJRMGVxU1hrRTNNbE1ZdGg2UHpyRjlXc1Yya1J3aTlwTlNfakE?oc=5",
+     "source": "G1",
+     "published_at": "2026-08-07T13:17:21+00:00"
     },
     {
      "title": "Exportação de soja cresce 9,3% em julho e receita avança 17,4% - canalrural.com.br",

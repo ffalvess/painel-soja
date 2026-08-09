@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-09T07:48:54+00:00",
+ "generated_at": "2026-08-09T08:34:43+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-09T07:48:49+00:00",
+   "updated_at": "2026-08-09T08:34:34+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -33,7 +33,7 @@
       1155.0,
       1151.5,
       1157.25,
-      1156.5
+      1176.25
      ]
     },
     {
@@ -65,7 +65,7 @@
       442.25,
       436.75,
       439.0,
-      439.0
+      461.5
      ]
     },
     {
@@ -97,7 +97,7 @@
       310.6,
       309.3,
       310.7,
-      308.1
+      313.4
      ]
     },
     {
@@ -129,7 +129,7 @@
       68.18,
       67.75,
       67.7,
-      68.16
+      67.88
      ]
     },
     {
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-09T07:48:49+00:00",
+   "updated_at": "2026-08-09T08:34:34+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-09T07:48:51+00:00",
+   "updated_at": "2026-08-09T08:34:40+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,7 +407,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-09T07:48:54+00:00",
+   "updated_at": "2026-08-09T08:34:43+00:00",
    "items": [
     {
      "title": "Menos vacas, mais leite: como genética e bem-estar mais que dobraram a produção em 24 anos",
@@ -506,12 +506,6 @@
      "published_at": "2026-08-08T11:30:00+00:00"
     },
     {
-     "title": "Após sequência de altas, soja volta a ser negociada acima de R$ 145 - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbEZpa1hxQ0xtSE5BczJSTVdBdkNOSjlsYjJxeDZfdlg2ZzVDb2I5VndBMVE4UE1FOUtKSHBoa3NfREJwS2FUaGp6UXJpT2x1ZHRDeGdZZkRya0t5ZHBnRlRSQUswWURmbHh3TUYxX2hhMjh2WGpmRExmWjJhRGZJSEQ5RmFDVjR2X2I0T0dWVXc3azVtS1hxWUtjcEtwOFV6aFEwcGpucVpRc0xQb1NXUlB5Y3pwZ0pTSnNjM1ZMc01PRjTSAdIBQVVfeXFMUGxib3RlQ3RxT2xwQlQ2X095NnhyaWRsOHp6WGwxVXFvTTBuWkd2akJpTFhicDFaM2dGalZCMlNyMW5jakEweDVtMEN5ZzdFSnU3bDBBVzJ0Y1BDWERobGpnc1BqY2pUQ1FzNF9lRDMybk1KMVp0QTREakJ6T3dkVGFzaTcxTnNkME9LMTBwcjNULUhKWDdHMzBJRW1hZ3k4eFU4eVBTRXFGdVNsYWc2QjBrMnhGek5qZXF0elNKT1ZwOW1heGlUVHRLZ20tN2lhUm1n?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-08T10:14:08+00:00"
-    },
-    {
      "title": "Produção pioneira no Brasil de ostra em lata tenta driblar instabilidades na maricultura e dar mais opções a turistas",
      "link": "https://g1.globo.com/sc/santa-catarina/noticia/2026/08/08/producao-pioneira-no-brasil-ostra-em-lata-santa-catarina.ghtml",
      "source": "G1 Agronegócios",
@@ -540,6 +534,12 @@
      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPblNQdHc0N3dDVi1GOVQ5RkdfVDlRZ2lsUTlmOVpXMHllVURzbW5oV0w1dy05Tm9tc3dVOUk3aVFERW9JQUR2QnJ1cWNKbTJ6ZHY1VnFRR1pkbGNGQ1Q4cEExbnhCbWVKTlVWWWl4bkh2VllhRDNYeV85ejZSMWdHOXlmRDQyU2VYb1gwWXYzTFEtcFlfV0NCYl9DXzY4RU1VTG1tZHJmam5udGRmbFk1eDNTZjZLN0ZsY1A1ckVxenBjUy1TelRDU1k4VE83TkFaOW5zQjJxWWlOajVObG11TEk5WkFQNDJ4cDZMdEljSERTWGVEdHJfbHo5RERYcTEweHBQY9IBigJBVV95cUxPNHJZVjFaWmNxM1RiZTFpRTg4d1BHX1hVNV9Cck5ENDR1UUxkYjZaZjg1cEpZVUc2UzZWM2YxTTJDWGNzai1LeExDeEYxTERqel9hRWxLSUtyMUhFWGF5WlhLOXY3UGVxZkpYZ3ExelZoX0k4NTllSGVBZ1RPZ09OWDZHZk9zTWtuZXByZF9kQ2FJd3dXdlo5WVRIbEdLdVJMOGRCSW1NRkpqNk5wNTlkZkxRcER3S3Rhd3dKRzhuMk9CcEpwZ2dJWU9Ca1ByZlNYYm9HUk5oNVptN2RaLU5MQkpDQ2dBeTZ2TFJIdThFWmo2ZllHYmtTVlNUN20yODJDMVBRLWh4UE1aQQ?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-07T17:59:55+00:00"
+    },
+    {
+     "title": "Grupo suspeito de roubar toneladas de soja é alvo de operação em MT - G1",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdkM1QjNDZUstaTVIanZYTmpYcThkUlN3Qkt6dE55X0JUVTRlcHBXMHYwV0RMV2owOEVxbndrdmNCeTJBT0pUbzRlUWlYVXdnalBTMkJyaXAyWHpJYmk5TWQza0RUdDh0b3FfcURoN2tFMzhzNjdSd1puS0EwaUZuX25vbWhoZjI2Mk5OdUNQeVhXcmNFRDhfYTV6TGJIMjVMSUZUMy1qVTE1aU9KOTNIT2FtQVNPZDAyeGd4ZERIMkY4SW5wUDhz0gHWAUFVX3lxTFBxT2d2QWU3WDk2MzEwLTFXV3FBX3paaDRzNmVXZzZqdTdpR0ppMjVBd2RJbmtaQy13M0d5aWhPOEcxUi1MY3RzM1VWN1dVZ1BxSnotVnVmWnZxVG5YRHltZklseWtJZ3h2aGtIa0hhdktNYnByV2pfOXdLVWpBTlhyenNGV1JLQTRrOUtkMXVUeDFEVlZvcVlpN2J0RWcyT2NmcDlYN2k2YUxwdlluZHhoTjJRMGVxU1hrRTNNbE1ZdGg2UHpyRjlXc1Yya1J3aTlwTlNfakE?oc=5",
+     "source": "G1",
+     "published_at": "2026-08-07T13:17:21+00:00"
     },
     {
      "title": "Exportação de soja cresce 9,3% em julho e receita avança 17,4% - Canal Rural",
@@ -584,9 +584,9 @@
      "published_at": "2026-08-06T15:06:48+00:00"
     },
     {
-     "title": "ARTIGO - O maior risco da próxima safra de soja talvez não esteja no preço - agfeed.com.br",
+     "title": "ARTIGO - O maior risco da próxima safra de soja talvez não esteja no preço - AgFeed",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQnlKWU1oWFU1OUJvNThaMXBfbHctb25QNGNrVjQ2X2s4dUdYTU9KbVkzNjBWTHJDQkhuMXIxdXVNZWlBSlF6Q1pnMlNKUHJBRmZOMjczX3dZUl9JU1N1QS1xZnZZRGQ3eFFkc0tKRk10cVVZNHJkNXFJWmUtdDBNME9jdUFDNEFyUlcxbUs1Slh1SktNMlBPZ0RNeU1YdGxDMDl1U2ZuOTMxYUU1WXpzWTNn?oc=5",
-     "source": "agfeed.com.br",
+     "source": "AgFeed",
      "published_at": "2026-08-05T16:31:00+00:00"
     }
    ],

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-09T17:25:27+00:00",
+ "generated_at": "2026-08-09T18:30:57+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-09T17:25:17+00:00",
+   "updated_at": "2026-08-09T18:30:48+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -40,9 +40,9 @@
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 462.0,
+     "price": 461.5,
      "prev_close": 439.0,
-     "change_pct": 5.24,
+     "change_pct": 5.13,
      "closes": [
       427.75,
       438.0,
@@ -65,7 +65,7 @@
       442.25,
       436.75,
       439.0,
-      462.0
+      461.5
      ]
     },
     {
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-09T17:25:18+00:00",
+   "updated_at": "2026-08-09T18:30:48+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-09T17:25:22+00:00",
+   "updated_at": "2026-08-09T18:30:53+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +407,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-09T17:25:27+00:00",
+   "updated_at": "2026-08-09T18:30:57+00:00",
    "items": [
+    {
+     "title": "Cães farejadores ajudam a encontrar 298 kg de cocaína em tanque de combustível",
+     "link": "https://www.canalrural.com.br/seguranca/caes-farejadores-ajudam-a-encontrar-298-kg-de-cocaina-em-tanque-de-combustivel/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-09T18:06:00+00:00"
+    },
     {
      "title": "Calor acima dos 40°C, temporais e geadas marcam a semana; confira a previsão por região",
      "link": "https://www.canalrural.com.br/previsao-do-tempo/calor-acima-dos-40c-temporais-e-geadas-marcam-a-semana-confira-a-previsao-por-regiao/",
@@ -528,12 +534,6 @@
      "link": "https://www.canalrural.com.br/diversos/acucar-em-excesso-pode-agravar-inflamacao-pulmonar-associada-a-asma-aponta-estudo/",
      "source": "Canal Rural",
      "published_at": "2026-08-08T20:20:48+00:00"
-    },
-    {
-     "title": "Pecuária reúne eventos sobre genética, manejo e inovação na próxima semana; veja a programação",
-     "link": "https://www.canalrural.com.br/feiras-e-eventos/pecuaria-reune-eventos-sobre-genetica-manejo-e-inovacao-na-proxima-semana-veja-a-programacao/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-08T20:03:00+00:00"
     },
     {
      "title": "Mercado de grãos segue sensível a riscos logísticos - Agrolink",

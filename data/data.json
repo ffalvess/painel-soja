@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-09T16:26:33+00:00",
+ "generated_at": "2026-08-09T17:25:27+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-09T16:26:28+00:00",
+   "updated_at": "2026-08-09T17:25:17+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -40,9 +40,9 @@
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 461.5,
+     "price": 462.0,
      "prev_close": 439.0,
-     "change_pct": 5.13,
+     "change_pct": 5.24,
      "closes": [
       427.75,
       438.0,
@@ -65,7 +65,7 @@
       442.25,
       436.75,
       439.0,
-      461.5
+      462.0
      ]
     },
     {
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-09T16:26:28+00:00",
+   "updated_at": "2026-08-09T17:25:18+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-09T16:26:31+00:00",
+   "updated_at": "2026-08-09T17:25:22+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +407,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-09T16:26:33+00:00",
+   "updated_at": "2026-08-09T17:25:27+00:00",
    "items": [
+    {
+     "title": "Calor acima dos 40°C, temporais e geadas marcam a semana; confira a previsão por região",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/calor-acima-dos-40c-temporais-e-geadas-marcam-a-semana-confira-a-previsao-por-regiao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-09T17:07:17+00:00"
+    },
     {
      "title": "Na maior cidade do Brasil, jovem encontra na agricultura um caminho para o futuro",
      "link": "https://www.canalrural.com.br/agricultura/na-maior-cidade-do-brasil-jovem-encontra-na-agricultura-um-caminho-para-o-futuro/",
@@ -420,12 +426,6 @@
      "link": "https://www.canalrural.com.br/pecuaria/pecuaria-de-leite-amplia-producao-no-ceara-aponta-levantamento/",
      "source": "Canal Rural",
      "published_at": "2026-08-09T15:05:00+00:00"
-    },
-    {
-     "title": "Exportações do agro crescem 12,4% e chegam a R$ 29 bilhões - es1.com.br",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSVpRX0JjQkNCd0FTdnYzT2VKYlpRTUJnNzdiYkxEN1kwdjE4QmlwWURjcTk1ejhCMXh3UjJEVXlvNkZJRW5adjRud3pDaU1JZllFM09BaWFTRVpLRE1oaXdhd1JEVWVhS3hTVU9feVBlSEJjZ0ZSRGVvcjZGUUJ3Tw?oc=5",
-     "source": "es1.com.br",
-     "published_at": "2026-08-09T15:01:02+00:00"
     },
     {
      "title": "O brasileiro não teme o fim do mundo. Teme o fim do mês",
@@ -536,12 +536,6 @@
      "published_at": "2026-08-08T20:03:00+00:00"
     },
     {
-     "title": "Lula rebate argumento dos EUA e cita queda do desmatamento na Amazônia",
-     "link": "https://www.canalrural.com.br/internacional/lula-rebate-argumento-dos-eua-e-cita-queda-do-desmatamento-na-amazonia/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-08T18:26:29+00:00"
-    },
-    {
      "title": "Mercado de grãos segue sensível a riscos logísticos - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZHpmcEgzNkZfa0hrYS0wMVVSWFRSYmlrSkpoeFhiU2l0OThUcUxHQy1RWEt1UjRieHIyWEtjSF9NNlNBUzc5T0c5M0w1RXpyRTdIa3hHd1N1Zm1sajM5aXFmLVFpd2dBNGI5RkwtckVMOTc0bTNNd0JvTE9Cb3V5dDNkZG40bDhST1VMR3pwT0w4TFY0UVFnT3E3NEpyWkI1ZVE?oc=5",
      "source": "Agrolink",
@@ -588,6 +582,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/jbs-anuncia-investimento-de-us-5-bilhoes-para-expandir-negocios-na-asia.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-07T12:02:20"
+    },
+    {
+     "title": "Como criar galinhas poedeiras e frangos caipiras",
+     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/como-criar-galinhas-poedeiras-e-frangos-caipiras.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-07T11:06:13"
     }
    ],
    "failed": [

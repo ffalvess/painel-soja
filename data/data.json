@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-09T22:23:13+00:00",
+ "generated_at": "2026-08-09T23:24:15+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-09T22:23:04+00:00",
+   "updated_at": "2026-08-09T23:24:10+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 84.69,
+     "price": 84.22,
      "prev_close": 83.55,
-     "change_pct": 1.36,
+     "change_pct": 0.8,
      "closes": [
       76.3,
       76.01,
@@ -194,7 +194,7 @@
       79.45,
       82.49,
       83.55,
-      84.69
+      84.22
      ]
     },
     {
@@ -236,7 +236,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-09T22:23:05+00:00",
+   "updated_at": "2026-08-09T23:24:10+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -247,7 +247,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-09T22:23:09+00:00",
+   "updated_at": "2026-08-09T23:24:13+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -408,12 +408,12 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-09T22:23:13+00:00",
+   "updated_at": "2026-08-09T23:24:15+00:00",
    "items": [
     {
-     "title": "Soja: produtor se retrai e comercialização perde fôlego no Brasil - Canal Rural",
+     "title": "Soja: produtor se retrai e comercialização perde fôlego no Brasil - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTWVSeGV4ZWJVRE1DeW9FM2NMT19IektUelZxQVNzWDEtVmdyRm5PR2pOWllSLV9PYVFhT18zRXM5d0Z3dXFaS0JyVXhNUGtjMnYzOWE1azBhNlNDTlBUamhfcDJFbWNFMV9DV0otUlpXNXlYSFBxZTd5RWdOcHhycXhaYWNJSTN0TWFWTlJTNWliSHF1UVN0OU9kdmRaZTN5VXpEZHhuaVNyN3RrUkJuaElzalU1d1I4NDNnaTVnWWhtWllTc0E?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-09T22:03:00+00:00"
     },
     {
@@ -421,6 +421,12 @@
      "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/soja-produtor-se-retrai-e-comercializacao-perde-folego-no-brasil/",
      "source": "Canal Rural",
      "published_at": "2026-08-09T22:03:00+00:00"
+    },
+    {
+     "title": "Dia de Campo apresenta estratégias para recuperar pastagens degradadas com foco na pecuária",
+     "link": "https://www.canalrural.com.br/pecuaria/dia-de-campo-apresenta-estrategias-para-recuperar-pastagens-degradadas-com-foco-na-pecuaria/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-09T21:30:00+00:00"
     },
     {
      "title": "Copasul investe R$ 1 bilhão em indústria de soja em Mato Grosso do Sul - capitalnews.com.br",
@@ -435,9 +441,9 @@
      "published_at": "2026-08-09T20:03:00+00:00"
     },
     {
-     "title": "Tem episódio novo do Soja Brasil no ar; renegociação de dívidas e riscos climáticos são destaques - Canal Rural",
+     "title": "Tem episódio novo do Soja Brasil no ar; renegociação de dívidas e riscos climáticos são destaques - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQWWVQc3JzTzVYSDVQTWRjMnZLbnZXcUxnUWN0OUdMNEtiM1huRzN6VXlfTVNjUDNNLUxVaFhEUTdTaFhNUGFFajBXVmRoZGRIaW43aXktdmJIQ0h5OVlOck1VTXBod2d3TExYdk9KcHJtZUNzbnowNGNva25aNlFQTjRPbGw2Tk9wRU85RmNmM2xyMF9oRXI2NUVZZlJJOEc2NThieWo0bkE2ZTVMMjdYMlVYS0hIV3VDRzNqbVU1M25iYlVhQXoyeHNnWEUxM0ppZ0o4THFPN1NrS2dwTThyM3FOLUZmNjh0MVdYVFJvV1Q?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-09T19:04:00+00:00"
     },
     {
@@ -477,12 +483,6 @@
      "published_at": "2026-08-09T14:54:35+00:00"
     },
     {
-     "title": "Programa Agrosolidário leva bebida de soja a Fundação La Salle há mais de uma década - plantaonews.com.br",
-     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAxNldrdmZJZVo5TFliNXZicFhURVFyQWJfTzV5NkJVLWx6NWY2cWV0ZWNpNF9tblJRQzlWRGg4V25XMEEyRTVqQk9WUl8?oc=5",
-     "source": "plantaonews.com.br",
-     "published_at": "2026-08-09T14:47:00+00:00"
-    },
-    {
      "title": "Pneumonia bovina: doença reduz ganho de peso e provoca perdas no confinamento; veja como prevenir",
      "link": "https://www.canalrural.com.br/pecuaria/pneumonia-bovina-doenca-reduz-ganho-de-peso-e-provoca-perdas-no-confinamento-veja-como-prevenir/",
      "source": "Canal Rural",
@@ -495,9 +495,9 @@
      "published_at": "2026-08-09T13:44:46+00:00"
     },
     {
-     "title": "Pesquisa indica 27 novos registros de abelhas nativas na cultura da soja - poder360.com.br",
+     "title": "Pesquisa indica 27 novos registros de abelhas nativas na cultura da soja - Poder360",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNWpaYktLWDlEZ2d0T0dzYlhreVZnc1ZJVkxCd3RGNkFLOHNuc0ZoUEFIdmFSakxBYVBLUDRJQmpISm1STzZyc3pCOUFPZUp3OFFmQVRtUHhwdE9WS2QwcWN2UVRnREp4RTZOc2tjcjJLWEJqYV9wTjlRaTZVMGZuWmFnREhtQjAxd2VycTdlM3piQ0ZnX0ZZRy1Ob3E2RXJRSjk3RnFDNFFWSVdTMExEamp3?oc=5",
-     "source": "poder360.com.br",
+     "source": "Poder360",
      "published_at": "2026-08-09T13:22:03+00:00"
     },
     {
@@ -505,12 +505,6 @@
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcmdRM2o4OG84bUdsajJjTDFaX0t6Y3FWTW44Ui1DWUFXZW5IanlKNElrb3dpYmxNbDE2Z0N2T0N3SXI5X01DTkxBcWxaQ0NNbDJLdXB0SUFEWjh3bml6VDE4aWxMUFBPRDk5MUhtNXVhOEpwaDNWWGE4MEpCQ3pLX3BIeU8xdGp4bnpkNGhzMkZ2Y1hjQUlLR0NiYktGVVA2WFE?oc=5",
      "source": "Gazeta de Toledo",
      "published_at": "2026-08-09T12:09:35+00:00"
-    },
-    {
-     "title": "Candidatos à Presidência em 2026: veja a lista completa e o calendário eleitoral",
-     "link": "https://www.canalrural.com.br/politica/eleicoes/candidatos-a-presidencia-em-2026-veja-a-lista-completa-e-o-calendario-eleitoral/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-09T12:03:00+00:00"
     },
     {
      "title": "Brasil perde espaço para os EUA no mercado de soja - Globo Rural",
@@ -561,9 +555,9 @@
      "published_at": "2026-08-09T06:00:29"
     },
     {
-     "title": "Mercado de grãos segue sensível a riscos logísticos - agrolink.com.br",
+     "title": "Mercado de grãos segue sensível a riscos logísticos - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZHpmcEgzNkZfa0hrYS0wMVVSWFRSYmlrSkpoeFhiU2l0OThUcUxHQy1RWEt1UjRieHIyWEtjSF9NNlNBUzc5T0c5M0w1RXpyRTdIa3hHd1N1Zm1sajM5aXFmLVFpd2dBNGI5RkwtckVMOTc0bTNNd0JvTE9Cb3V5dDNkZG40bDhST1VMR3pwT0w4TFY0UVFnT3E3NEpyWkI1ZVE?oc=5",
-     "source": "agrolink.com.br",
+     "source": "Agrolink",
      "published_at": "2026-08-08T13:45:00+00:00"
     },
     {
@@ -589,6 +583,12 @@
      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPblNQdHc0N3dDVi1GOVQ5RkdfVDlRZ2lsUTlmOVpXMHllVURzbW5oV0w1dy05Tm9tc3dVOUk3aVFERW9JQUR2QnJ1cWNKbTJ6ZHY1VnFRR1pkbGNGQ1Q4cEExbnhCbWVKTlVWWWl4bkh2VllhRDNYeV85ejZSMWdHOXlmRDQyU2VYb1gwWXYzTFEtcFlfV0NCYl9DXzY4RU1VTG1tZHJmam5udGRmbFk1eDNTZjZLN0ZsY1A1ckVxenBjUy1TelRDU1k4VE83TkFaOW5zQjJxWWlOajVObG11TEk5WkFQNDJ4cDZMdEljSERTWGVEdHJfbHo5RERYcTEweHBQY9IBigJBVV95cUxPNHJZVjFaWmNxM1RiZTFpRTg4d1BHX1hVNV9Cck5ENDR1UUxkYjZaZjg1cEpZVUc2UzZWM2YxTTJDWGNzai1LeExDeEYxTERqel9hRWxLSUtyMUhFWGF5WlhLOXY3UGVxZkpYZ3ExelZoX0k4NTllSGVBZ1RPZ09OWDZHZk9zTWtuZXByZF9kQ2FJd3dXdlo5WVRIbEdLdVJMOGRCSW1NRkpqNk5wNTlkZkxRcER3S3Rhd3dKRzhuMk9CcEpwZ2dJWU9Ca1ByZlNYYm9HUk5oNVptN2RaLU5MQkpDQ2dBeTZ2TFJIdThFWmo2ZllHYmtTVlNUN20yODJDMVBRLWh4UE1aQQ?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-07T17:59:55+00:00"
+    },
+    {
+     "title": "Embrapa lança nova cultivar de braquiária com potencial de aumentar ganho de peso bovino por hectare",
+     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/embrapa-lanca-nova-cultivar-braquiaria-com-potencial-para-elevar-ganho-de-peso-bovino-por-hectare.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-07T12:51:38"
     }
    ],
    "failed": [

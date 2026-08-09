@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-09T10:27:03+00:00",
+ "generated_at": "2026-08-09T11:22:57+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-09T10:26:58+00:00",
+   "updated_at": "2026-08-09T11:22:51+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-09T10:26:58+00:00",
+   "updated_at": "2026-08-09T11:22:51+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-09T10:27:01+00:00",
+   "updated_at": "2026-08-09T11:22:55+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,12 +407,36 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-09T10:27:03+00:00",
+   "updated_at": "2026-08-09T11:22:57+00:00",
    "items": [
     {
-     "title": "Colheita de soja começa em Roraima sob risco de queda de 50% na produção por causa da seca - g1.globo.com",
+     "title": "Receita Nosso Campo: aprenda a fazer um bolo de milho",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/09/receita-nosso-campo-aprenda-a-fazer-um-bolo-de-milho.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-09T10:30:16"
+    },
+    {
+     "title": "Parceria com escola italiana busca aprimorar produção de vinhos em Jundiaí",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/09/parceria-com-escola-italiana-busca-aprimorar-producao-de-vinhos-em-jundiai.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-09T10:30:14"
+    },
+    {
+     "title": "Família Roncoleta mantém tradição agrícola há cinco gerações em Getulina",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/09/familia-roncoleta-mantem-tradicao-agricola-ha-cinco-geracoes-em-getulina.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-09T10:30:13"
+    },
+    {
+     "title": "Expo Rio Preto atrai 50 mil visitantes na primeira semana",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/09/expo-rio-preto-atrai-50-mil-visitantes-na-primeira-semana.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-09T10:30:12"
+    },
+    {
+     "title": "Colheita de soja começa em Roraima sob risco de queda de 50% na produção por causa da seca - G1",
      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbFIxemJ3SHBSVUxzX3ZHRDVBNURTN05mUXVGUVZWZ2ttVk1XRDE5OXg4UDkyazRtZGhTMXR6bFVYd1BVc19hbWJkSUNDRzJFcERUcTN1ZkUzUWpMd0VGdFVFcjNWZlBxbEFKMmtwRWhFUWFRVVQ0QW9jYnN2ZDUwb19rVDlIXzBic1Z1eTJKWUFpcFVKWnFDVnJZYkYxbUF1elBranlnOThCMXFqcDI1U0VIZFNMZmMzcVNKUnpiNzhHMGYzR0dSTWFWNXdxb042eVdOYzFiTnN1eHpwaHF2aER3dTB2aFZa0gH3AUFVX3lxTE1IZnBCWUF2T0c5UjEySmRBNXhkTDlFdmlfbm9OLTJaeDJiQl9IaVlKcjZNbGk1d2Z1ZGNiX3dfeDVIb1ZJYmJFRk1HcU1pTllvV2I2YXdXZDJ1QkZYTzJfVEpYejNOa09JV1IxbThOWDJzRnJJZ19SeWVUZU9vMVJ6NXF3QTZDb195anpsUUZjQ0wyZkRQdm9YYWt5Nk1iWnlTbkotQ1dwNmxTUVF1MzB4anloUkYwdTBITjlTd2x5TmZtdjYyQy1HNk9qcGh4MXZwTG56V2VVZGtpUlM5YUFWTURRNkszN09CNXJjbFJieW1uZ21YWXM?oc=5",
-     "source": "g1.globo.com",
+     "source": "G1",
      "published_at": "2026-08-09T10:00:18+00:00"
     },
     {
@@ -470,9 +494,9 @@
      "published_at": "2026-08-08T16:03:00+00:00"
     },
     {
-     "title": "Saca de soja bate R$ 145,15 na primeira semana de agosto - opresenterural.com.br",
+     "title": "Saca de soja bate R$ 145,15 na primeira semana de agosto - O Presente Rural",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPekhMUTBlbmpkWW0wN0lvZlNfY2tTUkRwaHI5OXhsTEFNV0tlUUhUenpWQmhRaFhSb3Z1Yk9WWlpGR19fcDZjNW92V2NrVjFQNXRmR0R0eTlrcllBMURBMVNjVUpGMDVNSXUzRkdNcjNIbWpXanFrZDN6SFhDemktZ0R1T3FSQ0J1ejBlRGlB?oc=5",
-     "source": "opresenterural.com.br",
+     "source": "O Presente Rural",
      "published_at": "2026-08-08T14:47:34+00:00"
     },
     {
@@ -500,12 +524,6 @@
      "published_at": "2026-08-08T12:00:19+00:00"
     },
     {
-     "title": "Soja recua com melhora do clima nos Estados Unidos - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQREVaeEVweUd4TDZ3aUdmYzlvOGpkVHd2cHRFenZxUV9Ja2NvaEs4bHZPTlN2SXpGYkRzNWtOaDN6QXZydE5Od3dtVkpuTldBVktlOFl2VnY0RUhYSi1VM2I4MTV1OUl0Z091RTlPckt4amZzSm1tcVkyZGlldmcxN1YwbEs2aG5BanV0WnNGS2stci1DMUduVUl2QnY3RzBJ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-08T11:55:00+00:00"
-    },
-    {
      "title": "Produção pioneira no Brasil de ostra em lata tenta driblar instabilidades na maricultura e dar mais opções a turistas",
      "link": "https://g1.globo.com/sc/santa-catarina/noticia/2026/08/08/producao-pioneira-no-brasil-ostra-em-lata-santa-catarina.ghtml",
      "source": "G1 Agronegócios",
@@ -528,6 +546,12 @@
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZWttSE9NWnMwanN6YXJLSzdUNU9FSFFqYkVvcWxOQmpyaHhSeXNmb3NIa1ZsUkdZcVV3eVZSR1lqVG9nSmpPVWtzbzk5UW4wVEdyRHJCN2loZURTOFBBeG1wdzQ3T3p5dUljd2VzYXhwSXk4MFZJTlRJZ1Q3SV8yVE9FRlhIbzd0WG1Vb0R0SWRSaHc4V3hjV244b3o3Nmg1SHhpeWF3V2RPYmF1S0J5MU4yZGF4aU95bjI0?oc=5",
      "source": "canalrural.com.br",
      "published_at": "2026-08-07T22:34:55+00:00"
+    },
+    {
+     "title": "Seguro rural em agosto: PSR reserva R$ 1 milhão para soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTkdNWG9uOGtPTzlNeERic2RGZFlQYVZERk9qNFZQcmxuYjAtclBmZjUyZG5zbUlBcVpZVXNRNXVDTmlrcGRmRU9wTmEwV3ZHM3FWQ01jVFRkMmhrSjBOS2ZsbUc1TVJxZTg3UXJ3a0xTVV90ZFVDSkg3WkVNV09xSkZDbGJvaFpTVEhxY0VRNU9tdzdYamliR1FPcXVXVTRjWUdYT2ZRaGxSQQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-07T21:08:00+00:00"
     },
     {
      "title": "China compra quase 1 milhão de toneladas de soja dos EUA em uma semana; mercado já avalia impactos para o Brasil - Notícias Agrícolas",
@@ -564,30 +588,6 @@
      "link": "https://g1.globo.com/economia/noticia/2026/08/07/infografico-mostra-como-o-tarifaco-mudou-o-mapa-das-exportacoes-brasileiras-aos-eua.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-07T08:04:39"
-    },
-    {
-     "title": "Como a cerveja é feita? Do lúpulo à levedura, veja o caminho da bebida até chegar ao copo",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/como-a-cerveja-e-feita-do-lupulo-a-levedura-veja-o-caminho-da-bebida-ate-chegar-ao-copo.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-07T03:00:52"
-    },
-    {
-     "title": "CNA participa de evento sobre desafios do Brasil como líder na produção de soja - Portal CNA Brasil",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNN3oyWFBzcnV2VnBzeTZyNmgxN2ZsbFZMQUxob0ExZzhVS1RxV2g1NmlIRkJzQ2JPUmp0aTJzMzVJWkNJa3loMElWMGRnR0tFYk1HMFB4N0REVDlaN0JBNTBQRG9aclBrV1FzOV9jelVHMFlMNGVGYVBnY0xmbkszRkFkazVaWVJkSXlCSHNyaC1jWnIwNDdxenVOaFZsQjdHUzlYQVMyU2VBcFdxQWt5WEN3aw?oc=5",
-     "source": "Portal CNA Brasil",
-     "published_at": "2026-08-06T19:35:06+00:00"
-    },
-    {
-     "title": "ARTIGO - O maior risco da próxima safra de soja talvez não esteja no preço - AgFeed",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQnlKWU1oWFU1OUJvNThaMXBfbHctb25QNGNrVjQ2X2s4dUdYTU9KbVkzNjBWTHJDQkhuMXIxdXVNZWlBSlF6Q1pnMlNKUHJBRmZOMjczX3dZUl9JU1N1QS1xZnZZRGQ3eFFkc0tKRk10cVVZNHJkNXFJWmUtdDBNME9jdUFDNEFyUlcxbUs1Slh1SktNMlBPZ0RNeU1YdGxDMDl1U2ZuOTMxYUU1WXpzWTNn?oc=5",
-     "source": "AgFeed",
-     "published_at": "2026-08-05T16:31:00+00:00"
-    },
-    {
-     "title": "Produção de carne bovina do Brasil deve cair em 2026 em meio a tarifas, barreiras comerciais e incertezas no mercado global",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/producao-de-carne-bovina-do-brasil-deve-cair-em-2026-em-meio-a-tarifas-barreiras-comerciais-e-incertezas-no-mercado-global.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-05T13:53:12"
     }
    ],
    "failed": [

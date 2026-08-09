@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-09T18:30:57+00:00",
+ "generated_at": "2026-08-09T19:27:56+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-09T18:30:48+00:00",
+   "updated_at": "2026-08-09T19:27:50+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-09T18:30:48+00:00",
+   "updated_at": "2026-08-09T19:27:50+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-09T18:30:53+00:00",
+   "updated_at": "2026-08-09T19:27:54+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -262,29 +262,29 @@
      "precip": [
       0.0,
       0.0,
-      0.0,
+      0.1,
       0.0,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      36.8,
+      37.1,
       37.4,
-      38.0,
-      35.9,
-      36.0,
-      36.6,
-      37.1
+      37.7,
+      36.1,
+      36.3,
+      36.7,
+      36.8
      ],
      "tmin": [
       22.9,
-      22.7,
-      24.7,
-      22.4,
-      22.4,
-      21.8,
-      23.8
+      23.1,
+      25.9,
+      22.5,
+      22.8,
+      22.3,
+      22.6
      ]
     },
     {
@@ -308,22 +308,22 @@
       0.0
      ],
      "tmax": [
-      35.9,
-      36.2,
+      36.0,
+      36.4,
       37.1,
-      35.5,
-      35.3,
-      35.7,
-      36.2
+      35.6,
+      35.6,
+      35.8,
+      36.3
      ],
      "tmin": [
       22.8,
-      22.9,
-      23.4,
-      22.2,
+      23.2,
+      23.3,
+      22.5,
       22.1,
-      21.3,
-      22.6
+      21.5,
+      22.3
      ]
     },
     {
@@ -347,22 +347,22 @@
       0.0
      ],
      "tmax": [
+      33.3,
+      34.5,
+      34.0,
       33.2,
-      34.7,
-      33.7,
-      33.2,
-      32.8,
-      33.7,
-      34.0
+      33.1,
+      34.6,
+      34.1
      ],
      "tmin": [
       22.3,
-      20.9,
-      20.7,
-      21.0,
+      21.8,
       21.2,
+      22.0,
       20.6,
-      22.2
+      21.5,
+      22.0
      ]
     },
     {
@@ -377,38 +377,50 @@
       "2026-08-15"
      ],
      "precip": [
-      3.8,
-      10.6,
+      2.5,
+      9.9,
       0.0,
       0.0,
-      0.3,
+      0.6,
       0.0,
       0.0
      ],
      "tmax": [
-      31.8,
-      27.5,
-      26.0,
-      29.4,
-      32.9,
-      32.2,
-      34.6
+      31.3,
+      25.6,
+      26.4,
+      29.8,
+      33.1,
+      32.3,
+      34.5
      ],
      "tmin": [
       19.2,
-      19.0,
-      18.2,
-      17.2,
-      18.9,
-      19.3,
-      21.2
+      18.3,
+      18.6,
+      17.5,
+      20.2,
+      19.9,
+      18.5
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-09T18:30:57+00:00",
+   "updated_at": "2026-08-09T19:27:56+00:00",
    "items": [
+    {
+     "title": "Tem episódio novo do Soja Brasil no ar; renegociação de dívidas e riscos climáticos são destaques - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQWWVQc3JzTzVYSDVQTWRjMnZLbnZXcUxnUWN0OUdMNEtiM1huRzN6VXlfTVNjUDNNLUxVaFhEUTdTaFhNUGFFajBXVmRoZGRIaW43aXktdmJIQ0h5OVlOck1VTXBod2d3TExYdk9KcHJtZUNzbnowNGNva25aNlFQTjRPbGw2Tk9wRU85RmNmM2xyMF9oRXI2NUVZZlJJOEc2NThieWo0bkE2ZTVMMjdYMlVYS0hIV3VDRzNqbVU1M25iYlVhQXoyeHNnWEUxM0ppZ0o4THFPN1NrS2dwTThyM3FOLUZmNjh0MVdYVFJvV1Q?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-09T19:04:00+00:00"
+    },
+    {
+     "title": "A volta por cima dos irmãos Batista: como donos da JBS saíram da Lava Jato e voltaram aos holofotes, com participação até na diplomacia mundial",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/09/a-volta-por-cima-dos-irmaos-batista-como-donos-da-jbs-sairam-da-lava-jato-e-voltaram-aos-holofotes-com-participacao-ate-na-diplomacia-mundial.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-09T18:48:16"
+    },
     {
      "title": "Cães farejadores ajudam a encontrar 298 kg de cocaína em tanque de combustível",
      "link": "https://www.canalrural.com.br/seguranca/caes-farejadores-ajudam-a-encontrar-298-kg-de-cocaina-em-tanque-de-combustivel/",
@@ -530,12 +542,6 @@
      "published_at": "2026-08-08T22:04:00+00:00"
     },
     {
-     "title": "Açúcar em excesso pode agravar inflamação pulmonar associada à asma, aponta estudo",
-     "link": "https://www.canalrural.com.br/diversos/acucar-em-excesso-pode-agravar-inflamacao-pulmonar-associada-a-asma-aponta-estudo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-08T20:20:48+00:00"
-    },
-    {
      "title": "Mercado de grãos segue sensível a riscos logísticos - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZHpmcEgzNkZfa0hrYS0wMVVSWFRSYmlrSkpoeFhiU2l0OThUcUxHQy1RWEt1UjRieHIyWEtjSF9NNlNBUzc5T0c5M0w1RXpyRTdIa3hHd1N1Zm1sajM5aXFmLVFpd2dBNGI5RkwtckVMOTc0bTNNd0JvTE9Cb3V5dDNkZG40bDhST1VMR3pwT0w4TFY0UVFnT3E3NEpyWkI1ZVE?oc=5",
      "source": "Agrolink",
@@ -582,12 +588,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/jbs-anuncia-investimento-de-us-5-bilhoes-para-expandir-negocios-na-asia.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-07T12:02:20"
-    },
-    {
-     "title": "Como criar galinhas poedeiras e frangos caipiras",
-     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/como-criar-galinhas-poedeiras-e-frangos-caipiras.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-07T11:06:13"
     }
    ],
    "failed": [

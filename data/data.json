@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-09T14:28:25+00:00",
+ "generated_at": "2026-08-09T15:24:15+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-09T14:28:16+00:00",
+   "updated_at": "2026-08-09T15:24:08+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-09T14:28:17+00:00",
+   "updated_at": "2026-08-09T15:24:08+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-09T14:28:21+00:00",
+   "updated_at": "2026-08-09T15:24:12+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +407,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-09T14:28:25+00:00",
+   "updated_at": "2026-08-09T15:24:15+00:00",
    "items": [
+    {
+     "title": "Pecuária de leite amplia produção no Ceará, aponta levantamento",
+     "link": "https://www.canalrural.com.br/pecuaria/pecuaria-de-leite-amplia-producao-no-ceara-aponta-levantamento/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-09T15:05:00+00:00"
+    },
+    {
+     "title": "Exportações do agro crescem 12,4% e chegam a R$ 29 bilhões - es1.com.br",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSVpRX0JjQkNCd0FTdnYzT2VKYlpRTUJnNzdiYkxEN1kwdjE4QmlwWURjcTk1ejhCMXh3UjJEVXlvNkZJRW5adjRud3pDaU1JZllFM09BaWFTRVpLRE1oaXdhd1JEVWVhS3hTVU9feVBlSEJjZ0ZSRGVvcjZGUUJ3Tw?oc=5",
+     "source": "es1.com.br",
+     "published_at": "2026-08-09T15:01:02+00:00"
+    },
+    {
+     "title": "O brasileiro não teme o fim do mundo. Teme o fim do mês",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/o-brasileiro-nao-teme-o-fim-do-mundo-teme-o-fim-do-mes/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-09T14:54:35+00:00"
+    },
     {
      "title": "Pneumonia bovina: doença reduz ganho de peso e provoca perdas no confinamento; veja como prevenir",
      "link": "https://www.canalrural.com.br/pecuaria/pneumonia-bovina-doenca-reduz-ganho-de-peso-e-provoca-perdas-no-confinamento-veja-como-prevenir/",
@@ -422,9 +440,9 @@
      "published_at": "2026-08-09T13:44:46+00:00"
     },
     {
-     "title": "Pesquisa indica 27 novos registros de abelhas nativas na cultura da soja - Poder360",
+     "title": "Pesquisa indica 27 novos registros de abelhas nativas na cultura da soja - poder360.com.br",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNWpaYktLWDlEZ2d0T0dzYlhreVZnc1ZJVkxCd3RGNkFLOHNuc0ZoUEFIdmFSakxBYVBLUDRJQmpISm1STzZyc3pCOUFPZUp3OFFmQVRtUHhwdE9WS2QwcWN2UVRnREp4RTZOc2tjcjJLWEJqYV9wTjlRaTZVMGZuWmFnREhtQjAxd2VycTdlM3piQ0ZnX0ZZRy1Ob3E2RXJRSjk3RnFDNFFWSVdTMExEamp3?oc=5",
-     "source": "Poder360",
+     "source": "poder360.com.br",
      "published_at": "2026-08-09T13:22:03+00:00"
     },
     {
@@ -440,9 +458,9 @@
      "published_at": "2026-08-09T12:03:00+00:00"
     },
     {
-     "title": "Filas em Miritituba expõem pressão logística sobre o escoamento da soja - Canal Rural",
+     "title": "Filas em Miritituba expõem pressão logística sobre o escoamento da soja - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON0RXTmdJYVgzY2JpeFl3bWYxMWloS2g1TDM4ZlJ4MXMwUjJJRExVcVZvWGdGVThDX0JyT2JjNmRCeDJ0b2ZaTno2a095cHFZcFcyQzg2ZzEwSDhmYWJrS0V5SHVrVUNkSzBlMVFXSFZIMG0zdHpJVjZTNmhtai1yd2ZRdGZieHdwMTZhVV9zV2xuU0xCcHkwRnA2NVZTQXZsc3FTZjVRenlVem5Cb0J0Ug?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-09T11:42:34+00:00"
     },
     {
@@ -452,9 +470,9 @@
      "published_at": "2026-08-09T11:42:34+00:00"
     },
     {
-     "title": "Brasil perde espaço para os EUA no mercado de soja - Globo Rural",
+     "title": "Brasil perde espaço para os EUA no mercado de soja - globorural.globo.com",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZXpBTWVBRzZCalhlemlOUnVuWEpDRXhUYlYtb3RmUzlLa2ppM0ktSmNPTjI0MGdPRnVaR05aempxRnhxdW5XcG9tS0NQeFhOQzh6dG90X2pQdjQta2pKMHBLNVMxR0VVaXBmVm9sQ2VKR2dKcVFDMS1WS0dtdThrR2xKY281S0hlSUladUNBdElQNk85c2haR3BNbXF0MGlkOTFUck9jdFdGVW9Gc0xreWVrajVhZXVHbWfSAcgBQVVfeXFMUE05MkFmX3BVODF6VWlnTWNhMHZKSC1CWVFkeHNQMzlHS0ZWMHRsWi1sUjNWUUFRajZ0QWNhTHdFNG9rYWZxcWFvREx0cjIwUW5LbGRhUzQ5UzVYSnJKM1lDUk9XQ0R1bG1DSmxmYjk5eGFqZzBFV3FIaFMxNFYyeU9lMFYyeGtXdGRMSktUT3l2enJJdlE2blR5WHpMS0R4aHFoSzNia1NXTnVYdlQ3V2pNcE5sRXFmbE14OGlUblpLcDJfeUdoQWU?oc=5",
-     "source": "Globo Rural",
+     "source": "globorural.globo.com",
      "published_at": "2026-08-09T11:15:08+00:00"
     },
     {
@@ -524,21 +542,9 @@
      "published_at": "2026-08-08T18:19:20+00:00"
     },
     {
-     "title": "De volta ao jogo: maçã brasileira dispara nas exportações e mira novos mercados",
-     "link": "https://www.canalrural.com.br/agricultura/hortifruti/de-volta-ao-jogo-maca-brasileira-dispara-nas-exportacoes-e-mira-novos-mercados/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-08T18:02:00+00:00"
-    },
-    {
-     "title": "Exportações do agro de MS avançam 12,4% no primeiro semestre de 2026",
-     "link": "https://www.canalrural.com.br/economia/exportacoes-do-agro-de-ms-avancam-124-no-primeiro-semestre-de-2026/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-08T16:13:52+00:00"
-    },
-    {
-     "title": "Mercado de grãos segue sensível a riscos logísticos - Agrolink",
+     "title": "Mercado de grãos segue sensível a riscos logísticos - agrolink.com.br",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZHpmcEgzNkZfa0hrYS0wMVVSWFRSYmlrSkpoeFhiU2l0OThUcUxHQy1RWEt1UjRieHIyWEtjSF9NNlNBUzc5T0c5M0w1RXpyRTdIa3hHd1N1Zm1sajM5aXFmLVFpd2dBNGI5RkwtckVMOTc0bTNNd0JvTE9Cb3V5dDNkZG40bDhST1VMR3pwT0w4TFY0UVFnT3E3NEpyWkI1ZVE?oc=5",
-     "source": "Agrolink",
+     "source": "agrolink.com.br",
      "published_at": "2026-08-08T13:45:00+00:00"
     },
     {
@@ -560,15 +566,15 @@
      "published_at": "2026-08-08T07:01:06"
     },
     {
-     "title": "Soja: veja como ficaram as cotações no fechamento de hoje - Canal Rural",
+     "title": "Soja: veja como ficaram as cotações no fechamento de hoje - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZWttSE9NWnMwanN6YXJLSzdUNU9FSFFqYkVvcWxOQmpyaHhSeXNmb3NIa1ZsUkdZcVV3eVZSR1lqVG9nSmpPVWtzbzk5UW4wVEdyRHJCN2loZURTOFBBeG1wdzQ3T3p5dUljd2VzYXhwSXk4MFZJTlRJZ1Q3SV8yVE9FRlhIbzd0WG1Vb0R0SWRSaHc4V3hjV244b3o3Nmg1SHhpeWF3V2RPYmF1S0J5MU4yZGF4aU95bjI0?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-07T22:34:55+00:00"
     },
     {
-     "title": "China compra quase 1 milhão de toneladas de soja dos EUA em uma semana; mercado já avalia impactos para o Brasil - Notícias Agrícolas",
+     "title": "China compra quase 1 milhão de toneladas de soja dos EUA em uma semana; mercado já avalia impactos para o Brasil - noticiasagricolas.com.br",
      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPblNQdHc0N3dDVi1GOVQ5RkdfVDlRZ2lsUTlmOVpXMHllVURzbW5oV0w1dy05Tm9tc3dVOUk3aVFERW9JQUR2QnJ1cWNKbTJ6ZHY1VnFRR1pkbGNGQ1Q4cEExbnhCbWVKTlVWWWl4bkh2VllhRDNYeV85ejZSMWdHOXlmRDQyU2VYb1gwWXYzTFEtcFlfV0NCYl9DXzY4RU1VTG1tZHJmam5udGRmbFk1eDNTZjZLN0ZsY1A1ckVxenBjUy1TelRDU1k4VE83TkFaOW5zQjJxWWlOajVObG11TEk5WkFQNDJ4cDZMdEljSERTWGVEdHJfbHo5RERYcTEweHBQY9IBigJBVV95cUxPNHJZVjFaWmNxM1RiZTFpRTg4d1BHX1hVNV9Cck5ENDR1UUxkYjZaZjg1cEpZVUc2UzZWM2YxTTJDWGNzai1LeExDeEYxTERqel9hRWxLSUtyMUhFWGF5WlhLOXY3UGVxZkpYZ3ExelZoX0k4NTllSGVBZ1RPZ09OWDZHZk9zTWtuZXByZF9kQ2FJd3dXdlo5WVRIbEdLdVJMOGRCSW1NRkpqNk5wNTlkZkxRcER3S3Rhd3dKRzhuMk9CcEpwZ2dJWU9Ca1ByZlNYYm9HUk5oNVptN2RaLU5MQkpDQ2dBeTZ2TFJIdThFWmo2ZllHYmtTVlNUN20yODJDMVBRLWh4UE1aQQ?oc=5",
-     "source": "Notícias Agrícolas",
+     "source": "noticiasagricolas.com.br",
      "published_at": "2026-08-07T17:59:55+00:00"
     },
     {
@@ -582,12 +588,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/07/jbs-anuncia-investimento-de-us-5-bilhoes-para-expandir-negocios-na-asia.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-07T12:02:20"
-    },
-    {
-     "title": "Como criar galinhas poedeiras e frangos caipiras",
-     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/07/como-criar-galinhas-poedeiras-e-frangos-caipiras.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-07T11:06:13"
     }
    ],
    "failed": [

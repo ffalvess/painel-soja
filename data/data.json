@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-09T05:48:18+00:00",
+ "generated_at": "2026-08-09T06:44:18+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-09T05:48:10+00:00",
+   "updated_at": "2026-08-09T06:44:11+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-09T05:48:10+00:00",
+   "updated_at": "2026-08-09T06:44:11+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-09T05:48:15+00:00",
+   "updated_at": "2026-08-09T06:44:15+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +407,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-09T05:48:18+00:00",
+   "updated_at": "2026-08-09T06:44:18+00:00",
    "items": [
+    {
+     "title": "Menos vacas, mais leite: como genética e bem-estar mais que dobraram a produção em 24 anos",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/09/menos-vacas-mais-leite-como-genetica-e-bem-estar-mais-que-dobraram-a-producao-em-24-anos.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-09T06:00:29"
+    },
     {
      "title": "Boi gordo: escalas curtas e comportamento mais agressivo do comprador puxam preços",
      "link": "https://www.canalrural.com.br/pecuaria/boi-gordo-escalas-curtas-e-comportamento-mais-agressivo-do-comprador-puxam-precos/",
@@ -458,9 +464,9 @@
      "published_at": "2026-08-08T16:03:00+00:00"
     },
     {
-     "title": "Saca de soja bate R$ 145,15 na primeira semana de agosto - O Presente Rural",
+     "title": "Saca de soja bate R$ 145,15 na primeira semana de agosto - opresenterural.com.br",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPekhMUTBlbmpkWW0wN0lvZlNfY2tTUkRwaHI5OXhsTEFNV0tlUUhUenpWQmhRaFhSb3Z1Yk9WWlpGR19fcDZjNW92V2NrVjFQNXRmR0R0eTlrcllBMURBMVNjVUpGMDVNSXUzRkdNcjNIbWpXanFrZDN6SFhDemktZ0R1T3FSQ0J1ejBlRGlB?oc=5",
-     "source": "O Presente Rural",
+     "source": "opresenterural.com.br",
      "published_at": "2026-08-08T14:47:34+00:00"
     },
     {
@@ -482,12 +488,6 @@
      "published_at": "2026-08-08T13:45:00+00:00"
     },
     {
-     "title": "Preço da soja registra nova alta no porto de Paranaguá - portal lj",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMTd3dmE5azE3QTVMNmdqbTJ1cTlqR0dPRURqWEJwbUROVnFSOWs4bVNIUC1FTWRKOTlJWDNscURxLVhCZmxFemtrQWpOR01QLVd6Ml9UYUxWcG5aZFhubkQ2dy1kbnhXOUlKclV2OVZmQ1VhQUxjN25oc3dxN0xUTlNxUEJmeHZf?oc=5",
-     "source": "portal lj",
-     "published_at": "2026-08-08T12:40:49+00:00"
-    },
-    {
      "title": "Agenda do STF: Ministros devem julgar na próxima semana processos sobre moratória da soja - Valor Econômico",
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQVJ3SjVETXItQjZ1Sm1nT2NFbXBfZlAyQW1XR1hUSzRIVm02TTNSYnNCdTY3U2toZm9LRm9xUGZYWnQ4WlNTdVNLdkVNWDN1V0R2NUhJWVhhaXEyR3AyVmNzYU4zZmJXX2tRcDJDcXhFcEVuRlgzcGxyV0ZaRlhBand4eklWTmVsbDFUcVhUbENQVTF2RkwyUWg1RHJ3RTI3ZGt4My1zMDdHblFSRXBpdjROVEk0c2hoSUdYc3MyQ2tLekV6eFpIbGVkUlZIZGY3SmVGTUdfTEg4LThuNnJtVGlR0gHwAUFVX3lxTE0tN1dId3U0V1ZDcDdRU1NRUXNQalZyZGJkRGdqUDlvYWhHZTk0cDVxamhDd1JCVzhqSHRrdmNKUXJvaDZFaGNCeTZpQUNnTWdJdkRUZXlMV3dpbVNBYTZKdzZveHRqVkxBTkhHSEM5a3NDdUdfOFY2YUhmcWRmVE5fS3BQMUxPTl9NR2lLY09BTDdMOTdXcm9odFhqdElmRExUVFdId1c0ZTdVWk03T01UWlRTdi1DUno2ZW81NjhBZ1ZkdkctNHZKWE1VRjZSdlV6dVhWVG1tNjFjazVyY0RORUIxczRVNkRzMTk4c1JyMw?oc=5",
      "source": "Valor Econômico",
@@ -500,9 +500,9 @@
      "published_at": "2026-08-08T11:55:00+00:00"
     },
     {
-     "title": "Soja e milho podem superar US$ 12 e US$ 5 em Chicago com efeitos do El Niño, diz BTG - moneytimes.com.br",
+     "title": "Soja e milho podem superar US$ 12 e US$ 5 em Chicago com efeitos do El Niño, diz BTG - Money Times",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORDIzZlo4eU9qS09GVWJSZFlmWWo5Q3hpTVVkcnNESktzRklHN3BiWkUtVEw2WDRoQ3g1dU94WVUtVTI3YTlWQm9QVVpmdV9KSXBXYmNaMVJmT3prQjVGQ3NSTFFrdHZZYnhtdlJzWTA0eDMtYURvMnFRMGpDa3o5X0FfRGxNNGxyUV9BcUJEcFliaVZIUHR3UnNqMjR2Yk1lNEZ6NVl3QjlYZGVWaWJiYnpBS2poczNP?oc=5",
-     "source": "moneytimes.com.br",
+     "source": "Money Times",
      "published_at": "2026-08-08T11:30:00+00:00"
     },
     {
@@ -530,9 +530,9 @@
      "published_at": "2026-08-08T07:01:06"
     },
     {
-     "title": "Soja: veja como ficaram as cotações no fechamento de hoje - canalrural.com.br",
+     "title": "Soja: veja como ficaram as cotações no fechamento de hoje - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZWttSE9NWnMwanN6YXJLSzdUNU9FSFFqYkVvcWxOQmpyaHhSeXNmb3NIa1ZsUkdZcVV3eVZSR1lqVG9nSmpPVWtzbzk5UW4wVEdyRHJCN2loZURTOFBBeG1wdzQ3T3p5dUljd2VzYXhwSXk4MFZJTlRJZ1Q3SV8yVE9FRlhIbzd0WG1Vb0R0SWRSaHc4V3hjV244b3o3Nmg1SHhpeWF3V2RPYmF1S0J5MU4yZGF4aU95bjI0?oc=5",
-     "source": "canalrural.com.br",
+     "source": "Canal Rural",
      "published_at": "2026-08-07T22:34:55+00:00"
     },
     {
@@ -540,12 +540,6 @@
      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPblNQdHc0N3dDVi1GOVQ5RkdfVDlRZ2lsUTlmOVpXMHllVURzbW5oV0w1dy05Tm9tc3dVOUk3aVFERW9JQUR2QnJ1cWNKbTJ6ZHY1VnFRR1pkbGNGQ1Q4cEExbnhCbWVKTlVWWWl4bkh2VllhRDNYeV85ejZSMWdHOXlmRDQyU2VYb1gwWXYzTFEtcFlfV0NCYl9DXzY4RU1VTG1tZHJmam5udGRmbFk1eDNTZjZLN0ZsY1A1ckVxenBjUy1TelRDU1k4VE83TkFaOW5zQjJxWWlOajVObG11TEk5WkFQNDJ4cDZMdEljSERTWGVEdHJfbHo5RERYcTEweHBQY9IBigJBVV95cUxPNHJZVjFaWmNxM1RiZTFpRTg4d1BHX1hVNV9Cck5ENDR1UUxkYjZaZjg1cEpZVUc2UzZWM2YxTTJDWGNzai1LeExDeEYxTERqel9hRWxLSUtyMUhFWGF5WlhLOXY3UGVxZkpYZ3ExelZoX0k4NTllSGVBZ1RPZ09OWDZHZk9zTWtuZXByZF9kQ2FJd3dXdlo5WVRIbEdLdVJMOGRCSW1NRkpqNk5wNTlkZkxRcER3S3Rhd3dKRzhuMk9CcEpwZ2dJWU9Ca1ByZlNYYm9HUk5oNVptN2RaLU5MQkpDQ2dBeTZ2TFJIdThFWmo2ZllHYmtTVlNUN20yODJDMVBRLWh4UE1aQQ?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-07T17:59:55+00:00"
-    },
-    {
-     "title": "Exportação de soja cresce 9,3% em julho e receita avança 17,4% - canalrural.com.br",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQXBKa3ctSTJVTVJhZS1fNkdyYXY1T25Jc1BuUzllSXp5eFZTdmFVQUJMdUZNRDdlbXlKSmZVWllSZEpGdDgxRWRqenlPSHRRd01CODVxWDRRZTB5Q0lkWmlwemxheGhxeDAtWjlYSjBTeE45SUJVRk9XUmZsTk9ITTQ4QXZqNGV5UmFmUDV1Mm5uWFAyamtpSzktRnN4NEU?oc=5",
-     "source": "canalrural.com.br",
-     "published_at": "2026-08-07T12:53:09+00:00"
     },
     {
      "title": "Embrapa lança nova cultivar de braquiária com potencial de aumentar ganho de peso bovino por hectare",
@@ -578,15 +572,21 @@
      "published_at": "2026-08-07T03:00:52"
     },
     {
+     "title": "CNA participa de evento sobre desafios do Brasil como líder na produção de soja - Portal CNA Brasil",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNN3oyWFBzcnV2VnBzeTZyNmgxN2ZsbFZMQUxob0ExZzhVS1RxV2g1NmlIRkJzQ2JPUmp0aTJzMzVJWkNJa3loMElWMGRnR0tFYk1HMFB4N0REVDlaN0JBNTBQRG9aclBrV1FzOV9jelVHMFlMNGVGYVBnY0xmbkszRkFkazVaWVJkSXlCSHNyaC1jWnIwNDdxenVOaFZsQjdHUzlYQVMyU2VBcFdxQWt5WEN3aw?oc=5",
+     "source": "Portal CNA Brasil",
+     "published_at": "2026-08-06T19:35:06+00:00"
+    },
+    {
      "title": "USDA confirma demanda firme pela soja e milho dos EUA, apesar de menor ritmo na safra velha - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObmtlNFFkZkw0XzV0RGhzX1Q2ak9qTmJMM0VhNG1Jb1U4aGE4WlVyRURzRDRZZE1fVW9ETi1MNkttd2pzWFk1X1ZkZUdvTzA4ajlwdGU3RFVsSmZsSHdpbHVaTlVHaFlTbGYyS05FeS1wQWtuei0zMjBWMUlwZVg4SGdqMGhqWlloeWVWakJDYzN0UHBSd3F1cnpIbTlaMjdKMmw3VDU5X1BjTC1ScXZPWFBad2JoUHlLcnp3eEtwUE11YldDR1N4Q2c0NjY2RWJyX05QMF9KbWdIZEtYMmk3NnlWZ2lNcldP0gHuAUFVX3lxTE1vanNKeE9OVkZsTGR1eVd2Z2twTmFRb1B4Nm15Zm9rbGtKZUhNeWZtZ1d3MXI5LUR5TjYtUDNDZ3F5LXdtOTRLaWp2S3h2SmZhYmQ2N09jTi11ZnVUUFEzQnhScE52WnRWS1ZQQ20wNWYtUE9Md0ROZXhGLUNGT3dxRHRKeV9xVWtnWnlxMjNTLXFEaUpOOTNUcm1vdC13LVRld0lYdzVTdFVjUi1vOG5qdl9tQlhKVEt3ZEVLMjIxcDJWQkw5dzlZRWhtMzQ2ZGlIN3Y2Y01tQjhBQktLZVdITnVzREs5VVlGaV9nb0E?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-06T15:06:48+00:00"
     },
     {
-     "title": "ARTIGO - O maior risco da próxima safra de soja talvez não esteja no preço - AgFeed",
+     "title": "ARTIGO - O maior risco da próxima safra de soja talvez não esteja no preço - agfeed.com.br",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQnlKWU1oWFU1OUJvNThaMXBfbHctb25QNGNrVjQ2X2s4dUdYTU9KbVkzNjBWTHJDQkhuMXIxdXVNZWlBSlF6Q1pnMlNKUHJBRmZOMjczX3dZUl9JU1N1QS1xZnZZRGQ3eFFkc0tKRk10cVVZNHJkNXFJWmUtdDBNME9jdUFDNEFyUlcxbUs1Slh1SktNMlBPZ0RNeU1YdGxDMDl1U2ZuOTMxYUU1WXpzWTNn?oc=5",
-     "source": "AgFeed",
+     "source": "agfeed.com.br",
      "published_at": "2026-08-05T16:31:00+00:00"
     }
    ],

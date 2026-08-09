@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-09T12:37:21+00:00",
+ "generated_at": "2026-08-09T13:43:55+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-09T12:37:14+00:00",
+   "updated_at": "2026-08-09T13:43:48+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-09T12:37:14+00:00",
+   "updated_at": "2026-08-09T13:43:48+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-09T12:37:18+00:00",
+   "updated_at": "2026-08-09T13:43:52+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +407,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-09T12:37:21+00:00",
+   "updated_at": "2026-08-09T13:43:55+00:00",
    "items": [
+    {
+     "title": "Pesquisa indica 27 novos registros de abelhas nativas na cultura da soja - Poder360",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNWpaYktLWDlEZ2d0T0dzYlhreVZnc1ZJVkxCd3RGNkFLOHNuc0ZoUEFIdmFSakxBYVBLUDRJQmpISm1STzZyc3pCOUFPZUp3OFFmQVRtUHhwdE9WS2QwcWN2UVRnREp4RTZOc2tjcjJLWEJqYV9wTjlRaTZVMGZuWmFnREhtQjAxd2VycTdlM3piQ0ZnX0ZZRy1Ob3E2RXJRSjk3RnFDNFFWSVdTMExEamp3?oc=5",
+     "source": "Poder360",
+     "published_at": "2026-08-09T13:22:03+00:00"
+    },
     {
      "title": "Exportação recorde de soja pressiona portos e expõe falta de armazéns - Gazeta de Toledo",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcmdRM2o4OG84bUdsajJjTDFaX0t6Y3FWTW44Ui1DWUFXZW5IanlKNElrb3dpYmxNbDE2Z0N2T0N3SXI5X01DTkxBcWxaQ0NNbDJLdXB0SUFEWjh3bml6VDE4aWxMUFBPRDk5MUhtNXVhOEpwaDNWWGE4MEpCQ3pLX3BIeU8xdGp4bnpkNGhzMkZ2Y1hjQUlLR0NiYktGVVA2WFE?oc=5",
@@ -522,12 +528,6 @@
      "link": "https://www.canalrural.com.br/nacional/rio-grande-do-sul/el-nino-acende-alerta-no-rio-grande-do-sul-apos-temporais-e-perdas-no-campo/",
      "source": "Canal Rural",
      "published_at": "2026-08-08T16:03:00+00:00"
-    },
-    {
-     "title": "Saca de soja bate R$ 145,15 na primeira semana de agosto - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPekhMUTBlbmpkWW0wN0lvZlNfY2tTUkRwaHI5OXhsTEFNV0tlUUhUenpWQmhRaFhSb3Z1Yk9WWlpGR19fcDZjNW92V2NrVjFQNXRmR0R0eTlrcllBMURBMVNjVUpGMDVNSXUzRkdNcjNIbWpXanFrZDN6SFhDemktZ0R1T3FSQ0J1ejBlRGlB?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-08-08T14:47:34+00:00"
     },
     {
      "title": "Mercado de grãos segue sensível a riscos logísticos - Agrolink",

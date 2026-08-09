@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-09T13:43:55+00:00",
+ "generated_at": "2026-08-09T14:28:25+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-09T13:43:48+00:00",
+   "updated_at": "2026-08-09T14:28:16+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-09T13:43:48+00:00",
+   "updated_at": "2026-08-09T14:28:17+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-09T13:43:52+00:00",
+   "updated_at": "2026-08-09T14:28:21+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +407,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-09T13:43:55+00:00",
+   "updated_at": "2026-08-09T14:28:25+00:00",
    "items": [
+    {
+     "title": "Pneumonia bovina: doença reduz ganho de peso e provoca perdas no confinamento; veja como prevenir",
+     "link": "https://www.canalrural.com.br/pecuaria/pneumonia-bovina-doenca-reduz-ganho-de-peso-e-provoca-perdas-no-confinamento-veja-como-prevenir/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-09T14:01:00+00:00"
+    },
+    {
+     "title": "Abelhas nativas aumentam em 7% o peso dos grãos de soja, indica estudo - band.com.br",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRlNuZ3E1UXZJeEg0UmQxcFdSOGk3amdQYkxwRFNmZ3NnM0ZMeENOSTRoZHdZOEtwQ1JzTWwzekJQam9xUTYzNlRFNlZLTGlYd3Vfak8xVTlDcHZycExUTW1pOXQtMlRCZk40WVhNMGZYVFNRVEkyRUdRZS0xakRYOEpxQmROcjBkVXBiWlYzWmg5OWFST1l1eTR1LWRfbjZlMmJWYVR5NzlLZ21oWkRHb0V0TV9CNHhqNjlj?oc=5",
+     "source": "band.com.br",
+     "published_at": "2026-08-09T13:44:46+00:00"
+    },
     {
      "title": "Pesquisa indica 27 novos registros de abelhas nativas na cultura da soja - Poder360",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNWpaYktLWDlEZ2d0T0dzYlhreVZnc1ZJVkxCd3RGNkFLOHNuc0ZoUEFIdmFSakxBYVBLUDRJQmpISm1STzZyc3pCOUFPZUp3OFFmQVRtUHhwdE9WS2QwcWN2UVRnREp4RTZOc2tjcjJLWEJqYV9wTjlRaTZVMGZuWmFnREhtQjAxd2VycTdlM3piQ0ZnX0ZZRy1Ob3E2RXJRSjk3RnFDNFFWSVdTMExEamp3?oc=5",
@@ -524,12 +536,6 @@
      "published_at": "2026-08-08T16:13:52+00:00"
     },
     {
-     "title": "El Niño acende alerta no Rio Grande do Sul após temporais e perdas no campo",
-     "link": "https://www.canalrural.com.br/nacional/rio-grande-do-sul/el-nino-acende-alerta-no-rio-grande-do-sul-apos-temporais-e-perdas-no-campo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-08T16:03:00+00:00"
-    },
-    {
      "title": "Mercado de grãos segue sensível a riscos logísticos - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZHpmcEgzNkZfa0hrYS0wMVVSWFRSYmlrSkpoeFhiU2l0OThUcUxHQy1RWEt1UjRieHIyWEtjSF9NNlNBUzc5T0c5M0w1RXpyRTdIa3hHd1N1Zm1sajM5aXFmLVFpd2dBNGI5RkwtckVMOTc0bTNNd0JvTE9Cb3V5dDNkZG40bDhST1VMR3pwT0w4TFY0UVFnT3E3NEpyWkI1ZVE?oc=5",
      "source": "Agrolink",
@@ -558,12 +564,6 @@
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZWttSE9NWnMwanN6YXJLSzdUNU9FSFFqYkVvcWxOQmpyaHhSeXNmb3NIa1ZsUkdZcVV3eVZSR1lqVG9nSmpPVWtzbzk5UW4wVEdyRHJCN2loZURTOFBBeG1wdzQ3T3p5dUljd2VzYXhwSXk4MFZJTlRJZ1Q3SV8yVE9FRlhIbzd0WG1Vb0R0SWRSaHc4V3hjV244b3o3Nmg1SHhpeWF3V2RPYmF1S0J5MU4yZGF4aU95bjI0?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-07T22:34:55+00:00"
-    },
-    {
-     "title": "Seguro rural em agosto: PSR reserva R$ 1 milhão para soja - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTkdNWG9uOGtPTzlNeERic2RGZFlQYVZERk9qNFZQcmxuYjAtclBmZjUyZG5zbUlBcVpZVXNRNXVDTmlrcGRmRU9wTmEwV3ZHM3FWQ01jVFRkMmhrSjBOS2ZsbUc1TVJxZTg3UXJ3a0xTVV90ZFVDSkg3WkVNV09xSkZDbGJvaFpTVEhxY0VRNU9tdzdYamliR1FPcXVXVTRjWUdYT2ZRaGxSQQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-07T21:08:00+00:00"
     },
     {
      "title": "China compra quase 1 milhão de toneladas de soja dos EUA em uma semana; mercado já avalia impactos para o Brasil - Notícias Agrícolas",

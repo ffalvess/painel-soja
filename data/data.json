@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-09T03:27:55+00:00",
+ "generated_at": "2026-08-09T04:58:29+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-09T03:27:47+00:00",
+   "updated_at": "2026-08-09T04:58:20+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -12,7 +12,6 @@
      "prev_close": 1157.25,
      "change_pct": 1.64,
      "closes": [
-      1195.0,
       1179.75,
       1196.5,
       1202.0,
@@ -34,7 +33,7 @@
       1155.0,
       1151.5,
       1157.25,
-      1156.5
+      1176.25
      ]
     },
     {
@@ -45,7 +44,6 @@
      "prev_close": 439.0,
      "change_pct": 5.13,
      "closes": [
-      434.75,
       427.75,
       438.0,
       437.75,
@@ -67,7 +65,7 @@
       442.25,
       436.75,
       439.0,
-      439.0
+      461.5
      ]
     },
     {
@@ -78,7 +76,6 @@
      "prev_close": 310.7,
      "change_pct": 0.87,
      "closes": [
-      314.5,
       319.5,
       323.1,
       316.8,
@@ -100,7 +97,7 @@
       310.6,
       309.3,
       310.7,
-      308.1
+      313.4
      ]
     },
     {
@@ -111,7 +108,6 @@
      "prev_close": 67.7,
      "change_pct": 0.27,
      "closes": [
-      71.39,
       70.45,
       70.86,
       73.04,
@@ -133,7 +129,7 @@
       68.18,
       67.75,
       67.7,
-      68.16
+      67.88
      ]
     },
     {
@@ -144,7 +140,6 @@
      "prev_close": 631.25,
      "change_pct": 1.35,
      "closes": [
-      599.5,
       611.25,
       632.0,
       627.0,
@@ -177,7 +172,6 @@
      "prev_close": 82.49,
      "change_pct": 1.29,
      "closes": [
-      78.02,
       76.3,
       76.01,
       83.3,
@@ -241,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-09T03:27:47+00:00",
+   "updated_at": "2026-08-09T04:58:20+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-09T03:27:51+00:00",
+   "updated_at": "2026-08-09T04:58:25+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,7 +407,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-09T03:27:55+00:00",
+   "updated_at": "2026-08-09T04:58:29+00:00",
    "items": [
     {
      "title": "Boi gordo: escalas curtas e comportamento mais agressivo do comprador puxam preços",
@@ -584,10 +578,10 @@
      "published_at": "2026-08-07T03:00:52"
     },
     {
-     "title": "China compra mais 122 mil t de soja dos EUA nesta 5ª feira (6) - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeWZZbE9VSndJbGE1YTNSLXJmUW5WTkxkajBzVFo3SGxIZm16SENuVzdqZmFEX0ZfZVVCbUVlZUVpNkkyS3BXXzVwSWYzQWptVDFhWVFaREVmbXQtREpVYnFOTGYyWjBfUF81aF9JTjN6QmNJa3BRZHFDemUwdHMtN1Qyb19UbXpNNGM2Y1hoMnZpeVlqTjlFY0tiSEtDNDNlZjZqUmFFNGQ3ZC1sUUVSMjREVXdrTzhIYzktaEF3NNIBxAFBVV95cUxPUnczZFpzM2c2elVlWng1ano4MHo2T0Y1a1ZJdU5Sdk5sS0kzQkx1ejM5QnpRVzlYRTJCSUR6d2tKQnpKaUd6R1FhekVQdVQ3VksteGpMbzdNcURtczQwWGlwQXhnaExzcmtLWFY4bVNhclhpWTdnM2hHOE9kRWxiLW5Gdm9YYllXU2htbHJEcDZJc1JVZEtQVEpzeWdiNEZ0NDZRWUN5VXBwQzhaTWRXTTVKTkJtTHNVUF9uN29WR1VRU2ts?oc=5",
+     "title": "USDA confirma demanda firme pela soja e milho dos EUA, apesar de menor ritmo na safra velha - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObmtlNFFkZkw0XzV0RGhzX1Q2ak9qTmJMM0VhNG1Jb1U4aGE4WlVyRURzRDRZZE1fVW9ETi1MNkttd2pzWFk1X1ZkZUdvTzA4ajlwdGU3RFVsSmZsSHdpbHVaTlVHaFlTbGYyS05FeS1wQWtuei0zMjBWMUlwZVg4SGdqMGhqWlloeWVWakJDYzN0UHBSd3F1cnpIbTlaMjdKMmw3VDU5X1BjTC1ScXZPWFBad2JoUHlLcnp3eEtwUE11YldDR1N4Q2c0NjY2RWJyX05QMF9KbWdIZEtYMmk3NnlWZ2lNcldP0gHuAUFVX3lxTE1vanNKeE9OVkZsTGR1eVd2Z2twTmFRb1B4Nm15Zm9rbGtKZUhNeWZtZ1d3MXI5LUR5TjYtUDNDZ3F5LXdtOTRLaWp2S3h2SmZhYmQ2N09jTi11ZnVUUFEzQnhScE52WnRWS1ZQQ20wNWYtUE9Md0ROZXhGLUNGT3dxRHRKeV9xVWtnWnlxMjNTLXFEaUpOOTNUcm1vdC13LVRld0lYdzVTdFVjUi1vOG5qdl9tQlhKVEt3ZEVLMjIxcDJWQkw5dzlZRWhtMzQ2ZGlIN3Y2Y01tQjhBQktLZVdITnVzREs5VVlGaV9nb0E?oc=5",
      "source": "Notícias Agrícolas",
-     "published_at": "2026-08-06T14:07:42+00:00"
+     "published_at": "2026-08-06T15:06:48+00:00"
     },
     {
      "title": "ARTIGO - O maior risco da próxima safra de soja talvez não esteja no preço - AgFeed",

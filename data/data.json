@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-09T09:33:07+00:00",
+ "generated_at": "2026-08-09T10:27:03+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-09T09:32:59+00:00",
+   "updated_at": "2026-08-09T10:26:58+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-09T09:33:00+00:00",
+   "updated_at": "2026-08-09T10:26:58+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-09T09:33:03+00:00",
+   "updated_at": "2026-08-09T10:27:01+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +407,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-09T09:33:07+00:00",
+   "updated_at": "2026-08-09T10:27:03+00:00",
    "items": [
+    {
+     "title": "Colheita de soja começa em Roraima sob risco de queda de 50% na produção por causa da seca - g1.globo.com",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbFIxemJ3SHBSVUxzX3ZHRDVBNURTN05mUXVGUVZWZ2ttVk1XRDE5OXg4UDkyazRtZGhTMXR6bFVYd1BVc19hbWJkSUNDRzJFcERUcTN1ZkUzUWpMd0VGdFVFcjNWZlBxbEFKMmtwRWhFUWFRVVQ0QW9jYnN2ZDUwb19rVDlIXzBic1Z1eTJKWUFpcFVKWnFDVnJZYkYxbUF1elBranlnOThCMXFqcDI1U0VIZFNMZmMzcVNKUnpiNzhHMGYzR0dSTWFWNXdxb042eVdOYzFiTnN1eHpwaHF2aER3dTB2aFZa0gH3AUFVX3lxTE1IZnBCWUF2T0c5UjEySmRBNXhkTDlFdmlfbm9OLTJaeDJiQl9IaVlKcjZNbGk1d2Z1ZGNiX3dfeDVIb1ZJYmJFRk1HcU1pTllvV2I2YXdXZDJ1QkZYTzJfVEpYejNOa09JV1IxbThOWDJzRnJJZ19SeWVUZU9vMVJ6NXF3QTZDb195anpsUUZjQ0wyZkRQdm9YYWt5Nk1iWnlTbkotQ1dwNmxTUVF1MzB4anloUkYwdTBITjlTd2x5TmZtdjYyQy1HNk9qcGh4MXZwTG56V2VVZGtpUlM5YUFWTURRNkszN09CNXJjbFJieW1uZ21YWXM?oc=5",
+     "source": "g1.globo.com",
+     "published_at": "2026-08-09T10:00:18+00:00"
+    },
     {
      "title": "Menos vacas, mais leite: como genética e bem-estar mais que dobraram a produção em 24 anos",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/09/menos-vacas-mais-leite-como-genetica-e-bem-estar-mais-que-dobraram-a-producao-em-24-anos.ghtml",
@@ -500,12 +506,6 @@
      "published_at": "2026-08-08T11:55:00+00:00"
     },
     {
-     "title": "Soja e milho podem superar US$ 12 e US$ 5 em Chicago com efeitos do El Niño, diz BTG - moneytimes.com.br",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORDIzZlo4eU9qS09GVWJSZFlmWWo5Q3hpTVVkcnNESktzRklHN3BiWkUtVEw2WDRoQ3g1dU94WVUtVTI3YTlWQm9QVVpmdV9KSXBXYmNaMVJmT3prQjVGQ3NSTFFrdHZZYnhtdlJzWTA0eDMtYURvMnFRMGpDa3o5X0FfRGxNNGxyUV9BcUJEcFliaVZIUHR3UnNqMjR2Yk1lNEZ6NVl3QjlYZGVWaWJiYnpBS2poczNP?oc=5",
-     "source": "moneytimes.com.br",
-     "published_at": "2026-08-08T11:30:00+00:00"
-    },
-    {
      "title": "Produção pioneira no Brasil de ostra em lata tenta driblar instabilidades na maricultura e dar mais opções a turistas",
      "link": "https://g1.globo.com/sc/santa-catarina/noticia/2026/08/08/producao-pioneira-no-brasil-ostra-em-lata-santa-catarina.ghtml",
      "source": "G1 Agronegócios",
@@ -524,9 +524,9 @@
      "published_at": "2026-08-08T07:01:06"
     },
     {
-     "title": "Soja: veja como ficaram as cotações no fechamento de hoje - Canal Rural",
+     "title": "Soja: veja como ficaram as cotações no fechamento de hoje - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZWttSE9NWnMwanN6YXJLSzdUNU9FSFFqYkVvcWxOQmpyaHhSeXNmb3NIa1ZsUkdZcVV3eVZSR1lqVG9nSmpPVWtzbzk5UW4wVEdyRHJCN2loZURTOFBBeG1wdzQ3T3p5dUljd2VzYXhwSXk4MFZJTlRJZ1Q3SV8yVE9FRlhIbzd0WG1Vb0R0SWRSaHc4V3hjV244b3o3Nmg1SHhpeWF3V2RPYmF1S0J5MU4yZGF4aU95bjI0?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-07T22:34:55+00:00"
     },
     {
@@ -536,9 +536,9 @@
      "published_at": "2026-08-07T17:59:55+00:00"
     },
     {
-     "title": "Exportação de soja cresce 9,3% em julho e receita avança 17,4% - Canal Rural",
+     "title": "Exportação de soja cresce 9,3% em julho e receita avança 17,4% - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQXBKa3ctSTJVTVJhZS1fNkdyYXY1T25Jc1BuUzllSXp5eFZTdmFVQUJMdUZNRDdlbXlKSmZVWllSZEpGdDgxRWRqenlPSHRRd01CODVxWDRRZTB5Q0lkWmlwemxheGhxeDAtWjlYSjBTeE45SUJVRk9XUmZsTk9ITTQ4QXZqNGV5UmFmUDV1Mm5uWFAyamtpSzktRnN4NEU?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-07T12:53:09+00:00"
     },
     {
@@ -578,16 +578,16 @@
      "published_at": "2026-08-06T19:35:06+00:00"
     },
     {
-     "title": "USDA confirma demanda firme pela soja e milho dos EUA, apesar de menor ritmo na safra velha - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObmtlNFFkZkw0XzV0RGhzX1Q2ak9qTmJMM0VhNG1Jb1U4aGE4WlVyRURzRDRZZE1fVW9ETi1MNkttd2pzWFk1X1ZkZUdvTzA4ajlwdGU3RFVsSmZsSHdpbHVaTlVHaFlTbGYyS05FeS1wQWtuei0zMjBWMUlwZVg4SGdqMGhqWlloeWVWakJDYzN0UHBSd3F1cnpIbTlaMjdKMmw3VDU5X1BjTC1ScXZPWFBad2JoUHlLcnp3eEtwUE11YldDR1N4Q2c0NjY2RWJyX05QMF9KbWdIZEtYMmk3NnlWZ2lNcldP0gHuAUFVX3lxTE1vanNKeE9OVkZsTGR1eVd2Z2twTmFRb1B4Nm15Zm9rbGtKZUhNeWZtZ1d3MXI5LUR5TjYtUDNDZ3F5LXdtOTRLaWp2S3h2SmZhYmQ2N09jTi11ZnVUUFEzQnhScE52WnRWS1ZQQ20wNWYtUE9Md0ROZXhGLUNGT3dxRHRKeV9xVWtnWnlxMjNTLXFEaUpOOTNUcm1vdC13LVRld0lYdzVTdFVjUi1vOG5qdl9tQlhKVEt3ZEVLMjIxcDJWQkw5dzlZRWhtMzQ2ZGlIN3Y2Y01tQjhBQktLZVdITnVzREs5VVlGaV9nb0E?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-06T15:06:48+00:00"
-    },
-    {
      "title": "ARTIGO - O maior risco da próxima safra de soja talvez não esteja no preço - AgFeed",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQnlKWU1oWFU1OUJvNThaMXBfbHctb25QNGNrVjQ2X2s4dUdYTU9KbVkzNjBWTHJDQkhuMXIxdXVNZWlBSlF6Q1pnMlNKUHJBRmZOMjczX3dZUl9JU1N1QS1xZnZZRGQ3eFFkc0tKRk10cVVZNHJkNXFJWmUtdDBNME9jdUFDNEFyUlcxbUs1Slh1SktNMlBPZ0RNeU1YdGxDMDl1U2ZuOTMxYUU1WXpzWTNn?oc=5",
      "source": "AgFeed",
      "published_at": "2026-08-05T16:31:00+00:00"
+    },
+    {
+     "title": "Produção de carne bovina do Brasil deve cair em 2026 em meio a tarifas, barreiras comerciais e incertezas no mercado global",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/05/producao-de-carne-bovina-do-brasil-deve-cair-em-2026-em-meio-a-tarifas-barreiras-comerciais-e-incertezas-no-mercado-global.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-05T13:53:12"
     }
    ],
    "failed": [

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-10T21:35:17+00:00",
+ "generated_at": "2026-08-10T22:30:44+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-10T21:35:08+00:00",
+   "updated_at": "2026-08-10T22:30:37+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 87.85,
+     "price": 87.7,
      "prev_close": 83.55,
-     "change_pct": 5.15,
+     "change_pct": 4.97,
      "closes": [
       76.01,
       83.3,
@@ -193,7 +193,7 @@
       79.45,
       82.49,
       83.55,
-      87.85
+      87.7
      ]
     },
     {
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-10T21:35:08+00:00",
+   "updated_at": "2026-08-10T22:30:37+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-10T21:35:14+00:00",
+   "updated_at": "2026-08-10T22:30:40+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,8 +405,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-10T21:35:17+00:00",
+   "updated_at": "2026-08-10T22:30:44+00:00",
    "items": [
+    {
+     "title": "Crédito rural da agricultura empresarial soma R$ 28,2 bilhões em julho",
+     "link": "https://www.canalrural.com.br/economia/credito-rural-da-agricultura-empresarial-soma-r-282-bilhoes-em-julho/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-10T21:49:24+00:00"
+    },
+    {
+     "title": "Ibovespa fecha em queda de 0,19% e dólar comercial sobe 0,53%",
+     "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-queda-de-019-e-dolar-comercial-sobe-053/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-10T21:42:14+00:00"
+    },
     {
      "title": "Cesta básica cai em 26 capitais em julho, apontam Conab e Dieese",
      "link": "https://www.canalrural.com.br/economia/cesta-basica-cai-em-26-capitais-em-julho-apontam-conab-e-dieese/",
@@ -474,9 +486,9 @@
      "published_at": "2026-08-10T20:16:02"
     },
     {
-     "title": "Preço da soja registra leve alta na bolsa de Chicago - globorural.globo.com",
+     "title": "Preço da soja registra leve alta na bolsa de Chicago - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPb21oWEY2QmhobHl2LXE0d1BPaUxQMmFPYjdOZW9MblBXcEVKekt2Zkl4UUkzR2xwNk9IZEM3Y0VrSEhtcElISGRuT2pZclcwWlFnTTFuRlBjSnl6dnAybE5JVGhZQVZOV3hPaldrTzdrZmdVU1lScDVjcE9MOVBmR0o4RkJrUURfck1Qa3ZlX2tpQTh6elM5bWxkMzZZZlJ2bHZaQVBpYTd6d3hPeFdkMmx30gHAAUFVX3lxTE4wMkl5clhVNUhaaWFoM21hcVhaeTk5djViaWVINFFOdFZHcTAwRG43NDF3TVE3MV92SEJtVUt0ZnJvUVlySGpTNEdXYWtfY05LbHhtTzkwN1lUcTJuaFUyMXp6dkpfeWphVWdYSjlBSEJaSXYtU2UyWHhOQS1rd3NzbnU4Z2JYeHhacWpHQzFWb3Z0dGJkRDYwZkdtMFp3ZWlfanNHYUxqWkpGbDZXeDV5MGFTbVpmUjdIdHdzUUVRZA?oc=5",
-     "source": "globorural.globo.com",
+     "source": "Globo Rural",
      "published_at": "2026-08-10T20:15:20+00:00"
     },
     {
@@ -484,18 +496,6 @@
      "link": "https://www.canalrural.com.br/pecuaria/e-como-construir-uma-casa-entenda-as-etapas-de-transformacao-da-pele-bovina-em-couro/",
      "source": "Canal Rural",
      "published_at": "2026-08-10T20:13:34+00:00"
-    },
-    {
-     "title": "Alckmin discute tarifaço, crédito rural e relações internacionais",
-     "link": "https://www.canalrural.com.br/videos/alckmin-discute-tarifaco-credito-rural-e-relacoes-internacionais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-10T20:05:54+00:00"
-    },
-    {
-     "title": "Temporais ganham força e podem provocar tornados, granizo e ventos acima de 100 km/h; saiba onde",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/temporais-ganham-forca-e-podem-provocar-tornados-granizo-e-ventos-acima-de-100-km-h-saiba-onde/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-10T20:03:15+00:00"
     },
     {
      "title": "Soja sobe em Chicago com petróleo e expectativa de compras chinesas - CNN Brasil",
@@ -516,16 +516,16 @@
      "published_at": "2026-08-10T18:59:00+00:00"
     },
     {
+     "title": "Polícia busca três foragidos por desvio de 100 toneladas de soja em MS - G1",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMVlqOGxtVEJ6cHpfdTlWUXJrdHl2bC1qdHIycEFUMUJrYThTYVBqaG1PMGh6YVVqZDdVRF9rNmhidnB0Z3ZWc3oybUVsQ2Rta3FjV2NaYklCM3MwNHkyNHc0dHhrV1BuSjNkQzVFaVVuZXl3cHBVQkVUYnBWMk9laEhPbHM0VzRFRjFtNDFVWnVZVEE3N3VCb0Y2LWZvN1lNSVVTZWpMaGotUFl6NmwyNVNJSERxTG1SOHRJd09NVTZxRUpNb196eGk2NFVkbEJaVUhLOdIB4wFBVV95cUxPc0dlMUEzcGRJUE9MRHN1OGdCWlNLcFZwU3lfZmxkejFYbmNaRjdCSHJ2dzNiUDZndUx4V1BzRll4WkZod1djTnN6cjZWMVN4cXdmZWstaVEteWhybkxHLWtJUFRyemYxQzZvbzF3ZG11anMxZXRkYTFrMnd6eEF4TzQ5NUdXaUNVQ1BWYVNXY1h5ZUUyMnBGRzJuNk1xdVRfYS1jRExjbXQzTlhoUkJ6Tm0zRHFnVmU0YnRDQlM0NExYTE84cF9xRmcyekpFay01ZFc1RjFEM0haOHZIVnh5WnBxRQ?oc=5",
+     "source": "G1",
+     "published_at": "2026-08-10T18:43:06+00:00"
+    },
+    {
      "title": "Quase 100 toneladas de soja desviadas em MS são investigadas - Campo Grande News",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb1R0U3otSHNiQ0xWdTVkWFRpc3lvdDB2eXhOT3RVR3cwTGV6MEFXYTZ4bWo1bk4yWXp2XzhXM2s4dEluZnF2UDhWSVZkcTFtWlIyRU5XTGoyQlBpQjcwOVAwclZ0UVJtNjk4WWVreE9fTUlyTlRaQWhHckdYRWhZR3ZrcFFuQ0VBTmh5SDlhWmlsNVY1NUJhV0o5dzFkLUNRZVYxRktVQ0zSAagBQVVfeXFMUDRic2ZVT1dFdkViS3ZoY0xKeGRaTmdDa1pGZ2Y3eVQ3MDZLY1FkN0JNdGhReVhXVHZQeFdhd2hpcUh5QjRmc3lOMXBzRk9ESlBaVG9fREREcndfRzlzREFNMk1FaTFWaU52WUJVTFpXcTl5X1RCYkhiU0Z4RGNqMFBwWjRYUjFjdkxVQ0oxRzJVLXA3T1dFa3pTU3lBaEttWFB2QkJNbGlv?oc=5",
      "source": "Campo Grande News",
      "published_at": "2026-08-10T18:15:00+00:00"
-    },
-    {
-     "title": "Clima favorável nos EUA pressiona soja internacional, enquanto mercado interno segue em alta - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaTZEcHdPV1JZSm9VRmlPekFtNmZFaTM2dFRkclRVU3BqVmV1YmkweFA5dXRYYVQySGwweGNnVmJoenpIbU5ncUhfaElzbnJlM2VqazJsWEJscXRXaDJfUmQzejNuMjFQWWYxU3psMW5JQXpIMEFhVXJTVGpHaURtQ3ZUZGpsSFd4cWJDVGVHYlRnLVh1UE5BOEYzRnUzazZvUVFsZmlsQ0xYbExnZW5EdGlFWS01bmp1ek8zWWxmdi1Wc0hqV2NrWFRWUWRsSnkzM2tvRWp3?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-10T14:32:41+00:00"
     },
     {
      "title": "Palestra debate biocombustíveis e transição energética no contexto do agronegócio - Embrapa",

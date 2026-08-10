@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-10T09:12:40+00:00",
+ "generated_at": "2026-08-10T11:02:02+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-10T09:12:36+00:00",
+   "updated_at": "2026-08-10T11:01:56+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1183.5,
+     "price": 1181.75,
      "prev_close": 1156.5,
-     "change_pct": 2.33,
+     "change_pct": 2.18,
      "closes": [
       1196.5,
       1202.0,
@@ -33,16 +33,16 @@
       1151.5,
       1157.25,
       1156.5,
-      1183.5
+      1181.75
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 464.25,
+     "price": 462.5,
      "prev_close": 439.0,
-     "change_pct": 5.75,
+     "change_pct": 5.35,
      "closes": [
       438.0,
       437.75,
@@ -65,16 +65,16 @@
       436.75,
       439.0,
       439.0,
-      464.25
+      462.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 315.4,
+     "price": 314.4,
      "prev_close": 308.1,
-     "change_pct": 2.37,
+     "change_pct": 2.04,
      "closes": [
       323.1,
       316.8,
@@ -97,16 +97,16 @@
       309.3,
       310.7,
       308.1,
-      315.4
+      314.4
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 68.44,
+     "price": 68.48,
      "prev_close": 68.16,
-     "change_pct": 0.41,
+     "change_pct": 0.47,
      "closes": [
       70.86,
       73.04,
@@ -129,16 +129,16 @@
       67.75,
       67.7,
       68.16,
-      68.44
+      68.48
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 651.5,
+     "price": 646.75,
      "prev_close": 639.75,
-     "change_pct": 1.84,
+     "change_pct": 1.09,
      "closes": [
       632.0,
       627.0,
@@ -161,16 +161,16 @@
       642.25,
       631.25,
       639.75,
-      651.5
+      646.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 84.48,
+     "price": 84.74,
      "prev_close": 83.55,
-     "change_pct": 1.11,
+     "change_pct": 1.42,
      "closes": [
       76.01,
       83.3,
@@ -193,7 +193,7 @@
       79.45,
       82.49,
       83.55,
-      84.48
+      84.74
      ]
     },
     {
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-10T09:12:36+00:00",
+   "updated_at": "2026-08-10T11:01:56+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-10T09:12:39+00:00",
+   "updated_at": "2026-08-10T11:02:00+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +407,44 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-10T09:12:40+00:00",
+   "updated_at": "2026-08-10T11:02:02+00:00",
    "items": [
+    {
+     "title": "Soja sobe em Chicago nesta 2ª feira com petróleo e derivados dando suporte ao complexo - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQemFnTzFTenF4S2NyNnNvTlV5WDE2Nk5KRnFEY2o3TkdXQWt5QUZnaE9RZUlMZGpfcEtLUXJrdW1SQ28tWEY3dTUzRFlqU2x2YmNMVC16NzVuc3FkMzJsUVItV2tqaUZyMmVBLXZ4ZnFUaWpud2w5N0g5enhXOTVuT3ZjSGlDaVllZ0I5Y1hmVy1JWDBLTlBHWTZjaEd0bjc3V0UtYjRaZDZQekRhTV9pQjBYYy1pcGFkYmdYektmTTlwdHluOEtOLTVIM1VKR2dheURRd3E2OFhKSzY2M2prZ1V30gHnAUFVX3lxTE5TNlBrbDQ2b2l1Yjc0RW5Rc1FXTVpPYUJyMUJSVzAwaHlmOGw0dF9oWmJmTVN3dVJZLS11Q25aTC1FbDIzQ1hmWkhWamNwVUVpRkd3RzljREk4UzR3NVI3RzFLWkxfOGZ6NjRNcXZPWjZiVzA3amo3X2dmSjVxWUVhSFpTb3IwVTF6Ri1KT3R2eGtEMVpWMGVOckowRTBxVm1TcmlmVkVJUnlJWEQ1SlVTMEZWR0NoaTFZV1BfVlU5Z01WNW9JVzFqSXJ3ektHODFOXzJJSmQ4YzdPck9FWmtOX2hON05CUQ?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-10T10:47:57+00:00"
+    },
+    {
+     "title": "Frio, chance de geada e temporais: veja a previsão do tempo para todo o Brasil",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/frio-chance-de-geada-e-temporais-veja-a-previsao-do-tempo-para-todo-o-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-10T10:37:01+00:00"
+    },
+    {
+     "title": "Inflação, Copom e juros nos EUA: semana pode mexer com os mercados",
+     "link": "https://www.canalrural.com.br/economia/inflacao-copom-e-juros-nos-eua-semana-pode-mexer-com-os-mercados/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-10T10:30:21+00:00"
+    },
+    {
+     "title": "Consultoria vê frete pressionando mercado da soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQODVkSzZjRkIycDJ2M2U0dTN4NHUxb0lscnpJSGpzLXk2TzFXWngwLU54UHZfWjVVdVJyNDFjckswa3R1R2ZzQXlaYUkzSXN5aGduRGoxMTZsTHFOLXA1OFFGamw2ek9pRHJ0bWVUZUpFM0VIQlZtXzhnYjk5RHlaY09WZUlpc2hjNEYyX2M0dnZBNnIyajFEbEpqTmxOQUE?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-10T10:11:00+00:00"
+    },
+    {
+     "title": "Consultoria recomenda vendas escalonadas para soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcTl0djJDdzFYMmhRaVhWMy1SaTJ6WGJyTDdkZEFjUXFaWGxmbXhSTDFqMlMzX2Yxbll1VnRGTVRHZ0pGOVZWWHFxbTFnT1F5U0JDLUVZSkhReGxLZjRFR2JtYzhfTmRjdmJHaDZUTlJqMnMwbjJwR2UtaktFcHpEWHVCX1BiM1VJeGQ0TWdvYzhqc0NueVRORUREQ3JJekxI?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-10T09:37:00+00:00"
+    },
+    {
+     "title": "Na geopolítica dos alimentos, soja do Brasil está no tabuleiro de China-EUA - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeE9lQ29kemg3YWY0RmkyWEFyQ1VrUUtwTDd4dHpBVEx2RHRjME1BRWRnSmdDdnNBZTlHLUxJMFhKc2d4MFp4WDR0SHR2bnVNNkMyNW9Ud0NHTFRHYk1KUW5iNTJMRFJoU1Bhd0RPLUJqei0xUnhzbmlNdXd5NWsxendad3I4bklRbGducUhJR0x5S2pSX0dPUlBVSm8ydmRDdGVRLVhTVlNtUkVsZjMySDl1YTdwQTdBTF9LSDhGdmQ2VzQ1bkdvbUVrdw?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-08-10T09:18:05+00:00"
+    },
     {
      "title": "Setores da soja e da mineração dominam candidaturas ao Senado no Mato Grosso - reporterbrasil.org.br",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSzhXQWNvU1B5LV9qaE00UXJTZWFWU0taanpUNm5SYy0zcWRBaWItdWJMSTBLWlF1aTM2NFczRWFsMHNBQy0yU3RDa2xTSGwxZVYtckZQOTdLaHV4U3pocTFsazdWd1hIdjlEazA2bW81MHJNbFI2ekFIUzZUSGJqd0lyWnNUYjlqbXV5RFRn?oc=5",
@@ -416,10 +452,10 @@
      "published_at": "2026-08-10T08:30:00+00:00"
     },
     {
-     "title": "Girassol Agrícola investe no plantio de eucalipto - Estadão",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcHdrTUliNTVxVDU5Q0pvaEU5N2JIRzRRWjRidEM5LUxpb3hvNkJTSTZMcnU3Y3NHanowNmJMakkxTHFWRjEtbndBekxTM1VvYW9pLWw3QjJib0p2RVpRU1lEM1JTR0JMZGliS0VyTUgxRGVvcnhCanc5TVdjdmRfdWk0ZzhIa2t6ZUxUQl9UbklUelRrWDZDdkJvblRKLXlhV2JHazNhM09YNXNWeXJDQtIBtgFBVV95cUxPd0E2STNlM2J0ZlBGaldLdENEdno0cUNrUWk5V0F0SVNWRDRqS0VES3pqajJvQXI1azVMQnVMSmdQUmVVeFlTdXU3cjA1NkowVTlXMk1wVFZpMFFQb05od0tNazdKVktncTBQaGtlVUVFVUpDM0pxRDNxVUNKNGpNVkUybEVfX3Y2ZHd2MXF4TEl2LU9sM0VFNjJDZDhONW1YRjZwNm43TDFZUGMxWFFZVFRsT2FPZw?oc=5",
-     "source": "Estadão",
-     "published_at": "2026-08-10T08:30:00+00:00"
+     "title": "Soja e milho: duas cidades lideram cinturão de grãos e movimentam R$ 3,5 bilhões em SC - ND Mais",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYnVjUTFvU25PMTd1azBRYmZUdFBxeG1UX2ZYTk5hVEtKYlFBaXdLN1ZGeWZsLVpTdGxDXzl5NlJFYUVyc0NNSjd5RlhjaG9BYUxSX0E1WTluM2lQeGo3UThWTW9WZWUtT0YtZTI5bVJpX3VuVUIzcEZpSDNLcnBqVVhaN0lLVTk2Z29BQ2FqWVRuUHRGeUZNNFBlUWNPSV9PUTgtY3poSm9vVUE?oc=5",
+     "source": "ND Mais",
+     "published_at": "2026-08-10T08:25:36+00:00"
     },
     {
      "title": "Pesquisa Registra 27 Novas Espécies de Abelhas Nativas na Soja Brasileira - Forbes Brasil",
@@ -428,16 +464,10 @@
      "published_at": "2026-08-10T08:00:00+00:00"
     },
     {
-     "title": "SOJA E TRIGO: confira os preços dos grãos nesta segunda-feira (10) - Brasil 61",
+     "title": "SOJA E TRIGO: confira os preços dos grãos nesta segunda-feira (10) - brasil61.com",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTW5uaXB5a0JvOExiRGtHYW9WX0NEbDc4eXJQY2RId1g5cmF1NzF3OXM3akZjd2N5dzA2NmN5ZkVkalZUZnZHdmVSY25LaFNMSWFpMFlNQnBFY0t6RnVkVjJiZnN4OWpTakxIX181S2xQUWZGcUI3dWNBWmU0QjFpNnRrQWZ3OHNRQzEyNlc2enhsOUN6OEJ5WURBVUlQZ9IBowFBVV95cUxNZW9QYlNyMFpjVEJmUllWMzhuSDVicW5ORXVMMTRmZGRXOE1JSkdwMWRTOGdBWkp1Z0hPQW5aMXJfSTBWMU5TeHJUNlZBOVJ1SnloazFvZ0JReW9pWkxLUzdLUzFWd3IzYkFBTHpaRThuWVhJR1gxdkZKWElYVlNfd0ZDMzBfSFZ2dTZGYWtHX28wLXlEbHhzVDNVZXYtM0ZwSFJn?oc=5",
-     "source": "Brasil 61",
+     "source": "brasil61.com",
      "published_at": "2026-08-10T07:10:00+00:00"
-    },
-    {
-     "title": "Idaf reforça importância do vazio sanitário para proteger lavouras de soja no Acre - Portal Acre",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcGdudmx2WGNDQldKWWZxT0t1QldzT295aVU0Q3dqQWJ1bFAwYTlRcVphX1U3TUFXdXI0NHNsT0ZSbnZLOFUtaWdWSDdwUGd0V1B2NWpBRENYMW1PQ2tYc19veTg2ZDFwbUJTc090UjFUYjRiODQxQi1XcGd4azlqa3UyWjd4VHRCWVVSNWUyWm5NQy04MzV0RTJlVmVmbVNYdUVJekVLNFR0OFQ4cnpkRDdOeDJLVDk5?oc=5",
-     "source": "Portal Acre",
-     "published_at": "2026-08-10T02:12:17+00:00"
     },
     {
      "title": "Soja: produtor se retrai e comercialização perde fôlego no Brasil - Canal Rural",
@@ -506,30 +536,6 @@
      "published_at": "2026-08-09T15:05:00+00:00"
     },
     {
-     "title": "O brasileiro não teme o fim do mundo. Teme o fim do mês",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/o-brasileiro-nao-teme-o-fim-do-mundo-teme-o-fim-do-mes/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-09T14:54:35+00:00"
-    },
-    {
-     "title": "Pneumonia bovina: doença reduz ganho de peso e provoca perdas no confinamento; veja como prevenir",
-     "link": "https://www.canalrural.com.br/pecuaria/pneumonia-bovina-doenca-reduz-ganho-de-peso-e-provoca-perdas-no-confinamento-veja-como-prevenir/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-09T14:01:00+00:00"
-    },
-    {
-     "title": "Pesquisa indica 27 novos registros de abelhas nativas na cultura da soja - Poder360",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNWpaYktLWDlEZ2d0T0dzYlhreVZnc1ZJVkxCd3RGNkFLOHNuc0ZoUEFIdmFSakxBYVBLUDRJQmpISm1STzZyc3pCOUFPZUp3OFFmQVRtUHhwdE9WS2QwcWN2UVRnREp4RTZOc2tjcjJLWEJqYV9wTjlRaTZVMGZuWmFnREhtQjAxd2VycTdlM3piQ0ZnX0ZZRy1Ob3E2RXJRSjk3RnFDNFFWSVdTMExEamp3?oc=5",
-     "source": "Poder360",
-     "published_at": "2026-08-09T13:22:03+00:00"
-    },
-    {
-     "title": "Brasil perde espaço para os EUA no mercado de soja - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZXpBTWVBRzZCalhlemlOUnVuWEpDRXhUYlYtb3RmUzlLa2ppM0ktSmNPTjI0MGdPRnVaR05aempxRnhxdW5XcG9tS0NQeFhOQzh6dG90X2pQdjQta2pKMHBLNVMxR0VVaXBmVm9sQ2VKR2dKcVFDMS1WS0dtdThrR2xKY281S0hlSUladUNBdElQNk85c2haR3BNbXF0MGlkOTFUck9jdFdGVW9Gc0xreWVrajVhZXVHbWfSAcgBQVVfeXFMUE05MkFmX3BVODF6VWlnTWNhMHZKSC1CWVFkeHNQMzlHS0ZWMHRsWi1sUjNWUUFRajZ0QWNhTHdFNG9rYWZxcWFvREx0cjIwUW5LbGRhUzQ5UzVYSnJKM1lDUk9XQ0R1bG1DSmxmYjk5eGFqZzBFV3FIaFMxNFYyeU9lMFYyeGtXdGRMSktUT3l2enJJdlE2blR5WHpMS0R4aHFoSzNia1NXTnVYdlQ3V2pNcE5sRXFmbE14OGlUblpLcDJfeUdoQWU?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-09T11:15:08+00:00"
-    },
-    {
      "title": "Receita Nosso Campo: aprenda a fazer um bolo de milho",
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/09/receita-nosso-campo-aprenda-a-fazer-um-bolo-de-milho.ghtml",
      "source": "G1 Agronegócios",
@@ -582,12 +588,6 @@
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZWttSE9NWnMwanN6YXJLSzdUNU9FSFFqYkVvcWxOQmpyaHhSeXNmb3NIa1ZsUkdZcVV3eVZSR1lqVG9nSmpPVWtzbzk5UW4wVEdyRHJCN2loZURTOFBBeG1wdzQ3T3p5dUljd2VzYXhwSXk4MFZJTlRJZ1Q3SV8yVE9FRlhIbzd0WG1Vb0R0SWRSaHc4V3hjV244b3o3Nmg1SHhpeWF3V2RPYmF1S0J5MU4yZGF4aU95bjI0?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-07T22:34:55+00:00"
-    },
-    {
-     "title": "Soja fecha com leves baixas em Chicago nesta 6ª, mas com semana firme no Brasil - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSGJzQ0RaLWtmMVJRY1JwU1dnQlBPckRiRUhuYnUwR1BSMUFIQnhYcG1JNUV3bVluOGJWY0ZkVmZhMGRwcmN1Ul90c2ZDNDZpbVE2Y09SNjJYT1BsTHlwd2Z0TF9IOXdjdTFoYWFSMXlkOHQyS2p0SUpCcnBzNTl2RzZsZmNRYVhiSkd4QXBfWG5JUzNFM2FXZ0Z0OVZhYVdVbUdqdVdxcVZWZHp6Y0wxNEIteDBaVFhqclM0aUk5YWpSOTU2STdpUC1LQmVvWlZSLVpoUVlTONIB3AFBVV95cUxOTTVHTDRicjVmUk5FSHBTdmxRb3B0WGNJUG1YUWxpWnhjZmk5anM1d0FaQXUzdTN6U2oxSzBrZ3VJOVNTXzBmZU1tX3dKR1B0MW5MTzVJUll1NWNCbzVQelNyTk1ENzN0WWkyNi1pbmNvODRFLUVmRlRwbC1MMkl1MklYSUczLVJUTk1jb01ITmNvVFlraHVqUmVuNkR3QVEwN3Z5WjNkTUMweFNUSmZNcDlRSW53emNuRFRVWkxoRnc1LUlpMDRYeklCY3FEYjcyQ1hBSE5UdEVRYUU3?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-07T20:05:03+00:00"
     }
    ],
    "failed": [

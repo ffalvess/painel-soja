@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-10T20:35:22+00:00",
+ "generated_at": "2026-08-10T21:35:17+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-10T20:35:14+00:00",
+   "updated_at": "2026-08-10T21:35:08+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 87.77,
+     "price": 87.85,
      "prev_close": 83.55,
-     "change_pct": 5.05,
+     "change_pct": 5.15,
      "closes": [
       76.01,
       83.3,
@@ -193,7 +193,7 @@
       79.45,
       82.49,
       83.55,
-      87.77
+      87.85
      ]
     },
     {
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-10T20:35:14+00:00",
+   "updated_at": "2026-08-10T21:35:08+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-10T20:35:18+00:00",
+   "updated_at": "2026-08-10T21:35:14+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,8 +405,62 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-10T20:35:22+00:00",
+   "updated_at": "2026-08-10T21:35:17+00:00",
    "items": [
+    {
+     "title": "Cesta básica cai em 26 capitais em julho, apontam Conab e Dieese",
+     "link": "https://www.canalrural.com.br/economia/cesta-basica-cai-em-26-capitais-em-julho-apontam-conab-e-dieese/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-10T21:29:57+00:00"
+    },
+    {
+     "title": "Após descobrir câncer, mulher encontra na panificação um caminho para recomeçar",
+     "link": "https://www.canalrural.com.br/nacional/apos-descobrir-cancer-mulher-encontra-na-panificacao-um-caminho-para-recomecar/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-10T21:29:01+00:00"
+    },
+    {
+     "title": "Wesley Batista Filho assumirá comando global da JBS em janeiro de 2027",
+     "link": "https://www.canalrural.com.br/economia/wesley-batista-filho-assumira-comando-global-da-jbs-em-janeiro-de-2027/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-10T21:23:32+00:00"
+    },
+    {
+     "title": "Com alta nas cotações de soja, produtor segue cauteloso; confira as cotações do dia - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOC1XNlhoQkVEX0ViOUtBS0V1cHp6Zk9idVBTVjEtRmkyby1aRGxZV25VdHF5aWs5YU5pbGN2SWIyMl9qcHpaTklOcHZuNE5kek9uX1NyRWItTkV2NnhfM3FtejFydThUbHFRSEkwS1J0WWFBQml2UHh3NF9BNzVFeEMxaHZiOV83YzY5blNQVkNvaE1QNXAyRXJrVGZkMTBtUm5CZGFBalkxOElHYXBYcF9sWHBpZll1OVZZSW5aVUdHRTRmQUVhTU5HQ1BvcTFHRWJnbFRpSXRYcjFO?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-10T21:04:08+00:00"
+    },
+    {
+     "title": "Com alta nas cotações de soja, produtor segue cauteloso; confira as cotações do dia",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/com-alta-nas-cotacoes-de-soja-produtor-segue-cauteloso-confira-as-cotacoes-do-dia/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-10T21:04:08+00:00"
+    },
+    {
+     "title": "Dólar fecha a R$ 5,1107 com aversão ao risco e impasse sobre Ormuz",
+     "link": "https://www.canalrural.com.br/economia/dolar-fecha-a-r-51107-com-aversao-ao-risco-e-impasse-sobre-ormuz/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-10T21:03:05+00:00"
+    },
+    {
+     "title": "EUA respondem ao Brasil na OMC e aceitam reunião para consultas",
+     "link": "https://www.canalrural.com.br/economia/eua-respondem-ao-brasil-na-omc-e-aceitam-reuniao-para-consultas/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-10T20:58:48+00:00"
+    },
+    {
+     "title": "Ibovespa cai 0,19% com pressão externa e suporte das ações da Petrobras",
+     "link": "https://www.canalrural.com.br/economia/ibovespa-cai-019-com-pressao-externa-e-suporte-das-acoes-da-petrobras/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-10T20:58:28+00:00"
+    },
+    {
+     "title": "Clima nos EUA mantém soja sob pressão no mercado - Revista Cultivar",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObWlUVHhoLWFzRHV6VWIwdFdGeTNVbkttNUp4NzVsMkNpMlB3eU1ZQ29pX29zZE90SjJLRDhqVmk3S0o2UFVZNVVWVWNxdDY0dWlNMFEta3FRYXU2NzJNU040dFZhOXZkWGYzTENlUXJqMzJpYUh3d0I1dmZZM2ZVSlpmLWV1Z1J0aS1oVHFZc2hXUQ?oc=5",
+     "source": "Revista Cultivar",
+     "published_at": "2026-08-10T20:37:53+00:00"
+    },
     {
      "title": "Quem é Wesley Batista Filho, que será o novo CEO global da JBS",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/10/quem-e-wesley-batista-filho-que-sera-o-novo-ceo-global-da-jbs.ghtml",
@@ -418,6 +472,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/10/jbs-wesley-batista-filho-ceo.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-10T20:16:02"
+    },
+    {
+     "title": "Preço da soja registra leve alta na bolsa de Chicago - globorural.globo.com",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPb21oWEY2QmhobHl2LXE0d1BPaUxQMmFPYjdOZW9MblBXcEVKekt2Zkl4UUkzR2xwNk9IZEM3Y0VrSEhtcElISGRuT2pZclcwWlFnTTFuRlBjSnl6dnAybE5JVGhZQVZOV3hPaldrTzdrZmdVU1lScDVjcE9MOVBmR0o4RkJrUURfck1Qa3ZlX2tpQTh6elM5bWxkMzZZZlJ2bHZaQVBpYTd6d3hPeFdkMmx30gHAAUFVX3lxTE4wMkl5clhVNUhaaWFoM21hcVhaeTk5djViaWVINFFOdFZHcTAwRG43NDF3TVE3MV92SEJtVUt0ZnJvUVlySGpTNEdXYWtfY05LbHhtTzkwN1lUcTJuaFUyMXp6dkpfeWphVWdYSjlBSEJaSXYtU2UyWHhOQS1rd3NzbnU4Z2JYeHhacWpHQzFWb3Z0dGJkRDYwZkdtMFp3ZWlfanNHYUxqWkpGbDZXeDV5MGFTbVpmUjdIdHdzUUVRZA?oc=5",
+     "source": "globorural.globo.com",
+     "published_at": "2026-08-10T20:15:20+00:00"
     },
     {
      "title": "‘É como construir uma casa’: entenda as etapas de transformação da pele bovina em couro",
@@ -438,46 +498,10 @@
      "published_at": "2026-08-10T20:03:15+00:00"
     },
     {
-     "title": "Qual é a melhor época para suplementar o gado? Zootecnista orienta",
-     "link": "https://www.canalrural.com.br/pecuaria/qual-e-a-melhor-epoca-para-suplementar-o-gado-zootecnista-orienta/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-10T20:01:00+00:00"
-    },
-    {
      "title": "Soja sobe em Chicago com petróleo e expectativa de compras chinesas - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUkhhUF9xVkNYUzB6N0RRZV9SZFo5WDZJcEYtWjN0YmlNX1d4V2lzM01HdDhBdlhDQ052UENwY1AxR0J5LXdaWlh6ejdiTlg3T0pGSHNpRkZ1b3FEOTRnYnpqbFlJSG8tZ25nT0tRNkF0dXNRU3haSXpnek9ZRHRCS3ZsZk5EdG9MRXc5SkRKOG9iNm9RakZZZzhLdWRPd3RPd2RLcg?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-08-10T19:59:53+00:00"
-    },
-    {
-     "title": "Petróleo sobe 5% com impasse entre EUA e Irã sobre Ormuz",
-     "link": "https://www.canalrural.com.br/economia/petroleo-sobe-5-com-impasse-entre-eua-e-ira-sobre-ormuz/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-10T19:48:36+00:00"
-    },
-    {
-     "title": "Alckmin defende seguro rural ‘mais robusto’ e promete manter diálogo constante com EUA",
-     "link": "https://www.canalrural.com.br/agricultura/alckmin-defende-seguro-rural-mais-robusto-e-promete-manter-dialogo-constante-com-eua/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-10T19:26:02+00:00"
-    },
-    {
-     "title": "Faep pede crédito emergencial e prioridade no restabelecimento de energia no Paraná",
-     "link": "https://www.canalrural.com.br/politica/faep-pede-credito-emergencial-e-prioridade-no-restabelecimento-de-energia-no-parana/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-10T19:23:20+00:00"
-    },
-    {
-     "title": "China pede ingresso em consultas do Brasil na OMC contra tarifas dos EUA",
-     "link": "https://www.canalrural.com.br/economia/china-pede-ingresso-em-consultas-do-brasil-na-omc-contra-tarifas-dos-eua/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-10T19:18:49+00:00"
-    },
-    {
-     "title": "Wesley Batista Filho assumirá como novo CEO global da JBS",
-     "link": "https://www.canalrural.com.br/economia/wesley-batista-filho-assumira-como-novo-ceo-global-da-jbs/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-10T19:17:58+00:00"
     },
     {
      "title": "Preços da soja nos portos do Brasil voltam aos R$ 150/sc com altas em Chicago, do dólar e dos prêmios - Notícias Agrícolas",
@@ -486,34 +510,16 @@
      "published_at": "2026-08-10T19:15:51+00:00"
     },
     {
-     "title": "Congresso Nacional define prioridades de votação em meio à campanha eleitoral",
-     "link": "https://www.canalrural.com.br/videos/congresso-nacional-define-prioridades-de-votacao-em-meio-a-campanha-eleitoral/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-10T19:05:10+00:00"
-    },
-    {
      "title": "Soja: veja os fatores que podem mover os preços - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX1B3QnpmUFlDU05fVEFIZklqVU95Zl9kaWJMSXJIME5HblR4OWsxY3YxWE1jWk1mVjVYN2RQVVZaZjdIR3Vld3NHTTRJZmdnX3N1RnRobnhIdEZyRGtuQVE4QUVldGxNb0JtTm9pU3E1a1RkTEhnR0lKWXpGLUNfWXpEV0VNRjB6VTloemgtUXk2UVFibEgyb043MXY?oc=5",
      "source": "Agrolink",
      "published_at": "2026-08-10T18:59:00+00:00"
     },
     {
-     "title": "Polícia busca três foragidos por desvio de 100 toneladas de soja em MS - G1",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMVlqOGxtVEJ6cHpfdTlWUXJrdHl2bC1qdHIycEFUMUJrYThTYVBqaG1PMGh6YVVqZDdVRF9rNmhidnB0Z3ZWc3oybUVsQ2Rta3FjV2NaYklCM3MwNHkyNHc0dHhrV1BuSjNkQzVFaVVuZXl3cHBVQkVUYnBWMk9laEhPbHM0VzRFRjFtNDFVWnVZVEE3N3VCb0Y2LWZvN1lNSVVTZWpMaGotUFl6NmwyNVNJSERxTG1SOHRJd09NVTZxRUpNb196eGk2NFVkbEJaVUhLOdIB4wFBVV95cUxPc0dlMUEzcGRJUE9MRHN1OGdCWlNLcFZwU3lfZmxkejFYbmNaRjdCSHJ2dzNiUDZndUx4V1BzRll4WkZod1djTnN6cjZWMVN4cXdmZWstaVEteWhybkxHLWtJUFRyemYxQzZvbzF3ZG11anMxZXRkYTFrMnd6eEF4TzQ5NUdXaUNVQ1BWYVNXY1h5ZUUyMnBGRzJuNk1xdVRfYS1jRExjbXQzTlhoUkJ6Tm0zRHFnVmU0YnRDQlM0NExYTE84cF9xRmcyekpFay01ZFc1RjFEM0haOHZIVnh5WnBxRQ?oc=5",
-     "source": "G1",
-     "published_at": "2026-08-10T18:43:06+00:00"
-    },
-    {
      "title": "Quase 100 toneladas de soja desviadas em MS são investigadas - Campo Grande News",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb1R0U3otSHNiQ0xWdTVkWFRpc3lvdDB2eXhOT3RVR3cwTGV6MEFXYTZ4bWo1bk4yWXp2XzhXM2s4dEluZnF2UDhWSVZkcTFtWlIyRU5XTGoyQlBpQjcwOVAwclZ0UVJtNjk4WWVreE9fTUlyTlRaQWhHckdYRWhZR3ZrcFFuQ0VBTmh5SDlhWmlsNVY1NUJhV0o5dzFkLUNRZVYxRktVQ0zSAagBQVVfeXFMUDRic2ZVT1dFdkViS3ZoY0xKeGRaTmdDa1pGZ2Y3eVQ3MDZLY1FkN0JNdGhReVhXVHZQeFdhd2hpcUh5QjRmc3lOMXBzRk9ESlBaVG9fREREcndfRzlzREFNMk1FaTFWaU52WUJVTFpXcTl5X1RCYkhiU0Z4RGNqMFBwWjRYUjFjdkxVQ0oxRzJVLXA3T1dFa3pTU3lBaEttWFB2QkJNbGlv?oc=5",
      "source": "Campo Grande News",
      "published_at": "2026-08-10T18:15:00+00:00"
-    },
-    {
-     "title": "Soja: prêmios limitam queda provocada por Chicago - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSGdhTkFMNERiaWVqX3BZV0JRV1pSbTBsVUQybVZhazdBYkxGczZvNDFBdU9YSGktRklPcE1pTDBWdFVQaG1ReEdTeUdtaTU5eVE4QXlrRFJad0RKX1hSME1NN2hRMHJ0VGlZQ0NpUHpsY002WFBLeTQtM05BQlN0MUotNlJsNG5aNnVsQ2lRS2FtQkZOaVloWkMzeEkybEU?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-10T17:49:00+00:00"
     },
     {
      "title": "Clima favorável nos EUA pressiona soja internacional, enquanto mercado interno segue em alta - Canal Rural",
@@ -525,19 +531,13 @@
      "title": "Palestra debate biocombustíveis e transição energética no contexto do agronegócio - Embrapa",
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTXp0MW9UUnNXVmRVc3VvQTlySDM2by1zbEpFcVhFZ0xVbkRuamZYWUVBYjB2MTZWLXFMcTBwcXctNDYwQ1UtYjh6UHlIaGNrcGlxRHlmU2VtVVdsSU90ZjJaS1dUbGNpcVdNWjlZY1RJcXg3cFhvc3FmbDl3MTBIWUp6WFFRQ3EyUUM3Z0IzQUIxZzhBeGFFdXFWcTh5YVlwV19OODVTTThfVktwTUM2Y2xVTDdwaFBEZUNLbVJ4OUszcGRZdlA2bEJQT2ExQ0pmdU5qdXpXRlBnQQ?oc=5",
      "source": "Embrapa",
-     "published_at": "2026-08-10T14:23:39+00:00"
+     "published_at": "2026-08-10T14:28:40+00:00"
     },
     {
      "title": "Milho tem exportações abaixo de 2025, enquanto soja ganha sustentação com demanda e prêmios - Feed&Food",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRFppR2JPUjZaTzdnMDAyZTBnakozUFRuQVV1eGlxakw3YlE1NUVaR3pEY1ZUZUlGZjZDWGFPZUFUbnBhejZYNzg3cjFMR2JQNXRBM3Z1RFBpT004ejhfQTJ4dldrQnVtM1ZQWkVZb3ZxTGtIWHlLSUFMVTJ0Vll3a0g1MEJPd215Q2F4elcyRUVnQTBHUTRKOUFSRXRzMnBlb2prcEJWNUdSeUsxZmhSd3ZWeW95Zw?oc=5",
      "source": "Feed&Food",
      "published_at": "2026-08-10T13:59:54+00:00"
-    },
-    {
-     "title": "Soja: chuvas nos EUA derrubam Chicago, mas prêmios firmes seguram cotações no Brasil - Agrimidia",
-     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdFBQaWg0YnVHazYzblJIQlh4ZFRPY0ljQUVzMkVsdld0NzBnTjU5SnMxNy1tSEZvVkZjMHgydXphYjltNHR3MTNOY0FCQVNWeVVpdldKT0k2bXVmNV9DUzlkZEhUaW1hWDN0QzRaYVNKRnZwU3FibnFqWjJiT056Q2JvSmJXUXVVNUJqWllZRWI2emZOUDNQT21KRXQ3OFV6MXFqeW5YdzZDZG9QMW1MbDhEU0dNc2JFNWlsd0d4QjhBZHZWZFBEdU1OSVZTTlVjVWg3WEZBY216WUtP?oc=5",
-     "source": "Agrimidia",
-     "published_at": "2026-08-10T11:55:27+00:00"
     },
     {
      "title": "Setores da soja e da mineração dominam candidaturas ao Senado no Mato Grosso - Repórter Brasil",

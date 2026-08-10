@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-10T22:30:44+00:00",
+ "generated_at": "2026-08-10T23:28:37+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-10T22:30:37+00:00",
+   "updated_at": "2026-08-10T23:28:30+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 87.7,
+     "price": 87.53,
      "prev_close": 83.55,
-     "change_pct": 4.97,
+     "change_pct": 4.76,
      "closes": [
       76.01,
       83.3,
@@ -193,7 +193,7 @@
       79.45,
       82.49,
       83.55,
-      87.7
+      87.53
      ]
     },
     {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-10T22:30:40+00:00",
+   "updated_at": "2026-08-10T23:28:34+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,8 +405,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-10T22:30:44+00:00",
+   "updated_at": "2026-08-10T23:28:37+00:00",
    "items": [
+    {
+     "title": "Colheita de milho chega a 73,2% da área no Brasil, aponta consultoria",
+     "link": "https://www.canalrural.com.br/agricultura/colheita-de-milho-chega-a-732-da-area-no-brasil-aponta-consultoria/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-10T22:49:29+00:00"
+    },
+    {
+     "title": "Trump estende por 90 dias dispensa da Jones Act para cargas de energia nos EUA",
+     "link": "https://www.canalrural.com.br/politica/trump-estende-por-90-dias-dispensa-da-jones-act-para-cargas-de-energia-nos-eua/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-10T22:32:21+00:00"
+    },
     {
      "title": "Crédito rural da agricultura empresarial soma R$ 28,2 bilhões em julho",
      "link": "https://www.canalrural.com.br/economia/credito-rural-da-agricultura-empresarial-soma-r-282-bilhoes-em-julho/",
@@ -418,6 +430,12 @@
      "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-queda-de-019-e-dolar-comercial-sobe-053/",
      "source": "Canal Rural",
      "published_at": "2026-08-10T21:42:14+00:00"
+    },
+    {
+     "title": "Crise atual do agro pode ser “igual ou maior” que as do passado, diz Aprosoja Brasil - AgFeed",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQmZma0xuXzBxSkJvRmFLRndMdTB5a01vdlktOWVfMjhlRmtmSkxZQzN0UHk2WEFMcjN2anJfRWZzQjlVRHc5N3FlY1Q5U0FvZ3NSV0lZVzlJN2V0M2NwWXFZWFlZZHprMGl6YXJQZ25tWEktYXdCY0ktS0NwWVdqMGtIOUw5TmhxQWZQOWwxTEM0anJpMDBCM3VBY3ZlSlQ5bjc0cTZJbVdkMVFPcUtwWV9R?oc=5",
+     "source": "AgFeed",
+     "published_at": "2026-08-10T21:42:00+00:00"
     },
     {
      "title": "Cesta básica cai em 26 capitais em julho, apontam Conab e Dieese",
@@ -462,12 +480,6 @@
      "published_at": "2026-08-10T20:58:48+00:00"
     },
     {
-     "title": "Ibovespa cai 0,19% com pressão externa e suporte das ações da Petrobras",
-     "link": "https://www.canalrural.com.br/economia/ibovespa-cai-019-com-pressao-externa-e-suporte-das-acoes-da-petrobras/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-10T20:58:28+00:00"
-    },
-    {
      "title": "Clima nos EUA mantém soja sob pressão no mercado - Revista Cultivar",
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObWlUVHhoLWFzRHV6VWIwdFdGeTNVbkttNUp4NzVsMkNpMlB3eU1ZQ29pX29zZE90SjJLRDhqVmk3S0o2UFVZNVVWVWNxdDY0dWlNMFEta3FRYXU2NzJNU040dFZhOXZkWGYzTENlUXJqMzJpYUh3d0I1dmZZM2ZVSlpmLWV1Z1J0aS1oVHFZc2hXUQ?oc=5",
      "source": "Revista Cultivar",
@@ -490,12 +502,6 @@
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPb21oWEY2QmhobHl2LXE0d1BPaUxQMmFPYjdOZW9MblBXcEVKekt2Zkl4UUkzR2xwNk9IZEM3Y0VrSEhtcElISGRuT2pZclcwWlFnTTFuRlBjSnl6dnAybE5JVGhZQVZOV3hPaldrTzdrZmdVU1lScDVjcE9MOVBmR0o4RkJrUURfck1Qa3ZlX2tpQTh6elM5bWxkMzZZZlJ2bHZaQVBpYTd6d3hPeFdkMmx30gHAAUFVX3lxTE4wMkl5clhVNUhaaWFoM21hcVhaeTk5djViaWVINFFOdFZHcTAwRG43NDF3TVE3MV92SEJtVUt0ZnJvUVlySGpTNEdXYWtfY05LbHhtTzkwN1lUcTJuaFUyMXp6dkpfeWphVWdYSjlBSEJaSXYtU2UyWHhOQS1rd3NzbnU4Z2JYeHhacWpHQzFWb3Z0dGJkRDYwZkdtMFp3ZWlfanNHYUxqWkpGbDZXeDV5MGFTbVpmUjdIdHdzUUVRZA?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-08-10T20:15:20+00:00"
-    },
-    {
-     "title": "‘É como construir uma casa’: entenda as etapas de transformação da pele bovina em couro",
-     "link": "https://www.canalrural.com.br/pecuaria/e-como-construir-uma-casa-entenda-as-etapas-de-transformacao-da-pele-bovina-em-couro/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-10T20:13:34+00:00"
     },
     {
      "title": "Soja sobe em Chicago com petróleo e expectativa de compras chinesas - CNN Brasil",
@@ -526,12 +532,6 @@
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb1R0U3otSHNiQ0xWdTVkWFRpc3lvdDB2eXhOT3RVR3cwTGV6MEFXYTZ4bWo1bk4yWXp2XzhXM2s4dEluZnF2UDhWSVZkcTFtWlIyRU5XTGoyQlBpQjcwOVAwclZ0UVJtNjk4WWVreE9fTUlyTlRaQWhHckdYRWhZR3ZrcFFuQ0VBTmh5SDlhWmlsNVY1NUJhV0o5dzFkLUNRZVYxRktVQ0zSAagBQVVfeXFMUDRic2ZVT1dFdkViS3ZoY0xKeGRaTmdDa1pGZ2Y3eVQ3MDZLY1FkN0JNdGhReVhXVHZQeFdhd2hpcUh5QjRmc3lOMXBzRk9ESlBaVG9fREREcndfRzlzREFNMk1FaTFWaU52WUJVTFpXcTl5X1RCYkhiU0Z4RGNqMFBwWjRYUjFjdkxVQ0oxRzJVLXA3T1dFa3pTU3lBaEttWFB2QkJNbGlv?oc=5",
      "source": "Campo Grande News",
      "published_at": "2026-08-10T18:15:00+00:00"
-    },
-    {
-     "title": "Palestra debate biocombustíveis e transição energética no contexto do agronegócio - Embrapa",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTXp0MW9UUnNXVmRVc3VvQTlySDM2by1zbEpFcVhFZ0xVbkRuamZYWUVBYjB2MTZWLXFMcTBwcXctNDYwQ1UtYjh6UHlIaGNrcGlxRHlmU2VtVVdsSU90ZjJaS1dUbGNpcVdNWjlZY1RJcXg3cFhvc3FmbDl3MTBIWUp6WFFRQ3EyUUM3Z0IzQUIxZzhBeGFFdXFWcTh5YVlwV19OODVTTThfVktwTUM2Y2xVTDdwaFBEZUNLbVJ4OUszcGRZdlA2bEJQT2ExQ0pmdU5qdXpXRlBnQQ?oc=5",
-     "source": "Embrapa",
-     "published_at": "2026-08-10T14:28:40+00:00"
     },
     {
      "title": "Milho tem exportações abaixo de 2025, enquanto soja ganha sustentação com demanda e prêmios - Feed&Food",
@@ -597,6 +597,10 @@
   {
    "section": "fx",
    "error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
+  },
+  {
+   "section": "rates",
+   "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json"
   },
   {
    "section": "cepea",

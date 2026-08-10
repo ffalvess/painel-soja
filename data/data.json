@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-10T16:47:32+00:00",
+ "generated_at": "2026-08-10T17:46:02+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-10T16:47:27+00:00",
+   "updated_at": "2026-08-10T17:45:52+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1179.5,
+     "price": 1180.0,
      "prev_close": 1156.5,
-     "change_pct": 1.99,
+     "change_pct": 2.03,
      "closes": [
       1196.5,
       1202.0,
@@ -33,16 +33,16 @@
       1151.5,
       1157.25,
       1156.5,
-      1179.5
+      1180.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 461.75,
+     "price": 462.5,
      "prev_close": 439.0,
-     "change_pct": 5.18,
+     "change_pct": 5.35,
      "closes": [
       438.0,
       437.75,
@@ -65,16 +65,16 @@
       436.75,
       439.0,
       439.0,
-      461.75
+      462.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 311.6,
+     "price": 311.8,
      "prev_close": 308.1,
-     "change_pct": 1.14,
+     "change_pct": 1.2,
      "closes": [
       323.1,
       316.8,
@@ -97,16 +97,16 @@
       309.3,
       310.7,
       308.1,
-      311.6
+      311.8
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 69.08,
+     "price": 69.14,
      "prev_close": 68.16,
-     "change_pct": 1.35,
+     "change_pct": 1.44,
      "closes": [
       70.86,
       73.04,
@@ -129,7 +129,7 @@
       67.75,
       67.7,
       68.16,
-      69.08
+      69.14
      ]
     },
     {
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 86.72,
+     "price": 87.28,
      "prev_close": 83.55,
-     "change_pct": 3.79,
+     "change_pct": 4.46,
      "closes": [
       76.01,
       83.3,
@@ -193,16 +193,16 @@
       79.45,
       82.49,
       83.55,
-      86.72
+      87.28
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 172087.8,
+     "price": 172168.19,
      "prev_close": 172513.0,
-     "change_pct": -0.25,
+     "change_pct": -0.2,
      "closes": [
       177866.0,
       175739.0,
@@ -225,7 +225,7 @@
       177726.0,
       175546.0,
       172513.0,
-      172087.7969
+      172168.1875
      ]
     }
    ],
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-10T16:47:27+00:00",
+   "updated_at": "2026-08-10T17:45:52+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-10T16:47:30+00:00",
+   "updated_at": "2026-08-10T17:45:58+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,8 +405,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-10T16:47:32+00:00",
+   "updated_at": "2026-08-10T17:46:02+00:00",
    "items": [
+    {
+     "title": "Embrapa impulsiona avanço dos bioinsumos e reúne especialistas para discutir novas soluções para a soja",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/embrapa-impulsiona-avanco-dos-bioinsumos-e-reune-especialistas-para-discutir-novas-solucoes-para-a-soja/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-10T17:34:18+00:00"
+    },
+    {
+     "title": "Grupo Maringá investe R$ 120 milhões e amplia cogeração na Usina Jacarezinho",
+     "link": "https://www.canalrural.com.br/economia/grupo-maringa-investe-r-120-milhoes-e-amplia-cogeracao-na-usina-jacarezinho/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-10T16:58:45+00:00"
+    },
     {
      "title": "Agro brasileiro é potência global, mas Abag cobra plano para o futuro",
      "link": "https://www.canalrural.com.br/agricultura/agro-brasileiro-e-potencia-global-mas-abag-cobra-plano-para-o-futuro/",
@@ -432,9 +444,9 @@
      "published_at": "2026-08-10T14:59:00+00:00"
     },
     {
-     "title": "Clima favorável nos EUA pressiona soja internacional, enquanto mercado interno segue em alta - Canal Rural",
+     "title": "Clima favorável nos EUA pressiona soja internacional, enquanto mercado interno segue em alta - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaTZEcHdPV1JZSm9VRmlPekFtNmZFaTM2dFRkclRVU3BqVmV1YmkweFA5dXRYYVQySGwweGNnVmJoenpIbU5ncUhfaElzbnJlM2VqazJsWEJscXRXaDJfUmQzejNuMjFQWWYxU3psMW5JQXpIMEFhVXJTVGpHaURtQ3ZUZGpsSFd4cWJDVGVHYlRnLVh1UE5BOEYzRnUzazZvUVFsZmlsQ0xYbExnZW5EdGlFWS01bmp1ek8zWWxmdi1Wc0hqV2NrWFRWUWRsSnkzM2tvRWp3?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-10T14:32:41+00:00"
     },
     {
@@ -442,6 +454,12 @@
      "link": "https://www.canalrural.com.br/agricultura/soja/clima-favoravel-nos-eua-pressiona-soja-internacional-enquanto-mercado-interno-segue-em-alta/",
      "source": "Canal Rural",
      "published_at": "2026-08-10T14:32:41+00:00"
+    },
+    {
+     "title": "Palestra debate biocombustíveis e transição energética no contexto do agronegócio - Embrapa",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTXp0MW9UUnNXVmRVc3VvQTlySDM2by1zbEpFcVhFZ0xVbkRuamZYWUVBYjB2MTZWLXFMcTBwcXctNDYwQ1UtYjh6UHlIaGNrcGlxRHlmU2VtVVdsSU90ZjJaS1dUbGNpcVdNWjlZY1RJcXg3cFhvc3FmbDl3MTBIWUp6WFFRQ3EyUUM3Z0IzQUIxZzhBeGFFdXFWcTh5YVlwV19OODVTTThfVktwTUM2Y2xVTDdwaFBEZUNLbVJ4OUszcGRZdlA2bEJQT2ExQ0pmdU5qdXpXRlBnQQ?oc=5",
+     "source": "Embrapa",
+     "published_at": "2026-08-10T14:23:39+00:00"
     },
     {
      "title": "Abag vai entregar plano estratégico do agro aos presidenciáveis",
@@ -468,16 +486,10 @@
      "published_at": "2026-08-10T13:59:33+00:00"
     },
     {
-     "title": "Soja sobe em Chicago com previsão de novos embarques dos EUA para China - Globo Rural",
+     "title": "Soja sobe em Chicago com previsão de novos embarques dos EUA para China - globorural.globo.com",
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbXpXSVhmeEc0MjRjcU1aWmhvbmlwcTdON0RrN1RuTDREY2F4eWR4X18tRTkyMHR4Rjh0TDdXTUFJM2RHdmxTTE96YXk3UGp0MnJFUjlwaF9rYTdwQk9Vam1pTW1MMnQ4RHZ0UEJTTWNYdjlLeFR4UmVYMW1zRUZPdk5ZNnhPRFl1UllzajBBS3pxQlBZRlZrRWdzTkd2ZmRzVTJDZDdTb3ltT24yMnhiN3B2djVvXzJVUEo1QWQ5NXA0SnVYeW94aHNGY9IB2gFBVV95cUxPMWNNdWhrSmFWakRSYmhaT0FYeFNBZzBfcEF3QTVwUFhZT3NvbTJodS1ockI3T2xZV3UyRzlVcVlfb0NTbmloWWV3SXN6T2FtTEFEaWhWSXRpTmM3czJYcGpxTkljNW1UWGtjUjQtZHhrY0x3TXFVaHBrUHZlTmFCS3gzR3dJNEdvMEk5V19XanJKbFhhYXJLcWowb2tXLUdaZExxdWZRYU1fc3RVV0M5d0dwUXNydTJVaTB3WlpjX1diTW9WNVdVMm1odjNCOGwyU0hCTFhpRVVzQQ?oc=5",
-     "source": "Globo Rural",
+     "source": "globorural.globo.com",
      "published_at": "2026-08-10T13:52:13+00:00"
-    },
-    {
-     "title": "Artigo - Podridão de vagens e de grãos da soja: os avanços no conhecimento sobre a doença que tem preocupado os produtores - A Embrapa",
-     "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQeEl2YlZOa1dNMmtWQzc4OGxwRnZwODZLY1VzYjNaeGR5N3QyTXBCa2JmSjhKSUlkOEdZZzIzS280V1ZjTHNwbWlxZFNtelEwQlc5alEyZ1ZwRDRMa2JWeFBubXpQQ2x5M0ZYRnBDQXdJWk9JcWN5V2dBclhLSk5jTmdoZ242UlEzUXBobVBVaE4yeThrQUp4WGk4cXo3S0x0SDlhVDdTb3A5cFRFZDN0SUJhWExsa09ZTWs2ZmdIb2NYb0NuUTgyalMtYmw5N3EwZVYzY0hFY1JuR3FIaGJiTW0xX0VkTkdEMFFYQU0tc2MtMHJMZi1vTWVaV1RGN0t1OXRYSnNrYnJUUDVaSmRJ?oc=5",
-     "source": "A Embrapa",
-     "published_at": "2026-08-10T13:43:07+00:00"
     },
     {
      "title": "Seu trabalho transforma o agro? Prêmio Planeta Campo abre inscrições",
@@ -486,46 +498,22 @@
      "published_at": "2026-08-10T13:42:56+00:00"
     },
     {
-     "title": "Centro-Oeste amanhece com alerta laranja para baixa umidade",
-     "link": "https://www.canalrural.com.br/diversos/centro-oeste-amanhece-com-alerta-laranja-para-baixa-umidade/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-10T13:01:12+00:00"
-    },
-    {
-     "title": "ITR 2026 muda nesta segunda: veja quem será obrigado a declarar pela internet",
-     "link": "https://www.canalrural.com.br/agricultura/itr-2026-muda-nesta-segunda-veja-quem-sera-obrigado-a-declarar-pela-internet/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-10T12:58:18+00:00"
-    },
-    {
      "title": "Soja: chuvas nos EUA derrubam Chicago, mas prêmios firmes seguram cotações no Brasil - Agrimidia",
      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPdFBQaWg0YnVHazYzblJIQlh4ZFRPY0ljQUVzMkVsdld0NzBnTjU5SnMxNy1tSEZvVkZjMHgydXphYjltNHR3MTNOY0FCQVNWeVVpdldKT0k2bXVmNV9DUzlkZEhUaW1hWDN0QzRaYVNKRnZwU3FibnFqWjJiT056Q2JvSmJXUXVVNUJqWllZRWI2emZOUDNQT21KRXQ3OFV6MXFqeW5YdzZDZG9QMW1MbDhEU0dNc2JFNWlsd0d4QjhBZHZWZFBEdU1OSVZTTlVjVWg3WEZBY216WUtP?oc=5",
      "source": "Agrimidia",
      "published_at": "2026-08-10T11:55:27+00:00"
     },
     {
-     "title": "Chuvas nos EUA pressionam futuros, mas prêmios sustentam cotações de soja no BR - CompreRural",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWklLZzZ6UHZha3N1WkxWWXNTcHpWQWU3TXI1dUFGRDNVbWZHOHQxZkN2RGU1T0c3UF9yQWx3VDkzR1UxRWNZRlVFQzJPOHZ2bVAwMk43VnU3bjF2dXFtaUVkZC1fS3lac0JpZ0JoUGtSVmJLTXhxR0F1QmNGYWJqdEQzZkxXUGdlMHNCQ3ZRaGFoUDhlR2pYcF9yOXczc19pMldPYUpKNXFmZFE?oc=5",
-     "source": "CompreRural",
-     "published_at": "2026-08-10T11:43:28+00:00"
-    },
-    {
-     "title": "Soja sobe em Chicago nesta 2ª feira com petróleo e derivados dando suporte ao complexo - Notícias Agrícolas",
+     "title": "Soja sobe em Chicago nesta 2ª feira com petróleo e derivados dando suporte ao complexo - noticiasagricolas.com.br",
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQemFnTzFTenF4S2NyNnNvTlV5WDE2Nk5KRnFEY2o3TkdXQWt5QUZnaE9RZUlMZGpfcEtLUXJrdW1SQ28tWEY3dTUzRFlqU2x2YmNMVC16NzVuc3FkMzJsUVItV2tqaUZyMmVBLXZ4ZnFUaWpud2w5N0g5enhXOTVuT3ZjSGlDaVllZ0I5Y1hmVy1JWDBLTlBHWTZjaEd0bjc3V0UtYjRaZDZQekRhTV9pQjBYYy1pcGFkYmdYektmTTlwdHluOEtOLTVIM1VKR2dheURRd3E2OFhKSzY2M2prZ1V30gHnAUFVX3lxTE5TNlBrbDQ2b2l1Yjc0RW5Rc1FXTVpPYUJyMUJSVzAwaHlmOGw0dF9oWmJmTVN3dVJZLS11Q25aTC1FbDIzQ1hmWkhWamNwVUVpRkd3RzljREk4UzR3NVI3RzFLWkxfOGZ6NjRNcXZPWjZiVzA3amo3X2dmSjVxWUVhSFpTb3IwVTF6Ri1KT3R2eGtEMVpWMGVOckowRTBxVm1TcmlmVkVJUnlJWEQ1SlVTMEZWR0NoaTFZV1BfVlU5Z01WNW9JVzFqSXJ3ektHODFOXzJJSmQ4YzdPck9FWmtOX2hON05CUQ?oc=5",
-     "source": "Notícias Agrícolas",
+     "source": "noticiasagricolas.com.br",
      "published_at": "2026-08-10T10:47:57+00:00"
     },
     {
-     "title": "Consultoria recomenda vendas escalonadas para soja - Agrolink",
+     "title": "Consultoria recomenda vendas escalonadas para soja - agrolink.com.br",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcTl0djJDdzFYMmhRaVhWMy1SaTJ6WGJyTDdkZEFjUXFaWGxmbXhSTDFqMlMzX2Yxbll1VnRGTVRHZ0pGOVZWWHFxbTFnT1F5U0JDLUVZSkhReGxLZjRFR2JtYzhfTmRjdmJHaDZUTlJqMnMwbjJwR2UtaktFcHpEWHVCX1BiM1VJeGQ0TWdvYzhqc0NueVRORUREQ3JJekxI?oc=5",
-     "source": "Agrolink",
+     "source": "agrolink.com.br",
      "published_at": "2026-08-10T09:37:00+00:00"
-    },
-    {
-     "title": "Na geopolítica dos alimentos, soja do Brasil está no tabuleiro de China-EUA - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeE9lQ29kemg3YWY0RmkyWEFyQ1VrUUtwTDd4dHpBVEx2RHRjME1BRWRnSmdDdnNBZTlHLUxJMFhKc2d4MFp4WDR0SHR2bnVNNkMyNW9Ud0NHTFRHYk1KUW5iNTJMRFJoU1Bhd0RPLUJqei0xUnhzbmlNdXd5NWsxendad3I4bklRbGducUhJR0x5S2pSX0dPUlBVSm8ydmRDdGVRLVhTVlNtUkVsZjMySDl1YTdwQTdBTF9LSDhGdmQ2VzQ1bkdvbUVrdw?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-08-10T09:18:05+00:00"
     },
     {
      "title": "Setores da soja e da mineração dominam candidaturas ao Senado no Mato Grosso - Repórter Brasil",
@@ -534,10 +522,22 @@
      "published_at": "2026-08-10T08:30:00+00:00"
     },
     {
-     "title": "Pesquisa Registra 27 Novas Espécies de Abelhas Nativas na Soja Brasileira - Forbes Brasil",
+     "title": "Pesquisa Registra 27 Novas Espécies de Abelhas Nativas na Soja Brasileira - forbes.com.br",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVElOVndzUzlVM2pSUW9iSDZNMWFsajN2b2JWdnBjdnREMXlLRkxMeG1lb1hvenpHeDBLWUNUNDJiazhRalRKWWkzVVEza2tnT2wtakJESnZMb3RXdklJb2lidDIyR1dMMklrTFUwUGFwclpVOGVmRENkR0hBVDlvVC16R2lVeTdKMXJRX0Zhb3pPTHFob3h5TGFLNzlsLVdsZWV0bXNqZnRISXBDRFVZZHBCUmN4Vk0?oc=5",
-     "source": "Forbes Brasil",
+     "source": "forbes.com.br",
      "published_at": "2026-08-10T08:00:00+00:00"
+    },
+    {
+     "title": "SOJA E TRIGO: confira os preços dos grãos nesta segunda-feira (10) - Brasil 61",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTW5uaXB5a0JvOExiRGtHYW9WX0NEbDc4eXJQY2RId1g5cmF1NzF3OXM3akZjd2N5dzA2NmN5ZkVkalZUZnZHdmVSY25LaFNMSWFpMFlNQnBFY0t6RnVkVjJiZnN4OWpTakxIX181S2xQUWZGcUI3dWNBWmU0QjFpNnRrQWZ3OHNRQzEyNlc2enhsOUN6OEJ5WURBVUlQZ9IBowFBVV95cUxNZW9QYlNyMFpjVEJmUllWMzhuSDVicW5ORXVMMTRmZGRXOE1JSkdwMWRTOGdBWkp1Z0hPQW5aMXJfSTBWMU5TeHJUNlZBOVJ1SnloazFvZ0JReW9pWkxLUzdLUzFWd3IzYkFBTHpaRThuWVhJR1gxdkZKWElYVlNfd0ZDMzBfSFZ2dTZGYWtHX28wLXlEbHhzVDNVZXYtM0ZwSFJn?oc=5",
+     "source": "Brasil 61",
+     "published_at": "2026-08-10T07:10:00+00:00"
+    },
+    {
+     "title": "Na geopolítica dos alimentos, soja do Brasil está no tabuleiro de China-EUA - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeE9lQ29kemg3YWY0RmkyWEFyQ1VrUUtwTDd4dHpBVEx2RHRjME1BRWRnSmdDdnNBZTlHLUxJMFhKc2d4MFp4WDR0SHR2bnVNNkMyNW9Ud0NHTFRHYk1KUW5iNTJMRFJoU1Bhd0RPLUJqei0xUnhzbmlNdXd5NWsxendad3I4bklRbGducUhJR0x5S2pSX0dPUlBVSm8ydmRDdGVRLVhTVlNtUkVsZjMySDl1YTdwQTdBTF9LSDhGdmQ2VzQ1bkdvbUVrdw?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-08-10T06:18:05+00:00"
     },
     {
      "title": "A volta por cima dos irmãos Batista: como donos da JBS saíram da Lava Jato e voltaram aos holofotes, com participação até na diplomacia mundial",

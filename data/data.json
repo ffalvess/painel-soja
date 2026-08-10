@@ -1,18 +1,17 @@
 {
- "generated_at": "2026-08-10T03:47:38+00:00",
+ "generated_at": "2026-08-10T05:20:32+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-10T03:47:29+00:00",
+   "updated_at": "2026-08-10T05:20:24+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1183.25,
+     "price": 1182.25,
      "prev_close": 1156.5,
-     "change_pct": 2.31,
+     "change_pct": 2.23,
      "closes": [
-      1179.75,
       1196.5,
       1202.0,
       1207.25,
@@ -34,18 +33,17 @@
       1151.5,
       1157.25,
       1156.5,
-      1183.25
+      1182.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 465.0,
+     "price": 464.75,
      "prev_close": 439.0,
-     "change_pct": 5.92,
+     "change_pct": 5.87,
      "closes": [
-      427.75,
       438.0,
       437.75,
       433.75,
@@ -67,18 +65,17 @@
       436.75,
       439.0,
       439.0,
-      465.0
+      464.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 314.8,
+     "price": 314.6,
      "prev_close": 308.1,
-     "change_pct": 2.17,
+     "change_pct": 2.11,
      "closes": [
-      319.5,
       323.1,
       316.8,
       319.6,
@@ -100,18 +97,17 @@
       309.3,
       310.7,
       308.1,
-      314.8
+      314.6
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 68.39,
+     "price": 68.34,
      "prev_close": 68.16,
-     "change_pct": 0.34,
+     "change_pct": 0.26,
      "closes": [
-      70.45,
       70.86,
       73.04,
       73.04,
@@ -133,18 +129,17 @@
       67.75,
       67.7,
       68.16,
-      68.39
+      68.34
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 652.5,
+     "price": 651.75,
      "prev_close": 639.75,
-     "change_pct": 1.99,
+     "change_pct": 1.88,
      "closes": [
-      611.25,
       632.0,
       627.0,
       631.25,
@@ -166,18 +161,17 @@
       642.25,
       631.25,
       639.75,
-      652.5
+      651.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 84.37,
+     "price": 83.99,
      "prev_close": 83.55,
-     "change_pct": 0.98,
+     "change_pct": 0.53,
      "closes": [
-      76.3,
       76.01,
       83.3,
       84.73,
@@ -199,7 +193,7 @@
       79.45,
       82.49,
       83.55,
-      84.37
+      83.99
      ]
     },
     {
@@ -241,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-10T03:47:29+00:00",
+   "updated_at": "2026-08-10T05:20:24+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-10T03:47:33+00:00",
+   "updated_at": "2026-08-10T05:20:27+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,7 +407,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-10T03:47:38+00:00",
+   "updated_at": "2026-08-10T05:20:32+00:00",
    "items": [
     {
      "title": "Idaf reforça importância do vazio sanitário para proteger lavouras de soja no Acre - Portal Acre",
@@ -554,9 +548,9 @@
      "published_at": "2026-08-09T06:00:29"
     },
     {
-     "title": "Mercado de grãos segue sensível a riscos logísticos - agrolink.com.br",
+     "title": "Mercado de grãos segue sensível a riscos logísticos - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZHpmcEgzNkZfa0hrYS0wMVVSWFRSYmlrSkpoeFhiU2l0OThUcUxHQy1RWEt1UjRieHIyWEtjSF9NNlNBUzc5T0c5M0w1RXpyRTdIa3hHd1N1Zm1sajM5aXFmLVFpd2dBNGI5RkwtckVMOTc0bTNNd0JvTE9Cb3V5dDNkZG40bDhST1VMR3pwT0w4TFY0UVFnT3E3NEpyWkI1ZVE?oc=5",
-     "source": "agrolink.com.br",
+     "source": "Agrolink",
      "published_at": "2026-08-08T13:45:00+00:00"
     },
     {

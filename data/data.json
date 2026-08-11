@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-11T19:58:06+00:00",
+ "generated_at": "2026-08-11T20:44:14+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-11T19:57:43+00:00",
+   "updated_at": "2026-08-11T20:44:04+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 89.09,
+     "price": 89.13,
      "prev_close": 87.72,
-     "change_pct": 1.56,
+     "change_pct": 1.61,
      "closes": [
       83.3,
       84.73,
@@ -193,16 +193,16 @@
       82.49,
       83.55,
       87.72,
-      89.09
+      89.13
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 167635.9,
+     "price": 167874.64,
      "prev_close": 172180.0,
-     "change_pct": -2.64,
+     "change_pct": -2.5,
      "closes": [
       175739.0,
       176641.0,
@@ -225,7 +225,7 @@
       175546.0,
       172513.0,
       172180.0,
-      167635.9062
+      167874.6406
      ]
     }
    ],
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-11T18:53:45+00:00",
+   "updated_at": "2026-08-11T20:44:05+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-11T19:58:02+00:00",
+   "updated_at": "2026-08-11T20:44:10+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,73 +405,91 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-11T19:58:06+00:00",
+   "updated_at": "2026-08-11T20:44:14+00:00",
    "items": [
     {
-     "title": "ANP divulga selecionados para bolsa internacional do PRH-ANP",
-     "link": "https://www.canalrural.com.br/politica/anp-divulga-selecionados-para-bolsa-internacional-do-prh-anp/",
+     "title": "Índice de preços Ceagesp cai 0,24% em julho",
+     "link": "https://www.canalrural.com.br/economia/indice-de-precos-ceagesp-cai-024-em-julho/",
      "source": "Canal Rural",
-     "published_at": "2026-08-11T19:27:41+00:00"
+     "published_at": "2026-08-11T20:28:02+00:00"
+    },
+    {
+     "title": "Argentina deve aumentar área plantada com soja e milho na safra 2026/27 - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNX3NCYld5am5hNDlxMF9sZElQbzlKekl3WVBMYmxYQjlGa05FbnhFRHdrcUVzQ1NjU0Z0dFBDRUpkZVJ0U2V3QjEzdFdLSHg0RmpSSlNyR2J4VmkxWlB5TnM2VU9PeDNPczRDSFkteUdQN3RkZzE1UzFOTmpHQVhFa1p4aDJ4enNNUmtkWlN4dXdVZGhPZkY0NGFSeEVTNmR0bHg0MFpBT3IzMk5Bc3pYOUdNd012WmllS3g2U3N5Mk5GaV9DRFhtMVpCdjFjQdIB3AFBVV95cUxNU3VKOUJON2Ywb1RHUG9UOVNOQm1QTGNMMmNvLUxWbGM2Y25NU2pFUFh3Vlh0MWtOMXdTWGp0cE1DWU9wYnUzY3B2OGVvdHNvZnR6U2t5YXlHWDh3a21uR0pMUWRSUHFFR0tBOWZ3YWthZ3FtTWk4SjdXSmN4REhuQVlKY0VieEdSNlQ1TEZCMTFrMUx4ejZpbHFrbUExUXVKMS1fZHlYWFBWd2ZQWEljMGlEY1dHc1Q0a3k3WEZodjgyV2ZlcmpzM3Ffc0VDYjRvS1p3SVQ2WC1QWkYz?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-11T20:25:05+00:00"
+    },
+    {
+     "title": "Noruega suspende importação de carne brasileira a partir de setembro",
+     "link": "https://www.canalrural.com.br/videos/noruega-suspende-importacao-de-carne-brasileira-a-partir-de-setembro/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T20:15:50+00:00"
+    },
+    {
+     "title": "Brasil e China acionam OMC contra tarifas dos Estados Unidos",
+     "link": "https://www.canalrural.com.br/videos/brasil-e-china-acionam-omc-contra-tarifas-dos-estados-unidos/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T20:15:40+00:00"
+    },
+    {
+     "title": "Colheita do milho segunda safra avança em Mato Grosso, mas enfrenta desafios",
+     "link": "https://www.canalrural.com.br/videos/colheita-do-milho-segunda-safra-avanca-em-mato-grosso-mas-enfrenta-desafios/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T20:15:30+00:00"
+    },
+    {
+     "title": "Exportações de carne de frango do Brasil crescem 15% em julho de 2026",
+     "link": "https://www.canalrural.com.br/videos/exportacoes-de-carne-de-frango-do-brasil-crescem-15-em-julho-de-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T20:15:19+00:00"
+    },
+    {
+     "title": "STF retoma julgamento sobre leis da moratória da soja nesta quarta-feira",
+     "link": "https://www.canalrural.com.br/videos/stf-retoma-julgamento-sobre-leis-da-moratoria-da-soja-nesta-quarta-feira/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T20:15:10+00:00"
+    },
+    {
+     "title": "Soja recua em Chicago, mas dólar e prêmios sustentam preços no Brasil perto dos R$ 150 nos portos - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdXlOS3dFRjN5Q0ZTcFcyQXRYNEFySXhoSHhVQUFGNk05ay10NHJFSndqcHFCLU13cWVYRTZyS1YxaG1CWDdYRGlMQkNGVTJ3anVoRHlYX3lLVktDR2RiamJLa0Z4azY4SktXbDdtaUkxV19VOF9MS0lQQmx1b0JjLWxNOWNrdS1UNlRpdXdNV0ZxXy1DbDJ1Vi1WanFTdkd2R2hQX0xXQXZxTFktYVBpbS1yLXJYTDJLbG92U0hrdHdzQjVwUFU2NlI3dTU2R1QzXzlndU1KSGdnZTJWUlZpcmU0M01PaG9HSHljR2Yzc9IB9AFBVV95cUxOcHZGRDc2dm5nbGtrNFNka1lFdDN2d2pGN1lRZEgweGVlSl91R0ozTjMxVDVMQ2FBYzlweWhzbFhldUtlSk9EZWdkZ1hQWTgxdUd5VDRrQ01QaEFzXzBXd0dYeGl0Y1RuSmlDSnNVb0ZqWXdFbDRrWDV1YU1UU1k5SXpmbVhHbHF2M3V5S1JjQzJSWXo2d1l0VTk5dmpVTmd1bzNtbkVwSW9IbzRvNE5hMmdPY3B2VUIyRzJOTUJaOFhOMHY4RzZhZmZwNWhJRUZzMk1ramNDa0s5RGFQaGwySUwyV1MxeVZQazE3eWQxZy03WW9W?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-11T20:07:54+00:00"
+    },
+    {
+     "title": "Congresso ANDAV discute futuro do agronegócio em São Paulo",
+     "link": "https://www.canalrural.com.br/videos/congresso-andav-discute-futuro-do-agronegocio-em-sao-paulo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T20:05:52+00:00"
+    },
+    {
+     "title": "Congresso ABAG discute integração entre agro e indústria brasileira",
+     "link": "https://www.canalrural.com.br/videos/congresso-abag-discute-integracao-entre-agro-e-industria-brasileira/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T20:05:43+00:00"
+    },
+    {
+     "title": "Simpósio Brasil Sul de Suinocultura discute desafios e inovações em Chapecó",
+     "link": "https://www.canalrural.com.br/videos/simposio-brasil-sul-de-suinocultura-discute-desafios-e-inovacoes-em-chapeco/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T20:05:33+00:00"
+    },
+    {
+     "title": "Projeto Soja Brasil completa 15 anos e inicia nova temporada de produção - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTHJKS3hoanZiRGhRVEJxdXFGTENheTZlVWdnRUhOWWRNajBIRkVUNE5uNkdTVFN3Y0NQcE9QZzd3NzhzZml0OWlGQkxZWFJ6MFp3UUFHenVjS0RWZ0lTR3d5VWdzWm1GMXB5cXdnUlF3NHByRzFXSVcwS1BDaHQxbUZzWmFOeC1XMDJOZi1EWEs5aWd0elF0U1pSbzl4WkJ6STFUMnpUNmNWMXQ3V29F?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T20:05:23+00:00"
+    },
+    {
+     "title": "Projeto Soja Brasil completa 15 anos e inicia nova temporada de produção",
+     "link": "https://www.canalrural.com.br/videos/projeto-soja-brasil-completa-15-anos-e-inicia-nova-temporada-de-producao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T20:05:23+00:00"
     },
     {
      "title": "O STF, a Moratória da Soja e os limites constitucionais à punição de compromissos ambientais voluntários - Diplomatique",
      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWnJ5TVhrUlNBS3RtSUhoTzlYLWMwUG95Q1NuSHdVaHd5QmJ5UWkzU0NLMmZ5UmQtc25LeFplUGF0Y1NFcU5vLUJodzNLQnE3ZXU0Qzl4bEdqNDRWRmZTNWpEM19NV01vOEZVSDZyTDRKM0t0ZFhlcHVpTTBGUGxJS2swTy1RVE82OGluNE0xMXJ3Qi1FT3pkMkoySlRvMC16ZWVwcTQwejFSM3lmb1FfYVJzamlhVGp5ai01ejZGUWtSOGx1ZHByVGpQdHc?oc=5",
      "source": "Diplomatique",
      "published_at": "2026-08-11T19:24:40+00:00"
-    },
-    {
-     "title": "Galinheiro bem planejado ajuda na criação de aves; veja como construir a estrutura",
-     "link": "https://www.canalrural.com.br/agricultura/galinheiro-bem-planejado-ajuda-na-criacao-de-aves-veja-como-construir-a-estrutura/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T19:18:48+00:00"
-    },
-    {
-     "title": "Exportação de café do Brasil sobe 9,9% em julho e chega a 3,03 milhões de sacas",
-     "link": "https://www.canalrural.com.br/economia/exportacao-de-cafe-do-brasil-sobe-99-em-julho-e-chega-a-303-milhoes-de-sacas/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T19:02:08+00:00"
-    },
-    {
-     "title": "Suinocultura: Mercado suíno chinês enfrenta cenário desafiador, mas já apresenta sinais de ajuste",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/suinocultura-mercado-suino-chines-enfrenta-cenario-desafiador-mas-ja-apresenta-sinais-de-ajuste/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T18:33:18+00:00"
-    },
-    {
-     "title": "Os reis da soja! Veja a lista dos 20 municípios que mais produzem o grão - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOE12cUZ5MExmbUp4SFI2RGZ0RkszM2Rla3hhTXA1ejY0aHhPUWJ6OUtnVlVsMlczZmhFZE1XOGRwQndLc3kzVy1HMEhQLTF3Qi1sX1A3UlhmaVQyUS05YTZ2c2d2endXZi1sR2tFaXBkc2ZSMFoza1QzYk83OVNQZ1Y5VzNQUDg1Xzh5dE5kOWxmdldaUE53RTJSODJwSWFrenZrb3dEM0pVaTlxY2RqbTl3XzY?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T18:22:30+00:00"
-    },
-    {
-     "title": "Os reis da soja! Veja a lista dos 20 municípios que mais produzem o grão",
-     "link": "https://www.canalrural.com.br/agricultura/os-reis-da-soja-veja-a-lista-dos-20-municipios-que-mais-produzem-o-grao/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T18:22:30+00:00"
-    },
-    {
-     "title": "ApexBrasil amplia busca por mercados após perdas com tarifas dos EUA",
-     "link": "https://www.canalrural.com.br/economia/apexbrasil-amplia-busca-por-mercados-apos-perdas-com-tarifas-dos-eua/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T17:57:44+00:00"
-    },
-    {
-     "title": "Argentina prevê aumento de 11% na área de soja na safra 2026/27, aponta consultoria",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/argentina-preve-aumento-de-11-na-area-de-soja-na-safra-2026-27-aponta-consultoria/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T17:56:04+00:00"
-    },
-    {
-     "title": "Mudanças no ITR avançam na CAE com novas regras para o Valor da Terra Nua",
-     "link": "https://www.canalrural.com.br/politica/mudancas-no-itr-avancam-na-cae-com-novas-regras-para-o-valor-da-terra-nua/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T17:53:21+00:00"
-    },
-    {
-     "title": "Dirigente do Fed diz que data centers podem elevar produtividade e pressionar a inflação",
-     "link": "https://www.canalrural.com.br/economia/dirigente-do-fed-diz-que-data-centers-podem-elevar-produtividade-e-pressionar-a-inflacao/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T17:33:07+00:00"
     },
     {
      "title": "Banco do Nordeste e Itaú financiam R$ 44 milhões para soja em área de conflito no Maranhão - Agência Pública",
@@ -498,12 +516,6 @@
      "published_at": "2026-08-11T16:23:14+00:00"
     },
     {
-     "title": "Setores afetados por tarifas dos EUA apresentam demandas em evento da ApexBrasil em São Paulo",
-     "link": "https://www.canalrural.com.br/economia/setores-afetados-por-tarifas-dos-eua-apresentam-demandas-em-evento-da-apexbrasil-em-sao-paulo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T15:56:46+00:00"
-    },
-    {
      "title": "Exportadores dos EUA relatam venda de 136 mil t de soja à China - UOL Notícias",
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTUhYR05DSUZKa2tEX1ZDMjBDTHUxTEVPYmxjRTF6NmVJbzBoUURISmhNV3dFWnFBUW51a0pjb2RoWmx5aE9pZzlPZG9ObDhaVUV1ak9vVXgyejh5elNRY21QZEU4SXNCd0dtMldYeDE4SGhnUENRWVBlSWppVHJnVlVxVXZyZHdsUUFZTExUT1c0b0dGWlFPMWpVU0RUTDB1emdrekFxMTM4UWczcGNvOU5Tc3pOdXRFbm9yQnRwX3ZtcHhLVzRuaU01ak5DMnZHaWhyZw?oc=5",
      "source": "UOL Notícias",
@@ -528,12 +540,6 @@
      "published_at": "2026-08-11T12:01:23"
     },
     {
-     "title": "Clima nos EUA mantém soja em alerta enquanto oferta pressiona milho no Brasil - Feed&Food",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTHh2elJfcjhoNzBsR19oQW94N3FNcE4wOUtGUXoxNEx0NldLdHRkNlBBbWdXU1czNXdTbkc3TlFkSEtCdk9XZmRQRERmWjNYeFQ4N0EteUprRFd1b0UybU5iOTRHMEFZcVdqMGJOdTB6OEFxemdHVVQ5cHAtN0NkblJxcUJYWHNLbTc2NjEtbm5Yamk3cmhpYm1KVGRWLVlZVFFaaA?oc=5",
-     "source": "Feed&Food",
-     "published_at": "2026-08-11T12:01:00+00:00"
-    },
-    {
      "title": "Noruega também vai deixar de comprar carne do Brasil a partir de setembro após decisão da UE",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/11/noruega-tambem-vai-deixar-de-comprar-carne-do-brasil-a-partir-de-setembro-apos-decisao-da-ue.ghtml",
      "source": "G1 Agronegócios",
@@ -550,12 +556,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/11/sucessao-na-jbs-marca-volta-da-familia-batista-ao-comando-diz-financial-times.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-11T10:18:23"
-    },
-    {
-     "title": "Preço da soja perde força no Brasil, mas mantém tendência de alta no curto prazo - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUmFfV1BiNnZSajNSUHBjeHA2RjZMVlpJcmxINHJlTEF1dDFtQk5PMnUzUDFQMVFPakFMU1praE5OcUhkazdmZXNYbS1ncHhHSlJsbVZ6M1JMQWxuNXZ1ME5ENFhKbVBIbDFReWR1UTJnVUdubkt2OGdNTkxrcDZDMko5dXdPSWpIbGNNRXJ2OFVCTlo5b1E4MW9MOUtoaEhnUFVPZ1ZpWHdNREd0Sk5IelZUMjg0Q1RiR2dOQ0lMc2I4dGV5Z2VSR3ZSOG5pdXFlaTBxYkp30gHkAUFVX3lxTFBsWUlfNUpTRmFLMFVpU3UwYTVqd2p3VmE3aEw4QTgyeVFrNmRwTVVSeHdnTkc5eDNqcW5XZDlfMzAtcVpyR2dMU05PbDBaenh4U1VzWTBFREFlbE9rNWtKMXVYWDFfY1J4ZGJmWmlqLTNFXzV6XzVqR1MxLVdDNzc1aWlsWENGS0tpSEhFQVBFYkVUTW54TmN1WXdQZ2o2aVVkTE54SHRZbWVxbGdOeXUtZUhjRmZ1S1pPUEl0Y0hXRXNSQllZR0hicDVZc3RBYVcxS21sMkVWVFh1RVZLTzAtOEhibg?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-11T09:15:08+00:00"
     },
     {
      "title": "Amazônia à beira do colapso: por que a Moratória da Soja deveria ser retomada - JOTA Info",
@@ -597,10 +597,6 @@
   {
    "section": "fx",
    "error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
-  },
-  {
-   "section": "rates",
-   "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json"
   },
   {
    "section": "cepea",

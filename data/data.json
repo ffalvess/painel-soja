@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-11T15:55:16+00:00",
+ "generated_at": "2026-08-11T16:52:34+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-11T15:55:09+00:00",
+   "updated_at": "2026-08-11T16:52:25+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1169.75,
+     "price": 1169.0,
      "prev_close": 1157.75,
-     "change_pct": 1.04,
+     "change_pct": 0.97,
      "closes": [
       1202.0,
       1207.25,
@@ -33,16 +33,16 @@
       1157.25,
       1156.5,
       1157.75,
-      1169.75
+      1169.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 460.25,
+     "price": 461.25,
      "prev_close": 438.25,
-     "change_pct": 5.02,
+     "change_pct": 5.25,
      "closes": [
       437.75,
       433.75,
@@ -65,16 +65,16 @@
       439.0,
       439.0,
       438.25,
-      460.25
+      461.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 311.0,
+     "price": 312.2,
      "prev_close": 303.7,
-     "change_pct": 2.4,
+     "change_pct": 2.8,
      "closes": [
       316.8,
       319.6,
@@ -97,16 +97,16 @@
       310.7,
       308.1,
       303.7,
-      311.0
+      312.2
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.89,
+     "price": 67.79,
      "prev_close": 69.46,
-     "change_pct": -2.26,
+     "change_pct": -2.4,
      "closes": [
       73.04,
       73.04,
@@ -129,16 +129,16 @@
       67.7,
       68.16,
       69.46,
-      67.89
+      67.79
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 631.0,
+     "price": 631.75,
      "prev_close": 640.5,
-     "change_pct": -1.48,
+     "change_pct": -1.37,
      "closes": [
       627.0,
       631.25,
@@ -161,16 +161,16 @@
       631.25,
       639.75,
       640.5,
-      631.0
+      631.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.84,
+     "price": 88.56,
      "prev_close": 87.72,
-     "change_pct": 1.28,
+     "change_pct": 0.96,
      "closes": [
       83.3,
       84.73,
@@ -193,16 +193,16 @@
       82.49,
       83.55,
       87.72,
-      88.84
+      88.56
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 168872.17,
+     "price": 168661.45,
      "prev_close": 172180.0,
-     "change_pct": -1.92,
+     "change_pct": -2.04,
      "closes": [
       175739.0,
       176641.0,
@@ -225,7 +225,7 @@
       175546.0,
       172513.0,
       172180.0,
-      168872.1719
+      168661.4531
      ]
     }
    ],
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-11T15:55:09+00:00",
+   "updated_at": "2026-08-11T16:52:25+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-11T15:55:14+00:00",
+   "updated_at": "2026-08-11T16:52:30+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,8 +405,32 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-11T15:55:16+00:00",
+   "updated_at": "2026-08-11T16:52:34+00:00",
    "items": [
+    {
+     "title": "Pesquisa aponta linhagens de soja tolerantes a percevejos - Revista Cultivar",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORmlPWjdmYkVfU0pJSjVuU1d0MlA1dXY2dlV4VUhtZF9PM2c1Q2l1SGlmaGFfZkR4d2xLa0Z5NFdXT2xiQ2lrS1lTZzgtMGJLZm5jVEItSzhsVkhsRGdoamRROU5HT0I1RkJiWGZSX1JXcFdHNVpPU0FaRWNJX2ZPekJBUUE2dHduN1ZqRE10VTdHaHZUNkdjN3A4c3dGdw?oc=5",
+     "source": "Revista Cultivar",
+     "published_at": "2026-08-11T16:49:03+00:00"
+    },
+    {
+     "title": "Setores afetados por tarifas dos EUA apresentam demandas em evento da ApexBrasil em São Paulo",
+     "link": "https://www.canalrural.com.br/economia/setores-afetados-por-tarifas-dos-eua-apresentam-demandas-em-evento-da-apexbrasil-em-sao-paulo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T15:56:46+00:00"
+    },
+    {
+     "title": "Gerações mais recentes de búfalos produzem 116% mais leite, mostra relatório",
+     "link": "https://www.canalrural.com.br/pecuaria/geracoes-mais-recentes-de-bufalos-produzem-116-mais-leite-mostra-relatorio/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T15:49:18+00:00"
+    },
+    {
+     "title": "‘Os javalis estão por todo o Brasil e são cada vez mais avistados onde há soja’, diz analista da Famato",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/os-javalis-estao-por-todo-o-brasil-e-sao-cada-vez-mais-avistados-onde-ha-soja-diz-analista-da-famato/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T15:41:25+00:00"
+    },
     {
      "title": "Ibovespa cai com cautela sobre fiscal, ata do Copom e IPCA",
      "link": "https://www.canalrural.com.br/economia/ibovespa-cai-com-cautela-sobre-fiscal-ata-do-copom-e-ipca/",
@@ -466,24 +490,6 @@
      "link": "https://www.canalrural.com.br/aves-e-suinos/criacao-de-galinhas-exige-galpao-orientado-no-sentido-leste-oeste-e-manejo-adequado/",
      "source": "Canal Rural",
      "published_at": "2026-08-11T13:55:03+00:00"
-    },
-    {
-     "title": "JBS bate recorde de receita e fatura US$ 23,9 bilhões no segundo trimestre",
-     "link": "https://www.canalrural.com.br/economia/jbs-bate-recorde-de-receita-e-fatura-us-239-bilhoes-no-segundo-trimestre/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T13:53:30+00:00"
-    },
-    {
-     "title": "São Martinho tem lucro de R$ 38,1 milhões no 1º tri da safra 2026/27",
-     "link": "https://www.canalrural.com.br/economia/sao-martinho-tem-lucro-de-r-381-milhoes-no-1o-tri-da-safra-2026-27/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T13:46:58+00:00"
-    },
-    {
-     "title": "BNDES aprova R$ 53,99 milhões para modernizar irrigação e energia da Agrovale",
-     "link": "https://www.canalrural.com.br/agricultura/bndes-aprova-r-5399-milhoes-para-modernizar-irrigacao-e-energia-da-agrovale/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T13:45:43+00:00"
     },
     {
      "title": "Mel de soja? Produto é resultado de parceria improvável na Fronteira Oeste - GZH",
@@ -550,12 +556,6 @@
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUUZYdFlVSzA5M2xrdHZfMUt6bVlVTGFPX0Q5UnNzOUItSzBRdnlyWjVQVmNzR3ZTTUpfVjAzZHNpcnpLalF4SmRGclRfcjg4NDU3dGJEN255dWd5RWcxRzNHM3EtcXNaUjlycy14bkN4WlVSQVJYNmpQZldLTThXWkRRTFR5dS02UjBNVFljUHUtVHMwNTExRG41MFd6dW53S0ZwNG84SkVpSGktSEpaNEZVLUpybDlBQTNBbnFhUmptZw?oc=5",
      "source": "JOTA Info",
      "published_at": "2026-08-11T08:30:23+00:00"
-    },
-    {
-     "title": "Estudo identifica linhagens de soja tolerantes a percevejos - Agência FAPESP",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNjhtSXdmT3M1b0QtOTk4UlowS050NFpoRTRTME9XQngtVVZoN1dLSFdzT0ZhcE5ScmpkQ2xlTFBwa3J5am9oXy1JdGJEQW8xLVMxZmNvWXVUeG81R1NGVnhmYkFURVF1VTFfeXdVUXVGNzJHN2tOWHgxeDZubzk1RThXVEdvMHMtRWVjSk9jelhpalRmM1E?oc=5",
-     "source": "Agência FAPESP",
-     "published_at": "2026-08-11T03:01:28+00:00"
     },
     {
      "title": "Quem é Wesley Batista Filho, que será o novo CEO global da JBS",

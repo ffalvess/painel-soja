@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-11T21:39:49+00:00",
+ "generated_at": "2026-08-11T22:35:13+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-11T21:39:39+00:00",
+   "updated_at": "2026-08-11T22:35:05+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.95,
+     "price": 89.29,
      "prev_close": 87.72,
-     "change_pct": 1.4,
+     "change_pct": 1.79,
      "closes": [
       83.3,
       84.73,
@@ -193,7 +193,7 @@
       82.49,
       83.55,
       87.72,
-      88.95
+      89.29
      ]
     },
     {
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-11T21:39:39+00:00",
+   "updated_at": "2026-08-11T22:35:06+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-11T21:39:44+00:00",
+   "updated_at": "2026-08-11T22:35:10+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,8 +405,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-11T21:39:49+00:00",
+   "updated_at": "2026-08-11T22:35:13+00:00",
    "items": [
+    {
+     "title": "Senado aprova projeto que cria o Profert e envia texto à sanção",
+     "link": "https://www.canalrural.com.br/politica/senado-aprova-projeto-que-cria-o-profert-e-envia-texto-a-sancao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T22:20:29+00:00"
+    },
+    {
+     "title": "Cotação do boi gordo: escalas de abate exercem pressão na arroba; veja os preços",
+     "link": "https://www.canalrural.com.br/pecuaria/cotacao-do-boi-gordo-escalas-de-abate-exercem-pressao-na-arroba-veja-os-precos/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T22:13:16+00:00"
+    },
+    {
+     "title": "Profert é aprovado no Senado e segue para sanção presidencial",
+     "link": "https://www.canalrural.com.br/politica/profert-e-aprovado-no-senado-e-segue-para-sancao-presidencial/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T21:38:03+00:00"
+    },
     {
      "title": "Mercado tem negócios pontuais, enquanto produtores seguem firmes antes do relatório do USDA",
      "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/mercado-tem-negocios-pontuais-enquanto-produtores-seguem-firmes-antes-do-relatorio-do-usda/",
@@ -444,8 +462,14 @@
      "published_at": "2026-08-11T21:02:00+00:00"
     },
     {
-     "title": "Gordura do boi no sabonete? Entenda como a indústria transforma a matéria-prima",
-     "link": "https://www.canalrural.com.br/curiosidades/gordura-do-boi-no-sabonete-entenda-como-a-industria-transforma-a-materia-prima/",
+     "title": "Futuros de canola da ICE caem com recuo do óleo de soja - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcUlITHN0ZE1vZ0p1amdyZF80YXZHOFdsaTZKS1pubkFYVW02UDc2TmowbGVjREpkdElIeGgxN1BYOXRQWHJyQUgyVDRxOHVoa1VMZDZibU5mRW5zNEo5Sm5JVi1yYmszWFNJNC1aQ0VERG1GM3gxcGhxNnYxeGU2dmhhR0ZmT25oZ1hJZ1hVZVZEbXNHeVMxRFNqdEFFcHBnM0lXRUlDX1NUTU9oUjZFdm5LWjNKQQ?oc=5",
+     "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "published_at": "2026-08-11T21:02:00+00:00"
+    },
+    {
+     "title": "Gordura do boi no sabonete? Entenda como o subproduto da carne ganha uma nova função",
+     "link": "https://www.canalrural.com.br/curiosidades/gordura-do-boi-no-sabonete-entenda-como-o-subproduto-da-carne-ganha-uma-nova-funcao/",
      "source": "Canal Rural",
      "published_at": "2026-08-11T20:57:02+00:00"
     },
@@ -474,33 +498,15 @@
      "published_at": "2026-08-11T20:25:05+00:00"
     },
     {
-     "title": "Noruega suspende importação de carne brasileira a partir de setembro",
-     "link": "https://www.canalrural.com.br/videos/noruega-suspende-importacao-de-carne-brasileira-a-partir-de-setembro/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T20:15:50+00:00"
-    },
-    {
-     "title": "Brasil e China acionam OMC contra tarifas dos Estados Unidos",
-     "link": "https://www.canalrural.com.br/videos/brasil-e-china-acionam-omc-contra-tarifas-dos-estados-unidos/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T20:15:40+00:00"
-    },
-    {
-     "title": "Colheita do milho segunda safra avança em Mato Grosso, mas enfrenta desafios",
-     "link": "https://www.canalrural.com.br/videos/colheita-do-milho-segunda-safra-avanca-em-mato-grosso-mas-enfrenta-desafios/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T20:15:30+00:00"
-    },
-    {
      "title": "Soja recua em Chicago, mas dólar e prêmios sustentam preços no Brasil perto dos R$ 150 nos portos - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdXlOS3dFRjN5Q0ZTcFcyQXRYNEFySXhoSHhVQUFGNk05ay10NHJFSndqcHFCLU13cWVYRTZyS1YxaG1CWDdYRGlMQkNGVTJ3anVoRHlYX3lLVktDR2RiamJLa0Z4azY4SktXbDdtaUkxV19VOF9MS0lQQmx1b0JjLWxNOWNrdS1UNlRpdXdNV0ZxXy1DbDJ1Vi1WanFTdkd2R2hQX0xXQXZxTFktYVBpbS1yLXJYTDJLbG92U0hrdHdzQjVwUFU2NlI3dTU2R1QzXzlndU1KSGdnZTJWUlZpcmU0M01PaG9HSHljR2Yzc9IB9AFBVV95cUxOcHZGRDc2dm5nbGtrNFNka1lFdDN2d2pGN1lRZEgweGVlSl91R0ozTjMxVDVMQ2FBYzlweWhzbFhldUtlSk9EZWdkZ1hQWTgxdUd5VDRrQ01QaEFzXzBXd0dYeGl0Y1RuSmlDSnNVb0ZqWXdFbDRrWDV1YU1UU1k5SXpmbVhHbHF2M3V5S1JjQzJSWXo2d1l0VTk5dmpVTmd1bzNtbkVwSW9IbzRvNE5hMmdPY3B2VUIyRzJOTUJaOFhOMHY4RzZhZmZwNWhJRUZzMk1ramNDa0s5RGFQaGwySUwyV1MxeVZQazE3eWQxZy03WW9W?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-11T20:07:54+00:00"
     },
     {
-     "title": "Projeto Soja Brasil completa 15 anos e inicia nova temporada de produção - Canal Rural",
+     "title": "Projeto Soja Brasil completa 15 anos e inicia nova temporada de produção - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTHJKS3hoanZiRGhRVEJxdXFGTENheTZlVWdnRUhOWWRNajBIRkVUNE5uNkdTVFN3Y0NQcE9QZzd3NzhzZml0OWlGQkxZWFJ6MFp3UUFHenVjS0RWZ0lTR3d5VWdzWm1GMXB5cXdnUlF3NHByRzFXSVcwS1BDaHQxbUZzWmFOeC1XMDJOZi1EWEs5aWd0elF0U1pSbzl4WkJ6STFUMnpUNmNWMXQ3V29F?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-11T20:05:23+00:00"
     },
     {
@@ -510,9 +516,9 @@
      "published_at": "2026-08-11T19:24:40+00:00"
     },
     {
-     "title": "Os reis da soja! Veja a lista dos 20 municípios que mais produzem o grão - Canal Rural",
+     "title": "Os reis da soja! Veja a lista dos 20 municípios que mais produzem o grão - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOE12cUZ5MExmbUp4SFI2RGZ0RkszM2Rla3hhTXA1ejY0aHhPUWJ6OUtnVlVsMlczZmhFZE1XOGRwQndLc3kzVy1HMEhQLTF3Qi1sX1A3UlhmaVQyUS05YTZ2c2d2endXZi1sR2tFaXBkc2ZSMFoza1QzYk83OVNQZ1Y5VzNQUDg1Xzh5dE5kOWxmdldaUE53RTJSODJwSWFrenZrb3dEM0pVaTlxY2RqbTl3XzY?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-11T18:22:30+00:00"
     },
     {
@@ -526,12 +532,6 @@
      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZTRMd3oxX1kzakd0OUJrODZvYnlEaDBLZzMzTjhTOEJ2Ynd5LTZON3N6UDV1LXJ5a3FQT21zWmJ0c0RLQlVPYkpTTUdVSW5DdHN6UHFlX0Y5WlBrYTZEWENaQ3daQjBmWUVhcDhjY1BQU3gwY3JDMkViYVYxaWltUGNmdlN1LWtKM2E5OE1LVTFBbG92YnM2TnVBd29yakpHYnNLdXpmMUExU1JKaTltVGxtWGViQkxFX2VKR3dNaHRhcllpdTJ0WQ?oc=5",
      "source": "O Joio e O Trigo",
      "published_at": "2026-08-11T17:02:12+00:00"
-    },
-    {
-     "title": "Pesquisa aponta linhagens de soja tolerantes a percevejos - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORmlPWjdmYkVfU0pJSjVuU1d0MlA1dXY2dlV4VUhtZF9PM2c1Q2l1SGlmaGFfZkR4d2xLa0Z5NFdXT2xiQ2lrS1lTZzgtMGJLZm5jVEItSzhsVkhsRGdoamRROU5HT0I1RkJiWGZSX1JXcFdHNVpPU0FaRWNJX2ZPekJBUUE2dHduN1ZqRE10VTdHaHZUNkdjN3A4c3dGdw?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-08-11T16:49:03+00:00"
     },
     {
      "title": "Depois do foie gras, quais práticas de criação e abate de animais podem ser proibidas?",

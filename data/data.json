@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-11T22:35:13+00:00",
+ "generated_at": "2026-08-11T23:33:37+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-11T22:35:05+00:00",
+   "updated_at": "2026-08-11T23:33:30+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 89.29,
+     "price": 89.23,
      "prev_close": 87.72,
-     "change_pct": 1.79,
+     "change_pct": 1.72,
      "closes": [
       83.3,
       84.73,
@@ -193,7 +193,7 @@
       82.49,
       83.55,
       87.72,
-      89.29
+      89.23
      ]
     },
     {
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-11T22:35:06+00:00",
+   "updated_at": "2026-08-11T23:33:30+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-11T22:35:10+00:00",
+   "updated_at": "2026-08-11T23:33:34+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,8 +405,50 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-11T22:35:13+00:00",
+   "updated_at": "2026-08-11T23:33:37+00:00",
    "items": [
+    {
+     "title": "México e Chile querem ampliar vendas de frutas e hortaliças para o Brasil",
+     "link": "https://www.canalrural.com.br/agricultura/mexico-e-chile-querem-ampliar-vendas-de-frutas-e-hortalicas-para-o-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T23:27:48+00:00"
+    },
+    {
+     "title": "El Niño pode intensificar ondas de calor, secas e incêndios no Brasil",
+     "link": "https://www.canalrural.com.br/diversos/el-nino-pode-intensificar-ondas-de-calor-secas-e-incendios-no-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T23:27:31+00:00"
+    },
+    {
+     "title": "Farsul propõe alterações na MP de renegociação de dívidas rurais",
+     "link": "https://www.canalrural.com.br/videos/farsul-propoe-alteracoes-na-mp-de-renegociacao-de-dividas-rurais/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T23:15:20+00:00"
+    },
+    {
+     "title": "Farsul propõe mudanças na MP de renegociação das dívidas rurais",
+     "link": "https://www.canalrural.com.br/videos/farsul-propoe-mudancas-na-mp-de-renegociacao-das-dividas-rurais/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T23:15:09+00:00"
+    },
+    {
+     "title": "Preço da soja recua no Brasil após quatro altas consecutivas",
+     "link": "https://www.canalrural.com.br/videos/preco-da-soja-recua-no-brasil-apos-quatro-altas-consecutivas/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T23:05:35+00:00"
+    },
+    {
+     "title": "El Niño deve ser o mais forte desde 1950 e durar até o outono de 2027",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/el-nino-deve-ser-o-mais-forte-desde-1950-e-durar-ate-o-outono-de-2027/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T22:44:08+00:00"
+    },
+    {
+     "title": "Banco do Nordeste e Itaú financiam R$ 44 mi para soja em área de conflito agrário no Maranhão - O Joio e O Trigo",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZTRMd3oxX1kzakd0OUJrODZvYnlEaDBLZzMzTjhTOEJ2Ynd5LTZON3N6UDV1LXJ5a3FQT21zWmJ0c0RLQlVPYkpTTUdVSW5DdHN6UHFlX0Y5WlBrYTZEWENaQ3daQjBmWUVhcDhjY1BQU3gwY3JDMkViYVYxaWltUGNmdlN1LWtKM2E5OE1LVTFBbG92YnM2TnVBd29yakpHYnNLdXpmMUExU1JKaTltVGxtWGViQkxFX2VKR3dNaHRhcllpdTJ0WQ?oc=5",
+     "source": "O Joio e O Trigo",
+     "published_at": "2026-08-11T22:29:21+00:00"
+    },
     {
      "title": "Senado aprova projeto que cria o Profert e envia texto à sanção",
      "link": "https://www.canalrural.com.br/politica/senado-aprova-projeto-que-cria-o-profert-e-envia-texto-a-sancao/",
@@ -438,58 +480,16 @@
      "published_at": "2026-08-11T21:21:24"
     },
     {
-     "title": "CNA e CACB lançam Painel Gasto Brasil no Congresso Nacional",
-     "link": "https://www.canalrural.com.br/economia/cna-e-cacb-lancam-painel-gasto-brasil-no-congresso-nacional/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T21:20:07+00:00"
-    },
-    {
-     "title": "Juros futuros sobem com rebaixamento do JPMorgan e cenário eleitoral",
-     "link": "https://www.canalrural.com.br/economia/juros-futuros-sobem-com-rebaixamento-do-jpmorgan-e-cenario-eleitoral/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T21:18:18+00:00"
-    },
-    {
-     "title": "PLP dos combustíveis deve incluir Profert, minerais críticos e isenções da Copa Feminina",
-     "link": "https://www.canalrural.com.br/politica/plp-dos-combustiveis-deve-incluir-profert-minerais-criticos-e-isencoes-da-copa-feminina/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T21:12:27+00:00"
-    },
-    {
      "title": "Painel S.A.: Gestora analisa R$ 1,5 bilhão de reestruturação financeira para produtores de soja endividados - Folha de S.Paulo",
      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQajE1bDBHc2lldXZPUFRhMFI1b3IzdkVNU3d2UlJoMjlhUWI2ZzcyanFPa0tnNmhNWk5PRU95N3dXeWxYbkRfNnZITTVGZnlwQTZWczNZTjVjMWlvRVFzVGU1QmFqaW1sTGlhYThsakgxakk4SFlKODEtWEVDQlBFSEdLNExiV0FrSEV6ZmRxdi00cHlXa04xM0FiaDBZaVE3eWN6amY5X0hfb1U0MnpRV2Y0TDBuR0g4SHY0b2h5amExcVBKblVjUTBlUWlwT3QzRXp5UGE5UzE4b2JIaVIyMDZoQkJZcVhY?oc=5",
      "source": "Folha de S.Paulo",
      "published_at": "2026-08-11T21:02:00+00:00"
     },
     {
-     "title": "Futuros de canola da ICE caem com recuo do óleo de soja - Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcUlITHN0ZE1vZ0p1amdyZF80YXZHOFdsaTZKS1pubkFYVW02UDc2TmowbGVjREpkdElIeGgxN1BYOXRQWHJyQUgyVDRxOHVoa1VMZDZibU5mRW5zNEo5Sm5JVi1yYmszWFNJNC1aQ0VERG1GM3gxcGhxNnYxeGU2dmhhR0ZmT25oZ1hJZ1hVZVZEbXNHeVMxRFNqdEFFcHBnM0lXRUlDX1NUTU9oUjZFdm5LWjNKQQ?oc=5",
-     "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "published_at": "2026-08-11T21:02:00+00:00"
-    },
-    {
-     "title": "Gordura do boi no sabonete? Entenda como o subproduto da carne ganha uma nova função",
-     "link": "https://www.canalrural.com.br/curiosidades/gordura-do-boi-no-sabonete-entenda-como-o-subproduto-da-carne-ganha-uma-nova-funcao/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T20:57:02+00:00"
-    },
-    {
      "title": "Soja recua 0,91% em Chicago antes de relatório de oferta e demanda do USDA - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPR0FsUlBVNnZ5eFhMeFM4RnFPVm1saGxjYzJRa3NpcE1RbnhwaHdMeFdRWFVCNl9vMHdqbl9ncnVleHpKS0RQeTNuTWJVaUJqV3UzSlNnY1M3Wk14UXF6TDhZR0hXUFRqQnY2YmpxNVdyYXB4R1NfQ3YyS0lTX1AyUFQxSTBHTU9nTFlGay1oWFk3aFFfSWVLamR1MWJlX2VONHNOMVlHdFl1TTg?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-08-11T20:39:36+00:00"
-    },
-    {
-     "title": "Abertura Nacional do Plantio da Soja 26/27 acontece em setembro; saiba como se inscrever gratuitamente",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/abertura-nacional-do-plantio-da-soja-26-27-acontece-em-setembro-saiba-como-se-inscrever-gratuitamente/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T20:35:34+00:00"
-    },
-    {
-     "title": "Índice de preços Ceagesp cai 0,24% em julho",
-     "link": "https://www.canalrural.com.br/economia/indice-de-precos-ceagesp-cai-024-em-julho/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T20:28:02+00:00"
     },
     {
      "title": "Argentina deve aumentar área plantada com soja e milho na safra 2026/27 - Globo Rural",
@@ -504,10 +504,16 @@
      "published_at": "2026-08-11T20:07:54+00:00"
     },
     {
-     "title": "Projeto Soja Brasil completa 15 anos e inicia nova temporada de produção - canalrural.com.br",
+     "title": "Projeto Soja Brasil completa 15 anos e inicia nova temporada de produção - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTHJKS3hoanZiRGhRVEJxdXFGTENheTZlVWdnRUhOWWRNajBIRkVUNE5uNkdTVFN3Y0NQcE9QZzd3NzhzZml0OWlGQkxZWFJ6MFp3UUFHenVjS0RWZ0lTR3d5VWdzWm1GMXB5cXdnUlF3NHByRzFXSVcwS1BDaHQxbUZzWmFOeC1XMDJOZi1EWEs5aWd0elF0U1pSbzl4WkJ6STFUMnpUNmNWMXQ3V29F?oc=5",
-     "source": "canalrural.com.br",
+     "source": "Canal Rural",
      "published_at": "2026-08-11T20:05:23+00:00"
+    },
+    {
+     "title": "Plantio de soja em áreas desmatadas na Amazônia acelerou após primeiras ações contra Moratória - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOX2lxLXhDMk1wLWtuWTRNM0xpQzJQR0FMUGRuVjFaaFZJMkVjWHYxejhSc213NWh6TGo1VWJJSWVleEZNdVItZDVoN0tjdTh3Ulc3SVFuYk1NMkxVRHJ0dGdjMi1FQUtWMzlkY0hJX1pNcXZ1NE56MkU0Wk9oelJWaVlPbjI4SERtZEtXRHktZXhpdHBZXzBxRncyOTRQWWZxbmVRMFl2b1pWbW5nbVY2aHBLMTF5NGJZTEZZV1BkWWk1Y2RfV1R0M05JZFJxaXZNN1I4MDhyOUhsM0R5VFFlMURSaEhqS3hacGJ6UVowZzJhOGNwdWc0RHdrVmVlcGJ6S0JQOUJn0gGUAkFVX3lxTE9fejQtR2pmTTUzMW5lamhJY3RHS0RfRVpuTm83WHhXdE9CVHlYSGdvaWoxVUJPOGtpQXI1ZmtrcTEtcExzY1p3bGkzQUtaSWQwTVVvOUdkSVRVaXdubVRjUkFmRlpuU3JBTjd3Y2xxWndqTGRZTEx0NzJSa0taRFBtZzJ1bGNiOF9EMU1kaUpueHVqUkh2OTNrM29CV1NxNi1wc3VZMTVIcmNoRTI1X2ZTUy1ubkM2NXlRd3N4a3EzMXBqbmk2MGxQd0pnU0NYSVpXbDFtd2R3VEZmeWZaTzIzZnZjSGZmWmhCa19CWmJicjZzMnFleDdzX3huVlpiSV9fSnJ1ajhqOXBVakpUMzYyWl9MdA?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-11T20:04:55+00:00"
     },
     {
      "title": "O STF, a Moratória da Soja e os limites constitucionais à punição de compromissos ambientais voluntários - Diplomatique",
@@ -516,9 +522,9 @@
      "published_at": "2026-08-11T19:24:40+00:00"
     },
     {
-     "title": "Os reis da soja! Veja a lista dos 20 municípios que mais produzem o grão - canalrural.com.br",
+     "title": "Os reis da soja! Veja a lista dos 20 municípios que mais produzem o grão - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOE12cUZ5MExmbUp4SFI2RGZ0RkszM2Rla3hhTXA1ejY0aHhPUWJ6OUtnVlVsMlczZmhFZE1XOGRwQndLc3kzVy1HMEhQLTF3Qi1sX1A3UlhmaVQyUS05YTZ2c2d2endXZi1sR2tFaXBkc2ZSMFoza1QzYk83OVNQZ1Y5VzNQUDg1Xzh5dE5kOWxmdldaUE53RTJSODJwSWFrenZrb3dEM0pVaTlxY2RqbTl3XzY?oc=5",
-     "source": "canalrural.com.br",
+     "source": "Canal Rural",
      "published_at": "2026-08-11T18:22:30+00:00"
     },
     {
@@ -528,10 +534,10 @@
      "published_at": "2026-08-11T17:11:52+00:00"
     },
     {
-     "title": "Banco do Nordeste e Itaú financiam R$ 44 mi para soja em área de conflito agrário no Maranhão - O Joio e O Trigo",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZTRMd3oxX1kzakd0OUJrODZvYnlEaDBLZzMzTjhTOEJ2Ynd5LTZON3N6UDV1LXJ5a3FQT21zWmJ0c0RLQlVPYkpTTUdVSW5DdHN6UHFlX0Y5WlBrYTZEWENaQ3daQjBmWUVhcDhjY1BQU3gwY3JDMkViYVYxaWltUGNmdlN1LWtKM2E5OE1LVTFBbG92YnM2TnVBd29yakpHYnNLdXpmMUExU1JKaTltVGxtWGViQkxFX2VKR3dNaHRhcllpdTJ0WQ?oc=5",
-     "source": "O Joio e O Trigo",
-     "published_at": "2026-08-11T17:02:12+00:00"
+     "title": "Imea relata avanços nas vendas de soja, milho e algodão após melhora dos preços no Mato Grosso - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPQ19FLUlwbzlNSDZDS204NW00WFFGcTlVanhmZ3huSGUzalAxV1hUZEJLcGlEVU5rY3dsMG9FLVdTaGlUWmRycS1fWjJqeGE4aDhnVlpwU2p6RUk0Zm1mT2VnUkVHdlpWenNqMFJYSnlDb2JEU0hXRmVKRGcxV19GM0Nxc3JPVC11dUR4R1Aydkk0amlwd25saGN1b2s5MC1pZ29kUlpmUDN2R0gwR2NRcUJ0bmdwQS1CcnVKcXpheVF5ZWk2Sk1QVjd1QXNPUXpQZHBGRTFyUzg3Y28tN3daNXlGWEVvLXB2TmN6Qk1R0gHzAUFVX3lxTE5QbExKN0szTXF0NXluS2k3QU5ySG4xQ3FlM3NsdlNiQUtPZ3Z6Um01QzN3Y2pVUmF6SG1GbW5mSnFPVzJWZ0x2QmxwTTd4bG1maVl2RDFHbHpEQ3pzT0xLaGNoTTVqaFBvb1ZSQThnaTgzQUNJdW1tenpRT2hGR2hoVEdqZzNJdGc4NWItYWw0bjJ0VExpZUd1di1CVEEzZnlfT29mb09rb3NUZXVBRUhEcVp3MXFjU29ZdEF4cnFDeThLUmpXUnllWlRRWklKMVg0aEhxWTBDVXdsWkRWX2NCbG9pSjAzaFowVGVlbW5oeHNrTQ?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-11T16:23:14+00:00"
     },
     {
      "title": "Depois do foie gras, quais práticas de criação e abate de animais podem ser proibidas?",
@@ -550,12 +556,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/11/noruega-tambem-vai-deixar-de-comprar-carne-do-brasil-a-partir-de-setembro-apos-decisao-da-ue.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-11T11:28:41"
-    },
-    {
-     "title": "SOJA E TRIGO: confira cotações para esta terça-feira (11) - Conexão Itajubá",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaU9JUkR3RktRazE1WnVRUmF0SFFRdm4tU0ViQzNlakRjbk9zMl9QMG96ZU1hT1JrTXBKa0QxaGdJRDkycXBReVJyMkJwVEZnVVNpeVJBNm5nbFpXY3JzdS14NGt4MXViaWhZNDVOenkwbE9CdVhWeU1qZmRtMTByMTBNUTNfVGJVOXNXQmhLWU81UzFBNUFjQnJwOTZCZ2VWSWZjOGlpLVM?oc=5",
-     "source": "Conexão Itajubá",
-     "published_at": "2026-08-11T11:02:25+00:00"
     },
     {
      "title": "Sucessão na JBS marca volta da família Batista ao comando, diz Financial Times",

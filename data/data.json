@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-11T12:50:54+00:00",
+ "generated_at": "2026-08-11T14:15:39+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-11T12:50:48+00:00",
+   "updated_at": "2026-08-11T14:15:30+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1176.0,
+     "price": 1172.5,
      "prev_close": 1157.75,
-     "change_pct": 1.58,
+     "change_pct": 1.27,
      "closes": [
       1202.0,
       1207.25,
@@ -33,7 +33,7 @@
       1157.25,
       1156.5,
       1157.75,
-      1176.0
+      1172.5
      ]
     },
     {
@@ -72,9 +72,9 @@
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 311.5,
+     "price": 311.8,
      "prev_close": 303.7,
-     "change_pct": 2.57,
+     "change_pct": 2.67,
      "closes": [
       316.8,
       319.6,
@@ -97,16 +97,16 @@
       310.7,
       308.1,
       303.7,
-      311.5
+      311.8
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 68.54,
+     "price": 67.55,
      "prev_close": 69.46,
-     "change_pct": -1.32,
+     "change_pct": -2.75,
      "closes": [
       73.04,
       73.04,
@@ -129,16 +129,16 @@
       67.7,
       68.16,
       69.46,
-      68.54
+      67.55
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 634.25,
+     "price": 631.25,
      "prev_close": 640.5,
-     "change_pct": -0.98,
+     "change_pct": -1.44,
      "closes": [
       627.0,
       631.25,
@@ -161,16 +161,16 @@
       631.25,
       639.75,
       640.5,
-      634.25
+      631.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 87.82,
+     "price": 87.44,
      "prev_close": 87.72,
-     "change_pct": 0.11,
+     "change_pct": -0.32,
      "closes": [
       83.3,
       84.73,
@@ -193,18 +193,17 @@
       82.49,
       83.55,
       87.72,
-      87.82
+      87.44
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 172179.94,
-     "prev_close": 172513.0,
-     "change_pct": -0.19,
+     "price": 171260.95,
+     "prev_close": 172180.0,
+     "change_pct": -0.53,
      "closes": [
-      177866.0,
       175739.0,
       176641.0,
       176011.0,
@@ -225,7 +224,8 @@
       177726.0,
       175546.0,
       172513.0,
-      172180.0
+      172180.0,
+      171260.9531
      ]
     }
    ],
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-11T12:50:48+00:00",
+   "updated_at": "2026-08-11T14:15:30+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-11T12:50:52+00:00",
+   "updated_at": "2026-08-11T14:15:37+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,8 +405,68 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-11T12:50:54+00:00",
+   "updated_at": "2026-08-11T14:15:39+00:00",
    "items": [
+    {
+     "title": "Cientistas identificam ‘impressão digital química’ para rastrear a origem do pescado",
+     "link": "https://www.canalrural.com.br/agricultura/cientistas-identificam-impressao-digital-quimica-para-rastrear-aorigem-do-pescado/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T13:57:00+00:00"
+    },
+    {
+     "title": "Criação de galinhas exige galpão orientado no sentido leste-oeste e manejo adequado",
+     "link": "https://www.canalrural.com.br/aves-e-suinos/criacao-de-galinhas-exige-galpao-orientado-no-sentido-leste-oeste-e-manejo-adequado/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T13:55:03+00:00"
+    },
+    {
+     "title": "JBS bate recorde de receita e fatura US$ 23,9 bilhões no segundo trimestre",
+     "link": "https://www.canalrural.com.br/economia/jbs-bate-recorde-de-receita-e-fatura-us-239-bilhoes-no-segundo-trimestre/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T13:53:30+00:00"
+    },
+    {
+     "title": "Anec eleva previsão de exportação de soja e milho do Brasil em agosto Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQVVRRDFKdU9nOGJCYk1qTXhZd2pONVpZQkttbExSbnlRT0E0UENvNHh0cUpkUlVQQmZiV2ltTzkwMEFfMmRic1Z3blE2VUtRcWN3UWN5MUJzNnJiTENnVDduYUZBTG5Idk5IdG9PSjVFZUZrRG1oaGRGdVBRd2pzalVrQWh1cHF1Tzk2ZlEweU1HbGU5YjhwTDM4UExTR0VXRHpTRUoyWkJjSDZNTUNyX19QMFpnQ2VkT01pYg?oc=5",
+     "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "published_at": "2026-08-11T13:53:00+00:00"
+    },
+    {
+     "title": "São Martinho tem lucro de R$ 38,1 milhões no 1º tri da safra 2026/27",
+     "link": "https://www.canalrural.com.br/economia/sao-martinho-tem-lucro-de-r-381-milhoes-no-1o-tri-da-safra-2026-27/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T13:46:58+00:00"
+    },
+    {
+     "title": "BNDES aprova R$ 53,99 milhões para modernizar irrigação e energia da Agrovale",
+     "link": "https://www.canalrural.com.br/agricultura/bndes-aprova-r-5399-milhoes-para-modernizar-irrigacao-e-energia-da-agrovale/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T13:45:43+00:00"
+    },
+    {
+     "title": "Mel de soja? Produto é resultado de parceria improvável na Fronteira Oeste - GZH",
+     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOVXRkMG9DQ0xqSkxpUG5JeGMzeXB5UkhqbUNpZktsVU5QU19wZjB4VHl1Nk1vd0Q5ZTR2cTVPMnJWVk82LWgtbk5kMEpRVnFENXpvLUpJbUlfNTJfSVVNTFMtMjI1VTl0X0VrRnpjQms1VkhRb1pCM1ZydmNkUk5kcGt4SVUwQlRjRlV5a2hJME04R2NObXZvaTI3THF6bnZFSWVUVWlaX2xMTGliVFBDRzh5R0E0MW1zTk45ZzVZWnJFZGNXQl90S3plbUtDYnpOcENFcU10SXp2dGp4ODFzbU5nSkZISVBrRnYtTkdnb1BtTFd0NG9KOUE4ZTluUjdrYWtjQjFXSGp0Z2s?oc=5",
+     "source": "GZH",
+     "published_at": "2026-08-11T13:33:11+00:00"
+    },
+    {
+     "title": "Ata do Copom e IPCA de julho orientam mercado de juros nesta terça-feira",
+     "link": "https://www.canalrural.com.br/economia/ata-do-copom-e-ipca-de-julho-orientam-mercado-de-juros-nesta-terca-feira/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T13:17:30+00:00"
+    },
+    {
+     "title": "China se aproxima do Brasil na OMC e expõe o desgaste das tarifas de Trump",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/china-se-aproxima-do-brasil-na-omc-e-expoe-o-desgaste-das-tarifas-de-trump/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T13:02:01+00:00"
+    },
+    {
+     "title": "Soja: Chuvas nos EUA pressionam futuros - Sociedade Nacional de Agricultura",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMOHF1Q0xvdzZ3cmg4TGlhazdqV1BybDV6MndVTk52VnhnNlRkVXFPa3VHRWYzSkVmLUllUVpqNVotX3Q2MjdsRlRMM2ZYbjhITG5SWHZFcTQyWWgxeFVoMEl2T0gxMVFsZXc?oc=5",
+     "source": "Sociedade Nacional de Agricultura",
+     "published_at": "2026-08-11T12:58:00+00:00"
+    },
     {
      "title": "Depois do foie gras, quais práticas de criação e abate de animais podem ser proibidas?",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/11/depois-do-foie-gras-quais-praticas-de-criacao-e-abate-de-animais-podem-ser-proibidas.ghtml",
@@ -432,9 +492,9 @@
      "published_at": "2026-08-11T12:01:23"
     },
     {
-     "title": "Clima nos EUA influencia soja e oferta pressiona milho no Brasil - feedfood.com.br",
+     "title": "Clima nos EUA influencia soja e oferta pressiona milho no Brasil - Feed&Food",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTHh2elJfcjhoNzBsR19oQW94N3FNcE4wOUtGUXoxNEx0NldLdHRkNlBBbWdXU1czNXdTbkc3TlFkSEtCdk9XZmRQRERmWjNYeFQ4N0EteUprRFd1b0UybU5iOTRHMEFZcVdqMGJOdTB6OEFxemdHVVQ5cHAtN0NkblJxcUJYWHNLbTc2NjEtbm5Yamk3cmhpYm1KVGRWLVlZVFFaaA?oc=5",
-     "source": "feedfood.com.br",
+     "source": "Feed&Food",
      "published_at": "2026-08-11T12:01:00+00:00"
     },
     {
@@ -444,46 +504,10 @@
      "published_at": "2026-08-11T11:52:57+00:00"
     },
     {
-     "title": "IGP-M sobe 0,26% na 1ª prévia de agosto, informa FGV",
-     "link": "https://www.canalrural.com.br/economia/igp-m-sobe-026-na-1a-previa-de-agosto-informa-fgv/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T11:41:54+00:00"
-    },
-    {
-     "title": "Copom reafirma cautela e reduz Selic para 14,00%",
-     "link": "https://www.canalrural.com.br/economia/copom-reafirma-cautela-e-reduz-selic-para-1400/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T11:32:25+00:00"
-    },
-    {
-     "title": "Baixa umidade avança no Centro-Oeste, enquanto Sul terá frio e chuva",
-     "link": "https://www.canalrural.com.br/diversos/baixa-umidade-avanca-no-centro-oeste-enquanto-sul-tera-frio-e-chuva/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T11:29:52+00:00"
-    },
-    {
      "title": "Noruega também vai deixar de comprar carne do Brasil a partir de setembro após decisão da UE",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/11/noruega-tambem-vai-deixar-de-comprar-carne-do-brasil-a-partir-de-setembro-apos-decisao-da-ue.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-11T11:28:41"
-    },
-    {
-     "title": "Decreto regulamenta subvenção a produtores independentes de cana do Nordeste",
-     "link": "https://www.canalrural.com.br/politica/decreto-regulamenta-subvencao-a-produtores-independentes-de-cana-do-nordeste/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T11:19:10+00:00"
-    },
-    {
-     "title": "Temporais e granizo atingem o Sul nesta terça-feira; veja a previsão do tempo",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/temporais-e-granizo-atingem-o-sul-nesta-terca-feira-veja-a-previsao-do-tempo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T11:17:59+00:00"
-    },
-    {
-     "title": "Diário Econômico: Ibovespa cai pela 5ª vez; IPCA e Copom entram no radar",
-     "link": "https://www.canalrural.com.br/economia/diario-economico-ibovespa-cai-pela-5a-vez-ipca-e-copom-entram-no-radar/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T11:12:39+00:00"
     },
     {
      "title": "SOJA E TRIGO: confira cotações para esta terça-feira (11) - Conexão Itajubá",
@@ -516,12 +540,6 @@
      "published_at": "2026-08-11T09:15:08+00:00"
     },
     {
-     "title": "Bolsas da Ásia fecham mistas com impasse no Estreito de Ormuz",
-     "link": "https://www.canalrural.com.br/economia/bolsas-da-asia-fecham-mistas-com-impasse-no-estreito-de-ormuz/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T08:58:19+00:00"
-    },
-    {
      "title": "Amazônia à beira do colapso: por que a Moratória da Soja deveria ser retomada - JOTA Info",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUUZYdFlVSzA5M2xrdHZfMUt6bVlVTGFPX0Q5UnNzOUItSzBRdnlyWjVQVmNzR3ZTTUpfVjAzZHNpcnpLalF4SmRGclRfcjg4NDU3dGJEN255dWd5RWcxRzNHM3EtcXNaUjlycy14bkN4WlVSQVJYNmpQZldLTThXWkRRTFR5dS02UjBNVFljUHUtVHMwNTExRG41MFd6dW53S0ZwNG84SkVpSGktSEpaNEZVLUpybDlBQTNBbnFhUmptZw?oc=5",
      "source": "JOTA Info",
@@ -540,12 +558,6 @@
      "published_at": "2026-08-11T03:01:28+00:00"
     },
     {
-     "title": "Com alta nas cotações de soja, produtor segue cauteloso; confira as cotações do dia - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOC1XNlhoQkVEX0ViOUtBS0V1cHp6Zk9idVBTVjEtRmkyby1aRGxZV25VdHF5aWs5YU5pbGN2SWIyMl9qcHpaTklOcHZuNE5kek9uX1NyRWItTkV2NnhfM3FtejFydThUbHFRSEkwS1J0WWFBQml2UHh3NF9BNzVFeEMxaHZiOV83YzY5blNQVkNvaE1QNXAyRXJrVGZkMTBtUm5CZGFBalkxOElHYXBYcF9sWHBpZll1OVZZSW5aVUdHRTRmQUVhTU5HQ1BvcTFHRWJnbFRpSXRYcjFO?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-10T21:04:08+00:00"
-    },
-    {
      "title": "Quem é Wesley Batista Filho, que será o novo CEO global da JBS",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/10/quem-e-wesley-batista-filho-que-sera-o-novo-ceo-global-da-jbs.ghtml",
      "source": "G1 Agronegócios",
@@ -556,18 +568,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/10/jbs-wesley-batista-filho-ceo.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-10T20:16:02"
-    },
-    {
-     "title": "Podridão de vagens: produtor deve redobrar atenção na soja - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQk82MWZmdkp0dmZoUTBiUWtGU0ozb1NBMlhuNXM1S1RYb0pVRkU3Rnl4b2sycmwwcGZGT3VlTUZrX2VqcHd3d2MxMGlLbGtYTXk3YkJ0MllEVmd5Z3NybXZWbjcwQTR5ek80T0lfNkRqb1dqeFFwT2FFLWhEZGhXSmFnM2xhaUd4T0lra0N3RkZrZ0R4NG10UGkzSHN2c0w1TEVxNHloYmE1SVk?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-10T19:57:00+00:00"
-    },
-    {
-     "title": "Preços da soja nos portos do Brasil voltam aos R$ 150/sc com altas em Chicago, do dólar e dos prêmios - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQbTh4NE1WcGpQUGlDdm9hYllFbHlkd2NVOFhnSHhBdFVoOGhVWDd3ZndkblZnVEtuZDJkMUk5SjhabVloeHAwNEU0STZNMF8tX2ZxMmZMdExveWFvVHV3V0JXTWJmNGVwTXRiVk9SUUpfazI4eWtEYl9FWDE5UGIwYUMzNWNKYTljRVBqVTVDLWprLWp5WGRyQ1p4NUhBczFTLXIxYUlld3dDZFphcFlDZkh3TGgtYmFKM1AwN0FpXzNnNzZ1Tk9QbTFCOGZJQjRHdDU1dU5scklUb0RBajdQVjJoSmQ3TXZuWWI3NzJfVXNHcHBN0gH6AUFVX3lxTE1qQWpkcm5Zc0JzVzhJU3VmT29wY21JUHVGQTJmcFFmblpLR0ZHVWFjbFZ0ZEFIZU9NcEtMZ3Fnc293MVBvSDVLT083dkJjQ3ZubFVmVHdNVXpxdElfa2ZpTDdkTlZnMWsySktVczhQRnRUbXdVcmpzSHFKaThnX1d5aVRUX1Njb0IwWFBwQ3lPQ2dwcWJWRTk0Ul9mVExFaGdYbkIyNE1zZFRpRGUxbjk5ajhmQUhaWDFleFNQVFpmZWZBZnd1VTFFYVZqSmhsVXphR1pzeGpsVkNDcm1jekJuV1UtcXdlcEhHY2dvOXRUODZpSWZvdmV5aEE?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-10T19:15:51+00:00"
     },
     {
      "title": "A volta por cima dos irmãos Batista: como donos da JBS saíram da Lava Jato e voltaram aos holofotes, com participação até na diplomacia mundial",

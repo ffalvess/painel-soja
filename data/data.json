@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-12T09:55:17+00:00",
+ "generated_at": "2026-08-12T10:55:44+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-12T09:55:11+00:00",
+   "updated_at": "2026-08-12T10:55:35+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1173.75,
+     "price": 1175.25,
      "prev_close": 1147.5,
-     "change_pct": 2.29,
+     "change_pct": 2.42,
      "closes": [
       1202.0,
       1207.25,
@@ -34,16 +34,16 @@
       1156.5,
       1157.75,
       1147.5,
-      1173.75
+      1175.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 464.25,
+     "price": 465.5,
      "prev_close": 436.75,
-     "change_pct": 6.3,
+     "change_pct": 6.58,
      "closes": [
       437.75,
       433.75,
@@ -67,16 +67,16 @@
       439.0,
       438.25,
       436.75,
-      464.25
+      465.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 313.3,
+     "price": 313.5,
      "prev_close": 303.4,
-     "change_pct": 3.26,
+     "change_pct": 3.33,
      "closes": [
       316.8,
       319.6,
@@ -100,16 +100,16 @@
       308.1,
       303.7,
       303.4,
-      313.3
+      313.5
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 68.02,
+     "price": 68.17,
      "prev_close": 68.45,
-     "change_pct": -0.63,
+     "change_pct": -0.41,
      "closes": [
       73.04,
       73.04,
@@ -133,16 +133,16 @@
       68.16,
       69.46,
       68.45,
-      68.02
+      68.17
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 651.0,
+     "price": 652.25,
      "prev_close": 630.25,
-     "change_pct": 3.29,
+     "change_pct": 3.49,
      "closes": [
       627.0,
       631.25,
@@ -166,16 +166,16 @@
       639.75,
       640.5,
       630.25,
-      651.0
+      652.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.51,
+     "price": 88.78,
      "prev_close": 88.91,
-     "change_pct": -0.45,
+     "change_pct": -0.15,
      "closes": [
       83.3,
       84.73,
@@ -199,7 +199,7 @@
       83.55,
       87.72,
       88.91,
-      88.51
+      88.78
      ]
     },
     {
@@ -239,7 +239,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-12T09:55:11+00:00",
+   "updated_at": "2026-08-12T10:55:36+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -250,7 +250,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-12T09:55:14+00:00",
+   "updated_at": "2026-08-12T10:55:40+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -411,13 +411,13 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-12T09:55:17+00:00",
+   "updated_at": "2026-08-12T10:55:44+00:00",
    "items": [
     {
-     "title": "Soja recua em Chicago, mas preços resistem no Brasil - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWE13ejcxcjNrdko0MHI2UGtxSWlqU2dwRjEtUlExdFdjS0NTN1g1RVJKZFlFbGdyOFowT1dsNzRzS2tlaU42d3BGN18tUm1FSnh2VlZ6OWk4U2dSeGFvRGZ5M0pwQ2RFdXNOVEt6RlZXTjJmNW5sM2YzVk8xNEw0SEVNRkh0bWhyclNlNmJKaFh2UVFDY3RGZjFDQmV0T2JGcVpZ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-12T09:43:00+00:00"
+     "title": "AIE amplia projeção de queda da demanda global por petróleo em 2026",
+     "link": "https://www.canalrural.com.br/economia/aie-amplia-projecao-de-queda-da-demanda-global-por-petroleo-em-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T10:28:46+00:00"
     },
     {
      "title": "A conta da soja chegou: recuperação judicial sobe 73% entre produtores PJ - Exame",
@@ -456,16 +456,22 @@
      "published_at": "2026-08-12T07:10:05+00:00"
     },
     {
+     "title": "Moratória da soja volta à pauta do STF nesta quarta; relembre o histórico - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLUdIcGVnbG9YNEd6RmQwQlY4NThoSncwYURpNjlXNGI3eGNGeFRTeG5abHBiS1pkMEU1SlVUcUlOOUxudGJPdllTRTZmQXBuU1ZqR2xHY1VuNlNBS2w5U1ZxZE91QjNydVZFc1VwSjd0WmUyUHJUNGkza2JjZDMxc3o1RENsdzFJdmJYbmN6MHhabXczNDRTZFBaOXlQc0lrWmotVGl1Z2FFc1U?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-08-12T07:00:18+00:00"
+    },
+    {
+     "title": "Clima impulsiona açúcar e cacau, enquanto soja recua - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdDd1WFNpa25PNHZUZHIwNnQ3cE1pcWRDU0JLemJyQ24wRHJvbWduM3FXdmVDeHpFcjBGejM4WjNWdnk4Y3Q2TGZjNHhNbHI1dUdTNWdndjFnc2NhVVlxU0FtTHl6LVl6azJXMEhMazI4SkhIRHhuc2U4c2FmdkpSZ1VRSW1QUkdfX2VzVTBVQk9XMWxWRjN0Y3BTZ21TYjRzYlBr?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-12T05:59:00+00:00"
+    },
+    {
      "title": "STF analisa hoje validade de leis estaduais que retiram incentivos fiscais de empresas participantes da moratória da soja - O GLOBO",
      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOWjFVbUVYTkZSc2p4M0ItbVJtR1N2WUhHUnVUZHVZTExmX3d1ZHg4NmFJaGlPQmtaYk53ZTE4QWxob1pGTU5mWTN3MElieTBQWVluZHVoNlNxMjJfcjlnSnpKNDVZVm5GOWgydWV4WHlkTl9odkxvY25sS0wzTG53OHhsODNTQXBEaGZMZzBvR0k0Q3ZlZjUwNURpa3dFbUxNaU9IMWxNelpoZFlVYnNIV3dfZE55M1hBTmo0dXppXzhwNE5EZkZXWXJVbHo2Qk9pYjAydzR0MHVBNThLX0MtcV91MEhETHQyb09KWEs0R2MxSUd3WVRVOEFTcm10Y2JaUkJlN2puVmkyRWQ20gGbAkFVX3lxTE8yMEdnQ0puUFVJZ3BGOFUwZ25VYm9qMkZZTjc3S3lrTUkyTkpoa2EwZXBXTmdGZG14cWhwVGF2QXp3MDR6eDBkZGFqWDdpdERXWnNBWHN2ekRuSnRuNDg4aTAxSmc3dTdKQk5nVDhZRUlPeFR5NFoyTEEyQ0dHSzU4R1gtWGZ5VDZUeEcxOFVDdVZtNHc2dWdYWkh0ZVRCNFBxMGlQYkl1Ulkzcl9kQ2dDd2RfU18xcTF5MG4tRUFQRURKa2pCVnlGcTlZUzZ6UGVaWkIzOVYyVmtvdjVLUklla2k2S2ZhdmxHNVhDN1JRenAtTHU1ZnhtUnJQbE1relZmYlNhYmFjMUJjbk5IRjBmVklKb1JTMU5GS0k?oc=5",
      "source": "O GLOBO",
      "published_at": "2026-08-12T03:00:36+00:00"
-    },
-    {
-     "title": "Análise: China vai comprar menos soja — e o Brasil, tem plano B? - cnnbrasil.com.br",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdjJaSVUtOHQ5Mk5mZWhuV1l5QWZhZnh0VkwtcWNSZzJlbVo1cVpNVjlBWUY1NnJZZG8xM042UXZVRURUbm9lZHRmOFZOYnpkXzNob2JxeTFNcHh2TGRKaHBoMnREa2xGNEF0OWRhdXFCR0doUFlzUS1EeTg2UnBteVVOSFlqMS1lU0tmT05PWC1ZZUZmbjFkSnp2aEFDVzF5dm1MX3RSNXVFajFlVmhMWXk4NA?oc=5",
-     "source": "cnnbrasil.com.br",
-     "published_at": "2026-08-12T03:00:00+00:00"
     },
     {
      "title": "Roberto Rodrigues lança livro que homenageia expoentes do agro brasileiro",
@@ -516,15 +522,9 @@
      "published_at": "2026-08-11T23:15:20+00:00"
     },
     {
-     "title": "Farsul propõe mudanças na MP de renegociação das dívidas rurais",
-     "link": "https://www.canalrural.com.br/videos/farsul-propoe-mudancas-na-mp-de-renegociacao-das-dividas-rurais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T23:15:09+00:00"
-    },
-    {
-     "title": "Preço da soja recua no Brasil após quatro altas consecutivas - canalrural.com.br",
+     "title": "Preço da soja recua no Brasil após quatro altas consecutivas - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcjJMbGcydDBidEw5dUYtclNSakRwbVoyaHUxbXhudlJ6YUduMDhzeUNVRU5PcmlrT05adUJvMlloU0hRSGJnNjIyNUpHd0pyUG5TVjljY2dkT0M1NUZuNXZNOVNXUlB2MF8tMUUwRXQ5WmhFN2UtaDRNRHdFUHo4ZWpqVkUyU0trMDhBV2tncGViMEs1bFluYmdEOTd4dVk?oc=5",
-     "source": "canalrural.com.br",
+     "source": "Canal Rural",
      "published_at": "2026-08-11T23:05:35+00:00"
     },
     {
@@ -546,9 +546,9 @@
      "published_at": "2026-08-11T20:07:54+00:00"
     },
     {
-     "title": "Os reis da soja! Veja a lista dos 20 municípios que mais produzem o grão - canalrural.com.br",
+     "title": "Os reis da soja! Veja a lista dos 20 municípios que mais produzem o grão - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOE12cUZ5MExmbUp4SFI2RGZ0RkszM2Rla3hhTXA1ejY0aHhPUWJ6OUtnVlVsMlczZmhFZE1XOGRwQndLc3kzVy1HMEhQLTF3Qi1sX1A3UlhmaVQyUS05YTZ2c2d2endXZi1sR2tFaXBkc2ZSMFoza1QzYk83OVNQZ1Y5VzNQUDg1Xzh5dE5kOWxmdldaUE53RTJSODJwSWFrenZrb3dEM0pVaTlxY2RqbTl3XzY?oc=5",
-     "source": "canalrural.com.br",
+     "source": "Canal Rural",
      "published_at": "2026-08-11T18:22:30+00:00"
     },
     {

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-12T14:17:52+00:00",
+ "generated_at": "2026-08-12T15:54:10+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-12T14:17:45+00:00",
+   "updated_at": "2026-08-12T15:54:03+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1172.75,
+     "price": 1176.25,
      "prev_close": 1147.5,
-     "change_pct": 2.2,
+     "change_pct": 2.51,
      "closes": [
       1202.0,
       1207.25,
@@ -34,16 +34,16 @@
       1156.5,
       1157.75,
       1147.5,
-      1172.75
+      1176.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 466.75,
+     "price": 468.5,
      "prev_close": 436.75,
-     "change_pct": 6.87,
+     "change_pct": 7.27,
      "closes": [
       437.75,
       433.75,
@@ -67,16 +67,16 @@
       439.0,
       438.25,
       436.75,
-      466.75
+      468.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 312.2,
+     "price": 313.1,
      "prev_close": 303.4,
-     "change_pct": 2.9,
+     "change_pct": 3.2,
      "closes": [
       316.8,
       319.6,
@@ -100,16 +100,16 @@
       308.1,
       303.7,
       303.4,
-      312.2
+      313.1
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.83,
+     "price": 67.95,
      "prev_close": 68.45,
-     "change_pct": -0.91,
+     "change_pct": -0.73,
      "closes": [
       73.04,
       73.04,
@@ -133,16 +133,16 @@
       68.16,
       69.46,
       68.45,
-      67.83
+      67.95
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 649.75,
+     "price": 654.25,
      "prev_close": 630.25,
-     "change_pct": 3.09,
+     "change_pct": 3.81,
      "closes": [
       627.0,
       631.25,
@@ -166,16 +166,16 @@
       639.75,
       640.5,
       630.25,
-      649.75
+      654.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.52,
+     "price": 88.75,
      "prev_close": 88.91,
-     "change_pct": -0.44,
+     "change_pct": -0.18,
      "closes": [
       83.3,
       84.73,
@@ -199,16 +199,16 @@
       83.55,
       87.72,
       88.91,
-      88.52
+      88.75
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 167556.14,
+     "price": 167687.69,
      "prev_close": 167875.0,
-     "change_pct": -0.19,
+     "change_pct": -0.11,
      "closes": [
       175739.0,
       176641.0,
@@ -216,15 +216,12 @@
       173825.0,
       173714.0,
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -232,7 +229,7 @@
       172513.0,
       172180.0,
       167875.0,
-      167556.1406
+      167687.6875
      ]
     }
    ],
@@ -240,7 +237,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-12T14:17:45+00:00",
+   "updated_at": "2026-08-12T15:54:03+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -251,7 +248,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-12T14:17:50+00:00",
+   "updated_at": "2026-08-12T15:54:07+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -412,13 +409,49 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-12T14:17:52+00:00",
+   "updated_at": "2026-08-12T15:54:10+00:00",
    "items": [
+    {
+     "title": "Estoques de petróleo dos EUA sobem 17,423 milhões de barris",
+     "link": "https://www.canalrural.com.br/economia/estoques-de-petroleo-dos-eua-sobem-17423-milhoes-de-barris/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T15:32:59+00:00"
+    },
+    {
+     "title": "CNA recebe representantes da WFO e da FAO em Brasília",
+     "link": "https://www.canalrural.com.br/politica/cna-recebe-representantes-da-wfo-e-da-fao-em-brasilia/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T14:51:19+00:00"
+    },
+    {
+     "title": "Saiba como realizar cadastro antecipado para semeadura da Soja",
+     "link": "https://www.canalrural.com.br/nacional/bahia/saiba-como-realizar-cadastro-antecipado-para-semeadura-da-soja/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T14:42:49+00:00"
+    },
+    {
+     "title": "Aprosoja Brasil defende fundo garantidor amplo para operações de crédito rural",
+     "link": "https://www.canalrural.com.br/agricultura/agronegocio/aprosoja-brasil-defende-fundo-garantidor-amplo-para-operacoes-de-credito-rural/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T14:35:03+00:00"
+    },
+    {
+     "title": "Opep eleva projeção para produção de combustíveis do Brasil em 2026 e 2027",
+     "link": "https://www.canalrural.com.br/economia/opep-eleva-projecao-para-producao-de-combustiveis-do-brasil-em-2026-e-2027/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T14:18:43+00:00"
+    },
     {
      "title": "STF julga ações sobre a Moratória da Soja; Aprosoja MT comenta impacto para produtores",
      "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/stf-julga-acoes-sobre-a-moratoria-da-soja-aprosoja-mt-comenta-impacto-para-produtores/",
      "source": "Canal Rural",
      "published_at": "2026-08-12T14:11:00+00:00"
+    },
+    {
+     "title": "Seca em Roraima ameaça colheita de soja; risco é de 50% na queda da produção do alimento - Portal Amazônia",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE15djl6YWo4OVZrMFNrcDhDNVpseFZOX1FxczBZTUhlT21VNllxbzNOSFlXNl9fSzJscFdFd1QzUVlsdFgySHRBSTZ6NFBBR1JSRzNHY1d6TjJ0MG9Ual92N3pGNjhhYTFqU0VuaXB4VVJqUQ?oc=5",
+     "source": "Portal Amazônia",
+     "published_at": "2026-08-12T14:00:00+00:00"
     },
     {
      "title": "Preços futuros aceleram vendas de soja em Mato Grosso - Agrolink",
@@ -431,6 +464,12 @@
      "link": "https://www.canalrural.com.br/economia/pnl-2050-projeta-r-1225-trilhao-em-investimentos-em-logistica-ate-2050/",
      "source": "Canal Rural",
      "published_at": "2026-08-12T13:34:26+00:00"
+    },
+    {
+     "title": "Moratória da soja: entenda tema em pauta no STF que opõe produtores e ambientalistas - Gazeta do Povo",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcnRIUlRJQkhCZzVQWldqUHhEQ1BMY3luM2hFUlpXaUtPdFkweW5UVGhVZHN1RTNOZHROY09RSUUwLUVpZUZnRWxHdlhJV1pNcmhwem5hdnZ0SUVzVlBiRGE3bzhFQ3ZSRllENGcyTU83SGIxNXR2SlZTZGxyZFFUX1lUSy1IRkJaRzUwV0VYZlJnR3FRblJyOEdWeHh3MUtidGtPbjAxQVpXclZzLTJZTC1qd3cxRHRheGstT3ZhSkE4UGc?oc=5",
+     "source": "Gazeta do Povo",
+     "published_at": "2026-08-12T13:29:00+00:00"
     },
     {
      "title": "Lucro ajustado da Adecoagro sobe 170% no segundo trimestre de 2026",
@@ -481,52 +520,16 @@
      "published_at": "2026-08-12T12:18:00+00:00"
     },
     {
-     "title": "Produtores de arroz seguram vendas à espera de R$ 80 por saca no RS",
-     "link": "https://www.canalrural.com.br/agricultura/arroz/produtores-de-arroz-seguram-vendas-a-espera-de-r-80-por-saca-no-rs/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T12:13:23+00:00"
-    },
-    {
-     "title": "Brasil atinge 90% da cota anual de carne bovina para a China",
-     "link": "https://www.canalrural.com.br/pecuaria/brasil-atinge-90-da-cota-anual-de-carne-bovina-para-a-china/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T12:11:59+00:00"
-    },
-    {
      "title": "STF volta a discutir Moratória da Soja com disputa bilionária entre tradings e produtores - JOTA Info",
      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYWd2ZDhuUUpsdmRaWVJYS0dOejNYTF9xeHRvYW5sZjIzTUtmbUNjc2Mwb3JwMGEweHNBUG1GT2xPSDZHMTJiNGtqN1lMV1dkV3hfeC1TblRFT0hScEJKakdZTTZSeWtpX3BqV2VFa1lSczhldmhxcmNoUDFCMzVFSkJ3TzZjSjIxZERyc0ZzVHpfNWJlZ1o2NWlFSVRDX18yaEVJaUZJX1VNNldfbXZkamlNR0hwVkVZVnlIaFRiMzZKSUdI?oc=5",
      "source": "JOTA Info",
      "published_at": "2026-08-12T12:07:15+00:00"
     },
     {
-     "title": "Café: poder de compra de fertilizantes melhora e anima produtores para nova safra",
-     "link": "https://www.canalrural.com.br/agricultura/cafe/cafe-poder-de-compra-de-fertilizantes-melhora-e-anima-produtores-para-nova-safra/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T11:58:43+00:00"
-    },
-    {
      "title": "Crise no campo: pedidos de recuperação judicial saltam entre produtores rurais",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/12/recuperacao-judicial-agronegocio.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-12T11:25:43"
-    },
-    {
-     "title": "Pedidos de recuperação judicial no agro crescem 22% no primeiro trimestre de 2026",
-     "link": "https://www.canalrural.com.br/agricultura/pedidos-de-recuperacao-judicial-no-agro-crescem-22-no-primeiro-trimestre-de-2026/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T11:18:46+00:00"
-    },
-    {
-     "title": "Vazio sanitário abre janela de decisões que podem definir produtividade da soja - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQVhzX3BWYXVTWGFJdTJqVDFWaHc5UzJSTHNSY3VhQXpQLUt4eGstTkxXcFhGLWZZbllsVlBOLTMzNHgwN1B1aGVCc0RUWW5ybVp5N3VKYnBRYjAzSVNKVUc2TnRJclNqTjg4U3h2OXNDdnEtcjRGZE14di02YnFNODFLeHozMTRIcDdaemtiSGhtYWktcVJ1dDBXTUdPNjNNN1h6VHI3WUpyMlYzaW4w?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-08-12T11:05:29+00:00"
-    },
-    {
-     "title": "Defesa Civil reconhece emergência em 19 municípios do RS após temporais",
-     "link": "https://www.canalrural.com.br/politica/defesa-civil-reconhece-emergencia-em-19-municipios-do-rs-apos-temporais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T10:57:53+00:00"
     },
     {
      "title": "Soja sobe em Chicago nesta 4ª antes do novo relatório do USDA; óleo também sobe e contribui - Notícias Agrícolas",
@@ -547,9 +550,9 @@
      "published_at": "2026-08-12T08:03:51"
     },
     {
-     "title": "Moratória da soja volta à pauta do STF nesta quarta; relembre o histórico - cnnbrasil.com.br",
+     "title": "Moratória da soja volta à pauta do STF nesta quarta; relembre o histórico - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLUdIcGVnbG9YNEd6RmQwQlY4NThoSncwYURpNjlXNGI3eGNGeFRTeG5abHBiS1pkMEU1SlVUcUlOOUxudGJPdllTRTZmQXBuU1ZqR2xHY1VuNlNBS2w5U1ZxZE91QjNydVZFc1VwSjd0WmUyUHJUNGkza2JjZDMxc3o1RENsdzFJdmJYbmN6MHhabXczNDRTZFBaOXlQc0lrWmotVGl1Z2FFc1U?oc=5",
-     "source": "cnnbrasil.com.br",
+     "source": "CNN Brasil",
      "published_at": "2026-08-12T07:00:18+00:00"
     },
     {
@@ -557,12 +560,6 @@
      "link": "https://g1.globo.com/politica/noticia/2026/08/11/senado-aprova-linha-de-credito-para-industria-de-fertilizantes-mas-sem-estipular-valores.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-11T21:21:24"
-    },
-    {
-     "title": "Os reis da soja! Veja a lista dos 20 municípios que mais produzem o grão - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOE12cUZ5MExmbUp4SFI2RGZ0RkszM2Rla3hhTXA1ejY0aHhPUWJ6OUtnVlVsMlczZmhFZE1XOGRwQndLc3kzVy1HMEhQLTF3Qi1sX1A3UlhmaVQyUS05YTZ2c2d2endXZi1sR2tFaXBkc2ZSMFoza1QzYk83OVNQZ1Y5VzNQUDg1Xzh5dE5kOWxmdldaUE53RTJSODJwSWFrenZrb3dEM0pVaTlxY2RqbTl3XzY?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T18:22:30+00:00"
     },
     {
      "title": "Depois do foie gras, quais práticas de criação e abate de animais podem ser proibidas?",

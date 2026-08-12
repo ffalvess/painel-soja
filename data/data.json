@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-12T12:55:04+00:00",
+ "generated_at": "2026-08-12T14:17:52+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-12T12:54:42+00:00",
+   "updated_at": "2026-08-12T14:17:45+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -41,9 +41,9 @@
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 463.5,
+     "price": 466.75,
      "prev_close": 436.75,
-     "change_pct": 6.12,
+     "change_pct": 6.87,
      "closes": [
       437.75,
       433.75,
@@ -67,16 +67,16 @@
       439.0,
       438.25,
       436.75,
-      463.5
+      466.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 312.7,
+     "price": 312.2,
      "prev_close": 303.4,
-     "change_pct": 3.07,
+     "change_pct": 2.9,
      "closes": [
       316.8,
       319.6,
@@ -100,16 +100,16 @@
       308.1,
       303.7,
       303.4,
-      312.7
+      312.2
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 68.08,
+     "price": 67.83,
      "prev_close": 68.45,
-     "change_pct": -0.54,
+     "change_pct": -0.91,
      "closes": [
       73.04,
       73.04,
@@ -133,16 +133,16 @@
       68.16,
       69.46,
       68.45,
-      68.08
+      67.83
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 645.0,
+     "price": 649.75,
      "prev_close": 630.25,
-     "change_pct": 2.34,
+     "change_pct": 3.09,
      "closes": [
       627.0,
       631.25,
@@ -166,16 +166,16 @@
       639.75,
       640.5,
       630.25,
-      645.0
+      649.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.94,
+     "price": 88.52,
      "prev_close": 88.91,
-     "change_pct": 0.03,
+     "change_pct": -0.44,
      "closes": [
       83.3,
       84.73,
@@ -199,16 +199,16 @@
       83.55,
       87.72,
       88.91,
-      88.94
+      88.52
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 167874.64,
-     "prev_close": 172180.0,
-     "change_pct": -2.5,
+     "price": 167556.14,
+     "prev_close": 167875.0,
+     "change_pct": -0.19,
      "closes": [
       175739.0,
       176641.0,
@@ -231,7 +231,8 @@
       175546.0,
       172513.0,
       172180.0,
-      167875.0
+      167875.0,
+      167556.1406
      ]
     }
    ],
@@ -239,7 +240,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-12T11:42:40+00:00",
+   "updated_at": "2026-08-12T14:17:45+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -250,7 +251,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-12T12:55:01+00:00",
+   "updated_at": "2026-08-12T14:17:50+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -411,13 +412,61 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-12T12:55:04+00:00",
+   "updated_at": "2026-08-12T14:17:52+00:00",
    "items": [
+    {
+     "title": "STF julga ações sobre a Moratória da Soja; Aprosoja MT comenta impacto para produtores",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/stf-julga-acoes-sobre-a-moratoria-da-soja-aprosoja-mt-comenta-impacto-para-produtores/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T14:11:00+00:00"
+    },
+    {
+     "title": "Preços futuros aceleram vendas de soja em Mato Grosso - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeE9IVF9mY1g4NmFLYzNTbXBrRWJNRUl4dXc4MVJYbGVFR2hsODNqRTIzakg2LThhMktwTWtqdHB2c3VpR043TTFHcHNkc0Y5N0xkSEE2OGRKOF9lWVI4cEhSdnBpV3A3YUtNZmpEaXVUZUM0WEo2TVp1SnJWTnU5bmdHLWFWa2hPX2VHN0JNUFBmT2x6Z0FaY0syZ1liaVFnODFUZg?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-12T13:55:00+00:00"
+    },
+    {
+     "title": "PNL 2050 projeta R$ 1,225 trilhão em investimentos em logística até 2050",
+     "link": "https://www.canalrural.com.br/economia/pnl-2050-projeta-r-1225-trilhao-em-investimentos-em-logistica-ate-2050/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T13:34:26+00:00"
+    },
+    {
+     "title": "Lucro ajustado da Adecoagro sobe 170% no segundo trimestre de 2026",
+     "link": "https://www.canalrural.com.br/economia/lucro-ajustado-da-adecoagro-sobe-170-no-segundo-trimestre-de-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T13:17:24+00:00"
+    },
+    {
+     "title": "Fertilizantes na soja: onde está o ganho de eficiência? Especialista da Yara Brasil explica - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTmczOGNFVUEwY0pCLUg1WFdwc3lvaXY3QW01MzVKVTFxRnd4dEF6ZHU5emt1ak03OHVNcGlOVUJpekpoWWZfVVphb1BSQWxWQkZmYVdpNU9wV0FCNUEzNVlnUjdUY2tJVndMM29jbjBXbVhYb3VtR3VUbE5yVFA5cFh0U0tUamVlMmYxZl95Y1pjQjVpN3RYVHFPd08wTndGS25vMWF4TTVBYklPTDRRWWZ5ZWxvLUpJdnFWQ3U2a054cF9ZanlMS1ZkcUdsTWJVaGVmZVIweGRVNWNRSVFIVVludU4zd2c?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T13:13:41+00:00"
+    },
+    {
+     "title": "Fertilizantes na soja: onde está o ganho de eficiência? Especialista da Yara Brasil explica",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/fertilizantes-na-soja-onde-esta-o-ganho-de-eficiencia-especialista-da-yara-brasil-explica/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T13:13:41+00:00"
+    },
+    {
+     "title": "Confira a pauta do STF desta quarta-feira (12) - stf noticias",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSnh2MTh5dDlxb1gzbEVwVlgwZHB0VzJCa082YUdTUWJVcHhObnlVbmY2X3NOQWl4akwyY0puNUhGRGxkT3FBR0tZQWstTWpMTHBkOTc0NmlQbzBKVXBuaG1jYnZCeVFCS20wQk0waURlc1hySURfYUpDdFVfazVNOTg1dmx5c1JlSjExRGVDNUJCNHM?oc=5",
+     "source": "stf noticias",
+     "published_at": "2026-08-12T12:43:00+00:00"
+    },
     {
      "title": "Boi gordo ganha força e pecuaristas miram preços acima de R$ 350",
      "link": "https://www.canalrural.com.br/pecuaria/boi-gordo-ganha-forca-e-pecuaristas-miram-precos-acima-de-r-350/",
      "source": "Canal Rural",
      "published_at": "2026-08-12T12:39:57+00:00"
+    },
+    {
+     "title": "STF julga leis que restringem ‘moratória da soja’. Por que importa? - Exame",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPM0dabkxQY2Q1NUJkSHpveUU2aVByVDVWbDV4SVh1c1Y1d053RTRGempaOXdIb2NYT2tsVVg5ckc5YWtKaXJtS0RPT3F1LWJycmc4NjVtWi1tTUU2QmZ6Znd6Z3hsdDRmeW5lc1ljYnJYTjZuVWZlTnFTOEdqUGRHbjFNZlBsR1Jud3dLZjBUSHU?oc=5",
+     "source": "Exame",
+     "published_at": "2026-08-12T12:22:23+00:00"
     },
     {
      "title": "Soja recua em Chicago com clima favorável nos EUA e véspera de relatório do USDA - Agrimidia",
@@ -480,46 +529,16 @@
      "published_at": "2026-08-12T10:57:53+00:00"
     },
     {
-     "title": "MapBiomas aponta menor resiliência ao El Niño em áreas com perda de vegetação nativa",
-     "link": "https://www.canalrural.com.br/diversos/mapbiomas-aponta-menor-resiliencia-ao-el-nino-em-areas-com-perda-de-vegetacao-nativa/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T10:36:18+00:00"
-    },
-    {
      "title": "Soja sobe em Chicago nesta 4ª antes do novo relatório do USDA; óleo também sobe e contribui - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdXlFMXJxM2x6TlQtMmVRcjlnWk5aV2xxall2cXRYYVJMM0VsUV91YUtfU0UwVlNJZjhrQllUbVphcFUwSFQ0RjRSRTlMSXRiaXk2aXU3aGd2Wnl2Mkw2VTFlNVJ6SG9uLXN3eTZGZEhiclUzbU10YmJScFN5X0VoeWprSjc4M2xjanRvQUxaakt2NnI5ZUlmNUZyQ1ByTG5xWjJtRFhQQlEycHBPVEluWEQ2X3kxWThyNnBkcGItY2ViQ21CanpyWWhWcFE4endHc1Z3RW91RkJmR25wUXZQcW5fS01lX1HSAewBQVVfeXFMT3pPYUZaeHhaODdnbDl1dXBvLTdvZXJqYUt5REF1WHpZY1hlZGcyN0RVM1BpMWhxamJBM3dadkFoUTUzZHk0dHFycG9lNF92T0QwYjZxMk0ybE9Obmd0ek5FVmZZdm5RQlgxMF9XaDB4Wi1IU1JVX0ZDYlRIQWpSd2tjWDRGcXl6Sml5MGZFY291YTQ5TmhuQ0UxNXZsN1gxLW5kT2gzbkotTEFyQnRZVFY2NU0wTUwxTUpja2NXZTV1RTlzSWZVRWZmb3VLbG9UQW1MU2wxTzdTYkUzeWdaZTBnb0MzR3Z0Umxrbjg?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-12T10:31:27+00:00"
     },
     {
-     "title": "AIE amplia projeção de queda da demanda global por petróleo em 2026",
-     "link": "https://www.canalrural.com.br/economia/aie-amplia-projecao-de-queda-da-demanda-global-por-petroleo-em-2026/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T10:28:46+00:00"
-    },
-    {
-     "title": "Soja recua em Chicago, mas preços resistem no Brasil - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWE13ejcxcjNrdko0MHI2UGtxSWlqU2dwRjEtUlExdFdjS0NTN1g1RVJKZFlFbGdyOFowT1dsNzRzS2tlaU42d3BGN18tUm1FSnh2VlZ6OWk4U2dSeGFvRGZ5M0pwQ2RFdXNOVEt6RlZXTjJmNW5sM2YzVk8xNEw0SEVNRkh0bWhyclNlNmJKaFh2UVFDY3RGZjFDQmV0T2JGcVpZ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-12T09:43:00+00:00"
-    },
-    {
      "title": "Demanda aquecida deve manter preços da soja firmes no Brasil - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYWVxSWRIdE05OGxkclV6Tlh4RjZJMGpKT2laMk1ubFNHeG9SbjdwY1A0WE56RXJjMDRZSzlvN2Yyd2JtOW5uNVk1Wmt4dDd4Z1RQOWRGcDdNRGtKTzJ1QkctY2lZdmFqUmwyUFRROUxPSndaVjFIMHFhMENSeWs2Z3IxeWRDT2hVMEpSbm90VG50YkpMaG85WFA1UFpabGxFRlo1WXByWGlHX3g0a1NOX0M5azVHS1AzT2lKa9IBywFBVV95cUxQUXlkSTZKNEpGcGRzcTZLQXNFS3cybXBqeV9MTU8xUmhzX2M3ZnVSYWNqQk5VSUk2emdZLUVSSFNCSlJuMG15S1d0VUxGVkk4T293TVZvTGFRelI3NW1BU09hSlJBRmotMi1ZWkMyazV2RTB6dVg4R1FLXzNGNGFmbEJ4TWpjMUgwSG0wZ0xfUGNDWTBuY1pFd0pEcGM4SE92WldGR2JUei1rSDdfemlKaFpFMDBtYW15amk1ZW9vZ1d2d24wek5MT1RGYw?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-08-12T09:14:08+00:00"
-    },
-    {
-     "title": "A conta da soja chegou: recuperação judicial sobe 73% entre produtores PJ - Exame",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNjgwTnEwUlpFbVF0bk9YSURCM0gzMGxFa0tULWZRTDdtX1c1dm0zZWpVanFaVEJzZld1VGZiM0lxT0RvcDNNUnc2Y1dKS1M0TXBaRFFqWFNNVVVLZzZzcmxyaXQzYzdpYXRDZjY0b3UyRGFGRzR3VDZ4cTk3ZWcyM002UnZOc2RiZzVEOS1pLVdWQlRfbWVRZzRmNA?oc=5",
-     "source": "Exame",
-     "published_at": "2026-08-12T09:01:07+00:00"
-    },
-    {
-     "title": "Chuva forte e risco de temporais colocam o RS em alerta; veja a previsão do tempo",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/chuva-forte-e-risco-de-temporais-colocam-o-rs-em-alerta-veja-a-previsao-do-tempo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T09:00:00+00:00"
     },
     {
      "title": "Como estoques recordes e avanço do agro brasileiro podem reduzir impacto do 'super El Niño' no mundo",
@@ -534,18 +553,6 @@
      "published_at": "2026-08-12T07:00:18+00:00"
     },
     {
-     "title": "Clima impulsiona açúcar e cacau, enquanto soja recua - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdDd1WFNpa25PNHZUZHIwNnQ3cE1pcWRDU0JLemJyQ24wRHJvbWduM3FXdmVDeHpFcjBGejM4WjNWdnk4Y3Q2TGZjNHhNbHI1dUdTNWdndjFnc2NhVVlxU0FtTHl6LVl6azJXMEhMazI4SkhIRHhuc2U4c2FmdkpSZ1VRSW1QUkdfX2VzVTBVQk9XMWxWRjN0Y3BTZ21TYjRzYlBr?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-12T05:59:00+00:00"
-    },
-    {
-     "title": "Roberto Rodrigues lança livro que homenageia expoentes do agro brasileiro",
-     "link": "https://www.canalrural.com.br/videos/roberto-rodrigues-lanca-livro-que-homenageia-expoentes-do-agro-brasileiro/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T00:06:29+00:00"
-    },
-    {
      "title": "Senado aprova linha de crédito para indústria de fertilizantes, mas sem estipular valores",
      "link": "https://g1.globo.com/politica/noticia/2026/08/11/senado-aprova-linha-de-credito-para-industria-de-fertilizantes-mas-sem-estipular-valores.ghtml",
      "source": "G1 Agronegócios",
@@ -556,12 +563,6 @@
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOE12cUZ5MExmbUp4SFI2RGZ0RkszM2Rla3hhTXA1ejY0aHhPUWJ6OUtnVlVsMlczZmhFZE1XOGRwQndLc3kzVy1HMEhQLTF3Qi1sX1A3UlhmaVQyUS05YTZ2c2d2endXZi1sR2tFaXBkc2ZSMFoza1QzYk83OVNQZ1Y5VzNQUDg1Xzh5dE5kOWxmdldaUE53RTJSODJwSWFrenZrb3dEM0pVaTlxY2RqbTl3XzY?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-11T18:22:30+00:00"
-    },
-    {
-     "title": "Banco do Nordeste e Itaú financiam R$ 44 milhões para soja em área de conflito no Maranhão - Agência Pública",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYzNGTGZ0MTNNN3hlallPWFE0ZXFndTk3WnVaSVVmSkJmMEdnZVRySUNJZV9BVEI4bWRtU2pPS0JWb0w1MHRfZ0R2N1JpbDdXYlc1bDhwZGxUNXg2S25tWHhZS3JyUlRTRl9IVFJDQXBxdU91LXcybG1DOUN4UkxvYV96eWpSYVJmVEhVem40MERfTGllRzRNWlNJNmt0WnVsSklOdUQzeVl6TUVJQkJWeG9WY045RmVDdXJ30gHAAUFVX3lxTE1tVnZqdVN2VFNLRWRLR1ctZXVES1Zzak9jUlJUN01rQ3dGcHFScVJ6anRJdTJfaG9jTEVfSDhLeEozckJfVGpHeWdvaTZiU2lndXdpZ1ZPcTFGV0dEU1pfUW1jQzkyZnk4QnVXelFmSjNnSkdTOVdKYUxrNHFoVG5vYW13TjR3UGc0cWx0WEcwMUpzclZUNEM3SjNtXzVpenJvN0tQa3FVcDhURFZfQ00tMTBrXzZfLVlxbDdTYUNHcA?oc=5",
-     "source": "Agência Pública",
-     "published_at": "2026-08-11T17:11:52+00:00"
     },
     {
      "title": "Depois do foie gras, quais práticas de criação e abate de animais podem ser proibidas?",
@@ -603,10 +604,6 @@
   {
    "section": "fx",
    "error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
-  },
-  {
-   "section": "rates",
-   "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json"
   },
   {
    "section": "cepea",

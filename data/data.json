@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-12T01:21:00+00:00",
+ "generated_at": "2026-08-12T04:00:50+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-12T01:20:52+00:00",
+   "updated_at": "2026-08-12T04:00:23+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1170.25,
-     "prev_close": 1157.75,
-     "change_pct": 1.08,
+     "price": 1173.0,
+     "prev_close": 1156.5,
+     "change_pct": 1.43,
      "closes": [
       1202.0,
       1207.25,
@@ -32,17 +32,16 @@
       1151.5,
       1157.25,
       1156.5,
-      1157.75,
-      1170.25
+      1157.75
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 461.0,
-     "prev_close": 438.25,
-     "change_pct": 5.19,
+     "price": 461.5,
+     "prev_close": 439.0,
+     "change_pct": 5.13,
      "closes": [
       437.75,
       433.75,
@@ -64,17 +63,16 @@
       436.75,
       439.0,
       439.0,
-      438.25,
-      461.0
+      438.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 311.4,
-     "prev_close": 303.7,
-     "change_pct": 2.54,
+     "price": 312.1,
+     "prev_close": 308.1,
+     "change_pct": 1.3,
      "closes": [
       316.8,
       319.6,
@@ -96,17 +94,16 @@
       309.3,
       310.7,
       308.1,
-      303.7,
-      311.4
+      303.7
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 68.24,
-     "prev_close": 69.46,
-     "change_pct": -1.76,
+     "price": 68.44,
+     "prev_close": 68.16,
+     "change_pct": 0.41,
      "closes": [
       73.04,
       73.04,
@@ -128,17 +125,16 @@
       67.75,
       67.7,
       68.16,
-      69.46,
-      68.24
+      69.46
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 633.5,
-     "prev_close": 640.5,
-     "change_pct": -1.09,
+     "price": 634.25,
+     "prev_close": 639.75,
+     "change_pct": -0.86,
      "closes": [
       627.0,
       631.25,
@@ -160,17 +156,16 @@
       642.25,
       631.25,
       639.75,
-      640.5,
-      633.5
+      640.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 89.63,
-     "prev_close": 87.72,
-     "change_pct": 2.18,
+     "price": 89.95,
+     "prev_close": 83.55,
+     "change_pct": 7.66,
      "closes": [
       83.3,
       84.73,
@@ -192,8 +187,7 @@
       79.45,
       82.49,
       83.55,
-      87.72,
-      89.63
+      87.72
      ]
     },
     {
@@ -225,7 +219,7 @@
       175546.0,
       172513.0,
       172180.0,
-      167874.6406
+      167875.0
      ]
     }
    ],
@@ -244,21 +238,21 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-12T01:20:56+00:00",
+   "updated_at": "2026-08-12T04:00:42+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
      "dates": [
-      "2026-08-11",
       "2026-08-12",
       "2026-08-13",
       "2026-08-14",
       "2026-08-15",
       "2026-08-16",
-      "2026-08-17"
+      "2026-08-17",
+      "2026-08-18"
      ],
      "precip": [
-      0.1,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -267,34 +261,34 @@
       0.0
      ],
      "tmax": [
-      36.8,
       35.6,
       35.8,
       36.3,
       37.1,
       37.7,
-      38.1
+      38.1,
+      37.4
      ],
      "tmin": [
-      23.9,
       22.6,
       21.7,
       21.3,
       22.3,
       23.3,
-      23.1
+      23.1,
+      24.6
      ]
     },
     {
      "name": "Sinop · MT",
      "dates": [
-      "2026-08-11",
       "2026-08-12",
       "2026-08-13",
       "2026-08-14",
       "2026-08-15",
       "2026-08-16",
-      "2026-08-17"
+      "2026-08-17",
+      "2026-08-18"
      ],
      "precip": [
       0.0,
@@ -306,34 +300,34 @@
       0.0
      ],
      "tmax": [
-      36.2,
       34.4,
       34.9,
       35.4,
       36.2,
       36.9,
-      37.3
+      37.3,
+      36.6
      ],
      "tmin": [
-      23.1,
       22.4,
       21.7,
       21.7,
       21.7,
       22.5,
-      23.0
+      23.0,
+      23.7
      ]
     },
     {
      "name": "Rio Verde · GO",
      "dates": [
-      "2026-08-11",
       "2026-08-12",
       "2026-08-13",
       "2026-08-14",
       "2026-08-15",
       "2026-08-16",
-      "2026-08-17"
+      "2026-08-17",
+      "2026-08-18"
      ],
      "precip": [
       0.0,
@@ -345,67 +339,67 @@
       0.0
      ],
      "tmax": [
-      33.9,
       33.0,
       32.8,
       34.2,
       34.5,
       35.3,
-      34.6
+      34.6,
+      34.2
      ],
      "tmin": [
-      20.4,
       22.6,
       20.3,
       20.8,
       21.6,
       21.6,
-      22.6
+      22.6,
+      24.2
      ]
     },
     {
      "name": "Dourados · MS",
      "dates": [
-      "2026-08-11",
       "2026-08-12",
       "2026-08-13",
       "2026-08-14",
       "2026-08-15",
       "2026-08-16",
-      "2026-08-17"
+      "2026-08-17",
+      "2026-08-18"
      ],
      "precip": [
-      0.0,
       0.0,
       0.5,
       0.3,
       0.3,
       0.0,
+      0.0,
       0.0
      ],
      "tmax": [
-      25.8,
       30.1,
       31.9,
       28.9,
       31.3,
       34.3,
-      35.3
+      35.3,
+      31.5
      ],
      "tmin": [
-      16.8,
       17.2,
       19.9,
       19.4,
       19.0,
       20.3,
-      20.2
+      20.2,
+      18.8
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-12T01:21:00+00:00",
+   "updated_at": "2026-08-12T04:00:50+00:00",
    "items": [
     {
      "title": "Roberto Rodrigues lança livro que homenageia expoentes do agro brasileiro",
@@ -468,76 +462,10 @@
      "published_at": "2026-08-11T23:05:35+00:00"
     },
     {
-     "title": "Banco do Nordeste e Itaú financiam R$ 44 mi para soja em área de conflito agrário no Maranhão - O Joio e O Trigo",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZTRMd3oxX1kzakd0OUJrODZvYnlEaDBLZzMzTjhTOEJ2Ynd5LTZON3N6UDV1LXJ5a3FQT21zWmJ0c0RLQlVPYkpTTUdVSW5DdHN6UHFlX0Y5WlBrYTZEWENaQ3daQjBmWUVhcDhjY1BQU3gwY3JDMkViYVYxaWltUGNmdlN1LWtKM2E5OE1LVTFBbG92YnM2TnVBd29yakpHYnNLdXpmMUExU1JKaTltVGxtWGViQkxFX2VKR3dNaHRhcllpdTJ0WQ?oc=5",
-     "source": "O Joio e O Trigo",
-     "published_at": "2026-08-11T22:29:21+00:00"
-    },
-    {
      "title": "Senado aprova linha de crédito para indústria de fertilizantes, mas sem estipular valores",
      "link": "https://g1.globo.com/politica/noticia/2026/08/11/senado-aprova-linha-de-credito-para-industria-de-fertilizantes-mas-sem-estipular-valores.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-11T21:21:24"
-    },
-    {
-     "title": "Painel S.A.: Gestora analisa R$ 1,5 bilhão de reestruturação financeira para produtores de soja endividados - Folha de S.Paulo",
-     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQajE1bDBHc2lldXZPUFRhMFI1b3IzdkVNU3d2UlJoMjlhUWI2ZzcyanFPa0tnNmhNWk5PRU95N3dXeWxYbkRfNnZITTVGZnlwQTZWczNZTjVjMWlvRVFzVGU1QmFqaW1sTGlhYThsakgxakk4SFlKODEtWEVDQlBFSEdLNExiV0FrSEV6ZmRxdi00cHlXa04xM0FiaDBZaVE3eWN6amY5X0hfb1U0MnpRV2Y0TDBuR0g4SHY0b2h5amExcVBKblVjUTBlUWlwT3QzRXp5UGE5UzE4b2JIaVIyMDZoQkJZcVhY?oc=5",
-     "source": "Folha de S.Paulo",
-     "published_at": "2026-08-11T21:02:00+00:00"
-    },
-    {
-     "title": "Futuros de canola da ICE caem com recuo do óleo de soja - Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcUlITHN0ZE1vZ0p1amdyZF80YXZHOFdsaTZKS1pubkFYVW02UDc2TmowbGVjREpkdElIeGgxN1BYOXRQWHJyQUgyVDRxOHVoa1VMZDZibU5mRW5zNEo5Sm5JVi1yYmszWFNJNC1aQ0VERG1GM3gxcGhxNnYxeGU2dmhhR0ZmT25oZ1hJZ1hVZVZEbXNHeVMxRFNqdEFFcHBnM0lXRUlDX1NUTU9oUjZFdm5LWjNKQQ?oc=5",
-     "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "published_at": "2026-08-11T21:02:00+00:00"
-    },
-    {
-     "title": "Soja recua 0,91% em Chicago antes de relatório de oferta e demanda do USDA - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPR0FsUlBVNnZ5eFhMeFM4RnFPVm1saGxjYzJRa3NpcE1RbnhwaHdMeFdRWFVCNl9vMHdqbl9ncnVleHpKS0RQeTNuTWJVaUJqV3UzSlNnY1M3Wk14UXF6TDhZR0hXUFRqQnY2YmpxNVdyYXB4R1NfQ3YyS0lTX1AyUFQxSTBHTU9nTFlGay1oWFk3aFFfSWVLamR1MWJlX2VONHNOMVlHdFl1TTg?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-08-11T20:39:36+00:00"
-    },
-    {
-     "title": "Argentina deve aumentar área plantada com soja e milho na safra 2026/27 - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNX3NCYld5am5hNDlxMF9sZElQbzlKekl3WVBMYmxYQjlGa05FbnhFRHdrcUVzQ1NjU0Z0dFBDRUpkZVJ0U2V3QjEzdFdLSHg0RmpSSlNyR2J4VmkxWlB5TnM2VU9PeDNPczRDSFkteUdQN3RkZzE1UzFOTmpHQVhFa1p4aDJ4enNNUmtkWlN4dXdVZGhPZkY0NGFSeEVTNmR0bHg0MFpBT3IzMk5Bc3pYOUdNd012WmllS3g2U3N5Mk5GaV9DRFhtMVpCdjFjQdIB3AFBVV95cUxNU3VKOUJON2Ywb1RHUG9UOVNOQm1QTGNMMmNvLUxWbGM2Y25NU2pFUFh3Vlh0MWtOMXdTWGp0cE1DWU9wYnUzY3B2OGVvdHNvZnR6U2t5YXlHWDh3a21uR0pMUWRSUHFFR0tBOWZ3YWthZ3FtTWk4SjdXSmN4REhuQVlKY0VieEdSNlQ1TEZCMTFrMUx4ejZpbHFrbUExUXVKMS1fZHlYWFBWd2ZQWEljMGlEY1dHc1Q0a3k3WEZodjgyV2ZlcmpzM3Ffc0VDYjRvS1p3SVQ2WC1QWkYz?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-11T20:25:05+00:00"
-    },
-    {
-     "title": "Soja recua em Chicago, mas dólar e prêmios sustentam preços no Brasil perto dos R$ 150 nos portos - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdXlOS3dFRjN5Q0ZTcFcyQXRYNEFySXhoSHhVQUFGNk05ay10NHJFSndqcHFCLU13cWVYRTZyS1YxaG1CWDdYRGlMQkNGVTJ3anVoRHlYX3lLVktDR2RiamJLa0Z4azY4SktXbDdtaUkxV19VOF9MS0lQQmx1b0JjLWxNOWNrdS1UNlRpdXdNV0ZxXy1DbDJ1Vi1WanFTdkd2R2hQX0xXQXZxTFktYVBpbS1yLXJYTDJLbG92U0hrdHdzQjVwUFU2NlI3dTU2R1QzXzlndU1KSGdnZTJWUlZpcmU0M01PaG9HSHljR2Yzc9IB9AFBVV95cUxOcHZGRDc2dm5nbGtrNFNka1lFdDN2d2pGN1lRZEgweGVlSl91R0ozTjMxVDVMQ2FBYzlweWhzbFhldUtlSk9EZWdkZ1hQWTgxdUd5VDRrQ01QaEFzXzBXd0dYeGl0Y1RuSmlDSnNVb0ZqWXdFbDRrWDV1YU1UU1k5SXpmbVhHbHF2M3V5S1JjQzJSWXo2d1l0VTk5dmpVTmd1bzNtbkVwSW9IbzRvNE5hMmdPY3B2VUIyRzJOTUJaOFhOMHY4RzZhZmZwNWhJRUZzMk1ramNDa0s5RGFQaGwySUwyV1MxeVZQazE3eWQxZy03WW9W?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-11T20:07:54+00:00"
-    },
-    {
-     "title": "Projeto Soja Brasil completa 15 anos e inicia nova temporada de produção - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTHJKS3hoanZiRGhRVEJxdXFGTENheTZlVWdnRUhOWWRNajBIRkVUNE5uNkdTVFN3Y0NQcE9QZzd3NzhzZml0OWlGQkxZWFJ6MFp3UUFHenVjS0RWZ0lTR3d5VWdzWm1GMXB5cXdnUlF3NHByRzFXSVcwS1BDaHQxbUZzWmFOeC1XMDJOZi1EWEs5aWd0elF0U1pSbzl4WkJ6STFUMnpUNmNWMXQ3V29F?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T20:05:23+00:00"
-    },
-    {
-     "title": "Bayer cria programa para compra de sementes de soja no RS - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbWlXODgzd0NjcmtnNDd0al9oNkh1V1VramVhMVAzUV9ZQVdhZlZOMkFQNGtnYlJJeWpScGFiOTVUR2hHZzlpcThhb2lMNjBpNnhZRkgzR2drUW9QMkhWakJUai1ULVJ4Wk9Pd1N5NGpDYnhwUUg0VTZyb0NrRTRMa21hdENxdEszd2NabHk4UkpTcnBqVUVIMlZIX1gyQQ?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-08-11T19:48:38+00:00"
-    },
-    {
-     "title": "O STF, a Moratória da Soja e os limites constitucionais à punição de compromissos ambientais voluntários - Diplomatique",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWnJ5TVhrUlNBS3RtSUhoTzlYLWMwUG95Q1NuSHdVaHd5QmJ5UWkzU0NLMmZ5UmQtc25LeFplUGF0Y1NFcU5vLUJodzNLQnE3ZXU0Qzl4bEdqNDRWRmZTNWpEM19NV01vOEZVSDZyTDRKM0t0ZFhlcHVpTTBGUGxJS2swTy1RVE82OGluNE0xMXJ3Qi1FT3pkMkoySlRvMC16ZWVwcTQwejFSM3lmb1FfYVJzamlhVGp5ai01ejZGUWtSOGx1ZHByVGpQdHc?oc=5",
-     "source": "Diplomatique",
-     "published_at": "2026-08-11T19:24:40+00:00"
-    },
-    {
-     "title": "Os reis da soja! Veja a lista dos 20 municípios que mais produzem o grão - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOE12cUZ5MExmbUp4SFI2RGZ0RkszM2Rla3hhTXA1ejY0aHhPUWJ6OUtnVlVsMlczZmhFZE1XOGRwQndLc3kzVy1HMEhQLTF3Qi1sX1A3UlhmaVQyUS05YTZ2c2d2endXZi1sR2tFaXBkc2ZSMFoza1QzYk83OVNQZ1Y5VzNQUDg1Xzh5dE5kOWxmdldaUE53RTJSODJwSWFrenZrb3dEM0pVaTlxY2RqbTl3XzY?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T18:22:30+00:00"
-    },
-    {
-     "title": "Banco do Nordeste e Itaú financiam R$ 44 milhões para soja em área de conflito no Maranhão - Agência Pública",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYzNGTGZ0MTNNN3hlallPWFE0ZXFndTk3WnVaSVVmSkJmMEdnZVRySUNJZV9BVEI4bWRtU2pPS0JWb0w1MHRfZ0R2N1JpbDdXYlc1bDhwZGxUNXg2S25tWHhZS3JyUlRTRl9IVFJDQXBxdU91LXcybG1DOUN4UkxvYV96eWpSYVJmVEhVem40MERfTGllRzRNWlNJNmt0WnVsSklOdUQzeVl6TUVJQkJWeG9WY045RmVDdXJ30gHAAUFVX3lxTE1tVnZqdVN2VFNLRWRLR1ctZXVES1Zzak9jUlJUN01rQ3dGcHFScVJ6anRJdTJfaG9jTEVfSDhLeEozckJfVGpHeWdvaTZiU2lndXdpZ1ZPcTFGV0dEU1pfUW1jQzkyZnk4QnVXelFmSjNnSkdTOVdKYUxrNHFoVG5vYW13TjR3UGc0cWx0WEcwMUpzclZUNEM3SjNtXzVpenJvN0tQa3FVcDhURFZfQ00tMTBrXzZfLVlxbDdTYUNHcA?oc=5",
-     "source": "Agência Pública",
-     "published_at": "2026-08-11T17:11:52+00:00"
     },
     {
      "title": "Depois do foie gras, quais práticas de criação e abate de animais podem ser proibidas?",
@@ -564,12 +492,6 @@
      "published_at": "2026-08-11T10:18:23"
     },
     {
-     "title": "Amazônia à beira do colapso: por que a Moratória da Soja deveria ser retomada - JOTA Info",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUUZYdFlVSzA5M2xrdHZfMUt6bVlVTGFPX0Q5UnNzOUItSzBRdnlyWjVQVmNzR3ZTTUpfVjAzZHNpcnpLalF4SmRGclRfcjg4NDU3dGJEN255dWd5RWcxRzNHM3EtcXNaUjlycy14bkN4WlVSQVJYNmpQZldLTThXWkRRTFR5dS02UjBNVFljUHUtVHMwNTExRG41MFd6dW53S0ZwNG84SkVpSGktSEpaNEZVLUpybDlBQTNBbnFhUmptZw?oc=5",
-     "source": "JOTA Info",
-     "published_at": "2026-08-11T08:30:23+00:00"
-    },
-    {
      "title": "Quem é Wesley Batista Filho, que será o novo CEO global da JBS",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/10/quem-e-wesley-batista-filho-que-sera-o-novo-ceo-global-da-jbs.ghtml",
      "source": "G1 Agronegócios",
@@ -586,9 +508,34 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/09/a-volta-por-cima-dos-irmaos-batista-como-donos-da-jbs-sairam-da-lava-jato-e-voltaram-aos-holofotes-com-participacao-ate-na-diplomacia-mundial.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-09T18:48:16"
+    },
+    {
+     "title": "Receita Nosso Campo: aprenda a fazer um bolo de milho",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/09/receita-nosso-campo-aprenda-a-fazer-um-bolo-de-milho.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-09T10:30:16"
+    },
+    {
+     "title": "Parceria com escola italiana busca aprimorar produção de vinhos em Jundiaí",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/09/parceria-com-escola-italiana-busca-aprimorar-producao-de-vinhos-em-jundiai.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-09T10:30:14"
+    },
+    {
+     "title": "Família Roncoleta mantém tradição agrícola há cinco gerações em Getulina",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/09/familia-roncoleta-mantem-tradicao-agricola-ha-cinco-geracoes-em-getulina.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-09T10:30:13"
+    },
+    {
+     "title": "Expo Rio Preto atrai 50 mil visitantes na primeira semana",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/09/expo-rio-preto-atrai-50-mil-visitantes-na-primeira-semana.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-09T10:30:12"
     }
    ],
    "failed": [
+    "Google News: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=soja+OR+%22mercado+de+gr%C3%A3os%22&hl=pt-BR&gl=BR&ceid=BR:pt-419",
     "Notícias Agrícolas: 404 Client Error: Not Found for url: https://www.noticiasagricolas.com.br/rss/noticias"
    ]
   }
@@ -597,6 +544,10 @@
   {
    "section": "fx",
    "error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
+  },
+  {
+   "section": "rates",
+   "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json"
   },
   {
    "section": "cepea",

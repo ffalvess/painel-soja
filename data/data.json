@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-12T20:49:33+00:00",
+ "generated_at": "2026-08-12T21:38:42+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-12T20:49:26+00:00",
+   "updated_at": "2026-08-12T21:38:36+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -173,9 +173,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.35,
+     "price": 88.37,
      "prev_close": 88.91,
-     "change_pct": -0.63,
+     "change_pct": -0.61,
      "closes": [
       83.3,
       84.73,
@@ -199,7 +199,7 @@
       83.55,
       87.72,
       88.91,
-      88.35
+      88.37
      ]
     },
     {
@@ -240,7 +240,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-12T20:49:26+00:00",
+   "updated_at": "2026-08-12T21:38:36+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -251,7 +251,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-12T20:49:30+00:00",
+   "updated_at": "2026-08-12T21:38:40+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -412,8 +412,44 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-12T20:49:33+00:00",
+   "updated_at": "2026-08-12T21:38:42+00:00",
    "items": [
+    {
+     "title": "Câmara aprova texto-base de PLP dos combustíveis com medidas para etanol, fertilizantes e agro",
+     "link": "https://www.canalrural.com.br/politica/camara-aprova-texto-base-de-plp-dos-combustiveis-com-medidas-para-etanol-fertilizantes-e-agro/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T21:12:20+00:00"
+    },
+    {
+     "title": "Demanda por genética da raça charolês cresce no Brasil e venda de sêmen deve dobrar em 2026",
+     "link": "https://www.canalrural.com.br/pecuaria/demanda-por-genetica-da-raca-charoles-cresce-no-brasil-e-venda-de-semen-deve-dobrar-em-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T21:05:00+00:00"
+    },
+    {
+     "title": "STF valida moratória da soja, mas mantém leis estaduais que punem empresas que aderiram ao acordo - O GLOBO",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdDgwLXZNdG1RQlFSOU1SLU5vTHJpVkJWUTI2Yk9MMG5iSi1jS2dxbnhZU1RDOHg3ZndKUjBEdVR3WlVPcGxnckJMekQySUlPNGJDZkdFbzV6eDZvbnc1YlVXOGd2aEJzN2tZa0VSQWNJSWlOQTE0WlVhTkM0bGE5aGc2UjBZUm5FOF82UVZ5dVJiWEhwdHotUTgzYXNrU2RxenlOYUlQM3kwTVVKZkF3RXE3SFlpQUFGNThnNnk4SjEwRC1HTkxhVnJCQ09Rc2Z5QldEdjhPemJiQzhWLUlfQVpMZ1lIVVVBVXAw0gH6AUFVX3lxTE5NbV9LdU11dVZwQlVzZ2FmaV9pUHpaU0dIeVA4X19uaEhaRkgydHJDb2E2YmpoMldNMG5CWmUzX1VHaUxfWWVkS0RXakZVTGRfWWFlSWpsWUc4c2VQNE9xMEJ0SlNfbWw4OEtWVzJxcDF3b1pIYTdhaV9tNWdDUEw0WFVUaTYtS2kxZDdPYWQzeFdhZHBXcWxqaUZTYVI4ZUp6ckpUalZEWm54SzU5QW54NlBEYXFEcXZwb1Y2NnhSSXNSd3Q4NnlIZEZvM2U2a1NzakhDY3ZmeTRqZEFWeHZMNHE1UzZRTEx1LTA0cUZEeFZ5czZmNGFfbEE?oc=5",
+     "source": "O GLOBO",
+     "published_at": "2026-08-12T20:58:49+00:00"
+    },
+    {
+     "title": "Dólar sobe 0,37% e fecha a R$ 5,1799, maior nível desde 2 de julho",
+     "link": "https://www.canalrural.com.br/economia/dolar-sobe-037-e-fecha-a-r-51799-maior-nivel-desde-2-de-julho/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T20:58:37+00:00"
+    },
+    {
+     "title": "STF valida leis estaduais que retiram benefícios fiscais de empresas ligadas à Moratória da Soja",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/stf-reconhece-validade-da-moratoria-da-soja/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T20:32:32+00:00"
+    },
+    {
+     "title": "STF valida leis estaduais sobre moratória da soja e extingue ações contra o acordo - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNd3pveWdPSEgyNHBXWUppTWo5OXY1SHdQQlVqN1lsU1djRVRTTzNydkIzRUJtUkVUTlJRMDRUV0JRWWNxSXNvQU9QVGhPMkZrX0pjMmdZS1I2ZUZPekt4WUZJeTFpTTJkYWdwMVhPVVEzTXpTTzl1b05RTF83el9RTTRxY05FMkI5cWZ4VXVXOG1EbHExSUFNcVlqeDBuSFNlaVBaQ3JzcnkwTGFJSUp0NkQtbFd1SlhXVl8wZXhQTQ?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T20:18:11+00:00"
+    },
     {
      "title": "STF valida leis estaduais sobre moratória da soja e extingue ações contra o acordo",
      "link": "https://www.canalrural.com.br/politica/stf-valida-leis-estaduais-sobre-moratoria-da-soja-e-extingue-acoes-contra-o-acordo/",
@@ -451,36 +487,6 @@
      "published_at": "2026-08-12T20:06:19+00:00"
     },
     {
-     "title": "China prioriza segurança alimentar e abre novas oportunidades ao Brasil",
-     "link": "https://www.canalrural.com.br/videos/china-prioriza-seguranca-alimentar-e-abre-novas-oportunidades-ao-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T20:06:07+00:00"
-    },
-    {
-     "title": "Lula convoca reunião para discutir política de minerais críticos",
-     "link": "https://www.canalrural.com.br/videos/lula-convoca-reuniao-para-discutir-politica-de-minerais-criticos/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T20:05:57+00:00"
-    },
-    {
-     "title": "Aumento de pedidos de recuperação judicial no agronegócio preocupa setor financeiro",
-     "link": "https://www.canalrural.com.br/videos/aumento-de-pedidos-de-recuperacao-judicial-no-agronegocio-preocupa-setor-financeiro/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T20:05:46+00:00"
-    },
-    {
-     "title": "Congresso Andav discute crédito, recuperação judicial e agronegócio",
-     "link": "https://www.canalrural.com.br/videos/congresso-andav-discute-credito-recuperacao-judicial-e-agronegocio/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T20:05:33+00:00"
-    },
-    {
-     "title": "STF valida leis que esvaziaram Moratória da Soja, mas afasta acusação de cartel e indenizações - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPT1lzS1FYQklwbUtCcUd3QmRlLXRfeWlUeE9lQjJXNl9VdDZJMnd2SjBHRzZsS0FwNTFSWmNJWERBYlNrZkZDY190V1NZeGNkUWRlQnZZNnFwcW0yNGx3T2QwSmloYkRGVTFwbVNvV1U3WkY4U21tb3dUa0FEejc2NEdWNVFtWThRbnNIalhDOExPdFplcWhHdm90QTlETm9FRVE0blJSR0NzVzVKRDBZemJab2s4YWxDYkhsYUdLam9iMHdlZk1aQWlpbHNHcGtHQm5jSFdjbXZscVVnUVdZYjd2dUplMkNGV292cXlFQ1JFdXPSAYICQVVfeXFMTXZkSWFGdmQ2QXNpWGNaRTQtS3JGZlVEdWtvTWo2MzlyOXh1cmpaS015Um93OV9Dd0puYTRseUpWc0dpVEJnNjg0UjBBNExkNHZYb252XzRlZVg3bmhjX1c1bS1wYW5xZWREQmNDNk9mYzFmTnpiY25FdFpGOVhpYkVLaGxCZFI2Rld5UEtDVElVeGNRMnpxUnhodG5qbWd5SmlfQkxYdjljTTd4WVVFUlFNdUlpbDNkNE5ZY1NuY0tYak5VWEFlcDRwVHU3eTEzZVhMdEMzZlp2UmhYbGlFVjVNVktXWjZFRVJYZGVNLXlzSEo1Yi1MOE9zU1h6cXZHMGVB?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-12T20:05:27+00:00"
-    },
-    {
      "title": "STF valida leis que punem participantes da moratória da soja, mas extingue ações contra acordo - Estadão",
      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdExLdERoeVdOXzJRNUwxSnRfVmlzc2ZWSmllbjFKaDA0dnR3UEdnclJjeWhhbGlUOTEzckFxRFZKT2Q1WkNyd09BLVp3SEVOU1FDczV6TUJjaWZmUS01cVozMlpIdlFiTXBfb0Z4MkJzR2xESTdGWV9LV19XTWJzMmNKOXAtbXJRRzhRU3VkbFo2RlF2S29FbXlhTlhPOE5qUXFuWWhzWDNxeWpUbWpQUGpFRmxnTTZjRlNzc29ONFE5NmVWZEFvWUl1NF9aTmJ3YU5sYmpjRjl6MFXSAeABQVVfeXFMTzM1V2FpajJHenIzZ2x6c1FyT3pHeVFJNndvcEJRVWpZdnlyRnNtTWlRaGVaZzVXdFpsalJVMUlQcUZFZFByVjBTT1pWLXZ1YzRqUkVkckVYdnpuci1Vc2JOX21xRVM3UHRRU0d4c0cyQ1FLV08yLXB0bU5sb0FSQW1sUXNhQjdiTkFYSE1LcVp5WDNCOFp0SnVTTzhVbUJ1SEFCYm45aXJGSnVqWjRrTUhwVy1wRHlpa0d4WTVsRVpuVHRCUDExdE1tb2lTQldvOHBzdk5IR2YxRV8zWEZ3Y04?oc=5",
      "source": "Estadão",
@@ -493,15 +499,15 @@
      "published_at": "2026-08-12T19:59:00+00:00"
     },
     {
-     "title": "STF valida leis que restringem incentivos ligados à moratória da soja - Migalhas",
+     "title": "STF valida leis que restringem incentivos ligados à moratória da soja - migalhas.com.br",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSl95WnkyNFJLdG9WLWoyX1hKTnRFQ1VBem1UX19haktzTTRWbmxLS1lUWW9vYTFNREdDazBHXzFFM1hyZFhnSmxhdkhNUm0tRHJINmx1c0lGakRaVUFsSmRKRGhjcnh4cWwtMmJtZVFMV3dRX2RxbWJvbG94NGlhSWdZZWRUZ1Y4TURWSkxNSXdtTEEzNnplTTd0d3FvQmdSYWJrekRlLTlsU2hqaHM4Q0tB?oc=5",
-     "source": "Migalhas",
-     "published_at": "2026-08-12T19:33:10+00:00"
+     "source": "migalhas.com.br",
+     "published_at": "2026-08-12T19:37:11+00:00"
     },
     {
-     "title": "STF afasta tese de cartel econômico e valida moratória da soja - Poder360",
+     "title": "STF afasta tese de cartel econômico e valida moratória da soja - poder360.com.br",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNX3N1TnR6MXR5SXIwMkdJSWFKb1d6dlN0OWNZODMyUVNySGhhdVRtTHhUampROGJqOXlndmNDSkgzODgzMmFsamRHOGl3R1hlVzZ3N1FlV29lc2VFYmRzWkN6dkw5Tmg3MzBzLUtQNTFSd0hCVjNZSng2bXdOSFg2c2F2VEJ3aG1IOEJjbWRlc0xqekxWLTNTX1FZVjNYWks5d29nbEduMkQ?oc=5",
-     "source": "Poder360",
+     "source": "poder360.com.br",
      "published_at": "2026-08-12T19:22:05+00:00"
     },
     {
@@ -511,15 +517,9 @@
      "published_at": "2026-08-12T18:52:20+00:00"
     },
     {
-     "title": "STF retoma julgamento de leis estaduais sobre a moratória da soja - canalrural.com.br",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZFdaaEpfSjlyaFlGajR2bHAzR0FKRFRSRms4eG1FQW1nWTNWclhiSFZoeVgtV1N2ckh5OGR3eGRVb1FJemY3bG9ITE9IQlNWYS1xV1lFUkJjTjlPY0pveV9aQTNuUzRHYVJSREdSZVBwNDhwbnIyelVRTllFNTk0My1sVm1OOVZkWTkwaGZhcHFtY2RpVjlBMDBEek9EZFh0Zk9oaVc5QUg?oc=5",
-     "source": "canalrural.com.br",
-     "published_at": "2026-08-12T18:03:26+00:00"
-    },
-    {
-     "title": "USDA revisa projeções para soja e milho em agosto - Agrolink",
+     "title": "USDA revisa projeções para soja e milho em agosto - agrolink.com.br",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcEo2SUFONkpQMndlS2xTWXZNNFZfY2ZiTjZXbWctbXdCZE9sQzA0SnNXWEc2VGdjZ3R2OWZPMnREZ0tSQnU2M2hhSER1WjdGaWhLZWl2LWRyWnRJZUFRN0R3cjNid1BIQ19SV0x6bmUtNjdWdlo3X3BaS0Fsa0kydlpBVUxMNU9qRFQ1LWV6V1Z4dG9iSFB5WnNwbkhTbmM?oc=5",
-     "source": "Agrolink",
+     "source": "agrolink.com.br",
      "published_at": "2026-08-12T18:01:00+00:00"
     },
     {

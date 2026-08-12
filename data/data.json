@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-12T22:33:53+00:00",
+ "generated_at": "2026-08-12T23:34:14+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-12T22:33:37+00:00",
+   "updated_at": "2026-08-12T23:34:08+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -173,9 +173,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.58,
+     "price": 88.56,
      "prev_close": 88.91,
-     "change_pct": -0.37,
+     "change_pct": -0.39,
      "closes": [
       83.3,
       84.73,
@@ -199,7 +199,7 @@
       83.55,
       87.72,
       88.91,
-      88.58
+      88.56
      ]
     },
     {
@@ -240,9 +240,9 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-12T22:33:37+00:00",
+   "updated_at": "2026-08-12T23:34:08+00:00",
    "selic": 14.0,
-   "cdi": null,
+   "cdi": 13.9,
    "ipca_mes": {
     "valor": 0.07,
     "data": "01/07/2026"
@@ -251,7 +251,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-12T22:33:48+00:00",
+   "updated_at": "2026-08-12T23:34:12+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -412,8 +412,32 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-12T22:33:53+00:00",
+   "updated_at": "2026-08-12T23:34:14+00:00",
    "items": [
+    {
+     "title": "BNDES registra lucro de R$ 9,2 bilhões e ativos superam R$ 1 trilhão no primeiro semestre de 2026",
+     "link": "https://www.canalrural.com.br/videos/bndes-registra-lucro-de-r-92-bilhoes-e-ativos-superam-r-1-trilhao-no-primeiro-semestre-de-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T23:05:52+00:00"
+    },
+    {
+     "title": "Pecuária de corte: planejamento nutricional é essencial para sucesso, aponta especialista",
+     "link": "https://www.canalrural.com.br/pecuaria/pecuaria-de-corte-planejamento-nutricional-e-essencial-para-sucesso/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T23:03:00+00:00"
+    },
+    {
+     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
+     "source": "stf noticias",
+     "published_at": "2026-08-12T22:52:00+00:00"
+    },
+    {
+     "title": "STF valida moratória da soja e mantém restrições a incentivos - Consultor Jurídico",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLXMxSVVQZ3VnMjJUS1Z4YmlZVS01QWxjT1FMeGZoWUN1SlhMWURoTGxwVmMtREVVdlJZWUZ4NW82Mm8xUzJ4RERkWDFySWhrb01XT3hHRzYxbkVCSnZJbFdWTGVnRHpWdlZycFBEdzZaTGpCelR1R09aSjlrNUFnaC1la1lndU9ubDVKTVVReE9xLXVWSTRaRU82OXdVMUNERU9pVFh5UnB3Zw?oc=5",
+     "source": "Consultor Jurídico",
+     "published_at": "2026-08-12T22:40:39+00:00"
+    },
     {
      "title": "STF valida Moratória da Soja e extingue ações em tribunais e no Cade - JOTA Info",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeUQ0dkJkeVp2Rl9KSHN2b052cGhGeEYtLVNVejI5eG9kX29ScTJBZlhrVmlKeEZwam1CNkx3S3JUd3Q3Q3F0QUJqS1Z3UzQ1VlpybDZIYkpVcFptbVN4d2E3RkJqQ0RhbjQySE9HRmRpVUdROGVpS01XTzZCRldhOVVVWWtDcHFOVVkzUUZOYjUyQWwyc3J4WnYwbTV2V1hM?oc=5",
@@ -439,6 +463,12 @@
      "published_at": "2026-08-12T22:00:59+00:00"
     },
     {
+     "title": "Saiba como ficaram as cotações brasileiras de soja em dia de relatório do USDA - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdUZMaG5vVlNkSnBaNDc1b1R5bVZYZ3dDSkZVYWU3UzdHd2phYmFGR29WR1ZnWTEzT1BMV292c1FmVTJKOU5Ndjh0SXltcVVmZ2hCNk83TEZfRWllU3NhRVBHN1kzNnQwa2RxWjhFb0luclllOTdTMUM4UXVCWjFETV9PbVJ6UElhZDBXLWljV19HUTJnVVpDMjI3WE9nX3lCOHB3aWxnU1pWZTdxUVZrWUs5NXdhZTFnRkcxM19LbDZ2YTk2cVdjaVhqY3oyOVJqYk1sa2VOT2g?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T21:48:42+00:00"
+    },
+    {
      "title": "Saiba como ficaram as cotações brasileiras de soja em dia de relatório do USDA",
      "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/saiba-como-ficaram-as-cotacoes-brasileiras-de-soja-em-dia-de-relatorio-do-usda/",
      "source": "Canal Rural",
@@ -449,12 +479,6 @@
      "link": "https://www.canalrural.com.br/network/subproduto-da-industria-do-couro-vira-colageno-com-98-de-proteina-para-alimentos-e-produtos-pet/",
      "source": "Canal Rural",
      "published_at": "2026-08-12T21:45:09+00:00"
-    },
-    {
-     "title": "Exportação de soja supera 13 milhões de toneladas em julho - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLUFNSmxhYlVUQzJoU3F2UHdEZGhfclJ2el9tVVZNcXJJa2FTOVoyQlE3bFEzYlR2RTlDcUZqU09hY1dqeHVUWjZUeGM1a01RTGZXejA2QmMzVXhOWmY4RkRILWVZUWFxcWZfRzNmX010MVppVXEwSHFuQVAzMjItbUc1czdHSkFQQmZYN29FUlByMXZzRFFpNWFIZHBOd2pSZ0wzZVZxZ1JLSVU?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-12T21:40:00+00:00"
     },
     {
      "title": "Profert ajudará Brasil a combater o protecionismo dos concorrentes, diz Tirso Meirelles",
@@ -487,46 +511,28 @@
      "published_at": "2026-08-12T20:58:49+00:00"
     },
     {
-     "title": "Dólar sobe 0,37% e fecha a R$ 5,1799, maior nível desde 2 de julho",
-     "link": "https://www.canalrural.com.br/economia/dolar-sobe-037-e-fecha-a-r-51799-maior-nivel-desde-2-de-julho/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T20:58:37+00:00"
-    },
-    {
-     "title": "STF reconhece validade da Moratória da Soja - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR3gybDBraEt0VnVVY01nVHgzTzUxZUFMX0NBbjFGR3h0TDEwZHZ4dzJXd3dJdHVfVFBvd3JYdDdOYy1GYmUzazFlYTJ6OFl4MnFac2VYTGxOejZhdUhTeXFtVkMwT25Vci1MNy1vTWh2cGUyS0stYkdwRVdKRWk0X3hGZWpCX1JMSG5QQTJKQU1ReGFBLTdPNUVGT19HazRENzFZTjBxbFdmZw?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T20:32:32+00:00"
-    },
-    {
-     "title": "STF valida leis estaduais que retiram benefícios fiscais de empresas que aderem à Moratória da Soja",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/stf-reconhece-validade-da-moratoria-da-soja/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T20:32:32+00:00"
-    },
-    {
-     "title": "STF valida leis estaduais sobre moratória da soja e extingue ações contra o acordo - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNd3pveWdPSEgyNHBXWUppTWo5OXY1SHdQQlVqN1lsU1djRVRTTzNydkIzRUJtUkVUTlJRMDRUV0JRWWNxSXNvQU9QVGhPMkZrX0pjMmdZS1I2ZUZPekt4WUZJeTFpTTJkYWdwMVhPVVEzTXpTTzl1b05RTF83el9RTTRxY05FMkI5cWZ4VXVXOG1EbHExSUFNcVlqeDBuSFNlaVBaQ3JzcnkwTGFJSUp0NkQtbFd1SlhXVl8wZXhQTQ?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T20:18:11+00:00"
-    },
-    {
-     "title": "STF valida Moratória da Soja e barra processos que pedem indenização - CartaCapital",
+     "title": "STF valida Moratória da Soja e barra processos que pedem indenização - cartacapital.com.br",
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbktjNHJlcU9lU1p1d096YlVhdEtBU2NKdnB1X2FmUWFyRW1wX1dNak9hV1JBUVhkYVBpR0xGMG14al9Idnloem1EN2dRVDlXaXJGa2FIaHRCaG00ZmJSNTFxVGtxeVhHZVZtYnpVX0VyZDdmRHlMU0JFZ0MxOUpwSDhCUC1wY2k4aXJtbVpGNXI4SkZQcS1mZWplODdSV2NnRk9WZHNSbVhvWl9JLUE?oc=5",
-     "source": "CartaCapital",
+     "source": "cartacapital.com.br",
      "published_at": "2026-08-12T19:59:00+00:00"
     },
     {
-     "title": "STF valida leis que restringem incentivos ligados à moratória da soja - Migalhas",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSl95WnkyNFJLdG9WLWoyX1hKTnRFQ1VBem1UX19haktzTTRWbmxLS1lUWW9vYTFNREdDazBHXzFFM1hyZFhnSmxhdkhNUm0tRHJINmx1c0lGakRaVUFsSmRKRGhjcnh4cWwtMmJtZVFMV3dRX2RxbWJvbG94NGlhSWdZZWRUZ1Y4TURWSkxNSXdtTEEzNnplTTd0d3FvQmdSYWJrekRlLTlsU2hqaHM4Q0tB?oc=5",
-     "source": "Migalhas",
-     "published_at": "2026-08-12T19:37:11+00:00"
+     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-08-12T19:18:51+00:00"
     },
     {
      "title": "FDA mantém projeções para produção de soja e milho do Brasil em 2026/2027 - InfoMoney",
      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hdTBaTzhScnpCSlZIem1qYm5UcEJyUWs5Z0FCUUN2LWI2cnhTaElZLTBza29DaXMwdllEbVltRHlFelQyNHQxRXhaWEYybzJBVDBQbFBMbEREb0lmc2tVMHRHdGFwRUY4MFMwQdIBckFVX3lxTE1wUG5tc3Rzc2R0ZG9DVUJVN1BoSk9SZ1ExTWlTalZaQUFuanowN0EzTkxSMzZGa1BYODUzWDZrTm1welQ4R0lzMmtwUEQ2N3BMUlpJdHRWYllhTDRDQ19pUXZlc1JZaDdNU3JXZzVyNE0yUQ?oc=5",
      "source": "InfoMoney",
      "published_at": "2026-08-12T18:52:20+00:00"
+    },
+    {
+     "title": "STF valida leis que restringem incentivos ligados à moratória da soja - migalhas.com.br",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSl95WnkyNFJLdG9WLWoyX1hKTnRFQ1VBem1UX19haktzTTRWbmxLS1lUWW9vYTFNREdDazBHXzFFM1hyZFhnSmxhdkhNUm0tRHJINmx1c0lGakRaVUFsSmRKRGhjcnh4cWwtMmJtZVFMV3dRX2RxbWJvbG94NGlhSWdZZWRUZ1Y4TURWSkxNSXdtTEEzNnplTTd0d3FvQmdSYWJrekRlLTlsU2hqaHM4Q0tB?oc=5",
+     "source": "migalhas.com.br",
+     "published_at": "2026-08-12T17:44:48+00:00"
     },
     {
      "title": "Terremoto afeta exportações de café da Colômbia e ameaça embarques internacionais",
@@ -545,12 +551,6 @@
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZmxwOGZTVG5hbGFrOXNTTnNLazJPMGtpQ0JUa3Bnckh1VmRLbV9aT0hUWHg5MUxSMFhBN2pDaVFkWk5mQXd5TjZjMkx0RVU3Z3dlZHR4U05DajhYeVZEN25xTktjb3ItckdPaWNaMkJUNmJGa2tXNzRSTnZKc3BMcFg2X3lPYTFZVXlwc3lKRE1GWlIwVG8wemRFb0tUOHEtWm9xQnhmM0ZKSmNTQ1p5Ym1n?oc=5",
      "source": "JOTA Info",
      "published_at": "2026-08-12T15:38:10+00:00"
-    },
-    {
-     "title": "USDA anuncia mais uma venda de soja para a China nesta 4ª (12) - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUFlhU3lMdHRJWDVncGFXalN2RmdOa3JWYVNCQ1FSVE8yV3lSVDRCT3o5QXlZZmVKODBDSkhVU0s3aFlHdFdseTJhbFVnMUVkbmR6Mi1MQ29EbVhyd0Y4VkhENTN0VzlaZnU3VlB3dXYwOVBmSEF0VTBhYVBHRjZhLTdTQ3drQXVobmpwZm94eUVucGw2UWRGUjkxS3NDLWx3aFdJdEJ3UUt2N0xweEFYNUNuaDRTbHdwYzRKZlBRNNIBxAFBVV95cUxPWGhWSHNDV0lKNmwtTFZCRDVKaFlpQ1gzejYwYTk5dExCcXhiaVhkLXRITUUtODVxRXBrYWFRUThwR2UwTkt3Z1JNLXhHZk5vUXRCZWhBbFljVlZuSHBSTkRVQUlxOEtqM0FhdzFIajE1eXl0ZHVkNG1Bb0xQTFlCcUJWZFJCRXFhemc3QXh3cHRnU19FUjhCMVJoT0lDWnBFbUl2UGUtVmNzYktTZHJ0d3FiTjh4VFRUbmpHV2xxVlREei1a?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-12T15:25:05+00:00"
     },
     {
      "title": "Crise no campo: pedidos de recuperação judicial saltam entre produtores rurais",

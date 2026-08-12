@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-12T19:58:30+00:00",
+ "generated_at": "2026-08-12T20:49:33+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-12T19:58:23+00:00",
+   "updated_at": "2026-08-12T20:49:26+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -173,9 +173,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.66,
+     "price": 88.35,
      "prev_close": 88.91,
-     "change_pct": -0.28,
+     "change_pct": -0.63,
      "closes": [
       83.3,
       84.73,
@@ -199,16 +199,16 @@
       83.55,
       87.72,
       88.91,
-      88.66
+      88.35
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 167620.31,
+     "price": 167491.06,
      "prev_close": 167875.0,
-     "change_pct": -0.15,
+     "change_pct": -0.23,
      "closes": [
       175739.0,
       176641.0,
@@ -216,12 +216,15 @@
       173825.0,
       173714.0,
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -229,7 +232,7 @@
       172513.0,
       172180.0,
       167875.0,
-      167620.3125
+      167491.0625
      ]
     }
    ],
@@ -237,7 +240,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-12T19:58:23+00:00",
+   "updated_at": "2026-08-12T20:49:26+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -248,7 +251,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-12T19:58:27+00:00",
+   "updated_at": "2026-08-12T20:49:30+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -409,25 +412,91 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-12T19:58:30+00:00",
+   "updated_at": "2026-08-12T20:49:33+00:00",
    "items": [
     {
-     "title": "Comissão mista é instalada para analisar MP do endividamento rural",
-     "link": "https://www.canalrural.com.br/politica/comissao-mista-e-instalada-para-analisar-mp-do-endividamento-rural/",
+     "title": "STF valida leis estaduais sobre moratória da soja e extingue ações contra o acordo",
+     "link": "https://www.canalrural.com.br/politica/stf-valida-leis-estaduais-sobre-moratoria-da-soja-e-extingue-acoes-contra-o-acordo/",
      "source": "Canal Rural",
-     "published_at": "2026-08-12T19:42:28+00:00"
+     "published_at": "2026-08-12T20:18:11+00:00"
     },
     {
-     "title": "Além das tarifas: novas barreiras dos EUA entram no radar do agro brasileiro",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/alem-das-tarifas-novas-barreiras-dos-eua-entram-no-radar-do-agro-brasileiro/",
+     "title": "Senado aprova programa para reduzir dependência de fertilizantes importados",
+     "link": "https://www.canalrural.com.br/videos/senado-aprova-programa-para-reduzir-dependencia-de-fertilizantes-importados/",
      "source": "Canal Rural",
-     "published_at": "2026-08-12T19:36:54+00:00"
+     "published_at": "2026-08-12T20:15:33+00:00"
     },
     {
-     "title": "Tempestade com ventania de 100 km/h deve atingir duas capitais brasileiras",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/tempestade-com-ventania-de-100-km-h-deve-atingir-duas-capitais-brasileiras/",
+     "title": "Fórum Mais Milho discute desafios da produção de milho no Brasil",
+     "link": "https://www.canalrural.com.br/videos/forum-mais-milho-discute-desafios-da-producao-de-milho-no-brasil/",
      "source": "Canal Rural",
-     "published_at": "2026-08-12T19:26:58+00:00"
+     "published_at": "2026-08-12T20:15:22+00:00"
+    },
+    {
+     "title": "Tecnologia e inovação na suinocultura: prevenção e sanidade em foco",
+     "link": "https://www.canalrural.com.br/videos/tecnologia-e-inovacao-na-suinocultura-prevencao-e-sanidade-em-foco/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T20:15:09+00:00"
+    },
+    {
+     "title": "USDA eleva produção de soja dos EUA e ajusta projeções para o Brasil; analista comenta",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/usda-eleva-producao-de-soja-dos-eua-e-ajusta-projecoes-para-o-brasil-analista-comenta/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T20:13:40+00:00"
+    },
+    {
+     "title": "Chuvas extremas afetam colheita de trigo e provocam alertas no Brasil e na China",
+     "link": "https://www.canalrural.com.br/videos/chuvas-extremas-afetam-colheita-de-trigo-e-provocam-alertas-no-brasil-e-na-china/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T20:06:19+00:00"
+    },
+    {
+     "title": "China prioriza segurança alimentar e abre novas oportunidades ao Brasil",
+     "link": "https://www.canalrural.com.br/videos/china-prioriza-seguranca-alimentar-e-abre-novas-oportunidades-ao-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T20:06:07+00:00"
+    },
+    {
+     "title": "Lula convoca reunião para discutir política de minerais críticos",
+     "link": "https://www.canalrural.com.br/videos/lula-convoca-reuniao-para-discutir-politica-de-minerais-criticos/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T20:05:57+00:00"
+    },
+    {
+     "title": "Aumento de pedidos de recuperação judicial no agronegócio preocupa setor financeiro",
+     "link": "https://www.canalrural.com.br/videos/aumento-de-pedidos-de-recuperacao-judicial-no-agronegocio-preocupa-setor-financeiro/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T20:05:46+00:00"
+    },
+    {
+     "title": "Congresso Andav discute crédito, recuperação judicial e agronegócio",
+     "link": "https://www.canalrural.com.br/videos/congresso-andav-discute-credito-recuperacao-judicial-e-agronegocio/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T20:05:33+00:00"
+    },
+    {
+     "title": "STF valida leis que esvaziaram Moratória da Soja, mas afasta acusação de cartel e indenizações - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPT1lzS1FYQklwbUtCcUd3QmRlLXRfeWlUeE9lQjJXNl9VdDZJMnd2SjBHRzZsS0FwNTFSWmNJWERBYlNrZkZDY190V1NZeGNkUWRlQnZZNnFwcW0yNGx3T2QwSmloYkRGVTFwbVNvV1U3WkY4U21tb3dUa0FEejc2NEdWNVFtWThRbnNIalhDOExPdFplcWhHdm90QTlETm9FRVE0blJSR0NzVzVKRDBZemJab2s4YWxDYkhsYUdLam9iMHdlZk1aQWlpbHNHcGtHQm5jSFdjbXZscVVnUVdZYjd2dUplMkNGV292cXlFQ1JFdXPSAYICQVVfeXFMTXZkSWFGdmQ2QXNpWGNaRTQtS3JGZlVEdWtvTWo2MzlyOXh1cmpaS015Um93OV9Dd0puYTRseUpWc0dpVEJnNjg0UjBBNExkNHZYb252XzRlZVg3bmhjX1c1bS1wYW5xZWREQmNDNk9mYzFmTnpiY25FdFpGOVhpYkVLaGxCZFI2Rld5UEtDVElVeGNRMnpxUnhodG5qbWd5SmlfQkxYdjljTTd4WVVFUlFNdUlpbDNkNE5ZY1NuY0tYak5VWEFlcDRwVHU3eTEzZVhMdEMzZlp2UmhYbGlFVjVNVktXWjZFRVJYZGVNLXlzSEo1Yi1MOE9zU1h6cXZHMGVB?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-12T20:05:27+00:00"
+    },
+    {
+     "title": "STF valida leis que punem participantes da moratória da soja, mas extingue ações contra acordo - Estadão",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdExLdERoeVdOXzJRNUwxSnRfVmlzc2ZWSmllbjFKaDA0dnR3UEdnclJjeWhhbGlUOTEzckFxRFZKT2Q1WkNyd09BLVp3SEVOU1FDczV6TUJjaWZmUS01cVozMlpIdlFiTXBfb0Z4MkJzR2xESTdGWV9LV19XTWJzMmNKOXAtbXJRRzhRU3VkbFo2RlF2S29FbXlhTlhPOE5qUXFuWWhzWDNxeWpUbWpQUGpFRmxnTTZjRlNzc29ONFE5NmVWZEFvWUl1NF9aTmJ3YU5sYmpjRjl6MFXSAeABQVVfeXFMTzM1V2FpajJHenIzZ2x6c1FyT3pHeVFJNndvcEJRVWpZdnlyRnNtTWlRaGVaZzVXdFpsalJVMUlQcUZFZFByVjBTT1pWLXZ1YzRqUkVkckVYdnpuci1Vc2JOX21xRVM3UHRRU0d4c0cyQ1FLV08yLXB0bU5sb0FSQW1sUXNhQjdiTkFYSE1LcVp5WDNCOFp0SnVTTzhVbUJ1SEFCYm45aXJGSnVqWjRrTUhwVy1wRHlpa0d4WTVsRVpuVHRCUDExdE1tb2lTQldvOHBzdk5IR2YxRV8zWEZ3Y04?oc=5",
+     "source": "Estadão",
+     "published_at": "2026-08-12T20:00:00+00:00"
+    },
+    {
+     "title": "STF valida Moratória da Soja e barra processos que pedem indenização - CartaCapital",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbktjNHJlcU9lU1p1d096YlVhdEtBU2NKdnB1X2FmUWFyRW1wX1dNak9hV1JBUVhkYVBpR0xGMG14al9Idnloem1EN2dRVDlXaXJGa2FIaHRCaG00ZmJSNTFxVGtxeVhHZVZtYnpVX0VyZDdmRHlMU0JFZ0MxOUpwSDhCUC1wY2k4aXJtbVpGNXI4SkZQcS1mZWplODdSV2NnRk9WZHNSbVhvWl9JLUE?oc=5",
+     "source": "CartaCapital",
+     "published_at": "2026-08-12T19:59:00+00:00"
+    },
+    {
+     "title": "STF valida leis que restringem incentivos ligados à moratória da soja - Migalhas",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSl95WnkyNFJLdG9WLWoyX1hKTnRFQ1VBem1UX19haktzTTRWbmxLS1lUWW9vYTFNREdDazBHXzFFM1hyZFhnSmxhdkhNUm0tRHJINmx1c0lGakRaVUFsSmRKRGhjcnh4cWwtMmJtZVFMV3dRX2RxbWJvbG94NGlhSWdZZWRUZ1Y4TURWSkxNSXdtTEEzNnplTTd0d3FvQmdSYWJrekRlLTlsU2hqaHM4Q0tB?oc=5",
+     "source": "Migalhas",
+     "published_at": "2026-08-12T19:33:10+00:00"
     },
     {
      "title": "STF afasta tese de cartel econômico e valida moratória da soja - Poder360",
@@ -436,39 +505,15 @@
      "published_at": "2026-08-12T19:22:05+00:00"
     },
     {
-     "title": "Toffoli vota para validar lei de Rondônia contra signatárias da moratória da soja",
-     "link": "https://www.canalrural.com.br/politica/toffoli-vota-para-validar-lei-de-rondonia-contra-signatarias-da-moratoria-da-soja/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T19:13:53+00:00"
-    },
-    {
-     "title": "Agronegócio paulista registra superávit de US$ 12,16 bilhões até julho",
-     "link": "https://www.canalrural.com.br/economia/agronegocio-paulista-registra-superavit-de-us-1216-bilhoes-ate-julho/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T18:53:42+00:00"
-    },
-    {
      "title": "FDA mantém projeções para produção de soja e milho do Brasil em 2026/2027 - InfoMoney",
      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hdTBaTzhScnpCSlZIem1qYm5UcEJyUWs5Z0FCUUN2LWI2cnhTaElZLTBza29DaXMwdllEbVltRHlFelQyNHQxRXhaWEYybzJBVDBQbFBMbEREb0lmc2tVMHRHdGFwRUY4MFMwQdIBckFVX3lxTE1wUG5tc3Rzc2R0ZG9DVUJVN1BoSk9SZ1ExTWlTalZaQUFuanowN0EzTkxSMzZGa1BYODUzWDZrTm1welQ4R0lzMmtwUEQ2N3BMUlpJdHRWYllhTDRDQ19pUXZlc1JZaDdNU3JXZzVyNE0yUQ?oc=5",
      "source": "InfoMoney",
      "published_at": "2026-08-12T18:52:20+00:00"
     },
     {
-     "title": "Senado instala comissão sobre renegociação de dívidas rurais",
-     "link": "https://www.canalrural.com.br/politica/senado-instala-comissao-sobre-renegociacao-de-dividas-rurais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T18:16:31+00:00"
-    },
-    {
-     "title": "STF retoma julgamento de leis estaduais sobre a moratória da soja - Canal Rural",
+     "title": "STF retoma julgamento de leis estaduais sobre a moratória da soja - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZFdaaEpfSjlyaFlGajR2bHAzR0FKRFRSRms4eG1FQW1nWTNWclhiSFZoeVgtV1N2ckh5OGR3eGRVb1FJemY3bG9ITE9IQlNWYS1xV1lFUkJjTjlPY0pveV9aQTNuUzRHYVJSREdSZVBwNDhwbnIyelVRTllFNTk0My1sVm1OOVZkWTkwaGZhcHFtY2RpVjlBMDBEek9EZFh0Zk9oaVc5QUg?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T18:03:26+00:00"
-    },
-    {
-     "title": "STF retoma julgamento de leis estaduais sobre a moratória da soja",
-     "link": "https://www.canalrural.com.br/politica/stf-retoma-julgamento-de-leis-estaduais-sobre-a-moratoria-da-soja/",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-12T18:03:26+00:00"
     },
     {
@@ -484,40 +529,10 @@
      "published_at": "2026-08-12T18:00:00+00:00"
     },
     {
-     "title": "Profert é aprovado no Senado e Firjan vê estímulo à indústria nacional",
-     "link": "https://www.canalrural.com.br/economia/profert-e-aprovado-no-senado-e-firjan-ve-estimulo-a-industria-nacional/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T17:58:30+00:00"
-    },
-    {
-     "title": "AO VIVO: STF julga restrição a incentivos ligados à moratória da soja - migalhas.com.br",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNN1lFcU5WMzdsVmJWeUdkdjJuSVhsbDNNRTJ4cmJaUzVjUWJzWGNLZFJsNVZNSnNCaGdUT0JBaHpkNWtESkpDdEVGNVpNSGlJalAtcmFsdTVmeEVqVmlKNHp1VTdXbzRGVmxINEJYN25pSGJCVVlNZ0hacndEamppOW95OW5xSThmOXNWZnRnSFBVZ2F0bHdSWXFFcHpTM3AwUGx0RjNKd29RMDVDZThMZA?oc=5",
-     "source": "migalhas.com.br",
-     "published_at": "2026-08-12T17:44:48+00:00"
-    },
-    {
      "title": "USDA eleva projeções da safra de milho e soja do Brasil e dos EUA - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZUVlTkRTbmtWa0NGUTBERXpjcVY3ajhqNmdrejNVNjhzVDNmcGw4aGp3VmJvd283ZXcxYUxLeW5BeHJLRjZWTVFpN1N1emdHRVhtUlE1VTd5T0x5V21fY2xMS1o2UFRqS0xFNTZJV1BwWWp3cE5YZ1ZEbGFwaUNMSHRSdlA2R1pnNVVpdXF6elVZMFVJQmJnOWVfODlzNGZVWmc?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-08-12T17:36:05+00:00"
-    },
-    {
-     "title": "Planos setoriais de logística devem ser concluídos até o fim de 2026",
-     "link": "https://www.canalrural.com.br/politica/planos-setoriais-de-logistica-devem-ser-concluidos-ate-o-fim-de-2026/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T17:21:51+00:00"
-    },
-    {
-     "title": "Custo alimentar de bovinos confinados cai no Sudeste e amplia margem em julho",
-     "link": "https://www.canalrural.com.br/pecuaria/custo-alimentar-de-bovinos-confinados-cai-no-sudeste-e-amplia-margem-em-julho/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T17:18:04+00:00"
-    },
-    {
-     "title": "USDA contraria aposta do mercado e eleva previsão de safra de soja nos EUA - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcGxZTndGN25KMTI1S3VpMWNBUjdCb1lrdV8ydjNHb29QTWVRdlpLckhvYkxLUUMybElfX0ZsN0JoLU1Ea01VdkZDYnZvZHpYcFh5R2xadEZZVTRmakQ0NEJkUUVUQ080azJsQ0tFaHFQVVdtRUpqNGhpSE9VcDFjdmcweVBmSTVwUkRVbFdzUGdpT2VVOGZxd0d5cWlQZmFYUS1zZVBMN25OOG1iX0NocTFXektQZ2JaZ1NsU2lsWnNhWTEyazE5QUlTbi0xRE5wYjRn0gHiAUFVX3lxTE90akRzemlWQWo4ck01MHN4bFp1NjI4eHlOcTlhdG4xVU5FMDd6NER2ZGJWMjRSVTFDMFpsVFQ2OEhxSTY3SjM4YW1RQzFzOTFqTklfb21Pc3Y0NDRURFdHWlZwdlB2TjE4b1ZfdF9TSFV6WXNKLVpUa1dkcnF6aDlYVHlkNlZOUkFwTHRQYUJock5PZjUtZWJkeFp3VHZUamh3RG5lZGNodVlGSzl5VUgzdUJ5elZqQkhPcGxLVTJQZFNPdkxFNXJ4MmdLUHdVQThxRlNtY3NyVG1nZTN5TmpMOHc?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-12T16:52:17+00:00"
     },
     {
      "title": "Terremoto afeta exportações de café da Colômbia e ameaça embarques internacionais",
@@ -538,22 +553,10 @@
      "published_at": "2026-08-12T15:38:10+00:00"
     },
     {
-     "title": "Saiba como realizar cadastro antecipado para semeadura da Soja - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUHBOdTJlU1hnbXB5MUhWTzE5NC1YbkFWRmtwR2ZUZHFnWnp0d2RiVVNZZEprcl9Tc1ZqaEdvRWVIQ0tCRm84dHVxbjZfa1k1al94b3NNTi1DZmxaMkNFaWZRVmxVUTBFdXlBVE5LcmJwb1dLVUx3bHlyclZGNXlFX2ZRX0lTN3ZxeHczcGJLY0wycUFjSVFZd1M1aDRTbG1sZHkzUExWZzdkazZQ?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T14:42:49+00:00"
-    },
-    {
      "title": "Crise no campo: pedidos de recuperação judicial saltam entre produtores rurais",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/12/recuperacao-judicial-agronegocio.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-12T11:25:43"
-    },
-    {
-     "title": "Soja sobe em Chicago nesta 4ª antes do novo relatório do USDA; óleo também sobe e contribui - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdXlFMXJxM2x6TlQtMmVRcjlnWk5aV2xxall2cXRYYVJMM0VsUV91YUtfU0UwVlNJZjhrQllUbVphcFUwSFQ0RjRSRTlMSXRiaXk2aXU3aGd2Wnl2Mkw2VTFlNVJ6SG9uLXN3eTZGZEhiclUzbU10YmJScFN5X0VoeWprSjc4M2xjanRvQUxaakt2NnI5ZUlmNUZyQ1ByTG5xWjJtRFhQQlEycHBPVEluWEQ2X3kxWThyNnBkcGItY2ViQ21CanpyWWhWcFE4endHc1Z3RW91RkJmR25wUXZQcW5fS01lX1HSAewBQVVfeXFMT3pPYUZaeHhaODdnbDl1dXBvLTdvZXJqYUt5REF1WHpZY1hlZGcyN0RVM1BpMWhxamJBM3dadkFoUTUzZHk0dHFycG9lNF92T0QwYjZxMk0ybE9Obmd0ek5FVmZZdm5RQlgxMF9XaDB4Wi1IU1JVX0ZDYlRIQWpSd2tjWDRGcXl6Sml5MGZFY291YTQ5TmhuQ0UxNXZsN1gxLW5kT2gzbkotTEFyQnRZVFY2NU0wTUwxTUpja2NXZTV1RTlzSWZVRWZmb3VLbG9UQW1MU2wxTzdTYkUzeWdaZTBnb0MzR3Z0Umxrbjg?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-12T10:31:27+00:00"
     },
     {
      "title": "Como estoques recordes e avanço do agro brasileiro podem reduzir impacto do 'super El Niño' no mundo",

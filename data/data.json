@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-12T18:53:53+00:00",
+ "generated_at": "2026-08-12T19:58:30+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-12T18:53:45+00:00",
+   "updated_at": "2026-08-12T19:58:23+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -173,9 +173,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.97,
+     "price": 88.66,
      "prev_close": 88.91,
-     "change_pct": 0.07,
+     "change_pct": -0.28,
      "closes": [
       83.3,
       84.73,
@@ -199,16 +199,16 @@
       83.55,
       87.72,
       88.91,
-      88.97
+      88.66
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 167454.81,
+     "price": 167620.31,
      "prev_close": 167875.0,
-     "change_pct": -0.25,
+     "change_pct": -0.15,
      "closes": [
       175739.0,
       176641.0,
@@ -216,15 +216,12 @@
       173825.0,
       173714.0,
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -232,7 +229,7 @@
       172513.0,
       172180.0,
       167875.0,
-      167454.8125
+      167620.3125
      ]
     }
    ],
@@ -240,7 +237,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-12T18:53:45+00:00",
+   "updated_at": "2026-08-12T19:58:23+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -251,7 +248,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-12T18:53:50+00:00",
+   "updated_at": "2026-08-12T19:58:27+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -274,22 +271,22 @@
       0.0
      ],
      "tmax": [
-      35.1,
       35.2,
-      35.9,
-      36.6,
-      37.8,
-      38.1,
+      35.4,
+      36.0,
+      36.7,
+      37.5,
+      38.3,
       37.3
      ],
      "tmin": [
       22.1,
+      21.5,
+      21.1,
       21.4,
-      20.6,
-      21.7,
-      22.7,
       22.5,
-      24.3
+      22.6,
+      22.6
      ]
     },
     {
@@ -313,22 +310,22 @@
       0.0
      ],
      "tmax": [
-      33.9,
-      34.1,
+      34.5,
+      34.4,
       35.0,
-      36.1,
-      36.9,
-      37.0,
+      35.9,
+      36.8,
+      37.5,
       36.4
      ],
      "tmin": [
       21.8,
-      21.0,
+      21.1,
       20.4,
       21.2,
-      20.7,
-      22.7,
-      23.8
+      21.6,
+      22.4,
+      22.6
      ]
     },
     {
@@ -352,22 +349,22 @@
       0.0
      ],
      "tmax": [
-      32.9,
-      32.4,
-      33.5,
-      34.1,
-      35.2,
+      33.0,
+      32.6,
+      33.9,
       34.3,
-      33.9
+      35.3,
+      34.3,
+      33.7
      ],
      "tmin": [
       21.4,
-      20.8,
+      21.1,
       19.8,
-      21.3,
-      21.2,
-      22.2,
-      23.2
+      21.5,
+      21.1,
+      21.7,
+      22.7
      ]
     },
     {
@@ -391,34 +388,82 @@
       0.0
      ],
      "tmax": [
-      29.9,
-      32.2,
-      29.6,
-      31.2,
-      34.4,
-      35.3,
-      36.8
+      30.4,
+      31.9,
+      29.7,
+      31.1,
+      34.9,
+      35.8,
+      37.0
      ],
      "tmin": [
       17.0,
-      18.8,
-      18.6,
-      18.5,
-      19.6,
-      20.3,
-      21.4
+      18.9,
+      19.0,
+      19.0,
+      20.0,
+      20.2,
+      20.0
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-12T18:53:53+00:00",
+   "updated_at": "2026-08-12T19:58:30+00:00",
    "items": [
+    {
+     "title": "Comissão mista é instalada para analisar MP do endividamento rural",
+     "link": "https://www.canalrural.com.br/politica/comissao-mista-e-instalada-para-analisar-mp-do-endividamento-rural/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T19:42:28+00:00"
+    },
+    {
+     "title": "Além das tarifas: novas barreiras dos EUA entram no radar do agro brasileiro",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/alem-das-tarifas-novas-barreiras-dos-eua-entram-no-radar-do-agro-brasileiro/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T19:36:54+00:00"
+    },
+    {
+     "title": "Tempestade com ventania de 100 km/h deve atingir duas capitais brasileiras",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/tempestade-com-ventania-de-100-km-h-deve-atingir-duas-capitais-brasileiras/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T19:26:58+00:00"
+    },
+    {
+     "title": "STF afasta tese de cartel econômico e valida moratória da soja - Poder360",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNX3N1TnR6MXR5SXIwMkdJSWFKb1d6dlN0OWNZODMyUVNySGhhdVRtTHhUampROGJqOXlndmNDSkgzODgzMmFsamRHOGl3R1hlVzZ3N1FlV29lc2VFYmRzWkN6dkw5Tmg3MzBzLUtQNTFSd0hCVjNZSng2bXdOSFg2c2F2VEJ3aG1IOEJjbWRlc0xqekxWLTNTX1FZVjNYWks5d29nbEduMkQ?oc=5",
+     "source": "Poder360",
+     "published_at": "2026-08-12T19:22:05+00:00"
+    },
+    {
+     "title": "Toffoli vota para validar lei de Rondônia contra signatárias da moratória da soja",
+     "link": "https://www.canalrural.com.br/politica/toffoli-vota-para-validar-lei-de-rondonia-contra-signatarias-da-moratoria-da-soja/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T19:13:53+00:00"
+    },
+    {
+     "title": "Agronegócio paulista registra superávit de US$ 12,16 bilhões até julho",
+     "link": "https://www.canalrural.com.br/economia/agronegocio-paulista-registra-superavit-de-us-1216-bilhoes-ate-julho/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T18:53:42+00:00"
+    },
+    {
+     "title": "FDA mantém projeções para produção de soja e milho do Brasil em 2026/2027 - InfoMoney",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5hdTBaTzhScnpCSlZIem1qYm5UcEJyUWs5Z0FCUUN2LWI2cnhTaElZLTBza29DaXMwdllEbVltRHlFelQyNHQxRXhaWEYybzJBVDBQbFBMbEREb0lmc2tVMHRHdGFwRUY4MFMwQdIBckFVX3lxTE1wUG5tc3Rzc2R0ZG9DVUJVN1BoSk9SZ1ExTWlTalZaQUFuanowN0EzTkxSMzZGa1BYODUzWDZrTm1welQ4R0lzMmtwUEQ2N3BMUlpJdHRWYllhTDRDQ19pUXZlc1JZaDdNU3JXZzVyNE0yUQ?oc=5",
+     "source": "InfoMoney",
+     "published_at": "2026-08-12T18:52:20+00:00"
+    },
     {
      "title": "Senado instala comissão sobre renegociação de dívidas rurais",
      "link": "https://www.canalrural.com.br/politica/senado-instala-comissao-sobre-renegociacao-de-dividas-rurais/",
      "source": "Canal Rural",
      "published_at": "2026-08-12T18:16:31+00:00"
+    },
+    {
+     "title": "STF retoma julgamento de leis estaduais sobre a moratória da soja - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZFdaaEpfSjlyaFlGajR2bHAzR0FKRFRSRms4eG1FQW1nWTNWclhiSFZoeVgtV1N2ckh5OGR3eGRVb1FJemY3bG9ITE9IQlNWYS1xV1lFUkJjTjlPY0pveV9aQTNuUzRHYVJSREdSZVBwNDhwbnIyelVRTllFNTk0My1sVm1OOVZkWTkwaGZhcHFtY2RpVjlBMDBEek9EZFh0Zk9oaVc5QUg?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-12T18:03:26+00:00"
     },
     {
      "title": "STF retoma julgamento de leis estaduais sobre a moratória da soja",
@@ -445,10 +490,10 @@
      "published_at": "2026-08-12T17:58:30+00:00"
     },
     {
-     "title": "EUA aumenta previsão de área colhida de milho e soja, mas vê produtividade menor - InfoMoney",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQTY4UUdRY0pxMFBnWHVtTVhzODRoOEZOOU9RMTlUa19QTXpSaXNnVnBvVEpYMkRkaUc3V2pfd0FNaFNUMWtfT0xHNUVTM0VYb2tOY2ZwSVBvVllRMlZoZE0zN1V4QWhTeXhvVG9RTHV6cnQxekVYcGNMYnh2YUFQMVBmYWNSNGhKd3Z5anJSWmNPZ0hzWWZoMjVTWDJQV25ZMjNvT3paNVd3LW1GVm40bzNkUTNuOVBvZmfSAb8BQVVfeXFMTi0wRWI0Y3IwbWdIVTdlRVoxX0tMdFQ2MDlwalJLcXRyOGN5em45eEl1eEQtbHFXV2NUajVyaF83d0lJaTZBZkpROWxCVkNCeS1YVm1lQzUxUjZneWk5RHAzTlJ1Tk9adzdFalp3Rm5SNng2Unk4akItQ05sSVBRS004UUlGcV84S3JLX0Rlek5kbWlpdW9PWjJLX21Qckt6WWlJQ1hKNjNqTkwwNE5WSF9TQmlPV2RqNjJCM2dJcEU?oc=5",
-     "source": "InfoMoney",
-     "published_at": "2026-08-12T17:48:04+00:00"
+     "title": "AO VIVO: STF julga restrição a incentivos ligados à moratória da soja - migalhas.com.br",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNN1lFcU5WMzdsVmJWeUdkdjJuSVhsbDNNRTJ4cmJaUzVjUWJzWGNLZFJsNVZNSnNCaGdUT0JBaHpkNWtESkpDdEVGNVpNSGlJalAtcmFsdTVmeEVqVmlKNHp1VTdXbzRGVmxINEJYN25pSGJCVVlNZ0hacndEamppOW95OW5xSThmOXNWZnRnSFBVZ2F0bHdSWXFFcHpTM3AwUGx0RjNKd29RMDVDZThMZA?oc=5",
+     "source": "migalhas.com.br",
+     "published_at": "2026-08-12T17:44:48+00:00"
     },
     {
      "title": "USDA eleva projeções da safra de milho e soja do Brasil e dos EUA - CNN Brasil",
@@ -469,46 +514,10 @@
      "published_at": "2026-08-12T17:18:04+00:00"
     },
     {
-     "title": "Defesa Civil reconhece emergência em 19 municípios do RS após temporais",
-     "link": "https://www.canalrural.com.br/politica/defesa-civil-reconhece-emergencia-em-19-municipios-do-rs-apos-temporais-2/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T17:16:24+00:00"
-    },
-    {
-     "title": "Duas fazendas em Campos dos Goytacazes serão incorporadas à reforma agrária",
-     "link": "https://www.canalrural.com.br/politica/duas-fazendas-em-campos-dos-goytacazes-serao-incorporadas-a-reforma-agraria/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T16:59:16+00:00"
-    },
-    {
      "title": "USDA contraria aposta do mercado e eleva previsão de safra de soja nos EUA - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcGxZTndGN25KMTI1S3VpMWNBUjdCb1lrdV8ydjNHb29QTWVRdlpLckhvYkxLUUMybElfX0ZsN0JoLU1Ea01VdkZDYnZvZHpYcFh5R2xadEZZVTRmakQ0NEJkUUVUQ080azJsQ0tFaHFQVVdtRUpqNGhpSE9VcDFjdmcweVBmSTVwUkRVbFdzUGdpT2VVOGZxd0d5cWlQZmFYUS1zZVBMN25OOG1iX0NocTFXektQZ2JaZ1NsU2lsWnNhWTEyazE5QUlTbi0xRE5wYjRn0gHiAUFVX3lxTE90akRzemlWQWo4ck01MHN4bFp1NjI4eHlOcTlhdG4xVU5FMDd6NER2ZGJWMjRSVTFDMFpsVFQ2OEhxSTY3SjM4YW1RQzFzOTFqTklfb21Pc3Y0NDRURFdHWlZwdlB2TjE4b1ZfdF9TSFV6WXNKLVpUa1dkcnF6aDlYVHlkNlZOUkFwTHRQYUJock5PZjUtZWJkeFp3VHZUamh3RG5lZGNodVlGSzl5VUgzdUJ5elZqQkhPcGxLVTJQZFNPdkxFNXJ4MmdLUHdVQThxRlNtY3NyVG1nZTN5TmpMOHc?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-08-12T16:52:17+00:00"
-    },
-    {
-     "title": "Indicador do boi gordo supera Ibovespa e lidera ganhos da B3 no primeiro semestre",
-     "link": "https://www.canalrural.com.br/economia/indicador-do-boi-gordo-supera-ibovespa-e-lidera-ganhos-da-b3-no-primeiro-semestre/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T16:42:03+00:00"
-    },
-    {
-     "title": "Ao vivo: STF julga constitucionalidade da Moratória da Soja - Poder360",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWHVXUjctV2g3MVVmelNxMUM3UV9FMUNtR1BEdFRJNlBNVHZhdEM0YkU1WlNJQ0FBcENHdHhOSFoxc0U4aHhxbXBnaENKZDlrQWxpdGZKelVRSTZRbzhTUmlYcjRnSFd4aldxR3ZhTVdGQkpWa2pWNjJRVFBhTE9VVVktMHMtX1V2UmFILU5FU1hQVDQ5dXhXVmtRbzBiNVZXRWN3?oc=5",
-     "source": "Poder360",
-     "published_at": "2026-08-12T16:33:59+00:00"
-    },
-    {
-     "title": "BNDES registra lucro de R$ 9,2 bilhões no 1º semestre, alta de 25% frente a 2025",
-     "link": "https://www.canalrural.com.br/economia/bndes-registra-lucro-de-r-92-bilhoes-no-1o-semestre-alta-de-25-frente-a-2025/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T16:29:31+00:00"
-    },
-    {
-     "title": "BNDES eleva lucro e amplia crédito à agropecuária no primeiro semestre",
-     "link": "https://www.canalrural.com.br/economia/bndes-eleva-lucro-e-amplia-credito-a-agropecuaria-no-primeiro-semestre/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T16:27:50+00:00"
     },
     {
      "title": "Terremoto afeta exportações de café da Colômbia e ameaça embarques internacionais",
@@ -517,15 +526,9 @@
      "published_at": "2026-08-12T16:19:19"
     },
     {
-     "title": "Vazio sanitário abre janela de decisões que podem definir produtividade da soja - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQVhzX3BWYXVTWGFJdTJqVDFWaHc5UzJSTHNSY3VhQXpQLUt4eGstTkxXcFhGLWZZbllsVlBOLTMzNHgwN1B1aGVCc0RUWW5ybVp5N3VKYnBRYjAzSVNKVUc2TnRJclNqTjg4U3h2OXNDdnEtcjRGZE14di02YnFNODFLeHozMTRIcDdaemtiSGhtYWktcVJ1dDBXTUdPNjNNN1h6VHI3WUpyMlYzaW4w?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-08-12T16:06:20+00:00"
-    },
-    {
-     "title": "USDA reduz produtividade de soja e milho dos EUA, mas aumenta área da oleaginosa 26/27 - noticiasagricolas.com.br",
+     "title": "USDA reduz produtividade de soja e milho dos EUA, mas aumenta área da oleaginosa 26/27 - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUEVKRWJuRnZYMkViRUdDM1UxSi03dFJwTHpRNnota3pHOFVHdWdVYldsQ3BGQnkxekVSOGo2Uk91b0lFaTE0MWItcHg1Ync0SXRTN2hiMDB5NHpBYWtEeEtMUGFFNVVHZ3dYVGJPREdHZTR5NmpiRjNpWlczRUhmcWhVMGhEX3FYRDFkczl2TkEyQ2p1VUU1U3Q0YWNEVk5BSlVaVTE0YjdqN1JXWElRLTdSWWFHdkUzUHIxLUs3Rkc4QU84cWdZSW5uYzA5Rjd0cUV3bF9WdDlTZ3pmdW90aGNB0gHnAUFVX3lxTFBxU2Z6TVhwb1VrOUI1bHlTc2lndktad3pXNGkxeUlGMlBtd0xSSElDd2tzcTVuWm81TTdwNzJacjkyTEZseHRPVFJaUGt3ZkM2VERfejBwd1FFTjNrZjRhOVA1Vko5MWpCeHNHbkRTb0VMeHNTaFFNdW9aZ3NLOGhpYndIS1FoM2JGNUlwUTZSVkRBLWZBZXRqb0NDbWYzcEZJQ1gxMHFDdEYtcDZPRDk3RVFldFpkclhVZVozRWtWa1JMcHB2bFgtM3BBS3lQZVpsb3VkYl9IOVJlbFNFZ2VOajlSY2V0dw?oc=5",
-     "source": "noticiasagricolas.com.br",
+     "source": "Notícias Agrícolas",
      "published_at": "2026-08-12T16:05:43+00:00"
     },
     {
@@ -541,22 +544,16 @@
      "published_at": "2026-08-12T14:42:49+00:00"
     },
     {
-     "title": "Moratória da soja: entenda tema em pauta no STF que opõe produtores e ambientalistas - Gazeta do Povo",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcnRIUlRJQkhCZzVQWldqUHhEQ1BMY3luM2hFUlpXaUtPdFkweW5UVGhVZHN1RTNOZHROY09RSUUwLUVpZUZnRWxHdlhJV1pNcmhwem5hdnZ0SUVzVlBiRGE3bzhFQ3ZSRllENGcyTU83SGIxNXR2SlZTZGxyZFFUX1lUSy1IRkJaRzUwV0VYZlJnR3FRblJyOEdWeHh3MUtidGtPbjAxQVpXclZzLTJZTC1qd3cxRHRheGstT3ZhSkE4UGc?oc=5",
-     "source": "Gazeta do Povo",
-     "published_at": "2026-08-12T13:29:00+00:00"
-    },
-    {
-     "title": "Soja impulsiona recorde nas exportações do agro em julho - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdjItWmh2ZzFNalgtVy1qNVUyaGRLNXgzdjdrNEwyT3p1bWx6ZEMxUlNOdERQT3ZUNlZTOUtJUDF6eFBCTWljQ3Vya3Fpb0E0b3BDemc1dmVuVU9QWHpyWHlwVUJFX0t4TFV0T2FlZmNDbnJQdzBkZ0RYbV9oVWtSRVZXYVo4TXFVcmVPNW0waGx2Q2tlTlU2Q0trVXk?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-08-12T12:18:00+00:00"
-    },
-    {
      "title": "Crise no campo: pedidos de recuperação judicial saltam entre produtores rurais",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/12/recuperacao-judicial-agronegocio.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-12T11:25:43"
+    },
+    {
+     "title": "Soja sobe em Chicago nesta 4ª antes do novo relatório do USDA; óleo também sobe e contribui - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdXlFMXJxM2x6TlQtMmVRcjlnWk5aV2xxall2cXRYYVJMM0VsUV91YUtfU0UwVlNJZjhrQllUbVphcFUwSFQ0RjRSRTlMSXRiaXk2aXU3aGd2Wnl2Mkw2VTFlNVJ6SG9uLXN3eTZGZEhiclUzbU10YmJScFN5X0VoeWprSjc4M2xjanRvQUxaakt2NnI5ZUlmNUZyQ1ByTG5xWjJtRFhQQlEycHBPVEluWEQ2X3kxWThyNnBkcGItY2ViQ21CanpyWWhWcFE4endHc1Z3RW91RkJmR25wUXZQcW5fS01lX1HSAewBQVVfeXFMT3pPYUZaeHhaODdnbDl1dXBvLTdvZXJqYUt5REF1WHpZY1hlZGcyN0RVM1BpMWhxamJBM3dadkFoUTUzZHk0dHFycG9lNF92T0QwYjZxMk0ybE9Obmd0ek5FVmZZdm5RQlgxMF9XaDB4Wi1IU1JVX0ZDYlRIQWpSd2tjWDRGcXl6Sml5MGZFY291YTQ5TmhuQ0UxNXZsN1gxLW5kT2gzbkotTEFyQnRZVFY2NU0wTUwxTUpja2NXZTV1RTlzSWZVRWZmb3VLbG9UQW1MU2wxTzdTYkUzeWdaZTBnb0MzR3Z0Umxrbjg?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-12T10:31:27+00:00"
     },
     {
      "title": "Como estoques recordes e avanço do agro brasileiro podem reduzir impacto do 'super El Niño' no mundo",

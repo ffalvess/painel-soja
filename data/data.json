@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-13T19:53:19+00:00",
+ "generated_at": "2026-08-13T20:35:18+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-13T19:53:11+00:00",
+   "updated_at": "2026-08-13T20:35:12+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -178,9 +178,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 87.02,
+     "price": 86.94,
      "prev_close": 88.98,
-     "change_pct": -2.2,
+     "change_pct": -2.29,
      "closes": [
       83.3,
       84.73,
@@ -205,16 +205,16 @@
       87.72,
       88.91,
       88.98,
-      87.02
+      86.94
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 166935.8,
+     "price": 167100.95,
      "prev_close": 167491.0,
-     "change_pct": -0.33,
+     "change_pct": -0.23,
      "closes": [
       175739.0,
       176641.0,
@@ -239,7 +239,7 @@
       172180.0,
       167875.0,
       167491.0,
-      166935.7969
+      167100.9531
      ]
     }
    ],
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-13T19:53:11+00:00",
+   "updated_at": "2026-08-13T20:35:12+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-13T19:53:15+00:00",
+   "updated_at": "2026-08-13T20:35:16+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-13T19:53:19+00:00",
+   "updated_at": "2026-08-13T20:35:18+00:00",
    "items": [
+    {
+     "title": "Após pressão no primeiro semestre, mercado da tilápia projeta recuperação dos preços",
+     "link": "https://www.canalrural.com.br/economia/apos-pressao-no-primeiro-semestre-mercado-da-tilapia-projeta-recuperacao-dos-precos/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T19:55:56+00:00"
+    },
+    {
+     "title": "Petróleo cai com foco na demanda global e tensões no Oriente Médio",
+     "link": "https://www.canalrural.com.br/economia/petroleo-cai-com-foco-na-demanda-global-e-tensoes-no-oriente-medio/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T19:47:03+00:00"
+    },
     {
      "title": "Novo regulador de crescimento chega ao mercado para elevar a produtividade do algodão",
      "link": "https://www.canalrural.com.br/projetos/conteudo-patrocinado/novo-regulador-de-crescimento-chega-ao-mercado-para-elevar-a-produtividade-do-algodao/",
@@ -468,18 +480,6 @@
      "link": "https://www.canalrural.com.br/videos/nova-tecnologia-melhora-nutricao-e-bem-estar-dos-suinos-no-brasil/",
      "source": "Canal Rural",
      "published_at": "2026-08-13T19:06:13+00:00"
-    },
-    {
-     "title": "Desafios logísticos impactam crescimento do agronegócio em SC",
-     "link": "https://www.canalrural.com.br/videos/desafios-logisticos-impactam-crescimento-do-agronegocio-em-sc/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T19:06:02+00:00"
-    },
-    {
-     "title": "Roberto Rodrigues recebe título de Doutor Honoris Causa da FGV EAESP",
-     "link": "https://www.canalrural.com.br/videos/roberto-rodrigues-recebe-titulo-de-doutor-honoris-causa-da-fgv-eaesp/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T19:05:51+00:00"
     },
     {
      "title": "Abelhas nativas ajudam soja e reforçam valor do Cerrado - Agrolink",
@@ -530,6 +530,12 @@
      "published_at": "2026-08-13T15:24:00+00:00"
     },
     {
+     "title": "EUA: produção de soja sobe, mas produtividade recua - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdXRYSmVGRVMyUXJMck1SajROalRKUEM3eEdvdkFtSi1VS1ZtaEp4UUJ5ek1lVUxTbmR6MmRsMkktSDBqMEdGYnVQX2cwYXdVUDRocFhFNjVwdUtFcHp0dlFnX3FILWxiYXBKQUFhRVFWcGRpYkZvckpKMkdzYTJXUzFlRTlFcGJjNndTdmRHVjF6eFkwQ09ZeGtWYVNoVTBqR3c?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-13T14:58:00+00:00"
+    },
+    {
      "title": "Onda de calor na Espanha pode levar ao aumento do preço do azeite?",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/13/onda-de-calor-na-espanha-preco-do-azeite.ghtml",
      "source": "G1 Agronegócios",
@@ -546,12 +552,6 @@
      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPM2pocWxKYVdsd2lJc1NnakNCcUl0V0hYX0RhenMtR3djSnBXLVZ2S3ktUEtvU0pmd3dlMlczZkUyTFZENVFrLXo1MlJGT2RaMVV5a3dpY1RLT1FILUpaY3pQOWpXUS1LWmc0QThQRmxwVWJtck9DN1hsVjFVLXJxb181UWtodUgtOWZmNVpKLUI5ZlQ1RXBhRXY4Q3F6U25qVkh4N1pYT2JqeUtpWHBLT2kwNHBvc0dlUnJ0aEZxTEJ3ZHNuUHlJc284RzBUQTNmd3fSAdcBQVVfeXFMTlRoUVhJMmN5YVJuRjhYTDBSemp2MU1yT0h2bmNyeHNOdXZNRldDNHFiWUZZRzFGSDJUZWhUbEV0X25Fb0Rpc3ZvQjNZNVZlNDlyTE1fQUNhMWV1QV9ZdGpPNldNM0NrY01zaXZ0MVJNNURHTEVTdzc0VkNTNzBHWFRSU3d2R0FrNkVwVFZwWlVMY0xWTDMzZHlyT0Z6WEVaMTd6S0stVktxanJ1a08tcURwLUwxcVRLUldJV2E5OFRwYnJzdHVQRmxGSW0tSzI2Njd0WkVTS28?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-13T12:51:25+00:00"
-    },
-    {
-     "title": "STF valida Moratória da Soja e encerra ações sobre acordo - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQzhwcE9WTE9lRFlLajJzeEFiQmh4YkdHVFR0b25LOFZpcVhuYlZ5UHZyRHVlVkdoS1RLWGVZbzZDYi1DVzhNZE1NazdZNGJ0Y3FZZ2lYZ1FWMjdzQnpDbk5wZkpPb3JkY1cwRWdxYmhndk5GNTVONXNXenZKMnNEQjFCOWZZcUVhZUFibVA1VUZHbndnLUwtaU43Q2hYUQ?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-08-13T11:57:00+00:00"
     },
     {
      "title": "Soja opera estável em Chicago nesta 5ª (13), após disparada na sessão anterior - Notícias Agrícolas",

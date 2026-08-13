@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-13T08:14:56+00:00",
+ "generated_at": "2026-08-13T09:57:33+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-13T08:14:47+00:00",
+   "updated_at": "2026-08-13T09:57:25+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1182.75,
+     "price": 1184.5,
      "prev_close": 1164.75,
-     "change_pct": 1.55,
+     "change_pct": 1.7,
      "closes": [
       1202.0,
       1207.25,
@@ -35,16 +35,16 @@
       1157.75,
       1147.5,
       1164.75,
-      1182.75
+      1184.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 476.75,
+     "price": 478.75,
      "prev_close": 457.0,
-     "change_pct": 4.32,
+     "change_pct": 4.76,
      "closes": [
       437.75,
       433.75,
@@ -69,16 +69,16 @@
       438.25,
       436.75,
       457.0,
-      476.75
+      478.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 315.7,
+     "price": 316.0,
      "prev_close": 311.0,
-     "change_pct": 1.51,
+     "change_pct": 1.61,
      "closes": [
       316.8,
       319.6,
@@ -103,16 +103,16 @@
       303.7,
       303.4,
       311.0,
-      315.7
+      316.0
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 68.64,
+     "price": 68.74,
      "prev_close": 68.96,
-     "change_pct": -0.46,
+     "change_pct": -0.32,
      "closes": [
       73.04,
       73.04,
@@ -137,16 +137,16 @@
       69.46,
       68.45,
       68.96,
-      68.64
+      68.74
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 650.25,
+     "price": 655.75,
      "prev_close": 652.75,
-     "change_pct": -0.38,
+     "change_pct": 0.46,
      "closes": [
       627.0,
       631.25,
@@ -171,16 +171,16 @@
       640.5,
       630.25,
       652.75,
-      650.25
+      655.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 87.99,
+     "price": 87.43,
      "prev_close": 88.98,
-     "change_pct": -1.11,
+     "change_pct": -1.74,
      "closes": [
       83.3,
       84.73,
@@ -205,7 +205,7 @@
       87.72,
       88.91,
       88.98,
-      87.99
+      87.43
      ]
     },
     {
@@ -222,12 +222,15 @@
       173825.0,
       173714.0,
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -243,7 +246,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-13T08:14:48+00:00",
+   "updated_at": "2026-08-13T09:57:25+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -254,7 +257,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-13T08:14:52+00:00",
+   "updated_at": "2026-08-13T09:57:30+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -415,25 +418,43 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-13T08:14:56+00:00",
+   "updated_at": "2026-08-13T09:57:33+00:00",
    "items": [
     {
-     "title": "Soja hoje: saca sobe no Paraná e em Paranaguá nesta quinta-feira (13) - brasil61.com",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSlNqRFB6cjZvLV9GVFpJZE1RcktDbjN4d3Q3ZllITU1pRXJFdjdrMk9YNkhqZGFCTmhJSTEyTUpUQ1F1OVk0a1AwWS1YY1lHVVJpVHpCOHphRXJ5cFdoY2RvVjlhdzREaS1NS3pvQ05oVlJlRDNlcExKTkhPaFI5Ry1kSXU5OUdSelhDYWd4Q2EtaGlDaG0welhJUnpRNlNNc1E?oc=5",
-     "source": "brasil61.com",
-     "published_at": "2026-08-13T07:05:00+00:00"
+     "title": "Soja avança no exterior e sustenta preços no Brasil - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORUI4NjZsQXJ4eHFsMG4xalhKU0hvMXJiR2E4cDk2UUJZNk5TYWdPeVJDX3RhczdpOHQwWjd6WkxWNE1Ba1lWNFg1b29qTGF6Rkl2b0NWS2FDOEY0QmtUNmx6REtnUldWSTFQRk5oMngyZnJxLUJUbUI1b2Z1c0lmRGVuSGhwQ3VIMVVqRlJRMWlUV0JLSElqXzN6cXBRQ3pjUmc?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-13T09:44:00+00:00"
+    },
+    {
+     "title": "Valorização em Chicago sustenta alta no preço da soja no Brasil - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZEIybTk5eXVTN0kxXzFCWVB2RXFoWS11VmhUWUIzeTJHN1J1Rlhvc3M1WDJQX3FjVE42YXgwWVAwYlQzOWo0VllYc2ROSXpMMzA1LVlWWFpoNGpmOUJIbkhwV1FpY0N4bDVwaU1LV2ZuQkF2NkJtTFhOU2hZNnpDOHJjQTZkbzFuS202REwtOEd1WHFhbTVDT01XVVhRcTZMLXh3czFxYUYyeFMwWDBDd3Vua1pjUE9KNHlzaHRZMTfSAc8BQVVfeXFMUFdlZ2Y0UzF3dVh6VFpOeTNrbVpVZE1xVkxSSFBIYi1zbUZFUUFaaXEwYTRFLUM5MFdSWWNLcjMweXNpU1JtMWo5RXl3WTFkWlZhN0RPTUVlUTJlbHVKWnFlazV1ZUkzVjNrSV9GUU0tRHBOQnpwcEtydV8yN3ktNWJNU0IwTEVOcTlqYngtazhwQVl2N1FWZDNod2hoWlg5enB3SDZRM3A5ckkxZ3RhWVo3WC1GSGhZS19xc3NMd0V5d1FXY2s1M1lSczlJWnFF?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-13T09:15:08+00:00"
+    },
+    {
+     "title": "Ibovespa perde 6% em agosto com fuga de estrangeiros: ouça os destaques do dia",
+     "link": "https://www.canalrural.com.br/economia/ibovespa-perde-6-em-agosto-com-fuga-de-estrangeiros-ouca-os-destaques-do-dia/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T08:45:00+00:00"
+    },
+    {
+     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - brasilagro.com.br",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNUF1S1QtYXg4VndDME5Ua2lKbkh6X0tSeVVtV3FxUWZGcTN4aG5iQndrT29nWGdsRlNnajA0d3J4dkp1ekkxOU1DUHJzQ3NPOUZrWmFZanBZT3BoQ01SbmlKdUsyeDk4Z2JNa3FRNWlLZUZ0LW80UDJGV0MtN1picS1NUE9jYWZWVVMtRVFhX21LSzB4N0ZhTU4wNkdfVEplQUFEUDMtQVFHSHpQQnQxWmgwdE1uNWc?oc=5",
+     "source": "brasilagro.com.br",
+     "published_at": "2026-08-13T08:06:10+00:00"
+    },
+    {
+     "title": "Com estratégia ousada, DBN busca 30% do mercado de biotecnologia para soja - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTEo3VVNIS2YyckFxNDNNRnlmR2dDNEI5X0xUS0JoZ0kwSmlRM0UxdG9GSVRsaThhN1lvc0xYTEVWWHBYM1BkTDZCVk43eWMtMXNhYW1IdkVIUmxlSXdfZ2ZOQjlZWF9wV2hGeHMzcTdUVVpFVl81MTN6cVh2NmhESUV5eW1UbUo0czVsWkNUU2FsMkIyTXZKTXRaYVhPSmVqTzE5Z1JxR28tcU9vdmxxeVJVNEh3N0hBNThPVV9xQ3F6UlFnUW9SbVdTSnhPWFlVVEtNSnFR0gHkAUFVX3lxTE1uR0JTUDM4eE9PZWJrdjJLSlpnSEZia3lGM21udGNHZ1BNZDRMZGRlb19jd3BUZTVIdEtxT2ZpZnNKX19sQmdNbnJ5TEVMMUFKN3FTa29fQVB1ZVJXNVd0cmxRcFhobFRwTS1UVFRMR2tJSy1BN2dvcmxKSWhKcjBodHFVRGxQbGl0cnd6Q3ZsOF9HNTFwMFZpX2VUb2VfbW9HV2hfLVIyRTFtSHJHU2hMc2k3d2QzcXBBZzhuMnZOX2I4ZHA0dEdVQklsYVd3OVowSWVsSGxDMmxvMXV0NFF6SkJQOQ?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-13T08:03:03+00:00"
     },
     {
      "title": "Veja como salvar uma orquídea com folhas e raízes secas ou murchas",
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/13/veja-como-salvar-uma-orquidea-com-folhas-e-raizes-secas-ou-murchas.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-13T05:00:10"
-    },
-    {
-     "title": "Soja puxa o resultado das exportações do agro gaúcho em julho - GZH",
-     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOdnlpSVRYdm1RY2thV1dKM2RtbDFQWE5Ia2ZFQ3E2LTN1d0hUam9jZExPT2VlNzRMVEFtSlZqUUpQNXJ0SWttaG1rU2MzSVNDUTBtS093cXFSWmZjZUFkLUtXcm4zS1EwWFVhX0lrYTlFQUhSMTNmMV9xMXBTSUk1NURxaHlwbzBCa3FjRUNQR1d1ZGhoSENRRXRCaXprSUxZLXBNVl94d040R1NDNll6dTVfS25yOWEyaW5rVVB3RFVsbTFNX0YtdThVbEhlOVowcXl2TFM1ekVWWlJvcDlRanJYSlBiM093eWkwRGYzTjNRbFUxZndnX2RZOA?oc=5",
-     "source": "GZH",
-     "published_at": "2026-08-13T04:41:15+00:00"
     },
     {
      "title": "Stellantis adia novas decisões de investimento no Brasil à espera de definições políticas",
@@ -490,12 +511,6 @@
      "published_at": "2026-08-13T00:05:09+00:00"
     },
     {
-     "title": "SLC Agrícola registra receita recorde de R$ 2,2 bilhões e amplia lucro líquido em 75%",
-     "link": "https://www.canalrural.com.br/agricultura/slc-agricola-registra-receita-recorde-de-r-22-bilhoes-e-amplia-lucro-liquido-em-75/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-12T23:42:42+00:00"
-    },
-    {
      "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
      "source": "stf noticias",
@@ -506,12 +521,6 @@
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLXMxSVVQZ3VnMjJUS1Z4YmlZVS01QWxjT1FMeGZoWUN1SlhMWURoTGxwVmMtREVVdlJZWUZ4NW82Mm8xUzJ4RERkWDFySWhrb01XT3hHRzYxbkVCSnZJbFdWTGVnRHpWdlZycFBEdzZaTGpCelR1R09aSjlrNUFnaC1la1lndU9ubDVKTVVReE9xLXVWSTRaRU82OXdVMUNERU9pVFh5UnB3Zw?oc=5",
      "source": "Consultor Jurídico",
      "published_at": "2026-08-12T22:40:39+00:00"
-    },
-    {
-     "title": "STF mantém lei de MT que corta benefícios de empresas que aderem à Moratória da Soja; entenda decisão - G1",
-     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMkd3dnhpNUxHd2R2akY0bnJ4aVpILXJWSkdIc2dud3lnRjZRN1B4X0lDcnI3R2JwTEd4R2FyVFJfV0dxN3dhYmZJczhvMjhINGw3ZWpYUy1KSE9lb3NiR24xM28zaE5nNlFIZ1RrcWpKalZETVBERFNIR3hRRDJkOGlBVDZrRmdnV2Jjb3lYQUJnd2Uzal9OZnRXLXFFenVIYmdQbmQ1YmI5aVJKQ2hndE5FaThYS0Q0bGtQLV8tVEc4UDFkOF9WR3JsZm8zVU52Y3lNOUZ0V2dERmg5X0dZdlNrQ0N0N19MZ2NteHBqQWs5cnPSAYICQVVfeXFMT0JkaUVVQ0Q3LTF6NFVPRW9oY2dQYklHZkFocXNORTEyTEdhMzd1d05ucFBQVHo0QnZCSUU0RVhQOEdCQXI4c3hCb1hNdUc5a19RclVLeHZ6WEhlRE1qWkdVOGV3UU9uZVJ3T1gtenJmdU4zWTJiMWplRTg2WFhpUkY2QVJBY3pjVi11VWR1Z3k3OHVMdzkyclQ4dW54dEdTRWlIX0tENmxFRGNkQWxkUkVISG9qY1RLbEE1M00xM0Z2Q19qNV9VMkJOUXZBNzY3NWRvZ3J2QndwNHN0djJjQWpBX21oSVhCZzNXbVFyMlB4OVpFSmhhdXpEVWVyVTM1MnFn?oc=5",
-     "source": "G1",
-     "published_at": "2026-08-12T21:46:14+00:00"
     },
     {
      "title": "STF Exime Tradings de Indenizações após Considerar Legal Moratória da Soja - Forbes Brasil",
@@ -572,12 +581,6 @@
      "link": "https://g1.globo.com/politica/noticia/2026/08/11/senado-aprova-linha-de-credito-para-industria-de-fertilizantes-mas-sem-estipular-valores.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-11T21:21:24"
-    },
-    {
-     "title": "Os reis da soja! Veja a lista dos 20 municípios que mais produzem o grão - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOE12cUZ5MExmbUp4SFI2RGZ0RkszM2Rla3hhTXA1ejY0aHhPUWJ6OUtnVlVsMlczZmhFZE1XOGRwQndLc3kzVy1HMEhQLTF3Qi1sX1A3UlhmaVQyUS05YTZ2c2d2endXZi1sR2tFaXBkc2ZSMFoza1QzYk83OVNQZ1Y5VzNQUDg1Xzh5dE5kOWxmdldaUE53RTJSODJwSWFrenZrb3dEM0pVaTlxY2RqbTl3XzY?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-11T18:22:30+00:00"
     },
     {
      "title": "Depois do foie gras, quais práticas de criação e abate de animais podem ser proibidas?",

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-13T21:38:27+00:00",
+ "generated_at": "2026-08-13T22:35:07+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-13T21:38:12+00:00",
+   "updated_at": "2026-08-13T22:34:54+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -178,9 +178,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 86.96,
+     "price": 86.88,
      "prev_close": 88.98,
-     "change_pct": -2.27,
+     "change_pct": -2.36,
      "closes": [
       83.3,
       84.73,
@@ -205,7 +205,7 @@
       87.72,
       88.91,
       88.98,
-      86.96
+      86.88
      ]
     },
     {
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-13T21:38:12+00:00",
+   "updated_at": "2026-08-13T22:34:54+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-13T21:38:16+00:00",
+   "updated_at": "2026-08-13T22:35:04+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,13 +419,31 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-13T21:38:27+00:00",
+   "updated_at": "2026-08-13T22:35:07+00:00",
    "items": [
+    {
+     "title": "Juros futuros longos sobem com risco fiscal no radar",
+     "link": "https://www.canalrural.com.br/economia/juros-futuros-longos-sobem-com-risco-fiscal-no-radar/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T21:23:15+00:00"
+    },
+    {
+     "title": "Preços da soja sobem em praças brasileiras, mas semana deve terminar com poucas negociações - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOYURMVThrWnRUNFFUekNhQ2t3bzVTMmZkQWtSbmVxQVpkMFdHaktveVpxSDFPMUp2NWRkX2VweXNaX0pSeDhTR0JnX2pwTVR2LTVHdHRUcDBDWkJqOEJfUVpkLU1oTzVlS2xkWE51NWJDZDVINkJDdlBHb0dyNzRkUFFGNjMwNTJHdnpyVnBfVTNEdWFwWlB5VjdHS05vNWhiTDlIWUszdlczQlBQd0NRYlpUYUk3S0NBOHA4QWNyNmxLMzFiamVvanhvTlFOSldZQlBlNFk4eWV1Q0p4LUNuNWtIMHNiczlS?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T20:58:32+00:00"
+    },
     {
      "title": "Preços da soja sobem em praças brasileiras, mas semana deve terminar com poucas negociações",
      "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/precos-da-soja-sobem-em-pracas-brasileiras-mas-semana-deve-terminar-com-poucas-negociacoes/",
      "source": "Canal Rural",
      "published_at": "2026-08-13T20:58:32+00:00"
+    },
+    {
+     "title": "Entrega parcial de soja não autoriza redução de multa contratual - Consultor Jurídico",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOLVVJZ2hJWHdYZExERFZSSGNjNTh5ZUNZNFN2ckJtX0tORl9hckZhaHR3VEFlOWNoWFFlWVpfcmduVERua3FpSEFtQUlpR004VmJ4RHh0UFh2emZtR00zVVh3blNvOG1JZm90OGxQMVcybjAzSDc5UFg0UXVLbG5rMVBRWXJSX2VrY2kwVEVRZTRNRmI5dkc3VVRWUXZQWi1EcUZvWjR5NG82VHpnWnc?oc=5",
+     "source": "Consultor Jurídico",
+     "published_at": "2026-08-13T20:51:37+00:00"
     },
     {
      "title": "Mapa divulga dados da balança comercial do agro de julho de 2026",
@@ -438,6 +456,12 @@
      "link": "https://www.canalrural.com.br/politica/cop17-da-desertificacao-comeca-na-mongolia-com-foco-em-solo-seca-e-pastagens/",
      "source": "Canal Rural",
      "published_at": "2026-08-13T20:47:58+00:00"
+    },
+    {
+     "title": "Previsão de esmagamento de soja no Brasil é reduzida com adiamento de elevação da mistura de biodiesel - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPR1NlR0g4YmJNWnRWNW16LUVTVS05QXBKa2lqdUwzMXFxTnZBeUJpVGo5NzFmZlN6Y0NESENNVkw3WXdjbjBEZjhBNVFENlUyQ3ZRbUF5V25SYXo3T25KLURLSkk0ZHpjX3pibEZSZFNYeVpTNEJJQVIxY3QzNXBSZU1HS0ZKSllMd1lLaXBVVnp1TG9FZ0FHUWtBQU14Y20wb1N0dFBUcnpNaDJTcjJSZDVzbzFfalJBMUtGUnFBVWUtR1B6NHo0b29RX1M2YWlYdTExOXpmV3dXMUNMZzlYV3pCdE1GQ2NmRXpsODhJMHpBc1hNd1ZjNjlmcWNpeVnSAY4CQVVfeXFMUDZ1UUFzc3c2UmdaUWE1YVlQXzQxc0ZGVHlyek5uendmUWdYS3JKU29hbEtvTWhzODg2aFZ6TWtxUHBXMmhfNHFKUHVqMVBGWnRhRnNQc3dhOER4SFdkbW9qWFBVNEVIMC1XVDgzMmNFLXRhTk1CczVaMDJPY3Y1Y2hiOE0xRXRvMkRKUFZrd0toMlh2YVM0OXV4U3AwQi0wUmRUZEVqQkh4eEFnVDl5TWwzSVFBUGhxdXZha1RVRk1SUUxNVkdGUnNMSDNhZllyeE02THVWV2hLcXhqNVJ4ZzRFUmFBYzFFXzJCVjZaWERvNUxiaFVScUFEdUNaQk5oOUwwN0xURVFBWGI5M2l3?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-13T20:41:36+00:00"
     },
     {
      "title": "Agricultura empresarial contrata R$ 28,2 bilhões em julho",
@@ -476,10 +500,34 @@
      "published_at": "2026-08-13T19:15:34+00:00"
     },
     {
-     "title": "Congresso avança em pautas relevantes para o agronegócio brasileiro",
-     "link": "https://www.canalrural.com.br/videos/congresso-avanca-em-pautas-relevantes-para-o-agronegocio-brasileiro/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T19:15:20+00:00"
+     "title": "Abelhas nativas ajudam soja e reforçam valor do Cerrado - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPODNMV0tRSTZNekdoMTJFZTZ2bFJ1LUU0QnFuWURtQnItRHE3dURhLWtkRnJKOXJ5MnhualhVOWhtenowSnNsNGNCSndaOEVMZ1N1bGE4VUUzb1JZMVdOTXZaNEhvZXNBYXVhLTdJVzBQdUtWaVVvVEZrWUotMGtWeHRaNDlQZnRPTnNxOGFidWJtUjIwNVdONzNCU1NVRENyS2k5dVBuWQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-13T18:53:00+00:00"
+    },
+    {
+     "title": "China mantém projeções para milho e soja em relatório de agosto - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42eWZYWlBsX2xmc05tQVRWZ2tGN3hpZm1NMEFhUXUyM2U2bDlzaWdHNTZpMGJqSzZwc3g3RUJXSDlvLTNsLWR3c3NoVGZGMVM2UG9zTk9TVVZzUk5oQ3RDWDFiSHN4ZUhlYlNpdHdzbkJZcW92MlJFR0Y1MA?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-08-13T18:37:05+00:00"
+    },
+    {
+     "title": "China segue impulsionando vendas de soja da safra nova dos EUA, mas volume não deve exceder acordo - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNd0Fzaml3cWp3QTNVNjIyMzVONE0zN2dLYUF2cGhYdF9OMFZ5ZE9PM05oUU1ScE82RDV1WGltRmJPSzlqVm1QSUFSUS13c3YyX2M5VDM1NFMwQTJPMjBaekVidXJfM25RX25YcVdNZ2ZiLWJmNGVkdF9oUUF6RThMd3ZlS3QwSkJhTmJaYTBlYTVZZHpOcVhRZEN4LW5vLTJEMVpkLUlQTndpQU5ibG03VU9oQXpVV2U5TE0xSUxMelFGbGNIY2NjbnlmaGVBTzJGX25FekVvb0ZZVTNSODFZdFV3NkVkQTB1N0hUYlVCMjVDd9IB9wFBVV95cUxNc1ZVeHpqTkZlTDFyOHFrUFdKTkxMRXRRTlJkRzlaOThLY1dtaGVqbFdSVlVray1QdFRSWXdpU0VBQnUxX2t1aHZCQ3ZhMVdGU2FkYWZMeHVaS2xFYmtIR0dkbnpPWmI4QnpzUDBkSmlhb0FQaFg1cHZnal92N2ljdllBSktxZ1RrTkpjWGlNdGVQZGdfUHRjaFlZRHY1MmIySHk4S1ByN2w0WHd0eWtPUnA5SUdsajdPQTEwVmY2bEY3aXFPYlozTzVXeVY0UVBZSzZ3ZlBka3VHemFhTHBjUDBWR0EtSXZiUXdBbkloemNOcmhZbm5J?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-13T18:08:57+00:00"
+    },
+    {
+     "title": "As ambiguidades no sinal verde à moratória da soja - Nexo Jornal",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ09zNkhfWlIxMDNsNWpkS1Vfa3hSQ2VJSzRYdDM3U3o1eFpiaFNzMzRnVVJsLVhGUTI3MmlaazBUc19fNFB4Sy1vQnh5VjBzWFF5Y3RHVWNSdGgyaWhPYTd6eno2QmJBUkxsNzdBV3Y0bTZDRFhmODVVcGFrZGtTRVRIU3cxZU8yVUFZMExhZVlrSGU0VTMwZVNmaG45TnFuUHVOZlFYSUg?oc=5",
+     "source": "Nexo Jornal",
+     "published_at": "2026-08-13T17:04:38+00:00"
+    },
+    {
+     "title": "Advogados e especialistas divergem sobre decisão do STF sobre Moratória da Soja - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcS1VUjk2MFBEOWpkaUQwUUxaSFlmYkw0QmNyekxXQkJrbzB6azhDRlU4OTYwMFVVb2YzSUNabXJUSlFLcDE4TzdQUF9BQU9TaVl2S0JuUnBkSkVpNjB0ZXdIRWtGWl9PWG4xRVZLRl85MmRsVHozTS1FNFpERDhFam5YVlJscl9vaUpLemhVVTlsY01SZ0x2RnFOWDMtdFM4OF9Lc0o2dTNWU0lPcEcwRUpQcXU4c2NiVTM0eW5qemx2dXQ3czVtNS1yV3JKaWh0eGRVUkh30gHkAUFVX3lxTFB3UXJmT1l0U2RpZTM2dTdicm1pQU1MS2ltTlpDTXJaT0otVGtuUmdfcnVXbGRNYlMzVkJnNGNVSlozY1NDM1dUVVpHMDJXMHRoeXd4QWhQRnE4b2NxSzh5QnNXMXFLMU5WNlRtRlp4eHY3ZkhFeGdZUWt6c0xIaHlSdldrX0l4MW1nU04tcWhGUUlubVkzY0pEOUg5TTV6RkhxSlBMNFc1clMxc1JRWldPYlNpWnNqMFF1bkJ3SGp4LUpEcnVVME1VNVRfYmxUUTZVZW8ycGJoQ2VNZGhNZWpmQ1J1Ug?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-13T16:50:48+00:00"
     },
     {
      "title": "Internacional oferece trator à Justiça como garantia por dívida com empresário; entenda",
@@ -488,16 +536,40 @@
      "published_at": "2026-08-13T16:50:29"
     },
     {
+     "title": "EUA: produção de soja sobe, mas produtividade recua - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdXRYSmVGRVMyUXJMck1SajROalRKUEM3eEdvdkFtSi1VS1ZtaEp4UUJ5ek1lVUxTbmR6MmRsMkktSDBqMEdGYnVQX2cwYXdVUDRocFhFNjVwdUtFcHp0dlFnX3FILWxiYXBKQUFhRVFWcGRpYkZvckpKMkdzYTJXUzFlRTlFcGJjNndTdmRHVjF6eFkwQ09ZeGtWYVNoVTBqR3c?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-13T14:58:00+00:00"
+    },
+    {
      "title": "Onda de calor na Espanha pode levar ao aumento do preço do azeite?",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/13/onda-de-calor-na-espanha-preco-do-azeite.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-13T14:49:10"
     },
     {
+     "title": "USDA eleva projeções para milho e soja dos EUA em 2026/27 - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRkFhd1lZNXVtXzBGMDVmdG1NTUdXbWxwdThleER6aEZzUXdPMTR2OTFKM2NKbUtUUnphYnQ2RTZrX0hiQkxiOWt2ZzIzaVEzeVp5dlpVR3ppbndqSzdBeW1JM1N6eUw1X1JjZF8wblpBR2ZDaGhzSld1LWhmYTJLT2tuWl9ad25JbVdtdUJSMl9xZVlzeS1GTE9QbG1QTGU0ZXc?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T14:12:49+00:00"
+    },
+    {
+     "title": "Famato manifesta preocupação com decisão do STF sobre a Moratória da Soja - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPM2pocWxKYVdsd2lJc1NnakNCcUl0V0hYX0RhenMtR3djSnBXLVZ2S3ktUEtvU0pmd3dlMlczZkUyTFZENVFrLXo1MlJGT2RaMVV5a3dpY1RLT1FILUpaY3pQOWpXUS1LWmc0QThQRmxwVWJtck9DN1hsVjFVLXJxb181UWtodUgtOWZmNVpKLUI5ZlQ1RXBhRXY4Q3F6U25qVkh4N1pYT2JqeUtpWHBLT2kwNHBvc0dlUnJ0aEZxTEJ3ZHNuUHlJc284RzBUQTNmd3fSAdcBQVVfeXFMTlRoUVhJMmN5YVJuRjhYTDBSemp2MU1yT0h2bmNyeHNOdXZNRldDNHFiWUZZRzFGSDJUZWhUbEV0X25Fb0Rpc3ZvQjNZNVZlNDlyTE1fQUNhMWV1QV9ZdGpPNldNM0NrY01zaXZ0MVJNNURHTEVTdzc0VkNTNzBHWFRSU3d2R0FrNkVwVFZwWlVMY0xWTDMzZHlyT0Z6WEVaMTd6S0stVktxanJ1a08tcURwLUwxcVRLUldJV2E5OFRwYnJzdHVQRmxGSW0tSzI2Njd0WkVTS28?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-13T12:51:25+00:00"
+    },
+    {
      "title": "Veja como salvar uma orquídea com folhas e raízes secas ou murchas",
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/13/veja-como-salvar-uma-orquidea-com-folhas-e-raizes-secas-ou-murchas.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-13T05:00:10"
+    },
+    {
+     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
+     "source": "stf noticias",
+     "published_at": "2026-08-12T22:52:00+00:00"
     },
     {
      "title": "Terremoto afeta exportações de café da Colômbia e ameaça embarques internacionais",
@@ -528,34 +600,9 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/11/depois-do-foie-gras-quais-praticas-de-criacao-e-abate-de-animais-podem-ser-proibidas.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-11T12:39:19"
-    },
-    {
-     "title": "Preço dos alimentos: o que ficou mais caro e o que barateou em julho",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/11/preco-dos-alimentos-o-que-ficou-mais-caro-e-o-que-barateou-em-julho.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-11T12:01:23"
-    },
-    {
-     "title": "Noruega também vai deixar de comprar carne do Brasil a partir de setembro após decisão da UE",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/11/noruega-tambem-vai-deixar-de-comprar-carne-do-brasil-a-partir-de-setembro-apos-decisao-da-ue.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-11T11:28:41"
-    },
-    {
-     "title": "Sucessão na JBS marca volta da família Batista ao comando, diz Financial Times",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/11/sucessao-na-jbs-marca-volta-da-familia-batista-ao-comando-diz-financial-times.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-11T10:18:23"
-    },
-    {
-     "title": "Quem é Wesley Batista Filho, que será o novo CEO global da JBS",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/10/quem-e-wesley-batista-filho-que-sera-o-novo-ceo-global-da-jbs.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-10T20:22:43"
     }
    ],
    "failed": [
-    "Google News: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=soja+OR+%22mercado+de+gr%C3%A3os%22&hl=pt-BR&gl=BR&ceid=BR:pt-419",
     "Notícias Agrícolas: 404 Client Error: Not Found for url: https://www.noticiasagricolas.com.br/rss/noticias"
    ]
   }

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-13T09:57:33+00:00",
+ "generated_at": "2026-08-13T11:00:41+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-13T09:57:25+00:00",
+   "updated_at": "2026-08-13T11:00:32+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1184.5,
+     "price": 1184.25,
      "prev_close": 1164.75,
-     "change_pct": 1.7,
+     "change_pct": 1.67,
      "closes": [
       1202.0,
       1207.25,
@@ -35,16 +35,16 @@
       1157.75,
       1147.5,
       1164.75,
-      1184.5
+      1184.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 478.75,
+     "price": 478.25,
      "prev_close": 457.0,
-     "change_pct": 4.76,
+     "change_pct": 4.65,
      "closes": [
       437.75,
       433.75,
@@ -69,16 +69,16 @@
       438.25,
       436.75,
       457.0,
-      478.75
+      478.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 316.0,
+     "price": 316.3,
      "prev_close": 311.0,
-     "change_pct": 1.61,
+     "change_pct": 1.7,
      "closes": [
       316.8,
       319.6,
@@ -103,16 +103,16 @@
       303.7,
       303.4,
       311.0,
-      316.0
+      316.3
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 68.74,
+     "price": 68.66,
      "prev_close": 68.96,
-     "change_pct": -0.32,
+     "change_pct": -0.44,
      "closes": [
       73.04,
       73.04,
@@ -137,16 +137,16 @@
       69.46,
       68.45,
       68.96,
-      68.74
+      68.66
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 655.75,
+     "price": 655.0,
      "prev_close": 652.75,
-     "change_pct": 0.46,
+     "change_pct": 0.34,
      "closes": [
       627.0,
       631.25,
@@ -171,16 +171,16 @@
       640.5,
       630.25,
       652.75,
-      655.75
+      655.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 87.43,
+     "price": 87.11,
      "prev_close": 88.98,
-     "change_pct": -1.74,
+     "change_pct": -2.1,
      "closes": [
       83.3,
       84.73,
@@ -205,7 +205,7 @@
       87.72,
       88.91,
       88.98,
-      87.43
+      87.11
      ]
     },
     {
@@ -222,15 +222,12 @@
       173825.0,
       173714.0,
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -246,7 +243,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-13T09:57:25+00:00",
+   "updated_at": "2026-08-13T11:00:32+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -257,7 +254,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-13T09:57:30+00:00",
+   "updated_at": "2026-08-13T11:00:39+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -418,8 +415,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-13T09:57:33+00:00",
+   "updated_at": "2026-08-13T11:00:41+00:00",
    "items": [
+    {
+     "title": "STF valida moratória da soja, mas mantém restrições com “ideia de equilíbrio” de Dino - Gazeta do Povo",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWk5DblYtOTQwNmJHZXF0Wm5IclJlbmNlVzcwZWNYb2FqdUVPMzlxQmd1dmgwZTU5M1N4U3Z0S3FnRUM4WDhvTkhqeDFNai1ncHBlSWtoTzBYc29seEU0YXFsR2lJSmdDV0RUX2ItWWRPWUVVOGpiV2o0SEZMT0RwNHdTV3pOcTJhbTBOX1doSmpQY3ZoTTl6VTQ3czB5R1NSZU5VWk1PUWxjcVNEeFpDWEpEaG8yQVVoNk5OMlhDSk9Tdw?oc=5",
+     "source": "Gazeta do Povo",
+     "published_at": "2026-08-13T10:35:00+00:00"
+    },
     {
      "title": "Soja avança no exterior e sustenta preços no Brasil - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORUI4NjZsQXJ4eHFsMG4xalhKU0hvMXJiR2E4cDk2UUJZNk5TYWdPeVJDX3RhczdpOHQwWjd6WkxWNE1Ba1lWNFg1b29qTGF6Rkl2b0NWS2FDOEY0QmtUNmx6REtnUldWSTFQRk5oMngyZnJxLUJUbUI1b2Z1c0lmRGVuSGhwQ3VIMVVqRlJRMWlUV0JLSElqXzN6cXBRQ3pjUmc?oc=5",
@@ -443,12 +446,6 @@
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNUF1S1QtYXg4VndDME5Ua2lKbkh6X0tSeVVtV3FxUWZGcTN4aG5iQndrT29nWGdsRlNnajA0d3J4dkp1ekkxOU1DUHJzQ3NPOUZrWmFZanBZT3BoQ01SbmlKdUsyeDk4Z2JNa3FRNWlLZUZ0LW80UDJGV0MtN1picS1NUE9jYWZWVVMtRVFhX21LSzB4N0ZhTU4wNkdfVEplQUFEUDMtQVFHSHpQQnQxWmgwdE1uNWc?oc=5",
      "source": "brasilagro.com.br",
      "published_at": "2026-08-13T08:06:10+00:00"
-    },
-    {
-     "title": "Com estratégia ousada, DBN busca 30% do mercado de biotecnologia para soja - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTEo3VVNIS2YyckFxNDNNRnlmR2dDNEI5X0xUS0JoZ0kwSmlRM0UxdG9GSVRsaThhN1lvc0xYTEVWWHBYM1BkTDZCVk43eWMtMXNhYW1IdkVIUmxlSXdfZ2ZOQjlZWF9wV2hGeHMzcTdUVVpFVl81MTN6cVh2NmhESUV5eW1UbUo0czVsWkNUU2FsMkIyTXZKTXRaYVhPSmVqTzE5Z1JxR28tcU9vdmxxeVJVNEh3N0hBNThPVV9xQ3F6UlFnUW9SbVdTSnhPWFlVVEtNSnFR0gHkAUFVX3lxTE1uR0JTUDM4eE9PZWJrdjJLSlpnSEZia3lGM21udGNHZ1BNZDRMZGRlb19jd3BUZTVIdEtxT2ZpZnNKX19sQmdNbnJ5TEVMMUFKN3FTa29fQVB1ZVJXNVd0cmxRcFhobFRwTS1UVFRMR2tJSy1BN2dvcmxKSWhKcjBodHFVRGxQbGl0cnd6Q3ZsOF9HNTFwMFZpX2VUb2VfbW9HV2hfLVIyRTFtSHJHU2hMc2k3d2QzcXBBZzhuMnZOX2I4ZHA0dEdVQklsYVd3OVowSWVsSGxDMmxvMXV0NFF6SkJQOQ?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-13T08:03:03+00:00"
     },
     {
      "title": "Veja como salvar uma orquídea com folhas e raízes secas ou murchas",
@@ -499,6 +496,12 @@
      "published_at": "2026-08-13T00:05:30+00:00"
     },
     {
+     "title": "Preparação do solo é fundamental para a nova safra de soja no Brasil - canalrural.com.br",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbmRzRFhxUjVQb1ZLNUNXdEJhcWxBUnN2akhpcnJMM0RNQkt2Yy1RYXJCZzNWR29KM19CdXItUmJFUExFYVVKX3FlZ19id0JVQ0pmTENRazh4Z0twNUFXVmpxSi1ZRHBDa1VYTjVOUU14eHRmMDFDNFM2dFhILXNucGVyV3FSal83RkQyQ3NKQ2hvZXFGSzA5R3dUaUREY2hqQkowV1dFeXl3UQ?oc=5",
+     "source": "canalrural.com.br",
+     "published_at": "2026-08-13T00:05:20+00:00"
+    },
+    {
      "title": "Preparação do solo é fundamental para a nova safra de soja no Brasil",
      "link": "https://www.canalrural.com.br/videos/preparacao-do-solo-e-fundamental-para-a-nova-safra-de-soja-no-brasil/",
      "source": "Canal Rural",
@@ -511,9 +514,9 @@
      "published_at": "2026-08-13T00:05:09+00:00"
     },
     {
-     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
+     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - noticias.stf.jus.br",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
-     "source": "stf noticias",
+     "source": "noticias.stf.jus.br",
      "published_at": "2026-08-12T22:52:00+00:00"
     },
     {
@@ -529,10 +532,10 @@
      "published_at": "2026-08-12T21:20:00+00:00"
     },
     {
-     "title": "STF valida Moratória da Soja e barra processos que pedem indenização - CartaCapital",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbktjNHJlcU9lU1p1d096YlVhdEtBU2NKdnB1X2FmUWFyRW1wX1dNak9hV1JBUVhkYVBpR0xGMG14al9Idnloem1EN2dRVDlXaXJGa2FIaHRCaG00ZmJSNTFxVGtxeVhHZVZtYnpVX0VyZDdmRHlMU0JFZ0MxOUpwSDhCUC1wY2k4aXJtbVpGNXI4SkZQcS1mZWplODdSV2NnRk9WZHNSbVhvWl9JLUE?oc=5",
-     "source": "CartaCapital",
-     "published_at": "2026-08-12T19:59:00+00:00"
+     "title": "Poder360: STF afasta tese de cartel econômico e valida moratória da soja - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeHg1SlpqVm83US0xNkN3R2gzdE1JalJuMk84YUszU2hSRklPUVN0UDMxR2hmZ2JyWlpsdzZuQlpRQ2EtXzVvRGJsWW1rQzJSNzJWRkxCZ0VMV2x5OENhdC1KVG1OY0FRenBpbUpmMzdNek1ORDhnN2NTNFJpOGhRS1VDcjY5MmVoWG5GMFFaTk9IS1FYMTdqTlRBTklzTmIwM0JPZnhIb0stNFlZTnJuaWVkRDIwbTRiTXN5WmJrQjNPN2xvYlQ1NlNneUw1UmJE0gHWAUFVX3lxTE1aUVJYUFJPdGJ1WnpucW9mNnZUWURQQXN2ekFlTEhwNzJBVUlTaC1icnRlVTNZdk5NQUZ3TnlfbFdmd0YzejZzWFVOTE45WXFEYlFPdGJDN0JramNwdFRJVHk5ZTdHRlVGNktaTThEZXZLRjFVb1BjYUtjUDQ1Sm9MS3JwUDBENWFMNWtnZmRFRmJQMjlZTlhGb3dLajVIbHBYNVNWSW9DZ19ULXpycUJxUEdnUzc0Q0xTdUQ2NzAwUEJ2UUM3bnNxbTQ5OHpCeEJJNEZFVkE?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-12T20:15:56+00:00"
     },
     {
      "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",
@@ -553,15 +556,9 @@
      "published_at": "2026-08-12T16:19:19"
     },
     {
-     "title": "USDA reduz produtividade de soja e milho dos EUA, mas aumenta área da oleaginosa 26/27 - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUEVKRWJuRnZYMkViRUdDM1UxSi03dFJwTHpRNnota3pHOFVHdWdVYldsQ3BGQnkxekVSOGo2Uk91b0lFaTE0MWItcHg1Ync0SXRTN2hiMDB5NHpBYWtEeEtMUGFFNVVHZ3dYVGJPREdHZTR5NmpiRjNpWlczRUhmcWhVMGhEX3FYRDFkczl2TkEyQ2p1VUU1U3Q0YWNEVk5BSlVaVTE0YjdqN1JXWElRLTdSWWFHdkUzUHIxLUs3Rkc4QU84cWdZSW5uYzA5Rjd0cUV3bF9WdDlTZ3pmdW90aGNB0gHnAUFVX3lxTFBxU2Z6TVhwb1VrOUI1bHlTc2lndktad3pXNGkxeUlGMlBtd0xSSElDd2tzcTVuWm81TTdwNzJacjkyTEZseHRPVFJaUGt3ZkM2VERfejBwd1FFTjNrZjRhOVA1Vko5MWpCeHNHbkRTb0VMeHNTaFFNdW9aZ3NLOGhpYndIS1FoM2JGNUlwUTZSVkRBLWZBZXRqb0NDbWYzcEZJQ1gxMHFDdEYtcDZPRDk3RVFldFpkclhVZVozRWtWa1JMcHB2bFgtM3BBS3lQZVpsb3VkYl9IOVJlbFNFZ2VOajlSY2V0dw?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-12T16:05:43+00:00"
-    },
-    {
-     "title": "STF – Licenciamento ambiental e moratória da soja – sessão de 12/8/2026 - JOTA Info",
+     "title": "STF – Licenciamento ambiental e moratória da soja – sessão de 12/8/2026 - jota.info",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZmxwOGZTVG5hbGFrOXNTTnNLazJPMGtpQ0JUa3Bnckh1VmRLbV9aT0hUWHg5MUxSMFhBN2pDaVFkWk5mQXd5TjZjMkx0RVU3Z3dlZHR4U05DajhYeVZEN25xTktjb3ItckdPaWNaMkJUNmJGa2tXNzRSTnZKc3BMcFg2X3lPYTFZVXlwc3lKRE1GWlIwVG8wemRFb0tUOHEtWm9xQnhmM0ZKSmNTQ1p5Ym1n?oc=5",
-     "source": "JOTA Info",
+     "source": "jota.info",
      "published_at": "2026-08-12T15:38:10+00:00"
     },
     {

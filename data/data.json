@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-13T12:55:52+00:00",
+ "generated_at": "2026-08-13T14:20:17+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-13T12:55:44+00:00",
+   "updated_at": "2026-08-13T14:20:09+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1180.0,
+     "price": 1182.5,
      "prev_close": 1164.75,
-     "change_pct": 1.31,
+     "change_pct": 1.52,
      "closes": [
       1202.0,
       1207.25,
@@ -35,16 +35,16 @@
       1157.75,
       1147.5,
       1164.75,
-      1180.0
+      1182.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 477.0,
+     "price": 475.5,
      "prev_close": 457.0,
-     "change_pct": 4.38,
+     "change_pct": 4.05,
      "closes": [
       437.75,
       433.75,
@@ -69,16 +69,16 @@
       438.25,
       436.75,
       457.0,
-      477.0
+      475.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 316.0,
+     "price": 316.3,
      "prev_close": 311.0,
-     "change_pct": 1.61,
+     "change_pct": 1.7,
      "closes": [
       316.8,
       319.6,
@@ -103,16 +103,16 @@
       303.7,
       303.4,
       311.0,
-      316.0
+      316.3
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 68.3,
+     "price": 68.36,
      "prev_close": 68.96,
-     "change_pct": -0.96,
+     "change_pct": -0.87,
      "closes": [
       73.04,
       73.04,
@@ -137,16 +137,16 @@
       69.46,
       68.45,
       68.96,
-      68.3
+      68.36
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 654.5,
+     "price": 659.25,
      "prev_close": 652.75,
-     "change_pct": 0.27,
+     "change_pct": 1.0,
      "closes": [
       627.0,
       631.25,
@@ -171,16 +171,16 @@
       640.5,
       630.25,
       652.75,
-      654.5
+      659.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 87.15,
+     "price": 85.89,
      "prev_close": 88.98,
-     "change_pct": -2.06,
+     "change_pct": -3.47,
      "closes": [
       83.3,
       84.73,
@@ -205,16 +205,16 @@
       87.72,
       88.91,
       88.98,
-      87.15
+      85.89
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 167491.06,
-     "prev_close": 167875.0,
-     "change_pct": -0.23,
+     "price": 167638.31,
+     "prev_close": 167491.0,
+     "change_pct": 0.09,
      "closes": [
       175739.0,
       176641.0,
@@ -222,12 +222,15 @@
       173825.0,
       173714.0,
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -235,7 +238,8 @@
       172513.0,
       172180.0,
       167875.0,
-      167491.0
+      167491.0,
+      167638.3125
      ]
     }
    ],
@@ -243,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-13T12:55:44+00:00",
+   "updated_at": "2026-08-13T14:20:09+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -254,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-13T12:55:49+00:00",
+   "updated_at": "2026-08-13T14:20:13+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -415,8 +419,74 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-13T12:55:52+00:00",
+   "updated_at": "2026-08-13T14:20:17+00:00",
    "items": [
+    {
+     "title": "USDA eleva projeções para milho e soja dos EUA em 2026/27",
+     "link": "https://www.canalrural.com.br/agricultura/usda-eleva-projecoes-para-milho-e-soja-dos-eua-em-2026-27/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T14:12:49+00:00"
+    },
+    {
+     "title": "Exportações de carne suína recuam com menor demanda de países asiáticos",
+     "link": "https://www.canalrural.com.br/aves-e-suinos/exportacoes-de-carne-suina-recuam-com-menor-demanda-de-paises-asiaticos/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T14:00:28+00:00"
+    },
+    {
+     "title": "Conab eleva projeção da safra 2025/26 de grãos para 360,75 milhões de toneladas",
+     "link": "https://www.canalrural.com.br/agricultura/conab-eleva-projecao-da-safra-2025-26-de-graos-para-36075-milhoes-de-toneladas/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T13:47:55+00:00"
+    },
+    {
+     "title": "Minerva tem lucro de R$ 196,9 milhões no 2º trimestre, com pressão do gado sobre margens",
+     "link": "https://www.canalrural.com.br/economia/minerva-tem-lucro-de-r-1969-milhoes-no-2o-trimestre-com-pressao-do-gado-sobre-margens/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T13:32:05+00:00"
+    },
+    {
+     "title": "Soja avança em MT e milho chega a 99% da colheita - Revista Cultivar",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZWVMWUExOWV1YjJYdm5kSTh2WDNmcno4RFQ3TGZjTGx5Xzc4alNXTUY1LXhfMThVeVhRbkhWVGJzb0JTWnZIVTEwVXpJNHI2RGszU2huM1VyWm5hVHh4RWFNRTNuQ0RJSU9ENkxPMnpXeGMxRDdHd2o1VjdndTNZRE5OWFNDSC1IQUlTdTNYRUcyUQ?oc=5",
+     "source": "Revista Cultivar",
+     "published_at": "2026-08-13T13:24:16+00:00"
+    },
+    {
+     "title": "Dólar perde força após PPI dos EUA vir abaixo do esperado",
+     "link": "https://www.canalrural.com.br/economia/dolar-perde-forca-apos-ppi-dos-eua-vir-abaixo-do-esperado/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T13:22:58+00:00"
+    },
+    {
+     "title": "Safra 2026 de grãos é estimada em 353 milhões de toneladas pelo IBGE",
+     "link": "https://www.canalrural.com.br/agricultura/safra-2026-de-graos-e-estimada-em-353-milhoes-de-toneladas-pelo-ibge/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T13:11:42+00:00"
+    },
+    {
+     "title": "Após China reduzir compras de carne bovina, exportações brasileiras despencam",
+     "link": "https://www.canalrural.com.br/diversos/apos-china-reduzir-compras-de-carne-bovina-exportacoes-brasileiras-despencam/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T12:56:21+00:00"
+    },
+    {
+     "title": "CNA defende políticas de Estado para reduzir dependência de fertilizantes",
+     "link": "https://www.canalrural.com.br/agricultura/cna-defende-politicas-de-estado-para-reduzir-dependencia-de-fertilizantes/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T12:44:59+00:00"
+    },
+    {
+     "title": "Roberto Rodrigues recebe título de Doutor Honoris Causa da FGV por trajetória no agro",
+     "link": "https://www.canalrural.com.br/diversos/roberto-rodrigues-recebe-titulo-de-doutor-honoris-causa-da-fgv-por-trajetoria-no-agro/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T12:36:46+00:00"
+    },
+    {
+     "title": "Onda de calor mantém temperaturas elevadas em áreas do Norte, Centro-Oeste e Sudeste",
+     "link": "https://www.canalrural.com.br/diversos/onda-de-calor-mantem-temperaturas-elevadas-em-areas-do-norte-centro-oeste-e-sudeste/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T12:36:39+00:00"
+    },
     {
      "title": "Dino, do STF, considera legal Moratória da Soja e vota contra pedidos de indenizações - InfoMoney",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTDhDTUdpWU5nQ1RUUDBNT0RQRTVKVFR2S3NPZ0pkeWZlMWljYW1OcUxtR3pGV3l2ZG5qWm5GMHhIWS13YmhOVDJkVXNzMjBwZE5DQzJHc0lJX0VBOG8yM09mVjNpclMzcmxvM2MwVTQ3TGVOamsweWc4S1R5anJVeEhHdTNyV0JjTGtaS1dTUWVrcUYxYUNCYXQ0T0NZbFhSYTNaZTJPWVRSOGxZenZFSFNXVUswenN3bm05VGgzUdIBxAFBVV95cUxOMFJwUHpnNDFZY1pzQ2I4Y3o4WER6QWVDVXB3Ymh4ZE9NUmlRZXZVQVFmQnN0b1RuMHNOVFBtTVo5d0RyTlJSQUpxX2VCUUY0dlJEQmN4V0QwemNJQnJQWjdoU29fZXExelpPU0dKX1dlQUJodUtzVE83R2F0WHdWeXh4N0dyelQ0LVR4MUN1R1k4THZnWWVpTk9pZHRqTGFBR0s2dnVqTWxIS214aTdka1Z5VWJWS3BtSm5uOXFSS1poVDh4?oc=5",
@@ -424,52 +494,10 @@
      "published_at": "2026-08-13T12:01:35+00:00"
     },
     {
-     "title": "Fundo Rio Doce libera R$ 32,4 milhões para sete unidades de conservação",
-     "link": "https://www.canalrural.com.br/economia/fundo-rio-doce-libera-r-324-milhoes-para-sete-unidades-de-conservacao/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T12:00:49+00:00"
-    },
-    {
-     "title": "STF valida Moratória da Soja e encerra ações sobre acordo - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQzhwcE9WTE9lRFlLajJzeEFiQmh4YkdHVFR0b25LOFZpcVhuYlZ5UHZyRHVlVkdoS1RLWGVZbzZDYi1DVzhNZE1NazdZNGJ0Y3FZZ2lYZ1FWMjdzQnpDbk5wZkpPb3JkY1cwRWdxYmhndk5GNTVONXNXenZKMnNEQjFCOWZZcUVhZUFibVA1VUZHbndnLUwtaU43Q2hYUQ?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-08-13T11:57:00+00:00"
-    },
-    {
-     "title": "Senado aprova redução de impostos sobre combustíveis e muda tributação para produtores",
-     "link": "https://www.canalrural.com.br/politica/senado-aprova-reducao-de-impostos-sobre-combustiveis-e-muda-tributacao-para-produtores/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T11:50:47+00:00"
-    },
-    {
-     "title": "Decreto regulamenta programa de combustível sustentável de aviação",
-     "link": "https://www.canalrural.com.br/politica/decreto-regulamenta-programa-de-combustivel-sustentavel-de-aviacao/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T11:43:49+00:00"
-    },
-    {
-     "title": "MDA cria grupo para estruturar programa de valorização de sistemas agrícolas tradicionais",
-     "link": "https://www.canalrural.com.br/politica/mda-cria-grupo-para-estruturar-programa-de-valorizacao-de-sistemas-agricolas-tradicionais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T11:42:39+00:00"
-    },
-    {
      "title": "STF preserva a Moratória da Soja, mas fortalece os estados - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdl9naEZ1TlI2X3pYbjFTLTVYanlhSVUxRmhsSFhnTlZqQTRJei0zdVJ5anBVUmh2WEJCNk56bkt1OGRnbHhkcTJQOURITW9IbHZEX1BtRTh6eHRHQ3c1OHdCcmJIcXpQdWtqTktJYUpnejFEM3RFY2s2MHB0dTlidDZjdVVid3hvdWphMHV1OW94ZmZHN3BvbXNTeDZHekZtcHFZbzgtT2U?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-13T11:32:55+00:00"
-    },
-    {
-     "title": "STF preserva a Moratória da Soja, mas fortalece os estados",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/stf-preserva-a-moratoria-da-soja-mas-fortalece-os-estados/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T11:32:55+00:00"
-    },
-    {
-     "title": "Frente fria, chuva forte e veranico mudam o tempo em regiões do país",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/frente-fria-chuva-forte-e-veranico-mudam-o-tempo-em-regioes-do-pais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T11:18:52+00:00"
     },
     {
      "title": "Soja avança no exterior e sustenta preços no Brasil - Agrolink",
@@ -484,12 +512,6 @@
      "published_at": "2026-08-13T09:15:08+00:00"
     },
     {
-     "title": "Ibovespa perde 6% em agosto com fuga de estrangeiros: ouça os destaques do dia",
-     "link": "https://www.canalrural.com.br/economia/ibovespa-perde-6-em-agosto-com-fuga-de-estrangeiros-ouca-os-destaques-do-dia/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T08:45:00+00:00"
-    },
-    {
      "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - brasilagro.com.br",
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNUF1S1QtYXg4VndDME5Ua2lKbkh6X0tSeVVtV3FxUWZGcTN4aG5iQndrT29nWGdsRlNnajA0d3J4dkp1ekkxOU1DUHJzQ3NPOUZrWmFZanBZT3BoQ01SbmlKdUsyeDk4Z2JNa3FRNWlLZUZ0LW80UDJGV0MtN1picS1NUE9jYWZWVVMtRVFhX21LSzB4N0ZhTU4wNkdfVEplQUFEUDMtQVFHSHpQQnQxWmgwdE1uNWc?oc=5",
      "source": "brasilagro.com.br",
@@ -502,22 +524,10 @@
      "published_at": "2026-08-13T05:00:10"
     },
     {
-     "title": "Stellantis adia novas decisões de investimento no Brasil à espera de definições políticas",
-     "link": "https://www.canalrural.com.br/economia/stellantis-adia-novas-decisoes-de-investimento-no-brasil-a-espera-de-definicoes-politicas/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T01:24:21+00:00"
-    },
-    {
-     "title": "Investimentos no Brasil: cenário econômico e desafios eleitorais",
-     "link": "https://www.canalrural.com.br/videos/investimentos-no-brasil-cenario-economico-e-desafios-eleitorais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T00:10:27+00:00"
-    },
-    {
-     "title": "Nova lei de incentivo à indústria de fertilizantes pode fortalecer Brasil",
-     "link": "https://www.canalrural.com.br/videos/nova-lei-de-incentivo-a-industria-de-fertilizantes-pode-fortalecer-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T00:10:17+00:00"
+     "title": "STF Valida Fim de Incentivos e Abiove Descarta Volta da Moratória da Soja - Forbes Brasil",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZEhCcU9SOHMxQ0dLal9BWG5CclFVTlRpa3FaNlVIUUJlRDg4UTJCR3E0TVNuTFBUN2FWN2tnSThnZl81aUN2U0lFMmR4UWRHMmpIR09rQTFPbmU2dzJuZHZEQkNMTmo0ZHIxc3BPb0hZVVhJQzRnNHhucVpVMjR5WnQ2YXV6djFMSFdlQ2ZjZEpWbWRZVl9aa002NU9uN1pId2VzbEROb3h3cXFXMWNoZzhGOUdkY1E?oc=5",
+     "source": "Forbes Brasil",
+     "published_at": "2026-08-12T23:05:37+00:00"
     },
     {
      "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
@@ -554,12 +564,6 @@
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUEVKRWJuRnZYMkViRUdDM1UxSi03dFJwTHpRNnota3pHOFVHdWdVYldsQ3BGQnkxekVSOGo2Uk91b0lFaTE0MWItcHg1Ync0SXRTN2hiMDB5NHpBYWtEeEtMUGFFNVVHZ3dYVGJPREdHZTR5NmpiRjNpWlczRUhmcWhVMGhEX3FYRDFkczl2TkEyQ2p1VUU1U3Q0YWNEVk5BSlVaVTE0YjdqN1JXWElRLTdSWWFHdkUzUHIxLUs3Rkc4QU84cWdZSW5uYzA5Rjd0cUV3bF9WdDlTZ3pmdW90aGNB0gHnAUFVX3lxTFBxU2Z6TVhwb1VrOUI1bHlTc2lndktad3pXNGkxeUlGMlBtd0xSSElDd2tzcTVuWm81TTdwNzJacjkyTEZseHRPVFJaUGt3ZkM2VERfejBwd1FFTjNrZjRhOVA1Vko5MWpCeHNHbkRTb0VMeHNTaFFNdW9aZ3NLOGhpYndIS1FoM2JGNUlwUTZSVkRBLWZBZXRqb0NDbWYzcEZJQ1gxMHFDdEYtcDZPRDk3RVFldFpkclhVZVozRWtWa1JMcHB2bFgtM3BBS3lQZVpsb3VkYl9IOVJlbFNFZ2VOajlSY2V0dw?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-12T16:05:43+00:00"
-    },
-    {
-     "title": "STF – Licenciamento ambiental e moratória da soja – sessão de 12/8/2026 - jota.info",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZmxwOGZTVG5hbGFrOXNTTnNLazJPMGtpQ0JUa3Bnckh1VmRLbV9aT0hUWHg5MUxSMFhBN2pDaVFkWk5mQXd5TjZjMkx0RVU3Z3dlZHR4U05DajhYeVZEN25xTktjb3ItckdPaWNaMkJUNmJGa2tXNzRSTnZKc3BMcFg2X3lPYTFZVXlwc3lKRE1GWlIwVG8wemRFb0tUOHEtWm9xQnhmM0ZKSmNTQ1p5Ym1n?oc=5",
-     "source": "jota.info",
-     "published_at": "2026-08-12T15:38:10+00:00"
     },
     {
      "title": "Crise no campo: pedidos de recuperação judicial saltam entre produtores rurais",

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-13T17:53:01+00:00",
+ "generated_at": "2026-08-13T18:54:50+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-13T17:52:56+00:00",
+   "updated_at": "2026-08-13T18:54:41+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1184.25,
+     "price": 1183.0,
      "prev_close": 1164.75,
-     "change_pct": 1.67,
+     "change_pct": 1.57,
      "closes": [
       1202.0,
       1207.25,
@@ -35,7 +35,7 @@
       1157.75,
       1147.5,
       1164.75,
-      1184.25
+      1183.0
      ]
     },
     {
@@ -76,9 +76,9 @@
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 314.6,
+     "price": 314.1,
      "prev_close": 311.0,
-     "change_pct": 1.16,
+     "change_pct": 1.0,
      "closes": [
       316.8,
       319.6,
@@ -103,16 +103,16 @@
       303.7,
       303.4,
       311.0,
-      314.6
+      314.1
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 68.43,
+     "price": 68.29,
      "prev_close": 68.96,
-     "change_pct": -0.77,
+     "change_pct": -0.97,
      "closes": [
       73.04,
       73.04,
@@ -137,16 +137,16 @@
       69.46,
       68.45,
       68.96,
-      68.43
+      68.29
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 668.75,
+     "price": 668.5,
      "prev_close": 652.75,
-     "change_pct": 2.45,
+     "change_pct": 2.41,
      "closes": [
       627.0,
       631.25,
@@ -171,16 +171,16 @@
       640.5,
       630.25,
       652.75,
-      668.75
+      668.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 87.76,
+     "price": 86.85,
      "prev_close": 88.98,
-     "change_pct": -1.37,
+     "change_pct": -2.39,
      "closes": [
       83.3,
       84.73,
@@ -205,16 +205,16 @@
       87.72,
       88.91,
       88.98,
-      87.76
+      86.85
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 167191.36,
+     "price": 167159.84,
      "prev_close": 167491.0,
-     "change_pct": -0.18,
+     "change_pct": -0.2,
      "closes": [
       175739.0,
       176641.0,
@@ -222,12 +222,15 @@
       173825.0,
       173714.0,
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -236,7 +239,7 @@
       172180.0,
       167875.0,
       167491.0,
-      167191.3594
+      167159.8438
      ]
     }
    ],
@@ -244,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-13T17:52:56+00:00",
+   "updated_at": "2026-08-13T18:54:41+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -255,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-13T17:52:59+00:00",
+   "updated_at": "2026-08-13T18:54:47+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -416,8 +419,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-13T17:53:01+00:00",
+   "updated_at": "2026-08-13T18:54:50+00:00",
    "items": [
+    {
+     "title": "GAFFFF volta a São Paulo com expectativa de receber mais de 30 mil pessoas",
+     "link": "https://www.canalrural.com.br/feiras-e-eventos/gaffff-volta-a-sao-paulo-com-expectativa-de-receber-mais-de-30-mil-pessoas/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T17:56:53+00:00"
+    },
     {
      "title": "Exportação de carne bovina para a China cai pela metade em julho; o que esperar?",
      "link": "https://www.canalrural.com.br/pecuaria/exportacao-de-carne-bovina-para-a-china-cai-pela-metade-em-julho-o-que-esperar/",
@@ -533,16 +542,16 @@
      "published_at": "2026-08-13T14:12:49+00:00"
     },
     {
-     "title": "USDA eleva projeções para milho e soja dos EUA em 2026/27",
-     "link": "https://www.canalrural.com.br/agricultura/usda-eleva-projecoes-para-milho-e-soja-dos-eua-em-2026-27/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T14:12:49+00:00"
+     "title": "Famato manifesta preocupação com decisão do STF sobre a Moratória da Soja - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPM2pocWxKYVdsd2lJc1NnakNCcUl0V0hYX0RhenMtR3djSnBXLVZ2S3ktUEtvU0pmd3dlMlczZkUyTFZENVFrLXo1MlJGT2RaMVV5a3dpY1RLT1FILUpaY3pQOWpXUS1LWmc0QThQRmxwVWJtck9DN1hsVjFVLXJxb181UWtodUgtOWZmNVpKLUI5ZlQ1RXBhRXY4Q3F6U25qVkh4N1pYT2JqeUtpWHBLT2kwNHBvc0dlUnJ0aEZxTEJ3ZHNuUHlJc284RzBUQTNmd3fSAdcBQVVfeXFMTlRoUVhJMmN5YVJuRjhYTDBSemp2MU1yT0h2bmNyeHNOdXZNRldDNHFiWUZZRzFGSDJUZWhUbEV0X25Fb0Rpc3ZvQjNZNVZlNDlyTE1fQUNhMWV1QV9ZdGpPNldNM0NrY01zaXZ0MVJNNURHTEVTdzc0VkNTNzBHWFRSU3d2R0FrNkVwVFZwWlVMY0xWTDMzZHlyT0Z6WEVaMTd6S0stVktxanJ1a08tcURwLUwxcVRLUldJV2E5OFRwYnJzdHVQRmxGSW0tSzI2Njd0WkVTS28?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-13T12:51:25+00:00"
     },
     {
-     "title": "Soja avança em MT e milho chega a 99% da colheita - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZWVMWUExOWV1YjJYdm5kSTh2WDNmcno4RFQ3TGZjTGx5Xzc4alNXTUY1LXhfMThVeVhRbkhWVGJzb0JTWnZIVTEwVXpJNHI2RGszU2huM1VyWm5hVHh4RWFNRTNuQ0RJSU9ENkxPMnpXeGMxRDdHd2o1VjdndTNZRE5OWFNDSC1IQUlTdTNYRUcyUQ?oc=5",
+     "title": "STF valida Moratória da Soja e encerra ações sobre acordo - Revista Cultivar",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQzhwcE9WTE9lRFlLajJzeEFiQmh4YkdHVFR0b25LOFZpcVhuYlZ5UHZyRHVlVkdoS1RLWGVZbzZDYi1DVzhNZE1NazdZNGJ0Y3FZZ2lYZ1FWMjdzQnpDbk5wZkpPb3JkY1cwRWdxYmhndk5GNTVONXNXenZKMnNEQjFCOWZZcUVhZUFibVA1VUZHbndnLUwtaU43Q2hYUQ?oc=5",
      "source": "Revista Cultivar",
-     "published_at": "2026-08-13T13:24:16+00:00"
+     "published_at": "2026-08-13T11:57:00+00:00"
     },
     {
      "title": "Análise: STF valida Moratória da Soja, mas mantém punições - CNN Brasil",
@@ -551,21 +560,15 @@
      "published_at": "2026-08-13T11:06:38+00:00"
     },
     {
-     "title": "Soja opera estável em Chicago nesta 5ª (13), após disparada na sessão anterior - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZzJxcjdQWnlha3RiMnItTmdCRFZiUnpEOFlfU3RIVTFSSUNZbXgzYXM1Qm9Ob3l5STRzQTRLVzVUOXRrR2R6LV9RbDlxU2VheUY0NEZJUVF4NXJiMldSc0N2OTFaLXlXRGtodFllWXZ5SGRrbzVmb0IzNWZReWVEdXhYcHNOUHJpWEhzNlIxZWFrWWtlbFR5RjFyY1lGX0hyaWJRaTJZUnZGd2Z4UEd3SjVLMmVlMGNmcjhUNmQ5WFI1NTdUUl9jcDRTaV9uT3Zjc1g40gHYAUFVX3lxTFBrVG5WOVFwYTRNb25FQXNqQmdrNGdRVjZnOXp4T09sTTRQbHNNMjJsSFJXUjhacHJwTi1xVFZ2ZUxKMjBhWUtYWnd5ZzMxTno4OWlJUTRENWs2aTA1Qk5vdWd6a1h6OWRXei04Ni0ta2xCM0g0TzJOQ2g2VU9fNW1nTzRTZVcyNUlzLUFoMkktRlJmMDlTWTJWWkhYdGt5cGtGSjFjS25TeTVXT1NlYXhpbmMyY0tvWHd1RVVzQTRZNm1yOGYwLVJTdTdRRzhNd3FZeVUwclg2Vw?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-13T10:48:22+00:00"
-    },
-    {
      "title": "Veja como salvar uma orquídea com folhas e raízes secas ou murchas",
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/13/veja-como-salvar-uma-orquidea-com-folhas-e-raizes-secas-ou-murchas.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-13T05:00:10"
     },
     {
-     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - noticias.stf.jus.br",
+     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
-     "source": "noticias.stf.jus.br",
+     "source": "stf noticias",
      "published_at": "2026-08-12T22:52:00+00:00"
     },
     {

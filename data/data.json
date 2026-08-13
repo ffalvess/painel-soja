@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-13T04:04:57+00:00",
+ "generated_at": "2026-08-13T06:12:04+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-13T04:04:52+00:00",
+   "updated_at": "2026-08-13T06:11:55+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1181.75,
-     "prev_close": 1147.5,
-     "change_pct": 2.98,
+     "price": 1182.75,
+     "prev_close": 1164.75,
+     "change_pct": 1.55,
      "closes": [
       1202.0,
       1207.25,
@@ -34,7 +34,8 @@
       1156.5,
       1157.75,
       1147.5,
-      1164.75
+      1164.75,
+      1182.75
      ]
     },
     {
@@ -42,8 +43,8 @@
      "name": "Milho CBOT",
      "unit": "¢/bushel",
      "price": 477.75,
-     "prev_close": 436.75,
-     "change_pct": 9.39,
+     "prev_close": 457.0,
+     "change_pct": 4.54,
      "closes": [
       437.75,
       433.75,
@@ -67,16 +68,17 @@
       439.0,
       438.25,
       436.75,
-      457.0
+      457.0,
+      477.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 314.9,
-     "prev_close": 303.4,
-     "change_pct": 3.79,
+     "price": 315.2,
+     "prev_close": 311.0,
+     "change_pct": 1.35,
      "closes": [
       316.8,
       319.6,
@@ -100,16 +102,17 @@
       308.1,
       303.7,
       303.4,
-      311.0
+      311.0,
+      315.2
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 68.74,
-     "prev_close": 68.45,
-     "change_pct": 0.42,
+     "price": 68.76,
+     "prev_close": 68.96,
+     "change_pct": -0.29,
      "closes": [
       73.04,
       73.04,
@@ -133,16 +136,17 @@
       68.16,
       69.46,
       68.45,
-      68.96
+      68.96,
+      68.76
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 651.5,
-     "prev_close": 640.5,
-     "change_pct": 1.72,
+     "price": 653.5,
+     "prev_close": 652.75,
+     "change_pct": 0.11,
      "closes": [
       627.0,
       631.25,
@@ -165,16 +169,18 @@
       631.25,
       639.75,
       640.5,
-      630.25
+      630.25,
+      652.75,
+      653.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.35,
-     "prev_close": 88.91,
-     "change_pct": -0.63,
+     "price": 88.83,
+     "prev_close": 88.98,
+     "change_pct": -0.17,
      "closes": [
       83.3,
       84.73,
@@ -198,7 +204,8 @@
       83.55,
       87.72,
       88.91,
-      88.98
+      88.98,
+      88.83
      ]
     },
     {
@@ -239,7 +246,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-13T04:04:52+00:00",
+   "updated_at": "2026-08-13T06:11:55+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -250,7 +257,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-13T04:04:54+00:00",
+   "updated_at": "2026-08-13T06:12:00+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -411,25 +418,25 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-13T04:04:57+00:00",
+   "updated_at": "2026-08-13T06:12:04+00:00",
    "items": [
+    {
+     "title": "Veja como salvar uma orquídea com folhas e raízes secas ou murchas",
+     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/13/veja-como-salvar-uma-orquidea-com-folhas-e-raizes-secas-ou-murchas.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-13T05:00:10"
+    },
+    {
+     "title": "Soja puxa o resultado das exportações do agro gaúcho em julho - GZH",
+     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOdnlpSVRYdm1RY2thV1dKM2RtbDFQWE5Ia2ZFQ3E2LTN1d0hUam9jZExPT2VlNzRMVEFtSlZqUUpQNXJ0SWttaG1rU2MzSVNDUTBtS093cXFSWmZjZUFkLUtXcm4zS1EwWFVhX0lrYTlFQUhSMTNmMV9xMXBTSUk1NURxaHlwbzBCa3FjRUNQR1d1ZGhoSENRRXRCaXprSUxZLXBNVl94d040R1NDNll6dTVfS25yOWEyaW5rVVB3RFVsbTFNX0YtdThVbEhlOVowcXl2TFM1ekVWWlJvcDlRanJYSlBiM093eWkwRGYzTjNRbFUxZndnX2RZOA?oc=5",
+     "source": "GZH",
+     "published_at": "2026-08-13T04:41:15+00:00"
+    },
     {
      "title": "Stellantis adia novas decisões de investimento no Brasil à espera de definições políticas",
      "link": "https://www.canalrural.com.br/economia/stellantis-adia-novas-decisoes-de-investimento-no-brasil-a-espera-de-definicoes-politicas/",
      "source": "Canal Rural",
      "published_at": "2026-08-13T01:24:21+00:00"
-    },
-    {
-     "title": "STF valida punições fiscais ligadas à moratória da soja - Vero Notícias",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZEhxVWJmaUlGWThtV3FZN0FfZUR0Qlg5RGFxMWdQM0NxZnNaY0E4NHRTX0ZmOUhpVmNwUGVBV0NVeng5cDJmQUFnOVAyeEN1ZWNiMnRMRko2MU9ES2JqVVFWZWZrSmpONXN0YVlnN2Q4Y09Wc0VfVWRET2Q2a041Y1UtMXhmSE9TSlVMQmotd2l0WVVI?oc=5",
-     "source": "Vero Notícias",
-     "published_at": "2026-08-13T01:15:00+00:00"
-    },
-    {
-     "title": "Maioria do Supremo decide validar Moratória da Soja - brasildefato.com.br",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZ3N1cWJRdzlIeXZfWmp6YXctNkw4NVNQbHlUdi1UZE9vT0ltOGVMNzNIVWVaNWNGOENDTzJqQ1djenczbkhYOVBqVnZScjJLTklUNWR2cmNnN1cwZ0FTTW9FdnlTdFc3ZUZQa191aDlXcENPOGFPcUFiMGgwc01qWUdUMEkxTkFlc2ktbU1iZ0ZoR2ktM252NTF5QQ?oc=5",
-     "source": "brasildefato.com.br",
-     "published_at": "2026-08-13T00:31:00+00:00"
     },
     {
      "title": "Investimentos no Brasil: cenário econômico e desafios eleitorais",
@@ -486,22 +493,22 @@
      "published_at": "2026-08-12T23:42:42+00:00"
     },
     {
+     "title": "STF Valida Fim de Incentivos e Abiove Descarta Volta da Moratória da Soja - Forbes Brasil",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZEhCcU9SOHMxQ0dLal9BWG5CclFVTlRpa3FaNlVIUUJlRDg4UTJCR3E0TVNuTFBUN2FWN2tnSThnZl81aUN2U0lFMmR4UWRHMmpIR09rQTFPbmU2dzJuZHZEQkNMTmo0ZHIxc3BPb0hZVVhJQzRnNHhucVpVMjR5WnQ2YXV6djFMSFdlQ2ZjZEpWbWRZVl9aa002NU9uN1pId2VzbEROb3h3cXFXMWNoZzhGOUdkY1E?oc=5",
+     "source": "Forbes Brasil",
+     "published_at": "2026-08-12T23:05:37+00:00"
+    },
+    {
      "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
      "source": "stf noticias",
      "published_at": "2026-08-12T22:52:00+00:00"
     },
     {
-     "title": "Supremo valida moratória da soja e mantém restrições estaduais a incentivos - conjur.com.br",
+     "title": "Supremo valida moratória da soja e mantém restrições estaduais a incentivos - Consultor Jurídico",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLXMxSVVQZ3VnMjJUS1Z4YmlZVS01QWxjT1FMeGZoWUN1SlhMWURoTGxwVmMtREVVdlJZWUZ4NW82Mm8xUzJ4RERkWDFySWhrb01XT3hHRzYxbkVCSnZJbFdWTGVnRHpWdlZycFBEdzZaTGpCelR1R09aSjlrNUFnaC1la1lndU9ubDVKTVVReE9xLXVWSTRaRU82OXdVMUNERU9pVFh5UnB3Zw?oc=5",
-     "source": "conjur.com.br",
+     "source": "Consultor Jurídico",
      "published_at": "2026-08-12T22:40:39+00:00"
-    },
-    {
-     "title": "STF valida Moratória da Soja e extingue ações em tribunais e no Cade - JOTA Info",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeUQ0dkJkeVp2Rl9KSHN2b052cGhGeEYtLVNVejI5eG9kX29ScTJBZlhrVmlKeEZwam1CNkx3S3JUd3Q3Q3F0QUJqS1Z3UzQ1VlpybDZIYkpVcFptbVN4d2E3RkJqQ0RhbjQySE9HRmRpVUdROGVpS01XTzZCRldhOVVVWWtDcHFOVVkzUUZOYjUyQWwyc3J4WnYwbTV2V1hM?oc=5",
-     "source": "JOTA Info",
-     "published_at": "2026-08-12T22:16:43+00:00"
     },
     {
      "title": "STF mantém lei de MT que corta benefícios de empresas que aderem à Moratória da Soja; entenda decisão - G1",
@@ -570,6 +577,12 @@
      "published_at": "2026-08-11T21:21:24"
     },
     {
+     "title": "Os reis da soja! Veja a lista dos 20 municípios que mais produzem o grão - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOE12cUZ5MExmbUp4SFI2RGZ0RkszM2Rla3hhTXA1ejY0aHhPUWJ6OUtnVlVsMlczZmhFZE1XOGRwQndLc3kzVy1HMEhQLTF3Qi1sX1A3UlhmaVQyUS05YTZ2c2d2endXZi1sR2tFaXBkc2ZSMFoza1QzYk83OVNQZ1Y5VzNQUDg1Xzh5dE5kOWxmdldaUE53RTJSODJwSWFrenZrb3dEM0pVaTlxY2RqbTl3XzY?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-11T18:22:30+00:00"
+    },
+    {
      "title": "Depois do foie gras, quais práticas de criação e abate de animais podem ser proibidas?",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/11/depois-do-foie-gras-quais-praticas-de-criacao-e-abate-de-animais-podem-ser-proibidas.ghtml",
      "source": "G1 Agronegócios",
@@ -586,12 +599,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/11/noruega-tambem-vai-deixar-de-comprar-carne-do-brasil-a-partir-de-setembro-apos-decisao-da-ue.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-11T11:28:41"
-    },
-    {
-     "title": "Sucessão na JBS marca volta da família Batista ao comando, diz Financial Times",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/11/sucessao-na-jbs-marca-volta-da-familia-batista-ao-comando-diz-financial-times.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-11T10:18:23"
     }
    ],
    "failed": [

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-13T22:35:07+00:00",
+ "generated_at": "2026-08-13T23:34:41+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-13T22:34:54+00:00",
+   "updated_at": "2026-08-13T23:34:33+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -178,9 +178,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 86.88,
+     "price": 86.98,
      "prev_close": 88.98,
-     "change_pct": -2.36,
+     "change_pct": -2.25,
      "closes": [
       83.3,
       84.73,
@@ -205,7 +205,7 @@
       87.72,
       88.91,
       88.98,
-      86.88
+      86.98
      ]
     },
     {
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-13T22:34:54+00:00",
+   "updated_at": "2026-08-13T23:34:33+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-13T22:35:04+00:00",
+   "updated_at": "2026-08-13T23:34:37+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-13T22:35:07+00:00",
+   "updated_at": "2026-08-13T23:34:41+00:00",
    "items": [
+    {
+     "title": "Arroba do boi gordo: veja como o mercado fechou nas principais regiões",
+     "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-veja-como-o-mercado-fechou-nas-principais-regioes/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T22:39:46+00:00"
+    },
     {
      "title": "Juros futuros longos sobem com risco fiscal no radar",
      "link": "https://www.canalrural.com.br/economia/juros-futuros-longos-sobem-com-risco-fiscal-no-radar/",
@@ -494,12 +500,6 @@
      "published_at": "2026-08-13T19:22:37+00:00"
     },
     {
-     "title": "Congresso avança em renegociação de dívidas rurais e benefícios para o agro",
-     "link": "https://www.canalrural.com.br/videos/congresso-avanca-em-renegociacao-de-dividas-rurais-e-beneficios-para-o-agro/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T19:15:34+00:00"
-    },
-    {
      "title": "Abelhas nativas ajudam soja e reforçam valor do Cerrado - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPODNMV0tRSTZNekdoMTJFZTZ2bFJ1LUU0QnFuWURtQnItRHE3dURhLWtkRnJKOXJ5MnhualhVOWhtenowSnNsNGNCSndaOEVMZ1N1bGE4VUUzb1JZMVdOTXZaNEhvZXNBYXVhLTdJVzBQdUtWaVVvVEZrWUotMGtWeHRaNDlQZnRPTnNxOGFidWJtUjIwNVdONzNCU1NVRENyS2k5dVBuWQ?oc=5",
      "source": "Agrolink",
@@ -536,6 +536,12 @@
      "published_at": "2026-08-13T16:50:29"
     },
     {
+     "title": "Soja caminha de lado na Bolsa de Chicago nesta 5ª, se ajustando após fortes ganhos - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORjJpbC0zclk0dWkzNXpENExUdzJGY2JSbEJ6T1QzcEN3S3VSdW5xajFwY2lPV1R1eXJiUDJ4cFBpbnhndjRSRXBlQkdVdmtBS1VGd0Z4eU1fVGtOdzdrQ0lhLVVSSmZWR2hmUkJualZpX2t1bXJhSnZ6SHdSbGhQajFTTEJRZDYwcWJkX1M5cjQtRm1Cck9mY0pVd0d6cEJ4OWI0dXRrazhVVS1fY29uYS1EczdDUnRvX1N6SG1nOFRYY1dEU2ZLQXVhVUp5YXZqS0pFRGdQMjFISUXSAeABQVVfeXFMTU9vbWVDZTlnMi1iTEI1UU5DNF83Z1ZyaF9vN0VkY3BXQzA3VG9SQS1FWkNYVHFLN3h6WjZ6ckgyOVFvTEx5SWNjU3k5MHVTMmtxN1hpaUpiZUhEZG8xSVR6MjlabnNfcHFRbTFiQjUwVXlEVGtCaEo3eUJ0a0haSzFYY1JQR2hFZVNia0JzZkJDaVAxWVRUcUwwQTE0U2RNSy1TalhsZEdDSXBPMHl3YzBzR19UZy1HLVctYmdkbE1qd1JTRnd0ci1RbGJvMDlZVjRMMndER0VhWms0enc4NDI?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-13T16:01:37+00:00"
+    },
+    {
      "title": "EUA: produção de soja sobe, mas produtividade recua - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdXRYSmVGRVMyUXJMck1SajROalRKUEM3eEdvdkFtSi1VS1ZtaEp4UUJ5ek1lVUxTbmR6MmRsMkktSDBqMEdGYnVQX2cwYXdVUDRocFhFNjVwdUtFcHp0dlFnX3FILWxiYXBKQUFhRVFWcGRpYkZvckpKMkdzYTJXUzFlRTlFcGJjNndTdmRHVjF6eFkwQ09ZeGtWYVNoVTBqR3c?oc=5",
      "source": "Agrolink",
@@ -552,12 +558,6 @@
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRkFhd1lZNXVtXzBGMDVmdG1NTUdXbWxwdThleER6aEZzUXdPMTR2OTFKM2NKbUtUUnphYnQ2RTZrX0hiQkxiOWt2ZzIzaVEzeVp5dlpVR3ppbndqSzdBeW1JM1N6eUw1X1JjZF8wblpBR2ZDaGhzSld1LWhmYTJLT2tuWl9ad25JbVdtdUJSMl9xZVlzeS1GTE9QbG1QTGU0ZXc?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-13T14:12:49+00:00"
-    },
-    {
-     "title": "Famato manifesta preocupação com decisão do STF sobre a Moratória da Soja - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPM2pocWxKYVdsd2lJc1NnakNCcUl0V0hYX0RhenMtR3djSnBXLVZ2S3ktUEtvU0pmd3dlMlczZkUyTFZENVFrLXo1MlJGT2RaMVV5a3dpY1RLT1FILUpaY3pQOWpXUS1LWmc0QThQRmxwVWJtck9DN1hsVjFVLXJxb181UWtodUgtOWZmNVpKLUI5ZlQ1RXBhRXY4Q3F6U25qVkh4N1pYT2JqeUtpWHBLT2kwNHBvc0dlUnJ0aEZxTEJ3ZHNuUHlJc284RzBUQTNmd3fSAdcBQVVfeXFMTlRoUVhJMmN5YVJuRjhYTDBSemp2MU1yT0h2bmNyeHNOdXZNRldDNHFiWUZZRzFGSDJUZWhUbEV0X25Fb0Rpc3ZvQjNZNVZlNDlyTE1fQUNhMWV1QV9ZdGpPNldNM0NrY01zaXZ0MVJNNURHTEVTdzc0VkNTNzBHWFRSU3d2R0FrNkVwVFZwWlVMY0xWTDMzZHlyT0Z6WEVaMTd6S0stVktxanJ1a08tcURwLUwxcVRLUldJV2E5OFRwYnJzdHVQRmxGSW0tSzI2Njd0WkVTS28?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-13T12:51:25+00:00"
     },
     {
      "title": "Veja como salvar uma orquídea com folhas e raízes secas ou murchas",

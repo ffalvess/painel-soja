@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-13T15:53:24+00:00",
+ "generated_at": "2026-08-13T16:50:25+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-13T15:53:15+00:00",
+   "updated_at": "2026-08-13T16:50:18+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1184.25,
+     "price": 1186.75,
      "prev_close": 1164.75,
-     "change_pct": 1.67,
+     "change_pct": 1.89,
      "closes": [
       1202.0,
       1207.25,
@@ -35,16 +35,16 @@
       1157.75,
       1147.5,
       1164.75,
-      1184.25
+      1186.75
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 473.75,
+     "price": 473.25,
      "prev_close": 457.0,
-     "change_pct": 3.67,
+     "change_pct": 3.56,
      "closes": [
       437.75,
       433.75,
@@ -69,16 +69,16 @@
       438.25,
       436.75,
       457.0,
-      473.75
+      473.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 316.7,
+     "price": 317.3,
      "prev_close": 311.0,
-     "change_pct": 1.83,
+     "change_pct": 2.03,
      "closes": [
       316.8,
       319.6,
@@ -103,16 +103,16 @@
       303.7,
       303.4,
       311.0,
-      316.7
+      317.3
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 68.63,
+     "price": 68.47,
      "prev_close": 68.96,
-     "change_pct": -0.48,
+     "change_pct": -0.71,
      "closes": [
       73.04,
       73.04,
@@ -137,16 +137,16 @@
       69.46,
       68.45,
       68.96,
-      68.63
+      68.47
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 670.0,
+     "price": 669.75,
      "prev_close": 652.75,
-     "change_pct": 2.64,
+     "change_pct": 2.6,
      "closes": [
       627.0,
       631.25,
@@ -171,16 +171,16 @@
       640.5,
       630.25,
       652.75,
-      670.0
+      669.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 87.97,
+     "price": 87.69,
      "prev_close": 88.98,
-     "change_pct": -1.14,
+     "change_pct": -1.45,
      "closes": [
       83.3,
       84.73,
@@ -205,16 +205,16 @@
       87.72,
       88.91,
       88.98,
-      87.97
+      87.69
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 166689.22,
+     "price": 166738.44,
      "prev_close": 167491.0,
-     "change_pct": -0.48,
+     "change_pct": -0.45,
      "closes": [
       175739.0,
       176641.0,
@@ -239,7 +239,7 @@
       172180.0,
       167875.0,
       167491.0,
-      166689.2188
+      166738.4375
      ]
     }
    ],
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-13T15:53:15+00:00",
+   "updated_at": "2026-08-13T16:50:18+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-13T15:53:20+00:00",
+   "updated_at": "2026-08-13T16:50:23+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,44 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-13T15:53:24+00:00",
+   "updated_at": "2026-08-13T16:50:25+00:00",
    "items": [
+    {
+     "title": "Vendas semanais de trigo dos EUA somam 255,9 mil toneladas, informa USDA",
+     "link": "https://www.canalrural.com.br/economia/vendas-semanais-de-trigo-dos-eua-somam-2559-mil-toneladas-informa-usda/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T16:28:47+00:00"
+    },
+    {
+     "title": "Soja caminha de lado na Bolsa de Chicago nesta 5ª, se ajustando após fortes ganhos - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORjJpbC0zclk0dWkzNXpENExUdzJGY2JSbEJ6T1QzcEN3S3VSdW5xajFwY2lPV1R1eXJiUDJ4cFBpbnhndjRSRXBlQkdVdmtBS1VGd0Z4eU1fVGtOdzdrQ0lhLVVSSmZWR2hmUkJualZpX2t1bXJhSnZ6SHdSbGhQajFTTEJRZDYwcWJkX1M5cjQtRm1Cck9mY0pVd0d6cEJ4OWI0dXRrazhVVS1fY29uYS1EczdDUnRvX1N6SG1nOFRYY1dEU2ZLQXVhVUp5YXZqS0pFRGdQMjFISUXSAeABQVVfeXFMTU9vbWVDZTlnMi1iTEI1UU5DNF83Z1ZyaF9vN0VkY3BXQzA3VG9SQS1FWkNYVHFLN3h6WjZ6ckgyOVFvTEx5SWNjU3k5MHVTMmtxN1hpaUpiZUhEZG8xSVR6MjlabnNfcHFRbTFiQjUwVXlEVGtCaEo3eUJ0a0haSzFYY1JQR2hFZVNia0JzZkJDaVAxWVRUcUwwQTE0U2RNSy1TalhsZEdDSXBPMHl3YzBzR19UZy1HLVctYmdkbE1qd1JTRnd0ci1RbGJvMDlZVjRMMndER0VhWms0enc4NDI?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-13T16:01:37+00:00"
+    },
+    {
+     "title": "Área tratada com defensivos cresce 5% no 1º semestre; dois estados lideraram consumo",
+     "link": "https://www.canalrural.com.br/agricultura/area-tratada-com-defensivos-cresce-5-no-1o-semestre-dois-estados-lideraram-consumo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T15:55:19+00:00"
+    },
+    {
+     "title": "Banco do Brasil recupera R$ 2 bilhões em crédito em julho",
+     "link": "https://www.canalrural.com.br/economia/banco-do-brasil-recupera-r-2-bilhoes-em-credito-em-julho/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T15:52:31+00:00"
+    },
+    {
+     "title": "Vendas semanais de soja dos EUA somam 1,835 milhão de toneladas, diz USDA - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNa1ozWWhJWVlSZlpXc0J1dlZqVWxNUVNXLURxem53R3lIaDd2SkJZYzVQdjZaanZRTVJNbzgzWk5fZXJSUU9SbGlPamVpbU92OVhBN3diWmZxcW84dzlhd0xsdmY5bUVWOG1QODZVanVnWHpRdS1rUmNJa2QtNGh0TllXbTdycXRtVHZ0VnFhc196WWNlYVd6SVlVb19mbDBWZjVFck9pZ0Q5YkNfUFpGbw?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T15:32:06+00:00"
+    },
+    {
+     "title": "Vendas semanais de soja dos EUA somam 1,835 milhão de toneladas, diz USDA",
+     "link": "https://www.canalrural.com.br/economia/vendas-semanais-de-soja-dos-eua-somam-1835-milhao-de-toneladas-diz-usda/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-13T15:32:06+00:00"
+    },
     {
      "title": "EUA vendem 75,1 mil t de soja da safra 2025/26, aponta USDA - UOL Notícias",
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaTZXV3AyRUN3enJ1SGx0TE82WWZpRzhESjlmN0pJTGNBb3htZW00UG0wS3VFSmlGWF9Gd21oN3ZfOW9HU0FldHkzcFBlT1ZLV21wVUxEeExkVTJMaEJzUFFBcTBFTmhNQU1WbjNaUXBaeUhRVW9KNDI1V3lUc3dfM1F0VHJncVcwajN1NE9aVVlMcWJRTkVUMTZRSnNrVDBveWxlRjh5enkzaEdMeERZallYTEFnb1dNTkdhNFdkSEQxdWNkcEp1dzBHNA?oc=5",
@@ -450,12 +486,6 @@
      "link": "https://www.canalrural.com.br/economia/vendas-de-supermercados-sobem-11-em-junho-ante-maio-mostra-ibge/",
      "source": "Canal Rural",
      "published_at": "2026-08-13T14:32:58+00:00"
-    },
-    {
-     "title": "USDA eleva projeções para milho e soja dos EUA em 2026/27 - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRkFhd1lZNXVtXzBGMDVmdG1NTUdXbWxwdThleER6aEZzUXdPMTR2OTFKM2NKbUtUUnphYnQ2RTZrX0hiQkxiOWt2ZzIzaVEzeVp5dlpVR3ppbndqSzdBeW1JM1N6eUw1X1JjZF8wblpBR2ZDaGhzSld1LWhmYTJLT2tuWl9ad25JbVdtdUJSMl9xZVlzeS1GTE9QbG1QTGU0ZXc?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T14:12:49+00:00"
     },
     {
      "title": "USDA eleva projeções para milho e soja dos EUA em 2026/27",
@@ -494,30 +524,6 @@
      "published_at": "2026-08-13T13:22:58+00:00"
     },
     {
-     "title": "Safra 2026 de grãos é estimada em 353 milhões de toneladas pelo IBGE",
-     "link": "https://www.canalrural.com.br/agricultura/safra-2026-de-graos-e-estimada-em-353-milhoes-de-toneladas-pelo-ibge/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T13:11:42+00:00"
-    },
-    {
-     "title": "Após China reduzir compras de carne bovina, exportações brasileiras despencam",
-     "link": "https://www.canalrural.com.br/diversos/apos-china-reduzir-compras-de-carne-bovina-exportacoes-brasileiras-despencam/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T12:56:21+00:00"
-    },
-    {
-     "title": "CNA defende políticas de Estado para reduzir dependência de fertilizantes",
-     "link": "https://www.canalrural.com.br/agricultura/cna-defende-politicas-de-estado-para-reduzir-dependencia-de-fertilizantes/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T12:44:59+00:00"
-    },
-    {
-     "title": "Roberto Rodrigues recebe título de Doutor Honoris Causa da FGV por trajetória no agro",
-     "link": "https://www.canalrural.com.br/diversos/roberto-rodrigues-recebe-titulo-de-doutor-honoris-causa-da-fgv-por-trajetoria-no-agro/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-13T12:36:46+00:00"
-    },
-    {
      "title": "Dino, do STF, considera legal Moratória da Soja e vota contra pedidos de indenizações - InfoMoney",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTDhDTUdpWU5nQ1RUUDBNT0RQRTVKVFR2S3NPZ0pkeWZlMWljYW1OcUxtR3pGV3l2ZG5qWm5GMHhIWS13YmhOVDJkVXNzMjBwZE5DQzJHc0lJX0VBOG8yM09mVjNpclMzcmxvM2MwVTQ3TGVOamsweWc4S1R5anJVeEhHdTNyV0JjTGtaS1dTUWVrcUYxYUNCYXQ0T0NZbFhSYTNaZTJPWVRSOGxZenZFSFNXVUswenN3bm05VGgzUdIBxAFBVV95cUxOMFJwUHpnNDFZY1pzQ2I4Y3o4WER6QWVDVXB3Ymh4ZE9NUmlRZXZVQVFmQnN0b1RuMHNOVFBtTVo5d0RyTlJSQUpxX2VCUUY0dlJEQmN4V0QwemNJQnJQWjdoU29fZXExelpPU0dKX1dlQUJodUtzVE83R2F0WHdWeXh4N0dyelQ0LVR4MUN1R1k4THZnWWVpTk9pZHRqTGFBR0s2dnVqTWxIS214aTdka1Z5VWJWS3BtSm5uOXFSS1poVDh4?oc=5",
      "source": "InfoMoney",
@@ -528,12 +534,6 @@
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdl9naEZ1TlI2X3pYbjFTLTVYanlhSVUxRmhsSFhnTlZqQTRJei0zdVJ5anBVUmh2WEJCNk56bkt1OGRnbHhkcTJQOURITW9IbHZEX1BtRTh6eHRHQ3c1OHdCcmJIcXpQdWtqTktJYUpnejFEM3RFY2s2MHB0dTlidDZjdVVid3hvdWphMHV1OW94ZmZHN3BvbXNTeDZHekZtcHFZbzgtT2U?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-13T11:32:55+00:00"
-    },
-    {
-     "title": "Soja opera estável em Chicago nesta 5ª (13), após disparada na sessão anterior - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZzJxcjdQWnlha3RiMnItTmdCRFZiUnpEOFlfU3RIVTFSSUNZbXgzYXM1Qm9Ob3l5STRzQTRLVzVUOXRrR2R6LV9RbDlxU2VheUY0NEZJUVF4NXJiMldSc0N2OTFaLXlXRGtodFllWXZ5SGRrbzVmb0IzNWZReWVEdXhYcHNOUHJpWEhzNlIxZWFrWWtlbFR5RjFyY1lGX0hyaWJRaTJZUnZGd2Z4UEd3SjVLMmVlMGNmcjhUNmQ5WFI1NTdUUl9jcDRTaV9uT3Zjc1g40gHYAUFVX3lxTFBrVG5WOVFwYTRNb25FQXNqQmdrNGdRVjZnOXp4T09sTTRQbHNNMjJsSFJXUjhacHJwTi1xVFZ2ZUxKMjBhWUtYWnd5ZzMxTno4OWlJUTRENWs2aTA1Qk5vdWd6a1h6OWRXei04Ni0ta2xCM0g0TzJOQ2g2VU9fNW1nTzRTZVcyNUlzLUFoMkktRlJmMDlTWTJWWkhYdGt5cGtGSjFjS25TeTVXT1NlYXhpbmMyY0tvWHd1RVVzQTRZNm1yOGYwLVJTdTdRRzhNd3FZeVUwclg2Vw?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-13T10:48:22+00:00"
     },
     {
      "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - brasilagro.com.br",

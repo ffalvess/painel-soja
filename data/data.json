@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-14T21:19:30+00:00",
+ "generated_at": "2026-08-14T22:15:54+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-14T21:19:17+00:00",
+   "updated_at": "2026-08-14T22:15:48+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -221,15 +221,12 @@
       173825.0,
       173714.0,
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -247,7 +244,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-14T20:24:46+00:00",
+   "updated_at": "2026-08-14T22:15:49+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +255,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-14T21:19:27+00:00",
+   "updated_at": "2026-08-14T22:15:52+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,13 +416,31 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-14T21:19:30+00:00",
+   "updated_at": "2026-08-14T22:15:54+00:00",
    "items": [
+    {
+     "title": "Ibovespa fecha em baixa de 0,1% e dólar comercial sobe 0,52%",
+     "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-baixa-de-01-e-dolar-comercial-sobe-052/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T21:42:37+00:00"
+    },
+    {
+     "title": "PLP 114/2026 avança no Congresso com mecanismos para preservar competitividade do etanol",
+     "link": "https://www.canalrural.com.br/politica/plp-114-2026-avanca-no-congresso-com-mecanismos-para-preservar-competitividade-do-etanol/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T21:22:09+00:00"
+    },
     {
      "title": "Calorão: máximas podem chegar a 40 °C com risco para focos de incêndio; veja quando e onde",
      "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/calorao-maximas-podem-chegar-a-40-c-com-risco-para-focos-de-incendio-veja-quando-e-onde/",
      "source": "Canal Rural",
      "published_at": "2026-08-14T20:52:24+00:00"
+    },
+    {
+     "title": "Caramuru eleva lucro no 2º trimestre, mas margens recuam em soja e biodiesel - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR3RDMmJHOEpnTzZGeWdlQWZIWHFfcXpha1VVMlkxYVFVS19DanVSaEEyeHI5YVN1aFRLQ2dnZkRGS0otX25EY2s5Q0t0QkdyaGNweUZPZnRGUlFPUGxZcDdobDZSTTZ5Rnlhb1NxNFVKZG1TSjFEUWdBMzlKcHdkMWxkb05nMzFrMmlfZl9jdXhEODljRVpFRmVqRTJLOUgyU0ZLZFZPeUx4QXBYNlZheTQ0V3ZfUQ?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T20:48:31+00:00"
     },
     {
      "title": "Caramuru eleva lucro no 2º trimestre, mas margens recuam em soja e biodiesel",
@@ -452,9 +467,9 @@
      "published_at": "2026-08-14T20:19:07+00:00"
     },
     {
-     "title": "Soja avança em Chicago com expectativa de novas compras da China - CNN Brasil",
+     "title": "Soja avança em Chicago com expectativa de novas compras da China - cnnbrasil.com.br",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUmxNOGlmMkw1cFBmV3FiZnZHb0RtbDBaMVJNMWJqVWhGaFloRklkNERlOUcyTkdsSDg5TkhhZmZSZXlLUi13VmRJOVVCbzFNWGQ1WU5wY0ZMRW9GR2dJMWxtcVowX2ZQQjRSY3NaVHR4aTNvLWZaZWQtSVdETndqZERrYTBXc0JNaFdRb1pHTFVwWC13c2FuZER2TGJydk9X?oc=5",
-     "source": "CNN Brasil",
+     "source": "cnnbrasil.com.br",
      "published_at": "2026-08-14T19:58:00+00:00"
     },
     {
@@ -494,39 +509,21 @@
      "published_at": "2026-08-14T18:30:39+00:00"
     },
     {
-     "title": "Fazenda autoriza R$ 25,8 bilhões para renegociação de dívidas rurais",
-     "link": "https://www.canalrural.com.br/economia/fazenda-autoriza-r-258-bilhoes-para-renegociacao-de-dividas-rurais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T18:14:22+00:00"
-    },
-    {
-     "title": "Expo Rio Preto reúne raças leiteiras e destaca pecuária leiteira",
-     "link": "https://www.canalrural.com.br/videos/expo-rio-preto-reune-racas-e-destaca-pecuaria-leiteira/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T18:05:37+00:00"
-    },
-    {
      "title": "STF reconhece constitucionalidade da Moratória da Soja, mas mantém restrições a incentivos fisc - WWF Brasil",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRlM4anFYZ1dYc3o1NnpKYTV3SmtEQWdJZTJFRzVZTm11NnFieUxWZzZhQklTWVlsU3UtRzZZeGw1WG1vbTBDaVljdkdDRDA0aUg3LW12SDhCTFEtV01TUFBVTTRDMy0xUHFBYXFqREhMM3ZKLUtRUHhOLWJLYmpCdk1peGw5Nk5UX002RmdvOV9rcXFWcnRJRGFVV2lnY0VVeUEyVjZEVFhjX0NydXdlcWk4cnZQblJ4OU1hb0psTkZfVW41SGc?oc=5",
      "source": "WWF Brasil",
-     "published_at": "2026-08-14T16:06:30+00:00"
+     "published_at": "2026-08-14T16:22:52+00:00"
     },
     {
-     "title": "Soja avança em Chicago com expectativa de novos embarques dos EUA para China - Globo Rural",
+     "title": "Soja avança em Chicago com expectativa de novos embarques dos EUA para China - globorural.globo.com",
      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNjF4dlM2VGJzWlE1Z250ejUtMFZNbHI2T1FmMk5ZbFQ1dy1kTUU4X3h2NkhYNnBCdGRQc0xXcjY4RFp0cl90VlhfVGppVlAwRTUxRF9mT21NMnRFVWE3WmcyNm93ejZfOUEwbTByVWtvYk5UYWE5Y3RoMzZyOGdvb3BGdEhqMllyYW1iRE9oZFZlZ0RxSWo1bzRENy1XZThEQkl3V3lQZE1kVlo0RGdlNlFWY2VneURjUWJYWEdOaVlIbDNOR0tTMVh6ZG5kODZJbXfSAeABQVVfeXFMUEdBUTZBVWlaVkExcDRNU21yYm9zUkJZaXNKY2dJVExmSVY5dWxkLTFKRXExTzBKWjV6NUpuYVM0M2xYUW5ZZlVER1NCa0lBNnZHc2s2Z3BNQ2s1ZlR6RHRZN1U4NVRYTXVDNGJBNlBnempuLVhYUFlEOVc5ZmVOSG00QmFDaFpfMkFvdFNGcFVlZWtNMEFGY2lOSS1ob2hPemtoZ05OVHhhZGFDNWdWeXVoVXhGWW5yT2I1aEpmUFRidzRxZnVKR0sxamRWenlzQ0dDZDZuU3ducFFuaU5FeEQ?oc=5",
-     "source": "Globo Rural",
+     "source": "globorural.globo.com",
      "published_at": "2026-08-14T14:33:15+00:00"
     },
     {
-     "title": "Soja fecha em alta após relatório do USDA - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLXhmRXF6dHd5cWFmZGhMOVhtSlg4ZTA0Q2FRTGlKUXVVbUlHNVk2eDRGZG80QlV0TlJGRng2bllIcUVVeGN6WWlXNk12QlBZNWVuT1JyZWhpRzdwb0ZXbExTRFpUbmp4VlBuNEhjdXpuUWwyZEZ2aXRxaW1FeWdqWE5lYjA3N2lzNG5uOEtBc3J2eF9Q?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-14T13:33:00+00:00"
-    },
-    {
-     "title": "Sinograin Leiloará 360 Mil Toneladas de Soja para Abrir Espaço À Produção dos EUA - Forbes Brasil",
+     "title": "Sinograin Leiloará 360 Mil Toneladas de Soja para Abrir Espaço À Produção dos EUA - forbes.com.br",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTUY1a3VFM1E1dldFbWRaVVdENVp6RFdTbDJ2NDNqVGhsVUpxRUo0eWxwX0ZFbGJ2bDJYbmR2blhDU2FZMTlLbm5nanUxX0F1NWFCMC1fTWpWVHFBZ3FWTTF1aFk5Ui1pc19NSDJqTnRqUzlLaDVnQURWaUJaNXNYX2VyaFQwWF9FME83Zy1XZXpmWDFaSW9wdTQ2NGNTRTNZWllGOHhncEVWWC1oNzdjT1ZrSThLNm4yakRRd3JDUkowdw?oc=5",
-     "source": "Forbes Brasil",
+     "source": "forbes.com.br",
      "published_at": "2026-08-14T12:00:00+00:00"
     },
     {
@@ -611,10 +608,6 @@
   {
    "section": "fx",
    "error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
-  },
-  {
-   "section": "rates",
-   "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json"
   },
   {
    "section": "cepea",

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-14T22:15:54+00:00",
+ "generated_at": "2026-08-14T23:15:58+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-14T22:15:48+00:00",
+   "updated_at": "2026-08-14T23:15:53+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -244,7 +244,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-14T22:15:49+00:00",
+   "updated_at": "2026-08-14T23:15:53+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -255,7 +255,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-14T22:15:52+00:00",
+   "updated_at": "2026-08-14T23:15:56+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -416,8 +416,44 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-14T22:15:54+00:00",
+   "updated_at": "2026-08-14T23:15:58+00:00",
    "items": [
+    {
+     "title": "Soja sobe em Chicago com expectativa de compras chinesas - Vero Notícias",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQXy1PS2NjN1RoRGVScHp2QzZiVjlSWkR4U3JYSTV0bWFqUnc5bTZ0NlVFTmtOMFVwUm12Tm4xTUpSTEd3b0xpWF9LTHc5T0NVMVljNmdfNXlDMnNNUTgybGpma0Q1NlY0TEFuQjZTNERpVHpWU1hnX0ZDaEF3YjJ3a0k4T1hvdTY1dWNmSXVNQ2IxNUhHUkE?oc=5",
+     "source": "Vero Notícias",
+     "published_at": "2026-08-14T22:55:00+00:00"
+    },
+    {
+     "title": "Conab participa de oficinas para plano de enfrentamento à estiagem",
+     "link": "https://www.canalrural.com.br/politica/conab-participa-de-oficinas-para-plano-de-enfrentamento-a-estiagem/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T22:43:34+00:00"
+    },
+    {
+     "title": "Planejamento estima custo de R$ 1,95 bilhão em 2026 para medidas do etanol no PLP dos combustíveis",
+     "link": "https://www.canalrural.com.br/economia/planejamento-estima-custo-de-r-195-bilhao-em-2026-para-medidas-do-etanol-no-plp-dos-combustiveis/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T22:32:30+00:00"
+    },
+    {
+     "title": "Italac firma contrato para comprar marcas Líder e Tânia e ativos da A.R.C.",
+     "link": "https://www.canalrural.com.br/economia/italac-firma-contrato-para-comprar-marcas-lider-e-tania-e-ativos-da-a-r-c/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T22:24:41+00:00"
+    },
+    {
+     "title": "MP libera crédito extraordinário para estoques públicos e compra de alimentos",
+     "link": "https://www.canalrural.com.br/politica/mp-libera-credito-extraordinario-para-estoques-publicos-e-compra-de-alimentos/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T22:22:50+00:00"
+    },
+    {
+     "title": "Arroba do boi gordo: veja como as cotações encerraram mais uma semana",
+     "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-veja-como-as-cotacoes-encerraram-mais-uma-semana/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T21:56:39+00:00"
+    },
     {
      "title": "Ibovespa fecha em baixa de 0,1% e dólar comercial sobe 0,52%",
      "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-baixa-de-01-e-dolar-comercial-sobe-052/",
@@ -461,15 +497,9 @@
      "published_at": "2026-08-14T20:42:15+00:00"
     },
     {
-     "title": "Safra do Paraná: soja avança, milho perde 750 mil toneladas e trigo surpreende no campo",
-     "link": "https://www.canalrural.com.br/diversos/safra-do-parana-soja-avanca-milho-perde-750-mil-toneladas-e-trigo-surpreende-no-campo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T20:19:07+00:00"
-    },
-    {
-     "title": "Soja avança em Chicago com expectativa de novas compras da China - cnnbrasil.com.br",
+     "title": "Soja avança em Chicago com expectativa de novas compras da China - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUmxNOGlmMkw1cFBmV3FiZnZHb0RtbDBaMVJNMWJqVWhGaFloRklkNERlOUcyTkdsSDg5TkhhZmZSZXlLUi13VmRJOVVCbzFNWGQ1WU5wY0ZMRW9GR2dJMWxtcVowX2ZQQjRSY3NaVHR4aTNvLWZaZWQtSVdETndqZERrYTBXc0JNaFdRb1pHTFVwWC13c2FuZER2TGJydk9X?oc=5",
-     "source": "cnnbrasil.com.br",
+     "source": "CNN Brasil",
      "published_at": "2026-08-14T19:58:00+00:00"
     },
     {
@@ -477,30 +507,6 @@
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUldMeU1GM2ZudUZVUDVrOFNsMVBSX2oyc1diVEtXR2NWNGJoUXJpS0w5SkY4V0M0SmJaTm5sVjBtM1VEbmNfYTU5ZjlMOENXVnpUNWZyRFJLSlExSmFrVUhWSGtNX0VKQkhKZ2dLaDRxcGt2RGNoQmZUUjdrWV9QN3hBYXNGY21fNTBDTXpscFc2bEZKczN6N21Zb3VTUGVWaFllLUM4MUF5a2FBZ1FIY0ItMUtoOVRlX2c?oc=5",
      "source": "Agrolink",
      "published_at": "2026-08-14T19:48:00+00:00"
-    },
-    {
-     "title": "Petróleo sobe com tensão no Oriente Médio e impasse entre EUA e Irã",
-     "link": "https://www.canalrural.com.br/economia/petroleo-sobe-com-tensao-no-oriente-medio-e-impasse-entre-eua-e-ira/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T19:27:20+00:00"
-    },
-    {
-     "title": "3tentos tem queda de 86,3% no lucro ajustado do 2º trimestre",
-     "link": "https://www.canalrural.com.br/economia/3tentos-tem-queda-de-863-no-lucro-ajustado-do-2o-trimestre/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T19:19:03+00:00"
-    },
-    {
-     "title": "Alcolumbre destrava PEC que trata do fim da escala 6×1",
-     "link": "https://www.canalrural.com.br/politica/alcolumbre-destrava-pec-que-trata-do-fim-da-escala-6x1/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T19:02:00+00:00"
-    },
-    {
-     "title": "Lucro do CTC cai 2% no 1º trimestre da safra 2026/27",
-     "link": "https://www.canalrural.com.br/economia/lucro-do-ctc-cai-2-no-1o-trimestre-da-safra-2026-27/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T18:58:18+00:00"
     },
     {
      "title": "Alta em Chicago pode trazer suporte ao preço doméstico de soja - safras.com.br",
@@ -543,12 +549,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/14/conheca-o-abacaxi-que-dura-mais-tempo-apos-a-colheita.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-14T10:42:14"
-    },
-    {
-     "title": "USDA favorece milho, enquanto soja perde força para sustentar alta - Feed&Food",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcUlURGVBOUlIb2YwRWNPdXlEVDJiX0pnY0tNUnMyLU9Jb0ppVm4xNmhzLVZQaEtMS2RPNXlUYVNkbWo1SXBVeHBJX0RVTjlGdzN6RDB2VUxSZlItYzJhOWlMV0pIbFZTLW1EdHRLU294Zm8yWjNkY29Yb01SdWR4UmtodnVHcDJrUjliZk5FSjlmNUJG?oc=5",
-     "source": "Feed&Food",
-     "published_at": "2026-08-14T10:07:00+00:00"
     },
     {
      "title": "Peixes têm 'impressão digital' que revela de onde vieram, mostra estudo; entenda",

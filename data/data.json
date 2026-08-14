@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-14T19:43:56+00:00",
+ "generated_at": "2026-08-14T20:24:55+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-14T19:43:48+00:00",
+   "updated_at": "2026-08-14T20:24:45+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -178,9 +178,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.5,
+     "price": 88.58,
      "prev_close": 87.07,
-     "change_pct": 1.64,
+     "change_pct": 1.73,
      "closes": [
       84.73,
       84.95,
@@ -205,28 +205,31 @@
       88.91,
       88.98,
       87.07,
-      88.5
+      88.58
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 166271.98,
+     "price": 166886.48,
      "prev_close": 167101.0,
-     "change_pct": -0.5,
+     "change_pct": -0.13,
      "closes": [
       176641.0,
       176011.0,
       173825.0,
       173714.0,
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -236,7 +239,7 @@
       167875.0,
       167491.0,
       167101.0,
-      166271.9844
+      166886.4844
      ]
     }
    ],
@@ -244,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-14T19:43:49+00:00",
+   "updated_at": "2026-08-14T20:24:46+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -255,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-14T19:43:53+00:00",
+   "updated_at": "2026-08-14T20:24:52+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -416,13 +419,49 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-14T19:43:56+00:00",
+   "updated_at": "2026-08-14T20:24:55+00:00",
    "items": [
+    {
+     "title": "Safra do Paraná: soja avança, milho perde 750 mil toneladas e trigo surpreende no campo - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaEFrblNtNjhvcmgzSjdjNW5sbnZoQmNQZk1NNXlWeHlVZHpWRFhLLVBBWVJGZURVdmVwOW00VDJ0OVBTbXlSZHltS2VXWUdUNG1COHQ3eWhBLWR0S05zeW1YdWlpN1ZiZUF4bEVwV0hWLWtBRE1rdEJYSWVHVmFBcldjYk9talFsWkRQTlJUa1NDQndQbDdmZTV0Znh0U0NEazFxZnVzdEdmVDJPSDNTUHk3RUJmYXlDUmpRcGwtRnVVelU?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T20:19:07+00:00"
+    },
+    {
+     "title": "Safra do Paraná: soja avança, milho perde 750 mil toneladas e trigo surpreende no campo",
+     "link": "https://www.canalrural.com.br/diversos/safra-do-parana-soja-avanca-milho-perde-750-mil-toneladas-e-trigo-surpreende-no-campo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T20:19:07+00:00"
+    },
+    {
+     "title": "Soja avança em Chicago com expectativa de novas compras da China - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUmxNOGlmMkw1cFBmV3FiZnZHb0RtbDBaMVJNMWJqVWhGaFloRklkNERlOUcyTkdsSDg5TkhhZmZSZXlLUi13VmRJOVVCbzFNWGQ1WU5wY0ZMRW9GR2dJMWxtcVowX2ZQQjRSY3NaVHR4aTNvLWZaZWQtSVdETndqZERrYTBXc0JNaFdRb1pHTFVwWC13c2FuZER2TGJydk9X?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-08-14T19:58:00+00:00"
+    },
+    {
+     "title": "Preços da soja seguem fortes e aceleram vendas no Brasil - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUldMeU1GM2ZudUZVUDVrOFNsMVBSX2oyc1diVEtXR2NWNGJoUXJpS0w5SkY4V0M0SmJaTm5sVjBtM1VEbmNfYTU5ZjlMOENXVnpUNWZyRFJLSlExSmFrVUhWSGtNX0VKQkhKZ2dLaDRxcGt2RGNoQmZUUjdrWV9QN3hBYXNGY21fNTBDTXpscFc2bEZKczN6N21Zb3VTUGVWaFllLUM4MUF5a2FBZ1FIY0ItMUtoOVRlX2c?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-14T19:48:00+00:00"
+    },
+    {
+     "title": "Petróleo sobe com tensão no Oriente Médio e impasse entre EUA e Irã",
+     "link": "https://www.canalrural.com.br/economia/petroleo-sobe-com-tensao-no-oriente-medio-e-impasse-entre-eua-e-ira/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T19:27:20+00:00"
+    },
     {
      "title": "3tentos tem queda de 86,3% no lucro ajustado do 2º trimestre",
      "link": "https://www.canalrural.com.br/economia/3tentos-tem-queda-de-863-no-lucro-ajustado-do-2o-trimestre/",
      "source": "Canal Rural",
      "published_at": "2026-08-14T19:19:03+00:00"
+    },
+    {
+     "title": "Alcolumbre destrava PEC que trata do fim da escala 6×1",
+     "link": "https://www.canalrural.com.br/politica/alcolumbre-destrava-pec-que-trata-do-fim-da-escala-6x1/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T19:02:00+00:00"
     },
     {
      "title": "Lucro do CTC cai 2% no 1º trimestre da safra 2026/27",
@@ -443,7 +482,7 @@
      "published_at": "2026-08-14T18:14:22+00:00"
     },
     {
-     "title": "Expo Rio Preto reúne raças e destaca pecuária leiteira",
+     "title": "Expo Rio Preto reúne raças leiteiras e destaca pecuária leiteira",
      "link": "https://www.canalrural.com.br/videos/expo-rio-preto-reune-racas-e-destaca-pecuaria-leiteira/",
      "source": "Canal Rural",
      "published_at": "2026-08-14T18:05:37+00:00"
@@ -467,24 +506,6 @@
      "published_at": "2026-08-14T17:16:04+00:00"
     },
     {
-     "title": "Congresso ANDAV 2026 discute crédito e tecnologia no agronegócio",
-     "link": "https://www.canalrural.com.br/videos/congresso-andav-2026-discute-credito-e-tecnologia-no-agronegocio/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T17:15:51+00:00"
-    },
-    {
-     "title": "Governo brasileiro inicia análise de reciprocidade contra EUA",
-     "link": "https://www.canalrural.com.br/videos/governo-brasileiro-inicia-analise-de-reciprocidade-contra-eua/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T17:15:38+00:00"
-    },
-    {
-     "title": "Finais de semana com temporais no sul e calor intenso no restante do Brasil",
-     "link": "https://www.canalrural.com.br/videos/finais-de-semana-com-temporais-no-sul-e-calor-intenso-no-restante-do-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T17:15:26+00:00"
-    },
-    {
      "title": "STF reconhece constitucionalidade da Moratória da Soja, mas mantém restrições a incentivos fisc - WWF Brasil",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRlM4anFYZ1dYc3o1NnpKYTV3SmtEQWdJZTJFRzVZTm11NnFieUxWZzZhQklTWVlsU3UtRzZZeGw1WG1vbTBDaVljdkdDRDA0aUg3LW12SDhCTFEtV01TUFBVTTRDMy0xUHFBYXFqREhMM3ZKLUtRUHhOLWJLYmpCdk1peGw5Nk5UX002RmdvOV9rcXFWcnRJRGFVV2lnY0VVeUEyVjZEVFhjX0NydXdlcWk4cnZQblJ4OU1hb0psTkZfVW41SGc?oc=5",
      "source": "WWF Brasil",
@@ -501,18 +522,6 @@
      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNjF4dlM2VGJzWlE1Z250ejUtMFZNbHI2T1FmMk5ZbFQ1dy1kTUU4X3h2NkhYNnBCdGRQc0xXcjY4RFp0cl90VlhfVGppVlAwRTUxRF9mT21NMnRFVWE3WmcyNm93ejZfOUEwbTByVWtvYk5UYWE5Y3RoMzZyOGdvb3BGdEhqMllyYW1iRE9oZFZlZ0RxSWo1bzRENy1XZThEQkl3V3lQZE1kVlo0RGdlNlFWY2VneURjUWJYWEdOaVlIbDNOR0tTMVh6ZG5kODZJbXfSAeABQVVfeXFMUEdBUTZBVWlaVkExcDRNU21yYm9zUkJZaXNKY2dJVExmSVY5dWxkLTFKRXExTzBKWjV6NUpuYVM0M2xYUW5ZZlVER1NCa0lBNnZHc2s2Z3BNQ2s1ZlR6RHRZN1U4NVRYTXVDNGJBNlBnempuLVhYUFlEOVc5ZmVOSG00QmFDaFpfMkFvdFNGcFVlZWtNMEFGY2lOSS1ob2hPemtoZ05OVHhhZGFDNWdWeXVoVXhGWW5yT2I1aEpmUFRidzRxZnVKR0sxamRWenlzQ0dDZDZuU3ducFFuaU5FeEQ?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-08-14T14:33:15+00:00"
-    },
-    {
-     "title": "Soja fecha em alta após relatório do USDA - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLXhmRXF6dHd5cWFmZGhMOVhtSlg4ZTA0Q2FRTGlKUXVVbUlHNVk2eDRGZG80QlV0TlJGRng2bllIcUVVeGN6WWlXNk12QlBZNWVuT1JyZWhpRzdwb0ZXbExTRFpUbmp4VlBuNEhjdXpuUWwyZEZ2aXRxaW1FeWdqWE5lYjA3N2lzNG5uOEtBc3J2eF9Q?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-14T13:33:00+00:00"
-    },
-    {
-     "title": "Decisão sobre soja reforça peso regulatório na cadeia de proteína - Agrimidia",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbnpmdk9GYXpvRFJrb3NscDZ2YWRaQmFJRG80Z1hRZmpJQXlBVG0xNEMxeG83LVo4WDk3bmNoR2pibzJxX0FyN0JoZ0prclJ0b3ZRektUQm1NTFFCdU1XelVsMVl1M1pFRDlqaUZVUENZVVppQWxfMWRGclA3blBSbDF1QXM2U1dUTkViU3JTNW94a2J6a3lOcGd3anU2dlBqT0VMRVdwZlV4U05mRXFETDBwbFd1bVBUOGVWYVM3QnI3MXdN?oc=5",
-     "source": "Agrimidia",
-     "published_at": "2026-08-14T12:34:29+00:00"
     },
     {
      "title": "Sinograin Leiloará 360 Mil Toneladas de Soja para Abrir Espaço À Produção dos EUA - Forbes Brasil",
@@ -579,12 +588,6 @@
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
      "source": "stf noticias",
      "published_at": "2026-08-12T22:52:00+00:00"
-    },
-    {
-     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-08-12T19:18:51+00:00"
     },
     {
      "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - Migalhas",

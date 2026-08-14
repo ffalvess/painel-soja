@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-14T11:39:42+00:00",
+ "generated_at": "2026-08-14T12:51:34+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-14T11:39:36+00:00",
+   "updated_at": "2026-08-14T12:51:27+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1188.25,
+     "price": 1188.0,
      "prev_close": 1168.25,
-     "change_pct": 1.71,
+     "change_pct": 1.69,
      "closes": [
       1207.25,
       1202.25,
@@ -35,16 +35,16 @@
       1147.5,
       1164.75,
       1168.25,
-      1188.25
+      1188.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 476.5,
+     "price": 477.0,
      "prev_close": 448.0,
-     "change_pct": 6.36,
+     "change_pct": 6.47,
      "closes": [
       433.75,
       447.5,
@@ -69,16 +69,16 @@
       436.75,
       457.0,
       448.0,
-      476.5
+      477.0
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 316.9,
+     "price": 317.7,
      "prev_close": 309.9,
-     "change_pct": 2.26,
+     "change_pct": 2.52,
      "closes": [
       319.6,
       318.9,
@@ -103,16 +103,16 @@
       303.4,
       311.0,
       309.9,
-      316.9
+      317.7
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 68.1,
+     "price": 68.37,
      "prev_close": 68.67,
-     "change_pct": -0.83,
+     "change_pct": -0.44,
      "closes": [
       73.04,
       72.92,
@@ -137,16 +137,16 @@
       68.45,
       68.96,
       68.67,
-      68.1
+      68.37
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 682.25,
+     "price": 677.5,
      "prev_close": 652.75,
-     "change_pct": 4.52,
+     "change_pct": 3.79,
      "closes": [
       631.25,
       677.5,
@@ -171,16 +171,16 @@
       630.25,
       652.75,
       652.75,
-      682.25
+      677.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 87.24,
+     "price": 87.23,
      "prev_close": 87.07,
-     "change_pct": 0.2,
+     "change_pct": 0.18,
      "closes": [
       84.73,
       84.95,
@@ -205,7 +205,7 @@
       88.91,
       88.98,
       87.07,
-      87.24
+      87.23
      ]
     },
     {
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-14T11:39:36+00:00",
+   "updated_at": "2026-08-14T12:51:27+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-14T11:39:39+00:00",
+   "updated_at": "2026-08-14T12:51:31+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -281,22 +281,22 @@
       0.0
      ],
      "tmax": [
-      35.6,
-      36.5,
-      37.3,
-      37.5,
-      36.8,
+      35.5,
+      36.3,
       37.2,
+      37.2,
+      36.9,
+      37.0,
       36.9
      ],
      "tmin": [
       20.7,
-      22.1,
       21.7,
       21.6,
-      23.3,
-      22.7,
-      24.0
+      22.4,
+      22.3,
+      22.5,
+      24.2
      ]
     },
     {
@@ -320,22 +320,22 @@
       0.0
      ],
      "tmax": [
-      34.9,
-      35.4,
-      36.4,
-      36.7,
+      34.6,
+      35.3,
       36.2,
+      36.3,
+      36.1,
       36.3,
       36.1
      ],
      "tmin": [
-      21.4,
-      21.8,
+      21.3,
       21.1,
-      21.4,
-      21.6,
-      22.9,
-      23.7
+      21.3,
+      21.3,
+      21.9,
+      22.1,
+      23.8
      ]
     },
     {
@@ -360,21 +360,21 @@
      ],
      "tmax": [
       33.4,
-      33.8,
-      34.4,
       33.6,
-      33.1,
-      33.1,
+      34.2,
+      33.4,
+      32.9,
+      33.2,
       34.7
      ],
      "tmin": [
-      19.8,
+      19.2,
+      20.3,
       20.4,
-      20.6,
-      21.9,
-      22.3,
-      22.2,
-      22.4
+      21.8,
+      22.1,
+      21.2,
+      22.2
      ]
     },
     {
@@ -389,7 +389,7 @@
       "2026-08-20"
      ],
      "precip": [
-      0.4,
+      0.2,
       0.0,
       0.0,
       0.0,
@@ -398,29 +398,77 @@
       0.0
      ],
      "tmax": [
-      31.1,
-      33.7,
-      35.5,
-      36.9,
-      37.2,
-      36.8,
+      31.0,
+      33.8,
+      35.6,
+      36.5,
+      36.4,
+      36.4,
       25.9
      ],
      "tmin": [
-      18.4,
-      18.9,
-      20.2,
-      20.5,
-      22.4,
-      22.8,
+      18.3,
+      19.6,
+      20.9,
+      20.8,
+      21.1,
+      22.3,
       17.1
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-14T11:39:42+00:00",
+   "updated_at": "2026-08-14T12:51:34+00:00",
    "items": [
+    {
+     "title": "Decisão sobre soja reforça peso regulatório na cadeia de proteína - Agrimidia",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbnpmdk9GYXpvRFJrb3NscDZ2YWRaQmFJRG80Z1hRZmpJQXlBVG0xNEMxeG83LVo4WDk3bmNoR2pibzJxX0FyN0JoZ0prclJ0b3ZRektUQm1NTFFCdU1XelVsMVl1M1pFRDlqaUZVUENZVVppQWxfMWRGclA3blBSbDF1QXM2U1dUTkViU3JTNW94a2J6a3lOcGd3anU2dlBqT0VMRVdwZlV4U05mRXFETDBwbFd1bVBUOGVWYVM3QnI3MXdN?oc=5",
+     "source": "Agrimidia",
+     "published_at": "2026-08-14T12:34:29+00:00"
+    },
+    {
+     "title": "Mercado do boi gordo recupera fôlego na primeira quinzena de agosto e arroba chega a R$ 355",
+     "link": "https://www.canalrural.com.br/pecuaria/mercado-do-boi-gordo-recupera-folego-na-primeira-quinzena-de-agosto-e-arroba-chega-a-r-355/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T12:34:03+00:00"
+    },
+    {
+     "title": "Lei da Reciprocidade: Brasil tem a arma em mãos, mas ainda não puxou o gatilho",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/lei-da-reciprocidade-brasil-tem-a-arma-em-maos-mas-ainda-nao-puxou-o-gatilho/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T12:21:41+00:00"
+    },
+    {
+     "title": "Inmet coloca 10 estados e o DF em alerta para baixa umidade",
+     "link": "https://www.canalrural.com.br/diversos/inmet-coloca-10-estados-e-o-df-em-alerta-para-baixa-umidade/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T12:09:10+00:00"
+    },
+    {
+     "title": "Tarifaço faz exportações brasileiras aos EUA despencarem e atinge produtos do agro",
+     "link": "https://www.canalrural.com.br/economia/tarifaco-faz-exportacoes-brasileiras-aos-eua-despencarem-e-atinge-produtos-do-agro/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T12:03:21+00:00"
+    },
+    {
+     "title": "Brasil abre processo de reciprocidade contra tarifaço dos EUA",
+     "link": "https://www.canalrural.com.br/politica/brasil-abre-processo-de-reciprocidade-contra-tarifaco-dos-eua/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T11:45:36+00:00"
+    },
+    {
+     "title": "Conab participa de reunião regional sobre segurança alimentar e preços dos alimentos",
+     "link": "https://www.canalrural.com.br/economia/conab-participa-de-reuniao-regional-sobre-seguranca-alimentar-e-precos-dos-alimentos/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T11:44:25+00:00"
+    },
+    {
+     "title": "FGV aponta maior concentração das exportações brasileiras em 2026",
+     "link": "https://www.canalrural.com.br/economia/fgv-aponta-maior-concentracao-das-exportacoes-brasileiras-em-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T11:42:37+00:00"
+    },
     {
      "title": "Frente fria provoca chuva forte e calorão atinge parte do país; veja a previsão do tempo para o fim de semana",
      "link": "https://www.canalrural.com.br/previsao-do-tempo/frente-fria-provoca-chuva-forte-e-calorao-atinge-parte-do-pais-veja-a-previsao-do-tempo-para-o-fim-de-semana/",
@@ -446,9 +494,9 @@
      "published_at": "2026-08-14T10:48:19"
     },
     {
-     "title": "Soja sobe em Chicago nesta 6ª, mas mercado aind se ajusta após semana volátil - Notícias Agrícolas",
+     "title": "Soja sobe em Chicago nesta 6ª, mas mercado aind se ajusta após semana volátil - noticiasagricolas.com.br",
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS3YyNFZZVlJOVHBpMjR2d0IxVWpTMVQ1UWtSNFg0Z3poUFQ0dFpmRXQ5N3VTMjdwdUpHX0JOSEl4OU9TQWR5bXp3bW5ZVi1RQnVfVFFxR0dRRWlaNE9vaS0zM2dzbVRIdmpvNVRjdlF3OVZQTVJUM0pUV3VDOHBQakc3WGZRZkxPRjhqNUlGeTVZRW1HYmV3VnhENUVYeVlKOFdUY3pHQVItRDg5bjNTR0ZvdzVjYWdNelV6YW1UaVpSSklCQXZBU0pUWmxtR3hvMHN4TdIB2gFBVV95cUxNb1pKRW9kaWpxcXJ3cnVZbXBac1B3SGo2cE10eTdPLXRILTBZWVVRbHJicTR2YW01WWYtVG1WYjhSWEFaTzhjWE1UUTFWMEJ3ZzIzMC1jUHRLY0d2eEVpSUlXbjluc3h2bmUtcDZLWk00NHNEZERWZEo0QTdBWDJSSDZGV2Q3MDdvcEg3ZmpQdXVERXAzZzF0eWZxUjdqOVVqYURNUVlueVM5WmVxLWhUOHprMW1DQ1RwLUI0TC1xT2tDTmRjSU1FTXdXaUtlTUNVbDZRNHVlLUVkZw?oc=5",
-     "source": "Notícias Agrícolas",
+     "source": "noticiasagricolas.com.br",
      "published_at": "2026-08-14T10:42:47+00:00"
     },
     {
@@ -500,58 +548,10 @@
      "published_at": "2026-08-14T05:15:00+00:00"
     },
     {
-     "title": "IFI considera factível espaço orçamentário de R$ 10 bilhões com PLP dos Combustíveis",
-     "link": "https://www.canalrural.com.br/economia/ifi-considera-factivel-espaco-orcamentario-de-r-10-bilhoes-com-plp-dos-combustiveis/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T01:24:31+00:00"
-    },
-    {
-     "title": "Congresso Andav 2026 discute desafios do agronegócio brasileiro",
-     "link": "https://www.canalrural.com.br/videos/congresso-andav-2026-discute-desafios-do-agronegocio-brasileiro/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T01:05:21+00:00"
-    },
-    {
-     "title": "De resíduo a combustível: JBS produz quase 1 bilhão de litros de biodiesel por ano",
-     "link": "https://www.canalrural.com.br/sustentabilidade/de-residuo-a-combustivel-jbs-produz-quase-1-bilhao-de-litros-de-biodiesel-por-ano/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T00:42:51+00:00"
-    },
-    {
-     "title": "Congresso aprova redução de impostos sobre combustíveis e biocombustíveis",
-     "link": "https://www.canalrural.com.br/videos/congresso-aprova-reducao-de-impostos-sobre-combustiveis-e-biocombustiveis/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T00:15:58+00:00"
-    },
-    {
      "title": "STF mantém constitucionalidade da moratória da soja e leis estaduais - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdHZ1T2I2SWdqSDZ2UEtPVi00Rl9KTDVIdHZBaV93anJLTjhvX2o1c0hxUmRvR3dpRk92SFJXRlNMNTd3N0l3TmpBUE45VzJWckx3YUtnM3ZvU1AyZkMxNEVNUzd3Yl9lWGNvNGNibjd4czViUUkwa01SZ0EyS3JsNUhzWWR0OGNYZDdsOGR1TlowTjVKUzhFV2FmakR4dHRFVnM5R2tla0dBdw?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-14T00:15:46+00:00"
-    },
-    {
-     "title": "STF mantém constitucionalidade da moratória da soja e leis estaduais",
-     "link": "https://www.canalrural.com.br/videos/stf-mantem-constitucionalidade-da-moratoria-da-soja-e-leis-estaduais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T00:15:46+00:00"
-    },
-    {
-     "title": "Frio e chuva devem mudar o tempo em algumas regiões do país",
-     "link": "https://www.canalrural.com.br/videos/frio-e-chuva-devem-mudar-o-tempo-em-algumas-regioes-do-pais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T00:15:35+00:00"
-    },
-    {
-     "title": "Conab eleva projeção da safra de grãos 25/26 com recorde de algodão",
-     "link": "https://www.canalrural.com.br/videos/conab-eleva-projecao-da-safra-de-graos-25-26-com-recorde-de-algodao/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T00:15:22+00:00"
-    },
-    {
-     "title": "As ambiguidades no sinal verde à moratória da soja - nexojornal.com.br",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeFJSby1LVHp1blREWHF3ZlRTdFctRXgxaXNCZ0hrWklJcEEydlBKbmI5MG94UTBBNFM2OVhtbEZpRXNneWV5SzZHQUxlbHRDTjRiNDdYZG9VdHNiTC1uVU15MlNfREhacGVnX08ycFQzVDNlMkhsOEdqREpEcjI1VWpKbE9OMEM2b3A5empCVHJsMjNBcmIteGtR?oc=5",
-     "source": "nexojornal.com.br",
-     "published_at": "2026-08-13T17:04:38+00:00"
     },
     {
      "title": "Internacional oferece trator à Justiça como garantia por dívida com empresário; entenda",
@@ -578,15 +578,15 @@
      "published_at": "2026-08-12T22:52:00+00:00"
     },
     {
-     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",
+     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - cnnbrasil.com.br",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
-     "source": "CNN Brasil",
+     "source": "cnnbrasil.com.br",
      "published_at": "2026-08-12T19:18:51+00:00"
     },
     {
-     "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - Migalhas",
+     "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - migalhas.com.br",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSl95WnkyNFJLdG9WLWoyX1hKTnRFQ1VBem1UX19haktzTTRWbmxLS1lUWW9vYTFNREdDazBHXzFFM1hyZFhnSmxhdkhNUm0tRHJINmx1c0lGakRaVUFsSmRKRGhjcnh4cWwtMmJtZVFMV3dRX2RxbWJvbG94NGlhSWdZZWRUZ1Y4TURWSkxNSXdtTEEzNnplTTd0d3FvQmdSYWJrekRlLTlsU2hqaHM4Q0tB?oc=5",
-     "source": "Migalhas",
+     "source": "migalhas.com.br",
      "published_at": "2026-08-12T17:44:48+00:00"
     },
     {

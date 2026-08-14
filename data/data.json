@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-14T20:24:55+00:00",
+ "generated_at": "2026-08-14T21:19:30+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-14T20:24:45+00:00",
+   "updated_at": "2026-08-14T21:19:17+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -178,9 +178,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.58,
+     "price": 88.59,
      "prev_close": 87.07,
-     "change_pct": 1.73,
+     "change_pct": 1.75,
      "closes": [
       84.73,
       84.95,
@@ -205,16 +205,16 @@
       88.91,
       88.98,
       87.07,
-      88.58
+      88.59
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 166886.48,
+     "price": 166934.2,
      "prev_close": 167101.0,
-     "change_pct": -0.13,
+     "change_pct": -0.1,
      "closes": [
       176641.0,
       176011.0,
@@ -239,7 +239,7 @@
       167875.0,
       167491.0,
       167101.0,
-      166886.4844
+      166934.2031
      ]
     }
    ],
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-14T20:24:52+00:00",
+   "updated_at": "2026-08-14T21:19:27+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,13 +419,31 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-14T20:24:55+00:00",
+   "updated_at": "2026-08-14T21:19:30+00:00",
    "items": [
     {
-     "title": "Safra do Paraná: soja avança, milho perde 750 mil toneladas e trigo surpreende no campo - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaEFrblNtNjhvcmgzSjdjNW5sbnZoQmNQZk1NNXlWeHlVZHpWRFhLLVBBWVJGZURVdmVwOW00VDJ0OVBTbXlSZHltS2VXWUdUNG1COHQ3eWhBLWR0S05zeW1YdWlpN1ZiZUF4bEVwV0hWLWtBRE1rdEJYSWVHVmFBcldjYk9talFsWkRQTlJUa1NDQndQbDdmZTV0Znh0U0NEazFxZnVzdEdmVDJPSDNTUHk3RUJmYXlDUmpRcGwtRnVVelU?oc=5",
+     "title": "Calorão: máximas podem chegar a 40 °C com risco para focos de incêndio; veja quando e onde",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/calorao-maximas-podem-chegar-a-40-c-com-risco-para-focos-de-incendio-veja-quando-e-onde/",
      "source": "Canal Rural",
-     "published_at": "2026-08-14T20:19:07+00:00"
+     "published_at": "2026-08-14T20:52:24+00:00"
+    },
+    {
+     "title": "Caramuru eleva lucro no 2º trimestre, mas margens recuam em soja e biodiesel",
+     "link": "https://www.canalrural.com.br/economia/caramuru-eleva-lucro-no-2o-trimestre-mas-margens-recuam-em-soja-e-biodiesel/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T20:48:31+00:00"
+    },
+    {
+     "title": "Mercado da soja: cotações sobem com dólar acima de R$ 5,20 e negócios ganham ritmo - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUENIbEhYQVljb2pCci1wb3FoRmQ4U1NCNV84bU1VNU1WbEVzMnJOdEZPT25zWTBBZzZvSlZ3TEZkYXBjQW9kdk5kc1kzTnpZWHNZb05CeHpteGI1UDQ5Tzd4eUdrUnRmXzdzT2pDYjJYd2hzbk9Qd3hRSWtTWTFSa1NDVUFJaDlqaUR4RjFjTWJOajl4SzRuYlZvWXJ2MWp5SnF2Ql82UnQ5RGdHa2xMWjNpSDh3aU5KSDByVGk5RQ?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T20:42:15+00:00"
+    },
+    {
+     "title": "Mercado da soja: cotações sobem com dólar acima de R$ 5,20 e negócios ganham ritmo",
+     "link": "https://www.canalrural.com.br/agricultura/mercado-da-soja-cotacoes-sobem-com-dolar-acima-de-r-520-e-negocios-ganham-ritmo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T20:42:15+00:00"
     },
     {
      "title": "Safra do Paraná: soja avança, milho perde 750 mil toneladas e trigo surpreende no campo",
@@ -488,40 +506,22 @@
      "published_at": "2026-08-14T18:05:37+00:00"
     },
     {
-     "title": "Bioinsumos impulsionam competitividade da fruticultura no Brasil",
-     "link": "https://www.canalrural.com.br/videos/bioinsumos-impulsionam-competitividade-da-fruticultura-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T18:05:27+00:00"
-    },
-    {
-     "title": "Aprovações do BNDES em Mato Grosso somam R$ 7,64 bilhões no semestre",
-     "link": "https://www.canalrural.com.br/economia/aprovacoes-do-bndes-em-mato-grosso-somam-r-764-bilhoes-no-semestre/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T17:33:19+00:00"
-    },
-    {
-     "title": "Vinhos chilenos apostam em rótulos leves e sustentáveis no Brasil",
-     "link": "https://www.canalrural.com.br/videos/vinhos-chilenos-apostam-em-rotulos-leves-e-sustentaveis-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T17:16:04+00:00"
-    },
-    {
      "title": "STF reconhece constitucionalidade da Moratória da Soja, mas mantém restrições a incentivos fisc - WWF Brasil",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRlM4anFYZ1dYc3o1NnpKYTV3SmtEQWdJZTJFRzVZTm11NnFieUxWZzZhQklTWVlsU3UtRzZZeGw1WG1vbTBDaVljdkdDRDA0aUg3LW12SDhCTFEtV01TUFBVTTRDMy0xUHFBYXFqREhMM3ZKLUtRUHhOLWJLYmpCdk1peGw5Nk5UX002RmdvOV9rcXFWcnRJRGFVV2lnY0VVeUEyVjZEVFhjX0NydXdlcWk4cnZQblJ4OU1hb0psTkZfVW41SGc?oc=5",
      "source": "WWF Brasil",
      "published_at": "2026-08-14T16:06:30+00:00"
     },
     {
-     "title": "Exportadores dos EUA relatam venda de 136 mil t de soja à China - UOL Notícias",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdVZULXZTNEZ3UkhpNm5hOTdjSlp2ZTBxLXRKcW9fYlV1YjVRM2hFX2d3OEEyYnYzWjc2c25mLUthel9kUDFRUmV6RGhKYTByZHJLTG1KeS1UVjlkZnNhU0pVVk9vWGk1ZzNqMU1LMEQ2UEk5eXR0V2F2VkZ5VkJtYTBlT3ByVm14VHkzUWVtTEhLekZlOXVWdHBZaDh5ZWpOak9SYnoxcUl3dmpBN0NCNnBRMVk4ZzliT0ROMGhrV2NSSVNrOXBaVjRzQnp0QXRMUzN1Sw?oc=5",
-     "source": "UOL Notícias",
-     "published_at": "2026-08-14T15:25:00+00:00"
-    },
-    {
      "title": "Soja avança em Chicago com expectativa de novos embarques dos EUA para China - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNjF4dlM2VGJzWlE1Z250ejUtMFZNbHI2T1FmMk5ZbFQ1dy1kTUU4X3h2NkhYNnBCdGRQc0xXcjY4RFp0cl90VlhfVGppVlAwRTUxRF9mT21NMnRFVWE3WmcyNm93ejZfOUEwbTByVWtvYk5UYWE5Y3RoMzZyOGdvb3BGdEhqMllyYW1iRE9oZFZlZ0RxSWo1bzRENy1XZThEQkl3V3lQZE1kVlo0RGdlNlFWY2VneURjUWJYWEdOaVlIbDNOR0tTMVh6ZG5kODZJbXfSAeABQVVfeXFMUEdBUTZBVWlaVkExcDRNU21yYm9zUkJZaXNKY2dJVExmSVY5dWxkLTFKRXExTzBKWjV6NUpuYVM0M2xYUW5ZZlVER1NCa0lBNnZHc2s2Z3BNQ2s1ZlR6RHRZN1U4NVRYTXVDNGJBNlBnempuLVhYUFlEOVc5ZmVOSG00QmFDaFpfMkFvdFNGcFVlZWtNMEFGY2lOSS1ob2hPemtoZ05OVHhhZGFDNWdWeXVoVXhGWW5yT2I1aEpmUFRidzRxZnVKR0sxamRWenlzQ0dDZDZuU3ducFFuaU5FeEQ?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-08-14T14:33:15+00:00"
+    },
+    {
+     "title": "Soja fecha em alta após relatório do USDA - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLXhmRXF6dHd5cWFmZGhMOVhtSlg4ZTA0Q2FRTGlKUXVVbUlHNVk2eDRGZG80QlV0TlJGRng2bllIcUVVeGN6WWlXNk12QlBZNWVuT1JyZWhpRzdwb0ZXbExTRFpUbmp4VlBuNEhjdXpuUWwyZEZ2aXRxaW1FeWdqWE5lYjA3N2lzNG5uOEtBc3J2eF9Q?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-14T13:33:00+00:00"
     },
     {
      "title": "Sinograin Leiloará 360 Mil Toneladas de Soja para Abrir Espaço À Produção dos EUA - Forbes Brasil",
@@ -611,6 +611,10 @@
   {
    "section": "fx",
    "error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
+  },
+  {
+   "section": "rates",
+   "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json"
   },
   {
    "section": "cepea",

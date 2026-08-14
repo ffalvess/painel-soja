@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-14T16:48:45+00:00",
+ "generated_at": "2026-08-14T17:47:04+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-14T16:48:38+00:00",
+   "updated_at": "2026-08-14T17:46:49+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1185.0,
+     "price": 1185.75,
      "prev_close": 1168.25,
-     "change_pct": 1.43,
+     "change_pct": 1.5,
      "closes": [
       1207.25,
       1202.25,
@@ -35,16 +35,16 @@
       1147.5,
       1164.75,
       1168.25,
-      1185.0
+      1185.75
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 480.5,
+     "price": 480.25,
      "prev_close": 448.0,
-     "change_pct": 7.25,
+     "change_pct": 7.2,
      "closes": [
       433.75,
       447.5,
@@ -69,16 +69,16 @@
       436.75,
       457.0,
       448.0,
-      480.5
+      480.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 314.4,
+     "price": 314.8,
      "prev_close": 309.9,
-     "change_pct": 1.45,
+     "change_pct": 1.58,
      "closes": [
       319.6,
       318.9,
@@ -103,16 +103,16 @@
       303.4,
       311.0,
       309.9,
-      314.4
+      314.8
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 68.61,
+     "price": 68.67,
      "prev_close": 68.67,
-     "change_pct": -0.09,
+     "change_pct": 0.0,
      "closes": [
       73.04,
       72.92,
@@ -137,16 +137,16 @@
       68.45,
       68.96,
       68.67,
-      68.61
+      68.67
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 688.75,
+     "price": 686.0,
      "prev_close": 652.75,
-     "change_pct": 5.52,
+     "change_pct": 5.09,
      "closes": [
       631.25,
       677.5,
@@ -171,16 +171,16 @@
       630.25,
       652.75,
       652.75,
-      688.75
+      686.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 87.96,
+     "price": 88.35,
      "prev_close": 87.07,
-     "change_pct": 1.02,
+     "change_pct": 1.47,
      "closes": [
       84.73,
       84.95,
@@ -205,16 +205,16 @@
       88.91,
       88.98,
       87.07,
-      87.96
+      88.35
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 165554.77,
+     "price": 164962.19,
      "prev_close": 167101.0,
-     "change_pct": -0.93,
+     "change_pct": -1.28,
      "closes": [
       176641.0,
       176011.0,
@@ -239,7 +239,7 @@
       167875.0,
       167491.0,
       167101.0,
-      165554.7656
+      164962.1875
      ]
     }
    ],
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-14T16:48:38+00:00",
+   "updated_at": "2026-08-14T17:46:49+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-14T16:48:42+00:00",
+   "updated_at": "2026-08-14T17:46:54+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,13 +419,55 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-14T16:48:45+00:00",
+   "updated_at": "2026-08-14T17:47:04+00:00",
    "items": [
     {
-     "title": "STF reconhece constitucionalidade da Moratória da Soja, mas mantém restrições a incentivos fisc - WWF Brasil",
-     "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPRTIwS0dlNF9MX0N4MHFWQ21WOHlzdFhMYkRnaDRHNzFrS3N4YkNRODZLZjFONDlwbjlkdXlwWVNmcUdORWJtUEotUllGNHNkelhvVFRLekF3djdrMFdaN2p1MzBRTzFMWW5LOWtZdlJROVcwdktkcHBjRkpTdTFKN0tzMGw1b3M3X25nbXZrc09GWmtWeWhrSzBkMXc5b1FCeEJUcl96ekN3ZTdldUE4RDhBWkRWMHUtc1YxeEZTT2VLVG8yQnJkRG1qMDloY0h0V0U0TzN4M2tNOEFWbEVWSllBbTQwOEszbW44ZkJJcV9iZXViMUt3MGVJNG9wMWM5bkQ4ekVn?oc=5",
-     "source": "WWF Brasil",
-     "published_at": "2026-08-14T16:06:39+00:00"
+     "title": "Vinhos chilenos apostam em rótulos leves e sustentáveis no Brasil",
+     "link": "https://www.canalrural.com.br/videos/vinhos-chilenos-apostam-em-rotulos-leves-e-sustentaveis-no-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T17:16:04+00:00"
+    },
+    {
+     "title": "Congresso ANDAV 2026 discute crédito e tecnologia no agronegócio",
+     "link": "https://www.canalrural.com.br/videos/congresso-andav-2026-discute-credito-e-tecnologia-no-agronegocio/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T17:15:51+00:00"
+    },
+    {
+     "title": "Governo brasileiro inicia análise de reciprocidade contra EUA",
+     "link": "https://www.canalrural.com.br/videos/governo-brasileiro-inicia-analise-de-reciprocidade-contra-eua/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T17:15:38+00:00"
+    },
+    {
+     "title": "Finais de semana com temporais no sul e calor intenso no restante do Brasil",
+     "link": "https://www.canalrural.com.br/videos/finais-de-semana-com-temporais-no-sul-e-calor-intenso-no-restante-do-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T17:15:26+00:00"
+    },
+    {
+     "title": "Pressão pela PEC 6×1 enfrenta desafios antes das eleições",
+     "link": "https://www.canalrural.com.br/videos/pressao-pela-pec-6x1-enfrenta-desafios-antes-das-eleicoes/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T17:15:13+00:00"
+    },
+    {
+     "title": "BNDES eleva aprovações de crédito no Tocantins para R$ 1,55 bilhão no semestre",
+     "link": "https://www.canalrural.com.br/economia/bndes-eleva-aprovacoes-de-credito-no-tocantins-para-r-155-bilhao-no-semestre/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T17:01:33+00:00"
+    },
+    {
+     "title": "BNDES eleva aprovações de crédito em Roraima para R$ 236 milhões no semestre",
+     "link": "https://www.canalrural.com.br/economia/bndes-eleva-aprovacoes-de-credito-em-roraima-para-r-236-milhoes-no-semestre/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T16:51:30+00:00"
+    },
+    {
+     "title": "Lavouras de trigo mantêm boas condições, mas excesso de chuva ameaça produtividade",
+     "link": "https://www.canalrural.com.br/agricultura/lavouras-de-trigo-mantem-boas-condicoes-mas-excesso-de-chuva-ameaca-produtividade/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T16:33:16+00:00"
     },
     {
      "title": "BNDES eleva aprovações de crédito em Rondônia para R$ 827,8 milhões no semestre",
@@ -440,106 +482,16 @@
      "published_at": "2026-08-14T15:56:23+00:00"
     },
     {
-     "title": "Exportadores dos EUA relatam venda de 136 mil t de soja à China - UOL Notícias",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdVZULXZTNEZ3UkhpNm5hOTdjSlp2ZTBxLXRKcW9fYlV1YjVRM2hFX2d3OEEyYnYzWjc2c25mLUthel9kUDFRUmV6RGhKYTByZHJLTG1KeS1UVjlkZnNhU0pVVk9vWGk1ZzNqMU1LMEQ2UEk5eXR0V2F2VkZ5VkJtYTBlT3ByVm14VHkzUWVtTEhLekZlOXVWdHBZaDh5ZWpOak9SYnoxcUl3dmpBN0NCNnBRMVk4ZzliT0ROMGhrV2NSSVNrOXBaVjRzQnp0QXRMUzN1Sw?oc=5",
-     "source": "UOL Notícias",
-     "published_at": "2026-08-14T15:25:00+00:00"
-    },
-    {
-     "title": "BNDES aprova R$ 13,06 bilhões para o Rio Grande do Sul no 1º semestre",
-     "link": "https://www.canalrural.com.br/economia/bndes-aprova-r-1306-bilhoes-para-o-rio-grande-do-sul-no-1o-semestre/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T15:18:23+00:00"
-    },
-    {
-     "title": "Lucro da M.Dias Branco cai 22% no segundo trimestre de 2026",
-     "link": "https://www.canalrural.com.br/economia/lucro-da-m-dias-branco-cai-22-no-segundo-trimestre-de-2026/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T15:00:57+00:00"
-    },
-    {
-     "title": "Colheita da terceira safra amplia oferta e pressiona preços do feijão carioca",
-     "link": "https://www.canalrural.com.br/economia/colheita-da-terceira-safra-amplia-oferta-e-pressiona-precos-do-feijao-carioca/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T14:59:23+00:00"
-    },
-    {
-     "title": "BNDES aprova R$ 1,95 bilhão para agropecuária de Santa Catarina no semestre",
-     "link": "https://www.canalrural.com.br/economia/bndes-aprova-r-195-bilhao-para-agropecuaria-de-santa-catarina-no-semestre/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T14:58:25+00:00"
-    },
-    {
-     "title": "BNDES eleva aprovações de crédito no Paraná para R$ 13,21 bilhões",
-     "link": "https://www.canalrural.com.br/economia/bndes-eleva-aprovacoes-de-credito-no-parana-para-r-1321-bilhoes/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T14:47:12+00:00"
-    },
-    {
-     "title": "BNDES aprova R$ 72,5 milhões para a agropecuária do Piauí no semestre",
-     "link": "https://www.canalrural.com.br/economia/bndes-aprova-r-725-milhoes-para-a-agropecuaria-do-piaui-no-semestre/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T14:37:37+00:00"
-    },
-    {
-     "title": "Soja avança em Chicago com expectativa de novos embarques dos EUA para China - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNjF4dlM2VGJzWlE1Z250ejUtMFZNbHI2T1FmMk5ZbFQ1dy1kTUU4X3h2NkhYNnBCdGRQc0xXcjY4RFp0cl90VlhfVGppVlAwRTUxRF9mT21NMnRFVWE3WmcyNm93ejZfOUEwbTByVWtvYk5UYWE5Y3RoMzZyOGdvb3BGdEhqMllyYW1iRE9oZFZlZ0RxSWo1bzRENy1XZThEQkl3V3lQZE1kVlo0RGdlNlFWY2VneURjUWJYWEdOaVlIbDNOR0tTMVh6ZG5kODZJbXfSAeABQVVfeXFMUEdBUTZBVWlaVkExcDRNU21yYm9zUkJZaXNKY2dJVExmSVY5dWxkLTFKRXExTzBKWjV6NUpuYVM0M2xYUW5ZZlVER1NCa0lBNnZHc2s2Z3BNQ2s1ZlR6RHRZN1U4NVRYTXVDNGJBNlBnempuLVhYUFlEOVc5ZmVOSG00QmFDaFpfMkFvdFNGcFVlZWtNMEFGY2lOSS1ob2hPemtoZ05OVHhhZGFDNWdWeXVoVXhGWW5yT2I1aEpmUFRidzRxZnVKR0sxamRWenlzQ0dDZDZuU3ducFFuaU5FeEQ?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-14T14:33:15+00:00"
-    },
-    {
-     "title": "BNDES eleva aprovações de crédito em Pernambuco para R$ 1,48 bilhão",
-     "link": "https://www.canalrural.com.br/economia/bndes-eleva-aprovacoes-de-credito-em-pernambuco-para-r-148-bilhao/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T14:26:28+00:00"
-    },
-    {
-     "title": "Raízen reduz prejuízo no 1º trimestre da safra 2026/27",
-     "link": "https://www.canalrural.com.br/economia/raizen-reduz-prejuizo-no-1o-trimestre-da-safra-2026-27/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T14:23:16+00:00"
-    },
-    {
-     "title": "Soja fecha em alta após relatório do USDA - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLXhmRXF6dHd5cWFmZGhMOVhtSlg4ZTA0Q2FRTGlKUXVVbUlHNVk2eDRGZG80QlV0TlJGRng2bllIcUVVeGN6WWlXNk12QlBZNWVuT1JyZWhpRzdwb0ZXbExTRFpUbmp4VlBuNEhjdXpuUWwyZEZ2aXRxaW1FeWdqWE5lYjA3N2lzNG5uOEtBc3J2eF9Q?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-14T13:33:00+00:00"
-    },
-    {
-     "title": "Decisão sobre soja reforça peso regulatório na cadeia de proteína - Agrimidia",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbnpmdk9GYXpvRFJrb3NscDZ2YWRaQmFJRG80Z1hRZmpJQXlBVG0xNEMxeG83LVo4WDk3bmNoR2pibzJxX0FyN0JoZ0prclJ0b3ZRektUQm1NTFFCdU1XelVsMVl1M1pFRDlqaUZVUENZVVppQWxfMWRGclA3blBSbDF1QXM2U1dUTkViU3JTNW94a2J6a3lOcGd3anU2dlBqT0VMRVdwZlV4U05mRXFETDBwbFd1bVBUOGVWYVM3QnI3MXdN?oc=5",
-     "source": "Agrimidia",
-     "published_at": "2026-08-14T12:34:29+00:00"
-    },
-    {
      "title": "Balde Cheio: programa da Embrapa ajuda pequenas propriedades a melhorar produção de leite",
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/14/balde-cheio-programa-da-embrapa-ajuda-pequenas-propriedades-a-melhorar-producao-de-leite.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-14T10:48:19"
     },
     {
-     "title": "Soja sobe em Chicago nesta 6ª, mas mercado aind se ajusta após semana volátil - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS3YyNFZZVlJOVHBpMjR2d0IxVWpTMVQ1UWtSNFg0Z3poUFQ0dFpmRXQ5N3VTMjdwdUpHX0JOSEl4OU9TQWR5bXp3bW5ZVi1RQnVfVFFxR0dRRWlaNE9vaS0zM2dzbVRIdmpvNVRjdlF3OVZQTVJUM0pUV3VDOHBQakc3WGZRZkxPRjhqNUlGeTVZRW1HYmV3VnhENUVYeVlKOFdUY3pHQVItRDg5bjNTR0ZvdzVjYWdNelV6YW1UaVpSSklCQXZBU0pUWmxtR3hvMHN4TdIB2gFBVV95cUxNb1pKRW9kaWpxcXJ3cnVZbXBac1B3SGo2cE10eTdPLXRILTBZWVVRbHJicTR2YW01WWYtVG1WYjhSWEFaTzhjWE1UUTFWMEJ3ZzIzMC1jUHRLY0d2eEVpSUlXbjluc3h2bmUtcDZLWk00NHNEZERWZEo0QTdBWDJSSDZGV2Q3MDdvcEg3ZmpQdXVERXAzZzF0eWZxUjdqOVVqYURNUVlueVM5WmVxLWhUOHprMW1DQ1RwLUI0TC1xT2tDTmRjSU1FTXdXaUtlTUNVbDZRNHVlLUVkZw?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-14T10:42:47+00:00"
-    },
-    {
      "title": "Conheça o abacaxi que dura mais tempo após a colheita",
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/14/conheca-o-abacaxi-que-dura-mais-tempo-apos-a-colheita.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-14T10:42:14"
-    },
-    {
-     "title": "USDA favorece milho, enquanto soja perde força para sustentar alta - Feed&Food",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcUlURGVBOUlIb2YwRWNPdXlEVDJiX0pnY0tNUnMyLU9Jb0ppVm4xNmhzLVZQaEtMS2RPNXlUYVNkbWo1SXBVeHBJX0RVTjlGdzN6RDB2VUxSZlItYzJhOWlMV0pIbFZTLW1EdHRLU294Zm8yWjNkY29Yb01SdWR4UmtodnVHcDJrUjliZk5FSjlmNUJG?oc=5",
-     "source": "Feed&Food",
-     "published_at": "2026-08-14T10:07:00+00:00"
-    },
-    {
-     "title": "SOJA E TRIGO: confira os preços dos grãos nesta sexta-feira (14) - Brasil 61",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdzRCbTh2aVRWUDktaEJDY2dfUmFPSGZrRm1EY2M5ZHExekZYNDNiOE5USHhpMXprckdKOXYxUGtOOGltRVFyQ2dPN0hTUDJmUzVaLXYyU3ZLSVZBX2tJS0I0SGItVFpSSEt0Um41S2VUVnRqT1d2Z0FxRlBHTjd1UUlQNG5jM1BhUW1PTzhoZ2lsVFZ2bjdITVFzWdIBoAFBVV95cUxQbjBpbUpHenhYa3hrVVRtRml5MDlLMzRqT08wMVVkVDZfcnU3RTFiUEtkTXVCd24yV2o5STFUNGp5bmlpR1U4VG1mcENzZzUtUjlxZmlReGVVWk1ZLUI4YU5TdVhuSllMcjVVclZubzB4Tml1cUZMYkNoVDdoLUcxTlNjZmxhZ2tLb3FRNnR4N3phUjJ0aVJsUlRSNzJ2NmpH?oc=5",
-     "source": "Brasil 61",
-     "published_at": "2026-08-14T07:00:00+00:00"
     },
     {
      "title": "Peixes têm 'impressão digital' que revela de onde vieram, mostra estudo; entenda",
@@ -552,12 +504,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/14/como-o-super-el-nino-pode-afetar-a-america-latina-principal-regiao-exportadora-de-alimentos-do-mundo.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-14T06:00:13"
-    },
-    {
-     "title": "STF mantém constitucionalidade da moratória da soja e leis estaduais - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdHZ1T2I2SWdqSDZ2UEtPVi00Rl9KTDVIdHZBaV93anJLTjhvX2o1c0hxUmRvR3dpRk92SFJXRlNMNTd3N0l3TmpBUE45VzJWckx3YUtnM3ZvU1AyZkMxNEVNUzd3Yl9lWGNvNGNibjd4czViUUkwa01SZ0EyS3JsNUhzWWR0OGNYZDdsOGR1TlowTjVKUzhFV2FmakR4dHRFVnM5R2tla0dBdw?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T00:15:46+00:00"
     },
     {
      "title": "Internacional oferece trator à Justiça como garantia por dívida com empresário; entenda",
@@ -578,31 +524,38 @@
      "published_at": "2026-08-13T05:00:10"
     },
     {
-     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
-     "source": "stf noticias",
-     "published_at": "2026-08-12T22:52:00+00:00"
-    },
-    {
-     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-08-12T19:18:51+00:00"
-    },
-    {
-     "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - Migalhas",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSl95WnkyNFJLdG9WLWoyX1hKTnRFQ1VBem1UX19haktzTTRWbmxLS1lUWW9vYTFNREdDazBHXzFFM1hyZFhnSmxhdkhNUm0tRHJINmx1c0lGakRaVUFsSmRKRGhjcnh4cWwtMmJtZVFMV3dRX2RxbWJvbG94NGlhSWdZZWRUZ1Y4TURWSkxNSXdtTEEzNnplTTd0d3FvQmdSYWJrekRlLTlsU2hqaHM4Q0tB?oc=5",
-     "source": "Migalhas",
-     "published_at": "2026-08-12T17:44:48+00:00"
-    },
-    {
      "title": "Terremoto afeta exportações de café da Colômbia e ameaça embarques internacionais",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/12/terremoto-afeta-exportacoes-de-cafe-da-colombia-e-ameaca-embarques-internacionais.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-12T16:19:19"
+    },
+    {
+     "title": "Crise no campo: pedidos de recuperação judicial saltam entre produtores rurais",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/12/recuperacao-judicial-agronegocio.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-12T11:25:43"
+    },
+    {
+     "title": "Como estoques recordes e avanço do agro brasileiro podem reduzir impacto do 'super El Niño' no mundo",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/12/como-estoques-recordes-e-avanco-do-agro-brasileiro-podem-reduzir-impacto-do-super-el-nino-no-mundo.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-12T08:03:51"
+    },
+    {
+     "title": "Senado aprova linha de crédito para indústria de fertilizantes, mas sem estipular valores",
+     "link": "https://g1.globo.com/politica/noticia/2026/08/11/senado-aprova-linha-de-credito-para-industria-de-fertilizantes-mas-sem-estipular-valores.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-11T21:21:24"
+    },
+    {
+     "title": "Depois do foie gras, quais práticas de criação e abate de animais podem ser proibidas?",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/11/depois-do-foie-gras-quais-praticas-de-criacao-e-abate-de-animais-podem-ser-proibidas.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-11T12:39:19"
     }
    ],
    "failed": [
+    "Google News: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=soja+OR+%22mercado+de+gr%C3%A3os%22&hl=pt-BR&gl=BR&ceid=BR:pt-419",
     "Notícias Agrícolas: 404 Client Error: Not Found for url: https://www.noticiasagricolas.com.br/rss/noticias"
    ]
   }

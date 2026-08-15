@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15T14:15:55+00:00",
+ "generated_at": "2026-08-15T15:14:29+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-15T14:15:47+00:00",
+   "updated_at": "2026-08-15T15:14:21+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -215,12 +215,15 @@
       173825.0,
       173714.0,
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -238,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-15T14:15:47+00:00",
+   "updated_at": "2026-08-15T15:14:21+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -249,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-15T14:15:51+00:00",
+   "updated_at": "2026-08-15T15:14:25+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -410,8 +413,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-15T14:15:55+00:00",
+   "updated_at": "2026-08-15T15:14:29+00:00",
    "items": [
+    {
+     "title": "Frio retorna, chuva supera 100 mm e El Niño preocupa; veja a previsão para a segunda quinzena de agosto",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/frio-retorna-chuva-supera-100-mm-e-el-nino-preocupa-veja-a-previsao-para-a-segunda-quinzena-de-agosto/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T14:45:15+00:00"
+    },
+    {
+     "title": "Conheça os \"Reis da Soja\", os municípios que mais produzem o grão no Brasil; líder supera 2 milhões de toneladas - CompreRural",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWlB2dGNjNGFZR1NCRUVpSTB1SEVqUTNfSTFHWjlpSUlzc0NjeUUxM01URDhYQzRTOHhhVWZmMTdaZlBtUEU2Zk5fejJZNlRNaVhVMml5YUFncVVHRFZxbFNtZTk0Zkl2djFWSXh6OFBHd19sMjUzU05uMFJUai1td2dqeUxzem00cDViMHdsazB1XzNBQjlmVS04RWxHSGZxNzJIVV9SZ1dOQl9nRWFkZDZhV3R3UndQX2V2ckhiZGh1dmFEYjhiRjNDdzVKVC1CVVRv?oc=5",
+     "source": "CompreRural",
+     "published_at": "2026-08-15T14:30:00+00:00"
+    },
+    {
+     "title": "Tecnologia brasileira transforma madeira em fibra para alimentação de suínos",
+     "link": "https://www.canalrural.com.br/aves-e-suinos/tecnologia-brasileira-transforma-madeira-em-fibra-para-alimentacao-de-suinos/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T14:04:00+00:00"
+    },
     {
      "title": "Consultoria vê mudança no fluxo global da soja - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS3JEY2Y1dHktWl9xQkI0bGc0bmwxV0VYWVR6dF8tMVk4LWxkUFlMYWRkVjFmQ0NNdjRPOFRteHJJOWVKeHpmT2g3d05CaHBOVHEyNlMtaGhEOHRIU1dtbXZvb25Ybkt6V2ZRLTUwd2VvNWNQV29XdjljakJHcXczaXBvZTdsd0hOcTlwcVFMT0dzOEhVZU91TXJNUQ?oc=5",
@@ -419,9 +440,15 @@
      "published_at": "2026-08-15T13:54:00+00:00"
     },
     {
-     "title": "Futuro do agro, reis da soja e moratória: veja o novo Radar Rural - canalrural.com.br",
+     "title": "Soja, milho, algodão e sorgo levam safra a recorde de 360,8 milhões de toneladas - Gazeta de Toledo",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSjNKbmNRVTFOVlJQZk5feHdmRTBKQklkckxvYWJnUkJIaWV1OGh3Z1ptMTJDTnZRSXpNNGlWb2hIU2x4eTBmMm9WUDNMVEsyemZYSTl4cUFXOEdPVUllOUhsUlduUUVmMVVURl94dDFEcXJZOVVvalZzcW5nSmpZVEtrTmFmc05TX0p4dEExS1p2ZUEzOXBQUVU4XzMzay1pMDNHS1QtcU1Lb2ZB?oc=5",
+     "source": "Gazeta de Toledo",
+     "published_at": "2026-08-15T13:08:56+00:00"
+    },
+    {
+     "title": "Futuro do agro, reis da soja e moratória: veja o novo Radar Rural - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNl91S2RrTHhxb3dzU1hDNzNaWVZpbUxBbDR4YUFkRlB6QTdEb2ZZZ1AxYU5Ta3o5NHhuTEVza0E3a0RNa2pKbTBWYUNXbENEN09NTkFBYVJ6czhUVlU1bHJTQU5pQ1BudzFPdFRIQTNGbDFqY1AxQUc5X2NJQnBpWER3aHlyX1IzU2txVlhhTEhZUldYYXZGaGpDLVV5YzlNMEhWZktMdjJ4VzNaZnBKeXZwNDJPaFgyblE?oc=5",
-     "source": "canalrural.com.br",
+     "source": "Canal Rural",
      "published_at": "2026-08-15T12:03:00+00:00"
     },
     {
@@ -455,9 +482,9 @@
      "published_at": "2026-08-15T09:49:28+00:00"
     },
     {
-     "title": "Preço da soja encerra a semana em alta no Brasil, acompanhando cotações internacionais - Globo Rural",
+     "title": "Preço da soja encerra a semana em alta no Brasil, acompanhando cotações internacionais - globorural.globo.com",
      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTmYxTDBVUEhxVXNkYjk5a0hDM2tUSFJBOElTcEt0MU85Z0xEd1RQWmN1LXNtdG5JZTJ3X1RrckZQemZDT1JrTi1uS25fNmRTVkpJUE91bzd0WUtHLWtQS09IUVFKM01hX0lYUHc0QTBGdUFVdDMtdGR5UVBZYUxfZExfdGxZUnpoX3JOdFVDQV8xV2l6eFlwbWxoR3JMdktqSFd6YjBwek9saHJjTkVscG8ta0xXaWRjMXIwanR3NVpsYmVRVkRkajg3WjlkUWRSWEdMaVZOdUxsTkVZRUHSAewBQVVfeXFMTXpucU9nYjVxQTA1bTV0TEtFTlBWNlNLTC1EOFdUOV9KRG5lMDhUZU5xR1RFUkU5NDdyS0pfS3piUmpwc040dklOdUxVQ01kTzlmNlQ1NVFzdllyaWx2QnM4MzNGQ0pCUUxjZTlKTk1LQ1Q2QTFPQS1zOGptOVlVeTNMbE9uSjd2cDdoaU1WRUQ1NzlGYnd4SFA2VnhQUDRZRnFBcmd2akFMRm1ja2cwMWNOYmJCbFMzcmZJVHlPTXNyVUhJamNaTENCYXhQOXdrVTVSN1FEQUdKUWtTX3BtV2luUzNaQlFuOFNMN0E?oc=5",
-     "source": "Globo Rural",
+     "source": "globorural.globo.com",
      "published_at": "2026-08-15T09:05:08+00:00"
     },
     {
@@ -495,30 +522,6 @@
      "link": "https://www.canalrural.com.br/videos/governo-estabelece-limites-e-bancos-para-renegociacao-de-dividas-rurais/",
      "source": "Canal Rural",
      "published_at": "2026-08-14T23:15:37+00:00"
-    },
-    {
-     "title": "‘Decepcionantes’: especialista critica regras de renegociação de dívidas rurais",
-     "link": "https://www.canalrural.com.br/videos/decepcionantes-especialista-critica-regras-de-renegociacao-de-dividas-rurais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T23:15:23+00:00"
-    },
-    {
-     "title": "Deriva de herbicidas causa prejuízos de R$ 210 milhões no RS",
-     "link": "https://www.canalrural.com.br/videos/deriva-de-herbicidas-causa-prejuizos-de-r-210-milhoes-no-rs/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T23:15:12+00:00"
-    },
-    {
-     "title": "Soja sobe em Chicago com expectativa de compras chinesas - Vero Notícias",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQXy1PS2NjN1RoRGVScHp2QzZiVjlSWkR4U3JYSTV0bWFqUnc5bTZ0NlVFTmtOMFVwUm12Tm4xTUpSTEd3b0xpWF9LTHc5T0NVMVljNmdfNXlDMnNNUTgybGpma0Q1NlY0TEFuQjZTNERpVHpWU1hnX0ZDaEF3YjJ3a0k4T1hvdTY1dWNmSXVNQ2IxNUhHUkE?oc=5",
-     "source": "Vero Notícias",
-     "published_at": "2026-08-14T22:55:00+00:00"
-    },
-    {
-     "title": "Mercado da soja: cotações sobem com dólar acima de R$ 5,20 e negócios ganham ritmo - canalrural.com.br",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUENIbEhYQVljb2pCci1wb3FoRmQ4U1NCNV84bU1VNU1WbEVzMnJOdEZPT25zWTBBZzZvSlZ3TEZkYXBjQW9kdk5kc1kzTnpZWHNZb05CeHpteGI1UDQ5Tzd4eUdrUnRmXzdzT2pDYjJYd2hzbk9Qd3hRSWtTWTFSa1NDVUFJaDlqaUR4RjFjTWJOajl4SzRuYlZvWXJ2MWp5SnF2Ql82UnQ5RGdHa2xMWjNpSDh3aU5KSDByVGk5RQ?oc=5",
-     "source": "canalrural.com.br",
-     "published_at": "2026-08-14T20:42:15+00:00"
     },
     {
      "title": "Balde Cheio: programa da Embrapa ajuda pequenas propriedades a melhorar produção de leite",

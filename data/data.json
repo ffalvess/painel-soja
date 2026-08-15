@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15T08:20:15+00:00",
+ "generated_at": "2026-08-15T09:19:53+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-15T08:20:08+00:00",
+   "updated_at": "2026-08-15T09:19:45+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-15T08:20:08+00:00",
+   "updated_at": "2026-08-15T09:19:45+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-15T08:20:13+00:00",
+   "updated_at": "2026-08-15T09:19:50+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,7 +413,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-15T08:20:15+00:00",
+   "updated_at": "2026-08-15T09:19:53+00:00",
    "items": [
     {
      "title": "China tenta reduzir dependência de alimentos importados; o que isso significa para o agro brasileiro",
@@ -494,9 +494,9 @@
      "published_at": "2026-08-14T23:05:18+00:00"
     },
     {
-     "title": "Soja sobe em Chicago com expectativa de compras chinesas - veronoticias.com",
+     "title": "Soja sobe em Chicago com expectativa de compras chinesas - Vero Notícias",
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQXy1PS2NjN1RoRGVScHp2QzZiVjlSWkR4U3JYSTV0bWFqUnc5bTZ0NlVFTmtOMFVwUm12Tm4xTUpSTEd3b0xpWF9LTHc5T0NVMVljNmdfNXlDMnNNUTgybGpma0Q1NlY0TEFuQjZTNERpVHpWU1hnX0ZDaEF3YjJ3a0k4T1hvdTY1dWNmSXVNQ2IxNUhHUkE?oc=5",
-     "source": "veronoticias.com",
+     "source": "Vero Notícias",
      "published_at": "2026-08-14T22:55:00+00:00"
     },
     {
@@ -506,15 +506,15 @@
      "published_at": "2026-08-14T22:43:34+00:00"
     },
     {
-     "title": "Caramuru eleva lucro no 2º trimestre, mas margens recuam em soja e biodiesel - canalrural.com.br",
+     "title": "Caramuru eleva lucro no 2º trimestre, mas margens recuam em soja e biodiesel - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR3RDMmJHOEpnTzZGeWdlQWZIWHFfcXpha1VVMlkxYVFVS19DanVSaEEyeHI5YVN1aFRLQ2dnZkRGS0otX25EY2s5Q0t0QkdyaGNweUZPZnRGUlFPUGxZcDdobDZSTTZ5Rnlhb1NxNFVKZG1TSjFEUWdBMzlKcHdkMWxkb05nMzFrMmlfZl9jdXhEODljRVpFRmVqRTJLOUgyU0ZLZFZPeUx4QXBYNlZheTQ0V3ZfUQ?oc=5",
-     "source": "canalrural.com.br",
+     "source": "Canal Rural",
      "published_at": "2026-08-14T20:48:31+00:00"
     },
     {
-     "title": "Mercado da soja: cotações sobem com dólar acima de R$ 5,20 e negócios ganham ritmo - canalrural.com.br",
+     "title": "Mercado da soja: cotações sobem com dólar acima de R$ 5,20 e negócios ganham ritmo - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUENIbEhYQVljb2pCci1wb3FoRmQ4U1NCNV84bU1VNU1WbEVzMnJOdEZPT25zWTBBZzZvSlZ3TEZkYXBjQW9kdk5kc1kzTnpZWHNZb05CeHpteGI1UDQ5Tzd4eUdrUnRmXzdzT2pDYjJYd2hzbk9Qd3hRSWtTWTFSa1NDVUFJaDlqaUR4RjFjTWJOajl4SzRuYlZvWXJ2MWp5SnF2Ql82UnQ5RGdHa2xMWjNpSDh3aU5KSDByVGk5RQ?oc=5",
-     "source": "canalrural.com.br",
+     "source": "Canal Rural",
      "published_at": "2026-08-14T20:42:15+00:00"
     },
     {
@@ -584,9 +584,9 @@
      "published_at": "2026-08-12T19:18:51+00:00"
     },
     {
-     "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - Migalhas",
+     "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - migalhas.com.br",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSl95WnkyNFJLdG9WLWoyX1hKTnRFQ1VBem1UX19haktzTTRWbmxLS1lUWW9vYTFNREdDazBHXzFFM1hyZFhnSmxhdkhNUm0tRHJINmx1c0lGakRaVUFsSmRKRGhjcnh4cWwtMmJtZVFMV3dRX2RxbWJvbG94NGlhSWdZZWRUZ1Y4TURWSkxNSXdtTEEzNnplTTd0d3FvQmdSYWJrekRlLTlsU2hqaHM4Q0tB?oc=5",
-     "source": "Migalhas",
+     "source": "migalhas.com.br",
      "published_at": "2026-08-12T17:44:48+00:00"
     },
     {

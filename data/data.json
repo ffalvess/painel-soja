@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15T16:17:04+00:00",
+ "generated_at": "2026-08-15T17:14:54+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-15T16:16:56+00:00",
+   "updated_at": "2026-08-15T17:14:43+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -215,12 +215,15 @@
       173825.0,
       173714.0,
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -238,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-15T16:16:56+00:00",
+   "updated_at": "2026-08-15T17:14:43+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -249,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-15T16:17:01+00:00",
+   "updated_at": "2026-08-15T17:14:50+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -410,11 +413,23 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-15T16:17:04+00:00",
+   "updated_at": "2026-08-15T17:14:54+00:00",
    "items": [
+    {
+     "title": "A guerra no Mar Negro pode chegar à mesa do brasileiro",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/a-guerra-no-mar-negro-pode-chegar-a-mesa-do-brasileiro/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T16:30:22+00:00"
+    },
     {
      "title": "Soja mais resistente a percevejos é identificada por pesquisadores brasileiros - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeUhaMWtfLWZaTGp4aWZabHJZUmxLWU1DUkk0bTIyelR5djlKa2ZTZDlZUEZ6cmlxVjZLYXFacWlqakcyQ0s3NURZZGFuMmwzN2lmUEVvb2xwa1hzbWhpZVpvWC1yajhfOWhwSHVUb1hwaWJCcWllc1ZKYUJhb0VNbW1XYngyR0hxVmdIWFdtQkNURlJYWVhJaFVkSzZLMUZjMnBJMGlVeC1ZVTE2RWg4c0FvNkRXVTFmZG9tbklR?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T16:05:00+00:00"
+    },
+    {
+     "title": "Soja mais resistente a percevejos é identificada por pesquisadores brasileiros",
+     "link": "https://www.canalrural.com.br/agricultura/soja-mais-resistente-a-percevejos-e-identificada-por-pesquisadores-brasileiros/",
      "source": "Canal Rural",
      "published_at": "2026-08-15T16:05:00+00:00"
     },
@@ -509,18 +524,6 @@
      "published_at": "2026-08-15T08:00:13"
     },
     {
-     "title": "Berkshire zera posição na Constellation Brands no segundo trimestre",
-     "link": "https://www.canalrural.com.br/economia/berkshire-zera-posicao-na-constellation-brands-no-segundo-trimestre/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-15T00:58:30+00:00"
-    },
-    {
-     "title": "IBP destaca descoberta da Petrobras na Margem Equatorial",
-     "link": "https://www.canalrural.com.br/economia/ibp-destaca-descoberta-da-petrobras-na-margem-equatorial/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-15T00:25:20+00:00"
-    },
-    {
      "title": "Balde Cheio: programa da Embrapa ajuda pequenas propriedades a melhorar produção de leite",
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/14/balde-cheio-programa-da-embrapa-ajuda-pequenas-propriedades-a-melhorar-producao-de-leite.ghtml",
      "source": "G1 Agronegócios",
@@ -575,9 +578,9 @@
      "published_at": "2026-08-12T19:18:51+00:00"
     },
     {
-     "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - migalhas.com.br",
+     "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - Migalhas",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSl95WnkyNFJLdG9WLWoyX1hKTnRFQ1VBem1UX19haktzTTRWbmxLS1lUWW9vYTFNREdDazBHXzFFM1hyZFhnSmxhdkhNUm0tRHJINmx1c0lGakRaVUFsSmRKRGhjcnh4cWwtMmJtZVFMV3dRX2RxbWJvbG94NGlhSWdZZWRUZ1Y4TURWSkxNSXdtTEEzNnplTTd0d3FvQmdSYWJrekRlLTlsU2hqaHM4Q0tB?oc=5",
-     "source": "migalhas.com.br",
+     "source": "Migalhas",
      "published_at": "2026-08-12T17:44:48+00:00"
     },
     {

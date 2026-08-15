@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15T09:19:53+00:00",
+ "generated_at": "2026-08-15T10:16:06+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-15T09:19:45+00:00",
+   "updated_at": "2026-08-15T10:16:01+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-15T09:19:45+00:00",
+   "updated_at": "2026-08-15T10:16:01+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-15T09:19:50+00:00",
+   "updated_at": "2026-08-15T10:16:04+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,8 +413,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-15T09:19:53+00:00",
+   "updated_at": "2026-08-15T10:16:06+00:00",
    "items": [
+    {
+     "title": "Prêmio da soja chega a US$ 1,45 por bushel em Paranaguá em agosto - O Presente Rural",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTm1IODRUTVNYNjdwUmt4ZGR0c25nZ3NlWlBLdXlUYUotbFgzdGdKSVhsX1RlUExLTU5QcE9fbkVTNkh4amRhSURDem9uU3VjNDhmbTEtaDhuc1N6RlNMZlVBT2tNWEIwSE5UMVFQVVVHbVJVRi1TUTl1ZVJkbXRxam5KQmhzUGJBakFrX3RpRk5mZUVBLUJJTDR3?oc=5",
+     "source": "O Presente Rural",
+     "published_at": "2026-08-15T09:49:28+00:00"
+    },
+    {
+     "title": "Preço da soja encerra a semana em alta no Brasil, acompanhando cotações internacionais - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTmYxTDBVUEhxVXNkYjk5a0hDM2tUSFJBOElTcEt0MU85Z0xEd1RQWmN1LXNtdG5JZTJ3X1RrckZQemZDT1JrTi1uS25fNmRTVkpJUE91bzd0WUtHLWtQS09IUVFKM01hX0lYUHc0QTBGdUFVdDMtdGR5UVBZYUxfZExfdGxZUnpoX3JOdFVDQV8xV2l6eFlwbWxoR3JMdktqSFd6YjBwek9saHJjTkVscG8ta0xXaWRjMXIwanR3NVpsYmVRVkRkajg3WjlkUWRSWEdMaVZOdUxsTkVZRUHSAewBQVVfeXFMTXpucU9nYjVxQTA1bTV0TEtFTlBWNlNLTC1EOFdUOV9KRG5lMDhUZU5xR1RFUkU5NDdyS0pfS3piUmpwc040dklOdUxVQ01kTzlmNlQ1NVFzdllyaWx2QnM4MzNGQ0pCUUxjZTlKTk1LQ1Q2QTFPQS1zOGptOVlVeTNMbE9uSjd2cDdoaU1WRUQ1NzlGYnd4SFA2VnhQUDRZRnFBcmd2akFMRm1ja2cwMWNOYmJCbFMzcmZJVHlPTXNyVUhJamNaTENCYXhQOXdrVTVSN1FEQUdKUWtTX3BtV2luUzNaQlFuOFNMN0E?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-15T09:05:08+00:00"
+    },
     {
      "title": "China tenta reduzir dependência de alimentos importados; o que isso significa para o agro brasileiro",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/15/china-tenta-reduzir-dependencia-de-alimentos-importados.ghtml",
@@ -506,27 +518,15 @@
      "published_at": "2026-08-14T22:43:34+00:00"
     },
     {
-     "title": "Caramuru eleva lucro no 2º trimestre, mas margens recuam em soja e biodiesel - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR3RDMmJHOEpnTzZGeWdlQWZIWHFfcXpha1VVMlkxYVFVS19DanVSaEEyeHI5YVN1aFRLQ2dnZkRGS0otX25EY2s5Q0t0QkdyaGNweUZPZnRGUlFPUGxZcDdobDZSTTZ5Rnlhb1NxNFVKZG1TSjFEUWdBMzlKcHdkMWxkb05nMzFrMmlfZl9jdXhEODljRVpFRmVqRTJLOUgyU0ZLZFZPeUx4QXBYNlZheTQ0V3ZfUQ?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T20:48:31+00:00"
-    },
-    {
-     "title": "Mercado da soja: cotações sobem com dólar acima de R$ 5,20 e negócios ganham ritmo - Canal Rural",
+     "title": "Mercado da soja: cotações sobem com dólar acima de R$ 5,20 e negócios ganham ritmo - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUENIbEhYQVljb2pCci1wb3FoRmQ4U1NCNV84bU1VNU1WbEVzMnJOdEZPT25zWTBBZzZvSlZ3TEZkYXBjQW9kdk5kc1kzTnpZWHNZb05CeHpteGI1UDQ5Tzd4eUdrUnRmXzdzT2pDYjJYd2hzbk9Qd3hRSWtTWTFSa1NDVUFJaDlqaUR4RjFjTWJOajl4SzRuYlZvWXJ2MWp5SnF2Ql82UnQ5RGdHa2xMWjNpSDh3aU5KSDByVGk5RQ?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-14T20:42:15+00:00"
     },
     {
-     "title": "Soja fecha forte em Chicago nesta 6ª feira e confere semana de bons preços ao mercado brasileiro - noticiasagricolas.com.br",
-     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNUTQwTXFXWERqaUdRVEgxN0JFb2FtdEJHejhLQWtNNHNWUWZiVDAwSzFiQWgzVHJ5MmI0ckxhbmpiUFdMOHRCSWJvLXAtYWZhaDNOZzJYdnlxT1FDdnU1NTN4OG9ILWhFcHMzRXdSUHRFVFUtcnE1c3BLVGlrcF9HMUwwN2V3Qk0xSDlld052Vkd2TVFWa3hsYVM0MTRPdDZsWG90bTllNHRyUlJSb2ZaV2VzMEJsNVRYWGpUb1NaLTBXUTJoVU0wdzVXOXkxQjM2cVhaTnpadFB4bUVWTnh3TlNLZEhpS0xub2hjMk930gHzAUFVX3lxTE5ETmF4akwyOEJRZ3lld1dqeFJoVDg5b3ppTmFQYVFGbUFGOTh4NDNuSUtLbjl6dnA5cVh1SzBMNmtRRDdBX3ZOSkk1Wm1XbUp5cDJ2OXBQVEZqZ0dQTWpzMml3Z2Ezd20tM1VPNGVkdDJ0dnJiRUdIRm1SRzFBN0Z1elVPY1RyVXpQcWhBVXBsUy0yTXU2cXlER3JmbDU5bkVMWFhtX2dIZEo1cE1ianBTeFpkc25VVnNTcXNBSXdBMzNndzQzcUV6a0thOVlPZEtqTWdTZFc5WmxxbTNQZTJuS2VIS1BFbWlOWjAzbmhHRzZZYw?oc=5",
-     "source": "noticiasagricolas.com.br",
-     "published_at": "2026-08-14T20:35:22+00:00"
-    },
-    {
-     "title": "STF reconhece constitucionalidade da Moratória da Soja, mas mantém restrições a incentivos fisc - WWF Brasil",
+     "title": "STF reconhece constitucionalidade da Moratória da Soja, mas mantém restrições a incentivos fisc - wwf.org.br",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRlM4anFYZ1dYc3o1NnpKYTV3SmtEQWdJZTJFRzVZTm11NnFieUxWZzZhQklTWVlsU3UtRzZZeGw1WG1vbTBDaVljdkdDRDA0aUg3LW12SDhCTFEtV01TUFBVTTRDMy0xUHFBYXFqREhMM3ZKLUtRUHhOLWJLYmpCdk1peGw5Nk5UX002RmdvOV9rcXFWcnRJRGFVV2lnY0VVeUEyVjZEVFhjX0NydXdlcWk4cnZQblJ4OU1hb0psTkZfVW41SGc?oc=5",
-     "source": "WWF Brasil",
+     "source": "wwf.org.br",
      "published_at": "2026-08-14T16:22:52+00:00"
     },
     {

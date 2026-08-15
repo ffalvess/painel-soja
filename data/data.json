@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15T22:14:32+00:00",
+ "generated_at": "2026-08-15T23:13:55+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-15T22:14:27+00:00",
+   "updated_at": "2026-08-15T23:13:47+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-15T22:14:27+00:00",
+   "updated_at": "2026-08-15T23:13:48+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-15T22:14:30+00:00",
+   "updated_at": "2026-08-15T23:13:52+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,8 +413,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-15T22:14:32+00:00",
+   "updated_at": "2026-08-15T23:13:55+00:00",
    "items": [
+    {
+     "title": "Soja: com dados de USDA e Conab nas mãos, mercado aguarda Crop Tour para definir expectativas - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMHpmMENrQ1R4SnBVbGRqTjZad0V0OUY0SVFESnBNYW9qQXpFWEdEbnZueXRXNi1UZnF3aUFrakUwNFVoNEM5SmFrNC11MXpWOEI1VVRKR0NoWEpxMG5fREIta1NxVUJmOGw4M0VrcWFLUXpHd2ZkWXNHaG43eWtoLS1RMkoyRDFfWGcyd3FTMkt0Mjl6dlI2RlNicDRXV0ZuZzhQZ2FETGFNZDQ2M01saVR4WDl1NjhkaTRMbC1qWkVPV2ttRF9mTHV1MGlab1U?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T22:02:00+00:00"
+    },
+    {
+     "title": "Soja: com dados de USDA e Conab nas mãos, mercado aguarda Crop Tour para definir expectativas",
+     "link": "https://www.canalrural.com.br/agricultura/soja-com-dados-de-usda-e-conab-nas-maos-mercado-aguarda-crop-tour-para-definir-expectativas/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T22:02:00+00:00"
+    },
     {
      "title": "Deriva de herbicidas causa prejuízos de R$ 210 milhões, mostra pesquisa",
      "link": "https://www.canalrural.com.br/agricultura/deriva-de-herbicidas-causa-prejuizos-de-r-210-milhoes-mostra-pesquisa/",
@@ -494,22 +506,10 @@
      "published_at": "2026-08-15T13:54:00+00:00"
     },
     {
-     "title": "Soja, milho, algodão e sorgo levam safra a recorde de 360,8 milhões de toneladas - Gazeta de Toledo",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSjNKbmNRVTFOVlJQZk5feHdmRTBKQklkckxvYWJnUkJIaWV1OGh3Z1ptMTJDTnZRSXpNNGlWb2hIU2x4eTBmMm9WUDNMVEsyemZYSTl4cUFXOEdPVUllOUhsUlduUUVmMVVURl94dDFEcXJZOVVvalZzcW5nSmpZVEtrTmFmc05TX0p4dEExS1p2ZUEzOXBQUVU4XzMzay1pMDNHS1QtcU1Lb2ZB?oc=5",
-     "source": "Gazeta de Toledo",
-     "published_at": "2026-08-15T13:08:56+00:00"
-    },
-    {
      "title": "Produtor segura a compra, e a carteira de sementes de soja da Boa Safra cai 12% - The AgriBiz",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObW1tRjUxRXlidk14d1B0LUI0WW9CVUEzaXRnbEVha25paklIUVZlOHZxZ3RUUl92djQ2SXA5ODl2RXhZUW9EVU9rMk5YVzRuWXQxaUdqLUg5NXA3dEFxQXhmT2lCQW9MOVlBbENhTmRqTThxZ1lqbjktMGwxS3hMSHU2T2pqRWgyUUoxbjY2Y1V2TGtnOVlSYUJBSXFVRTdJVXp2ZEtBMWdLbkd3ODlSSXluVmI?oc=5",
      "source": "The AgriBiz",
      "published_at": "2026-08-15T13:00:20+00:00"
-    },
-    {
-     "title": "Futuro do agro, reis da soja e moratória: veja o novo Radar Rural",
-     "link": "https://www.canalrural.com.br/agricultura/agronegocio/futuro-do-agro-reis-da-soja-e-moratoria-veja-o-novo-radar-rural/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-15T12:03:00+00:00"
     },
     {
      "title": "Preço da soja encerra a semana em alta no Brasil, acompanhando cotações internacionais - Globo Rural",

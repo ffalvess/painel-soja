@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15T02:10:56+00:00",
+ "generated_at": "2026-08-15T03:33:06+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-15T02:10:48+00:00",
+   "updated_at": "2026-08-15T03:32:59+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -239,7 +239,7 @@
       167875.0,
       167491.0,
       167101.0,
-      166934.2031
+      166934.0
      ]
     }
    ],
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-15T02:10:49+00:00",
+   "updated_at": "2026-08-15T03:32:59+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,18 +258,18 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-15T02:10:53+00:00",
+   "updated_at": "2026-08-15T03:33:03+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
      "dates": [
-      "2026-08-14",
       "2026-08-15",
       "2026-08-16",
       "2026-08-17",
       "2026-08-18",
       "2026-08-19",
-      "2026-08-20"
+      "2026-08-20",
+      "2026-08-21"
      ],
      "precip": [
       0.0,
@@ -281,34 +281,34 @@
       0.0
      ],
      "tmax": [
-      35.8,
       36.4,
       37.2,
       37.3,
       37.0,
       37.1,
-      37.5
+      37.5,
+      37.0
      ],
      "tmin": [
-      20.7,
       21.9,
       22.3,
       22.7,
       22.5,
       23.3,
-      23.2
+      23.2,
+      25.0
      ]
     },
     {
      "name": "Sinop · MT",
      "dates": [
-      "2026-08-14",
       "2026-08-15",
       "2026-08-16",
       "2026-08-17",
       "2026-08-18",
       "2026-08-19",
-      "2026-08-20"
+      "2026-08-20",
+      "2026-08-21"
      ],
      "precip": [
       0.0,
@@ -320,34 +320,34 @@
       0.0
      ],
      "tmax": [
-      35.0,
       35.5,
       36.4,
       36.5,
       36.2,
       36.1,
-      37.0
+      37.0,
+      36.9
      ],
      "tmin": [
-      21.3,
       22.1,
       21.3,
       21.3,
       21.2,
       22.4,
-      22.5
+      22.5,
+      25.1
      ]
     },
     {
      "name": "Rio Verde · GO",
      "dates": [
-      "2026-08-14",
       "2026-08-15",
       "2026-08-16",
       "2026-08-17",
       "2026-08-18",
       "2026-08-19",
-      "2026-08-20"
+      "2026-08-20",
+      "2026-08-21"
      ],
      "precip": [
       0.0,
@@ -359,37 +359,37 @@
       0.0
      ],
      "tmax": [
-      34.0,
       33.8,
       34.5,
       33.7,
       33.4,
       33.2,
-      34.3
+      34.3,
+      32.8
      ],
      "tmin": [
-      19.2,
       19.8,
       21.3,
       22.7,
       22.3,
       21.9,
-      21.0
+      21.0,
+      23.5
      ]
     },
     {
      "name": "Dourados · MS",
      "dates": [
-      "2026-08-14",
       "2026-08-15",
       "2026-08-16",
       "2026-08-17",
       "2026-08-18",
       "2026-08-19",
-      "2026-08-20"
+      "2026-08-20",
+      "2026-08-21"
      ],
      "precip": [
-      0.1,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -398,29 +398,35 @@
       0.0
      ],
      "tmax": [
-      30.3,
       33.1,
       35.8,
       36.5,
       36.4,
       34.8,
-      27.9
+      27.9,
+      26.1
      ],
      "tmin": [
-      18.3,
       18.6,
       20.8,
       20.8,
       21.7,
       19.9,
-      19.7
+      19.7,
+      16.0
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-15T02:10:56+00:00",
+   "updated_at": "2026-08-15T03:33:06+00:00",
    "items": [
+    {
+     "title": "Boletim semanal de preços: arroz sobe 3,24%, soja e milho avançam na semana - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcFJ3cW1tcmp4bDRaZXh2cXRxa012R2FlTDhvWFhsTktDT0ZUYXBlMGxmRHpsTVRQRlItbEliOGlXX3V2MXRVYUlVMTRlcmVpck1Yd0lsd3JlUzgyNXRwTUFfdnMyelVVd2Z5cmpfNm5IX2JaOVI2blJzYVZjY3FWN1FlMTE0blVFV0JSby16OTFLTDdpcWVEV3k1SDFXOTU2NGY5UmV5czlEMHozZXVrUlZwSnhmMTRIMjZnNlpaazBPQQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-15T01:42:00+00:00"
+    },
     {
      "title": "Com diversificação além da soja, Boa Safra sai de prejuízo e alcança carteira recorde de pedidos - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWmtCVWdLbENyM1ZkS0ZyWEVmZWRzVjJWNGJfbmZ4YUY0V1JoMVpvS1NUOEh3OUplSEU0cFpqMjJTWnN3dTNIM3FuUDdEQjVWSjJfdV85eXV1RE1yQnBBamluRTREaGYyc1FRSzVWRGNVckp4R1AxamFhbFZXVTZidDg1cHFjY1hyUGNrZjAzbHZKYjNsY1BrLV9Lb1c1UG4wcVMtcU5OQTBubnFCcFk2S2RFSnNza0k1b1NPcGZQZUVmRTA3emtwV216LTVKcjF5cG13VXNHeHN4dVlhMUdnaUdMR3NQNEkwdlHSAfgBQVVfeXFMTUdRRUh6a0hBZUxtd2l4T1NOamRvQU00QVM5XzBVX2tYYlBMazdjVHpyX2x2bHZUOTh3b2RrSFBEQkhnQkRMWHFMLUtlNDhra2dabHRacS1Wd1I1UzFyXy10cm9pVEljMnZSMDN0dUNrdVhqLTNkemduaHFOUkttLXdFS0E5bVdBN0xHLTJhb3NPSEpxLWNCLXFNUG4ybVRDQmw4Q3pXUVduUGE3VHpnY3p5WXFxcXdneWxqbXRwcEhsb1BWbXd2bERqUkZNOWU0R0RHRUpmLThIN2NHYldaeHc5WEp2azJNUl9RU3JtX1h3SzhEdlVKbEo?oc=5",
@@ -494,12 +500,6 @@
      "published_at": "2026-08-14T22:43:34+00:00"
     },
     {
-     "title": "Plantio da soja: saiba como ajustar o estande à sua área - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOEEzQXRoN3NoNVJJZGpRbG02c0pqemdWNktFOGZkeElfTC1YTHdFcGxtVVpQNnZub2hwNDZrZy1hNWVsNlltNlRjclhqVmwySk5iVHNFRjczaWFNV01JQVJJTEpXNVRVektsamRQRW1ESGJMejVfM1VQdHhqOTYyS2gxQXNzM1FrOUdKemxoa3lBWHJOeGJpN3otRHRQUE5MdXAxOHRlb1I?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-14T22:37:00+00:00"
-    },
-    {
      "title": "Caramuru eleva lucro no 2º trimestre, mas margens recuam em soja e biodiesel - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR3RDMmJHOEpnTzZGeWdlQWZIWHFfcXpha1VVMlkxYVFVS19DanVSaEEyeHI5YVN1aFRLQ2dnZkRGS0otX25EY2s5Q0t0QkdyaGNweUZPZnRGUlFPUGxZcDdobDZSTTZ5Rnlhb1NxNFVKZG1TSjFEUWdBMzlKcHdkMWxkb05nMzFrMmlfZl9jdXhEODljRVpFRmVqRTJLOUgyU0ZLZFZPeUx4QXBYNlZheTQ0V3ZfUQ?oc=5",
      "source": "Canal Rural",
@@ -530,21 +530,15 @@
      "published_at": "2026-08-14T16:22:52+00:00"
     },
     {
-     "title": "Sinograin Leiloará 360 Mil Toneladas de Soja para Abrir Espaço À Produção dos EUA - Forbes Brasil",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTUY1a3VFM1E1dldFbWRaVVdENVp6RFdTbDJ2NDNqVGhsVUpxRUo0eWxwX0ZFbGJ2bDJYbmR2blhDU2FZMTlLbm5nanUxX0F1NWFCMC1fTWpWVHFBZ3FWTTF1aFk5Ui1pc19NSDJqTnRqUzlLaDVnQURWaUJaNXNYX2VyaFQwWF9FME83Zy1XZXpmWDFaSW9wdTQ2NGNTRTNZWllGOHhncEVWWC1oNzdjT1ZrSThLNm4yakRRd3JDUkowdw?oc=5",
-     "source": "Forbes Brasil",
-     "published_at": "2026-08-14T12:00:00+00:00"
-    },
-    {
      "title": "Balde Cheio: programa da Embrapa ajuda pequenas propriedades a melhorar produção de leite",
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/14/balde-cheio-programa-da-embrapa-ajuda-pequenas-propriedades-a-melhorar-producao-de-leite.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-14T10:48:19"
     },
     {
-     "title": "Soja sobe em Chicago nesta 6ª, mas mercado aind se ajusta após semana volátil - noticiasagricolas.com.br",
+     "title": "Soja sobe em Chicago nesta 6ª, mas mercado aind se ajusta após semana volátil - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS3YyNFZZVlJOVHBpMjR2d0IxVWpTMVQ1UWtSNFg0Z3poUFQ0dFpmRXQ5N3VTMjdwdUpHX0JOSEl4OU9TQWR5bXp3bW5ZVi1RQnVfVFFxR0dRRWlaNE9vaS0zM2dzbVRIdmpvNVRjdlF3OVZQTVJUM0pUV3VDOHBQakc3WGZRZkxPRjhqNUlGeTVZRW1HYmV3VnhENUVYeVlKOFdUY3pHQVItRDg5bjNTR0ZvdzVjYWdNelV6YW1UaVpSSklCQXZBU0pUWmxtR3hvMHN4TdIB2gFBVV95cUxNb1pKRW9kaWpxcXJ3cnVZbXBac1B3SGo2cE10eTdPLXRILTBZWVVRbHJicTR2YW01WWYtVG1WYjhSWEFaTzhjWE1UUTFWMEJ3ZzIzMC1jUHRLY0d2eEVpSUlXbjluc3h2bmUtcDZLWk00NHNEZERWZEo0QTdBWDJSSDZGV2Q3MDdvcEg3ZmpQdXVERXAzZzF0eWZxUjdqOVVqYURNUVlueVM5WmVxLWhUOHprMW1DQ1RwLUI0TC1xT2tDTmRjSU1FTXdXaUtlTUNVbDZRNHVlLUVkZw?oc=5",
-     "source": "noticiasagricolas.com.br",
+     "source": "Notícias Agrícolas",
      "published_at": "2026-08-14T10:42:47+00:00"
     },
     {
@@ -600,6 +594,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/12/terremoto-afeta-exportacoes-de-cafe-da-colombia-e-ameaca-embarques-internacionais.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-12T16:19:19"
+    },
+    {
+     "title": "USDA reduz produtividade de soja e milho dos EUA, mas aumenta área da oleaginosa 26/27 - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUEVKRWJuRnZYMkViRUdDM1UxSi03dFJwTHpRNnota3pHOFVHdWdVYldsQ3BGQnkxekVSOGo2Uk91b0lFaTE0MWItcHg1Ync0SXRTN2hiMDB5NHpBYWtEeEtMUGFFNVVHZ3dYVGJPREdHZTR5NmpiRjNpWlczRUhmcWhVMGhEX3FYRDFkczl2TkEyQ2p1VUU1U3Q0YWNEVk5BSlVaVTE0YjdqN1JXWElRLTdSWWFHdkUzUHIxLUs3Rkc4QU84cWdZSW5uYzA5Rjd0cUV3bF9WdDlTZ3pmdW90aGNB0gHnAUFVX3lxTFBxU2Z6TVhwb1VrOUI1bHlTc2lndktad3pXNGkxeUlGMlBtd0xSSElDd2tzcTVuWm81TTdwNzJacjkyTEZseHRPVFJaUGt3ZkM2VERfejBwd1FFTjNrZjRhOVA1Vko5MWpCeHNHbkRTb0VMeHNTaFFNdW9aZ3NLOGhpYndIS1FoM2JGNUlwUTZSVkRBLWZBZXRqb0NDbWYzcEZJQ1gxMHFDdEYtcDZPRDk3RVFldFpkclhVZVozRWtWa1JMcHB2bFgtM3BBS3lQZVpsb3VkYl9IOVJlbFNFZ2VOajlSY2V0dw?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-12T16:05:43+00:00"
     }
    ],
    "failed": [

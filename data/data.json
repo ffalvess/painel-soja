@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15T15:14:29+00:00",
+ "generated_at": "2026-08-15T16:17:04+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-15T15:14:21+00:00",
+   "updated_at": "2026-08-15T16:16:56+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -215,15 +215,12 @@
       173825.0,
       173714.0,
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -241,7 +238,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-15T15:14:21+00:00",
+   "updated_at": "2026-08-15T16:16:56+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +249,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-15T15:14:25+00:00",
+   "updated_at": "2026-08-15T16:17:01+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,8 +410,32 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-15T15:14:29+00:00",
+   "updated_at": "2026-08-15T16:17:04+00:00",
    "items": [
+    {
+     "title": "Soja mais resistente a percevejos é identificada por pesquisadores brasileiros - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeUhaMWtfLWZaTGp4aWZabHJZUmxLWU1DUkk0bTIyelR5djlKa2ZTZDlZUEZ6cmlxVjZLYXFacWlqakcyQ0s3NURZZGFuMmwzN2lmUEVvb2xwa1hzbWhpZVpvWC1yajhfOWhwSHVUb1hwaWJCcWllc1ZKYUJhb0VNbW1XYngyR0hxVmdIWFdtQkNURlJYWVhJaFVkSzZLMUZjMnBJMGlVeC1ZVTE2RWg4c0FvNkRXVTFmZG9tbklR?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T16:05:00+00:00"
+    },
+    {
+     "title": "MP restringe socorro e empurra dívida rural para a Justiça",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/mp-restringe-socorro-e-empurra-divida-rural-para-a-justica/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T15:54:09+00:00"
+    },
+    {
+     "title": "Prêmio da soja chega a US$ 1,45 por bushel em Paranaguá em agosto - O Presente Rural",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTm1IODRUTVNYNjdwUmt4ZGR0c25nZ3NlWlBLdXlUYUotbFgzdGdKSVhsX1RlUExLTU5QcE9fbkVTNkh4amRhSURDem9uU3VjNDhmbTEtaDhuc1N6RlNMZlVBT2tNWEIwSE5UMVFQVVVHbVJVRi1TUTl1ZVJkbXRxam5KQmhzUGJBakFrX3RpRk5mZUVBLUJJTDR3?oc=5",
+     "source": "O Presente Rural",
+     "published_at": "2026-08-15T15:24:00+00:00"
+    },
+    {
+     "title": "Próximo presidente deve ampliar crédito e tecnologia no campo, defende Sistema OCB",
+     "link": "https://www.canalrural.com.br/politica/proximo-presidente-deve-ampliar-credito-e-tecnologia-no-campo-defende-sistema-ocb/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T15:01:00+00:00"
+    },
     {
      "title": "Frio retorna, chuva supera 100 mm e El Niño preocupa; veja a previsão para a segunda quinzena de agosto",
      "link": "https://www.canalrural.com.br/previsao-do-tempo/frio-retorna-chuva-supera-100-mm-e-el-nino-preocupa-veja-a-previsao-para-a-segunda-quinzena-de-agosto/",
@@ -440,10 +461,10 @@
      "published_at": "2026-08-15T13:54:00+00:00"
     },
     {
-     "title": "Soja, milho, algodão e sorgo levam safra a recorde de 360,8 milhões de toneladas - Gazeta de Toledo",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSjNKbmNRVTFOVlJQZk5feHdmRTBKQklkckxvYWJnUkJIaWV1OGh3Z1ptMTJDTnZRSXpNNGlWb2hIU2x4eTBmMm9WUDNMVEsyemZYSTl4cUFXOEdPVUllOUhsUlduUUVmMVVURl94dDFEcXJZOVVvalZzcW5nSmpZVEtrTmFmc05TX0p4dEExS1p2ZUEzOXBQUVU4XzMzay1pMDNHS1QtcU1Lb2ZB?oc=5",
-     "source": "Gazeta de Toledo",
-     "published_at": "2026-08-15T13:08:56+00:00"
+     "title": "Produtor segura a compra, e a carteira de sementes de soja da Boa Safra cai 12% - The AgriBiz",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObW1tRjUxRXlidk14d1B0LUI0WW9CVUEzaXRnbEVha25paklIUVZlOHZxZ3RUUl92djQ2SXA5ODl2RXhZUW9EVU9rMk5YVzRuWXQxaUdqLUg5NXA3dEFxQXhmT2lCQW9MOVlBbENhTmRqTThxZ1lqbjktMGwxS3hMSHU2T2pqRWgyUUoxbjY2Y1V2TGtnOVlSYUJBSXFVRTdJVXp2ZEtBMWdLbkd3ODlSSXluVmI?oc=5",
+     "source": "The AgriBiz",
+     "published_at": "2026-08-15T13:00:20+00:00"
     },
     {
      "title": "Futuro do agro, reis da soja e moratória: veja o novo Radar Rural - Canal Rural",
@@ -476,15 +497,9 @@
      "published_at": "2026-08-15T10:02:00+00:00"
     },
     {
-     "title": "Prêmio da soja chega a US$ 1,45 por bushel em Paranaguá em agosto - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTm1IODRUTVNYNjdwUmt4ZGR0c25nZ3NlWlBLdXlUYUotbFgzdGdKSVhsX1RlUExLTU5QcE9fbkVTNkh4amRhSURDem9uU3VjNDhmbTEtaDhuc1N6RlNMZlVBT2tNWEIwSE5UMVFQVVVHbVJVRi1TUTl1ZVJkbXRxam5KQmhzUGJBakFrX3RpRk5mZUVBLUJJTDR3?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-08-15T09:49:28+00:00"
-    },
-    {
-     "title": "Preço da soja encerra a semana em alta no Brasil, acompanhando cotações internacionais - globorural.globo.com",
+     "title": "Preço da soja encerra a semana em alta no Brasil, acompanhando cotações internacionais - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTmYxTDBVUEhxVXNkYjk5a0hDM2tUSFJBOElTcEt0MU85Z0xEd1RQWmN1LXNtdG5JZTJ3X1RrckZQemZDT1JrTi1uS25fNmRTVkpJUE91bzd0WUtHLWtQS09IUVFKM01hX0lYUHc0QTBGdUFVdDMtdGR5UVBZYUxfZExfdGxZUnpoX3JOdFVDQV8xV2l6eFlwbWxoR3JMdktqSFd6YjBwek9saHJjTkVscG8ta0xXaWRjMXIwanR3NVpsYmVRVkRkajg3WjlkUWRSWEdMaVZOdUxsTkVZRUHSAewBQVVfeXFMTXpucU9nYjVxQTA1bTV0TEtFTlBWNlNLTC1EOFdUOV9KRG5lMDhUZU5xR1RFUkU5NDdyS0pfS3piUmpwc040dklOdUxVQ01kTzlmNlQ1NVFzdllyaWx2QnM4MzNGQ0pCUUxjZTlKTk1LQ1Q2QTFPQS1zOGptOVlVeTNMbE9uSjd2cDdoaU1WRUQ1NzlGYnd4SFA2VnhQUDRZRnFBcmd2akFMRm1ja2cwMWNOYmJCbFMzcmZJVHlPTXNyVUhJamNaTENCYXhQOXdrVTVSN1FEQUdKUWtTX3BtV2luUzNaQlFuOFNMN0E?oc=5",
-     "source": "globorural.globo.com",
+     "source": "Globo Rural",
      "published_at": "2026-08-15T09:05:08+00:00"
     },
     {
@@ -492,12 +507,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/15/china-tenta-reduzir-dependencia-de-alimentos-importados.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-15T08:00:13"
-    },
-    {
-     "title": "Boletim semanal de preços: arroz sobe 3,24%, soja e milho avançam na semana - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcFJ3cW1tcmp4bDRaZXh2cXRxa012R2FlTDhvWFhsTktDT0ZUYXBlMGxmRHpsTVRQRlItbEliOGlXX3V2MXRVYUlVMTRlcmVpck1Yd0lsd3JlUzgyNXRwTUFfdnMyelVVd2Z5cmpfNm5IX2JaOVI2blJzYVZjY3FWN1FlMTE0blVFV0JSby16OTFLTDdpcWVEV3k1SDFXOTU2NGY5UmV5czlEMHozZXVrUlZwSnhmMTRIMjZnNlpaazBPQQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-15T01:42:00+00:00"
     },
     {
      "title": "Berkshire zera posição na Constellation Brands no segundo trimestre",
@@ -510,18 +519,6 @@
      "link": "https://www.canalrural.com.br/economia/ibp-destaca-descoberta-da-petrobras-na-margem-equatorial/",
      "source": "Canal Rural",
      "published_at": "2026-08-15T00:25:20+00:00"
-    },
-    {
-     "title": "Calor e chuvas intensas são esperados em Santa Catarina nos próximos meses",
-     "link": "https://www.canalrural.com.br/videos/calor-e-chuvas-intensas-sao-esperados-em-santa-catarina-nos-proximos-meses/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-15T00:05:35+00:00"
-    },
-    {
-     "title": "Governo estabelece limites e bancos para renegociação de dívidas rurais",
-     "link": "https://www.canalrural.com.br/videos/governo-estabelece-limites-e-bancos-para-renegociacao-de-dividas-rurais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T23:15:37+00:00"
     },
     {
      "title": "Balde Cheio: programa da Embrapa ajuda pequenas propriedades a melhorar produção de leite",
@@ -578,9 +575,9 @@
      "published_at": "2026-08-12T19:18:51+00:00"
     },
     {
-     "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - Migalhas",
+     "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - migalhas.com.br",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSl95WnkyNFJLdG9WLWoyX1hKTnRFQ1VBem1UX19haktzTTRWbmxLS1lUWW9vYTFNREdDazBHXzFFM1hyZFhnSmxhdkhNUm0tRHJINmx1c0lGakRaVUFsSmRKRGhjcnh4cWwtMmJtZVFMV3dRX2RxbWJvbG94NGlhSWdZZWRUZ1Y4TURWSkxNSXdtTEEzNnplTTd0d3FvQmdSYWJrekRlLTlsU2hqaHM4Q0tB?oc=5",
-     "source": "Migalhas",
+     "source": "migalhas.com.br",
      "published_at": "2026-08-12T17:44:48+00:00"
     },
     {

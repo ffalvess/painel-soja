@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15T13:25:20+00:00",
+ "generated_at": "2026-08-15T14:15:55+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-15T13:25:15+00:00",
+   "updated_at": "2026-08-15T14:15:47+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -238,7 +238,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-15T13:25:15+00:00",
+   "updated_at": "2026-08-15T14:15:47+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -249,7 +249,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-15T13:25:18+00:00",
+   "updated_at": "2026-08-15T14:15:51+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -410,12 +410,18 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-15T13:25:20+00:00",
+   "updated_at": "2026-08-15T14:15:55+00:00",
    "items": [
     {
-     "title": "Futuro do agro, reis da soja e moratória: veja o novo Radar Rural - Canal Rural",
+     "title": "Consultoria vê mudança no fluxo global da soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS3JEY2Y1dHktWl9xQkI0bGc0bmwxV0VYWVR6dF8tMVk4LWxkUFlMYWRkVjFmQ0NNdjRPOFRteHJJOWVKeHpmT2g3d05CaHBOVHEyNlMtaGhEOHRIU1dtbXZvb25Ybkt6V2ZRLTUwd2VvNWNQV29XdjljakJHcXczaXBvZTdsd0hOcTlwcVFMT0dzOEhVZU91TXJNUQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-15T13:54:00+00:00"
+    },
+    {
+     "title": "Futuro do agro, reis da soja e moratória: veja o novo Radar Rural - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNl91S2RrTHhxb3dzU1hDNzNaWVZpbUxBbDR4YUFkRlB6QTdEb2ZZZ1AxYU5Ta3o5NHhuTEVza0E3a0RNa2pKbTBWYUNXbENEN09NTkFBYVJ6czhUVlU1bHJTQU5pQ1BudzFPdFRIQTNGbDFqY1AxQUc5X2NJQnBpWER3aHlyX1IzU2txVlhhTEhZUldYYXZGaGpDLVV5YzlNMEhWZktMdjJ4VzNaZnBKeXZwNDJPaFgyblE?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-15T12:03:00+00:00"
     },
     {
@@ -459,12 +465,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/15/china-tenta-reduzir-dependencia-de-alimentos-importados.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-15T08:00:13"
-    },
-    {
-     "title": "EUDR 2026: regra da UE aumenta exigência de rastreabilidade para soja, café e carne - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOFgxdXJNdU5FOFA0NG9jOGVSTjV2N2lEM0hqUkQzSXdmMDJoRm05dlRYcGdVTlRzbXVROXhsRnRGbXdQWmpiaERCWTFYMFUxOHVwUlBzMjN2amx4dDA0OWdkTEd0dXRJQ3FkeDFNUGR6UzhzVGpKSDMzdU14c0FzMi02R1FaY3BlNVQyMmxCTXRXVGh3WHR0TXplLVM5Y2htNUl1Rm1Bd3NKT20tY2ZyU09GMklDUG5jMzVYTFdvdVVxdVkya3BWa0l4Z3U?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-15T01:43:00+00:00"
     },
     {
      "title": "Boletim semanal de preços: arroz sobe 3,24%, soja e milho avançam na semana - Agrolink",
@@ -515,9 +515,9 @@
      "published_at": "2026-08-14T22:55:00+00:00"
     },
     {
-     "title": "Mercado da soja: cotações sobem com dólar acima de R$ 5,20 e negócios ganham ritmo - Canal Rural",
+     "title": "Mercado da soja: cotações sobem com dólar acima de R$ 5,20 e negócios ganham ritmo - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUENIbEhYQVljb2pCci1wb3FoRmQ4U1NCNV84bU1VNU1WbEVzMnJOdEZPT25zWTBBZzZvSlZ3TEZkYXBjQW9kdk5kc1kzTnpZWHNZb05CeHpteGI1UDQ5Tzd4eUdrUnRmXzdzT2pDYjJYd2hzbk9Qd3hRSWtTWTFSa1NDVUFJaDlqaUR4RjFjTWJOajl4SzRuYlZvWXJ2MWp5SnF2Ql82UnQ5RGdHa2xMWjNpSDh3aU5KSDByVGk5RQ?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-14T20:42:15+00:00"
     },
     {

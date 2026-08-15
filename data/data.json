@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15T20:15:34+00:00",
+ "generated_at": "2026-08-15T21:14:52+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-15T20:15:20+00:00",
+   "updated_at": "2026-08-15T21:14:44+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-15T20:15:20+00:00",
+   "updated_at": "2026-08-15T21:14:44+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-15T20:15:24+00:00",
+   "updated_at": "2026-08-15T21:14:49+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,8 +413,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-15T20:15:34+00:00",
+   "updated_at": "2026-08-15T21:14:52+00:00",
    "items": [
+    {
+     "title": "Deriva de herbicidas causa prejuízos de R$ 210 milhões, mostra pesquisa",
+     "link": "https://www.canalrural.com.br/agricultura/deriva-de-herbicidas-causa-prejuizos-de-r-210-milhoes-mostra-pesquisa/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T20:25:45+00:00"
+    },
+    {
+     "title": "Marcação a fogo gera 18% de erro na identificação de bovinos, aponta estudo",
+     "link": "https://www.canalrural.com.br/pecuaria/marcacao-a-fogo-gera-18-de-erro-na-identificacao-de-bovinos-aponta-estudo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T20:05:00+00:00"
+    },
     {
      "title": "Unesp mapeia genoma de peixe brasileiro e abre caminho para avanço da aquicultura",
      "link": "https://www.canalrural.com.br/diversos/unesp-mapeia-genoma-de-peixe-brasileiro-e-abre-caminho-para-avanco-da-aquicultura/",
@@ -426,6 +438,12 @@
      "link": "https://www.canalrural.com.br/opiniao-noticias/a-guerra-no-mar-negro-pode-chegar-a-mesa-do-brasileiro/",
      "source": "Canal Rural",
      "published_at": "2026-08-15T16:30:22+00:00"
+    },
+    {
+     "title": "Soja mais resistente a percevejos é identificada por pesquisadores brasileiros - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeUhaMWtfLWZaTGp4aWZabHJZUmxLWU1DUkk0bTIyelR5djlKa2ZTZDlZUEZ6cmlxVjZLYXFacWlqakcyQ0s3NURZZGFuMmwzN2lmUEVvb2xwa1hzbWhpZVpvWC1yajhfOWhwSHVUb1hwaWJCcWllc1ZKYUJhb0VNbW1XYngyR0hxVmdIWFdtQkNURlJYWVhJaFVkSzZLMUZjMnBJMGlVeC1ZVTE2RWg4c0FvNkRXVTFmZG9tbklR?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T16:05:00+00:00"
     },
     {
      "title": "Soja mais resistente a percevejos é identificada por pesquisadores brasileiros",
@@ -440,6 +458,12 @@
      "published_at": "2026-08-15T15:54:09+00:00"
     },
     {
+     "title": "Prêmio da soja chega a US$ 1,45 por bushel em Paranaguá em agosto - O Presente Rural",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTm1IODRUTVNYNjdwUmt4ZGR0c25nZ3NlWlBLdXlUYUotbFgzdGdKSVhsX1RlUExLTU5QcE9fbkVTNkh4amRhSURDem9uU3VjNDhmbTEtaDhuc1N6RlNMZlVBT2tNWEIwSE5UMVFQVVVHbVJVRi1TUTl1ZVJkbXRxam5KQmhzUGJBakFrX3RpRk5mZUVBLUJJTDR3?oc=5",
+     "source": "O Presente Rural",
+     "published_at": "2026-08-15T15:24:00+00:00"
+    },
+    {
      "title": "Próximo presidente deve ampliar crédito e tecnologia no campo, defende Sistema OCB",
      "link": "https://www.canalrural.com.br/politica/proximo-presidente-deve-ampliar-credito-e-tecnologia-no-campo-defende-sistema-ocb/",
      "source": "Canal Rural",
@@ -452,10 +476,34 @@
      "published_at": "2026-08-15T14:45:15+00:00"
     },
     {
+     "title": "Conheça os \"Reis da Soja\", os municípios que mais produzem o grão no Brasil; líder supera 2 milhões de toneladas - CompreRural",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWlB2dGNjNGFZR1NCRUVpSTB1SEVqUTNfSTFHWjlpSUlzc0NjeUUxM01URDhYQzRTOHhhVWZmMTdaZlBtUEU2Zk5fejJZNlRNaVhVMml5YUFncVVHRFZxbFNtZTk0Zkl2djFWSXh6OFBHd19sMjUzU05uMFJUai1td2dqeUxzem00cDViMHdsazB1XzNBQjlmVS04RWxHSGZxNzJIVV9SZ1dOQl9nRWFkZDZhV3R3UndQX2V2ckhiZGh1dmFEYjhiRjNDdzVKVC1CVVRv?oc=5",
+     "source": "CompreRural",
+     "published_at": "2026-08-15T14:30:00+00:00"
+    },
+    {
      "title": "Tecnologia brasileira transforma madeira em fibra para alimentação de suínos",
      "link": "https://www.canalrural.com.br/aves-e-suinos/tecnologia-brasileira-transforma-madeira-em-fibra-para-alimentacao-de-suinos/",
      "source": "Canal Rural",
      "published_at": "2026-08-15T14:04:00+00:00"
+    },
+    {
+     "title": "Consultoria vê mudança no fluxo global da soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS3JEY2Y1dHktWl9xQkI0bGc0bmwxV0VYWVR6dF8tMVk4LWxkUFlMYWRkVjFmQ0NNdjRPOFRteHJJOWVKeHpmT2g3d05CaHBOVHEyNlMtaGhEOHRIU1dtbXZvb25Ybkt6V2ZRLTUwd2VvNWNQV29XdjljakJHcXczaXBvZTdsd0hOcTlwcVFMT0dzOEhVZU91TXJNUQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-15T13:54:00+00:00"
+    },
+    {
+     "title": "Soja, milho, algodão e sorgo levam safra a recorde de 360,8 milhões de toneladas - Gazeta de Toledo",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSjNKbmNRVTFOVlJQZk5feHdmRTBKQklkckxvYWJnUkJIaWV1OGh3Z1ptMTJDTnZRSXpNNGlWb2hIU2x4eTBmMm9WUDNMVEsyemZYSTl4cUFXOEdPVUllOUhsUlduUUVmMVVURl94dDFEcXJZOVVvalZzcW5nSmpZVEtrTmFmc05TX0p4dEExS1p2ZUEzOXBQUVU4XzMzay1pMDNHS1QtcU1Lb2ZB?oc=5",
+     "source": "Gazeta de Toledo",
+     "published_at": "2026-08-15T13:08:56+00:00"
+    },
+    {
+     "title": "Produtor segura a compra, e a carteira de sementes de soja da Boa Safra cai 12% - The AgriBiz",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObW1tRjUxRXlidk14d1B0LUI0WW9CVUEzaXRnbEVha25paklIUVZlOHZxZ3RUUl92djQ2SXA5ODl2RXhZUW9EVU9rMk5YVzRuWXQxaUdqLUg5NXA3dEFxQXhmT2lCQW9MOVlBbENhTmRqTThxZ1lqbjktMGwxS3hMSHU2T2pqRWgyUUoxbjY2Y1V2TGtnOVlSYUJBSXFVRTdJVXp2ZEtBMWdLbkd3ODlSSXluVmI?oc=5",
+     "source": "The AgriBiz",
+     "published_at": "2026-08-15T13:00:20+00:00"
     },
     {
      "title": "Futuro do agro, reis da soja e moratória: veja o novo Radar Rural",
@@ -464,16 +512,10 @@
      "published_at": "2026-08-15T12:03:00+00:00"
     },
     {
-     "title": "Mercado passa a embutir prêmio eleitoral no real com avanço da campanha",
-     "link": "https://www.canalrural.com.br/economia/mercado-passa-a-embutir-premio-eleitoral-no-real-com-avanco-da-campanha/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-15T11:42:24+00:00"
-    },
-    {
-     "title": "ITR 2026 começa com mudanças; erro no cadastro pode travar declaração de imóvel rural",
-     "link": "https://www.canalrural.com.br/agricultura/itr-2026-comeca-com-mudancas-erro-no-cadastro-pode-travar-declaracao-de-imovel-rural/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-15T11:01:00+00:00"
+     "title": "Preço da soja encerra a semana em alta no Brasil, acompanhando cotações internacionais - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTmYxTDBVUEhxVXNkYjk5a0hDM2tUSFJBOElTcEt0MU85Z0xEd1RQWmN1LXNtdG5JZTJ3X1RrckZQemZDT1JrTi1uS25fNmRTVkpJUE91bzd0WUtHLWtQS09IUVFKM01hX0lYUHc0QTBGdUFVdDMtdGR5UVBZYUxfZExfdGxZUnpoX3JOdFVDQV8xV2l6eFlwbWxoR3JMdktqSFd6YjBwek9saHJjTkVscG8ta0xXaWRjMXIwanR3NVpsYmVRVkRkajg3WjlkUWRSWEdMaVZOdUxsTkVZRUHSAewBQVVfeXFMTXpucU9nYjVxQTA1bTV0TEtFTlBWNlNLTC1EOFdUOV9KRG5lMDhUZU5xR1RFUkU5NDdyS0pfS3piUmpwc040dklOdUxVQ01kTzlmNlQ1NVFzdllyaWx2QnM4MzNGQ0pCUUxjZTlKTk1LQ1Q2QTFPQS1zOGptOVlVeTNMbE9uSjd2cDdoaU1WRUQ1NzlGYnd4SFA2VnhQUDRZRnFBcmd2akFMRm1ja2cwMWNOYmJCbFMzcmZJVHlPTXNyVUhJamNaTENCYXhQOXdrVTVSN1FEQUdKUWtTX3BtV2luUzNaQlFuOFNMN0E?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-15T09:05:08+00:00"
     },
     {
      "title": "China tenta reduzir dependência de alimentos importados; o que isso significa para o agro brasileiro",
@@ -524,32 +566,37 @@
      "published_at": "2026-08-13T05:00:10"
     },
     {
+     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
+     "source": "stf noticias",
+     "published_at": "2026-08-12T22:52:00+00:00"
+    },
+    {
+     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - cnnbrasil.com.br",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
+     "source": "cnnbrasil.com.br",
+     "published_at": "2026-08-12T19:18:51+00:00"
+    },
+    {
+     "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - Migalhas",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSl95WnkyNFJLdG9WLWoyX1hKTnRFQ1VBem1UX19haktzTTRWbmxLS1lUWW9vYTFNREdDazBHXzFFM1hyZFhnSmxhdkhNUm0tRHJINmx1c0lGakRaVUFsSmRKRGhjcnh4cWwtMmJtZVFMV3dRX2RxbWJvbG94NGlhSWdZZWRUZ1Y4TURWSkxNSXdtTEEzNnplTTd0d3FvQmdSYWJrekRlLTlsU2hqaHM4Q0tB?oc=5",
+     "source": "Migalhas",
+     "published_at": "2026-08-12T17:44:48+00:00"
+    },
+    {
      "title": "Terremoto afeta exportações de café da Colômbia e ameaça embarques internacionais",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/12/terremoto-afeta-exportacoes-de-cafe-da-colombia-e-ameaca-embarques-internacionais.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-12T16:19:19"
     },
     {
-     "title": "Crise no campo: pedidos de recuperação judicial saltam entre produtores rurais",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/12/recuperacao-judicial-agronegocio.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-12T11:25:43"
-    },
-    {
-     "title": "Como estoques recordes e avanço do agro brasileiro podem reduzir impacto do 'super El Niño' no mundo",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/12/como-estoques-recordes-e-avanco-do-agro-brasileiro-podem-reduzir-impacto-do-super-el-nino-no-mundo.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-12T08:03:51"
-    },
-    {
-     "title": "Senado aprova linha de crédito para indústria de fertilizantes, mas sem estipular valores",
-     "link": "https://g1.globo.com/politica/noticia/2026/08/11/senado-aprova-linha-de-credito-para-industria-de-fertilizantes-mas-sem-estipular-valores.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-11T21:21:24"
+     "title": "USDA reduz produtividade de soja e milho dos EUA, mas aumenta área da oleaginosa 26/27 - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUEVKRWJuRnZYMkViRUdDM1UxSi03dFJwTHpRNnota3pHOFVHdWdVYldsQ3BGQnkxekVSOGo2Uk91b0lFaTE0MWItcHg1Ync0SXRTN2hiMDB5NHpBYWtEeEtMUGFFNVVHZ3dYVGJPREdHZTR5NmpiRjNpWlczRUhmcWhVMGhEX3FYRDFkczl2TkEyQ2p1VUU1U3Q0YWNEVk5BSlVaVTE0YjdqN1JXWElRLTdSWWFHdkUzUHIxLUs3Rkc4QU84cWdZSW5uYzA5Rjd0cUV3bF9WdDlTZ3pmdW90aGNB0gHnAUFVX3lxTFBxU2Z6TVhwb1VrOUI1bHlTc2lndktad3pXNGkxeUlGMlBtd0xSSElDd2tzcTVuWm81TTdwNzJacjkyTEZseHRPVFJaUGt3ZkM2VERfejBwd1FFTjNrZjRhOVA1Vko5MWpCeHNHbkRTb0VMeHNTaFFNdW9aZ3NLOGhpYndIS1FoM2JGNUlwUTZSVkRBLWZBZXRqb0NDbWYzcEZJQ1gxMHFDdEYtcDZPRDk3RVFldFpkclhVZVozRWtWa1JMcHB2bFgtM3BBS3lQZVpsb3VkYl9IOVJlbFNFZ2VOajlSY2V0dw?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-12T16:05:43+00:00"
     }
    ],
    "failed": [
-    "Google News: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=soja+OR+%22mercado+de+gr%C3%A3os%22&hl=pt-BR&gl=BR&ceid=BR:pt-419",
     "Notícias Agrícolas: 404 Client Error: Not Found for url: https://www.noticiasagricolas.com.br/rss/noticias"
    ]
   }

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15T21:14:52+00:00",
+ "generated_at": "2026-08-15T22:14:32+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-15T21:14:44+00:00",
+   "updated_at": "2026-08-15T22:14:27+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-15T21:14:44+00:00",
+   "updated_at": "2026-08-15T22:14:27+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-15T21:14:49+00:00",
+   "updated_at": "2026-08-15T22:14:30+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,7 +413,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-15T21:14:52+00:00",
+   "updated_at": "2026-08-15T22:14:32+00:00",
    "items": [
     {
      "title": "Deriva de herbicidas causa prejuízos de R$ 210 milhões, mostra pesquisa",
@@ -572,9 +572,9 @@
      "published_at": "2026-08-12T22:52:00+00:00"
     },
     {
-     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - cnnbrasil.com.br",
+     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
-     "source": "cnnbrasil.com.br",
+     "source": "CNN Brasil",
      "published_at": "2026-08-12T19:18:51+00:00"
     },
     {

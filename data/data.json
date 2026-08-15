@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15T18:19:20+00:00",
+ "generated_at": "2026-08-15T19:16:49+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-15T18:19:11+00:00",
+   "updated_at": "2026-08-15T19:16:41+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-15T18:19:11+00:00",
+   "updated_at": "2026-08-15T19:16:42+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-15T18:19:17+00:00",
+   "updated_at": "2026-08-15T19:16:46+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,8 +413,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-15T18:19:20+00:00",
+   "updated_at": "2026-08-15T19:16:49+00:00",
    "items": [
+    {
+     "title": "Unesp mapeia genoma de peixe brasileiro e abre caminho para avanço da aquicultura",
+     "link": "https://www.canalrural.com.br/diversos/unesp-mapeia-genoma-de-peixe-brasileiro-e-abre-caminho-para-avanco-da-aquicultura/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T18:06:00+00:00"
+    },
     {
      "title": "A guerra no Mar Negro pode chegar à mesa do brasileiro",
      "link": "https://www.canalrural.com.br/opiniao-noticias/a-guerra-no-mar-negro-pode-chegar-a-mesa-do-brasileiro/",
@@ -476,16 +482,16 @@
      "published_at": "2026-08-15T13:54:00+00:00"
     },
     {
-     "title": "Produtor segura a compra, e a carteira de sementes de soja da Boa Safra cai 12% - The AgriBiz",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObW1tRjUxRXlidk14d1B0LUI0WW9CVUEzaXRnbEVha25paklIUVZlOHZxZ3RUUl92djQ2SXA5ODl2RXhZUW9EVU9rMk5YVzRuWXQxaUdqLUg5NXA3dEFxQXhmT2lCQW9MOVlBbENhTmRqTThxZ1lqbjktMGwxS3hMSHU2T2pqRWgyUUoxbjY2Y1V2TGtnOVlSYUJBSXFVRTdJVXp2ZEtBMWdLbkd3ODlSSXluVmI?oc=5",
-     "source": "The AgriBiz",
-     "published_at": "2026-08-15T13:00:20+00:00"
+     "title": "Soja, milho, algodão e sorgo levam safra a recorde de 360,8 milhões de toneladas - Gazeta de Toledo",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSjNKbmNRVTFOVlJQZk5feHdmRTBKQklkckxvYWJnUkJIaWV1OGh3Z1ptMTJDTnZRSXpNNGlWb2hIU2x4eTBmMm9WUDNMVEsyemZYSTl4cUFXOEdPVUllOUhsUlduUUVmMVVURl94dDFEcXJZOVVvalZzcW5nSmpZVEtrTmFmc05TX0p4dEExS1p2ZUEzOXBQUVU4XzMzay1pMDNHS1QtcU1Lb2ZB?oc=5",
+     "source": "Gazeta de Toledo",
+     "published_at": "2026-08-15T13:08:56+00:00"
     },
     {
-     "title": "Futuro do agro, reis da soja e moratória: veja o novo Radar Rural - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNl91S2RrTHhxb3dzU1hDNzNaWVZpbUxBbDR4YUFkRlB6QTdEb2ZZZ1AxYU5Ta3o5NHhuTEVza0E3a0RNa2pKbTBWYUNXbENEN09NTkFBYVJ6czhUVlU1bHJTQU5pQ1BudzFPdFRIQTNGbDFqY1AxQUc5X2NJQnBpWER3aHlyX1IzU2txVlhhTEhZUldYYXZGaGpDLVV5YzlNMEhWZktMdjJ4VzNaZnBKeXZwNDJPaFgyblE?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-15T12:03:00+00:00"
+     "title": "Produtor segura a compra, e a carteira de sementes de soja da Boa Safra cai 12% - theagribiz.com",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObW1tRjUxRXlidk14d1B0LUI0WW9CVUEzaXRnbEVha25paklIUVZlOHZxZ3RUUl92djQ2SXA5ODl2RXhZUW9EVU9rMk5YVzRuWXQxaUdqLUg5NXA3dEFxQXhmT2lCQW9MOVlBbENhTmRqTThxZ1lqbjktMGwxS3hMSHU2T2pqRWgyUUoxbjY2Y1V2TGtnOVlSYUJBSXFVRTdJVXp2ZEtBMWdLbkd3ODlSSXluVmI?oc=5",
+     "source": "theagribiz.com",
+     "published_at": "2026-08-15T13:00:20+00:00"
     },
     {
      "title": "Futuro do agro, reis da soja e moratória: veja o novo Radar Rural",
@@ -506,15 +512,9 @@
      "published_at": "2026-08-15T11:01:00+00:00"
     },
     {
-     "title": "Após superar luto, produtora amplia granja e prepara filho para sucessão",
-     "link": "https://www.canalrural.com.br/aves-e-suinos/apos-superar-luto-produtora-amplia-granja-e-prepara-filho-para-sucessao/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-15T10:02:00+00:00"
-    },
-    {
-     "title": "Preço da soja encerra a semana em alta no Brasil, acompanhando cotações internacionais - Globo Rural",
+     "title": "Preço da soja encerra a semana em alta no Brasil, acompanhando cotações internacionais - globorural.globo.com",
      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTmYxTDBVUEhxVXNkYjk5a0hDM2tUSFJBOElTcEt0MU85Z0xEd1RQWmN1LXNtdG5JZTJ3X1RrckZQemZDT1JrTi1uS25fNmRTVkpJUE91bzd0WUtHLWtQS09IUVFKM01hX0lYUHc0QTBGdUFVdDMtdGR5UVBZYUxfZExfdGxZUnpoX3JOdFVDQV8xV2l6eFlwbWxoR3JMdktqSFd6YjBwek9saHJjTkVscG8ta0xXaWRjMXIwanR3NVpsYmVRVkRkajg3WjlkUWRSWEdMaVZOdUxsTkVZRUHSAewBQVVfeXFMTXpucU9nYjVxQTA1bTV0TEtFTlBWNlNLTC1EOFdUOV9KRG5lMDhUZU5xR1RFUkU5NDdyS0pfS3piUmpwc040dklOdUxVQ01kTzlmNlQ1NVFzdllyaWx2QnM4MzNGQ0pCUUxjZTlKTk1LQ1Q2QTFPQS1zOGptOVlVeTNMbE9uSjd2cDdoaU1WRUQ1NzlGYnd4SFA2VnhQUDRZRnFBcmd2akFMRm1ja2cwMWNOYmJCbFMzcmZJVHlPTXNyVUhJamNaTENCYXhQOXdrVTVSN1FEQUdKUWtTX3BtV2luUzNaQlFuOFNMN0E?oc=5",
-     "source": "Globo Rural",
+     "source": "globorural.globo.com",
      "published_at": "2026-08-15T09:05:08+00:00"
     },
     {
@@ -572,9 +572,9 @@
      "published_at": "2026-08-12T22:52:00+00:00"
     },
     {
-     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - cnnbrasil.com.br",
+     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
-     "source": "cnnbrasil.com.br",
+     "source": "CNN Brasil",
      "published_at": "2026-08-12T19:18:51+00:00"
     },
     {

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15T12:25:00+00:00",
+ "generated_at": "2026-08-15T13:25:20+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-15T12:24:51+00:00",
+   "updated_at": "2026-08-15T13:25:15+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -215,15 +215,12 @@
       173825.0,
       173714.0,
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -241,7 +238,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-15T12:24:51+00:00",
+   "updated_at": "2026-08-15T13:25:15+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +249,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-15T12:24:56+00:00",
+   "updated_at": "2026-08-15T13:25:18+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -276,21 +273,21 @@
      ],
      "tmax": [
       36.3,
-      37.0,
-      37.1,
+      36.7,
+      36.9,
+      36.6,
       36.7,
       37.0,
-      37.4,
       36.9
      ],
      "tmin": [
-      20.6,
-      22.3,
+      20.3,
       22.5,
+      21.9,
       21.7,
-      23.9,
-      22.5,
-      25.3
+      23.0,
+      22.7,
+      24.2
      ]
     },
     {
@@ -314,22 +311,22 @@
       0.0
      ],
      "tmax": [
-      35.5,
+      36.0,
+      36.0,
       36.1,
-      36.3,
-      35.8,
-      35.9,
-      36.5,
+      35.7,
+      36.1,
+      36.4,
       36.5
      ],
      "tmin": [
-      21.4,
+      21.0,
       21.5,
-      21.2,
-      20.8,
-      22.2,
-      21.9,
-      24.6
+      20.5,
+      20.5,
+      21.8,
+      22.5,
+      23.2
      ]
     },
     {
@@ -353,22 +350,22 @@
       0.0
      ],
      "tmax": [
-      33.6,
-      34.4,
       33.4,
+      34.3,
+      33.1,
+      32.9,
       33.3,
-      33.4,
-      34.7,
+      34.3,
       31.1
      ],
      "tmin": [
-      19.5,
-      21.2,
-      22.4,
+      19.0,
+      21.4,
       22.1,
-      21.3,
-      21.8,
-      23.7
+      21.4,
+      21.1,
+      21.4,
+      22.9
      ]
     },
     {
@@ -383,7 +380,7 @@
       "2026-08-21"
      ],
      "precip": [
-      0.1,
+      0.0,
       0.0,
       0.0,
       0.0,
@@ -393,27 +390,27 @@
      ],
      "tmax": [
       32.8,
-      35.2,
-      35.9,
-      36.1,
-      34.3,
-      27.4,
+      34.9,
+      35.4,
+      35.8,
+      35.7,
+      23.7,
       24.8
      ],
      "tmin": [
-      19.4,
+      19.3,
+      20.6,
+      20.6,
       20.8,
-      20.8,
-      20.8,
-      20.0,
-      17.2,
+      20.7,
+      16.3,
       14.1
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-15T12:25:00+00:00",
+   "updated_at": "2026-08-15T13:25:20+00:00",
    "items": [
     {
      "title": "Futuro do agro, reis da soja e moratória: veja o novo Radar Rural - Canal Rural",
@@ -512,9 +509,9 @@
      "published_at": "2026-08-14T23:15:12+00:00"
     },
     {
-     "title": "Soja sobe em Chicago com expectativa de compras chinesas - veronoticias.com",
+     "title": "Soja sobe em Chicago com expectativa de compras chinesas - Vero Notícias",
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQXy1PS2NjN1RoRGVScHp2QzZiVjlSWkR4U3JYSTV0bWFqUnc5bTZ0NlVFTmtOMFVwUm12Tm4xTUpSTEd3b0xpWF9LTHc5T0NVMVljNmdfNXlDMnNNUTgybGpma0Q1NlY0TEFuQjZTNERpVHpWU1hnX0ZDaEF3YjJ3a0k4T1hvdTY1dWNmSXVNQ2IxNUhHUkE?oc=5",
-     "source": "veronoticias.com",
+     "source": "Vero Notícias",
      "published_at": "2026-08-14T22:55:00+00:00"
     },
     {

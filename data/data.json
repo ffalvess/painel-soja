@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15T07:24:31+00:00",
+ "generated_at": "2026-08-15T08:20:15+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-15T07:24:26+00:00",
+   "updated_at": "2026-08-15T08:20:08+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-15T07:24:26+00:00",
+   "updated_at": "2026-08-15T08:20:08+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-15T07:24:29+00:00",
+   "updated_at": "2026-08-15T08:20:13+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,8 +413,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-15T07:24:31+00:00",
+   "updated_at": "2026-08-15T08:20:15+00:00",
    "items": [
+    {
+     "title": "China tenta reduzir dependência de alimentos importados; o que isso significa para o agro brasileiro",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/15/china-tenta-reduzir-dependencia-de-alimentos-importados.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-15T08:00:13"
+    },
     {
      "title": "EUDR 2026: regra da UE aumenta exigência de rastreabilidade para soja, café e carne - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOFgxdXJNdU5FOFA0NG9jOGVSTjV2N2lEM0hqUkQzSXdmMDJoRm05dlRYcGdVTlRzbXVROXhsRnRGbXdQWmpiaERCWTFYMFUxOHVwUlBzMjN2amx4dDA0OWdkTEd0dXRJQ3FkeDFNUGR6UzhzVGpKSDMzdU14c0FzMi02R1FaY3BlNVQyMmxCTXRXVGh3WHR0TXplLVM5Y2htNUl1Rm1Bd3NKT20tY2ZyU09GMklDUG5jMzVYTFdvdVVxdVkya3BWa0l4Z3U?oc=5",
@@ -488,9 +494,9 @@
      "published_at": "2026-08-14T23:05:18+00:00"
     },
     {
-     "title": "Soja sobe em Chicago com expectativa de compras chinesas - Vero Notícias",
+     "title": "Soja sobe em Chicago com expectativa de compras chinesas - veronoticias.com",
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQXy1PS2NjN1RoRGVScHp2QzZiVjlSWkR4U3JYSTV0bWFqUnc5bTZ0NlVFTmtOMFVwUm12Tm4xTUpSTEd3b0xpWF9LTHc5T0NVMVljNmdfNXlDMnNNUTgybGpma0Q1NlY0TEFuQjZTNERpVHpWU1hnX0ZDaEF3YjJ3a0k4T1hvdTY1dWNmSXVNQ2IxNUhHUkE?oc=5",
-     "source": "Vero Notícias",
+     "source": "veronoticias.com",
      "published_at": "2026-08-14T22:55:00+00:00"
     },
     {
@@ -500,27 +506,27 @@
      "published_at": "2026-08-14T22:43:34+00:00"
     },
     {
-     "title": "Caramuru eleva lucro no 2º trimestre, mas margens recuam em soja e biodiesel - Canal Rural",
+     "title": "Caramuru eleva lucro no 2º trimestre, mas margens recuam em soja e biodiesel - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR3RDMmJHOEpnTzZGeWdlQWZIWHFfcXpha1VVMlkxYVFVS19DanVSaEEyeHI5YVN1aFRLQ2dnZkRGS0otX25EY2s5Q0t0QkdyaGNweUZPZnRGUlFPUGxZcDdobDZSTTZ5Rnlhb1NxNFVKZG1TSjFEUWdBMzlKcHdkMWxkb05nMzFrMmlfZl9jdXhEODljRVpFRmVqRTJLOUgyU0ZLZFZPeUx4QXBYNlZheTQ0V3ZfUQ?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-14T20:48:31+00:00"
     },
     {
-     "title": "Mercado da soja: cotações sobem com dólar acima de R$ 5,20 e negócios ganham ritmo - Canal Rural",
+     "title": "Mercado da soja: cotações sobem com dólar acima de R$ 5,20 e negócios ganham ritmo - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUENIbEhYQVljb2pCci1wb3FoRmQ4U1NCNV84bU1VNU1WbEVzMnJOdEZPT25zWTBBZzZvSlZ3TEZkYXBjQW9kdk5kc1kzTnpZWHNZb05CeHpteGI1UDQ5Tzd4eUdrUnRmXzdzT2pDYjJYd2hzbk9Qd3hRSWtTWTFSa1NDVUFJaDlqaUR4RjFjTWJOajl4SzRuYlZvWXJ2MWp5SnF2Ql82UnQ5RGdHa2xMWjNpSDh3aU5KSDByVGk5RQ?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-14T20:42:15+00:00"
     },
     {
-     "title": "Soja avança em Chicago com expectativa de novas compras da China - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUmxNOGlmMkw1cFBmV3FiZnZHb0RtbDBaMVJNMWJqVWhGaFloRklkNERlOUcyTkdsSDg5TkhhZmZSZXlLUi13VmRJOVVCbzFNWGQ1WU5wY0ZMRW9GR2dJMWxtcVowX2ZQQjRSY3NaVHR4aTNvLWZaZWQtSVdETndqZERrYTBXc0JNaFdRb1pHTFVwWC13c2FuZER2TGJydk9X?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-08-14T20:00:37+00:00"
+     "title": "Soja fecha forte em Chicago nesta 6ª feira e confere semana de bons preços ao mercado brasileiro - noticiasagricolas.com.br",
+     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNUTQwTXFXWERqaUdRVEgxN0JFb2FtdEJHejhLQWtNNHNWUWZiVDAwSzFiQWgzVHJ5MmI0ckxhbmpiUFdMOHRCSWJvLXAtYWZhaDNOZzJYdnlxT1FDdnU1NTN4OG9ILWhFcHMzRXdSUHRFVFUtcnE1c3BLVGlrcF9HMUwwN2V3Qk0xSDlld052Vkd2TVFWa3hsYVM0MTRPdDZsWG90bTllNHRyUlJSb2ZaV2VzMEJsNVRYWGpUb1NaLTBXUTJoVU0wdzVXOXkxQjM2cVhaTnpadFB4bUVWTnh3TlNLZEhpS0xub2hjMk930gHzAUFVX3lxTE5ETmF4akwyOEJRZ3lld1dqeFJoVDg5b3ppTmFQYVFGbUFGOTh4NDNuSUtLbjl6dnA5cVh1SzBMNmtRRDdBX3ZOSkk1Wm1XbUp5cDJ2OXBQVEZqZ0dQTWpzMml3Z2Ezd20tM1VPNGVkdDJ0dnJiRUdIRm1SRzFBN0Z1elVPY1RyVXpQcWhBVXBsUy0yTXU2cXlER3JmbDU5bkVMWFhtX2dIZEo1cE1ianBTeFpkc25VVnNTcXNBSXdBMzNndzQzcUV6a0thOVlPZEtqTWdTZFc5WmxxbTNQZTJuS2VIS1BFbWlOWjAzbmhHRzZZYw?oc=5",
+     "source": "noticiasagricolas.com.br",
+     "published_at": "2026-08-14T20:35:22+00:00"
     },
     {
-     "title": "STF reconhece constitucionalidade da Moratória da Soja, mas mantém restrições a incentivos fisc - wwf.org.br",
+     "title": "STF reconhece constitucionalidade da Moratória da Soja, mas mantém restrições a incentivos fisc - WWF Brasil",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRlM4anFYZ1dYc3o1NnpKYTV3SmtEQWdJZTJFRzVZTm11NnFieUxWZzZhQklTWVlsU3UtRzZZeGw1WG1vbTBDaVljdkdDRDA0aUg3LW12SDhCTFEtV01TUFBVTTRDMy0xUHFBYXFqREhMM3ZKLUtRUHhOLWJLYmpCdk1peGw5Nk5UX002RmdvOV9rcXFWcnRJRGFVV2lnY0VVeUEyVjZEVFhjX0NydXdlcWk4cnZQblJ4OU1hb0psTkZfVW41SGc?oc=5",
-     "source": "wwf.org.br",
+     "source": "WWF Brasil",
      "published_at": "2026-08-14T16:22:52+00:00"
     },
     {
@@ -566,9 +572,9 @@
      "published_at": "2026-08-13T05:00:10"
     },
     {
-     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - noticias.stf.jus.br",
+     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
-     "source": "noticias.stf.jus.br",
+     "source": "stf noticias",
      "published_at": "2026-08-12T22:52:00+00:00"
     },
     {
@@ -588,12 +594,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/12/terremoto-afeta-exportacoes-de-cafe-da-colombia-e-ameaca-embarques-internacionais.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-12T16:19:19"
-    },
-    {
-     "title": "USDA reduz produtividade de soja e milho dos EUA, mas aumenta área da oleaginosa 26/27 - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUEVKRWJuRnZYMkViRUdDM1UxSi03dFJwTHpRNnota3pHOFVHdWdVYldsQ3BGQnkxekVSOGo2Uk91b0lFaTE0MWItcHg1Ync0SXRTN2hiMDB5NHpBYWtEeEtMUGFFNVVHZ3dYVGJPREdHZTR5NmpiRjNpWlczRUhmcWhVMGhEX3FYRDFkczl2TkEyQ2p1VUU1U3Q0YWNEVk5BSlVaVTE0YjdqN1JXWElRLTdSWWFHdkUzUHIxLUs3Rkc4QU84cWdZSW5uYzA5Rjd0cUV3bF9WdDlTZ3pmdW90aGNB0gHnAUFVX3lxTFBxU2Z6TVhwb1VrOUI1bHlTc2lndktad3pXNGkxeUlGMlBtd0xSSElDd2tzcTVuWm81TTdwNzJacjkyTEZseHRPVFJaUGt3ZkM2VERfejBwd1FFTjNrZjRhOVA1Vko5MWpCeHNHbkRTb0VMeHNTaFFNdW9aZ3NLOGhpYndIS1FoM2JGNUlwUTZSVkRBLWZBZXRqb0NDbWYzcEZJQ1gxMHFDdEYtcDZPRDk3RVFldFpkclhVZVozRWtWa1JMcHB2bFgtM3BBS3lQZVpsb3VkYl9IOVJlbFNFZ2VOajlSY2V0dw?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-12T16:05:43+00:00"
     }
    ],
    "failed": [

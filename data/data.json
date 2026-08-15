@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15T17:14:54+00:00",
+ "generated_at": "2026-08-15T18:19:20+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-15T17:14:43+00:00",
+   "updated_at": "2026-08-15T18:19:11+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-15T17:14:43+00:00",
+   "updated_at": "2026-08-15T18:19:11+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-15T17:14:50+00:00",
+   "updated_at": "2026-08-15T18:19:17+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,7 +413,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-15T17:14:54+00:00",
+   "updated_at": "2026-08-15T18:19:20+00:00",
    "items": [
     {
      "title": "A guerra no Mar Negro pode chegar à mesa do brasileiro",
@@ -572,9 +572,9 @@
      "published_at": "2026-08-12T22:52:00+00:00"
     },
     {
-     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",
+     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - cnnbrasil.com.br",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
-     "source": "CNN Brasil",
+     "source": "cnnbrasil.com.br",
      "published_at": "2026-08-12T19:18:51+00:00"
     },
     {

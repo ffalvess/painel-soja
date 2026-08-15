@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-14T23:15:58+00:00",
+ "generated_at": "2026-08-15T00:53:16+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-14T23:15:53+00:00",
+   "updated_at": "2026-08-15T00:53:10+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -221,12 +221,15 @@
       173825.0,
       173714.0,
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -244,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-14T23:15:53+00:00",
+   "updated_at": "2026-08-15T00:53:10+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -255,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-14T23:15:56+00:00",
+   "updated_at": "2026-08-15T00:53:13+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -278,22 +281,22 @@
       0.0
      ],
      "tmax": [
-      35.6,
+      35.8,
       36.4,
+      37.2,
+      37.3,
+      37.0,
       37.1,
-      37.1,
-      37.1,
-      36.9,
-      37.2
+      37.5
      ],
      "tmin": [
       20.7,
-      20.8,
-      22.6,
-      22.5,
+      21.9,
       22.3,
-      22.9,
-      22.7
+      22.7,
+      22.5,
+      23.3,
+      23.2
      ]
     },
     {
@@ -317,22 +320,22 @@
       0.0
      ],
      "tmax": [
-      34.8,
+      35.0,
       35.5,
-      36.2,
-      36.2,
       36.4,
+      36.5,
+      36.2,
       36.1,
-      36.8
+      37.0
      ],
      "tmin": [
       21.3,
-      21.5,
-      22.0,
-      21.5,
-      22.0,
-      22.6,
-      22.2
+      22.1,
+      21.3,
+      21.3,
+      21.2,
+      22.4,
+      22.5
      ]
     },
     {
@@ -357,21 +360,21 @@
      ],
      "tmax": [
       34.0,
+      33.8,
+      34.5,
       33.7,
-      34.4,
       33.4,
-      33.3,
-      33.3,
-      34.2
+      33.2,
+      34.3
      ],
      "tmin": [
       19.2,
-      20.1,
-      20.6,
-      22.1,
+      19.8,
+      21.3,
+      22.7,
       22.3,
-      22.1,
-      21.6
+      21.9,
+      21.0
      ]
     },
     {
@@ -386,7 +389,7 @@
       "2026-08-20"
      ],
      "precip": [
-      0.4,
+      0.1,
       0.0,
       0.0,
       0.0,
@@ -395,29 +398,71 @@
       0.0
      ],
      "tmax": [
-      30.5,
+      30.3,
       33.1,
-      35.6,
-      36.6,
-      36.0,
-      35.5,
-      28.3
+      35.8,
+      36.5,
+      36.4,
+      34.8,
+      27.9
      ],
      "tmin": [
       18.3,
-      19.2,
+      18.6,
       20.8,
-      20.5,
-      21.3,
-      19.8,
-      20.3
+      20.8,
+      21.7,
+      19.9,
+      19.7
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-14T23:15:58+00:00",
+   "updated_at": "2026-08-15T00:53:16+00:00",
    "items": [
+    {
+     "title": "Calor e chuvas intensas são esperados em Santa Catarina nos próximos meses",
+     "link": "https://www.canalrural.com.br/videos/calor-e-chuvas-intensas-sao-esperados-em-santa-catarina-nos-proximos-meses/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T00:05:35+00:00"
+    },
+    {
+     "title": "Governo estabelece limites e bancos para renegociação de dívidas rurais",
+     "link": "https://www.canalrural.com.br/videos/governo-estabelece-limites-e-bancos-para-renegociacao-de-dividas-rurais/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T23:15:37+00:00"
+    },
+    {
+     "title": "Especialista critica regras de renegociação de dívidas rurais como decepcionantes",
+     "link": "https://www.canalrural.com.br/videos/especialista-critica-regras-de-renegociacao-de-dividas-rurais-como-decepcionantes/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T23:15:23+00:00"
+    },
+    {
+     "title": "Deriva de herbicidas causa prejuízos de R$ 210 milhões no RS",
+     "link": "https://www.canalrural.com.br/videos/deriva-de-herbicidas-causa-prejuizos-de-r-210-milhoes-no-rs/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T23:15:12+00:00"
+    },
+    {
+     "title": "Exportações de ovos processados atingem recorde em julho de 2023",
+     "link": "https://www.canalrural.com.br/videos/exportacoes-de-ovos-processados-atingem-recorde-em-julho-de-2023/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T23:05:39+00:00"
+    },
+    {
+     "title": "Mercado financeiro reduz estimativa da inflação pela sexta semana consecutiva",
+     "link": "https://www.canalrural.com.br/videos/mercado-financeiro-reduz-estimativa-da-inflacao-pela-sexta-semana-consecutiva/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T23:05:29+00:00"
+    },
+    {
+     "title": "Davi Alcolumbre anuncia andamento de PEC que extingue escala 6×1",
+     "link": "https://www.canalrural.com.br/videos/davi-alcolumbre-anuncia-andamento-de-pec-que-extingue-escala-6x1/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-14T23:05:18+00:00"
+    },
     {
      "title": "Soja sobe em Chicago com expectativa de compras chinesas - Vero Notícias",
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQXy1PS2NjN1RoRGVScHp2QzZiVjlSWkR4U3JYSTV0bWFqUnc5bTZ0NlVFTmtOMFVwUm12Tm4xTUpSTEd3b0xpWF9LTHc5T0NVMVljNmdfNXlDMnNNUTgybGpma0Q1NlY0TEFuQjZTNERpVHpWU1hnX0ZDaEF3YjJ3a0k4T1hvdTY1dWNmSXVNQ2IxNUhHUkE?oc=5",
@@ -443,56 +488,14 @@
      "published_at": "2026-08-14T22:24:41+00:00"
     },
     {
-     "title": "MP libera crédito extraordinário para estoques públicos e compra de alimentos",
-     "link": "https://www.canalrural.com.br/politica/mp-libera-credito-extraordinario-para-estoques-publicos-e-compra-de-alimentos/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T22:22:50+00:00"
-    },
-    {
-     "title": "Arroba do boi gordo: veja como as cotações encerraram mais uma semana",
-     "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-veja-como-as-cotacoes-encerraram-mais-uma-semana/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T21:56:39+00:00"
-    },
-    {
-     "title": "Ibovespa fecha em baixa de 0,1% e dólar comercial sobe 0,52%",
-     "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-baixa-de-01-e-dolar-comercial-sobe-052/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T21:42:37+00:00"
-    },
-    {
-     "title": "PLP 114/2026 avança no Congresso com mecanismos para preservar competitividade do etanol",
-     "link": "https://www.canalrural.com.br/politica/plp-114-2026-avanca-no-congresso-com-mecanismos-para-preservar-competitividade-do-etanol/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T21:22:09+00:00"
-    },
-    {
-     "title": "Calorão: máximas podem chegar a 40 °C com risco para focos de incêndio; veja quando e onde",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/calorao-maximas-podem-chegar-a-40-c-com-risco-para-focos-de-incendio-veja-quando-e-onde/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T20:52:24+00:00"
-    },
-    {
      "title": "Caramuru eleva lucro no 2º trimestre, mas margens recuam em soja e biodiesel - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR3RDMmJHOEpnTzZGeWdlQWZIWHFfcXpha1VVMlkxYVFVS19DanVSaEEyeHI5YVN1aFRLQ2dnZkRGS0otX25EY2s5Q0t0QkdyaGNweUZPZnRGUlFPUGxZcDdobDZSTTZ5Rnlhb1NxNFVKZG1TSjFEUWdBMzlKcHdkMWxkb05nMzFrMmlfZl9jdXhEODljRVpFRmVqRTJLOUgyU0ZLZFZPeUx4QXBYNlZheTQ0V3ZfUQ?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-14T20:48:31+00:00"
     },
     {
-     "title": "Caramuru eleva lucro no 2º trimestre, mas margens recuam em soja e biodiesel",
-     "link": "https://www.canalrural.com.br/economia/caramuru-eleva-lucro-no-2o-trimestre-mas-margens-recuam-em-soja-e-biodiesel/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T20:48:31+00:00"
-    },
-    {
      "title": "Mercado da soja: cotações sobem com dólar acima de R$ 5,20 e negócios ganham ritmo - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUENIbEhYQVljb2pCci1wb3FoRmQ4U1NCNV84bU1VNU1WbEVzMnJOdEZPT25zWTBBZzZvSlZ3TEZkYXBjQW9kdk5kc1kzTnpZWHNZb05CeHpteGI1UDQ5Tzd4eUdrUnRmXzdzT2pDYjJYd2hzbk9Qd3hRSWtTWTFSa1NDVUFJaDlqaUR4RjFjTWJOajl4SzRuYlZvWXJ2MWp5SnF2Ql82UnQ5RGdHa2xMWjNpSDh3aU5KSDByVGk5RQ?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T20:42:15+00:00"
-    },
-    {
-     "title": "Mercado da soja: cotações sobem com dólar acima de R$ 5,20 e negócios ganham ritmo",
-     "link": "https://www.canalrural.com.br/agricultura/mercado-da-soja-cotacoes-sobem-com-dolar-acima-de-r-520-e-negocios-ganham-ritmo/",
      "source": "Canal Rural",
      "published_at": "2026-08-14T20:42:15+00:00"
     },
@@ -521,15 +524,15 @@
      "published_at": "2026-08-14T16:22:52+00:00"
     },
     {
-     "title": "Soja avança em Chicago com expectativa de novos embarques dos EUA para China - globorural.globo.com",
+     "title": "Soja avança em Chicago com expectativa de novos embarques dos EUA para China - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNjF4dlM2VGJzWlE1Z250ejUtMFZNbHI2T1FmMk5ZbFQ1dy1kTUU4X3h2NkhYNnBCdGRQc0xXcjY4RFp0cl90VlhfVGppVlAwRTUxRF9mT21NMnRFVWE3WmcyNm93ejZfOUEwbTByVWtvYk5UYWE5Y3RoMzZyOGdvb3BGdEhqMllyYW1iRE9oZFZlZ0RxSWo1bzRENy1XZThEQkl3V3lQZE1kVlo0RGdlNlFWY2VneURjUWJYWEdOaVlIbDNOR0tTMVh6ZG5kODZJbXfSAeABQVVfeXFMUEdBUTZBVWlaVkExcDRNU21yYm9zUkJZaXNKY2dJVExmSVY5dWxkLTFKRXExTzBKWjV6NUpuYVM0M2xYUW5ZZlVER1NCa0lBNnZHc2s2Z3BNQ2s1ZlR6RHRZN1U4NVRYTXVDNGJBNlBnempuLVhYUFlEOVc5ZmVOSG00QmFDaFpfMkFvdFNGcFVlZWtNMEFGY2lOSS1ob2hPemtoZ05OVHhhZGFDNWdWeXVoVXhGWW5yT2I1aEpmUFRidzRxZnVKR0sxamRWenlzQ0dDZDZuU3ducFFuaU5FeEQ?oc=5",
-     "source": "globorural.globo.com",
+     "source": "Globo Rural",
      "published_at": "2026-08-14T14:33:15+00:00"
     },
     {
-     "title": "Sinograin Leiloará 360 Mil Toneladas de Soja para Abrir Espaço À Produção dos EUA - forbes.com.br",
+     "title": "Sinograin Leiloará 360 Mil Toneladas de Soja para Abrir Espaço À Produção dos EUA - Forbes Brasil",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTUY1a3VFM1E1dldFbWRaVVdENVp6RFdTbDJ2NDNqVGhsVUpxRUo0eWxwX0ZFbGJ2bDJYbmR2blhDU2FZMTlLbm5nanUxX0F1NWFCMC1fTWpWVHFBZ3FWTTF1aFk5Ui1pc19NSDJqTnRqUzlLaDVnQURWaUJaNXNYX2VyaFQwWF9FME83Zy1XZXpmWDFaSW9wdTQ2NGNTRTNZWllGOHhncEVWWC1oNzdjT1ZrSThLNm4yakRRd3JDUkowdw?oc=5",
-     "source": "forbes.com.br",
+     "source": "Forbes Brasil",
      "published_at": "2026-08-14T12:00:00+00:00"
     },
     {

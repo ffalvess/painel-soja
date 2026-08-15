@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15T06:26:31+00:00",
+ "generated_at": "2026-08-15T07:24:31+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-15T06:26:22+00:00",
+   "updated_at": "2026-08-15T07:24:26+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-15T06:26:22+00:00",
+   "updated_at": "2026-08-15T07:24:26+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-15T06:26:27+00:00",
+   "updated_at": "2026-08-15T07:24:29+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -275,22 +275,22 @@
       0.0
      ],
      "tmax": [
-      36.4,
-      37.2,
-      37.3,
+      36.3,
       37.0,
       37.1,
-      37.5,
-      37.0
+      36.7,
+      37.0,
+      37.4,
+      36.9
      ],
      "tmin": [
-      21.9,
+      20.6,
       22.3,
-      22.7,
       22.5,
-      23.3,
-      23.2,
-      25.0
+      21.7,
+      23.9,
+      22.5,
+      25.3
      ]
     },
     {
@@ -315,21 +315,21 @@
      ],
      "tmax": [
       35.5,
-      36.4,
-      36.5,
-      36.2,
       36.1,
-      37.0,
-      36.9
+      36.3,
+      35.8,
+      35.9,
+      36.5,
+      36.5
      ],
      "tmin": [
-      22.1,
-      21.3,
-      21.3,
+      21.4,
+      21.5,
       21.2,
-      22.4,
-      22.5,
-      25.1
+      20.8,
+      22.2,
+      21.9,
+      24.6
      ]
     },
     {
@@ -353,22 +353,22 @@
       0.0
      ],
      "tmax": [
-      33.8,
-      34.5,
-      33.7,
+      33.6,
+      34.4,
       33.4,
-      33.2,
-      34.3,
-      32.8
+      33.3,
+      33.4,
+      34.7,
+      31.1
      ],
      "tmin": [
-      19.8,
+      19.5,
+      21.2,
+      22.4,
+      22.1,
       21.3,
-      22.7,
-      22.3,
-      21.9,
-      21.0,
-      23.5
+      21.8,
+      23.7
      ]
     },
     {
@@ -383,7 +383,7 @@
       "2026-08-21"
      ],
      "precip": [
-      0.0,
+      0.1,
       0.0,
       0.0,
       0.0,
@@ -392,28 +392,28 @@
       0.0
      ],
      "tmax": [
-      33.1,
-      35.8,
-      36.5,
-      36.4,
-      34.8,
-      27.9,
-      26.1
+      32.8,
+      35.2,
+      35.9,
+      36.1,
+      34.3,
+      27.4,
+      24.8
      ],
      "tmin": [
-      18.6,
+      19.4,
       20.8,
       20.8,
-      21.7,
-      19.9,
-      19.7,
-      16.0
+      20.8,
+      20.0,
+      17.2,
+      14.1
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-15T06:26:31+00:00",
+   "updated_at": "2026-08-15T07:24:31+00:00",
    "items": [
     {
      "title": "EUDR 2026: regra da UE aumenta exigência de rastreabilidade para soja, café e carne - Agrolink",
@@ -518,9 +518,9 @@
      "published_at": "2026-08-14T20:00:37+00:00"
     },
     {
-     "title": "STF reconhece constitucionalidade da Moratória da Soja, mas mantém restrições a incentivos fisc - WWF Brasil",
+     "title": "STF reconhece constitucionalidade da Moratória da Soja, mas mantém restrições a incentivos fisc - wwf.org.br",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRlM4anFYZ1dYc3o1NnpKYTV3SmtEQWdJZTJFRzVZTm11NnFieUxWZzZhQklTWVlsU3UtRzZZeGw1WG1vbTBDaVljdkdDRDA0aUg3LW12SDhCTFEtV01TUFBVTTRDMy0xUHFBYXFqREhMM3ZKLUtRUHhOLWJLYmpCdk1peGw5Nk5UX002RmdvOV9rcXFWcnRJRGFVV2lnY0VVeUEyVjZEVFhjX0NydXdlcWk4cnZQblJ4OU1hb0psTkZfVW41SGc?oc=5",
-     "source": "WWF Brasil",
+     "source": "wwf.org.br",
      "published_at": "2026-08-14T16:22:52+00:00"
     },
     {
@@ -566,9 +566,9 @@
      "published_at": "2026-08-13T05:00:10"
     },
     {
-     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
+     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - noticias.stf.jus.br",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
-     "source": "stf noticias",
+     "source": "noticias.stf.jus.br",
      "published_at": "2026-08-12T22:52:00+00:00"
     },
     {

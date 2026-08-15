@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15T05:19:40+00:00",
+ "generated_at": "2026-08-15T06:26:31+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-15T05:19:34+00:00",
+   "updated_at": "2026-08-15T06:26:22+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -241,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-15T05:19:34+00:00",
+   "updated_at": "2026-08-15T06:26:22+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +252,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-15T05:19:37+00:00",
+   "updated_at": "2026-08-15T06:26:27+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,8 +413,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-15T05:19:40+00:00",
+   "updated_at": "2026-08-15T06:26:31+00:00",
    "items": [
+    {
+     "title": "EUDR 2026: regra da UE aumenta exigência de rastreabilidade para soja, café e carne - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOFgxdXJNdU5FOFA0NG9jOGVSTjV2N2lEM0hqUkQzSXdmMDJoRm05dlRYcGdVTlRzbXVROXhsRnRGbXdQWmpiaERCWTFYMFUxOHVwUlBzMjN2amx4dDA0OWdkTEd0dXRJQ3FkeDFNUGR6UzhzVGpKSDMzdU14c0FzMi02R1FaY3BlNVQyMmxCTXRXVGh3WHR0TXplLVM5Y2htNUl1Rm1Bd3NKT20tY2ZyU09GMklDUG5jMzVYTFdvdVVxdVkya3BWa0l4Z3U?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-15T01:43:00+00:00"
+    },
     {
      "title": "Boletim semanal de preços: arroz sobe 3,24%, soja e milho avançam na semana - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcFJ3cW1tcmp4bDRaZXh2cXRxa012R2FlTDhvWFhsTktDT0ZUYXBlMGxmRHpsTVRQRlItbEliOGlXX3V2MXRVYUlVMTRlcmVpck1Yd0lsd3JlUzgyNXRwTUFfdnMyelVVd2Z5cmpfNm5IX2JaOVI2blJzYVZjY3FWN1FlMTE0blVFV0JSby16OTFLTDdpcWVEV3k1SDFXOTU2NGY5UmV5czlEMHozZXVrUlZwSnhmMTRIMjZnNlpaazBPQQ?oc=5",
@@ -512,12 +518,6 @@
      "published_at": "2026-08-14T20:00:37+00:00"
     },
     {
-     "title": "Preços da soja seguem fortes e aceleram vendas no Brasil - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUldMeU1GM2ZudUZVUDVrOFNsMVBSX2oyc1diVEtXR2NWNGJoUXJpS0w5SkY4V0M0SmJaTm5sVjBtM1VEbmNfYTU5ZjlMOENXVnpUNWZyRFJLSlExSmFrVUhWSGtNX0VKQkhKZ2dLaDRxcGt2RGNoQmZUUjdrWV9QN3hBYXNGY21fNTBDTXpscFc2bEZKczN6N21Zb3VTUGVWaFllLUM4MUF5a2FBZ1FIY0ItMUtoOVRlX2c?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-14T19:48:00+00:00"
-    },
-    {
      "title": "STF reconhece constitucionalidade da Moratória da Soja, mas mantém restrições a incentivos fisc - WWF Brasil",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRlM4anFYZ1dYc3o1NnpKYTV3SmtEQWdJZTJFRzVZTm11NnFieUxWZzZhQklTWVlsU3UtRzZZeGw1WG1vbTBDaVljdkdDRDA0aUg3LW12SDhCTFEtV01TUFBVTTRDMy0xUHFBYXFqREhMM3ZKLUtRUHhOLWJLYmpCdk1peGw5Nk5UX002RmdvOV9rcXFWcnRJRGFVV2lnY0VVeUEyVjZEVFhjX0NydXdlcWk4cnZQblJ4OU1hb0psTkZfVW41SGc?oc=5",
      "source": "WWF Brasil",
@@ -528,12 +528,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/14/balde-cheio-programa-da-embrapa-ajuda-pequenas-propriedades-a-melhorar-producao-de-leite.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-14T10:48:19"
-    },
-    {
-     "title": "Soja sobe em Chicago nesta 6ª, mas mercado aind se ajusta após semana volátil - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS3YyNFZZVlJOVHBpMjR2d0IxVWpTMVQ1UWtSNFg0Z3poUFQ0dFpmRXQ5N3VTMjdwdUpHX0JOSEl4OU9TQWR5bXp3bW5ZVi1RQnVfVFFxR0dRRWlaNE9vaS0zM2dzbVRIdmpvNVRjdlF3OVZQTVJUM0pUV3VDOHBQakc3WGZRZkxPRjhqNUlGeTVZRW1HYmV3VnhENUVYeVlKOFdUY3pHQVItRDg5bjNTR0ZvdzVjYWdNelV6YW1UaVpSSklCQXZBU0pUWmxtR3hvMHN4TdIB2gFBVV95cUxNb1pKRW9kaWpxcXJ3cnVZbXBac1B3SGo2cE10eTdPLXRILTBZWVVRbHJicTR2YW01WWYtVG1WYjhSWEFaTzhjWE1UUTFWMEJ3ZzIzMC1jUHRLY0d2eEVpSUlXbjluc3h2bmUtcDZLWk00NHNEZERWZEo0QTdBWDJSSDZGV2Q3MDdvcEg3ZmpQdXVERXAzZzF0eWZxUjdqOVVqYURNUVlueVM5WmVxLWhUOHprMW1DQ1RwLUI0TC1xT2tDTmRjSU1FTXdXaUtlTUNVbDZRNHVlLUVkZw?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-14T10:42:47+00:00"
     },
     {
      "title": "Conheça o abacaxi que dura mais tempo após a colheita",
@@ -572,10 +566,16 @@
      "published_at": "2026-08-13T05:00:10"
     },
     {
-     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - noticias.stf.jus.br",
+     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
-     "source": "noticias.stf.jus.br",
+     "source": "stf noticias",
      "published_at": "2026-08-12T22:52:00+00:00"
+    },
+    {
+     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-08-12T19:18:51+00:00"
     },
     {
      "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - Migalhas",

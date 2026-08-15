@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15T00:53:16+00:00",
+ "generated_at": "2026-08-15T02:10:56+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-15T00:53:10+00:00",
+   "updated_at": "2026-08-15T02:10:48+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-15T00:53:10+00:00",
+   "updated_at": "2026-08-15T02:10:49+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-15T00:53:13+00:00",
+   "updated_at": "2026-08-15T02:10:53+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-15T00:53:16+00:00",
+   "updated_at": "2026-08-15T02:10:56+00:00",
    "items": [
+    {
+     "title": "Com diversificação além da soja, Boa Safra sai de prejuízo e alcança carteira recorde de pedidos - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWmtCVWdLbENyM1ZkS0ZyWEVmZWRzVjJWNGJfbmZ4YUY0V1JoMVpvS1NUOEh3OUplSEU0cFpqMjJTWnN3dTNIM3FuUDdEQjVWSjJfdV85eXV1RE1yQnBBamluRTREaGYyc1FRSzVWRGNVckp4R1AxamFhbFZXVTZidDg1cHFjY1hyUGNrZjAzbHZKYjNsY1BrLV9Lb1c1UG4wcVMtcU5OQTBubnFCcFk2S2RFSnNza0k1b1NPcGZQZUVmRTA3emtwV216LTVKcjF5cG13VXNHeHN4dVlhMUdnaUdMR3NQNEkwdlHSAfgBQVVfeXFMTUdRRUh6a0hBZUxtd2l4T1NOamRvQU00QVM5XzBVX2tYYlBMazdjVHpyX2x2bHZUOTh3b2RrSFBEQkhnQkRMWHFMLUtlNDhra2dabHRacS1Wd1I1UzFyXy10cm9pVEljMnZSMDN0dUNrdVhqLTNkemduaHFOUkttLXdFS0E5bVdBN0xHLTJhb3NPSEpxLWNCLXFNUG4ybVRDQmw4Q3pXUVduUGE3VHpnY3p5WXFxcXdneWxqbXRwcEhsb1BWbXd2bERqUkZNOWU0R0RHRUpmLThIN2NHYldaeHc5WEp2azJNUl9RU3JtX1h3SzhEdlVKbEo?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-15T01:18:27+00:00"
+    },
+    {
+     "title": "Berkshire zera posição na Constellation Brands no segundo trimestre",
+     "link": "https://www.canalrural.com.br/economia/berkshire-zera-posicao-na-constellation-brands-no-segundo-trimestre/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T00:58:30+00:00"
+    },
+    {
+     "title": "IBP destaca descoberta da Petrobras na Margem Equatorial",
+     "link": "https://www.canalrural.com.br/economia/ibp-destaca-descoberta-da-petrobras-na-margem-equatorial/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T00:25:20+00:00"
+    },
     {
      "title": "Calor e chuvas intensas são esperados em Santa Catarina nos próximos meses",
      "link": "https://www.canalrural.com.br/videos/calor-e-chuvas-intensas-sao-esperados-em-santa-catarina-nos-proximos-meses/",
@@ -434,8 +452,8 @@
      "published_at": "2026-08-14T23:15:37+00:00"
     },
     {
-     "title": "Especialista critica regras de renegociação de dívidas rurais como decepcionantes",
-     "link": "https://www.canalrural.com.br/videos/especialista-critica-regras-de-renegociacao-de-dividas-rurais-como-decepcionantes/",
+     "title": "‘Decepcionantes’: especialista critica regras de renegociação de dívidas rurais",
+     "link": "https://www.canalrural.com.br/videos/decepcionantes-especialista-critica-regras-de-renegociacao-de-dividas-rurais/",
      "source": "Canal Rural",
      "published_at": "2026-08-14T23:15:23+00:00"
     },
@@ -476,16 +494,10 @@
      "published_at": "2026-08-14T22:43:34+00:00"
     },
     {
-     "title": "Planejamento estima custo de R$ 1,95 bilhão em 2026 para medidas do etanol no PLP dos combustíveis",
-     "link": "https://www.canalrural.com.br/economia/planejamento-estima-custo-de-r-195-bilhao-em-2026-para-medidas-do-etanol-no-plp-dos-combustiveis/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T22:32:30+00:00"
-    },
-    {
-     "title": "Italac firma contrato para comprar marcas Líder e Tânia e ativos da A.R.C.",
-     "link": "https://www.canalrural.com.br/economia/italac-firma-contrato-para-comprar-marcas-lider-e-tania-e-ativos-da-a-r-c/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-14T22:24:41+00:00"
+     "title": "Plantio da soja: saiba como ajustar o estande à sua área - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOEEzQXRoN3NoNVJJZGpRbG02c0pqemdWNktFOGZkeElfTC1YTHdFcGxtVVpQNnZub2hwNDZrZy1hNWVsNlltNlRjclhqVmwySk5iVHNFRjczaWFNV01JQVJJTEpXNVRVektsamRQRW1ESGJMejVfM1VQdHhqOTYyS2gxQXNzM1FrOUdKemxoa3lBWHJOeGJpN3otRHRQUE5MdXAxOHRlb1I?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-14T22:37:00+00:00"
     },
     {
      "title": "Caramuru eleva lucro no 2º trimestre, mas margens recuam em soja e biodiesel - Canal Rural",
@@ -503,7 +515,7 @@
      "title": "Soja avança em Chicago com expectativa de novas compras da China - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUmxNOGlmMkw1cFBmV3FiZnZHb0RtbDBaMVJNMWJqVWhGaFloRklkNERlOUcyTkdsSDg5TkhhZmZSZXlLUi13VmRJOVVCbzFNWGQ1WU5wY0ZMRW9GR2dJMWxtcVowX2ZQQjRSY3NaVHR4aTNvLWZaZWQtSVdETndqZERrYTBXc0JNaFdRb1pHTFVwWC13c2FuZER2TGJydk9X?oc=5",
      "source": "CNN Brasil",
-     "published_at": "2026-08-14T19:58:00+00:00"
+     "published_at": "2026-08-14T20:00:37+00:00"
     },
     {
      "title": "Preços da soja seguem fortes e aceleram vendas no Brasil - Agrolink",
@@ -512,22 +524,10 @@
      "published_at": "2026-08-14T19:48:00+00:00"
     },
     {
-     "title": "Alta em Chicago pode trazer suporte ao preço doméstico de soja - safras.com.br",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQ2F5S1liVlotbzN6anJRZGpUWGY1dS1MMVFkWGVFbnNwYVk5eWwxWlFiMW1VQ2tCNlM5VXlHb1h3cGlVT3NJQmhlOUlwRDdhQjEyRG9rNk02SXh1N2xzMEtXQ2toVThCMDgxZHFlZ0kxb09yTEtXRlFqSGFXWnA3YnpxMkUwN1k3bURPOEtR?oc=5",
-     "source": "safras.com.br",
-     "published_at": "2026-08-14T18:30:39+00:00"
-    },
-    {
      "title": "STF reconhece constitucionalidade da Moratória da Soja, mas mantém restrições a incentivos fisc - WWF Brasil",
      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRlM4anFYZ1dYc3o1NnpKYTV3SmtEQWdJZTJFRzVZTm11NnFieUxWZzZhQklTWVlsU3UtRzZZeGw1WG1vbTBDaVljdkdDRDA0aUg3LW12SDhCTFEtV01TUFBVTTRDMy0xUHFBYXFqREhMM3ZKLUtRUHhOLWJLYmpCdk1peGw5Nk5UX002RmdvOV9rcXFWcnRJRGFVV2lnY0VVeUEyVjZEVFhjX0NydXdlcWk4cnZQblJ4OU1hb0psTkZfVW41SGc?oc=5",
      "source": "WWF Brasil",
      "published_at": "2026-08-14T16:22:52+00:00"
-    },
-    {
-     "title": "Soja avança em Chicago com expectativa de novos embarques dos EUA para China - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNjF4dlM2VGJzWlE1Z250ejUtMFZNbHI2T1FmMk5ZbFQ1dy1kTUU4X3h2NkhYNnBCdGRQc0xXcjY4RFp0cl90VlhfVGppVlAwRTUxRF9mT21NMnRFVWE3WmcyNm93ejZfOUEwbTByVWtvYk5UYWE5Y3RoMzZyOGdvb3BGdEhqMllyYW1iRE9oZFZlZ0RxSWo1bzRENy1XZThEQkl3V3lQZE1kVlo0RGdlNlFWY2VneURjUWJYWEdOaVlIbDNOR0tTMVh6ZG5kODZJbXfSAeABQVVfeXFMUEdBUTZBVWlaVkExcDRNU21yYm9zUkJZaXNKY2dJVExmSVY5dWxkLTFKRXExTzBKWjV6NUpuYVM0M2xYUW5ZZlVER1NCa0lBNnZHc2s2Z3BNQ2s1ZlR6RHRZN1U4NVRYTXVDNGJBNlBnempuLVhYUFlEOVc5ZmVOSG00QmFDaFpfMkFvdFNGcFVlZWtNMEFGY2lOSS1ob2hPemtoZ05OVHhhZGFDNWdWeXVoVXhGWW5yT2I1aEpmUFRidzRxZnVKR0sxamRWenlzQ0dDZDZuU3ducFFuaU5FeEQ?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-14T14:33:15+00:00"
     },
     {
      "title": "Sinograin Leiloará 360 Mil Toneladas de Soja para Abrir Espaço À Produção dos EUA - Forbes Brasil",
@@ -542,9 +542,9 @@
      "published_at": "2026-08-14T10:48:19"
     },
     {
-     "title": "Soja sobe em Chicago nesta 6ª, mas mercado aind se ajusta após semana volátil - Notícias Agrícolas",
+     "title": "Soja sobe em Chicago nesta 6ª, mas mercado aind se ajusta após semana volátil - noticiasagricolas.com.br",
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS3YyNFZZVlJOVHBpMjR2d0IxVWpTMVQ1UWtSNFg0Z3poUFQ0dFpmRXQ5N3VTMjdwdUpHX0JOSEl4OU9TQWR5bXp3bW5ZVi1RQnVfVFFxR0dRRWlaNE9vaS0zM2dzbVRIdmpvNVRjdlF3OVZQTVJUM0pUV3VDOHBQakc3WGZRZkxPRjhqNUlGeTVZRW1HYmV3VnhENUVYeVlKOFdUY3pHQVItRDg5bjNTR0ZvdzVjYWdNelV6YW1UaVpSSklCQXZBU0pUWmxtR3hvMHN4TdIB2gFBVV95cUxNb1pKRW9kaWpxcXJ3cnVZbXBac1B3SGo2cE10eTdPLXRILTBZWVVRbHJicTR2YW01WWYtVG1WYjhSWEFaTzhjWE1UUTFWMEJ3ZzIzMC1jUHRLY0d2eEVpSUlXbjluc3h2bmUtcDZLWk00NHNEZERWZEo0QTdBWDJSSDZGV2Q3MDdvcEg3ZmpQdXVERXAzZzF0eWZxUjdqOVVqYURNUVlueVM5WmVxLWhUOHprMW1DQ1RwLUI0TC1xT2tDTmRjSU1FTXdXaUtlTUNVbDZRNHVlLUVkZw?oc=5",
-     "source": "Notícias Agrícolas",
+     "source": "noticiasagricolas.com.br",
      "published_at": "2026-08-14T10:42:47+00:00"
     },
     {

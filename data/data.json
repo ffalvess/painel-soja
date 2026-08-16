@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-16T10:16:46+00:00",
+ "generated_at": "2026-08-16T11:14:32+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-16T10:16:37+00:00",
+   "updated_at": "2026-08-16T11:14:23+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -209,12 +209,15 @@
       173825.0,
       173714.0,
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -232,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-16T10:16:38+00:00",
+   "updated_at": "2026-08-16T11:14:23+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -243,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-16T10:16:42+00:00",
+   "updated_at": "2026-08-16T11:14:28+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -404,8 +407,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-16T10:16:46+00:00",
+   "updated_at": "2026-08-16T11:14:32+00:00",
    "items": [
+    {
+     "title": "El Niño pode ser o mais forte desde 1950 — e ameaça até metade da soja no Brasil - Exame",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbV91NkI2b2hUQUh3YVhTNHBTZVZIS0pJU3lOa3pBbGl2RGVNNnRlVDJOVEVTd0d0dkFic1hJXzVqRnB6MDNmR0dwWHBQTjhQTWxpSjJ4WlNqRHFzYkZpbDFvaVdwUWlNODVqcU5pZ2pnVFBkdWpmY09jWlY1bVk2TmZvZnV6N2FXclFfWTZaVkVHdGFUOHNGNkp1NDk5MFEwQUg5Sw?oc=5",
+     "source": "Exame",
+     "published_at": "2026-08-16T11:03:25+00:00"
+    },
+    {
+     "title": "Mosca-de-estábulo avança no inverno e causa prejuízo a pecuaristas no interior de SP",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/16/mosca-de-estabulo-avanca-no-inverno-e-causa-prejuizo-a-pecuaristas-no-interior-de-sp.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-16T10:30:13"
+    },
+    {
+     "title": "Peão de Orindiúva viaja 10 mil km para divulgar cultura caipira",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/16/peao-de-orindiuva-viaja-10-mil-km-para-divulgar-cultura-caipira.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-16T10:30:12"
+    },
     {
      "title": "Moratória da Soja: o que, afinal, o STF está julgando? - Consultor Jurídico",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdWtsdEhSVGlQV2N4alNEcDlMUTRhWVFBcmNhdmRZTzZic0hobHBKOVd1WlRQaVNsMXRBUXZjeUt2Y1pSTkpBLWxIMHhEX3FhaXNhek5UZ1Bpbld1ZkNMb1NqUnIxZGk3aDBVb2RfOVBtZTNuQzJNbnB3V3F4TW1NZ1o0ODNYM2lYWWU3ckRmSHNnV2lEVkE3d0cxd3VIYW84RlFGdg?oc=5",
@@ -477,12 +498,6 @@
      "link": "https://www.canalrural.com.br/opiniao-noticias/mp-restringe-socorro-e-empurra-divida-rural-para-a-justica/",
      "source": "Canal Rural",
      "published_at": "2026-08-15T15:54:09+00:00"
-    },
-    {
-     "title": "Prêmio da soja chega a US$ 1,45 por bushel em Paranaguá em agosto - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTm1IODRUTVNYNjdwUmt4ZGR0c25nZ3NlWlBLdXlUYUotbFgzdGdKSVhsX1RlUExLTU5QcE9fbkVTNkh4amRhSURDem9uU3VjNDhmbTEtaDhuc1N6RlNMZlVBT2tNWEIwSE5UMVFQVVVHbVJVRi1TUTl1ZVJkbXRxam5KQmhzUGJBakFrX3RpRk5mZUVBLUJJTDR3?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-08-15T15:24:00+00:00"
     },
     {
      "title": "Próximo presidente deve ampliar crédito e tecnologia no campo, defende Sistema OCB",
@@ -573,18 +588,6 @@
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-08-12T19:18:51+00:00"
-    },
-    {
-     "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - Migalhas",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSl95WnkyNFJLdG9WLWoyX1hKTnRFQ1VBem1UX19haktzTTRWbmxLS1lUWW9vYTFNREdDazBHXzFFM1hyZFhnSmxhdkhNUm0tRHJINmx1c0lGakRaVUFsSmRKRGhjcnh4cWwtMmJtZVFMV3dRX2RxbWJvbG94NGlhSWdZZWRUZ1Y4TURWSkxNSXdtTEEzNnplTTd0d3FvQmdSYWJrekRlLTlsU2hqaHM4Q0tB?oc=5",
-     "source": "Migalhas",
-     "published_at": "2026-08-12T17:44:48+00:00"
-    },
-    {
-     "title": "Terremoto afeta exportações de café da Colômbia e ameaça embarques internacionais",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/12/terremoto-afeta-exportacoes-de-cafe-da-colombia-e-ameaca-embarques-internacionais.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-12T16:19:19"
     }
    ],
    "failed": [

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-16T11:14:32+00:00",
+ "generated_at": "2026-08-16T12:26:16+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-16T11:14:23+00:00",
+   "updated_at": "2026-08-16T12:26:00+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-16T11:14:23+00:00",
+   "updated_at": "2026-08-16T12:26:00+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-16T11:14:28+00:00",
+   "updated_at": "2026-08-16T12:26:04+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,14 +407,8 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-16T11:14:32+00:00",
+   "updated_at": "2026-08-16T12:26:16+00:00",
    "items": [
-    {
-     "title": "El Niño pode ser o mais forte desde 1950 — e ameaça até metade da soja no Brasil - Exame",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbV91NkI2b2hUQUh3YVhTNHBTZVZIS0pJU3lOa3pBbGl2RGVNNnRlVDJOVEVTd0d0dkFic1hJXzVqRnB6MDNmR0dwWHBQTjhQTWxpSjJ4WlNqRHFzYkZpbDFvaVdwUWlNODVqcU5pZ2pnVFBkdWpmY09jWlY1bVk2TmZvZnV6N2FXclFfWTZaVkVHdGFUOHNGNkp1NDk5MFEwQUg5Sw?oc=5",
-     "source": "Exame",
-     "published_at": "2026-08-16T11:03:25+00:00"
-    },
     {
      "title": "Mosca-de-estábulo avança no inverno e causa prejuízo a pecuaristas no interior de SP",
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/16/mosca-de-estabulo-avanca-no-inverno-e-causa-prejuizo-a-pecuaristas-no-interior-de-sp.ghtml",
@@ -428,34 +422,10 @@
      "published_at": "2026-08-16T10:30:12"
     },
     {
-     "title": "Moratória da Soja: o que, afinal, o STF está julgando? - Consultor Jurídico",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdWtsdEhSVGlQV2N4alNEcDlMUTRhWVFBcmNhdmRZTzZic0hobHBKOVd1WlRQaVNsMXRBUXZjeUt2Y1pSTkpBLWxIMHhEX3FhaXNhek5UZ1Bpbld1ZkNMb1NqUnIxZGk3aDBVb2RfOVBtZTNuQzJNbnB3V3F4TW1NZ1o0ODNYM2lYWWU3ckRmSHNnV2lEVkE3d0cxd3VIYW84RlFGdg?oc=5",
-     "source": "Consultor Jurídico",
-     "published_at": "2026-08-16T09:03:28+00:00"
-    },
-    {
-     "title": "Falta de chuva faz produtores perderem plantações de milho e reduz produtividade da soja em Roraima - G1",
-     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOc2FNa0dENEpKZ1pJWVEzYTRuT2xnbGtmS3pNOEJQWnJLRC1sSUM4bkdwQ1NnbmJ4ZUlWMzFuQ0lTb01HVGRiNnd3V0JTNHpONzlBMS1EUjhNZk0yY1FKd0QzM1I1LUZrN2xrdGNDb3UzdkhzeGFWNzA2WVotV1dRakJJOU85Y2VMeGxvMWtEZVhLbjFFN0NtNFlSZ2MwdHROZHo4RGdDMTl3bGJlSVFBVnpXcTFTZVczQmdZMS1ncnN2NEhtQkdfTmc3NE9kNjU0M3NyTW5mR3FQQWM3a3lNVVY0SV9VSC1VbFZBN9IB-wFBVV95cUxQUnYyUTJPMnRzUHRzLUdleGRMMGVkc0p5cC1kd0tpcm4wYkhkc09zekJwNXlCR2Z1am1WUTZ6UGdwMXZSR2ZTNktieUJqUHgzeUhiNnhpSGFuWEJJOW9kYUNiOWR4VVR0WHlRQlRkYzFWSmxiYk01eV9BcG51R3JZaDNyWVJOZERqQTg0amtyeWxNNmlDc3BBeTJRX1pzdkZrZEdmOWMyenBYelJkZXFhenNQekl4ei14SThWYzRQZEpLdWZHaGJPZ3pZNFBEOF9MeTZWTWFVVnQ0T0JCcjB5LV9RVlJBVkdPNjVYSnZVdmtPdEg0LVZENXdTTQ?oc=5",
-     "source": "G1",
-     "published_at": "2026-08-16T09:00:22+00:00"
-    },
-    {
      "title": "Curral eclético: vacas escutam de forró a música clássica e produzem mais leite em fazenda no ES; veja VÍDEO",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/16/curral-ecletico-vacas-escutam-de-forro-a-musica-classica-e-produzem-mais-leite-em-fazenda-no-es-veja-video.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-16T07:01:18"
-    },
-    {
-     "title": "Adapec alerta produtores rurais a não manter plantas vivas de soja no campo durante período de vazio sanitário - Portal Agora Tocantins",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMmJYc3JobjYxekhmc0RPQnlFN3VtSFpqUHRKOEo4MkhxMGFnU3h2Q3FhQnJYTm9nSFVWRGd6QmI4XzZZOGhKWkNfTi1jd1h0eU4wNHRRUndJZVpsNjNnOGdKYTB1YmlqazZ1ck1hOWl5OW5ZNklaNDI5U2dlejhnb1B5T0tRXy1fcnBRc3BVZ1FsR180VkJqWXp4NUc5c0w3Z1c5Q0xTeDNIUDJaMTZ4RHRWYnpGLXNocGRnVDFyU19BOGx3VnVUZDgwbHJ4cFJV?oc=5",
-     "source": "Portal Agora Tocantins",
-     "published_at": "2026-08-16T03:16:32+00:00"
-    },
-    {
-     "title": "Soja: com dados de USDA e Conab nas mãos, mercado aguarda Crop Tour para definir expectativas - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMHpmMENrQ1R4SnBVbGRqTjZad0V0OUY0SVFESnBNYW9qQXpFWEdEbnZueXRXNi1UZnF3aUFrakUwNFVoNEM5SmFrNC11MXpWOEI1VVRKR0NoWEpxMG5fREIta1NxVUJmOGw4M0VrcWFLUXpHd2ZkWXNHaG43eWtoLS1RMkoyRDFfWGcyd3FTMkt0Mjl6dlI2RlNicDRXV0ZuZzhQZ2FETGFNZDQ2M01saVR4WDl1NjhkaTRMbC1qWkVPV2ttRF9mTHV1MGlab1U?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-15T22:02:00+00:00"
     },
     {
      "title": "Soja: com dados de USDA e Conab nas mãos, mercado aguarda Crop Tour para definir expectativas",
@@ -518,22 +488,10 @@
      "published_at": "2026-08-15T14:04:00+00:00"
     },
     {
-     "title": "Consultoria vê mudança no fluxo global da soja - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS3JEY2Y1dHktWl9xQkI0bGc0bmwxV0VYWVR6dF8tMVk4LWxkUFlMYWRkVjFmQ0NNdjRPOFRteHJJOWVKeHpmT2g3d05CaHBOVHEyNlMtaGhEOHRIU1dtbXZvb25Ybkt6V2ZRLTUwd2VvNWNQV29XdjljakJHcXczaXBvZTdsd0hOcTlwcVFMT0dzOEhVZU91TXJNUQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-15T13:54:00+00:00"
-    },
-    {
      "title": "China tenta reduzir dependência de alimentos importados; o que isso significa para o agro brasileiro",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/15/china-tenta-reduzir-dependencia-de-alimentos-importados.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-15T08:00:13"
-    },
-    {
-     "title": "Notícia - Colheita da soja inicia com estimativa de mais de 54 mil toneladas - Prefeitura Municipal de Santa Terezinha de Itaipu",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd042MWxhMVpZd2FYZ2I0dEQwUVZMajI0YXZ0T1NxbXFMekJ6eVVsMFpxY2NJcnQwUHNGbmZWLVlSNUZEMG5WSW1ucVZzcXZxMkxPVkJXWjJTY1JwQWJVanhxTnFiRkF2aFZLQkdxSjJ6dnZvRlpYM2drMFFOUE83Q2tfTTNJSXhKcEMzVGRxUllWMmZyY3E2TnVIY240Vmd2b2NvTXpPWHVQVFI2bEVWYQ?oc=5",
-     "source": "Prefeitura Municipal de Santa Terezinha de Itaipu",
-     "published_at": "2026-08-14T19:56:51+00:00"
     },
     {
      "title": "Balde Cheio: programa da Embrapa ajuda pequenas propriedades a melhorar produção de leite",
@@ -578,19 +536,14 @@
      "published_at": "2026-08-13T05:00:10"
     },
     {
-     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
-     "source": "stf noticias",
-     "published_at": "2026-08-12T22:52:00+00:00"
-    },
-    {
-     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-08-12T19:18:51+00:00"
+     "title": "Terremoto afeta exportações de café da Colômbia e ameaça embarques internacionais",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/12/terremoto-afeta-exportacoes-de-cafe-da-colombia-e-ameaca-embarques-internacionais.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-12T16:19:19"
     }
    ],
    "failed": [
+    "Google News: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=soja+OR+%22mercado+de+gr%C3%A3os%22&hl=pt-BR&gl=BR&ceid=BR:pt-419",
     "Notícias Agrícolas: 404 Client Error: Not Found for url: https://www.noticiasagricolas.com.br/rss/noticias"
    ]
   }

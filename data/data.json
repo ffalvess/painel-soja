@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-16T17:14:31+00:00",
+ "generated_at": "2026-08-16T18:18:53+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-16T17:14:22+00:00",
+   "updated_at": "2026-08-16T18:18:46+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -209,12 +209,15 @@
       173825.0,
       173714.0,
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -232,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-16T17:14:23+00:00",
+   "updated_at": "2026-08-16T18:18:47+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -243,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-16T17:14:28+00:00",
+   "updated_at": "2026-08-16T18:18:51+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -404,8 +407,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-16T17:14:31+00:00",
+   "updated_at": "2026-08-16T18:18:53+00:00",
    "items": [
+    {
+     "title": "Foi dada a largada: Lula e Flávio abrem a eleição que pode redesenhar o Brasil",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/foi-dada-a-largada-lula-e-flavio-abrem-a-eleicao-que-pode-redesenhar-o-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-16T17:49:52+00:00"
+    },
+    {
+     "title": "Morre Zé Humberto, grande referência da pecuária brasileira; relembre trajetória",
+     "link": "https://www.canalrural.com.br/pecuaria/morre-ze-humberto-grande-referencia-da-pecuaria-brasileira/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-16T17:32:04+00:00"
+    },
     {
      "title": "Abramilho cobra menos ‘amarras’, salto em infraestrutura e Plano Safra plurianual",
      "link": "https://www.canalrural.com.br/politica/eleicoes/abramilho-cobra-menos-amarras-salto-em-infraestrutura-e-plano-safra-plurianual/",
@@ -425,10 +440,10 @@
      "published_at": "2026-08-16T14:01:00+00:00"
     },
     {
-     "title": "STF declara constitucional Moratória da Soja. E inconstitucional condicionar incentivos à sua rejeição. E agora? Como ficam os deputados e governo do Tocantins que cortaram benefícios fiscais dos agropecuaristas que aderiram ao pacto? - Luiz Armando Costa",
-     "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxOQlVmUFR6VjBGX2VTcHluVTBYVHZMdGtLemhRdUpweHo1Qkl2ZEc0aUFodTBXU1dMbEtyZmFJQUIzVG5kRTExZU5NOHVIdGdyU2g0Rkt3WlkxYTU3R2F4TDhqS1N6N19hUjFmQ05haHF1anRwOE9hUDhlbXVvQ2o1bTVneUw1cjFVRDNZYWp3ajFKUlh0TkhLSVBPVVVsd1BVbzJadTNubEUwSXVkYTUzdm5kTEZHS2JCLS1SUDBUdGxhTkFrVnZKaURlMGtIQl9xckdJTEl2ZUx2UTRVMUhzTFRrc0tJRWR1Z3RYajF0RG5YMEVHYVY0R0ZlY0ZXV21QcU9oRWdFclRkV1RJTFc0SEZGeFZJS2otbnk4QnV3c3hWYmdkM0thQXdVcEl5YkhpUzl6QnZGUmxJWUZSdnBXVXhmYXVsV3QyNnA3ZXdxUDJRUlA0M3A1NU8zeTQxSWFvWFRXWkh5ZlJUUWQ3SG1UTUtYLXZjTDlNZ0hhWkh3Z3M?oc=5",
+     "title": "STF declara constitucional Moratória da Soja. E inconstitucional condicionar incentivos à sua rejeição. E agora? Como ficam os deputados e governo do Tocantins que cortaram benefícios dos agropecuaristas que aderiram ao pacto? - Luiz Armando Costa",
+     "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNdEZ4elJIUTlFLWlVaU9aeTFfN2lycTJyRXFOOVhnMWNqMmFUNHVDS1hQMVBRSnpnRm05MmNHMEVTUndiNUV0YTFmSFZCdXc3N3NpU00wRENkck5yd3h3aFVEajZsMzNqT090OVRlNEJMakxRNXlUcmNoeVllRWdpdkdzNkJ6blJwQmNGeFl4RFd6c0N1Q3VvOFVJX2RnWVd4S1pieUoxWVAzTWJPaVEtQTVabWJkLWFBamhhOVd6OE9tQkR3OC03eUlwN2t2SFFnOTRqSFotOHRmY1N6R2xqYUN0TDZrdVFhdmpwZmV6U3FOdXpRZU9CNE9ZZjlkeGhYbldOUFdBOXNKSnpoZGZyX3dya1VRWl9RQUJvekg3OUgtSzQ1SjF6VjZkRHF4ZENMOENUNEFUdldZUnlkWEkwUTdIMEVENlQzbmMxTFVvV0dhUmV1ZmtYQjJGSnBSNks2dFFQd2Z0Z1hZTGh3VEhpQTJ2dXpwVm5pelJTNVE3YWxQRTJzWFk0?oc=5",
      "source": "Luiz Armando Costa",
-     "published_at": "2026-08-16T13:41:44+00:00"
+     "published_at": "2026-08-16T13:42:46+00:00"
     },
     {
      "title": "Campanha eleitoral começa neste domingo; veja regras e datas",
@@ -509,18 +524,6 @@
      "published_at": "2026-08-15T20:25:45+00:00"
     },
     {
-     "title": "Marcação a fogo gera 18% de erro na identificação de bovinos, aponta estudo",
-     "link": "https://www.canalrural.com.br/pecuaria/marcacao-a-fogo-gera-18-de-erro-na-identificacao-de-bovinos-aponta-estudo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-15T20:05:00+00:00"
-    },
-    {
-     "title": "Unesp mapeia genoma de peixe brasileiro e abre caminho para avanço da aquicultura",
-     "link": "https://www.canalrural.com.br/diversos/unesp-mapeia-genoma-de-peixe-brasileiro-e-abre-caminho-para-avanco-da-aquicultura/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-15T18:06:00+00:00"
-    },
-    {
      "title": "Consultoria vê mudança no fluxo global da soja - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS3JEY2Y1dHktWl9xQkI0bGc0bmwxV0VYWVR6dF8tMVk4LWxkUFlMYWRkVjFmQ0NNdjRPOFRteHJJOWVKeHpmT2g3d05CaHBOVHEyNlMtaGhEOHRIU1dtbXZvb25Ybkt6V2ZRLTUwd2VvNWNQV29XdjljakJHcXczaXBvZTdsd0hOcTlwcVFMT0dzOEhVZU91TXJNUQ?oc=5",
      "source": "Agrolink",
@@ -575,9 +578,9 @@
      "published_at": "2026-08-13T05:00:10"
     },
     {
-     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - noticias.stf.jus.br",
+     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
-     "source": "noticias.stf.jus.br",
+     "source": "stf noticias",
      "published_at": "2026-08-12T22:52:00+00:00"
     },
     {

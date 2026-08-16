@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-16T14:16:22+00:00",
+ "generated_at": "2026-08-16T15:14:56+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-16T14:16:14+00:00",
+   "updated_at": "2026-08-16T15:14:48+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-16T14:16:14+00:00",
+   "updated_at": "2026-08-16T15:14:49+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-16T14:16:19+00:00",
+   "updated_at": "2026-08-16T15:14:53+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -260,31 +260,31 @@
       "2026-08-22"
      ],
      "precip": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
      ],
      "tmax": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      36.8,
+      36.6,
+      36.4,
+      36.6,
+      36.8,
+      37.0,
+      38.0
      ],
      "tmin": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      22.0,
+      21.5,
+      21.4,
+      21.9,
+      22.8,
+      22.1,
+      23.7
      ]
     },
     {
@@ -299,31 +299,31 @@
       "2026-08-22"
      ],
      "precip": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
      ],
      "tmax": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      36.1,
+      35.6,
+      35.5,
+      35.6,
+      36.3,
+      36.2,
+      37.4
      ],
      "tmin": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      21.0,
+      21.2,
+      20.8,
+      22.2,
+      22.7,
+      21.4,
+      23.2
      ]
     },
     {
@@ -338,31 +338,31 @@
       "2026-08-22"
      ],
      "precip": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
      ],
      "tmax": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      34.0,
+      33.0,
+      32.7,
+      33.1,
+      34.6,
+      31.5,
+      34.8
      ],
      "tmin": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      21.0,
+      21.2,
+      20.8,
+      20.8,
+      20.8,
+      21.2,
+      20.6
      ]
     },
     {
@@ -377,38 +377,44 @@
       "2026-08-22"
      ],
      "precip": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      4.8
      ],
      "tmax": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      34.4,
+      34.6,
+      34.9,
+      34.5,
+      28.0,
+      24.5,
+      21.7
      ],
      "tmin": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      20.4,
+      19.8,
+      20.0,
+      19.7,
+      16.9,
+      13.1,
+      13.4
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-16T14:16:22+00:00",
+   "updated_at": "2026-08-16T15:14:56+00:00",
    "items": [
+    {
+     "title": "Por que a fertilidade do solo faz diferença na produção do pasto na seca? Especialista responde",
+     "link": "https://www.canalrural.com.br/pecuaria/por-que-a-fertilidade-do-solo-faz-diferenca-na-producao-do-pasto-na-seca-especialista-responde/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-16T14:01:00+00:00"
+    },
     {
      "title": "STF declara constitucional Moratória da Soja. E inconstitucional condicionar incentivos à sua rejeição. E agora? Como ficam os deputados e governo do Tocantins que cortaram benefícios fiscais dos agropecuaristas que aderiram ao pacto? - luizarmandocosta.com.br",
      "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxOQlVmUFR6VjBGX2VTcHluVTBYVHZMdGtLemhRdUpweHo1Qkl2ZEc0aUFodTBXU1dMbEtyZmFJQUIzVG5kRTExZU5NOHVIdGdyU2g0Rkt3WlkxYTU3R2F4TDhqS1N6N19hUjFmQ05haHF1anRwOE9hUDhlbXVvQ2o1bTVneUw1cjFVRDNZYWp3ajFKUlh0TkhLSVBPVVVsd1BVbzJadTNubEUwSXVkYTUzdm5kTEZHS2JCLS1SUDBUdGxhTkFrVnZKaURlMGtIQl9xckdJTEl2ZUx2UTRVMUhzTFRrc0tJRWR1Z3RYajF0RG5YMEVHYVY0R0ZlY0ZXV21QcU9oRWdFclRkV1RJTFc0SEZGeFZJS2otbnk4QnV3c3hWYmdkM0thQXdVcEl5YkhpUzl6QnZGUmxJWUZSdnBXVXhmYXVsV3QyNnA3ZXdxUDJRUlA0M3A1NU8zeTQxSWFvWFRXWkh5ZlJUUWQ3SG1UTUtYLXZjTDlNZ0hhWkh3Z3M?oc=5",
@@ -440,9 +446,9 @@
      "published_at": "2026-08-16T12:05:00+00:00"
     },
     {
-     "title": "El Niño pode ser o mais forte desde 1950 — e ameaça até metade da soja no Brasil - Exame",
+     "title": "El Niño pode ser o mais forte desde 1950 — e ameaça até metade da soja no Brasil - exame.com",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbV91NkI2b2hUQUh3YVhTNHBTZVZIS0pJU3lOa3pBbGl2RGVNNnRlVDJOVEVTd0d0dkFic1hJXzVqRnB6MDNmR0dwWHBQTjhQTWxpSjJ4WlNqRHFzYkZpbDFvaVdwUWlNODVqcU5pZ2pnVFBkdWpmY09jWlY1bVk2TmZvZnV6N2FXclFfWTZaVkVHdGFUOHNGNkp1NDk5MFEwQUg5Sw?oc=5",
-     "source": "Exame",
+     "source": "exame.com",
      "published_at": "2026-08-16T11:04:45+00:00"
     },
     {
@@ -518,12 +524,6 @@
      "published_at": "2026-08-15T16:05:00+00:00"
     },
     {
-     "title": "MP restringe socorro e empurra dívida rural para a Justiça",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/mp-restringe-socorro-e-empurra-divida-rural-para-a-justica/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-15T15:54:09+00:00"
-    },
-    {
      "title": "Consultoria vê mudança no fluxo global da soja - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS3JEY2Y1dHktWl9xQkI0bGc0bmwxV0VYWVR6dF8tMVk4LWxkUFlMYWRkVjFmQ0NNdjRPOFRteHJJOWVKeHpmT2g3d05CaHBOVHEyNlMtaGhEOHRIU1dtbXZvb25Ybkt6V2ZRLTUwd2VvNWNQV29XdjljakJHcXczaXBvZTdsd0hOcTlwcVFMT0dzOEhVZU91TXJNUQ?oc=5",
      "source": "Agrolink",
@@ -584,9 +584,9 @@
      "published_at": "2026-08-12T22:52:00+00:00"
     },
     {
-     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",
+     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - cnnbrasil.com.br",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
-     "source": "CNN Brasil",
+     "source": "cnnbrasil.com.br",
      "published_at": "2026-08-12T19:18:51+00:00"
     }
    ],

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-16T02:19:14+00:00",
+ "generated_at": "2026-08-16T03:42:11+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-16T02:19:10+00:00",
+   "updated_at": "2026-08-16T03:42:03+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -215,12 +215,15 @@
       173825.0,
       173714.0,
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -238,7 +241,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-16T02:19:10+00:00",
+   "updated_at": "2026-08-16T03:42:04+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -249,18 +252,18 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-16T02:19:12+00:00",
+   "updated_at": "2026-08-16T03:42:08+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
      "dates": [
-      "2026-08-15",
       "2026-08-16",
       "2026-08-17",
       "2026-08-18",
       "2026-08-19",
       "2026-08-20",
-      "2026-08-21"
+      "2026-08-21",
+      "2026-08-22"
      ],
      "precip": [
       0.0,
@@ -272,34 +275,34 @@
       0.0
      ],
      "tmax": [
-      36.4,
       36.8,
       37.2,
       36.8,
       36.8,
       37.0,
-      37.2
+      37.2,
+      38.3
      ],
      "tmin": [
-      20.3,
       22.7,
       22.1,
       21.8,
       22.9,
       23.8,
-      22.5
+      22.5,
+      24.6
      ]
     },
     {
      "name": "Sinop · MT",
      "dates": [
-      "2026-08-15",
       "2026-08-16",
       "2026-08-17",
       "2026-08-18",
       "2026-08-19",
       "2026-08-20",
-      "2026-08-21"
+      "2026-08-21",
+      "2026-08-22"
      ],
      "precip": [
       0.0,
@@ -311,34 +314,34 @@
       0.0
      ],
      "tmax": [
-      35.8,
       36.0,
       36.2,
       35.9,
       36.2,
       36.5,
-      36.5
+      36.5,
+      37.3
      ],
      "tmin": [
-      21.0,
       21.8,
       21.9,
       20.9,
       22.8,
       22.2,
-      21.6
+      21.6,
+      23.5
      ]
     },
     {
      "name": "Rio Verde · GO",
      "dates": [
-      "2026-08-15",
       "2026-08-16",
       "2026-08-17",
       "2026-08-18",
       "2026-08-19",
       "2026-08-20",
-      "2026-08-21"
+      "2026-08-21",
+      "2026-08-22"
      ],
      "precip": [
       0.0,
@@ -350,68 +353,74 @@
       0.0
      ],
      "tmax": [
-      33.4,
       34.4,
       33.3,
       33.0,
       33.7,
       34.8,
-      32.9
+      32.9,
+      34.6
      ],
      "tmin": [
-      19.0,
       20.8,
       21.9,
       21.7,
       20.8,
       20.9,
-      21.7
+      21.7,
+      22.6
      ]
     },
     {
      "name": "Dourados · MS",
      "dates": [
-      "2026-08-15",
       "2026-08-16",
       "2026-08-17",
       "2026-08-18",
       "2026-08-19",
       "2026-08-20",
-      "2026-08-21"
+      "2026-08-21",
+      "2026-08-22"
      ],
      "precip": [
-      0.3,
       0.0,
       0.0,
       0.0,
       0.0,
       0.0,
-      0.0
+      0.0,
+      12.0
      ],
      "tmax": [
-      33.2,
       35.1,
       35.4,
       35.9,
       35.3,
       25.4,
-      27.8
+      27.8,
+      25.3
      ],
      "tmin": [
-      19.3,
       20.5,
       20.1,
       21.6,
       20.5,
       16.4,
-      13.4
+      13.4,
+      12.9
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-16T02:19:14+00:00",
+   "updated_at": "2026-08-16T03:42:11+00:00",
    "items": [
+    {
+     "title": "Adapec alerta produtores rurais a não manter plantas vivas de soja no campo durante período de vazio sanitário - Portal Agora Tocantins",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMmJYc3JobjYxekhmc0RPQnlFN3VtSFpqUHRKOEo4MkhxMGFnU3h2Q3FhQnJYTm9nSFVWRGd6QmI4XzZZOGhKWkNfTi1jd1h0eU4wNHRRUndJZVpsNjNnOGdKYTB1YmlqazZ1ck1hOWl5OW5ZNklaNDI5U2dlejhnb1B5T0tRXy1fcnBRc3BVZ1FsR180VkJqWXp4NUc5c0w3Z1c5Q0xTeDNIUDJaMTZ4RHRWYnpGLXNocGRnVDFyU19BOGx3VnVUZDgwbHJ4cFJV?oc=5",
+     "source": "Portal Agora Tocantins",
+     "published_at": "2026-08-15T23:00:05+00:00"
+    },
     {
      "title": "Soja: com dados de USDA e Conab nas mãos, mercado aguarda Crop Tour para definir expectativas - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMHpmMENrQ1R4SnBVbGRqTjZad0V0OUY0SVFESnBNYW9qQXpFWEdEbnZueXRXNi1UZnF3aUFrakUwNFVoNEM5SmFrNC11MXpWOEI1VVRKR0NoWEpxMG5fREIta1NxVUJmOGw4M0VrcWFLUXpHd2ZkWXNHaG43eWtoLS1RMkoyRDFfWGcyd3FTMkt0Mjl6dlI2RlNicDRXV0ZuZzhQZ2FETGFNZDQ2M01saVR4WDl1NjhkaTRMbC1qWkVPV2ttRF9mTHV1MGlab1U?oc=5",
@@ -467,9 +476,9 @@
      "published_at": "2026-08-15T15:54:09+00:00"
     },
     {
-     "title": "Prêmio da soja chega a US$ 1,45 por bushel em Paranaguá em agosto - opresenterural.com.br",
+     "title": "Prêmio da soja chega a US$ 1,45 por bushel em Paranaguá em agosto - O Presente Rural",
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTm1IODRUTVNYNjdwUmt4ZGR0c25nZ3NlWlBLdXlUYUotbFgzdGdKSVhsX1RlUExLTU5QcE9fbkVTNkh4amRhSURDem9uU3VjNDhmbTEtaDhuc1N6RlNMZlVBT2tNWEIwSE5UMVFQVVVHbVJVRi1TUTl1ZVJkbXRxam5KQmhzUGJBakFrX3RpRk5mZUVBLUJJTDR3?oc=5",
-     "source": "opresenterural.com.br",
+     "source": "O Presente Rural",
      "published_at": "2026-08-15T15:24:00+00:00"
     },
     {
@@ -485,12 +494,6 @@
      "published_at": "2026-08-15T14:45:15+00:00"
     },
     {
-     "title": "Conheça os \"Reis da Soja\", os municípios que mais produzem o grão no Brasil; líder supera 2 milhões de toneladas - CompreRural",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWlB2dGNjNGFZR1NCRUVpSTB1SEVqUTNfSTFHWjlpSUlzc0NjeUUxM01URDhYQzRTOHhhVWZmMTdaZlBtUEU2Zk5fejJZNlRNaVhVMml5YUFncVVHRFZxbFNtZTk0Zkl2djFWSXh6OFBHd19sMjUzU05uMFJUai1td2dqeUxzem00cDViMHdsazB1XzNBQjlmVS04RWxHSGZxNzJIVV9SZ1dOQl9nRWFkZDZhV3R3UndQX2V2ckhiZGh1dmFEYjhiRjNDdzVKVC1CVVRv?oc=5",
-     "source": "CompreRural",
-     "published_at": "2026-08-15T14:30:00+00:00"
-    },
-    {
      "title": "Tecnologia brasileira transforma madeira em fibra para alimentação de suínos",
      "link": "https://www.canalrural.com.br/aves-e-suinos/tecnologia-brasileira-transforma-madeira-em-fibra-para-alimentacao-de-suinos/",
      "source": "Canal Rural",
@@ -503,16 +506,16 @@
      "published_at": "2026-08-15T13:54:00+00:00"
     },
     {
+     "title": "Preço da soja encerra a semana em alta no Brasil, acompanhando cotações internacionais - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTmYxTDBVUEhxVXNkYjk5a0hDM2tUSFJBOElTcEt0MU85Z0xEd1RQWmN1LXNtdG5JZTJ3X1RrckZQemZDT1JrTi1uS25fNmRTVkpJUE91bzd0WUtHLWtQS09IUVFKM01hX0lYUHc0QTBGdUFVdDMtdGR5UVBZYUxfZExfdGxZUnpoX3JOdFVDQV8xV2l6eFlwbWxoR3JMdktqSFd6YjBwek9saHJjTkVscG8ta0xXaWRjMXIwanR3NVpsYmVRVkRkajg3WjlkUWRSWEdMaVZOdUxsTkVZRUHSAewBQVVfeXFMTXpucU9nYjVxQTA1bTV0TEtFTlBWNlNLTC1EOFdUOV9KRG5lMDhUZU5xR1RFUkU5NDdyS0pfS3piUmpwc040dklOdUxVQ01kTzlmNlQ1NVFzdllyaWx2QnM4MzNGQ0pCUUxjZTlKTk1LQ1Q2QTFPQS1zOGptOVlVeTNMbE9uSjd2cDdoaU1WRUQ1NzlGYnd4SFA2VnhQUDRZRnFBcmd2akFMRm1ja2cwMWNOYmJCbFMzcmZJVHlPTXNyVUhJamNaTENCYXhQOXdrVTVSN1FEQUdKUWtTX3BtV2luUzNaQlFuOFNMN0E?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-15T09:05:08+00:00"
+    },
+    {
      "title": "China tenta reduzir dependência de alimentos importados; o que isso significa para o agro brasileiro - G1",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU2lkdHFFdmFFeWFpQlppMXZrcjYwOUtoNTR3QTFhZWNKV0FOY3V1cklrQ1owdnp1bU1fSFlXM2pRaGZCZjRXSjBNdTEyaUQ3X3dWZlpodHdpd1R3Ym1ZMFpWaGhzVURYSEFEamFPU0VMcGsyN011S3FzY2tvR3JIaXdBOWg0akVCM0poRFI3SHlCVGxKZXlyS3hVMDRHbm1vQnYtYWdOQ3N1OHBNX1M4LWduZHRnRDVKc1ZVajVveUfSAc8BQVVfeXFMTzF0M015YWtPR3g1U0ZNcjhyZG1FbXFBSnBNd3F1aWo0ZjVhelB5ZGM5Mnk0REtYNk1lTThTSE9DVllzekd5UmhSVVdDZExWUXJoZGlBV0s3aDFOaUxkMXNhT1Z6WTh4TU55SGNjaDlNQ0lKWnZCMkFxNFZ0TVIyVWp5ZWliRDBvQlRFUDRYdno3TVRINXc5aWM1a1YtUFphd3djd0EtdWxra3IzeHF1Q0R0bzdHUVk0VXhqRTlKRVIxYkt3bklTaU5rckNzSXYw?oc=5",
      "source": "G1",
      "published_at": "2026-08-15T08:00:13+00:00"
-    },
-    {
-     "title": "Notícia - Colheita da soja inicia com estimativa de mais de 54 mil toneladas - Prefeitura Municipal de Santa Terezinha de Itaipu",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd042MWxhMVpZd2FYZ2I0dEQwUVZMajI0YXZ0T1NxbXFMekJ6eVVsMFpxY2NJcnQwUHNGbmZWLVlSNUZEMG5WSW1ucVZzcXZxMkxPVkJXWjJTY1JwQWJVanhxTnFiRkF2aFZLQkdxSjJ6dnZvRlpYM2drMFFOUE83Q2tfTTNJSXhKcEMzVGRxUllWMmZyY3E2TnVIY240Vmd2b2NvTXpPWHVQVFI2bEVWYQ?oc=5",
-     "source": "Prefeitura Municipal de Santa Terezinha de Itaipu",
-     "published_at": "2026-08-14T19:56:51+00:00"
     },
     {
      "title": "Balde Cheio: programa da Embrapa ajuda pequenas propriedades a melhorar produção de leite",

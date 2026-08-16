@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-16T00:56:09+00:00",
+ "generated_at": "2026-08-16T02:19:14+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-16T00:56:02+00:00",
+   "updated_at": "2026-08-16T02:19:10+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -215,15 +215,12 @@
       173825.0,
       173714.0,
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -241,7 +238,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-16T00:56:03+00:00",
+   "updated_at": "2026-08-16T02:19:10+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +249,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-16T00:56:07+00:00",
+   "updated_at": "2026-08-16T02:19:12+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,7 +410,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-16T00:56:09+00:00",
+   "updated_at": "2026-08-16T02:19:14+00:00",
    "items": [
     {
      "title": "Soja: com dados de USDA e Conab nas mãos, mercado aguarda Crop Tour para definir expectativas - Canal Rural",
@@ -450,6 +447,12 @@
      "link": "https://www.canalrural.com.br/opiniao-noticias/a-guerra-no-mar-negro-pode-chegar-a-mesa-do-brasileiro/",
      "source": "Canal Rural",
      "published_at": "2026-08-15T16:30:22+00:00"
+    },
+    {
+     "title": "Soja mais resistente a percevejos é identificada por pesquisadores brasileiros - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeUhaMWtfLWZaTGp4aWZabHJZUmxLWU1DUkk0bTIyelR5djlKa2ZTZDlZUEZ6cmlxVjZLYXFacWlqakcyQ0s3NURZZGFuMmwzN2lmUEVvb2xwa1hzbWhpZVpvWC1yajhfOWhwSHVUb1hwaWJCcWllc1ZKYUJhb0VNbW1XYngyR0hxVmdIWFdtQkNURlJYWVhJaFVkSzZLMUZjMnBJMGlVeC1ZVTE2RWg4c0FvNkRXVTFmZG9tbklR?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T16:05:00+00:00"
     },
     {
      "title": "Soja mais resistente a percevejos é identificada por pesquisadores brasileiros",
@@ -494,21 +497,15 @@
      "published_at": "2026-08-15T14:04:00+00:00"
     },
     {
-     "title": "Consultoria vê mudança no fluxo global da soja - agrolink.com.br",
+     "title": "Consultoria vê mudança no fluxo global da soja - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS3JEY2Y1dHktWl9xQkI0bGc0bmwxV0VYWVR6dF8tMVk4LWxkUFlMYWRkVjFmQ0NNdjRPOFRteHJJOWVKeHpmT2g3d05CaHBOVHEyNlMtaGhEOHRIU1dtbXZvb25Ybkt6V2ZRLTUwd2VvNWNQV29XdjljakJHcXczaXBvZTdsd0hOcTlwcVFMT0dzOEhVZU91TXJNUQ?oc=5",
-     "source": "agrolink.com.br",
+     "source": "Agrolink",
      "published_at": "2026-08-15T13:54:00+00:00"
     },
     {
-     "title": "Soja, milho, algodão e sorgo levam safra a recorde de 360,8 milhões de toneladas - Gazeta de Toledo",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSjNKbmNRVTFOVlJQZk5feHdmRTBKQklkckxvYWJnUkJIaWV1OGh3Z1ptMTJDTnZRSXpNNGlWb2hIU2x4eTBmMm9WUDNMVEsyemZYSTl4cUFXOEdPVUllOUhsUlduUUVmMVVURl94dDFEcXJZOVVvalZzcW5nSmpZVEtrTmFmc05TX0p4dEExS1p2ZUEzOXBQUVU4XzMzay1pMDNHS1QtcU1Lb2ZB?oc=5",
-     "source": "Gazeta de Toledo",
-     "published_at": "2026-08-15T13:08:56+00:00"
-    },
-    {
-     "title": "China tenta reduzir dependência de alimentos importados; o que isso significa para o agro brasileiro - g1.globo.com",
+     "title": "China tenta reduzir dependência de alimentos importados; o que isso significa para o agro brasileiro - G1",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU2lkdHFFdmFFeWFpQlppMXZrcjYwOUtoNTR3QTFhZWNKV0FOY3V1cklrQ1owdnp1bU1fSFlXM2pRaGZCZjRXSjBNdTEyaUQ3X3dWZlpodHdpd1R3Ym1ZMFpWaGhzVURYSEFEamFPU0VMcGsyN011S3FzY2tvR3JIaXdBOWg0akVCM0poRFI3SHlCVGxKZXlyS3hVMDRHbm1vQnYtYWdOQ3N1OHBNX1M4LWduZHRnRDVKc1ZVajVveUfSAc8BQVVfeXFMTzF0M015YWtPR3g1U0ZNcjhyZG1FbXFBSnBNd3F1aWo0ZjVhelB5ZGM5Mnk0REtYNk1lTThTSE9DVllzekd5UmhSVVdDZExWUXJoZGlBV0s3aDFOaUxkMXNhT1Z6WTh4TU55SGNjaDlNQ0lKWnZCMkFxNFZ0TVIyVWp5ZWliRDBvQlRFUDRYdno3TVRINXc5aWM1a1YtUFphd3djd0EtdWxra3IzeHF1Q0R0bzdHUVk0VXhqRTlKRVIxYkt3bklTaU5rckNzSXYw?oc=5",
-     "source": "g1.globo.com",
+     "source": "G1",
      "published_at": "2026-08-15T08:00:13+00:00"
     },
     {

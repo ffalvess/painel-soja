@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-16T12:26:16+00:00",
+ "generated_at": "2026-08-16T13:26:05+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-16T12:26:00+00:00",
+   "updated_at": "2026-08-16T13:26:00+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-16T12:26:00+00:00",
+   "updated_at": "2026-08-16T13:26:00+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-16T12:26:04+00:00",
+   "updated_at": "2026-08-16T13:26:03+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -269,22 +269,22 @@
       0.0
      ],
      "tmax": [
+      36.8,
+      36.6,
+      36.4,
+      36.6,
+      36.8,
       37.0,
-      36.9,
-      36.6,
-      36.6,
-      36.7,
-      37.5,
       38.0
      ],
      "tmin": [
       22.0,
-      21.7,
-      21.6,
-      22.6,
+      21.5,
+      21.4,
+      21.9,
       22.8,
-      21.8,
-      23.6
+      22.1,
+      23.7
      ]
     },
     {
@@ -308,22 +308,22 @@
       0.0
      ],
      "tmax": [
+      36.1,
+      35.6,
+      35.5,
+      35.6,
+      36.3,
       36.2,
-      35.9,
-      35.7,
-      35.9,
-      36.4,
-      36.8,
       37.4
      ],
      "tmin": [
-      21.3,
-      21.5,
+      21.0,
+      21.2,
       20.8,
-      21.9,
-      22.4,
-      21.5,
-      23.0
+      22.2,
+      22.7,
+      21.4,
+      23.2
      ]
     },
     {
@@ -347,22 +347,22 @@
       0.0
      ],
      "tmax": [
-      34.2,
-      33.2,
+      34.0,
       33.0,
-      33.3,
+      32.7,
+      33.1,
       34.6,
-      32.3,
+      31.5,
       34.8
      ],
      "tmin": [
-      21.1,
-      21.7,
-      21.1,
+      21.0,
+      21.2,
       20.8,
-      21.7,
-      21.6,
-      22.9
+      20.8,
+      20.8,
+      21.2,
+      20.6
      ]
     },
     {
@@ -386,29 +386,53 @@
       4.8
      ],
      "tmax": [
-      34.7,
-      35.2,
-      35.7,
-      34.8,
-      26.8,
-      27.9,
+      34.4,
+      34.6,
+      34.9,
+      34.5,
+      28.0,
+      24.5,
       21.7
      ],
      "tmin": [
-      20.5,
-      20.1,
-      20.9,
-      20.6,
-      16.5,
-      12.9,
-      15.9
+      20.4,
+      19.8,
+      20.0,
+      19.7,
+      16.9,
+      13.1,
+      13.4
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-16T12:26:16+00:00",
+   "updated_at": "2026-08-16T13:26:05+00:00",
    "items": [
+    {
+     "title": "Conab revisa safra para 360,8 milhões de toneladas com recordes em soja milho algodão e sorgo - MundoCoop",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZy15dllTUV9kWFktXzZ2ekN3RUdheXg1bzdEMkJ1cmNGajVLRTc4OXVUa0FUREZ3TUVKMDZSZEFwcVNZUlZ6UXlBZElFU2hVYmQ0R2NsTzQ0bzgxT0RPUmJMOFNaTXo0MW93dXJDeTc4Q3djeU83REY3ZjZYa01nVGlMTW9QbkFlOXBiX1lGeUlYRHFRWG9fMXB2X1h4NEZwaENOMlVyMGdHaDhVRUtXYkcwRDRDaFdhQmd4LXdQWlhXOGl5S183UUpn?oc=5",
+     "source": "MundoCoop",
+     "published_at": "2026-08-16T13:00:00+00:00"
+    },
+    {
+     "title": "Seca avança no Brasil e no mundo e entra no centro dos debates da COP17",
+     "link": "https://www.canalrural.com.br/diversos/seca-avanca-no-brasil-e-no-mundo-e-entra-no-centro-dos-debates-da-cop17/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-16T12:27:24+00:00"
+    },
+    {
+     "title": "Caroço de açaí vira nanofertilizante e eleva crescimento do sorgo em 164%",
+     "link": "https://www.canalrural.com.br/agricultura/caroco-de-acai-vira-nanofertilizante-e-eleva-crescimento-do-sorgo-em-164/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-16T12:05:00+00:00"
+    },
+    {
+     "title": "El Niño pode ser o mais forte desde 1950 — e ameaça até metade da soja no Brasil - Exame",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbV91NkI2b2hUQUh3YVhTNHBTZVZIS0pJU3lOa3pBbGl2RGVNNnRlVDJOVEVTd0d0dkFic1hJXzVqRnB6MDNmR0dwWHBQTjhQTWxpSjJ4WlNqRHFzYkZpbDFvaVdwUWlNODVqcU5pZ2pnVFBkdWpmY09jWlY1bVk2TmZvZnV6N2FXclFfWTZaVkVHdGFUOHNGNkp1NDk5MFEwQUg5Sw?oc=5",
+     "source": "Exame",
+     "published_at": "2026-08-16T11:04:45+00:00"
+    },
     {
      "title": "Mosca-de-estábulo avança no inverno e causa prejuízo a pecuaristas no interior de SP",
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/16/mosca-de-estabulo-avanca-no-inverno-e-causa-prejuizo-a-pecuaristas-no-interior-de-sp.ghtml",
@@ -422,10 +446,28 @@
      "published_at": "2026-08-16T10:30:12"
     },
     {
+     "title": "Moratória da Soja: o que, afinal, o STF está julgando? - Consultor Jurídico",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdWtsdEhSVGlQV2N4alNEcDlMUTRhWVFBcmNhdmRZTzZic0hobHBKOVd1WlRQaVNsMXRBUXZjeUt2Y1pSTkpBLWxIMHhEX3FhaXNhek5UZ1Bpbld1ZkNMb1NqUnIxZGk3aDBVb2RfOVBtZTNuQzJNbnB3V3F4TW1NZ1o0ODNYM2lYWWU3ckRmSHNnV2lEVkE3d0cxd3VIYW84RlFGdg?oc=5",
+     "source": "Consultor Jurídico",
+     "published_at": "2026-08-16T09:03:28+00:00"
+    },
+    {
+     "title": "Falta de chuva faz produtores perderem plantações de milho e reduz produtividade da soja em Roraima - g1.globo.com",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOc2FNa0dENEpKZ1pJWVEzYTRuT2xnbGtmS3pNOEJQWnJLRC1sSUM4bkdwQ1NnbmJ4ZUlWMzFuQ0lTb01HVGRiNnd3V0JTNHpONzlBMS1EUjhNZk0yY1FKd0QzM1I1LUZrN2xrdGNDb3UzdkhzeGFWNzA2WVotV1dRakJJOU85Y2VMeGxvMWtEZVhLbjFFN0NtNFlSZ2MwdHROZHo4RGdDMTl3bGJlSVFBVnpXcTFTZVczQmdZMS1ncnN2NEhtQkdfTmc3NE9kNjU0M3NyTW5mR3FQQWM3a3lNVVY0SV9VSC1VbFZBN9IB-wFBVV95cUxQUnYyUTJPMnRzUHRzLUdleGRMMGVkc0p5cC1kd0tpcm4wYkhkc09zekJwNXlCR2Z1am1WUTZ6UGdwMXZSR2ZTNktieUJqUHgzeUhiNnhpSGFuWEJJOW9kYUNiOWR4VVR0WHlRQlRkYzFWSmxiYk01eV9BcG51R3JZaDNyWVJOZERqQTg0amtyeWxNNmlDc3BBeTJRX1pzdkZrZEdmOWMyenBYelJkZXFhenNQekl4ei14SThWYzRQZEpLdWZHaGJPZ3pZNFBEOF9MeTZWTWFVVnQ0T0JCcjB5LV9RVlJBVkdPNjVYSnZVdmtPdEg0LVZENXdTTQ?oc=5",
+     "source": "g1.globo.com",
+     "published_at": "2026-08-16T09:00:22+00:00"
+    },
+    {
      "title": "Curral eclético: vacas escutam de forró a música clássica e produzem mais leite em fazenda no ES; veja VÍDEO",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/16/curral-ecletico-vacas-escutam-de-forro-a-musica-classica-e-produzem-mais-leite-em-fazenda-no-es-veja-video.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-16T07:01:18"
+    },
+    {
+     "title": "Soja: com dados de USDA e Conab nas mãos, mercado aguarda Crop Tour para definir expectativas - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMHpmMENrQ1R4SnBVbGRqTjZad0V0OUY0SVFESnBNYW9qQXpFWEdEbnZueXRXNi1UZnF3aUFrakUwNFVoNEM5SmFrNC11MXpWOEI1VVRKR0NoWEpxMG5fREIta1NxVUJmOGw4M0VrcWFLUXpHd2ZkWXNHaG43eWtoLS1RMkoyRDFfWGcyd3FTMkt0Mjl6dlI2RlNicDRXV0ZuZzhQZ2FETGFNZDQ2M01saVR4WDl1NjhkaTRMbC1qWkVPV2ttRF9mTHV1MGlab1U?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T22:02:00+00:00"
     },
     {
      "title": "Soja: com dados de USDA e Conab nas mãos, mercado aguarda Crop Tour para definir expectativas",
@@ -458,6 +500,12 @@
      "published_at": "2026-08-15T16:30:22+00:00"
     },
     {
+     "title": "Soja mais resistente a percevejos é identificada por pesquisadores brasileiros - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeUhaMWtfLWZaTGp4aWZabHJZUmxLWU1DUkk0bTIyelR5djlKa2ZTZDlZUEZ6cmlxVjZLYXFacWlqakcyQ0s3NURZZGFuMmwzN2lmUEVvb2xwa1hzbWhpZVpvWC1yajhfOWhwSHVUb1hwaWJCcWllc1ZKYUJhb0VNbW1XYngyR0hxVmdIWFdtQkNURlJYWVhJaFVkSzZLMUZjMnBJMGlVeC1ZVTE2RWg4c0FvNkRXVTFmZG9tbklR?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-15T16:05:00+00:00"
+    },
+    {
      "title": "Soja mais resistente a percevejos é identificada por pesquisadores brasileiros",
      "link": "https://www.canalrural.com.br/agricultura/soja-mais-resistente-a-percevejos-e-identificada-por-pesquisadores-brasileiros/",
      "source": "Canal Rural",
@@ -474,18 +522,6 @@
      "link": "https://www.canalrural.com.br/politica/proximo-presidente-deve-ampliar-credito-e-tecnologia-no-campo-defende-sistema-ocb/",
      "source": "Canal Rural",
      "published_at": "2026-08-15T15:01:00+00:00"
-    },
-    {
-     "title": "Frio retorna, chuva supera 100 mm e El Niño preocupa; veja a previsão para a segunda quinzena de agosto",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/frio-retorna-chuva-supera-100-mm-e-el-nino-preocupa-veja-a-previsao-para-a-segunda-quinzena-de-agosto/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-15T14:45:15+00:00"
-    },
-    {
-     "title": "Tecnologia brasileira transforma madeira em fibra para alimentação de suínos",
-     "link": "https://www.canalrural.com.br/aves-e-suinos/tecnologia-brasileira-transforma-madeira-em-fibra-para-alimentacao-de-suinos/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-15T14:04:00+00:00"
     },
     {
      "title": "China tenta reduzir dependência de alimentos importados; o que isso significa para o agro brasileiro",
@@ -536,14 +572,25 @@
      "published_at": "2026-08-13T05:00:10"
     },
     {
-     "title": "Terremoto afeta exportações de café da Colômbia e ameaça embarques internacionais",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/12/terremoto-afeta-exportacoes-de-cafe-da-colombia-e-ameaca-embarques-internacionais.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-12T16:19:19"
+     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
+     "source": "stf noticias",
+     "published_at": "2026-08-12T22:52:00+00:00"
+    },
+    {
+     "title": "STF mantém lei de MT que corta benefícios de empresas que aderem à Moratória da Soja; entenda decisão - g1.globo.com",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMkd3dnhpNUxHd2R2akY0bnJ4aVpILXJWSkdIc2dud3lnRjZRN1B4X0lDcnI3R2JwTEd4R2FyVFJfV0dxN3dhYmZJczhvMjhINGw3ZWpYUy1KSE9lb3NiR24xM28zaE5nNlFIZ1RrcWpKalZETVBERFNIR3hRRDJkOGlBVDZrRmdnV2Jjb3lYQUJnd2Uzal9OZnRXLXFFenVIYmdQbmQ1YmI5aVJKQ2hndE5FaThYS0Q0bGtQLV8tVEc4UDFkOF9WR3JsZm8zVU52Y3lNOUZ0V2dERmg5X0dZdlNrQ0N0N19MZ2NteHBqQWs5cnPSAYICQVVfeXFMT0JkaUVVQ0Q3LTF6NFVPRW9oY2dQYklHZkFocXNORTEyTEdhMzd1d05ucFBQVHo0QnZCSUU0RVhQOEdCQXI4c3hCb1hNdUc5a19RclVLeHZ6WEhlRE1qWkdVOGV3UU9uZVJ3T1gtenJmdU4zWTJiMWplRTg2WFhpUkY2QVJBY3pjVi11VWR1Z3k3OHVMdzkyclQ4dW54dEdTRWlIX0tENmxFRGNkQWxkUkVISG9qY1RLbEE1M00xM0Z2Q19qNV9VMkJOUXZBNzY3NWRvZ3J2QndwNHN0djJjQWpBX21oSVhCZzNXbVFyMlB4OVpFSmhhdXpEVWVyVTM1MnFn?oc=5",
+     "source": "g1.globo.com",
+     "published_at": "2026-08-12T21:46:14+00:00"
+    },
+    {
+     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-08-12T19:18:51+00:00"
     }
    ],
    "failed": [
-    "Google News: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=soja+OR+%22mercado+de+gr%C3%A3os%22&hl=pt-BR&gl=BR&ceid=BR:pt-419",
     "Notícias Agrícolas: 404 Client Error: Not Found for url: https://www.noticiasagricolas.com.br/rss/noticias"
    ]
   }

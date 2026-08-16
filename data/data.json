@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-16T04:29:37+00:00",
+ "generated_at": "2026-08-16T05:22:03+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-16T04:29:28+00:00",
+   "updated_at": "2026-08-16T05:21:53+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-16T04:29:29+00:00",
+   "updated_at": "2026-08-16T05:21:53+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-16T04:29:33+00:00",
+   "updated_at": "2026-08-16T05:21:59+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,7 +407,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-16T04:29:37+00:00",
+   "updated_at": "2026-08-16T05:22:03+00:00",
    "items": [
     {
      "title": "Adapec alerta produtores rurais a não manter plantas vivas de soja no campo durante período de vazio sanitário - Portal Agora Tocantins",

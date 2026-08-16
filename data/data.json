@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-16T15:14:56+00:00",
+ "generated_at": "2026-08-16T16:17:34+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-16T15:14:48+00:00",
+   "updated_at": "2026-08-16T16:17:26+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-16T15:14:49+00:00",
+   "updated_at": "2026-08-16T16:17:26+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-16T15:14:53+00:00",
+   "updated_at": "2026-08-16T16:17:31+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +407,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-16T15:14:56+00:00",
+   "updated_at": "2026-08-16T16:17:34+00:00",
    "items": [
+    {
+     "title": "O agricultor e o publicitário",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/o-agricultor-e-o-publicitario/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-16T15:30:29+00:00"
+    },
     {
      "title": "Por que a fertilidade do solo faz diferença na produção do pasto na seca? Especialista responde",
      "link": "https://www.canalrural.com.br/pecuaria/por-que-a-fertilidade-do-solo-faz-diferenca-na-producao-do-pasto-na-seca-especialista-responde/",
@@ -416,9 +422,9 @@
      "published_at": "2026-08-16T14:01:00+00:00"
     },
     {
-     "title": "STF declara constitucional Moratória da Soja. E inconstitucional condicionar incentivos à sua rejeição. E agora? Como ficam os deputados e governo do Tocantins que cortaram benefícios fiscais dos agropecuaristas que aderiram ao pacto? - luizarmandocosta.com.br",
+     "title": "STF declara constitucional Moratória da Soja. E inconstitucional condicionar incentivos à sua rejeição. E agora? Como ficam os deputados e governo do Tocantins que cortaram benefícios fiscais dos agropecuaristas que aderiram ao pacto? - Luiz Armando Costa",
      "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxOQlVmUFR6VjBGX2VTcHluVTBYVHZMdGtLemhRdUpweHo1Qkl2ZEc0aUFodTBXU1dMbEtyZmFJQUIzVG5kRTExZU5NOHVIdGdyU2g0Rkt3WlkxYTU3R2F4TDhqS1N6N19hUjFmQ05haHF1anRwOE9hUDhlbXVvQ2o1bTVneUw1cjFVRDNZYWp3ajFKUlh0TkhLSVBPVVVsd1BVbzJadTNubEUwSXVkYTUzdm5kTEZHS2JCLS1SUDBUdGxhTkFrVnZKaURlMGtIQl9xckdJTEl2ZUx2UTRVMUhzTFRrc0tJRWR1Z3RYajF0RG5YMEVHYVY0R0ZlY0ZXV21QcU9oRWdFclRkV1RJTFc0SEZGeFZJS2otbnk4QnV3c3hWYmdkM0thQXdVcEl5YkhpUzl6QnZGUmxJWUZSdnBXVXhmYXVsV3QyNnA3ZXdxUDJRUlA0M3A1NU8zeTQxSWFvWFRXWkh5ZlJUUWQ3SG1UTUtYLXZjTDlNZ0hhWkh3Z3M?oc=5",
-     "source": "luizarmandocosta.com.br",
+     "source": "Luiz Armando Costa",
      "published_at": "2026-08-16T13:41:44+00:00"
     },
     {
@@ -428,9 +434,9 @@
      "published_at": "2026-08-16T13:25:02+00:00"
     },
     {
-     "title": "Conab revisa safra para 360,8 milhões de toneladas com recordes em soja milho algodão e sorgo - MundoCoop",
+     "title": "Conab revisa safra para 360,8 milhões de toneladas com recordes em soja milho algodão e sorgo - mundocoop.com.br",
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZy15dllTUV9kWFktXzZ2ekN3RUdheXg1bzdEMkJ1cmNGajVLRTc4OXVUa0FUREZ3TUVKMDZSZEFwcVNZUlZ6UXlBZElFU2hVYmQ0R2NsTzQ0bzgxT0RPUmJMOFNaTXo0MW93dXJDeTc4Q3djeU83REY3ZjZYa01nVGlMTW9QbkFlOXBiX1lGeUlYRHFRWG9fMXB2X1h4NEZwaENOMlVyMGdHaDhVRUtXYkcwRDRDaFdhQmd4LXdQWlhXOGl5S183UUpn?oc=5",
-     "source": "MundoCoop",
+     "source": "mundocoop.com.br",
      "published_at": "2026-08-16T13:00:00+00:00"
     },
     {
@@ -446,9 +452,9 @@
      "published_at": "2026-08-16T12:05:00+00:00"
     },
     {
-     "title": "El Niño pode ser o mais forte desde 1950 — e ameaça até metade da soja no Brasil - exame.com",
+     "title": "El Niño pode ser o mais forte desde 1950 — e ameaça até metade da soja no Brasil - Exame",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbV91NkI2b2hUQUh3YVhTNHBTZVZIS0pJU3lOa3pBbGl2RGVNNnRlVDJOVEVTd0d0dkFic1hJXzVqRnB6MDNmR0dwWHBQTjhQTWxpSjJ4WlNqRHFzYkZpbDFvaVdwUWlNODVqcU5pZ2pnVFBkdWpmY09jWlY1bVk2TmZvZnV6N2FXclFfWTZaVkVHdGFUOHNGNkp1NDk5MFEwQUg5Sw?oc=5",
-     "source": "exame.com",
+     "source": "Exame",
      "published_at": "2026-08-16T11:04:45+00:00"
     },
     {
@@ -518,12 +524,6 @@
      "published_at": "2026-08-15T16:30:22+00:00"
     },
     {
-     "title": "Soja mais resistente a percevejos é identificada por pesquisadores brasileiros",
-     "link": "https://www.canalrural.com.br/agricultura/soja-mais-resistente-a-percevejos-e-identificada-por-pesquisadores-brasileiros/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-15T16:05:00+00:00"
-    },
-    {
      "title": "Consultoria vê mudança no fluxo global da soja - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS3JEY2Y1dHktWl9xQkI0bGc0bmwxV0VYWVR6dF8tMVk4LWxkUFlMYWRkVjFmQ0NNdjRPOFRteHJJOWVKeHpmT2g3d05CaHBOVHEyNlMtaGhEOHRIU1dtbXZvb25Ybkt6V2ZRLTUwd2VvNWNQV29XdjljakJHcXczaXBvZTdsd0hOcTlwcVFMT0dzOEhVZU91TXJNUQ?oc=5",
      "source": "Agrolink",
@@ -578,15 +578,15 @@
      "published_at": "2026-08-13T05:00:10"
     },
     {
-     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
+     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - noticias.stf.jus.br",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
-     "source": "stf noticias",
+     "source": "noticias.stf.jus.br",
      "published_at": "2026-08-12T22:52:00+00:00"
     },
     {
-     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - cnnbrasil.com.br",
+     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
-     "source": "cnnbrasil.com.br",
+     "source": "CNN Brasil",
      "published_at": "2026-08-12T19:18:51+00:00"
     }
    ],

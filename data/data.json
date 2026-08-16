@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-16T08:21:07+00:00",
+ "generated_at": "2026-08-16T09:20:56+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-16T08:21:00+00:00",
+   "updated_at": "2026-08-16T09:20:50+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -235,7 +235,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-16T08:21:00+00:00",
+   "updated_at": "2026-08-16T09:20:50+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +246,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-16T08:21:05+00:00",
+   "updated_at": "2026-08-16T09:20:54+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +407,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-16T08:21:07+00:00",
+   "updated_at": "2026-08-16T09:20:56+00:00",
    "items": [
+    {
+     "title": "Moratória da Soja: o que, afinal, o STF está julgando? - Consultor Jurídico",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdWtsdEhSVGlQV2N4alNEcDlMUTRhWVFBcmNhdmRZTzZic0hobHBKOVd1WlRQaVNsMXRBUXZjeUt2Y1pSTkpBLWxIMHhEX3FhaXNhek5UZ1Bpbld1ZkNMb1NqUnIxZGk3aDBVb2RfOVBtZTNuQzJNbnB3V3F4TW1NZ1o0ODNYM2lYWWU3ckRmSHNnV2lEVkE3d0cxd3VIYW84RlFGdg?oc=5",
+     "source": "Consultor Jurídico",
+     "published_at": "2026-08-16T09:03:28+00:00"
+    },
+    {
+     "title": "Falta de chuva faz produtores perderem plantações de milho e reduz produtividade da soja em Roraima - g1.globo.com",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOc2FNa0dENEpKZ1pJWVEzYTRuT2xnbGtmS3pNOEJQWnJLRC1sSUM4bkdwQ1NnbmJ4ZUlWMzFuQ0lTb01HVGRiNnd3V0JTNHpONzlBMS1EUjhNZk0yY1FKd0QzM1I1LUZrN2xrdGNDb3UzdkhzeGFWNzA2WVotV1dRakJJOU85Y2VMeGxvMWtEZVhLbjFFN0NtNFlSZ2MwdHROZHo4RGdDMTl3bGJlSVFBVnpXcTFTZVczQmdZMS1ncnN2NEhtQkdfTmc3NE9kNjU0M3NyTW5mR3FQQWM3a3lNVVY0SV9VSC1VbFZBN9IB-wFBVV95cUxQUnYyUTJPMnRzUHRzLUdleGRMMGVkc0p5cC1kd0tpcm4wYkhkc09zekJwNXlCR2Z1am1WUTZ6UGdwMXZSR2ZTNktieUJqUHgzeUhiNnhpSGFuWEJJOW9kYUNiOWR4VVR0WHlRQlRkYzFWSmxiYk01eV9BcG51R3JZaDNyWVJOZERqQTg0amtyeWxNNmlDc3BBeTJRX1pzdkZrZEdmOWMyenBYelJkZXFhenNQekl4ei14SThWYzRQZEpLdWZHaGJPZ3pZNFBEOF9MeTZWTWFVVnQ0T0JCcjB5LV9RVlJBVkdPNjVYSnZVdmtPdEg0LVZENXdTTQ?oc=5",
+     "source": "g1.globo.com",
+     "published_at": "2026-08-16T09:00:22+00:00"
+    },
     {
      "title": "Curral eclético: vacas escutam de forró a música clássica e produzem mais leite em fazenda no ES; veja VÍDEO",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/16/curral-ecletico-vacas-escutam-de-forro-a-musica-classica-e-produzem-mais-leite-em-fazenda-no-es-veja-video.ghtml",
@@ -419,7 +431,7 @@
      "title": "Adapec alerta produtores rurais a não manter plantas vivas de soja no campo durante período de vazio sanitário - Portal Agora Tocantins",
      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMmJYc3JobjYxekhmc0RPQnlFN3VtSFpqUHRKOEo4MkhxMGFnU3h2Q3FhQnJYTm9nSFVWRGd6QmI4XzZZOGhKWkNfTi1jd1h0eU4wNHRRUndJZVpsNjNnOGdKYTB1YmlqazZ1ck1hOWl5OW5ZNklaNDI5U2dlejhnb1B5T0tRXy1fcnBRc3BVZ1FsR180VkJqWXp4NUc5c0w3Z1c5Q0xTeDNIUDJaMTZ4RHRWYnpGLXNocGRnVDFyU19BOGx3VnVUZDgwbHJ4cFJV?oc=5",
      "source": "Portal Agora Tocantins",
-     "published_at": "2026-08-15T23:00:05+00:00"
+     "published_at": "2026-08-16T03:16:32+00:00"
     },
     {
      "title": "Soja: com dados de USDA e Conab nas mãos, mercado aguarda Crop Tour para definir expectativas - Canal Rural",
@@ -456,12 +468,6 @@
      "link": "https://www.canalrural.com.br/opiniao-noticias/a-guerra-no-mar-negro-pode-chegar-a-mesa-do-brasileiro/",
      "source": "Canal Rural",
      "published_at": "2026-08-15T16:30:22+00:00"
-    },
-    {
-     "title": "Soja mais resistente a percevejos é identificada por pesquisadores brasileiros - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeUhaMWtfLWZaTGp4aWZabHJZUmxLWU1DUkk0bTIyelR5djlKa2ZTZDlZUEZ6cmlxVjZLYXFacWlqakcyQ0s3NURZZGFuMmwzN2lmUEVvb2xwa1hzbWhpZVpvWC1yajhfOWhwSHVUb1hwaWJCcWllc1ZKYUJhb0VNbW1XYngyR0hxVmdIWFdtQkNURlJYWVhJaFVkSzZLMUZjMnBJMGlVeC1ZVTE2RWg4c0FvNkRXVTFmZG9tbklR?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-15T16:05:00+00:00"
     },
     {
      "title": "Soja mais resistente a percevejos é identificada por pesquisadores brasileiros",
@@ -564,12 +570,6 @@
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
      "source": "stf noticias",
      "published_at": "2026-08-12T22:52:00+00:00"
-    },
-    {
-     "title": "STF mantém lei de MT que corta benefícios de empresas que aderem à Moratória da Soja; entenda decisão - g1.globo.com",
-     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMkd3dnhpNUxHd2R2akY0bnJ4aVpILXJWSkdIc2dud3lnRjZRN1B4X0lDcnI3R2JwTEd4R2FyVFJfV0dxN3dhYmZJczhvMjhINGw3ZWpYUy1KSE9lb3NiR24xM28zaE5nNlFIZ1RrcWpKalZETVBERFNIR3hRRDJkOGlBVDZrRmdnV2Jjb3lYQUJnd2Uzal9OZnRXLXFFenVIYmdQbmQ1YmI5aVJKQ2hndE5FaThYS0Q0bGtQLV8tVEc4UDFkOF9WR3JsZm8zVU52Y3lNOUZ0V2dERmg5X0dZdlNrQ0N0N19MZ2NteHBqQWs5cnPSAYICQVVfeXFMT0JkaUVVQ0Q3LTF6NFVPRW9oY2dQYklHZkFocXNORTEyTEdhMzd1d05ucFBQVHo0QnZCSUU0RVhQOEdCQXI4c3hCb1hNdUc5a19RclVLeHZ6WEhlRE1qWkdVOGV3UU9uZVJ3T1gtenJmdU4zWTJiMWplRTg2WFhpUkY2QVJBY3pjVi11VWR1Z3k3OHVMdzkyclQ4dW54dEdTRWlIX0tENmxFRGNkQWxkUkVISG9qY1RLbEE1M00xM0Z2Q19qNV9VMkJOUXZBNzY3NWRvZ3J2QndwNHN0djJjQWpBX21oSVhCZzNXbVFyMlB4OVpFSmhhdXpEVWVyVTM1MnFn?oc=5",
-     "source": "g1.globo.com",
-     "published_at": "2026-08-12T21:46:14+00:00"
     },
     {
      "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",

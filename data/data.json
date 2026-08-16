@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-16T21:14:18+00:00",
+ "generated_at": "2026-08-16T22:14:07+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-16T21:13:55+00:00",
+   "updated_at": "2026-08-16T22:13:57+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -169,8 +169,8 @@
      "name": "Petróleo Brent",
      "unit": "US$/barril",
      "price": 88.52,
-     "prev_close": 87.07,
-     "change_pct": 1.67,
+     "prev_close": 88.52,
+     "change_pct": 0.0,
      "closes": [
       84.23,
       88.1,
@@ -193,6 +193,7 @@
       88.91,
       88.98,
       87.07,
+      88.52,
       88.52
      ]
     },
@@ -235,7 +236,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-16T20:14:51+00:00",
+   "updated_at": "2026-08-16T22:13:57+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +247,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-16T21:14:16+00:00",
+   "updated_at": "2026-08-16T22:14:03+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,7 +408,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-16T21:14:18+00:00",
+   "updated_at": "2026-08-16T22:14:07+00:00",
    "items": [
     {
      "title": "Nelore pintado: o que avaliar antes de comprar um reprodutor?",
@@ -470,9 +471,9 @@
      "published_at": "2026-08-16T13:25:02+00:00"
     },
     {
-     "title": "Conab revisa safra para 360,8 milhões de toneladas com recordes em soja milho algodão e sorgo - mundocoop.com.br",
+     "title": "Conab revisa safra para 360,8 milhões de toneladas com recordes em soja milho algodão e sorgo - MundoCoop",
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZy15dllTUV9kWFktXzZ2ekN3RUdheXg1bzdEMkJ1cmNGajVLRTc4OXVUa0FUREZ3TUVKMDZSZEFwcVNZUlZ6UXlBZElFU2hVYmQ0R2NsTzQ0bzgxT0RPUmJMOFNaTXo0MW93dXJDeTc4Q3djeU83REY3ZjZYa01nVGlMTW9QbkFlOXBiX1lGeUlYRHFRWG9fMXB2X1h4NEZwaENOMlVyMGdHaDhVRUtXYkcwRDRDaFdhQmd4LXdQWlhXOGl5S183UUpn?oc=5",
-     "source": "mundocoop.com.br",
+     "source": "MundoCoop",
      "published_at": "2026-08-16T13:00:00+00:00"
     },
     {
@@ -584,9 +585,9 @@
      "published_at": "2026-08-12T19:18:51+00:00"
     },
     {
-     "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - Migalhas",
+     "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - migalhas.com.br",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSl95WnkyNFJLdG9WLWoyX1hKTnRFQ1VBem1UX19haktzTTRWbmxLS1lUWW9vYTFNREdDazBHXzFFM1hyZFhnSmxhdkhNUm0tRHJINmx1c0lGakRaVUFsSmRKRGhjcnh4cWwtMmJtZVFMV3dRX2RxbWJvbG94NGlhSWdZZWRUZ1Y4TURWSkxNSXdtTEEzNnplTTd0d3FvQmdSYWJrekRlLTlsU2hqaHM4Q0tB?oc=5",
-     "source": "Migalhas",
+     "source": "migalhas.com.br",
      "published_at": "2026-08-12T17:44:48+00:00"
     }
    ],
@@ -599,10 +600,6 @@
   {
    "section": "fx",
    "error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
-  },
-  {
-   "section": "rates",
-   "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json"
   },
   {
    "section": "cepea",

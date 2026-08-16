@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-16T09:20:56+00:00",
+ "generated_at": "2026-08-16T10:16:46+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-16T09:20:50+00:00",
+   "updated_at": "2026-08-16T10:16:37+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -209,15 +209,12 @@
       173825.0,
       173714.0,
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -235,7 +232,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-16T09:20:50+00:00",
+   "updated_at": "2026-08-16T10:16:38+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +243,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-16T09:20:54+00:00",
+   "updated_at": "2026-08-16T10:16:42+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,7 +404,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-16T09:20:56+00:00",
+   "updated_at": "2026-08-16T10:16:46+00:00",
    "items": [
     {
      "title": "Moratória da Soja: o que, afinal, o STF está julgando? - Consultor Jurídico",
@@ -416,9 +413,9 @@
      "published_at": "2026-08-16T09:03:28+00:00"
     },
     {
-     "title": "Falta de chuva faz produtores perderem plantações de milho e reduz produtividade da soja em Roraima - g1.globo.com",
+     "title": "Falta de chuva faz produtores perderem plantações de milho e reduz produtividade da soja em Roraima - G1",
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOc2FNa0dENEpKZ1pJWVEzYTRuT2xnbGtmS3pNOEJQWnJLRC1sSUM4bkdwQ1NnbmJ4ZUlWMzFuQ0lTb01HVGRiNnd3V0JTNHpONzlBMS1EUjhNZk0yY1FKd0QzM1I1LUZrN2xrdGNDb3UzdkhzeGFWNzA2WVotV1dRakJJOU85Y2VMeGxvMWtEZVhLbjFFN0NtNFlSZ2MwdHROZHo4RGdDMTl3bGJlSVFBVnpXcTFTZVczQmdZMS1ncnN2NEhtQkdfTmc3NE9kNjU0M3NyTW5mR3FQQWM3a3lNVVY0SV9VSC1VbFZBN9IB-wFBVV95cUxQUnYyUTJPMnRzUHRzLUdleGRMMGVkc0p5cC1kd0tpcm4wYkhkc09zekJwNXlCR2Z1am1WUTZ6UGdwMXZSR2ZTNktieUJqUHgzeUhiNnhpSGFuWEJJOW9kYUNiOWR4VVR0WHlRQlRkYzFWSmxiYk01eV9BcG51R3JZaDNyWVJOZERqQTg0amtyeWxNNmlDc3BBeTJRX1pzdkZrZEdmOWMyenBYelJkZXFhenNQekl4ei14SThWYzRQZEpLdWZHaGJPZ3pZNFBEOF9MeTZWTWFVVnQ0T0JCcjB5LV9RVlJBVkdPNjVYSnZVdmtPdEg0LVZENXdTTQ?oc=5",
-     "source": "g1.globo.com",
+     "source": "G1",
      "published_at": "2026-08-16T09:00:22+00:00"
     },
     {

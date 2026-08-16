@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-16T19:16:55+00:00",
+ "generated_at": "2026-08-16T20:14:58+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-16T19:16:40+00:00",
+   "updated_at": "2026-08-16T20:14:51+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -232,7 +232,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-16T19:16:40+00:00",
+   "updated_at": "2026-08-16T20:14:51+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -243,7 +243,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-16T19:16:43+00:00",
+   "updated_at": "2026-08-16T20:14:56+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -404,8 +404,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-16T19:16:55+00:00",
+   "updated_at": "2026-08-16T20:14:58+00:00",
    "items": [
+    {
+     "title": "Barretos 2026: quantos peões disputam o maior rodeio do Brasil?",
+     "link": "https://www.canalrural.com.br/feiras-e-eventos/barretos-2026-quantos-peoes-disputam-o-maior-rodeio-do-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-16T19:05:00+00:00"
+    },
     {
      "title": "Visitantes da Expointer poderão degustar e comprar azeites brasileiros de 60 rótulos",
      "link": "https://www.canalrural.com.br/agricultura/visitantes-da-expointer-poderao-degustar-e-comprar-azeites-brasileiros-de-60-rotulos/",
@@ -443,10 +449,22 @@
      "published_at": "2026-08-16T14:01:00+00:00"
     },
     {
+     "title": "STF declara constitucional Moratória da Soja. E inconstitucional condicionar incentivos à sua rejeição. E agora? Como ficam os deputados e governo do Tocantins que cortaram benefícios dos agropecuaristas que aderiram ao pacto? - Luiz Armando Costa",
+     "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNdEZ4elJIUTlFLWlVaU9aeTFfN2lycTJyRXFOOVhnMWNqMmFUNHVDS1hQMVBRSnpnRm05MmNHMEVTUndiNUV0YTFmSFZCdXc3N3NpU00wRENkck5yd3h3aFVEajZsMzNqT090OVRlNEJMakxRNXlUcmNoeVllRWdpdkdzNkJ6blJwQmNGeFl4RFd6c0N1Q3VvOFVJX2RnWVd4S1pieUoxWVAzTWJPaVEtQTVabWJkLWFBamhhOVd6OE9tQkR3OC03eUlwN2t2SFFnOTRqSFotOHRmY1N6R2xqYUN0TDZrdVFhdmpwZmV6U3FOdXpRZU9CNE9ZZjlkeGhYbldOUFdBOXNKSnpoZGZyX3dya1VRWl9RQUJvekg3OUgtSzQ1SjF6VjZkRHF4ZENMOENUNEFUdldZUnlkWEkwUTdIMEVENlQzbmMxTFVvV0dhUmV1ZmtYQjJGSnBSNks2dFFQd2Z0Z1hZTGh3VEhpQTJ2dXpwVm5pelJTNVE3YWxQRTJzWFk0?oc=5",
+     "source": "Luiz Armando Costa",
+     "published_at": "2026-08-16T13:42:46+00:00"
+    },
+    {
      "title": "Campanha eleitoral começa neste domingo; veja regras e datas",
      "link": "https://www.canalrural.com.br/politica/eleicoes/campanha-eleitoral-comeca-neste-domingo-veja-regras-e-datas/",
      "source": "Canal Rural",
      "published_at": "2026-08-16T13:25:02+00:00"
+    },
+    {
+     "title": "Conab revisa safra para 360,8 milhões de toneladas com recordes em soja milho algodão e sorgo - MundoCoop",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZy15dllTUV9kWFktXzZ2ekN3RUdheXg1bzdEMkJ1cmNGajVLRTc4OXVUa0FUREZ3TUVKMDZSZEFwcVNZUlZ6UXlBZElFU2hVYmQ0R2NsTzQ0bzgxT0RPUmJMOFNaTXo0MW93dXJDeTc4Q3djeU83REY3ZjZYa01nVGlMTW9QbkFlOXBiX1lGeUlYRHFRWG9fMXB2X1h4NEZwaENOMlVyMGdHaDhVRUtXYkcwRDRDaFdhQmd4LXdQWlhXOGl5S183UUpn?oc=5",
+     "source": "MundoCoop",
+     "published_at": "2026-08-16T13:00:00+00:00"
     },
     {
      "title": "Seca avança no Brasil e no mundo e entra no centro dos debates da COP17",
@@ -461,6 +479,12 @@
      "published_at": "2026-08-16T12:05:00+00:00"
     },
     {
+     "title": "El Niño pode ser o mais forte desde 1950 — e ameaça até metade da soja no Brasil - Exame",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbV91NkI2b2hUQUh3YVhTNHBTZVZIS0pJU3lOa3pBbGl2RGVNNnRlVDJOVEVTd0d0dkFic1hJXzVqRnB6MDNmR0dwWHBQTjhQTWxpSjJ4WlNqRHFzYkZpbDFvaVdwUWlNODVqcU5pZ2pnVFBkdWpmY09jWlY1bVk2TmZvZnV6N2FXclFfWTZaVkVHdGFUOHNGNkp1NDk5MFEwQUg5Sw?oc=5",
+     "source": "Exame",
+     "published_at": "2026-08-16T11:04:45+00:00"
+    },
+    {
      "title": "Mosca-de-estábulo avança no inverno e causa prejuízo a pecuaristas no interior de SP",
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/16/mosca-de-estabulo-avanca-no-inverno-e-causa-prejuizo-a-pecuaristas-no-interior-de-sp.ghtml",
      "source": "G1 Agronegócios",
@@ -473,16 +497,34 @@
      "published_at": "2026-08-16T10:30:12"
     },
     {
+     "title": "Moratória da Soja: o que, afinal, o STF está julgando? - Consultor Jurídico",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdWtsdEhSVGlQV2N4alNEcDlMUTRhWVFBcmNhdmRZTzZic0hobHBKOVd1WlRQaVNsMXRBUXZjeUt2Y1pSTkpBLWxIMHhEX3FhaXNhek5UZ1Bpbld1ZkNMb1NqUnIxZGk3aDBVb2RfOVBtZTNuQzJNbnB3V3F4TW1NZ1o0ODNYM2lYWWU3ckRmSHNnV2lEVkE3d0cxd3VIYW84RlFGdg?oc=5",
+     "source": "Consultor Jurídico",
+     "published_at": "2026-08-16T09:03:28+00:00"
+    },
+    {
+     "title": "Falta de chuva faz produtores perderem plantações de milho e reduz produtividade da soja em Roraima - G1",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOc2FNa0dENEpKZ1pJWVEzYTRuT2xnbGtmS3pNOEJQWnJLRC1sSUM4bkdwQ1NnbmJ4ZUlWMzFuQ0lTb01HVGRiNnd3V0JTNHpONzlBMS1EUjhNZk0yY1FKd0QzM1I1LUZrN2xrdGNDb3UzdkhzeGFWNzA2WVotV1dRakJJOU85Y2VMeGxvMWtEZVhLbjFFN0NtNFlSZ2MwdHROZHo4RGdDMTl3bGJlSVFBVnpXcTFTZVczQmdZMS1ncnN2NEhtQkdfTmc3NE9kNjU0M3NyTW5mR3FQQWM3a3lNVVY0SV9VSC1VbFZBN9IB-wFBVV95cUxQUnYyUTJPMnRzUHRzLUdleGRMMGVkc0p5cC1kd0tpcm4wYkhkc09zekJwNXlCR2Z1am1WUTZ6UGdwMXZSR2ZTNktieUJqUHgzeUhiNnhpSGFuWEJJOW9kYUNiOWR4VVR0WHlRQlRkYzFWSmxiYk01eV9BcG51R3JZaDNyWVJOZERqQTg0amtyeWxNNmlDc3BBeTJRX1pzdkZrZEdmOWMyenBYelJkZXFhenNQekl4ei14SThWYzRQZEpLdWZHaGJPZ3pZNFBEOF9MeTZWTWFVVnQ0T0JCcjB5LV9RVlJBVkdPNjVYSnZVdmtPdEg0LVZENXdTTQ?oc=5",
+     "source": "G1",
+     "published_at": "2026-08-16T09:00:22+00:00"
+    },
+    {
      "title": "Curral eclético: vacas escutam de forró a música clássica e produzem mais leite em fazenda no ES; veja VÍDEO",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/16/curral-ecletico-vacas-escutam-de-forro-a-musica-classica-e-produzem-mais-leite-em-fazenda-no-es-veja-video.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-16T07:01:18"
     },
     {
-     "title": "Soja: com dados de USDA e Conab nas mãos, mercado aguarda Crop Tour para definir expectativas",
-     "link": "https://www.canalrural.com.br/agricultura/soja-com-dados-de-usda-e-conab-nas-maos-mercado-aguarda-crop-tour-para-definir-expectativas/",
+     "title": "Soja: com dados de USDA e Conab nas mãos, mercado aguarda Crop Tour para definir expectativas - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMHpmMENrQ1R4SnBVbGRqTjZad0V0OUY0SVFESnBNYW9qQXpFWEdEbnZueXRXNi1UZnF3aUFrakUwNFVoNEM5SmFrNC11MXpWOEI1VVRKR0NoWEpxMG5fREIta1NxVUJmOGw4M0VrcWFLUXpHd2ZkWXNHaG43eWtoLS1RMkoyRDFfWGcyd3FTMkt0Mjl6dlI2RlNicDRXV0ZuZzhQZ2FETGFNZDQ2M01saVR4WDl1NjhkaTRMbC1qWkVPV2ttRF9mTHV1MGlab1U?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-15T22:02:00+00:00"
+    },
+    {
+     "title": "Consultoria vê mudança no fluxo global da soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS3JEY2Y1dHktWl9xQkI0bGc0bmwxV0VYWVR6dF8tMVk4LWxkUFlMYWRkVjFmQ0NNdjRPOFRteHJJOWVKeHpmT2g3d05CaHBOVHEyNlMtaGhEOHRIU1dtbXZvb25Ybkt6V2ZRLTUwd2VvNWNQV29XdjljakJHcXczaXBvZTdsd0hOcTlwcVFMT0dzOEhVZU91TXJNUQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-15T13:54:00+00:00"
     },
     {
      "title": "China tenta reduzir dependência de alimentos importados; o que isso significa para o agro brasileiro",
@@ -533,14 +575,19 @@
      "published_at": "2026-08-13T05:00:10"
     },
     {
-     "title": "Terremoto afeta exportações de café da Colômbia e ameaça embarques internacionais",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/12/terremoto-afeta-exportacoes-de-cafe-da-colombia-e-ameaca-embarques-internacionais.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-12T16:19:19"
+     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
+     "source": "stf noticias",
+     "published_at": "2026-08-12T22:52:00+00:00"
+    },
+    {
+     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-08-12T19:18:51+00:00"
     }
    ],
    "failed": [
-    "Google News: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=soja+OR+%22mercado+de+gr%C3%A3os%22&hl=pt-BR&gl=BR&ceid=BR:pt-419",
     "Notícias Agrícolas: 404 Client Error: Not Found for url: https://www.noticiasagricolas.com.br/rss/noticias"
    ]
   }

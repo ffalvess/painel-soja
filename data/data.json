@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-16T06:28:29+00:00",
+ "generated_at": "2026-08-16T07:25:43+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-16T06:28:24+00:00",
+   "updated_at": "2026-08-16T07:25:20+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -209,15 +209,12 @@
       173825.0,
       173714.0,
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -246,7 +243,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-16T06:28:27+00:00",
+   "updated_at": "2026-08-16T07:25:40+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -383,7 +380,7 @@
       0.0,
       0.0,
       0.0,
-      12.0
+      4.8
      ],
      "tmax": [
       35.1,
@@ -407,8 +404,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-16T06:28:29+00:00",
+   "updated_at": "2026-08-16T07:25:43+00:00",
    "items": [
+    {
+     "title": "Curral eclético: vacas escutam de forró a música clássica e produzem mais leite em fazenda no ES; veja VÍDEO",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/16/curral-ecletico-vacas-escutam-de-forro-a-musica-classica-e-produzem-mais-leite-em-fazenda-no-es-veja-video.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-16T07:01:18"
+    },
     {
      "title": "Adapec alerta produtores rurais a não manter plantas vivas de soja no campo durante período de vazio sanitário - Portal Agora Tocantins",
      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMmJYc3JobjYxekhmc0RPQnlFN3VtSFpqUHRKOEo4MkhxMGFnU3h2Q3FhQnJYTm9nSFVWRGd6QmI4XzZZOGhKWkNfTi1jd1h0eU4wNHRRUndJZVpsNjNnOGdKYTB1YmlqazZ1ck1hOWl5OW5ZNklaNDI5U2dlejhnb1B5T0tRXy1fcnBRc3BVZ1FsR180VkJqWXp4NUc5c0w3Z1c5Q0xTeDNIUDJaMTZ4RHRWYnpGLXNocGRnVDFyU19BOGx3VnVUZDgwbHJ4cFJV?oc=5",
@@ -416,9 +419,9 @@
      "published_at": "2026-08-15T23:00:05+00:00"
     },
     {
-     "title": "Soja: com dados de USDA e Conab nas mãos, mercado aguarda Crop Tour para definir expectativas - Canal Rural",
+     "title": "Soja: com dados de USDA e Conab nas mãos, mercado aguarda Crop Tour para definir expectativas - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMHpmMENrQ1R4SnBVbGRqTjZad0V0OUY0SVFESnBNYW9qQXpFWEdEbnZueXRXNi1UZnF3aUFrakUwNFVoNEM5SmFrNC11MXpWOEI1VVRKR0NoWEpxMG5fREIta1NxVUJmOGw4M0VrcWFLUXpHd2ZkWXNHaG43eWtoLS1RMkoyRDFfWGcyd3FTMkt0Mjl6dlI2RlNicDRXV0ZuZzhQZ2FETGFNZDQ2M01saVR4WDl1NjhkaTRMbC1qWkVPV2ttRF9mTHV1MGlab1U?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-15T22:02:00+00:00"
     },
     {
@@ -452,9 +455,9 @@
      "published_at": "2026-08-15T16:30:22+00:00"
     },
     {
-     "title": "Soja mais resistente a percevejos é identificada por pesquisadores brasileiros - Canal Rural",
+     "title": "Soja mais resistente a percevejos é identificada por pesquisadores brasileiros - canalrural.com.br",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeUhaMWtfLWZaTGp4aWZabHJZUmxLWU1DUkk0bTIyelR5djlKa2ZTZDlZUEZ6cmlxVjZLYXFacWlqakcyQ0s3NURZZGFuMmwzN2lmUEVvb2xwa1hzbWhpZVpvWC1yajhfOWhwSHVUb1hwaWJCcWllc1ZKYUJhb0VNbW1XYngyR0hxVmdIWFdtQkNURlJYWVhJaFVkSzZLMUZjMnBJMGlVeC1ZVTE2RWg4c0FvNkRXVTFmZG9tbklR?oc=5",
-     "source": "Canal Rural",
+     "source": "canalrural.com.br",
      "published_at": "2026-08-15T16:05:00+00:00"
     },
     {
@@ -500,16 +503,10 @@
      "published_at": "2026-08-15T13:54:00+00:00"
     },
     {
-     "title": "China tenta reduzir dependência de alimentos importados; o que isso significa para o agro brasileiro - g1.globo.com",
+     "title": "China tenta reduzir dependência de alimentos importados; o que isso significa para o agro brasileiro - G1",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU2lkdHFFdmFFeWFpQlppMXZrcjYwOUtoNTR3QTFhZWNKV0FOY3V1cklrQ1owdnp1bU1fSFlXM2pRaGZCZjRXSjBNdTEyaUQ3X3dWZlpodHdpd1R3Ym1ZMFpWaGhzVURYSEFEamFPU0VMcGsyN011S3FzY2tvR3JIaXdBOWg0akVCM0poRFI3SHlCVGxKZXlyS3hVMDRHbm1vQnYtYWdOQ3N1OHBNX1M4LWduZHRnRDVKc1ZVajVveUfSAc8BQVVfeXFMTzF0M015YWtPR3g1U0ZNcjhyZG1FbXFBSnBNd3F1aWo0ZjVhelB5ZGM5Mnk0REtYNk1lTThTSE9DVllzekd5UmhSVVdDZExWUXJoZGlBV0s3aDFOaUxkMXNhT1Z6WTh4TU55SGNjaDlNQ0lKWnZCMkFxNFZ0TVIyVWp5ZWliRDBvQlRFUDRYdno3TVRINXc5aWM1a1YtUFphd3djd0EtdWxra3IzeHF1Q0R0bzdHUVk0VXhqRTlKRVIxYkt3bklTaU5rckNzSXYw?oc=5",
-     "source": "g1.globo.com",
+     "source": "G1",
      "published_at": "2026-08-15T08:00:13+00:00"
-    },
-    {
-     "title": "Notícia - Colheita da soja inicia com estimativa de mais de 54 mil toneladas - Prefeitura Municipal de Santa Terezinha de Itaipu",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd042MWxhMVpZd2FYZ2I0dEQwUVZMajI0YXZ0T1NxbXFMekJ6eVVsMFpxY2NJcnQwUHNGbmZWLVlSNUZEMG5WSW1ucVZzcXZxMkxPVkJXWjJTY1JwQWJVanhxTnFiRkF2aFZLQkdxSjJ6dnZvRlpYM2drMFFOUE83Q2tfTTNJSXhKcEMzVGRxUllWMmZyY3E2TnVIY240Vmd2b2NvTXpPWHVQVFI2bEVWYQ?oc=5",
-     "source": "Prefeitura Municipal de Santa Terezinha de Itaipu",
-     "published_at": "2026-08-14T19:56:51+00:00"
     },
     {
      "title": "Balde Cheio: programa da Embrapa ajuda pequenas propriedades a melhorar produção de leite",
@@ -560,9 +557,15 @@
      "published_at": "2026-08-12T22:52:00+00:00"
     },
     {
-     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",
+     "title": "STF mantém lei de MT que corta benefícios de empresas que aderem à Moratória da Soja; entenda decisão - G1",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMkd3dnhpNUxHd2R2akY0bnJ4aVpILXJWSkdIc2dud3lnRjZRN1B4X0lDcnI3R2JwTEd4R2FyVFJfV0dxN3dhYmZJczhvMjhINGw3ZWpYUy1KSE9lb3NiR24xM28zaE5nNlFIZ1RrcWpKalZETVBERFNIR3hRRDJkOGlBVDZrRmdnV2Jjb3lYQUJnd2Uzal9OZnRXLXFFenVIYmdQbmQ1YmI5aVJKQ2hndE5FaThYS0Q0bGtQLV8tVEc4UDFkOF9WR3JsZm8zVU52Y3lNOUZ0V2dERmg5X0dZdlNrQ0N0N19MZ2NteHBqQWs5cnPSAYICQVVfeXFMT0JkaUVVQ0Q3LTF6NFVPRW9oY2dQYklHZkFocXNORTEyTEdhMzd1d05ucFBQVHo0QnZCSUU0RVhQOEdCQXI4c3hCb1hNdUc5a19RclVLeHZ6WEhlRE1qWkdVOGV3UU9uZVJ3T1gtenJmdU4zWTJiMWplRTg2WFhpUkY2QVJBY3pjVi11VWR1Z3k3OHVMdzkyclQ4dW54dEdTRWlIX0tENmxFRGNkQWxkUkVISG9qY1RLbEE1M00xM0Z2Q19qNV9VMkJOUXZBNzY3NWRvZ3J2QndwNHN0djJjQWpBX21oSVhCZzNXbVFyMlB4OVpFSmhhdXpEVWVyVTM1MnFn?oc=5",
+     "source": "G1",
+     "published_at": "2026-08-12T21:46:14+00:00"
+    },
+    {
+     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - cnnbrasil.com.br",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
-     "source": "CNN Brasil",
+     "source": "cnnbrasil.com.br",
      "published_at": "2026-08-12T19:18:51+00:00"
     },
     {
@@ -582,12 +585,6 @@
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUEVKRWJuRnZYMkViRUdDM1UxSi03dFJwTHpRNnota3pHOFVHdWdVYldsQ3BGQnkxekVSOGo2Uk91b0lFaTE0MWItcHg1Ync0SXRTN2hiMDB5NHpBYWtEeEtMUGFFNVVHZ3dYVGJPREdHZTR5NmpiRjNpWlczRUhmcWhVMGhEX3FYRDFkczl2TkEyQ2p1VUU1U3Q0YWNEVk5BSlVaVTE0YjdqN1JXWElRLTdSWWFHdkUzUHIxLUs3Rkc4QU84cWdZSW5uYzA5Rjd0cUV3bF9WdDlTZ3pmdW90aGNB0gHnAUFVX3lxTFBxU2Z6TVhwb1VrOUI1bHlTc2lndktad3pXNGkxeUlGMlBtd0xSSElDd2tzcTVuWm81TTdwNzJacjkyTEZseHRPVFJaUGt3ZkM2VERfejBwd1FFTjNrZjRhOVA1Vko5MWpCeHNHbkRTb0VMeHNTaFFNdW9aZ3NLOGhpYndIS1FoM2JGNUlwUTZSVkRBLWZBZXRqb0NDbWYzcEZJQ1gxMHFDdEYtcDZPRDk3RVFldFpkclhVZVozRWtWa1JMcHB2bFgtM3BBS3lQZVpsb3VkYl9IOVJlbFNFZ2VOajlSY2V0dw?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-12T16:05:43+00:00"
-    },
-    {
-     "title": "STF – Licenciamento ambiental e moratória da soja – sessão de 12/8/2026 - JOTA Info",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZmxwOGZTVG5hbGFrOXNTTnNLazJPMGtpQ0JUa3Bnckh1VmRLbV9aT0hUWHg5MUxSMFhBN2pDaVFkWk5mQXd5TjZjMkx0RVU3Z3dlZHR4U05DajhYeVZEN25xTktjb3ItckdPaWNaMkJUNmJGa2tXNzRSTnZKc3BMcFg2X3lPYTFZVXlwc3lKRE1GWlIwVG8wemRFb0tUOHEtWm9xQnhmM0ZKSmNTQ1p5Ym1n?oc=5",
-     "source": "JOTA Info",
-     "published_at": "2026-08-12T15:38:10+00:00"
     }
    ],
    "failed": [
@@ -599,6 +596,10 @@
   {
    "section": "fx",
    "error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
+  },
+  {
+   "section": "rates",
+   "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json"
   },
   {
    "section": "cepea",

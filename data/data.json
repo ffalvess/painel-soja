@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-16T22:14:07+00:00",
+ "generated_at": "2026-08-16T23:13:56+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-16T22:13:57+00:00",
+   "updated_at": "2026-08-16T23:13:47+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.52,
+     "price": 88.69,
      "prev_close": 88.52,
-     "change_pct": 0.0,
+     "change_pct": 0.19,
      "closes": [
       84.23,
       88.1,
@@ -194,7 +194,7 @@
       88.98,
       87.07,
       88.52,
-      88.52
+      88.69
      ]
     },
     {
@@ -210,15 +210,12 @@
       173825.0,
       173714.0,
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -236,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-16T22:13:57+00:00",
+   "updated_at": "2026-08-16T23:13:47+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -247,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-16T22:14:03+00:00",
+   "updated_at": "2026-08-16T23:13:52+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -408,8 +405,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-16T22:14:07+00:00",
+   "updated_at": "2026-08-16T23:13:56+00:00",
    "items": [
+    {
+     "title": "Preço da soja atinge R$ 130 em MS com alta de 3,63% - Campo Grande News",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZHdzRjRhLWdqMURmb0JGcTg5dXhTdm1iOGRnWHVKSy1uOXZkenRnejIxem4zQ2hkeUQ2QzZTQ0pna3BzckswQVVpQ2wzUFhaeENCVGRfOTRrbVJoVS1jWUxPSWdRSW9mclZMM19EeVNmeU9GWnV2MFlhSVRyMXpTeno3SktObTl5SkVfTEQzSEtRLVhqSHB1T3RjZGMzRFpl0gGgAUFVX3lxTFBvYlFEV3Vnci1nQVpyRGNSb0VreWlpTURSY19Vc1Fmbnl1cGlrZGVud0dtWWxMdHZKbGlXQlVKSXFGTnJTMnItUGFJM3ZVWjRqcU5wVVBLaWpvMldSOVhSVUk5R24zMzVzbWFiMndKNzloWWxhd2F5WVhmdExBOGFuUlEyWGF3QUpTQmtRMk9zd3Z6OUhuUUk3ellybG1Fb3g?oc=5",
+     "source": "Campo Grande News",
+     "published_at": "2026-08-16T22:09:00+00:00"
+    },
+    {
+     "title": "Arroba do boi fica estável e, por enquanto, resiste à queda nos volumes de exportação",
+     "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-fica-estavel-e-por-enquanto-resiste-a-queda-nos-volumes-de-exportacao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-16T22:01:00+00:00"
+    },
     {
      "title": "Nelore pintado: o que avaliar antes de comprar um reprodutor?",
      "link": "https://www.canalrural.com.br/pecuaria/nelore-pintado-o-que-avaliar-antes-de-comprar-um-reprodutor/",
@@ -459,12 +468,6 @@
      "published_at": "2026-08-16T14:01:00+00:00"
     },
     {
-     "title": "STF declara constitucional Moratória da Soja. E inconstitucional condicionar incentivos à sua rejeição. E agora? Como ficam os deputados e governo do Tocantins que cortaram benefícios dos agropecuaristas que aderiram ao pacto? - Luiz Armando Costa",
-     "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNdEZ4elJIUTlFLWlVaU9aeTFfN2lycTJyRXFOOVhnMWNqMmFUNHVDS1hQMVBRSnpnRm05MmNHMEVTUndiNUV0YTFmSFZCdXc3N3NpU00wRENkck5yd3h3aFVEajZsMzNqT090OVRlNEJMakxRNXlUcmNoeVllRWdpdkdzNkJ6blJwQmNGeFl4RFd6c0N1Q3VvOFVJX2RnWVd4S1pieUoxWVAzTWJPaVEtQTVabWJkLWFBamhhOVd6OE9tQkR3OC03eUlwN2t2SFFnOTRqSFotOHRmY1N6R2xqYUN0TDZrdVFhdmpwZmV6U3FOdXpRZU9CNE9ZZjlkeGhYbldOUFdBOXNKSnpoZGZyX3dya1VRWl9RQUJvekg3OUgtSzQ1SjF6VjZkRHF4ZENMOENUNEFUdldZUnlkWEkwUTdIMEVENlQzbmMxTFVvV0dhUmV1ZmtYQjJGSnBSNks2dFFQd2Z0Z1hZTGh3VEhpQTJ2dXpwVm5pelJTNVE3YWxQRTJzWFk0?oc=5",
-     "source": "Luiz Armando Costa",
-     "published_at": "2026-08-16T13:42:46+00:00"
-    },
-    {
      "title": "Campanha eleitoral começa neste domingo; veja regras e datas",
      "link": "https://www.canalrural.com.br/politica/eleicoes/campanha-eleitoral-comeca-neste-domingo-veja-regras-e-datas/",
      "source": "Canal Rural",
@@ -475,12 +478,6 @@
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZy15dllTUV9kWFktXzZ2ekN3RUdheXg1bzdEMkJ1cmNGajVLRTc4OXVUa0FUREZ3TUVKMDZSZEFwcVNZUlZ6UXlBZElFU2hVYmQ0R2NsTzQ0bzgxT0RPUmJMOFNaTXo0MW93dXJDeTc4Q3djeU83REY3ZjZYa01nVGlMTW9QbkFlOXBiX1lGeUlYRHFRWG9fMXB2X1h4NEZwaENOMlVyMGdHaDhVRUtXYkcwRDRDaFdhQmd4LXdQWlhXOGl5S183UUpn?oc=5",
      "source": "MundoCoop",
      "published_at": "2026-08-16T13:00:00+00:00"
-    },
-    {
-     "title": "Seca avança no Brasil e no mundo e entra no centro dos debates da COP17",
-     "link": "https://www.canalrural.com.br/diversos/seca-avanca-no-brasil-e-no-mundo-e-entra-no-centro-dos-debates-da-cop17/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-16T12:27:24+00:00"
     },
     {
      "title": "El Niño pode ser o mais forte desde 1950 — e ameaça até metade da soja no Brasil - Exame",
@@ -585,9 +582,9 @@
      "published_at": "2026-08-12T19:18:51+00:00"
     },
     {
-     "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - migalhas.com.br",
+     "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - Migalhas",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSl95WnkyNFJLdG9WLWoyX1hKTnRFQ1VBem1UX19haktzTTRWbmxLS1lUWW9vYTFNREdDazBHXzFFM1hyZFhnSmxhdkhNUm0tRHJINmx1c0lGakRaVUFsSmRKRGhjcnh4cWwtMmJtZVFMV3dRX2RxbWJvbG94NGlhSWdZZWRUZ1Y4TURWSkxNSXdtTEEzNnplTTd0d3FvQmdSYWJrekRlLTlsU2hqaHM4Q0tB?oc=5",
-     "source": "migalhas.com.br",
+     "source": "Migalhas",
      "published_at": "2026-08-12T17:44:48+00:00"
     }
    ],

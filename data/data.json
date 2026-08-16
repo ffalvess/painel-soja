@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-16T16:17:34+00:00",
+ "generated_at": "2026-08-16T17:14:31+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-16T16:17:26+00:00",
+   "updated_at": "2026-08-16T17:14:22+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -209,15 +209,12 @@
       173825.0,
       173714.0,
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -235,7 +232,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-16T16:17:26+00:00",
+   "updated_at": "2026-08-16T17:14:23+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +243,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-16T16:17:31+00:00",
+   "updated_at": "2026-08-16T17:14:28+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +404,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-16T16:17:34+00:00",
+   "updated_at": "2026-08-16T17:14:31+00:00",
    "items": [
+    {
+     "title": "Abramilho cobra menos ‘amarras’, salto em infraestrutura e Plano Safra plurianual",
+     "link": "https://www.canalrural.com.br/politica/eleicoes/abramilho-cobra-menos-amarras-salto-em-infraestrutura-e-plano-safra-plurianual/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-16T16:01:00+00:00"
+    },
     {
      "title": "O agricultor e o publicitário",
      "link": "https://www.canalrural.com.br/opiniao-noticias/o-agricultor-e-o-publicitario/",
@@ -434,9 +437,9 @@
      "published_at": "2026-08-16T13:25:02+00:00"
     },
     {
-     "title": "Conab revisa safra para 360,8 milhões de toneladas com recordes em soja milho algodão e sorgo - mundocoop.com.br",
+     "title": "Conab revisa safra para 360,8 milhões de toneladas com recordes em soja milho algodão e sorgo - MundoCoop",
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZy15dllTUV9kWFktXzZ2ekN3RUdheXg1bzdEMkJ1cmNGajVLRTc4OXVUa0FUREZ3TUVKMDZSZEFwcVNZUlZ6UXlBZElFU2hVYmQ0R2NsTzQ0bzgxT0RPUmJMOFNaTXo0MW93dXJDeTc4Q3djeU83REY3ZjZYa01nVGlMTW9QbkFlOXBiX1lGeUlYRHFRWG9fMXB2X1h4NEZwaENOMlVyMGdHaDhVRUtXYkcwRDRDaFdhQmd4LXdQWlhXOGl5S183UUpn?oc=5",
-     "source": "mundocoop.com.br",
+     "source": "MundoCoop",
      "published_at": "2026-08-16T13:00:00+00:00"
     },
     {
@@ -516,12 +519,6 @@
      "link": "https://www.canalrural.com.br/diversos/unesp-mapeia-genoma-de-peixe-brasileiro-e-abre-caminho-para-avanco-da-aquicultura/",
      "source": "Canal Rural",
      "published_at": "2026-08-15T18:06:00+00:00"
-    },
-    {
-     "title": "A guerra no Mar Negro pode chegar à mesa do brasileiro",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/a-guerra-no-mar-negro-pode-chegar-a-mesa-do-brasileiro/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-15T16:30:22+00:00"
     },
     {
      "title": "Consultoria vê mudança no fluxo global da soja - Agrolink",

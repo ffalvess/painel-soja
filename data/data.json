@@ -1,18 +1,17 @@
 {
- "generated_at": "2026-08-17T03:43:31+00:00",
+ "generated_at": "2026-08-17T04:35:13+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-17T03:43:24+00:00",
+   "updated_at": "2026-08-17T04:35:07+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1190.75,
+     "price": 1191.75,
      "prev_close": 1173.75,
-     "change_pct": 1.45,
+     "change_pct": 1.53,
      "closes": [
-      1195.0,
       1204.5,
       1226.0,
       1219.5,
@@ -34,18 +33,17 @@
       1164.75,
       1168.25,
       1173.75,
-      1190.75
+      1191.75
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 484.0,
+     "price": 484.75,
      "prev_close": 459.0,
-     "change_pct": 5.45,
+     "change_pct": 5.61,
      "closes": [
-      441.5,
       444.75,
       449.5,
       452.75,
@@ -67,18 +65,17 @@
       457.0,
       448.0,
       459.0,
-      484.0
+      484.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 316.0,
+     "price": 316.6,
      "prev_close": 308.7,
-     "change_pct": 2.36,
+     "change_pct": 2.56,
      "closes": [
-      322.9,
       320.2,
       323.5,
       326.7,
@@ -100,18 +97,17 @@
       311.0,
       309.9,
       308.7,
-      316.0
+      316.6
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 68.93,
+     "price": 68.94,
      "prev_close": 69.05,
-     "change_pct": -0.17,
+     "change_pct": -0.16,
      "closes": [
-      72.43,
       74.81,
       74.68,
       74.3,
@@ -133,18 +129,17 @@
       68.96,
       68.67,
       69.05,
-      68.93
+      68.94
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 689.75,
+     "price": 690.25,
      "prev_close": 674.75,
-     "change_pct": 2.22,
+     "change_pct": 2.3,
      "closes": [
-      674.75,
       682.75,
       674.0,
       678.0,
@@ -166,18 +161,17 @@
       652.75,
       652.75,
       674.75,
-      689.75
+      690.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.92,
+     "price": 88.7,
      "prev_close": 88.52,
-     "change_pct": 0.45,
+     "change_pct": 0.2,
      "closes": [
-      84.23,
       88.1,
       89.22,
       91.01,
@@ -199,7 +193,7 @@
       88.98,
       87.07,
       88.52,
-      88.92
+      88.7
      ]
     },
     {
@@ -215,15 +209,12 @@
       173825.0,
       173714.0,
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -241,7 +232,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-17T03:43:24+00:00",
+   "updated_at": "2026-08-17T04:35:07+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -252,7 +243,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-17T03:43:27+00:00",
+   "updated_at": "2026-08-17T04:35:11+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -413,7 +404,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-17T03:43:31+00:00",
+   "updated_at": "2026-08-17T04:35:13+00:00",
    "items": [
     {
      "title": "Fim de moratória da soja representa retrocesso ambiental - O GLOBO",
@@ -506,6 +497,12 @@
      "published_at": "2026-08-16T10:30:12"
     },
     {
+     "title": "Preço do bezerro, boi gordo, milho e soja na 1ª metade de agosto de 2026 - Farmnews",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcC1qMW94M0k1N2RfWXFOSzhzYXlIdVNSel91TnoxRDNPTG1lZmNhZ1I4aU9HQ1VXLXJGSzNKRHRWdGxfWlcyYWk3N1VEVE40SG10aTREUUstRVRPRHhCelhPRGpSV3NoT0g0a1ZtYzZmdlhySmh3R2VabERoU2xmN2c2NUpQUVFfdHktVTJ1X091anVFd2hmLUNkTkI2Vl9kSVozTzNVbEFtZ1U?oc=5",
+     "source": "Farmnews",
+     "published_at": "2026-08-16T09:48:09+00:00"
+    },
+    {
      "title": "Moratória da Soja: o que, afinal, o STF está julgando? - Consultor Jurídico",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdWtsdEhSVGlQV2N4alNEcDlMUTRhWVFBcmNhdmRZTzZic0hobHBKOVd1WlRQaVNsMXRBUXZjeUt2Y1pSTkpBLWxIMHhEX3FhaXNhek5UZ1Bpbld1ZkNMb1NqUnIxZGk3aDBVb2RfOVBtZTNuQzJNbnB3V3F4TW1NZ1o0ODNYM2lYWWU3ckRmSHNnV2lEVkE3d0cxd3VIYW84RlFGdg?oc=5",
      "source": "Consultor Jurídico",
@@ -518,9 +515,9 @@
      "published_at": "2026-08-16T07:01:18"
     },
     {
-     "title": "Consultoria vê mudança no fluxo global da soja - agrolink.com.br",
+     "title": "Consultoria vê mudança no fluxo global da soja - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS3JEY2Y1dHktWl9xQkI0bGc0bmwxV0VYWVR6dF8tMVk4LWxkUFlMYWRkVjFmQ0NNdjRPOFRteHJJOWVKeHpmT2g3d05CaHBOVHEyNlMtaGhEOHRIU1dtbXZvb25Ybkt6V2ZRLTUwd2VvNWNQV29XdjljakJHcXczaXBvZTdsd0hOcTlwcVFMT0dzOEhVZU91TXJNUQ?oc=5",
-     "source": "agrolink.com.br",
+     "source": "Agrolink",
      "published_at": "2026-08-15T13:54:00+00:00"
     },
     {
@@ -528,12 +525,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/15/china-tenta-reduzir-dependencia-de-alimentos-importados.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-15T08:00:13"
-    },
-    {
-     "title": "Notícia - Colheita da soja inicia com estimativa de mais de 54 mil toneladas - Prefeitura Municipal de Santa Terezinha de Itaipu",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd042MWxhMVpZd2FYZ2I0dEQwUVZMajI0YXZ0T1NxbXFMekJ6eVVsMFpxY2NJcnQwUHNGbmZWLVlSNUZEMG5WSW1ucVZzcXZxMkxPVkJXWjJTY1JwQWJVanhxTnFiRkF2aFZLQkdxSjJ6dnZvRlpYM2drMFFOUE83Q2tfTTNJSXhKcEMzVGRxUllWMmZyY3E2TnVIY240Vmd2b2NvTXpPWHVQVFI2bEVWYQ?oc=5",
-     "source": "Prefeitura Municipal de Santa Terezinha de Itaipu",
-     "published_at": "2026-08-14T19:56:51+00:00"
     },
     {
      "title": "Balde Cheio: programa da Embrapa ajuda pequenas propriedades a melhorar produção de leite",
@@ -584,9 +575,9 @@
      "published_at": "2026-08-12T22:52:00+00:00"
     },
     {
-     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",
+     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - cnnbrasil.com.br",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
-     "source": "CNN Brasil",
+     "source": "cnnbrasil.com.br",
      "published_at": "2026-08-12T19:18:51+00:00"
     },
     {

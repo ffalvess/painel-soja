@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-17T13:34:59+00:00",
+ "generated_at": "2026-08-17T14:20:53+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-17T13:34:53+00:00",
+   "updated_at": "2026-08-17T14:20:49+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1197.75,
+     "price": 1205.5,
      "prev_close": 1173.75,
-     "change_pct": 2.04,
+     "change_pct": 2.71,
      "closes": [
       1204.5,
       1226.0,
@@ -33,16 +33,16 @@
       1164.75,
       1168.25,
       1173.75,
-      1197.75
+      1205.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 485.0,
+     "price": 486.0,
      "prev_close": 459.0,
-     "change_pct": 5.66,
+     "change_pct": 5.88,
      "closes": [
       444.75,
       449.5,
@@ -65,16 +65,16 @@
       457.0,
       448.0,
       459.0,
-      485.0
+      486.0
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 317.0,
+     "price": 318.2,
      "prev_close": 308.7,
-     "change_pct": 2.69,
+     "change_pct": 3.08,
      "closes": [
       320.2,
       323.5,
@@ -97,16 +97,16 @@
       311.0,
       309.9,
       308.7,
-      317.0
+      318.2
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 69.74,
+     "price": 70.12,
      "prev_close": 69.05,
-     "change_pct": 1.0,
+     "change_pct": 1.55,
      "closes": [
       74.81,
       74.68,
@@ -129,16 +129,16 @@
       68.96,
       68.67,
       69.05,
-      69.74
+      70.12
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 684.75,
+     "price": 687.5,
      "prev_close": 674.75,
-     "change_pct": 1.48,
+     "change_pct": 1.89,
      "closes": [
       682.75,
       674.0,
@@ -161,16 +161,16 @@
       652.75,
       652.75,
       674.75,
-      684.75
+      687.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 89.15,
+     "price": 88.81,
      "prev_close": 88.52,
-     "change_pct": 0.71,
+     "change_pct": 0.33,
      "closes": [
       88.1,
       89.22,
@@ -193,16 +193,16 @@
       88.98,
       87.07,
       88.52,
-      89.15
+      88.81
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 167716.56,
+     "price": 167159.02,
      "prev_close": 166934.0,
-     "change_pct": 0.47,
+     "change_pct": 0.13,
      "closes": [
       173714.0,
       173371.0,
@@ -225,7 +225,7 @@
       167491.0,
       167101.0,
       166934.0,
-      167716.5625
+      167159.0156
      ]
     }
    ],
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-17T13:34:53+00:00",
+   "updated_at": "2026-08-17T14:20:49+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-17T13:34:57+00:00",
+   "updated_at": "2026-08-17T14:20:51+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,13 +405,49 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-17T13:34:59+00:00",
+   "updated_at": "2026-08-17T14:20:53+00:00",
    "items": [
     {
-     "title": "Pesquisa identifica soja tolerante a percevejos - Agrimidia",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV1lwNXM2aWVENzFXWEc3Nk5SY2h0b1RRWDdPUG5YYmp5R2R0MXZWR3RaMWwwazFmSndibUIwZWNfUDczLUtkUk5GTTlDVHo5YU5jWllLejV4eGF0V1pVdmpkRGVyS25CV1p2Z2d2dVB2Y3Bwc2stUG1Wc3hGMkxZR0JRVEw3aExPdU9obF9TQ1JvOEoyem9CaUFYQ3FPcUdBVVVuLXljZVBaQQ?oc=5",
-     "source": "Agrimidia",
-     "published_at": "2026-08-17T13:26:08+00:00"
+     "title": "Dólar recua ante o real, mas segue acima de R$ 5,20 nesta segunda-feira",
+     "link": "https://www.canalrural.com.br/economia/dolar-recua-ante-o-real-mas-segue-acima-de-r-520-nesta-segunda-feira/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T13:56:40+00:00"
+    },
+    {
+     "title": "Monitor do PIB aponta alta de 0,3% no segundo trimestre e queda de 1,1% em junho",
+     "link": "https://www.canalrural.com.br/economia/monitor-do-pib-aponta-alta-de-03-no-segundo-trimestre-e-queda-de-11-em-junho/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T13:52:47+00:00"
+    },
+    {
+     "title": "USDA eleva projeção para soja dos EUA, mantém safra brasileira em 186 milhões de toneladas e reduz milho na Europa - Portal do Agronegócio",
+     "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNN1F6Q3Vmbm92ZlI4OGRRMFlIQUhLbHVqbUczbU1jVnZuTm1FRmp4TExSQkRZRllaOFVOU3FVbXlPRmE3ejViV1FHbER4ZnBwZ2VTemU0SGhGOVRGYTRFQV9HN1phOHV6aU9FMXRfU3NQUVRpUm4wdWtrMkdiRV9hQ09OY2FJY1hsNHVQMl9TNU1nemtTWVBkdWV3V2M5c3VTUk5Oc0NCTEl3dWRVLUppSkxlYlNNb2NEOWhXTGZhSC01WHd0SFRubm9QVkVUQ2txSnpHQ0RLZFVVT2NjOHg2MWQ2VzFzWmEwLWZLZlRSMVJpR29Ua2VVQ0M1cG4xdUxhOVVZWVJVZ0ZFZw?oc=5",
+     "source": "Portal do Agronegócio",
+     "published_at": "2026-08-17T13:50:00+00:00"
+    },
+    {
+     "title": "Durigan diz que juros precisam ser enfrentados e cita ajuste fiscal",
+     "link": "https://www.canalrural.com.br/economia/durigan-diz-que-juros-precisam-ser-enfrentados-e-cita-ajuste-fiscal/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T13:47:49+00:00"
+    },
+    {
+     "title": "Durigan defende intolerância à irresponsabilidade fiscal",
+     "link": "https://www.canalrural.com.br/economia/durigan-defende-intolerancia-a-irresponsabilidade-fiscal/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T13:42:41+00:00"
+    },
+    {
+     "title": "IBC-Br acumula alta de 1,52% no primeiro semestre de 2026",
+     "link": "https://www.canalrural.com.br/economia/ibc-br-acumula-alta-de-152-no-primeiro-semestre-de-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T13:28:03+00:00"
+    },
+    {
+     "title": "Soja abre semana em alta e chega a R$ 148,95 em Paranaguá - Vitória News",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVEJ1T2wtbTFaNS1sLWIwV3N3RUFGR0VhM3dYaWxvckNwWnlOeWZfNmhPUUhCUTMyMEJBNDdBU2RxWVZmcnVra3h6MVNjalRfSGJlX2lLa19kYTNGSllFdHFZYVk1QkpDeVZTZlVuN29OQU9OdVVGUy1fWDZSdzh3TlowNVdKQVVTekE?oc=5",
+     "source": "Vitória News",
+     "published_at": "2026-08-17T13:22:00+00:00"
     },
     {
      "title": "China desenvolve modelo de IA voltado para produção de soja - Poder360",
@@ -426,9 +462,9 @@
      "published_at": "2026-08-17T13:02:00+00:00"
     },
     {
-     "title": "Soja sobe no Brasil com dólar forte e procura aquecida - Agrolink",
+     "title": "Soja sobe no Brasil com dólar forte e procura aquecida - agrolink.com.br",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNXI0VHJqMkZPZDhrQVItU3N0WmFENlR6c1B1T2xGQll5S29NQlJqaUhseVlvOGFWdERSZFEySV9HLXh4OW95QnNnSElJTWlsMzBNRVJtMEVlZlBuQUZzWUllXzhXZVJqbXhObS1Ba0dvU3NxSmZ2b3hIbTU3ZG02MVAwV0NEWFBXaUh3cENGYVlMMkpOZk1ITl9jd3E1Zlh3Q2RFSVNn?oc=5",
-     "source": "Agrolink",
+     "source": "agrolink.com.br",
      "published_at": "2026-08-17T12:48:00+00:00"
     },
     {
@@ -436,6 +472,12 @@
      "link": "https://www.canalrural.com.br/pecuaria/preco-do-boi-gordo-sobe-em-26-das-28-pracas-pecuarias-em-agosto-aponta-levantamento-do-cepea/",
      "source": "Canal Rural",
      "published_at": "2026-08-17T12:44:53+00:00"
+    },
+    {
+     "title": "Índia Deve Importar Volume Recorde de Óleo de Soja, após Guerra Rússia-ucrânia Afetar Óleo de Girassol - Forbes Brasil",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSXJ2Mk9vWVhCWWVNaUJsV01EcnR3dHVhSW5qenFIMWF5eFN1S2hTQnJhcWl5ejBpRmxIUExTT1FaS0NmMnpLdGNWYjgtUTdGVXR0RVZTTUp6czdEcU52U25yUDNMVkt1ZnNsbklFdWthUUxMNjhodjhKQ05OUEsxaTBZczlDSnVQeHowUEtDN0JBX09KYnFXLXE5UkxTajRfVmlkaGFaRjF0NWg2Rk8xV2tUSE5hel9aUEN0WXVaeVU2Wll6M1R2QWhiNVR1T0JLZ0F3Z3pGVGN1QzhL?oc=5",
+     "source": "Forbes Brasil",
+     "published_at": "2026-08-17T12:39:32+00:00"
     },
     {
      "title": "Preço do etanol cai em 22 estados na semana, diz ANP",
@@ -462,40 +504,16 @@
      "published_at": "2026-08-17T12:09:57+00:00"
     },
     {
-     "title": "El Niño preocupa mercado e ajuda a sustentar alta do preço do milho",
-     "link": "https://www.canalrural.com.br/agricultura/milho/el-nino-preocupa-mercado-e-ajuda-a-sustentar-alta-do-preco-do-milho/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T11:58:59+00:00"
-    },
-    {
-     "title": "IGP-10 cai 0,51% em agosto, informa FGV",
-     "link": "https://www.canalrural.com.br/economia/igp-10-cai-051-em-agosto-informa-fgv/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T11:52:36+00:00"
-    },
-    {
-     "title": "Governo libera renegociação de dívidas rurais, mas acesso ao crédito segue difícil",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/governo-libera-renegociacao-de-dividas-rurais-mas-acesso-ao-credito-segue-dificil/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T11:42:53+00:00"
+     "title": "Soja: Demanda aquecida e menor relação estoque/consumo impulsionam cotações no Brasil - Agrimidia",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcXNDQWMzbldEVjgwdmlXVmVfOGV5QkU2S1lKOThpbGVmbmtzLVNlRTNRQWN0RjM2WjRzYzk3UEVFbmpidmRzNWtKamo5R21uSE1jSkVTbk1VbWVicUNLLUF3S3VaWW1xQVhKMzg5MFE3MFdEcmZVMEN4c3FlSG9tU1I5REpKdnZSNEh2YjNGWXRpVmpoVHBQSGtXZG1YY0k0NlF6NzdzMkpLdFQ5LXFkUEFhRGVTaGlZakxBU1otU1FOMUhlOVNYaDF2Y3lGWTVieW9FVDU3cTc5emprWkE?oc=5",
+     "source": "Agrimidia",
+     "published_at": "2026-08-17T12:04:34+00:00"
     },
     {
      "title": "Dólar em alta e demanda global impulsionam preço da soja no Brasil - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYm4tUVMzUFRKenpDZnotdXZpa0dSWHBJQ1FqS1d3VHVvUFlqb21vNmh2b3Ztand1RF93WHphVlBBMmNZQ3FyUHZxZV9MTk8ySWNyaGQ0X0FRYnBqUmQxa2huV0p6Y3VUajBaWk50YzBaWm51ZjRZa29hX3F0LW9SUFhXMUJPLVk2U1FFREo5SHFzaHhhZUdrWEZCTkd4Q0Q4VzBfREpScmJDR0d6dVh6Tnl4TmU?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-17T11:27:38+00:00"
-    },
-    {
-     "title": "Dólar em alta e demanda global impulsionam preço da soja no Brasil",
-     "link": "https://www.canalrural.com.br/agricultura/soja/dolar-em-alta-e-demanda-global-impulsionam-preco-da-soja-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T11:27:38+00:00"
-    },
-    {
-     "title": "Semana começa com chegada de nova frente fria e chuva forte",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/semana-comeca-com-chegada-de-nova-frente-fria-e-chuva-forte/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T11:07:22+00:00"
     },
     {
      "title": "Soja/Cepea: Demanda aquecida e menor relação estoque/consumo sustentam preços - Notícias Agrícolas",
@@ -510,22 +528,10 @@
      "published_at": "2026-08-17T11:01:00+00:00"
     },
     {
-     "title": "SOJA E TRIGO: soja sobe no Paraná e em Paranaguá nesta segunda-feira (17) - Conexão Itajubá",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOalF3VVFiazUtbHVpVm9UX0JwZVFDZjBkZ05vVTlnaERUTHBHelhEeWNmUUFWUmJaVVE3c1ItcUpKUGFlTnp0aExqUkZKZDFWZEt4RC1RYm1mWjN4RlJfY0M4Ti00QVVOY1d1TjFVRWhPNU1SVVBiZkxzdTYxWldQZ0lzT2hEd2RPQVlLOWIxVWRZa0U5TzBISUU2T2ZpME1GYm42bTJkTFllTjBRSWI0QV9WaVp6dnh6VFNyVm9B?oc=5",
-     "source": "Conexão Itajubá",
-     "published_at": "2026-08-17T10:30:01+00:00"
-    },
-    {
      "title": "Petróleo e soja elevam otimismo para superávit comercial - Valor Econômico",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWHc1Y0IzMnY3ZGxQQklTT29WeFhTV1NJZlV0aXZMOFl6c2N1NllxX2hnTDgyNDVtaVpGUEJPVTlaVmtnb2N2cWx1WFFBZVJ3N3hsemJsTTMzd3NsUi14Mk5NS0tvNHA5TUNHNDV3Ul9SZGZSNWxzWUloSURZOXFlMW5WZVdsVzZYcnZnUGlDQ09uS3BFZko3N1Nxbl9lc2xDekwzYnJmaDB4eXFodTdCc29R0gHAAUFVX3lxTE96OFg2UWo5bU4wYzY2Z2ZGamZUa1I5NjV3eXBhd3E1bmg4WTdsODVkcEgzTVUtMno5TUNadGk1TC1xWlo5ZllGcDJ3NllkOURRR3FOWmROTWlfVy16SllOQnlLX28zQTdROXZ5cmppMXdFaE1xMkg5SDQxRmhRZThyc0tfeVJkRXNZQUgyeE1YZ2d2UFE0QUFXMlRhS0xoQ1A3ZFN3VTFBakZJcXoyTVV1Wktkdkc2UXBma3dzXzRfNQ?oc=5",
      "source": "Valor Econômico",
      "published_at": "2026-08-17T08:01:13+00:00"
-    },
-    {
-     "title": "Preço da soja atinge R$ 130 em MS com alta de 3,63% - Campo Grande News",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZHdzRjRhLWdqMURmb0JGcTg5dXhTdm1iOGRnWHVKSy1uOXZkenRnejIxem4zQ2hkeUQ2QzZTQ0pna3BzckswQVVpQ2wzUFhaeENCVGRfOTRrbVJoVS1jWUxPSWdRSW9mclZMM19EeVNmeU9GWnV2MFlhSVRyMXpTeno3SktObTl5SkVfTEQzSEtRLVhqSHB1T3RjZGMzRFpl0gGgAUFVX3lxTFBvYlFEV3Vnci1nQVpyRGNSb0VreWlpTURSY19Vc1Fmbnl1cGlrZGVud0dtWWxMdHZKbGlXQlVKSXFGTnJTMnItUGFJM3ZVWjRqcU5wVVBLaWpvMldSOVhSVUk5R24zMzVzbWFiMndKNzloWWxhd2F5WVhmdExBOGFuUlEyWGF3QUpTQmtRMk9zd3Z6OUhuUUk3ellybG1Fb3g?oc=5",
-     "source": "Campo Grande News",
-     "published_at": "2026-08-16T22:09:00+00:00"
     },
     {
      "title": "Mosca-de-estábulo avança no inverno e causa prejuízo a pecuaristas no interior de SP",
@@ -580,12 +586,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/13/internacional-oferece-trator-a-justica-como-garantia-por-divida-com-empresario-entenda.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-13T16:50:29"
-    },
-    {
-     "title": "Onda de calor na Espanha pode levar ao aumento do preço do azeite?",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/13/onda-de-calor-na-espanha-preco-do-azeite.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-13T14:49:10"
     }
    ],
    "failed": [

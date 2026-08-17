@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-17T22:17:43+00:00",
+ "generated_at": "2026-08-17T23:17:11+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-17T22:17:35+00:00",
+   "updated_at": "2026-08-17T23:16:57+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.1,
+     "price": 91.14,
      "prev_close": 88.52,
-     "change_pct": 2.91,
+     "change_pct": 2.96,
      "closes": [
       88.1,
       89.22,
@@ -193,7 +193,7 @@
       88.98,
       87.07,
       88.52,
-      91.1
+      91.14
      ]
     },
     {
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-17T22:17:35+00:00",
+   "updated_at": "2026-08-17T23:16:57+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-17T22:17:40+00:00",
+   "updated_at": "2026-08-17T23:17:01+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,19 +405,19 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-17T22:17:43+00:00",
+   "updated_at": "2026-08-17T23:17:11+00:00",
    "items": [
     {
-     "title": "Soja avança com alta de mais de 2% em Chicago e preços sobem nos portos - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeHRPM0NYMklCMjB3T0xoMXZLWkFURk9UdUhFR2pqTFg5dEk2TVRxUmZselFFM1BLdDByOGR3M1poV0Z4bVhocE9ROEZIUXBTdkZMRFJrdnhkY2dHOHRxTkgtcWVTaXUxV3VxaW5iOFlkSHF0d2RjcmxTblhRME9FZUpTc2xHMW5uby1xZS00TVZ6ZWtYZ2pITUxqMVFRZ1BrTjZaaUY4R3NhNERqMi1QbHozeGZDOVBuNGZVSUhDRW5Hd0lBN0NST2tSZkowdw?oc=5",
+     "title": "Arroba do boi gordo inaugura semana em baixa; veja cotações",
+     "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-inaugura-semana-em-baixa-veja-cotacoes/",
      "source": "Canal Rural",
-     "published_at": "2026-08-17T22:00:08+00:00"
+     "published_at": "2026-08-17T22:29:08+00:00"
     },
     {
-     "title": "Primeiro biofungicida brasileiro 100% à base de metabólitos é registrado para soja - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdjF6QU52MmI4X0UtdWdmRnd2OFl1UTR6ZUNKQWZoendyWldQUTJ2c3VCQ194bk5kMGhIbDVrTnJJSVdrY1ZKZFd1bElvcE5IMExybGpUMG81T1FzM2dsUUdMMV9zNEpObEIzMnZXdGJNdVBPMWhHeWM2Um5kWFN5dHNzODJ0anNpMHRRUXV6TTc0ZGFScWMtbExHekFSYUVDc0tvbUJoWkh2bElYbFQ4MEtqMF9ncEdkbVZVVlhzUjJMUQ?oc=5",
+     "title": "Soja avança com alta de mais de 2% em Chicago e preços sobem nos portos",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/soja-avanca-com-alta-de-mais-de-2-em-chicago-e-precos-sobem-nos-portos/",
      "source": "Canal Rural",
-     "published_at": "2026-08-17T21:43:47+00:00"
+     "published_at": "2026-08-17T22:00:08+00:00"
     },
     {
      "title": "Primeiro biofungicida brasileiro 100% à base de metabólitos é registrado para soja",
@@ -450,12 +450,6 @@
      "published_at": "2026-08-17T20:30:33+00:00"
     },
     {
-     "title": "USDA reduz novamente classificação da soja e do milho nos EUA - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZzlrbUJNMFNLOTRicE1maDg3Nnl4SXNHMGVHNDVSa0FfemhxM2lqdDd2aVRWUVZjTmxydUlLRzZHVDYxeE1TTFJRREVWLWRiRVMyVHhIdTM5bUpxeHcxTnZHZGEtSlpoM213QVN4T1NMOXJTc3FUSXNEZnJ5VVRoOTBnU0JES1hxYWV6bnR5bF9YVjNlYVQwbGh1LWM5YzhhUjFVbWZwaHRKTGp2emtObkpYLV9vRTJuSUhGOXBWc21md9IBxwFBVV95cUxQV3hhZVFNQllscjluSGlsUXlNTWdkM2ZfeWdCcVA1XzdPMDFvdVlJSkQ1Sk1zSTdtOUlzMUt1RlBZSjFUc0lxR211TFV2VVl3d2hDR2pIY2FnWDlVYkxCZl9KZTdjak9HMWh1OC1GbEhQUFZubnBUTzVlbGN2OWRqTWUyeUpXOXIzR19IT3lPbDV1blJUc09tVWt5YXRzX2xnd0Vfam5HaFk3TmprdHJIaEFSbjBwa3RreE0xc0lkNVNEa0ptWXdV?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-17T20:28:58+00:00"
-    },
-    {
      "title": "Milho: oferta elevada limita preços, mas demanda e exportações dão suporte",
      "link": "https://www.canalrural.com.br/agricultura/milho/milho-oferta-elevada-limita-precos-mas-demanda-e-exportacoes-dao-suporte/",
      "source": "Canal Rural",
@@ -472,72 +466,6 @@
      "link": "https://www.canalrural.com.br/economia/brent-volta-a-superar-us-90-com-tensao-renovada-no-oriente-medio/",
      "source": "Canal Rural",
      "published_at": "2026-08-17T19:41:47+00:00"
-    },
-    {
-     "title": "Frente fria provoca chuva, ventos e queda de granizo; acumulados chegam a 100 mm",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/frente-fria-provoca-chuva-ventos-e-queda-de-granizo-acumulados-chegam-a-100-mm/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T19:39:13+00:00"
-    },
-    {
-     "title": "Semana terá chuva de 150 mm e frente fria se espalhando; veja a previsão",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/semana-tera-chuva-de-150-mm-e-frente-fria-se-espalhando-veja-a-previsao/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T19:32:40+00:00"
-    },
-    {
-     "title": "Soja: dessecação antecipada ajuda a reduzir plantas daninhas - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV0ZRNllaaUJmVExFNkdFTkRhbFFFTFppWFhnQ1VXOWhSNDlqY0hXMm96ZFRqakdTWDNDMk56bW1sSWZzSGdMbU1YV2EtRG5PTVlnSVFDb0tTaHY4NkxUVjFNSWh1RlA1SUhGeUlQVW9qc09EcnFERU4zM0tJUUc5R3BxRXpTSVJjcXNxQ2ZicDNyMWthX3JGcGZJbV8zdEd3aUR3bV93aGtGQmluaFE?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-17T19:27:00+00:00"
-    },
-    {
-     "title": "Soja sobe quase 2% em Chicago com novas compras da China nos EUA - cnnbrasil.com.br",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNclJpMjdzc3hWcFhqa3RHREZnbVNHd1g0SnRfVWp6S21ITjVGX3c1Mi16MnctbDZuY05WdUtVbHlzUGZkRGRORVRnUXlsUWFIbVZZOXMyNHd2TGtGc2NvX3MzMHYyRjZGcGs3RDVMd2NDdldZMW4wTXhXTFF0TXBlU21zZ1VnTFpBSTRRVnZoVmF5RkxkdmtudkZKN05Wbm8?oc=5",
-     "source": "cnnbrasil.com.br",
-     "published_at": "2026-08-17T19:12:25+00:00"
-    },
-    {
-     "title": "Preços de soja e milho sobem em Chicago de olho na safra dos EUA - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVzA4U1ZYZW1qVlZ0QnlGSmo3bEY2QVV4bEMwNG8wRTJjRWNHVUU4b01pWGU2Y2ZxODFzSnlsdmk4SHZtMjRLNmdqdWVtY1lFR3A3ZTgzRlJCWjNJVUFGUE9EREt1WjM2VHFveVJFZlpHQzVwNll1MlJmaU1wd1RZYmJ5MmhCbXJWYng5Q2E2ckQ5ZFpodHNJUWFqMDFXa2std19keThnZVVEWUtSZHpsVFBieVZSMVBSVk80a2RPNjBVd9IB0AFBVV95cUxQYmd6eTM0bHY3ZDA0NHZraS1rZ1lGYzNCTTM3cDJVRWxrWlg0bDNnbkkyMkFpQjlEUWxNZGJXTEFVazhxV2JCWXRsVjNIQ3VITUlCWkdLWERxVDF2djFTT3c3ajJKdVVqLXNxcUFDaW4wYlZCSTdLNHZXSnJFRnlKSkV3dTA3aXVRa24zR1pJMVUxUWRWdlJKRWdlelJIZDM5bGtBcmFCQ1VRYjR6NF9rZ25qbnhScktTY3ZwUm0xVXZBWGVJdXhfNDVoMElPSTNi?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-17T18:40:08+00:00"
-    },
-    {
-     "title": "Tempestades e inundações atingem áreas de milho e soja nos EUA - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOM2NxY3pwTXl4Y1o4bEV3eHo1SzlRQ2k0OGZJaW83U1hiWnE5Vk9rdWZnamhueUN0VDBKbDROMFIxWDg4eHQ5clZqSk83SHlwWi1qMDRJUEhBSVNVTVV3ODFCTE5OWTJlNU5RUmE2NjV1dF9DN2JyLXZLcjlBRE9ycWw1ZVQzN09jaDh3YkF6TFdhUGlpcUMzRHhEOEJjZ0dXSGM5OHI3VmxBclQ1eHRUcVI3eDE1Q0F5clBpLUZHT1dDRnBK0gHKAUFVX3lxTE9qdER2U3JmSHZsb0d1cTduVnBXaXkwVU82VmpYQWxMMHBTRWIwbU1Ja0ljWnhpOUlsREZOWDhpY2p0UFB4NGZ1Mks5TXRDRi05bmRLRy0xRUwwWWhiZVRLTlhPVXhMazMzaDlpM1psbHluNGJtN2E3RjVEYkZXYkF4Y0FSUzBVQU9ad24yNVRsSDJHMWJrYWhYWnZ5UTBEZnRlbFQwZU8xcDVYNElGOWZVWkZsSC1Qek5KMllUOE41TDEycHB2XzFfdmc?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-17T18:35:06+00:00"
-    },
-    {
-     "title": "Rastreabilidade da soja e da carne esbarra na falta de integração - ((o))eco | Jornalismo Ambiental",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNenlWRV91dzZ1bWdQckp4Nl9SSWRPVU5qeGZLS1NOQmotd193YzVvQ0trRkF2bzl3TmZBODM5LWdVTDRqd3VhUVVlSHAyUkxmVkM2QUcyMXp1T3ZwbzdCaVJ1R3B0aFowR3RmREFpa3ZqcFloVXZDcmNoU3M4ZC1KWWFtT0Vsc2F1T0NqVjA5ZmlRWExCcE5kWFNNZ3dlU0E?oc=5",
-     "source": "((o))eco | Jornalismo Ambiental",
-     "published_at": "2026-08-17T18:28:04+00:00"
-    },
-    {
-     "title": "Soja avança em Chicago com demanda chinesa em alta - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNak1sY3RubVB4ZGtDMWQxbHYydGVuVlE3eHZOQ3FGOGdURlpJRGJvYkJQcWRLNXpIXzBkNnl5a00tM043bFRxa0xpa2NQN3VqRndxTHUta0dRU090RktUUnhBNVU3a3ZoNFBaTGRPUGRpSjdxUlZfLU92SWxUYVdRV2ZqVTdkVkJIMlFaSWtJdzVlU3hDMkEwTnJVSVpSWUZhWXV5dmwtY2h0eW10cl9v0gG-AUFVX3lxTE05cU9nMnFuenZoc3RnMEwxMUR4dm5KWWkybWUyaThuMFQzeUdsZHdwUnY5YWJBUW9waDFKdDl6ZkFURTFVZWtfU0R6MEoyY0pQbEY0ckxEUDlBdDQ2bEZIREFqakUtRWVGRTljTmpsZnNMVkxXU0x5VDFISVc1bW9TWjR4ZEJjWHA0eGU5ZnJFRUdvOG44YzNjUzdZa0ZxeTdOU25DTkFhQTdkRWFqWmxtTHhkTzNaREZLQXpTNnc?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-17T15:17:08+00:00"
-    },
-    {
-     "title": "Soja: Demanda aquecida sustenta preços - sna.agr.br",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlcml5Q1JXUk5JUlFGeG90Qk14Rl9pWWF5dXdoT1dua2xxTWxwX3dvTHhqdjlRc2phX1RiMW9Qd1R3RUxOMkx6N1dNQUJzQ2owbENVMGNwbW9obWJLZGh0ZDAxa19sbThD?oc=5",
-     "source": "sna.agr.br",
-     "published_at": "2026-08-17T14:18:00+00:00"
-    },
-    {
-     "title": "Soja sobe no Brasil com dólar forte e procura aquecida - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNXI0VHJqMkZPZDhrQVItU3N0WmFENlR6c1B1T2xGQll5S29NQlJqaUhseVlvOGFWdERSZFEySV9HLXh4OW95QnNnSElJTWlsMzBNRVJtMEVlZlBuQUZzWUllXzhXZVJqbXhObS1Ba0dvU3NxSmZ2b3hIbTU3ZG02MVAwV0NEWFBXaUh3cENGYVlMMkpOZk1ITl9jd3E1Zlh3Q2RFSVNn?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-17T12:48:00+00:00"
-    },
-    {
-     "title": "Soja sobe em Chicago nesta 2ª feira (17) com chuvas intensas chegando ao Corn Belt - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNVY1TjFiUHVYbXBsMFNXdnhhQlVnMzNFVEVtNWN2QVhHWTBSTEV4NDM0ekZLX3lVbG1oT3JaQ3NDdlpPRHFkM3I1RGNLUU5OQ1hBeks1bFNMbEpTWDRLNWk5OHQzWkQ3eVVxd3ZUVU1keGVzNmViZkkySUtyTENka0pELUlzWC1xYkEwUkloZmE2cERMN2tBVUpaelZwWF9BdkVqc3BiTTJLbnRSRXYtclRrVE1KU3Y4MVZIcm1GdTYwOWZiU0pVSEk2UXdpY18yTUlEVV9ZRzFmZ9IB3wFBVV95cUxPaWxJZjNYdmhqWGV4QTFXelRabDAwZk1yRTBuS09TczhqaHNhd243bDhPTHRNVFB3N2txemtkSTlucENzeVFXOEExaXdwLVJoSU9CRFFtVGdXazFWMHF1Q29fV2FFeEttRE1zT0pFbWkxSUJtenJBR094dFRMM3pWUFV0YjJqY1k2a1k2R1FCSnRzUV9ka0hxVHAyT1FibTE4b0U0RVl5VndZMU8xRFJrVWJyVEtRUTJodXhWLWNBSXJiWmhLX1JYWGxiNEkzNkNpQ1ZyRGpaUl9CQ2NOM0Mw?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-17T10:52:16+00:00"
     },
     {
      "title": "Mosca-de-estábulo avança no inverno e causa prejuízo a pecuaristas no interior de SP",
@@ -586,9 +514,34 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/14/como-o-super-el-nino-pode-afetar-a-america-latina-principal-regiao-exportadora-de-alimentos-do-mundo.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-14T06:00:13"
+    },
+    {
+     "title": "Internacional oferece trator à Justiça como garantia por dívida com empresário; entenda",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/13/internacional-oferece-trator-a-justica-como-garantia-por-divida-com-empresario-entenda.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-13T16:50:29"
+    },
+    {
+     "title": "Onda de calor na Espanha pode levar ao aumento do preço do azeite?",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/13/onda-de-calor-na-espanha-preco-do-azeite.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-13T14:49:10"
+    },
+    {
+     "title": "Veja como salvar uma orquídea com folhas e raízes secas ou murchas",
+     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/13/veja-como-salvar-uma-orquidea-com-folhas-e-raizes-secas-ou-murchas.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-13T05:00:10"
+    },
+    {
+     "title": "Terremoto afeta exportações de café da Colômbia e ameaça embarques internacionais",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/12/terremoto-afeta-exportacoes-de-cafe-da-colombia-e-ameaca-embarques-internacionais.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-12T16:19:19"
     }
    ],
    "failed": [
+    "Google News: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=soja+OR+%22mercado+de+gr%C3%A3os%22&hl=pt-BR&gl=BR&ceid=BR:pt-419",
     "Notícias Agrícolas: 404 Client Error: Not Found for url: https://www.noticiasagricolas.com.br/rss/noticias"
    ]
   }

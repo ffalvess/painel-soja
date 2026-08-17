@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-17T17:21:43+00:00",
+ "generated_at": "2026-08-17T18:29:10+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-17T17:21:37+00:00",
+   "updated_at": "2026-08-17T18:29:05+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1217.0,
+     "price": 1215.75,
      "prev_close": 1173.75,
-     "change_pct": 3.68,
+     "change_pct": 3.58,
      "closes": [
       1204.5,
       1226.0,
@@ -33,16 +33,16 @@
       1164.75,
       1168.25,
       1173.75,
-      1217.0
+      1215.75
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 490.75,
+     "price": 488.75,
      "prev_close": 459.0,
-     "change_pct": 6.92,
+     "change_pct": 6.48,
      "closes": [
       444.75,
       449.5,
@@ -65,16 +65,16 @@
       457.0,
       448.0,
       459.0,
-      490.75
+      488.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 318.6,
+     "price": 318.9,
      "prev_close": 308.7,
-     "change_pct": 3.21,
+     "change_pct": 3.3,
      "closes": [
       320.2,
       323.5,
@@ -97,16 +97,16 @@
       311.0,
       309.9,
       308.7,
-      318.6
+      318.9
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.83,
+     "price": 70.77,
      "prev_close": 69.05,
-     "change_pct": 2.58,
+     "change_pct": 2.49,
      "closes": [
       74.81,
       74.68,
@@ -129,16 +129,16 @@
       68.96,
       68.67,
       69.05,
-      70.83
+      70.77
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 689.5,
+     "price": 689.75,
      "prev_close": 674.75,
-     "change_pct": 2.19,
+     "change_pct": 2.22,
      "closes": [
       682.75,
       674.0,
@@ -161,16 +161,16 @@
       652.75,
       652.75,
       674.75,
-      689.5
+      689.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 89.75,
+     "price": 90.96,
      "prev_close": 88.52,
-     "change_pct": 1.39,
+     "change_pct": 2.76,
      "closes": [
       88.1,
       89.22,
@@ -193,16 +193,16 @@
       88.98,
       87.07,
       88.52,
-      89.75
+      90.96
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 166574.14,
+     "price": 166549.14,
      "prev_close": 166934.0,
-     "change_pct": -0.22,
+     "change_pct": -0.23,
      "closes": [
       173714.0,
       173371.0,
@@ -225,7 +225,7 @@
       167491.0,
       167101.0,
       166934.0,
-      166574.1406
+      166549.1406
      ]
     }
    ],
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-17T17:21:37+00:00",
+   "updated_at": "2026-08-17T18:29:05+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-17T17:21:41+00:00",
+   "updated_at": "2026-08-17T18:29:08+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,8 +405,38 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-17T17:21:43+00:00",
+   "updated_at": "2026-08-17T18:29:10+00:00",
    "items": [
+    {
+     "title": "Casas Bahia e o campo: quando a dívida vence a capacidade de produzir",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/casas-bahia-e-o-campo-quando-a-divida-vence-a-capacidade-de-produzir/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T18:06:06+00:00"
+    },
+    {
+     "title": "Geneplus celebra 30 anos na ExpoGenética 2026 com foco em avanço genético da pecuária",
+     "link": "https://www.canalrural.com.br/pecuaria/geneplus-celebra-30-anos-na-expogenetica-2026-com-foco-em-avanco-genetico-da-pecuaria/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T17:57:03+00:00"
+    },
+    {
+     "title": "Secretário dos EUA diz que produção de energia compensa fluxo fraco em Ormuz",
+     "link": "https://www.canalrural.com.br/politica/secretario-dos-eua-diz-que-producao-de-energia-compensa-fluxo-fraco-em-ormuz/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T17:48:40+00:00"
+    },
+    {
+     "title": "Inspeções de soja para exportação nos EUA caem 34% na semana",
+     "link": "https://www.canalrural.com.br/economia/inspecoes-de-soja-para-exportacao-nos-eua-caem-34-na-semana/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T17:41:54+00:00"
+    },
+    {
+     "title": "Siavs 2026 movimenta mais de US$ 155 milhões para empresas do Brazilian Beef",
+     "link": "https://www.canalrural.com.br/pecuaria/siavs-2026-movimenta-mais-de-us-155-milhoes-para-empresas-do-brazilian-beef/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T17:29:59+00:00"
+    },
     {
      "title": "Mapa reduz projeção do Valor Bruto da Produção agropecuária para R$ 1,398 trilhão",
      "link": "https://www.canalrural.com.br/economia/mapa-reduz-projecao-do-valor-bruto-da-producao-agropecuaria-para-r-1398-trilhao/",
@@ -420,16 +450,16 @@
      "published_at": "2026-08-17T17:10:55+00:00"
     },
     {
+     "title": "Cooperativas iniciam operação de esmagadora de soja que pertenceu à Dreyfus Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOGgyYzBfX0RrNXlrc0NTLVNZWmZKaDR3YlhNd3kza1FmSHdKLWVpYWFCdnFDN3dIWTdvUEthRE5uQmlOWHBSVGNkX29wQjUwMzZwSGU5bXhCNnBmSEJRQ2w5MENPN29JV1lCcjBoUHlLTHhiRXZkSEFtcm9XNm9rbEk4ZV9CV0plSkVRSGx4cGdaMkFkWHMycmhqdHMtZlBrNTJkQy1mSGpxMy1IQjZMajh6NXFCTWNUZGxZWHc3QldSSTZnYlJIQTFn?oc=5",
+     "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "published_at": "2026-08-17T16:57:00+00:00"
+    },
+    {
      "title": "Boa Safra reverte prejuízo e lucra R$ 2,7 milhões no segundo trimestre",
      "link": "https://www.canalrural.com.br/economia/boa-safra-reverte-prejuizo-e-lucra-r-27-milhoes-no-segundo-trimestre/",
      "source": "Canal Rural",
      "published_at": "2026-08-17T16:47:40+00:00"
-    },
-    {
-     "title": "EXCLUSIVO-Índia deve importar volume recorde de óleo de soja em agosto; Brasil amplia embarques - UOL Notícias",
-     "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQdzJ0YWxJX1A1MzNUOVF3bGF2S0lCeVVmSzFHVzdDTGNFMVE0enV2MmVwTklmRVpCVk5PV2MwOTB0eGVXTjlOMGppNGdQWkh3ajU3RWYtazBWQnUtRFQ4OUVYOFlZV2prUklxUTNWTUM0UU94WVBXTGJsZGo4MGtMaFhETGM1eXBVQ2x1WmtwOWhGTU5uNW83YURqak9Zam5OY2VTd0RjSnM5RlJNWHJiRVZldnZ4ZGJQRGFSQzE4dmdYaWxBZkNZWlBHa1F6NTFfb0ZkamlnZzF6ZHlDMl92VUZ1V2p3M2JGSGJ0aXZjR0EzSHJC?oc=5",
-     "source": "UOL Notícias",
-     "published_at": "2026-08-17T16:39:52+00:00"
     },
     {
      "title": "Bancos veem alta no custo de captação com possível tributação de LCI e LCA",
@@ -444,24 +474,6 @@
      "published_at": "2026-08-17T16:19:27+00:00"
     },
     {
-     "title": "Alckmin diz que Canadá pode ser próximo a fechar acordo com o Mercosul",
-     "link": "https://www.canalrural.com.br/economia/alckmin-diz-que-canada-pode-ser-proximo-a-fechar-acordo-com-o-mercosul/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T16:01:49+00:00"
-    },
-    {
-     "title": "Colheita da safrinha de milho chega a 85% no Centro-Sul",
-     "link": "https://www.canalrural.com.br/agricultura/colheita-da-safrinha-de-milho-chega-a-85-no-centro-sul/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T15:57:07+00:00"
-    },
-    {
-     "title": "Prazo para solicitar voto em trânsito termina em 20 de agosto; saiba como fazer",
-     "link": "https://www.canalrural.com.br/politica/eleicoes/prazo-para-solicitar-voto-em-transito-termina-em-20-de-agosto-saiba-como-fazer/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T15:34:25+00:00"
-    },
-    {
      "title": "Margem da soja supera meta, mas exposição segue alta - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX2l1elBCZGxSZEljX2s2SEs0TU5lRGV4RUNMNTcxYW0ydU1wVlJmOHpOOWVaYzZqOTd1ZDBndHJ0Tjc0YU9DZ1R2b1FQU2hBNUJySHRVRDBuVV9LMnY1RTdTUkk0aFNWcmhfMlF4T0psbGIwV0lic3B1ZDNPelB0cHl2NTZhMUsyd3ljODZLbGp3SnZ4elhOSkRid1VBNWYzM0JV?oc=5",
      "source": "Agrolink",
@@ -474,20 +486,8 @@
      "published_at": "2026-08-17T15:17:08+00:00"
     },
     {
-     "title": "Jalles Machado amplia prejuízo no 1º trimestre da safra 2026/27",
-     "link": "https://www.canalrural.com.br/economia/jalles-machado-amplia-prejuizo-no-1o-trimestre-da-safra-2026-27/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T14:58:18+00:00"
-    },
-    {
      "title": "Fundos reduzem posição comprada em soja e milho na CBOT - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWTgzQUdQTXhoNEUycE51MWhmczNlUzdjNEJVNXlIZnNLN0RKUkt6ZzJoeVViRkowbzdZUEx1OFExTUY4cEdya0UzWE9GeTRZRGdpTTBVUGoyVHRvX2FXUmtuUm0tR1p6bVBLNUlCYWd2YnJIUmlpcWprOE56N09xRDBKeVZIdmJ2cW5WSV9MeElWbG56eWh1aXpXUQ?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T14:33:55+00:00"
-    },
-    {
-     "title": "Fundos reduzem posição comprada em soja e milho na CBOT",
-     "link": "https://www.canalrural.com.br/economia/fundos-reduzem-posicao-comprada-em-soja-e-milho-na-cbot/",
      "source": "Canal Rural",
      "published_at": "2026-08-17T14:33:55+00:00"
     },

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-17T19:22:20+00:00",
+ "generated_at": "2026-08-17T20:19:14+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-17T19:22:14+00:00",
+   "updated_at": "2026-08-17T20:19:05+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 90.69,
+     "price": 90.78,
      "prev_close": 88.52,
-     "change_pct": 2.45,
+     "change_pct": 2.55,
      "closes": [
       88.1,
       89.22,
@@ -193,16 +193,16 @@
       88.98,
       87.07,
       88.52,
-      90.69
+      90.78
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 166869.7,
+     "price": 166954.77,
      "prev_close": 166934.0,
-     "change_pct": -0.04,
+     "change_pct": 0.01,
      "closes": [
       173714.0,
       173371.0,
@@ -225,7 +225,7 @@
       167491.0,
       167101.0,
       166934.0,
-      166869.7031
+      166954.7656
      ]
     }
    ],
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-17T19:22:14+00:00",
+   "updated_at": "2026-08-17T20:19:06+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-17T19:22:18+00:00",
+   "updated_at": "2026-08-17T20:19:11+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,8 +405,44 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-17T19:22:20+00:00",
+   "updated_at": "2026-08-17T20:19:14+00:00",
    "items": [
+    {
+     "title": "Milho: oferta elevada limita preços, mas demanda e exportações dão suporte",
+     "link": "https://www.canalrural.com.br/agricultura/milho/milho-oferta-elevada-limita-precos-mas-demanda-e-exportacoes-dao-suporte/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T20:09:42+00:00"
+    },
+    {
+     "title": "Produtividade da soja avança e Cesb mira ganhos para além das lavouras campeãs",
+     "link": "https://www.canalrural.com.br/projetos/conteudo-patrocinado/produtividade-da-soja-avanca-e-cesb-mira-ganhos-para-alem-das-lavouras-campeas/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T19:47:22+00:00"
+    },
+    {
+     "title": "Brent volta a superar US$ 90 com tensão renovada no Oriente Médio",
+     "link": "https://www.canalrural.com.br/economia/brent-volta-a-superar-us-90-com-tensao-renovada-no-oriente-medio/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T19:41:47+00:00"
+    },
+    {
+     "title": "Frente fria provoca chuva, ventos e queda de granizo; acumulados chegam a 100 mm",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/frente-fria-provoca-chuva-ventos-e-queda-de-granizo-acumulados-chegam-a-100-mm/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T19:39:13+00:00"
+    },
+    {
+     "title": "Semana terá chuva de 150 mm e frente fria se espalhando; veja a previsão",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/semana-tera-chuva-de-150-mm-e-frente-fria-se-espalhando-veja-a-previsao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T19:32:40+00:00"
+    },
+    {
+     "title": "Soja: dessecação antecipada ajuda a reduzir plantas daninhas - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV0ZRNllaaUJmVExFNkdFTkRhbFFFTFppWFhnQ1VXOWhSNDlqY0hXMm96ZFRqakdTWDNDMk56bW1sSWZzSGdMbU1YV2EtRG5PTVlnSVFDb0tTaHY4NkxUVjFNSWh1RlA1SUhGeUlQVW9qc09EcnFERU4zM0tJUUc5R3BxRXpTSVJjcXNxQ2ZicDNyMWthX3JGcGZJbV8zdEd3aUR3bV93aGtGQmluaFE?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-17T19:27:00+00:00"
+    },
     {
      "title": "Burocracia atrasa renegociação de dívidas rurais e preocupa produtores",
      "link": "https://www.canalrural.com.br/videos/burocracia-atrasa-renegociacao-de-dividas-rurais-e-preocupa-produtores/",
@@ -444,33 +480,9 @@
      "published_at": "2026-08-17T19:05:30+00:00"
     },
     {
-     "title": "Turismo rural se destaca no Espírito Santo com a Rural Touris 2023",
-     "link": "https://www.canalrural.com.br/videos/turismo-rural-se-destaca-no-espirito-santo-com-a-rural-touris-2023/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T19:05:20+00:00"
-    },
-    {
-     "title": "Chuvas intensas causam estragos e emergências em Santa Catarina e Rio Grande do Sul",
-     "link": "https://www.canalrural.com.br/videos/chuvas-intensas-causam-estragos-e-emergencias-em-santa-catarina-e-rio-grande-do-sul/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T19:05:10+00:00"
-    },
-    {
-     "title": "Balança comercial registra superávit de US$ 635,3 milhões na segunda semana de agosto",
-     "link": "https://www.canalrural.com.br/economia/balanca-comercial-registra-superavit-de-us-6353-milhoes-na-segunda-semana-de-agosto/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T18:58:13+00:00"
-    },
-    {
-     "title": "Renegociação de dívidas rurais esbarra em prazo e excesso de exigências",
-     "link": "https://www.canalrural.com.br/economia/renegociacao-de-dividas-rurais-esbarra-em-prazo-e-excesso-de-exigencias/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T18:55:46+00:00"
-    },
-    {
-     "title": "Preços de soja e milho sobem em Chicago de olho na safra dos EUA - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVzA4U1ZYZW1qVlZ0QnlGSmo3bEY2QVV4bEMwNG8wRTJjRWNHVUU4b01pWGU2Y2ZxODFzSnlsdmk4SHZtMjRLNmdqdWVtY1lFR3A3ZTgzRlJCWjNJVUFGUE9EREt1WjM2VHFveVJFZlpHQzVwNll1MlJmaU1wd1RZYmJ5MmhCbXJWYng5Q2E2ckQ5ZFpodHNJUWFqMDFXa2std19keThnZVVEWUtSZHpsVFBieVZSMVBSVk80a2RPNjBVdw?oc=5",
-     "source": "Globo Rural",
+     "title": "Preços de soja e milho sobem em Chicago de olho na safra dos EUA - globorural.globo.com",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVzA4U1ZYZW1qVlZ0QnlGSmo3bEY2QVV4bEMwNG8wRTJjRWNHVUU4b01pWGU2Y2ZxODFzSnlsdmk4SHZtMjRLNmdqdWVtY1lFR3A3ZTgzRlJCWjNJVUFGUE9EREt1WjM2VHFveVJFZlpHQzVwNll1MlJmaU1wd1RZYmJ5MmhCbXJWYng5Q2E2ckQ5ZFpodHNJUWFqMDFXa2std19keThnZVVEWUtSZHpsVFBieVZSMVBSVk80a2RPNjBVd9IB0AFBVV95cUxQYmd6eTM0bHY3ZDA0NHZraS1rZ1lGYzNCTTM3cDJVRWxrWlg0bDNnbkkyMkFpQjlEUWxNZGJXTEFVazhxV2JCWXRsVjNIQ3VITUlCWkdLWERxVDF2djFTT3c3ajJKdVVqLXNxcUFDaW4wYlZCSTdLNHZXSnJFRnlKSkV3dTA3aXVRa24zR1pJMVUxUWRWdlJKRWdlelJIZDM5bGtBcmFCQ1VRYjR6NF9rZ25qbnhScktTY3ZwUm0xVXZBWGVJdXhfNDVoMElPSTNi?oc=5",
+     "source": "globorural.globo.com",
      "published_at": "2026-08-17T18:40:08+00:00"
     },
     {
@@ -478,12 +490,6 @@
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNenlWRV91dzZ1bWdQckp4Nl9SSWRPVU5qeGZLS1NOQmotd193YzVvQ0trRkF2bzl3TmZBODM5LWdVTDRqd3VhUVVlSHAyUkxmVkM2QUcyMXp1T3ZwbzdCaVJ1R3B0aFowR3RmREFpa3ZqcFloVXZDcmNoU3M4ZC1KWWFtT0Vsc2F1T0NqVjA5ZmlRWExCcE5kWFNNZ3dlU0E?oc=5",
      "source": "((o))eco | Jornalismo Ambiental",
      "published_at": "2026-08-17T18:28:04+00:00"
-    },
-    {
-     "title": "Casas Bahia e o campo: quando a dívida vence a capacidade de produzir",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/casas-bahia-e-o-campo-quando-a-divida-vence-a-capacidade-de-produzir/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T18:06:06+00:00"
     },
     {
      "title": "Inspeções de soja para exportação nos EUA caem 34% na semana - Canal Rural",
@@ -498,9 +504,9 @@
      "published_at": "2026-08-17T15:31:07+00:00"
     },
     {
-     "title": "Soja avança em Chicago com demanda chinesa em alta - Globo Rural",
+     "title": "Soja avança em Chicago com demanda chinesa em alta - globorural.globo.com",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNak1sY3RubVB4ZGtDMWQxbHYydGVuVlE3eHZOQ3FGOGdURlpJRGJvYkJQcWRLNXpIXzBkNnl5a00tM043bFRxa0xpa2NQN3VqRndxTHUta0dRU090RktUUnhBNVU3a3ZoNFBaTGRPUGRpSjdxUlZfLU92SWxUYVdRV2ZqVTdkVkJIMlFaSWtJdzVlU3hDMkEwTnJVSVpSWUZhWXV5dmwtY2h0eW10cl9v0gG-AUFVX3lxTE05cU9nMnFuenZoc3RnMEwxMUR4dm5KWWkybWUyaThuMFQzeUdsZHdwUnY5YWJBUW9waDFKdDl6ZkFURTFVZWtfU0R6MEoyY0pQbEY0ckxEUDlBdDQ2bEZIREFqakUtRWVGRTljTmpsZnNMVkxXU0x5VDFISVc1bW9TWjR4ZEJjWHA0eGU5ZnJFRUdvOG44YzNjUzdZa0ZxeTdOU25DTkFhQTdkRWFqWmxtTHhkTzNaREZLQXpTNnc?oc=5",
-     "source": "Globo Rural",
+     "source": "globorural.globo.com",
      "published_at": "2026-08-17T15:17:08+00:00"
     },
     {
@@ -510,22 +516,16 @@
      "published_at": "2026-08-17T14:33:55+00:00"
     },
     {
-     "title": "Soja: Demanda aquecida sustenta preços - Sociedade Nacional de Agricultura",
-     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlcml5Q1JXUk5JUlFGeG90Qk14Rl9pWWF5dXdoT1dua2xxTWxwX3dvTHhqdjlRc2phX1RiMW9Qd1R3RUxOMkx6N1dNQUJzQ2owbENVMGNwbW9obWJLZGh0ZDAxa19sbThD?oc=5",
-     "source": "Sociedade Nacional de Agricultura",
-     "published_at": "2026-08-17T14:18:00+00:00"
-    },
-    {
-     "title": "China desenvolve modelo de IA voltado para produção de soja - Poder360",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOUFQSWxVMTVmQWxxQVBwRWZES2NRU0t5MjV3THRCdms1LUxvRVJJVURMVnpJa1VZT1RtNUVKdUR6Mll6anRyNUZ0UFREcDJ5djlGUXFTRzZXdTVlM3dmQW93bmRxNHpFbl9sVFBtU1lwTVoxWnlGemVNWVltaU81N0V1TGFaMGM0ZF9Rd3k2eXo4akZFZFowWlNFZlgyR3BGSlE?oc=5",
-     "source": "Poder360",
-     "published_at": "2026-08-17T13:09:29+00:00"
-    },
-    {
      "title": "Soja sobe no Brasil com dólar forte e procura aquecida - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNXI0VHJqMkZPZDhrQVItU3N0WmFENlR6c1B1T2xGQll5S29NQlJqaUhseVlvOGFWdERSZFEySV9HLXh4OW95QnNnSElJTWlsMzBNRVJtMEVlZlBuQUZzWUllXzhXZVJqbXhObS1Ba0dvU3NxSmZ2b3hIbTU3ZG02MVAwV0NEWFBXaUh3cENGYVlMMkpOZk1ITl9jd3E1Zlh3Q2RFSVNn?oc=5",
      "source": "Agrolink",
      "published_at": "2026-08-17T12:48:00+00:00"
+    },
+    {
+     "title": "Soja/Cepea: Demanda aquecida e menor relação estoque/consumo sustentam preços - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNeWhSbl9qWEF0R3laZ21oZW9SUllqeDFLQmdSQWx3ZzZlSjdiaWZxb3d0cjU2R0xaYnNiLU5makt3VDJZX2lHMzFUY0ZldUdYcmI2ZDVodW92ZXNINHJlQUpSUGNkeVZnWlNnWkZtQ2xMdzFlMUdjWGJBSGo1d2xIYXYwUTVKTXpxbGVQSUs2dUEwVU1sTVAyUl8wbEMzaWoydG5YWDRFSzZpaktzYll5SldVdXI0MzI2d0p5aGRuVHVZT000TkZqdHRPb3pyRVlkdE50U0hR0gHbAUFVX3lxTFAyNmVqUC04RmZPbnNadEVuNGZqdXZGQ1NXMkR6U012Ql9wYXpVT0FDbFAwS25jSjNKelprSXdUWlZEeXR3SDFqb1Qtci1adXo1aVMwd0hXVmtkaVE3LThDdEpFTlByVjB6cUdGWnlhY3FBTHp5VmljMTk0QjdEdlVmd2ROWUpmSnlPOFQ4WXdmOW9HOThWamZBSTFQTDZNOG9xRFRFM0NDU0RVZC1CYmZ1VkhxZzdGQkJJUkFsWl9fSmx4ZlZXSUZhMWV1WUMyZFV1cC10LTNKbFNtZw?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-17T11:04:04+00:00"
     },
     {
      "title": "Preços de milho e soja avançam no mercado brasileiro - Feed&Food",

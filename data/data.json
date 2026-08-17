@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-17T15:19:26+00:00",
+ "generated_at": "2026-08-17T16:20:06+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-17T15:19:20+00:00",
+   "updated_at": "2026-08-17T16:19:56+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1209.75,
+     "price": 1212.0,
      "prev_close": 1173.75,
-     "change_pct": 3.07,
+     "change_pct": 3.26,
      "closes": [
       1204.5,
       1226.0,
@@ -33,16 +33,16 @@
       1164.75,
       1168.25,
       1173.75,
-      1209.75
+      1212.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 488.5,
+     "price": 488.0,
      "prev_close": 459.0,
-     "change_pct": 6.43,
+     "change_pct": 6.32,
      "closes": [
       444.75,
       449.5,
@@ -65,16 +65,16 @@
       457.0,
       448.0,
       459.0,
-      488.5
+      488.0
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 319.4,
+     "price": 318.7,
      "prev_close": 308.7,
-     "change_pct": 3.47,
+     "change_pct": 3.24,
      "closes": [
       320.2,
       323.5,
@@ -97,16 +97,16 @@
       311.0,
       309.9,
       308.7,
-      319.4
+      318.7
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.1,
+     "price": 70.75,
      "prev_close": 69.05,
-     "change_pct": 1.52,
+     "change_pct": 2.46,
      "closes": [
       74.81,
       74.68,
@@ -129,16 +129,16 @@
       68.96,
       68.67,
       69.05,
-      70.1
+      70.75
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 687.75,
+     "price": 689.0,
      "prev_close": 674.75,
-     "change_pct": 1.93,
+     "change_pct": 2.11,
      "closes": [
       682.75,
       674.0,
@@ -161,16 +161,16 @@
       652.75,
       652.75,
       674.75,
-      687.75
+      689.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.65,
+     "price": 88.96,
      "prev_close": 88.52,
-     "change_pct": 0.15,
+     "change_pct": 0.5,
      "closes": [
       88.1,
       89.22,
@@ -193,16 +193,16 @@
       88.98,
       87.07,
       88.52,
-      88.65
+      88.96
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 166588.23,
+     "price": 166770.08,
      "prev_close": 166934.0,
-     "change_pct": -0.21,
+     "change_pct": -0.1,
      "closes": [
       173714.0,
       173371.0,
@@ -225,7 +225,7 @@
       167491.0,
       167101.0,
       166934.0,
-      166588.2344
+      166770.0781
      ]
     }
    ],
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-17T15:19:20+00:00",
+   "updated_at": "2026-08-17T16:19:56+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-17T15:19:24+00:00",
+   "updated_at": "2026-08-17T16:20:02+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,19 +405,43 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-17T15:19:26+00:00",
+   "updated_at": "2026-08-17T16:20:06+00:00",
    "items": [
+    {
+     "title": "Alckmin diz que Canadá pode ser próximo a fechar acordo com o Mercosul",
+     "link": "https://www.canalrural.com.br/economia/alckmin-diz-que-canada-pode-ser-proximo-a-fechar-acordo-com-o-mercosul/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T16:01:49+00:00"
+    },
+    {
+     "title": "Colheita da safrinha de milho chega a 85% no Centro-Sul",
+     "link": "https://www.canalrural.com.br/agricultura/colheita-da-safrinha-de-milho-chega-a-85-no-centro-sul/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T15:57:07+00:00"
+    },
+    {
+     "title": "Prazo para solicitar voto em trânsito termina em 20 de agosto; saiba como fazer",
+     "link": "https://www.canalrural.com.br/politica/eleicoes/prazo-para-solicitar-voto-em-transito-termina-em-20-de-agosto-saiba-como-fazer/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T15:34:25+00:00"
+    },
+    {
+     "title": "Margem da soja supera meta, mas exposição segue alta - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX2l1elBCZGxSZEljX2s2SEs0TU5lRGV4RUNMNTcxYW0ydU1wVlJmOHpOOWVaYzZqOTd1ZDBndHJ0Tjc0YU9DZ1R2b1FQU2hBNUJySHRVRDBuVV9LMnY1RTdTUkk0aFNWcmhfMlF4T0psbGIwV0lic3B1ZDNPelB0cHl2NTZhMUsyd3ljODZLbGp3SnZ4elhOSkRid1VBNWYzM0JV?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-17T15:24:00+00:00"
+    },
+    {
+     "title": "Soja avança em Chicago com demanda chinesa em alta - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNak1sY3RubVB4ZGtDMWQxbHYydGVuVlE3eHZOQ3FGOGdURlpJRGJvYkJQcWRLNXpIXzBkNnl5a00tM043bFRxa0xpa2NQN3VqRndxTHUta0dRU090RktUUnhBNVU3a3ZoNFBaTGRPUGRpSjdxUlZfLU92SWxUYVdRV2ZqVTdkVkJIMlFaSWtJdzVlU3hDMkEwTnJVSVpSWUZhWXV5dmwtY2h0eW10cl9v0gG-AUFVX3lxTE05cU9nMnFuenZoc3RnMEwxMUR4dm5KWWkybWUyaThuMFQzeUdsZHdwUnY5YWJBUW9waDFKdDl6ZkFURTFVZWtfU0R6MEoyY0pQbEY0ckxEUDlBdDQ2bEZIREFqakUtRWVGRTljTmpsZnNMVkxXU0x5VDFISVc1bW9TWjR4ZEJjWHA0eGU5ZnJFRUdvOG44YzNjUzdZa0ZxeTdOU25DTkFhQTdkRWFqWmxtTHhkTzNaREZLQXpTNnc?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-17T15:17:08+00:00"
+    },
     {
      "title": "Jalles Machado amplia prejuízo no 1º trimestre da safra 2026/27",
      "link": "https://www.canalrural.com.br/economia/jalles-machado-amplia-prejuizo-no-1o-trimestre-da-safra-2026-27/",
      "source": "Canal Rural",
      "published_at": "2026-08-17T14:58:18+00:00"
-    },
-    {
-     "title": "Preços do agro sobem na semana: arroz dispara 3,24%, soja avança e milho ganha mais de 2% - Portal do Agronegócio",
-     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPY0FWU3BCX0NmNm9HY1dzcHJqSnNkalhWWjNVLTkyWlhqTlpBTFJlVTgzR3hwS3A5ODI2akEzd1g2cTV6dXNMVV8zMmczMUl4Zlo5Nm5RZThkMDZlRVNDakNSVXBsejEyUTRMVW40ZkdUdU9YNWlBaThCNkJjWWdMNjJOMm50NXRjc2pQZVdyVGN6NjdtREFLTXlBYUpjRXM0RjdtcmRURnZjTmZQdzdRajJjeEhXVG42VWlXcUhXY0pwQXE4UGE2Uktjb29RSThNY3I1T2J4YTNSMGVNVVE2M1pDejY3OHRHbGd0NDA4TGhLYnlXbFpTeVZDYw?oc=5",
-     "source": "Portal do Agronegócio",
-     "published_at": "2026-08-17T14:35:00+00:00"
     },
     {
      "title": "Fundos reduzem posição comprada em soja e milho na CBOT - Canal Rural",
@@ -468,33 +492,15 @@
      "published_at": "2026-08-17T13:56:40+00:00"
     },
     {
-     "title": "Monitor do PIB aponta alta de 0,3% no segundo trimestre e queda de 1,1% em junho",
-     "link": "https://www.canalrural.com.br/economia/monitor-do-pib-aponta-alta-de-03-no-segundo-trimestre-e-queda-de-11-em-junho/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T13:52:47+00:00"
-    },
-    {
-     "title": "Durigan diz que juros precisam ser enfrentados e cita ajuste fiscal",
-     "link": "https://www.canalrural.com.br/economia/durigan-diz-que-juros-precisam-ser-enfrentados-e-cita-ajuste-fiscal/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T13:47:49+00:00"
-    },
-    {
-     "title": "Durigan defende intolerância à irresponsabilidade fiscal",
-     "link": "https://www.canalrural.com.br/economia/durigan-defende-intolerancia-a-irresponsabilidade-fiscal/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T13:42:41+00:00"
-    },
-    {
-     "title": "China desenvolve modelo de IA voltado para produção de soja - poder360.com.br",
+     "title": "China desenvolve modelo de IA voltado para produção de soja - Poder360",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOUFQSWxVMTVmQWxxQVBwRWZES2NRU0t5MjV3THRCdms1LUxvRVJJVURMVnpJa1VZT1RtNUVKdUR6Mll6anRyNUZ0UFREcDJ5djlGUXFTRzZXdTVlM3dmQW93bmRxNHpFbl9sVFBtU1lwTVoxWnlGemVNWVltaU81N0V1TGFaMGM0ZF9Rd3k2eXo4akZFZFowWlNFZlgyR3BGSlE?oc=5",
-     "source": "poder360.com.br",
+     "source": "Poder360",
      "published_at": "2026-08-17T13:09:29+00:00"
     },
     {
-     "title": "Soja sobe no Brasil com dólar forte e procura aquecida - agrolink.com.br",
+     "title": "Soja sobe no Brasil com dólar forte e procura aquecida - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNXI0VHJqMkZPZDhrQVItU3N0WmFENlR6c1B1T2xGQll5S29NQlJqaUhseVlvOGFWdERSZFEySV9HLXh4OW95QnNnSElJTWlsMzBNRVJtMEVlZlBuQUZzWUllXzhXZVJqbXhObS1Ba0dvU3NxSmZ2b3hIbTU3ZG02MVAwV0NEWFBXaUh3cENGYVlMMkpOZk1ITl9jd3E1Zlh3Q2RFSVNn?oc=5",
-     "source": "agrolink.com.br",
+     "source": "Agrolink",
      "published_at": "2026-08-17T12:48:00+00:00"
     },
     {
@@ -526,12 +532,6 @@
      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNVY1TjFiUHVYbXBsMFNXdnhhQlVnMzNFVEVtNWN2QVhHWTBSTEV4NDM0ekZLX3lVbG1oT3JaQ3NDdlpPRHFkM3I1RGNLUU5OQ1hBeks1bFNMbEpTWDRLNWk5OHQzWkQ3eVVxd3ZUVU1keGVzNmViZkkySUtyTENka0pELUlzWC1xYkEwUkloZmE2cERMN2tBVUpaelZwWF9BdkVqc3BiTTJLbnRSRXYtclRrVE1KU3Y4MVZIcm1GdTYwOWZiU0pVSEk2UXdpY18yTUlEVV9ZRzFmZ9IB3wFBVV95cUxPaWxJZjNYdmhqWGV4QTFXelRabDAwZk1yRTBuS09TczhqaHNhd243bDhPTHRNVFB3N2txemtkSTlucENzeVFXOEExaXdwLVJoSU9CRFFtVGdXazFWMHF1Q29fV2FFeEttRE1zT0pFbWkxSUJtenJBR094dFRMM3pWUFV0YjJqY1k2a1k2R1FCSnRzUV9ka0hxVHAyT1FibTE4b0U0RVl5VndZMU8xRFJrVWJyVEtRUTJodXhWLWNBSXJiWmhLX1JYWGxiNEkzNkNpQ1ZyRGpaUl9CQ2NOM0Mw?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-17T10:52:16+00:00"
-    },
-    {
-     "title": "Soja tem preços mistos durante a entressafra - agrolink.com.br",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb0lPaEhNZEZicXJSOW5ydHowQkljU0ZuTDhLaTFLTHRRTWoyckRVLUJqVTIzNlQ3S240eV9Db2JsdUNRcWtsZ01jbFB4RlM3cnNhWEZ2R0FlVTVtY2FmLVFDVXM2TWNwQ3I2aUZRbGlYRTFsNzZZelY4X0otbV95RTdhaWJTdWJfT2NwU3Y3TUJnUFVzclR4WQ?oc=5",
-     "source": "agrolink.com.br",
-     "published_at": "2026-08-17T10:41:00+00:00"
     },
     {
      "title": "Petróleo e soja elevam otimismo para superávit comercial - Valor Econômico",

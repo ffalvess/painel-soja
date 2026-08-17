@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-17T21:20:01+00:00",
+ "generated_at": "2026-08-17T22:17:43+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-17T21:19:52+00:00",
+   "updated_at": "2026-08-17T22:17:35+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-17T21:19:53+00:00",
+   "updated_at": "2026-08-17T22:17:35+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-17T21:19:57+00:00",
+   "updated_at": "2026-08-17T22:17:40+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,8 +405,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-17T21:20:01+00:00",
+   "updated_at": "2026-08-17T22:17:43+00:00",
    "items": [
+    {
+     "title": "Soja avança com alta de mais de 2% em Chicago e preços sobem nos portos - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeHRPM0NYMklCMjB3T0xoMXZLWkFURk9UdUhFR2pqTFg5dEk2TVRxUmZselFFM1BLdDByOGR3M1poV0Z4bVhocE9ROEZIUXBTdkZMRFJrdnhkY2dHOHRxTkgtcWVTaXUxV3VxaW5iOFlkSHF0d2RjcmxTblhRME9FZUpTc2xHMW5uby1xZS00TVZ6ZWtYZ2pITUxqMVFRZ1BrTjZaaUY4R3NhNERqMi1QbHozeGZDOVBuNGZVSUhDRW5Hd0lBN0NST2tSZkowdw?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T22:00:08+00:00"
+    },
+    {
+     "title": "Primeiro biofungicida brasileiro 100% à base de metabólitos é registrado para soja - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdjF6QU52MmI4X0UtdWdmRnd2OFl1UTR6ZUNKQWZoendyWldQUTJ2c3VCQ194bk5kMGhIbDVrTnJJSVdrY1ZKZFd1bElvcE5IMExybGpUMG81T1FzM2dsUUdMMV9zNEpObEIzMnZXdGJNdVBPMWhHeWM2Um5kWFN5dHNzODJ0anNpMHRRUXV6TTc0ZGFScWMtbExHekFSYUVDc0tvbUJoWkh2bElYbFQ4MEtqMF9ncEdkbVZVVlhzUjJMUQ?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T21:43:47+00:00"
+    },
+    {
+     "title": "Primeiro biofungicida brasileiro 100% à base de metabólitos é registrado para soja",
+     "link": "https://www.canalrural.com.br/agricultura/primeiro-biofungicida-brasileiro-100-a-base-de-metabolitos-e-registrado-para-soja/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-17T21:43:47+00:00"
+    },
     {
      "title": "Juros futuros fecham em queda, mas alta do petróleo reduz perdas no fim do pregão",
      "link": "https://www.canalrural.com.br/economia/juros-futuros-fecham-em-queda-mas-alta-do-petroleo-reduz-perdas-no-fim-do-pregao/",
@@ -444,12 +462,6 @@
      "published_at": "2026-08-17T20:09:42+00:00"
     },
     {
-     "title": "Produtividade da soja avança e Cesb mira ganhos para além das lavouras campeãs - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZ1k4c09GT1NTLS1icmkzX1Qxa2h3QnJPZzJlMzNnVW9hcEl4WkVnRHlUczlyT0hfQmhubTBPX1c4NE02NGFwM0pJZ2FiMW5ha2gxRC1jNjBCWVZRdXA1OFhZUkdKMnBxRXctNjhjQW40LUk4NjhVc091WEpOWVN3a1owSG9TTnBDSUktVGhuS0w2cmFpdEFpSXpBYmRHdjJ6ODgyendNZkFHaElHa1R0YXg0aWhrTXl2eFJmSW03d01sUTk2dmdTenBWbi1ZMVFwR1pmOXJ3?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T19:47:22+00:00"
-    },
-    {
      "title": "Produtividade da soja avança e Cesb mira ganhos para além das lavouras campeãs",
      "link": "https://www.canalrural.com.br/projetos/conteudo-patrocinado/produtividade-da-soja-avanca-e-cesb-mira-ganhos-para-alem-das-lavouras-campeas/",
      "source": "Canal Rural",
@@ -480,22 +492,22 @@
      "published_at": "2026-08-17T19:27:00+00:00"
     },
     {
-     "title": "Burocracia atrasa renegociação de dívidas rurais e preocupa produtores",
-     "link": "https://www.canalrural.com.br/videos/burocracia-atrasa-renegociacao-de-dividas-rurais-e-preocupa-produtores/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T19:15:20+00:00"
-    },
-    {
-     "title": "Soja sobe quase 2% em Chicago com novas compras da China nos EUA - CNN Brasil",
+     "title": "Soja sobe quase 2% em Chicago com novas compras da China nos EUA - cnnbrasil.com.br",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNclJpMjdzc3hWcFhqa3RHREZnbVNHd1g0SnRfVWp6S21ITjVGX3c1Mi16MnctbDZuY05WdUtVbHlzUGZkRGRORVRnUXlsUWFIbVZZOXMyNHd2TGtGc2NvX3MzMHYyRjZGcGs3RDVMd2NDdldZMW4wTXhXTFF0TXBlU21zZ1VnTFpBSTRRVnZoVmF5RkxkdmtudkZKN05Wbm8?oc=5",
-     "source": "CNN Brasil",
+     "source": "cnnbrasil.com.br",
      "published_at": "2026-08-17T19:12:25+00:00"
     },
     {
-     "title": "Preços de soja e milho sobem em Chicago de olho na safra dos EUA - globorural.globo.com",
+     "title": "Preços de soja e milho sobem em Chicago de olho na safra dos EUA - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVzA4U1ZYZW1qVlZ0QnlGSmo3bEY2QVV4bEMwNG8wRTJjRWNHVUU4b01pWGU2Y2ZxODFzSnlsdmk4SHZtMjRLNmdqdWVtY1lFR3A3ZTgzRlJCWjNJVUFGUE9EREt1WjM2VHFveVJFZlpHQzVwNll1MlJmaU1wd1RZYmJ5MmhCbXJWYng5Q2E2ckQ5ZFpodHNJUWFqMDFXa2std19keThnZVVEWUtSZHpsVFBieVZSMVBSVk80a2RPNjBVd9IB0AFBVV95cUxQYmd6eTM0bHY3ZDA0NHZraS1rZ1lGYzNCTTM3cDJVRWxrWlg0bDNnbkkyMkFpQjlEUWxNZGJXTEFVazhxV2JCWXRsVjNIQ3VITUlCWkdLWERxVDF2djFTT3c3ajJKdVVqLXNxcUFDaW4wYlZCSTdLNHZXSnJFRnlKSkV3dTA3aXVRa24zR1pJMVUxUWRWdlJKRWdlelJIZDM5bGtBcmFCQ1VRYjR6NF9rZ25qbnhScktTY3ZwUm0xVXZBWGVJdXhfNDVoMElPSTNi?oc=5",
-     "source": "globorural.globo.com",
+     "source": "Globo Rural",
      "published_at": "2026-08-17T18:40:08+00:00"
+    },
+    {
+     "title": "Tempestades e inundações atingem áreas de milho e soja nos EUA - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOM2NxY3pwTXl4Y1o4bEV3eHo1SzlRQ2k0OGZJaW83U1hiWnE5Vk9rdWZnamhueUN0VDBKbDROMFIxWDg4eHQ5clZqSk83SHlwWi1qMDRJUEhBSVNVTVV3ODFCTE5OWTJlNU5RUmE2NjV1dF9DN2JyLXZLcjlBRE9ycWw1ZVQzN09jaDh3YkF6TFdhUGlpcUMzRHhEOEJjZ0dXSGM5OHI3VmxBclQ1eHRUcVI3eDE1Q0F5clBpLUZHT1dDRnBK0gHKAUFVX3lxTE9qdER2U3JmSHZsb0d1cTduVnBXaXkwVU82VmpYQWxMMHBTRWIwbU1Ja0ljWnhpOUlsREZOWDhpY2p0UFB4NGZ1Mks5TXRDRi05bmRLRy0xRUwwWWhiZVRLTlhPVXhMazMzaDlpM1psbHluNGJtN2E3RjVEYkZXYkF4Y0FSUzBVQU9ad24yNVRsSDJHMWJrYWhYWnZ5UTBEZnRlbFQwZU8xcDVYNElGOWZVWkZsSC1Qek5KMllUOE41TDEycHB2XzFfdmc?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-17T18:35:06+00:00"
     },
     {
      "title": "Rastreabilidade da soja e da carne esbarra na falta de integração - ((o))eco | Jornalismo Ambiental",
@@ -504,21 +516,15 @@
      "published_at": "2026-08-17T18:28:04+00:00"
     },
     {
-     "title": "Soja intensifica ganhos, opera com altas de dois dígitos e volta aos US$ 12 em Chicago nesta 2ª - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQcUxFWFVMaTJEUFgyLXdjRE1NUlQ3QkRwRUdrbU04bWs4ajFtSzlDQ3R2SkhGLVhBQkhiV3pTNXc4Q0VJaGZXUHkxUFREQ2FDNHRDZFp0ek5Tbm9OdjRibU9vSkJaVWVLV3lZTEJEN1k2NVZybGI3c0ppRmc0TWUtdlVLMWlpcVpvZjNhQ0R2d2JMQjNQTTFTc2M4c0hkeVBIa2tDLWs3Tzc5N3VVRXFETVVUSHNGUWZXVjNRSGRWeDVZM0xEaGZlZVQtbUt6V2ZqLUJsVlN1aHVJYVdQMUV2eUh0clp0QVladzNJ0gHwAUFVX3lxTE9GVmFCN2ZkbllNc3EzYjlZSmNfSzNDNmhGU0pPaUVJUTVPUVphZWhYRy12Vlo3TGp4bkE0NmhqTVMyZEM3MGRwVGFSUkIzeGN3SEdRekdQVWpaSlhORVJhTnVWSmtOc1RVaEhETzlIX25idHdZdDl5SWNGb2plRFYyVXZnUEZNMUVGZ0hNdk1Rc0hMMmwwMnZXb2d4TTZTb1lVTlhIazFfX3lIdDl6Tnh4cm5IM2tvODZEejlMd2Fidktmei1xMk5JNzEyUGVYX3VJSmtMQjlyMVFrLXRsMThmUU1wYjB6Rm5meDBXRGlvcg?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-17T15:31:07+00:00"
-    },
-    {
-     "title": "Soja avança em Chicago com demanda chinesa em alta - globorural.globo.com",
+     "title": "Soja avança em Chicago com demanda chinesa em alta - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNak1sY3RubVB4ZGtDMWQxbHYydGVuVlE3eHZOQ3FGOGdURlpJRGJvYkJQcWRLNXpIXzBkNnl5a00tM043bFRxa0xpa2NQN3VqRndxTHUta0dRU090RktUUnhBNVU3a3ZoNFBaTGRPUGRpSjdxUlZfLU92SWxUYVdRV2ZqVTdkVkJIMlFaSWtJdzVlU3hDMkEwTnJVSVpSWUZhWXV5dmwtY2h0eW10cl9v0gG-AUFVX3lxTE05cU9nMnFuenZoc3RnMEwxMUR4dm5KWWkybWUyaThuMFQzeUdsZHdwUnY5YWJBUW9waDFKdDl6ZkFURTFVZWtfU0R6MEoyY0pQbEY0ckxEUDlBdDQ2bEZIREFqakUtRWVGRTljTmpsZnNMVkxXU0x5VDFISVc1bW9TWjR4ZEJjWHA0eGU5ZnJFRUdvOG44YzNjUzdZa0ZxeTdOU25DTkFhQTdkRWFqWmxtTHhkTzNaREZLQXpTNnc?oc=5",
-     "source": "globorural.globo.com",
+     "source": "Globo Rural",
      "published_at": "2026-08-17T15:17:08+00:00"
     },
     {
-     "title": "Soja: Demanda aquecida sustenta preços - Sociedade Nacional de Agricultura",
+     "title": "Soja: Demanda aquecida sustenta preços - sna.agr.br",
      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlcml5Q1JXUk5JUlFGeG90Qk14Rl9pWWF5dXdoT1dua2xxTWxwX3dvTHhqdjlRc2phX1RiMW9Qd1R3RUxOMkx6N1dNQUJzQ2owbENVMGNwbW9obWJLZGh0ZDAxa19sbThD?oc=5",
-     "source": "Sociedade Nacional de Agricultura",
+     "source": "sna.agr.br",
      "published_at": "2026-08-17T14:18:00+00:00"
     },
     {
@@ -526,12 +532,6 @@
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNXI0VHJqMkZPZDhrQVItU3N0WmFENlR6c1B1T2xGQll5S29NQlJqaUhseVlvOGFWdERSZFEySV9HLXh4OW95QnNnSElJTWlsMzBNRVJtMEVlZlBuQUZzWUllXzhXZVJqbXhObS1Ba0dvU3NxSmZ2b3hIbTU3ZG02MVAwV0NEWFBXaUh3cENGYVlMMkpOZk1ITl9jd3E1Zlh3Q2RFSVNn?oc=5",
      "source": "Agrolink",
      "published_at": "2026-08-17T12:48:00+00:00"
-    },
-    {
-     "title": "Dólar em alta e demanda global impulsionam preço da soja no Brasil - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYm4tUVMzUFRKenpDZnotdXZpa0dSWHBJQ1FqS1d3VHVvUFlqb21vNmh2b3Ztand1RF93WHphVlBBMmNZQ3FyUHZxZV9MTk8ySWNyaGQ0X0FRYnBqUmQxa2huV0p6Y3VUajBaWk50YzBaWm51ZjRZa29hX3F0LW9SUFhXMUJPLVk2U1FFREo5SHFzaHhhZUdrWEZCTkd4Q0Q4VzBfREpScmJDR0d6dVh6Tnl4TmU?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T11:27:38+00:00"
     },
     {
      "title": "Soja sobe em Chicago nesta 2ª feira (17) com chuvas intensas chegando ao Corn Belt - Notícias Agrícolas",

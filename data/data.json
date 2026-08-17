@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-17T05:29:44+00:00",
+ "generated_at": "2026-08-17T06:40:54+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-17T05:29:31+00:00",
+   "updated_at": "2026-08-17T06:40:44+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1192.75,
+     "price": 1194.25,
      "prev_close": 1173.75,
-     "change_pct": 1.62,
+     "change_pct": 1.75,
      "closes": [
       1204.5,
       1226.0,
@@ -33,7 +33,7 @@
       1164.75,
       1168.25,
       1173.75,
-      1192.75
+      1194.25
      ]
     },
     {
@@ -72,9 +72,9 @@
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 316.8,
+     "price": 317.4,
      "prev_close": 308.7,
-     "change_pct": 2.62,
+     "change_pct": 2.82,
      "closes": [
       320.2,
       323.5,
@@ -97,16 +97,16 @@
       311.0,
       309.9,
       308.7,
-      316.8
+      317.4
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 68.95,
+     "price": 68.99,
      "prev_close": 69.05,
-     "change_pct": -0.14,
+     "change_pct": -0.09,
      "closes": [
       74.81,
       74.68,
@@ -129,16 +129,16 @@
       68.96,
       68.67,
       69.05,
-      68.95
+      68.99
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 689.5,
+     "price": 690.0,
      "prev_close": 674.75,
-     "change_pct": 2.19,
+     "change_pct": 2.26,
      "closes": [
       682.75,
       674.0,
@@ -161,16 +161,16 @@
       652.75,
       652.75,
       674.75,
-      689.5
+      690.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 88.59,
+     "price": 88.39,
      "prev_close": 88.52,
-     "change_pct": 0.08,
+     "change_pct": -0.15,
      "closes": [
       88.1,
       89.22,
@@ -193,7 +193,7 @@
       88.98,
       87.07,
       88.52,
-      88.59
+      88.39
      ]
     },
     {
@@ -209,15 +209,12 @@
       173825.0,
       173714.0,
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -235,7 +232,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-17T05:29:32+00:00",
+   "updated_at": "2026-08-17T06:40:45+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -246,7 +243,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-17T05:29:35+00:00",
+   "updated_at": "2026-08-17T06:40:50+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -407,8 +404,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-17T05:29:44+00:00",
+   "updated_at": "2026-08-17T06:40:54+00:00",
    "items": [
+    {
+     "title": "Fim de moratória da soja representa retrocesso ambiental - O GLOBO",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNREd3Tm9FZGhQb0F0R2RHUTFjOXpZam5PTGV2YV9OaDJHNUtxblAzc21CYnJVVHZ3NUwycmtmUHhtZlNlTmk2cVYwZk10SFpQa0VkenlyZ256cjRSN2QxSG5sOFdaS3FjMVhMSENXdTB4c21jd2dwS3hiVF8tSGxvZk9nRVFDNWlaWlh2aEdFV2pDYXV2STFnalgxbXlXUkhHUEJrUm5MbnZtMEcwaW5xbFlBaUdrQm5GUlNOd9IBywFBVV95cUxONkpMUUt5alRzeGotcFRZYnd5UHpadzBWX3FwVHVTOElwaDI3cUYtNm1kUGxZT2NNaUIyZUp6ZXk5UmpHMFMtekQ4b1FuRDQxbUQ3QkNoZXFyMGNnRVVoOExqUUhiajRobHJ6NHVPTXlyNDA5amFJeGpXeUV3UTZwM19JQ0ZvZFJpWUk0N3psQ1hQRWdxaU1VOThrSWNnQkl0YVJfSVFGbTJMT3UtbVhtdHBBU1Y1VWNrcnFUNE1BN2l3dFpabzJoTFktcw?oc=5",
+     "source": "O GLOBO",
+     "published_at": "2026-08-17T03:10:08+00:00"
+    },
+    {
+     "title": "Preço da soja atinge R$ 130 em MS com alta de 3,63% - Campo Grande News",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZHdzRjRhLWdqMURmb0JGcTg5dXhTdm1iOGRnWHVKSy1uOXZkenRnejIxem4zQ2hkeUQ2QzZTQ0pna3BzckswQVVpQ2wzUFhaeENCVGRfOTRrbVJoVS1jWUxPSWdRSW9mclZMM19EeVNmeU9GWnV2MFlhSVRyMXpTeno3SktObTl5SkVfTEQzSEtRLVhqSHB1T3RjZGMzRFpl0gGgAUFVX3lxTFBvYlFEV3Vnci1nQVpyRGNSb0VreWlpTURSY19Vc1Fmbnl1cGlrZGVud0dtWWxMdHZKbGlXQlVKSXFGTnJTMnItUGFJM3ZVWjRqcU5wVVBLaWpvMldSOVhSVUk5R24zMzVzbWFiMndKNzloWWxhd2F5WVhmdExBOGFuUlEyWGF3QUpTQmtRMk9zd3Z6OUhuUUk3ellybG1Fb3g?oc=5",
+     "source": "Campo Grande News",
+     "published_at": "2026-08-16T22:09:00+00:00"
+    },
     {
      "title": "Arroba do boi fica estável e, por enquanto, resiste à queda nos volumes de exportação",
      "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-fica-estavel-e-por-enquanto-resiste-a-queda-nos-volumes-de-exportacao/",
@@ -482,16 +491,40 @@
      "published_at": "2026-08-16T10:30:12"
     },
     {
+     "title": "Preço do bezerro, boi gordo, milho e soja na 1ª metade de agosto de 2026 - Farmnews",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcC1qMW94M0k1N2RfWXFOSzhzYXlIdVNSel91TnoxRDNPTG1lZmNhZ1I4aU9HQ1VXLXJGSzNKRHRWdGxfWlcyYWk3N1VEVE40SG10aTREUUstRVRPRHhCelhPRGpSV3NoT0g0a1ZtYzZmdlhySmh3R2VabERoU2xmN2c2NUpQUVFfdHktVTJ1X091anVFd2hmLUNkTkI2Vl9kSVozTzNVbEFtZ1U?oc=5",
+     "source": "Farmnews",
+     "published_at": "2026-08-16T09:48:09+00:00"
+    },
+    {
+     "title": "Moratória da Soja: o que, afinal, o STF está julgando? - Consultor Jurídico",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdWtsdEhSVGlQV2N4alNEcDlMUTRhWVFBcmNhdmRZTzZic0hobHBKOVd1WlRQaVNsMXRBUXZjeUt2Y1pSTkpBLWxIMHhEX3FhaXNhek5UZ1Bpbld1ZkNMb1NqUnIxZGk3aDBVb2RfOVBtZTNuQzJNbnB3V3F4TW1NZ1o0ODNYM2lYWWU3ckRmSHNnV2lEVkE3d0cxd3VIYW84RlFGdg?oc=5",
+     "source": "Consultor Jurídico",
+     "published_at": "2026-08-16T09:03:28+00:00"
+    },
+    {
      "title": "Curral eclético: vacas escutam de forró a música clássica e produzem mais leite em fazenda no ES; veja VÍDEO",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/16/curral-ecletico-vacas-escutam-de-forro-a-musica-classica-e-produzem-mais-leite-em-fazenda-no-es-veja-video.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-16T07:01:18"
     },
     {
+     "title": "Consultoria vê mudança no fluxo global da soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS3JEY2Y1dHktWl9xQkI0bGc0bmwxV0VYWVR6dF8tMVk4LWxkUFlMYWRkVjFmQ0NNdjRPOFRteHJJOWVKeHpmT2g3d05CaHBOVHEyNlMtaGhEOHRIU1dtbXZvb25Ybkt6V2ZRLTUwd2VvNWNQV29XdjljakJHcXczaXBvZTdsd0hOcTlwcVFMT0dzOEhVZU91TXJNUQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-15T13:54:00+00:00"
+    },
+    {
      "title": "China tenta reduzir dependência de alimentos importados; o que isso significa para o agro brasileiro",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/15/china-tenta-reduzir-dependencia-de-alimentos-importados.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-15T08:00:13"
+    },
+    {
+     "title": "Notícia - Colheita da soja inicia com estimativa de mais de 54 mil toneladas - Prefeitura Municipal de Santa Terezinha de Itaipu",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd042MWxhMVpZd2FYZ2I0dEQwUVZMajI0YXZ0T1NxbXFMekJ6eVVsMFpxY2NJcnQwUHNGbmZWLVlSNUZEMG5WSW1ucVZzcXZxMkxPVkJXWjJTY1JwQWJVanhxTnFiRkF2aFZLQkdxSjJ6dnZvRlpYM2drMFFOUE83Q2tfTTNJSXhKcEMzVGRxUllWMmZyY3E2TnVIY240Vmd2b2NvTXpPWHVQVFI2bEVWYQ?oc=5",
+     "source": "Prefeitura Municipal de Santa Terezinha de Itaipu",
+     "published_at": "2026-08-14T19:56:51+00:00"
     },
     {
      "title": "Balde Cheio: programa da Embrapa ajuda pequenas propriedades a melhorar produção de leite",
@@ -536,14 +569,25 @@
      "published_at": "2026-08-13T05:00:10"
     },
     {
-     "title": "Terremoto afeta exportações de café da Colômbia e ameaça embarques internacionais",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/12/terremoto-afeta-exportacoes-de-cafe-da-colombia-e-ameaca-embarques-internacionais.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-12T16:19:19"
+     "title": "STF reconhece validade da Moratória da Soja e determina fim de ações sobre acordo - stf noticias",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1JGY05qdjBmY0MxX1pZMXhoVWJHR3Z3YUFCZTFKcnpQdGtldGNwVnZtdlJjd2xQS1hGci1oakdCdHl2b2E2MWEzVTB1Z25zaUdQWXBaT3djZkxGM29wY1did3hOUWJtZUl2YmdPNEpROWt5MFVFMW45aHdENWJlQXFtWm5uS0RYbVlTeXY4cUx1ekpBOHp2ZlJPaWxtVG0yZEZlWnctTURfN05mcm5XV2lmRHgxWU54dmRwc0c4Ukx2UQ?oc=5",
+     "source": "stf noticias",
+     "published_at": "2026-08-12T22:52:00+00:00"
+    },
+    {
+     "title": "Maioria do STF valida Moratória da Soja e barra processos de indenização - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5peFlNQUliZTk0MVRYaVlQd29PQmFOdVFTRzBJMURRN0RyRWhCaDZmcWE1bHFmcXZyRUZpYnJkZlRQLWhxNm9XV2c4dVlQTmI2Z01NZWplcl9BVkJIVTUtckhZcm8zcW9FX3Y2TjZmb2h0anFQMUhuYkFZUnFiS0VtX0RNUVB5bVhrNDNsb2tXRWRWX3F0cjdXWG4xRU1IdWVKRGZRV09VRVE?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-08-12T19:18:51+00:00"
+    },
+    {
+     "title": "STF valida leis que restringem incentivos ligados à Moratória da Soja - Migalhas",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSl95WnkyNFJLdG9WLWoyX1hKTnRFQ1VBem1UX19haktzTTRWbmxLS1lUWW9vYTFNREdDazBHXzFFM1hyZFhnSmxhdkhNUm0tRHJINmx1c0lGakRaVUFsSmRKRGhjcnh4cWwtMmJtZVFMV3dRX2RxbWJvbG94NGlhSWdZZWRUZ1Y4TURWSkxNSXdtTEEzNnplTTd0d3FvQmdSYWJrekRlLTlsU2hqaHM4Q0tB?oc=5",
+     "source": "Migalhas",
+     "published_at": "2026-08-12T17:44:48+00:00"
     }
    ],
    "failed": [
-    "Google News: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=soja+OR+%22mercado+de+gr%C3%A3os%22&hl=pt-BR&gl=BR&ceid=BR:pt-419",
     "Notícias Agrícolas: 404 Client Error: Not Found for url: https://www.noticiasagricolas.com.br/rss/noticias"
    ]
   }

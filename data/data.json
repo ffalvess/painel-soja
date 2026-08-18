@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-18T21:17:33+00:00",
+ "generated_at": "2026-08-18T22:16:09+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-18T21:17:26+00:00",
+   "updated_at": "2026-08-18T22:16:01+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.27,
+     "price": 91.31,
      "prev_close": 90.87,
-     "change_pct": 0.44,
+     "change_pct": 0.48,
      "closes": [
       89.22,
       91.01,
@@ -193,7 +193,7 @@
       87.07,
       88.52,
       90.87,
-      91.27
+      91.31
      ]
     },
     {
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-18T21:17:27+00:00",
+   "updated_at": "2026-08-18T22:16:02+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-18T21:17:31+00:00",
+   "updated_at": "2026-08-18T22:16:06+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,11 +405,53 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-18T21:17:33+00:00",
+   "updated_at": "2026-08-18T22:16:09+00:00",
    "items": [
+    {
+     "title": "Boi gordo: arroba segue em declínio devido a escalas de abate confortáveis",
+     "link": "https://www.canalrural.com.br/pecuaria/boi-gordo-arroba-segue-em-declinio-devido-a-escalas-de-abate-confortaveis/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T22:08:17+00:00"
+    },
+    {
+     "title": "Mercado da soja ganha sustentação com alta em Chicago e dólar firme - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdExrdGNRTjZnLVlibjFvZG84ZUNKdGdkR2FLRzkyUFc1SHUyNkk5bjBYcWZyMmdCblNqX203TXFzU3poV1RzanYycHRUNGpJRTRpa2pwdm42X29jYU56VU1WaVJRZ19wQ3F0dG5LQlNzZ28xMFZRNGJXMEdZZWZjckU4b2xLR3dzdm1EcEE0Zzk0ME9wSGNsaEMzamZDS0ZjT0VNWV91My1IbE9hMlBlUmVNNHRDejM0UVM0S1RtMTE5aWRCalI0aFBB?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T21:48:16+00:00"
+    },
+    {
+     "title": "Mercado da soja ganha sustentação com alta em Chicago e dólar firme",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/mercado-da-soja-ganha-sustentacao-com-alta-em-chicago-e-dolar-firme/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T21:48:16+00:00"
+    },
+    {
+     "title": "Exportações de café e soja avançam, enquanto milho recua - Vero Notícias",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObFBaUmJEakNpQmRpR0MwR3ZRS3h2cE8zVWxRZUs0cFl4RVdRU2Vidy1GWnRBRE9BNW83X3VBY1BBOEFQeWg5d2hQTXJ6a0F2TTUwUEpFMVZjd0JtVVBxY0Q0aFVFemZxSmd4ZnVJWDMzTzQzQmJmYWxoOGFHUFo1TVpTSHlHdmZlcTY2TVVEbzdYcm94?oc=5",
+     "source": "Vero Notícias",
+     "published_at": "2026-08-18T21:47:06+00:00"
+    },
+    {
+     "title": "Soja: produção cai para 180,46 milhões de toneladas - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQR3R2am1nYUhBSGFlUkk5NDdmU29GZ3UyTDc2WkdoWXM1YnpTbHdncFV3bXVFQjJOeURhb1hxVHBNY0tBSVRFSHpHajlhbDRNanlURFFZOUdEUTh1ckNROWdwWXBNWUZyelo4dGx0aXAwV0JQUkZMejJidDAzWTVvYzdMZUk0blhjdVVzcDAyVERzcnM5ejdCc2JwLXNLYVZBcWc?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-18T21:36:00+00:00"
+    },
+    {
+     "title": "Demanda por diesel e biodiesel deve registrar novos recordes em 2027, estima StoneX",
+     "link": "https://www.canalrural.com.br/agricultura/demanda-por-diesel-e-biodiesel-deve-registrar-novos-recordes-em-2027-estima-stonex/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T21:23:35+00:00"
+    },
     {
      "title": "El Niño aumenta riscos para a soja na safra 26/27; veja como se preparar - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR3E5ZkVrWGlVMG1JSU1FUnFNY25HV2diYzdZNmdkeGhFZHA1UUNUdDh2VjcwQVQ3czJRUGxDVTVMZC1nMUpRWnFQaEFIZzc0MTdfUkE3Q0JtQlpkc2JmVnJrUDd2WEFDTnVxQ0p4ajF3VnNwV0VEaHctQ09GWS00anVoeTMybFlkczdQZE02UDI2a1I1ZjhOWnVfQU11bkp6N2U0WXlkdG1odFotbkJTa25Lamw?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T21:13:54+00:00"
+    },
+    {
+     "title": "El Niño aumenta riscos para a soja na safra 26/27; veja como se preparar",
+     "link": "https://www.canalrural.com.br/agricultura/el-nino-aumenta-riscos-para-a-soja-na-safra-26-27-veja-como-se-preparar/",
      "source": "Canal Rural",
      "published_at": "2026-08-18T21:13:54+00:00"
     },
@@ -468,40 +510,10 @@
      "published_at": "2026-08-18T19:05:51+00:00"
     },
     {
-     "title": "Onda de calor em São Paulo aumenta risco de incêndios florestais",
-     "link": "https://www.canalrural.com.br/videos/onda-de-calor-em-sao-paulo-aumenta-risco-de-incendios-florestais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T19:05:42+00:00"
-    },
-    {
-     "title": "Expointer 2026 destaca genética animal, tecnologia e sustentabilidade",
-     "link": "https://www.canalrural.com.br/videos/expointer-2026-destaca-genetica-animal-tecnologia-e-sustentabilidade/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T19:05:31+00:00"
-    },
-    {
-     "title": "Petrobras anuncia descoberta de petróleo no Amapá e gera expectativas",
-     "link": "https://www.canalrural.com.br/videos/petrobras-anuncia-descoberta-de-petroleo-no-amapa-e-gera-expectativas/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T19:05:21+00:00"
-    },
-    {
-     "title": "Frente fria avança pelo Brasil e provoca queda nas temperaturas",
-     "link": "https://www.canalrural.com.br/videos/frente-fria-avanca-pelo-brasil-e-provoca-queda-nas-temperaturas/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T19:05:11+00:00"
-    },
-    {
      "title": "Soja avança em Chicago com dados pessimistas sobre a safra nos EUA - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY2hvVWp1ZmdWUWNueEV2cFVhbERPVFBFd0hrdnkwY3EzOUpMb2ZsX1hMaGk3RmNZejVPbG1iY3FjaThSVlU5VU9pVjhFMFRnNzB5QnlNamxtR2JlN0hPaElsNjg0Ui1odnVERDgwRVBralBHQ1FoVUpkQUpVUC02Tml0a0JpTEIyaWdRbUc2TnByYWwyUjhOS0U1YURWUV9pVWdiTmEzc2pOZ1BaeDRjZ0J0TFlnS2hma3N2N3hGRzFUanJo0gHTAUFVX3lxTE1qdlMtaW50aURZc21hejB4aTlHdGMtYzZhQzc2TFRSMjMxcno2WXo0clR5bzQxVGV0dWlaeVFHWUthQlI2UEVUVGpDVzJ4dG9hWTE1djFjak5hVUp1MlFwMzZ1cEhBYmVrV0kzMktYdHk2YUtNWUNYVkJwNmctZk5BcC1KUl9pREQ2dXk2RmpzS1JrT1RPQnFIa3g1NmVSRWJ2QjJCWFJOSG9JMjVHTV9YUnBHNEpBel8wZVF3YnNyeXkxejJRQjRwWV9NQ01uc1o4czA?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-08-18T18:45:08+00:00"
-    },
-    {
-     "title": "Pro Farmer registra campos inundados de soja e milho no Nebraska e produtividade do cereal menor - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWTlfbFo3U09wdC1QT3R0bEVBVVd5a0ItOHRCZHAyUm1hcTYwaGZfR1gzbGFNSnU3QW84V3lfX0FnWnNacGpGQnVuR2ZHWXVZa2FEaDRwZi1WWTMxeXloOFJCY1VTVEdDbjFjS2IxQ1RpdlJxSFU2ZEItNmtybXhoMEFrcjlmOHBGUUNmY1NUSlJ3SnQzZl9oS3ZpYi1veW9lb3JrVGJHS3ljdjFQZFJacXpHd1F5YkMtOV9ZTG8tbzhlOF9YX1l0cG1xQmtuRWJXdWRhMDBEWVdpSldzV2dDdE55MDF1R1BVcThaM1R3Z0o3UdIB9wFBVV95cUxNalBVYWxablpPbVdfUGNiQTh1Vml5dzdPM0MzTHVyZms0VEg3bG80blpsaExscGthV0tzaHJxMjY4a3ZIVzQxcXB1QjVpMWI3WEdZU1NFT05iOUpOXzJTR1ZBenRzVk80RkJFMzEwd1V4bzhkMFgySUR3eWEwam51Tk9qOExPYk5ycGhsZnFwNjRQa200TTEwc3ZydXhfTWRFMVdGUjFDUHIyRHF2bGFJN2wxNjdfSGUyTHo0dGJyY1dJTkhQWDQzb2VweGNTZkdWWWJzeEdyaUVpbkw2Q0Eya1VJVDdmREx2TUtJZUZhZmZuT1RJMUpF?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-18T18:28:12+00:00"
     },
     {
      "title": "China acelera compras de soja nos EUA, mas mercado se questiona sobre cumprimento das 25 mi de t - Notícias Agrícolas",
@@ -516,27 +528,15 @@
      "published_at": "2026-08-18T17:18:00+00:00"
     },
     {
-     "title": "Imea: custos de produção de soja, milho e algodão sobem em julho em MT - UOL Notícias",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSVNXOFFLSi1fNlJCdVBrMEliNW90VHNERzlYbTlRX3JpcFBDTnRvSFVPWWJZQzRPb1MzYVlHSXB5V25ENzdEN0tPcnN0UU9NeW9tUVNpVF9rZTFxV0wyUGxyOHhyZHRMbHBVQmJ6ajk1em1OQjd4Ml9OVWh0Q2FZQngxcG5fdUxuRzNwdmRIbmpGTHpNa1FobUJyOVVSSVl4a2FqSFJrYnJBMm93TU9MdnctS3BhV3FlTzUyLVhRM1RGNjRoVjRJMk44a3FJOVFHSWRaeU9ab2hkNUk?oc=5",
-     "source": "UOL Notícias",
-     "published_at": "2026-08-18T14:20:00+00:00"
-    },
-    {
-     "title": "Soja brasileira enfrenta disputa com os EUA - agrolink.com.br",
+     "title": "Soja brasileira enfrenta disputa com os EUA - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcUk4amQxeXg1UUY2VEkwNHl4MHZjR3o4S3BvazhjRHItc2NRRzF6UEUtb1NQWmdJS2RhbXViOUVXcTY3RUIzNXpsVWs3MElzbVM0Z0Z0bzhOelpCVmxYY0hUWVZoVFdpb1dYdkR3N09CMWJ6LWVsSW5FeUllUkk4WGQ5YXJtTjg2WG0zZDZoODhRX2dJX3VF?oc=5",
-     "source": "agrolink.com.br",
+     "source": "Agrolink",
      "published_at": "2026-08-18T13:48:00+00:00"
     },
     {
-     "title": "USDA aponta leve piora nas condições de milho e soja nos Estados Unidos - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcWxhYjlqQWFPWUV3aHBway1wMnViN2dFTmxnLWwwUVc0VS1wX2pkeTk4R3lwdW1USzZpQklNN1FkajVwQjhGM2h2Y1pzN25fZFhKdjdycmNFQXpocWVYVlpoR2pGRm9uUnB4VGREeFYwejktYVFXdzZMNGJnVHJJekFFMmJ3RGp1eG5sV2V4NTllVUx6RXUzM1NpaFNCM0pWS21FSFItMlBzdnpkUTZqbm1GV2Y?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T13:42:05+00:00"
-    },
-    {
-     "title": "Manejo adequado pode reduzir impactos do El Niño sobre a soja na safra 2026/2027 - embrapa.br",
+     "title": "Manejo adequado pode reduzir impactos do El Niño sobre a soja na safra 2026/2027 - Embrapa",
      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTFAtS1otaTdJQ2lIWHgwTk9lU1JmZlNDV2ZTclNWOW9RSVh4Ty1wcWJ0M1gwcVNGTkg4bHVPRHVrN0FBc18yRXF1S2wya1FDWV9FWGVwaU03WW1BYWd2T2JyUTUxeGVfWTZZVkUzalZtQmtZeC1TeWRlYk1GZ3NnNUZRWE1lUkJoVV9DMWJYRFY0SFJnMldyVWlMUG4wd3pPSmQ2eWxTaWNwY0NRR0VvUlBWdmp2MmJNbHdzcFY0YXB2aE43OVh3S1M5emhiOUl2R0lfdDN2SQ?oc=5",
-     "source": "embrapa.br",
+     "source": "Embrapa",
      "published_at": "2026-08-18T09:08:44+00:00"
     },
     {

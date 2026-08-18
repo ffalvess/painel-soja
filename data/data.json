@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-18T06:32:27+00:00",
+ "generated_at": "2026-08-18T07:32:19+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-18T06:32:20+00:00",
+   "updated_at": "2026-08-18T07:32:13+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1224.25,
+     "price": 1224.0,
      "prev_close": 1201.0,
-     "change_pct": 1.94,
+     "change_pct": 1.92,
      "closes": [
       1226.0,
       1219.5,
@@ -33,16 +33,16 @@
       1168.25,
       1173.75,
       1201.0,
-      1224.25
+      1224.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 491.0,
+     "price": 491.25,
      "prev_close": 465.0,
-     "change_pct": 5.59,
+     "change_pct": 5.65,
      "closes": [
       449.5,
       452.75,
@@ -65,16 +65,16 @@
       448.0,
       459.0,
       465.0,
-      491.0
+      491.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 321.5,
+     "price": 321.9,
      "prev_close": 312.1,
-     "change_pct": 3.01,
+     "change_pct": 3.14,
      "closes": [
       323.5,
       326.7,
@@ -97,16 +97,16 @@
       309.9,
       308.7,
       312.1,
-      321.5
+      321.9
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.93,
+     "price": 70.9,
      "prev_close": 71.44,
-     "change_pct": -0.71,
+     "change_pct": -0.76,
      "closes": [
       74.68,
       74.3,
@@ -129,16 +129,16 @@
       68.67,
       69.05,
       71.44,
-      70.93
+      70.9
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 687.0,
+     "price": 691.75,
      "prev_close": 674.75,
-     "change_pct": 1.82,
+     "change_pct": 2.52,
      "closes": [
       674.0,
       678.0,
@@ -161,16 +161,16 @@
       652.75,
       674.75,
       674.75,
-      687.0
+      691.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.65,
+     "price": 91.04,
      "prev_close": 90.87,
-     "change_pct": 0.86,
+     "change_pct": 0.19,
      "closes": [
       89.22,
       91.01,
@@ -193,7 +193,7 @@
       87.07,
       88.52,
       90.87,
-      91.65
+      91.04
      ]
     },
     {
@@ -206,15 +206,12 @@
      "closes": [
       173714.0,
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -232,7 +229,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-18T06:32:20+00:00",
+   "updated_at": "2026-08-18T07:32:13+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -243,7 +240,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-18T06:32:23+00:00",
+   "updated_at": "2026-08-18T07:32:16+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -404,7 +401,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-18T06:32:27+00:00",
+   "updated_at": "2026-08-18T07:32:19+00:00",
    "items": [
     {
      "title": "O paradoxo da soja - Estadão",
@@ -521,6 +518,12 @@
      "published_at": "2026-08-17T19:55:30+00:00"
     },
     {
+     "title": "Soja: dessecação antecipada ajuda a reduzir plantas daninhas - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV0ZRNllaaUJmVExFNkdFTkRhbFFFTFppWFhnQ1VXOWhSNDlqY0hXMm96ZFRqakdTWDNDMk56bW1sSWZzSGdMbU1YV2EtRG5PTVlnSVFDb0tTaHY4NkxUVjFNSWh1RlA1SUhGeUlQVW9qc09EcnFERU4zM0tJUUc5R3BxRXpTSVJjcXNxQ2ZicDNyMWthX3JGcGZJbV8zdEd3aUR3bV93aGtGQmluaFE?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-17T19:27:00+00:00"
+    },
+    {
      "title": "Soja sobe quase 2% em Chicago com novas compras da China nos EUA - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNclJpMjdzc3hWcFhqa3RHREZnbVNHd1g0SnRfVWp6S21ITjVGX3c1Mi16MnctbDZuY05WdUtVbHlzUGZkRGRORVRnUXlsUWFIbVZZOXMyNHd2TGtGc2NvX3MzMHYyRjZGcGs3RDVMd2NDdldZMW4wTXhXTFF0TXBlU21zZ1VnTFpBSTRRVnZoVmF5RkxkdmtudkZKN05Wbm8?oc=5",
      "source": "CNN Brasil",
@@ -537,12 +540,6 @@
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNenlWRV91dzZ1bWdQckp4Nl9SSWRPVU5qeGZLS1NOQmotd193YzVvQ0trRkF2bzl3TmZBODM5LWdVTDRqd3VhUVVlSHAyUkxmVkM2QUcyMXp1T3ZwbzdCaVJ1R3B0aFowR3RmREFpa3ZqcFloVXZDcmNoU3M4ZC1KWWFtT0Vsc2F1T0NqVjA5ZmlRWExCcE5kWFNNZ3dlU0E?oc=5",
      "source": "((o))eco | Jornalismo Ambiental",
      "published_at": "2026-08-17T18:28:04+00:00"
-    },
-    {
-     "title": "Margem da soja supera meta, mas exposição segue alta - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX2l1elBCZGxSZEljX2s2SEs0TU5lRGV4RUNMNTcxYW0ydU1wVlJmOHpOOWVaYzZqOTd1ZDBndHJ0Tjc0YU9DZ1R2b1FQU2hBNUJySHRVRDBuVV9LMnY1RTdTUkk0aFNWcmhfMlF4T0psbGIwV0lic3B1ZDNPelB0cHl2NTZhMUsyd3ljODZLbGp3SnZ4elhOSkRid1VBNWYzM0JV?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-17T15:24:00+00:00"
     },
     {
      "title": "Mosca-de-estábulo avança no inverno e causa prejuízo a pecuaristas no interior de SP",

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-18T12:32:49+00:00",
+ "generated_at": "2026-08-18T13:37:07+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-18T12:32:40+00:00",
+   "updated_at": "2026-08-18T13:37:00+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1223.0,
+     "price": 1227.0,
      "prev_close": 1201.0,
-     "change_pct": 1.83,
+     "change_pct": 2.16,
      "closes": [
       1226.0,
       1219.5,
@@ -33,16 +33,16 @@
       1168.25,
       1173.75,
       1201.0,
-      1223.0
+      1227.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 491.0,
+     "price": 492.25,
      "prev_close": 465.0,
-     "change_pct": 5.59,
+     "change_pct": 5.86,
      "closes": [
       449.5,
       452.75,
@@ -65,16 +65,16 @@
       448.0,
       459.0,
       465.0,
-      491.0
+      492.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 321.1,
+     "price": 321.6,
      "prev_close": 312.1,
-     "change_pct": 2.88,
+     "change_pct": 3.04,
      "closes": [
       323.5,
       326.7,
@@ -97,16 +97,16 @@
       309.9,
       308.7,
       312.1,
-      321.1
+      321.6
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.09,
+     "price": 71.16,
      "prev_close": 71.44,
-     "change_pct": -0.49,
+     "change_pct": -0.39,
      "closes": [
       74.68,
       74.3,
@@ -129,16 +129,16 @@
       68.67,
       69.05,
       71.44,
-      71.09
+      71.16
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 689.0,
+     "price": 690.75,
      "prev_close": 674.75,
-     "change_pct": 2.11,
+     "change_pct": 2.37,
      "closes": [
       674.0,
       678.0,
@@ -161,16 +161,16 @@
       652.75,
       674.75,
       674.75,
-      689.0
+      690.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.17,
+     "price": 91.43,
      "prev_close": 90.87,
-     "change_pct": 0.33,
+     "change_pct": 0.62,
      "closes": [
       89.22,
       91.01,
@@ -193,25 +193,27 @@
       87.07,
       88.52,
       90.87,
-      91.17
+      91.43
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 166783.56,
-     "prev_close": 167101.0,
-     "change_pct": -0.19,
+     "price": 166851.3,
+     "prev_close": 166934.0,
+     "change_pct": -0.05,
      "closes": [
-      173714.0,
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -221,7 +223,8 @@
       167875.0,
       167491.0,
       167101.0,
-      166934.0
+      166934.0,
+      166851.2969
      ]
     }
    ],
@@ -229,7 +232,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-18T12:32:41+00:00",
+   "updated_at": "2026-08-18T13:37:01+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -240,7 +243,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-18T12:32:46+00:00",
+   "updated_at": "2026-08-18T13:37:04+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -263,22 +266,22 @@
       0.0
      ],
      "tmax": [
+      35.8,
       36.1,
-      36.4,
-      36.6,
-      35.5,
-      35.4,
-      37.7,
-      34.6
+      36.5,
+      35.1,
+      36.5,
+      38.2,
+      37.9
      ],
      "tmin": [
-      21.2,
-      21.7,
-      21.4,
-      22.3,
+      21.1,
+      21.6,
+      21.9,
       22.1,
-      23.6,
-      23.9
+      22.2,
+      23.1,
+      24.5
      ]
     },
     {
@@ -302,21 +305,21 @@
       0.0
      ],
      "tmax": [
-      34.9,
-      35.6,
-      36.0,
-      35.9,
+      34.6,
       35.3,
-      36.8,
-      35.0
+      35.7,
+      35.4,
+      35.9,
+      37.0,
+      37.3
      ],
      "tmin": [
-      19.9,
-      21.3,
-      21.5,
-      21.5,
-      21.8,
-      23.5,
+      20.2,
+      22.2,
+      21.4,
+      21.7,
+      22.0,
+      22.8,
       24.4
      ]
     },
@@ -341,22 +344,22 @@
       0.0
      ],
      "tmax": [
-      32.5,
-      32.7,
+      32.1,
+      32.6,
       34.1,
       30.3,
-      26.9,
-      32.5,
-      29.1
+      29.8,
+      33.0,
+      34.7
      ],
      "tmin": [
-      20.4,
-      20.4,
-      20.8,
-      20.7,
+      20.1,
+      20.0,
+      20.9,
+      20.2,
       15.9,
-      16.9,
-      18.1
+      17.4,
+      20.4
      ]
     },
     {
@@ -373,36 +376,54 @@
      "precip": [
       0.0,
       0.0,
-      2.1,
+      1.5,
       0.0,
       0.0,
-      0.2,
-      1.6
+      0.0,
+      8.4
      ],
      "tmax": [
-      34.3,
-      33.9,
-      25.5,
-      22.8,
-      23.7,
-      21.6,
-      19.8
+      34.6,
+      33.2,
+      24.0,
+      23.2,
+      26.4,
+      28.6,
+      22.8
      ],
      "tmin": [
-      20.6,
-      20.4,
-      16.4,
-      12.1,
-      10.9,
-      12.7,
-      11.5
+      21.4,
+      19.4,
+      15.4,
+      11.4,
+      11.1,
+      13.3,
+      14.7
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-18T12:32:49+00:00",
+   "updated_at": "2026-08-18T13:37:07+00:00",
    "items": [
+    {
+     "title": "Preço do boi gordo chega a R$ 335 com baixa oferta de animais",
+     "link": "https://www.canalrural.com.br/pecuaria/preco-do-boi-gordo-chega-a-r-335-com-baixa-oferta-de-animais/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T13:02:50+00:00"
+    },
+    {
+     "title": "BNDES aprova R$ 47,3 milhões para novo silo da Cooperalfa em Santa Catarina",
+     "link": "https://www.canalrural.com.br/agricultura/bndes-aprova-r-473-milhoes-para-novo-silo-da-cooperalfa-em-santa-catarina/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T12:52:22+00:00"
+    },
+    {
+     "title": "Exportações de café solúvel crescem 20% em julho e consumo avança no Brasil",
+     "link": "https://www.canalrural.com.br/agricultura/cafe/exportacoes-de-cafe-soluvel-crescem-20-em-julho-e-consumo-avanca-no-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T12:20:45+00:00"
+    },
     {
      "title": "Exportações de café e soja crescem, mas as do milho caem no início de agosto - InfoMoney",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdG5sNUN2NWpVbE1rVEtXS2x3RTVKOE42Qjc3VlhMNkR2ZklvMExCX0FmZ0Y4bjRDa3ZxUmZBbjYwNU02Z1k5VDNiTG1aSmtCME84cV8zbFVXZmFoTVVmNXJEYjRNOVFXZXA3cF9obWZJdDFObTJnUllTZFk5UkFSbEdtZWYxUE5xelVzd3BrTkdneTd6QlEyNFlyVkJ2YVdXVm1PUE1kQmNzOUl3V05sRFRmVlDSAboBQVVfeXFMT0NuU3I3Ql9keWJQZHhSamh5SDNhTi1TREFwNHdscUIyQlBWMDByMGNaSmlxa2dQbjJCUk43TDRMaV9VaWhCSTNlTGswMkNlYzdkMnY0VXRwa19nMHdqYUdRSFRxRXlJbUdwLTFueDhCUlFaYXRCSzNoRHpNd28zeHNPWmNEY0xORzBOcTFUSkU5alp4ZThvNDlDZkpmUTBYR0s0N2UwbHl2UUozWllrVThLSTZITGZabnBR?oc=5",
@@ -458,12 +479,6 @@
      "published_at": "2026-08-18T11:03:00+00:00"
     },
     {
-     "title": "Custo de capital é prioridade da Abimaq para o próximo presidente",
-     "link": "https://www.canalrural.com.br/politica/eleicoes/custo-de-capital-e-prioridade-da-abimaq-para-o-proximo-presidente/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T11:00:00+00:00"
-    },
-    {
      "title": "Safra de soja deve ter maior custo da história em Goiás e exigirá mais eficiência do produtor - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQbmRTakV3UVR6cF9TNWxsb3FBQ2tUX2hsdHdabTR6LVZ0OWhIa3NPa190LVozZkNjdmRSbVNrall1eWp2aEFWYzZTM0pzazItbXdiS2NsdmpJODJvZG52Y01HbExKT0RZUGdGbkRvMDBYZ3FZeVgtNWEtWVVtTjZYc19QbkVNQndLMkRyVFVLZmd6dlpfV0hYMlFIeU0tS25EQTBieG1wRDhqQjl6cWJ4WUF4blVIbTBKb3poY3czbGtLbF83NkFxdTA0cV9Ta3k0Y1cyQm9WYVBxUkJab3lTZlVLeXlPWVQ2YnVObNIB-wFBVV95cUxOU1lwZGJJaU54ck9FMVBXM1ZHU0NtS2JYc2FuQmNmc2g1UUFIaDlaYU0wUW9MMEJJZFA4NzBOZEpVd2dVbjd6SG9BdFVLME5mVFNJM1ZzWVhKRXZSUDY5X0NzbFlPaThGZTUwRG9GeUxmRzZZeVV2YmRNeGtLX1pIaTZKSTh2bDJHS1V4LXllcE11cDhhOGFHR2FhNDE1SGl4TEdmcFNTbm9Ba29qcENldWlOOFc3MktOdjRaZXBKdTA5LTdFcWdINGU5TDF3NzJjNzhmaWg2TGhFRzc4SElMSHdMdnpyMzFpQVZzb2tJdDFGUjdvZC03S3N3QQ?oc=5",
      "source": "Globo Rural",
@@ -480,12 +495,6 @@
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQ0R0UERtTXlCN3ppRDNORURXN0pvdExmbUpkS1ZCd0dkZlZqWGdHM0RpbTNtdjFzWHVJTjFCS2ZaY0FNWjFKcklRSkh3Njl1VUVqYVlyYVAwbDdab3AyZDBaa1lYOEM2UGkzY2xMbHlqQlNrQ0dIcHpIeHJlVm9iMkwwZ1F5MXV4UEhYcW15STY2dW1pMzFCaXk1Mkw5MzRzTmpldmFPaTBneGh1M3h3Q0RWck02c1poWkZWRUZrSlRnOVJoUEtQMmVJX3FFZlFEckNtMlJGaUx6UkdGTUxadHpn0gHnAUFVX3lxTE5OS0RGcmQwZDJGMm5jX3F5QjZ1TEhySlNKeWhzOWxYUWRBSWNULTNPNmIyNEtxSkxuc2dHQmNTSG1PTUdPdEhtbTN4UHplSHktc3htSUFUbTRvbFJqbjd1ZDRPQnBFYmFqdUtBLUdUc1ItekVjY3U1YWJZcko3Ujg2OEc4d0JOY2t3SFpJcWlZdjJDN1Rwd1duNDdwQldqc0pmRkdJc2czZG1wbFZkV1ZodkcxNmk5Q3JrQ3U0X0hydWtsdDdwZGhNaFV4UDJqblhOTUJnS1g4LXdvbjVrRkxMYkRkVGVNZw?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-18T10:36:54+00:00"
-    },
-    {
-     "title": "Ciclone e frente fria causam chuva forte e ventania em regiões do país nos próximo dias",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/ciclone-e-frente-fria-causam-chuva-forte-e-ventania-em-regioes-do-pais-nos-proximo-dias/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T10:36:50+00:00"
     },
     {
      "title": "Biodiesel amplia demanda por soja e abre novas frentes para processamento e geração de valor no Brasil - Notícias Agrícolas",
@@ -510,12 +519,6 @@
      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTFAtS1otaTdJQ2lIWHgwTk9lU1JmZlNDV2ZTclNWOW9RSVh4Ty1wcWJ0M1gwcVNGTkg4bHVPRHVrN0FBc18yRXF1S2wya1FDWV9FWGVwaU03WW1BYWd2T2JyUTUxeGVfWTZZVkUzalZtQmtZeC1TeWRlYk1GZ3NnNUZRWE1lUkJoVV9DMWJYRFY0SFJnMldyVWlMUG4wd3pPSmQ2eWxTaWNwY0NRR0VvUlBWdmp2MmJNbHdzcFY0YXB2aE43OVh3S1M5emhiOUl2R0lfdDN2SQ?oc=5",
      "source": "Embrapa",
      "published_at": "2026-08-18T09:08:44+00:00"
-    },
-    {
-     "title": "Atividade mais fraca abre espaço para corte da Selic: ouça o Diário Econômico",
-     "link": "https://www.canalrural.com.br/economia/atividade-mais-fraca-abre-espaco-para-corte-da-selic-ouca-o-diario-economico/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T08:45:00+00:00"
     },
     {
      "title": "China investe para elevar produtividade da soja - Globo Rural",

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-18T15:25:19+00:00",
+ "generated_at": "2026-08-18T16:23:25+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-18T15:25:10+00:00",
+   "updated_at": "2026-08-18T16:23:19+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1225.75,
+     "price": 1222.5,
      "prev_close": 1201.0,
-     "change_pct": 2.06,
+     "change_pct": 1.79,
      "closes": [
       1226.0,
       1219.5,
@@ -33,16 +33,16 @@
       1168.25,
       1173.75,
       1201.0,
-      1225.75
+      1222.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 489.25,
+     "price": 488.5,
      "prev_close": 465.0,
-     "change_pct": 5.22,
+     "change_pct": 5.05,
      "closes": [
       449.5,
       452.75,
@@ -65,16 +65,16 @@
       448.0,
       459.0,
       465.0,
-      489.25
+      488.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 318.6,
+     "price": 318.2,
      "prev_close": 312.1,
-     "change_pct": 2.08,
+     "change_pct": 1.95,
      "closes": [
       323.5,
       326.7,
@@ -97,16 +97,16 @@
       309.9,
       308.7,
       312.1,
-      318.6
+      318.2
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.05,
+     "price": 69.83,
      "prev_close": 71.44,
-     "change_pct": -1.95,
+     "change_pct": -2.25,
      "closes": [
       74.68,
       74.3,
@@ -129,16 +129,16 @@
       68.67,
       69.05,
       71.44,
-      70.05
+      69.83
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 687.0,
+     "price": 684.0,
      "prev_close": 674.75,
-     "change_pct": 1.82,
+     "change_pct": 1.37,
      "closes": [
       674.0,
       678.0,
@@ -161,16 +161,16 @@
       652.75,
       674.75,
       674.75,
-      687.0
+      684.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.22,
+     "price": 91.44,
      "prev_close": 90.87,
-     "change_pct": 0.39,
+     "change_pct": 0.63,
      "closes": [
       89.22,
       91.01,
@@ -193,16 +193,16 @@
       87.07,
       88.52,
       90.87,
-      91.22
+      91.44
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 166975.53,
-     "prev_close": 166934.0,
-     "change_pct": 0.02,
+     "price": 166739.33,
+     "prev_close": 166784.0,
+     "change_pct": -0.03,
      "closes": [
       173371.0,
       176724.0,
@@ -221,7 +221,8 @@
       167491.0,
       167101.0,
       166934.0,
-      166975.5312
+      166784.0,
+      166739.3281
      ]
     }
    ],
@@ -229,7 +230,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-18T15:25:10+00:00",
+   "updated_at": "2026-08-18T16:23:20+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -240,7 +241,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-18T15:25:15+00:00",
+   "updated_at": "2026-08-18T16:23:22+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -401,13 +402,25 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-18T15:25:19+00:00",
+   "updated_at": "2026-08-18T16:23:25+00:00",
    "items": [
+    {
+     "title": "Exportação brasileira de café solúvel cresce 20% em julho, diz Abics",
+     "link": "https://www.canalrural.com.br/economia/exportacao-brasileira-de-cafe-soluvel-cresce-20-em-julho-diz-abics/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T15:23:42+00:00"
+    },
     {
      "title": "MBRF amplia uso de colágeno em alimentos e bebidas com novas aplicações",
      "link": "https://www.canalrural.com.br/economia/mbrf-amplia-uso-de-colageno-em-alimentos-e-bebidas-com-novas-aplicacoes/",
      "source": "Canal Rural",
      "published_at": "2026-08-18T14:42:55+00:00"
+    },
+    {
+     "title": "Custos de soja, milho e algodão voltam a subir em julho em Mato Grosso - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeHllX0xNSm9sU0hVVFJGRzVCTVJoS3V3elBETkdnQ1VtTUdmeENpZklXR19KVG5oMnl0djlablVXQ09yd1puMm5sNG4zdUlqN2lqVWhQYVlNSWNQQVAtVzN3US1EYzNnV0FGVS02T3FOcXBmcjRZaGE4Z2VPVy1FcHVPZW9HeURpT1BRdkVwQ0t1SFpncEoyMkZaMHFoMXBVa1h1OWtWVkN5UTc5NmJ0d2p3?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T14:28:53+00:00"
     },
     {
      "title": "Custos de soja, milho e algodão voltam a subir em julho em Mato Grosso",
@@ -434,9 +447,9 @@
      "published_at": "2026-08-18T14:13:17+00:00"
     },
     {
-     "title": "Soja e milho seguem em alta na bolsa de Chicago - globorural.globo.com",
+     "title": "Soja e milho seguem em alta na bolsa de Chicago - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX0xqYUNzVXYxcTRPSG1keWlsUXkzLVJpc05iS21KclNYd0RSWTM4ZWdWdXA2WFdySnc1blVaZ0Q2Yzd1bEJVbGhDQW9qTG4zWFRFSlR6cVdZNVRwc2w0cUVfejVCcGZCMm1WeEtCN05QQ21EbGpfSEdxZGJmUjJqbDJpUlo2QnpaeWktVEZwSFR0V0dXcjZLMnJHTTgwV3RnQzFEOEJHOXRUVjTSAboBQVVfeXFMT05JZDViZHZrcS1wcFBIYXJwaTlBQzF6anZTeE5JMWFwa1lDeUc4NHJ2a25hUnJTQjNUMGx4bE5ZY2pOS2IwanlUYWk1MWpqY2hGckRBaWxwc1RYVURMbG5ZZV9KVnVTZ29nQWo0cEp0eURuTDJsRF82OVhSaXB1X0trV3FvN0tTSXBoZ3I0dHJLT19oX0FPQ1JHNk10V09Eemh2T0h0cWZzMUJTXzIxQUpwUk9ZZHRFcWpR?oc=5",
-     "source": "globorural.globo.com",
+     "source": "Globo Rural",
      "published_at": "2026-08-18T14:02:52+00:00"
     },
     {
@@ -452,9 +465,9 @@
      "published_at": "2026-08-18T13:54:21+00:00"
     },
     {
-     "title": "Soja brasileira enfrenta disputa com os EUA - agrolink.com.br",
+     "title": "Soja brasileira enfrenta disputa com os EUA - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcUk4amQxeXg1UUY2VEkwNHl4MHZjR3o4S3BvazhjRHItc2NRRzF6UEUtb1NQWmdJS2RhbXViOUVXcTY3RUIzNXpsVWs3MElzbVM0Z0Z0bzhOelpCVmxYY0hUWVZoVFdpb1dYdkR3N09CMWJ6LWVsSW5FeUllUkk4WGQ5YXJtTjg2WG0zZDZoODhRX2dJX3VF?oc=5",
-     "source": "agrolink.com.br",
+     "source": "Agrolink",
      "published_at": "2026-08-18T13:48:00+00:00"
     },
     {
@@ -482,12 +495,6 @@
      "published_at": "2026-08-18T13:30:01+00:00"
     },
     {
-     "title": "Pilgrims Europe acerta compra de produtora britânica de carne suína",
-     "link": "https://www.canalrural.com.br/economia/pilgrims-europe-acerta-compra-de-produtora-britanica-de-carne-suina/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T13:28:18+00:00"
-    },
-    {
      "title": "CESB: a jornada da produtividade da soja brasileira, por Décio Luiz Gazzoni - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVGlGdTFvRU5iT3FmNHp5X2ZGY2Z5LVdDNFp0cDBTajhFb2JaMW45OVNCY0Fpa203czQxcVpxTHBOd1p2R2RMOWtiRjViT2xDbVZ3MWp0LWxVWWJCaFlRLXZhQW5Pa0JVZU9rX1VfbUlKQ3pvWDVzQ3NmeXh3azB5a05lVnh5bzBxLVI5TmkyLWIza3dWWENEZGg4TGVtV3lBY3ktWi01bHN2QXJ4Q3Y5VUdtcmdBTWhTdFpjYmxvTUdkMDBXQ29WRmltaWFjamhZbjcyVkU2cnRteFFs0gHiAUFVX3lxTE1mZFA4OHoyeUJTbXNZQy1oWGM0NTdDY2FJWlpTNGNwUkpEM1NwbUc4emQ4czZ4VzlPVEppdGtKMzQyOFlkSTZUS0Y3VGp3dlJWUG9wU05rdF9UaU40QUdzOWhSX2tubXNiSlJ0WEpHTTJLbXZaaEJJaTd2dDR2allnX0NSNXBmNXl4d1JZV2pDX2xZeE9yQ2N0d01XQzQtdG80cFFhYXdoeHhSMlN6b2NJWFV4d0dzRXllcVBjVE9lYjRFdGcwRC1Wa2d0Q3dPZm13YUJOcXp2RUtBMjJKS0s2NUE?oc=5",
      "source": "Notícias Agrícolas",
@@ -500,9 +507,9 @@
      "published_at": "2026-08-18T11:30:10+00:00"
     },
     {
-     "title": "Safra de soja deve ter maior custo da história em Goiás e exigirá mais eficiência do produtor - globorural.globo.com",
+     "title": "Safra de soja deve ter maior custo da história em Goiás e exigirá mais eficiência do produtor - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQbmRTakV3UVR6cF9TNWxsb3FBQ2tUX2hsdHdabTR6LVZ0OWhIa3NPa190LVozZkNjdmRSbVNrall1eWp2aEFWYzZTM0pzazItbXdiS2NsdmpJODJvZG52Y01HbExKT0RZUGdGbkRvMDBYZ3FZeVgtNWEtWVVtTjZYc19QbkVNQndLMkRyVFVLZmd6dlpfV0hYMlFIeU0tS25EQTBieG1wRDhqQjl6cWJ4WUF4blVIbTBKb3poY3czbGtLbF83NkFxdTA0cV9Ta3k0Y1cyQm9WYVBxUkJab3lTZlVLeXlPWVQ2YnVObNIB-wFBVV95cUxOU1lwZGJJaU54ck9FMVBXM1ZHU0NtS2JYc2FuQmNmc2g1UUFIaDlaYU0wUW9MMEJJZFA4NzBOZEpVd2dVbjd6SG9BdFVLME5mVFNJM1ZzWVhKRXZSUDY5X0NzbFlPaThGZTUwRG9GeUxmRzZZeVV2YmRNeGtLX1pIaTZKSTh2bDJHS1V4LXllcE11cDhhOGFHR2FhNDE1SGl4TEdmcFNTbm9Ba29qcENldWlOOFc3MktOdjRaZXBKdTA5LTdFcWdINGU5TDF3NzJjNzhmaWg2TGhFRzc4SElMSHdMdnpyMzFpQVZzb2tJdDFGUjdvZC03S3N3QQ?oc=5",
-     "source": "globorural.globo.com",
+     "source": "Globo Rural",
      "published_at": "2026-08-18T10:45:08+00:00"
     },
     {
@@ -534,12 +541,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/18/limoes-alienigenas-intrigam-produtora-entenda-o-que-causa-a-deformacao.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-18T06:00:18"
-    },
-    {
-     "title": "Soja avança com alta de mais de 2% em Chicago e preços sobem nos portos - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeHRPM0NYMklCMjB3T0xoMXZLWkFURk9UdUhFR2pqTFg5dEk2TVRxUmZselFFM1BLdDByOGR3M1poV0Z4bVhocE9ROEZIUXBTdkZMRFJrdnhkY2dHOHRxTkgtcWVTaXUxV3VxaW5iOFlkSHF0d2RjcmxTblhRME9FZUpTc2xHMW5uby1xZS00TVZ6ZWtYZ2pITUxqMVFRZ1BrTjZaaUY4R3NhNERqMi1QbHozeGZDOVBuNGZVSUhDRW5Hd0lBN0NST2tSZkowdw?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T22:00:08+00:00"
     },
     {
      "title": "Mosca-de-estábulo avança no inverno e causa prejuízo a pecuaristas no interior de SP",

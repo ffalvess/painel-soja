@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-18T08:28:05+00:00",
+ "generated_at": "2026-08-18T09:25:59+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-18T08:27:56+00:00",
+   "updated_at": "2026-08-18T09:25:52+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1225.25,
+     "price": 1224.5,
      "prev_close": 1201.0,
-     "change_pct": 2.02,
+     "change_pct": 1.96,
      "closes": [
       1226.0,
       1219.5,
@@ -33,16 +33,16 @@
       1168.25,
       1173.75,
       1201.0,
-      1225.25
+      1224.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 492.5,
+     "price": 492.25,
      "prev_close": 465.0,
-     "change_pct": 5.91,
+     "change_pct": 5.86,
      "closes": [
       449.5,
       452.75,
@@ -65,16 +65,16 @@
       448.0,
       459.0,
       465.0,
-      492.5
+      492.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 321.6,
+     "price": 322.0,
      "prev_close": 312.1,
-     "change_pct": 3.04,
+     "change_pct": 3.17,
      "closes": [
       323.5,
       326.7,
@@ -97,16 +97,16 @@
       309.9,
       308.7,
       312.1,
-      321.6
+      322.0
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.18,
+     "price": 71.19,
      "prev_close": 71.44,
-     "change_pct": -0.36,
+     "change_pct": -0.35,
      "closes": [
       74.68,
       74.3,
@@ -129,7 +129,7 @@
       68.67,
       69.05,
       71.44,
-      71.18
+      71.19
      ]
     },
     {
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.34,
+     "price": 90.97,
      "prev_close": 90.87,
-     "change_pct": 0.52,
+     "change_pct": 0.11,
      "closes": [
       89.22,
       91.01,
@@ -193,7 +193,7 @@
       87.07,
       88.52,
       90.87,
-      91.34
+      90.97
      ]
     },
     {
@@ -206,15 +206,12 @@
      "closes": [
       173714.0,
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -232,7 +229,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-18T08:27:56+00:00",
+   "updated_at": "2026-08-18T09:25:52+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -243,7 +240,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-18T08:28:01+00:00",
+   "updated_at": "2026-08-18T09:25:56+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -404,8 +401,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-18T08:28:05+00:00",
+   "updated_at": "2026-08-18T09:25:59+00:00",
    "items": [
+    {
+     "title": "Manejo adequado pode reduzir impactos do El Niño sobre a soja na safra 2026/2027 - Embrapa",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTFAtS1otaTdJQ2lIWHgwTk9lU1JmZlNDV2ZTclNWOW9RSVh4Ty1wcWJ0M1gwcVNGTkg4bHVPRHVrN0FBc18yRXF1S2wya1FDWV9FWGVwaU03WW1BYWd2T2JyUTUxeGVfWTZZVkUzalZtQmtZeC1TeWRlYk1GZ3NnNUZRWE1lUkJoVV9DMWJYRFY0SFJnMldyVWlMUG4wd3pPSmQ2eWxTaWNwY0NRR0VvUlBWdmp2MmJNbHdzcFY0YXB2aE43OVh3S1M5emhiOUl2R0lfdDN2SQ?oc=5",
+     "source": "Embrapa",
+     "published_at": "2026-08-18T09:09:22+00:00"
+    },
+    {
+     "title": "Atividade mais fraca abre espaço para corte da Selic: ouça o Diário Econômico",
+     "link": "https://www.canalrural.com.br/economia/atividade-mais-fraca-abre-espaco-para-corte-da-selic-ouca-o-diario-economico/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T08:45:00+00:00"
+    },
     {
      "title": "China investe para elevar produtividade da soja - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOY2JRQjZ2YmRuMndBTktjTDBFV2NEMDZ5YWVSTkNDbnBkQTU2a3pWWXBwR0w3R0d1N1d0MTNMa3RLVXFVSW1mZ013WXpHU1RhYmJWelhWMVJRZHRLMWEwdjBTS2ZBSEl2elowbzAtV2V1bnZsSHc4cnZpcFl2MkI0bG00bjQ5c1RlaGlTTmpWbDdoYjVYbWtFMm9ZdUVGWWxvZmRJU1E2aEo1aHRGVXVRSFJGMmVzZ9IBxAFBVV95cUxPYjl0eUJrek9kck04c1hVcFRhYWQ3ZDRjQnlTQk5aeWY4WVR6MENEalA2Q19ZYmowZ0w0LVNTWkhLVE1CVHV1emNVb1lHNjRWZG9JUkFDRHh2S0ZOVUliZEVlRXpvVzM2cUxFMldzY2U3ajJRX29PWU5YUGdhRXpfbVFCOHY3b1JoTUJRWUFqeGM0czFpaXVidlFJeXhYWEJXMGV2dTV3ZWpHeXVoUVhqdlhKQmpoSnhWVnBwa2hpeVhmaEhW?oc=5",
@@ -509,22 +518,10 @@
      "published_at": "2026-08-17T21:43:47+00:00"
     },
     {
-     "title": "Juros futuros fecham em queda, mas alta do petróleo reduz perdas no fim do pregão",
-     "link": "https://www.canalrural.com.br/economia/juros-futuros-fecham-em-queda-mas-alta-do-petroleo-reduz-perdas-no-fim-do-pregao/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T21:17:23+00:00"
-    },
-    {
-     "title": "USDA reduz novamente classificação da soja e do milho nos EUA - Notícias Agrícolas",
+     "title": "USDA reduz novamente classificação da soja e do milho nos EUA - noticiasagricolas.com.br",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZzlrbUJNMFNLOTRicE1maDg3Nnl4SXNHMGVHNDVSa0FfemhxM2lqdDd2aVRWUVZjTmxydUlLRzZHVDYxeE1TTFJRREVWLWRiRVMyVHhIdTM5bUpxeHcxTnZHZGEtSlpoM213QVN4T1NMOXJTc3FUSXNEZnJ5VVRoOTBnU0JES1hxYWV6bnR5bF9YVjNlYVQwbGh1LWM5YzhhUjFVbWZwaHRKTGp2emtObkpYLV9vRTJuSUhGOXBWc21md9IBxwFBVV95cUxQV3hhZVFNQllscjluSGlsUXlNTWdkM2ZfeWdCcVA1XzdPMDFvdVlJSkQ1Sk1zSTdtOUlzMUt1RlBZSjFUc0lxR211TFV2VVl3d2hDR2pIY2FnWDlVYkxCZl9KZTdjak9HMWh1OC1GbEhQUFZubnBUTzVlbGN2OWRqTWUyeUpXOXIzR19IT3lPbDV1blJUc09tVWt5YXRzX2xnd0Vfam5HaFk3TmprdHJIaEFSbjBwa3RreE0xc0lkNVNEa0ptWXdV?oc=5",
-     "source": "Notícias Agrícolas",
+     "source": "noticiasagricolas.com.br",
      "published_at": "2026-08-17T20:28:58+00:00"
-    },
-    {
-     "title": "Soja dispara em Chicago com inundações e tempestades nos EUA e preços sobem no Brasil - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPb21fekl6V255VXBOMVR2RmllMmhpX0RrSEFPbUd5VlFoT1NLTVZrRmtIODZaZEowellKc19udjg5aDVPZDJLZ05RdnB5M3FiUlZjVHBzWmtQNzJkdjE0UEU4X2t2bWEzcVZWclk5dm5KdGtoYlJQU2xEU0syc29kZk53VUp1SmltNm1lY012OGZJV3owZVNQdzNJVkFaUWxKMFlBYW96Q3dDNEkxdGZpNU5VdlQwSGYyQTEtRkZVTmhZM2p5X2g2M0NkRDhRdmxtRFJ1TF9yT2VLMnBaYWYw0gHkAUFVX3lxTE9yYl9qTldMU1c5QXU0ZHBlcUZVY0tYV3puTXVNMEdZaXZXRkRwZVlCSUw0bFkxOEMtQ0dBN2FNWHRuYlE2VW4wQTZ5czBFT29hMlhkSjhYYWV5ZnZRckl6MnRfUkpTbVBYNHhTVXNyRTRLbnJEeUp0V1hjZzFFaW44Uy1FQWxxWlExeEo4bUpWVHVCZkxxQmZUTnBJeUt1UWlhbHcwVkw0QktFUHV5QWI2M1R0MlVtVmlMUnR3aUZOb3RkNGpiSjVjWGduUmRQSTZ1cWY0aWZqaEZHeDBFenhEb21LdQ?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-17T19:55:30+00:00"
     },
     {
      "title": "Soja: dessecação antecipada ajuda a reduzir plantas daninhas - Agrolink",

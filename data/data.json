@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-18T10:21:13+00:00",
+ "generated_at": "2026-08-18T11:19:17+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-18T10:21:07+00:00",
+   "updated_at": "2026-08-18T11:19:09+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -72,9 +72,9 @@
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 322.5,
+     "price": 322.0,
      "prev_close": 312.1,
-     "change_pct": 3.33,
+     "change_pct": 3.17,
      "closes": [
       323.5,
       326.7,
@@ -97,16 +97,16 @@
       309.9,
       308.7,
       312.1,
-      322.5
+      322.0
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.07,
+     "price": 71.18,
      "prev_close": 71.44,
-     "change_pct": -0.52,
+     "change_pct": -0.36,
      "closes": [
       74.68,
       74.3,
@@ -129,7 +129,7 @@
       68.67,
       69.05,
       71.44,
-      71.07
+      71.18
      ]
     },
     {
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 90.96,
+     "price": 90.67,
      "prev_close": 90.87,
-     "change_pct": 0.1,
+     "change_pct": -0.22,
      "closes": [
       89.22,
       91.01,
@@ -193,7 +193,7 @@
       87.07,
       88.52,
       90.87,
-      90.96
+      90.67
      ]
     },
     {
@@ -229,7 +229,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-18T10:21:07+00:00",
+   "updated_at": "2026-08-18T11:19:09+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -240,7 +240,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-18T10:21:10+00:00",
+   "updated_at": "2026-08-18T11:19:13+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -401,8 +401,44 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-18T10:21:13+00:00",
+   "updated_at": "2026-08-18T11:19:17+00:00",
    "items": [
+    {
+     "title": "Exportações de carne bovina desaceleram em agosto, mas preço da tonelada sobe",
+     "link": "https://www.canalrural.com.br/pecuaria/exportacoes-de-carne-bovina-desaceleram-em-agosto-mas-preco-da-tonela-sobe/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T11:03:00+00:00"
+    },
+    {
+     "title": "Custo de capital é prioridade da Abimaq para o próximo presidente",
+     "link": "https://www.canalrural.com.br/politica/eleicoes/custo-de-capital-e-prioridade-da-abimaq-para-o-proximo-presidente/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T11:00:00+00:00"
+    },
+    {
+     "title": "Safra de soja deve ter maior custo da história em Goiás e exigirá mais eficiência do produtor - globorural.globo.com",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQbmRTakV3UVR6cF9TNWxsb3FBQ2tUX2hsdHdabTR6LVZ0OWhIa3NPa190LVozZkNjdmRSbVNrall1eWp2aEFWYzZTM0pzazItbXdiS2NsdmpJODJvZG52Y01HbExKT0RZUGdGbkRvMDBYZ3FZeVgtNWEtWVVtTjZYc19QbkVNQndLMkRyVFVLZmd6dlpfV0hYMlFIeU0tS25EQTBieG1wRDhqQjl6cWJ4WUF4blVIbTBKb3poY3czbGtLbF83NkFxdTA0cV9Ta3k0Y1cyQm9WYVBxUkJab3lTZlVLeXlPWVQ2YnVObNIB-wFBVV95cUxOU1lwZGJJaU54ck9FMVBXM1ZHU0NtS2JYc2FuQmNmc2g1UUFIaDlaYU0wUW9MMEJJZFA4NzBOZEpVd2dVbjd6SG9BdFVLME5mVFNJM1ZzWVhKRXZSUDY5X0NzbFlPaThGZTUwRG9GeUxmRzZZeVV2YmRNeGtLX1pIaTZKSTh2bDJHS1V4LXllcE11cDhhOGFHR2FhNDE1SGl4TEdmcFNTbm9Ba29qcENldWlOOFc3MktOdjRaZXBKdTA5LTdFcWdINGU5TDF3NzJjNzhmaWg2TGhFRzc4SElMSHdMdnpyMzFpQVZzb2tJdDFGUjdvZC03S3N3QQ?oc=5",
+     "source": "globorural.globo.com",
+     "published_at": "2026-08-18T10:45:08+00:00"
+    },
+    {
+     "title": "Soja e pecuária puxam VBP agropecuário estimado em R$ 1,39 trilhão - Portal Agro2",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUzBRUm0xX29LbF9va09TSHRySi1CMWtpXzFLemNZVEFCUGlVQkJNcTNFNHQ0TUhldzg0Q3RGT0pLbUQ1UVVvQWotVVUwOWlPd29ZdVZQVWxmTjl5UllHa0N2akNsT0F3Uk1RbDMyN3R6cXdhQzdiR1JDc1NJTFVGZzBoUkxod1pLVm1PbXRkNExRZzByOWQxSS1GZ2t5NE0?oc=5",
+     "source": "Portal Agro2",
+     "published_at": "2026-08-18T10:37:10+00:00"
+    },
+    {
+     "title": "Ciclone e frente fria causam chuva forte e ventania em regiões do país nos próximo dias",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/ciclone-e-frente-fria-causam-chuva-forte-e-ventania-em-regioes-do-pais-nos-proximo-dias/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T10:36:50+00:00"
+    },
+    {
+     "title": "Biodiesel amplia demanda por soja e abre novas frentes para processamento e geração de valor no Brasil - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOQk9TbzV0elBKTElOdmxPSTR0clpELVhXMUM0TkVSM2tOTmUwTUZnVjNIMlRER2tHZVVpZDZHZUhOT0lPTWxQVV9HSFNfUzVQa3lvTjhiYjdQTFN1MkVTNmp2QUVFUTdIWXJGdlprekhXQ1RvSVlod3JTeV9zSmtQOTlPNk1GNXRVeGxSdFlLWFZBUGNpUUpNTGg4SjBwT3N3aHlsU3dNWUNYanVmeU9xYVI3b3U4MkhNSW10QVVQTG1CQUgteEZFZDF4T1VDR19peDlfYjFzcGJjQXNJbjZ2NkhKWjIzZkJjVy1ueEVpOU9WVlkyQTh4RUFlbjlVTG9CODREZXhB0gGLAkFVX3lxTE95bXpaS2U4WktURm5zbl84WGxHdTVsZTlpQkNuRFd5RVc3bWZtXzk2bUVxVDZrSmM4SkVoSHRZbUQwSy1vUlQ4VEhkSk1OS3FHNnR4Ql9rQW9uaHNKS2FrNktGUm5SUlBxV2Vlb1VDVzlYcU5kcGZxamJfMU9QclJCeTZGdDZpNU04SEtaX3UyQURyM21tVHg0WWVTR2tGQzdrOE9zc3VzMmJJLTBLdVFSY3d6dU1wZ0EtT3MxUng5d2JmT091NmpOWkhReFRPMmxZTzRDMVZoa0s4TTdzUlQxMXdwVWg0eS1PczdieWRfaU50dFZlQ3BUVWNtLUpXdnZtbWxCa0FwUU1icw?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-18T10:15:07+00:00"
+    },
     {
      "title": "Soja tem preços firmes, mas negócios seguem desiguais - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOHNVTlZJbXdCZjFEV0lFM2dCb0FUMUpjUGZiZ3NwR0kzb1l0dHpVQjBRUVh4Z09NUVBwcEZZOF9sbGVGX28tQ1MwYnJhVEE1ZkNjNkdFS3hETFJPN0RJcXZBdVFjaGc1VWFoV1MtUTZlX2ZWZi1WaTBERUR6Zi1QdGVXN0JGMVpTX3JHR2dmeW0yQTcxVjNaZWZVajNrQ0U2SjlKag?oc=5",
@@ -420,12 +456,6 @@
      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVWY4ZWFSdFN5d2pkNE5FQjFrOWs5Ym5FMEpBMHpaSWF1TW5XMVpuV0NYelphUWh0Tlc3blF2eEtyakZ6WG9GQXktNjlXRGVBQmpSUWNqQ0h5SlVYTU0wYnpWcDZETzdzZlg3cEZsXzFvXzJLeWpZWm9jUDJINjZwSDNILWZUeW5DRFpEOXNZWThRTnUxV0t6VnpsSGdQMHFEX3luY25vYnkyRFhjQ2xJNWNERWJGR19weV8zSmdRcVUyVTZ3b1NwamMyVXFfQk9HdWg0?oc=5",
      "source": "O Presente Rural",
      "published_at": "2026-08-18T09:19:31+00:00"
-    },
-    {
-     "title": "Com demanda aquecida, preço da soja atinge maior patamar do ano em Paranaguá - globorural.globo.com",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTmthWDUxZ3dRb1pLVDdJdWI1ay02LUpTOFMzZWRHZ1lxWVFkZDI2ejVWN3FIY2p2SW5DZTFtTE5uYzROSHB5RWNuRVdWRk9ESk1nSkJOYVN6QkF2d3VUeDlnbTRlb0RQQzYzdzZNM0FJWGFKTWZ0cVdJZkdEOFRjb1QybVhxbFp4RE5KVjFSSFh6a1ozRDM4cTJHN0xCVDNZQXRfMU03YlZQSF80RzJWMjQ0cUdXREp1TWtQanVoMWhkWEVuNEJZRUpfODJpSmdm0gHfAUFVX3lxTE1VeEV1MGpzMUg1RGlFMGVfcllzVWN0cTBOWEpsaEp6bHBCZzQ5ejNfMTRGWThib0NGTDZzeEZGVHZHbXhZRFJtcXhNRnFuV1IzNlp3RkhqZDdzN09rRFl4cTlpMXN4Z01xU0ZSMVdOME5oLU1WZnRwZlJXYTREUEJhOWRnQVZqcHBqckV0ZkxRWjQwMzFudEE5YU5TLTB4MVBjemVMTzhhcEpwaFFxckJyLUhYbXVycjV5TzAyUGhFM3N6Y09zd2JHd1pxZ29ZMXFhRkRiY29OcW50VVZUakU?oc=5",
-     "source": "globorural.globo.com",
-     "published_at": "2026-08-18T09:15:08+00:00"
     },
     {
      "title": "Manejo adequado pode reduzir impactos do El Niño sobre a soja na safra 2026/2027 - Embrapa",
@@ -464,12 +494,6 @@
      "published_at": "2026-08-18T06:00:18"
     },
     {
-     "title": "SOJA E TRIGO: confira os preços dos grãos nesta terça-feira (18) - brasil61.com",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb0pLQlllSlhRVld5dnVHSWdsd3R0aFBxREptTkI0WDhqRjladXNyRlVrZjNwWnllR0hZc29xOC1CMmcwZ0RHNVpBWkFuckZnTXpteEM2WlpvZlZvSkd3aG5qTU03cUJOX05qZ3U1SE5WZ0dId2haRWdYaW1nNHMtbUF0Sk1xVFN5ZjlFZlo2M2Z2YTNpZzExVTZwd9IBoAFBVV95cUxQTGoxN19WQ241YzMzNjM5bnhwTWlaWWZYX2tRX3lxeDBwc2RVYlpRU2h0TnliVktnRXFrOUpuOU9yQzVONDBzT2VUS2xCZ0ZFeUFwRDVUUUZhVGJyNENKNVdDaWliUC1pM3VmY0doX0NaUlBaNzVmMFk5YmpWSXVYY1RLYnZaTFFwRzByZ1dJMzg0Q05VNEoybTI0VEkwaC0t?oc=5",
-     "source": "brasil61.com",
-     "published_at": "2026-08-18T00:13:07+00:00"
-    },
-    {
      "title": "Ministério da Fazenda estabelece limites para renegociação de dívidas rurais",
      "link": "https://www.canalrural.com.br/videos/ministerio-da-fazenda-estabelece-limites-para-renegociacao-de-dividas-rurais/",
      "source": "Canal Rural",
@@ -500,12 +524,6 @@
      "published_at": "2026-08-17T23:03:00+00:00"
     },
     {
-     "title": "Arroba do boi gordo inaugura semana em baixa; veja cotações",
-     "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-inaugura-semana-em-baixa-veja-cotacoes/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T22:29:08+00:00"
-    },
-    {
      "title": "Soja sobe em Chicago na esteira do mercado de petróleo e do processamento nos EUA - Money Times",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeGhpNUZLWXg0a3ZFbHhycG4zdktOeVRxUUI4VUdZajlqXzlqeFRtVGRvcTdWOTg3WlJHVl9qcFc3eUdnOWJUd18tckppR19WbE9BNWY1SXhwX3k2RVZDdTRiXzlOMXlDeTdNVmxkU3FNcDRSZ1k3ZF9jQlNHeXlBQ0l0M21ZUklVUEhYVVpfMEFzRUFiS3JjaUx4VWEyQzRMdEJfRVZDd3FTOHVTQ1c2QWdYaTdUZUxf?oc=5",
      "source": "Money Times",
@@ -516,24 +534,6 @@
      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeHRPM0NYMklCMjB3T0xoMXZLWkFURk9UdUhFR2pqTFg5dEk2TVRxUmZselFFM1BLdDByOGR3M1poV0Z4bVhocE9ROEZIUXBTdkZMRFJrdnhkY2dHOHRxTkgtcWVTaXUxV3VxaW5iOFlkSHF0d2RjcmxTblhRME9FZUpTc2xHMW5uby1xZS00TVZ6ZWtYZ2pITUxqMVFRZ1BrTjZaaUY4R3NhNERqMi1QbHozeGZDOVBuNGZVSUhDRW5Hd0lBN0NST2tSZkowdw?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-17T22:00:08+00:00"
-    },
-    {
-     "title": "Soja avança com alta de mais de 2% em Chicago e preços sobem nos portos",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/soja-avanca-com-alta-de-mais-de-2-em-chicago-e-precos-sobem-nos-portos/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T22:00:08+00:00"
-    },
-    {
-     "title": "Primeiro biofungicida brasileiro 100% à base de metabólitos é registrado para soja",
-     "link": "https://www.canalrural.com.br/agricultura/primeiro-biofungicida-brasileiro-100-a-base-de-metabolitos-e-registrado-para-soja/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T21:43:47+00:00"
-    },
-    {
-     "title": "USDA reduz novamente classificação da soja e do milho nos EUA - noticiasagricolas.com.br",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZzlrbUJNMFNLOTRicE1maDg3Nnl4SXNHMGVHNDVSa0FfemhxM2lqdDd2aVRWUVZjTmxydUlLRzZHVDYxeE1TTFJRREVWLWRiRVMyVHhIdTM5bUpxeHcxTnZHZGEtSlpoM213QVN4T1NMOXJTc3FUSXNEZnJ5VVRoOTBnU0JES1hxYWV6bnR5bF9YVjNlYVQwbGh1LWM5YzhhUjFVbWZwaHRKTGp2emtObkpYLV9vRTJuSUhGOXBWc21md9IBxwFBVV95cUxQV3hhZVFNQllscjluSGlsUXlNTWdkM2ZfeWdCcVA1XzdPMDFvdVlJSkQ1Sk1zSTdtOUlzMUt1RlBZSjFUc0lxR211TFV2VVl3d2hDR2pIY2FnWDlVYkxCZl9KZTdjak9HMWh1OC1GbEhQUFZubnBUTzVlbGN2OWRqTWUyeUpXOXIzR19IT3lPbDV1blJUc09tVWt5YXRzX2xnd0Vfam5HaFk3TmprdHJIaEFSbjBwa3RreE0xc0lkNVNEa0ptWXdV?oc=5",
-     "source": "noticiasagricolas.com.br",
-     "published_at": "2026-08-17T20:28:58+00:00"
     },
     {
      "title": "Rastreabilidade da soja e da carne esbarra na falta de integração - ((o))eco | Jornalismo Ambiental",

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-18T09:25:59+00:00",
+ "generated_at": "2026-08-18T10:21:13+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-18T09:25:52+00:00",
+   "updated_at": "2026-08-18T10:21:07+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1224.5,
+     "price": 1225.0,
      "prev_close": 1201.0,
-     "change_pct": 1.96,
+     "change_pct": 2.0,
      "closes": [
       1226.0,
       1219.5,
@@ -33,16 +33,16 @@
       1168.25,
       1173.75,
       1201.0,
-      1224.5
+      1225.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 492.25,
+     "price": 492.5,
      "prev_close": 465.0,
-     "change_pct": 5.86,
+     "change_pct": 5.91,
      "closes": [
       449.5,
       452.75,
@@ -65,16 +65,16 @@
       448.0,
       459.0,
       465.0,
-      492.25
+      492.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 322.0,
+     "price": 322.5,
      "prev_close": 312.1,
-     "change_pct": 3.17,
+     "change_pct": 3.33,
      "closes": [
       323.5,
       326.7,
@@ -97,16 +97,16 @@
       309.9,
       308.7,
       312.1,
-      322.0
+      322.5
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.19,
+     "price": 71.07,
      "prev_close": 71.44,
-     "change_pct": -0.35,
+     "change_pct": -0.52,
      "closes": [
       74.68,
       74.3,
@@ -129,16 +129,16 @@
       68.67,
       69.05,
       71.44,
-      71.19
+      71.07
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 694.75,
+     "price": 692.25,
      "prev_close": 674.75,
-     "change_pct": 2.96,
+     "change_pct": 2.59,
      "closes": [
       674.0,
       678.0,
@@ -161,16 +161,16 @@
       652.75,
       674.75,
       674.75,
-      694.75
+      692.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 90.97,
+     "price": 90.96,
      "prev_close": 90.87,
-     "change_pct": 0.11,
+     "change_pct": 0.1,
      "closes": [
       89.22,
       91.01,
@@ -193,7 +193,7 @@
       87.07,
       88.52,
       90.87,
-      90.97
+      90.96
      ]
     },
     {
@@ -229,7 +229,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-18T09:25:52+00:00",
+   "updated_at": "2026-08-18T10:21:07+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -240,7 +240,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-18T09:25:56+00:00",
+   "updated_at": "2026-08-18T10:21:10+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -401,13 +401,37 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-18T09:25:59+00:00",
+   "updated_at": "2026-08-18T10:21:13+00:00",
    "items": [
+    {
+     "title": "Soja tem preços firmes, mas negócios seguem desiguais - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOHNVTlZJbXdCZjFEV0lFM2dCb0FUMUpjUGZiZ3NwR0kzb1l0dHpVQjBRUVh4Z09NUVBwcEZZOF9sbGVGX28tQ1MwYnJhVEE1ZkNjNkdFS3hETFJPN0RJcXZBdVFjaGc1VWFoV1MtUTZlX2ZWZi1WaTBERUR6Zi1QdGVXN0JGMVpTX3JHR2dmeW0yQTcxVjNaZWZVajNrQ0U2SjlKag?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-18T09:49:00+00:00"
+    },
+    {
+     "title": "Mercado de grãos: milho sobe, soja tem demanda aquecida e trigo perde área - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWGhCalQ4czF5ZWhiN0V4NndnY0lub1BWWXp6RnIwTmgzMGJtZWlNSUk5d3ZOVzY5c2tZUjA1ZGVoSURJdEZSTTZRbjcyWmY1SVhLRjF1X2pzRTBNT0pTYkZhb2d2UVg2Qnd1VmRfZ2ZEVENjeFVKRzJuVkg1dTdfRkJmWHBNM19XZmRnLTlySlAzODhPVmIwdDduLUVDOVlVQ1lqYzdZRER2dlU?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-08-18T09:33:14+00:00"
+    },
+    {
+     "title": "Sete cooperativas assumem esmagadora de soja em Ponta Grossa em maior projeto de intercooperação do Paraná - O Presente Rural",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVWY4ZWFSdFN5d2pkNE5FQjFrOWs5Ym5FMEpBMHpaSWF1TW5XMVpuV0NYelphUWh0Tlc3blF2eEtyakZ6WG9GQXktNjlXRGVBQmpSUWNqQ0h5SlVYTU0wYnpWcDZETzdzZlg3cEZsXzFvXzJLeWpZWm9jUDJINjZwSDNILWZUeW5DRFpEOXNZWThRTnUxV0t6VnpsSGdQMHFEX3luY25vYnkyRFhjQ2xJNWNERWJGR19weV8zSmdRcVUyVTZ3b1NwamMyVXFfQk9HdWg0?oc=5",
+     "source": "O Presente Rural",
+     "published_at": "2026-08-18T09:19:31+00:00"
+    },
+    {
+     "title": "Com demanda aquecida, preço da soja atinge maior patamar do ano em Paranaguá - globorural.globo.com",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTmthWDUxZ3dRb1pLVDdJdWI1ay02LUpTOFMzZWRHZ1lxWVFkZDI2ejVWN3FIY2p2SW5DZTFtTE5uYzROSHB5RWNuRVdWRk9ESk1nSkJOYVN6QkF2d3VUeDlnbTRlb0RQQzYzdzZNM0FJWGFKTWZ0cVdJZkdEOFRjb1QybVhxbFp4RE5KVjFSSFh6a1ozRDM4cTJHN0xCVDNZQXRfMU03YlZQSF80RzJWMjQ0cUdXREp1TWtQanVoMWhkWEVuNEJZRUpfODJpSmdm0gHfAUFVX3lxTE1VeEV1MGpzMUg1RGlFMGVfcllzVWN0cTBOWEpsaEp6bHBCZzQ5ejNfMTRGWThib0NGTDZzeEZGVHZHbXhZRFJtcXhNRnFuV1IzNlp3RkhqZDdzN09rRFl4cTlpMXN4Z01xU0ZSMVdOME5oLU1WZnRwZlJXYTREUEJhOWRnQVZqcHBqckV0ZkxRWjQwMzFudEE5YU5TLTB4MVBjemVMTzhhcEpwaFFxckJyLUhYbXVycjV5TzAyUGhFM3N6Y09zd2JHd1pxZ29ZMXFhRkRiY29OcW50VVZUakU?oc=5",
+     "source": "globorural.globo.com",
+     "published_at": "2026-08-18T09:15:08+00:00"
+    },
     {
      "title": "Manejo adequado pode reduzir impactos do El Niño sobre a soja na safra 2026/2027 - Embrapa",
      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTFAtS1otaTdJQ2lIWHgwTk9lU1JmZlNDV2ZTclNWOW9RSVh4Ty1wcWJ0M1gwcVNGTkg4bHVPRHVrN0FBc18yRXF1S2wya1FDWV9FWGVwaU03WW1BYWd2T2JyUTUxeGVfWTZZVkUzalZtQmtZeC1TeWRlYk1GZ3NnNUZRWE1lUkJoVV9DMWJYRFY0SFJnMldyVWlMUG4wd3pPSmQ2eWxTaWNwY0NRR0VvUlBWdmp2MmJNbHdzcFY0YXB2aE43OVh3S1M5emhiOUl2R0lfdDN2SQ?oc=5",
      "source": "Embrapa",
-     "published_at": "2026-08-18T09:09:22+00:00"
+     "published_at": "2026-08-18T09:08:44+00:00"
     },
     {
      "title": "Atividade mais fraca abre espaço para corte da Selic: ouça o Diário Econômico",
@@ -416,9 +440,9 @@
      "published_at": "2026-08-18T08:45:00+00:00"
     },
     {
-     "title": "China investe para elevar produtividade da soja - Globo Rural",
+     "title": "China investe para elevar produtividade da soja - globorural.globo.com",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOY2JRQjZ2YmRuMndBTktjTDBFV2NEMDZ5YWVSTkNDbnBkQTU2a3pWWXBwR0w3R0d1N1d0MTNMa3RLVXFVSW1mZ013WXpHU1RhYmJWelhWMVJRZHRLMWEwdjBTS2ZBSEl2elowbzAtV2V1bnZsSHc4cnZpcFl2MkI0bG00bjQ5c1RlaGlTTmpWbDdoYjVYbWtFMm9ZdUVGWWxvZmRJU1E2aEo1aHRGVXVRSFJGMmVzZ9IBxAFBVV95cUxPYjl0eUJrek9kck04c1hVcFRhYWQ3ZDRjQnlTQk5aeWY4WVR6MENEalA2Q19ZYmowZ0w0LVNTWkhLVE1CVHV1emNVb1lHNjRWZG9JUkFDRHh2S0ZOVUliZEVlRXpvVzM2cUxFMldzY2U3ajJRX29PWU5YUGdhRXpfbVFCOHY3b1JoTUJRWUFqeGM0czFpaXVidlFJeXhYWEJXMGV2dTV3ZWpHeXVoUVhqdlhKQmpoSnhWVnBwa2hpeVhmaEhW?oc=5",
-     "source": "Globo Rural",
+     "source": "globorural.globo.com",
      "published_at": "2026-08-18T08:03:22+00:00"
     },
     {
@@ -434,21 +458,15 @@
      "published_at": "2026-08-18T07:32:30+00:00"
     },
     {
-     "title": "Demanda aquecida sustenta preços da soja com menor estoque disponível - Rádio Itatiaia",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSXh3RENDU1oxMUszZjZJSnBCOVhINm1OMmRGYXBVS0tDeDRQblZmaGtQNVc5Qy14NnJyV21MOHkxRkUzLS1QVm5HN2VCWjBOYWhnaWFJS3FqQ29RVnpXRjBMaS1QNEVvLTNkVjFzTlAzUHhFbF9XUjVMWXFKS2dIWkp3THdpQ2ZfWHl0Y0xBak5tX2tLYTdCM1RuVVAwRDhlbW1Lb01n?oc=5",
-     "source": "Rádio Itatiaia",
-     "published_at": "2026-08-18T07:04:48+00:00"
-    },
-    {
      "title": "Limões 'alienígenas' intrigam produtora; entenda o que causa a deformação",
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/18/limoes-alienigenas-intrigam-produtora-entenda-o-que-causa-a-deformacao.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-18T06:00:18"
     },
     {
-     "title": "SOJA E TRIGO: confira os preços dos grãos nesta terça-feira (18) - Brasil 61",
+     "title": "SOJA E TRIGO: confira os preços dos grãos nesta terça-feira (18) - brasil61.com",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb0pLQlllSlhRVld5dnVHSWdsd3R0aFBxREptTkI0WDhqRjladXNyRlVrZjNwWnllR0hZc29xOC1CMmcwZ0RHNVpBWkFuckZnTXpteEM2WlpvZlZvSkd3aG5qTU03cUJOX05qZ3U1SE5WZ0dId2haRWdYaW1nNHMtbUF0Sk1xVFN5ZjlFZlo2M2Z2YTNpZzExVTZwd9IBoAFBVV95cUxQTGoxN19WQ241YzMzNjM5bnhwTWlaWWZYX2tRX3lxeDBwc2RVYlpRU2h0TnliVktnRXFrOUpuOU9yQzVONDBzT2VUS2xCZ0ZFeUFwRDVUUUZhVGJyNENKNVdDaWliUC1pM3VmY0doX0NaUlBaNzVmMFk5YmpWSXVYY1RLYnZaTFFwRzByZ1dJMzg0Q05VNEoybTI0VEkwaC0t?oc=5",
-     "source": "Brasil 61",
+     "source": "brasil61.com",
      "published_at": "2026-08-18T00:13:07+00:00"
     },
     {
@@ -506,12 +524,6 @@
      "published_at": "2026-08-17T22:00:08+00:00"
     },
     {
-     "title": "Primeiro biofungicida brasileiro 100% à base de metabólitos é registrado para soja - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdjF6QU52MmI4X0UtdWdmRnd2OFl1UTR6ZUNKQWZoendyWldQUTJ2c3VCQ194bk5kMGhIbDVrTnJJSVdrY1ZKZFd1bElvcE5IMExybGpUMG81T1FzM2dsUUdMMV9zNEpObEIzMnZXdGJNdVBPMWhHeWM2Um5kWFN5dHNzODJ0anNpMHRRUXV6TTc0ZGFScWMtbExHekFSYUVDc0tvbUJoWkh2bElYbFQ4MEtqMF9ncEdkbVZVVlhzUjJMUQ?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T21:43:47+00:00"
-    },
-    {
      "title": "Primeiro biofungicida brasileiro 100% à base de metabólitos é registrado para soja",
      "link": "https://www.canalrural.com.br/agricultura/primeiro-biofungicida-brasileiro-100-a-base-de-metabolitos-e-registrado-para-soja/",
      "source": "Canal Rural",
@@ -522,18 +534,6 @@
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZzlrbUJNMFNLOTRicE1maDg3Nnl4SXNHMGVHNDVSa0FfemhxM2lqdDd2aVRWUVZjTmxydUlLRzZHVDYxeE1TTFJRREVWLWRiRVMyVHhIdTM5bUpxeHcxTnZHZGEtSlpoM213QVN4T1NMOXJTc3FUSXNEZnJ5VVRoOTBnU0JES1hxYWV6bnR5bF9YVjNlYVQwbGh1LWM5YzhhUjFVbWZwaHRKTGp2emtObkpYLV9vRTJuSUhGOXBWc21md9IBxwFBVV95cUxQV3hhZVFNQllscjluSGlsUXlNTWdkM2ZfeWdCcVA1XzdPMDFvdVlJSkQ1Sk1zSTdtOUlzMUt1RlBZSjFUc0lxR211TFV2VVl3d2hDR2pIY2FnWDlVYkxCZl9KZTdjak9HMWh1OC1GbEhQUFZubnBUTzVlbGN2OWRqTWUyeUpXOXIzR19IT3lPbDV1blJUc09tVWt5YXRzX2xnd0Vfam5HaFk3TmprdHJIaEFSbjBwa3RreE0xc0lkNVNEa0ptWXdV?oc=5",
      "source": "noticiasagricolas.com.br",
      "published_at": "2026-08-17T20:28:58+00:00"
-    },
-    {
-     "title": "Soja: dessecação antecipada ajuda a reduzir plantas daninhas - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV0ZRNllaaUJmVExFNkdFTkRhbFFFTFppWFhnQ1VXOWhSNDlqY0hXMm96ZFRqakdTWDNDMk56bW1sSWZzSGdMbU1YV2EtRG5PTVlnSVFDb0tTaHY4NkxUVjFNSWh1RlA1SUhGeUlQVW9qc09EcnFERU4zM0tJUUc5R3BxRXpTSVJjcXNxQ2ZicDNyMWthX3JGcGZJbV8zdEd3aUR3bV93aGtGQmluaFE?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-17T19:27:00+00:00"
-    },
-    {
-     "title": "Soja sobe quase 2% em Chicago com novas compras da China nos EUA - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNclJpMjdzc3hWcFhqa3RHREZnbVNHd1g0SnRfVWp6S21ITjVGX3c1Mi16MnctbDZuY05WdUtVbHlzUGZkRGRORVRnUXlsUWFIbVZZOXMyNHd2TGtGc2NvX3MzMHYyRjZGcGs3RDVMd2NDdldZMW4wTXhXTFF0TXBlU21zZ1VnTFpBSTRRVnZoVmF5RkxkdmtudkZKN05Wbm8?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-08-17T19:12:25+00:00"
     },
     {
      "title": "Rastreabilidade da soja e da carne esbarra na falta de integração - ((o))eco | Jornalismo Ambiental",

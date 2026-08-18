@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-18T07:32:19+00:00",
+ "generated_at": "2026-08-18T08:28:05+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-18T07:32:13+00:00",
+   "updated_at": "2026-08-18T08:27:56+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1224.0,
+     "price": 1225.25,
      "prev_close": 1201.0,
-     "change_pct": 1.92,
+     "change_pct": 2.02,
      "closes": [
       1226.0,
       1219.5,
@@ -33,16 +33,16 @@
       1168.25,
       1173.75,
       1201.0,
-      1224.0
+      1225.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 491.25,
+     "price": 492.5,
      "prev_close": 465.0,
-     "change_pct": 5.65,
+     "change_pct": 5.91,
      "closes": [
       449.5,
       452.75,
@@ -65,16 +65,16 @@
       448.0,
       459.0,
       465.0,
-      491.25
+      492.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 321.9,
+     "price": 321.6,
      "prev_close": 312.1,
-     "change_pct": 3.14,
+     "change_pct": 3.04,
      "closes": [
       323.5,
       326.7,
@@ -97,16 +97,16 @@
       309.9,
       308.7,
       312.1,
-      321.9
+      321.6
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.9,
+     "price": 71.18,
      "prev_close": 71.44,
-     "change_pct": -0.76,
+     "change_pct": -0.36,
      "closes": [
       74.68,
       74.3,
@@ -129,16 +129,16 @@
       68.67,
       69.05,
       71.44,
-      70.9
+      71.18
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 691.75,
+     "price": 694.75,
      "prev_close": 674.75,
-     "change_pct": 2.52,
+     "change_pct": 2.96,
      "closes": [
       674.0,
       678.0,
@@ -161,16 +161,16 @@
       652.75,
       674.75,
       674.75,
-      691.75
+      694.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.04,
+     "price": 91.34,
      "prev_close": 90.87,
-     "change_pct": 0.19,
+     "change_pct": 0.52,
      "closes": [
       89.22,
       91.01,
@@ -193,7 +193,7 @@
       87.07,
       88.52,
       90.87,
-      91.04
+      91.34
      ]
     },
     {
@@ -206,12 +206,15 @@
      "closes": [
       173714.0,
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -229,7 +232,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-18T07:32:13+00:00",
+   "updated_at": "2026-08-18T08:27:56+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -240,7 +243,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-18T07:32:16+00:00",
+   "updated_at": "2026-08-18T08:28:01+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -401,13 +404,31 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-18T07:32:19+00:00",
+   "updated_at": "2026-08-18T08:28:05+00:00",
    "items": [
     {
-     "title": "O paradoxo da soja - Estadão",
-     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BSDBOODVzWHZsaXk1Qms3OWowZk1lLWVGN2M1V2ozdjByN2ZjMktKb3ZXbUtvN2dmdlhubm9WYXFCSzhiaFozZl9zMDFLS0lVVUlDV1BiNGVIMFNVWFR1ZG9PTks?oc=5",
-     "source": "Estadão",
-     "published_at": "2026-08-18T06:01:00+00:00"
+     "title": "China investe para elevar produtividade da soja - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOY2JRQjZ2YmRuMndBTktjTDBFV2NEMDZ5YWVSTkNDbnBkQTU2a3pWWXBwR0w3R0d1N1d0MTNMa3RLVXFVSW1mZ013WXpHU1RhYmJWelhWMVJRZHRLMWEwdjBTS2ZBSEl2elowbzAtV2V1bnZsSHc4cnZpcFl2MkI0bG00bjQ5c1RlaGlTTmpWbDdoYjVYbWtFMm9ZdUVGWWxvZmRJU1E2aEo1aHRGVXVRSFJGMmVzZ9IBxAFBVV95cUxPYjl0eUJrek9kck04c1hVcFRhYWQ3ZDRjQnlTQk5aeWY4WVR6MENEalA2Q19ZYmowZ0w0LVNTWkhLVE1CVHV1emNVb1lHNjRWZG9JUkFDRHh2S0ZOVUliZEVlRXpvVzM2cUxFMldzY2U3ajJRX29PWU5YUGdhRXpfbVFCOHY3b1JoTUJRWUFqeGM0czFpaXVidlFJeXhYWEJXMGV2dTV3ZWpHeXVoUVhqdlhKQmpoSnhWVnBwa2hpeVhmaEhW?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-18T08:03:22+00:00"
+    },
+    {
+     "title": "Quanto vale ser campeão em Barretos? Veja a premiação do rodeio em 2026",
+     "link": "https://www.canalrural.com.br/feiras-e-eventos/quanto-vale-ser-campeao-em-barretos-veja-a-premiacao-do-rodeio-em-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T08:01:00+00:00"
+    },
+    {
+     "title": "O paradoxo da soja – Editorial O Estado de S.Paulo - brasilagro.com.br",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdU4zZVkyUGI0R1pncW1LLVVkV2lBcXZHWVd5aVJ1Q1lrV0dHVWtKS3NCLUh0ZlFxOGR4S1BNejNjOUZjWkZ1ZDJFN1Q1SjBJZnNidnR1MXI0VWFTTS1KSUdLRE44bzhQSVlxTExzYXlMYWc0NzVFQVpOaFBTaHlncHlzWjNoVWxMc2J3U3RoLTlHbW5kcnc?oc=5",
+     "source": "brasilagro.com.br",
+     "published_at": "2026-08-18T07:32:30+00:00"
+    },
+    {
+     "title": "Demanda aquecida sustenta preços da soja com menor estoque disponível - Rádio Itatiaia",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSXh3RENDU1oxMUszZjZJSnBCOVhINm1OMmRGYXBVS0tDeDRQblZmaGtQNVc5Qy14NnJyV21MOHkxRkUzLS1QVm5HN2VCWjBOYWhnaWFJS3FqQ29RVnpXRjBMaS1QNEVvLTNkVjFzTlAzUHhFbF9XUjVMWXFKS2dIWkp3THdpQ2ZfWHl0Y0xBak5tX2tLYTdCM1RuVVAwRDhlbW1Lb01n?oc=5",
+     "source": "Rádio Itatiaia",
+     "published_at": "2026-08-18T07:04:48+00:00"
     },
     {
      "title": "Limões 'alienígenas' intrigam produtora; entenda o que causa a deformação",
@@ -416,9 +437,9 @@
      "published_at": "2026-08-18T06:00:18"
     },
     {
-     "title": "SOJA E TRIGO: confira os preços dos grãos nesta terça-feira (18) - brasil61.com",
+     "title": "SOJA E TRIGO: confira os preços dos grãos nesta terça-feira (18) - Brasil 61",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb0pLQlllSlhRVld5dnVHSWdsd3R0aFBxREptTkI0WDhqRjladXNyRlVrZjNwWnllR0hZc29xOC1CMmcwZ0RHNVpBWkFuckZnTXpteEM2WlpvZlZvSkd3aG5qTU03cUJOX05qZ3U1SE5WZ0dId2haRWdYaW1nNHMtbUF0Sk1xVFN5ZjlFZlo2M2Z2YTNpZzExVTZwd9IBoAFBVV95cUxQTGoxN19WQ241YzMzNjM5bnhwTWlaWWZYX2tRX3lxeDBwc2RVYlpRU2h0TnliVktnRXFrOUpuOU9yQzVONDBzT2VUS2xCZ0ZFeUFwRDVUUUZhVGJyNENKNVdDaWliUC1pM3VmY0doX0NaUlBaNzVmMFk5YmpWSXVYY1RLYnZaTFFwRzByZ1dJMzg0Q05VNEoybTI0VEkwaC0t?oc=5",
-     "source": "brasil61.com",
+     "source": "Brasil 61",
      "published_at": "2026-08-18T00:13:07+00:00"
     },
     {
@@ -464,12 +485,6 @@
      "published_at": "2026-08-17T22:27:00+00:00"
     },
     {
-     "title": "Soja ganha força com disputa entre mercado interno e exportações - capitalnews.com.br",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOa2NqTHdTeHZkUDNFMHRycjg5N1N3SWJIeVRtM2pycktBM1ZYdzVJNUhLSHlRSVN2VWx2S0oxZ1pSZTlrR0ZZcTdGbmc2VXJraWJZVmRjV05QVnZvTVNBOV9GSzBTZUdjNVBpbEJsamlTcXpQa2pRcUFZdG5SMDRiTFFvb1lTdHdYc1Y4MnBKZXZ6ZFVCS3ZDZzk2R0JfZUhKa0hZdGJvcnRmYklDV3JNcDZyWFZ4cUhUWDZ2eGhpdlRpam1DdEdGVlNoMXFEUFBFQllF?oc=5",
-     "source": "capitalnews.com.br",
-     "published_at": "2026-08-17T22:21:00+00:00"
-    },
-    {
      "title": "Soja avança com alta de mais de 2% em Chicago e preços sobem nos portos - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeHRPM0NYMklCMjB3T0xoMXZLWkFURk9UdUhFR2pqTFg5dEk2TVRxUmZselFFM1BLdDByOGR3M1poV0Z4bVhocE9ROEZIUXBTdkZMRFJrdnhkY2dHOHRxTkgtcWVTaXUxV3VxaW5iOFlkSHF0d2RjcmxTblhRME9FZUpTc2xHMW5uby1xZS00TVZ6ZWtYZ2pITUxqMVFRZ1BrTjZaaUY4R3NhNERqMi1QbHozeGZDOVBuNGZVSUhDRW5Hd0lBN0NST2tSZkowdw?oc=5",
      "source": "Canal Rural",
@@ -500,12 +515,6 @@
      "published_at": "2026-08-17T21:17:23+00:00"
     },
     {
-     "title": "Hematoma ou abscesso? Veterinário explica como identificar a lesão em bovinos",
-     "link": "https://www.canalrural.com.br/pecuaria/hematoma-ou-abscesso-veterinario-explica-como-identificar-a-lesao-em-bovinos/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-17T21:01:00+00:00"
-    },
-    {
      "title": "USDA reduz novamente classificação da soja e do milho nos EUA - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZzlrbUJNMFNLOTRicE1maDg3Nnl4SXNHMGVHNDVSa0FfemhxM2lqdDd2aVRWUVZjTmxydUlLRzZHVDYxeE1TTFJRREVWLWRiRVMyVHhIdTM5bUpxeHcxTnZHZGEtSlpoM213QVN4T1NMOXJTc3FUSXNEZnJ5VVRoOTBnU0JES1hxYWV6bnR5bF9YVjNlYVQwbGh1LWM5YzhhUjFVbWZwaHRKTGp2emtObkpYLV9vRTJuSUhGOXBWc21md9IBxwFBVV95cUxQV3hhZVFNQllscjluSGlsUXlNTWdkM2ZfeWdCcVA1XzdPMDFvdVlJSkQ1Sk1zSTdtOUlzMUt1RlBZSjFUc0lxR211TFV2VVl3d2hDR2pIY2FnWDlVYkxCZl9KZTdjak9HMWh1OC1GbEhQUFZubnBUTzVlbGN2OWRqTWUyeUpXOXIzR19IT3lPbDV1blJUc09tVWt5YXRzX2xnd0Vfam5HaFk3TmprdHJIaEFSbjBwa3RreE0xc0lkNVNEa0ptWXdV?oc=5",
      "source": "Notícias Agrícolas",
@@ -528,12 +537,6 @@
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNclJpMjdzc3hWcFhqa3RHREZnbVNHd1g0SnRfVWp6S21ITjVGX3c1Mi16MnctbDZuY05WdUtVbHlzUGZkRGRORVRnUXlsUWFIbVZZOXMyNHd2TGtGc2NvX3MzMHYyRjZGcGs3RDVMd2NDdldZMW4wTXhXTFF0TXBlU21zZ1VnTFpBSTRRVnZoVmF5RkxkdmtudkZKN05Wbm8?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-08-17T19:12:25+00:00"
-    },
-    {
-     "title": "Preços de soja e milho sobem em Chicago de olho na safra dos EUA - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVzA4U1ZYZW1qVlZ0QnlGSmo3bEY2QVV4bEMwNG8wRTJjRWNHVUU4b01pWGU2Y2ZxODFzSnlsdmk4SHZtMjRLNmdqdWVtY1lFR3A3ZTgzRlJCWjNJVUFGUE9EREt1WjM2VHFveVJFZlpHQzVwNll1MlJmaU1wd1RZYmJ5MmhCbXJWYng5Q2E2ckQ5ZFpodHNJUWFqMDFXa2std19keThnZVVEWUtSZHpsVFBieVZSMVBSVk80a2RPNjBVd9IB0AFBVV95cUxQYmd6eTM0bHY3ZDA0NHZraS1rZ1lGYzNCTTM3cDJVRWxrWlg0bDNnbkkyMkFpQjlEUWxNZGJXTEFVazhxV2JCWXRsVjNIQ3VITUlCWkdLWERxVDF2djFTT3c3ajJKdVVqLXNxcUFDaW4wYlZCSTdLNHZXSnJFRnlKSkV3dTA3aXVRa24zR1pJMVUxUWRWdlJKRWdlelJIZDM5bGtBcmFCQ1VRYjR6NF9rZ25qbnhScktTY3ZwUm0xVXZBWGVJdXhfNDVoMElPSTNi?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-17T18:40:08+00:00"
     },
     {
      "title": "Rastreabilidade da soja e da carne esbarra na falta de integração - ((o))eco | Jornalismo Ambiental",

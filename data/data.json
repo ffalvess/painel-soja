@@ -1,18 +1,17 @@
 {
- "generated_at": "2026-08-18T03:39:13+00:00",
+ "generated_at": "2026-08-18T04:29:03+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-18T03:39:08+00:00",
+   "updated_at": "2026-08-18T04:28:56+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1224.0,
-     "prev_close": 1173.75,
-     "change_pct": 4.28,
+     "price": 1224.25,
+     "prev_close": 1201.0,
+     "change_pct": 1.94,
      "closes": [
-      1204.5,
       1226.0,
       1219.5,
       1233.0,
@@ -33,7 +32,8 @@
       1164.75,
       1168.25,
       1173.75,
-      1224.0
+      1201.0,
+      1224.25
      ]
     },
     {
@@ -41,10 +41,9 @@
      "name": "Milho CBOT",
      "unit": "¢/bushel",
      "price": 491.25,
-     "prev_close": 459.0,
-     "change_pct": 7.03,
+     "prev_close": 465.0,
+     "change_pct": 5.65,
      "closes": [
-      444.75,
       449.5,
       452.75,
       462.0,
@@ -65,6 +64,7 @@
       457.0,
       448.0,
       459.0,
+      465.0,
       491.25
      ]
     },
@@ -72,11 +72,10 @@
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 321.1,
-     "prev_close": 308.7,
-     "change_pct": 4.02,
+     "price": 321.2,
+     "prev_close": 312.1,
+     "change_pct": 2.92,
      "closes": [
-      320.2,
       323.5,
       326.7,
       331.6,
@@ -97,18 +96,18 @@
       311.0,
       309.9,
       308.7,
-      321.1
+      312.1,
+      321.2
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.06,
-     "prev_close": 69.05,
-     "change_pct": 2.91,
+     "price": 71.05,
+     "prev_close": 71.44,
+     "change_pct": -0.55,
      "closes": [
-      74.81,
       74.68,
       74.3,
       75.48,
@@ -129,18 +128,18 @@
       68.96,
       68.67,
       69.05,
-      71.06
+      71.44,
+      71.05
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 689.5,
+     "price": 688.25,
      "prev_close": 674.75,
-     "change_pct": 2.19,
+     "change_pct": 2.0,
      "closes": [
-      682.75,
       674.0,
       678.0,
       705.75,
@@ -161,7 +160,8 @@
       652.75,
       652.75,
       674.75,
-      689.5
+      674.75,
+      688.25
      ]
     },
     {
@@ -169,10 +169,9 @@
      "name": "Petróleo Brent",
      "unit": "US$/barril",
      "price": 91.39,
-     "prev_close": 88.52,
-     "change_pct": 3.24,
+     "prev_close": 90.87,
+     "change_pct": 0.57,
      "closes": [
-      88.1,
       89.22,
       91.01,
       94.07,
@@ -193,6 +192,7 @@
       88.98,
       87.07,
       88.52,
+      90.87,
       91.39
      ]
     },
@@ -232,7 +232,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-18T03:39:08+00:00",
+   "updated_at": "2026-08-18T04:28:56+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -243,7 +243,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-18T03:39:10+00:00",
+   "updated_at": "2026-08-18T04:29:00+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -404,12 +404,12 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-18T03:39:13+00:00",
+   "updated_at": "2026-08-18T04:29:03+00:00",
    "items": [
     {
-     "title": "SOJA E TRIGO: confira os preços dos grãos nesta terça-feira (18) - Brasil 61",
+     "title": "SOJA E TRIGO: confira os preços dos grãos nesta terça-feira (18) - brasil61.com",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb0pLQlllSlhRVld5dnVHSWdsd3R0aFBxREptTkI0WDhqRjladXNyRlVrZjNwWnllR0hZc29xOC1CMmcwZ0RHNVpBWkFuckZnTXpteEM2WlpvZlZvSkd3aG5qTU03cUJOX05qZ3U1SE5WZ0dId2haRWdYaW1nNHMtbUF0Sk1xVFN5ZjlFZlo2M2Z2YTNpZzExVTZwd9IBoAFBVV95cUxQTGoxN19WQ241YzMzNjM5bnhwTWlaWWZYX2tRX3lxeDBwc2RVYlpRU2h0TnliVktnRXFrOUpuOU9yQzVONDBzT2VUS2xCZ0ZFeUFwRDVUUUZhVGJyNENKNVdDaWliUC1pM3VmY0doX0NaUlBaNzVmMFk5YmpWSXVYY1RLYnZaTFFwRzByZ1dJMzg0Q05VNEoybTI0VEkwaC0t?oc=5",
-     "source": "Brasil 61",
+     "source": "brasil61.com",
      "published_at": "2026-08-18T00:13:07+00:00"
     },
     {
@@ -449,10 +449,16 @@
      "published_at": "2026-08-17T22:29:08+00:00"
     },
     {
-     "title": "Soja sobe em Chicago na esteira do mercado de petróleo e do processamento nos EUA - moneytimes.com.br",
+     "title": "Soja sobe em Chicago na esteira do mercado de petróleo e do processamento nos EUA - Money Times",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeGhpNUZLWXg0a3ZFbHhycG4zdktOeVRxUUI4VUdZajlqXzlqeFRtVGRvcTdWOTg3WlJHVl9qcFc3eUdnOWJUd18tckppR19WbE9BNWY1SXhwX3k2RVZDdTRiXzlOMXlDeTdNVmxkU3FNcDRSZ1k3ZF9jQlNHeXlBQ0l0M21ZUklVUEhYVVpfMEFzRUFiS3JjaUx4VWEyQzRMdEJfRVZDd3FTOHVTQ1c2QWdYaTdUZUxf?oc=5",
-     "source": "moneytimes.com.br",
+     "source": "Money Times",
      "published_at": "2026-08-17T22:27:00+00:00"
+    },
+    {
+     "title": "Soja ganha força com disputa entre mercado interno e exportações - capitalnews.com.br",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOa2NqTHdTeHZkUDNFMHRycjg5N1N3SWJIeVRtM2pycktBM1ZYdzVJNUhLSHlRSVN2VWx2S0oxZ1pSZTlrR0ZZcTdGbmc2VXJraWJZVmRjV05QVnZvTVNBOV9GSzBTZUdjNVBpbEJsamlTcXpQa2pRcUFZdG5SMDRiTFFvb1lTdHdYc1Y4MnBKZXZ6ZFVCS3ZDZzk2R0JfZUhKa0hZdGJvcnRmYklDV3JNcDZyWFZ4cUhUWDZ2eGhpdlRpam1DdEdGVlNoMXFEUFBFQllF?oc=5",
+     "source": "capitalnews.com.br",
+     "published_at": "2026-08-17T22:21:00+00:00"
     },
     {
      "title": "Soja avança com alta de mais de 2% em Chicago e preços sobem nos portos - Canal Rural",
@@ -491,15 +497,15 @@
      "published_at": "2026-08-17T21:01:00+00:00"
     },
     {
-     "title": "USDA reduz novamente classificação da soja e do milho nos EUA - Notícias Agrícolas",
+     "title": "USDA reduz novamente classificação da soja e do milho nos EUA - noticiasagricolas.com.br",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZzlrbUJNMFNLOTRicE1maDg3Nnl4SXNHMGVHNDVSa0FfemhxM2lqdDd2aVRWUVZjTmxydUlLRzZHVDYxeE1TTFJRREVWLWRiRVMyVHhIdTM5bUpxeHcxTnZHZGEtSlpoM213QVN4T1NMOXJTc3FUSXNEZnJ5VVRoOTBnU0JES1hxYWV6bnR5bF9YVjNlYVQwbGh1LWM5YzhhUjFVbWZwaHRKTGp2emtObkpYLV9vRTJuSUhGOXBWc21md9IBxwFBVV95cUxQV3hhZVFNQllscjluSGlsUXlNTWdkM2ZfeWdCcVA1XzdPMDFvdVlJSkQ1Sk1zSTdtOUlzMUt1RlBZSjFUc0lxR211TFV2VVl3d2hDR2pIY2FnWDlVYkxCZl9KZTdjak9HMWh1OC1GbEhQUFZubnBUTzVlbGN2OWRqTWUyeUpXOXIzR19IT3lPbDV1blJUc09tVWt5YXRzX2xnd0Vfam5HaFk3TmprdHJIaEFSbjBwa3RreE0xc0lkNVNEa0ptWXdV?oc=5",
-     "source": "Notícias Agrícolas",
+     "source": "noticiasagricolas.com.br",
      "published_at": "2026-08-17T20:28:58+00:00"
     },
     {
-     "title": "Soja dispara em Chicago com inundações e tempestades nos EUA e preços sobem no Brasil - Notícias Agrícolas",
+     "title": "Soja dispara em Chicago com inundações e tempestades nos EUA e preços sobem no Brasil - noticiasagricolas.com.br",
      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPb21fekl6V255VXBOMVR2RmllMmhpX0RrSEFPbUd5VlFoT1NLTVZrRmtIODZaZEowellKc19udjg5aDVPZDJLZ05RdnB5M3FiUlZjVHBzWmtQNzJkdjE0UEU4X2t2bWEzcVZWclk5dm5KdGtoYlJQU2xEU0syc29kZk53VUp1SmltNm1lY012OGZJV3owZVNQdzNJVkFaUWxKMFlBYW96Q3dDNEkxdGZpNU5VdlQwSGYyQTEtRkZVTmhZM2p5X2g2M0NkRDhRdmxtRFJ1TF9yT2VLMnBaYWYw0gHkAUFVX3lxTE9yYl9qTldMU1c5QXU0ZHBlcUZVY0tYV3puTXVNMEdZaXZXRkRwZVlCSUw0bFkxOEMtQ0dBN2FNWHRuYlE2VW4wQTZ5czBFT29hMlhkSjhYYWV5ZnZRckl6MnRfUkpTbVBYNHhTVXNyRTRLbnJEeUp0V1hjZzFFaW44Uy1FQWxxWlExeEo4bUpWVHVCZkxxQmZUTnBJeUt1UWlhbHcwVkw0QktFUHV5QWI2M1R0MlVtVmlMUnR3aUZOb3RkNGpiSjVjWGduUmRQSTZ1cWY0aWZqaEZHeDBFenhEb21LdQ?oc=5",
-     "source": "Notícias Agrícolas",
+     "source": "noticiasagricolas.com.br",
      "published_at": "2026-08-17T19:55:30+00:00"
     },
     {
@@ -531,12 +537,6 @@
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX2l1elBCZGxSZEljX2s2SEs0TU5lRGV4RUNMNTcxYW0ydU1wVlJmOHpOOWVaYzZqOTd1ZDBndHJ0Tjc0YU9DZ1R2b1FQU2hBNUJySHRVRDBuVV9LMnY1RTdTUkk0aFNWcmhfMlF4T0psbGIwV0lic3B1ZDNPelB0cHl2NTZhMUsyd3ljODZLbGp3SnZ4elhOSkRid1VBNWYzM0JV?oc=5",
      "source": "Agrolink",
      "published_at": "2026-08-17T15:24:00+00:00"
-    },
-    {
-     "title": "Soja avança em Chicago com demanda chinesa em alta - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNak1sY3RubVB4ZGtDMWQxbHYydGVuVlE3eHZOQ3FGOGdURlpJRGJvYkJQcWRLNXpIXzBkNnl5a00tM043bFRxa0xpa2NQN3VqRndxTHUta0dRU090RktUUnhBNVU3a3ZoNFBaTGRPUGRpSjdxUlZfLU92SWxUYVdRV2ZqVTdkVkJIMlFaSWtJdzVlU3hDMkEwTnJVSVpSWUZhWXV5dmwtY2h0eW10cl9v0gG-AUFVX3lxTE05cU9nMnFuenZoc3RnMEwxMUR4dm5KWWkybWUyaThuMFQzeUdsZHdwUnY5YWJBUW9waDFKdDl6ZkFURTFVZWtfU0R6MEoyY0pQbEY0ckxEUDlBdDQ2bEZIREFqakUtRWVGRTljTmpsZnNMVkxXU0x5VDFISVc1bW9TWjR4ZEJjWHA0eGU5ZnJFRUdvOG44YzNjUzdZa0ZxeTdOU25DTkFhQTdkRWFqWmxtTHhkTzNaREZLQXpTNnc?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-17T15:17:08+00:00"
     },
     {
      "title": "Mosca-de-estábulo avança no inverno e causa prejuízo a pecuaristas no interior de SP",

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-18T05:22:29+00:00",
+ "generated_at": "2026-08-18T06:32:27+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-18T05:22:21+00:00",
+   "updated_at": "2026-08-18T06:32:20+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1225.0,
+     "price": 1224.25,
      "prev_close": 1201.0,
-     "change_pct": 2.0,
+     "change_pct": 1.94,
      "closes": [
       1226.0,
       1219.5,
@@ -33,16 +33,16 @@
       1168.25,
       1173.75,
       1201.0,
-      1225.0
+      1224.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 490.75,
+     "price": 491.0,
      "prev_close": 465.0,
-     "change_pct": 5.54,
+     "change_pct": 5.59,
      "closes": [
       449.5,
       452.75,
@@ -65,16 +65,16 @@
       448.0,
       459.0,
       465.0,
-      490.75
+      491.0
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 321.6,
+     "price": 321.5,
      "prev_close": 312.1,
-     "change_pct": 3.04,
+     "change_pct": 3.01,
      "closes": [
       323.5,
       326.7,
@@ -97,16 +97,16 @@
       309.9,
       308.7,
       312.1,
-      321.6
+      321.5
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.06,
+     "price": 70.93,
      "prev_close": 71.44,
-     "change_pct": -0.53,
+     "change_pct": -0.71,
      "closes": [
       74.68,
       74.3,
@@ -129,16 +129,16 @@
       68.67,
       69.05,
       71.44,
-      71.06
+      70.93
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 688.0,
+     "price": 687.0,
      "prev_close": 674.75,
-     "change_pct": 1.96,
+     "change_pct": 1.82,
      "closes": [
       674.0,
       678.0,
@@ -161,16 +161,16 @@
       652.75,
       674.75,
       674.75,
-      688.0
+      687.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.5,
+     "price": 91.65,
      "prev_close": 90.87,
-     "change_pct": 0.69,
+     "change_pct": 0.86,
      "closes": [
       89.22,
       91.01,
@@ -193,7 +193,7 @@
       87.07,
       88.52,
       90.87,
-      91.5
+      91.65
      ]
     },
     {
@@ -232,7 +232,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-18T05:22:21+00:00",
+   "updated_at": "2026-08-18T06:32:20+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -243,7 +243,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-18T05:22:25+00:00",
+   "updated_at": "2026-08-18T06:32:23+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -404,8 +404,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-18T05:22:29+00:00",
+   "updated_at": "2026-08-18T06:32:27+00:00",
    "items": [
+    {
+     "title": "O paradoxo da soja - Estadão",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BSDBOODVzWHZsaXk1Qms3OWowZk1lLWVGN2M1V2ozdjByN2ZjMktKb3ZXbUtvN2dmdlhubm9WYXFCSzhiaFozZl9zMDFLS0lVVUlDV1BiNGVIMFNVWFR1ZG9PTks?oc=5",
+     "source": "Estadão",
+     "published_at": "2026-08-18T06:01:00+00:00"
+    },
+    {
+     "title": "Limões 'alienígenas' intrigam produtora; entenda o que causa a deformação",
+     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/18/limoes-alienigenas-intrigam-produtora-entenda-o-que-causa-a-deformacao.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-18T06:00:18"
+    },
     {
      "title": "SOJA E TRIGO: confira os preços dos grãos nesta terça-feira (18) - brasil61.com",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb0pLQlllSlhRVld5dnVHSWdsd3R0aFBxREptTkI0WDhqRjladXNyRlVrZjNwWnllR0hZc29xOC1CMmcwZ0RHNVpBWkFuckZnTXpteEM2WlpvZlZvSkd3aG5qTU03cUJOX05qZ3U1SE5WZ0dId2haRWdYaW1nNHMtbUF0Sk1xVFN5ZjlFZlo2M2Z2YTNpZzExVTZwd9IBoAFBVV95cUxQTGoxN19WQ241YzMzNjM5bnhwTWlaWWZYX2tRX3lxeDBwc2RVYlpRU2h0TnliVktnRXFrOUpuOU9yQzVONDBzT2VUS2xCZ0ZFeUFwRDVUUUZhVGJyNENKNVdDaWliUC1pM3VmY0doX0NaUlBaNzVmMFk5YmpWSXVYY1RLYnZaTFFwRzByZ1dJMzg0Q05VNEoybTI0VEkwaC0t?oc=5",
@@ -497,22 +509,16 @@
      "published_at": "2026-08-17T21:01:00+00:00"
     },
     {
-     "title": "USDA reduz novamente classificação da soja e do milho nos EUA - noticiasagricolas.com.br",
+     "title": "USDA reduz novamente classificação da soja e do milho nos EUA - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZzlrbUJNMFNLOTRicE1maDg3Nnl4SXNHMGVHNDVSa0FfemhxM2lqdDd2aVRWUVZjTmxydUlLRzZHVDYxeE1TTFJRREVWLWRiRVMyVHhIdTM5bUpxeHcxTnZHZGEtSlpoM213QVN4T1NMOXJTc3FUSXNEZnJ5VVRoOTBnU0JES1hxYWV6bnR5bF9YVjNlYVQwbGh1LWM5YzhhUjFVbWZwaHRKTGp2emtObkpYLV9vRTJuSUhGOXBWc21md9IBxwFBVV95cUxQV3hhZVFNQllscjluSGlsUXlNTWdkM2ZfeWdCcVA1XzdPMDFvdVlJSkQ1Sk1zSTdtOUlzMUt1RlBZSjFUc0lxR211TFV2VVl3d2hDR2pIY2FnWDlVYkxCZl9KZTdjak9HMWh1OC1GbEhQUFZubnBUTzVlbGN2OWRqTWUyeUpXOXIzR19IT3lPbDV1blJUc09tVWt5YXRzX2xnd0Vfam5HaFk3TmprdHJIaEFSbjBwa3RreE0xc0lkNVNEa0ptWXdV?oc=5",
-     "source": "noticiasagricolas.com.br",
+     "source": "Notícias Agrícolas",
      "published_at": "2026-08-17T20:28:58+00:00"
     },
     {
-     "title": "Soja dispara em Chicago com inundações e tempestades nos EUA e preços sobem no Brasil - noticiasagricolas.com.br",
+     "title": "Soja dispara em Chicago com inundações e tempestades nos EUA e preços sobem no Brasil - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPb21fekl6V255VXBOMVR2RmllMmhpX0RrSEFPbUd5VlFoT1NLTVZrRmtIODZaZEowellKc19udjg5aDVPZDJLZ05RdnB5M3FiUlZjVHBzWmtQNzJkdjE0UEU4X2t2bWEzcVZWclk5dm5KdGtoYlJQU2xEU0syc29kZk53VUp1SmltNm1lY012OGZJV3owZVNQdzNJVkFaUWxKMFlBYW96Q3dDNEkxdGZpNU5VdlQwSGYyQTEtRkZVTmhZM2p5X2g2M0NkRDhRdmxtRFJ1TF9yT2VLMnBaYWYw0gHkAUFVX3lxTE9yYl9qTldMU1c5QXU0ZHBlcUZVY0tYV3puTXVNMEdZaXZXRkRwZVlCSUw0bFkxOEMtQ0dBN2FNWHRuYlE2VW4wQTZ5czBFT29hMlhkSjhYYWV5ZnZRckl6MnRfUkpTbVBYNHhTVXNyRTRLbnJEeUp0V1hjZzFFaW44Uy1FQWxxWlExeEo4bUpWVHVCZkxxQmZUTnBJeUt1UWlhbHcwVkw0QktFUHV5QWI2M1R0MlVtVmlMUnR3aUZOb3RkNGpiSjVjWGduUmRQSTZ1cWY0aWZqaEZHeDBFenhEb21LdQ?oc=5",
-     "source": "noticiasagricolas.com.br",
+     "source": "Notícias Agrícolas",
      "published_at": "2026-08-17T19:55:30+00:00"
-    },
-    {
-     "title": "Soja: dessecação antecipada ajuda a reduzir plantas daninhas - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV0ZRNllaaUJmVExFNkdFTkRhbFFFTFppWFhnQ1VXOWhSNDlqY0hXMm96ZFRqakdTWDNDMk56bW1sSWZzSGdMbU1YV2EtRG5PTVlnSVFDb0tTaHY4NkxUVjFNSWh1RlA1SUhGeUlQVW9qc09EcnFERU4zM0tJUUc5R3BxRXpTSVJjcXNxQ2ZicDNyMWthX3JGcGZJbV8zdEd3aUR3bV93aGtGQmluaFE?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-17T19:27:00+00:00"
     },
     {
      "title": "Soja sobe quase 2% em Chicago com novas compras da China nos EUA - CNN Brasil",
@@ -579,12 +585,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/14/peixes-tem-impressao-digital-que-revela-de-onde-vieram-mostra-estudo-entenda.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-14T06:00:47"
-    },
-    {
-     "title": "Como o super El Niño pode afetar a América Latina, principal região exportadora de alimentos do mundo",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/14/como-o-super-el-nino-pode-afetar-a-america-latina-principal-regiao-exportadora-de-alimentos-do-mundo.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-14T06:00:13"
     }
    ],
    "failed": [

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-18T22:16:09+00:00",
+ "generated_at": "2026-08-18T23:16:24+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-18T22:16:01+00:00",
+   "updated_at": "2026-08-18T23:16:14+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.31,
+     "price": 91.37,
      "prev_close": 90.87,
-     "change_pct": 0.48,
+     "change_pct": 0.55,
      "closes": [
       89.22,
       91.01,
@@ -193,7 +193,7 @@
       87.07,
       88.52,
       90.87,
-      91.31
+      91.37
      ]
     },
     {
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-18T22:16:02+00:00",
+   "updated_at": "2026-08-18T23:16:14+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-18T22:16:06+00:00",
+   "updated_at": "2026-08-18T23:16:20+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,8 +405,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-18T22:16:09+00:00",
+   "updated_at": "2026-08-18T23:16:24+00:00",
    "items": [
+    {
+     "title": "Preço do boi gordo atinge R$ 335 em diversas praças do Brasil",
+     "link": "https://www.canalrural.com.br/videos/preco-do-boi-gordo-atinge-r-335-em-diversas-pracas-do-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T23:05:08+00:00"
+    },
+    {
+     "title": "Margem do diesel nos EUA bate recorde e ações de refinarias avançam em Nova York",
+     "link": "https://www.canalrural.com.br/economia/margem-do-diesel-nos-eua-bate-recorde-e-acoes-de-refinarias-avancam-em-nova-york/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T22:41:45+00:00"
+    },
+    {
+     "title": "Exportação de carne suína de Goiás cresce 15,3% no primeiro semestre",
+     "link": "https://www.canalrural.com.br/aves-e-suinos/exportacao-de-carne-suina-de-goias-cresce-153-no-primeiro-semestre/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T22:33:01+00:00"
+    },
     {
      "title": "Boi gordo: arroba segue em declínio devido a escalas de abate confortáveis",
      "link": "https://www.canalrural.com.br/pecuaria/boi-gordo-arroba-segue-em-declinio-devido-a-escalas-de-abate-confortaveis/",
@@ -490,24 +508,6 @@
      "link": "https://www.canalrural.com.br/agricultura/colheita-de-cafe-avanca-para-81-na-area-da-expocacer/",
      "source": "Canal Rural",
      "published_at": "2026-08-18T19:27:20+00:00"
-    },
-    {
-     "title": "Lula e Davi Alcolumbre discutem pautas prioritárias do governo",
-     "link": "https://www.canalrural.com.br/videos/lula-e-davi-alcolumbre-discutem-pautas-prioritarias-do-governo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T19:15:21+00:00"
-    },
-    {
-     "title": "Congresso da aviação agrícola discute inovações e desafios do setor",
-     "link": "https://www.canalrural.com.br/videos/congresso-da-aviacao-agricola-discute-inovacoes-e-desafios-do-setor/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T19:15:08+00:00"
-    },
-    {
-     "title": "Mato Grosso conclui colheita de milho com produtividade recorde",
-     "link": "https://www.canalrural.com.br/videos/mato-grosso-conclui-colheita-de-milho-com-produtividade-recorde/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T19:05:51+00:00"
     },
     {
      "title": "Soja avança em Chicago com dados pessimistas sobre a safra nos EUA - Globo Rural",

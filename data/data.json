@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-19T04:30:40+00:00",
+ "generated_at": "2026-08-19T05:23:23+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-19T04:30:34+00:00",
+   "updated_at": "2026-08-19T05:23:16+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1223.5,
+     "price": 1223.0,
      "prev_close": 1200.75,
-     "change_pct": 1.89,
+     "change_pct": 1.85,
      "closes": [
       1226.0,
       1219.5,
@@ -34,16 +34,16 @@
       1173.75,
       1201.0,
       1200.75,
-      1223.5
+      1223.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 489.5,
+     "price": 489.75,
      "prev_close": 463.25,
-     "change_pct": 5.67,
+     "change_pct": 5.72,
      "closes": [
       449.5,
       452.75,
@@ -67,16 +67,16 @@
       459.0,
       465.0,
       463.25,
-      489.5
+      489.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 319.7,
+     "price": 319.8,
      "prev_close": 313.0,
-     "change_pct": 2.14,
+     "change_pct": 2.17,
      "closes": [
       323.5,
       326.7,
@@ -100,16 +100,16 @@
       308.7,
       312.1,
       313.0,
-      319.7
+      319.8
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 69.9,
+     "price": 69.88,
      "prev_close": 69.69,
-     "change_pct": 0.3,
+     "change_pct": 0.27,
      "closes": [
       74.68,
       74.3,
@@ -133,16 +133,16 @@
       69.05,
       71.44,
       69.69,
-      69.9
+      69.88
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 683.25,
+     "price": 683.5,
      "prev_close": 664.5,
-     "change_pct": 2.82,
+     "change_pct": 2.86,
      "closes": [
       674.0,
       678.0,
@@ -166,16 +166,16 @@
       674.75,
       674.75,
       664.5,
-      683.25
+      683.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.64,
+     "price": 91.54,
      "prev_close": 91.02,
-     "change_pct": 0.68,
+     "change_pct": 0.57,
      "closes": [
       89.22,
       91.01,
@@ -199,7 +199,7 @@
       88.52,
       90.87,
       91.02,
-      91.64
+      91.54
      ]
     },
     {
@@ -239,7 +239,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-19T04:30:34+00:00",
+   "updated_at": "2026-08-19T05:23:16+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -250,7 +250,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-19T04:30:38+00:00",
+   "updated_at": "2026-08-19T05:23:20+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -411,7 +411,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-19T04:30:40+00:00",
+   "updated_at": "2026-08-19T05:23:23+00:00",
    "items": [
     {
      "title": "Petrobras anuncia descoberta de petróleo na Foz do Amazonas",
@@ -534,9 +534,9 @@
      "published_at": "2026-08-18T13:48:00+00:00"
     },
     {
-     "title": "Manejo adequado pode reduzir impactos do El Niño sobre a soja na safra 2026/2027 - Embrapa",
+     "title": "Manejo adequado pode reduzir impactos do El Niño sobre a soja na safra 2026/2027 - embrapa.br",
      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTFAtS1otaTdJQ2lIWHgwTk9lU1JmZlNDV2ZTclNWOW9RSVh4Ty1wcWJ0M1gwcVNGTkg4bHVPRHVrN0FBc18yRXF1S2wya1FDWV9FWGVwaU03WW1BYWd2T2JyUTUxeGVfWTZZVkUzalZtQmtZeC1TeWRlYk1GZ3NnNUZRWE1lUkJoVV9DMWJYRFY0SFJnMldyVWlMUG4wd3pPSmQ2eWxTaWNwY0NRR0VvUlBWdmp2MmJNbHdzcFY0YXB2aE43OVh3S1M5emhiOUl2R0lfdDN2SQ?oc=5",
-     "source": "Embrapa",
+     "source": "embrapa.br",
      "published_at": "2026-08-18T09:08:44+00:00"
     },
     {

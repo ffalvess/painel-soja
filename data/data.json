@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-19T07:32:50+00:00",
+ "generated_at": "2026-08-19T08:29:23+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-19T07:32:24+00:00",
+   "updated_at": "2026-08-19T08:29:15+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1225.0,
+     "price": 1224.5,
      "prev_close": 1200.75,
-     "change_pct": 2.02,
+     "change_pct": 1.98,
      "closes": [
       1226.0,
       1219.5,
@@ -34,16 +34,16 @@
       1173.75,
       1201.0,
       1200.75,
-      1225.0
+      1224.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 491.0,
+     "price": 490.25,
      "prev_close": 463.25,
-     "change_pct": 5.99,
+     "change_pct": 5.83,
      "closes": [
       449.5,
       452.75,
@@ -67,16 +67,16 @@
       459.0,
       465.0,
       463.25,
-      491.0
+      490.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 319.6,
+     "price": 319.8,
      "prev_close": 313.0,
-     "change_pct": 2.11,
+     "change_pct": 2.17,
      "closes": [
       323.5,
       326.7,
@@ -100,16 +100,16 @@
       308.7,
       312.1,
       313.0,
-      319.6
+      319.8
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.0,
+     "price": 70.02,
      "prev_close": 69.69,
-     "change_pct": 0.44,
+     "change_pct": 0.47,
      "closes": [
       74.68,
       74.3,
@@ -133,16 +133,16 @@
       69.05,
       71.44,
       69.69,
-      70.0
+      70.02
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 685.75,
+     "price": 683.75,
      "prev_close": 664.5,
-     "change_pct": 3.2,
+     "change_pct": 2.9,
      "closes": [
       674.0,
       678.0,
@@ -166,16 +166,16 @@
       674.75,
       674.75,
       664.5,
-      685.75
+      683.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.79,
+     "price": 91.52,
      "prev_close": 91.02,
-     "change_pct": 0.85,
+     "change_pct": 0.55,
      "closes": [
       89.22,
       91.01,
@@ -199,7 +199,7 @@
       88.52,
       90.87,
       91.02,
-      91.79
+      91.52
      ]
     },
     {
@@ -211,15 +211,12 @@
      "change_pct": -0.27,
      "closes": [
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -239,7 +236,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-19T07:32:24+00:00",
+   "updated_at": "2026-08-19T08:29:15+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -250,7 +247,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-19T07:32:46+00:00",
+   "updated_at": "2026-08-19T08:29:20+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -411,8 +408,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-19T07:32:50+00:00",
+   "updated_at": "2026-08-19T08:29:23+00:00",
    "items": [
+    {
+     "title": "Barretos em números: veja o tamanho da estrutura que recebe a Festa do Peão",
+     "link": "https://www.canalrural.com.br/feiras-e-eventos/barretos-em-numeros-veja-o-tamanho-da-estrutura-que-recebe-a-festa-do-peao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T08:03:00+00:00"
+    },
     {
      "title": "Manejo antecipado para reduzir impactos do El Niño na soja - mundial.fm.br",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd0NQUlVVTzQ2dUZsWF9Tb3FPZnNadXRlVUlTdTlycm1qVFpNeG5YMURNZXB2eUhTS3ZJcXVFOWpLSUFxdnlhNlB1eEpWU3ljeXBtbVdvb0pEcGlTWjNpR1QtNzNrNTBMQVZEdGdfV1VLXzdtRk5VVUlvZXhkZWRxc2huR2oyTHNI?oc=5",
@@ -498,12 +501,6 @@
      "published_at": "2026-08-18T21:36:00+00:00"
     },
     {
-     "title": "Demanda por diesel e biodiesel deve registrar novos recordes em 2027, estima StoneX",
-     "link": "https://www.canalrural.com.br/agricultura/demanda-por-diesel-e-biodiesel-deve-registrar-novos-recordes-em-2027-estima-stonex/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T21:23:35+00:00"
-    },
-    {
      "title": "El Niño aumenta riscos para a soja na safra 26/27; veja como se preparar - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR3E5ZkVrWGlVMG1JSU1FUnFNY25HV2diYzdZNmdkeGhFZHA1UUNUdDh2VjcwQVQ3czJRUGxDVTVMZC1nMUpRWnFQaEFIZzc0MTdfUkE3Q0JtQlpkc2JmVnJrUDd2WEFDTnVxQ0p4ajF3VnNwV0VEaHctQ09GWS00anVoeTMybFlkczdQZE02UDI2a1I1ZjhOWnVfQU11bkp6N2U0WXlkdG1odFotbkJTa25Lamw?oc=5",
      "source": "Canal Rural",
@@ -522,9 +519,9 @@
      "published_at": "2026-08-18T20:05:17+00:00"
     },
     {
-     "title": "Soja avança em Chicago com dados pessimistas sobre a safra nos EUA - globorural.globo.com",
+     "title": "Soja avança em Chicago com dados pessimistas sobre a safra nos EUA - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY2hvVWp1ZmdWUWNueEV2cFVhbERPVFBFd0hrdnkwY3EzOUpMb2ZsX1hMaGk3RmNZejVPbG1iY3FjaThSVlU5VU9pVjhFMFRnNzB5QnlNamxtR2JlN0hPaElsNjg0Ui1odnVERDgwRVBralBHQ1FoVUpkQUpVUC02Tml0a0JpTEIyaWdRbUc2TnByYWwyUjhOS0U1YURWUV9pVWdiTmEzc2pOZ1BaeDRjZ0J0TFlnS2hma3N2N3hGRzFUanJo0gHTAUFVX3lxTE1qdlMtaW50aURZc21hejB4aTlHdGMtYzZhQzc2TFRSMjMxcno2WXo0clR5bzQxVGV0dWlaeVFHWUthQlI2UEVUVGpDVzJ4dG9hWTE1djFjak5hVUp1MlFwMzZ1cEhBYmVrV0kzMktYdHk2YUtNWUNYVkJwNmctZk5BcC1KUl9pREQ2dXk2RmpzS1JrT1RPQnFIa3g1NmVSRWJ2QjJCWFJOSG9JMjVHTV9YUnBHNEpBel8wZVF3YnNyeXkxejJRQjRwWV9NQ01uc1o4czA?oc=5",
-     "source": "globorural.globo.com",
+     "source": "Globo Rural",
      "published_at": "2026-08-18T18:45:08+00:00"
     },
     {
@@ -534,9 +531,9 @@
      "published_at": "2026-08-18T17:19:58+00:00"
     },
     {
-     "title": "Esmagamento de soja em Mato Grosso bateu recorde em julho - globorural.globo.com",
+     "title": "Esmagamento de soja em Mato Grosso bateu recorde em julho - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON1ZrZEJUMTFDMmdqZ3lRQmJpd3FGM2E0YThFd2ZKNmZlRjUyYV9SYkpkVFFVa2s3VzlLY3FCMW1XaWx0R1dzSVVjVXQ4SEFmNXFEaDJaUUp2QmtjLWhJbXZNTXFOc3RRUjRXX3l6SFZfYUxCNnNVYW5mbVJfd3FvS0JfVkFjYlI2VTJQTXd2MVBOeTBUVUJEUldqV3FtTEVpRUhVSnVyTHRZc0YxMU9FMG9SeXRmMXR1RlY2WjhQSUI0SUHSAdIBQVVfeXFMUDVkSjBRWk1RVXlxa3JLTlF2Q2pRc19XaFctbHZvbHBVT2VZZnpDQkc1VUhLSzRVUldFNTJIMGU3Yk5CY1lLdFZvZ3l6TVhhcnJKVVJER0toSXNHZW16Q1pzQmVfOVh0VlBqRy1RZkdhbXRtZlMwZDR2VjBsOGFjczlUWHMzX1MtOHZ4QkJVVUcxUnpqOHNuRmU4Q0ZFUEcwRHNmaE41QUQ0M2UzeE5ZdFJBTVl0ZzdoeEFzRkRWcjh5X3FtaVBrams5VTlIYy1UQzdn?oc=5",
-     "source": "globorural.globo.com",
+     "source": "Globo Rural",
      "published_at": "2026-08-18T17:18:00+00:00"
     },
     {

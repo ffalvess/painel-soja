@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-19T22:18:00+00:00",
+ "generated_at": "2026-08-19T23:17:05+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-19T22:17:49+00:00",
+   "updated_at": "2026-08-19T23:17:00+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -173,9 +173,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.6,
+     "price": 91.63,
      "prev_close": 91.02,
-     "change_pct": 0.64,
+     "change_pct": 0.67,
      "closes": [
       89.22,
       91.01,
@@ -199,7 +199,7 @@
       88.52,
       90.87,
       91.02,
-      91.6
+      91.63
      ]
     },
     {
@@ -211,15 +211,12 @@
      "change_pct": 0.9,
      "closes": [
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -240,7 +237,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-19T22:17:50+00:00",
+   "updated_at": "2026-08-19T23:17:00+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -251,7 +248,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-19T22:17:56+00:00",
+   "updated_at": "2026-08-19T23:17:03+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -412,8 +409,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-19T22:18:00+00:00",
+   "updated_at": "2026-08-19T23:17:05+00:00",
    "items": [
+    {
+     "title": "Arroba do boi gordo: confira como o mercado fechou em 9 estados",
+     "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-confira-como-o-mercado-fechou-em-9-estados/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T22:30:32+00:00"
+    },
     {
      "title": "Artigo: Pequenos insetos, grandes prejuízos: primeiro registro de tripes-praga da soja é identificado no Acre - Embrapa",
      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNSlE3amdKeFFhZDNOM28zNVE0ZGE2bzZibUZ1NXo3Yy1ackFVem1MT2JNY3VkZWRkYmVLVFZKQWJPTmxjNmhCRHNtMGs5aURJRzRMRHVWMFFZT1lJdGIxYU5VMGlSaUo1SFpvNWxLMlhtekpkbnFvaFZMaGtXOEwxazh1RjFVYzluVGhYZVZEdnZkMWN0OW9wZVdvbnVnb0kzbmxPckp0aHpUNjZQaHYzY05oRTdKTnZnZ18xRGh6aEM3S1VHT2ZmMXZuZ1FYZmZDRGxCVExYM1gzWG9qVFpGYlpiMy10OXZyOHktelRpWHBsS3VtOTBYYnhPYw?oc=5",
@@ -503,12 +506,6 @@
      "link": "https://www.canalrural.com.br/seguranca/fiscais-apreendem-217-toneladas-de-fertilizantes-adulterados-avaliados-em-r-645-mil/",
      "source": "Canal Rural",
      "published_at": "2026-08-19T19:32:21+00:00"
-    },
-    {
-     "title": "Mapa e CFMV firmam acordo de cooperação para ações no Suasa",
-     "link": "https://www.canalrural.com.br/politica/mapa-e-cfmv-firmam-acordo-de-cooperacao-para-acoes-no-suasa/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T19:28:53+00:00"
     },
     {
      "title": "Soja dispara em Chicago e fecha 4ª feira com mais de 1% de alta com chuvas nos EUA e dados do Pro Farmer - Notícias Agrícolas",

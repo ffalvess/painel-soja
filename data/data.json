@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-19T14:26:18+00:00",
+ "generated_at": "2026-08-19T15:24:23+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-19T14:26:10+00:00",
+   "updated_at": "2026-08-19T15:24:17+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1234.5,
+     "price": 1238.25,
      "prev_close": 1200.75,
-     "change_pct": 2.81,
+     "change_pct": 3.12,
      "closes": [
       1226.0,
       1219.5,
@@ -34,16 +34,16 @@
       1173.75,
       1201.0,
       1200.75,
-      1234.5
+      1238.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 494.75,
+     "price": 495.25,
      "prev_close": 463.25,
-     "change_pct": 6.8,
+     "change_pct": 6.91,
      "closes": [
       449.5,
       452.75,
@@ -67,16 +67,16 @@
       459.0,
       465.0,
       463.25,
-      494.75
+      495.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 321.2,
+     "price": 323.4,
      "prev_close": 313.0,
-     "change_pct": 2.62,
+     "change_pct": 3.32,
      "closes": [
       323.5,
       326.7,
@@ -100,16 +100,16 @@
       308.7,
       312.1,
       313.0,
-      321.2
+      323.4
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.45,
+     "price": 70.6,
      "prev_close": 69.69,
-     "change_pct": 1.09,
+     "change_pct": 1.31,
      "closes": [
       74.68,
       74.3,
@@ -133,16 +133,16 @@
       69.05,
       71.44,
       69.69,
-      70.45
+      70.6
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 698.25,
+     "price": 696.5,
      "prev_close": 664.5,
-     "change_pct": 5.08,
+     "change_pct": 4.82,
      "closes": [
       674.0,
       678.0,
@@ -166,16 +166,16 @@
       674.75,
       674.75,
       664.5,
-      698.25
+      696.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.67,
+     "price": 92.12,
      "prev_close": 91.02,
-     "change_pct": 0.71,
+     "change_pct": 1.21,
      "closes": [
       89.22,
       91.01,
@@ -199,16 +199,16 @@
       88.52,
       90.87,
       91.02,
-      91.67
+      92.12
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 170015.5,
+     "price": 169299.56,
      "prev_close": 166335.0,
-     "change_pct": 2.21,
+     "change_pct": 1.78,
      "closes": [
       173371.0,
       173326.0,
@@ -232,7 +232,7 @@
       166934.0,
       166784.0,
       166335.0,
-      170015.5
+      169299.5625
      ]
     }
    ],
@@ -240,7 +240,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-19T14:26:11+00:00",
+   "updated_at": "2026-08-19T15:24:17+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -251,7 +251,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-19T14:26:15+00:00",
+   "updated_at": "2026-08-19T15:24:20+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -412,8 +412,56 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-19T14:26:18+00:00",
+   "updated_at": "2026-08-19T15:24:23+00:00",
    "items": [
+    {
+     "title": "El Niño pode ser o mais forte desde 1950 e amplia risco para soja e café no Brasil - MundoCoop",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcmNqOUo1MUgzeWZFaTVJNFd1bVV2cFJfcFNtdzhsSWVKT1o1emwwT1V6aC1GbkFrR092dUdzaDU0cndORU1iT0NVWUxmNjNDNjBnanpBT2d1eUlXVXRqZlRRdlJLUXZOaWhPdlBXMlVBaEN5SGhyQTFDQVNwekpqakJFOEVHOWNzNXpQV1JQd0U2VjVDYkhsYmRhcXl1U0k2dndhQlNSWVlsdHJWZV9mV3FMQmdLbzYyMTJrag?oc=5",
+     "source": "MundoCoop",
+     "published_at": "2026-08-19T15:20:03+00:00"
+    },
+    {
+     "title": "Safra 2026/27 de café inicia com ritmo acelerado, mas chuvas ainda limitam a oferta",
+     "link": "https://www.canalrural.com.br/agricultura/cafe/safra-2026-27-de-cafe-inicia-com-ritmo-acelerado-mas-chuvas-ainda-limitam-a-oferta/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T15:09:21+00:00"
+    },
+    {
+     "title": "Vinhos chilenos apostam em rótulos leves e sustentáveis no Brasil",
+     "link": "https://www.canalrural.com.br/videos/vinhos-chilenos-apostam-em-rotulos-leves-e-sustentaveis-no-brasil-2/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T15:05:11+00:00"
+    },
+    {
+     "title": "CNA defende exportação de bovinos vivos em reunião no Mapa",
+     "link": "https://www.canalrural.com.br/pecuaria/cna-defende-exportacao-de-bovinos-vivos-em-reuniao-no-mapa/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T15:04:20+00:00"
+    },
+    {
+     "title": "Menos milho no estoque, mais soja disponível: o que mudou no mercado dos grãos - O Presente Rural",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbjlaZll6WkFXVUlnel9wekUxMkxzUnhCcXNnbXFDMlFDbmdFU1MxWTN3SUhrLXhGM1JHT2JuN0Y5dmp0OWUzNm5FTlVURkc0TDN2Vi1zd0xnV2pNdVRUUkNWcWVlSW5RcHNYU0w2ZnVhZzNLQmF5bEEyVlBialYwQTc2cW9ERDlHZE5QUGZGYUoxdlBkUTRNeFFpMW5qMEJJVS1QcEd3UXZ0N0k?oc=5",
+     "source": "O Presente Rural",
+     "published_at": "2026-08-19T14:58:32+00:00"
+    },
+    {
+     "title": "Petróleo puxa nova alta da soja na bolsa de Chicago - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQXphQnFsRl9RLVNsNC0yU0pQRXA4bVRGdzc3LXpibXk4U203U2tpNEl6eHBmN0Fuc2FqTjl5Ykl4alNzZmEtZ09LbnlKS1RydmhjZFh5NGFoTjdZRzIyakRtTEQxbkY3WXN5QUhleDJXNGh1UlRqcm4wbk53X3RnWnhmZjRTTU81ZTIxY3VVR0Z3Q1VXbXM4YzJOZ0RHLXhpZ1pnWUg4Y1hId05yNHRic9IBvwFBVV95cUxPSm9BNWROSHdHdDNJdG1ZOHRZX1lRbTlsaGhwX1NKOWxLR0ZvN1RQaUpVUkY4RkpleTZYRGtLMEllODZxSEJyNlllN3hacXp0Y0RnckpPRER6Z3NBbDRwY0N5QjhXbVZuWGpIWV9naDVzSy1TSmN0WlVpa0RweHdQVUpfV1Btcm5STnUwRXZKTkVucDloc0hIY3prTjZPZXI3d1BuVmNHM2pyak9ZaW13TXFTbkJmTjBOcUJWS3VqYw?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-19T14:33:46+00:00"
+    },
+    {
+     "title": "Soja sobe em Chicago, mas queda do dólar limita preços e trava negócios no Brasil - Portal do Agronegócio",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOXzg1UnFObU5GUlBaeTJaTTIzQ0gwakpLSS1sZXBzZzdNS3NQOGlGT21YNFpPQmozc2V2RFZfZFZxandJNU9yTkNKSE9aeGVScHE1TnlydWdLN01zRnlEaUVJV1BHdUM3VE9YLUdIUEEtaFJXQ3R4dUViWmYxRjJuN1ktUTRBczEwTkEtNjZhZWxwOEJ3SXFYOE1tTWpuQm5Jakw0M3Y4cVhoTTJIanNaVU1RYmh2VGx1NnZtNDV4T05PNDJ4OGFYcHNPVDJkUHFvSW1CaGtBRzBDOHM3OXc?oc=5",
+     "source": "Portal do Agronegócio",
+     "published_at": "2026-08-19T14:30:00+00:00"
+    },
+    {
+     "title": "Anec corta previsão para exportação de soja em agosto e eleva a de milho - UOL Notícias",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQWdJQi11YnFJeDlZOHNQd2lyM1ByOVkyeDFUWlNmWG03MzMyNU9McTBNQk9waDVRUHlFbHhraGlSYUo0VkRrRXhjT2g5TEp2eTI5SUJPcVlUNkUwd3BqVWhxQUJKcllORUlJeFdiY2E1M05pYkd2MUtVVnF1NTQtR2dOaVdFTk9tbktQY0FXeWNSXzNhVE5TUGtPNC0tR25iajhBVXRESXpIdVg0azd2cV9fbUZiakZtckVDNVhaU0lJYTMtT3FPRnhkd2VRQjctYlFtTEtMNWxjY3d0NWU3Zg?oc=5",
+     "source": "UOL Notícias",
+     "published_at": "2026-08-19T14:24:00+00:00"
+    },
     {
      "title": "Abate de bovinos e suínos cresce no 2º trimestre, e o de frangos recua ante o 1º trimestre",
      "link": "https://www.canalrural.com.br/pecuaria/abate-de-bovinos-e-suinos-cresce-no-2o-trimestre-e-o-de-frangos-recua-ante-o-1o-trimestre/",
@@ -439,12 +487,6 @@
      "published_at": "2026-08-19T13:01:00+00:00"
     },
     {
-     "title": "Conab amplia venda de insumos para alimentação animal - Campo Grande News",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOclZYSzBPZ05NR0V2cEsyTVRrUm1ULTF4bUlBcTEtXzV0UWpFNGdNbElUOFhFYXVPUk5FT1YzWENBUXFKakpMQXprdVV0dnEwMXVCSGhKS3dDMmdQRWsyamttZkVMaDdtZ1JEUmNtYkxUTmxDMXJwWTFBaU9BUUV5SWhLNmtqUzByeHdYbzZLci1idVZ2aWhFTy0zN1pQbmZwME9qaVB4X2tjUktMSl9IOVlCY1ZRdDjSAbcBQVVfeXFMT2tJSmgwWUhWcTJ1QlJlclFfMm9IVGRsdTZWcHZXN0V4NXFIQ2FMOUJxdlg1R3FTVEJ4a1ZneDJIc1ZYTUtVU1R3UEVmQ2hHNnhfSVpPMzFKcVBzbzZBVkVKSlNsajBYR0N5dkRYT00ycjRCRlR0SUdBdl9kZERiSlZyeU1MTjgwTUJFanJFZXRDNWpZVUlhc3d5dHlVMGhwOFBHbUI1ZWxKNUNtSzcwdVdhaVJmcmNv?oc=5",
-     "source": "Campo Grande News",
-     "published_at": "2026-08-19T13:00:00+00:00"
-    },
-    {
      "title": "Dólar abre em queda ante o real com foco na ata do Fed",
      "link": "https://www.canalrural.com.br/economia/dolar-abre-em-queda-ante-o-real-com-foco-na-ata-do-fed/",
      "source": "Canal Rural",
@@ -463,34 +505,16 @@
      "published_at": "2026-08-19T12:41:58+00:00"
     },
     {
-     "title": "VBP projeta que faturamento com soja, milho e bovinos atinja R$ 1,39 trilhão em 2026 - RADAR DIGITAL BRASÍLIA",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMVBNZ3hhZ0RGR2hCTlN4NzRDeDh3YVZIUTFpTVZxdVhsT003YVJOanJZNmtIeWJ1bTRkVnpxSzJKN0pIQWs2eWRJQ002SHBSRWpmTkFHUFhIUFRvUjVLTHVzUlVNaFRzZDVHbmwxTXBpTnBycW5UZkJrdkFzcE1CVkp4UjdkRXRtZE9ZT1NvYm16MmVuY05meUtKZWpPYjZrNkJUNUZrYlVPdktmMEhrdjFkbTdJV3NFZ2VUN3VlN01saWM2WWxCSEF3?oc=5",
-     "source": "RADAR DIGITAL BRASÍLIA",
-     "published_at": "2026-08-19T12:36:01+00:00"
-    },
-    {
      "title": "Fórum Norte Gaúcho da Soja reúne produtores e entidades em Ipiranga do Sul - Jornal Bom Dia",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObE43N1BvYkkxaWNiMWN1YnpkX0tSR291MkxVbFNFTDk5YnZsSVRlWmFZVElzZnpka0I4ZWwxYjBhcjdPT0hzVXdnWUU3VlRWX01VNkxpSXU0RnZIUmF4dEF4SFM4UzdOT0FySm5YNllZZ084MnFrdmJFVzItdjhNLThMLXFfcnBaYnVfbzZGNWJlVEtfQ2RMNXZtQmh5NkhRRnZRdUpIUk0zUkhuaHVoS203bnNUNmdyZUtpTg?oc=5",
      "source": "Jornal Bom Dia",
      "published_at": "2026-08-19T12:29:00+00:00"
     },
     {
-     "title": "Soja fecha em alta em Chicago apoiada por demanda chinesa e ProFarmer - Agrimidia",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOV0dSVVlVT1M4ZGNVNFVweE5jbUE1OURXM0RkNGstMXlMWlNSV3FzQnVJdl91eGN6WkkxajZYVXBQNE02cUFlclVrZWItS193RDhwRHlKV3hfSEJjbW43U25hY0hDMVVUa3hzeWV3R0FybmF5R3NkZkUyWFNzUEhOT1N4a2RudFI4YlA1ZXJjci15NHNlSTNzalhOSmJHZnVTa3YxS2FTZDZpNXQ0cHlNWWtEdVBGajVUaElhTTFLR0lqWGZ5ZEJZ?oc=5",
+     "title": "Embrapa orienta manejo da soja diante dos riscos do El Niño - Agrimidia",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdjlpemFnQlZxSlFCbnNBeDl4a05wMlFRMVFnMjNwR1N6UFFtbG9lVk9WcXJuTWdDSEFhQXdoSXkwMS1hWHZPeDNxZUtvTEtwcDJRX3BMWVROZDR2ekV1SlRTQ1lua0t5SG90UXlnQlNUWG1Pel8wRHk3VVRFREtoQUExS3hZNmk5WEZhZ2l5ZGl3NXBuV29rcEVuU1B6MkhaYktpcUhCbnA3V24tMjU0UXdFLWhkdXpjSlpaTA?oc=5",
      "source": "Agrimidia",
-     "published_at": "2026-08-19T12:13:07+00:00"
-    },
-    {
-     "title": "Ciclone extratropical provoca tempestades e derruba temperaturas no Sul",
-     "link": "https://www.canalrural.com.br/diversos/ciclone-extratropical-provoca-tempestades-e-derruba-temperaturas-no-sul/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T12:09:07+00:00"
-    },
-    {
-     "title": "Acidente entre micro-ônibus e caminhão usado no transporte de porcos deixa 23 mortos no Paraná",
-     "link": "https://www.canalrural.com.br/parana/acidente-entre-micro-onibus-e-caminhao-usado-no-transporte-de-porcos-deixa-23-mortos-no-parana/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T11:59:17+00:00"
+     "published_at": "2026-08-19T12:23:19+00:00"
     },
     {
      "title": "Soja e milho: clima irregular exige mais controle no campo - Agrolink",
@@ -499,46 +523,22 @@
      "published_at": "2026-08-19T11:43:00+00:00"
     },
     {
-     "title": "Colheita do milho de inverno 2025/26 atinge 84,7% da área no País",
-     "link": "https://www.canalrural.com.br/agricultura/colheita-do-milho-de-inverno-2025-26-atinge-847-da-area-no-pais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T11:42:55+00:00"
-    },
-    {
      "title": "Soja dispara em Chicago nesta 4ª, com clima nos EUA, Pro Farmer e força dos derivados e do petróleo - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQWxqVVE2dDlMUEZUOW1XOHpIeW1fNFo4cE9BLVVxYkdvclV6LVB5bnBzMDdtZFNrTFlSdmZmMWRUckhIOS0zX2g5c1VnTjVEQjRtVFVoV1RGaHBvN0M1UDI4OENLMzBhaGdBX2Q4TVZrNFNYRHRISlpzdlVzcG9rN1hMMmRneGtCTG5kbGdUZUxwVmpjMzRvSDFhUjBVZ1o4U0xjcGZyR1N0Qk5ZOXhPT1poLXdKcUY3RXFOQnM0UnQ5UzBILUxDSF9HeURYZUhPeU1fd1ZFU2g5RFF5emQzQzd2MzJ1NXU2MnlzMEtONUbSAfYBQVVfeXFMTk44bVp3VzdTLUE2LXpjaDRzMnZ3YjFoMTdyLW5VQU1fOTQ5ZXZwOXZYclc3dFh6SHZnU3VNUk9POHNVelpaZzNlbDN5aXluWlU3dVdPLUhHNWJoTnJIY2JFazNHR0J3em4zSXFwZzVEd1Y0d2FZNlJzczhMMGhLZEloQm9WMFNmcjlfYUlQMTdNM01sV3BlaTh3cm1VZkVNRjZ4VlhoUmhZb3RWeXlfM3NSb21lY2VTV2VvMmRBaWx2aDdsUmFITzllaVZoeUtYUzdaclN3ektTY3FGRWdrMVc3ZlItdXp2YXlQaVRSZVpqTnIwbmJR?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-19T10:47:41+00:00"
     },
     {
-     "title": "Em forte alta, preço da soja ultrapassa R$ 151 em Paranaguá - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ2N3b3F3MUFJdWJ2NjRlOHZFQ3U0Y3hYZmdHcndqUUhGQzB1NjNTLUQ1YVI4bFcybmdFRVBYb2hpaldFMndxUERfT1d2cFltODhiQTYwa3RBWUJlV3ZnNzNndnUtM01NMi1DSjd0bm5qcHNUNEdRNlNBTHZwbkFHVTMxYkZmd2JrQTFmOFM3TVpwVnVuY1VFc3R4X2VUdzVKQWs0eVY5RklpRTNVeEl4M1M2NGRfaWVx0gHHAUFVX3lxTE1GRDh2ZG16eGJ0bTFaODgxS0JwTnBodmk4RXJ0M2ZyR19teXVKWFdvd2NhTnlmZ1dZZjZOV0NmX0ZJcEVnMmVFSDFOQ1NpbE9KQUVCOVdXS2FBdnUtZWhIZ0UyV2dnYkxTa0xORXRQazZ6ZGp6Vk1mTnpfdTRTU3hxQVl5TE04WEI5OW5aNUw2c1ZiRjJxbXJRNFFJUUx4UDNSLTlEc1pXWnFxTUY3MmFHUFBMTDZOV3JwTGFUZE1nVTFtaHpkeTA?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-19T09:15:08+00:00"
-    },
-    {
      "title": "Safra de soja deve ter maior custo da história em Goiás - brasilagro.com.br",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdnBlS3V4SDIyS05kZTBWQUFUcFdLT2xSQi1qV0NzU0pDVHJralJYeDFFS3BQNUstc3hxWlFsclJwRS1mWHY3ZUU5MnNHV01DZFY1WmhrWHplSmJ1c2FrdXlKRVRfRXk0M1UwaVFQeTBvcDJ4d0R3eVUtT3RzLWJDUFYxOEZrMlZaRExDNmJ0NGp6N0lFY2pfZVNNcGZ5OWRa?oc=5",
      "source": "brasilagro.com.br",
-     "published_at": "2026-08-19T08:31:25+00:00"
-    },
-    {
-     "title": "Manejo adequado pode reduzir impactos do El Niño sobre a soja - Rádio Itatiaia",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ1g3RmhMVVhpNm9GT1pRX2VraTgzcWY0R1RUemFRTDh6aUFWeHZuY1RpZm5Dc2RSVzl3R1ZxVHVsWjhQLVMwbWRSQTI4cm9xMkw0bUlxWDlaaVdsb3hxZ3VWN2xWcF8tVXBXN1F1NlVpTmNKdE4waG5reDB6OVBCWHVhZlp4Z01ETDNrWk9SR2xSMUpDb3Izczh3TQ?oc=5",
-     "source": "Rádio Itatiaia",
-     "published_at": "2026-08-19T08:03:59+00:00"
+     "published_at": "2026-08-19T08:31:20+00:00"
     },
     {
      "title": "Manejo antecipado para reduzir impactos do El Niño na soja - mundial.fm.br",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd0NQUlVVTzQ2dUZsWF9Tb3FPZnNadXRlVUlTdTlycm1qVFpNeG5YMURNZXB2eUhTS3ZJcXVFOWpLSUFxdnlhNlB1eEpWU3ljeXBtbVdvb0pEcGlTWjNpR1QtNzNrNTBMQVZEdGdfV1VLXzdtRk5VVUlvZXhkZWRxc2huR2oyTHNI?oc=5",
      "source": "mundial.fm.br",
      "published_at": "2026-08-19T07:26:12+00:00"
-    },
-    {
-     "title": "Soja amplia ganhos em meio a dúvidas sobre safra nos EUA - Money Times",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZHByRVoxamdxVXh5TmhCM1pIRU01Ym5nWXFPTXhuN3hoQ1JIQW5HOUpsamVhNUdfUkpUY0dFdVJ2V0F5TE84dXZycDRSSUpBQl9KYzNqU1hFcllEY3UxZC1waV9MYy1KQ05MbzA4aF9nMzVGWUZPS3ZUOWZ3V2RtUFJqZm5wbG5sdC1DLWJRdHYyd3M3ZG84?oc=5",
-     "source": "Money Times",
-     "published_at": "2026-08-18T22:12:00+00:00"
     },
     {
      "title": "Mercado da soja ganha sustentação com alta em Chicago e dólar firme - Canal Rural",

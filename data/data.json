@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-19T10:21:46+00:00",
+ "generated_at": "2026-08-19T11:19:21+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-19T10:21:39+00:00",
+   "updated_at": "2026-08-19T11:19:16+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1226.75,
+     "price": 1227.75,
      "prev_close": 1200.75,
-     "change_pct": 2.17,
+     "change_pct": 2.25,
      "closes": [
       1226.0,
       1219.5,
@@ -34,16 +34,16 @@
       1173.75,
       1201.0,
       1200.75,
-      1226.75
+      1227.75
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 489.75,
+     "price": 489.5,
      "prev_close": 463.25,
-     "change_pct": 5.72,
+     "change_pct": 5.67,
      "closes": [
       449.5,
       452.75,
@@ -67,7 +67,7 @@
       459.0,
       465.0,
       463.25,
-      489.75
+      489.5
      ]
     },
     {
@@ -107,9 +107,9 @@
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.19,
+     "price": 70.29,
      "prev_close": 69.69,
-     "change_pct": 0.72,
+     "change_pct": 0.86,
      "closes": [
       74.68,
       74.3,
@@ -133,16 +133,16 @@
       69.05,
       71.44,
       69.69,
-      70.19
+      70.29
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 682.75,
+     "price": 681.0,
      "prev_close": 664.5,
-     "change_pct": 2.75,
+     "change_pct": 2.48,
      "closes": [
       674.0,
       678.0,
@@ -166,16 +166,16 @@
       674.75,
       674.75,
       664.5,
-      682.75
+      681.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.9,
+     "price": 91.94,
      "prev_close": 91.02,
-     "change_pct": 0.97,
+     "change_pct": 1.01,
      "closes": [
       89.22,
       91.01,
@@ -199,7 +199,7 @@
       88.52,
       90.87,
       91.02,
-      91.9
+      91.94
      ]
     },
     {
@@ -211,12 +211,15 @@
      "change_pct": -0.27,
      "closes": [
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -236,7 +239,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-19T10:21:39+00:00",
+   "updated_at": "2026-08-19T11:19:16+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -247,7 +250,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-19T10:21:44+00:00",
+   "updated_at": "2026-08-19T11:19:19+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -408,8 +411,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-19T10:21:46+00:00",
+   "updated_at": "2026-08-19T11:19:21+00:00",
    "items": [
+    {
+     "title": "Eleições 2026: Abrafrutas quer mais mercados e pesquisa para ampliar força da fruticultura",
+     "link": "https://www.canalrural.com.br/politica/eleicoes/abrafrutas-quer-mais-mercados-e-pesquisa-para-ampliar-forca-da-fruticultura/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T11:00:00+00:00"
+    },
+    {
+     "title": "Ciclone provoca vendaval, granizo e geada; veja regiões que serão atingidas",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/ciclone-provoca-vendaval-granizo-e-geada-veja-regioes-que-serao-atingidas/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T10:55:22+00:00"
+    },
+    {
+     "title": "Dólar e juros longos sobem com saída de capital estrangeiro do país",
+     "link": "https://www.canalrural.com.br/economia/dolar-e-juros-longos-sobem-com-saida-de-capital-estrangeiro-do-pais/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T10:42:52+00:00"
+    },
     {
      "title": "Bolsas da Europa recuam com petróleo em alta e expectativa pela ata do Fed",
      "link": "https://www.canalrural.com.br/economia/bolsas-da-europa-recuam-com-petroleo-em-alta-e-expectativa-pela-ata-do-fed/",
@@ -423,9 +444,9 @@
      "published_at": "2026-08-19T09:28:00+00:00"
     },
     {
-     "title": "Em forte alta, preço da soja ultrapassa R$ 151 em Paranaguá - globorural.globo.com",
+     "title": "Em forte alta, preço da soja ultrapassa R$ 151 em Paranaguá - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ2N3b3F3MUFJdWJ2NjRlOHZFQ3U0Y3hYZmdHcndqUUhGQzB1NjNTLUQ1YVI4bFcybmdFRVBYb2hpaldFMndxUERfT1d2cFltODhiQTYwa3RBWUJlV3ZnNzNndnUtM01NMi1DSjd0bm5qcHNUNEdRNlNBTHZwbkFHVTMxYkZmd2JrQTFmOFM3TVpwVnVuY1VFc3R4X2VUdzVKQWs0eVY5RklpRTNVeEl4M1M2NGRfaWVx0gHHAUFVX3lxTE1GRDh2ZG16eGJ0bTFaODgxS0JwTnBodmk4RXJ0M2ZyR19teXVKWFdvd2NhTnlmZ1dZZjZOV0NmX0ZJcEVnMmVFSDFOQ1NpbE9KQUVCOVdXS2FBdnUtZWhIZ0UyV2dnYkxTa0xORXRQazZ6ZGp6Vk1mTnpfdTRTU3hxQVl5TE04WEI5OW5aNUw2c1ZiRjJxbXJRNFFJUUx4UDNSLTlEc1pXWnFxTUY3MmFHUFBMTDZOV3JwTGFUZE1nVTFtaHpkeTA?oc=5",
-     "source": "globorural.globo.com",
+     "source": "Globo Rural",
      "published_at": "2026-08-19T09:15:08+00:00"
     },
     {
@@ -483,28 +504,10 @@
      "published_at": "2026-08-18T23:05:08+00:00"
     },
     {
-     "title": "Margem do diesel nos EUA bate recorde e ações de refinarias avançam em Nova York",
-     "link": "https://www.canalrural.com.br/economia/margem-do-diesel-nos-eua-bate-recorde-e-acoes-de-refinarias-avancam-em-nova-york/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T22:41:45+00:00"
-    },
-    {
-     "title": "Exportação de carne suína de Goiás cresce 15,3% no primeiro semestre",
-     "link": "https://www.canalrural.com.br/aves-e-suinos/exportacao-de-carne-suina-de-goias-cresce-153-no-primeiro-semestre/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T22:33:01+00:00"
-    },
-    {
      "title": "Soja amplia ganhos em meio a dúvidas sobre safra nos EUA - Money Times",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZHByRVoxamdxVXh5TmhCM1pIRU01Ym5nWXFPTXhuN3hoQ1JIQW5HOUpsamVhNUdfUkpUY0dFdVJ2V0F5TE84dXZycDRSSUpBQl9KYzNqU1hFcllEY3UxZC1waV9MYy1KQ05MbzA4aF9nMzVGWUZPS3ZUOWZ3V2RtUFJqZm5wbG5sdC1DLWJRdHYyd3M3ZG84?oc=5",
      "source": "Money Times",
      "published_at": "2026-08-18T22:12:00+00:00"
-    },
-    {
-     "title": "Boi gordo: arroba segue em declínio devido a escalas de abate confortáveis",
-     "link": "https://www.canalrural.com.br/pecuaria/boi-gordo-arroba-segue-em-declinio-devido-a-escalas-de-abate-confortaveis/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T22:08:17+00:00"
     },
     {
      "title": "Mercado da soja ganha sustentação com alta em Chicago e dólar firme - Canal Rural",

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-19T13:38:52+00:00",
+ "generated_at": "2026-08-19T14:26:18+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-19T13:38:47+00:00",
+   "updated_at": "2026-08-19T14:26:10+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1226.25,
+     "price": 1234.5,
      "prev_close": 1200.75,
-     "change_pct": 2.12,
+     "change_pct": 2.81,
      "closes": [
       1226.0,
       1219.5,
@@ -34,16 +34,16 @@
       1173.75,
       1201.0,
       1200.75,
-      1226.25
+      1234.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 490.5,
+     "price": 494.75,
      "prev_close": 463.25,
-     "change_pct": 5.88,
+     "change_pct": 6.8,
      "closes": [
       449.5,
       452.75,
@@ -67,16 +67,16 @@
       459.0,
       465.0,
       463.25,
-      490.5
+      494.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 320.5,
+     "price": 321.2,
      "prev_close": 313.0,
-     "change_pct": 2.4,
+     "change_pct": 2.62,
      "closes": [
       323.5,
       326.7,
@@ -100,16 +100,16 @@
       308.7,
       312.1,
       313.0,
-      320.5
+      321.2
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.02,
+     "price": 70.45,
      "prev_close": 69.69,
-     "change_pct": 0.47,
+     "change_pct": 1.09,
      "closes": [
       74.68,
       74.3,
@@ -133,16 +133,16 @@
       69.05,
       71.44,
       69.69,
-      70.02
+      70.45
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 681.75,
+     "price": 698.25,
      "prev_close": 664.5,
-     "change_pct": 2.6,
+     "change_pct": 5.08,
      "closes": [
       674.0,
       678.0,
@@ -166,16 +166,16 @@
       674.75,
       674.75,
       664.5,
-      681.75
+      698.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.29,
+     "price": 91.67,
      "prev_close": 91.02,
-     "change_pct": 0.3,
+     "change_pct": 0.71,
      "closes": [
       89.22,
       91.01,
@@ -199,24 +199,27 @@
       88.52,
       90.87,
       91.02,
-      91.29
+      91.67
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 168862.94,
+     "price": 170015.5,
      "prev_close": 166335.0,
-     "change_pct": 1.52,
+     "change_pct": 2.21,
      "closes": [
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -229,7 +232,7 @@
       166934.0,
       166784.0,
       166335.0,
-      168862.9375
+      170015.5
      ]
     }
    ],
@@ -237,7 +240,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-19T13:38:47+00:00",
+   "updated_at": "2026-08-19T14:26:11+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -248,7 +251,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-19T13:38:50+00:00",
+   "updated_at": "2026-08-19T14:26:15+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -409,8 +412,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-19T13:38:52+00:00",
+   "updated_at": "2026-08-19T14:26:18+00:00",
    "items": [
+    {
+     "title": "Abate de bovinos e suínos cresce no 2º trimestre, e o de frangos recua ante o 1º trimestre",
+     "link": "https://www.canalrural.com.br/pecuaria/abate-de-bovinos-e-suinos-cresce-no-2o-trimestre-e-o-de-frangos-recua-ante-o-1o-trimestre/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T13:43:44+00:00"
+    },
     {
      "title": "BNDES aprova R$ 123,6 milhões para centro da Toyota voltado a biocombustíveis",
      "link": "https://www.canalrural.com.br/economia/bndes-aprova-r-1236-milhoes-para-centro-da-toyota-voltado-a-biocombustiveis/",
@@ -428,6 +437,12 @@
      "link": "https://www.canalrural.com.br/politica/eleicoes/eleicoes-2026-canal-rural-e-bdm-entrevistam-candidatos-a-presidencia-ao-vivo/",
      "source": "Canal Rural",
      "published_at": "2026-08-19T13:01:00+00:00"
+    },
+    {
+     "title": "Conab amplia venda de insumos para alimentação animal - Campo Grande News",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOclZYSzBPZ05NR0V2cEsyTVRrUm1ULTF4bUlBcTEtXzV0UWpFNGdNbElUOFhFYXVPUk5FT1YzWENBUXFKakpMQXprdVV0dnEwMXVCSGhKS3dDMmdQRWsyamttZkVMaDdtZ1JEUmNtYkxUTmxDMXJwWTFBaU9BUUV5SWhLNmtqUzByeHdYbzZLci1idVZ2aWhFTy0zN1pQbmZwME9qaVB4X2tjUktMSl9IOVlCY1ZRdDjSAbcBQVVfeXFMT2tJSmgwWUhWcTJ1QlJlclFfMm9IVGRsdTZWcHZXN0V4NXFIQ2FMOUJxdlg1R3FTVEJ4a1ZneDJIc1ZYTUtVU1R3UEVmQ2hHNnhfSVpPMzFKcVBzbzZBVkVKSlNsajBYR0N5dkRYT00ycjRCRlR0SUdBdl9kZERiSlZyeU1MTjgwTUJFanJFZXRDNWpZVUlhc3d5dHlVMGhwOFBHbUI1ZWxKNUNtSzcwdVdhaVJmcmNv?oc=5",
+     "source": "Campo Grande News",
+     "published_at": "2026-08-19T13:00:00+00:00"
     },
     {
      "title": "Dólar abre em queda ante o real com foco na ata do Fed",
@@ -454,9 +469,9 @@
      "published_at": "2026-08-19T12:36:01+00:00"
     },
     {
-     "title": "Fórum Norte Gaúcho da Soja reúne produtores e entidades em Ipiranga do Sul - jornalbomdia.com.br",
+     "title": "Fórum Norte Gaúcho da Soja reúne produtores e entidades em Ipiranga do Sul - Jornal Bom Dia",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObE43N1BvYkkxaWNiMWN1YnpkX0tSR291MkxVbFNFTDk5YnZsSVRlWmFZVElzZnpka0I4ZWwxYjBhcjdPT0hzVXdnWUU3VlRWX01VNkxpSXU0RnZIUmF4dEF4SFM4UzdOT0FySm5YNllZZ084MnFrdmJFVzItdjhNLThMLXFfcnBaYnVfbzZGNWJlVEtfQ2RMNXZtQmh5NkhRRnZRdUpIUk0zUkhuaHVoS203bnNUNmdyZUtpTg?oc=5",
-     "source": "jornalbomdia.com.br",
+     "source": "Jornal Bom Dia",
      "published_at": "2026-08-19T12:29:00+00:00"
     },
     {
@@ -490,16 +505,10 @@
      "published_at": "2026-08-19T11:42:55+00:00"
     },
     {
-     "title": "Organizações rejeitam agenda da COP17 por excluir gênero e participação social",
-     "link": "https://www.canalrural.com.br/politica/organizacoes-rejeitam-agenda-da-cop17-por-excluir-genero-e-participacao-social/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T11:38:02+00:00"
-    },
-    {
-     "title": "SOJA E TRIGO: saca da soja sobe 1,07% no Paraná e chega a R$ 143,21 - Conexão Itajubá",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTWRQVDZTbUFZRDBKR3FMLWEtS0dXZHNfNkJpVndwN3M1OU12YjVJWXQxcHB2aTQyTW9vRDc0NUVsUjU5QzVHTHRQVUNXSEJwaC1idk13OXotbXhyNnQzcEtrZjFkUmpPVFByTlg5WldjMWhVck0waUNhYTN2V2l2dG5ITm00bmctaHBkV1hOcVpnSnczMkh5STZPaUpkSEpqSVVrVFlmemd5NGVjOVFDeDZ6RQ?oc=5",
-     "source": "Conexão Itajubá",
-     "published_at": "2026-08-19T11:31:28+00:00"
+     "title": "Soja dispara em Chicago nesta 4ª, com clima nos EUA, Pro Farmer e força dos derivados e do petróleo - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQWxqVVE2dDlMUEZUOW1XOHpIeW1fNFo4cE9BLVVxYkdvclV6LVB5bnBzMDdtZFNrTFlSdmZmMWRUckhIOS0zX2g5c1VnTjVEQjRtVFVoV1RGaHBvN0M1UDI4OENLMzBhaGdBX2Q4TVZrNFNYRHRISlpzdlVzcG9rN1hMMmRneGtCTG5kbGdUZUxwVmpjMzRvSDFhUjBVZ1o4U0xjcGZyR1N0Qk5ZOXhPT1poLXdKcUY3RXFOQnM0UnQ5UzBILUxDSF9HeURYZUhPeU1fd1ZFU2g5RFF5emQzQzd2MzJ1NXU2MnlzMEtONUbSAfYBQVVfeXFMTk44bVp3VzdTLUE2LXpjaDRzMnZ3YjFoMTdyLW5VQU1fOTQ5ZXZwOXZYclc3dFh6SHZnU3VNUk9POHNVelpaZzNlbDN5aXluWlU3dVdPLUhHNWJoTnJIY2JFazNHR0J3em4zSXFwZzVEd1Y0d2FZNlJzczhMMGhLZEloQm9WMFNmcjlfYUlQMTdNM01sV3BlaTh3cm1VZkVNRjZ4VlhoUmhZb3RWeXlfM3NSb21lY2VTV2VvMmRBaWx2aDdsUmFITzllaVZoeUtYUzdaclN3ektTY3FGRWdrMVc3ZlItdXp2YXlQaVRSZVpqTnIwbmJR?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-19T10:47:41+00:00"
     },
     {
      "title": "Em forte alta, preço da soja ultrapassa R$ 151 em Paranaguá - Globo Rural",
@@ -536,12 +545,6 @@
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdExrdGNRTjZnLVlibjFvZG84ZUNKdGdkR2FLRzkyUFc1SHUyNkk5bjBYcWZyMmdCblNqX203TXFzU3poV1RzanYycHRUNGpJRTRpa2pwdm42X29jYU56VU1WaVJRZ19wQ3F0dG5LQlNzZ28xMFZRNGJXMEdZZWZjckU4b2xLR3dzdm1EcEE0Zzk0ME9wSGNsaEMzamZDS0ZjT0VNWV91My1IbE9hMlBlUmVNNHRDejM0UVM0S1RtMTE5aWRCalI0aFBB?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-18T21:48:16+00:00"
-    },
-    {
-     "title": "Soja fecha acima dos US$ 12 em Chicago após realizar lucros, mas clima nos EUA e demanda da China seguem no radar - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQeFl3c2NIXzVXTEFFSzhlYTRLWmhSb2JiM24tcDNLSHR6VHg3YUVxX3hkRlFIZGVxTFBYbWZ1WVlyeUFUMXJhMXJ3VVNpSnpIV2dMQXAxLThqbUgzX295TVJ5UHBZTDNIeWIwekcwaVAtel9iaGJUNWNXZTRwc2QzLUdYX29WV0JITWphd2xpS1k3T29adkYwdGEwSHhleWxvcWlhYlF3YkREY09TZG15bUxmQjQzX2J0aTdnQmloeG1NNDdoSEt6TFcwcDVkb1dyS0k1TkFTYTdCVVVSd0VvY1lEV1Y1NFpMSzJfbGZnQWszZEVudHVsR0IzTVNwMVE2RWpGadIBigJBVV95cUxQOEgydjdlbU1kYm01R1FpazlTWUNHZ0lyejEtR0xjbVZLNjJ5N0JWUElNSV8wbWVyODFnc0NVYkVBd3pzYkZfXzBUZFlGTm9XRmdmM0NPRWhzMExyU0p6SkFnWFNVWmJNWmNvN0pZQmlrZzlLa0pEc2swSG5Ha09tR05BTUFwT1hzY2Y5dy0yZk1CZTBRdFZBekJLdFRabDg5RjNRSm1idDQyNlprbmhVZjl1NFRad3ZwWWxmMEZzblhFM0FWbElXdUlqei1Nc3pybS1XNHZoZ2ZmNzltVW43WThvRTRBQlZHVEFYU2h1RERMaHdmMDNBZVNiRWtQTGF2WmVWYjlvSzhyZw?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-18T20:16:41+00:00"
     },
     {
      "title": "Limões 'alienígenas' intrigam produtora; entenda o que causa a deformação",

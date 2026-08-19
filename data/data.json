@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-18T23:16:24+00:00",
+ "generated_at": "2026-08-19T00:53:32+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-18T23:16:14+00:00",
+   "updated_at": "2026-08-19T00:53:25+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1215.25,
+     "price": 1215.5,
      "prev_close": 1201.0,
-     "change_pct": 1.19,
+     "change_pct": 1.21,
      "closes": [
       1226.0,
       1219.5,
@@ -33,16 +33,16 @@
       1168.25,
       1173.75,
       1201.0,
-      1215.25
+      1215.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 487.75,
+     "price": 486.75,
      "prev_close": 465.0,
-     "change_pct": 4.89,
+     "change_pct": 4.68,
      "closes": [
       449.5,
       452.75,
@@ -65,16 +65,16 @@
       448.0,
       459.0,
       465.0,
-      487.75
+      486.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 318.1,
+     "price": 318.8,
      "prev_close": 312.1,
-     "change_pct": 1.92,
+     "change_pct": 2.15,
      "closes": [
       323.5,
       326.7,
@@ -97,16 +97,16 @@
       309.9,
       308.7,
       312.1,
-      318.1
+      318.8
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 69.61,
+     "price": 69.46,
      "prev_close": 71.44,
-     "change_pct": -2.56,
+     "change_pct": -2.77,
      "closes": [
       74.68,
       74.3,
@@ -129,16 +129,16 @@
       68.67,
       69.05,
       71.44,
-      69.61
+      69.46
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 677.0,
+     "price": 678.75,
      "prev_close": 674.75,
-     "change_pct": 0.33,
+     "change_pct": 0.59,
      "closes": [
       674.0,
       678.0,
@@ -161,16 +161,16 @@
       652.75,
       674.75,
       674.75,
-      677.0
+      678.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.37,
+     "price": 91.52,
      "prev_close": 90.87,
-     "change_pct": 0.55,
+     "change_pct": 0.72,
      "closes": [
       89.22,
       91.01,
@@ -193,7 +193,7 @@
       87.07,
       88.52,
       90.87,
-      91.37
+      91.52
      ]
     },
     {
@@ -233,7 +233,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-18T23:16:14+00:00",
+   "updated_at": "2026-08-19T00:53:25+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-18T23:16:20+00:00",
+   "updated_at": "2026-08-19T00:53:30+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -267,22 +267,22 @@
       0.0
      ],
      "tmax": [
-      36.1,
       36.3,
-      36.4,
-      35.2,
-      36.8,
-      38.0,
-      38.4
+      36.2,
+      36.7,
+      35.8,
+      37.4,
+      38.1,
+      38.2
      ],
      "tmin": [
       21.1,
-      22.4,
-      21.8,
       22.1,
-      22.7,
-      23.5,
-      23.5
+      21.8,
+      22.4,
+      22.6,
+      24.0,
+      24.9
      ]
     },
     {
@@ -306,22 +306,22 @@
       0.0
      ],
      "tmax": [
-      35.2,
-      35.8,
-      35.9,
       35.4,
-      36.2,
-      37.1,
-      37.3
+      35.4,
+      36.1,
+      35.8,
+      36.5,
+      37.0,
+      37.4
      ],
      "tmin": [
       20.2,
-      22.1,
-      21.8,
       21.6,
-      22.2,
-      23.0,
-      22.3
+      21.5,
+      21.5,
+      22.1,
+      23.4,
+      23.3
      ]
     },
     {
@@ -339,28 +339,28 @@
       0.0,
       0.0,
       0.0,
-      0.0,
+      0.2,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      32.6,
+      32.5,
       33.4,
-      34.2,
-      29.9,
-      30.2,
-      33.4,
-      33.7
+      34.5,
+      30.9,
+      31.3,
+      33.2,
+      34.4
      ],
      "tmin": [
       20.1,
-      20.9,
-      21.7,
-      20.2,
-      16.3,
-      17.5,
-      19.2
+      21.4,
+      21.5,
+      20.7,
+      17.4,
+      18.7,
+      19.7
      ]
     },
     {
@@ -376,37 +376,55 @@
      ],
      "precip": [
       0.0,
-      0.0,
       0.1,
       0.0,
       0.0,
       0.0,
-      2.4
+      0.0,
+      1.2
      ],
      "tmax": [
-      34.6,
-      32.0,
-      25.4,
-      23.5,
-      26.5,
-      28.5,
-      24.7
+      35.2,
+      32.6,
+      25.5,
+      24.2,
+      27.0,
+      27.4,
+      25.5
      ],
      "tmin": [
       21.4,
-      19.4,
-      15.7,
+      18.7,
+      16.9,
+      11.7,
       11.4,
-      11.4,
-      13.2,
-      16.2
+      13.0,
+      15.9
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-18T23:16:24+00:00",
+   "updated_at": "2026-08-19T00:53:32+00:00",
    "items": [
+    {
+     "title": "Petrobras anuncia descoberta de petróleo na Foz do Amazonas",
+     "link": "https://www.canalrural.com.br/videos/petrobras-anuncia-descoberta-de-petroleo-na-foz-do-amazonas-3/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T00:05:38+00:00"
+    },
+    {
+     "title": "Frente fria provoca chuvas intensas no Sul e calor no Centro-Oeste e Sudeste",
+     "link": "https://www.canalrural.com.br/videos/frente-fria-provoca-chuvas-intensas-no-sul-e-calor-no-centro-oeste-e-sudeste/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T00:05:25+00:00"
+    },
+    {
+     "title": "Embrapa faz recomendações de fortalecimento do agro para candidatos às eleições",
+     "link": "https://www.canalrural.com.br/agricultura/embrapa-faz-recomendacoes-de-fortalecimento-do-agro-para-candidatos-as-eleicoes/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T23:49:29+00:00"
+    },
     {
      "title": "Preço do boi gordo atinge R$ 335 em diversas praças do Brasil",
      "link": "https://www.canalrural.com.br/videos/preco-do-boi-gordo-atinge-r-335-em-diversas-pracas-do-brasil/",
@@ -468,12 +486,6 @@
      "published_at": "2026-08-18T21:13:54+00:00"
     },
     {
-     "title": "El Niño aumenta riscos para a soja na safra 26/27; veja como se preparar",
-     "link": "https://www.canalrural.com.br/agricultura/el-nino-aumenta-riscos-para-a-soja-na-safra-26-27-veja-como-se-preparar/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T21:13:54+00:00"
-    },
-    {
      "title": "El Niño exige planejamento dos produtores de soja na safra 2026/2027 - Portal Agro2",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbjd0ZmtMeXpCUC1TWW55OFJRWFY5am1VbmxHdUZ6V2NkMTlXYWhJX0xGSktWandoeGpVc1Z0eFBVWUlwblJCX18yNGxQd2lkOHdFcUFtM3RmVDVhbVZVcDlkNWtPMWRDRXMtZFktaHhGT04xWXNPTFE1QjF1ZUo4UVg2SXVBbFI2QWRDWHBOVXZ0N2o5U3M5QmJ3SmV2UE54?oc=5",
      "source": "Portal Agro2",
@@ -490,24 +502,6 @@
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdktSVjNLcFgtNm5SX1hJQVB5M2lMM2M3ZndDTHJVcklnRnVjNkVxZlZzOWtneTJOeGF6eWhkLUFNaDF0WldGcWxBa2s4NV9Ka05xZGZ0bHkwdTdfaXFkWFdUYVJlbENHTzZUeWdiSWF3b2twTTlfNkNaWnAzZHZZck9UdjBiQmNxQ1lCNlZHMnpUZXhDMFdqMGluaTNEQUE1WTBGenN6UWNsQQ?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-08-18T20:05:17+00:00"
-    },
-    {
-     "title": "IATF supera 250 milhões de protocolos no Brasil; veja o segredo da eficiência na cria",
-     "link": "https://www.canalrural.com.br/pecuaria/iatf-supera-250-milhoes-de-protocolos-no-brasil-veja-o-segredo-da-eficiencia-na-cria/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T20:01:00+00:00"
-    },
-    {
-     "title": "Nova medida abre caminho para regularização de queijos artesanais de leite cru",
-     "link": "https://www.canalrural.com.br/projetos/especial/queijosecabras/nova-medida-abre-caminho-para-regularizacao-de-queijos-artesanais-de-leite-cru/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T19:51:59+00:00"
-    },
-    {
-     "title": "Colheita de café avança para 81% na área da Expocacer",
-     "link": "https://www.canalrural.com.br/agricultura/colheita-de-cafe-avanca-para-81-na-area-da-expocacer/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T19:27:20+00:00"
     },
     {
      "title": "Soja avança em Chicago com dados pessimistas sobre a safra nos EUA - Globo Rural",
@@ -586,6 +580,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/14/peixes-tem-impressao-digital-que-revela-de-onde-vieram-mostra-estudo-entenda.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-14T06:00:47"
+    },
+    {
+     "title": "Como o super El Niño pode afetar a América Latina, principal região exportadora de alimentos do mundo",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/14/como-o-super-el-nino-pode-afetar-a-america-latina-principal-regiao-exportadora-de-alimentos-do-mundo.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-14T06:00:13"
     }
    ],
    "failed": [

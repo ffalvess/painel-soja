@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-19T15:24:23+00:00",
+ "generated_at": "2026-08-19T16:23:37+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-19T15:24:17+00:00",
+   "updated_at": "2026-08-19T16:23:28+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -41,9 +41,9 @@
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 495.25,
+     "price": 495.75,
      "prev_close": 463.25,
-     "change_pct": 6.91,
+     "change_pct": 7.02,
      "closes": [
       449.5,
       452.75,
@@ -67,16 +67,16 @@
       459.0,
       465.0,
       463.25,
-      495.25
+      495.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 323.4,
+     "price": 324.2,
      "prev_close": 313.0,
-     "change_pct": 3.32,
+     "change_pct": 3.58,
      "closes": [
       323.5,
       326.7,
@@ -100,16 +100,16 @@
       308.7,
       312.1,
       313.0,
-      323.4
+      324.2
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.6,
+     "price": 70.36,
      "prev_close": 69.69,
-     "change_pct": 1.31,
+     "change_pct": 0.96,
      "closes": [
       74.68,
       74.3,
@@ -133,7 +133,7 @@
       69.05,
       71.44,
       69.69,
-      70.6
+      70.36
      ]
     },
     {
@@ -173,9 +173,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 92.12,
+     "price": 92.39,
      "prev_close": 91.02,
-     "change_pct": 1.21,
+     "change_pct": 1.51,
      "closes": [
       89.22,
       91.01,
@@ -199,16 +199,16 @@
       88.52,
       90.87,
       91.02,
-      92.12
+      92.39
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 169299.56,
+     "price": 168163.84,
      "prev_close": 166335.0,
-     "change_pct": 1.78,
+     "change_pct": 1.1,
      "closes": [
       173371.0,
       173326.0,
@@ -232,7 +232,7 @@
       166934.0,
       166784.0,
       166335.0,
-      169299.5625
+      168163.8438
      ]
     }
    ],
@@ -240,7 +240,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-19T15:24:17+00:00",
+   "updated_at": "2026-08-19T16:23:29+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -251,7 +251,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-19T15:24:20+00:00",
+   "updated_at": "2026-08-19T16:23:34+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -412,8 +412,38 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-19T15:24:23+00:00",
+   "updated_at": "2026-08-19T16:23:37+00:00",
    "items": [
+    {
+     "title": "Exportações de carne bovina caem 26% em agosto com temor de tarifa maior na China",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/19/exportacoes-de-carne-bovina-caem-26percent-em-agosto-com-temor-de-tarifa-maior-na-china.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-19T16:17:16"
+    },
+    {
+     "title": "SovEcon prevê menor exportação russa de trigo em agosto desde 2010",
+     "link": "https://www.canalrural.com.br/economia/sovecon-preve-menor-exportacao-russa-de-trigo-em-agosto-desde-2010/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T16:13:45+00:00"
+    },
+    {
+     "title": "Produtores retraídos e chuvas limitam oferta de arroz",
+     "link": "https://www.canalrural.com.br/agricultura/arroz/produtores-retraidos-e-chuvas-limitam-oferta-de-arroz/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T15:48:24+00:00"
+    },
+    {
+     "title": "Produção de etanol nos EUA cai para 1,089 milhão de barris por dia",
+     "link": "https://www.canalrural.com.br/economia/producao-de-etanol-nos-eua-cai-para-1089-milhao-de-barris-por-dia/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T15:31:47+00:00"
+    },
+    {
+     "title": "‘Inadmissível’: ministro cobra retorno do Brasil à lista de fornecedores de carne da UE",
+     "link": "https://www.canalrural.com.br/pecuaria/inadmissivel-ministro-cobra-retorno-do-brasil-a-lista-de-fornecedores-de-carne-da-ue/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T15:28:32+00:00"
+    },
     {
      "title": "El Niño pode ser o mais forte desde 1950 e amplia risco para soja e café no Brasil - MundoCoop",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcmNqOUo1MUgzeWZFaTVJNFd1bVV2cFJfcFNtdzhsSWVKT1o1emwwT1V6aC1GbkFrR092dUdzaDU0cndORU1iT0NVWUxmNjNDNjBnanpBT2d1eUlXVXRqZlRRdlJLUXZOaWhPdlBXMlVBaEN5SGhyQTFDQVNwekpqakJFOEVHOWNzNXpQV1JQd0U2VjVDYkhsYmRhcXl1U0k2dndhQlNSWVlsdHJWZV9mV3FMQmdLbzYyMTJrag?oc=5",
@@ -481,30 +511,6 @@
      "published_at": "2026-08-19T13:11:07+00:00"
     },
     {
-     "title": "Eleições 2026: Canal Rural e BDM entrevistam candidatos à Presidência ao vivo",
-     "link": "https://www.canalrural.com.br/politica/eleicoes/eleicoes-2026-canal-rural-e-bdm-entrevistam-candidatos-a-presidencia-ao-vivo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T13:01:00+00:00"
-    },
-    {
-     "title": "Dólar abre em queda ante o real com foco na ata do Fed",
-     "link": "https://www.canalrural.com.br/economia/dolar-abre-em-queda-ante-o-real-com-foco-na-ata-do-fed/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T12:46:50+00:00"
-    },
-    {
-     "title": "O crédito fechou a porteira",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/o-credito-fechou-a-porteira/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T12:44:44+00:00"
-    },
-    {
-     "title": "Impasse nas negocições entre frigoríficos e pecuaristas pressiona preço do boi gordo",
-     "link": "https://www.canalrural.com.br/pecuaria/impasse-nas-negocicoes-entre-frigorificos-e-pecuaristas-pressiona-preco-do-boi-gordo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T12:41:58+00:00"
-    },
-    {
      "title": "Fórum Norte Gaúcho da Soja reúne produtores e entidades em Ipiranga do Sul - Jornal Bom Dia",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObE43N1BvYkkxaWNiMWN1YnpkX0tSR291MkxVbFNFTDk5YnZsSVRlWmFZVElzZnpka0I4ZWwxYjBhcjdPT0hzVXdnWUU3VlRWX01VNkxpSXU0RnZIUmF4dEF4SFM4UzdOT0FySm5YNllZZ084MnFrdmJFVzItdjhNLThMLXFfcnBaYnVfbzZGNWJlVEtfQ2RMNXZtQmh5NkhRRnZRdUpIUk0zUkhuaHVoS203bnNUNmdyZUtpTg?oc=5",
      "source": "Jornal Bom Dia",
@@ -517,16 +523,16 @@
      "published_at": "2026-08-19T12:23:19+00:00"
     },
     {
-     "title": "Soja e milho: clima irregular exige mais controle no campo - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTjBBM2lPbHhXblB3Y3hYU21oY3ZRbTVSMTVLU19uZFRWUEhhVHVZZFdrbjNSOGtxNW9IRzZWVEIxSTV2NERBZDlfVl9nbW8xd1ZrZ0Q1SkpDSmxsUi1teGZtYkY5UERTS2N6M0hENkhQRnVUR2lDaGxOT0VIUE14QXpLWFFxMjFKQUg2SDJUVzdoVjBTZkNrMU4tWlhGVGtXQlZlUG5jZ09mVXM?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-19T11:43:00+00:00"
-    },
-    {
      "title": "Soja dispara em Chicago nesta 4ª, com clima nos EUA, Pro Farmer e força dos derivados e do petróleo - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQWxqVVE2dDlMUEZUOW1XOHpIeW1fNFo4cE9BLVVxYkdvclV6LVB5bnBzMDdtZFNrTFlSdmZmMWRUckhIOS0zX2g5c1VnTjVEQjRtVFVoV1RGaHBvN0M1UDI4OENLMzBhaGdBX2Q4TVZrNFNYRHRISlpzdlVzcG9rN1hMMmRneGtCTG5kbGdUZUxwVmpjMzRvSDFhUjBVZ1o4U0xjcGZyR1N0Qk5ZOXhPT1poLXdKcUY3RXFOQnM0UnQ5UzBILUxDSF9HeURYZUhPeU1fd1ZFU2g5RFF5emQzQzd2MzJ1NXU2MnlzMEtONUbSAfYBQVVfeXFMTk44bVp3VzdTLUE2LXpjaDRzMnZ3YjFoMTdyLW5VQU1fOTQ5ZXZwOXZYclc3dFh6SHZnU3VNUk9POHNVelpaZzNlbDN5aXluWlU3dVdPLUhHNWJoTnJIY2JFazNHR0J3em4zSXFwZzVEd1Y0d2FZNlJzczhMMGhLZEloQm9WMFNmcjlfYUlQMTdNM01sV3BlaTh3cm1VZkVNRjZ4VlhoUmhZb3RWeXlfM3NSb21lY2VTV2VvMmRBaWx2aDdsUmFITzllaVZoeUtYUzdaclN3ektTY3FGRWdrMVc3ZlItdXp2YXlQaVRSZVpqTnIwbmJR?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-19T10:47:41+00:00"
+    },
+    {
+     "title": "Preços da soja sobem com oferta mais cautelosa - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObzNhQUhNQTJJdU14elk3MVlOM24zY3MzejhWREhwTVRzV0dwWUI4QU43Vk9MSHQ4Unh1Uko4c2ctUFM0R2s1aHJQUmpqcHp6UWFTQzlWWktLZVhPMVhfSlozVm1hSGxfdUFBNDk5WFhXUndiVjZDLVRyNnpsUGV1OTRVZ1kxX3l3d0JJNGdVWmpoNlZmbDNoQzludw?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-19T09:28:00+00:00"
     },
     {
      "title": "Safra de soja deve ter maior custo da história em Goiás - brasilagro.com.br",
@@ -587,12 +593,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/14/conheca-o-abacaxi-que-dura-mais-tempo-apos-a-colheita.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-14T10:42:14"
-    },
-    {
-     "title": "Peixes têm 'impressão digital' que revela de onde vieram, mostra estudo; entenda",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/14/peixes-tem-impressao-digital-que-revela-de-onde-vieram-mostra-estudo-entenda.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-14T06:00:47"
     }
    ],
    "failed": [

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-19T08:29:23+00:00",
+ "generated_at": "2026-08-19T09:26:41+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-19T08:29:15+00:00",
+   "updated_at": "2026-08-19T09:26:34+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1224.5,
+     "price": 1226.0,
      "prev_close": 1200.75,
-     "change_pct": 1.98,
+     "change_pct": 2.1,
      "closes": [
       1226.0,
       1219.5,
@@ -34,16 +34,16 @@
       1173.75,
       1201.0,
       1200.75,
-      1224.5
+      1226.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 490.25,
+     "price": 489.5,
      "prev_close": 463.25,
-     "change_pct": 5.83,
+     "change_pct": 5.67,
      "closes": [
       449.5,
       452.75,
@@ -67,7 +67,7 @@
       459.0,
       465.0,
       463.25,
-      490.25
+      489.5
      ]
     },
     {
@@ -107,9 +107,9 @@
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.02,
+     "price": 70.26,
      "prev_close": 69.69,
-     "change_pct": 0.47,
+     "change_pct": 0.82,
      "closes": [
       74.68,
       74.3,
@@ -133,16 +133,16 @@
       69.05,
       71.44,
       69.69,
-      70.02
+      70.26
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 683.75,
+     "price": 682.5,
      "prev_close": 664.5,
-     "change_pct": 2.9,
+     "change_pct": 2.71,
      "closes": [
       674.0,
       678.0,
@@ -166,16 +166,16 @@
       674.75,
       674.75,
       664.5,
-      683.75
+      682.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.52,
+     "price": 92.25,
      "prev_close": 91.02,
-     "change_pct": 0.55,
+     "change_pct": 1.35,
      "closes": [
       89.22,
       91.01,
@@ -199,7 +199,7 @@
       88.52,
       90.87,
       91.02,
-      91.52
+      92.25
      ]
     },
     {
@@ -211,12 +211,15 @@
      "change_pct": -0.27,
      "closes": [
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -236,7 +239,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-19T08:29:15+00:00",
+   "updated_at": "2026-08-19T09:26:34+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -247,7 +250,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-19T08:29:20+00:00",
+   "updated_at": "2026-08-19T09:26:39+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -408,8 +411,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-19T08:29:23+00:00",
+   "updated_at": "2026-08-19T09:26:41+00:00",
    "items": [
+    {
+     "title": "Safra de soja deve ter maior custo da história em Goiás - brasilagro.com.br",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdnBlS3V4SDIyS05kZTBWQUFUcFdLT2xSQi1qV0NzU0pDVHJralJYeDFFS3BQNUstc3hxWlFsclJwRS1mWHY3ZUU5MnNHV01DZFY1WmhrWHplSmJ1c2FrdXlKRVRfRXk0M1UwaVFQeTBvcDJ4d0R3eVUtT3RzLWJDUFYxOEZrMlZaRExDNmJ0NGp6N0lFY2pfZVNNcGZ5OWRa?oc=5",
+     "source": "brasilagro.com.br",
+     "published_at": "2026-08-19T08:31:25+00:00"
+    },
+    {
+     "title": "Manejo adequado pode reduzir impactos do El Niño sobre a soja - Rádio Itatiaia",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ1g3RmhMVVhpNm9GT1pRX2VraTgzcWY0R1RUemFRTDh6aUFWeHZuY1RpZm5Dc2RSVzl3R1ZxVHVsWjhQLVMwbWRSQTI4cm9xMkw0bUlxWDlaaVdsb3hxZ3VWN2xWcF8tVXBXN1F1NlVpTmNKdE4waG5reDB6OVBCWHVhZlp4Z01ETDNrWk9SR2xSMUpDb3Izczh3TQ?oc=5",
+     "source": "Rádio Itatiaia",
+     "published_at": "2026-08-19T08:03:59+00:00"
+    },
     {
      "title": "Barretos em números: veja o tamanho da estrutura que recebe a Festa do Peão",
      "link": "https://www.canalrural.com.br/feiras-e-eventos/barretos-em-numeros-veja-o-tamanho-da-estrutura-que-recebe-a-festa-do-peao/",
@@ -489,22 +504,10 @@
      "published_at": "2026-08-18T21:48:16+00:00"
     },
     {
-     "title": "Exportações de café e soja avançam, enquanto milho recua - Vero Notícias",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObFBaUmJEakNpQmRpR0MwR3ZRS3h2cE8zVWxRZUs0cFl4RVdRU2Vidy1GWnRBRE9BNW83X3VBY1BBOEFQeWg5d2hQTXJ6a0F2TTUwUEpFMVZjd0JtVVBxY0Q0aFVFemZxSmd4ZnVJWDMzTzQzQmJmYWxoOGFHUFo1TVpTSHlHdmZlcTY2TVVEbzdYcm94?oc=5",
-     "source": "Vero Notícias",
-     "published_at": "2026-08-18T21:47:06+00:00"
-    },
-    {
      "title": "Soja: produção cai para 180,46 milhões de toneladas - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQR3R2am1nYUhBSGFlUkk5NDdmU29GZ3UyTDc2WkdoWXM1YnpTbHdncFV3bXVFQjJOeURhb1hxVHBNY0tBSVRFSHpHajlhbDRNanlURFFZOUdEUTh1ckNROWdwWXBNWUZyelo4dGx0aXAwV0JQUkZMejJidDAzWTVvYzdMZUk0blhjdVVzcDAyVERzcnM5ejdCc2JwLXNLYVZBcWc?oc=5",
      "source": "Agrolink",
      "published_at": "2026-08-18T21:36:00+00:00"
-    },
-    {
-     "title": "El Niño aumenta riscos para a soja na safra 26/27; veja como se preparar - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR3E5ZkVrWGlVMG1JSU1FUnFNY25HV2diYzdZNmdkeGhFZHA1UUNUdDh2VjcwQVQ3czJRUGxDVTVMZC1nMUpRWnFQaEFIZzc0MTdfUkE3Q0JtQlpkc2JmVnJrUDd2WEFDTnVxQ0p4ajF3VnNwV0VEaHctQ09GWS00anVoeTMybFlkczdQZE02UDI2a1I1ZjhOWnVfQU11bkp6N2U0WXlkdG1odFotbkJTa25Lamw?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T21:13:54+00:00"
     },
     {
      "title": "Soja fecha acima dos US$ 12 em Chicago após realizar lucros, mas clima nos EUA e demanda da China seguem no radar - Notícias Agrícolas",
@@ -519,22 +522,22 @@
      "published_at": "2026-08-18T20:05:17+00:00"
     },
     {
-     "title": "Soja avança em Chicago com dados pessimistas sobre a safra nos EUA - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY2hvVWp1ZmdWUWNueEV2cFVhbERPVFBFd0hrdnkwY3EzOUpMb2ZsX1hMaGk3RmNZejVPbG1iY3FjaThSVlU5VU9pVjhFMFRnNzB5QnlNamxtR2JlN0hPaElsNjg0Ui1odnVERDgwRVBralBHQ1FoVUpkQUpVUC02Tml0a0JpTEIyaWdRbUc2TnByYWwyUjhOS0U1YURWUV9pVWdiTmEzc2pOZ1BaeDRjZ0J0TFlnS2hma3N2N3hGRzFUanJo0gHTAUFVX3lxTE1qdlMtaW50aURZc21hejB4aTlHdGMtYzZhQzc2TFRSMjMxcno2WXo0clR5bzQxVGV0dWlaeVFHWUthQlI2UEVUVGpDVzJ4dG9hWTE1djFjak5hVUp1MlFwMzZ1cEhBYmVrV0kzMktYdHk2YUtNWUNYVkJwNmctZk5BcC1KUl9pREQ2dXk2RmpzS1JrT1RPQnFIa3g1NmVSRWJ2QjJCWFJOSG9JMjVHTV9YUnBHNEpBel8wZVF3YnNyeXkxejJRQjRwWV9NQ01uc1o4czA?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-18T18:45:08+00:00"
-    },
-    {
-     "title": "China acelera compras de soja nos EUA, mas mercado se questiona sobre cumprimento das 25 mi de t - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPYkU3Y0RIVC1McS1XQlZYWlZTVmpheDhmcFFaeGJJOG5OMnhnVVVjcHVKamdMRkN0VXVzN1F3Z181dENfNTZOenlBejFJNEN6NU82ZGxxYkNDRWhkUHZLSVJmRXoxTzh2WWtBMi1haXFDbWx6Y1Q3cEp4RDVnMUZsZDY2ci1HV2hIamlMa21NMTV2ZHlLUllJcE4wZWVYRUFtQ256RjBDamR6a0o0V1g0X0Y4bk1kd3lyckFCc0JVLXdDQkZsUHpEdjRrSU5BUUxmVUs3Ylg5Y1YwRXJFZW01b0phd2VMbmZCbFdqbzgzY9IB9AFBVV95cUxOWm03Z2NNMk54QUd6TnJjU1VxendJdzJWaDRuZFdobnlDdTQxbF9zWDRwdWJqVFg2MmxwaTJjem9Jb0tGOVNQMUdlc3ljM1FPU2s3enpORE1ueFV6YWh4TGhfa1lnMHVHaS0zSU8zN2JfQ1U2RVhvLThXcUlac1RLWURPTmFYQ2RGV092cVcyN19QNVVoUzZrQ2NhME1TMU5mOUlFX0FFeFlPZ3dOaUVCeEtQMnpzUGVsVnpuVFFaVjAzTVp0MEFMZlpIbms2QW5tLXJza19VbWRuemE4b3k2UmR6dktCNEtQaV8yS1hLcW1ZajVs?oc=5",
+     "title": "Pro Farmer registra campos inundados de soja e milho no Nebraska e produtividade do cereal menor - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWTlfbFo3U09wdC1QT3R0bEVBVVd5a0ItOHRCZHAyUm1hcTYwaGZfR1gzbGFNSnU3QW84V3lfX0FnWnNacGpGQnVuR2ZHWXVZa2FEaDRwZi1WWTMxeXloOFJCY1VTVEdDbjFjS2IxQ1RpdlJxSFU2ZEItNmtybXhoMEFrcjlmOHBGUUNmY1NUSlJ3SnQzZl9oS3ZpYi1veW9lb3JrVGJHS3ljdjFQZFJacXpHd1F5YkMtOV9ZTG8tbzhlOF9YX1l0cG1xQmtuRWJXdWRhMDBEWVdpSldzV2dDdE55MDF1R1BVcThaM1R3Z0o3UdIB9wFBVV95cUxNalBVYWxablpPbVdfUGNiQTh1Vml5dzdPM0MzTHVyZms0VEg3bG80blpsaExscGthV0tzaHJxMjY4a3ZIVzQxcXB1QjVpMWI3WEdZU1NFT05iOUpOXzJTR1ZBenRzVk80RkJFMzEwd1V4bzhkMFgySUR3eWEwam51Tk9qOExPYk5ycGhsZnFwNjRQa200TTEwc3ZydXhfTWRFMVdGUjFDUHIyRHF2bGFJN2wxNjdfSGUyTHo0dGJyY1dJTkhQWDQzb2VweGNTZkdWWWJzeEdyaUVpbkw2Q0Eya1VJVDdmREx2TUtJZUZhZmZuT1RJMUpF?oc=5",
      "source": "Notícias Agrícolas",
-     "published_at": "2026-08-18T17:19:58+00:00"
+     "published_at": "2026-08-18T18:28:12+00:00"
     },
     {
-     "title": "Esmagamento de soja em Mato Grosso bateu recorde em julho - Globo Rural",
+     "title": "Esmagamento de soja em Mato Grosso bateu recorde em julho - globorural.globo.com",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON1ZrZEJUMTFDMmdqZ3lRQmJpd3FGM2E0YThFd2ZKNmZlRjUyYV9SYkpkVFFVa2s3VzlLY3FCMW1XaWx0R1dzSVVjVXQ4SEFmNXFEaDJaUUp2QmtjLWhJbXZNTXFOc3RRUjRXX3l6SFZfYUxCNnNVYW5mbVJfd3FvS0JfVkFjYlI2VTJQTXd2MVBOeTBUVUJEUldqV3FtTEVpRUhVSnVyTHRZc0YxMU9FMG9SeXRmMXR1RlY2WjhQSUI0SUHSAdIBQVVfeXFMUDVkSjBRWk1RVXlxa3JLTlF2Q2pRc19XaFctbHZvbHBVT2VZZnpDQkc1VUhLSzRVUldFNTJIMGU3Yk5CY1lLdFZvZ3l6TVhhcnJKVVJER0toSXNHZW16Q1pzQmVfOVh0VlBqRy1RZkdhbXRtZlMwZDR2VjBsOGFjczlUWHMzX1MtOHZ4QkJVVUcxUnpqOHNuRmU4Q0ZFUEcwRHNmaE41QUQ0M2UzeE5ZdFJBTVl0ZzdoeEFzRkRWcjh5X3FtaVBrams5VTlIYy1UQzdn?oc=5",
-     "source": "Globo Rural",
+     "source": "globorural.globo.com",
      "published_at": "2026-08-18T17:18:00+00:00"
+    },
+    {
+     "title": "USDA aponta leve piora nas condições de milho e soja nos Estados Unidos - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcWxhYjlqQWFPWUV3aHBway1wMnViN2dFTmxnLWwwUVc0VS1wX2pkeTk4R3lwdW1USzZpQklNN1FkajVwQjhGM2h2Y1pzN25fZFhKdjdycmNFQXpocWVYVlpoR2pGRm9uUnB4VGREeFYwejktYVFXdzZMNGJnVHJJekFFMmJ3RGp1eG5sV2V4NTllVUx6RXUzM1NpaFNCM0pWS21FSFItMlBzdnpkUTZqbm1GV2Y?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-18T13:42:05+00:00"
     },
     {
      "title": "Limões 'alienígenas' intrigam produtora; entenda o que causa a deformação",

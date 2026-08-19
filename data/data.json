@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-19T16:23:37+00:00",
+ "generated_at": "2026-08-19T17:20:59+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-19T16:23:28+00:00",
+   "updated_at": "2026-08-19T17:20:51+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1238.25,
+     "price": 1234.25,
      "prev_close": 1200.75,
-     "change_pct": 3.12,
+     "change_pct": 2.79,
      "closes": [
       1226.0,
       1219.5,
@@ -34,16 +34,16 @@
       1173.75,
       1201.0,
       1200.75,
-      1238.25
+      1234.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 495.75,
+     "price": 494.0,
      "prev_close": 463.25,
-     "change_pct": 7.02,
+     "change_pct": 6.64,
      "closes": [
       449.5,
       452.75,
@@ -67,16 +67,16 @@
       459.0,
       465.0,
       463.25,
-      495.75
+      494.0
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 324.2,
+     "price": 323.5,
      "prev_close": 313.0,
-     "change_pct": 3.58,
+     "change_pct": 3.35,
      "closes": [
       323.5,
       326.7,
@@ -100,16 +100,16 @@
       308.7,
       312.1,
       313.0,
-      324.2
+      323.5
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.36,
+     "price": 70.17,
      "prev_close": 69.69,
-     "change_pct": 0.96,
+     "change_pct": 0.69,
      "closes": [
       74.68,
       74.3,
@@ -133,16 +133,16 @@
       69.05,
       71.44,
       69.69,
-      70.36
+      70.17
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 696.5,
+     "price": 693.25,
      "prev_close": 664.5,
-     "change_pct": 4.82,
+     "change_pct": 4.33,
      "closes": [
       674.0,
       678.0,
@@ -166,16 +166,16 @@
       674.75,
       674.75,
       664.5,
-      696.5
+      693.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 92.39,
+     "price": 92.65,
      "prev_close": 91.02,
-     "change_pct": 1.51,
+     "change_pct": 1.79,
      "closes": [
       89.22,
       91.01,
@@ -199,27 +199,24 @@
       88.52,
       90.87,
       91.02,
-      92.39
+      92.65
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 168163.84,
+     "price": 168140.73,
      "prev_close": 166335.0,
-     "change_pct": 1.1,
+     "change_pct": 1.09,
      "closes": [
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -232,7 +229,7 @@
       166934.0,
       166784.0,
       166335.0,
-      168163.8438
+      168140.7344
      ]
     }
    ],
@@ -240,7 +237,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-19T16:23:29+00:00",
+   "updated_at": "2026-08-19T17:20:52+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -251,7 +248,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-19T16:23:34+00:00",
+   "updated_at": "2026-08-19T17:20:56+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -412,8 +409,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-19T16:23:37+00:00",
+   "updated_at": "2026-08-19T17:20:59+00:00",
    "items": [
+    {
+     "title": "Soja e milho apresentam cenários distintos no mercado global - Revista Cultivar",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZDJrYnNuOFhZU1Y1NDdxVDVkQXBMY3dxRkE3b1hwdGI5aG9HallaWFdDVUhTMWJQZ09TWWRXbzZwWDVsNjl6TnpWVFM2Z0RDMVVGSmI1YmtGVDBId3B4OXhqYzBQdDlzbXQxSmxMYVdFd0IxTnlzcV9SWWNTcVMwcWdJRzU3bUdiSnFqU1dCQkljTmstSm5NelM2VVVjeVhEc1E?oc=5",
+     "source": "Revista Cultivar",
+     "published_at": "2026-08-19T17:12:56+00:00"
+    },
+    {
+     "title": "Trump adia por três dias tarifas de 50% sobre produtos canadenses",
+     "link": "https://www.canalrural.com.br/economia/trump-adia-por-tres-dias-tarifas-de-50-sobre-produtos-canadenses/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T16:28:36+00:00"
+    },
     {
      "title": "Exportações de carne bovina caem 26% em agosto com temor de tarifa maior na China",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/19/exportacoes-de-carne-bovina-caem-26percent-em-agosto-com-temor-de-tarifa-maior-na-china.ghtml",
@@ -469,9 +478,9 @@
      "published_at": "2026-08-19T15:04:20+00:00"
     },
     {
-     "title": "Menos milho no estoque, mais soja disponível: o que mudou no mercado dos grãos - O Presente Rural",
+     "title": "Menos milho no estoque, mais soja disponível: o que mudou no mercado dos grãos - opresenterural.com.br",
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbjlaZll6WkFXVUlnel9wekUxMkxzUnhCcXNnbXFDMlFDbmdFU1MxWTN3SUhrLXhGM1JHT2JuN0Y5dmp0OWUzNm5FTlVURkc0TDN2Vi1zd0xnV2pNdVRUUkNWcWVlSW5RcHNYU0w2ZnVhZzNLQmF5bEEyVlBialYwQTc2cW9ERDlHZE5QUGZGYUoxdlBkUTRNeFFpMW5qMEJJVS1QcEd3UXZ0N0k?oc=5",
-     "source": "O Presente Rural",
+     "source": "opresenterural.com.br",
      "published_at": "2026-08-19T14:58:32+00:00"
     },
     {
@@ -505,22 +514,22 @@
      "published_at": "2026-08-19T13:21:31+00:00"
     },
     {
-     "title": "Brasil exporta recorde de 3,37 milhões de toneladas de algodão em 2025/26",
-     "link": "https://www.canalrural.com.br/economia/brasil-exporta-recorde-de-337-milhoes-de-toneladas-de-algodao-em-2025-26/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T13:11:07+00:00"
-    },
-    {
      "title": "Fórum Norte Gaúcho da Soja reúne produtores e entidades em Ipiranga do Sul - Jornal Bom Dia",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObE43N1BvYkkxaWNiMWN1YnpkX0tSR291MkxVbFNFTDk5YnZsSVRlWmFZVElzZnpka0I4ZWwxYjBhcjdPT0hzVXdnWUU3VlRWX01VNkxpSXU0RnZIUmF4dEF4SFM4UzdOT0FySm5YNllZZ084MnFrdmJFVzItdjhNLThMLXFfcnBaYnVfbzZGNWJlVEtfQ2RMNXZtQmh5NkhRRnZRdUpIUk0zUkhuaHVoS203bnNUNmdyZUtpTg?oc=5",
      "source": "Jornal Bom Dia",
      "published_at": "2026-08-19T12:29:00+00:00"
     },
     {
-     "title": "Embrapa orienta manejo da soja diante dos riscos do El Niño - Agrimidia",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdjlpemFnQlZxSlFCbnNBeDl4a05wMlFRMVFnMjNwR1N6UFFtbG9lVk9WcXJuTWdDSEFhQXdoSXkwMS1hWHZPeDNxZUtvTEtwcDJRX3BMWVROZDR2ekV1SlRTQ1lua0t5SG90UXlnQlNUWG1Pel8wRHk3VVRFREtoQUExS3hZNmk5WEZhZ2l5ZGl3NXBuV29rcEVuU1B6MkhaYktpcUhCbnA3V24tMjU0UXdFLWhkdXpjSlpaTA?oc=5",
-     "source": "Agrimidia",
-     "published_at": "2026-08-19T12:23:19+00:00"
+     "title": "Soja fecha em alta em Chicago apoiada por demanda chinesa e ProFarmer - agrimidia.com.br",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOV0dSVVlVT1M4ZGNVNFVweE5jbUE1OURXM0RkNGstMXlMWlNSV3FzQnVJdl91eGN6WkkxajZYVXBQNE02cUFlclVrZWItS193RDhwRHlKV3hfSEJjbW43U25hY0hDMVVUa3hzeWV3R0FybmF5R3NkZkUyWFNzUEhOT1N4a2RudFI4YlA1ZXJjci15NHNlSTNzalhOSmJHZnVTa3YxS2FTZDZpNXQ0cHlNWWtEdVBGajVUaElhTTFLR0lqWGZ5ZEJZ?oc=5",
+     "source": "agrimidia.com.br",
+     "published_at": "2026-08-19T12:13:07+00:00"
+    },
+    {
+     "title": "Soja e milho: clima irregular exige mais controle no campo - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTjBBM2lPbHhXblB3Y3hYU21oY3ZRbTVSMTVLU19uZFRWUEhhVHVZZFdrbjNSOGtxNW9IRzZWVEIxSTV2NERBZDlfVl9nbW8xd1ZrZ0Q1SkpDSmxsUi1teGZtYkY5UERTS2N6M0hENkhQRnVUR2lDaGxOT0VIUE14QXpLWFFxMjFKQUg2SDJUVzdoVjBTZkNrMU4tWlhGVGtXQlZlUG5jZ09mVXM?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-19T11:43:00+00:00"
     },
     {
      "title": "Soja dispara em Chicago nesta 4ª, com clima nos EUA, Pro Farmer e força dos derivados e do petróleo - Notícias Agrícolas",
@@ -529,22 +538,10 @@
      "published_at": "2026-08-19T10:47:41+00:00"
     },
     {
-     "title": "Preços da soja sobem com oferta mais cautelosa - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObzNhQUhNQTJJdU14elk3MVlOM24zY3MzejhWREhwTVRzV0dwWUI4QU43Vk9MSHQ4Unh1Uko4c2ctUFM0R2s1aHJQUmpqcHp6UWFTQzlWWktLZVhPMVhfSlozVm1hSGxfdUFBNDk5WFhXUndiVjZDLVRyNnpsUGV1OTRVZ1kxX3l3d0JJNGdVWmpoNlZmbDNoQzludw?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-19T09:28:00+00:00"
-    },
-    {
      "title": "Safra de soja deve ter maior custo da história em Goiás - brasilagro.com.br",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdnBlS3V4SDIyS05kZTBWQUFUcFdLT2xSQi1qV0NzU0pDVHJralJYeDFFS3BQNUstc3hxWlFsclJwRS1mWHY3ZUU5MnNHV01DZFY1WmhrWHplSmJ1c2FrdXlKRVRfRXk0M1UwaVFQeTBvcDJ4d0R3eVUtT3RzLWJDUFYxOEZrMlZaRExDNmJ0NGp6N0lFY2pfZVNNcGZ5OWRa?oc=5",
      "source": "brasilagro.com.br",
      "published_at": "2026-08-19T08:31:20+00:00"
-    },
-    {
-     "title": "Manejo antecipado para reduzir impactos do El Niño na soja - mundial.fm.br",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd0NQUlVVTzQ2dUZsWF9Tb3FPZnNadXRlVUlTdTlycm1qVFpNeG5YMURNZXB2eUhTS3ZJcXVFOWpLSUFxdnlhNlB1eEpWU3ljeXBtbVdvb0pEcGlTWjNpR1QtNzNrNTBMQVZEdGdfV1VLXzdtRk5VVUlvZXhkZWRxc2huR2oyTHNI?oc=5",
-     "source": "mundial.fm.br",
-     "published_at": "2026-08-19T07:26:12+00:00"
     },
     {
      "title": "Mercado da soja ganha sustentação com alta em Chicago e dólar firme - Canal Rural",

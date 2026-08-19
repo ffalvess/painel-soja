@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-19T12:33:30+00:00",
+ "generated_at": "2026-08-19T13:38:52+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-19T12:33:21+00:00",
+   "updated_at": "2026-08-19T13:38:47+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1228.25,
+     "price": 1226.25,
      "prev_close": 1200.75,
-     "change_pct": 2.29,
+     "change_pct": 2.12,
      "closes": [
       1226.0,
       1219.5,
@@ -34,16 +34,16 @@
       1173.75,
       1201.0,
       1200.75,
-      1228.25
+      1226.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 490.75,
+     "price": 490.5,
      "prev_close": 463.25,
-     "change_pct": 5.94,
+     "change_pct": 5.88,
      "closes": [
       449.5,
       452.75,
@@ -67,16 +67,16 @@
       459.0,
       465.0,
       463.25,
-      490.75
+      490.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 320.8,
+     "price": 320.5,
      "prev_close": 313.0,
-     "change_pct": 2.49,
+     "change_pct": 2.4,
      "closes": [
       323.5,
       326.7,
@@ -100,16 +100,16 @@
       308.7,
       312.1,
       313.0,
-      320.8
+      320.5
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.22,
+     "price": 70.02,
      "prev_close": 69.69,
-     "change_pct": 0.76,
+     "change_pct": 0.47,
      "closes": [
       74.68,
       74.3,
@@ -133,16 +133,16 @@
       69.05,
       71.44,
       69.69,
-      70.22
+      70.02
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 682.5,
+     "price": 681.75,
      "prev_close": 664.5,
-     "change_pct": 2.71,
+     "change_pct": 2.6,
      "closes": [
       674.0,
       678.0,
@@ -166,16 +166,16 @@
       674.75,
       674.75,
       664.5,
-      682.5
+      681.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.39,
+     "price": 91.29,
      "prev_close": 91.02,
-     "change_pct": 0.41,
+     "change_pct": 0.3,
      "closes": [
       89.22,
       91.01,
@@ -199,27 +199,24 @@
       88.52,
       90.87,
       91.02,
-      91.39
+      91.29
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 166334.86,
-     "prev_close": 166784.0,
-     "change_pct": -0.27,
+     "price": 168862.94,
+     "prev_close": 166335.0,
+     "change_pct": 1.52,
      "closes": [
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -231,7 +228,8 @@
       167101.0,
       166934.0,
       166784.0,
-      166335.0
+      166335.0,
+      168862.9375
      ]
     }
    ],
@@ -239,7 +237,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-19T12:33:21+00:00",
+   "updated_at": "2026-08-19T13:38:47+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -250,7 +248,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-19T12:33:27+00:00",
+   "updated_at": "2026-08-19T13:38:50+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -273,22 +271,22 @@
       0.0
      ],
      "tmax": [
-      36.0,
+      35.7,
       35.7,
       35.2,
-      36.8,
-      37.4,
-      38.1,
+      36.7,
+      37.7,
+      37.8,
       38.2
      ],
      "tmin": [
-      22.0,
-      21.4,
-      22.5,
-      22.2,
-      23.9,
-      24.7,
-      25.0
+      21.6,
+      21.2,
+      22.4,
+      22.7,
+      23.8,
+      23.7,
+      25.1
      ]
     },
     {
@@ -312,22 +310,22 @@
       0.0
      ],
      "tmax": [
-      35.1,
-      35.6,
-      35.5,
-      36.2,
+      35.0,
+      35.4,
+      35.4,
+      36.0,
       36.7,
-      37.6,
+      37.0,
       37.4
      ],
      "tmin": [
       21.0,
-      21.5,
-      21.6,
-      22.0,
-      23.3,
-      23.1,
-      25.9
+      20.7,
+      21.4,
+      22.3,
+      23.4,
+      23.2,
+      25.8
      ]
     },
     {
@@ -351,22 +349,22 @@
       0.0
      ],
      "tmax": [
+      32.3,
       32.8,
-      33.7,
-      30.3,
-      29.7,
-      32.4,
-      33.7,
+      29.9,
+      29.2,
+      32.3,
+      34.3,
       34.9
      ],
      "tmin": [
-      20.5,
+      20.2,
       21.1,
-      20.1,
-      16.0,
-      17.3,
-      18.7,
-      22.6
+      20.0,
+      15.3,
+      16.9,
+      18.5,
+      21.6
      ]
     },
     {
@@ -390,29 +388,71 @@
       0.0
      ],
      "tmax": [
-      31.4,
+      30.6,
+      23.2,
       24.2,
-      23.5,
-      26.6,
-      27.9,
-      27.3,
+      26.3,
+      27.8,
+      28.6,
       32.5
      ],
      "tmin": [
-      19.0,
-      16.4,
-      11.1,
-      11.1,
-      12.9,
-      15.9,
-      18.5
+      18.6,
+      16.6,
+      11.0,
+      11.2,
+      12.6,
+      16.9,
+      18.7
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-19T12:33:30+00:00",
+   "updated_at": "2026-08-19T13:38:52+00:00",
    "items": [
+    {
+     "title": "BNDES aprova R$ 123,6 milhões para centro da Toyota voltado a biocombustíveis",
+     "link": "https://www.canalrural.com.br/economia/bndes-aprova-r-1236-milhoes-para-centro-da-toyota-voltado-a-biocombustiveis/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T13:21:31+00:00"
+    },
+    {
+     "title": "Brasil exporta recorde de 3,37 milhões de toneladas de algodão em 2025/26",
+     "link": "https://www.canalrural.com.br/economia/brasil-exporta-recorde-de-337-milhoes-de-toneladas-de-algodao-em-2025-26/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T13:11:07+00:00"
+    },
+    {
+     "title": "Eleições 2026: Canal Rural e BDM entrevistam candidatos à Presidência ao vivo",
+     "link": "https://www.canalrural.com.br/politica/eleicoes/eleicoes-2026-canal-rural-e-bdm-entrevistam-candidatos-a-presidencia-ao-vivo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T13:01:00+00:00"
+    },
+    {
+     "title": "Dólar abre em queda ante o real com foco na ata do Fed",
+     "link": "https://www.canalrural.com.br/economia/dolar-abre-em-queda-ante-o-real-com-foco-na-ata-do-fed/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T12:46:50+00:00"
+    },
+    {
+     "title": "O crédito fechou a porteira",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/o-credito-fechou-a-porteira/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T12:44:44+00:00"
+    },
+    {
+     "title": "Impasse nas negocições entre frigoríficos e pecuaristas pressiona preço do boi gordo",
+     "link": "https://www.canalrural.com.br/pecuaria/impasse-nas-negocicoes-entre-frigorificos-e-pecuaristas-pressiona-preco-do-boi-gordo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T12:41:58+00:00"
+    },
+    {
+     "title": "VBP projeta que faturamento com soja, milho e bovinos atinja R$ 1,39 trilhão em 2026 - RADAR DIGITAL BRASÍLIA",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMVBNZ3hhZ0RGR2hCTlN4NzRDeDh3YVZIUTFpTVZxdVhsT003YVJOanJZNmtIeWJ1bTRkVnpxSzJKN0pIQWs2eWRJQ002SHBSRWpmTkFHUFhIUFRvUjVLTHVzUlVNaFRzZDVHbmwxTXBpTnBycW5UZkJrdkFzcE1CVkp4UjdkRXRtZE9ZT1NvYm16MmVuY05meUtKZWpPYjZrNkJUNUZrYlVPdktmMEhrdjFkbTdJV3NFZ2VUN3VlN01saWM2WWxCSEF3?oc=5",
+     "source": "RADAR DIGITAL BRASÍLIA",
+     "published_at": "2026-08-19T12:36:01+00:00"
+    },
     {
      "title": "Fórum Norte Gaúcho da Soja reúne produtores e entidades em Ipiranga do Sul - jornalbomdia.com.br",
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObE43N1BvYkkxaWNiMWN1YnpkX0tSR291MkxVbFNFTDk5YnZsSVRlWmFZVElzZnpka0I4ZWwxYjBhcjdPT0hzVXdnWUU3VlRWX01VNkxpSXU0RnZIUmF4dEF4SFM4UzdOT0FySm5YNllZZ084MnFrdmJFVzItdjhNLThMLXFfcnBaYnVfbzZGNWJlVEtfQ2RMNXZtQmh5NkhRRnZRdUpIUk0zUkhuaHVoS203bnNUNmdyZUtpTg?oc=5",
@@ -456,46 +496,10 @@
      "published_at": "2026-08-19T11:38:02+00:00"
     },
     {
-     "title": "IGP-M cai 0,36% na segunda prévia de agosto, informa FGV",
-     "link": "https://www.canalrural.com.br/economia/igp-m-cai-036-na-segunda-previa-de-agosto-informa-fgv/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T11:32:21+00:00"
-    },
-    {
-     "title": "SOJA E TRIGO: saca da soja sobe 1,07% no Paraná e chega a R$ 143,21 - conexaoitajuba.com.br",
+     "title": "SOJA E TRIGO: saca da soja sobe 1,07% no Paraná e chega a R$ 143,21 - Conexão Itajubá",
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTWRQVDZTbUFZRDBKR3FMLWEtS0dXZHNfNkJpVndwN3M1OU12YjVJWXQxcHB2aTQyTW9vRDc0NUVsUjU5QzVHTHRQVUNXSEJwaC1idk13OXotbXhyNnQzcEtrZjFkUmpPVFByTlg5WldjMWhVck0waUNhYTN2V2l2dG5ITm00bmctaHBkV1hOcVpnSnczMkh5STZPaUpkSEpqSVVrVFlmemd5NGVjOVFDeDZ6RQ?oc=5",
-     "source": "conexaoitajuba.com.br",
+     "source": "Conexão Itajubá",
      "published_at": "2026-08-19T11:31:28+00:00"
-    },
-    {
-     "title": "Eleições 2026: Abrafrutas quer mais mercados e pesquisa para ampliar força da fruticultura",
-     "link": "https://www.canalrural.com.br/politica/eleicoes/abrafrutas-quer-mais-mercados-e-pesquisa-para-ampliar-forca-da-fruticultura/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T11:00:00+00:00"
-    },
-    {
-     "title": "Ciclone provoca vendaval, granizo e geada; veja regiões que serão atingidas",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/ciclone-provoca-vendaval-granizo-e-geada-veja-regioes-que-serao-atingidas/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T10:55:22+00:00"
-    },
-    {
-     "title": "Soja dispara em Chicago nesta 4ª, com clima nos EUA, Pro Farmer e força dos derivados e do petróleo - TradingView",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxcTh6Xy1rR0EzdFFNdGNRRVhoRTFSdkFpa3BwV0ZVWkppMnoySXVXM1RoZTVrQnJmX3p6Sjl1UHJBcXI1a0w3SlV2VWl0MnFVYjR2WjBxTGVjV1JaWlNtYjQ3RGVoV3JDTGk1QUVJZjE1TnlH?oc=5",
-     "source": "TradingView",
-     "published_at": "2026-08-19T10:47:41+00:00"
-    },
-    {
-     "title": "Dólar e juros longos sobem com saída de capital estrangeiro do país",
-     "link": "https://www.canalrural.com.br/economia/dolar-e-juros-longos-sobem-com-saida-de-capital-estrangeiro-do-pais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T10:42:52+00:00"
-    },
-    {
-     "title": "Bolsas da Europa recuam com petróleo em alta e expectativa pela ata do Fed",
-     "link": "https://www.canalrural.com.br/economia/bolsas-da-europa-recuam-com-petroleo-em-alta-e-expectativa-pela-ata-do-fed/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T09:47:06+00:00"
     },
     {
      "title": "Em forte alta, preço da soja ultrapassa R$ 151 em Paranaguá - Globo Rural",
@@ -516,16 +520,10 @@
      "published_at": "2026-08-19T08:03:59+00:00"
     },
     {
-     "title": "Barretos em números: veja o tamanho da estrutura que recebe a Festa do Peão",
-     "link": "https://www.canalrural.com.br/feiras-e-eventos/barretos-em-numeros-veja-o-tamanho-da-estrutura-que-recebe-a-festa-do-peao/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T08:03:00+00:00"
-    },
-    {
      "title": "Manejo antecipado para reduzir impactos do El Niño na soja - mundial.fm.br",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd0NQUlVVTzQ2dUZsWF9Tb3FPZnNadXRlVUlTdTlycm1qVFpNeG5YMURNZXB2eUhTS3ZJcXVFOWpLSUFxdnlhNlB1eEpWU3ljeXBtbVdvb0pEcGlTWjNpR1QtNzNrNTBMQVZEdGdfV1VLXzdtRk5VVUlvZXhkZWRxc2huR2oyTHNI?oc=5",
      "source": "mundial.fm.br",
-     "published_at": "2026-08-19T07:26:29+00:00"
+     "published_at": "2026-08-19T07:26:12+00:00"
     },
     {
      "title": "Soja amplia ganhos em meio a dúvidas sobre safra nos EUA - Money Times",

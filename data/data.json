@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-19T03:40:57+00:00",
+ "generated_at": "2026-08-19T04:30:40+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-19T03:40:49+00:00",
+   "updated_at": "2026-08-19T04:30:34+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1224.5,
+     "price": 1223.5,
      "prev_close": 1200.75,
-     "change_pct": 1.98,
+     "change_pct": 1.89,
      "closes": [
       1226.0,
       1219.5,
@@ -34,16 +34,16 @@
       1173.75,
       1201.0,
       1200.75,
-      1224.5
+      1223.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 490.0,
+     "price": 489.5,
      "prev_close": 463.25,
-     "change_pct": 5.77,
+     "change_pct": 5.67,
      "closes": [
       449.5,
       452.75,
@@ -67,16 +67,16 @@
       459.0,
       465.0,
       463.25,
-      490.0
+      489.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 319.9,
+     "price": 319.7,
      "prev_close": 313.0,
-     "change_pct": 2.2,
+     "change_pct": 2.14,
      "closes": [
       323.5,
       326.7,
@@ -100,16 +100,16 @@
       308.7,
       312.1,
       313.0,
-      319.9
+      319.7
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 69.88,
+     "price": 69.9,
      "prev_close": 69.69,
-     "change_pct": 0.27,
+     "change_pct": 0.3,
      "closes": [
       74.68,
       74.3,
@@ -133,7 +133,7 @@
       69.05,
       71.44,
       69.69,
-      69.88
+      69.9
      ]
     },
     {
@@ -173,9 +173,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.72,
+     "price": 91.64,
      "prev_close": 91.02,
-     "change_pct": 0.77,
+     "change_pct": 0.68,
      "closes": [
       89.22,
       91.01,
@@ -199,7 +199,7 @@
       88.52,
       90.87,
       91.02,
-      91.72
+      91.64
      ]
     },
     {
@@ -239,7 +239,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-19T03:40:50+00:00",
+   "updated_at": "2026-08-19T04:30:34+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -250,7 +250,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-19T03:40:54+00:00",
+   "updated_at": "2026-08-19T04:30:38+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -411,7 +411,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-19T03:40:57+00:00",
+   "updated_at": "2026-08-19T04:30:40+00:00",
    "items": [
     {
      "title": "Petrobras anuncia descoberta de petróleo na Foz do Amazonas",
@@ -448,6 +448,12 @@
      "link": "https://www.canalrural.com.br/aves-e-suinos/exportacao-de-carne-suina-de-goias-cresce-153-no-primeiro-semestre/",
      "source": "Canal Rural",
      "published_at": "2026-08-18T22:33:01+00:00"
+    },
+    {
+     "title": "Soja amplia ganhos em meio a dúvidas sobre safra nos EUA - Money Times",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZHByRVoxamdxVXh5TmhCM1pIRU01Ym5nWXFPTXhuN3hoQ1JIQW5HOUpsamVhNUdfUkpUY0dFdVJ2V0F5TE84dXZycDRSSUpBQl9KYzNqU1hFcllEY3UxZC1waV9MYy1KQ05MbzA4aF9nMzVGWUZPS3ZUOWZ3V2RtUFJqZm5wbG5sdC1DLWJRdHYyd3M3ZG84?oc=5",
+     "source": "Money Times",
+     "published_at": "2026-08-18T22:12:00+00:00"
     },
     {
      "title": "Boi gordo: arroba segue em declínio devido a escalas de abate confortáveis",
@@ -490,12 +496,6 @@
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOR3E5ZkVrWGlVMG1JSU1FUnFNY25HV2diYzdZNmdkeGhFZHA1UUNUdDh2VjcwQVQ3czJRUGxDVTVMZC1nMUpRWnFQaEFIZzc0MTdfUkE3Q0JtQlpkc2JmVnJrUDd2WEFDTnVxQ0p4ajF3VnNwV0VEaHctQ09GWS00anVoeTMybFlkczdQZE02UDI2a1I1ZjhOWnVfQU11bkp6N2U0WXlkdG1odFotbkJTa25Lamw?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-18T21:13:54+00:00"
-    },
-    {
-     "title": "El Niño exige planejamento dos produtores de soja na safra 2026/2027 - Portal Agro2",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbjd0ZmtMeXpCUC1TWW55OFJRWFY5am1VbmxHdUZ6V2NkMTlXYWhJX0xGSktWandoeGpVc1Z0eFBVWUlwblJCX18yNGxQd2lkOHdFcUFtM3RmVDVhbVZVcDlkNWtPMWRDRXMtZFktaHhGT04xWXNPTFE1QjF1ZUo4UVg2SXVBbFI2QWRDWHBOVXZ0N2o5U3M5QmJ3SmV2UE54?oc=5",
-     "source": "Portal Agro2",
-     "published_at": "2026-08-18T20:39:57+00:00"
     },
     {
      "title": "Soja fecha acima dos US$ 12 em Chicago após realizar lucros, mas clima nos EUA e demanda da China seguem no radar - Notícias Agrícolas",

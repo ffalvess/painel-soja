@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-19T09:26:41+00:00",
+ "generated_at": "2026-08-19T10:21:46+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-19T09:26:34+00:00",
+   "updated_at": "2026-08-19T10:21:39+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1226.0,
+     "price": 1226.75,
      "prev_close": 1200.75,
-     "change_pct": 2.1,
+     "change_pct": 2.17,
      "closes": [
       1226.0,
       1219.5,
@@ -34,16 +34,16 @@
       1173.75,
       1201.0,
       1200.75,
-      1226.0
+      1226.75
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 489.5,
+     "price": 489.75,
      "prev_close": 463.25,
-     "change_pct": 5.67,
+     "change_pct": 5.72,
      "closes": [
       449.5,
       452.75,
@@ -67,16 +67,16 @@
       459.0,
       465.0,
       463.25,
-      489.5
+      489.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 319.8,
+     "price": 320.7,
      "prev_close": 313.0,
-     "change_pct": 2.17,
+     "change_pct": 2.46,
      "closes": [
       323.5,
       326.7,
@@ -100,16 +100,16 @@
       308.7,
       312.1,
       313.0,
-      319.8
+      320.7
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.26,
+     "price": 70.19,
      "prev_close": 69.69,
-     "change_pct": 0.82,
+     "change_pct": 0.72,
      "closes": [
       74.68,
       74.3,
@@ -133,16 +133,16 @@
       69.05,
       71.44,
       69.69,
-      70.26
+      70.19
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 682.5,
+     "price": 682.75,
      "prev_close": 664.5,
-     "change_pct": 2.71,
+     "change_pct": 2.75,
      "closes": [
       674.0,
       678.0,
@@ -166,16 +166,16 @@
       674.75,
       674.75,
       664.5,
-      682.5
+      682.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 92.25,
+     "price": 91.9,
      "prev_close": 91.02,
-     "change_pct": 1.35,
+     "change_pct": 0.97,
      "closes": [
       89.22,
       91.01,
@@ -199,7 +199,7 @@
       88.52,
       90.87,
       91.02,
-      92.25
+      91.9
      ]
     },
     {
@@ -211,15 +211,12 @@
      "change_pct": -0.27,
      "closes": [
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -239,7 +236,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-19T09:26:34+00:00",
+   "updated_at": "2026-08-19T10:21:39+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -250,7 +247,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-19T09:26:39+00:00",
+   "updated_at": "2026-08-19T10:21:44+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -411,8 +408,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-19T09:26:41+00:00",
+   "updated_at": "2026-08-19T10:21:46+00:00",
    "items": [
+    {
+     "title": "Bolsas da Europa recuam com petróleo em alta e expectativa pela ata do Fed",
+     "link": "https://www.canalrural.com.br/economia/bolsas-da-europa-recuam-com-petroleo-em-alta-e-expectativa-pela-ata-do-fed/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-19T09:47:06+00:00"
+    },
+    {
+     "title": "Preços da soja sobem com oferta mais cautelosa - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObzNhQUhNQTJJdU14elk3MVlOM24zY3MzejhWREhwTVRzV0dwWUI4QU43Vk9MSHQ4Unh1Uko4c2ctUFM0R2s1aHJQUmpqcHp6UWFTQzlWWktLZVhPMVhfSlozVm1hSGxfdUFBNDk5WFhXUndiVjZDLVRyNnpsUGV1OTRVZ1kxX3l3d0JJNGdVWmpoNlZmbDNoQzludw?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-19T09:28:00+00:00"
+    },
+    {
+     "title": "Em forte alta, preço da soja ultrapassa R$ 151 em Paranaguá - globorural.globo.com",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ2N3b3F3MUFJdWJ2NjRlOHZFQ3U0Y3hYZmdHcndqUUhGQzB1NjNTLUQ1YVI4bFcybmdFRVBYb2hpaldFMndxUERfT1d2cFltODhiQTYwa3RBWUJlV3ZnNzNndnUtM01NMi1DSjd0bm5qcHNUNEdRNlNBTHZwbkFHVTMxYkZmd2JrQTFmOFM3TVpwVnVuY1VFc3R4X2VUdzVKQWs0eVY5RklpRTNVeEl4M1M2NGRfaWVx0gHHAUFVX3lxTE1GRDh2ZG16eGJ0bTFaODgxS0JwTnBodmk4RXJ0M2ZyR19teXVKWFdvd2NhTnlmZ1dZZjZOV0NmX0ZJcEVnMmVFSDFOQ1NpbE9KQUVCOVdXS2FBdnUtZWhIZ0UyV2dnYkxTa0xORXRQazZ6ZGp6Vk1mTnpfdTRTU3hxQVl5TE04WEI5OW5aNUw2c1ZiRjJxbXJRNFFJUUx4UDNSLTlEc1pXWnFxTUY3MmFHUFBMTDZOV3JwTGFUZE1nVTFtaHpkeTA?oc=5",
+     "source": "globorural.globo.com",
+     "published_at": "2026-08-19T09:15:08+00:00"
+    },
     {
      "title": "Safra de soja deve ter maior custo da história em Goiás - brasilagro.com.br",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdnBlS3V4SDIyS05kZTBWQUFUcFdLT2xSQi1qV0NzU0pDVHJralJYeDFFS3BQNUstc3hxWlFsclJwRS1mWHY3ZUU5MnNHV01DZFY1WmhrWHplSmJ1c2FrdXlKRVRfRXk0M1UwaVFQeTBvcDJ4d0R3eVUtT3RzLWJDUFYxOEZrMlZaRExDNmJ0NGp6N0lFY2pfZVNNcGZ5OWRa?oc=5",
@@ -498,10 +513,10 @@
      "published_at": "2026-08-18T21:48:16+00:00"
     },
     {
-     "title": "Mercado da soja ganha sustentação com alta em Chicago e dólar firme",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/mercado-da-soja-ganha-sustentacao-com-alta-em-chicago-e-dolar-firme/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T21:48:16+00:00"
+     "title": "Exportações de café e soja avançam, enquanto milho recua - Vero Notícias",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObFBaUmJEakNpQmRpR0MwR3ZRS3h2cE8zVWxRZUs0cFl4RVdRU2Vidy1GWnRBRE9BNW83X3VBY1BBOEFQeWg5d2hQTXJ6a0F2TTUwUEpFMVZjd0JtVVBxY0Q0aFVFemZxSmd4ZnVJWDMzTzQzQmJmYWxoOGFHUFo1TVpTSHlHdmZlcTY2TVVEbzdYcm94?oc=5",
+     "source": "Vero Notícias",
+     "published_at": "2026-08-18T21:47:06+00:00"
     },
     {
      "title": "Soja: produção cai para 180,46 milhões de toneladas - Agrolink",
@@ -520,24 +535,6 @@
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdktSVjNLcFgtNm5SX1hJQVB5M2lMM2M3ZndDTHJVcklnRnVjNkVxZlZzOWtneTJOeGF6eWhkLUFNaDF0WldGcWxBa2s4NV9Ka05xZGZ0bHkwdTdfaXFkWFdUYVJlbENHTzZUeWdiSWF3b2twTTlfNkNaWnAzZHZZck9UdjBiQmNxQ1lCNlZHMnpUZXhDMFdqMGluaTNEQUE1WTBGenN6UWNsQQ?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-08-18T20:05:17+00:00"
-    },
-    {
-     "title": "Pro Farmer registra campos inundados de soja e milho no Nebraska e produtividade do cereal menor - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWTlfbFo3U09wdC1QT3R0bEVBVVd5a0ItOHRCZHAyUm1hcTYwaGZfR1gzbGFNSnU3QW84V3lfX0FnWnNacGpGQnVuR2ZHWXVZa2FEaDRwZi1WWTMxeXloOFJCY1VTVEdDbjFjS2IxQ1RpdlJxSFU2ZEItNmtybXhoMEFrcjlmOHBGUUNmY1NUSlJ3SnQzZl9oS3ZpYi1veW9lb3JrVGJHS3ljdjFQZFJacXpHd1F5YkMtOV9ZTG8tbzhlOF9YX1l0cG1xQmtuRWJXdWRhMDBEWVdpSldzV2dDdE55MDF1R1BVcThaM1R3Z0o3UdIB9wFBVV95cUxNalBVYWxablpPbVdfUGNiQTh1Vml5dzdPM0MzTHVyZms0VEg3bG80blpsaExscGthV0tzaHJxMjY4a3ZIVzQxcXB1QjVpMWI3WEdZU1NFT05iOUpOXzJTR1ZBenRzVk80RkJFMzEwd1V4bzhkMFgySUR3eWEwam51Tk9qOExPYk5ycGhsZnFwNjRQa200TTEwc3ZydXhfTWRFMVdGUjFDUHIyRHF2bGFJN2wxNjdfSGUyTHo0dGJyY1dJTkhQWDQzb2VweGNTZkdWWWJzeEdyaUVpbkw2Q0Eya1VJVDdmREx2TUtJZUZhZmZuT1RJMUpF?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-18T18:28:12+00:00"
-    },
-    {
-     "title": "Esmagamento de soja em Mato Grosso bateu recorde em julho - globorural.globo.com",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON1ZrZEJUMTFDMmdqZ3lRQmJpd3FGM2E0YThFd2ZKNmZlRjUyYV9SYkpkVFFVa2s3VzlLY3FCMW1XaWx0R1dzSVVjVXQ4SEFmNXFEaDJaUUp2QmtjLWhJbXZNTXFOc3RRUjRXX3l6SFZfYUxCNnNVYW5mbVJfd3FvS0JfVkFjYlI2VTJQTXd2MVBOeTBUVUJEUldqV3FtTEVpRUhVSnVyTHRZc0YxMU9FMG9SeXRmMXR1RlY2WjhQSUI0SUHSAdIBQVVfeXFMUDVkSjBRWk1RVXlxa3JLTlF2Q2pRc19XaFctbHZvbHBVT2VZZnpDQkc1VUhLSzRVUldFNTJIMGU3Yk5CY1lLdFZvZ3l6TVhhcnJKVVJER0toSXNHZW16Q1pzQmVfOVh0VlBqRy1RZkdhbXRtZlMwZDR2VjBsOGFjczlUWHMzX1MtOHZ4QkJVVUcxUnpqOHNuRmU4Q0ZFUEcwRHNmaE41QUQ0M2UzeE5ZdFJBTVl0ZzdoeEFzRkRWcjh5X3FtaVBrams5VTlIYy1UQzdn?oc=5",
-     "source": "globorural.globo.com",
-     "published_at": "2026-08-18T17:18:00+00:00"
-    },
-    {
-     "title": "USDA aponta leve piora nas condições de milho e soja nos Estados Unidos - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcWxhYjlqQWFPWUV3aHBway1wMnViN2dFTmxnLWwwUVc0VS1wX2pkeTk4R3lwdW1USzZpQklNN1FkajVwQjhGM2h2Y1pzN25fZFhKdjdycmNFQXpocWVYVlpoR2pGRm9uUnB4VGREeFYwejktYVFXdzZMNGJnVHJJekFFMmJ3RGp1eG5sV2V4NTllVUx6RXUzM1NpaFNCM0pWS21FSFItMlBzdnpkUTZqbm1GV2Y?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-18T13:42:05+00:00"
     },
     {
      "title": "Limões 'alienígenas' intrigam produtora; entenda o que causa a deformação",

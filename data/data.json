@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-20T06:35:08+00:00",
+ "generated_at": "2026-08-20T07:36:06+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-20T06:35:02+00:00",
+   "updated_at": "2026-08-20T07:35:58+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1239.5,
+     "price": 1240.0,
      "prev_close": 1222.25,
-     "change_pct": 1.41,
+     "change_pct": 1.45,
      "closes": [
       1226.0,
       1219.5,
@@ -35,16 +35,16 @@
       1201.0,
       1200.75,
       1222.25,
-      1239.5
+      1240.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 501.75,
+     "price": 501.0,
      "prev_close": 473.0,
-     "change_pct": 6.08,
+     "change_pct": 5.92,
      "closes": [
       449.5,
       452.75,
@@ -69,16 +69,16 @@
       465.0,
       463.25,
       473.0,
-      501.75
+      501.0
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 326.6,
+     "price": 327.2,
      "prev_close": 318.9,
-     "change_pct": 2.41,
+     "change_pct": 2.6,
      "closes": [
       323.5,
       326.7,
@@ -103,16 +103,16 @@
       312.1,
       313.0,
       318.9,
-      326.6
+      327.2
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.09,
+     "price": 70.26,
      "prev_close": 69.86,
-     "change_pct": 0.33,
+     "change_pct": 0.57,
      "closes": [
       74.68,
       74.3,
@@ -137,16 +137,16 @@
       71.44,
       69.69,
       69.86,
-      70.09
+      70.26
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 697.5,
+     "price": 697.25,
      "prev_close": 680.25,
-     "change_pct": 2.54,
+     "change_pct": 2.5,
      "closes": [
       674.0,
       678.0,
@@ -171,16 +171,16 @@
       674.75,
       664.5,
       680.25,
-      697.5
+      697.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.89,
+     "price": 92.91,
      "prev_close": 91.62,
-     "change_pct": 0.29,
+     "change_pct": 1.41,
      "closes": [
       89.22,
       91.01,
@@ -205,7 +205,7 @@
       90.87,
       91.02,
       91.62,
-      91.89
+      92.91
      ]
     },
     {
@@ -243,7 +243,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-20T06:35:02+00:00",
+   "updated_at": "2026-08-20T07:35:58+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -254,7 +254,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-20T06:35:05+00:00",
+   "updated_at": "2026-08-20T07:36:03+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -277,22 +277,22 @@
       0.0
      ],
      "tmax": [
-      36.1,
+      35.8,
       35.7,
-      37.0,
-      37.3,
-      37.6,
-      38.3,
-      37.3
+      36.8,
+      37.2,
+      37.2,
+      37.8,
+      37.9
      ],
      "tmin": [
-      21.3,
-      22.2,
-      23.1,
-      23.6,
-      24.0,
+      21.9,
+      22.0,
+      22.9,
+      23.3,
+      24.2,
       24.1,
-      26.1
+      26.0
      ]
     },
     {
@@ -316,22 +316,22 @@
       0.0
      ],
      "tmax": [
-      36.0,
       35.7,
+      35.5,
       36.3,
-      36.9,
-      36.8,
-      37.0,
-      36.6
+      36.6,
+      36.3,
+      37.1,
+      36.7
      ],
      "tmin": [
-      21.7,
-      21.6,
-      22.6,
-      23.4,
-      23.0,
-      23.6,
-      25.4
+      22.2,
+      21.3,
+      22.5,
+      23.1,
+      23.1,
+      23.7,
+      24.8
      ]
     },
     {
@@ -352,25 +352,25 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      1.2
      ],
      "tmax": [
-      33.4,
-      30.7,
-      30.2,
-      32.7,
-      34.4,
+      33.2,
+      31.1,
+      30.4,
+      33.0,
+      34.2,
       35.1,
-      32.7
+      27.4
      ],
      "tmin": [
-      21.9,
-      20.0,
-      16.4,
-      17.7,
-      19.3,
-      21.4,
-      24.2
+      20.6,
+      19.6,
+      16.9,
+      17.8,
+      19.7,
+      20.9,
+      22.0
      ]
     },
     {
@@ -385,38 +385,44 @@
       "2026-08-26"
      ],
      "precip": [
-      2.3,
+      0.2,
       0.0,
       0.0,
       0.0,
-      0.0,
-      1.5,
+      0.6,
+      2.4,
       0.0
      ],
      "tmax": [
-      24.4,
-      23.0,
-      25.8,
-      27.4,
+      24.7,
+      23.4,
       26.0,
-      26.3,
-      33.1
+      27.5,
+      23.3,
+      25.7,
+      32.7
      ],
      "tmin": [
       15.5,
-      11.0,
-      11.1,
-      12.2,
-      16.7,
+      11.3,
+      11.4,
+      12.1,
       17.1,
-      18.0
+      17.5,
+      16.5
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-20T06:35:08+00:00",
+   "updated_at": "2026-08-20T07:36:06+00:00",
    "items": [
+    {
+     "title": "SOJA E TRIGO: confira os preços dos grãos nesta quinta-feira (20) - Brasil 61",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd01lWTR2cjZ5QlhIaUZwWlhQZWMwMmJ5V0VHQTVkSXdlZE8tU2NUMFZVemQtQWFld3dXWk9jNzhTRm5ST09RRU5QWnJNVmZqSWp3ZVdZeUVJLVcwZWw5eXNaNF9jYk9IUkZlQ05kRTFXUHRrMU5BNEc2VHFCUzdxQlNKX1ZxNTloUDJBRVpnRHdyRDNBVDhHS1V1TUPSAaIBQVVfeXFMTXJkTXNYNWMybWpjaGNtSlhHVGRVaTJuMlo1WjRPWU9QRndqVWdPTGY3Tlh5b3BTQmlieV9QRGFoUEtuYXlHdmhkZXEtQ1UxWTEyRkdsWWs0RFV2eUJrRm1OTXFGNV80eFNhdTJWOTBWM050dDBodmdLNnY5T3AwRG5IVl9VeTdUR1JNTUx1eFJVOXBNeWppNFVyMHZBOHJQeFlB?oc=5",
+     "source": "Brasil 61",
+     "published_at": "2026-08-20T07:00:00+00:00"
+    },
     {
      "title": "Hedgepoint estima safra de soja 26/27 em 181,7 mi t, quase estável ante 25/26 - Terra",
      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOLUJsTlJFdmppQkZpX25qMU96eFIzeVlKM29kOGNMQnZKZUlsYTN1TDFNbnZVVVpjTGJjNkxBT1E0cG9aVzg0ejBlMzFxd0ZRUDdYMko3djJQbVBBZExTV0pEYmFBQWxBY3pRT2hETnJPMWlzZmRGbXVVVFk5UDBHd0xuNHM5TnI4cXI3NUJwdTJCSjdBbUt5dUlLMkstTnVLSHh2bEtUS0NVY0lnRGFBZFo2SzFrNjVaUFB6cmpkeGdGS0NqeklybGZvanFDWEtKckJ2OS1XUUpOeFJPVzlLbTVSSDNmay1Z?oc=5",
@@ -430,9 +436,9 @@
      "published_at": "2026-08-20T01:09:21+00:00"
     },
     {
-     "title": "Estudo da Unicamp aproveita resíduos de soja e cacau - Revista Oeste",
+     "title": "Estudo da Unicamp aproveita resíduos de soja e cacau - revistaoeste.com",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPci16OVdDSFEzUmtVdExybER5UVpjeElvUzFxMjFJN3RoUk81QkFHbGVNV1hHa2NSWDdkM3BNSG9uQ0RfMkpPNHFSSC0wQV80eFlGY09pYUtBVkxUVlBiRTMwdi1tcVd2dDJuaktjQ0E3U3R2QmlUaHoyOE9rNGlOSm5hbnA3b25wNzZJQ21BRGIya19K?oc=5",
-     "source": "Revista Oeste",
+     "source": "revistaoeste.com",
      "published_at": "2026-08-20T01:00:00+00:00"
     },
     {
@@ -514,9 +520,9 @@
      "published_at": "2026-08-19T19:36:40+00:00"
     },
     {
-     "title": "Soja dispara em Chicago e fecha 4ª feira com mais de 1% de alta com chuvas nos EUA e dados do Pro Farmer - noticiasagricolas.com.br",
+     "title": "Soja dispara em Chicago e fecha 4ª feira com mais de 1% de alta com chuvas nos EUA e dados do Pro Farmer - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNUUJkeWtNLWFtelVnclBqeHN0b3BHNHpIOUxrVDd6V1BfZjFhVVlrVVdCQ0FOMzNjNUlocmZaTXg2WHZtVGhBNThWS1VrYlB6dVI5cktVSEtzZmk0emRHQTRvZHJhR2lMNFF5QWp0SVR1RFhjUmYzZk5UQmNRX2ZmTzJoQ3g1OTlEUG51NmxxSWEzYzJpWk85aDA5WDJTa1cwZGVQSDJGR1NGM29zTS0wTE5BNjloaGJUbDRtdTBOcU03VmpqX24xSWZjbVdHY09NdzJ3Ty1iTlRfdkc5MXZNckpFNUdGaklEV29MWlBNMUJhcnZjZkFOR9IB_gFBVV95cUxPZk9QQkZzYl9nT1NzNHhFLXM0Z3RFc0swMzVFejR5Q2NWOHNtYXNubUdEcUhZOEwzR0xRVV9ZRG5TZ0FzNm1OWkZSdXN6M3JrUFB1MUYyMy1PMVZyQWJmTjBuRWNiMUtxeEdWeTZtMl9XWHlkUTRfMi14UnQyUUV4ZjN1S2YzVHhWWktaeFpuRF9zV1hNNkxhalktMDJQcWVsU1J5azZBWWNVNTZ6X2hXLTlMekZQRDVSdmN3aExvUkVwRkZwRmJITTNQbXlpbFZTZW55QjRsbHNYbl9RU1hZVTRRdVRPSmlhR3l6NE5wUlpnUjUwYXRNLVpnMEhiUQ?oc=5",
-     "source": "noticiasagricolas.com.br",
+     "source": "Notícias Agrícolas",
      "published_at": "2026-08-19T18:59:57+00:00"
     },
     {
@@ -536,12 +542,6 @@
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNekF2MHczTTBKR2ZOTjJVTXhVVjRad01LanNDMkg3TWtXSmJQTElrdFdsNi1wWlZtc1JvaUlmUUJsREM5MnQzdzR2Mk5PbmItT3BxV1lIelRYeEN5c1hCWHJPUVJ4cU5uekNxQnBWbGVNV0VuOWs5c2paeFlfTklZVVRoVUY5bWFySUg0X0JLX2Rjb0s3cDBpN1Z4YXY2cmtIZDFGUWJn?oc=5",
      "source": "Agrolink",
      "published_at": "2026-08-19T17:46:00+00:00"
-    },
-    {
-     "title": "VBP projeta que faturamento com soja, milho e bovinos atinja R$ 1,39 trilhão em 2026 - minutomt.com.br",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQUlvSVBYNVozOVBvd1hXQ0pEa1AzbmZZakR0Y2dxR1BUcktWUi1RcGJtcXVNc0NZSm0wUHV0dURLSFhZb1hlSV9IRXlnbzNkSnkzMjdkR0pNWURXWHBrY1I1QmtxZjZfS0tXTEtLYzFRSVhleVdFVDRSTzR2MDEzTUY2TEpGXy1LcXBkTFB4aHVIU0YyRk9UNW9NNXRBbTdveHRqMUt2WWdmcDNjX2t0MQ?oc=5",
-     "source": "minutomt.com.br",
-     "published_at": "2026-08-19T17:03:33+00:00"
     },
     {
      "title": "Exportações de carne bovina caem 26% em agosto com temor de tarifa maior na China",

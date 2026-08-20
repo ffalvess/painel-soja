@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-20T21:21:43+00:00",
+ "generated_at": "2026-08-20T22:20:27+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-20T21:21:34+00:00",
+   "updated_at": "2026-08-20T22:19:55+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -178,9 +178,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.15,
+     "price": 93.29,
      "prev_close": 91.62,
-     "change_pct": 1.67,
+     "change_pct": 1.82,
      "closes": [
       89.22,
       91.01,
@@ -205,7 +205,7 @@
       90.87,
       91.02,
       91.62,
-      93.15
+      93.29
      ]
     },
     {
@@ -247,9 +247,9 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-20T21:21:34+00:00",
+   "updated_at": "2026-08-20T22:19:55+00:00",
    "selic": 14.0,
-   "cdi": 13.9,
+   "cdi": null,
    "ipca_mes": {
     "valor": 0.07,
     "data": "01/07/2026"
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-20T21:21:40+00:00",
+   "updated_at": "2026-08-20T22:20:24+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,32 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-20T21:21:43+00:00",
+   "updated_at": "2026-08-20T22:20:27+00:00",
    "items": [
+    {
+     "title": "Arroba do boi gordo e mercado atacadista: veja as cotações do dia",
+     "link": "https://www.canalrural.com.br/pecuaria/arroba-do-boi-gordo-e-mercado-atacadista-veja-as-cotacoes-do-dia/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T22:05:46+00:00"
+    },
+    {
+     "title": "Safra recorde de soja em MT pode encher 1 milhão de caminhões e formar fila que daria 7 voltas no Brasil - G1",
+     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQYVNtSmNsa09oSVBlWmxmc1k1TElYdndmV3lUQkNJVWtocEo2MkstaHRoS3c5QnFQSG56VkFjb3BhaldacXoybF9aSDVZQ0lZS0stb3l4cndNX05pVXlxV01QSERua09IblJERWpHRzZNc1RBeEdLVzJQZjVnVjA2LWN6N2xuV2tITGJKM1RTQ3dSbkJJQVRFTnVIakdqVngxUVRENXIxXy1uU2ZhcVRFZ1drdWk4WmpQUGJ3UDFVNmVCbjdqeWdab01yanA5OV9oNzhheXdFSTVrcjhBR2lRNXZoNTFzaldkMWl5Wk5YUHZoRTlua3FZc9IBhwJBVV95cUxQZ1dFa1dLY09sVnpva1RORlRWYzJjOTFncUlaRWJMdHhpU21XTVcxZ3dPRXpJQmlqSHZXYnJJTDZtQksweS1PbjBOZW9yQk5XNUtSWHNyZUMzemlVdC1qZmtPZ2lZTWtCdm53OEF1SXBLZUpHSEh1M0MwRU1zeDVoMzdCbHo3aXVxQUtncVBRMlFqQ3BuMmhNVHFPaTZJbkI4X0ctVmRsV2VOb0NVaVQyWlB1dzMzc0xfZGtWSTVlWGtxVDJpS2xnMVZBeGt6MVlYLW5CWTIzLXhORjdjc0J0QS1scE9DSEVCQl94Tk9GMlduNjRab1c5dlVMWDhPZUhXQko1Y0VFaw?oc=5",
+     "source": "G1",
+     "published_at": "2026-08-20T21:48:30+00:00"
+    },
+    {
+     "title": "Juros futuros fecham em alta na B3 com avanço dos Treasuries e petróleo perto de US$ 94",
+     "link": "https://www.canalrural.com.br/economia/juros-futuros-fecham-em-alta-na-b3-com-avanco-dos-treasuries-e-petroleo-perto-de-us-94/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T21:22:33+00:00"
+    },
+    {
+     "title": "USDA favorece milho e deixa soja sem força para sustentar alta, alerta especialista - MT Econômico",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZ1VxOEM5ZWdrQWRVVy1MUWZZMUxKR2dpSWZQaWo1Q09IdWtQSWdDZ0dTd2NwTTlUMVRucVFNaVhEeDR2YWhhQkNOcTJvUTJWaVNGT3pkMEVaV0IzSVBBZ3JFQWlRM20zWGJRYTB3cG5rRXFFR0tXWVNhdGxrRW5CS0UxODB3SjJmenlVWFlBWTUzWjgxQlhTMDJ5dHZCNXFNVEJIYTRVdzJYeW8xN3E1dmxrMTZrZ2dTR2JVVlFBYnJ5V2ZUMEpTRGNWbi1ral84bDIzR1BuS05JUQ?oc=5",
+     "source": "MT Econômico",
+     "published_at": "2026-08-20T21:15:25+00:00"
+    },
     {
      "title": "Frente fria leva chuva, ventania e queda de temperatura a São Paulo",
      "link": "https://www.canalrural.com.br/diversos/frente-fria-leva-chuva-ventania-e-queda-de-temperatura-a-sao-paulo/",
@@ -476,18 +500,6 @@
      "published_at": "2026-08-20T19:55:09+00:00"
     },
     {
-     "title": "Emprego no atacado paulista atinge recorde no semestre, mas saldo de vagas recua",
-     "link": "https://www.canalrural.com.br/economia/emprego-no-atacado-paulista-atinge-recorde-no-semestre-mas-saldo-de-vagas-recua/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T19:47:29+00:00"
-    },
-    {
-     "title": "Cofco faz primeiro grande embarque de sorgo brasileiro para a China",
-     "link": "https://www.canalrural.com.br/agricultura/cofco-faz-primeiro-grande-embarque-de-sorgo-brasileiro-para-a-china/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T19:47:17+00:00"
-    },
-    {
      "title": "Soja e frango puxam exportações do agro a US$ 16,3 bilhões em julho - O Presente Rural",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM3ZRR2U1UjN5dUN2c2M4MWdqcHFrYk9qbEVib2NuQmVlaF9iSTM3X1p6QnpJZmpBcW5USnpRY3U3bXhTaTUxS2l6NmpuTlZ1T0xTUVFrYlNyS0UyVkxGNExVOTlaSlVzMVdaMC03S2VPUEhWMERxNWQtSDZicjlRRHlEX1E0eHFCcVVuaHo1bmZya3diMDZsRWpjZXE?oc=5",
      "source": "O Presente Rural",
@@ -500,6 +512,12 @@
      "published_at": "2026-08-20T17:26:54+00:00"
     },
     {
+     "title": "Importações de soja dos EUA pela China mais que dobram em julho - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HeENGQkVLZW1JQk1NWkxaTE1HN25ISlQ3OWx3NHpTVU04RGxrTE0tbFNvUlNlN2xWSkhxTnVfZmVlc3UwUGNXRXlvamRnb1k0R1gxd1NmbnJLQ05GUDViTjVWZFp6VS1wd0lmNw?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-08-20T16:21:16+00:00"
+    },
+    {
      "title": "O início da virada para a soja vem aí? Os dados sugerem que sim - The AgriBiz",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWVExQ2lVbVM4MTJhNlo5Y3VRd0hNdDc1TlZVckhabDhBRGhLVzJNYThGRGcwUGNReVNzaThSOFZyMlVVQUltbnBrVXFZOE1uVC1DUDhnd2NKaFdXM3dvY3dOTXNZcGdxeFBCS1F4MVd0cmdQdjB0Q3A2R2k0cU42LUJRZHk0SHd3NzdKU1phZFdNbEgydl8wVDBwbF9vako5Y1BzeQ?oc=5",
      "source": "The AgriBiz",
@@ -510,18 +528,6 @@
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMHZQUEsxeW9fajNza3ZmODQtMFhoOHdKYTdBd0NLS1lTYndqak1PQXRTMEVBSWRzNlAyMkhVMWZGelluLTNOdDFNMk9Hd0s3SFVlWHdHRHB0NVl5c1Z2UUFldkNySFFzaWpsa2JOUVBMdmxHQXFiLWE0bllSWHBhLWdBMkZDV3k2bUZWUHVJZ1VXLXh2R211Y0JSdk40THJmQkFqWnMyTmdQZw?oc=5",
      "source": "Agrolink",
      "published_at": "2026-08-20T16:03:00+00:00"
-    },
-    {
-     "title": "Abiove atualiza projeções e aponta avanço no esmagamento acumulado de soja - safras.com.br",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRlNyX2JhczMyMFBia0d6eGtpR3pwNnFkUmlMeHdTWlFlMXQyUTRyMGJRWE5IRHM4WWpIXzY1MURzWlFaOVdzdmRXbnRoZGJoN0owTWtEd18ydDlSTTJnRVpZNlJuekhDZUVZT1lrMGxCTGZkYlJwbTc4b3FBWVNLRTlYNnJKbmpSNGtZcjNTd2UyWUVpZU5ibzBEVmQ2QQ?oc=5",
-     "source": "safras.com.br",
-     "published_at": "2026-08-20T13:55:49+00:00"
-    },
-    {
-     "title": "Esmagamento de soja no Brasil cresce 7,7% no ano - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQamJPbm8wbHdnZjhPaHhMSGt0NVdub3p2d3J6cThrSHkzMFdDUXlTMURZdE1CLWJCUnNDOFFOckZ4bm5xaC1kQ2lPcFhFcmN3UFpQYzZTaEtNdG9oS1ZZanBKTmJJLXdHYVpwUWhmQ1IyQXgzV3ZkWU12dG1oWHVwMjZxcDY1dUNM?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-08-20T13:00:31+00:00"
     },
     {
      "title": "Com demanda externa aquecida, Abiove eleva perspectiva para exportação de farelo de soja - AgFeed",
@@ -540,12 +546,6 @@
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZzRVT1RsaTkwdW5LQm1EV29xYjZtZTg0Z2c2LTNEZU1UMG95VUpxbnhpREV5djJBT2FReWtPWTdNRUZ1RjNHUWZEN2M0aGptS05hOTZNazMzVk52M29sMTlNMEVFb0ZMUlAyNUJlOWxEck9IazhPRkN0cnNJVzZlZU5MbWhabHZ0UUlydy1kTEcyTlBSWFVWNlZvWF9nZw?oc=5",
      "source": "Farmnews",
      "published_at": "2026-08-20T12:21:22+00:00"
-    },
-    {
-     "title": "Soja mantém tendência de alta no Brasil com preços firmes em Chicago - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVldCY1ltZDlGVDNmVFFTUlp1ZWctRXFYV0dLVXRpNmNTVVJqRmxUd3R0aVpVcU9vUzNwZ1oyVnE5WF95ODljV1lGbE1TMjNQOWRNZFdUSkZjOWw1ZGY5V1hCZTBmcnk1U25DeWtrSVRVZzRxX21kZDY4ZGVEdFpIYkxWdzRzV1RaOVF5OE9VR2RPUzJjcWtiUFQwY3dtekhRZXJuN3lqMXBUVW1VU2dra0lhWFNTTE0yV3F4M0FaTkhnV1l3THJV0gHWAUFVX3lxTE10dHVCTU1aQjdVcWdlWEFMS0hWXzV5SW1Zb0gtVllGb3VXS2ZuMl9wdzE1UFY3WWItUXBMb1FPUDdHcDJ6ZXM4ZGM2UjBKS3dQTkR0eUgyLUphY3F0MW1ET2Y5MVR0WlNTV1lOcUJiSTE0dDh3NDJxeGd0bkU1YkdpTFZoR1Ixd3RrQlFWUWNSYlZ2QkhVTE92N1VVRnkxM0xISXg0WGtTdmtUbmcxM0xUczE3ODFPcllnVzVoTVdnTDA2d29fMnNfU3BWM29mMmJiRUFpQWc?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-20T09:15:08+00:00"
     },
     {
      "title": "Produção de soja traz menor crescimento em 30 anos, diz consultoria - brasilagro.com.br",

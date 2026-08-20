@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-20T15:27:12+00:00",
+ "generated_at": "2026-08-20T16:27:16+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-20T15:27:06+00:00",
+   "updated_at": "2026-08-20T16:27:07+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1243.0,
+     "price": 1240.75,
      "prev_close": 1222.25,
-     "change_pct": 1.7,
+     "change_pct": 1.51,
      "closes": [
       1226.0,
       1219.5,
@@ -35,16 +35,16 @@
       1201.0,
       1200.75,
       1222.25,
-      1243.0
+      1240.75
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 505.5,
+     "price": 505.75,
      "prev_close": 473.0,
-     "change_pct": 6.87,
+     "change_pct": 6.92,
      "closes": [
       449.5,
       452.75,
@@ -69,16 +69,16 @@
       465.0,
       463.25,
       473.0,
-      505.5
+      505.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 327.5,
+     "price": 326.4,
      "prev_close": 318.9,
-     "change_pct": 2.7,
+     "change_pct": 2.35,
      "closes": [
       323.5,
       326.7,
@@ -103,16 +103,16 @@
       312.1,
       313.0,
       318.9,
-      327.5
+      326.4
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.01,
+     "price": 71.16,
      "prev_close": 69.86,
-     "change_pct": 1.65,
+     "change_pct": 1.86,
      "closes": [
       74.68,
       74.3,
@@ -137,16 +137,16 @@
       71.44,
       69.69,
       69.86,
-      71.01
+      71.16
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 707.25,
+     "price": 702.5,
      "prev_close": 680.25,
-     "change_pct": 3.97,
+     "change_pct": 3.27,
      "closes": [
       674.0,
       678.0,
@@ -171,16 +171,16 @@
       674.75,
       664.5,
       680.25,
-      707.25
+      702.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.41,
+     "price": 93.68,
      "prev_close": 91.62,
-     "change_pct": 1.95,
+     "change_pct": 2.25,
      "closes": [
       89.22,
       91.01,
@@ -205,16 +205,16 @@
       90.87,
       91.02,
       91.62,
-      93.41
+      93.68
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 169417.02,
+     "price": 168315.61,
      "prev_close": 167830.0,
-     "change_pct": 0.95,
+     "change_pct": 0.29,
      "closes": [
       173371.0,
       173326.0,
@@ -239,7 +239,7 @@
       166784.0,
       166335.0,
       167830.0,
-      169417.0156
+      168315.6094
      ]
     }
    ],
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-20T15:27:07+00:00",
+   "updated_at": "2026-08-20T16:27:08+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-20T15:27:10+00:00",
+   "updated_at": "2026-08-20T16:27:12+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,56 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-20T15:27:12+00:00",
+   "updated_at": "2026-08-20T16:27:16+00:00",
    "items": [
+    {
+     "title": "O início da virada para a soja vem aí? Os dados sugerem que sim - The AgriBiz",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWVExQ2lVbVM4MTJhNlo5Y3VRd0hNdDc1TlZVckhabDhBRGhLVzJNYThGRGcwUGNReVNzaThSOFZyMlVVQUltbnBrVXFZOE1uVC1DUDhnd2NKaFdXM3dvY3dOTXNZcGdxeFBCS1F4MVd0cmdQdjB0Q3A2R2k0cU42LUJRZHk0SHd3NzdKU1phZFdNbEgydl8wVDBwbF9vako5Y1BzeQ?oc=5",
+     "source": "The AgriBiz",
+     "published_at": "2026-08-20T16:15:31+00:00"
+    },
+    {
+     "title": "Vendas semanais de trigo dos EUA somam 393,7 mil toneladas, diz USDA",
+     "link": "https://www.canalrural.com.br/agricultura/vendas-semanais-de-trigo-dos-eua-somam-3937-mil-toneladas-diz-usda/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T16:13:21+00:00"
+    },
+    {
+     "title": "Produção de soja pode chegar a 180,4 milhões de toneladas - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMHZQUEsxeW9fajNza3ZmODQtMFhoOHdKYTdBd0NLS1lTYndqak1PQXRTMEVBSWRzNlAyMkhVMWZGelluLTNOdDFNMk9Hd0s3SFVlWHdHRHB0NVl5c1Z2UUFldkNySFFzaWpsa2JOUVBMdmxHQXFiLWE0bllSWHBhLWdBMkZDV3k2bUZWUHVJZ1VXLXh2R211Y0JSdk40THJmQkFqWnMyTmdQZw?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-20T16:03:00+00:00"
+    },
+    {
+     "title": "Diesel S-10 da Refinaria de Mataripe sobe 8,2% mesmo com subvenção",
+     "link": "https://www.canalrural.com.br/economia/diesel-s-10-da-refinaria-de-mataripe-sobe-82-mesmo-com-subvencao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T16:01:58+00:00"
+    },
+    {
+     "title": "Mercado de fertilizantes tem pressão baixista e abre espaço para oportunidades de compra",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/mercado-de-fertilizantes-tem-pressao-baixista-e-abre-espaco-para-oportunidades-de-compra/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T16:00:08+00:00"
+    },
+    {
+     "title": "Vendas semanais de milho dos EUA somam 1,05 milhão de toneladas, informa USDA",
+     "link": "https://www.canalrural.com.br/economia/vendas-semanais-de-milho-dos-eua-somam-105-milhao-de-toneladas-informa-usda/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T15:33:22+00:00"
+    },
+    {
+     "title": "Indígenas cobram participação efetiva nas negociações da COP17 da Desertificação",
+     "link": "https://www.canalrural.com.br/politica/indigenas-cobram-participacao-efetiva-nas-negociacoes-da-cop17-da-desertificacao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T15:18:43+00:00"
+    },
+    {
+     "title": "EUA vendem 85 mil t de soja da safra 2025/26, revela USDA - UOL Notícias",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQ2twaHlvMFNnU3lmMllLYVl3U1l0SmZ0MHFPZkFLV2hGSHltRXhWUkd4Y0E2WmZyMzYzZ2d4YkY2dGsxMy12YmJXNXlxZkNqa2hxMmY5TENTdUtmV1VoZXBpeWlPTGRDZHpjUWxOX1ZmS3lWZlVrNEM3VEoxMXJyUEh3TkdveFIyLWdNNDl4cGhfajAtQUxlN0Zrbm9uU1lTQ1VBRVVQOURkMzdiTjhlamhaTjhEdHdTY1ZHeU84QkxPRWE5b1N1ZXZR?oc=5",
+     "source": "UOL Notícias",
+     "published_at": "2026-08-20T15:14:00+00:00"
+    },
     {
      "title": "Safra de cana 2026/27 deve atingir 705,23 milhões de toneladas, estima Conab",
      "link": "https://www.canalrural.com.br/agricultura/safra-de-cana-2026-27-deve-atingir-70523-milhoes-de-toneladas-estima-conab/",
@@ -446,58 +494,16 @@
      "published_at": "2026-08-20T14:33:17+00:00"
     },
     {
-     "title": "Vendas de exportação de milho e soja dos EUA sobem na semana encerrada em 13 de agosto - Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUms5VWFERjB2OUk1UkVieEFYN0JPZDNYY29NOUVNWGRzck1TX0ZUTGo0c19JOUFMcDRPaFV1VVp4NVFzRWpNQzRzbENLUXFQOEJ1bmtpbnhsdUo1QzlKa25ybUw5M0NlX3hTR3pwYmxZWlBZRExqY3FfZ1ZDMUF3YnFfUnRtQTdtVFM0MFBQT0psazJZN3I0SE9ScmtSQWFhdVdqck5zSlFnalkxbGMxVFB2X0hLVU50Vl9WeU5GWktTNjRQbDE2S0FHOVdPNkNQbGRVTUNyU3lnRWhkeUpr?oc=5",
-     "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-     "published_at": "2026-08-20T13:33:00+00:00"
-    },
-    {
      "title": "Pilgrim’s Pride cria comitê para avaliar proposta da JBS",
      "link": "https://www.canalrural.com.br/economia/pilgrims-pride-cria-comite-para-avaliar-proposta-da-jbs/",
      "source": "Canal Rural",
      "published_at": "2026-08-20T13:32:49+00:00"
     },
     {
-     "title": "Trump se perde no próprio tarifaço",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/trump-se-perde-no-proprio-tarifaco/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T13:32:34+00:00"
-    },
-    {
-     "title": "BNDES aprova R$ 42,8 milhões para ampliar armazenagem de grãos da Coasul",
-     "link": "https://www.canalrural.com.br/agricultura/bndes-aprova-r-428-milhoes-para-ampliar-armazenagem-de-graos-da-coasul/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T13:19:29+00:00"
-    },
-    {
-     "title": "Dólar abre em alta e oscila perto da estabilidade nesta quinta-feira",
-     "link": "https://www.canalrural.com.br/economia/dolar-abre-em-alta-e-oscila-perto-da-estabilidade-nesta-quinta-feira/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T13:18:17+00:00"
-    },
-    {
-     "title": "Ciclone começa a se formar nesta quinta, ganha força na sexta e derruba temperaturas",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/ciclone-comeca-a-se-formar-nesta-quinta-ganha-forca-na-sexta-e-derruba-temperaturas/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T13:13:27+00:00"
-    },
-    {
      "title": "Com demanda externa aquecida, Abiove eleva perspectiva para exportação de farelo de soja - AgFeed",
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOemJsSU4tN1gyYnRzb0RTeW5ldUhTUzZINk83bjZWbmloWkdDbjlhaF9Rck5nTzliR3ExdzRHb3N0cTFYZll6a3VLNGpfcnM3dUQ4c2ZXNGFlMVN0Smd5aEZCeHFtNW9PVTNYdXIzN0NDeEV2d0d2U2ZVRkNJY1F3STNCNWtIOGNIQTZCRFVOMTlhd1FjLUFYSFdKdm1DX2g3QXpVTTJCcGdFeXZyX0pzVTdWNjNPUFpUV2c?oc=5",
      "source": "AgFeed",
      "published_at": "2026-08-20T13:00:00+00:00"
-    },
-    {
-     "title": "Soja: escolha da semente é essencial - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYkRFeXdBRGQzcnNlOUNDQjc0T2NIYUlrMmhEa21iNWtVRFZpYU1xZWpCVDVOLUtTTjhDekRCTUctV2hjLWRteDQ4LXNtNnByZDZ1dURRbzhiS201dVZDakpUbGVqQ0hPZEQyamdoYXFPQWtyYnBWblhCeEhDWU1tYjN0VGlWbmt2Q1VxdW9n?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-20T12:59:00+00:00"
-    },
-    {
-     "title": "Preço baixo do suíno gera prejuízo e leva produtores a deixar atividade",
-     "link": "https://www.canalrural.com.br/aves-e-suinos/preco-baixo-do-suino-gera-prejuizo-e-leva-produtores-a-deixar-atividade/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T12:47:57+00:00"
     },
     {
      "title": "Soja ou floresta em pé? Projeto de carbono testa valor da conservação na Amazônia - Bloomberg Línea Brasil",
@@ -522,12 +528,6 @@
      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQVmhaVlFxemJveFBhYldFRUp1OGFVT0xmczh4cC1makVWQnc4VnBEOHh2a1V0NXpQYUxpWUxaWDNxOEZtVXpFN0JpV0xWM1JlRWZSdGJmc0FZUjZrM1FVd29DcldtZnFORzYtOVJ3SkFYYjIxcTg4ZW1HNTVPa0ZtUFZya2N3MWY0OXk1WkJTdTdkWEYtNUZvYUlEdDZkYnhvUlhrSWdrQ1cyQkxGMFNyeWs3cnVNN3E1bjFBOEJWWHNyVWlJWVpod1FmVDJyNFVaVmgtaDhtWUZZMDdSQ0hJZHMtVWV4clFYa3ctOHlzUdIB9AFBVV95cUxQOWxUNTBSOW1rQ193d25oUWRtQkhwVU9fWEpiM1dsQ1NrM2gyc0hlSzM2YjNWdVg4b1pRNWd6Qm96SHhNb3pyQzhRanFaNU1pNjJkR1dIWmJlS0NVcjhhbUxWTDNUTXAxT1IwalFhOGhmaVdtRzFTcmk3WjJkelpxZVNFMWNyN2V4U09kcE9DMVE0SXJwMHo1Nmh0SmJSXzk3Q3l0cGtFaEhGSmo4VWpfMENlLTMwLUt5LUVwTEFoeXpBNnlCQUVNeHg2b1JDWkxSN2NDUHNkSV8zaVZmcHExV2RlQ3NTQld0S2NJU2RQTE0wNzBM?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-20T11:13:14+00:00"
-    },
-    {
-     "title": "Esmagamento de soja no Brasil cresce 7,7% no ano - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQamJPbm8wbHdnZjhPaHhMSGt0NVdub3p2d3J6cThrSHkzMFdDUXlTMURZdE1CLWJCUnNDOFFOckZ4bm5xaC1kQ2lPcFhFcmN3UFpQYzZTaEtNdG9oS1ZZanBKTmJJLXdHYVpwUWhmQ1IyQXgzV3ZkWU12dG1oWHVwMjZxcDY1dUNM?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-08-20T10:00:31+00:00"
     },
     {
      "title": "Soja mantém tendência de alta no Brasil com preços firmes em Chicago - Globo Rural",

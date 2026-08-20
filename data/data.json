@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-20T16:27:16+00:00",
+ "generated_at": "2026-08-20T17:22:47+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-20T16:27:07+00:00",
+   "updated_at": "2026-08-20T17:22:35+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1240.75,
+     "price": 1238.25,
      "prev_close": 1222.25,
-     "change_pct": 1.51,
+     "change_pct": 1.31,
      "closes": [
       1226.0,
       1219.5,
@@ -35,16 +35,16 @@
       1201.0,
       1200.75,
       1222.25,
-      1240.75
+      1238.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 505.75,
+     "price": 504.0,
      "prev_close": 473.0,
-     "change_pct": 6.92,
+     "change_pct": 6.55,
      "closes": [
       449.5,
       452.75,
@@ -69,16 +69,16 @@
       465.0,
       463.25,
       473.0,
-      505.75
+      504.0
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 326.4,
+     "price": 324.6,
      "prev_close": 318.9,
-     "change_pct": 2.35,
+     "change_pct": 1.79,
      "closes": [
       323.5,
       326.7,
@@ -103,16 +103,16 @@
       312.1,
       313.0,
       318.9,
-      326.4
+      324.6
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.16,
+     "price": 71.19,
      "prev_close": 69.86,
-     "change_pct": 1.86,
+     "change_pct": 1.9,
      "closes": [
       74.68,
       74.3,
@@ -137,16 +137,16 @@
       71.44,
       69.69,
       69.86,
-      71.16
+      71.19
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 702.5,
+     "price": 697.5,
      "prev_close": 680.25,
-     "change_pct": 3.27,
+     "change_pct": 2.54,
      "closes": [
       674.0,
       678.0,
@@ -171,16 +171,16 @@
       674.75,
       664.5,
       680.25,
-      702.5
+      697.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.68,
+     "price": 93.2,
      "prev_close": 91.62,
-     "change_pct": 2.25,
+     "change_pct": 1.72,
      "closes": [
       89.22,
       91.01,
@@ -205,27 +205,24 @@
       90.87,
       91.02,
       91.62,
-      93.68
+      93.2
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 168315.61,
+     "price": 167684.8,
      "prev_close": 167830.0,
-     "change_pct": 0.29,
+     "change_pct": -0.09,
      "closes": [
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -239,7 +236,7 @@
       166784.0,
       166335.0,
       167830.0,
-      168315.6094
+      167684.7969
      ]
     }
    ],
@@ -247,7 +244,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-20T16:27:08+00:00",
+   "updated_at": "2026-08-20T17:22:35+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +255,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-20T16:27:12+00:00",
+   "updated_at": "2026-08-20T17:22:44+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +416,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-20T16:27:16+00:00",
+   "updated_at": "2026-08-20T17:22:47+00:00",
    "items": [
+    {
+     "title": "Ibovespa sobe com apoio de Petrobras, mas tensão externa limita recuperação",
+     "link": "https://www.canalrural.com.br/economia/ibovespa-sobe-com-apoio-de-petrobras-mas-tensao-externa-limita-recuperacao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T16:58:46+00:00"
+    },
     {
      "title": "O início da virada para a soja vem aí? Os dados sugerem que sim - The AgriBiz",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWVExQ2lVbVM4MTJhNlo5Y3VRd0hNdDc1TlZVckhabDhBRGhLVzJNYThGRGcwUGNReVNzaThSOFZyMlVVQUltbnBrVXFZOE1uVC1DUDhnd2NKaFdXM3dvY3dOTXNZcGdxeFBCS1F4MVd0cmdQdjB0Q3A2R2k0cU42LUJRZHk0SHd3NzdKU1phZFdNbEgydl8wVDBwbF9vako5Y1BzeQ?oc=5",
@@ -492,12 +495,6 @@
      "link": "https://www.canalrural.com.br/economia/divida-elevada-nas-americas-amplia-premio-de-risco-diz-bis/",
      "source": "Canal Rural",
      "published_at": "2026-08-20T14:33:17+00:00"
-    },
-    {
-     "title": "Pilgrim’s Pride cria comitê para avaliar proposta da JBS",
-     "link": "https://www.canalrural.com.br/economia/pilgrims-pride-cria-comite-para-avaliar-proposta-da-jbs/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T13:32:49+00:00"
     },
     {
      "title": "Com demanda externa aquecida, Abiove eleva perspectiva para exportação de farelo de soja - AgFeed",

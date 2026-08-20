@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-20T10:22:56+00:00",
+ "generated_at": "2026-08-20T11:20:15+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-20T10:22:47+00:00",
+   "updated_at": "2026-08-20T11:20:08+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1242.5,
+     "price": 1240.25,
      "prev_close": 1222.25,
-     "change_pct": 1.66,
+     "change_pct": 1.47,
      "closes": [
       1226.0,
       1219.5,
@@ -35,16 +35,16 @@
       1201.0,
       1200.75,
       1222.25,
-      1242.5
+      1240.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 502.5,
+     "price": 502.0,
      "prev_close": 473.0,
-     "change_pct": 6.24,
+     "change_pct": 6.13,
      "closes": [
       449.5,
       452.75,
@@ -69,16 +69,16 @@
       465.0,
       463.25,
       473.0,
-      502.5
+      502.0
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 327.6,
+     "price": 327.0,
      "prev_close": 318.9,
-     "change_pct": 2.73,
+     "change_pct": 2.54,
      "closes": [
       323.5,
       326.7,
@@ -103,16 +103,16 @@
       312.1,
       313.0,
       318.9,
-      327.6
+      327.0
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.52,
+     "price": 70.41,
      "prev_close": 69.86,
-     "change_pct": 0.94,
+     "change_pct": 0.79,
      "closes": [
       74.68,
       74.3,
@@ -137,16 +137,16 @@
       71.44,
       69.69,
       69.86,
-      70.52
+      70.41
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 702.75,
+     "price": 702.25,
      "prev_close": 680.25,
-     "change_pct": 3.31,
+     "change_pct": 3.23,
      "closes": [
       674.0,
       678.0,
@@ -171,16 +171,16 @@
       674.75,
       664.5,
       680.25,
-      702.75
+      702.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.9,
+     "price": 94.0,
      "prev_close": 91.62,
-     "change_pct": 2.49,
+     "change_pct": 2.6,
      "closes": [
       89.22,
       91.01,
@@ -205,7 +205,7 @@
       90.87,
       91.02,
       91.62,
-      93.9
+      94.0
      ]
     },
     {
@@ -246,7 +246,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-20T10:22:47+00:00",
+   "updated_at": "2026-08-20T11:20:08+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -257,7 +257,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-20T10:22:52+00:00",
+   "updated_at": "2026-08-20T11:20:11+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -418,8 +418,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-20T10:22:56+00:00",
+   "updated_at": "2026-08-20T11:20:15+00:00",
    "items": [
+    {
+     "title": "Ibovespa interrompe sequência de quedas e dólar recua",
+     "link": "https://www.canalrural.com.br/economia/ibovespa-interrompe-sequencia-de-quedas-e-dolar-recua/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T10:36:15+00:00"
+    },
     {
      "title": "Soja avança, mas negócios seguem em ritmo lento - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQzFGUjlUa3JpYkYyTlZRMHk4N2VWSDJpRS1MMFZKSTctaWNXby12TVRRanlJbUQxZlpmQkg2OFVaWEU4SHlHamFQXy1SWlRHU1hlU1c5a1VoSk1vS1gwTXZ2RjF6eDNSRkVabm9Iak0zTVZFdTQxU2xmaG1jc3hyOE5FTkpwcTZJWmptMlRJd3QzVGNPZ1BOeDlsZjg?oc=5",
@@ -521,12 +527,6 @@
      "link": "https://www.canalrural.com.br/agricultura/soja/soja-ganha-sustentacao-em-chicago-e-precos-sobem-em-parte-do-brasil/",
      "source": "Canal Rural",
      "published_at": "2026-08-19T21:36:27+00:00"
-    },
-    {
-     "title": "Moratória da Soja: entre a validade jurídica e os incentivos econômicos",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/moratoria-da-soja-entre-a-validade-juridica-e-os-incentivos-economicos/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T21:35:56+00:00"
     },
     {
      "title": "Soja fecha em alta em meio a preocupações com safra no Meio-Oeste dos EUA - Money Times",

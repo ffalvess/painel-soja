@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-20T14:29:15+00:00",
+ "generated_at": "2026-08-20T15:27:12+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-20T14:29:05+00:00",
+   "updated_at": "2026-08-20T15:27:06+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1236.0,
+     "price": 1243.0,
      "prev_close": 1222.25,
-     "change_pct": 1.12,
+     "change_pct": 1.7,
      "closes": [
       1226.0,
       1219.5,
@@ -35,16 +35,16 @@
       1201.0,
       1200.75,
       1222.25,
-      1236.0
+      1243.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 503.75,
+     "price": 505.5,
      "prev_close": 473.0,
-     "change_pct": 6.5,
+     "change_pct": 6.87,
      "closes": [
       449.5,
       452.75,
@@ -69,16 +69,16 @@
       465.0,
       463.25,
       473.0,
-      503.75
+      505.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 327.1,
+     "price": 327.5,
      "prev_close": 318.9,
-     "change_pct": 2.57,
+     "change_pct": 2.7,
      "closes": [
       323.5,
       326.7,
@@ -103,16 +103,16 @@
       312.1,
       313.0,
       318.9,
-      327.1
+      327.5
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.35,
+     "price": 71.01,
      "prev_close": 69.86,
-     "change_pct": 0.7,
+     "change_pct": 1.65,
      "closes": [
       74.68,
       74.3,
@@ -137,16 +137,16 @@
       71.44,
       69.69,
       69.86,
-      70.35
+      71.01
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 704.25,
+     "price": 707.25,
      "prev_close": 680.25,
-     "change_pct": 3.53,
+     "change_pct": 3.97,
      "closes": [
       674.0,
       678.0,
@@ -171,16 +171,16 @@
       674.75,
       664.5,
       680.25,
-      704.25
+      707.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.42,
+     "price": 93.41,
      "prev_close": 91.62,
-     "change_pct": 1.96,
+     "change_pct": 1.95,
      "closes": [
       89.22,
       91.01,
@@ -205,24 +205,27 @@
       90.87,
       91.02,
       91.62,
-      93.42
+      93.41
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 168218.14,
+     "price": 169417.02,
      "prev_close": 167830.0,
-     "change_pct": 0.23,
+     "change_pct": 0.95,
      "closes": [
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -236,7 +239,7 @@
       166784.0,
       166335.0,
       167830.0,
-      168218.1406
+      169417.0156
      ]
     }
    ],
@@ -244,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-20T14:29:05+00:00",
+   "updated_at": "2026-08-20T15:27:07+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -255,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-20T14:29:09+00:00",
+   "updated_at": "2026-08-20T15:27:10+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -416,13 +419,31 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-20T14:29:15+00:00",
+   "updated_at": "2026-08-20T15:27:12+00:00",
    "items": [
     {
-     "title": "Illinois tem safra regular de soja e milho, enquanto Iowa traz alguns pontos de alerta - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORHlndk9tM3BQOEM0T2o2N01qbndRcWdwMEtoeDJUeDNiRExIWFBxa25UUW01X08wUDlJeTZfcVY0cU1JLW5fdU1OdHBRR3AwUHBtTjBUSkdvX09IYllPVmZhZGN1eEw5YlJNRTV0WmNWcHBlbTRiSV84dm91SXQ0NkVFZHVScnFWclk0VExVNEdxTklvcDlPQXRRaXNEdmd4NXR6bkFVZDRGWEJxYWNXRVFvcUF1eEFENGY0V2k3TUkzamswWk1ybU96VGwtXzFhYl85NUlHVUZzdmNuSWJTQ2hhNUkyT2lYRmxxaGlVZzRmMk3SAfgBQVVfeXFMTzg4MjN5Uld6X3cxLW8wSjl2VGlnXzVSMzdJZFJLSTI3MkhNRDZMUXl0bXAxaE1FU2YtX1BGZV9udHZnMl9NNjQ3R3NocU83YlQ0NXBObEFLQmlDTGE3YVhxWGVvM1ZIS2JYbmNpaU9GRjN6Q1JiYUtUdktRVVp1SVc5b3hmbFR3QjVBSFlidlRocWVzQzFtd1VGYnhXdE5iektlNkREWkJaZ3lEMFg0cWhoUjZ4T3VJdm1scTgxS1A1bVZVbndLTFRVcjJKWmpvNjJzTDVJWGY5V3NIcy1pdUlhRnpDQl9xenVqaXl2V1pqQ3hocmdwaW4?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-20T13:40:20+00:00"
+     "title": "Safra de cana 2026/27 deve atingir 705,23 milhões de toneladas, estima Conab",
+     "link": "https://www.canalrural.com.br/agricultura/safra-de-cana-2026-27-deve-atingir-70523-milhoes-de-toneladas-estima-conab/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T14:59:48+00:00"
+    },
+    {
+     "title": "ABiogás projeta R$ 216 bilhões em investimentos em biogás e biometano até 2035",
+     "link": "https://www.canalrural.com.br/economia/abiogas-projeta-r-216-bilhoes-em-investimentos-em-biogas-e-biometano-ate-2035/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T14:54:44+00:00"
+    },
+    {
+     "title": "Ruptura em supermercados cai a 10,8% em julho e atinge menor nível em 12 meses",
+     "link": "https://www.canalrural.com.br/economia/ruptura-em-supermercados-cai-a-108-em-julho-e-atinge-menor-nivel-em-12-meses/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T14:47:55+00:00"
+    },
+    {
+     "title": "Dívida elevada nas Américas amplia prêmio de risco, diz BIS",
+     "link": "https://www.canalrural.com.br/economia/divida-elevada-nas-americas-amplia-premio-de-risco-diz-bis/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T14:33:17+00:00"
     },
     {
      "title": "Vendas de exportação de milho e soja dos EUA sobem na semana encerrada em 13 de agosto - Investing.com Brasil - Finanças, Câmbio e Investimentos",
@@ -461,6 +482,12 @@
      "published_at": "2026-08-20T13:13:27+00:00"
     },
     {
+     "title": "Com demanda externa aquecida, Abiove eleva perspectiva para exportação de farelo de soja - AgFeed",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOemJsSU4tN1gyYnRzb0RTeW5ldUhTUzZINk83bjZWbmloWkdDbjlhaF9Rck5nTzliR3ExdzRHb3N0cTFYZll6a3VLNGpfcnM3dUQ4c2ZXNGFlMVN0Smd5aEZCeHFtNW9PVTNYdXIzN0NDeEV2d0d2U2ZVRkNJY1F3STNCNWtIOGNIQTZCRFVOMTlhd1FjLUFYSFdKdm1DX2g3QXpVTTJCcGdFeXZyX0pzVTdWNjNPUFpUV2c?oc=5",
+     "source": "AgFeed",
+     "published_at": "2026-08-20T13:00:00+00:00"
+    },
+    {
      "title": "Soja: escolha da semente é essencial - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYkRFeXdBRGQzcnNlOUNDQjc0T2NIYUlrMmhEa21iNWtVRFZpYU1xZWpCVDVOLUtTTjhDekRCTUctV2hjLWRteDQ4LXNtNnByZDZ1dURRbzhiS201dVZDakpUbGVqQ0hPZEQyamdoYXFPQWtyYnBWblhCeEhDWU1tYjN0VGlWbmt2Q1VxdW9n?oc=5",
      "source": "Agrolink",
@@ -479,34 +506,10 @@
      "published_at": "2026-08-20T12:21:29+00:00"
     },
     {
-     "title": "Safra 2026/27 de cana é estimada em 705,2 milhões de toneladas",
-     "link": "https://www.canalrural.com.br/agricultura/safra-2026-27-de-cana-e-estimada-em-7052-milhoes-de-toneladas/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T12:14:19+00:00"
-    },
-    {
      "title": "Soja e frango puxam exportações do agro a US$ 16,3 bilhões em julho - O Presente Rural",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM3ZRR2U1UjN5dUN2c2M4MWdqcHFrYk9qbEVib2NuQmVlaF9iSTM3X1p6QnpJZmpBcW5USnpRY3U3bXhTaTUxS2l6NmpuTlZ1T0xTUVFrYlNyS0UyVkxGNExVOTlaSlVzMVdaMC03S2VPUEhWMERxNWQtSDZicjlRRHlEX1E0eHFCcVVuaHo1bmZya3diMDZsRWpjZXE?oc=5",
      "source": "O Presente Rural",
      "published_at": "2026-08-20T12:10:50+00:00"
-    },
-    {
-     "title": "Tempo seco favorece colheita do milho, mas preocupa pecuária no Centro-Oeste",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/tempo-seco-favorece-colheita-do-milho-mas-preocupa-pecuaria-no-centro-oeste/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T12:01:50+00:00"
-    },
-    {
-     "title": "Durigan defende controle de gasto obrigatório e cita trava de R$ 10 bilhões em 2027",
-     "link": "https://www.canalrural.com.br/economia/durigan-defende-controle-de-gasto-obrigatorio-e-cita-trava-de-r-10-bilhoes-em-2027/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T11:58:28+00:00"
-    },
-    {
-     "title": "Frente fria derruba temperaturas no Sul e mantém alertas de baixa umidade no Centro-Oeste",
-     "link": "https://www.canalrural.com.br/diversos/frente-fria-derruba-temperaturas-no-sul-e-mantem-alertas-de-baixa-umidade-no-centro-oeste/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T11:53:29+00:00"
     },
     {
      "title": "Milho ganha suporte nos EUA enquanto soja depende da demanda - Feed&Food",
@@ -533,10 +536,10 @@
      "published_at": "2026-08-20T09:15:08+00:00"
     },
     {
-     "title": "SOJA E TRIGO: confira os preços dos grãos nesta quinta-feira (20) - Brasil 61",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd01lWTR2cjZ5QlhIaUZwWlhQZWMwMmJ5V0VHQTVkSXdlZE8tU2NUMFZVemQtQWFld3dXWk9jNzhTRm5ST09RRU5QWnJNVmZqSWp3ZVdZeUVJLVcwZWw5eXNaNF9jYk9IUkZlQ05kRTFXUHRrMU5BNEc2VHFCUzdxQlNKX1ZxNTloUDJBRVpnRHdyRDNBVDhHS1V1TUPSAaIBQVVfeXFMTXJkTXNYNWMybWpjaGNtSlhHVGRVaTJuMlo1WjRPWU9QRndqVWdPTGY3Tlh5b3BTQmlieV9QRGFoUEtuYXlHdmhkZXEtQ1UxWTEyRkdsWWs0RFV2eUJrRm1OTXFGNV80eFNhdTJWOTBWM050dDBodmdLNnY5T3AwRG5IVl9VeTdUR1JNTUx1eFJVOXBNeWppNFVyMHZBOHJQeFlB?oc=5",
-     "source": "Brasil 61",
-     "published_at": "2026-08-20T07:00:00+00:00"
+     "title": "Produção de soja traz menor crescimento em 30 anos, diz consultoria - brasilagro.com.br",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbmdVcmJBV1ZPZWxfVlUwQnJ4WFRHNlQ4MVFDUFd2Ukk4YVQ3Q2ozcWY4MlZvYk9nNFM2cWxrS2Rnd1lzVjR0T0NKN3FVMHNlZ1NHSlpVeHQtd0VQVzVodW9VejdPOHZYS0xtU1RpdThfZndhMVlpR1EwQU9LUGpkVUpmaWE5a3BmZWtlUnlnbzZuR2RydDVQd2FhVVhESFA0Mnp3UUV4S3pSQjRuRHhJ?oc=5",
+     "source": "brasilagro.com.br",
+     "published_at": "2026-08-20T09:09:50+00:00"
     },
     {
      "title": "Artigo: Pequenos insetos, grandes prejuízos: primeiro registro de tripes-praga da soja é identificado no Acre - Embrapa",

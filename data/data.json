@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-20T05:24:04+00:00",
+ "generated_at": "2026-08-20T06:35:08+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-20T05:23:59+00:00",
+   "updated_at": "2026-08-20T06:35:02+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1238.25,
+     "price": 1239.5,
      "prev_close": 1222.25,
-     "change_pct": 1.31,
+     "change_pct": 1.41,
      "closes": [
       1226.0,
       1219.5,
@@ -35,16 +35,16 @@
       1201.0,
       1200.75,
       1222.25,
-      1238.25
+      1239.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 501.25,
+     "price": 501.75,
      "prev_close": 473.0,
-     "change_pct": 5.97,
+     "change_pct": 6.08,
      "closes": [
       449.5,
       452.75,
@@ -69,16 +69,16 @@
       465.0,
       463.25,
       473.0,
-      501.25
+      501.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 326.5,
+     "price": 326.6,
      "prev_close": 318.9,
-     "change_pct": 2.38,
+     "change_pct": 2.41,
      "closes": [
       323.5,
       326.7,
@@ -103,16 +103,16 @@
       312.1,
       313.0,
       318.9,
-      326.5
+      326.6
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 69.98,
+     "price": 70.09,
      "prev_close": 69.86,
-     "change_pct": 0.17,
+     "change_pct": 0.33,
      "closes": [
       74.68,
       74.3,
@@ -137,16 +137,16 @@
       71.44,
       69.69,
       69.86,
-      69.98
+      70.09
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 698.25,
+     "price": 697.5,
      "prev_close": 680.25,
-     "change_pct": 2.65,
+     "change_pct": 2.54,
      "closes": [
       674.0,
       678.0,
@@ -171,16 +171,16 @@
       674.75,
       664.5,
       680.25,
-      698.25
+      697.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.76,
+     "price": 91.89,
      "prev_close": 91.62,
-     "change_pct": 0.15,
+     "change_pct": 0.29,
      "closes": [
       89.22,
       91.01,
@@ -205,7 +205,7 @@
       90.87,
       91.02,
       91.62,
-      91.76
+      91.89
      ]
     },
     {
@@ -243,7 +243,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-20T05:23:59+00:00",
+   "updated_at": "2026-08-20T06:35:02+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -254,7 +254,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-20T05:24:02+00:00",
+   "updated_at": "2026-08-20T06:35:05+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -415,8 +415,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-20T05:24:04+00:00",
+   "updated_at": "2026-08-20T06:35:08+00:00",
    "items": [
+    {
+     "title": "Hedgepoint estima safra de soja 26/27 em 181,7 mi t, quase estável ante 25/26 - Terra",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOLUJsTlJFdmppQkZpX25qMU96eFIzeVlKM29kOGNMQnZKZUlsYTN1TDFNbnZVVVpjTGJjNkxBT1E0cG9aVzg0ejBlMzFxd0ZRUDdYMko3djJQbVBBZExTV0pEYmFBQWxBY3pRT2hETnJPMWlzZmRGbXVVVFk5UDBHd0xuNHM5TnI4cXI3NUJwdTJCSjdBbUt5dUlLMkstTnVLSHh2bEtUS0NVY0lnRGFBZFo2SzFrNjVaUFB6cmpkeGdGS0NqeklybGZvanFDWEtKckJ2OS1XUUpOeFJPVzlLbTVSSDNmay1Z?oc=5",
+     "source": "Terra",
+     "published_at": "2026-08-20T04:45:00+00:00"
+    },
     {
      "title": "Artigo: Pequenos insetos, grandes prejuízos: primeiro registro de tripes-praga da soja é identificado no Acre - Embrapa",
      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNSlE3amdKeFFhZDNOM28zNVE0ZGE2bzZibUZ1NXo3Yy1ackFVem1MT2JNY3VkZWRkYmVLVFZKQWJPTmxjNmhCRHNtMGs5aURJRzRMRHVWMFFZT1lJdGIxYU5VMGlSaUo1SFpvNWxLMlhtekpkbnFvaFZMaGtXOEwxazh1RjFVYzluVGhYZVZEdnZkMWN0OW9wZVdvbnVnb0kzbmxPckp0aHpUNjZQaHYzY05oRTdKTnZnZ18xRGh6aEM3S1VHT2ZmMXZuZ1FYZmZDRGxCVExYM1gzWG9qVFpGYlpiMy10OXZyOHktelRpWHBsS3VtOTBYYnhPYw?oc=5",
@@ -526,21 +532,15 @@
      "published_at": "2026-08-19T18:04:47+00:00"
     },
     {
-     "title": "Soja: manejo pode reduzir riscos do El Niño em 2026/27 - agrolink.com.br",
+     "title": "Soja: manejo pode reduzir riscos do El Niño em 2026/27 - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNekF2MHczTTBKR2ZOTjJVTXhVVjRad01LanNDMkg3TWtXSmJQTElrdFdsNi1wWlZtc1JvaUlmUUJsREM5MnQzdzR2Mk5PbmItT3BxV1lIelRYeEN5c1hCWHJPUVJ4cU5uekNxQnBWbGVNV0VuOWs5c2paeFlfTklZVVRoVUY5bWFySUg0X0JLX2Rjb0s3cDBpN1Z4YXY2cmtIZDFGUWJn?oc=5",
-     "source": "agrolink.com.br",
+     "source": "Agrolink",
      "published_at": "2026-08-19T17:46:00+00:00"
     },
     {
-     "title": "Soja e milho apresentam cenários distintos no mercado global - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZDJrYnNuOFhZU1Y1NDdxVDVkQXBMY3dxRkE3b1hwdGI5aG9HallaWFdDVUhTMWJQZ09TWWRXbzZwWDVsNjl6TnpWVFM2Z0RDMVVGSmI1YmtGVDBId3B4OXhqYzBQdDlzbXQxSmxMYVdFd0IxTnlzcV9SWWNTcVMwcWdJRzU3bUdiSnFqU1dCQkljTmstSm5NelM2VVVjeVhEc1E?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-08-19T17:12:56+00:00"
-    },
-    {
-     "title": "VBP projeta que faturamento com soja, milho e bovinos atinja R$ 1,39 trilhão em 2026 - MINUTO MT",
+     "title": "VBP projeta que faturamento com soja, milho e bovinos atinja R$ 1,39 trilhão em 2026 - minutomt.com.br",
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQUlvSVBYNVozOVBvd1hXQ0pEa1AzbmZZakR0Y2dxR1BUcktWUi1RcGJtcXVNc0NZSm0wUHV0dURLSFhZb1hlSV9IRXlnbzNkSnkzMjdkR0pNWURXWHBrY1I1QmtxZjZfS0tXTEtLYzFRSVhleVdFVDRSTzR2MDEzTUY2TEpGXy1LcXBkTFB4aHVIU0YyRk9UNW9NNXRBbTdveHRqMUt2WWdmcDNjX2t0MQ?oc=5",
-     "source": "MINUTO MT",
+     "source": "minutomt.com.br",
      "published_at": "2026-08-19T17:03:33+00:00"
     },
     {
@@ -550,10 +550,10 @@
      "published_at": "2026-08-19T16:17:16"
     },
     {
-     "title": "Anec corta previsão para exportação de soja em agosto e eleva a de milho - UOL Notícias",
-     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQWdJQi11YnFJeDlZOHNQd2lyM1ByOVkyeDFUWlNmWG03MzMyNU9McTBNQk9waDVRUHlFbHhraGlSYUo0VkRrRXhjT2g5TEp2eTI5SUJPcVlUNkUwd3BqVWhxQUJKcllORUlJeFdiY2E1M05pYkd2MUtVVnF1NTQtR2dOaVdFTk9tbktQY0FXeWNSXzNhVE5TUGtPNC0tR25iajhBVXRESXpIdVg0azd2cV9fbUZiakZtckVDNVhaU0lJYTMtT3FPRnhkd2VRQjctYlFtTEtMNWxjY3d0NWU3Zg?oc=5",
-     "source": "UOL Notícias",
-     "published_at": "2026-08-19T14:24:00+00:00"
+     "title": "Preço da soja em recuperação alcança maior patamar desde 2023 - Farmnews",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZkYzTlJxeHoyOXRjY0llcTNWbnU0VzNrRmE0NFdpNXVTNGVQR2gxcXlUVWk0SzRrNy1QOU5NWU1lVHFieGRPM1NILVF1QmpZSnIyR3J4d0xfWGw0aG9wZ2tPMWhlUThWRkRYZUo3UDVmdGtjVUxkdnVNZ1E5NDFGQ1ZvRS0ybm00bVVfUDBjTVNPaEFZZ05VNlRB?oc=5",
+     "source": "Farmnews",
+     "published_at": "2026-08-19T14:12:45+00:00"
     },
     {
      "title": "Limões 'alienígenas' intrigam produtora; entenda o que causa a deformação",

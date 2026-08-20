@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-20T02:14:11+00:00",
+ "generated_at": "2026-08-20T03:41:12+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-20T02:14:03+00:00",
+   "updated_at": "2026-08-20T03:41:04+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1236.75,
+     "price": 1239.25,
      "prev_close": 1200.75,
-     "change_pct": 3.0,
+     "change_pct": 3.21,
      "closes": [
       1226.0,
       1219.5,
@@ -34,16 +34,16 @@
       1173.75,
       1201.0,
       1200.75,
-      1236.75
+      1239.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 500.0,
+     "price": 501.5,
      "prev_close": 463.25,
-     "change_pct": 7.93,
+     "change_pct": 8.26,
      "closes": [
       449.5,
       452.75,
@@ -67,16 +67,16 @@
       459.0,
       465.0,
       463.25,
-      500.0
+      501.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 326.5,
+     "price": 326.8,
      "prev_close": 313.0,
-     "change_pct": 4.31,
+     "change_pct": 4.41,
      "closes": [
       323.5,
       326.7,
@@ -100,16 +100,16 @@
       308.7,
       312.1,
       313.0,
-      326.5
+      326.8
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 69.75,
+     "price": 69.93,
      "prev_close": 69.69,
-     "change_pct": 0.09,
+     "change_pct": 0.34,
      "closes": [
       74.68,
       74.3,
@@ -133,16 +133,16 @@
       69.05,
       71.44,
       69.69,
-      69.75
+      69.93
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 696.5,
+     "price": 699.75,
      "prev_close": 664.5,
-     "change_pct": 4.82,
+     "change_pct": 5.3,
      "closes": [
       674.0,
       678.0,
@@ -166,16 +166,16 @@
       674.75,
       674.75,
       664.5,
-      696.5
+      699.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 92.07,
+     "price": 91.79,
      "prev_close": 91.02,
-     "change_pct": 1.15,
+     "change_pct": 0.85,
      "closes": [
       89.22,
       91.01,
@@ -199,7 +199,7 @@
       88.52,
       90.87,
       91.02,
-      92.07
+      91.79
      ]
     },
     {
@@ -232,7 +232,7 @@
       166934.0,
       166784.0,
       166335.0,
-      167830.2656
+      167830.0
      ]
     }
    ],
@@ -240,7 +240,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-20T02:14:03+00:00",
+   "updated_at": "2026-08-20T03:41:04+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -251,18 +251,18 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-20T02:14:08+00:00",
+   "updated_at": "2026-08-20T03:41:08+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
      "dates": [
-      "2026-08-19",
       "2026-08-20",
       "2026-08-21",
       "2026-08-22",
       "2026-08-23",
       "2026-08-24",
-      "2026-08-25"
+      "2026-08-25",
+      "2026-08-26"
      ],
      "precip": [
       0.0,
@@ -274,34 +274,34 @@
       0.0
      ],
      "tmax": [
-      36.3,
       36.1,
       35.7,
       37.0,
       37.3,
       37.6,
-      38.3
+      38.3,
+      37.3
      ],
      "tmin": [
-      21.6,
       21.3,
       22.2,
       23.1,
       23.6,
       24.0,
-      24.1
+      24.1,
+      26.1
      ]
     },
     {
      "name": "Sinop · MT",
      "dates": [
-      "2026-08-19",
       "2026-08-20",
       "2026-08-21",
       "2026-08-22",
       "2026-08-23",
       "2026-08-24",
-      "2026-08-25"
+      "2026-08-25",
+      "2026-08-26"
      ],
      "precip": [
       0.0,
@@ -313,34 +313,34 @@
       0.0
      ],
      "tmax": [
-      35.8,
       36.0,
       35.7,
       36.3,
       36.9,
       36.8,
-      37.0
+      37.0,
+      36.6
      ],
      "tmin": [
-      21.0,
       21.7,
       21.6,
       22.6,
       23.4,
       23.0,
-      23.6
+      23.6,
+      25.4
      ]
     },
     {
      "name": "Rio Verde · GO",
      "dates": [
-      "2026-08-19",
       "2026-08-20",
       "2026-08-21",
       "2026-08-22",
       "2026-08-23",
       "2026-08-24",
-      "2026-08-25"
+      "2026-08-25",
+      "2026-08-26"
      ],
      "precip": [
       0.0,
@@ -352,67 +352,67 @@
       0.0
      ],
      "tmax": [
-      32.9,
       33.4,
       30.7,
       30.2,
       32.7,
       34.4,
-      35.1
+      35.1,
+      32.7
      ],
      "tmin": [
-      20.2,
       21.9,
       20.0,
       16.4,
       17.7,
       19.3,
-      21.4
+      21.4,
+      24.2
      ]
     },
     {
      "name": "Dourados · MS",
      "dates": [
-      "2026-08-19",
       "2026-08-20",
       "2026-08-21",
       "2026-08-22",
       "2026-08-23",
       "2026-08-24",
-      "2026-08-25"
+      "2026-08-25",
+      "2026-08-26"
      ],
      "precip": [
-      0.0,
       2.3,
       0.0,
       0.0,
       0.0,
       0.0,
-      1.5
+      1.5,
+      0.0
      ],
      "tmax": [
-      29.8,
       24.4,
       23.0,
       25.8,
       27.4,
       26.0,
-      26.3
+      26.3,
+      33.1
      ],
      "tmin": [
-      18.6,
       15.5,
       11.0,
       11.1,
       12.2,
       16.7,
-      17.1
+      17.1,
+      18.0
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-20T02:14:11+00:00",
+   "updated_at": "2026-08-20T03:41:12+00:00",
    "items": [
     {
      "title": "Estudo da Unicamp aproveita resíduos de soja e cacau - Revista Oeste",
@@ -481,12 +481,6 @@
      "published_at": "2026-08-19T21:36:27+00:00"
     },
     {
-     "title": "Moratória da Soja: entre a validade jurídica e os incentivos econômicos - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNlNBYXpTeVpEdDUzLWpsNnZBb3NYNWpyRmNqTVVTRjhiclJGbUdVRDl4VWdjcXBEbFBuUUhZT2dKVE9YaTJpZjRBTVdOMVFQWGZsOTdLN0FQbE1UajBmS2NZSDYwYlFjOEFNMDVoWF9NSkIzazVaYXVTdnROcmdwY3BTOEhua2w0N1k1TFlIS2xzdG45VU9maFFaX3AxVHlrMTROMVZTdW54UmFhYnhyWjJyWjktekxWbHc?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-19T21:35:56+00:00"
-    },
-    {
      "title": "Moratória da Soja: entre a validade jurídica e os incentivos econômicos",
      "link": "https://www.canalrural.com.br/opiniao-noticias/moratoria-da-soja-entre-a-validade-juridica-e-os-incentivos-economicos/",
      "source": "Canal Rural",
@@ -523,9 +517,9 @@
      "published_at": "2026-08-19T18:44:34+00:00"
     },
     {
-     "title": "Área plantada de soja pode parar de crescer após 20 safras de alta - cnnbrasil.com.br",
+     "title": "Área plantada de soja pode parar de crescer após 20 safras de alta - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLXZVUHNaZWQ2THpUeFB3V0ZfTUQtdThzY3JxUTd1dncwbnRiajJ1VXppZVlzellIcFB5WXZIRHJyaFF6ejNNX3g2Si1RVnlYRkVuUWswU09ySjZJeVYxY2FSdjNGdWxtLVk5WUppb3JVRkhPNndOZDZIQ29QbGtoS3NEcS1meEJqN1pvU2dyU3o1anNqS3JkRUtPZzdyS3liOEVj?oc=5",
-     "source": "cnnbrasil.com.br",
+     "source": "CNN Brasil",
      "published_at": "2026-08-19T18:04:47+00:00"
     },
     {
@@ -535,15 +529,21 @@
      "published_at": "2026-08-19T17:46:00+00:00"
     },
     {
+     "title": "VBP projeta que faturamento com soja, milho e bovinos atinja R$ 1,39 trilhão em 2026 - MINUTO MT",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQUlvSVBYNVozOVBvd1hXQ0pEa1AzbmZZakR0Y2dxR1BUcktWUi1RcGJtcXVNc0NZSm0wUHV0dURLSFhZb1hlSV9IRXlnbzNkSnkzMjdkR0pNWURXWHBrY1I1QmtxZjZfS0tXTEtLYzFRSVhleVdFVDRSTzR2MDEzTUY2TEpGXy1LcXBkTFB4aHVIU0YyRk9UNW9NNXRBbTdveHRqMUt2WWdmcDNjX2t0MQ?oc=5",
+     "source": "MINUTO MT",
+     "published_at": "2026-08-19T17:03:33+00:00"
+    },
+    {
      "title": "Exportações de carne bovina caem 26% em agosto com temor de tarifa maior na China",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/19/exportacoes-de-carne-bovina-caem-26percent-em-agosto-com-temor-de-tarifa-maior-na-china.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-19T16:17:16"
     },
     {
-     "title": "Anec corta previsão para exportação de soja em agosto e eleva a de milho - noticias.uol.com.br",
+     "title": "Anec corta previsão para exportação de soja em agosto e eleva a de milho - UOL Notícias",
      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQWdJQi11YnFJeDlZOHNQd2lyM1ByOVkyeDFUWlNmWG03MzMyNU9McTBNQk9waDVRUHlFbHhraGlSYUo0VkRrRXhjT2g5TEp2eTI5SUJPcVlUNkUwd3BqVWhxQUJKcllORUlJeFdiY2E1M05pYkd2MUtVVnF1NTQtR2dOaVdFTk9tbktQY0FXeWNSXzNhVE5TUGtPNC0tR25iajhBVXRESXpIdVg0azd2cV9fbUZiakZtckVDNVhaU0lJYTMtT3FPRnhkd2VRQjctYlFtTEtMNWxjY3d0NWU3Zg?oc=5",
-     "source": "noticias.uol.com.br",
+     "source": "UOL Notícias",
      "published_at": "2026-08-19T14:24:00+00:00"
     },
     {

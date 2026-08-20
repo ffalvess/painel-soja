@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-20T20:21:18+00:00",
+ "generated_at": "2026-08-20T21:21:43+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-20T20:21:12+00:00",
+   "updated_at": "2026-08-20T21:21:34+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -178,9 +178,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.46,
+     "price": 93.15,
      "prev_close": 91.62,
-     "change_pct": 2.01,
+     "change_pct": 1.67,
      "closes": [
       89.22,
       91.01,
@@ -205,24 +205,27 @@
       90.87,
       91.02,
       91.62,
-      93.46
+      93.15
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 167926.5,
+     "price": 167927.16,
      "prev_close": 167830.0,
      "change_pct": 0.06,
      "closes": [
       173371.0,
+      173326.0,
+      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
+      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -236,7 +239,7 @@
       166784.0,
       166335.0,
       167830.0,
-      167926.5
+      167927.1562
      ]
     }
    ],
@@ -244,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-20T20:21:12+00:00",
+   "updated_at": "2026-08-20T21:21:34+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -255,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-20T20:21:16+00:00",
+   "updated_at": "2026-08-20T21:21:40+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -416,8 +419,50 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-20T20:21:18+00:00",
+   "updated_at": "2026-08-20T21:21:43+00:00",
    "items": [
+    {
+     "title": "Frente fria leva chuva, ventania e queda de temperatura a São Paulo",
+     "link": "https://www.canalrural.com.br/diversos/frente-fria-leva-chuva-ventania-e-queda-de-temperatura-a-sao-paulo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T21:06:01+00:00"
+    },
+    {
+     "title": "Ibovespa fecha em leve alta, mas perde força com pressão externa",
+     "link": "https://www.canalrural.com.br/economia/ibovespa-fecha-em-leve-alta-mas-perde-forca-com-pressao-externa/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T21:02:10+00:00"
+    },
+    {
+     "title": "Bolsas de Nova York caem e ações da Deere sobem 8,9%",
+     "link": "https://www.canalrural.com.br/economia/bolsas-de-nova-york-caem-e-acoes-da-deere-sobem-89/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T20:53:29+00:00"
+    },
+    {
+     "title": "IA reduz em 75% entradas de campo na inspeção de lavouras de algodão",
+     "link": "https://www.canalrural.com.br/agricultura/ia-reduz-em-75-entradas-de-campo-na-inspecao-de-lavouras-de-algodao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T20:45:24+00:00"
+    },
+    {
+     "title": "Senadores criticam STF por validar pacto que pune produtores de soja — Rádio Senado - Senado Federal",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWHdnNnpVSTBNY2wtRFRLM0xCeDJZLUJSZXNPb2x0ZFFobkY2dnV6ejdCazJrUEt5SEwyN0ppb2RxNGRjQVZMX2pGZ3E5cTlDemxRbDNudzVzVk5zcllkYUdIWVVZUW1RVXBFMEJCTlpXU1pFSUtmUTJJU0MycTE4RmhmNlQ4NVVlbmtpYk5idzJyWkxabWZCY1cwa1dJSVc1ejdwNm05RFVDallHVWp0b21IU1FNTjNGZVZoY2FPWEw?oc=5",
+     "source": "Senado Federal",
+     "published_at": "2026-08-20T20:34:00+00:00"
+    },
+    {
+     "title": "Estados Unidos flexibilizam venda de E10 para ampliar oferta de gasolina",
+     "link": "https://www.canalrural.com.br/economia/estados-unidos-flexibilizam-venda-de-e10-para-ampliar-oferta-de-gasolina/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T20:32:13+00:00"
+    },
+    {
+     "title": "JBS supera 500 mil km com caminhão movido 100% a biodiesel",
+     "link": "https://www.canalrural.com.br/pecuaria/jbs-supera-500-mil-km-com-caminhao-movido-100-a-biodiesel/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T20:12:27+00:00"
+    },
     {
      "title": "Rio de Janeiro lança programa integrado de prevenção aos efeitos do El Niño",
      "link": "https://www.canalrural.com.br/politica/rio-de-janeiro-lanca-programa-integrado-de-prevencao-aos-efeitos-do-el-nino/",
@@ -441,42 +486,6 @@
      "link": "https://www.canalrural.com.br/agricultura/cofco-faz-primeiro-grande-embarque-de-sorgo-brasileiro-para-a-china/",
      "source": "Canal Rural",
      "published_at": "2026-08-20T19:47:17+00:00"
-    },
-    {
-     "title": "JBS: caminhão movido 100% a biodiesel supera 500 mil km sem alterações no motor",
-     "link": "https://www.canalrural.com.br/economia/jbs-caminhao-movido-100-a-biodiesel-supera-500-mil-km-sem-alteracoes-no-motor/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T18:40:28+00:00"
-    },
-    {
-     "title": "Encontro nacional reúne mulheres para discutir liderança e oportunidades no agro",
-     "link": "https://www.canalrural.com.br/agricultura/encontro-nacional-reune-mulheres-para-discutir-lideranca-e-oportunidades-no-agro/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T18:40:00+00:00"
-    },
-    {
-     "title": "Brasil deve decidir sobre aplicação da Lei da Reciprocidade contra os EUA em dezembro, diz ministro",
-     "link": "https://www.canalrural.com.br/politica/brasil-deve-decidir-sobre-aplicacao-da-lei-da-reciprocidade-contra-os-eua-em-dezembro-diz-ministro/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T18:37:22+00:00"
-    },
-    {
-     "title": "Touro Bandido: relembre a história do animal que marcou Barretos",
-     "link": "https://www.canalrural.com.br/curiosidades/touro-bandido-relembre-a-historia-do-animal-que-marcou-barretos/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T18:25:00+00:00"
-    },
-    {
-     "title": "Mercado global de açúcar da ICE bate recorde de contratos em aberto",
-     "link": "https://www.canalrural.com.br/economia/mercado-global-de-acucar-da-ice-bate-recorde-de-contratos-em-aberto/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T18:18:04+00:00"
-    },
-    {
-     "title": "Cooperativismo e tecnologia fortalecem o agronegócio em Santa Catarina",
-     "link": "https://www.canalrural.com.br/videos/cooperativismo-e-tecnologia-fortalecem-o-agronegocio-em-santa-catarina/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T18:15:14+00:00"
     },
     {
      "title": "Soja e frango puxam exportações do agro a US$ 16,3 bilhões em julho - O Presente Rural",
@@ -543,12 +552,6 @@
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbmdVcmJBV1ZPZWxfVlUwQnJ4WFRHNlQ4MVFDUFd2Ukk4YVQ3Q2ozcWY4MlZvYk9nNFM2cWxrS2Rnd1lzVjR0T0NKN3FVMHNlZ1NHSlpVeHQtd0VQVzVodW9VejdPOHZYS0xtU1RpdThfZndhMVlpR1EwQU9LUGpkVUpmaWE5a3BmZWtlUnlnbzZuR2RydDVQd2FhVVhESFA0Mnp3UUV4S3pSQjRuRHhJ?oc=5",
      "source": "brasilagro.com.br",
      "published_at": "2026-08-20T09:09:50+00:00"
-    },
-    {
-     "title": "Milho ganha suporte com estoques menores nos EUA; soja depende da demanda - Feed&Food",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZkM0V3E3SmZxaHR1QW1nWDZDQW5xRmVyVjZCUWF3NmtLTWVlSlpwNkhlelcxbXNOR3BZTEZpbDFkWDhvUzFYMjJzT3lzVUNLekdVdl9pQmVRTm5OYlBSbWlrWHpwaEtUNU9aZjhkeXFId1hFOENjVWozTXBzZERKbnZiUXhTSVM2cnJQZTRxSmF4OUVwS3N6dS13Qmw4QQ?oc=5",
-     "source": "Feed&Food",
-     "published_at": "2026-08-20T09:01:00+00:00"
     },
     {
      "title": "Exportações de carne bovina caem 26% em agosto com temor de tarifa maior na China",

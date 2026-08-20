@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-20T13:40:36+00:00",
+ "generated_at": "2026-08-20T14:29:15+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-20T13:40:28+00:00",
+   "updated_at": "2026-08-20T14:29:05+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1240.5,
+     "price": 1236.0,
      "prev_close": 1222.25,
-     "change_pct": 1.49,
+     "change_pct": 1.12,
      "closes": [
       1226.0,
       1219.5,
@@ -35,16 +35,16 @@
       1201.0,
       1200.75,
       1222.25,
-      1240.5
+      1236.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 502.5,
+     "price": 503.75,
      "prev_close": 473.0,
-     "change_pct": 6.24,
+     "change_pct": 6.5,
      "closes": [
       449.5,
       452.75,
@@ -69,7 +69,7 @@
       465.0,
       463.25,
       473.0,
-      502.5
+      503.75
      ]
     },
     {
@@ -110,9 +110,9 @@
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.62,
+     "price": 70.35,
      "prev_close": 69.86,
-     "change_pct": 1.09,
+     "change_pct": 0.7,
      "closes": [
       74.68,
       74.3,
@@ -137,16 +137,16 @@
       71.44,
       69.69,
       69.86,
-      70.62
+      70.35
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 703.0,
+     "price": 704.25,
      "prev_close": 680.25,
-     "change_pct": 3.34,
+     "change_pct": 3.53,
      "closes": [
       674.0,
       678.0,
@@ -171,16 +171,16 @@
       674.75,
       664.5,
       680.25,
-      703.0
+      704.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.9,
+     "price": 93.42,
      "prev_close": 91.62,
-     "change_pct": 2.49,
+     "change_pct": 1.96,
      "closes": [
       89.22,
       91.01,
@@ -205,27 +205,24 @@
       90.87,
       91.02,
       91.62,
-      93.9
+      93.42
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 167260.16,
+     "price": 168218.14,
      "prev_close": 167830.0,
-     "change_pct": -0.34,
+     "change_pct": 0.23,
      "closes": [
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -239,7 +236,7 @@
       166784.0,
       166335.0,
       167830.0,
-      167260.1562
+      168218.1406
      ]
     }
    ],
@@ -247,7 +244,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-20T13:40:29+00:00",
+   "updated_at": "2026-08-20T14:29:05+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +255,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-20T13:40:33+00:00",
+   "updated_at": "2026-08-20T14:29:09+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +416,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-20T13:40:36+00:00",
+   "updated_at": "2026-08-20T14:29:15+00:00",
    "items": [
+    {
+     "title": "Illinois tem safra regular de soja e milho, enquanto Iowa traz alguns pontos de alerta - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORHlndk9tM3BQOEM0T2o2N01qbndRcWdwMEtoeDJUeDNiRExIWFBxa25UUW01X08wUDlJeTZfcVY0cU1JLW5fdU1OdHBRR3AwUHBtTjBUSkdvX09IYllPVmZhZGN1eEw5YlJNRTV0WmNWcHBlbTRiSV84dm91SXQ0NkVFZHVScnFWclk0VExVNEdxTklvcDlPQXRRaXNEdmd4NXR6bkFVZDRGWEJxYWNXRVFvcUF1eEFENGY0V2k3TUkzamswWk1ybU96VGwtXzFhYl85NUlHVUZzdmNuSWJTQ2hhNUkyT2lYRmxxaGlVZzRmMk3SAfgBQVVfeXFMTzg4MjN5Uld6X3cxLW8wSjl2VGlnXzVSMzdJZFJLSTI3MkhNRDZMUXl0bXAxaE1FU2YtX1BGZV9udHZnMl9NNjQ3R3NocU83YlQ0NXBObEFLQmlDTGE3YVhxWGVvM1ZIS2JYbmNpaU9GRjN6Q1JiYUtUdktRVVp1SVc5b3hmbFR3QjVBSFlidlRocWVzQzFtd1VGYnhXdE5iektlNkREWkJaZ3lEMFg0cWhoUjZ4T3VJdm1scTgxS1A1bVZVbndLTFRVcjJKWmpvNjJzTDVJWGY5V3NIcy1pdUlhRnpDQl9xenVqaXl2V1pqQ3hocmdwaW4?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-20T13:40:20+00:00"
+    },
     {
      "title": "Vendas de exportação de milho e soja dos EUA sobem na semana encerrada em 13 de agosto - Investing.com Brasil - Finanças, Câmbio e Investimentos",
      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUms5VWFERjB2OUk1UkVieEFYN0JPZDNYY29NOUVNWGRzck1TX0ZUTGo0c19JOUFMcDRPaFV1VVp4NVFzRWpNQzRzbENLUXFQOEJ1bmtpbnhsdUo1QzlKa25ybUw5M0NlX3hTR3pwYmxZWlBZRExqY3FfZ1ZDMUF3YnFfUnRtQTdtVFM0MFBQT0psazJZN3I0SE9ScmtSQWFhdVdqck5zSlFnalkxbGMxVFB2X0hLVU50Vl9WeU5GWktTNjRQbDE2S0FHOVdPNkNQbGRVTUNyU3lnRWhkeUpr?oc=5",
@@ -471,7 +474,7 @@
     },
     {
      "title": "Soja ou floresta em pé? Projeto de carbono testa valor da conservação na Amazônia - Bloomberg Línea Brasil",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWG9ENjBWc2h1NHdneWtqUXAzOVZ0bXdCOFI1aEtpTUFnVmhoWmY4MXF4eVZ3S3FfUHRzWHdDWFB6d1RPWGtCREpueXVVSm4wc0RkQXlTcUFmWjA0NWxBdGNUMjNKd3VMMlJfT1pUdlVZTkFwbnhsR2NYUjJ6Q2VyRm5aVHNKSmVOLXp2YmlhWGxQOG1lWUx5eXRfaHp5X0FvM0EtcjRHWHJiTE1JcnJKc1RkcUJCendJNGp6bA?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWG9ENjBWc2h1NHdneWtqUXAzOVZ0bXdCOFI1aEtpTUFnVmhoWmY4MXF4eVZ3S3FfUHRzWHdDWFB6d1RPWGtCREpueXVVSm4wc0RkQXlTcUFmWjA0NWxBdGNUMjNKd3VMMlJfT1pUdlVZTkFwbnhsR2NYUjJ6Q2VyRm5aVHNKSmVOLXp2YmlhWGxQOG1lWUx5eXRfaHp5X0FvM0EtcjRHWHJiTE1JcnJKc1RkcUJCendJNGp6bNIB0AFBVV95cUxOUUVNVktKN29GMHZWalI5RExaYkNwQmFWRDh6ejZvVTYxUHJlcURTcnhXdEQ2X1duak5KMktrWXVpeVhMV0Z3TE5yWXdOVkFJWWlLTlRNME9pd3phT2x3M3hDX0lnTkxuYXhvMG16SzNGNzFwWVNHX1Y0aFdrd0R3SlB1eURnVldZZVpWQTBocGtmbUNJN3Rmb0lINDA3MUdnMVdKcEhLRWNXNmRCTm1CSDY5eU5PLUV1YmtObnhYS2M3TVFiQWlhNmU4MF9HbEE4?oc=5",
      "source": "Bloomberg Línea Brasil",
      "published_at": "2026-08-20T12:21:29+00:00"
     },
@@ -522,12 +525,6 @@
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQamJPbm8wbHdnZjhPaHhMSGt0NVdub3p2d3J6cThrSHkzMFdDUXlTMURZdE1CLWJCUnNDOFFOckZ4bm5xaC1kQ2lPcFhFcmN3UFpQYzZTaEtNdG9oS1ZZanBKTmJJLXdHYVpwUWhmQ1IyQXgzV3ZkWU12dG1oWHVwMjZxcDY1dUNM?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-08-20T10:00:31+00:00"
-    },
-    {
-     "title": "Soja avança, mas negócios seguem em ritmo lento - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQzFGUjlUa3JpYkYyTlZRMHk4N2VWSDJpRS1MMFZKSTctaWNXby12TVRRanlJbUQxZlpmQkg2OFVaWEU4SHlHamFQXy1SWlRHU1hlU1c5a1VoSk1vS1gwTXZ2RjF6eDNSRkVabm9Iak0zTVZFdTQxU2xmaG1jc3hyOE5FTkpwcTZJWmptMlRJd3QzVGNPZ1BOeDlsZjg?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-20T09:43:00+00:00"
     },
     {
      "title": "Soja mantém tendência de alta no Brasil com preços firmes em Chicago - Globo Rural",

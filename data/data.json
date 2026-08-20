@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-20T19:25:33+00:00",
+ "generated_at": "2026-08-20T20:21:18+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-20T19:25:24+00:00",
+   "updated_at": "2026-08-20T20:21:12+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -178,9 +178,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.68,
+     "price": 93.46,
      "prev_close": 91.62,
-     "change_pct": 2.25,
+     "change_pct": 2.01,
      "closes": [
       89.22,
       91.01,
@@ -205,27 +205,24 @@
       90.87,
       91.02,
       91.62,
-      93.68
+      93.46
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 167621.02,
+     "price": 167926.5,
      "prev_close": 167830.0,
-     "change_pct": -0.12,
+     "change_pct": 0.06,
      "closes": [
       173371.0,
-      173326.0,
-      177548.0,
       176724.0,
       174042.0,
       175335.0,
       176565.0,
       173885.0,
       177159.0,
-      177999.0,
       178000.0,
       177895.0,
       177726.0,
@@ -239,7 +236,7 @@
       166784.0,
       166335.0,
       167830.0,
-      167621.0156
+      167926.5
      ]
     }
    ],
@@ -247,7 +244,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-20T19:25:25+00:00",
+   "updated_at": "2026-08-20T20:21:12+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +255,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-20T19:25:30+00:00",
+   "updated_at": "2026-08-20T20:21:16+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +416,32 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-20T19:25:33+00:00",
+   "updated_at": "2026-08-20T20:21:18+00:00",
    "items": [
+    {
+     "title": "Rio de Janeiro lança programa integrado de prevenção aos efeitos do El Niño",
+     "link": "https://www.canalrural.com.br/politica/rio-de-janeiro-lanca-programa-integrado-de-prevencao-aos-efeitos-do-el-nino/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T20:07:23+00:00"
+    },
+    {
+     "title": "Petróleo sobe pela quinta sessão seguida com pressão dos EUA sobre o Irã",
+     "link": "https://www.canalrural.com.br/economia/petroleo-sobe-pela-quinta-sessao-seguida-com-pressao-dos-eua-sobre-o-ira/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T19:55:09+00:00"
+    },
+    {
+     "title": "Emprego no atacado paulista atinge recorde no semestre, mas saldo de vagas recua",
+     "link": "https://www.canalrural.com.br/economia/emprego-no-atacado-paulista-atinge-recorde-no-semestre-mas-saldo-de-vagas-recua/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T19:47:29+00:00"
+    },
+    {
+     "title": "Cofco faz primeiro grande embarque de sorgo brasileiro para a China",
+     "link": "https://www.canalrural.com.br/agricultura/cofco-faz-primeiro-grande-embarque-de-sorgo-brasileiro-para-a-china/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T19:47:17+00:00"
+    },
     {
      "title": "JBS: caminhão movido 100% a biodiesel supera 500 mil km sem alterações no motor",
      "link": "https://www.canalrural.com.br/economia/jbs-caminhao-movido-100-a-biodiesel-supera-500-mil-km-sem-alteracoes-no-motor/",
@@ -464,28 +485,10 @@
      "published_at": "2026-08-20T18:06:16+00:00"
     },
     {
-     "title": "Brasil pode adiar reciprocidade comercial com os Estados Unidos até 2027",
-     "link": "https://www.canalrural.com.br/videos/brasil-pode-adiar-reciprocidade-comercial-com-os-estados-unidos-ate-2027/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T18:05:56+00:00"
-    },
-    {
-     "title": "Tarifaço de Trump gera debate sobre estratégia brasileira",
-     "link": "https://www.canalrural.com.br/videos/tarifaco-de-trump-gera-debate-sobre-estrategia-brasileira/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T18:05:45+00:00"
-    },
-    {
-     "title": "Endividamento rural é tema central nas discussões do Congresso em Brasília",
-     "link": "https://www.canalrural.com.br/videos/endividamento-rural-e-tema-central-nas-discussoes-do-congresso-em-brasilia/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T18:05:35+00:00"
-    },
-    {
-     "title": "Merco Agrolácteos destaca Chapecó como polo de eventos do agronegócio",
-     "link": "https://www.canalrural.com.br/videos/merco-agrolacteos-destaca-chapeco-como-polo-de-eventos-do-agronegocio/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T18:05:23+00:00"
+     "title": "USDA: Vendas semanais de soja 26/27 superam 1,7 mi de t - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQ2NHTVVSR1N3M1pQaTFYVHhBY3QxZlJxeW9mSzEweFFwaUI0QlVjcUJGeGQ4LWJ3bWVCc1RscndOT29XM250dHRaeGtBSWdsd2Y5Mmx6Si1ISVU1dHpGY1RJWk5XQnRsUEdlTkdEY2ZNLVZDR0xJOGdiQjdHeTJ3OFI2alRsMTA1cEstWjdwdEs1M2RsWnRZaVdPMnhKU1dvakdVejR3V3ZLZk9DVmJ0aWVNem9qNkYx0gG-AUFVX3lxTFB4Z0dXYXlGUU5UaGphNWc3b3hIZGJnN3JiekhjRUpzZFcwNDRqWXliRVFXMFBQdFlFR29ja2N1NXotRktWZXRQcEdOdm8xd3FZUnZyQ1dXNE9ycEtmRGpISEFjQTMxVTVHOUpVOEJnZ1N4VlpFeU90UHlJN2V0WE5aR01jVGpfV2pUQmp3NFJWN1FhTVpsSGJnbTdhWDR1N1N5THNkUVR2NWhCU3laMkxuZGlhTzRxMU9wZ3VrblE?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-20T17:26:54+00:00"
     },
     {
      "title": "O início da virada para a soja vem aí? Os dados sugerem que sim - The AgriBiz",
@@ -524,10 +527,10 @@
      "published_at": "2026-08-20T12:21:29+00:00"
     },
     {
-     "title": "Soja mantém forte trajetória de alta em Chicago nesta 5ª, com clima nos EUA e Pro Farmer no radar - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQVmhaVlFxemJveFBhYldFRUp1OGFVT0xmczh4cC1makVWQnc4VnBEOHh2a1V0NXpQYUxpWUxaWDNxOEZtVXpFN0JpV0xWM1JlRWZSdGJmc0FZUjZrM1FVd29DcldtZnFORzYtOVJ3SkFYYjIxcTg4ZW1HNTVPa0ZtUFZya2N3MWY0OXk1WkJTdTdkWEYtNUZvYUlEdDZkYnhvUlhrSWdrQ1cyQkxGMFNyeWs3cnVNN3E1bjFBOEJWWHNyVWlJWVpod1FmVDJyNFVaVmgtaDhtWUZZMDdSQ0hJZHMtVWV4clFYa3ctOHlzUdIB9AFBVV95cUxQOWxUNTBSOW1rQ193d25oUWRtQkhwVU9fWEpiM1dsQ1NrM2gyc0hlSzM2YjNWdVg4b1pRNWd6Qm96SHhNb3pyQzhRanFaNU1pNjJkR1dIWmJlS0NVcjhhbUxWTDNUTXAxT1IwalFhOGhmaVdtRzFTcmk3WjJkelpxZVNFMWNyN2V4U09kcE9DMVE0SXJwMHo1Nmh0SmJSXzk3Q3l0cGtFaEhGSmo4VWpfMENlLTMwLUt5LUVwTEFoeXpBNnlCQUVNeHg2b1JDWkxSN2NDUHNkSV8zaVZmcHExV2RlQ3NTQld0S2NJU2RQTE0wNzBM?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-20T11:13:14+00:00"
+     "title": "Variação do preço do milho e da soja desde 2025 e 2026, em agosto - Farmnews",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZzRVT1RsaTkwdW5LQm1EV29xYjZtZTg0Z2c2LTNEZU1UMG95VUpxbnhpREV5djJBT2FReWtPWTdNRUZ1RjNHUWZEN2M0aGptS05hOTZNazMzVk52M29sMTlNMEVFb0ZMUlAyNUJlOWxEck9IazhPRkN0cnNJVzZlZU5MbWhabHZ0UUlydy1kTEcyTlBSWFVWNlZvWF9nZw?oc=5",
+     "source": "Farmnews",
+     "published_at": "2026-08-20T12:21:22+00:00"
     },
     {
      "title": "Soja mantém tendência de alta no Brasil com preços firmes em Chicago - Globo Rural",
@@ -546,12 +549,6 @@
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZkM0V3E3SmZxaHR1QW1nWDZDQW5xRmVyVjZCUWF3NmtLTWVlSlpwNkhlelcxbXNOR3BZTEZpbDFkWDhvUzFYMjJzT3lzVUNLekdVdl9pQmVRTm5OYlBSbWlrWHpwaEtUNU9aZjhkeXFId1hFOENjVWozTXBzZERKbnZiUXhTSVM2cnJQZTRxSmF4OUVwS3N6dS13Qmw4QQ?oc=5",
      "source": "Feed&Food",
      "published_at": "2026-08-20T09:01:00+00:00"
-    },
-    {
-     "title": "Artigo: Pequenos insetos, grandes prejuízos: primeiro registro de tripes-praga da soja é identificado no Acre - A Embrapa",
-     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNSlE3amdKeFFhZDNOM28zNVE0ZGE2bzZibUZ1NXo3Yy1ackFVem1MT2JNY3VkZWRkYmVLVFZKQWJPTmxjNmhCRHNtMGs5aURJRzRMRHVWMFFZT1lJdGIxYU5VMGlSaUo1SFpvNWxLMlhtekpkbnFvaFZMaGtXOEwxazh1RjFVYzluVGhYZVZEdnZkMWN0OW9wZVdvbnVnb0kzbmxPckp0aHpUNjZQaHYzY05oRTdKTnZnZ18xRGh6aEM3S1VHT2ZmMXZuZ1FYZmZDRGxCVExYM1gzWG9qVFpGYlpiMy10OXZyOHktelRpWHBsS3VtOTBYYnhPYw?oc=5",
-     "source": "A Embrapa",
-     "published_at": "2026-08-20T01:09:21+00:00"
     },
     {
      "title": "Exportações de carne bovina caem 26% em agosto com temor de tarifa maior na China",

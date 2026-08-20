@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-20T18:29:11+00:00",
+ "generated_at": "2026-08-20T19:25:33+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-20T18:29:04+00:00",
+   "updated_at": "2026-08-20T19:25:24+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1235.75,
+     "price": 1236.0,
      "prev_close": 1222.25,
-     "change_pct": 1.1,
+     "change_pct": 1.12,
      "closes": [
       1226.0,
       1219.5,
@@ -35,16 +35,16 @@
       1201.0,
       1200.75,
       1222.25,
-      1235.75
+      1236.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 502.75,
+     "price": 502.5,
      "prev_close": 473.0,
-     "change_pct": 6.29,
+     "change_pct": 6.24,
      "closes": [
       449.5,
       452.75,
@@ -69,16 +69,16 @@
       465.0,
       463.25,
       473.0,
-      502.75
+      502.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 323.4,
+     "price": 323.3,
      "prev_close": 318.9,
-     "change_pct": 1.41,
+     "change_pct": 1.38,
      "closes": [
       323.5,
       326.7,
@@ -103,16 +103,16 @@
       312.1,
       313.0,
       318.9,
-      323.4
+      323.3
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.39,
+     "price": 71.36,
      "prev_close": 69.86,
-     "change_pct": 2.19,
+     "change_pct": 2.15,
      "closes": [
       74.68,
       74.3,
@@ -137,16 +137,16 @@
       71.44,
       69.69,
       69.86,
-      71.39
+      71.36
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 699.25,
+     "price": 699.5,
      "prev_close": 680.25,
-     "change_pct": 2.79,
+     "change_pct": 2.83,
      "closes": [
       674.0,
       678.0,
@@ -171,16 +171,16 @@
       674.75,
       664.5,
       680.25,
-      699.25
+      699.5
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.4,
+     "price": 93.68,
      "prev_close": 91.62,
-     "change_pct": 1.94,
+     "change_pct": 2.25,
      "closes": [
       89.22,
       91.01,
@@ -205,16 +205,16 @@
       90.87,
       91.02,
       91.62,
-      93.4
+      93.68
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 167603.03,
+     "price": 167621.02,
      "prev_close": 167830.0,
-     "change_pct": -0.14,
+     "change_pct": -0.12,
      "closes": [
       173371.0,
       173326.0,
@@ -239,7 +239,7 @@
       166784.0,
       166335.0,
       167830.0,
-      167603.0312
+      167621.0156
      ]
     }
    ],
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-20T18:29:04+00:00",
+   "updated_at": "2026-08-20T19:25:25+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-20T18:29:08+00:00",
+   "updated_at": "2026-08-20T19:25:30+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -281,22 +281,22 @@
       0.0
      ],
      "tmax": [
-      35.8,
-      35.5,
-      36.9,
-      37.0,
-      37.4,
+      36.0,
+      35.2,
+      36.8,
+      37.3,
+      37.5,
       38.0,
-      37.9
+      38.3
      ],
      "tmin": [
       21.6,
-      21.7,
-      22.8,
-      23.3,
-      23.8,
-      24.3,
-      26.1
+      21.5,
+      22.4,
+      23.0,
+      24.5,
+      24.2,
+      24.1
      ]
     },
     {
@@ -320,22 +320,22 @@
       0.0
      ],
      "tmax": [
-      35.6,
+      35.7,
       35.5,
-      36.1,
-      36.8,
+      36.0,
+      36.9,
       36.5,
-      36.7,
-      36.7
+      36.9,
+      37.5
      ],
      "tmin": [
       22.1,
-      21.2,
+      21.3,
       22.3,
-      23.1,
-      22.7,
-      23.9,
-      25.0
+      23.0,
+      22.8,
+      23.3,
+      24.3
      ]
     },
     {
@@ -356,25 +356,25 @@
       0.0,
       0.0,
       0.0,
-      1.2
+      0.0
      ],
      "tmax": [
       33.2,
-      30.3,
-      29.7,
-      33.1,
-      34.2,
-      35.1,
-      27.4
+      30.2,
+      29.3,
+      32.7,
+      34.1,
+      34.6,
+      33.1
      ],
      "tmin": [
       20.2,
-      19.6,
-      16.0,
-      17.5,
-      19.2,
-      21.4,
-      22.0
+      19.5,
+      15.5,
+      16.8,
+      19.1,
+      20.8,
+      23.1
      ]
     },
     {
@@ -389,38 +389,74 @@
       "2026-08-26"
      ],
      "precip": [
-      0.2,
+      0.9,
       0.0,
       0.0,
       0.0,
       0.0,
-      1.8,
-      0.9
+      0.0,
+      0.0
      ],
      "tmax": [
-      24.0,
-      23.5,
-      25.4,
-      27.1,
-      26.7,
-      25.2,
-      32.7
+      24.1,
+      23.8,
+      25.3,
+      26.5,
+      28.2,
+      26.5,
+      33.3
      ],
      "tmin": [
       14.9,
-      11.6,
-      11.1,
-      11.9,
-      16.3,
-      17.7,
-      16.9
+      11.4,
+      10.6,
+      11.7,
+      14.4,
+      17.9,
+      17.1
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-20T18:29:11+00:00",
+   "updated_at": "2026-08-20T19:25:33+00:00",
    "items": [
+    {
+     "title": "JBS: caminhão movido 100% a biodiesel supera 500 mil km sem alterações no motor",
+     "link": "https://www.canalrural.com.br/economia/jbs-caminhao-movido-100-a-biodiesel-supera-500-mil-km-sem-alteracoes-no-motor/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T18:40:28+00:00"
+    },
+    {
+     "title": "Encontro nacional reúne mulheres para discutir liderança e oportunidades no agro",
+     "link": "https://www.canalrural.com.br/agricultura/encontro-nacional-reune-mulheres-para-discutir-lideranca-e-oportunidades-no-agro/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T18:40:00+00:00"
+    },
+    {
+     "title": "Brasil deve decidir sobre aplicação da Lei da Reciprocidade contra os EUA em dezembro, diz ministro",
+     "link": "https://www.canalrural.com.br/politica/brasil-deve-decidir-sobre-aplicacao-da-lei-da-reciprocidade-contra-os-eua-em-dezembro-diz-ministro/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T18:37:22+00:00"
+    },
+    {
+     "title": "Touro Bandido: relembre a história do animal que marcou Barretos",
+     "link": "https://www.canalrural.com.br/curiosidades/touro-bandido-relembre-a-historia-do-animal-que-marcou-barretos/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T18:25:00+00:00"
+    },
+    {
+     "title": "Mercado global de açúcar da ICE bate recorde de contratos em aberto",
+     "link": "https://www.canalrural.com.br/economia/mercado-global-de-acucar-da-ice-bate-recorde-de-contratos-em-aberto/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T18:18:04+00:00"
+    },
+    {
+     "title": "Cooperativismo e tecnologia fortalecem o agronegócio em Santa Catarina",
+     "link": "https://www.canalrural.com.br/videos/cooperativismo-e-tecnologia-fortalecem-o-agronegocio-em-santa-catarina/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-20T18:15:14+00:00"
+    },
     {
      "title": "Soja e frango puxam exportações do agro a US$ 16,3 bilhões em julho - O Presente Rural",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM3ZRR2U1UjN5dUN2c2M4MWdqcHFrYk9qbEVib2NuQmVlaF9iSTM3X1p6QnpJZmpBcW5USnpRY3U3bXhTaTUxS2l6NmpuTlZ1T0xTUVFrYlNyS0UyVkxGNExVOTlaSlVzMVdaMC03S2VPUEhWMERxNWQtSDZicjlRRHlEX1E0eHFCcVVuaHo1bmZya3diMDZsRWpjZXE?oc=5",
@@ -452,40 +488,10 @@
      "published_at": "2026-08-20T18:05:23+00:00"
     },
     {
-     "title": "Frio avança e temperaturas devem cair em diversas regiões do Brasil",
-     "link": "https://www.canalrural.com.br/videos/frio-avanca-e-temperaturas-devem-cair-em-diversas-regioes-do-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T18:05:10+00:00"
-    },
-    {
-     "title": "Conab atende produtores em quatro feiras agropecuárias no Rio Grande do Norte",
-     "link": "https://www.canalrural.com.br/pecuaria/conab-atende-produtores-em-quatro-feiras-agropecuarias-no-rio-grande-do-norte/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T18:04:07+00:00"
-    },
-    {
-     "title": "BNDES contrata até R$ 890 milhões para rodovias no Espírito Santo",
-     "link": "https://www.canalrural.com.br/economia/bndes-contrata-ate-r-890-milhoes-para-rodovias-no-espirito-santo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T17:56:56+00:00"
-    },
-    {
-     "title": "Ibovespa sobe com apoio de Petrobras, mas tensão externa limita recuperação",
-     "link": "https://www.canalrural.com.br/economia/ibovespa-sobe-com-apoio-de-petrobras-mas-tensao-externa-limita-recuperacao/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T16:58:46+00:00"
-    },
-    {
      "title": "O início da virada para a soja vem aí? Os dados sugerem que sim - The AgriBiz",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWVExQ2lVbVM4MTJhNlo5Y3VRd0hNdDc1TlZVckhabDhBRGhLVzJNYThGRGcwUGNReVNzaThSOFZyMlVVQUltbnBrVXFZOE1uVC1DUDhnd2NKaFdXM3dvY3dOTXNZcGdxeFBCS1F4MVd0cmdQdjB0Q3A2R2k0cU42LUJRZHk0SHd3NzdKU1phZFdNbEgydl8wVDBwbF9vako5Y1BzeQ?oc=5",
      "source": "The AgriBiz",
      "published_at": "2026-08-20T16:15:31+00:00"
-    },
-    {
-     "title": "Vendas semanais de trigo dos EUA somam 393,7 mil toneladas, diz USDA",
-     "link": "https://www.canalrural.com.br/agricultura/vendas-semanais-de-trigo-dos-eua-somam-3937-mil-toneladas-diz-usda/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T16:13:21+00:00"
     },
     {
      "title": "Produção de soja pode chegar a 180,4 milhões de toneladas - Agrolink",
@@ -494,22 +500,16 @@
      "published_at": "2026-08-20T16:03:00+00:00"
     },
     {
-     "title": "Diesel S-10 da Refinaria de Mataripe sobe 8,2% mesmo com subvenção",
-     "link": "https://www.canalrural.com.br/economia/diesel-s-10-da-refinaria-de-mataripe-sobe-82-mesmo-com-subvencao/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T16:01:58+00:00"
-    },
-    {
-     "title": "EUA vendem 85 mil t de soja da safra 2025/26, revela USDA - UOL Notícias",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQ2twaHlvMFNnU3lmMllLYVl3U1l0SmZ0MHFPZkFLV2hGSHltRXhWUkd4Y0E2WmZyMzYzZ2d4YkY2dGsxMy12YmJXNXlxZkNqa2hxMmY5TENTdUtmV1VoZXBpeWlPTGRDZHpjUWxOX1ZmS3lWZlVrNEM3VEoxMXJyUEh3TkdveFIyLWdNNDl4cGhfajAtQUxlN0Zrbm9uU1lTQ1VBRVVQOURkMzdiTjhlamhaTjhEdHdTY1ZHeU84QkxPRWE5b1N1ZXZR?oc=5",
-     "source": "UOL Notícias",
-     "published_at": "2026-08-20T15:14:00+00:00"
-    },
-    {
      "title": "Abiove atualiza projeções e aponta avanço no esmagamento acumulado de soja - safras.com.br",
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRlNyX2JhczMyMFBia0d6eGtpR3pwNnFkUmlMeHdTWlFlMXQyUTRyMGJRWE5IRHM4WWpIXzY1MURzWlFaOVdzdmRXbnRoZGJoN0owTWtEd18ydDlSTTJnRVpZNlJuekhDZUVZT1lrMGxCTGZkYlJwbTc4b3FBWVNLRTlYNnJKbmpSNGtZcjNTd2UyWUVpZU5ibzBEVmQ2QQ?oc=5",
      "source": "safras.com.br",
      "published_at": "2026-08-20T13:55:49+00:00"
+    },
+    {
+     "title": "Esmagamento de soja no Brasil cresce 7,7% no ano - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQamJPbm8wbHdnZjhPaHhMSGt0NVdub3p2d3J6cThrSHkzMFdDUXlTMURZdE1CLWJCUnNDOFFOckZ4bm5xaC1kQ2lPcFhFcmN3UFpQYzZTaEtNdG9oS1ZZanBKTmJJLXdHYVpwUWhmQ1IyQXgzV3ZkWU12dG1oWHVwMjZxcDY1dUNM?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-08-20T13:00:31+00:00"
     },
     {
      "title": "Com demanda externa aquecida, Abiove eleva perspectiva para exportação de farelo de soja - AgFeed",

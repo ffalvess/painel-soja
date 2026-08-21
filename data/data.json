@@ -1,18 +1,17 @@
 {
- "generated_at": "2026-08-21T03:44:43+00:00",
+ "generated_at": "2026-08-21T04:31:55+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-21T03:44:37+00:00",
+   "updated_at": "2026-08-21T04:31:49+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1228.5,
-     "prev_close": 1222.25,
-     "change_pct": 0.51,
+     "price": 1229.25,
+     "prev_close": 1220.75,
+     "change_pct": 0.7,
      "closes": [
-      1226.0,
       1219.5,
       1233.0,
       1237.5,
@@ -35,18 +34,18 @@
       1201.0,
       1200.75,
       1222.25,
-      1228.5
+      1220.75,
+      1229.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 501.0,
-     "prev_close": 473.0,
-     "change_pct": 5.92,
+     "price": 501.25,
+     "prev_close": 478.75,
+     "change_pct": 4.7,
      "closes": [
-      449.5,
       452.75,
       462.0,
       464.0,
@@ -69,18 +68,18 @@
       465.0,
       463.25,
       473.0,
-      501.0
+      478.75,
+      501.25
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 322.2,
-     "prev_close": 318.9,
-     "change_pct": 1.03,
+     "price": 322.4,
+     "prev_close": 315.7,
+     "change_pct": 2.12,
      "closes": [
-      323.5,
       326.7,
       331.6,
       329.9,
@@ -103,7 +102,8 @@
       312.1,
       313.0,
       318.9,
-      322.2
+      315.7,
+      322.4
      ]
     },
     {
@@ -111,10 +111,9 @@
      "name": "Óleo de soja",
      "unit": "¢/lb",
      "price": 70.88,
-     "prev_close": 69.86,
-     "change_pct": 1.46,
+     "prev_close": 71.18,
+     "change_pct": -0.42,
      "closes": [
-      74.68,
       74.3,
       75.48,
       75.59,
@@ -137,6 +136,7 @@
       71.44,
       69.69,
       69.86,
+      71.18,
       70.88
      ]
     },
@@ -144,11 +144,10 @@
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 703.5,
-     "prev_close": 680.25,
-     "change_pct": 3.42,
+     "price": 703.75,
+     "prev_close": 682.75,
+     "change_pct": 3.08,
      "closes": [
-      674.0,
       678.0,
       705.75,
       696.25,
@@ -171,18 +170,18 @@
       674.75,
       664.5,
       680.25,
-      703.5
+      682.75,
+      703.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.48,
-     "prev_close": 91.62,
-     "change_pct": 2.03,
+     "price": 93.55,
+     "prev_close": 93.78,
+     "change_pct": -0.25,
      "closes": [
-      89.22,
       91.01,
       94.07,
       100.69,
@@ -205,7 +204,8 @@
       90.87,
       91.02,
       91.62,
-      93.48
+      93.78,
+      93.55
      ]
     },
     {
@@ -244,7 +244,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-21T03:44:37+00:00",
+   "updated_at": "2026-08-21T04:31:49+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -255,7 +255,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-21T03:44:41+00:00",
+   "updated_at": "2026-08-21T04:31:52+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -416,7 +416,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-21T03:44:43+00:00",
+   "updated_at": "2026-08-21T04:31:55+00:00",
    "items": [
     {
      "title": "Parlamentar critica Moratória da Soja - Sapicuá",
@@ -497,12 +497,6 @@
      "published_at": "2026-08-20T22:13:00+00:00"
     },
     {
-     "title": "Izalci Lucas critica moratória da soja em meio a conflito legal - Jornal de Brasília",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdjRVT0kwdjhrbHUxbTBINDY2UWdRZ3pQZjAzOHplT0NDc0U3MTZhTVlxZ1dnb3pNZm9IRTl1WEp0NGtnZTFOSEJQeHZ6V0p0d3JnUDV6LTdBcjRJNDllaEtmLUtkR0Y2STMxXzlMdFVqZU51THFHOENMZ1dfaXhuMFdOcnVjNUVtdGFSeU9QM1ZSSEsxZ19iSkhENUtqX2IyZllVcXZsaGdzaFRhbDhpNnJLUUc?oc=5",
-     "source": "Jornal de Brasília",
-     "published_at": "2026-08-20T22:05:03+00:00"
-    },
-    {
      "title": "Safra recorde de soja em MT pode encher 1 milhão de caminhões e formar fila que daria 7 voltas no Brasil - G1",
      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQYVNtSmNsa09oSVBlWmxmc1k1TElYdndmV3lUQkNJVWtocEo2MkstaHRoS3c5QnFQSG56VkFjb3BhaldacXoybF9aSDVZQ0lZS0stb3l4cndNX05pVXlxV01QSERua09IblJERWpHRzZNc1RBeEdLVzJQZjVnVjA2LWN6N2xuV2tITGJKM1RTQ3dSbkJJQVRFTnVIakdqVngxUVRENXIxXy1uU2ZhcVRFZ1drdWk4WmpQUGJ3UDFVNmVCbjdqeWdab01yanA5OV9oNzhheXdFSTVrcjhBR2lRNXZoNTFzaldkMWl5Wk5YUHZoRTlua3FZc9IBhwJBVV95cUxQZ1dFa1dLY09sVnpva1RORlRWYzJjOTFncUlaRWJMdHhpU21XTVcxZ3dPRXpJQmlqSHZXYnJJTDZtQksweS1PbjBOZW9yQk5XNUtSWHNyZUMzemlVdC1qZmtPZ2lZTWtCdm53OEF1SXBLZUpHSEh1M0MwRU1zeDVoMzdCbHo3aXVxQUtncVBRMlFqQ3BuMmhNVHFPaTZJbkI4X0ctVmRsV2VOb0NVaVQyWlB1dzMzc0xfZGtWSTVlWGtxVDJpS2xnMVZBeGt6MVlYLW5CWTIzLXhORjdjc0J0QS1scE9DSEVCQl94Tk9GMlduNjRab1c5dlVMWDhPZUhXQko1Y0VFaw?oc=5",
      "source": "G1",
@@ -513,6 +507,12 @@
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWHdnNnpVSTBNY2wtRFRLM0xCeDJZLUJSZXNPb2x0ZFFobkY2dnV6ejdCazJrUEt5SEwyN0ppb2RxNGRjQVZMX2pGZ3E5cTlDemxRbDNudzVzVk5zcllkYUdIWVVZUW1RVXBFMEJCTlpXU1pFSUtmUTJJU0MycTE4RmhmNlQ4NVVlbmtpYk5idzJyWkxabWZCY1cwa1dJSVc1ejdwNm05RFVDallHVWp0b21IU1FNTjNGZVZoY2FPWEw?oc=5",
      "source": "Senado Federal",
      "published_at": "2026-08-20T20:34:00+00:00"
+    },
+    {
+     "title": "Soja e frango puxam exportações do agro a US$ 16,3 bilhões em julho - O Presente Rural",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM3ZRR2U1UjN5dUN2c2M4MWdqcHFrYk9qbEVib2NuQmVlaF9iSTM3X1p6QnpJZmpBcW5USnpRY3U3bXhTaTUxS2l6NmpuTlZ1T0xTUVFrYlNyS0UyVkxGNExVOTlaSlVzMVdaMC03S2VPUEhWMERxNWQtSDZicjlRRHlEX1E0eHFCcVVuaHo1bmZya3diMDZsRWpjZXE?oc=5",
+     "source": "O Presente Rural",
+     "published_at": "2026-08-20T18:46:19+00:00"
     },
     {
      "title": "USDA: Vendas semanais de soja 26/27 superam 1,7 mi de t - Notícias Agrícolas",

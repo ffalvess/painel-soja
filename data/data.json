@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-21T19:21:05+00:00",
+ "generated_at": "2026-08-21T20:18:32+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-21T19:20:56+00:00",
+   "updated_at": "2026-08-21T20:18:24+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -178,9 +178,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 94.03,
+     "price": 93.94,
      "prev_close": 93.78,
-     "change_pct": 0.27,
+     "change_pct": 0.17,
      "closes": [
       91.01,
       94.07,
@@ -205,16 +205,16 @@
       91.02,
       91.62,
       93.78,
-      94.03
+      93.94
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 171104.02,
+     "price": 171014.62,
      "prev_close": 167927.0,
-     "change_pct": 1.89,
+     "change_pct": 1.84,
      "closes": [
       173326.0,
       177548.0,
@@ -239,7 +239,7 @@
       166335.0,
       167830.0,
       167927.0,
-      171104.0156
+      171014.625
      ]
     }
    ],
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-21T19:20:56+00:00",
+   "updated_at": "2026-08-21T20:18:25+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-21T19:21:02+00:00",
+   "updated_at": "2026-08-21T20:18:29+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,86 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-21T19:21:05+00:00",
+   "updated_at": "2026-08-21T20:18:32+00:00",
    "items": [
+    {
+     "title": "Abertura de novos mercados internacionais aumenta rentabilidade para produtores rurais",
+     "link": "https://www.canalrural.com.br/videos/abertura-de-novos-mercados-internacionais-aumenta-rentabilidade-para-produtores-rurais/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T20:05:59+00:00"
+    },
+    {
+     "title": "Frio, chuva e risco de geada devem marcar o fim de semana no Brasil",
+     "link": "https://www.canalrural.com.br/videos/frio-chuva-e-risco-de-geada-devem-marcar-o-fim-de-semana-no-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T20:05:48+00:00"
+    },
+    {
+     "title": "Clima desafiador exige atenção redobrada no manejo de cana-de-açúcar",
+     "link": "https://www.canalrural.com.br/videos/clima-desafiador-exige-atencao-redobrada-no-manejo-de-cana-de-acucar/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T20:05:37+00:00"
+    },
+    {
+     "title": "Produtores de Mato Grosso entregam carta com reivindicações aos candidatos ao governo",
+     "link": "https://www.canalrural.com.br/videos/produtores-de-mato-grosso-entregam-carta-com-reivindicacoes-aos-candidatos-ao-governo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T20:05:26+00:00"
+    },
+    {
+     "title": "EUA ampliam importação de carne bovina e abrem oportunidades ao Brasil",
+     "link": "https://www.canalrural.com.br/videos/eua-ampliam-importacao-de-carne-bovina-e-abrem-oportunidades-ao-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T20:05:12+00:00"
+    },
+    {
+     "title": "Expedição indica produção maior de soja nos EUA e queda para o milho - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWUpXektNQzNjdWJIcm00Zl9YVzhkazhpYjlSOUxPam1uN2tpUVNXakQ1U0VMSjd5X0xpNXZDWW00SHdJd1JyVFlJLUEyYmtuNHN2UmpkT0RKaDdFcEhyTlEzdnN3UklaMjE2Zi1ZaUR6bFlod2ZXTmNLdlpxemU0c2NFUHB5LW00c0h2bXFIdFc2N0h6UE1DVjRMRXFadk5OdHdnMlNuY21UYkhSN2o0TzJGWF9HWHhyODBZRHpmV2NQX1daaXN5T1Nra9IB2gFBVV95cUxNNkhDaTdmQ1Iyb2FYaFZ6bjZieVIxNTY1cFkxOWtqczk5bGdsRTE3N0cwaEFzdTg3QUw3NmZ4TmJzNWpaUTdwWkxsUU5EQVJmRTdsY3VmZktrYW1HUkpYMUlobUlVRnE1akVydGxUZmFwb0Q5blhLVU9HTWZrTk1oQ3RGSVZtV2NOWi0yTlA0MEFYSXdsUV8wVmV3WmhWZW5LZHNFMUg2dDcxRHdBZmpaTW42ZWM4WDhJalpjRlFvN2ROb3ZXMTh4QjlJcXh5QXlVNjVXMlJwaXhvZw?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-21T20:03:14+00:00"
+    },
+    {
+     "title": "Petróleo fecha em alta e acumula avanço de cerca de 6% na semana",
+     "link": "https://www.canalrural.com.br/economia/petroleo-fecha-em-alta-e-acumula-avanco-de-cerca-de-6-na-semana/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T20:01:59+00:00"
+    },
+    {
+     "title": "Vendas para a China e safra americana impulsionam preços da soja em Chicago - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUUIwWjhsUTQ1UUVRMkg0NUwzZE01VlBlOFlkVDVTZnRpLXhQd3c1OTlpQjVVb2IwQmFENzlNaVdJaXRkR2x1Mk9RMUdwQTl3VmM5RDcxdWlreU1jenBLNkZyS2ZWRGtSa0hYMDJTUUZqSXQzRTFrUVZVZl9QS2gtU3dtUlI4Tlp2c0ZTTEphQU9Ga1RhNnFyTmxVNWNja0RSNzhPV0JYMTdQN1BKb0Y4?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-08-21T20:01:53+00:00"
+    },
+    {
+     "title": "André de Paula participa de lançamento da Revista Folha Energia em Recife",
+     "link": "https://www.canalrural.com.br/politica/andre-de-paula-participa-de-lancamento-da-revista-folha-energia-em-recife/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T19:52:42+00:00"
+    },
+    {
+     "title": "Fundo Amazônia destina R$ 34,6 milhões a projeto agroecológico no Pará e em Mato Grosso",
+     "link": "https://www.canalrural.com.br/politica/fundo-amazonia-destina-r-346-milhoes-a-projeto-agroecologico-no-para-e-em-mato-grosso/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T19:46:30+00:00"
+    },
+    {
+     "title": "MT registra novo recorde no esmagamento de soja - Revista Cultivar",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMkJRNFZYRmp6TVZ1aVUxaG13ZkJuWlNNU213WlVvS2FPekVMNm0tcVg2aWJHV2NqTTQ3dzFPYXMweXVKSUFjQ0pFMFpZcjJjNkF1dkZ2UFpCX29XTXlBaU1uSEcxTGdVMVhNRTdERkhsa1QwdnV1VWktcVVWbFRiQUxKMTZacVU5eFBzcXlkeHk?oc=5",
+     "source": "Revista Cultivar",
+     "published_at": "2026-08-21T19:30:27+00:00"
+    },
+    {
+     "title": "Petróleo fecha em alta e acumula avanço de 13% na semana",
+     "link": "https://www.canalrural.com.br/economia/petroleo-fecha-em-alta-e-acumula-avanco-de-13-na-semana/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T19:18:40+00:00"
+    },
+    {
+     "title": "Preço dos derivados de soja sobe no Brasil em agosto - O Presente Rural",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOV2JsQlo3VHZaQ0VQSUpMa3oyVkZDRXBsWmNKZ2xmenZIRTNQRmd0WlVIbXFFSlZ4el9FNWNZWjkxcFFNYkVtdS1kdjU2VmNxVlhucXAyTVl1NDBpQmtjbHlVRUVEcm45cjJZalphQnJfWkUwUjRMREVPaXRYc0RQblBJOE0zMHloRXRR?oc=5",
+     "source": "O Presente Rural",
+     "published_at": "2026-08-21T19:08:50+00:00"
+    },
     {
      "title": "CNA debate jornada de trabalho, saúde ocupacional e representação sindical",
      "link": "https://www.canalrural.com.br/politica/cna-debate-jornada-de-trabalho-saude-ocupacional-e-representacao-sindical/",
@@ -428,22 +506,10 @@
      "published_at": "2026-08-21T18:59:57+00:00"
     },
     {
-     "title": "Lula liga para Trump e diz que alegações para tarifaço são infundadas",
-     "link": "https://www.canalrural.com.br/politica/lula-liga-para-trump-e-diz-que-alegacoes-para-tarifaco-sao-infundadas/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T18:38:55+00:00"
-    },
-    {
-     "title": "IBGE defende credibilidade e confirma etapa experimental do Censo Agropecuário em novembro",
-     "link": "https://www.canalrural.com.br/agricultura/ibge-defende-credibilidade-e-confirma-etapa-experimental-do-censo-agropecuario-em-novembro/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T18:38:22+00:00"
-    },
-    {
-     "title": "Armazém de cooperativa se rompe e espalha mais de 30 toneladas de milho",
-     "link": "https://www.canalrural.com.br/nacional/armazem-de-cooperativa-se-rompe-e-espalha-mais-de-30-toneladas-de-milho/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T18:35:17+00:00"
+     "title": "Pro Farmer reduz potencial do milho nos EUA, mas aponta soja para novo recorde - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQb3E2WTBfYTJDWDk4VUxQa1VqMGZkUllZOHhBR2poYnp2azJhVjAwQmJRd0dhX1I1bm5qRmJqblA3cldjU2lJaWRkczlJZkdaNnRMc25SUUV0eVM3dS1tSHRhNmRjbXA4SUxVa0xIS0lLaWFvaHpoaFVSYmNBWmp2WW5oQjl6a3pYS21kNjRCSTdQX2duc1RMc25RZmp3U05lSTlrOEJaZkszanBiV21JdzNmNW5jU3Rwb2ptYUlRWFl6RGxUekhNZ19RV1E4LWFEajh6eVZiYzPSAd4BQVVfeXFMT3AyQllGNldlRFpTVTJiNDdabXRnX3ozUFU0VXFaLWdaZFZXaWhaMlNGVEpnWXNBQVBaR196R1N1R0kxUnJjdndDX2JtUDJoYjFlMlUycmREa18xZW5mOHF3NER0Zlc0dzJMcjAyZWtHemZGa21kZzJJYnd4cjdQMkpYa2ZCdXBNbjdLNWNCeWpONXFQRF8xbGNUTDR4djNrYVg5aF92eVdBdzAzWWJrdUNWQkc2VGNnSHc3MXVTSXdqOFU0TEpYRnVTdDN2a3NxbUhCZjNVcG4wLWh5dXBn?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-21T18:38:36+00:00"
     },
     {
      "title": "J&F, de Wesley e Joesley Batista, compra fabricante de armas de guerra Avibras",
@@ -452,22 +518,10 @@
      "published_at": "2026-08-21T18:20:50"
     },
     {
-     "title": "Nova cota dos EUA pode melhorar acesso da carne bovina brasileira",
-     "link": "https://www.canalrural.com.br/pecuaria/nova-cota-dos-eua-pode-melhorar-acesso-da-carne-bovina-brasileira/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T18:12:48+00:00"
-    },
-    {
-     "title": "Sementes certificadas ganham peso nas decisões para a safra de soja 2026/27 - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa2RubUNlRWpya3ZEZnBRejlOQlZsWXZzUnVjd2ZhZWVQbHFHYlNTUTNtZXIxazZEdTlaZms4OTQyLW53SC13OE1YUG1NZUpGVTJmUmVORFc1X2Vob01YbHVkSjQ3V3g0QU9GcWRYRTVod2NIY0RrWGs4Q2hJU25TNE5kWTNuSUdGTXpONExESlpBRVQzYlh1b1pvQnVfelVXcU94ZkcyaWY0UQ?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-08-21T17:34:18+00:00"
-    },
-    {
-     "title": "Adiamento de concessão de hidrovias no Norte pode levar 22 mil caminhões por ano às rodovias",
-     "link": "https://www.canalrural.com.br/economia/adiamento-de-concessao-de-hidrovias-no-norte-pode-levar-22-mil-caminhoes-por-ano-as-rodovias/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T17:32:13+00:00"
+     "title": "Soja tem alta ‘expressiva’ no Brasil e atinge maior nível em mais de 3 anos, diz Cepea - Money Times",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZGxPMWJPZWdXbFZ1blZXcHhYUUJ3QkhXcGh3MzZDaDFOcWlNR0N1VTdfdXY5NVZ1bWVJd3RNcHN2Rjl0WXpBNnBKUnFjVjhTQUlPYmM0ZXVMazgwMG5zemEzSFRQNlpOaFRFUkhJeHBvYjFUYzNqRTVwNzJFNnZuUnhWM1NMQ25NYjFXbjcxcnNab0lESHJaQWZYUExqRTR6X0xSMVNfTkFYbUVsLU45SkZKTkdQakk4Nm9V?oc=5",
+     "source": "Money Times",
+     "published_at": "2026-08-21T18:01:00+00:00"
     },
     {
      "title": "Um novo passo para o crescimento da soja e derivados - The AgriBiz",
@@ -476,40 +530,10 @@
      "published_at": "2026-08-21T17:24:34+00:00"
     },
     {
-     "title": "Proibir exportação de gado vivo viola lógica de mercado",
-     "link": "https://www.canalrural.com.br/diversos/proibir-exportacao-de-gado-vivo-viola-logica-de-mercado/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T17:16:51+00:00"
-    },
-    {
-     "title": "Soja sobe em Chicago e no Brasil com preocupação sobre potencial produtivo nos EUA - safras.com.br",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV1FzRDFDV3hqU3pZVGlKS0U0bzlCbVkyeUhoV3EySE92dDBtM05aSkNRRURvYzd5a1EyTVVNYVhhZnRKdWY5alpQUmhlYzh4TkRUQkpzNHAyNVpRbWtEUmZEX0QxRjhodWdNVzczcnV1ZFZGaHRZU2JBak9hdWdicGs1WlFGZmFteHNyTUdRbERMeEdTMTJvdVlfSlIyaXFaU0FtdWtlNFI?oc=5",
-     "source": "safras.com.br",
-     "published_at": "2026-08-21T17:14:48+00:00"
-    },
-    {
-     "title": "Presença de abelhas pode aumentar produtividade da soja - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaTNKNVZnY1JaWVRnZGl3LVdWWEZPNEhXeGFvbnFTNnVlS0oxZ2lLZU55eWxTZl9ZSGhPNHphUXNvWGIyYm10ZEdubXVSLUFnR2hybi1Rc0ZWcWc2WldFbDBQbDd0SFdiLXVndFdXUWZZY3ZuRHAzT3dBSnVPclVCY3AxZXBVRUpoU3ZLbFFYeVRDOWVxVjBlSU5aNnBmSjNtUDMzUXJLdw?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-21T16:57:00+00:00"
-    },
-    {
-     "title": "Mato Grosso amplia exportações de carne bovina em julho",
-     "link": "https://www.canalrural.com.br/pecuaria/mato-grosso-amplia-exportacoes-de-carne-bovina-em-julho/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T16:52:59+00:00"
-    },
-    {
-     "title": "Frente fria avança em São Paulo e pode provocar temporais nesta sexta-feira",
-     "link": "https://www.canalrural.com.br/diversos/frente-fria-avanca-em-sao-paulo-e-pode-provocar-temporais-nesta-sexta-feira/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T16:19:45+00:00"
-    },
-    {
-     "title": "Meirelles defende política fiscal mais forte que o atual arcabouço",
-     "link": "https://www.canalrural.com.br/economia/meirelles-defende-politica-fiscal-mais-forte-que-o-atual-arcabouco/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T16:12:34+00:00"
+     "title": "China aumenta compras de soja dos EUA em meio a temor de safra menor e preços mais altos - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdklyc0JjNWRwQkxIMmQ2YWtOMnhaaVJoeW04WURxbExtMmtpQ18wc3dJVDdvZy0wVVpiRXhEQWNUcDFPc0YyTlNEWXpwaGVvb215Unp1dkxaekt4cEJzMHl2Mm5yVGZfNS1rY1E4SUpUVl9qV1F0S01OV0EzakpmMkhXdTdZcDJvd3JHV04ydnQ5ckViRkV4MFQtczdPNUpkWFJnRE1DMGxrNUFHZXIyOTFGYzJqdDNRdUpsMENMRl8wSllVS3M2LWlSUUNCS3RQNGNBRGhzczZId240RXNicFQtSHVRUdIB6wFBVV95cUxOdXhIc093dTVQczJvTGdGMlpXYkZCR3dnMWR2WE50X0x5RXRkUDR0ZkxQZVJTMzBCS1VUMm9xUjFjUGNYcnFzZXJWS2NMLVhHNmIwbG5CUHc5WnJSOXdDaklhWWF6ZTVoWFdNRGlzUTBSZWNPbTZFV1NMSnFULUtYcWRyZEVWMnlxcTJpUkU4eUIzd0ZJWWJaWFhBT2tmdXVMaVY3SXJtaFZPU0tLNGItVnBSeVE1TlAtUW1VajlOLWZCcFJfRkk4NW5fRy0xa0V1U0FDSFJCNmFNakkyLWEyWURuZXZJNnBlM25R?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-21T17:17:48+00:00"
     },
     {
      "title": "Aprenda a montar uma horta em casa",
@@ -530,22 +554,16 @@
      "published_at": "2026-08-21T14:58:03+00:00"
     },
     {
-     "title": "Soja e algodão ensaiam uma virada — e o BTG vê uma empresa pronta para ganhar - Exame",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSGJKSmpGeHFiRHl5cklfUDN2MVlCMUd3WHptVGRpTHNrSFB0YzlPVjlqaFJCT3l0emgxNHdJSVVQclBkczdfSGlFeHE4eFFjd2M5UHJYZ2FaVXpIZ1lSRTlwWS1MVEt0S3k1Z0wtR3NueFVWUExFczNCbkFTN2p0cTZrS3R3c3d3UzFDQjY4YWNUU3NTQk9sNkpIMG84NlNX?oc=5",
-     "source": "Exame",
-     "published_at": "2026-08-21T13:43:53+00:00"
+     "title": "‘Operação salva-hambúrguer’: Trump determina cota extra de importação de carne e tenta baixar preços nos EUA",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/trump-hamburguer-eua.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-21T12:04:25"
     },
     {
      "title": "Milho avança na colheita enquanto soja e sorgo ampliam produção - Feed&Food",
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWktYYXhQdkg3aE9tUUs5UjVRN0pEWGRtdkh6Q25Ha1ZKdm5BWnZ0VGxjVncwSWFaRHppbkRETDd4OGhyZ2k1bVNibUhDS01mZ0R1YkxKc0ZWajVqWHBPd1d1MGpZNzFLVEY3Z1pNam82QXNvcmhjU1F5dk54V3NleC1qTHE0dnNRQUM4SjVfSWktUQ?oc=5",
      "source": "Feed&Food",
-     "published_at": "2026-08-21T13:32:03+00:00"
-    },
-    {
-     "title": "‘Operação salva-hambúrguer’: Trump determina cota extra de importação de carne e tenta baixar preços nos EUA",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/trump-hamburguer-eua.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-21T12:04:25"
+     "published_at": "2026-08-21T12:01:00+00:00"
     },
     {
      "title": "Analista aponta elo limitado entre diesel e soja - Agrolink",
@@ -554,28 +572,10 @@
      "published_at": "2026-08-21T10:48:00+00:00"
     },
     {
-     "title": "Soja recua em Chicago nesta 6ª feira (21) com realização de lucros, após semana de sequência de altas - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNME1OQjhyWTNKdGt2ZUNQZ0ZYM2VkQjhmYVI5SXYwLVFIM1NKQVRjTGptazlBbmcxS0s1TjZyeUFQeHRTNjhiMk53dnpGMFBON2Fnel9oZFMtUHNHQU5QazluUEw1dUVsYnJIalhMUEdSbDVRbDRZODVRcUNYOTRuNlJaZEN4bEl5SnpDWEVWbm5XOUM3c0FjZGFkSHB2X21YMy04Z2l1alBDd1FUakhYcjVLNTlaOTFBUWVobkNiVjJaUVRZbkV1Um1tN1J6T0lKWVlxckFFQTM2X1pBTW00MHpSVzk2Q2pvSllKVGlXM0Z5UdIB9wFBVV95cUxQOW9GalhZSHMtcHg0dF9MYzl1YUstWm41TnRPdUdTTWc5QUJOUVlyVHVjR3Zzd25KSUloMWN2bWJ0bUlIOEdvcE5jUVRaOVozUkx3WVpHMWZRcVdBMW1sZnNLejlsdzlmdzZTMnNFRS1VZ0ZlOEVTVnlUTmhucElMR2cxY0hLZW1TUGNDQmNIZW1SNklDUFRKYTh6UlZpSHQ2V3hrZEFVZTlINmpfbHFTUW1FNFZ6cDJBUlRzVlhDWlVQbHpxaHVXcEdQQUE5bDZ1dmthYV9TbWpRdGZhUWtpUzlHWDJ3aDlWemRPSkRMdVJuY0ZEempr?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-21T10:30:08+00:00"
-    },
-    {
-     "title": "Preço da soja tem nova alta e já se aproxima de R$ 155 - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWGFsM0FsVlQ5SXNDVUYtYnFGQmtFd3Q3NHpXUHlMOHJqSnhvZHYzYUZTbUZUeGlwZTM0c3VBcGxBTFZ4LWRwaWtKVmVaQVZmTHRORmk1ejF3OHVXZEFROVphUks3OXlWQXdnbUpqYjg3dGx4SzZJdjhkSGtCZkxQSG5BTHFfbEg0c29neGc0WWw0emR4TlhqVEJvbG5tQ0dBSUg1eG9nSzhUM0drUEg3RjYzZ9IBwgFBVV95cUxPTm50Mk5hbXN6QkRXYUp2elEyOVRxNmVtbXM3MjNNdzVLcnM3dDF1NllBWmFsdGVVSmc5dHMzb19NZTFPclZpUC1rTEhGVTIxVFRydjIwX1NtcTExa1RhaVVnZWZLYzRIZkJqWkk2Nk14UC1tZE51SDIwY0ZReEJ5aXpiTlVpd2Q1TE8zSlBCaHJMcEdhdVlkNkVLeWhkNjFIRG5VdUxlb3J5U3pvMXgxalpmUlVGZjRaSWNheFNZcTR3QQ?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-21T09:15:22+00:00"
-    },
-    {
      "title": "Alimentos editados geneticamente: o que são e o que dizem críticos e defensores",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/alimentos-editados-geneticamente.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T05:00:18"
-    },
-    {
-     "title": "Senadores criticam STF por validar pacto que pune produtores de soja — Rádio Senado - Senado Federal",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWHdnNnpVSTBNY2wtRFRLM0xCeDJZLUJSZXNPb2x0ZFFobkY2dnV6ejdCazJrUEt5SEwyN0ppb2RxNGRjQVZMX2pGZ3E5cTlDemxRbDNudzVzVk5zcllkYUdIWVVZUW1RVXBFMEJCTlpXU1pFSUtmUTJJU0MycTE4RmhmNlQ4NVVlbmtpYk5idzJyWkxabWZCY1cwa1dJSVc1ejdwNm05RFVDallHVWp0b21IU1FNTjNGZVZoY2FPWEw?oc=5",
-     "source": "Senado Federal",
-     "published_at": "2026-08-20T20:34:00+00:00"
     },
     {
      "title": "Exportações de carne bovina caem 26% em agosto com temor de tarifa maior na China",

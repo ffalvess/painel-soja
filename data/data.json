@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-21T09:29:56+00:00",
+ "generated_at": "2026-08-21T10:23:17+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-21T09:29:50+00:00",
+   "updated_at": "2026-08-21T10:23:09+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1232.5,
+     "price": 1231.0,
      "prev_close": 1220.75,
-     "change_pct": 0.96,
+     "change_pct": 0.84,
      "closes": [
       1219.5,
       1233.0,
@@ -35,16 +35,16 @@
       1200.75,
       1222.25,
       1220.75,
-      1232.5
+      1231.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 503.75,
+     "price": 502.0,
      "prev_close": 478.75,
-     "change_pct": 5.22,
+     "change_pct": 4.86,
      "closes": [
       452.75,
       462.0,
@@ -69,16 +69,16 @@
       463.25,
       473.0,
       478.75,
-      503.75
+      502.0
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 323.0,
+     "price": 321.5,
      "prev_close": 315.7,
-     "change_pct": 2.31,
+     "change_pct": 1.84,
      "closes": [
       326.7,
       331.6,
@@ -103,16 +103,16 @@
       313.0,
       318.9,
       315.7,
-      323.0
+      321.5
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 71.19,
+     "price": 71.27,
      "prev_close": 71.18,
-     "change_pct": 0.01,
+     "change_pct": 0.13,
      "closes": [
       74.3,
       75.48,
@@ -137,16 +137,16 @@
       69.69,
       69.86,
       71.18,
-      71.19
+      71.27
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 702.0,
+     "price": 698.75,
      "prev_close": 682.75,
-     "change_pct": 2.82,
+     "change_pct": 2.34,
      "closes": [
       678.0,
       705.75,
@@ -171,16 +171,16 @@
       664.5,
       680.25,
       682.75,
-      702.0
+      698.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.07,
+     "price": 94.29,
      "prev_close": 93.78,
-     "change_pct": -0.76,
+     "change_pct": 0.54,
      "closes": [
       91.01,
       94.07,
@@ -205,7 +205,7 @@
       91.02,
       91.62,
       93.78,
-      93.07
+      94.29
      ]
     },
     {
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-21T09:29:50+00:00",
+   "updated_at": "2026-08-21T10:23:09+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-21T09:29:54+00:00",
+   "updated_at": "2026-08-21T10:23:14+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-21T09:29:56+00:00",
+   "updated_at": "2026-08-21T10:23:17+00:00",
    "items": [
+    {
+     "title": "Mortalidade em granjas cai quase 80% após controle de ácaros e piolhos, diz estudo",
+     "link": "https://www.canalrural.com.br/aves-e-suinos/mortalidade-em-granjas-cai-quase-80-apos-controle-de-acaros-e-piolhos-diz-estudo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T10:00:00+00:00"
+    },
+    {
+     "title": "Consultoria aponta alta da soja em várias praças - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS1hLSGdINVFHdTFOUkZKaE5rY3JoNlFHV3l3Yk5tLWhjbUpYU3FNV1ZzTXRKV3I5eFFvZUc5cWE4OGVBbUxiNWlVTmhMSVp4cW13QXpZZGptRzAwSjlMV3FnM3RHNVlONnMzS1JGeHV2cTZ0aDVhYkE1LUE3NUItRUpFNjRvUl9WUWE1VVlyYlpYVVd4Vk5GM3gwcVlFUQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-21T09:36:00+00:00"
+    },
+    {
+     "title": "Preço da soja tem nova alta e já se aproxima de R$ 155 - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWGFsM0FsVlQ5SXNDVUYtYnFGQmtFd3Q3NHpXUHlMOHJqSnhvZHYzYUZTbUZUeGlwZTM0c3VBcGxBTFZ4LWRwaWtKVmVaQVZmTHRORmk1ejF3OHVXZEFROVphUks3OXlWQXdnbUpqYjg3dGx4SzZJdjhkSGtCZkxQSG5BTHFfbEg0c29neGc0WWw0emR4TlhqVEJvbG5tQ0dBSUg1eG9nSzhUM0drUEg3RjYzZ9IBwgFBVV95cUxPTm50Mk5hbXN6QkRXYUp2elEyOVRxNmVtbXM3MjNNdzVLcnM3dDF1NllBWmFsdGVVSmc5dHMzb19NZTFPclZpUC1rTEhGVTIxVFRydjIwX1NtcTExa1RhaVVnZWZLYzRIZkJqWkk2Nk14UC1tZE51SDIwY0ZReEJ5aXpiTlVpd2Q1TE8zSlBCaHJMcEdhdVlkNkVLeWhkNjFIRG5VdUxlb3J5U3pvMXgxalpmUlVGZjRaSWNheFNZcTR3QQ?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-21T09:15:22+00:00"
+    },
     {
      "title": "Por que a soja deve ter menor crescimento da produção em 30 anos no Brasil - Exame",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUlFYbE83MUN1NlB4Q2QxVmJIRjNRWmZrX0REZng5SThybl9XVWJrTGhUYy1IVnJqQ1RwVTZNeHNpYUNPaC00ZmJZMDBmU1JaUEktenZpYlpWRk9yNTV2c21yZFRnSEdwV09LUi1vRmYyNm1FUzVXaGNQSGZuVWNxblRXeC1SbllqbW5XenVNRUVVaXMxTE1jd0RsSmFnUjA?oc=5",
@@ -506,12 +524,6 @@
      "published_at": "2026-08-20T23:05:30+00:00"
     },
     {
-     "title": "Leilões da ExpoGenética 2026 já movimentam mais de R$ 80 milhões em Uberaba",
-     "link": "https://www.canalrural.com.br/videos/leiloes-da-expogenetica-2026-ja-movimentam-mais-de-r-80-milhoes-em-uberaba/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T23:05:18+00:00"
-    },
-    {
      "title": "Soja sobe no Brasil com dólar e Chicago, mas negócios seguem lentos - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQekc5dzBYQXpIT2VBTWIzT1BRMlFndHJWeW5ZVUxpZnU5ODlnd1RoTk1WM0p1Yng0b2R5aGFKaWdrVlpHbGNrQ3JmWHZVcExRZURpWUl2ZXhjc3FST1oyMUNJRlNUVGVVZDJqOUZWRnJ5alBKaTl2dmR3OTVKWXFTWXp5TG1xblJRUzhSSWN0LVlyLXNWb05RZDl0cHppWmlBTGcxV0JXdEJuaC1CR0MxVTA0eHk?oc=5",
      "source": "Canal Rural",
@@ -524,22 +536,16 @@
      "published_at": "2026-08-20T22:13:00+00:00"
     },
     {
-     "title": "Safra recorde de soja em MT pode encher 1 milhão de caminhões e formar fila que daria 7 voltas no Brasil - G1",
-     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQYVNtSmNsa09oSVBlWmxmc1k1TElYdndmV3lUQkNJVWtocEo2MkstaHRoS3c5QnFQSG56VkFjb3BhaldacXoybF9aSDVZQ0lZS0stb3l4cndNX05pVXlxV01QSERua09IblJERWpHRzZNc1RBeEdLVzJQZjVnVjA2LWN6N2xuV2tITGJKM1RTQ3dSbkJJQVRFTnVIakdqVngxUVRENXIxXy1uU2ZhcVRFZ1drdWk4WmpQUGJ3UDFVNmVCbjdqeWdab01yanA5OV9oNzhheXdFSTVrcjhBR2lRNXZoNTFzaldkMWl5Wk5YUHZoRTlua3FZc9IBhwJBVV95cUxQZ1dFa1dLY09sVnpva1RORlRWYzJjOTFncUlaRWJMdHhpU21XTVcxZ3dPRXpJQmlqSHZXYnJJTDZtQksweS1PbjBOZW9yQk5XNUtSWHNyZUMzemlVdC1qZmtPZ2lZTWtCdm53OEF1SXBLZUpHSEh1M0MwRU1zeDVoMzdCbHo3aXVxQUtncVBRMlFqQ3BuMmhNVHFPaTZJbkI4X0ctVmRsV2VOb0NVaVQyWlB1dzMzc0xfZGtWSTVlWGtxVDJpS2xnMVZBeGt6MVlYLW5CWTIzLXhORjdjc0J0QS1scE9DSEVCQl94Tk9GMlduNjRab1c5dlVMWDhPZUhXQko1Y0VFaw?oc=5",
-     "source": "G1",
-     "published_at": "2026-08-20T21:48:30+00:00"
-    },
-    {
      "title": "Senadores criticam STF por validar pacto que pune produtores de soja — Rádio Senado - Senado Federal",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWHdnNnpVSTBNY2wtRFRLM0xCeDJZLUJSZXNPb2x0ZFFobkY2dnV6ejdCazJrUEt5SEwyN0ppb2RxNGRjQVZMX2pGZ3E5cTlDemxRbDNudzVzVk5zcllkYUdIWVVZUW1RVXBFMEJCTlpXU1pFSUtmUTJJU0MycTE4RmhmNlQ4NVVlbmtpYk5idzJyWkxabWZCY1cwa1dJSVc1ejdwNm05RFVDallHVWp0b21IU1FNTjNGZVZoY2FPWEw?oc=5",
      "source": "Senado Federal",
      "published_at": "2026-08-20T20:34:00+00:00"
     },
     {
-     "title": "USDA: Vendas semanais de soja 26/27 superam 1,7 mi de t - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQ2NHTVVSR1N3M1pQaTFYVHhBY3QxZlJxeW9mSzEweFFwaUI0QlVjcUJGeGQ4LWJ3bWVCc1RscndOT29XM250dHRaeGtBSWdsd2Y5Mmx6Si1ISVU1dHpGY1RJWk5XQnRsUEdlTkdEY2ZNLVZDR0xJOGdiQjdHeTJ3OFI2alRsMTA1cEstWjdwdEs1M2RsWnRZaVdPMnhKU1dvakdVejR3V3ZLZk9DVmJ0aWVNem9qNkYx0gG-AUFVX3lxTFB4Z0dXYXlGUU5UaGphNWc3b3hIZGJnN3JiekhjRUpzZFcwNDRqWXliRVFXMFBQdFlFR29ja2N1NXotRktWZXRQcEdOdm8xd3FZUnZyQ1dXNE9ycEtmRGpISEFjQTMxVTVHOUpVOEJnZ1N4VlpFeU90UHlJN2V0WE5aR01jVGpfV2pUQmp3NFJWN1FhTVpsSGJnbTdhWDR1N1N5THNkUVR2NWhCU3laMkxuZGlhTzRxMU9wZ3VrblE?oc=5",
+     "title": "Preços da soja no Brasil são os melhores desde 2023; atenção às vendas produtor - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPU1gxaVlnV2ZMblVTaUlDMVBvQXBCRzhjV25WWW92ZG5JamJuQW9DZUtCS2E3OFNxeDlqTk5OdHZxWUg2ZTlHUWMxbnZ4S2JHc0paZHRFS3I5TmdLRVVxV2RINHpUYm95MWQxWVBJWmF2Z3dPTU5VSlVORm5jRTlFLWVmSUEyY29MZ2t5YmdVdXhVTGs4TXlfQjhoaEtrWlJaTGdjb215SGMzRjMyLTZlbXhIWHFqeWJVQ0VmSFBLWFVJWFdlLTZIcmZBWS1KOEo4d0tnWG130gHbAUFVX3lxTE1lajc4M2plUmVhMktLTDdKNDh4dnFMYm5HbHNhTGNPTzFrQzFUQzdQTzV0X1pQOHhNODRHcjBHWmdwc2dMbXdnS0JERG5qZEhwVEdxeUZnekphd2tkQ2xUcmg4WkdQVTEzbUlSc3hva2pqTXBmOFNleFpyWGlEWVp0bUt6TFZ6ckNfQ1VXMHg1ZWhhaF8yNXE1QzI5dXdVMW9iUmRvelZuLTFWaTB4Sk5JbzhoZ1VVOElETlZUTGM0UEhUN2FzZ2Jrb3BUOTZJYWstQ3ozdlI5TUhwWQ?oc=5",
      "source": "Notícias Agrícolas",
-     "published_at": "2026-08-20T17:26:54+00:00"
+     "published_at": "2026-08-20T20:25:49+00:00"
     },
     {
      "title": "Nota Política da APIB sobre o enfraquecimento da Moratória da Soja e seus impactos no aumento de desmatamento e violações aos direitos dos povos indígenas do Brasil - Articulação dos Povos Indígenas do Brasil | APIB",
@@ -552,12 +558,6 @@
      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HeENGQkVLZW1JQk1NWkxaTE1HN25ISlQ3OWx3NHpTVU04RGxrTE0tbFNvUlNlN2xWSkhxTnVfZmVlc3UwUGNXRXlvamRnb1k0R1gxd1NmbnJLQ05GUDViTjVWZFp6VS1wd0lmNw?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-08-20T16:21:16+00:00"
-    },
-    {
-     "title": "Produção de soja pode chegar a 180,4 milhões de toneladas - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMHZQUEsxeW9fajNza3ZmODQtMFhoOHdKYTdBd0NLS1lTYndqak1PQXRTMEVBSWRzNlAyMkhVMWZGelluLTNOdDFNMk9Hd0s3SFVlWHdHRHB0NVl5c1Z2UUFldkNySFFzaWpsa2JOUVBMdmxHQXFiLWE0bllSWHBhLWdBMkZDV3k2bUZWUHVJZ1VXLXh2R211Y0JSdk40THJmQkFqWnMyTmdQZw?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-20T16:03:00+00:00"
     },
     {
      "title": "Exportações de carne bovina caem 26% em agosto com temor de tarifa maior na China",

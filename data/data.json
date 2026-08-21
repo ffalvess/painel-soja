@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-21T14:27:56+00:00",
+ "generated_at": "2026-08-21T15:26:29+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-21T14:27:50+00:00",
+   "updated_at": "2026-08-21T15:26:22+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1233.0,
+     "price": 1235.75,
      "prev_close": 1220.75,
-     "change_pct": 1.0,
+     "change_pct": 1.23,
      "closes": [
       1219.5,
       1233.0,
@@ -35,7 +35,7 @@
       1200.75,
       1222.25,
       1220.75,
-      1233.0
+      1235.75
      ]
     },
     {
@@ -76,9 +76,9 @@
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 320.4,
+     "price": 321.3,
      "prev_close": 315.7,
-     "change_pct": 1.49,
+     "change_pct": 1.77,
      "closes": [
       326.7,
       331.6,
@@ -103,16 +103,16 @@
       313.0,
       318.9,
       315.7,
-      320.4
+      321.3
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.41,
+     "price": 70.68,
      "prev_close": 71.18,
-     "change_pct": -1.08,
+     "change_pct": -0.7,
      "closes": [
       74.3,
       75.48,
@@ -137,16 +137,16 @@
       69.69,
       69.86,
       71.18,
-      70.41
+      70.68
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 699.75,
+     "price": 699.0,
      "prev_close": 682.75,
-     "change_pct": 2.49,
+     "change_pct": 2.38,
      "closes": [
       678.0,
       705.75,
@@ -171,16 +171,16 @@
       664.5,
       680.25,
       682.75,
-      699.75
+      699.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.71,
+     "price": 93.93,
      "prev_close": 93.78,
-     "change_pct": -0.07,
+     "change_pct": 0.16,
      "closes": [
       91.01,
       94.07,
@@ -205,16 +205,16 @@
       91.02,
       91.62,
       93.78,
-      93.71
+      93.93
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 170593.9,
+     "price": 171013.97,
      "prev_close": 167927.0,
-     "change_pct": 1.59,
+     "change_pct": 1.84,
      "closes": [
       173326.0,
       177548.0,
@@ -239,7 +239,7 @@
       166335.0,
       167830.0,
       167927.0,
-      170593.9062
+      171013.9688
      ]
     }
    ],
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-21T14:27:51+00:00",
+   "updated_at": "2026-08-21T15:26:22+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-21T14:27:54+00:00",
+   "updated_at": "2026-08-21T15:26:25+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-21T14:27:56+00:00",
+   "updated_at": "2026-08-21T15:26:29+00:00",
    "items": [
+    {
+     "title": "Área de soja no Brasil deve ter em 2026/27 a menor expansão em 20 anos, diz Datagro",
+     "link": "https://www.canalrural.com.br/agricultura/area-de-soja-no-brasil-deve-ter-em-2026-27-a-menor-expansao-em-20-anos-diz-datagro/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T14:58:03+00:00"
+    },
+    {
+     "title": "Soja/Datagro: expansão de área no País na safra 26/27 deve ser a menor em 20 anos - UOL Notícias",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQY25tSkROQ3FFbnhYRjNWQlhHRFFsZ2MxU1NndUg3bE1mamdzQWdZN0I4ZGtqRnFBbGxtMGg4eVdZeVNOa2NWMG5Gd2R2aDNnYjZfSklsdjlSckloNThmejlFV0RDaUVVMTdBTXlONkJuVmQ1MDNYaTZsS3UzZ2o1RFZGMlZFejBCZDZnWEY1QVBWOENfUW8yWjJYbVAtZmQyTi05NFRlMkUtRWwwYzNDa25PcndyYl9NdjNtVlJ2a0UxeEdmeFJ0aUJOQjJUel8yclFHd09zTEtaaktaVXpjelRSX2FmZjhN?oc=5",
+     "source": "UOL Notícias",
+     "published_at": "2026-08-21T14:50:00+00:00"
+    },
     {
      "title": "Índia autoriza importar 1 milhão de toneladas de açúcar sem tarifa",
      "link": "https://www.canalrural.com.br/economia/india-autoriza-importar-1-milhao-de-toneladas-de-acucar-sem-tarifa/",
@@ -506,22 +518,10 @@
      "published_at": "2026-08-21T11:58:24+00:00"
     },
     {
-     "title": "Frio avança no centro-sul e derruba mínimas para abaixo de 10°C",
-     "link": "https://www.canalrural.com.br/diversos/frio-avanca-no-centro-sul-e-derruba-minimas-para-abaixo-de-10c/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T11:45:13+00:00"
-    },
-    {
      "title": "Abiove eleva exportação de farelo de soja e reduz produção em 2026 - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcUw2V1VVdW5LVmRhQzl4MFpGTzIzd2xoZHhjNkdsbUpNd2xtUmUtb1A2eWNXMjN5N25EbkpZdGJDVFZrdHo0RHR2bm1hQ1hQMWZ2NXY3TzFKc2RsLUFvNUJTUzBpR1NoczdPQVFtZk5sZ3NEMllNMXp1ZFZMWXhjZlBoaXY1cnV4bUl4NlRidUc1WG5LOWM2S2N0MTVnMGtIOVgwWWE3d2pfUQ?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-21T11:42:42+00:00"
-    },
-    {
-     "title": "Soja: Abiove eleva exportação de farelo e reduz levemente produção em 2026 - UOL Notícias",
-     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcTRoYWZxNlJNNnVrOUNVaUFGNEcyV1d3QTFWSzZhcE1lTXh6Q0E5Zm5zWWV6c3h3SUlFT2FMWGlhT0gtZ0tuT0V4TGc3ZzVDREtaLWpNbW1jc0JYN1V2bTRuMkV3WUJaTlNIZ2RjRWttNDFCX3RlWFVXTUwzeUZyem1FSnhyNnBDZ1JrTVVtdjFyaEltM19RTHBzWldPd2RRU0dWYkVjbU5vNjFVNEVGeHk2VlhoSW01OV93UDJPU1JvX0hYc3hGc3RHSjhkcV9qMmM0VHpGLVhJTl81ajYtVEdn?oc=5",
-     "source": "UOL Notícias",
-     "published_at": "2026-08-21T11:35:00+00:00"
     },
     {
      "title": "Analista aponta elo limitado entre diesel e soja - Agrolink",

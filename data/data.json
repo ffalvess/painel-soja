@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-21T16:24:54+00:00",
+ "generated_at": "2026-08-21T17:22:17+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-21T16:24:47+00:00",
+   "updated_at": "2026-08-21T17:22:09+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1236.5,
+     "price": 1238.0,
      "prev_close": 1220.75,
-     "change_pct": 1.29,
+     "change_pct": 1.41,
      "closes": [
       1219.5,
       1233.0,
@@ -35,16 +35,16 @@
       1200.75,
       1222.25,
       1220.75,
-      1236.5
+      1238.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 507.75,
+     "price": 506.5,
      "prev_close": 478.75,
-     "change_pct": 6.06,
+     "change_pct": 5.8,
      "closes": [
       452.75,
       462.0,
@@ -69,16 +69,16 @@
       463.25,
       473.0,
       478.75,
-      507.75
+      506.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 323.9,
+     "price": 325.1,
      "prev_close": 315.7,
-     "change_pct": 2.6,
+     "change_pct": 2.98,
      "closes": [
       326.7,
       331.6,
@@ -103,16 +103,16 @@
       313.0,
       318.9,
       315.7,
-      323.9
+      325.1
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 69.67,
+     "price": 69.51,
      "prev_close": 71.18,
-     "change_pct": -2.12,
+     "change_pct": -2.35,
      "closes": [
       74.3,
       75.48,
@@ -137,16 +137,16 @@
       69.69,
       69.86,
       71.18,
-      69.67
+      69.51
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 698.0,
+     "price": 697.0,
      "prev_close": 682.75,
-     "change_pct": 2.23,
+     "change_pct": 2.09,
      "closes": [
       678.0,
       705.75,
@@ -171,16 +171,16 @@
       664.5,
       680.25,
       682.75,
-      698.0
+      697.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 94.31,
+     "price": 94.63,
      "prev_close": 93.78,
-     "change_pct": 0.57,
+     "change_pct": 0.91,
      "closes": [
       91.01,
       94.07,
@@ -205,16 +205,16 @@
       91.02,
       91.62,
       93.78,
-      94.31
+      94.63
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 171554.77,
+     "price": 171080.69,
      "prev_close": 167927.0,
-     "change_pct": 2.16,
+     "change_pct": 1.88,
      "closes": [
       173326.0,
       177548.0,
@@ -239,7 +239,7 @@
       166335.0,
       167830.0,
       167927.0,
-      171554.7656
+      171080.6875
      ]
     }
    ],
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-21T16:24:48+00:00",
+   "updated_at": "2026-08-21T17:22:09+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-21T16:24:52+00:00",
+   "updated_at": "2026-08-21T17:22:14+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,38 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-21T16:24:54+00:00",
+   "updated_at": "2026-08-21T17:22:17+00:00",
    "items": [
+    {
+     "title": "Proibir exportação de gado vivo viola lógica de mercado",
+     "link": "https://www.canalrural.com.br/diversos/proibir-exportacao-de-gado-vivo-viola-logica-de-mercado/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T17:16:51+00:00"
+    },
+    {
+     "title": "Mato Grosso amplia exportações de carne bovina em julho",
+     "link": "https://www.canalrural.com.br/pecuaria/mato-grosso-amplia-exportacoes-de-carne-bovina-em-julho/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T16:52:59+00:00"
+    },
+    {
+     "title": "Frente fria avança em São Paulo e pode provocar temporais nesta sexta-feira",
+     "link": "https://www.canalrural.com.br/diversos/frente-fria-avanca-em-sao-paulo-e-pode-provocar-temporais-nesta-sexta-feira/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T16:19:45+00:00"
+    },
+    {
+     "title": "Soja tem alta \"expressiva\" no Brasil e atinge maior nível em mais de 3 anos, diz Cepea Por Reuters - Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNM1Q1dHA5OVNRY3lJRGlrZlViUm8weUlmb09teFYtQldBdENnUU9ibG5zRmZyeVp4bUNqRWE3S19Bb3NjcGMwazUwZlYzVThyYlR4NW5hZ24zX1laVnoyZ2dmT3lSNEtYaDA0S3dqVW9jcmhXM2JkYUpCdmh2OXZwRUhHVVVNZzZITS1PVGQwYkp5TC1UTUhtSnhGVzBmRlFvdEwxMU5yM09QOHBSUFI2M1lrZnljdnFlNTZYOW1PaldLT3dSM2o2OFV6eU1IZlFJQ2tXdg?oc=5",
+     "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+     "published_at": "2026-08-21T16:17:00+00:00"
+    },
+    {
+     "title": "Meirelles defende política fiscal mais forte que o atual arcabouço",
+     "link": "https://www.canalrural.com.br/economia/meirelles-defende-politica-fiscal-mais-forte-que-o-atual-arcabouco/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T16:12:34+00:00"
+    },
     {
      "title": "Lavoura de trigo no RS tem desenvolvimento regular, diz Emater",
      "link": "https://www.canalrural.com.br/agricultura/lavoura-de-trigo-no-rs-tem-desenvolvimento-regular-diz-emater/",
@@ -494,37 +524,7 @@
      "published_at": "2026-08-21T13:32:03+00:00"
     },
     {
-     "title": "ANP abre consulta sobre novo monitoramento da mistura obrigatória de biodiesel",
-     "link": "https://www.canalrural.com.br/politica/anp-abre-consulta-sobre-novo-monitoramento-da-mistura-obrigatoria-de-biodiesel/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T13:27:31+00:00"
-    },
-    {
-     "title": "Dólar cai ante o real e juros longos recuam com alívio externo",
-     "link": "https://www.canalrural.com.br/economia/dolar-cai-ante-o-real-e-juros-longos-recuam-com-alivio-externo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T13:23:03+00:00"
-    },
-    {
-     "title": "Durigan relaciona preocupação do BC com inflação à guerra e a fertilizantes",
-     "link": "https://www.canalrural.com.br/economia/durigan-relaciona-preocupacao-do-bc-com-inflacao-a-guerra-e-a-fertilizantes/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T13:11:35+00:00"
-    },
-    {
-     "title": "El Niño exige planejamento de pesca e aquicultura até março de 2027",
-     "link": "https://www.canalrural.com.br/diversos/el-nino-exige-planejamento-de-pesca-e-aquicultura-ate-marco-de-2027/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T13:04:26+00:00"
-    },
-    {
-     "title": "China acelera compra de soja dos EUA em julho, mas Brasil mantém hegemonia em 2026 - Agrimidia",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTDRNWmFqV3FtNjUtV1Y4eVMxbHVmRVNELUR2emlKTGNkLVdjeVJYLTlMeUQ2dzFwRFV0UlY0cGMyMVlJa0FJM05JaWMwdEJIdGl5amJKQWpzUkZqZWtSV1QzOVE1TVdFa2pmUnpIWjhSMVd2MnRPTWZfd0ZfWWo3SnFEQ2ZiWTNQckRjeU5RbVdEaUFFNTVadHUzTDhoNHl2UHY2UGp0YXF6Tzg1VXMxU045MzhjNWFvYXBWV0ZSWUpkZw?oc=5",
-     "source": "Agrimidia",
-     "published_at": "2026-08-21T12:26:26+00:00"
-    },
-    {
-     "title": "‘Operação salva-hambúrguer’: Trump determina cota extra de importação de carne e tentar baixar preços nos EUA",
+     "title": "‘Operação salva-hambúrguer’: Trump determina cota extra de importação de carne e tenta baixar preços nos EUA",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/trump-hamburguer-eua.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T12:04:25"

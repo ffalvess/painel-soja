@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-21T00:56:39+00:00",
+ "generated_at": "2026-08-21T02:21:49+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-21T00:56:32+00:00",
+   "updated_at": "2026-08-21T02:21:42+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1234.5,
+     "price": 1230.5,
      "prev_close": 1222.25,
-     "change_pct": 1.0,
+     "change_pct": 0.67,
      "closes": [
       1226.0,
       1219.5,
@@ -35,7 +35,7 @@
       1201.0,
       1200.75,
       1222.25,
-      1234.5
+      1230.5
      ]
     },
     {
@@ -76,9 +76,9 @@
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 322.6,
+     "price": 322.2,
      "prev_close": 318.9,
-     "change_pct": 1.16,
+     "change_pct": 1.03,
      "closes": [
       323.5,
       326.7,
@@ -103,16 +103,16 @@
       312.1,
       313.0,
       318.9,
-      322.6
+      322.2
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.95,
+     "price": 71.09,
      "prev_close": 69.86,
-     "change_pct": 1.56,
+     "change_pct": 1.76,
      "closes": [
       74.68,
       74.3,
@@ -137,16 +137,16 @@
       71.44,
       69.69,
       69.86,
-      70.95
+      71.09
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 699.0,
+     "price": 701.25,
      "prev_close": 680.25,
-     "change_pct": 2.76,
+     "change_pct": 3.09,
      "closes": [
       674.0,
       678.0,
@@ -171,16 +171,16 @@
       674.75,
       664.5,
       680.25,
-      699.0
+      701.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.36,
+     "price": 93.79,
      "prev_close": 91.62,
-     "change_pct": 1.9,
+     "change_pct": 2.37,
      "closes": [
       89.22,
       91.01,
@@ -205,7 +205,7 @@
       90.87,
       91.02,
       91.62,
-      93.36
+      93.79
      ]
     },
     {
@@ -213,8 +213,8 @@
      "name": "Ibovespa",
      "unit": "pontos",
      "price": 167927.16,
-     "prev_close": 167927.0,
-     "change_pct": 0.0,
+     "prev_close": 167830.0,
+     "change_pct": 0.06,
      "closes": [
       173371.0,
       176724.0,
@@ -236,7 +236,6 @@
       166784.0,
       166335.0,
       167830.0,
-      167927.0,
       167927.1562
      ]
     }
@@ -245,7 +244,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-21T00:56:33+00:00",
+   "updated_at": "2026-08-21T02:21:42+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -256,7 +255,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-21T00:56:36+00:00",
+   "updated_at": "2026-08-21T02:21:46+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -417,7 +416,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-21T00:56:39+00:00",
+   "updated_at": "2026-08-21T02:21:49+00:00",
    "items": [
     {
      "title": "Clima ajuda na colheita do café, mas expectativa é de produção menor",
@@ -492,6 +491,12 @@
      "published_at": "2026-08-20T22:13:00+00:00"
     },
     {
+     "title": "Izalci Lucas critica moratória da soja em meio a conflito legal - Jornal de Brasília",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdjRVT0kwdjhrbHUxbTBINDY2UWdRZ3pQZjAzOHplT0NDc0U3MTZhTVlxZ1dnb3pNZm9IRTl1WEp0NGtnZTFOSEJQeHZ6V0p0d3JnUDV6LTdBcjRJNDllaEtmLUtkR0Y2STMxXzlMdFVqZU51THFHOENMZ1dfaXhuMFdOcnVjNUVtdGFSeU9QM1ZSSEsxZ19iSkhENUtqX2IyZllVcXZsaGdzaFRhbDhpNnJLUUc?oc=5",
+     "source": "Jornal de Brasília",
+     "published_at": "2026-08-20T22:05:03+00:00"
+    },
+    {
      "title": "Safra recorde de soja em MT pode encher 1 milhão de caminhões e formar fila que daria 7 voltas no Brasil - G1",
      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQYVNtSmNsa09oSVBlWmxmc1k1TElYdndmV3lUQkNJVWtocEo2MkstaHRoS3c5QnFQSG56VkFjb3BhaldacXoybF9aSDVZQ0lZS0stb3l4cndNX05pVXlxV01QSERua09IblJERWpHRzZNc1RBeEdLVzJQZjVnVjA2LWN6N2xuV2tITGJKM1RTQ3dSbkJJQVRFTnVIakdqVngxUVRENXIxXy1uU2ZhcVRFZ1drdWk4WmpQUGJ3UDFVNmVCbjdqeWdab01yanA5OV9oNzhheXdFSTVrcjhBR2lRNXZoNTFzaldkMWl5Wk5YUHZoRTlua3FZc9IBhwJBVV95cUxQZ1dFa1dLY09sVnpva1RORlRWYzJjOTFncUlaRWJMdHhpU21XTVcxZ3dPRXpJQmlqSHZXYnJJTDZtQksweS1PbjBOZW9yQk5XNUtSWHNyZUMzemlVdC1qZmtPZ2lZTWtCdm53OEF1SXBLZUpHSEh1M0MwRU1zeDVoMzdCbHo3aXVxQUtncVBRMlFqQ3BuMmhNVHFPaTZJbkI4X0ctVmRsV2VOb0NVaVQyWlB1dzMzc0xfZGtWSTVlWGtxVDJpS2xnMVZBeGt6MVlYLW5CWTIzLXhORjdjc0J0QS1scE9DSEVCQl94Tk9GMlduNjRab1c5dlVMWDhPZUhXQko1Y0VFaw?oc=5",
      "source": "G1",
@@ -538,12 +543,6 @@
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOemJsSU4tN1gyYnRzb0RTeW5ldUhTUzZINk83bjZWbmloWkdDbjlhaF9Rck5nTzliR3ExdzRHb3N0cTFYZll6a3VLNGpfcnM3dUQ4c2ZXNGFlMVN0Smd5aEZCeHFtNW9PVTNYdXIzN0NDeEV2d0d2U2ZVRkNJY1F3STNCNWtIOGNIQTZCRFVOMTlhd1FjLUFYSFdKdm1DX2g3QXpVTTJCcGdFeXZyX0pzVTdWNjNPUFpUV2c?oc=5",
      "source": "AgFeed",
      "published_at": "2026-08-20T13:00:00+00:00"
-    },
-    {
-     "title": "Soja ou floresta em pé? Projeto de carbono testa valor da conservação na Amazônia - Bloomberg Línea Brasil",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWG9ENjBWc2h1NHdneWtqUXAzOVZ0bXdCOFI1aEtpTUFnVmhoWmY4MXF4eVZ3S3FfUHRzWHdDWFB6d1RPWGtCREpueXVVSm4wc0RkQXlTcUFmWjA0NWxBdGNUMjNKd3VMMlJfT1pUdlVZTkFwbnhsR2NYUjJ6Q2VyRm5aVHNKSmVOLXp2YmlhWGxQOG1lWUx5eXRfaHp5X0FvM0EtcjRHWHJiTE1JcnJKc1RkcUJCendJNGp6bNIB0AFBVV95cUxOUUVNVktKN29GMHZWalI5RExaYkNwQmFWRDh6ejZvVTYxUHJlcURTcnhXdEQ2X1duak5KMktrWXVpeVhMV0Z3TE5yWXdOVkFJWWlLTlRNME9pd3phT2x3M3hDX0lnTkxuYXhvMG16SzNGNzFwWVNHX1Y0aFdrd0R3SlB1eURnVldZZVpWQTBocGtmbUNJN3Rmb0lINDA3MUdnMVdKcEhLRWNXNmRCTm1CSDY5eU5PLUV1YmtObnhYS2M3TVFiQWlhNmU4MF9HbEE4?oc=5",
-     "source": "Bloomberg Línea Brasil",
-     "published_at": "2026-08-20T12:21:29+00:00"
     },
     {
      "title": "Variação do preço do milho e da soja desde 2025 e 2026, em agosto - Farmnews",

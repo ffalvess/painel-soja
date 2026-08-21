@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-21T22:17:09+00:00",
+ "generated_at": "2026-08-21T23:17:24+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-21T22:17:03+00:00",
+   "updated_at": "2026-08-21T23:17:15+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-21T22:17:03+00:00",
+   "updated_at": "2026-08-21T23:17:16+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-21T22:17:07+00:00",
+   "updated_at": "2026-08-21T23:17:19+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-21T22:17:09+00:00",
+   "updated_at": "2026-08-21T23:17:24+00:00",
    "items": [
+    {
+     "title": "Boi gordo: veja como os preços terminaram a semana em dia de anúncio de Trump",
+     "link": "https://www.canalrural.com.br/pecuaria/boi-gordo-veja-como-os-precos-terminaram-a-semana-em-dia-de-anuncio-de-trump/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T22:21:31+00:00"
+    },
     {
      "title": "ANP aprova reestruturação interna com implementação entre setembro e novembro",
      "link": "https://www.canalrural.com.br/politica/anp-aprova-reestruturacao-interna-com-implementacao-entre-setembro-e-novembro/",
@@ -438,6 +444,12 @@
      "link": "https://g1.globo.com/sp/piracicaba-regiao/noticia/2026/08/21/preco-do-suino-cai-para-o-3o-menor-patamar-da-historia-em-sp-sobreoferta-e-baixa-demanda-analisa-usp.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T21:37:35"
+    },
+    {
+     "title": "Mercado da soja encerra semana com preços firmes e demanda chinesa em destaque - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY1Q1R2E4UGVidkRvMW92RXZleWJIYVVXNjJhcjItVWZkeGl3YWZZZ1I3V2RpcHFjU1lBVU51SVkyTGZjdTZEaGN6ekJOSGh1Ykl0RGlVcmpqRG1rRlhEY093aG1fbTdIN2hxS29KczBhaVBDTkx3NllwYVNucmRsQ1dhZjZpNUhkMHFDQ3hjRGVvRGVZWnkxTTdCd2dDUE9KeEZYZUxNN21JR19CNzhmYWIyTlZTZjVtZzFzRlpfUDVUVjZB?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T21:30:12+00:00"
     },
     {
      "title": "Mercado da soja encerra semana com preços firmes e demanda chinesa em destaque",
@@ -486,12 +498,6 @@
      "link": "https://www.canalrural.com.br/videos/clima-desafiador-exige-atencao-redobrada-no-manejo-de-cana-de-acucar/",
      "source": "Canal Rural",
      "published_at": "2026-08-21T20:05:37+00:00"
-    },
-    {
-     "title": "Produtores de Mato Grosso entregam carta com reivindicações aos candidatos ao governo",
-     "link": "https://www.canalrural.com.br/videos/produtores-de-mato-grosso-entregam-carta-com-reivindicacoes-aos-candidatos-ao-governo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T20:05:26+00:00"
     },
     {
      "title": "Expedição indica produção maior de soja nos EUA e queda para o milho - Globo Rural",
@@ -548,22 +554,16 @@
      "published_at": "2026-08-21T17:17:48+00:00"
     },
     {
+     "title": "Startup criada em Mato Grosso acelera melhoramento genético da soja - safras.com.br",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdzZ3YUpQcWdiQWQ5a1RRZlRNaGtMUWdRQVBGNDVHb2xYRzVRLW5UbjhVajFTTUVFOWRDNnJFT2ZHdXNMX29aemFNdU9JX1lHNGZmZ2NNZThrTVUzSmZxeUhyVFRhTzZJeEtyTjE3ZFNuQ252MlFhSjllN2NtcGFodUJ4Sll6aUt1Y0xOaTF6cW5pQ0JK?oc=5",
+     "source": "safras.com.br",
+     "published_at": "2026-08-21T17:14:48+00:00"
+    },
+    {
      "title": "Aprenda a montar uma horta em casa",
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/21/aprenda-a-montar-uma-horta-em-casa.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T15:27:36"
-    },
-    {
-     "title": "USDA: exportadores dos EUA relatam vendas de milho e soja - UOL Notícias",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbWFWZzFVVERJMnQ4ZDZOYXkyaER2eXZoM3JTZTA1RF9PTjl2d3l1VnFTZTZ2QnBvSFpBdC1GdWliLWlNa3ppLU9VYzBBM0hvRVhTZy1wMk9vYi1oNWNKVGxCZUFNZjY1YWNhOThWaDhYRXNmS0Zub0tnMGN4VE5zTW82LTRham9nY24xd1o2TnplY09hcTJGTGJXbWhySTdFSDJqTlBhNWdnWW9BdDYyeUFRUXNaVWg3cHc0R25rQ1pObi01QUJEUkJQOA?oc=5",
-     "source": "UOL Notícias",
-     "published_at": "2026-08-21T15:15:00+00:00"
-    },
-    {
-     "title": "Área de soja no Brasil deve ter em 2026/27 a menor expansão em 20 anos, diz Datagro - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdXJ0Z2xFMXIydTJGMEMxLXRPd0s1TnlaeGU4YWNGbnBfQXY1TDlyT0lrblRpUWNGNXlmVndkR1JaNk9CNTF2SThPRFpsX24yOUJoeWVOX0c0M2VtS1lmTnRPdmFqUDhiYXhMNll1U1l3SDJRNnlVUm5lSEdsQWNVOVEyaEJaWlVKUmg4aHFfWnJRb3dINDM1aEoweUdFd09DNVNTLUI0VEJFQ1hZODEyNmJoeFljSFZ3SGdqLXZTdXJWUjA?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T14:58:03+00:00"
     },
     {
      "title": "‘Operação salva-hambúrguer’: Trump determina cota extra de importação de carne e tenta baixar preços nos EUA",

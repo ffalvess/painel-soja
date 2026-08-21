@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-21T17:22:17+00:00",
+ "generated_at": "2026-08-21T18:27:25+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-21T17:22:09+00:00",
+   "updated_at": "2026-08-21T18:27:16+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1238.0,
+     "price": 1239.75,
      "prev_close": 1220.75,
-     "change_pct": 1.41,
+     "change_pct": 1.56,
      "closes": [
       1219.5,
       1233.0,
@@ -35,16 +35,16 @@
       1200.75,
       1222.25,
       1220.75,
-      1238.0
+      1239.75
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 506.5,
+     "price": 508.5,
      "prev_close": 478.75,
-     "change_pct": 5.8,
+     "change_pct": 6.21,
      "closes": [
       452.75,
       462.0,
@@ -69,16 +69,16 @@
       463.25,
       473.0,
       478.75,
-      506.5
+      508.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 325.1,
+     "price": 325.9,
      "prev_close": 315.7,
-     "change_pct": 2.98,
+     "change_pct": 3.23,
      "closes": [
       326.7,
       331.6,
@@ -103,16 +103,16 @@
       313.0,
       318.9,
       315.7,
-      325.1
+      325.9
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 69.51,
+     "price": 69.59,
      "prev_close": 71.18,
-     "change_pct": -2.35,
+     "change_pct": -2.23,
      "closes": [
       74.3,
       75.48,
@@ -137,16 +137,16 @@
       69.69,
       69.86,
       71.18,
-      69.51
+      69.59
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 697.0,
+     "price": 699.75,
      "prev_close": 682.75,
-     "change_pct": 2.09,
+     "change_pct": 2.49,
      "closes": [
       678.0,
       705.75,
@@ -171,16 +171,16 @@
       664.5,
       680.25,
       682.75,
-      697.0
+      699.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 94.63,
+     "price": 94.44,
      "prev_close": 93.78,
-     "change_pct": 0.91,
+     "change_pct": 0.7,
      "closes": [
       91.01,
       94.07,
@@ -205,16 +205,16 @@
       91.02,
       91.62,
       93.78,
-      94.63
+      94.44
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 171080.69,
+     "price": 171398.84,
      "prev_close": 167927.0,
-     "change_pct": 1.88,
+     "change_pct": 2.07,
      "closes": [
       173326.0,
       177548.0,
@@ -239,7 +239,7 @@
       166335.0,
       167830.0,
       167927.0,
-      171080.6875
+      171398.8438
      ]
     }
    ],
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-21T17:22:09+00:00",
+   "updated_at": "2026-08-21T18:27:16+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-21T17:22:14+00:00",
+   "updated_at": "2026-08-21T18:27:22+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,13 +419,43 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-21T17:22:17+00:00",
+   "updated_at": "2026-08-21T18:27:25+00:00",
    "items": [
+    {
+     "title": "J&F, de Wesley e Joesley Batista, compra fabricante de armas de guerra Avibras",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/jandf-de-wesley-e-joesley-batista-compra-fabricante-de-armas-de-guerra-avibras.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-21T18:20:50"
+    },
+    {
+     "title": "Sementes certificadas ganham peso nas decisões para a safra de soja 2026/27 - O Presente Rural",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa2RubUNlRWpya3ZEZnBRejlOQlZsWXZzUnVjd2ZhZWVQbHFHYlNTUTNtZXIxazZEdTlaZms4OTQyLW53SC13OE1YUG1NZUpGVTJmUmVORFc1X2Vob01YbHVkSjQ3V3g0QU9GcWRYRTVod2NIY0RrWGs4Q2hJU25TNE5kWTNuSUdGTXpONExESlpBRVQzYlh1b1pvQnVfelVXcU94ZkcyaWY0UQ?oc=5",
+     "source": "O Presente Rural",
+     "published_at": "2026-08-21T17:34:18+00:00"
+    },
+    {
+     "title": "Adiamento de concessão de hidrovias no Norte pode levar 22 mil caminhões por ano às rodovias",
+     "link": "https://www.canalrural.com.br/economia/adiamento-de-concessao-de-hidrovias-no-norte-pode-levar-22-mil-caminhoes-por-ano-as-rodovias/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T17:32:13+00:00"
+    },
+    {
+     "title": "Um novo passo para o crescimento da soja e derivados - The AgriBiz",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ3JldGNpbm1NemNNXzI0eHBEOUJmY0Q1aVRHSlcwRXBxNHpTWF9KZktKLWtjUFE3WU1OV3A2Ri1GS280NElDaVJVbmlUbFk1V0xBWXdZUnB1djdWdUE3QUxUcGs3bjhQb3hSaURObmxEVzJVazJvNEktZ0xkNUEtMF9HY3g4SFItTGFLLThtTFFmM2Q0Um80?oc=5",
+     "source": "The AgriBiz",
+     "published_at": "2026-08-21T17:24:34+00:00"
+    },
     {
      "title": "Proibir exportação de gado vivo viola lógica de mercado",
      "link": "https://www.canalrural.com.br/diversos/proibir-exportacao-de-gado-vivo-viola-logica-de-mercado/",
      "source": "Canal Rural",
      "published_at": "2026-08-21T17:16:51+00:00"
+    },
+    {
+     "title": "Soja sobe em Chicago e no Brasil com preocupação sobre potencial produtivo nos EUA - safras.com.br",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV1FzRDFDV3hqU3pZVGlKS0U0bzlCbVkyeUhoV3EySE92dDBtM05aSkNRRURvYzd5a1EyTVVNYVhhZnRKdWY5alpQUmhlYzh4TkRUQkpzNHAyNVpRbWtEUmZEX0QxRjhodWdNVzczcnV1ZFZGaHRZU2JBak9hdWdicGs1WlFGZmFteHNyTUdRbERMeEdTMTJvdVlfSlIyaXFaU0FtdWtlNFI?oc=5",
+     "source": "safras.com.br",
+     "published_at": "2026-08-21T17:14:48+00:00"
     },
     {
      "title": "Mato Grosso amplia exportações de carne bovina em julho",
@@ -464,12 +494,6 @@
      "published_at": "2026-08-21T15:27:36"
     },
     {
-     "title": "USDA registra venda de 1,43 milhão de toneladas de soja e 205 mil toneladas de milho - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUXFvM3pCOWp5aGJKQVRWbEl3Z2FuMzV0bjR3MThVc2htOFE1R2pzN2xBeGY3WDluNzFtTlM3S0JzckdPTlo2TFRkOFFES2M5UkFrV2U0Rkxrd01NeVZOMW5ybmZ5SV9lN0NBeDVzSzVjRWRhSE9GM09US3gwX0tmRDRrd2dYWnVVS0xJNVBVb1BXYUlTTGNjMlRJazlDYVg1bWNZR3Z0NktUc2xlYWpNSGprVDJVV0p2RFU5MUdTeGc?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T15:23:05+00:00"
-    },
-    {
      "title": "USDA registra venda de 1,43 milhão de toneladas de soja e 205 mil toneladas de milho",
      "link": "https://www.canalrural.com.br/economia/usda-registra-venda-de-143-milhao-de-toneladas-de-soja-e-205-mil-toneladas-de-milho/",
      "source": "Canal Rural",
@@ -480,6 +504,12 @@
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbWFWZzFVVERJMnQ4ZDZOYXkyaER2eXZoM3JTZTA1RF9PTjl2d3l1VnFTZTZ2QnBvSFpBdC1GdWliLWlNa3ppLU9VYzBBM0hvRVhTZy1wMk9vYi1oNWNKVGxCZUFNZjY1YWNhOThWaDhYRXNmS0Zub0tnMGN4VE5zTW82LTRham9nY24xd1o2TnplY09hcTJGTGJXbWhySTdFSDJqTlBhNWdnWW9BdDYyeUFRUXNaVWg3cHc0R25rQ1pObi01QUJEUkJQOA?oc=5",
      "source": "UOL Notícias",
      "published_at": "2026-08-21T15:15:00+00:00"
+    },
+    {
+     "title": "Área de soja no Brasil deve ter em 2026/27 a menor expansão em 20 anos, diz Datagro - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdXJ0Z2xFMXIydTJGMEMxLXRPd0s1TnlaeGU4YWNGbnBfQXY1TDlyT0lrblRpUWNGNXlmVndkR1JaNk9CNTF2SThPRFpsX24yOUJoeWVOX0c0M2VtS1lmTnRPdmFqUDhiYXhMNll1U1l3SDJRNnlVUm5lSEdsQWNVOVEyaEJaWlVKUmg4aHFfWnJRb3dINDM1aEoweUdFd09DNVNTLUI0VEJFQ1hZODEyNmJoeFljSFZ3SGdqLXZTdXJWUjA?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T14:58:03+00:00"
     },
     {
      "title": "Área de soja no Brasil deve ter em 2026/27 a menor expansão em 20 anos, diz Datagro",
@@ -500,22 +530,10 @@
      "published_at": "2026-08-21T14:01:40+00:00"
     },
     {
-     "title": "Frango cai, milho e farelo sobem e apertam margem do avicultor",
-     "link": "https://www.canalrural.com.br/aves-e-suinos/frango-cai-milho-e-farelo-sobem-e-apertam-margem-do-avicultor/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T13:54:15+00:00"
-    },
-    {
      "title": "Soja e algodão ensaiam uma virada — e o BTG vê uma empresa pronta para ganhar - Exame",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSGJKSmpGeHFiRHl5cklfUDN2MVlCMUd3WHptVGRpTHNrSFB0YzlPVjlqaFJCT3l0emgxNHdJSVVQclBkczdfSGlFeHE4eFFjd2M5UHJYZ2FaVXpIZ1lSRTlwWS1MVEt0S3k1Z0wtR3NueFVWUExFczNCbkFTN2p0cTZrS3R3c3d3UzFDQjY4YWNUU3NTQk9sNkpIMG84NlNX?oc=5",
      "source": "Exame",
      "published_at": "2026-08-21T13:43:53+00:00"
-    },
-    {
-     "title": "Preço dos derivados de soja sobe no Brasil em agosto - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOV2JsQlo3VHZaQ0VQSUpMa3oyVkZDRXBsWmNKZ2xmenZIRTNQRmd0WlVIbXFFSlZ4el9FNWNZWjkxcFFNYkVtdS1kdjU2VmNxVlhucXAyTVl1NDBpQmtjbHlVRUVEcm45cjJZalphQnJfWkUwUjRMREVPaXRYc0RQblBJOE0zMHloRXRR?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-08-21T13:33:39+00:00"
     },
     {
      "title": "Milho avança na colheita enquanto soja e sorgo ampliam produção - Feed&Food",
@@ -528,12 +546,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/trump-hamburguer-eua.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T12:04:25"
-    },
-    {
-     "title": "Abiove eleva exportação de farelo de soja e reduz produção em 2026 - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcUw2V1VVdW5LVmRhQzl4MFpGTzIzd2xoZHhjNkdsbUpNd2xtUmUtb1A2eWNXMjN5N25EbkpZdGJDVFZrdHo0RHR2bm1hQ1hQMWZ2NXY3TzFKc2RsLUFvNUJTUzBpR1NoczdPQVFtZk5sZ3NEMllNMXp1ZFZMWXhjZlBoaXY1cnV4bUl4NlRidUc1WG5LOWM2S2N0MTVnMGtIOVgwWWE3d2pfUQ?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T11:42:42+00:00"
     },
     {
      "title": "Analista aponta elo limitado entre diesel e soja - Agrolink",
@@ -558,12 +570,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/alimentos-editados-geneticamente.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T05:00:18"
-    },
-    {
-     "title": "Safra de soja do Brasil pode cair \"um pouco\" com El Niño, diz executivo - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aV0s3NjN0WnhzWFpodjFHdmxFRGl2WE9aeGU0YXZfekpFeUlSOUhqT3l2aFBYNmI3RDJzZjJma1RNODJZMnFlY0g3ckJhRVNXaTlQM1BtLU9EcE5HRkdVVEZkOA?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-08-20T22:47:06+00:00"
     },
     {
      "title": "Senadores criticam STF por validar pacto que pune produtores de soja — Rádio Senado - Senado Federal",
@@ -594,12 +600,6 @@
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/16/peao-de-orindiuva-viaja-10-mil-km-para-divulgar-cultura-caipira.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-16T10:30:12"
-    },
-    {
-     "title": "Curral eclético: vacas escutam de forró a música clássica e produzem mais leite em fazenda no ES; veja VÍDEO",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/16/curral-ecletico-vacas-escutam-de-forro-a-musica-classica-e-produzem-mais-leite-em-fazenda-no-es-veja-video.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-16T07:01:18"
     }
    ],
    "failed": [

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-21T21:17:42+00:00",
+ "generated_at": "2026-08-21T22:17:09+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-21T21:17:35+00:00",
+   "updated_at": "2026-08-21T22:17:03+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-21T21:17:35+00:00",
+   "updated_at": "2026-08-21T22:17:03+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-21T21:17:39+00:00",
+   "updated_at": "2026-08-21T22:17:07+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,32 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-21T21:17:42+00:00",
+   "updated_at": "2026-08-21T22:17:09+00:00",
    "items": [
+    {
+     "title": "ANP aprova reestruturação interna com implementação entre setembro e novembro",
+     "link": "https://www.canalrural.com.br/politica/anp-aprova-reestruturacao-interna-com-implementacao-entre-setembro-e-novembro/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T22:02:44+00:00"
+    },
+    {
+     "title": "Da semente à mente, com o agro não se mente",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/da-semente-a-mente-com-o-agro-nao-se-mente/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T21:40:47+00:00"
+    },
+    {
+     "title": "Preço do suíno cai para o 3º menor patamar da história em SP: 'sobreoferta e baixa demanda', analisa USP",
+     "link": "https://g1.globo.com/sp/piracicaba-regiao/noticia/2026/08/21/preco-do-suino-cai-para-o-3o-menor-patamar-da-historia-em-sp-sobreoferta-e-baixa-demanda-analisa-usp.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-21T21:37:35"
+    },
+    {
+     "title": "Mercado da soja encerra semana com preços firmes e demanda chinesa em destaque",
+     "link": "https://www.canalrural.com.br/agricultura/soja/mercado-da-soja-encerra-semana-com-precos-firmes-e-demanda-chinesa-em-destaque/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T21:30:12+00:00"
+    },
     {
      "title": "O que diferencia os profissionais mais preparados no mercado de commodities agrícolas",
      "link": "https://www.canalrural.com.br/cotacao/o-que-diferencia-os-profissionais-mais-preparados-no-mercado-de-commodities-agricolas/",
@@ -470,22 +494,10 @@
      "published_at": "2026-08-21T20:05:26+00:00"
     },
     {
-     "title": "EUA ampliam importação de carne bovina e abrem oportunidades ao Brasil",
-     "link": "https://www.canalrural.com.br/videos/eua-ampliam-importacao-de-carne-bovina-e-abrem-oportunidades-ao-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T20:05:12+00:00"
-    },
-    {
      "title": "Expedição indica produção maior de soja nos EUA e queda para o milho - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWUpXektNQzNjdWJIcm00Zl9YVzhkazhpYjlSOUxPam1uN2tpUVNXakQ1U0VMSjd5X0xpNXZDWW00SHdJd1JyVFlJLUEyYmtuNHN2UmpkT0RKaDdFcEhyTlEzdnN3UklaMjE2Zi1ZaUR6bFlod2ZXTmNLdlpxemU0c2NFUHB5LW00c0h2bXFIdFc2N0h6UE1DVjRMRXFadk5OdHdnMlNuY21UYkhSN2o0TzJGWF9HWHhyODBZRHpmV2NQX1daaXN5T1Nra9IB2gFBVV95cUxNNkhDaTdmQ1Iyb2FYaFZ6bjZieVIxNTY1cFkxOWtqczk5bGdsRTE3N0cwaEFzdTg3QUw3NmZ4TmJzNWpaUTdwWkxsUU5EQVJmRTdsY3VmZktrYW1HUkpYMUlobUlVRnE1akVydGxUZmFwb0Q5blhLVU9HTWZrTk1oQ3RGSVZtV2NOWi0yTlA0MEFYSXdsUV8wVmV3WmhWZW5LZHNFMUg2dDcxRHdBZmpaTW42ZWM4WDhJalpjRlFvN2ROb3ZXMTh4QjlJcXh5QXlVNjVXMlJwaXhvZw?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-08-21T20:03:14+00:00"
-    },
-    {
-     "title": "Petróleo fecha em alta e acumula avanço de cerca de 6% na semana",
-     "link": "https://www.canalrural.com.br/economia/petroleo-fecha-em-alta-e-acumula-avanco-de-cerca-de-6-na-semana/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T20:01:59+00:00"
     },
     {
      "title": "Vendas para a China e safra americana impulsionam preços da soja em Chicago - CNN Brasil",
@@ -498,12 +510,6 @@
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObmQxLXc1SlFUamNaREtoRGF2MVZ3Rm5yRU1MQl9HOGVZc3lxNzNEWE1Wa0xIQVFXLXhwWnBNQXhmXzBPZEpHbXdsQmt5RUZzdHRJVTN0Mjh6SlVYZU80Y0VBR0lpak9veGQtWWZEZGljV2R2SU5EaTNKeUZnMlhMdm43aXh3SVBNUmFsdTVfbmJiSlhlOGNtd21WWmNUX1ZoODNsVzIyRlctQVZ1dHhuMjJVYXZhRkF6dDdMUWU3RkNrRl9hMnRz0gHWAUFVX3lxTE9OZkREMXFOXy04UTN2M2xGMGdQa2Fib1psbXFleDNOQ3lmSDhCT1NxVGY1ckloWmtDX2w3dTRWeElmTTM3WlhTUHBVVXU4VU5mUXZKVzFVMlQ2VTBwdU1JeU1oWEs5NWd6OEdRRktVSHFIUFZ4MEtsY09GNndxd3lHZEw2cnhVQ0RfVFY5NHVZUjVBY2t1ZzNYUmFjdVRNYUI3eWJZNlRBZUQzTDBPY0pDdnZpQldEdzZXbWhTSUdRWVJmUm16VXFKZ3d6WmhBU0JkWERpVGc?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-08-21T19:57:09+00:00"
-    },
-    {
-     "title": "André de Paula participa de lançamento da Revista Folha Energia em Recife",
-     "link": "https://www.canalrural.com.br/politica/andre-de-paula-participa-de-lancamento-da-revista-folha-energia-em-recife/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T19:52:42+00:00"
     },
     {
      "title": "MT registra novo recorde no esmagamento de soja - Revista Cultivar",
@@ -594,12 +600,6 @@
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/16/mosca-de-estabulo-avanca-no-inverno-e-causa-prejuizo-a-pecuaristas-no-interior-de-sp.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-16T10:30:13"
-    },
-    {
-     "title": "Peão de Orindiúva viaja 10 mil km para divulgar cultura caipira",
-     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/16/peao-de-orindiuva-viaja-10-mil-km-para-divulgar-cultura-caipira.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-16T10:30:12"
     }
    ],
    "failed": [

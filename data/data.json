@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-21T10:23:17+00:00",
+ "generated_at": "2026-08-21T11:19:41+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-21T10:23:09+00:00",
+   "updated_at": "2026-08-21T11:19:32+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1231.0,
+     "price": 1232.5,
      "prev_close": 1220.75,
-     "change_pct": 0.84,
+     "change_pct": 0.96,
      "closes": [
       1219.5,
       1233.0,
@@ -35,16 +35,16 @@
       1200.75,
       1222.25,
       1220.75,
-      1231.0
+      1232.5
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 502.0,
+     "price": 502.5,
      "prev_close": 478.75,
-     "change_pct": 4.86,
+     "change_pct": 4.96,
      "closes": [
       452.75,
       462.0,
@@ -69,16 +69,16 @@
       463.25,
       473.0,
       478.75,
-      502.0
+      502.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 321.5,
+     "price": 322.1,
      "prev_close": 315.7,
-     "change_pct": 1.84,
+     "change_pct": 2.03,
      "closes": [
       326.7,
       331.6,
@@ -103,7 +103,7 @@
       313.0,
       318.9,
       315.7,
-      321.5
+      322.1
      ]
     },
     {
@@ -144,9 +144,9 @@
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 698.75,
+     "price": 697.25,
      "prev_close": 682.75,
-     "change_pct": 2.34,
+     "change_pct": 2.12,
      "closes": [
       678.0,
       705.75,
@@ -171,16 +171,16 @@
       664.5,
       680.25,
       682.75,
-      698.75
+      697.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 94.29,
+     "price": 94.05,
      "prev_close": 93.78,
-     "change_pct": 0.54,
+     "change_pct": 0.29,
      "closes": [
       91.01,
       94.07,
@@ -205,7 +205,7 @@
       91.02,
       91.62,
       93.78,
-      94.29
+      94.05
      ]
     },
     {
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-21T10:23:09+00:00",
+   "updated_at": "2026-08-21T11:19:32+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-21T10:23:14+00:00",
+   "updated_at": "2026-08-21T11:19:37+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,19 +419,43 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-21T10:23:17+00:00",
+   "updated_at": "2026-08-21T11:19:41+00:00",
    "items": [
+    {
+     "title": "Preço do bezerro dispara quase 10% em 2026 e supera alta do boi gordo",
+     "link": "https://www.canalrural.com.br/pecuaria/preco-do-bezerro-dispara-quase-10-em-2026-e-supera-alta-do-boi-gordo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T10:53:49+00:00"
+    },
+    {
+     "title": "Estudo na Mongólia testa fungos para recuperar pastagens degradadas",
+     "link": "https://www.canalrural.com.br/agricultura/estudo-na-mongolia-testa-fungos-para-recuperar-pastagens-degradadas/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T10:52:47+00:00"
+    },
+    {
+     "title": "Analista aponta elo limitado entre diesel e soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOekpFbXNaZy1SUUc0anNMd1A4MXNPYldwLWloTWtHNE0zUUhQZlRFbWVDbVJvZDVseWRxQ3RidTlnd3pMdV9XaXRKUHlIY1hmT0VxWVBjc0xoR1ZXZ2NTNTBFWGJyeHRBZzFhNURycFhOb3psMlczeDE2TzAxR2NGcWxFOTlkaGF5cUJpalpDaXZ3M3I3OHFEbmRNRy0zdw?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-21T10:48:00+00:00"
+    },
+    {
+     "title": "Frente fria derruba temperaturas e traz risco de geada no fim de semana; veja a previsão",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/frente-fria-derruba-temperaturas-e-traz-risco-de-geada-no-fim-de-semana-veja-a-previsao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T10:33:27+00:00"
+    },
+    {
+     "title": "Soja recua em Chicago nesta 6ª feira (21) com realização de lucros, após semana de sequência de altas - TradingView",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vVC1UNnRZc2FKbzBXajJJOXpQZmFadDdiRUMza0Vhc3dTNlJ5Nkg0cmNtb3ZkRU1YT1c5NG5QWHZHUWZPSjhHcUxUcHlpYU5KM0UzTVRKcDBBZHFxRTFPbHU2Q2pLQ2JLYW9ScWNQVGFITWhX?oc=5",
+     "source": "TradingView",
+     "published_at": "2026-08-21T10:30:08+00:00"
+    },
     {
      "title": "Mortalidade em granjas cai quase 80% após controle de ácaros e piolhos, diz estudo",
      "link": "https://www.canalrural.com.br/aves-e-suinos/mortalidade-em-granjas-cai-quase-80-apos-controle-de-acaros-e-piolhos-diz-estudo/",
      "source": "Canal Rural",
      "published_at": "2026-08-21T10:00:00+00:00"
-    },
-    {
-     "title": "Consultoria aponta alta da soja em várias praças - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS1hLSGdINVFHdTFOUkZKaE5rY3JoNlFHV3l3Yk5tLWhjbUpYU3FNV1ZzTXRKV3I5eFFvZUc5cWE4OGVBbUxiNWlVTmhMSVp4cW13QXpZZGptRzAwSjlMV3FnM3RHNVlONnMzS1JGeHV2cTZ0aDVhYkE1LUE3NUItRUpFNjRvUl9WUWE1VVlyYlpYVVd4Vk5GM3gwcVlFUQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-21T09:36:00+00:00"
     },
     {
      "title": "Preço da soja tem nova alta e já se aproxima de R$ 155 - Globo Rural",
@@ -470,12 +494,6 @@
      "published_at": "2026-08-21T05:00:18"
     },
     {
-     "title": "MS exporta mais farelo de soja e derivados de milho em 2026 - Campo Grande News",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVTk0RkxWQVlZNTBfcVFJN0NCWmRLUTlkbmQ0NHZJanYtYnpEVEdER2liY3NfNXF5MEQ4eU5RNUxxZ1hqSUFjWTJYUkRVOWJ0bXRrSVlyVmFMWTZLVEZfTFRfbDU0aVFGVHRaLTFKcmdwZ3RhbjRPOVF3bDFnaVdGaEhMYTBXbFBJZDUzR1dvMTlxeDh4R0lWQ3g2RDdxMGdrdnl4OFUyYm1fbDYzSGtrYjRUYnkwUdIBtgFBVV95cUxPRHNfaXJqWTdueDVwY0Q3WGtod1VXTXpSbEtJalRIWWhuamxXZTBxRWpOSU1CeFVkcmxIUjB6Y0NrM3JMYWxvYUt6RE9pUG9sZjZBVHROakpzSFo1cDdVRl9ZVHhwdG1HVURXSUg5M05NMl8wRjItZzdpT2ZDbFBaaHFtS1ZfMmZmUm1ES1VLTDRDRDFPc21jeEhRNl9lU0cwLVNQZk9rNzlFdVRibzlPYl9YRGRKZw?oc=5",
-     "source": "Campo Grande News",
-     "published_at": "2026-08-21T03:58:00+00:00"
-    },
-    {
      "title": "Parlamentar critica Moratória da Soja - Sapicuá",
      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnazN0Z28tSy0yZVFUb1l0ekU3dVV3d3FabVkxZkxOMFp5REFIRFhZLTMwcUpMWHVnREx2M09pRGpza2RuZ2NoU21OOTNyTDNxTHJoREREZDVNS3hHLUJLTk1ITkNSbV9LWF9MZ0o4dnd1Zw?oc=5",
      "source": "Sapicuá",
@@ -504,24 +522,6 @@
      "link": "https://www.canalrural.com.br/videos/ministro-do-mdic-critica-tarifas-dos-eua-como-ilegais-e-abusivas/",
      "source": "Canal Rural",
      "published_at": "2026-08-20T23:15:10+00:00"
-    },
-    {
-     "title": "Entidades do agronegócio definem prioridades para o próximo presidente",
-     "link": "https://www.canalrural.com.br/videos/entidades-do-agronegocio-definem-prioridades-para-o-proximo-presidente/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T23:05:50+00:00"
-    },
-    {
-     "title": "Barra Agroshow cresce 30% e destaca inovação no agronegócio",
-     "link": "https://www.canalrural.com.br/videos/barra-agroshow-cresce-30-e-destaca-inovacao-no-agronegocio/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T23:05:39+00:00"
-    },
-    {
-     "title": "Frente fria e ciclone provocam queda de temperaturas e chuvas no Brasil",
-     "link": "https://www.canalrural.com.br/videos/frente-fria-e-ciclone-provocam-queda-de-temperaturas-e-chuvas-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T23:05:30+00:00"
     },
     {
      "title": "Soja sobe no Brasil com dólar e Chicago, mas negócios seguem lentos - Canal Rural",

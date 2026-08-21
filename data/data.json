@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-21T07:37:24+00:00",
+ "generated_at": "2026-08-21T08:32:24+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-21T07:37:15+00:00",
+   "updated_at": "2026-08-21T08:32:18+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1229.25,
+     "price": 1231.0,
      "prev_close": 1220.75,
-     "change_pct": 0.7,
+     "change_pct": 0.84,
      "closes": [
       1219.5,
       1233.0,
@@ -35,16 +35,16 @@
       1200.75,
       1222.25,
       1220.75,
-      1229.25
+      1231.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 502.5,
+     "price": 503.0,
      "prev_close": 478.75,
-     "change_pct": 4.96,
+     "change_pct": 5.07,
      "closes": [
       452.75,
       462.0,
@@ -69,16 +69,16 @@
       463.25,
       473.0,
       478.75,
-      502.5
+      503.0
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 322.5,
+     "price": 322.7,
      "prev_close": 315.7,
-     "change_pct": 2.15,
+     "change_pct": 2.22,
      "closes": [
       326.7,
       331.6,
@@ -103,16 +103,16 @@
       313.0,
       318.9,
       315.7,
-      322.5
+      322.7
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 70.84,
+     "price": 71.12,
      "prev_close": 71.18,
-     "change_pct": -0.48,
+     "change_pct": -0.08,
      "closes": [
       74.3,
       75.48,
@@ -137,16 +137,16 @@
       69.69,
       69.86,
       71.18,
-      70.84
+      71.12
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 703.5,
+     "price": 702.25,
      "prev_close": 682.75,
-     "change_pct": 3.04,
+     "change_pct": 2.86,
      "closes": [
       678.0,
       705.75,
@@ -171,16 +171,16 @@
       664.5,
       680.25,
       682.75,
-      703.5
+      702.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.34,
+     "price": 93.38,
      "prev_close": 93.78,
-     "change_pct": -0.47,
+     "change_pct": -0.43,
      "closes": [
       91.01,
       94.07,
@@ -205,7 +205,7 @@
       91.02,
       91.62,
       93.78,
-      93.34
+      93.38
      ]
     },
     {
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-21T07:37:16+00:00",
+   "updated_at": "2026-08-21T08:32:18+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-21T07:37:21+00:00",
+   "updated_at": "2026-08-21T08:32:21+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-21T07:37:24+00:00",
+   "updated_at": "2026-08-21T08:32:24+00:00",
    "items": [
+    {
+     "title": "Ar polar e ventania de 70 km/h devem marcar o dia; confira a previsão",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/ar-polar-e-ventania-de-70-km-h-devem-marcar-o-dia-confira-a-previsao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T08:02:00+00:00"
+    },
     {
      "title": "SOJA E TRIGO: saca sobe 1,53% no Paraná e chega a R$ 146,24 - Brasil 61",
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUmlhcnIxQUdUVEFqUXk2cmRhLXBjR3BMZVFUVmZuTXNISGpfUVBsbGUzSmx2MkR4ZUtKS19ubmlnMFNlY0VHRjBSamxJQXdIN0VnU2JaelYwR0QycWlUbV9sWk4yRzk3T1dFOUMwVF9jM2xNN2hUbXJINVAxQmRDY0VwX09VR1ZZWEc5eTQ4ZEFFV0tW0gGaAUFVX3lxTE9SbEJyOE1GUFZCWHRmMDhWMkRDdTVBSE9ZN1VVcjA3bllQUk1xWnFMT2FBRUcxSk5aaUVWc0JGNXNibUQwdTB4NTFlTUN4V2xBR1ZlVnpyR1J0ZW16VmxVOE8tUTNGdTdSSVdMM1ZOXzk0aEh6T3ZNV2FxZ0VQN2l6NzNHMUg0TFFWSWZEWDhVY1dSclNrcTdsY2c?oc=5",
@@ -492,12 +498,6 @@
      "link": "https://www.canalrural.com.br/videos/endividamento-rural-em-brasilia-renegociacoes-e-inclusao-de-produtores-em-pauta/",
      "source": "Canal Rural",
      "published_at": "2026-08-20T23:05:10+00:00"
-    },
-    {
-     "title": "Canal do Panamá reduz vagas diárias de trânsito por queda nas chuvas",
-     "link": "https://www.canalrural.com.br/economia/canal-do-panama-reduz-vagas-diarias-de-transito-por-queda-nas-chuvas/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-20T22:53:33+00:00"
     },
     {
      "title": "Soja sobe no Brasil com dólar e Chicago, mas negócios seguem lentos - Canal Rural",

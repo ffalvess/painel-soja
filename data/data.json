@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-21T20:18:32+00:00",
+ "generated_at": "2026-08-21T21:17:42+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-21T20:18:24+00:00",
+   "updated_at": "2026-08-21T21:17:35+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -178,9 +178,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.94,
+     "price": 93.87,
      "prev_close": 93.78,
-     "change_pct": 0.17,
+     "change_pct": 0.1,
      "closes": [
       91.01,
       94.07,
@@ -205,16 +205,16 @@
       91.02,
       91.62,
       93.78,
-      93.94
+      93.87
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 171014.62,
+     "price": 171031.73,
      "prev_close": 167927.0,
-     "change_pct": 1.84,
+     "change_pct": 1.85,
      "closes": [
       173326.0,
       177548.0,
@@ -239,7 +239,7 @@
       166335.0,
       167830.0,
       167927.0,
-      171014.625
+      171031.7344
      ]
     }
    ],
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-21T20:18:25+00:00",
+   "updated_at": "2026-08-21T21:17:35+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-21T20:18:29+00:00",
+   "updated_at": "2026-08-21T21:17:39+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +419,32 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-21T20:18:32+00:00",
+   "updated_at": "2026-08-21T21:17:42+00:00",
    "items": [
+    {
+     "title": "O que diferencia os profissionais mais preparados no mercado de commodities agrícolas",
+     "link": "https://www.canalrural.com.br/cotacao/o-que-diferencia-os-profissionais-mais-preparados-no-mercado-de-commodities-agricolas/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T20:47:22+00:00"
+    },
+    {
+     "title": "Início da semana terá chance de geada e mínima de 0°C; confira a previsão",
+     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/inicio-da-semana-tera-chance-de-geada-e-minima-de-0c-confira-a-previsao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T20:40:54+00:00"
+    },
+    {
+     "title": "Preços da soja no Brasil renovam máximas após semana com quase 4% de alta acumulada em Chicago - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQck5wc1JjZThYZzZsWF9hSVY5bnVJSXQtNGlaVG1tQ294VFhJejBXT3hZdndOWXBPZFlBYjVLTm5iLUdrYzhwZ1c1ZU1KN00xVHdzUXNWZzlCOFB2ckFLSGkycFJoNFF6YXNUSWljaXZkZkZnT01Bei1YZ0Rrbk4tNTRkaFRDcXlROG1ncUQxQzA0TUs5M0F3UW9pc3EwSVFuUGkyX0FacGRCX3RoU3FqRXZlZmlPOHFUdTI1Skk5SWczLVd3d204VUJlRzdoYlVZN2VkZ0xiMW04ZHp4RkJJZVl3Z19BT2ZyNmfSAe8BQVVfeXFMTlpJb1B1V1ZrYzB4YWtBRWlSWUd4cXNua0p6OVk5ZFpnQlFnMU5sY1dGblpUQXlGZWYyT1VaUnBaR1hQRUFLQkZ3SDFJUGhxcXBwQ0gycnFuRkFiSmFQQUc3NGVzSmZGeFVWSTBEX1Jka3h2SVJVVzlrb3hVNXQyRmtkOWdUQUtQZXdFY1JIYmNXNWdMTHJhZGpCenczcmpobHlkY1ZJd1VJaXhsMkRnZUZwMEJ5azJ3SkFyYjRxV0Izekl2YU1uUWxVeWdTSlFvb3owMTZEeDd6bktmQXNXQV9FYWFjRzlENGF3bEs3VWs?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-21T20:26:36+00:00"
+    },
+    {
+     "title": "Setor do alho em Minas Gerais enfrenta crise devido a clima e custos altos",
+     "link": "https://www.canalrural.com.br/videos/setor-do-alho-em-minas-gerais-enfrenta-crise-devido-a-clima-e-custos-altos/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T20:15:08+00:00"
+    },
     {
      "title": "Abertura de novos mercados internacionais aumenta rentabilidade para produtores rurais",
      "link": "https://www.canalrural.com.br/videos/abertura-de-novos-mercados-internacionais-aumenta-rentabilidade-para-produtores-rurais/",
@@ -470,16 +494,16 @@
      "published_at": "2026-08-21T20:01:53+00:00"
     },
     {
+     "title": "Preços de soja e milho sobem em Chicago com novas projeções de safra - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObmQxLXc1SlFUamNaREtoRGF2MVZ3Rm5yRU1MQl9HOGVZc3lxNzNEWE1Wa0xIQVFXLXhwWnBNQXhmXzBPZEpHbXdsQmt5RUZzdHRJVTN0Mjh6SlVYZU80Y0VBR0lpak9veGQtWWZEZGljV2R2SU5EaTNKeUZnMlhMdm43aXh3SVBNUmFsdTVfbmJiSlhlOGNtd21WWmNUX1ZoODNsVzIyRlctQVZ1dHhuMjJVYXZhRkF6dDdMUWU3RkNrRl9hMnRz0gHWAUFVX3lxTE9OZkREMXFOXy04UTN2M2xGMGdQa2Fib1psbXFleDNOQ3lmSDhCT1NxVGY1ckloWmtDX2w3dTRWeElmTTM3WlhTUHBVVXU4VU5mUXZKVzFVMlQ2VTBwdU1JeU1oWEs5NWd6OEdRRktVSHFIUFZ4MEtsY09GNndxd3lHZEw2cnhVQ0RfVFY5NHVZUjVBY2t1ZzNYUmFjdVRNYUI3eWJZNlRBZUQzTDBPY0pDdnZpQldEdzZXbWhTSUdRWVJmUm16VXFKZ3d6WmhBU0JkWERpVGc?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-21T19:57:09+00:00"
+    },
+    {
      "title": "André de Paula participa de lançamento da Revista Folha Energia em Recife",
      "link": "https://www.canalrural.com.br/politica/andre-de-paula-participa-de-lancamento-da-revista-folha-energia-em-recife/",
      "source": "Canal Rural",
      "published_at": "2026-08-21T19:52:42+00:00"
-    },
-    {
-     "title": "Fundo Amazônia destina R$ 34,6 milhões a projeto agroecológico no Pará e em Mato Grosso",
-     "link": "https://www.canalrural.com.br/politica/fundo-amazonia-destina-r-346-milhoes-a-projeto-agroecologico-no-para-e-em-mato-grosso/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T19:46:30+00:00"
     },
     {
      "title": "MT registra novo recorde no esmagamento de soja - Revista Cultivar",
@@ -488,28 +512,10 @@
      "published_at": "2026-08-21T19:30:27+00:00"
     },
     {
-     "title": "Petróleo fecha em alta e acumula avanço de 13% na semana",
-     "link": "https://www.canalrural.com.br/economia/petroleo-fecha-em-alta-e-acumula-avanco-de-13-na-semana/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T19:18:40+00:00"
-    },
-    {
      "title": "Preço dos derivados de soja sobe no Brasil em agosto - O Presente Rural",
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOV2JsQlo3VHZaQ0VQSUpMa3oyVkZDRXBsWmNKZ2xmenZIRTNQRmd0WlVIbXFFSlZ4el9FNWNZWjkxcFFNYkVtdS1kdjU2VmNxVlhucXAyTVl1NDBpQmtjbHlVRUVEcm45cjJZalphQnJfWkUwUjRMREVPaXRYc0RQblBJOE0zMHloRXRR?oc=5",
      "source": "O Presente Rural",
      "published_at": "2026-08-21T19:08:50+00:00"
-    },
-    {
-     "title": "CNA debate jornada de trabalho, saúde ocupacional e representação sindical",
-     "link": "https://www.canalrural.com.br/politica/cna-debate-jornada-de-trabalho-saude-ocupacional-e-representacao-sindical/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T18:59:57+00:00"
-    },
-    {
-     "title": "Pro Farmer reduz potencial do milho nos EUA, mas aponta soja para novo recorde - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQb3E2WTBfYTJDWDk4VUxQa1VqMGZkUllZOHhBR2poYnp2azJhVjAwQmJRd0dhX1I1bm5qRmJqblA3cldjU2lJaWRkczlJZkdaNnRMc25SUUV0eVM3dS1tSHRhNmRjbXA4SUxVa0xIS0lLaWFvaHpoaFVSYmNBWmp2WW5oQjl6a3pYS21kNjRCSTdQX2duc1RMc25RZmp3U05lSTlrOEJaZkszanBiV21JdzNmNW5jU3Rwb2ptYUlRWFl6RGxUekhNZ19RV1E4LWFEajh6eVZiYzPSAd4BQVVfeXFMT3AyQllGNldlRFpTVTJiNDdabXRnX3ozUFU0VXFaLWdaZFZXaWhaMlNGVEpnWXNBQVBaR196R1N1R0kxUnJjdndDX2JtUDJoYjFlMlUycmREa18xZW5mOHF3NER0Zlc0dzJMcjAyZWtHemZGa21kZzJJYnd4cjdQMkpYa2ZCdXBNbjdLNWNCeWpONXFQRF8xbGNUTDR4djNrYVg5aF92eVdBdzAzWWJrdUNWQkc2VGNnSHc3MXVTSXdqOFU0TEpYRnVTdDN2a3NxbUhCZjNVcG4wLWh5dXBn?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-21T18:38:36+00:00"
     },
     {
      "title": "J&F, de Wesley e Joesley Batista, compra fabricante de armas de guerra Avibras",
@@ -558,12 +564,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/trump-hamburguer-eua.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T12:04:25"
-    },
-    {
-     "title": "Milho avança na colheita enquanto soja e sorgo ampliam produção - Feed&Food",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWktYYXhQdkg3aE9tUUs5UjVRN0pEWGRtdkh6Q25Ha1ZKdm5BWnZ0VGxjVncwSWFaRHppbkRETDd4OGhyZ2k1bVNibUhDS01mZ0R1YkxKc0ZWajVqWHBPd1d1MGpZNzFLVEY3Z1pNam82QXNvcmhjU1F5dk54V3NleC1qTHE0dnNRQUM4SjVfSWktUQ?oc=5",
-     "source": "Feed&Food",
-     "published_at": "2026-08-21T12:01:00+00:00"
     },
     {
      "title": "Analista aponta elo limitado entre diesel e soja - Agrolink",

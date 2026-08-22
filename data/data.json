@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-22T21:15:24+00:00",
+ "generated_at": "2026-08-22T22:15:08+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-22T21:15:18+00:00",
+   "updated_at": "2026-08-22T22:14:59+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -242,7 +242,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-22T21:15:18+00:00",
+   "updated_at": "2026-08-22T22:15:00+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -253,7 +253,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-22T21:15:21+00:00",
+   "updated_at": "2026-08-22T22:15:05+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -414,8 +414,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-22T21:15:24+00:00",
+   "updated_at": "2026-08-22T22:15:08+00:00",
    "items": [
+    {
+     "title": "Quatro fatores reforçam expectativa de alta para a arroba do boi gordo em setembro",
+     "link": "https://www.canalrural.com.br/pecuaria/quatro-fatores-reforcam-expectativa-de-alta-para-a-arroba-do-boi-gordo-em-setembro/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T22:02:00+00:00"
+    },
     {
      "title": "Temperatura de 0°C traz alerta de geada para mais de 160 municípios, incluindo capitais",
      "link": "https://www.canalrural.com.br/previsao-do-tempo/temperatura-de-0c-traz-alerta-de-geada-para-mais-de-160-municipios-incluindo-capitais/",
@@ -471,12 +477,6 @@
      "published_at": "2026-08-22T15:36:01+00:00"
     },
     {
-     "title": "Você viu? Caroço de açaí vira nanofertilizante e eleva crescimento do sorgo em 164%",
-     "link": "https://www.canalrural.com.br/agricultura/voce-viu-caroco-de-acai-vira-nanofertilizante-e-eleva-crescimento-do-sorgo-em-164/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T15:15:00+00:00"
-    },
-    {
      "title": "Milho ganha força enquanto soja espera por novos sinais de demanda internacional - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdWFQeGJuM21LbUJobTFYNWFVYnRpUmVNYjhyYnpSaWM0azJQUGNlNVRhbHRLcUl1T1o4dHZGVjJUVUZHMjVFUlhpWVpUUlp6eTZrY2JhT2JRQmpwRFgyWk94RnRVMDd6OFhlOGEwLTdlQUNCRXZEU0otcUdzUFIycWlOdmdpOUVsMzhFbU1mZURROEI0YlJRVlpwN3VHVkF1VlZtajEwVC1PRTlTM2h5TTZNblg4RFpZYm5tdFF6Q00?oc=5",
      "source": "Canal Rural",
@@ -490,15 +490,9 @@
     },
     {
      "title": "Preço da soja cai após sequência de sete altas consecutivas - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRmNTY0ZrSy1BM3l6dFoyb1M0QVBNYW5iVy1rQVNtLVBULXpIX3lPU0FDQ1pUMW5NUFlFelZjWTZsZy1Fb2VRQ2laeXBKTk4zdmgtRkJUUE16YUxrY3FiSlhYZmhhUnJKaEJ0OGE5OTA1b0VUWG5Pd1RIU1FHc2NYWXBfbmFzR2dPcW16emNNNG81aTVZMmQwTGh4RHZ1aFd4RVdCU3ZZTmZGMW14SFUybldLWVNVZ0RqTWQ0MEV0VQ?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRmNTY0ZrSy1BM3l6dFoyb1M0QVBNYW5iVy1rQVNtLVBULXpIX3lPU0FDQ1pUMW5NUFlFelZjWTZsZy1Fb2VRQ2laeXBKTk4zdmgtRkJUUE16YUxrY3FiSlhYZmhhUnJKaEJ0OGE5OTA1b0VUWG5Pd1RIU1FHc2NYWXBfbmFzR2dPcW16emNNNG81aTVZMmQwTGh4RHZ1aFd4RVdCU3ZZTmZGMW14SFUybldLWVNVZ0RqTWQ0MEV0VdIBzgFBVV95cUxQR3d4NG9YVW54NzhwUXFKVE9RODVsQktFTVBpVnRnSDhwYlBQVmYwVFVGNms2RlZUQmdaUlNkUXZzaGdEa2pMOVpkM2VoUzNmajhZUnA0T2JzUFd5RXZVSnFyaWNjV2E1dlZwa3V3UUhZWGw5QzJDeE9YZ01zZi14cnhsallVVVdkd2VVeWxUWFVoZXV5S2VOVXZ2eEhaWndCTEVuX0pKX0RpWGRGN2RFcHlESTlzbmFrSjM3bWhyRXpNczJDSFlCTXBzWVVfUQ?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-08-22T10:10:15+00:00"
-    },
-    {
-     "title": "Preço dos derivados de soja sobe no Brasil em agosto - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOV2JsQlo3VHZaQ0VQSUpMa3oyVkZDRXBsWmNKZ2xmenZIRTNQRmd0WlVIbXFFSlZ4el9FNWNZWjkxcFFNYkVtdS1kdjU2VmNxVlhucXAyTVl1NDBpQmtjbHlVRUVEcm45cjJZalphQnJfWkUwUjRMREVPaXRYc0RQblBJOE0zMHloRXRR?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-08-22T00:59:01+00:00"
     },
     {
      "title": "Abiove projeta aumento nas exportações de farelo de soja em 2026 - Canal Rural",
@@ -595,6 +589,12 @@
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/16/peao-de-orindiuva-viaja-10-mil-km-para-divulgar-cultura-caipira.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-16T10:30:12"
+    },
+    {
+     "title": "Curral eclético: vacas escutam de forró a música clássica e produzem mais leite em fazenda no ES; veja VÍDEO",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/16/curral-ecletico-vacas-escutam-de-forro-a-musica-classica-e-produzem-mais-leite-em-fazenda-no-es-veja-video.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-16T07:01:18"
     }
    ],
    "failed": [

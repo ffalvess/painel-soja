@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-22T19:18:28+00:00",
+ "generated_at": "2026-08-22T20:15:11+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-22T19:18:19+00:00",
+   "updated_at": "2026-08-22T20:15:05+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -242,7 +242,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-22T19:18:19+00:00",
+   "updated_at": "2026-08-22T20:15:05+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -253,7 +253,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-22T19:18:24+00:00",
+   "updated_at": "2026-08-22T20:15:09+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -414,8 +414,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-22T19:18:28+00:00",
+   "updated_at": "2026-08-22T20:15:11+00:00",
    "items": [
+    {
+     "title": "Reintrodução do takhi ganha destaque em debate sobre degradação de pastagens na Mongólia",
+     "link": "https://www.canalrural.com.br/pecuaria/reintroducao-do-takhi-ganha-destaque-em-debate-sobre-degradacao-de-pastagens-na-mongolia/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T20:08:30+00:00"
+    },
+    {
+     "title": "Viu esta? Tecnologia brasileira transforma madeira em fibra para alimentação de suínos",
+     "link": "https://www.canalrural.com.br/aves-e-suinos/viu-esta-tecnologia-brasileira-transforma-madeira-em-fibra-para-alimentacao-de-suinos/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T20:05:00+00:00"
+    },
+    {
+     "title": "MT amplia exportação de carne bovina em julho, com destaque para Espanha",
+     "link": "https://www.canalrural.com.br/pecuaria/mt-amplia-exportacao-de-carne-bovina-em-julho-com-destaque-para-espanha/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T20:01:00+00:00"
+    },
     {
      "title": "Estados Unidos confirmam tarifa de 50% sobre o Canadá, que retribuirá ‘dólar por dólar’",
      "link": "https://www.canalrural.com.br/internacional/estados-unidos-confirmam-tarifa-de-50-sobre-o-canada-que-retribuira-dolar-por-dolar/",
@@ -471,28 +489,10 @@
      "published_at": "2026-08-22T13:31:57+00:00"
     },
     {
-     "title": "Sul-mato-grossense vence 2ª noite das montarias em touro pela PBR Brazil em Barretos",
-     "link": "https://www.canalrural.com.br/entretenimento/sul-mato-grossense-vence-2a-noite-das-montarias-em-touro-pela-pbr-brazil-em-barretos/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T13:29:04+00:00"
-    },
-    {
-     "title": "Descoberta revela quais árvores dão uma ‘nova chance’ à Amazônia após desmatamento",
-     "link": "https://www.canalrural.com.br/sustentabilidade/descoberta-revela-quais-arvores-dao-uma-nova-chance-a-amazonia-apos-desmatamento/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T12:03:00+00:00"
-    },
-    {
      "title": "Preço da soja cai após sequência de sete altas consecutivas - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRmNTY0ZrSy1BM3l6dFoyb1M0QVBNYW5iVy1rQVNtLVBULXpIX3lPU0FDQ1pUMW5NUFlFelZjWTZsZy1Fb2VRQ2laeXBKTk4zdmgtRkJUUE16YUxrY3FiSlhYZmhhUnJKaEJ0OGE5OTA1b0VUWG5Pd1RIU1FHc2NYWXBfbmFzR2dPcW16emNNNG81aTVZMmQwTGh4RHZ1aFd4RVdCU3ZZTmZGMW14SFUybldLWVNVZ0RqTWQ0MEV0VQ?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-08-22T10:10:15+00:00"
-    },
-    {
-     "title": "Massa de ar polar se espalha do Sul ao Norte do país; confira a previsão de hoje",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/massa-de-ar-polar-se-espalha-do-sul-ao-norte-do-pais-confira-a-previsao-de-hoje/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T08:15:00+00:00"
     },
     {
      "title": "Preço dos derivados de soja sobe no Brasil em agosto - O Presente Rural",

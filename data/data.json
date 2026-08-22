@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-22T16:16:23+00:00",
+ "generated_at": "2026-08-22T17:15:16+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-22T16:16:16+00:00",
+   "updated_at": "2026-08-22T17:15:10+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -242,7 +242,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-22T16:16:16+00:00",
+   "updated_at": "2026-08-22T17:15:10+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -253,7 +253,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-22T16:16:20+00:00",
+   "updated_at": "2026-08-22T17:15:14+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -414,7 +414,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-22T16:16:23+00:00",
+   "updated_at": "2026-08-22T17:15:16+00:00",
    "items": [
     {
      "title": "Qual a melhor raça bovina para produção de carne no Brasil? Especialista responde",

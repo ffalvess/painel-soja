@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-22T15:14:11+00:00",
+ "generated_at": "2026-08-22T16:16:23+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-22T15:14:03+00:00",
+   "updated_at": "2026-08-22T16:16:16+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -242,7 +242,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-22T15:14:03+00:00",
+   "updated_at": "2026-08-22T16:16:16+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -253,7 +253,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-22T15:14:08+00:00",
+   "updated_at": "2026-08-22T16:16:20+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -414,8 +414,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-22T15:14:11+00:00",
+   "updated_at": "2026-08-22T16:16:23+00:00",
    "items": [
+    {
+     "title": "Qual a melhor raça bovina para produção de carne no Brasil? Especialista responde",
+     "link": "https://www.canalrural.com.br/pecuaria/qual-a-melhor-raca-bovina-para-producao-de-carne-no-brasil-especialista-responde/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T16:01:00+00:00"
+    },
+    {
+     "title": "Índia abre mercado e semana redesenha oportunidades para o agro brasileiro",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/india-abre-mercado-e-semana-redesenha-oportunidades-para-o-agro-brasileiro/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T15:36:01+00:00"
+    },
+    {
+     "title": "Você viu? Caroço de açaí vira nanofertilizante e eleva crescimento do sorgo em 164%",
+     "link": "https://www.canalrural.com.br/agricultura/voce-viu-caroco-de-acai-vira-nanofertilizante-e-eleva-crescimento-do-sorgo-em-164/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T15:15:00+00:00"
+    },
     {
      "title": "Milho ganha força enquanto soja espera por novos sinais de demanda internacional - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdWFQeGJuM21LbUJobTFYNWFVYnRpUmVNYjhyYnpSaWM0azJQUGNlNVRhbHRLcUl1T1o4dHZGVjJUVUZHMjVFUlhpWVpUUlp6eTZrY2JhT2JRQmpwRFgyWk94RnRVMDd6OFhlOGEwLTdlQUNCRXZEU0otcUdzUFIycWlOdmdpOUVsMzhFbU1mZURROEI0YlJRVlpwN3VHVkF1VlZtajEwVC1PRTlTM2h5TTZNblg4RFpZYm5tdFF6Q00?oc=5",
@@ -481,24 +499,6 @@
      "link": "https://www.canalrural.com.br/videos/produtores-de-alho-enfrentam-crise-e-ameacam-250-mil-empregos-no-brasil/",
      "source": "Canal Rural",
      "published_at": "2026-08-22T00:15:12+00:00"
-    },
-    {
-     "title": "Entidades do agronegócio destacam prioridades para o próximo presidente",
-     "link": "https://www.canalrural.com.br/videos/entidades-do-agronegocio-destacam-prioridades-para-o-proximo-presidente/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T00:05:51+00:00"
-    },
-    {
-     "title": "Frio e baixa umidade devem marcar o fim de semana em várias regiões do Brasil",
-     "link": "https://www.canalrural.com.br/videos/frio-e-baixa-umidade-devem-marcar-o-fim-de-semana-em-varias-regioes-do-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T00:05:42+00:00"
-    },
-    {
-     "title": "Expogenética 2026 destaca touros referência na genética zebuína",
-     "link": "https://www.canalrural.com.br/videos/expogenetica-2026-destaca-touros-referencia-na-genetica-zebuina/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T00:05:31+00:00"
     },
     {
      "title": "Abiove projeta aumento nas exportações de farelo de soja em 2026 - Canal Rural",

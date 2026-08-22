@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-22T05:21:12+00:00",
+ "generated_at": "2026-08-22T06:29:09+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-22T05:21:05+00:00",
+   "updated_at": "2026-08-22T06:29:01+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -242,7 +242,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-22T05:21:05+00:00",
+   "updated_at": "2026-08-22T06:29:01+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -253,7 +253,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-22T05:21:10+00:00",
+   "updated_at": "2026-08-22T06:29:05+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -414,7 +414,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-22T05:21:12+00:00",
+   "updated_at": "2026-08-22T06:29:09+00:00",
    "items": [
     {
      "title": "Preço dos derivados de soja sobe no Brasil em agosto - O Presente Rural",
@@ -463,12 +463,6 @@
      "link": "https://www.canalrural.com.br/videos/mercado-financeiro-interrompe-projecao-de-queda-da-inflacao-para-2026/",
      "source": "Canal Rural",
      "published_at": "2026-08-22T00:05:10+00:00"
-    },
-    {
-     "title": "Sementes certificadas ganham peso nas decisões para a safra de soja 2026/27 - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa2RubUNlRWpya3ZEZnBRejlOQlZsWXZzUnVjd2ZhZWVQbHFHYlNTUTNtZXIxazZEdTlaZms4OTQyLW53SC13OE1YUG1NZUpGVTJmUmVORFc1X2Vob01YbHVkSjQ3V3g0QU9GcWRYRTVod2NIY0RrWGs4Q2hJU25TNE5kWTNuSUdGTXpONExESlpBRVQzYlh1b1pvQnVfelVXcU94ZkcyaWY0UQ?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-08-21T22:58:57+00:00"
     },
     {
      "title": "Boi gordo: veja como os preços terminaram a semana em dia de anúncio de Trump",
@@ -541,6 +535,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/jandf-de-wesley-e-joesley-batista-compra-fabricante-de-armas-de-guerra-avibras.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T18:20:50"
+    },
+    {
+     "title": "Um novo passo para o crescimento da soja e derivados - The AgriBiz",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ3JldGNpbm1NemNNXzI0eHBEOUJmY0Q1aVRHSlcwRXBxNHpTWF9KZktKLWtjUFE3WU1OV3A2Ri1GS280NElDaVJVbmlUbFk1V0xBWXdZUnB1djdWdUE3QUxUcGs3bjhQb3hSaURObmxEVzJVazJvNEktZ0xkNUEtMF9HY3g4SFItTGFLLThtTFFmM2Q0Um80?oc=5",
+     "source": "The AgriBiz",
+     "published_at": "2026-08-21T17:24:34+00:00"
     },
     {
      "title": "China aumenta compras de soja dos EUA em meio a temor de safra menor e preços mais altos - Notícias Agrícolas",

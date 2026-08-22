@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-22T07:25:51+00:00",
+ "generated_at": "2026-08-22T08:21:12+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-22T07:25:45+00:00",
+   "updated_at": "2026-08-22T08:21:07+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -242,7 +242,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-22T07:25:45+00:00",
+   "updated_at": "2026-08-22T08:21:07+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -253,7 +253,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-22T07:25:49+00:00",
+   "updated_at": "2026-08-22T08:21:10+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -414,7 +414,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-22T07:25:51+00:00",
+   "updated_at": "2026-08-22T08:21:12+00:00",
    "items": [
     {
      "title": "Preço dos derivados de soja sobe no Brasil em agosto - O Presente Rural",

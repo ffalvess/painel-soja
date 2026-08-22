@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-22T11:15:17+00:00",
+ "generated_at": "2026-08-22T12:26:03+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-22T11:15:09+00:00",
+   "updated_at": "2026-08-22T12:25:56+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -242,7 +242,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-22T11:15:09+00:00",
+   "updated_at": "2026-08-22T12:25:56+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -253,7 +253,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-22T11:15:14+00:00",
+   "updated_at": "2026-08-22T12:26:01+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -276,22 +276,22 @@
       0.0
      ],
      "tmax": [
-      36.8,
-      36.6,
       36.7,
-      37.9,
-      37.8,
-      37.3,
+      36.6,
+      37.1,
+      37.7,
+      37.5,
+      37.4,
       35.4
      ],
      "tmin": [
-      22.6,
-      23.2,
+      22.2,
+      22.7,
+      23.5,
+      23.7,
+      24.5,
       23.9,
-      23.9,
-      25.0,
-      24.1,
-      25.7
+      25.8
      ]
     },
     {
@@ -308,29 +308,29 @@
      "precip": [
       0.0,
       0.0,
-      0.1,
+      0.0,
       0.0,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      35.9,
+      35.6,
       36.1,
-      35.9,
-      36.7,
+      36.0,
+      36.6,
       36.6,
       36.2,
       36.1
      ],
      "tmin": [
-      22.2,
+      21.9,
+      22.8,
+      23.2,
       23.1,
-      23.4,
       23.1,
-      23.5,
-      23.8,
-      26.0
+      23.3,
+      25.8
      ]
     },
     {
@@ -354,22 +354,22 @@
       0.0
      ],
      "tmax": [
-      29.4,
-      32.2,
-      33.5,
-      35.1,
-      31.1,
-      34.9,
+      28.8,
+      31.7,
+      33.2,
+      34.6,
+      34.5,
+      35.2,
       36.0
      ],
      "tmin": [
-      15.3,
-      16.3,
-      18.5,
-      20.4,
-      22.7,
-      21.5,
-      25.5
+      14.9,
+      15.8,
+      18.2,
+      20.7,
+      23.1,
+      20.2,
+      25.7
      ]
     },
     {
@@ -387,35 +387,41 @@
       0.0,
       0.0,
       0.0,
-      4.7,
-      3.1,
+      6.5,
+      10.4,
       0.0,
       0.0
      ],
      "tmax": [
-      25.2,
-      26.6,
-      28.4,
-      24.7,
-      28.1,
-      33.4,
+      25.1,
+      26.5,
+      28.2,
+      26.5,
+      27.1,
+      33.1,
       34.3
      ],
      "tmin": [
-      10.5,
-      11.9,
-      14.4,
-      17.5,
+      10.1,
+      11.8,
+      13.6,
+      17.1,
       16.3,
-      19.1,
-      22.6
+      18.5,
+      22.0
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-22T11:15:17+00:00",
+   "updated_at": "2026-08-22T12:26:03+00:00",
    "items": [
+    {
+     "title": "Descoberta revela quais árvores dão uma ‘nova chance’ à Amazônia após desmatamento",
+     "link": "https://www.canalrural.com.br/sustentabilidade/descoberta-revela-quais-arvores-dao-uma-nova-chance-a-amazonia-apos-desmatamento/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T12:03:00+00:00"
+    },
     {
      "title": "Preço da soja cai após sequência de sete altas consecutivas - Globo Rural",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRmNTY0ZrSy1BM3l6dFoyb1M0QVBNYW5iVy1rQVNtLVBULXpIX3lPU0FDQ1pUMW5NUFlFelZjWTZsZy1Fb2VRQ2laeXBKTk4zdmgtRkJUUE16YUxrY3FiSlhYZmhhUnJKaEJ0OGE5OTA1b0VUWG5Pd1RIU1FHc2NYWXBfbmFzR2dPcW16emNNNG81aTVZMmQwTGh4RHZ1aFd4RVdCU3ZZTmZGMW14SFUybldLWVNVZ0RqTWQ0MEV0VdIBzgFBVV95cUxQR3d4NG9YVW54NzhwUXFKVE9RODVsQktFTVBpVnRnSDhwYlBQVmYwVFVGNms2RlZUQmdaUlNkUXZzaGdEa2pMOVpkM2VoUzNmajhZUnA0T2JzUFd5RXZVSnFyaWNjV2E1dlZwa3V3UUhZWGw5QzJDeE9YZ01zZi14cnhsallVVVdkd2VVeWxUWFVoZXV5S2VOVXZ2eEhaWndCTEVuX0pKX0RpWGRGN2RFcHlESTlzbmFrSjM3bWhyRXpNczJDSFlCTXBzWVVfUQ?oc=5",
@@ -495,12 +501,6 @@
      "published_at": "2026-08-21T21:47:35+00:00"
     },
     {
-     "title": "Da semente à mente, com o agro não se mente",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/da-semente-a-mente-com-o-agro-nao-se-mente/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T21:40:47+00:00"
-    },
-    {
      "title": "Preço do suíno cai para o 3º menor patamar da história em SP: 'sobreoferta e baixa demanda', analisa USP",
      "link": "https://g1.globo.com/sp/piracicaba-regiao/noticia/2026/08/21/preco-do-suino-cai-para-o-3o-menor-patamar-da-historia-em-sp-sobreoferta-e-baixa-demanda-analisa-usp.ghtml",
      "source": "G1 Agronegócios",
@@ -519,6 +519,12 @@
      "published_at": "2026-08-21T20:26:36+00:00"
     },
     {
+     "title": "Expedição indica produção maior de soja nos EUA e queda para o milho - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWUpXektNQzNjdWJIcm00Zl9YVzhkazhpYjlSOUxPam1uN2tpUVNXakQ1U0VMSjd5X0xpNXZDWW00SHdJd1JyVFlJLUEyYmtuNHN2UmpkT0RKaDdFcEhyTlEzdnN3UklaMjE2Zi1ZaUR6bFlod2ZXTmNLdlpxemU0c2NFUHB5LW00c0h2bXFIdFc2N0h6UE1DVjRMRXFadk5OdHdnMlNuY21UYkhSN2o0TzJGWF9HWHhyODBZRHpmV2NQX1daaXN5T1Nra9IB2gFBVV95cUxNNkhDaTdmQ1Iyb2FYaFZ6bjZieVIxNTY1cFkxOWtqczk5bGdsRTE3N0cwaEFzdTg3QUw3NmZ4TmJzNWpaUTdwWkxsUU5EQVJmRTdsY3VmZktrYW1HUkpYMUlobUlVRnE1akVydGxUZmFwb0Q5blhLVU9HTWZrTk1oQ3RGSVZtV2NOWi0yTlA0MEFYSXdsUV8wVmV3WmhWZW5LZHNFMUg2dDcxRHdBZmpaTW42ZWM4WDhJalpjRlFvN2ROb3ZXMTh4QjlJcXh5QXlVNjVXMlJwaXhvZw?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-21T20:03:14+00:00"
+    },
+    {
      "title": "Vendas para a China e safra americana impulsionam preços da soja em Chicago - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUUIwWjhsUTQ1UUVRMkg0NUwzZE01VlBlOFlkVDVTZnRpLXhQd3c1OTlpQjVVb2IwQmFENzlNaVdJaXRkR2x1Mk9RMUdwQTl3VmM5RDcxdWlreU1jenBLNkZyS2ZWRGtSa0hYMDJTUUZqSXQzRTFrUVZVZl9QS2gtU3dtUlI4Tlp2c0ZTTEphQU9Ga1RhNnFyTmxVNWNja0RSNzhPV0JYMTdQN1BKb0Y4?oc=5",
      "source": "CNN Brasil",
@@ -529,12 +535,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/jandf-de-wesley-e-joesley-batista-compra-fabricante-de-armas-de-guerra-avibras.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T18:20:50"
-    },
-    {
-     "title": "China aumenta compras de soja dos EUA em meio a temor de safra menor e preços mais altos - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdklyc0JjNWRwQkxIMmQ2YWtOMnhaaVJoeW04WURxbExtMmtpQ18wc3dJVDdvZy0wVVpiRXhEQWNUcDFPc0YyTlNEWXpwaGVvb215Unp1dkxaekt4cEJzMHl2Mm5yVGZfNS1rY1E4SUpUVl9qV1F0S01OV0EzakpmMkhXdTdZcDJvd3JHV04ydnQ5ckViRkV4MFQtczdPNUpkWFJnRE1DMGxrNUFHZXIyOTFGYzJqdDNRdUpsMENMRl8wSllVS3M2LWlSUUNCS3RQNGNBRGhzczZId240RXNicFQtSHVRUdIB6wFBVV95cUxOdXhIc093dTVQczJvTGdGMlpXYkZCR3dnMWR2WE50X0x5RXRkUDR0ZkxQZVJTMzBCS1VUMm9xUjFjUGNYcnFzZXJWS2NMLVhHNmIwbG5CUHc5WnJSOXdDaklhWWF6ZTVoWFdNRGlzUTBSZWNPbTZFV1NMSnFULUtYcWRyZEVWMnlxcTJpUkU4eUIzd0ZJWWJaWFhBT2tmdXVMaVY3SXJtaFZPU0tLNGItVnBSeVE1TlAtUW1VajlOLWZCcFJfRkk4NW5fRy0xa0V1U0FDSFJCNmFNakkyLWEyWURuZXZJNnBlM25R?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-21T17:17:48+00:00"
     },
     {
      "title": "Presença de abelhas pode aumentar produtividade da soja - Agrolink",

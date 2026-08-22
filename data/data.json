@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-22T12:26:03+00:00",
+ "generated_at": "2026-08-22T13:26:22+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-22T12:25:56+00:00",
+   "updated_at": "2026-08-22T13:26:17+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -242,7 +242,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-22T12:25:56+00:00",
+   "updated_at": "2026-08-22T13:26:17+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -253,7 +253,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-22T12:26:01+00:00",
+   "updated_at": "2026-08-22T13:26:20+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -414,7 +414,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-22T12:26:03+00:00",
+   "updated_at": "2026-08-22T13:26:22+00:00",
    "items": [
     {
      "title": "Descoberta revela quais árvores dão uma ‘nova chance’ à Amazônia após desmatamento",
@@ -424,7 +424,7 @@
     },
     {
      "title": "Preço da soja cai após sequência de sete altas consecutivas - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRmNTY0ZrSy1BM3l6dFoyb1M0QVBNYW5iVy1rQVNtLVBULXpIX3lPU0FDQ1pUMW5NUFlFelZjWTZsZy1Fb2VRQ2laeXBKTk4zdmgtRkJUUE16YUxrY3FiSlhYZmhhUnJKaEJ0OGE5OTA1b0VUWG5Pd1RIU1FHc2NYWXBfbmFzR2dPcW16emNNNG81aTVZMmQwTGh4RHZ1aFd4RVdCU3ZZTmZGMW14SFUybldLWVNVZ0RqTWQ0MEV0VdIBzgFBVV95cUxQR3d4NG9YVW54NzhwUXFKVE9RODVsQktFTVBpVnRnSDhwYlBQVmYwVFVGNms2RlZUQmdaUlNkUXZzaGdEa2pMOVpkM2VoUzNmajhZUnA0T2JzUFd5RXZVSnFyaWNjV2E1dlZwa3V3UUhZWGw5QzJDeE9YZ01zZi14cnhsallVVVdkd2VVeWxUWFVoZXV5S2VOVXZ2eEhaWndCTEVuX0pKX0RpWGRGN2RFcHlESTlzbmFrSjM3bWhyRXpNczJDSFlCTXBzWVVfUQ?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRmNTY0ZrSy1BM3l6dFoyb1M0QVBNYW5iVy1rQVNtLVBULXpIX3lPU0FDQ1pUMW5NUFlFelZjWTZsZy1Fb2VRQ2laeXBKTk4zdmgtRkJUUE16YUxrY3FiSlhYZmhhUnJKaEJ0OGE5OTA1b0VUWG5Pd1RIU1FHc2NYWXBfbmFzR2dPcW16emNNNG81aTVZMmQwTGh4RHZ1aFd4RVdCU3ZZTmZGMW14SFUybldLWVNVZ0RqTWQ0MEV0VQ?oc=5",
      "source": "Globo Rural",
      "published_at": "2026-08-22T10:10:15+00:00"
     },
@@ -519,12 +519,6 @@
      "published_at": "2026-08-21T20:26:36+00:00"
     },
     {
-     "title": "Expedição indica produção maior de soja nos EUA e queda para o milho - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWUpXektNQzNjdWJIcm00Zl9YVzhkazhpYjlSOUxPam1uN2tpUVNXakQ1U0VMSjd5X0xpNXZDWW00SHdJd1JyVFlJLUEyYmtuNHN2UmpkT0RKaDdFcEhyTlEzdnN3UklaMjE2Zi1ZaUR6bFlod2ZXTmNLdlpxemU0c2NFUHB5LW00c0h2bXFIdFc2N0h6UE1DVjRMRXFadk5OdHdnMlNuY21UYkhSN2o0TzJGWF9HWHhyODBZRHpmV2NQX1daaXN5T1Nra9IB2gFBVV95cUxNNkhDaTdmQ1Iyb2FYaFZ6bjZieVIxNTY1cFkxOWtqczk5bGdsRTE3N0cwaEFzdTg3QUw3NmZ4TmJzNWpaUTdwWkxsUU5EQVJmRTdsY3VmZktrYW1HUkpYMUlobUlVRnE1akVydGxUZmFwb0Q5blhLVU9HTWZrTk1oQ3RGSVZtV2NOWi0yTlA0MEFYSXdsUV8wVmV3WmhWZW5LZHNFMUg2dDcxRHdBZmpaTW42ZWM4WDhJalpjRlFvN2ROb3ZXMTh4QjlJcXh5QXlVNjVXMlJwaXhvZw?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-21T20:03:14+00:00"
-    },
-    {
      "title": "Vendas para a China e safra americana impulsionam preços da soja em Chicago - CNN Brasil",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUUIwWjhsUTQ1UUVRMkg0NUwzZE01VlBlOFlkVDVTZnRpLXhQd3c1OTlpQjVVb2IwQmFENzlNaVdJaXRkR2x1Mk9RMUdwQTl3VmM5RDcxdWlreU1jenBLNkZyS2ZWRGtSa0hYMDJTUUZqSXQzRTFrUVZVZl9QS2gtU3dtUlI4Tlp2c0ZTTEphQU9Ga1RhNnFyTmxVNWNja0RSNzhPV0JYMTdQN1BKb0Y4?oc=5",
      "source": "CNN Brasil",
@@ -535,6 +529,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/jandf-de-wesley-e-joesley-batista-compra-fabricante-de-armas-de-guerra-avibras.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T18:20:50"
+    },
+    {
+     "title": "Soja tem alta ‘expressiva’ no Brasil e atinge maior nível em mais de 3 anos, diz Cepea - Money Times",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZGxPMWJPZWdXbFZ1blZXcHhYUUJ3QkhXcGh3MzZDaDFOcWlNR0N1VTdfdXY5NVZ1bWVJd3RNcHN2Rjl0WXpBNnBKUnFjVjhTQUlPYmM0ZXVMazgwMG5zemEzSFRQNlpOaFRFUkhJeHBvYjFUYzNqRTVwNzJFNnZuUnhWM1NMQ25NYjFXbjcxcnNab0lESHJaQWZYUExqRTR6X0xSMVNfTkFYbUVsLU45SkZKTkdQakk4Nm9V?oc=5",
+     "source": "Money Times",
+     "published_at": "2026-08-21T18:01:00+00:00"
     },
     {
      "title": "Presença de abelhas pode aumentar produtividade da soja - Agrolink",

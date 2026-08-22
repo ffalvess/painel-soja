@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-22T00:53:25+00:00",
+ "generated_at": "2026-08-22T02:13:02+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-22T00:53:17+00:00",
+   "updated_at": "2026-08-22T02:12:54+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -213,8 +213,8 @@
      "name": "Ibovespa",
      "unit": "pontos",
      "price": 171031.73,
-     "prev_close": 167927.0,
-     "change_pct": 1.85,
+     "prev_close": 171032.0,
+     "change_pct": -0.0,
      "closes": [
       173326.0,
       177548.0,
@@ -239,6 +239,7 @@
       166335.0,
       167830.0,
       167927.0,
+      171032.0,
       171031.7344
      ]
     }
@@ -247,7 +248,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-22T00:53:18+00:00",
+   "updated_at": "2026-08-22T02:12:54+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +259,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-22T00:53:22+00:00",
+   "updated_at": "2026-08-22T02:12:58+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -419,8 +420,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-22T00:53:25+00:00",
+   "updated_at": "2026-08-22T02:13:02+00:00",
    "items": [
+    {
+     "title": "Preço dos derivados de soja sobe no Brasil em agosto - O Presente Rural",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOV2JsQlo3VHZaQ0VQSUpMa3oyVkZDRXBsWmNKZ2xmenZIRTNQRmd0WlVIbXFFSlZ4el9FNWNZWjkxcFFNYkVtdS1kdjU2VmNxVlhucXAyTVl1NDBpQmtjbHlVRUVEcm45cjJZalphQnJfWkUwUjRMREVPaXRYc0RQblBJOE0zMHloRXRR?oc=5",
+     "source": "O Presente Rural",
+     "published_at": "2026-08-22T00:59:01+00:00"
+    },
     {
      "title": "Produtores de alho enfrentam crise e ameaçam 250 mil empregos no Brasil",
      "link": "https://www.canalrural.com.br/videos/produtores-de-alho-enfrentam-crise-e-ameacam-250-mil-empregos-no-brasil/",
@@ -530,22 +537,10 @@
      "published_at": "2026-08-21T19:57:09+00:00"
     },
     {
-     "title": "Preço dos derivados de soja sobe no Brasil em agosto - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOV2JsQlo3VHZaQ0VQSUpMa3oyVkZDRXBsWmNKZ2xmenZIRTNQRmd0WlVIbXFFSlZ4el9FNWNZWjkxcFFNYkVtdS1kdjU2VmNxVlhucXAyTVl1NDBpQmtjbHlVRUVEcm45cjJZalphQnJfWkUwUjRMREVPaXRYc0RQblBJOE0zMHloRXRR?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-08-21T19:08:50+00:00"
-    },
-    {
      "title": "J&F, de Wesley e Joesley Batista, compra fabricante de armas de guerra Avibras",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/jandf-de-wesley-e-joesley-batista-compra-fabricante-de-armas-de-guerra-avibras.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T18:20:50"
-    },
-    {
-     "title": "Um novo passo para o crescimento da soja e derivados - The AgriBiz",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ3JldGNpbm1NemNNXzI0eHBEOUJmY0Q1aVRHSlcwRXBxNHpTWF9KZktKLWtjUFE3WU1OV3A2Ri1GS280NElDaVJVbmlUbFk1V0xBWXdZUnB1djdWdUE3QUxUcGs3bjhQb3hSaURObmxEVzJVazJvNEktZ0xkNUEtMF9HY3g4SFItTGFLLThtTFFmM2Q0Um80?oc=5",
-     "source": "The AgriBiz",
-     "published_at": "2026-08-21T17:24:34+00:00"
     },
     {
      "title": "China aumenta compras de soja dos EUA em meio a temor de safra menor e preços mais altos - Notícias Agrícolas",
@@ -582,6 +577,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/alimentos-editados-geneticamente.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T05:00:18"
+    },
+    {
+     "title": "O início da virada para a soja vem aí? Os dados sugerem que sim - The AgriBiz",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWVExQ2lVbVM4MTJhNlo5Y3VRd0hNdDc1TlZVckhabDhBRGhLVzJNYThGRGcwUGNReVNzaThSOFZyMlVVQUltbnBrVXFZOE1uVC1DUDhnd2NKaFdXM3dvY3dOTXNZcGdxeFBCS1F4MVd0cmdQdjB0Q3A2R2k0cU42LUJRZHk0SHd3NzdKU1phZFdNbEgydl8wVDBwbF9vako5Y1BzeQ?oc=5",
+     "source": "The AgriBiz",
+     "published_at": "2026-08-20T16:15:31+00:00"
     },
     {
      "title": "Exportações de carne bovina caem 26% em agosto com temor de tarifa maior na China",

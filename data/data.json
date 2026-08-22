@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-22T17:15:16+00:00",
+ "generated_at": "2026-08-22T18:19:47+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-22T17:15:10+00:00",
+   "updated_at": "2026-08-22T18:19:36+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -242,7 +242,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-22T17:15:10+00:00",
+   "updated_at": "2026-08-22T18:19:37+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -253,7 +253,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-22T17:15:14+00:00",
+   "updated_at": "2026-08-22T18:19:42+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -414,7 +414,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-22T17:15:16+00:00",
+   "updated_at": "2026-08-22T18:19:47+00:00",
    "items": [
     {
      "title": "Qual a melhor raça bovina para produção de carne no Brasil? Especialista responde",
@@ -525,12 +525,6 @@
      "published_at": "2026-08-21T20:26:36+00:00"
     },
     {
-     "title": "Vendas para a China e safra americana impulsionam preços da soja em Chicago - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUUIwWjhsUTQ1UUVRMkg0NUwzZE01VlBlOFlkVDVTZnRpLXhQd3c1OTlpQjVVb2IwQmFENzlNaVdJaXRkR2x1Mk9RMUdwQTl3VmM5RDcxdWlreU1jenBLNkZyS2ZWRGtSa0hYMDJTUUZqSXQzRTFrUVZVZl9QS2gtU3dtUlI4Tlp2c0ZTTEphQU9Ga1RhNnFyTmxVNWNja0RSNzhPV0JYMTdQN1BKb0Y4?oc=5",
-     "source": "CNN Brasil",
-     "published_at": "2026-08-21T20:01:53+00:00"
-    },
-    {
      "title": "Irmãos Batista compram fabricante de armas de guerra Avibras",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/jandf-de-wesley-e-joesley-batista-compra-fabricante-de-armas-de-guerra-avibras.ghtml",
      "source": "G1 Agronegócios",
@@ -595,6 +589,12 @@
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/16/mosca-de-estabulo-avanca-no-inverno-e-causa-prejuizo-a-pecuaristas-no-interior-de-sp.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-16T10:30:13"
+    },
+    {
+     "title": "Peão de Orindiúva viaja 10 mil km para divulgar cultura caipira",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/16/peao-de-orindiuva-viaja-10-mil-km-para-divulgar-cultura-caipira.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-16T10:30:12"
     }
    ],
    "failed": [

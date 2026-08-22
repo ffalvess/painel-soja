@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-21T23:17:24+00:00",
+ "generated_at": "2026-08-22T00:53:25+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-21T23:17:15+00:00",
+   "updated_at": "2026-08-22T00:53:17+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -247,7 +247,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-21T23:17:16+00:00",
+   "updated_at": "2026-08-22T00:53:18+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -258,7 +258,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-21T23:17:19+00:00",
+   "updated_at": "2026-08-22T00:53:22+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -281,22 +281,22 @@
       0.0
      ],
      "tmax": [
-      35.5,
+      35.7,
       36.8,
-      36.8,
-      36.7,
+      36.6,
+      36.6,
+      37.5,
       37.6,
-      37.7,
       37.5
      ],
      "tmin": [
       21.1,
-      22.7,
-      23.3,
-      23.7,
-      24.2,
-      24.3,
-      24.0
+      23.0,
+      23.4,
+      24.0,
+      24.0,
+      24.8,
+      24.4
      ]
     },
     {
@@ -314,28 +314,28 @@
       0.0,
       0.0,
       0.0,
-      0.3,
+      0.1,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      35.2,
+      35.4,
       35.8,
-      36.2,
-      36.0,
-      36.9,
-      37.3,
-      36.3
+      36.3,
+      36.1,
+      37.0,
+      36.7,
+      36.1
      ],
      "tmin": [
       20.9,
-      22.3,
-      23.2,
-      23.5,
+      22.4,
       23.4,
-      23.6,
-      23.9
+      24.0,
+      23.3,
+      23.3,
+      23.8
      ]
     },
     {
@@ -360,21 +360,21 @@
      ],
      "tmax": [
       29.5,
-      29.8,
-      32.7,
+      29.9,
+      32.6,
       34.0,
-      34.9,
-      31.0,
-      34.9
+      35.0,
+      31.2,
+      35.3
      ],
      "tmin": [
       18.8,
-      15.5,
-      16.7,
-      18.9,
-      21.3,
-      23.3,
-      20.4
+      15.7,
+      17.2,
+      19.0,
+      21.2,
+      23.2,
+      20.6
      ]
     },
     {
@@ -393,34 +393,82 @@
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0,
+      3.0,
+      0.9,
       0.0
      ],
      "tmax": [
-      23.4,
-      24.9,
-      26.3,
-      28.1,
-      27.3,
-      32.4,
-      34.5
+      24.4,
+      25.1,
+      26.5,
+      28.3,
+      24.5,
+      29.9,
+      34.2
      ],
      "tmin": [
       10.5,
-      10.8,
-      11.7,
-      13.6,
-      17.7,
-      18.1,
-      21.0
+      10.7,
+      11.8,
+      13.7,
+      17.2,
+      16.7,
+      19.5
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-21T23:17:24+00:00",
+   "updated_at": "2026-08-22T00:53:25+00:00",
    "items": [
+    {
+     "title": "Produtores de alho enfrentam crise e ameaçam 250 mil empregos no Brasil",
+     "link": "https://www.canalrural.com.br/videos/produtores-de-alho-enfrentam-crise-e-ameacam-250-mil-empregos-no-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T00:15:12+00:00"
+    },
+    {
+     "title": "Entidades do agronegócio destacam prioridades para o próximo presidente",
+     "link": "https://www.canalrural.com.br/videos/entidades-do-agronegocio-destacam-prioridades-para-o-proximo-presidente/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T00:05:51+00:00"
+    },
+    {
+     "title": "Frio e baixa umidade devem marcar o fim de semana em várias regiões do Brasil",
+     "link": "https://www.canalrural.com.br/videos/frio-e-baixa-umidade-devem-marcar-o-fim-de-semana-em-varias-regioes-do-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T00:05:42+00:00"
+    },
+    {
+     "title": "Expogenética 2026 destaca touros referência na genética zebuína",
+     "link": "https://www.canalrural.com.br/videos/expogenetica-2026-destaca-touros-referencia-na-genetica-zebuina/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T00:05:31+00:00"
+    },
+    {
+     "title": "Abiove projeta aumento nas exportações de farelo de soja em 2026 - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbnU4TGN1SmdIbHhrNTR6T0MwQjRtbXNxRmg0YkFOaHdzZlZ3Q3hqUHRVbUhGY3lraHZHbVBhVllKbzBlaEhjTWpzdE9tbHo5THVkZGNfQmRxTURvRlc4c29vbVo5M3JoWnhwUEFqSEpoNC14UnVEVGZHUTVYU2xHSU9teHdYR2Q0VW9fNnVOVDFWR2pIVmRhY0M1Yzc2SDNhUlRzVw?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T00:05:22+00:00"
+    },
+    {
+     "title": "Abiove projeta aumento nas exportações de farelo de soja em 2026",
+     "link": "https://www.canalrural.com.br/videos/abiove-projeta-aumento-nas-exportacoes-de-farelo-de-soja-em-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T00:05:22+00:00"
+    },
+    {
+     "title": "Mercado financeiro interrompe projeção de queda da inflação para 2026",
+     "link": "https://www.canalrural.com.br/videos/mercado-financeiro-interrompe-projecao-de-queda-da-inflacao-para-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T00:05:10+00:00"
+    },
+    {
+     "title": "Sementes certificadas ganham peso nas decisões para a safra de soja 2026/27 - O Presente Rural",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa2RubUNlRWpya3ZEZnBRejlOQlZsWXZzUnVjd2ZhZWVQbHFHYlNTUTNtZXIxazZEdTlaZms4OTQyLW53SC13OE1YUG1NZUpGVTJmUmVORFc1X2Vob01YbHVkSjQ3V3g0QU9GcWRYRTVod2NIY0RrWGs4Q2hJU25TNE5kWTNuSUdGTXpONExESlpBRVQzYlh1b1pvQnVfelVXcU94ZkcyaWY0UQ?oc=5",
+     "source": "O Presente Rural",
+     "published_at": "2026-08-21T22:58:57+00:00"
+    },
     {
      "title": "Boi gordo: veja como os preços terminaram a semana em dia de anúncio de Trump",
      "link": "https://www.canalrural.com.br/pecuaria/boi-gordo-veja-como-os-precos-terminaram-a-semana-em-dia-de-anuncio-de-trump/",
@@ -458,46 +506,10 @@
      "published_at": "2026-08-21T21:30:12+00:00"
     },
     {
-     "title": "O que diferencia os profissionais mais preparados no mercado de commodities agrícolas",
-     "link": "https://www.canalrural.com.br/cotacao/o-que-diferencia-os-profissionais-mais-preparados-no-mercado-de-commodities-agricolas/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T20:47:22+00:00"
-    },
-    {
-     "title": "Início da semana terá chance de geada e mínima de 0°C; confira a previsão",
-     "link": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/inicio-da-semana-tera-chance-de-geada-e-minima-de-0c-confira-a-previsao/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T20:40:54+00:00"
-    },
-    {
      "title": "Preços da soja no Brasil renovam máximas após semana com quase 4% de alta acumulada em Chicago - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQck5wc1JjZThYZzZsWF9hSVY5bnVJSXQtNGlaVG1tQ294VFhJejBXT3hZdndOWXBPZFlBYjVLTm5iLUdrYzhwZ1c1ZU1KN00xVHdzUXNWZzlCOFB2ckFLSGkycFJoNFF6YXNUSWljaXZkZkZnT01Bei1YZ0Rrbk4tNTRkaFRDcXlROG1ncUQxQzA0TUs5M0F3UW9pc3EwSVFuUGkyX0FacGRCX3RoU3FqRXZlZmlPOHFUdTI1Skk5SWczLVd3d204VUJlRzdoYlVZN2VkZ0xiMW04ZHp4RkJJZVl3Z19BT2ZyNmfSAe8BQVVfeXFMTlpJb1B1V1ZrYzB4YWtBRWlSWUd4cXNua0p6OVk5ZFpnQlFnMU5sY1dGblpUQXlGZWYyT1VaUnBaR1hQRUFLQkZ3SDFJUGhxcXBwQ0gycnFuRkFiSmFQQUc3NGVzSmZGeFVWSTBEX1Jka3h2SVJVVzlrb3hVNXQyRmtkOWdUQUtQZXdFY1JIYmNXNWdMTHJhZGpCenczcmpobHlkY1ZJd1VJaXhsMkRnZUZwMEJ5azJ3SkFyYjRxV0Izekl2YU1uUWxVeWdTSlFvb3owMTZEeDd6bktmQXNXQV9FYWFjRzlENGF3bEs3VWs?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-21T20:26:36+00:00"
-    },
-    {
-     "title": "Setor do alho em Minas Gerais enfrenta crise devido a clima e custos altos",
-     "link": "https://www.canalrural.com.br/videos/setor-do-alho-em-minas-gerais-enfrenta-crise-devido-a-clima-e-custos-altos/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T20:15:08+00:00"
-    },
-    {
-     "title": "Abertura de novos mercados internacionais aumenta rentabilidade para produtores rurais",
-     "link": "https://www.canalrural.com.br/videos/abertura-de-novos-mercados-internacionais-aumenta-rentabilidade-para-produtores-rurais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T20:05:59+00:00"
-    },
-    {
-     "title": "Frio, chuva e risco de geada devem marcar o fim de semana no Brasil",
-     "link": "https://www.canalrural.com.br/videos/frio-chuva-e-risco-de-geada-devem-marcar-o-fim-de-semana-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T20:05:48+00:00"
-    },
-    {
-     "title": "Clima desafiador exige atenção redobrada no manejo de cana-de-açúcar",
-     "link": "https://www.canalrural.com.br/videos/clima-desafiador-exige-atencao-redobrada-no-manejo-de-cana-de-acucar/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T20:05:37+00:00"
     },
     {
      "title": "Expedição indica produção maior de soja nos EUA e queda para o milho - Globo Rural",
@@ -518,12 +530,6 @@
      "published_at": "2026-08-21T19:57:09+00:00"
     },
     {
-     "title": "MT registra novo recorde no esmagamento de soja - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMkJRNFZYRmp6TVZ1aVUxaG13ZkJuWlNNU213WlVvS2FPekVMNm0tcVg2aWJHV2NqTTQ3dzFPYXMweXVKSUFjQ0pFMFpZcjJjNkF1dkZ2UFpCX29XTXlBaU1uSEcxTGdVMVhNRTdERkhsa1QwdnV1VWktcVVWbFRiQUxKMTZacVU5eFBzcXlkeHk?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-08-21T19:30:27+00:00"
-    },
-    {
      "title": "Preço dos derivados de soja sobe no Brasil em agosto - O Presente Rural",
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOV2JsQlo3VHZaQ0VQSUpMa3oyVkZDRXBsWmNKZ2xmenZIRTNQRmd0WlVIbXFFSlZ4el9FNWNZWjkxcFFNYkVtdS1kdjU2VmNxVlhucXAyTVl1NDBpQmtjbHlVRUVEcm45cjJZalphQnJfWkUwUjRMREVPaXRYc0RQblBJOE0zMHloRXRR?oc=5",
      "source": "O Presente Rural",
@@ -534,12 +540,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/jandf-de-wesley-e-joesley-batista-compra-fabricante-de-armas-de-guerra-avibras.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T18:20:50"
-    },
-    {
-     "title": "Soja tem alta ‘expressiva’ no Brasil e atinge maior nível em mais de 3 anos, diz Cepea - Money Times",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZGxPMWJPZWdXbFZ1blZXcHhYUUJ3QkhXcGh3MzZDaDFOcWlNR0N1VTdfdXY5NVZ1bWVJd3RNcHN2Rjl0WXpBNnBKUnFjVjhTQUlPYmM0ZXVMazgwMG5zemEzSFRQNlpOaFRFUkhJeHBvYjFUYzNqRTVwNzJFNnZuUnhWM1NMQ25NYjFXbjcxcnNab0lESHJaQWZYUExqRTR6X0xSMVNfTkFYbUVsLU45SkZKTkdQakk4Nm9V?oc=5",
-     "source": "Money Times",
-     "published_at": "2026-08-21T18:01:00+00:00"
     },
     {
      "title": "Um novo passo para o crescimento da soja e derivados - The AgriBiz",
@@ -554,10 +554,10 @@
      "published_at": "2026-08-21T17:17:48+00:00"
     },
     {
-     "title": "Startup criada em Mato Grosso acelera melhoramento genético da soja - safras.com.br",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdzZ3YUpQcWdiQWQ5a1RRZlRNaGtMUWdRQVBGNDVHb2xYRzVRLW5UbjhVajFTTUVFOWRDNnJFT2ZHdXNMX29aemFNdU9JX1lHNGZmZ2NNZThrTVUzSmZxeUhyVFRhTzZJeEtyTjE3ZFNuQ252MlFhSjllN2NtcGFodUJ4Sll6aUt1Y0xOaTF6cW5pQ0JK?oc=5",
-     "source": "safras.com.br",
-     "published_at": "2026-08-21T17:14:48+00:00"
+     "title": "Presença de abelhas pode aumentar produtividade da soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaTNKNVZnY1JaWVRnZGl3LVdWWEZPNEhXeGFvbnFTNnVlS0oxZ2lLZU55eWxTZl9ZSGhPNHphUXNvWGIyYm10ZEdubXVSLUFnR2hybi1Rc0ZWcWc2WldFbDBQbDd0SFdiLXVndFdXUWZZY3ZuRHAzT3dBSnVPclVCY3AxZXBVRUpoU3ZLbFFYeVRDOWVxVjBlSU5aNnBmSjNtUDMzUXJLdw?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-21T16:57:00+00:00"
     },
     {
      "title": "Aprenda a montar uma horta em casa",

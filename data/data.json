@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-22T09:20:58+00:00",
+ "generated_at": "2026-08-22T10:16:36+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-22T09:20:50+00:00",
+   "updated_at": "2026-08-22T10:16:29+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -242,7 +242,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-22T09:20:51+00:00",
+   "updated_at": "2026-08-22T10:16:29+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -253,7 +253,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-22T09:20:55+00:00",
+   "updated_at": "2026-08-22T10:16:33+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -414,7 +414,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-22T09:20:58+00:00",
+   "updated_at": "2026-08-22T10:16:36+00:00",
    "items": [
     {
      "title": "Massa de ar polar se espalha do Sul ao Norte do país; confira a previsão de hoje",
@@ -525,12 +525,6 @@
      "published_at": "2026-08-21T20:01:53+00:00"
     },
     {
-     "title": "Preços de soja e milho sobem em Chicago com novas projeções de safra - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObmQxLXc1SlFUamNaREtoRGF2MVZ3Rm5yRU1MQl9HOGVZc3lxNzNEWE1Wa0xIQVFXLXhwWnBNQXhmXzBPZEpHbXdsQmt5RUZzdHRJVTN0Mjh6SlVYZU80Y0VBR0lpak9veGQtWWZEZGljV2R2SU5EaTNKeUZnMlhMdm43aXh3SVBNUmFsdTVfbmJiSlhlOGNtd21WWmNUX1ZoODNsVzIyRlctQVZ1dHhuMjJVYXZhRkF6dDdMUWU3RkNrRl9hMnRz0gHWAUFVX3lxTE9OZkREMXFOXy04UTN2M2xGMGdQa2Fib1psbXFleDNOQ3lmSDhCT1NxVGY1ckloWmtDX2w3dTRWeElmTTM3WlhTUHBVVXU4VU5mUXZKVzFVMlQ2VTBwdU1JeU1oWEs5NWd6OEdRRktVSHFIUFZ4MEtsY09GNndxd3lHZEw2cnhVQ0RfVFY5NHVZUjVBY2t1ZzNYUmFjdVRNYUI3eWJZNlRBZUQzTDBPY0pDdnZpQldEdzZXbWhTSUdRWVJmUm16VXFKZ3d6WmhBU0JkWERpVGc?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-21T19:57:09+00:00"
-    },
-    {
      "title": "J&F, de Wesley e Joesley Batista, compra fabricante de armas de guerra Avibras",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/jandf-de-wesley-e-joesley-batista-compra-fabricante-de-armas-de-guerra-avibras.ghtml",
      "source": "G1 Agronegócios",
@@ -571,6 +565,12 @@
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWHdnNnpVSTBNY2wtRFRLM0xCeDJZLUJSZXNPb2x0ZFFobkY2dnV6ejdCazJrUEt5SEwyN0ppb2RxNGRjQVZMX2pGZ3E5cTlDemxRbDNudzVzVk5zcllkYUdIWVVZUW1RVXBFMEJCTlpXU1pFSUtmUTJJU0MycTE4RmhmNlQ4NVVlbmtpYk5idzJyWkxabWZCY1cwa1dJSVc1ejdwNm05RFVDallHVWp0b21IU1FNTjNGZVZoY2FPWEw?oc=5",
      "source": "Senado Federal",
      "published_at": "2026-08-20T20:34:00+00:00"
+    },
+    {
+     "title": "Nota Política da APIB sobre o enfraquecimento da Moratória da Soja e seus impactos no aumento de desmatamento e violações aos direitos dos povos indígenas do Brasil - Articulação dos Povos Indígenas do Brasil | APIB",
+     "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQV0h3c1hweUVWRlJBWEd4MnJQVWVIZ1p1TFpkRnhWYlU2cUJZaFg2MTQwNThhWG92Mmk2LXlGWmZDamoxYzZ4TnNNSlAydDRMRS1hc3ZrcjVsQ0t0TW84cGtSam15TFh0YmpVOXBZWXY5ejlrZHJjR2FHb2w2X19MTzR3bUlEcFFPYm1veU5wSmNmMmdJdnRUMTR6ZDZNVnc4TDZvdHJvbW5yX0xIRW1RdUZuTGVGVkVBQWRqb0ZRTFZRb1N1YVlLY0ZUcmktVDlsd0EtZGFiV3ExQW9tRE5nZ1V5ZE55bHg1XzBxTEVxSUw0UGlXRlBva1NZRDc3bTBRZDNzUktoS1Bhd3BLU3ktTm14aTYyd19qMnZfSWdmdEV1M3A3QUZj?oc=5",
+     "source": "Articulação dos Povos Indígenas do Brasil | APIB",
+     "published_at": "2026-08-20T16:55:05+00:00"
     },
     {
      "title": "O início da virada para a soja vem aí? Os dados sugerem que sim - The AgriBiz",

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-22T20:15:11+00:00",
+ "generated_at": "2026-08-22T21:15:24+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-22T20:15:05+00:00",
+   "updated_at": "2026-08-22T21:15:18+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -242,7 +242,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-22T20:15:05+00:00",
+   "updated_at": "2026-08-22T21:15:18+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -253,7 +253,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-22T20:15:09+00:00",
+   "updated_at": "2026-08-22T21:15:21+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -414,8 +414,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-22T20:15:11+00:00",
+   "updated_at": "2026-08-22T21:15:24+00:00",
    "items": [
+    {
+     "title": "Temperatura de 0°C traz alerta de geada para mais de 160 municípios, incluindo capitais",
+     "link": "https://www.canalrural.com.br/previsao-do-tempo/temperatura-de-0c-traz-alerta-de-geada-para-mais-de-160-municipios-incluindo-capitais/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T21:00:01+00:00"
+    },
+    {
+     "title": "Ubarana ganha valor comercial e amplia renda de mulheres da pesca em Magé",
+     "link": "https://www.canalrural.com.br/economia/ubarana-ganha-valor-comercial-e-amplia-renda-de-mulheres-da-pesca-em-mage/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T20:30:26+00:00"
+    },
+    {
+     "title": "Setor do etanol repudia fala de Flávio Bolsonaro sobre mistura à gasolina",
+     "link": "https://www.canalrural.com.br/politica/setor-do-etanol-reage-a-fala-de-flavio-bolsonaro-sobre-mistura-a-gasolina/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T20:17:18+00:00"
+    },
     {
      "title": "Reintrodução do takhi ganha destaque em debate sobre degradação de pastagens na Mongólia",
      "link": "https://www.canalrural.com.br/pecuaria/reintroducao-do-takhi-ganha-destaque-em-debate-sobre-degradacao-de-pastagens-na-mongolia/",
@@ -463,24 +481,6 @@
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdWFQeGJuM21LbUJobTFYNWFVYnRpUmVNYjhyYnpSaWM0azJQUGNlNVRhbHRLcUl1T1o4dHZGVjJUVUZHMjVFUlhpWVpUUlp6eTZrY2JhT2JRQmpwRFgyWk94RnRVMDd6OFhlOGEwLTdlQUNCRXZEU0otcUdzUFIycWlOdmdpOUVsMzhFbU1mZURROEI0YlJRVlpwN3VHVkF1VlZtajEwVC1PRTlTM2h5TTZNblg4RFpZYm5tdFF6Q00?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-22T14:18:38+00:00"
-    },
-    {
-     "title": "Milho ganha força enquanto soja espera por novos sinais de demanda internacional",
-     "link": "https://www.canalrural.com.br/agricultura/milho-ganha-forca-enquanto-soja-espera-por-novos-sinais-de-demanda-internacional/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T14:18:38+00:00"
-    },
-    {
-     "title": "Fim de semana terá tempo seco no Centro-Oeste e frio intenso no Sul",
-     "link": "https://www.canalrural.com.br/diversos/fim-de-semana-tera-tempo-seco-no-centro-oeste-e-frio-intenso-no-sul/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T14:05:03+00:00"
-    },
-    {
-     "title": "Pesquisadores redescobrem plantas raras em Minas Gerais após décadas sem registros",
-     "link": "https://www.canalrural.com.br/diversos/pesquisadores-redescobrem-plantas-raras-em-minas-gerais-apos-decadas-sem-registros/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T14:04:00+00:00"
     },
     {
      "title": "Soja lidera exportações de MS com US$ 2,43 bilhões - MS Todo dia",

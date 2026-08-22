@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-22T10:16:36+00:00",
+ "generated_at": "2026-08-22T11:15:17+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-22T10:16:29+00:00",
+   "updated_at": "2026-08-22T11:15:09+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -242,7 +242,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-22T10:16:29+00:00",
+   "updated_at": "2026-08-22T11:15:09+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -253,7 +253,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-22T10:16:33+00:00",
+   "updated_at": "2026-08-22T11:15:14+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -414,8 +414,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-22T10:16:36+00:00",
+   "updated_at": "2026-08-22T11:15:17+00:00",
    "items": [
+    {
+     "title": "Preço da soja cai após sequência de sete altas consecutivas - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRmNTY0ZrSy1BM3l6dFoyb1M0QVBNYW5iVy1rQVNtLVBULXpIX3lPU0FDQ1pUMW5NUFlFelZjWTZsZy1Fb2VRQ2laeXBKTk4zdmgtRkJUUE16YUxrY3FiSlhYZmhhUnJKaEJ0OGE5OTA1b0VUWG5Pd1RIU1FHc2NYWXBfbmFzR2dPcW16emNNNG81aTVZMmQwTGh4RHZ1aFd4RVdCU3ZZTmZGMW14SFUybldLWVNVZ0RqTWQ0MEV0VdIBzgFBVV95cUxQR3d4NG9YVW54NzhwUXFKVE9RODVsQktFTVBpVnRnSDhwYlBQVmYwVFVGNms2RlZUQmdaUlNkUXZzaGdEa2pMOVpkM2VoUzNmajhZUnA0T2JzUFd5RXZVSnFyaWNjV2E1dlZwa3V3UUhZWGw5QzJDeE9YZ01zZi14cnhsallVVVdkd2VVeWxUWFVoZXV5S2VOVXZ2eEhaWndCTEVuX0pKX0RpWGRGN2RFcHlESTlzbmFrSjM3bWhyRXpNczJDSFlCTXBzWVVfUQ?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-22T10:10:15+00:00"
+    },
     {
      "title": "Massa de ar polar se espalha do Sul ao Norte do país; confira a previsão de hoje",
      "link": "https://www.canalrural.com.br/previsao-do-tempo/massa-de-ar-polar-se-espalha-do-sul-ao-norte-do-pais-confira-a-previsao-de-hoje/",
@@ -511,12 +517,6 @@
      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQck5wc1JjZThYZzZsWF9hSVY5bnVJSXQtNGlaVG1tQ294VFhJejBXT3hZdndOWXBPZFlBYjVLTm5iLUdrYzhwZ1c1ZU1KN00xVHdzUXNWZzlCOFB2ckFLSGkycFJoNFF6YXNUSWljaXZkZkZnT01Bei1YZ0Rrbk4tNTRkaFRDcXlROG1ncUQxQzA0TUs5M0F3UW9pc3EwSVFuUGkyX0FacGRCX3RoU3FqRXZlZmlPOHFUdTI1Skk5SWczLVd3d204VUJlRzdoYlVZN2VkZ0xiMW04ZHp4RkJJZVl3Z19BT2ZyNmfSAe8BQVVfeXFMTlpJb1B1V1ZrYzB4YWtBRWlSWUd4cXNua0p6OVk5ZFpnQlFnMU5sY1dGblpUQXlGZWYyT1VaUnBaR1hQRUFLQkZ3SDFJUGhxcXBwQ0gycnFuRkFiSmFQQUc3NGVzSmZGeFVWSTBEX1Jka3h2SVJVVzlrb3hVNXQyRmtkOWdUQUtQZXdFY1JIYmNXNWdMTHJhZGpCenczcmpobHlkY1ZJd1VJaXhsMkRnZUZwMEJ5azJ3SkFyYjRxV0Izekl2YU1uUWxVeWdTSlFvb3owMTZEeDd6bktmQXNXQV9FYWFjRzlENGF3bEs3VWs?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-21T20:26:36+00:00"
-    },
-    {
-     "title": "Expedição indica produção maior de soja nos EUA e queda para o milho - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWUpXektNQzNjdWJIcm00Zl9YVzhkazhpYjlSOUxPam1uN2tpUVNXakQ1U0VMSjd5X0xpNXZDWW00SHdJd1JyVFlJLUEyYmtuNHN2UmpkT0RKaDdFcEhyTlEzdnN3UklaMjE2Zi1ZaUR6bFlod2ZXTmNLdlpxemU0c2NFUHB5LW00c0h2bXFIdFc2N0h6UE1DVjRMRXFadk5OdHdnMlNuY21UYkhSN2o0TzJGWF9HWHhyODBZRHpmV2NQX1daaXN5T1Nra9IB2gFBVV95cUxNNkhDaTdmQ1Iyb2FYaFZ6bjZieVIxNTY1cFkxOWtqczk5bGdsRTE3N0cwaEFzdTg3QUw3NmZ4TmJzNWpaUTdwWkxsUU5EQVJmRTdsY3VmZktrYW1HUkpYMUlobUlVRnE1akVydGxUZmFwb0Q5blhLVU9HTWZrTk1oQ3RGSVZtV2NOWi0yTlA0MEFYSXdsUV8wVmV3WmhWZW5LZHNFMUg2dDcxRHdBZmpaTW42ZWM4WDhJalpjRlFvN2ROb3ZXMTh4QjlJcXh5QXlVNjVXMlJwaXhvZw?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-21T20:03:14+00:00"
     },
     {
      "title": "Vendas para a China e safra americana impulsionam preços da soja em Chicago - CNN Brasil",

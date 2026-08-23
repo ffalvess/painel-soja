@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-23T17:15:12+00:00",
+ "generated_at": "2026-08-23T18:19:52+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-23T17:15:03+00:00",
+   "updated_at": "2026-08-23T18:19:46+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -200,9 +200,9 @@
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 171031.73,
+     "price": 170448.88,
      "prev_close": 171032.0,
-     "change_pct": -0.0,
+     "change_pct": -0.34,
      "closes": [
       173326.0,
       177548.0,
@@ -228,7 +228,7 @@
       167830.0,
       167927.0,
       171032.0,
-      171031.7344
+      170448.875
      ]
     }
    ],
@@ -236,7 +236,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-23T17:15:04+00:00",
+   "updated_at": "2026-08-23T18:19:46+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -247,7 +247,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-23T17:15:08+00:00",
+   "updated_at": "2026-08-23T18:19:50+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -408,8 +408,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-23T17:15:12+00:00",
+   "updated_at": "2026-08-23T18:19:52+00:00",
    "items": [
+    {
+     "title": "Pesquisadores transformam grãos quebrados de feijão em proteína para bebidas, cappuccino e snacks",
+     "link": "https://www.canalrural.com.br/agricultura/feijao/pesquisadores-transformam-graos-quebrados-de-feijao-em-proteina-para-bebidas-cappuccino-e-snacks/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-23T18:02:00+00:00"
+    },
     {
      "title": "Nova regra estabelece cuidados com pescado durante transporte em embarcações",
      "link": "https://www.canalrural.com.br/nacional/nova-regra-estabelece-cuidados-com-pescado-durante-transporte-em-embarcacoes/",
@@ -511,12 +517,6 @@
      "link": "https://www.canalrural.com.br/pecuaria/quatro-fatores-reforcam-expectativa-de-alta-para-a-arroba-do-boi-gordo-em-setembro/",
      "source": "Canal Rural",
      "published_at": "2026-08-22T22:02:00+00:00"
-    },
-    {
-     "title": "Temperatura de 0°C traz alerta de geada para mais de 160 municípios, incluindo capitais",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/temperatura-de-0c-traz-alerta-de-geada-para-mais-de-160-municipios-incluindo-capitais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T21:00:01+00:00"
     },
     {
      "title": "Milho ganha força enquanto soja espera por novos sinais de demanda internacional - Canal Rural",

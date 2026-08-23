@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-23T11:15:39+00:00",
+ "generated_at": "2026-08-23T12:27:12+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-23T11:15:31+00:00",
+   "updated_at": "2026-08-23T12:27:05+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -236,7 +236,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-23T11:15:32+00:00",
+   "updated_at": "2026-08-23T12:27:05+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -247,7 +247,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-23T11:15:36+00:00",
+   "updated_at": "2026-08-23T12:27:09+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -270,22 +270,22 @@
       0.0
      ],
      "tmax": [
-      36.4,
       36.5,
-      37.7,
-      37.6,
-      37.3,
+      36.5,
+      37.1,
+      37.4,
+      37.2,
       36.8,
       37.3
      ],
      "tmin": [
-      23.2,
-      23.5,
+      23.1,
+      23.4,
       24.2,
       24.5,
-      24.0,
-      24.9,
-      26.4
+      24.1,
+      25.1,
+      26.2
      ]
     },
     {
@@ -301,30 +301,30 @@
      ],
      "precip": [
       0.0,
-      0.1,
       0.0,
       0.0,
-      0.3,
+      0.0,
+      0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      35.7,
-      35.5,
-      37.2,
-      37.3,
       35.6,
+      35.1,
+      36.6,
+      37.0,
+      36.0,
       36.0,
       36.5
      ],
      "tmin": [
-      23.2,
-      22.9,
-      23.3,
-      23.5,
-      23.8,
+      23.0,
+      23.0,
+      23.1,
+      23.9,
+      23.7,
       24.9,
-      26.2
+      26.0
      ]
     },
     {
@@ -342,28 +342,28 @@
       0.0,
       0.0,
       0.0,
-      0.6,
+      0.5,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      32.2,
-      33.5,
-      34.9,
-      33.1,
-      34.2,
-      35.8,
+      31.8,
+      33.0,
+      34.4,
+      34.7,
+      34.1,
+      35.7,
       36.0
      ],
      "tmin": [
-      15.9,
-      18.2,
-      20.3,
+      15.5,
+      17.8,
+      20.0,
       21.9,
-      19.7,
-      21.6,
-      25.2
+      18.7,
+      21.9,
+      25.6
      ]
     },
     {
@@ -380,36 +380,48 @@
      "precip": [
       0.0,
       0.0,
-      0.9,
-      4.8,
+      0.7,
+      1.4,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
-      27.6,
-      28.9,
-      29.0,
-      27.9,
-      32.7,
-      34.8,
+      27.7,
+      28.5,
+      29.8,
+      28.0,
+      33.2,
+      35.4,
       34.3
      ],
      "tmin": [
-      12.4,
+      12.3,
       15.2,
-      17.1,
-      17.6,
-      17.9,
-      21.5,
-      24.1
+      16.5,
+      18.1,
+      17.7,
+      21.6,
+      24.2
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-23T11:15:39+00:00",
+   "updated_at": "2026-08-23T12:27:12+00:00",
    "items": [
+    {
+     "title": "Irmãs deixam carreiras para assumir negócios da família e investir na criação de 200 mil aves",
+     "link": "https://www.canalrural.com.br/aves-e-suinos/irmas-deixam-carreiras-para-assumir-negocios-da-familia-e-investir-na-criacao-de-200-mil-aves/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-23T12:03:00+00:00"
+    },
+    {
+     "title": "Tripes-praga da soja é registrado pela primeira vez em lavouras do Acre - Rádio Itatiaia",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcUhVdUdEU2VkSVotMGdieTI5LWFIR1Y0Z2pjTUx1UVJFenUxUWpIM3hsWW5BMFlKbUt1ZFN1QWpKakR2amw1ajctTVdVWEdyYXhrUkwxUW1aRnZEZDJ0N1F2Z3Q4RmpTTVBlQVdwMEwxazFCWEZXWXVISzhaam5TUHJKalBFT29FT000aVczTGtvZmJzNmlEQTB0TnU3bFE3TWljazFzSVY?oc=5",
+     "source": "Rádio Itatiaia",
+     "published_at": "2026-08-23T11:30:11+00:00"
+    },
     {
      "title": "Bovinos influenciadores: conheça a vaca Leide e o touro Xerife",
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/23/bovinos-influenciadores-conheca-a-vaca-leide-e-o-touro-xerife.ghtml",
@@ -435,7 +447,7 @@
      "published_at": "2026-08-23T09:02:00+00:00"
     },
     {
-     "title": "El Niño pode encarecer alimentos em até 20%; economistas prevêem impacto na inflação",
+     "title": "El Niño pode encarecer alimentos em até 20%; economistas preveem impacto na inflação",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/23/el-nino-pode-encarecer-alimentos-em-ate-20percent-economistas-preveem-impacto-na-inflacao.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-23T08:00:45"
@@ -501,12 +513,6 @@
      "published_at": "2026-08-22T16:01:00+00:00"
     },
     {
-     "title": "Índia abre mercado e semana redesenha oportunidades para o agro brasileiro",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/india-abre-mercado-e-semana-redesenha-oportunidades-para-o-agro-brasileiro/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T15:36:01+00:00"
-    },
-    {
      "title": "Milho ganha força enquanto soja espera por novos sinais de demanda internacional - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdWFQeGJuM21LbUJobTFYNWFVYnRpUmVNYjhyYnpSaWM0azJQUGNlNVRhbHRLcUl1T1o4dHZGVjJUVUZHMjVFUlhpWVpUUlp6eTZrY2JhT2JRQmpwRFgyWk94RnRVMDd6OFhlOGEwLTdlQUNCRXZEU0otcUdzUFIycWlOdmdpOUVsMzhFbU1mZURROEI0YlJRVlpwN3VHVkF1VlZtajEwVC1PRTlTM2h5TTZNblg4RFpZYm5tdFF6Q00?oc=5",
      "source": "Canal Rural",
@@ -535,6 +541,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/jandf-de-wesley-e-joesley-batista-compra-fabricante-de-armas-de-guerra-avibras.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T18:20:50"
+    },
+    {
+     "title": "China aumenta compras de soja dos EUA em meio a temor de safra menor e preços mais altos - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdklyc0JjNWRwQkxIMmQ2YWtOMnhaaVJoeW04WURxbExtMmtpQ18wc3dJVDdvZy0wVVpiRXhEQWNUcDFPc0YyTlNEWXpwaGVvb215Unp1dkxaekt4cEJzMHl2Mm5yVGZfNS1rY1E4SUpUVl9qV1F0S01OV0EzakpmMkhXdTdZcDJvd3JHV04ydnQ5ckViRkV4MFQtczdPNUpkWFJnRE1DMGxrNUFHZXIyOTFGYzJqdDNRdUpsMENMRl8wSllVS3M2LWlSUUNCS3RQNGNBRGhzczZId240RXNicFQtSHVRUdIB6wFBVV95cUxOdXhIc093dTVQczJvTGdGMlpXYkZCR3dnMWR2WE50X0x5RXRkUDR0ZkxQZVJTMzBCS1VUMm9xUjFjUGNYcnFzZXJWS2NMLVhHNmIwbG5CUHc5WnJSOXdDaklhWWF6ZTVoWFdNRGlzUTBSZWNPbTZFV1NMSnFULUtYcWRyZEVWMnlxcTJpUkU4eUIzd0ZJWWJaWFhBT2tmdXVMaVY3SXJtaFZPU0tLNGItVnBSeVE1TlAtUW1VajlOLWZCcFJfRkk4NW5fRy0xa0V1U0FDSFJCNmFNakkyLWEyWURuZXZJNnBlM25R?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-21T17:17:48+00:00"
     },
     {
      "title": "Presença de abelhas pode aumentar produtividade da soja - Agrolink",
@@ -577,18 +589,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/19/exportacoes-de-carne-bovina-caem-26percent-em-agosto-com-temor-de-tarifa-maior-na-china.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-19T16:17:16"
-    },
-    {
-     "title": "Limões 'alienígenas' intrigam produtora; entenda o que causa a deformação",
-     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/18/limoes-alienigenas-intrigam-produtora-entenda-o-que-causa-a-deformacao.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-18T06:00:18"
-    },
-    {
-     "title": "Mosca-de-estábulo avança no inverno e causa prejuízo a pecuaristas no interior de SP",
-     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/16/mosca-de-estabulo-avanca-no-inverno-e-causa-prejuizo-a-pecuaristas-no-interior-de-sp.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-16T10:30:13"
     }
    ],
    "failed": [

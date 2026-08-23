@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-23T22:14:59+00:00",
+ "generated_at": "2026-08-23T23:14:35+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-23T22:14:52+00:00",
+   "updated_at": "2026-08-23T23:14:29+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -168,9 +168,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 94.39,
+     "price": 93.57,
      "prev_close": 94.39,
-     "change_pct": 0.0,
+     "change_pct": -0.87,
      "closes": [
       100.69,
       96.78,
@@ -194,7 +194,7 @@
       91.62,
       93.78,
       94.39,
-      94.39
+      93.57
      ]
     },
     {
@@ -237,7 +237,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-23T22:14:52+00:00",
+   "updated_at": "2026-08-23T23:14:29+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -248,7 +248,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-23T22:14:57+00:00",
+   "updated_at": "2026-08-23T23:14:32+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -409,7 +409,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-23T22:14:59+00:00",
+   "updated_at": "2026-08-23T23:14:35+00:00",
    "items": [
     {
      "title": "Comitiva de São Paulo vence Concurso da Queima do Alho na Festa do Peão de Barretos",
@@ -550,12 +550,6 @@
      "published_at": "2026-08-21T18:20:50"
     },
     {
-     "title": "Presença de abelhas pode aumentar produtividade da soja - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaTNKNVZnY1JaWVRnZGl3LVdWWEZPNEhXeGFvbnFTNnVlS0oxZ2lLZU55eWxTZl9ZSGhPNHphUXNvWGIyYm10ZEdubXVSLUFnR2hybi1Rc0ZWcWc2WldFbDBQbDd0SFdiLXVndFdXUWZZY3ZuRHAzT3dBSnVPclVCY3AxZXBVRUpoU3ZLbFFYeVRDOWVxVjBlSU5aNnBmSjNtUDMzUXJLdw?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-21T16:57:00+00:00"
-    },
-    {
      "title": "Aprenda a montar uma horta em casa",
      "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/21/aprenda-a-montar-uma-horta-em-casa.ghtml",
      "source": "G1 Agronegócios",
@@ -590,6 +584,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/19/exportacoes-de-carne-bovina-caem-26percent-em-agosto-com-temor-de-tarifa-maior-na-china.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-19T16:17:16"
+    },
+    {
+     "title": "Limões 'alienígenas' intrigam produtora; entenda o que causa a deformação",
+     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/18/limoes-alienigenas-intrigam-produtora-entenda-o-que-causa-a-deformacao.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-18T06:00:18"
     }
    ],
    "failed": [

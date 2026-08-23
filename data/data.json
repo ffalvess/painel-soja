@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-23T07:27:58+00:00",
+ "generated_at": "2026-08-23T08:21:55+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-23T07:27:51+00:00",
+   "updated_at": "2026-08-23T08:21:45+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -236,7 +236,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-23T07:27:51+00:00",
+   "updated_at": "2026-08-23T08:21:45+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -247,7 +247,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-23T07:27:55+00:00",
+   "updated_at": "2026-08-23T08:21:51+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -408,8 +408,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-23T07:27:58+00:00",
+   "updated_at": "2026-08-23T08:21:55+00:00",
    "items": [
+    {
+     "title": "El Niño pode encarecer alimentos em até 20%; economistas prevêem impacto na inflação",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/23/el-nino-pode-encarecer-alimentos-em-ate-20percent-economistas-preveem-impacto-na-inflacao.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-23T08:00:45"
+    },
     {
      "title": "Startup de MT cria soja mais resistente à seca e nematoides para garantir lucro ao produtor - A Crítica de Campo Grande",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZTVWbHhiV1hJYlljejJDV3ZKN3JfSk80VDI2OWRkUTVPNjQ2X0ZOQlRhUC1lTG5RdnJHUEtLYWxONmYybG55Qno5NkxSY2xBZUNBRktXVjNsYnl2dzVLc1htNHFsdWxQQTl4VFk0RDBTU2NxMGdxNWEtdlY3aWFKMWY0Mkkzdml4enVjV0plWHVkaGZSQW5CRXFRRlQ4SmhISHRDaVQ0Wno1cTg5UjRsY0tXQ2licVJmVFR4bTlQSnM3UQ?oc=5",
@@ -489,6 +495,12 @@
      "published_at": "2026-08-22T10:10:15+00:00"
     },
     {
+     "title": "Abiove projeta aumento nas exportações de farelo de soja em 2026 - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbnU4TGN1SmdIbHhrNTR6T0MwQjRtbXNxRmg0YkFOaHdzZlZ3Q3hqUHRVbUhGY3lraHZHbVBhVllKbzBlaEhjTWpzdE9tbHo5THVkZGNfQmRxTURvRlc4c29vbVo5M3JoWnhwUEFqSEpoNC14UnVEVGZHUTVYU2xHSU9teHdYR2Q0VW9fNnVOVDFWR2pIVmRhY0M1Yzc2SDNhUlRzVw?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T00:05:22+00:00"
+    },
+    {
      "title": "Soja Tem Alta \"Expressiva\" no Brasil e Atinge Maior Nível em Mais de 3 Anos, Diz Cepea - Forbes Brasil",
      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVVJJcWZ4bDE4U2s1V1dHREFjRzJBUmRPRXRXUXJqUEx5cmVqLUtwekU1QTZYcC1OYUN3RmM5TjF3OTFpNVVPTXFlWEI2X1cwWjlZMU1SUW9qSDloV0JFTlNZVlV2cUJXaHZjSi1JSEl4WU5ONDVkUklOaVBVa2l2NGJMM3ZkYUo5bUlaY3ZsbzBzemFJdEc4Q1JGYXZXYnVjcTA5OWxBcS01UmNnbnR0b0xpclN2SUwwUkkyUWdDZHV5WmY3?oc=5",
      "source": "Forbes Brasil",
@@ -501,10 +513,10 @@
      "published_at": "2026-08-21T21:37:35"
     },
     {
-     "title": "Mercado da soja encerra semana com preços firmes e demanda chinesa em destaque - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY1Q1R2E4UGVidkRvMW92RXZleWJIYVVXNjJhcjItVWZkeGl3YWZZZ1I3V2RpcHFjU1lBVU51SVkyTGZjdTZEaGN6ekJOSGh1Ykl0RGlVcmpqRG1rRlhEY093aG1fbTdIN2hxS29KczBhaVBDTkx3NllwYVNucmRsQ1dhZjZpNUhkMHFDQ3hjRGVvRGVZWnkxTTdCd2dDUE9KeEZYZUxNN21JR19CNzhmYWIyTlZTZjVtZzFzRlpfUDVUVjZB?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-21T21:30:12+00:00"
+     "title": "Preços da soja no Brasil renovam máximas após semana com quase 4% de alta acumulada em Chicago - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQck5wc1JjZThYZzZsWF9hSVY5bnVJSXQtNGlaVG1tQ294VFhJejBXT3hZdndOWXBPZFlBYjVLTm5iLUdrYzhwZ1c1ZU1KN00xVHdzUXNWZzlCOFB2ckFLSGkycFJoNFF6YXNUSWljaXZkZkZnT01Bei1YZ0Rrbk4tNTRkaFRDcXlROG1ncUQxQzA0TUs5M0F3UW9pc3EwSVFuUGkyX0FacGRCX3RoU3FqRXZlZmlPOHFUdTI1Skk5SWczLVd3d204VUJlRzdoYlVZN2VkZ0xiMW04ZHp4RkJJZVl3Z19BT2ZyNmfSAe8BQVVfeXFMTlpJb1B1V1ZrYzB4YWtBRWlSWUd4cXNua0p6OVk5ZFpnQlFnMU5sY1dGblpUQXlGZWYyT1VaUnBaR1hQRUFLQkZ3SDFJUGhxcXBwQ0gycnFuRkFiSmFQQUc3NGVzSmZGeFVWSTBEX1Jka3h2SVJVVzlrb3hVNXQyRmtkOWdUQUtQZXdFY1JIYmNXNWdMTHJhZGpCenczcmpobHlkY1ZJd1VJaXhsMkRnZUZwMEJ5azJ3SkFyYjRxV0Izekl2YU1uUWxVeWdTSlFvb3owMTZEeDd6bktmQXNXQV9FYWFjRzlENGF3bEs3VWs?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-21T20:26:36+00:00"
     },
     {
      "title": "Irmãos Batista compram fabricante de armas de guerra Avibras",
@@ -543,22 +555,10 @@
      "published_at": "2026-08-20T20:34:00+00:00"
     },
     {
-     "title": "Nota Política da APIB sobre o enfraquecimento da Moratória da Soja e seus impactos no aumento de desmatamento e violações aos direitos dos povos indígenas do Brasil - Articulação dos Povos Indígenas do Brasil | APIB",
-     "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQV0h3c1hweUVWRlJBWEd4MnJQVWVIZ1p1TFpkRnhWYlU2cUJZaFg2MTQwNThhWG92Mmk2LXlGWmZDamoxYzZ4TnNNSlAydDRMRS1hc3ZrcjVsQ0t0TW84cGtSam15TFh0YmpVOXBZWXY5ejlrZHJjR2FHb2w2X19MTzR3bUlEcFFPYm1veU5wSmNmMmdJdnRUMTR6ZDZNVnc4TDZvdHJvbW5yX0xIRW1RdUZuTGVGVkVBQWRqb0ZRTFZRb1N1YVlLY0ZUcmktVDlsd0EtZGFiV3ExQW9tRE5nZ1V5ZE55bHg1XzBxTEVxSUw0UGlXRlBva1NZRDc3bTBRZDNzUktoS1Bhd3BLU3ktTm14aTYyd19qMnZfSWdmdEV1M3A3QUZj?oc=5",
-     "source": "Articulação dos Povos Indígenas do Brasil | APIB",
-     "published_at": "2026-08-20T16:55:05+00:00"
-    },
-    {
      "title": "O início da virada para a soja vem aí? Os dados sugerem que sim - The AgriBiz",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWVExQ2lVbVM4MTJhNlo5Y3VRd0hNdDc1TlZVckhabDhBRGhLVzJNYThGRGcwUGNReVNzaThSOFZyMlVVQUltbnBrVXFZOE1uVC1DUDhnd2NKaFdXM3dvY3dOTXNZcGdxeFBCS1F4MVd0cmdQdjB0Q3A2R2k0cU42LUJRZHk0SHd3NzdKU1phZFdNbEgydl8wVDBwbF9vako5Y1BzeQ?oc=5",
      "source": "The AgriBiz",
      "published_at": "2026-08-20T16:15:31+00:00"
-    },
-    {
-     "title": "Produção de soja pode chegar a 180,4 milhões de toneladas - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMHZQUEsxeW9fajNza3ZmODQtMFhoOHdKYTdBd0NLS1lTYndqak1PQXRTMEVBSWRzNlAyMkhVMWZGelluLTNOdDFNMk9Hd0s3SFVlWHdHRHB0NVl5c1Z2UUFldkNySFFzaWpsa2JOUVBMdmxHQXFiLWE0bllSWHBhLWdBMkZDV3k2bUZWUHVJZ1VXLXh2R211Y0JSdk40THJmQkFqWnMyTmdQZw?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-20T16:03:00+00:00"
     },
     {
      "title": "Exportações de carne bovina caem 26% em agosto com temor de tarifa maior na China",

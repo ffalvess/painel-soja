@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-23T10:17:06+00:00",
+ "generated_at": "2026-08-23T11:15:39+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-23T10:16:58+00:00",
+   "updated_at": "2026-08-23T11:15:31+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -236,7 +236,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-23T10:16:58+00:00",
+   "updated_at": "2026-08-23T11:15:32+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -247,7 +247,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-23T10:17:03+00:00",
+   "updated_at": "2026-08-23T11:15:36+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -408,8 +408,32 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-23T10:17:06+00:00",
+   "updated_at": "2026-08-23T11:15:39+00:00",
    "items": [
+    {
+     "title": "Bovinos influenciadores: conheça a vaca Leide e o touro Xerife",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/23/bovinos-influenciadores-conheca-a-vaca-leide-e-o-touro-xerife.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-23T10:30:22"
+    },
+    {
+     "title": "Variedade de uva italiana começa a ser produzida em São Roque",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/23/variedade-de-uva-italiana-comeca-a-ser-produzida-em-sao-roque.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-23T10:30:18"
+    },
+    {
+     "title": "Abelhas elevam produtividade da soja em até 18% - RADAR DIGITAL BRASÍLIA",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNmRzVVFRaTBOQ2JDNEEwdUNUa3FyVzFYdmoyb25ld1FqVERIWE1UWjJEd1JHaTBKdmphLW91LWViUHhaNFFfeDItb2JHamRNSGVWdkNfaTVyTllpY0JBeXFsczRzTWoxRmZ3NVpWSnhEWGhxUXRwVmpvNTNNSE9ZWHpEdEV0M1RiTDUtZWtCd09YWGRVYjRhVEY0RQ?oc=5",
+     "source": "RADAR DIGITAL BRASÍLIA",
+     "published_at": "2026-08-23T10:05:25+00:00"
+    },
+    {
+     "title": "Abelhas elevam produtividade da soja em até 18% - MOMENTO MT",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYVh1UzNfV1R1MElxNnd0WmoxbFNNVkZLTFJLUnlreFd3ejlnRVBxRFhDald5Uk5ROEpsU3VzUUdNclVGcWNqYnRCOS1OVE5qN0FXY2w0OF9NajR1VmVTQmpCQ05qYXJESDBjUHJ0RW1sOV96R2NGYW5rTU5rbVVFMmNlQWFpWDBUNnJvY1pn?oc=5",
+     "source": "MOMENTO MT",
+     "published_at": "2026-08-23T09:02:00+00:00"
+    },
     {
      "title": "El Niño pode encarecer alimentos em até 20%; economistas prevêem impacto na inflação",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/23/el-nino-pode-encarecer-alimentos-em-ate-20percent-economistas-preveem-impacto-na-inflacao.ghtml",
@@ -495,12 +519,6 @@
      "published_at": "2026-08-22T10:10:15+00:00"
     },
     {
-     "title": "Abiove projeta aumento nas exportações de farelo de soja em 2026 - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbnU4TGN1SmdIbHhrNTR6T0MwQjRtbXNxRmg0YkFOaHdzZlZ3Q3hqUHRVbUhGY3lraHZHbVBhVllKbzBlaEhjTWpzdE9tbHo5THVkZGNfQmRxTURvRlc4c29vbVo5M3JoWnhwUEFqSEpoNC14UnVEVGZHUTVYU2xHSU9teHdYR2Q0VW9fNnVOVDFWR2pIVmRhY0M1Yzc2SDNhUlRzVw?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T00:05:22+00:00"
-    },
-    {
      "title": "Soja Tem Alta \"Expressiva\" no Brasil e Atinge Maior Nível em Mais de 3 Anos, Diz Cepea - Forbes Brasil",
      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVVJJcWZ4bDE4U2s1V1dHREFjRzJBUmRPRXRXUXJqUEx5cmVqLUtwekU1QTZYcC1OYUN3RmM5TjF3OTFpNVVPTXFlWEI2X1cwWjlZMU1SUW9qSDloV0JFTlNZVlV2cUJXaHZjSi1JSEl4WU5ONDVkUklOaVBVa2l2NGJMM3ZkYUo5bUlaY3ZsbzBzemFJdEc4Q1JGYXZXYnVjcTA5OWxBcS01UmNnbnR0b0xpclN2SUwwUkkyUWdDZHV5WmY3?oc=5",
      "source": "Forbes Brasil",
@@ -511,12 +529,6 @@
      "link": "https://g1.globo.com/sp/piracicaba-regiao/noticia/2026/08/21/preco-do-suino-cai-para-o-3o-menor-patamar-da-historia-em-sp-sobreoferta-e-baixa-demanda-analisa-usp.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T21:37:35"
-    },
-    {
-     "title": "Preços da soja no Brasil renovam máximas após semana com quase 4% de alta acumulada em Chicago - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQck5wc1JjZThYZzZsWF9hSVY5bnVJSXQtNGlaVG1tQ294VFhJejBXT3hZdndOWXBPZFlBYjVLTm5iLUdrYzhwZ1c1ZU1KN00xVHdzUXNWZzlCOFB2ckFLSGkycFJoNFF6YXNUSWljaXZkZkZnT01Bei1YZ0Rrbk4tNTRkaFRDcXlROG1ncUQxQzA0TUs5M0F3UW9pc3EwSVFuUGkyX0FacGRCX3RoU3FqRXZlZmlPOHFUdTI1Skk5SWczLVd3d204VUJlRzdoYlVZN2VkZ0xiMW04ZHp4RkJJZVl3Z19BT2ZyNmfSAe8BQVVfeXFMTlpJb1B1V1ZrYzB4YWtBRWlSWUd4cXNua0p6OVk5ZFpnQlFnMU5sY1dGblpUQXlGZWYyT1VaUnBaR1hQRUFLQkZ3SDFJUGhxcXBwQ0gycnFuRkFiSmFQQUc3NGVzSmZGeFVWSTBEX1Jka3h2SVJVVzlrb3hVNXQyRmtkOWdUQUtQZXdFY1JIYmNXNWdMTHJhZGpCenczcmpobHlkY1ZJd1VJaXhsMkRnZUZwMEJ5azJ3SkFyYjRxV0Izekl2YU1uUWxVeWdTSlFvb3owMTZEeDd6bktmQXNXQV9FYWFjRzlENGF3bEs3VWs?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-21T20:26:36+00:00"
     },
     {
      "title": "Irmãos Batista compram fabricante de armas de guerra Avibras",
@@ -577,18 +589,6 @@
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/16/mosca-de-estabulo-avanca-no-inverno-e-causa-prejuizo-a-pecuaristas-no-interior-de-sp.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-16T10:30:13"
-    },
-    {
-     "title": "Peão de Orindiúva viaja 10 mil km para divulgar cultura caipira",
-     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/16/peao-de-orindiuva-viaja-10-mil-km-para-divulgar-cultura-caipira.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-16T10:30:12"
-    },
-    {
-     "title": "Curral eclético: vacas escutam de forró a música clássica e produzem mais leite em fazenda no ES; veja VÍDEO",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/16/curral-ecletico-vacas-escutam-de-forro-a-musica-classica-e-produzem-mais-leite-em-fazenda-no-es-veja-video.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-16T07:01:18"
     }
    ],
    "failed": [

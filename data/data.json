@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-23T13:26:56+00:00",
+ "generated_at": "2026-08-23T14:17:02+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-23T13:26:46+00:00",
+   "updated_at": "2026-08-23T14:16:53+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -236,7 +236,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-23T13:26:47+00:00",
+   "updated_at": "2026-08-23T14:16:54+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -247,7 +247,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-23T13:26:52+00:00",
+   "updated_at": "2026-08-23T14:16:58+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -408,8 +408,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-23T13:26:56+00:00",
+   "updated_at": "2026-08-23T14:17:02+00:00",
    "items": [
+    {
+     "title": "Milho dos EUA decepciona e muda o rumo dos preços",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/milho-dos-eua-decepciona-e-muda-o-rumo-dos-precos/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-23T14:09:46+00:00"
+    },
+    {
+     "title": "Como a qualificação pode abrir portas para mulheres no campo?",
+     "link": "https://www.canalrural.com.br/diversos/como-a-qualificacao-pode-abrir-portas-para-mulheres-no-campo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-23T14:01:00+00:00"
+    },
+    {
+     "title": "Eleições 2026: entenda as funções de presidente, vice e governador",
+     "link": "https://www.canalrural.com.br/politica/eleicoes-2026-entenda-as-funcoes-de-presidente-vice-e-governador/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-23T13:31:28+00:00"
+    },
     {
      "title": "UE pode reduzir em 95% importação de soja brasileira com tolerância zero a agrotóxicos - MundoCoop",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaEIxeUtkeGx1MTZzaWxkTl9QblNyVmJSZU1LLWM0NlNaM3JPdEJOUG1FUGdhVDhubzdVUjJ3RldwZmxXOGFaalNENlMyTGgxRkFka214RVlnaEI3MG5rWU5QYWg0YTRieFl5T2lVQ1VGVTI4cEtmSURQaVpqUXdVVFhvUkJIOWF3bC1rakpWSS0ySVM4WXBMZzJDbE5NSHBYMVhyb2xtSjJYb0ZiUU1NblAtREFoVTZOSkphTm8yMA?oc=5",
@@ -459,6 +477,12 @@
      "published_at": "2026-08-23T08:00:45"
     },
     {
+     "title": "Startup de MT cria soja mais resistente à seca e nematoides para garantir lucro ao produtor - A Crítica de Campo Grande",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZTVWbHhiV1hJYlljejJDV3ZKN3JfSk80VDI2OWRkUTVPNjQ2X0ZOQlRhUC1lTG5RdnJHUEtLYWxONmYybG55Qno5NkxSY2xBZUNBRktXVjNsYnl2dzVLc1htNHFsdWxQQTl4VFk0RDBTU2NxMGdxNWEtdlY3aWFKMWY0Mkkzdml4enVjV0plWHVkaGZSQW5CRXFRRlQ4SmhISHRDaVQ0Wno1cTg5UjRsY0tXQ2licVJmVFR4bTlQSnM3UQ?oc=5",
+     "source": "A Crítica de Campo Grande",
+     "published_at": "2026-08-23T02:14:10+00:00"
+    },
+    {
      "title": "Quatro fatores reforçam expectativa de alta para a arroba do boi gordo em setembro",
      "link": "https://www.canalrural.com.br/pecuaria/quatro-fatores-reforcam-expectativa-de-alta-para-a-arroba-do-boi-gordo-em-setembro/",
      "source": "Canal Rural",
@@ -495,34 +519,10 @@
      "published_at": "2026-08-22T20:05:00+00:00"
     },
     {
-     "title": "MT amplia exportação de carne bovina em julho, com destaque para Espanha",
-     "link": "https://www.canalrural.com.br/pecuaria/mt-amplia-exportacao-de-carne-bovina-em-julho-com-destaque-para-espanha/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T20:01:00+00:00"
-    },
-    {
-     "title": "Estados Unidos confirmam tarifa de 50% sobre o Canadá, que retribuirá ‘dólar por dólar’",
-     "link": "https://www.canalrural.com.br/internacional/estados-unidos-confirmam-tarifa-de-50-sobre-o-canada-que-retribuira-dolar-por-dolar/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T18:54:01+00:00"
-    },
-    {
-     "title": "Qual a melhor raça bovina para produção de carne no Brasil? Especialista responde",
-     "link": "https://www.canalrural.com.br/pecuaria/qual-a-melhor-raca-bovina-para-producao-de-carne-no-brasil-especialista-responde/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T16:01:00+00:00"
-    },
-    {
      "title": "Milho ganha força enquanto soja espera por novos sinais de demanda internacional - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdWFQeGJuM21LbUJobTFYNWFVYnRpUmVNYjhyYnpSaWM0azJQUGNlNVRhbHRLcUl1T1o4dHZGVjJUVUZHMjVFUlhpWVpUUlp6eTZrY2JhT2JRQmpwRFgyWk94RnRVMDd6OFhlOGEwLTdlQUNCRXZEU0otcUdzUFIycWlOdmdpOUVsMzhFbU1mZURROEI0YlJRVlpwN3VHVkF1VlZtajEwVC1PRTlTM2h5TTZNblg4RFpZYm5tdFF6Q00?oc=5",
      "source": "Canal Rural",
      "published_at": "2026-08-22T14:18:38+00:00"
-    },
-    {
-     "title": "Preço da soja cai após sequência de sete altas consecutivas - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRmNTY0ZrSy1BM3l6dFoyb1M0QVBNYW5iVy1rQVNtLVBULXpIX3lPU0FDQ1pUMW5NUFlFelZjWTZsZy1Fb2VRQ2laeXBKTk4zdmgtRkJUUE16YUxrY3FiSlhYZmhhUnJKaEJ0OGE5OTA1b0VUWG5Pd1RIU1FHc2NYWXBfbmFzR2dPcW16emNNNG81aTVZMmQwTGh4RHZ1aFd4RVdCU3ZZTmZGMW14SFUybldLWVNVZ0RqTWQ0MEV0VdIBzgFBVV95cUxQR3d4NG9YVW54NzhwUXFKVE9RODVsQktFTVBpVnRnSDhwYlBQVmYwVFVGNms2RlZUQmdaUlNkUXZzaGdEa2pMOVpkM2VoUzNmajhZUnA0T2JzUFd5RXZVSnFyaWNjV2E1dlZwa3V3UUhZWGw5QzJDeE9YZ01zZi14cnhsallVVVdkd2VVeWxUWFVoZXV5S2VOVXZ2eEhaWndCTEVuX0pKX0RpWGRGN2RFcHlESTlzbmFrSjM3bWhyRXpNczJDSFlCTXBzWVVfUQ?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-22T10:10:15+00:00"
     },
     {
      "title": "Soja Tem Alta \"Expressiva\" no Brasil e Atinge Maior Nível em Mais de 3 Anos, Diz Cepea - Forbes Brasil",
@@ -537,10 +537,22 @@
      "published_at": "2026-08-21T21:37:35"
     },
     {
+     "title": "Mercado da soja encerra semana com preços firmes e demanda chinesa em destaque - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY1Q1R2E4UGVidkRvMW92RXZleWJIYVVXNjJhcjItVWZkeGl3YWZZZ1I3V2RpcHFjU1lBVU51SVkyTGZjdTZEaGN6ekJOSGh1Ykl0RGlVcmpqRG1rRlhEY093aG1fbTdIN2hxS29KczBhaVBDTkx3NllwYVNucmRsQ1dhZjZpNUhkMHFDQ3hjRGVvRGVZWnkxTTdCd2dDUE9KeEZYZUxNN21JR19CNzhmYWIyTlZTZjVtZzFzRlpfUDVUVjZB?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T21:30:12+00:00"
+    },
+    {
      "title": "Irmãos Batista compram fabricante de armas de guerra Avibras",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/jandf-de-wesley-e-joesley-batista-compra-fabricante-de-armas-de-guerra-avibras.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T18:20:50"
+    },
+    {
+     "title": "China aumenta compras de soja dos EUA em meio a temor de safra menor e preços mais altos - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdklyc0JjNWRwQkxIMmQ2YWtOMnhaaVJoeW04WURxbExtMmtpQ18wc3dJVDdvZy0wVVpiRXhEQWNUcDFPc0YyTlNEWXpwaGVvb215Unp1dkxaekt4cEJzMHl2Mm5yVGZfNS1rY1E4SUpUVl9qV1F0S01OV0EzakpmMkhXdTdZcDJvd3JHV04ydnQ5ckViRkV4MFQtczdPNUpkWFJnRE1DMGxrNUFHZXIyOTFGYzJqdDNRdUpsMENMRl8wSllVS3M2LWlSUUNCS3RQNGNBRGhzczZId240RXNicFQtSHVRUdIB6wFBVV95cUxOdXhIc093dTVQczJvTGdGMlpXYkZCR3dnMWR2WE50X0x5RXRkUDR0ZkxQZVJTMzBCS1VUMm9xUjFjUGNYcnFzZXJWS2NMLVhHNmIwbG5CUHc5WnJSOXdDaklhWWF6ZTVoWFdNRGlzUTBSZWNPbTZFV1NMSnFULUtYcWRyZEVWMnlxcTJpUkU4eUIzd0ZJWWJaWFhBT2tmdXVMaVY3SXJtaFZPU0tLNGItVnBSeVE1TlAtUW1VajlOLWZCcFJfRkk4NW5fRy0xa0V1U0FDSFJCNmFNakkyLWEyWURuZXZJNnBlM25R?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-21T17:17:48+00:00"
     },
     {
      "title": "Presença de abelhas pode aumentar produtividade da soja - Agrolink",
@@ -567,12 +579,6 @@
      "published_at": "2026-08-21T05:00:18"
     },
     {
-     "title": "Senadores criticam STF por validar pacto que pune produtores de soja — Rádio Senado - Senado Federal",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWHdnNnpVSTBNY2wtRFRLM0xCeDJZLUJSZXNPb2x0ZFFobkY2dnV6ejdCazJrUEt5SEwyN0ppb2RxNGRjQVZMX2pGZ3E5cTlDemxRbDNudzVzVk5zcllkYUdIWVVZUW1RVXBFMEJCTlpXU1pFSUtmUTJJU0MycTE4RmhmNlQ4NVVlbmtpYk5idzJyWkxabWZCY1cwa1dJSVc1ejdwNm05RFVDallHVWp0b21IU1FNTjNGZVZoY2FPWEw?oc=5",
-     "source": "Senado Federal",
-     "published_at": "2026-08-20T20:34:00+00:00"
-    },
-    {
      "title": "O início da virada para a soja vem aí? Os dados sugerem que sim - The AgriBiz",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWVExQ2lVbVM4MTJhNlo5Y3VRd0hNdDc1TlZVckhabDhBRGhLVzJNYThGRGcwUGNReVNzaThSOFZyMlVVQUltbnBrVXFZOE1uVC1DUDhnd2NKaFdXM3dvY3dOTXNZcGdxeFBCS1F4MVd0cmdQdjB0Q3A2R2k0cU42LUJRZHk0SHd3NzdKU1phZFdNbEgydl8wVDBwbF9vako5Y1BzeQ?oc=5",
      "source": "The AgriBiz",
@@ -583,12 +589,6 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/19/exportacoes-de-carne-bovina-caem-26percent-em-agosto-com-temor-de-tarifa-maior-na-china.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-19T16:17:16"
-    },
-    {
-     "title": "Limões 'alienígenas' intrigam produtora; entenda o que causa a deformação",
-     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/18/limoes-alienigenas-intrigam-produtora-entenda-o-que-causa-a-deformacao.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-18T06:00:18"
     }
    ],
    "failed": [

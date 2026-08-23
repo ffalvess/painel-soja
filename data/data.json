@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-23T00:57:13+00:00",
+ "generated_at": "2026-08-23T02:22:59+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-23T00:57:03+00:00",
+   "updated_at": "2026-08-23T02:22:52+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -242,7 +242,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-23T00:57:03+00:00",
+   "updated_at": "2026-08-23T02:22:52+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -253,7 +253,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-23T00:57:09+00:00",
+   "updated_at": "2026-08-23T02:22:55+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -414,8 +414,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-23T00:57:13+00:00",
+   "updated_at": "2026-08-23T02:22:59+00:00",
    "items": [
+    {
+     "title": "Startup de MT cria soja mais resistente à seca e nematoides para garantir lucro ao produtor - A Crítica de Campo Grande",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZTVWbHhiV1hJYlljejJDV3ZKN3JfSk80VDI2OWRkUTVPNjQ2X0ZOQlRhUC1lTG5RdnJHUEtLYWxONmYybG55Qno5NkxSY2xBZUNBRktXVjNsYnl2dzVLc1htNHFsdWxQQTl4VFk0RDBTU2NxMGdxNWEtdlY3aWFKMWY0Mkkzdml4enVjV0plWHVkaGZSQW5CRXFRRlQ4SmhISHRDaVQ0Wno1cTg5UjRsY0tXQ2licVJmVFR4bTlQSnM3UQ?oc=5",
+     "source": "A Crítica de Campo Grande",
+     "published_at": "2026-08-23T02:14:10+00:00"
+    },
     {
      "title": "Quatro fatores reforçam expectativa de alta para a arroba do boi gordo em setembro",
      "link": "https://www.canalrural.com.br/pecuaria/quatro-fatores-reforcam-expectativa-de-alta-para-a-arroba-do-boi-gordo-em-setembro/",
@@ -463,12 +469,6 @@
      "link": "https://www.canalrural.com.br/internacional/estados-unidos-confirmam-tarifa-de-50-sobre-o-canada-que-retribuira-dolar-por-dolar/",
      "source": "Canal Rural",
      "published_at": "2026-08-22T18:54:01+00:00"
-    },
-    {
-     "title": "Cantor divide com pai e irmão uma fazenda de 14 mil hectares com gado, soja e milho - O POVO",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUlR3aDBWQ2pqTnlMVkVubG55MDBMc3g0MWtuam9XUlN4dHhCZWhpZHNMWmRKLTdCZ0pxNTBGWmExcVlOdENJY1pIUndaRWhKMjRsbWNraEtUZ0ZjNXFtRi1Hd0VCaG9hVWNQUUl4MXBuRWFZN0JLdFN4U3o4TVl0czhGRDlkQjJoX05xTVpDYURpRTJxNGF5dGhia01SaXp1RHVvWkY2SmszTDR2M29QZw?oc=5",
-     "source": "O POVO",
-     "published_at": "2026-08-22T17:33:00+00:00"
     },
     {
      "title": "Qual a melhor raça bovina para produção de carne no Brasil? Especialista responde",

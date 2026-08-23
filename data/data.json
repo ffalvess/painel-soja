@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-22T23:14:14+00:00",
+ "generated_at": "2026-08-23T00:57:13+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-22T23:13:59+00:00",
+   "updated_at": "2026-08-23T00:57:03+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -242,7 +242,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-22T23:13:59+00:00",
+   "updated_at": "2026-08-23T00:57:03+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -253,7 +253,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-22T23:14:03+00:00",
+   "updated_at": "2026-08-23T00:57:09+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -276,21 +276,21 @@
       0.0
      ],
      "tmax": [
-      36.9,
-      36.3,
+      37.1,
       36.4,
+      36.4,
+      38.0,
       37.8,
-      37.6,
-      37.5,
-      37.2
+      37.2,
+      37.0
      ],
      "tmin": [
       22.2,
-      23.1,
-      23.6,
-      23.9,
-      24.5,
+      23.3,
       23.7,
+      24.5,
+      24.2,
+      23.8,
       25.2
      ]
     },
@@ -315,21 +315,21 @@
       0.0
      ],
      "tmax": [
-      36.0,
+      36.1,
+      35.7,
+      35.6,
+      37.1,
+      37.1,
       35.8,
-      35.9,
-      36.8,
-      37.0,
-      36.0,
-      35.8
+      35.9
      ],
      "tmin": [
       21.9,
-      23.0,
+      23.3,
+      23.5,
       23.2,
-      23.0,
+      23.9,
       23.4,
-      24.0,
       24.8
      ]
     },
@@ -349,27 +349,27 @@
       0.0,
       0.0,
       0.0,
-      0.0,
+      0.3,
       0.0,
       0.0
      ],
      "tmax": [
-      28.9,
-      31.8,
-      33.5,
-      34.9,
-      31.3,
-      34.9,
-      36.4
+      29.1,
+      31.9,
+      33.8,
+      34.8,
+      34.4,
+      34.3,
+      36.1
      ],
      "tmin": [
       14.9,
-      16.0,
-      18.2,
-      19.9,
-      23.1,
-      20.2,
-      23.0
+      16.1,
+      18.3,
+      20.6,
+      22.7,
+      19.3,
+      22.0
      ]
     },
     {
@@ -387,34 +387,34 @@
       0.0,
       0.0,
       0.0,
-      6.5,
-      4.0,
+      6.0,
+      6.0,
       0.0,
       0.0
      ],
      "tmax": [
-      25.2,
+      26.3,
+      27.0,
+      28.8,
       26.5,
-      28.1,
-      23.6,
-      27.1,
-      32.8,
-      34.2
+      24.7,
+      32.3,
+      34.3
      ],
      "tmin": [
       10.1,
-      11.9,
-      14.0,
-      17.5,
-      16.5,
-      17.4,
-      21.1
+      12.4,
+      14.7,
+      17.9,
+      17.0,
+      17.3,
+      21.3
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-22T23:14:14+00:00",
+   "updated_at": "2026-08-23T00:57:13+00:00",
    "items": [
     {
      "title": "Quatro fatores reforçam expectativa de alta para a arroba do boi gordo em setembro",
@@ -465,6 +465,12 @@
      "published_at": "2026-08-22T18:54:01+00:00"
     },
     {
+     "title": "Cantor divide com pai e irmão uma fazenda de 14 mil hectares com gado, soja e milho - O POVO",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUlR3aDBWQ2pqTnlMVkVubG55MDBMc3g0MWtuam9XUlN4dHhCZWhpZHNMWmRKLTdCZ0pxNTBGWmExcVlOdENJY1pIUndaRWhKMjRsbWNraEtUZ0ZjNXFtRi1Hd0VCaG9hVWNQUUl4MXBuRWFZN0JLdFN4U3o4TVl0czhGRDlkQjJoX05xTVpDYURpRTJxNGF5dGhia01SaXp1RHVvWkY2SmszTDR2M29QZw?oc=5",
+     "source": "O POVO",
+     "published_at": "2026-08-22T17:33:00+00:00"
+    },
+    {
      "title": "Qual a melhor raça bovina para produção de carne no Brasil? Especialista responde",
      "link": "https://www.canalrural.com.br/pecuaria/qual-a-melhor-raca-bovina-para-producao-de-carne-no-brasil-especialista-responde/",
      "source": "Canal Rural",
@@ -477,16 +483,52 @@
      "published_at": "2026-08-22T15:36:01+00:00"
     },
     {
+     "title": "Milho ganha força enquanto soja espera por novos sinais de demanda internacional - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdWFQeGJuM21LbUJobTFYNWFVYnRpUmVNYjhyYnpSaWM0azJQUGNlNVRhbHRLcUl1T1o4dHZGVjJUVUZHMjVFUlhpWVpUUlp6eTZrY2JhT2JRQmpwRFgyWk94RnRVMDd6OFhlOGEwLTdlQUNCRXZEU0otcUdzUFIycWlOdmdpOUVsMzhFbU1mZURROEI0YlJRVlpwN3VHVkF1VlZtajEwVC1PRTlTM2h5TTZNblg4RFpZYm5tdFF6Q00?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-22T14:18:38+00:00"
+    },
+    {
+     "title": "Preço da soja cai após sequência de sete altas consecutivas - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRmNTY0ZrSy1BM3l6dFoyb1M0QVBNYW5iVy1rQVNtLVBULXpIX3lPU0FDQ1pUMW5NUFlFelZjWTZsZy1Fb2VRQ2laeXBKTk4zdmgtRkJUUE16YUxrY3FiSlhYZmhhUnJKaEJ0OGE5OTA1b0VUWG5Pd1RIU1FHc2NYWXBfbmFzR2dPcW16emNNNG81aTVZMmQwTGh4RHZ1aFd4RVdCU3ZZTmZGMW14SFUybldLWVNVZ0RqTWQ0MEV0VdIBzgFBVV95cUxQR3d4NG9YVW54NzhwUXFKVE9RODVsQktFTVBpVnRnSDhwYlBQVmYwVFVGNms2RlZUQmdaUlNkUXZzaGdEa2pMOVpkM2VoUzNmajhZUnA0T2JzUFd5RXZVSnFyaWNjV2E1dlZwa3V3UUhZWGw5QzJDeE9YZ01zZi14cnhsallVVVdkd2VVeWxUWFVoZXV5S2VOVXZ2eEhaWndCTEVuX0pKX0RpWGRGN2RFcHlESTlzbmFrSjM3bWhyRXpNczJDSFlCTXBzWVVfUQ?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-22T10:10:15+00:00"
+    },
+    {
+     "title": "Soja Tem Alta \"Expressiva\" no Brasil e Atinge Maior Nível em Mais de 3 Anos, Diz Cepea - Forbes Brasil",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVVJJcWZ4bDE4U2s1V1dHREFjRzJBUmRPRXRXUXJqUEx5cmVqLUtwekU1QTZYcC1OYUN3RmM5TjF3OTFpNVVPTXFlWEI2X1cwWjlZMU1SUW9qSDloV0JFTlNZVlV2cUJXaHZjSi1JSEl4WU5ONDVkUklOaVBVa2l2NGJMM3ZkYUo5bUlaY3ZsbzBzemFJdEc4Q1JGYXZXYnVjcTA5OWxBcS01UmNnbnR0b0xpclN2SUwwUkkyUWdDZHV5WmY3?oc=5",
+     "source": "Forbes Brasil",
+     "published_at": "2026-08-21T21:47:35+00:00"
+    },
+    {
      "title": "Preço do suíno cai para o 3º menor patamar da história em SP: 'sobreoferta e baixa demanda', analisa USP",
      "link": "https://g1.globo.com/sp/piracicaba-regiao/noticia/2026/08/21/preco-do-suino-cai-para-o-3o-menor-patamar-da-historia-em-sp-sobreoferta-e-baixa-demanda-analisa-usp.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T21:37:35"
     },
     {
+     "title": "Mercado da soja encerra semana com preços firmes e demanda chinesa em destaque - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY1Q1R2E4UGVidkRvMW92RXZleWJIYVVXNjJhcjItVWZkeGl3YWZZZ1I3V2RpcHFjU1lBVU51SVkyTGZjdTZEaGN6ekJOSGh1Ykl0RGlVcmpqRG1rRlhEY093aG1fbTdIN2hxS29KczBhaVBDTkx3NllwYVNucmRsQ1dhZjZpNUhkMHFDQ3hjRGVvRGVZWnkxTTdCd2dDUE9KeEZYZUxNN21JR19CNzhmYWIyTlZTZjVtZzFzRlpfUDVUVjZB?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T21:30:12+00:00"
+    },
+    {
+     "title": "Preços da soja no Brasil renovam máximas após semana com quase 4% de alta acumulada em Chicago - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQck5wc1JjZThYZzZsWF9hSVY5bnVJSXQtNGlaVG1tQ294VFhJejBXT3hZdndOWXBPZFlBYjVLTm5iLUdrYzhwZ1c1ZU1KN00xVHdzUXNWZzlCOFB2ckFLSGkycFJoNFF6YXNUSWljaXZkZkZnT01Bei1YZ0Rrbk4tNTRkaFRDcXlROG1ncUQxQzA0TUs5M0F3UW9pc3EwSVFuUGkyX0FacGRCX3RoU3FqRXZlZmlPOHFUdTI1Skk5SWczLVd3d204VUJlRzdoYlVZN2VkZ0xiMW04ZHp4RkJJZVl3Z19BT2ZyNmfSAe8BQVVfeXFMTlpJb1B1V1ZrYzB4YWtBRWlSWUd4cXNua0p6OVk5ZFpnQlFnMU5sY1dGblpUQXlGZWYyT1VaUnBaR1hQRUFLQkZ3SDFJUGhxcXBwQ0gycnFuRkFiSmFQQUc3NGVzSmZGeFVWSTBEX1Jka3h2SVJVVzlrb3hVNXQyRmtkOWdUQUtQZXdFY1JIYmNXNWdMTHJhZGpCenczcmpobHlkY1ZJd1VJaXhsMkRnZUZwMEJ5azJ3SkFyYjRxV0Izekl2YU1uUWxVeWdTSlFvb3owMTZEeDd6bktmQXNXQV9FYWFjRzlENGF3bEs3VWs?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-21T20:26:36+00:00"
+    },
+    {
      "title": "Irmãos Batista compram fabricante de armas de guerra Avibras",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/jandf-de-wesley-e-joesley-batista-compra-fabricante-de-armas-de-guerra-avibras.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T18:20:50"
+    },
+    {
+     "title": "Presença de abelhas pode aumentar produtividade da soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaTNKNVZnY1JaWVRnZGl3LVdWWEZPNEhXeGFvbnFTNnVlS0oxZ2lLZU55eWxTZl9ZSGhPNHphUXNvWGIyYm10ZEdubXVSLUFnR2hybi1Rc0ZWcWc2WldFbDBQbDd0SFdiLXVndFdXUWZZY3ZuRHAzT3dBSnVPclVCY3AxZXBVRUpoU3ZLbFFYeVRDOWVxVjBlSU5aNnBmSjNtUDMzUXJLdw?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-21T16:57:00+00:00"
     },
     {
      "title": "Aprenda a montar uma horta em casa",
@@ -505,6 +547,24 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/alimentos-editados-geneticamente.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T05:00:18"
+    },
+    {
+     "title": "Senadores criticam STF por validar pacto que pune produtores de soja — Rádio Senado - Senado Federal",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWHdnNnpVSTBNY2wtRFRLM0xCeDJZLUJSZXNPb2x0ZFFobkY2dnV6ejdCazJrUEt5SEwyN0ppb2RxNGRjQVZMX2pGZ3E5cTlDemxRbDNudzVzVk5zcllkYUdIWVVZUW1RVXBFMEJCTlpXU1pFSUtmUTJJU0MycTE4RmhmNlQ4NVVlbmtpYk5idzJyWkxabWZCY1cwa1dJSVc1ejdwNm05RFVDallHVWp0b21IU1FNTjNGZVZoY2FPWEw?oc=5",
+     "source": "Senado Federal",
+     "published_at": "2026-08-20T20:34:00+00:00"
+    },
+    {
+     "title": "Nota Política da APIB sobre o enfraquecimento da Moratória da Soja e seus impactos no aumento de desmatamento e violações aos direitos dos povos indígenas do Brasil - Articulação dos Povos Indígenas do Brasil | APIB",
+     "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQV0h3c1hweUVWRlJBWEd4MnJQVWVIZ1p1TFpkRnhWYlU2cUJZaFg2MTQwNThhWG92Mmk2LXlGWmZDamoxYzZ4TnNNSlAydDRMRS1hc3ZrcjVsQ0t0TW84cGtSam15TFh0YmpVOXBZWXY5ejlrZHJjR2FHb2w2X19MTzR3bUlEcFFPYm1veU5wSmNmMmdJdnRUMTR6ZDZNVnc4TDZvdHJvbW5yX0xIRW1RdUZuTGVGVkVBQWRqb0ZRTFZRb1N1YVlLY0ZUcmktVDlsd0EtZGFiV3ExQW9tRE5nZ1V5ZE55bHg1XzBxTEVxSUw0UGlXRlBva1NZRDc3bTBRZDNzUktoS1Bhd3BLU3ktTm14aTYyd19qMnZfSWdmdEV1M3A3QUZj?oc=5",
+     "source": "Articulação dos Povos Indígenas do Brasil | APIB",
+     "published_at": "2026-08-20T16:55:05+00:00"
+    },
+    {
+     "title": "O início da virada para a soja vem aí? Os dados sugerem que sim - The AgriBiz",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWVExQ2lVbVM4MTJhNlo5Y3VRd0hNdDc1TlZVckhabDhBRGhLVzJNYThGRGcwUGNReVNzaThSOFZyMlVVQUltbnBrVXFZOE1uVC1DUDhnd2NKaFdXM3dvY3dOTXNZcGdxeFBCS1F4MVd0cmdQdjB0Q3A2R2k0cU42LUJRZHk0SHd3NzdKU1phZFdNbEgydl8wVDBwbF9vako5Y1BzeQ?oc=5",
+     "source": "The AgriBiz",
+     "published_at": "2026-08-20T16:15:31+00:00"
     },
     {
      "title": "Exportações de carne bovina caem 26% em agosto com temor de tarifa maior na China",
@@ -535,22 +595,9 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/16/curral-ecletico-vacas-escutam-de-forro-a-musica-classica-e-produzem-mais-leite-em-fazenda-no-es-veja-video.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-16T07:01:18"
-    },
-    {
-     "title": "China tenta reduzir dependência de alimentos importados; o que isso significa para o agro brasileiro",
-     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/15/china-tenta-reduzir-dependencia-de-alimentos-importados.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-15T08:00:13"
-    },
-    {
-     "title": "Balde Cheio: programa da Embrapa ajuda pequenas propriedades a melhorar produção de leite",
-     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/14/balde-cheio-programa-da-embrapa-ajuda-pequenas-propriedades-a-melhorar-producao-de-leite.ghtml",
-     "source": "G1 Agronegócios",
-     "published_at": "2026-08-14T10:48:19"
     }
    ],
    "failed": [
-    "Google News: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=soja+OR+%22mercado+de+gr%C3%A3os%22&hl=pt-BR&gl=BR&ceid=BR:pt-419",
     "Notícias Agrícolas: 404 Client Error: Not Found for url: https://www.noticiasagricolas.com.br/rss/noticias"
    ]
   }

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-23T04:30:13+00:00",
+ "generated_at": "2026-08-23T05:22:50+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-23T04:30:07+00:00",
+   "updated_at": "2026-08-23T05:22:43+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -236,7 +236,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-23T04:30:07+00:00",
+   "updated_at": "2026-08-23T05:22:43+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -247,7 +247,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-23T04:30:10+00:00",
+   "updated_at": "2026-08-23T05:22:47+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -408,7 +408,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-23T04:30:13+00:00",
+   "updated_at": "2026-08-23T05:22:50+00:00",
    "items": [
     {
      "title": "Startup de MT cria soja mais resistente à seca e nematoides para garantir lucro ao produtor - A Crítica de Campo Grande",
@@ -507,6 +507,12 @@
      "published_at": "2026-08-21T21:30:12+00:00"
     },
     {
+     "title": "Preços da soja no Brasil renovam máximas após semana com quase 4% de alta acumulada em Chicago - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQck5wc1JjZThYZzZsWF9hSVY5bnVJSXQtNGlaVG1tQ294VFhJejBXT3hZdndOWXBPZFlBYjVLTm5iLUdrYzhwZ1c1ZU1KN00xVHdzUXNWZzlCOFB2ckFLSGkycFJoNFF6YXNUSWljaXZkZkZnT01Bei1YZ0Rrbk4tNTRkaFRDcXlROG1ncUQxQzA0TUs5M0F3UW9pc3EwSVFuUGkyX0FacGRCX3RoU3FqRXZlZmlPOHFUdTI1Skk5SWczLVd3d204VUJlRzdoYlVZN2VkZ0xiMW04ZHp4RkJJZVl3Z19BT2ZyNmfSAe8BQVVfeXFMTlpJb1B1V1ZrYzB4YWtBRWlSWUd4cXNua0p6OVk5ZFpnQlFnMU5sY1dGblpUQXlGZWYyT1VaUnBaR1hQRUFLQkZ3SDFJUGhxcXBwQ0gycnFuRkFiSmFQQUc3NGVzSmZGeFVWSTBEX1Jka3h2SVJVVzlrb3hVNXQyRmtkOWdUQUtQZXdFY1JIYmNXNWdMTHJhZGpCenczcmpobHlkY1ZJd1VJaXhsMkRnZUZwMEJ5azJ3SkFyYjRxV0Izekl2YU1uUWxVeWdTSlFvb3owMTZEeDd6bktmQXNXQV9FYWFjRzlENGF3bEs3VWs?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-21T20:26:36+00:00"
+    },
+    {
      "title": "Irmãos Batista compram fabricante de armas de guerra Avibras",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/jandf-de-wesley-e-joesley-batista-compra-fabricante-de-armas-de-guerra-avibras.ghtml",
      "source": "G1 Agronegócios",
@@ -543,22 +549,10 @@
      "published_at": "2026-08-20T20:34:00+00:00"
     },
     {
-     "title": "Nota Política da APIB sobre o enfraquecimento da Moratória da Soja e seus impactos no aumento de desmatamento e violações aos direitos dos povos indígenas do Brasil - Articulação dos Povos Indígenas do Brasil | APIB",
-     "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQV0h3c1hweUVWRlJBWEd4MnJQVWVIZ1p1TFpkRnhWYlU2cUJZaFg2MTQwNThhWG92Mmk2LXlGWmZDamoxYzZ4TnNNSlAydDRMRS1hc3ZrcjVsQ0t0TW84cGtSam15TFh0YmpVOXBZWXY5ejlrZHJjR2FHb2w2X19MTzR3bUlEcFFPYm1veU5wSmNmMmdJdnRUMTR6ZDZNVnc4TDZvdHJvbW5yX0xIRW1RdUZuTGVGVkVBQWRqb0ZRTFZRb1N1YVlLY0ZUcmktVDlsd0EtZGFiV3ExQW9tRE5nZ1V5ZE55bHg1XzBxTEVxSUw0UGlXRlBva1NZRDc3bTBRZDNzUktoS1Bhd3BLU3ktTm14aTYyd19qMnZfSWdmdEV1M3A3QUZj?oc=5",
-     "source": "Articulação dos Povos Indígenas do Brasil | APIB",
-     "published_at": "2026-08-20T16:55:05+00:00"
-    },
-    {
      "title": "O início da virada para a soja vem aí? Os dados sugerem que sim - The AgriBiz",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWVExQ2lVbVM4MTJhNlo5Y3VRd0hNdDc1TlZVckhabDhBRGhLVzJNYThGRGcwUGNReVNzaThSOFZyMlVVQUltbnBrVXFZOE1uVC1DUDhnd2NKaFdXM3dvY3dOTXNZcGdxeFBCS1F4MVd0cmdQdjB0Q3A2R2k0cU42LUJRZHk0SHd3NzdKU1phZFdNbEgydl8wVDBwbF9vako5Y1BzeQ?oc=5",
      "source": "The AgriBiz",
      "published_at": "2026-08-20T16:15:31+00:00"
-    },
-    {
-     "title": "Produção de soja pode chegar a 180,4 milhões de toneladas - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMHZQUEsxeW9fajNza3ZmODQtMFhoOHdKYTdBd0NLS1lTYndqak1PQXRTMEVBSWRzNlAyMkhVMWZGelluLTNOdDFNMk9Hd0s3SFVlWHdHRHB0NVl5c1Z2UUFldkNySFFzaWpsa2JOUVBMdmxHQXFiLWE0bllSWHBhLWdBMkZDV3k2bUZWUHVJZ1VXLXh2R211Y0JSdk40THJmQkFqWnMyTmdQZw?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-20T16:03:00+00:00"
     },
     {
      "title": "Exportações de carne bovina caem 26% em agosto com temor de tarifa maior na China",
@@ -589,6 +583,12 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/16/curral-ecletico-vacas-escutam-de-forro-a-musica-classica-e-produzem-mais-leite-em-fazenda-no-es-veja-video.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-16T07:01:18"
+    },
+    {
+     "title": "China tenta reduzir dependência de alimentos importados; o que isso significa para o agro brasileiro",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/15/china-tenta-reduzir-dependencia-de-alimentos-importados.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-15T08:00:13"
     }
    ],
    "failed": [

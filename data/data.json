@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-23T21:15:30+00:00",
+ "generated_at": "2026-08-23T22:14:59+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-23T21:15:25+00:00",
+   "updated_at": "2026-08-23T22:14:52+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -169,8 +169,8 @@
      "name": "Petróleo Brent",
      "unit": "US$/barril",
      "price": 94.39,
-     "prev_close": 93.78,
-     "change_pct": 0.65,
+     "prev_close": 94.39,
+     "change_pct": 0.0,
      "closes": [
       100.69,
       96.78,
@@ -193,6 +193,7 @@
       91.02,
       91.62,
       93.78,
+      94.39,
       94.39
      ]
     },
@@ -236,7 +237,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-23T21:15:26+00:00",
+   "updated_at": "2026-08-23T22:14:52+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -247,7 +248,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-23T21:15:28+00:00",
+   "updated_at": "2026-08-23T22:14:57+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -408,8 +409,26 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-23T21:15:30+00:00",
+   "updated_at": "2026-08-23T22:14:59+00:00",
    "items": [
+    {
+     "title": "Comitiva de São Paulo vence Concurso da Queima do Alho na Festa do Peão de Barretos",
+     "link": "https://www.canalrural.com.br/nacional/comitiva-de-sao-paulo-vence-concurso-da-queima-do-alho-na-festa-do-peao-de-barretos/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-23T22:06:39+00:00"
+    },
+    {
+     "title": "Preços da soja se elevam e queda produtiva dos EUA pode gerar novas altas - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ0xJMFg5c1o0Rjd6b2wyd1NPaXQwWGozR3RSc1NMRDM5WHZieUk1Z09CbmFqc3hFOFVEZllYazBmMkJGY25MaG5VTU5kN3lZTXdDRU1FTVJsS1lPMm5iMTZ2eTIwYlFuZTZOR1Q0bFZXeTg2aWY2YmZUS0RYdlFqWEpDamtmTnpSSkVMSGVyRGp0d2NKVDI1SWNrNkZKaHUzNkNPSHA0QzB5NFc2UDJJQ0tOMnVsMTQ?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-23T22:01:00+00:00"
+    },
+    {
+     "title": "Preços da soja se elevam e queda produtiva dos EUA pode gerar novas altas",
+     "link": "https://www.canalrural.com.br/agricultura/precos-da-soja-se-elevam-e-queda-produtiva-dos-eua-pode-gerar-novas-altas/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-23T22:01:00+00:00"
+    },
     {
      "title": "Desertificação e clima extremo pressionam pastores nômades na Mongólia",
      "link": "https://www.canalrural.com.br/pecuaria/desertificacao-e-clima-extremo-pressionam-pastores-nomades-na-mongolia/",
@@ -471,18 +490,6 @@
      "published_at": "2026-08-23T16:42:00+00:00"
     },
     {
-     "title": "Pesquisa inédita testa DDGS de sorgo na alimentação de gado de corte no Brasil",
-     "link": "https://www.canalrural.com.br/pecuaria/pesquisa-inedita-testa-ddgs-de-sorgo-na-alimentacao-de-gado-de-corte-no-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-23T16:09:00+00:00"
-    },
-    {
-     "title": "Pix apresenta instabilidade neste domingo e acumula mais de 13 mil reclamações",
-     "link": "https://www.canalrural.com.br/economia/pix-apresenta-instabilidade-neste-domingo-e-acumula-mais-de-13-mil-reclamacoes/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-23T15:14:10+00:00"
-    },
-    {
      "title": "É tempo da colheita da soja no Amapá - G1",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa2pCT0U5X1BCcFQxUVhjVXBQLVIyQWxacHItaXZpRXhhZlkwbVhsZ1hySDhCZUZTUFFOV2pLdlYxaV95cVpDdGJZRGl1eERJQjh2TVpyX2gtYVNZTW4weE5KazZEU0I2eUxjNEpBckh1M2Fqa1lMT1Nta2RjOXA1eEI5RDRMbnZob0NjTGNPMXdkYzZqdlphOVBTc0x0bnNGS0ZHSnpXUFFfNFdGMXRfeDJR0gHAAUFVX3lxTFA1SU9sX0NvQ0xCUU9ac1pIMWZCQVZWNURfaFl0cFltei1TZDVzYmZJaF92aXQ1akp0T2lxWHdtMExSRDlUb29mOHk0Ulh6ck5BRUstOU8tb3pHdWQwUE5yeDRoYmdubHZ5UTFvbktLb0FTOFZwRFJrVEdRcl9UdUh6YldJaXhhUmhzVUR2VkYzaEFPU280M2FhT05hR0JHek9mMWhoZmc0NlF4Yk9XR3dJd3YzVFRndE1tdkI0NnQ5Mw?oc=5",
      "source": "G1",
@@ -517,12 +524,6 @@
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNmRzVVFRaTBOQ2JDNEEwdUNUa3FyVzFYdmoyb25ld1FqVERIWE1UWjJEd1JHaTBKdmphLW91LWViUHhaNFFfeDItb2JHamRNSGVWdkNfaTVyTllpY0JBeXFsczRzTWoxRmZ3NVpWSnhEWGhxUXRwVmpvNTNNSE9ZWHpEdEV0M1RiTDUtZWtCd09YWGRVYjRhVEY0RQ?oc=5",
      "source": "RADAR DIGITAL BRASÍLIA",
      "published_at": "2026-08-23T10:05:25+00:00"
-    },
-    {
-     "title": "Abelhas elevam produtividade da soja em até 18% - MOMENTO MT",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYVh1UzNfV1R1MElxNnd0WmoxbFNNVkZLTFJLUnlreFd3ejlnRVBxRFhDald5Uk5ROEpsU3VzUUdNclVGcWNqYnRCOS1OVE5qN0FXY2w0OF9NajR1VmVTQmpCQ05qYXJESDBjUHJ0RW1sOV96R2NGYW5rTU5rbVVFMmNlQWFpWDBUNnJvY1pn?oc=5",
-     "source": "MOMENTO MT",
-     "published_at": "2026-08-23T09:02:00+00:00"
     },
     {
      "title": "El Niño pode encarecer alimentos em até 20%; economistas preveem impacto na inflação",

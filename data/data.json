@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-23T09:21:26+00:00",
+ "generated_at": "2026-08-23T10:17:06+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-23T09:21:21+00:00",
+   "updated_at": "2026-08-23T10:16:58+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -236,7 +236,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-23T09:21:21+00:00",
+   "updated_at": "2026-08-23T10:16:58+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -247,7 +247,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-23T09:21:24+00:00",
+   "updated_at": "2026-08-23T10:17:03+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -408,7 +408,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-23T09:21:26+00:00",
+   "updated_at": "2026-08-23T10:17:06+00:00",
    "items": [
     {
      "title": "El Niño pode encarecer alimentos em até 20%; economistas prevêem impacto na inflação",

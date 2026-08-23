@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-23T15:15:51+00:00",
+ "generated_at": "2026-08-23T16:17:43+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-23T15:15:44+00:00",
+   "updated_at": "2026-08-23T16:17:36+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -236,7 +236,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-23T15:15:44+00:00",
+   "updated_at": "2026-08-23T16:17:36+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -247,7 +247,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-23T15:15:49+00:00",
+   "updated_at": "2026-08-23T16:17:40+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -408,8 +408,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-23T15:15:51+00:00",
+   "updated_at": "2026-08-23T16:17:43+00:00",
    "items": [
+    {
+     "title": "Pesquisa inédita testa DDGS de sorgo na alimentação de gado de corte no Brasil",
+     "link": "https://www.canalrural.com.br/pecuaria/pesquisa-inedita-testa-ddgs-de-sorgo-na-alimentacao-de-gado-de-corte-no-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-23T16:09:00+00:00"
+    },
+    {
+     "title": "Pix apresenta instabilidade neste domingo e acumula mais de 13 mil reclamações",
+     "link": "https://www.canalrural.com.br/economia/pix-apresenta-instabilidade-neste-domingo-e-acumula-mais-de-13-mil-reclamacoes/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-23T15:14:10+00:00"
+    },
     {
      "title": "Quem vai plantar o feijão de amanhã? Tema precisa ser central no próximo governo",
      "link": "https://www.canalrural.com.br/opiniao-noticias/quem-vai-plantar-o-feijao-de-amanha-tema-precisa-ser-central-no-proximo-governo/",
@@ -505,18 +517,6 @@
      "link": "https://www.canalrural.com.br/economia/ubarana-ganha-valor-comercial-e-amplia-renda-de-mulheres-da-pesca-em-mage/",
      "source": "Canal Rural",
      "published_at": "2026-08-22T20:30:26+00:00"
-    },
-    {
-     "title": "Setor do etanol repudia fala de Flávio Bolsonaro sobre mistura à gasolina",
-     "link": "https://www.canalrural.com.br/politica/setor-do-etanol-reage-a-fala-de-flavio-bolsonaro-sobre-mistura-a-gasolina/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T20:17:18+00:00"
-    },
-    {
-     "title": "Reintrodução do takhi ganha destaque em debate sobre degradação de pastagens na Mongólia",
-     "link": "https://www.canalrural.com.br/pecuaria/reintroducao-do-takhi-ganha-destaque-em-debate-sobre-degradacao-de-pastagens-na-mongolia/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T20:08:30+00:00"
     },
     {
      "title": "Milho ganha força enquanto soja espera por novos sinais de demanda internacional - Canal Rural",

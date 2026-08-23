@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-23T05:22:50+00:00",
+ "generated_at": "2026-08-23T06:30:24+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-23T05:22:43+00:00",
+   "updated_at": "2026-08-23T06:30:14+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -236,7 +236,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-23T05:22:43+00:00",
+   "updated_at": "2026-08-23T06:30:14+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -247,7 +247,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-23T05:22:47+00:00",
+   "updated_at": "2026-08-23T06:30:19+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -408,7 +408,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-23T05:22:50+00:00",
+   "updated_at": "2026-08-23T06:30:24+00:00",
    "items": [
     {
      "title": "Startup de MT cria soja mais resistente à seca e nematoides para garantir lucro ao produtor - A Crítica de Campo Grande",

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-23T19:18:24+00:00",
+ "generated_at": "2026-08-23T20:14:46+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-23T19:18:18+00:00",
+   "updated_at": "2026-08-23T20:14:38+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -236,7 +236,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-23T19:18:18+00:00",
+   "updated_at": "2026-08-23T20:14:38+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -247,7 +247,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-23T19:18:21+00:00",
+   "updated_at": "2026-08-23T20:14:42+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -408,8 +408,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-23T19:18:24+00:00",
+   "updated_at": "2026-08-23T20:14:46+00:00",
    "items": [
+    {
+     "title": "Embrapa identifica plantas resistentes à praga que pode comprometer até 100% da produção",
+     "link": "https://www.canalrural.com.br/agricultura/embrapa-identifica-plantas-resistentes-a-praga-que-pode-comprometer-ate-100-da-producao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-23T20:02:00+00:00"
+    },
+    {
+     "title": "Europa fecha a porta à proteína brasileira, mas a seca pode cobrar a conta",
+     "link": "https://www.canalrural.com.br/opiniao-noticias/europa-fecha-a-porta-a-proteina-brasileira-mas-a-seca-pode-cobrar-a-conta/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-23T19:47:56+00:00"
+    },
     {
      "title": "Terremoto de magnitude 5,9 atinge Japão e deixa ao menos dez feridos",
      "link": "https://www.canalrural.com.br/internacional/terremoto-de-magnitude-59-atinge-japao-e-deixa-ao-menos-dez-feridos/",
@@ -427,6 +439,12 @@
      "link": "https://www.canalrural.com.br/nacional/nova-regra-estabelece-cuidados-com-pescado-durante-transporte-em-embarcacoes/",
      "source": "Canal Rural",
      "published_at": "2026-08-23T17:00:00+00:00"
+    },
+    {
+     "title": "Arquitetura da soja reduz parasitismo de percevejo-marrom - Revista Cultivar",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObldEcGx5SXhiOVItTFRncHZsMl84M1NwbUUyb3JxVE11eVN3VXQ5QlZMb3RVWWxDSGFXNGpGYU53V3A3SU1SZ1ltY0pNd2s2WjFiTnJTQnN0SEFuLUs3SWxIb2cybko3cndCTnlPQTRBcmlYZUhxejNLckVrRFlOZ2tvXzdBZU16SE55NzFYMFRpZ1lQVkdNV282NTRGQQ?oc=5",
+     "source": "Revista Cultivar",
+     "published_at": "2026-08-23T16:42:00+00:00"
     },
     {
      "title": "Pesquisa inédita testa DDGS de sorgo na alimentação de gado de corte no Brasil",
@@ -459,12 +477,6 @@
      "published_at": "2026-08-23T14:01:00+00:00"
     },
     {
-     "title": "Eleições 2026: entenda as funções de presidente, vice e governador",
-     "link": "https://www.canalrural.com.br/politica/eleicoes-2026-entenda-as-funcoes-de-presidente-vice-e-governador/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-23T13:31:28+00:00"
-    },
-    {
      "title": "É tempo da colheita da soja no Amapá - G1",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa2pCT0U5X1BCcFQxUVhjVXBQLVIyQWxacHItaXZpRXhhZlkwbVhsZ1hySDhCZUZTUFFOV2pLdlYxaV95cVpDdGJZRGl1eERJQjh2TVpyX2gtYVNZTW4weE5KazZEU0I2eUxjNEpBckh1M2Fqa1lMT1Nta2RjOXA1eEI5RDRMbnZob0NjTGNPMXdkYzZqdlphOVBTc0x0bnNGS0ZHSnpXUFFfNFdGMXRfeDJR0gHAAUFVX3lxTFA1SU9sX0NvQ0xCUU9ac1pIMWZCQVZWNURfaFl0cFltei1TZDVzYmZJaF92aXQ1akp0T2lxWHdtMExSRDlUb29mOHk0Ulh6ck5BRUstOU8tb3pHdWQwUE5yeDRoYmdubHZ5UTFvbktLb0FTOFZwRFJrVEdRcl9UdUh6YldJaXhhUmhzVUR2VkYzaEFPU280M2FhT05hR0JHek9mMWhoZmc0NlF4Yk9XR3dJd3YzVFRndE1tdkI0NnQ5Mw?oc=5",
      "source": "G1",
@@ -475,18 +487,6 @@
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaEIxeUtkeGx1MTZzaWxkTl9QblNyVmJSZU1LLWM0NlNaM3JPdEJOUG1FUGdhVDhubzdVUjJ3RldwZmxXOGFaalNENlMyTGgxRkFka214RVlnaEI3MG5rWU5QYWg0YTRieFl5T2lVQ1VGVTI4cEtmSURQaVpqUXdVVFhvUkJIOWF3bC1rakpWSS0ySVM4WXBMZzJDbE5NSHBYMVhyb2xtSjJYb0ZiUU1NblAtREFoVTZOSkphTm8yMA?oc=5",
      "source": "MundoCoop",
      "published_at": "2026-08-23T13:00:00+00:00"
-    },
-    {
-     "title": "Irmãs deixam carreiras para assumir negócios da família e investir na criação de 200 mil aves",
-     "link": "https://www.canalrural.com.br/aves-e-suinos/irmas-deixam-carreiras-para-assumir-negocios-da-familia-e-investir-na-criacao-de-200-mil-aves/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-23T12:03:00+00:00"
-    },
-    {
-     "title": "Tripes-praga da soja é registrado pela primeira vez em lavouras do Acre - Rádio Itatiaia",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcUhVdUdEU2VkSVotMGdieTI5LWFIR1Y0Z2pjTUx1UVJFenUxUWpIM3hsWW5BMFlKbUt1ZFN1QWpKakR2amw1ajctTVdVWEdyYXhrUkwxUW1aRnZEZDJ0N1F2Z3Q4RmpTTVBlQVdwMEwxazFCWEZXWXVISzhaam5TUHJKalBFT29FT000aVczTGtvZmJzNmlEQTB0TnU3bFE3TWljazFzSVY?oc=5",
-     "source": "Rádio Itatiaia",
-     "published_at": "2026-08-23T11:30:11+00:00"
     },
     {
      "title": "Bovinos influenciadores: conheça a vaca Leide e o touro Xerife",
@@ -505,18 +505,6 @@
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNmRzVVFRaTBOQ2JDNEEwdUNUa3FyVzFYdmoyb25ld1FqVERIWE1UWjJEd1JHaTBKdmphLW91LWViUHhaNFFfeDItb2JHamRNSGVWdkNfaTVyTllpY0JBeXFsczRzTWoxRmZ3NVpWSnhEWGhxUXRwVmpvNTNNSE9ZWHpEdEV0M1RiTDUtZWtCd09YWGRVYjRhVEY0RQ?oc=5",
      "source": "RADAR DIGITAL BRASÍLIA",
      "published_at": "2026-08-23T10:05:25+00:00"
-    },
-    {
-     "title": "Abelhas podem elevar produtividade da soja em até 18% - rdmonline.com.br",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOazVPa21icDJjMFhDUjZEb2ZjWk91ek9rYUdhWVRpbWNhODl6NlR2a1lDNFpaU1d6VjB5aWYtSW5fS09UNzV5cXRBMWs5S2xIZm41OURSRkNJbmFVM2pZZXoyLWVKZnRsOUVOUkxFR2pkY1k3TGdFc19ZTS1QR1BlWWFSMDU?oc=5",
-     "source": "rdmonline.com.br",
-     "published_at": "2026-08-23T09:20:00+00:00"
-    },
-    {
-     "title": "Abelhas elevam produtividade da soja em até 18% - MOMENTO MT",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYVh1UzNfV1R1MElxNnd0WmoxbFNNVkZLTFJLUnlreFd3ejlnRVBxRFhDald5Uk5ROEpsU3VzUUdNclVGcWNqYnRCOS1OVE5qN0FXY2w0OF9NajR1VmVTQmpCQ05qYXJESDBjUHJ0RW1sOV96R2NGYW5rTU5rbVVFMmNlQWFpWDBUNnJvY1pn?oc=5",
-     "source": "MOMENTO MT",
-     "published_at": "2026-08-23T09:02:00+00:00"
     },
     {
      "title": "El Niño pode encarecer alimentos em até 20%; economistas preveem impacto na inflação",
@@ -543,10 +531,22 @@
      "published_at": "2026-08-21T21:37:35"
     },
     {
+     "title": "Mercado da soja encerra semana com preços firmes e demanda chinesa em destaque - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY1Q1R2E4UGVidkRvMW92RXZleWJIYVVXNjJhcjItVWZkeGl3YWZZZ1I3V2RpcHFjU1lBVU51SVkyTGZjdTZEaGN6ekJOSGh1Ykl0RGlVcmpqRG1rRlhEY093aG1fbTdIN2hxS29KczBhaVBDTkx3NllwYVNucmRsQ1dhZjZpNUhkMHFDQ3hjRGVvRGVZWnkxTTdCd2dDUE9KeEZYZUxNN21JR19CNzhmYWIyTlZTZjVtZzFzRlpfUDVUVjZB?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-21T21:30:12+00:00"
+    },
+    {
      "title": "Irmãos Batista compram fabricante de armas de guerra Avibras",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/jandf-de-wesley-e-joesley-batista-compra-fabricante-de-armas-de-guerra-avibras.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T18:20:50"
+    },
+    {
+     "title": "China aumenta compras de soja dos EUA em meio a temor de safra menor e preços mais altos - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdklyc0JjNWRwQkxIMmQ2YWtOMnhaaVJoeW04WURxbExtMmtpQ18wc3dJVDdvZy0wVVpiRXhEQWNUcDFPc0YyTlNEWXpwaGVvb215Unp1dkxaekt4cEJzMHl2Mm5yVGZfNS1rY1E4SUpUVl9qV1F0S01OV0EzakpmMkhXdTdZcDJvd3JHV04ydnQ5ckViRkV4MFQtczdPNUpkWFJnRE1DMGxrNUFHZXIyOTFGYzJqdDNRdUpsMENMRl8wSllVS3M2LWlSUUNCS3RQNGNBRGhzczZId240RXNicFQtSHVRUdIB6wFBVV95cUxOdXhIc093dTVQczJvTGdGMlpXYkZCR3dnMWR2WE50X0x5RXRkUDR0ZkxQZVJTMzBCS1VUMm9xUjFjUGNYcnFzZXJWS2NMLVhHNmIwbG5CUHc5WnJSOXdDaklhWWF6ZTVoWFdNRGlzUTBSZWNPbTZFV1NMSnFULUtYcWRyZEVWMnlxcTJpUkU4eUIzd0ZJWWJaWFhBT2tmdXVMaVY3SXJtaFZPU0tLNGItVnBSeVE1TlAtUW1VajlOLWZCcFJfRkk4NW5fRy0xa0V1U0FDSFJCNmFNakkyLWEyWURuZXZJNnBlM25R?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-21T17:17:48+00:00"
     },
     {
      "title": "Presença de abelhas pode aumentar produtividade da soja - Agrolink",
@@ -567,16 +567,16 @@
      "published_at": "2026-08-21T12:04:25"
     },
     {
+     "title": "Soja recua em Chicago nesta 6ª feira (21) com realização de lucros, após semana de sequência de altas - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNME1OQjhyWTNKdGt2ZUNQZ0ZYM2VkQjhmYVI5SXYwLVFIM1NKQVRjTGptazlBbmcxS0s1TjZyeUFQeHRTNjhiMk53dnpGMFBON2Fnel9oZFMtUHNHQU5QazluUEw1dUVsYnJIalhMUEdSbDVRbDRZODVRcUNYOTRuNlJaZEN4bEl5SnpDWEVWbm5XOUM3c0FjZGFkSHB2X21YMy04Z2l1alBDd1FUakhYcjVLNTlaOTFBUWVobkNiVjJaUVRZbkV1Um1tN1J6T0lKWVlxckFFQTM2X1pBTW00MHpSVzk2Q2pvSllKVGlXM0Z5UdIB9wFBVV95cUxQOW9GalhZSHMtcHg0dF9MYzl1YUstWm41TnRPdUdTTWc5QUJOUVlyVHVjR3Zzd25KSUloMWN2bWJ0bUlIOEdvcE5jUVRaOVozUkx3WVpHMWZRcVdBMW1sZnNLejlsdzlmdzZTMnNFRS1VZ0ZlOEVTVnlUTmhucElMR2cxY0hLZW1TUGNDQmNIZW1SNklDUFRKYTh6UlZpSHQ2V3hrZEFVZTlINmpfbHFTUW1FNFZ6cDJBUlRzVlhDWlVQbHpxaHVXcEdQQUE5bDZ1dmthYV9TbWpRdGZhUWtpUzlHWDJ3aDlWemRPSkRMdVJuY0ZEempr?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-21T10:30:08+00:00"
+    },
+    {
      "title": "Alimentos editados geneticamente: o que são e o que dizem críticos e defensores",
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/alimentos-editados-geneticamente.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T05:00:18"
-    },
-    {
-     "title": "Senadores criticam STF por validar pacto que pune produtores de soja — Rádio Senado - Senado Federal",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWHdnNnpVSTBNY2wtRFRLM0xCeDJZLUJSZXNPb2x0ZFFobkY2dnV6ejdCazJrUEt5SEwyN0ppb2RxNGRjQVZMX2pGZ3E5cTlDemxRbDNudzVzVk5zcllkYUdIWVVZUW1RVXBFMEJCTlpXU1pFSUtmUTJJU0MycTE4RmhmNlQ4NVVlbmtpYk5idzJyWkxabWZCY1cwa1dJSVc1ejdwNm05RFVDallHVWp0b21IU1FNTjNGZVZoY2FPWEw?oc=5",
-     "source": "Senado Federal",
-     "published_at": "2026-08-20T20:34:00+00:00"
     },
     {
      "title": "O início da virada para a soja vem aí? Os dados sugerem que sim - The AgriBiz",

@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-24T19:03:06+00:00",
+ "generated_at": "2026-08-24T19:08:00+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-24T19:02:52+00:00",
+   "updated_at": "2026-08-24T19:07:35+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -68,7 +68,7 @@
       483.75,
       515.0
      ],
-     "volume": 476510
+     "volume": 476513
     },
     {
      "symbol": "ZM=F",
@@ -173,9 +173,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 92.28,
+     "price": 92.25,
      "prev_close": 94.39,
-     "change_pct": -2.24,
+     "change_pct": -2.27,
      "closes": [
       96.78,
       88.36,
@@ -198,17 +198,17 @@
       91.62,
       93.78,
       94.39,
-      92.28
+      92.25
      ],
-     "volume": 16218
+     "volume": 16239
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 172100.36,
+     "price": 172042.38,
      "prev_close": 171032.0,
-     "change_pct": 0.62,
+     "change_pct": 0.59,
      "closes": [
       174042.0,
       175335.0,
@@ -231,7 +231,7 @@
       167830.0,
       167927.0,
       171032.0,
-      172100.3594
+      172042.375
      ],
      "volume": 0
     }
@@ -239,21 +239,21 @@
    "failed": []
   },
   "fx": {
-   "updated_at": "2026-08-24T19:02:52+00:00",
+   "updated_at": "2026-08-24T19:07:35+00:00",
    "awesomeapi_error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL",
    "usdbrl": {
-    "bid": 5.1515,
+    "bid": 5.1531,
     "ask": null,
     "high": null,
     "low": null,
-    "pct_change": -0.8
+    "pct_change": -0.77
    },
    "eurbrl": {
-    "bid": 6.0065,
+    "bid": 6.0084,
     "ask": null,
     "high": null,
     "low": null,
-    "pct_change": -0.95
+    "pct_change": -0.92
    },
    "source": "Yahoo Finance",
    "ptax": {
@@ -263,7 +263,7 @@
    }
   },
   "rates": {
-   "updated_at": "2026-08-24T19:02:53+00:00",
+   "updated_at": "2026-08-24T19:07:36+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -273,7 +273,7 @@
    "ipca_12m": 4.44
   },
   "cepea": {
-   "updated_at": "2026-08-24T19:02:55+00:00",
+   "updated_at": "2026-08-24T19:07:38+00:00",
    "fonte": "Cepea/Esalq, via Notícias Agrícolas",
    "indicador": {
     "nome": "Indicador Soja ESALQ/B3 — Paranaguá",
@@ -376,7 +376,7 @@
    ]
   },
   "safra": {
-   "updated_at": "2026-08-24T19:02:55+00:00",
+   "updated_at": "2026-08-24T19:07:38+00:00",
    "failed": [],
    "us": {
     "released": "2026-08-17",
@@ -436,7 +436,7 @@
    }
   },
   "curve": {
-   "updated_at": "2026-08-24T19:02:57+00:00",
+   "updated_at": "2026-08-24T19:07:42+00:00",
    "unit": "¢/bushel",
    "contracts": [
     {
@@ -507,7 +507,7 @@
    "failed": []
   },
   "options": {
-   "updated_at": "2026-08-24T19:02:58+00:00",
+   "updated_at": "2026-08-24T19:07:43+00:00",
    "trade_date": "2026-08-21",
    "cbot": {
     "futures": {
@@ -523,7 +523,7 @@
    }
   },
   "weather": {
-   "updated_at": "2026-08-24T19:02:59+00:00",
+   "updated_at": "2026-08-24T19:07:43+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -688,25 +688,13 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-24T19:03:01+00:00",
+   "updated_at": "2026-08-24T19:07:56+00:00",
    "items": [
-    {
-     "title": "Soja perde até R$ 2/sc no mercado de portos nesta 2ª feira com baixas em Chicago de mais de 1% - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUmxmUjloRnBLR3R0MXNYLTVqb2VkbDk4ZUp3ak1iZWR3Yi15cVRoYkdzYm5SOGdGZzRJaVVYdTI5UnpNeU5lVG5sNEVtQnh1V2pNbDd4YURYajJrNzQ4LUd1MW1rcmhBZ25iTkJiN0YwbWljZDNST2U4UGwySjdmUkdmNkJpbzhTRzNLbS1IUWFYbXVkVVAtbFJkZ0VLeGVNQVZMY2dOMkR6NTZCVW1xWkVlNUdySF84Y1YtUkJTU29ORjY1cENIblduZWpsY1R5bk9VRGV5Nm5xNnVXV1ZrY2NILWE3NEZIX2fSAe8BQVVfeXFMTzdmWTlGd2FGWEdUaUVFX0Z1ZUdiLURJdFRIekZTZVJfdkNSUXp6b0dCcXhKUXFnVU1IeEc1QTk0SU1OZEJLRnNoRnJoc0g2RmNmMjJackRHazFqdmp3VXRVMUJIWlR2aThjVGxXaUtNSGt1dHFaMk9MaTluekpQR1B0blhxMnZSemN4X1FQNGM5X2R4c3YyNl9NekQ2cWZHMGtBVk5pWEw3VlV0OEQ3Ri1ITWwtSDUtdXY3UjRvQ1JzZ19qS2FoamJVMUhvdk5GbFVuRGFKS2c3WFRrQ1hKQV9OQ3J2a0dPRzlCajBfSUE?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-24T18:40:48+00:00"
-    },
     {
      "title": "Citricultura encerra safra com alta de 4,2% nas contratações",
      "link": "https://www.canalrural.com.br/agricultura/citricultura-encerra-safra-com-alta-de-42-nas-contratacoes/",
      "source": "Canal Rural",
      "published_at": "2026-08-24T18:31:28+00:00"
-    },
-    {
-     "title": "Esmagamento de soja cresce 7,9% e já supera 23 milhões de toneladas no ano - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdnVKTjI5ejdMUWFVcGxmSVozTHRTMXFzQkN1NHpzNDFyQk1fYlpoam82V1RhekxfYWh3THNTQWR2TDRqV3FCdmVKUTBVQkVuV1dwTE4wUUJEQ2lSRmw0VDZMS2hpcGdkcDAyMUNIbmxiMG1kWEFhM29ObW5mSVdQUUo2R2NRYWtmeXJIeXN5WTRQQUwyNHRQOEZNMmdRaXdRSWFfSXRR?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-08-24T18:15:40+00:00"
     },
     {
      "title": "Agri Summit Brazil 2027 reunirá mil startups e 50 fundos de investimento",
@@ -763,66 +751,6 @@
      "published_at": "2026-08-24T18:05:00+00:00"
     },
     {
-     "title": "USDA traz embarques semanais de soja e trigo dentro do esperado, mas milho abaixo - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVnd3dUc3bm9GRUJ5TWprLVNmbGtpSWVORk1QS2tFLXNXLW5mem1ZZTRRYWNwVmFrWU1Ec3pzeTFua0xzdjdhNklpT2tSZXZkRWVOdTBrZTlGb2l1WHdBQ1czNTluZ1o2YVMza3IxZWdrTnJndk40NzhkVm5FWnZrblpFdGdDRzItZFZFdlh3T1AyXzd4NmVCTURnYXpEd0Z5ZW5sak5UeVllR0xzdzJCeTZNUkMzUWVmNy1QbHBWd01EWEtjZC1reFE1UHhFY0wxRmNWOUpNVzFfbUHSAeABQVVfeXFMTjc3aDNWUDlSWGJvV0tVMy0wal9pQWo2dFVmRm1uc0hSbVJGMGhkSkdKaEZGR2tiX1d6ZlcyVEhGVE1xR1FJZFpkQ0dlaHplN0diTXdHYmNxWE5lZDdCU1JjQXh4ZkZrTlBLRUJUU3Y0QmpZZjU4UlR5Q29BZ0tmMmc0S2hFYWJzODZTenNxR1VXNW8tNFdqdnFQSTFUWGtFWHFIMV9xbThDUEs0YzQzdVVLSDlDYXQ4aGh5NDFTaUNIRWx5Y3RycFByeHdrMklqUU1jT01VUWJLUlNTTFE1U1g?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-24T17:02:43+00:00"
-    },
-    {
-     "title": "Inspeções de soja para exportação nos EUA sobem 43% na semana, aponta USDA - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRzBhVmhEemc5SkkwQXZPMGR4dWJuMjdDZGdjUFpubGNmQWlVU3o0ckI5eEFpdWJOMEZseC1XRVlET192RDg3MlA4QkVvQVluV2pNbDFfTEFIdW1ZUjlsb1gtV3hrcUJqVW1DRzU0OXRleFl6cUt6by1uR2hyeHhXWWt3QVdPOVhuaXcxSkJDSnppWTdyb09FcG5OV1Fna0V1YndBWFdvMFROZE9zOTl5TkFB?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T16:53:01+00:00"
-    },
-    {
-     "title": "Volume de soja inspecionado para exportação nos EUA sobe 43%, diz USDA - UOL Notícias",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONHNKcUNBei1xTzFFaEFOTTdQOWFScVRpeWZjX1cwVW10aVowc09HTzNUQWRBYjdKYmVJbHVjZGdHYlBwNVlRQ1ByTnRCb1VDaGxGM216Z2d0TWhiOVREc0g4b2g2Z0ZPQkZwQWRsOFRiZGdVTXd0aTlZTFlHV0ZySzd0eWxzWVJpdnJEeDhuMWNURWpjTXVaMS1aTmtuajRma3JnbDZjTmFWVTR6dktQRGh5NXBCeVZhYlZDcVRKMVVpRGxESGJZRVVvQmt2RjQ2cV9iRS16ZTQ4cEk?oc=5",
-     "source": "UOL Notícias",
-     "published_at": "2026-08-24T16:46:00+00:00"
-    },
-    {
-     "title": "Soja: Indicadores sobem ao maior patamar desde abril/2023 - Sociedade Nacional de Agricultura",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNkZHZzNDUFNnbkVjTU1qazRNSG9UTktITVNoWXdjenU5dTkwUGtVaXM3Y0dib21lQ01LSUhLYWtDTVRjeDMwWmpqYTJiOU0zcjc1eDZLX1VraE5lUFNpN3lTQlpXUVdtYUdocHFiY1czUHFSRk5MNE9yaVFqRG50X1BR?oc=5",
-     "source": "Sociedade Nacional de Agricultura",
-     "published_at": "2026-08-24T15:03:00+00:00"
-    },
-    {
-     "title": "Plantas de cobertura elevam rendimento da soja - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPekhKcVJKNUhwZDltaXp4bFA5MWxiT1VqanlSempfZGxybUZuVi1ZQkIwUE1iM0NXQVl0Z21xTEdBWXdMbDFwd1FFZkJRTDVIclFjVUdSRG9IZTlISTJONEYzNUl1R29BVllzU203cEhNdXd0QUVEX2N0eEp2X2YyenY2RmtDa1FrVF8wODFQc0hEQVc2VUhYUUpFVQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-24T14:55:00+00:00"
-    },
-    {
-     "title": "Clima e tensões globais impulsionam soja e milho, enquanto carne bovina perde fôlego; confira - Money Times",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUjZSLV9qcVBKaUNhUjRLU2xRVVpDTGhTMmwxM01BQkNRVl9QMmtZc2V4YmZPanJkS19NTUdxc1M0c3lMZHAzaVZrQ2ZaT3B6dkx4V1pBNGN3U2gxVHA0TnFka1FUSTFkVE5rQ1p4NzR2dVRQdWpBbHQyOUZWM09KdkFvTW9Va0xLV3NFZ3c3SlNwdGRkb2RYajdCUFI2RGpmLXZFdmYtWHp3Uk9Pc296THYwZ1dXdHM?oc=5",
-     "source": "Money Times",
-     "published_at": "2026-08-24T14:06:00+00:00"
-    },
-    {
-     "title": "Soja sobe com demanda aquecida e menor oferta no mercado, segundo Cepea - Globo Rural",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdHlLNEZWNjNjSS1WMDkwT1BZSmNxVHhFOVJ0bExHSS13V2xuaTF5VTdHbnN3bzloUmlEM2VOaVVDd1lHQ01qaHQ1M2tIUW91WF8tVXd5VUM0c0t3dnYtdktBWTRWazl4WjNPNTBkTHNiOVliX1JpZkZjdUtWREVQeXJSYk5oZi1qV0FrYzF4SnFVbFNHdTF2enVJNy03U2JHWWFMbTZLdEVBVjVsSVZ6UjV5WEY4djdHU2g1a0pvOGdOeHZMWTNmSmtR0gHYAUFVX3lxTE1MY1F0bTF2eDZNRjFQWGt2VWxKYTJiVFJMTHdsb1Z2Zklob2pwNVV0SktYNmRlaUMxbXphcjloX1h3cE0xaFhaR0R3ajdWUVNvVGFlal9KdThxcXJWQVZ3Y2hIQUhKcmk3Y0VpS2otVktFTmE2ZU5xNGtjeGlMbnl6S3NSR2Ntdmw1UEY2OU1VTnNnMkRKU2R2RGJ1T2o4REdLM3JKTjN0ZHRPS0ZCOVBVaU55bGxYMWJHejE5LTZQZVlMSk5abW94SVBDQThIbnJ6QW9reEdDMw?oc=5",
-     "source": "Globo Rural",
-     "published_at": "2026-08-24T13:50:09+00:00"
-    },
-    {
-     "title": "Soja sobe no Brasil e registra maior patamar desde abril de 2023 - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVVVzWEMyaFFNTGJ5YlJmaHZvUHk1aGhfQUVuRWZrOU1mVDNkdlcybmxVbG9UZXN3THVNWHdWeXJzc042Q3NlQnVtaXg4TGhxR1F3akpRWW82c0VlTUd2Y2NKRlhQYlJSVzJITUlCVXR3aVRvQ0tGX210WUlDT0hNXzI3NERlOGVRRFRjQnRjMlNmcEllS2Z0UTVrV0RYWURMa3FnRnIwSlV2RlJlLU5oMlQ2QQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-24T12:20:00+00:00"
-    },
-    {
-     "title": "Soja no Matopiba: novo biofungicida nacional combate mancha-alvo e antracnose - Movimento Econômico",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWDRMZnZWWUVOUHhXS0hMaTNFTDlCRmpyamFGTm80U1BzMktpSWZlVVhvYjh1YUFWdVEyNGNnRkRGdTEyVXV0TkVWRmRXbGJNOEhQVjJjU21GcElHSll1R01XMTBuYlpielZMRUlzRFlzRDNQNDBoNjJsbzIzaW1BVG9VUnVUM2pDWFpJR1VWZ2hSbGtTWk82VnU4N3R5OGtCOGVvNnJDcmJqZkpOZUFBN2dmUXVnSlhXLXNNR0N6Ym5wY2dfMHdVR2dDMUJrSVU?oc=5",
-     "source": "Movimento Econômico",
-     "published_at": "2026-08-24T07:47:00+00:00"
-    },
-    {
-     "title": "Preços da soja se elevam e queda produtiva dos EUA pode gerar novas altas - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ0xJMFg5c1o0Rjd6b2wyd1NPaXQwWGozR3RSc1NMRDM5WHZieUk1Z09CbmFqc3hFOFVEZllYazBmMkJGY25MaG5VTU5kN3lZTXdDRU1FTVJsS1lPMm5iMTZ2eTIwYlFuZTZOR1Q0bFZXeTg2aWY2YmZUS0RYdlFqWEpDamtmTnpSSkVMSGVyRGp0d2NKVDI1SWNrNkZKaHUzNkNPSHA0QzB5NFc2UDJJQ0tOMnVsMTQ?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-23T22:01:00+00:00"
-    },
-    {
      "title": "Bovinos influenciadores: conheça a vaca Leide e o touro Xerife",
      "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/23/bovinos-influenciadores-conheca-a-vaca-leide-e-o-touro-xerife.ghtml",
      "source": "G1 Agronegócios",
@@ -869,14 +797,39 @@
      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/alimentos-editados-geneticamente.ghtml",
      "source": "G1 Agronegócios",
      "published_at": "2026-08-21T05:00:18"
+    },
+    {
+     "title": "Exportações de carne bovina caem 26% em agosto com temor de tarifa maior na China",
+     "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/19/exportacoes-de-carne-bovina-caem-26percent-em-agosto-com-temor-de-tarifa-maior-na-china.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-19T16:17:16"
+    },
+    {
+     "title": "Limões 'alienígenas' intrigam produtora; entenda o que causa a deformação",
+     "link": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/08/18/limoes-alienigenas-intrigam-produtora-entenda-o-que-causa-a-deformacao.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-18T06:00:18"
+    },
+    {
+     "title": "Mosca-de-estábulo avança no inverno e causa prejuízo a pecuaristas no interior de SP",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/16/mosca-de-estabulo-avanca-no-inverno-e-causa-prejuizo-a-pecuaristas-no-interior-de-sp.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-16T10:30:13"
+    },
+    {
+     "title": "Peão de Orindiúva viaja 10 mil km para divulgar cultura caipira",
+     "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/16/peao-de-orindiuva-viaja-10-mil-km-para-divulgar-cultura-caipira.ghtml",
+     "source": "G1 Agronegócios",
+     "published_at": "2026-08-16T10:30:12"
     }
    ],
    "failed": [
+    "Google News: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=soja+OR+%22mercado+de+gr%C3%A3os%22&hl=pt-BR&gl=BR&ceid=BR:pt-419",
     "Notícias Agrícolas: 404 Client Error: Not Found for url: https://www.noticiasagricolas.com.br/rss/noticias"
    ]
   },
   "sd": {
-   "updated_at": "2026-08-24T19:03:06+00:00",
+   "updated_at": "2026-08-24T19:08:00+00:00",
    "commodity": "Oilseed, Soybean",
    "safra": "2026/27",
    "vintage": "08",
@@ -890,7 +843,7 @@
      "exportacao": 190.41,
      "importacao": 189.27,
      "area": 146641.0,
-     "su_pct": 19.6,
+     "su_pct": 28.1,
      "var_producao_pct": 3.0,
      "var_estoque_pct": -0.7,
      "anterior": {
@@ -901,7 +854,7 @@
       "exportacao": 187.19,
       "importacao": 187.17,
       "area": 142740.0,
-      "su_pct": 20.3
+      "su_pct": 29.1
      }
     },
     "br": {
@@ -951,19 +904,19 @@
    }
   },
   "basis": {
-   "updated_at": "2026-08-24T19:03:06+00:00",
-   "cambio": 5.1515,
+   "updated_at": "2026-08-24T19:08:00+00:00",
+   "cambio": 5.1531,
    "cbot_cents": 1217.0,
    "premio_cents": 1.5,
    "premio_mes": "Agosto/26",
    "contrato": "set/26",
-   "flat_brl_saca": 138.22,
-   "paridade_brl_saca": 138.39,
+   "flat_brl_saca": 138.26,
+   "paridade_brl_saca": 138.43,
    "indicador_brl_saca": 153.68,
    "indicador_data": "21/08/2026",
    "basis_porto": {
-    "brl_saca": 15.29,
-    "cents_bu": 134.6,
+    "brl_saca": 15.25,
+    "cents_bu": 134.2,
     "pct": 11.0
    },
    "basis_interior": [
@@ -971,37 +924,37 @@
      "praca": "Sorriso/MT",
      "valor": 129.4,
      "basis_brl_saca": -24.28,
-     "basis_cents_bu": -213.8
+     "basis_cents_bu": -213.7
     },
     {
      "praca": "Rio Verde/GO",
      "valor": 130.0,
      "basis_brl_saca": -23.68,
-     "basis_cents_bu": -208.5
+     "basis_cents_bu": -208.4
     },
     {
      "praca": "Jataí/GO",
      "valor": 130.0,
      "basis_brl_saca": -23.68,
-     "basis_cents_bu": -208.5
+     "basis_cents_bu": -208.4
     },
     {
      "praca": "Maracaju/MS",
      "valor": 135.0,
      "basis_brl_saca": -18.68,
-     "basis_cents_bu": -164.5
+     "basis_cents_bu": -164.4
     },
     {
      "praca": "São Gabriel do Oeste/MS",
      "valor": 135.0,
      "basis_brl_saca": -18.68,
-     "basis_cents_bu": -164.5
+     "basis_cents_bu": -164.4
     },
     {
      "praca": "Campo Grande/MS",
      "valor": 137.0,
      "basis_brl_saca": -16.68,
-     "basis_cents_bu": -146.9
+     "basis_cents_bu": -146.8
     },
     {
      "praca": "Oeste da Bahia/BA",
@@ -1013,7 +966,7 @@
      "praca": "Primavera do Leste/MT",
      "valor": 139.6,
      "basis_brl_saca": -14.08,
-     "basis_cents_bu": -124.0
+     "basis_cents_bu": -123.9
     },
     {
      "praca": "Rondonópolis/MT",
@@ -1026,10 +979,10 @@
     {
      "data": "21/08/2026",
      "cbot_cents": 1217.0,
-     "cambio": 5.1515,
-     "paridade": 138.39,
+     "cambio": 5.1531,
+     "paridade": 138.43,
      "indicador": 153.68,
-     "basis": 15.29
+     "basis": 15.25
     }
    ]
   }

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-24T18:11:01+00:00",
+ "generated_at": "2026-08-24T18:30:27+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-24T18:10:48+00:00",
+   "updated_at": "2026-08-24T18:30:13+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1224.5,
+     "price": 1225.5,
      "prev_close": 1225.0,
-     "change_pct": -0.04,
+     "change_pct": 0.04,
      "closes": [
       1248.0,
       1208.5,
@@ -33,17 +33,17 @@
       1222.25,
       1220.75,
       1225.0,
-      1224.5
+      1225.5
      ],
-     "volume": 171736
+     "volume": 190237
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 516.0,
+     "price": 515.0,
      "prev_close": 483.75,
-     "change_pct": 6.67,
+     "change_pct": 6.46,
      "closes": [
       464.25,
       451.75,
@@ -66,17 +66,17 @@
       473.0,
       478.75,
       483.75,
-      516.0
+      515.0
      ],
-     "volume": 433696
+     "volume": 476513
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 328.7,
+     "price": 328.5,
      "prev_close": 317.7,
-     "change_pct": 3.46,
+     "change_pct": 3.4,
      "closes": [
       331.3,
       320.8,
@@ -99,17 +99,17 @@
       318.9,
       315.7,
       317.7,
-      328.7
+      328.5
      ],
-     "volume": 62162
+     "volume": 69773
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.06,
+     "price": 67.33,
      "prev_close": 69.35,
-     "change_pct": -3.3,
+     "change_pct": -2.91,
      "closes": [
       74.33,
       71.46,
@@ -132,17 +132,17 @@
       69.86,
       71.18,
       69.35,
-      67.06
+      67.33
      ],
-     "volume": 119782
+     "volume": 132385
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 700.0,
+     "price": 700.75,
      "prev_close": 681.5,
-     "change_pct": 2.71,
+     "change_pct": 2.82,
      "closes": [
       678.0,
       660.0,
@@ -165,17 +165,17 @@
       680.25,
       682.75,
       681.5,
-      700.0
+      700.75
      ],
-     "volume": 80728
+     "volume": 87147
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.83,
+     "price": 91.95,
      "prev_close": 94.39,
-     "change_pct": -2.71,
+     "change_pct": -2.59,
      "closes": [
       96.78,
       88.36,
@@ -198,17 +198,17 @@
       91.62,
       93.78,
       94.39,
-      91.83
+      91.95
      ],
-     "volume": 14908
+     "volume": 15418
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 172097.06,
+     "price": 172161.8,
      "prev_close": 171032.0,
-     "change_pct": 0.62,
+     "change_pct": 0.66,
      "closes": [
       174042.0,
       175335.0,
@@ -231,7 +231,7 @@
       167830.0,
       167927.0,
       171032.0,
-      172097.0625
+      172161.7969
      ],
      "volume": 0
     }
@@ -239,21 +239,21 @@
    "failed": []
   },
   "fx": {
-   "updated_at": "2026-08-24T18:10:48+00:00",
+   "updated_at": "2026-08-24T18:30:13+00:00",
    "awesomeapi_error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL",
    "usdbrl": {
-    "bid": 5.1512,
+    "bid": 5.1491,
     "ask": null,
     "high": null,
     "low": null,
-    "pct_change": -0.81
+    "pct_change": -0.85
    },
    "eurbrl": {
-    "bid": 6.003,
+    "bid": 6.0049,
     "ask": null,
     "high": null,
     "low": null,
-    "pct_change": -1.01
+    "pct_change": -0.98
    },
    "source": "Yahoo Finance",
    "ptax": {
@@ -263,7 +263,7 @@
    }
   },
   "rates": {
-   "updated_at": "2026-08-24T18:10:50+00:00",
+   "updated_at": "2026-08-24T18:30:15+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -273,7 +273,7 @@
    "ipca_12m": 4.44
   },
   "cepea": {
-   "updated_at": "2026-08-24T18:10:53+00:00",
+   "updated_at": "2026-08-24T18:30:18+00:00",
    "fonte": "Cepea/Esalq, via Notícias Agrícolas",
    "indicador": {
     "nome": "Indicador Soja ESALQ/B3 — Paranaguá",
@@ -376,7 +376,7 @@
    ]
   },
   "safra": {
-   "updated_at": "2026-08-24T18:10:53+00:00",
+   "updated_at": "2026-08-24T18:30:18+00:00",
    "failed": [],
    "us": {
     "released": "2026-08-17",
@@ -436,69 +436,69 @@
    }
   },
   "curve": {
-   "updated_at": "2026-08-24T18:10:57+00:00",
+   "updated_at": "2026-08-24T18:30:22+00:00",
    "unit": "¢/bushel",
    "contracts": [
     {
      "symbol": "ZSU26.CBT",
      "label": "set/26",
-     "price": 1215.75,
-     "change_pct": -0.76,
-     "volume": 24976,
+     "price": 1217.0,
+     "change_pct": -0.65,
+     "volume": 30067,
      "open_interest": 35096,
      "expires_at": "2026-09-14"
     },
     {
      "symbol": "ZSX26.CBT",
      "label": "nov/26",
-     "price": 1224.75,
-     "change_pct": -1.19,
-     "volume": 171803,
+     "price": 1225.5,
+     "change_pct": -1.13,
+     "volume": 190237,
      "open_interest": 480383,
      "expires_at": "2026-11-13"
     },
     {
      "symbol": "ZSF27.CBT",
      "label": "jan/27",
-     "price": 1238.5,
-     "change_pct": -1.22,
-     "volume": 56934,
+     "price": 1239.5,
+     "change_pct": -1.14,
+     "volume": 65671,
      "open_interest": 152542,
      "expires_at": "2027-01-14"
     },
     {
      "symbol": "ZSH27.CBT",
      "label": "mar/27",
-     "price": 1245.0,
-     "change_pct": -1.11,
-     "volume": 25237,
+     "price": 1245.75,
+     "change_pct": -1.05,
+     "volume": 27600,
      "open_interest": 137777,
      "expires_at": "2027-03-12"
     },
     {
      "symbol": "ZSK27.CBT",
      "label": "mai/27",
-     "price": 1251.25,
-     "change_pct": -0.99,
-     "volume": 13834,
+     "price": 1252.25,
+     "change_pct": -0.91,
+     "volume": 15037,
      "open_interest": 87099,
      "expires_at": "2027-05-14"
     },
     {
      "symbol": "ZSN27.CBT",
      "label": "jul/27",
-     "price": 1254.75,
-     "change_pct": -0.91,
-     "volume": 10910,
+     "price": 1256.0,
+     "change_pct": -0.81,
+     "volume": 11872,
      "open_interest": 51676,
      "expires_at": "2027-07-14"
     },
     {
      "symbol": "ZSQ27.CBT",
      "label": "ago/27",
-     "price": 1238.25,
-     "change_pct": -0.8,
-     "volume": 1341,
+     "price": 1237.75,
+     "change_pct": -0.84,
+     "volume": 1461,
      "open_interest": 6208,
      "expires_at": "2027-08-13"
     }
@@ -507,7 +507,7 @@
    "failed": []
   },
   "options": {
-   "updated_at": "2026-08-24T18:10:58+00:00",
+   "updated_at": "2026-08-24T18:30:23+00:00",
    "trade_date": "2026-08-21",
    "cbot": {
     "futures": {
@@ -523,7 +523,7 @@
    }
   },
   "weather": {
-   "updated_at": "2026-08-24T18:10:58+00:00",
+   "updated_at": "2026-08-24T18:30:24+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -688,25 +688,73 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-24T18:11:01+00:00",
+   "updated_at": "2026-08-24T18:30:27+00:00",
    "items": [
     {
-     "title": "Vance acusa Canadá de favorecer China e endurece discurso sobre tarifas",
-     "link": "https://www.canalrural.com.br/economia/vance-acusa-canada-de-favorecer-china-e-endurece-discurso-sobre-tarifas/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T17:32:57+00:00"
+     "title": "Esmagamento de soja cresce 7,9% e já supera 23 milhões de toneladas no ano - O Presente Rural",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdnVKTjI5ejdMUWFVcGxmSVozTHRTMXFzQkN1NHpzNDFyQk1fYlpoam82V1RhekxfYWh3THNTQWR2TDRqV3FCdmVKUTBVQkVuV1dwTE4wUUJEQ2lSRmw0VDZMS2hpcGdkcDAyMUNIbmxiMG1kWEFhM29ObW5mSVdQUUo2R2NRYWtmeXJIeXN5WTRQQUwyNHRQOEZNMmdRaXdRSWFfSXRR?oc=5",
+     "source": "O Presente Rural",
+     "published_at": "2026-08-24T18:15:40+00:00"
     },
     {
-     "title": "Receita Federal realiza módulo sobre reforma tributária para agronegócio e cooperativas",
-     "link": "https://www.canalrural.com.br/politica/receita-federal-realiza-modulo-sobre-reforma-tributaria-para-agronegocio-e-cooperativas/",
+     "title": "Agri Summit Brazil 2027 reunirá mil startups e 50 fundos de investimento",
+     "link": "https://www.canalrural.com.br/videos/agri-summit-brazil-2027-reunira-mil-startups-e-50-fundos-de-investimento/",
      "source": "Canal Rural",
-     "published_at": "2026-08-24T17:31:53+00:00"
+     "published_at": "2026-08-24T18:15:33+00:00"
     },
     {
-     "title": "Aneel aprova reajuste médio de 9,58% nas tarifas da Neoenergia Elektro",
-     "link": "https://www.canalrural.com.br/economia/aneel-aprova-reajuste-medio-de-958-nas-tarifas-da-neoenergia-elektro/",
+     "title": "Mudanças no ITR 2026 exigem atenção dos proprietários rurais",
+     "link": "https://www.canalrural.com.br/videos/mudancas-no-itr-2026-exigem-atencao-dos-proprietarios-rurais/",
      "source": "Canal Rural",
-     "published_at": "2026-08-24T17:24:28+00:00"
+     "published_at": "2026-08-24T18:15:22+00:00"
+    },
+    {
+     "title": "PEC do fim da escala 6×1 avança no Senado, votação fica para depois das eleições",
+     "link": "https://www.canalrural.com.br/videos/pec-do-fim-da-escala-6x1-avanca-no-senado-votacao-fica-para-depois-das-eleicoes/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T18:15:10+00:00"
+    },
+    {
+     "title": "Frente fria traz mudanças no clima e temperaturas em várias regiões do Brasil",
+     "link": "https://www.canalrural.com.br/videos/frente-fria-traz-mudancas-no-clima-e-temperaturas-em-varias-regioes-do-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T18:05:54+00:00"
+    },
+    {
+     "title": "Milho em alta em Chicago devido a perdas na safra dos EUA",
+     "link": "https://www.canalrural.com.br/videos/milho-em-alta-em-chicago-devido-a-perdas-na-safra-dos-eua/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T18:05:45+00:00"
+    },
+    {
+     "title": "Canal Rural debate demandas do agronegócio com candidatos à presidência",
+     "link": "https://www.canalrural.com.br/videos/canal-rural-debate-demandas-do-agronegocio-com-candidatos-a-presidencia/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T18:05:31+00:00"
+    },
+    {
+     "title": "Senar-SP inaugura centro de tecnologia para inovação no agropecuário",
+     "link": "https://www.canalrural.com.br/videos/senar-sp-inaugura-centro-de-tecnologia-para-inovacao-no-agropecuario/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T18:05:20+00:00"
+    },
+    {
+     "title": "49ª Expointer recebe primeiros animais no Rio Grande do Sul",
+     "link": "https://www.canalrural.com.br/videos/49a-expointer-recebe-primeiros-animais-no-rio-grande-do-sul/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T18:05:10+00:00"
+    },
+    {
+     "title": "Senangus: nova raça combina rusticidade e qualidade de carne; conheça",
+     "link": "https://www.canalrural.com.br/pecuaria/senangus-nova-raca-combina-rusticidade-e-qualidade-de-carne-conheca/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T18:05:00+00:00"
+    },
+    {
+     "title": "Plano de Flávio Bolsonaro prevê incentivos a biocombustíveis",
+     "link": "https://www.canalrural.com.br/politica/plano-de-flavio-bolsonaro-preve-incentivos-a-biocombustiveis/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T17:57:46+00:00"
     },
     {
      "title": "USDA traz embarques semanais de soja e trigo dentro do esperado, mas milho abaixo - Notícias Agrícolas",
@@ -721,58 +769,16 @@
      "published_at": "2026-08-24T16:53:01+00:00"
     },
     {
-     "title": "Inspeções de soja para exportação nos EUA sobem 43% na semana, aponta USDA",
-     "link": "https://www.canalrural.com.br/economia/inspecoes-de-soja-para-exportacao-nos-eua-sobem-43-na-semana-aponta-usda/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T16:53:01+00:00"
-    },
-    {
      "title": "Volume de soja inspecionado para exportação nos EUA sobe 43%, diz USDA - UOL Notícias",
      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONHNKcUNBei1xTzFFaEFOTTdQOWFScVRpeWZjX1cwVW10aVowc09HTzNUQWRBYjdKYmVJbHVjZGdHYlBwNVlRQ1ByTnRCb1VDaGxGM216Z2d0TWhiOVREc0g4b2g2Z0ZPQkZwQWRsOFRiZGdVTXd0aTlZTFlHV0ZySzd0eWxzWVJpdnJEeDhuMWNURWpjTXVaMS1aTmtuajRma3JnbDZjTmFWVTR6dktQRGh5NXBCeVZhYlZDcVRKMVVpRGxESGJZRVVvQmt2RjQ2cV9iRS16ZTQ4cEk?oc=5",
      "source": "UOL Notícias",
      "published_at": "2026-08-24T16:46:00+00:00"
     },
     {
-     "title": "Tempestade deve trazer ventania e queda de granizo para áreas de 6 estados",
-     "link": "https://www.canalrural.com.br/previsao-do-tempo/tempestade-deve-trazer-ventania-e-queda-de-granizo-para-areas-de-6-estados/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T16:25:09+00:00"
-    },
-    {
-     "title": "Conab divulga nesta terça-feira o 8º Boletim Prohort 2026",
-     "link": "https://www.canalrural.com.br/economia/conab-divulga-nesta-terca-feira-o-8o-boletim-prohort-2026/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T16:20:33+00:00"
-    },
-    {
-     "title": "Entidades do setor rebatem crítica de Flávio Bolsonaro à mistura E32",
-     "link": "https://www.canalrural.com.br/politica/entidades-do-setor-rebatem-critica-de-flavio-bolsonaro-a-mistura-e32/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T16:03:50+00:00"
-    },
-    {
-     "title": "IBGE abre inscrições para 3ª turma de capacitação do Singed Lab Desastres",
-     "link": "https://www.canalrural.com.br/diversos/ibge-abre-inscricoes-para-3a-turma-de-capacitacao-do-singed-lab-desastres/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T15:28:54+00:00"
-    },
-    {
-     "title": "Novo centro do Senar-SP leva tecnologia e inovação ao campo",
-     "link": "https://www.canalrural.com.br/agricultura/novo-centro-do-senar-sp-leva-tecnologia-e-inovacao-ao-campo/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T15:11:35+00:00"
-    },
-    {
      "title": "Soja: Indicadores sobem ao maior patamar desde abril/2023 - Sociedade Nacional de Agricultura",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNkZHZzNDUFNnbkVjTU1qazRNSG9UTktITVNoWXdjenU5dTkwUGtVaXM3Y0dib21lQ01LSUhLYWtDTVRjeDMwWmpqYTJiOU0zcjc1eDZLX1VraE5lUFNpN3lTQlpXUVdtYUdocHFiY1czUHFSRk5MNE9yaVFqRG50X1BR?oc=5",
      "source": "Sociedade Nacional de Agricultura",
      "published_at": "2026-08-24T15:03:00+00:00"
-    },
-    {
-     "title": "Juros futuros sobem na B3 com atenção ao risco geopolítico",
-     "link": "https://www.canalrural.com.br/economia/juros-futuros-sobem-na-b3-com-atencao-ao-risco-geopolitico/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T15:02:53+00:00"
     },
     {
      "title": "Plantas de cobertura elevam rendimento da soja - Agrolink",
@@ -809,12 +815,6 @@
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWDRMZnZWWUVOUHhXS0hMaTNFTDlCRmpyamFGTm80U1BzMktpSWZlVVhvYjh1YUFWdVEyNGNnRkRGdTEyVXV0TkVWRmRXbGJNOEhQVjJjU21GcElHSll1R01XMTBuYlpielZMRUlzRFlzRDNQNDBoNjJsbzIzaW1BVG9VUnVUM2pDWFpJR1VWZ2hSbGtTWk82VnU4N3R5OGtCOGVvNnJDcmJqZkpOZUFBN2dmUXVnSlhXLXNNR0N6Ym5wY2dfMHdVR2dDMUJrSVU?oc=5",
      "source": "Movimento Econômico",
      "published_at": "2026-08-24T07:47:00+00:00"
-    },
-    {
-     "title": "Nova safra de soja do Brasil pode cair um pouco com El Niño - brasilagro.com.br",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRmZGbV93QXU1UVlUSXRmQ1U4WlZsbUdBcmN0cXRYUC12RjEyVl82S0tPbEdTSWFmY24yX2NvVVFlZ1doMS1DTzFxTmlKMDRxV0Q5NS0zVHpnZlkzWjJHTWVoRzBNejBKS3RXXzhDd2VhSF9MRU8xVm9pYVlKVDN1UmhsNzhaT0w4cUFYWXNXdEJ5ekF2VGV5MlFadzF5X1hIbldSRUZ3?oc=5",
-     "source": "brasilagro.com.br",
-     "published_at": "2026-08-24T07:27:55+00:00"
     },
     {
      "title": "Preços da soja se elevam e queda produtiva dos EUA pode gerar novas altas - Canal Rural",
@@ -876,51 +876,51 @@
    ]
   },
   "basis": {
-   "updated_at": "2026-08-24T18:11:01+00:00",
-   "cambio": 5.1512,
-   "cbot_cents": 1215.75,
+   "updated_at": "2026-08-24T18:30:27+00:00",
+   "cambio": 5.1491,
+   "cbot_cents": 1217.0,
    "premio_cents": 1.5,
    "premio_mes": "Agosto/26",
    "contrato": "set/26",
-   "flat_brl_saca": 138.07,
-   "paridade_brl_saca": 138.24,
+   "flat_brl_saca": 138.15,
+   "paridade_brl_saca": 138.32,
    "indicador_brl_saca": 153.68,
    "indicador_data": "21/08/2026",
    "basis_porto": {
-    "brl_saca": 15.44,
-    "cents_bu": 136.0,
-    "pct": 11.2
+    "brl_saca": 15.36,
+    "cents_bu": 135.3,
+    "pct": 11.1
    },
    "basis_interior": [
     {
      "praca": "Rio Verde/GO",
      "valor": 128.0,
      "basis_brl_saca": -25.68,
-     "basis_cents_bu": -226.1
+     "basis_cents_bu": -226.2
     },
     {
      "praca": "Jataí/GO",
      "valor": 128.0,
      "basis_brl_saca": -25.68,
-     "basis_cents_bu": -226.1
+     "basis_cents_bu": -226.2
     },
     {
      "praca": "Sorriso/MT",
      "valor": 128.9,
      "basis_brl_saca": -24.78,
-     "basis_cents_bu": -218.2
+     "basis_cents_bu": -218.3
     },
     {
      "praca": "Maracaju/MS",
      "valor": 135.0,
      "basis_brl_saca": -18.68,
-     "basis_cents_bu": -164.5
+     "basis_cents_bu": -164.6
     },
     {
      "praca": "São Gabriel do Oeste/MS",
      "valor": 135.0,
      "basis_brl_saca": -18.68,
-     "basis_cents_bu": -164.5
+     "basis_cents_bu": -164.6
     },
     {
      "praca": "Campo Grande/MS",
@@ -950,11 +950,11 @@
    "historico": [
     {
      "data": "21/08/2026",
-     "cbot_cents": 1215.75,
-     "cambio": 5.1512,
-     "paridade": 138.24,
+     "cbot_cents": 1217.0,
+     "cambio": 5.1491,
+     "paridade": 138.32,
      "indicador": 153.68,
-     "basis": 15.44
+     "basis": 15.36
     }
    ]
   }

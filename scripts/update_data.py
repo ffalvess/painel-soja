@@ -100,6 +100,29 @@ def fetch_yahoo_symbol(symbol: str, range_: str = "1mo") -> dict:
     raise RuntimeError(f"{symbol}: {last_err}")
 
 
+def fetch_yahoo_quotes(symbols: list) -> dict:
+    """Cotações em lote pelo endpoint /v7/finance/quote.
+
+    É o único caminho gratuito que devolve `openInterest` (posições em
+    aberto) por contrato. Exige cookie + crumb, obtidos a cada execução.
+    """
+    s = requests.Session()
+    s.headers.update(HEADERS)
+    s.get("https://fc.yahoo.com", timeout=TIMEOUT)
+    crumb = s.get(
+        "https://query1.finance.yahoo.com/v1/test/getcrumb", timeout=TIMEOUT
+    ).text.strip()
+    if not crumb or "<" in crumb:
+        raise RuntimeError("crumb do Yahoo inválido")
+    r = s.get(
+        "https://query1.finance.yahoo.com/v7/finance/quote",
+        params={"symbols": ",".join(symbols), "crumb": crumb},
+        timeout=TIMEOUT,
+    )
+    r.raise_for_status()
+    return {q["symbol"]: q for q in r.json()["quoteResponse"]["result"]}
+
+
 def collect_quotes() -> dict:
     items, failed = [], []
     for symbol, name, unit in YAHOO_SYMBOLS:
@@ -322,6 +345,7 @@ def collect_safra_us() -> dict:
     out = {
         "released": release["release_datetime"][:10],
         "week_ending": None,
+        "coverage": None,
         "progress": [],
         "condition": None,
     }
@@ -335,7 +359,20 @@ def collect_safra_us() -> dict:
             continue
         m = re.search(r"Week Ending ([A-Z][a-z]+ \d+, \d{4})", title)
         if m:
-            out["week_ending"] = m.group(1)
+            try:
+                out["week_ending"] = dt.datetime.strptime(
+                    m.group(1), "%B %d, %Y"
+                ).date().isoformat()
+            except ValueError:
+                out["week_ending"] = m.group(1)
+        note = next((t for t in titles if "States planted" in t), None)
+        if note and not out["coverage"]:
+            c = re.search(r"These (\d+) States planted (\d+)%", note)
+            if c:
+                out["coverage"] = {
+                    "states": int(c.group(1)),
+                    "pct_area": int(c.group(2)),
+                }
         data = {
             r[1]: [num(c) for c in r[2:]]
             for r in rows
@@ -375,6 +412,10 @@ def collect_safra_us() -> dict:
                 )
     if not out["progress"] and not out["condition"]:
         raise RuntimeError("nenhuma tabela de soja encontrada no Crop Progress")
+    ordem = list(SOY_ACTIVITIES.values())
+    out["progress"].sort(
+        key=lambda p: ordem.index(p["label"]) if p["label"] in ordem else 99
+    )
     return out
 
 
@@ -471,27 +512,55 @@ def soy_contracts(n: int = 7) -> list:
 
 
 def collect_curve() -> dict:
+    wanted = soy_contracts()
     contracts, failed = [], []
-    for c in soy_contracts():
-        try:
-            q = fetch_yahoo_symbol(c["symbol"], range_="5d")
+
+    quotes = {}
+    try:
+        quotes = fetch_yahoo_quotes([c["symbol"] for c in wanted])
+    except Exception as e:  # noqa: BLE001 - sem crumb, cai para o chart (sem OI)
+        failed.append(f"lote /v7/quote: {e}")
+
+    for c in wanted:
+        q = quotes.get(c["symbol"])
+        if q:
+            change = q.get("regularMarketChangePercent")
             contracts.append(
                 {
                     "symbol": c["symbol"],
                     "label": c["label"],
-                    "price": q["price"],
-                    "change_pct": q["change_pct"],
-                    "volume": q.get("volume"),
+                    "price": q.get("regularMarketPrice"),
+                    "change_pct": round(change, 2) if change is not None else None,
+                    "volume": q.get("regularMarketVolume"),
+                    "open_interest": q.get("openInterest"),
+                    "expires_at": (q.get("expireIsoDate") or "")[:10] or None,
+                }
+            )
+            continue
+        try:
+            f = fetch_yahoo_symbol(c["symbol"], range_="5d")
+            contracts.append(
+                {
+                    "symbol": c["symbol"],
+                    "label": c["label"],
+                    "price": f["price"],
+                    "change_pct": f["change_pct"],
+                    "volume": f.get("volume"),
+                    "open_interest": None,
+                    "expires_at": None,
                 }
             )
         except Exception as e:  # noqa: BLE001
             failed.append(f"{c['symbol']}: {e}")
+
     if not contracts:
         raise RuntimeError("; ".join(failed))
+    ois = [c["open_interest"] for c in contracts if c.get("open_interest")]
     return {
         "updated_at": now_iso(),
         "unit": "¢/bushel",
         "contracts": contracts,
+        "total_open_interest": sum(ois) if ois else None,
         "failed": failed,
     }
 

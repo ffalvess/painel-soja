@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Sonda temporária (rodada 6): CEPEA alternativo, open interest por
-vencimento e progresso de safra do Brasil."""
+"""Sonda temporária (rodada 7): endpoints do portal da CONAB (progresso de
+safra) e fontes alternativas ao CEPEA para o preço físico no Brasil."""
 
 import json
+import re
 import sys
-from ftplib import FTP
 
 import requests
 
@@ -21,7 +21,7 @@ def sec(t):
     print(f"\n===== {t}")
 
 
-def show(r, snip=900):
+def show(r, snip=700):
     print(f"status={r.status_code} ct={r.headers.get('Content-Type','?')} bytes={len(r.content)}")
     try:
         print("JSON:", json.dumps(r.json(), ensure_ascii=False)[:snip])
@@ -30,95 +30,105 @@ def show(r, snip=900):
 
 
 def main() -> int:  # noqa: C901
-    # ---------- A. CEPEA: caminhos alternativos ----------
-    cepea = [
-        ("widget-92",
-         "https://www.cepea.esalq.usp.br/br/widgetproduto.js.php"
-         "?fonte=arial&tamanho=10&largura=400px&corfundo=dbd6b2&cortexto=333333"
-         "&corlinha=ede9ce&id_indicador[]=92"),
-        ("widget-multi",
-         "https://www.cepea.esalq.usp.br/br/widgetproduto.js.php"
-         "?id_indicador[]=91&id_indicador[]=92&id_indicador[]=93&id_indicador[]=94"),
-        ("widget-page", "https://www.cepea.esalq.usp.br/br/widget.aspx"),
-        ("org-direct", "https://cepea.org.br/br/indicador/soja.aspx"),
-        ("esalq-direct", "https://www.cepea.esalq.usp.br/br/indicador/soja.aspx"),
-        ("consulta-bd", "https://www.cepea.esalq.usp.br/br/consultas-ao-banco-de-dados-do-site.aspx"),
-        ("xls-soja", "https://www.cepea.esalq.usp.br/br/indicador/series/soja.aspx?id=92"),
-    ]
-    for name, url in cepea:
-        sec(f"cepea-{name}")
-        try:
-            show(requests.get(url, headers=UA, timeout=30), 1200)
-        except Exception as e:  # noqa: BLE001
-            print("EXC:", type(e).__name__, e)
+    # ---------- A. CONAB: achar a API por trás do portal ----------
+    sec("conab-spa-scripts")
+    scripts = []
+    try:
+        r = requests.get(
+            "https://portaldeinformacoes.conab.gov.br/progresso-de-safra.html",
+            headers=UA, timeout=40,
+        )
+        print(f"status={r.status_code} bytes={len(r.content)}")
+        scripts = re.findall(r'<script[^>]+src=["\']([^"\']+)["\']', r.text)
+        print("scripts:", scripts[:30])
+        refs = sorted(set(re.findall(r'["\']([^"\']*(?:downloads/arquivos|/api/|\.txt|\.json)[^"\']*)["\']', r.text)))
+        print("refs no html:", refs[:30])
+    except Exception as e:  # noqa: BLE001
+        print("EXC:", e)
 
-    # ---------- B. Open interest por vencimento ----------
-    sec("yahoo-quote-oi")
+    base = "https://portaldeinformacoes.conab.gov.br/"
+    for src in scripts[:12]:
+        url = src if src.startswith("http") else base + src.lstrip("./")
+        sec(f"conab-js {src[:60]}")
+        try:
+            r = requests.get(url, headers=UA, timeout=40)
+            hits = sorted(set(re.findall(
+                r'["\']([^"\']*(?:downloads/arquivos/[\w.-]+|/api/[\w./-]+)[^"\']*)["\']', r.text)))
+            print(f"status={r.status_code} bytes={len(r.content)} | achados: {hits[:40]}")
+        except Exception as e:  # noqa: BLE001
+            print("EXC:", e)
+
+    sec("conab-arquivos-candidatos")
+    for f in (
+        "ProgressoSafraSerie.txt", "ProgressoSafraBrasil.txt",
+        "ProgressoDeSafra.txt", "progresso_safra.txt",
+        "SerieHistoricaGraos.txt",
+    ):
+        try:
+            r = requests.get(base + "downloads/arquivos/" + f, headers=UA, timeout=40)
+            print(f"{f}: status={r.status_code} bytes={len(r.content)}")
+        except Exception as e:  # noqa: BLE001
+            print(f"{f}: EXC {e}")
+
+    # ---------- B. Alternativas ao CEPEA ----------
+    sec("imea-site")
+    for url in (
+        "https://www.imea.com.br/imea-site/indicador-preco",
+        "https://api.imea.com.br/api/v1/indicadores",
+        "https://www.imea.com.br/imea-site/api/indicadores",
+    ):
+        try:
+            show(requests.get(url, headers=UA, timeout=30), 500)
+        except Exception as e:  # noqa: BLE001
+            print(f"{url}: EXC {type(e).__name__} {e}")
+
+    sec("noticias-agricolas-cepea")
+    for url in (
+        "https://www.noticiasagricolas.com.br/cotacoes/soja/soja-cepea-esalq-paranagua",
+        "https://www.noticiasagricolas.com.br/cotacoes/soja",
+    ):
+        try:
+            r = requests.get(url, headers=UA, timeout=30)
+            text = " ".join(r.text.split())
+            print(f"{url} -> status={r.status_code} bytes={len(r.content)}")
+            i = text.upper().find("PARANAGU")
+            print("   trecho:", text[max(0, i - 400): i + 1200] if i >= 0 else text[:600])
+        except Exception as e:  # noqa: BLE001
+            print("EXC:", e)
+
+    sec("cepea-via-http-simples")
+    # a proteção é da Cloudflare; testa se o host antigo sem www responde
+    for url in (
+        "http://cepea.esalq.usp.br/br/indicador/soja.aspx",
+        "https://www.cepea.esalq.usp.br/br/indicador/soja.aspx",
+    ):
+        try:
+            r = requests.get(url, headers=UA, timeout=30, allow_redirects=True)
+            print(f"{url} -> {r.status_code} ({len(r.content)} bytes) final={r.url}")
+        except Exception as e:  # noqa: BLE001
+            print(f"{url}: EXC {e}")
+
+    # ---------- C. OI de todos os vencimentos ----------
+    sec("yahoo-oi-curva")
     try:
         s = requests.Session()
         s.headers.update(UA)
         s.get("https://fc.yahoo.com", timeout=20)
         crumb = s.get("https://query1.finance.yahoo.com/v1/test/getcrumb", timeout=20).text.strip()
+        syms = "ZSU26.CBT,ZSX26.CBT,ZSF27.CBT,ZSH27.CBT,ZSK27.CBT,ZSN27.CBT,ZSQ27.CBT"
         r = s.get(
             "https://query1.finance.yahoo.com/v7/finance/quote",
-            params={"symbols": "ZSX26.CBT,ZSF27.CBT,ZS=F", "crumb": crumb},
-            timeout=25,
+            params={"symbols": syms, "crumb": crumb}, timeout=25,
         )
-        print("status:", r.status_code)
-        for q in r.json().get("quoteResponse", {}).get("result", []):
-            keys = {k: v for k, v in q.items() if "pen" in k.lower() or "nterest" in k.lower()}
-            print(q.get("symbol"), "| campos de OI:", keys or "NENHUM")
-            print("   todos os campos:", sorted(q.keys())[:60])
+        total = 0
+        for q in r.json()["quoteResponse"]["result"]:
+            oi = q.get("openInterest")
+            total += oi or 0
+            print(f"  {q['symbol']:12} preço={q.get('regularMarketPrice')} "
+                  f"vol={q.get('regularMarketVolume')} OI={oi} exp={q.get('expireIsoDate','')[:10]}")
+        print("  soma OI:", total)
     except Exception as e:  # noqa: BLE001
         print("EXC:", e)
-
-    sec("cme-ftp-dirs")
-    for d in ("pub", "webmthly", "delivery_reports", "grs", "fprf", "daily_volume"):
-        try:
-            ftp = FTP("ftp.cmegroup.com", timeout=45)
-            ftp.login()
-            names = ftp.nlst(d)
-            ftp.close()
-            print(f"{d}: {len(names)} itens ->", names[:12])
-        except Exception as e:  # noqa: BLE001
-            print(f"{d}: EXC {e}")
-
-    # ---------- C. CONAB: progresso de safra ----------
-    base = "https://portaldeinformacoes.conab.gov.br/downloads/arquivos/"
-    for fname in (
-        "ProgressoSafra.txt",
-        "ProgressodeSafra.txt",
-        "SerieHistoricaProgressoSafra.txt",
-        "ProgressoSafraGraos.txt",
-        "CalendarioAgricola.txt",
-        "SerieHistoricaCustoProducao.txt",
-    ):
-        sec(f"conab-{fname}")
-        try:
-            r = requests.get(base + fname, headers=UA, timeout=45)
-            print(f"status={r.status_code} bytes={len(r.content)}")
-            if r.ok:
-                print("HEAD:", "\n".join(r.text.splitlines()[:5]))
-        except Exception as e:  # noqa: BLE001
-            print("EXC:", e)
-
-    sec("conab-paginas")
-    for url in (
-        "https://portaldeinformacoes.conab.gov.br/progresso-de-safra.html",
-        "https://portaldeinformacoes.conab.gov.br/safra-serie-historica.html",
-    ):
-        try:
-            r = requests.get(url, headers=UA, timeout=40)
-            text = " ".join(r.text.split())
-            print(f"{url} -> status={r.status_code} bytes={len(r.content)}")
-            import re
-
-            for m in set(re.findall(r"[\w./-]*(?:arquivos|api|json)[\w./?=&-]*", text))[:0] or []:
-                pass
-            hits = sorted(set(re.findall(r"['\"]([^'\"]*(?:downloads/arquivos|/api/)[^'\"]*)['\"]", text)))
-            print("   refs:", hits[:20])
-        except Exception as e:  # noqa: BLE001
-            print("EXC:", e)
 
     return 0
 

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-24T09:40:20+00:00",
+ "generated_at": "2026-08-24T10:31:28+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-24T09:39:56+00:00",
+   "updated_at": "2026-08-24T10:31:20+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1235.5,
+     "price": 1238.0,
      "prev_close": 1225.0,
-     "change_pct": 0.86,
+     "change_pct": 1.06,
      "closes": [
       1248.0,
       1208.5,
@@ -33,16 +33,16 @@
       1222.25,
       1220.75,
       1225.0,
-      1235.5
+      1238.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 520.5,
+     "price": 522.5,
      "prev_close": 483.75,
-     "change_pct": 7.6,
+     "change_pct": 8.01,
      "closes": [
       464.25,
       451.75,
@@ -65,16 +65,16 @@
       473.0,
       478.75,
       483.75,
-      520.5
+      522.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 327.0,
+     "price": 327.8,
      "prev_close": 317.7,
-     "change_pct": 2.93,
+     "change_pct": 3.18,
      "closes": [
       331.3,
       320.8,
@@ -97,16 +97,16 @@
       318.9,
       315.7,
       317.7,
-      327.0
+      327.8
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.92,
+     "price": 67.99,
      "prev_close": 69.35,
-     "change_pct": -2.06,
+     "change_pct": -1.96,
      "closes": [
       74.33,
       71.46,
@@ -129,16 +129,16 @@
       69.86,
       71.18,
       69.35,
-      67.92
+      67.99
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 710.0,
+     "price": 711.0,
      "prev_close": 681.5,
-     "change_pct": 4.18,
+     "change_pct": 4.33,
      "closes": [
       678.0,
       660.0,
@@ -161,16 +161,16 @@
       680.25,
       682.75,
       681.5,
-      710.0
+      711.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.13,
+     "price": 92.75,
      "prev_close": 94.39,
-     "change_pct": -1.33,
+     "change_pct": -1.74,
      "closes": [
       96.78,
       88.36,
@@ -193,7 +193,7 @@
       91.62,
       93.78,
       94.39,
-      93.13
+      92.75
      ]
     },
     {
@@ -236,9 +236,9 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-24T09:39:56+00:00",
+   "updated_at": "2026-08-24T10:31:20+00:00",
    "selic": 14.0,
-   "cdi": null,
+   "cdi": 13.9,
    "ipca_mes": {
     "valor": 0.07,
     "data": "01/07/2026"
@@ -247,7 +247,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-24T09:40:17+00:00",
+   "updated_at": "2026-08-24T10:31:25+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -408,13 +408,31 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-24T09:40:20+00:00",
+   "updated_at": "2026-08-24T10:31:28+00:00",
    "items": [
+    {
+     "title": "Petróleo, juros e dólar: o que movimenta os mercados nesta semana",
+     "link": "https://www.canalrural.com.br/economia/petroleo-juros-e-dolar-o-que-movimenta-os-mercados-nesta-semana/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T09:41:42+00:00"
+    },
+    {
+     "title": "Soja fecha com altas no interior e portos estáveis - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb291emxyaVVMMEZNbDh0NFVMZzFSSzk1QjlLOWZ4cFQwV09Tc2txeDh3S244aFdCckozbXd4UnA5QmNJdHFFTGI0R0hYNTNiZ2w4eDlNQWlPYWtHaHpSd3VpdnZ2UVNlQ1RMXzdPazhnTzNPeGwyT3BRa0pWYjU4U0x1dExsWThFYkhqa1F1TTdYbkQ1bFVPb05oTmtzNk1t?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-24T09:39:00+00:00"
+    },
     {
      "title": "Soja perto de novos patamares: veja quando vender - Agrolink",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNThHb21vYmxjb2pYM0tJVll1dkhSQXRYT29ueXhybmlfMmpSTkJFQ2tyMHdydWxDbFh3VUZ6RFo3dGdfMFpBUEVheV8yTGZFa0VCTmdCRmIxS3Z5b1g5RXFzV2dqaC1zdDdqNDdxbmV4UjZUdWtJSFI1OXB5U3lLTlVTSHJPUUliMExsd0UyX09IRWkzdnJ3bzhpQlBzV0U?oc=5",
      "source": "Agrolink",
      "published_at": "2026-08-24T09:21:00+00:00"
+    },
+    {
+     "title": "Vinícius Andrade assume Supply Chain da Syngenta no Brasil - Revista Cultivar",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQkJ1RmNLaFlTLTFaQm5zcV83QWpWemcwSjFmaWM3X2NpTkc2M0VDN1p2SllORUNPWl9kUzh0eW9WNm1CMmE0TC1TOHVjUkwtVjNZOEVybklhc2hfTTdsSHFCWVJoeWVuVWtEZ0luTUxQVlkyT0dDSktON3ZPV2R1Smo1SW9WZUFHbktxcW9YZkRCdnBhUnJrV0ZCbHRoelk?oc=5",
+     "source": "Revista Cultivar",
+     "published_at": "2026-08-24T09:15:00+00:00"
     },
     {
      "title": "Plantio de milho após colheita de soja eleva produtividade da oleaginosa, mostra estudo - Globo Rural",
@@ -505,24 +523,6 @@
      "link": "https://www.canalrural.com.br/internacional/terremoto-de-magnitude-59-atinge-japao-e-deixa-ao-menos-dez-feridos/",
      "source": "Canal Rural",
      "published_at": "2026-08-23T18:22:19+00:00"
-    },
-    {
-     "title": "Pesquisadores transformam grãos quebrados de feijão em proteína para bebidas, cappuccino e snacks",
-     "link": "https://www.canalrural.com.br/agricultura/feijao/pesquisadores-transformam-graos-quebrados-de-feijao-em-proteina-para-bebidas-cappuccino-e-snacks/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-23T18:02:00+00:00"
-    },
-    {
-     "title": "Arquitetura da soja reduz parasitismo de percevejo-marrom - Revista Cultivar",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObldEcGx5SXhiOVItTFRncHZsMl84M1NwbUUyb3JxVE11eVN3VXQ5QlZMb3RVWWxDSGFXNGpGYU53V3A3SU1SZ1ltY0pNd2s2WjFiTnJTQnN0SEFuLUs3SWxIb2cybko3cndCTnlPQTRBcmlYZUhxejNLckVrRFlOZ2tvXzdBZU16SE55NzFYMFRpZ1lQVkdNV282NTRGQQ?oc=5",
-     "source": "Revista Cultivar",
-     "published_at": "2026-08-23T16:42:00+00:00"
-    },
-    {
-     "title": "UE pode reduzir em 95% importação de soja brasileira com tolerância zero a agrotóxicos - MundoCoop",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaEIxeUtkeGx1MTZzaWxkTl9QblNyVmJSZU1LLWM0NlNaM3JPdEJOUG1FUGdhVDhubzdVUjJ3RldwZmxXOGFaalNENlMyTGgxRkFka214RVlnaEI3MG5rWU5QYWg0YTRieFl5T2lVQ1VGVTI4cEtmSURQaVpqUXdVVFhvUkJIOWF3bC1rakpWSS0ySVM4WXBMZzJDbE5NSHBYMVhyb2xtSjJYb0ZiUU1NblAtREFoVTZOSkphTm8yMA?oc=5",
-     "source": "MundoCoop",
-     "published_at": "2026-08-23T13:00:00+00:00"
     },
     {
      "title": "Bovinos influenciadores: conheça a vaca Leide e o touro Xerife",

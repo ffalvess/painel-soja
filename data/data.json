@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-24T17:25:15+00:00",
+ "generated_at": "2026-08-24T17:43:56+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-24T17:25:04+00:00",
+   "updated_at": "2026-08-24T17:43:33+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1224.5,
+     "price": 1225.0,
      "prev_close": 1225.0,
-     "change_pct": -0.04,
+     "change_pct": 0.0,
      "closes": [
       1248.0,
       1208.5,
@@ -33,17 +33,17 @@
       1222.25,
       1220.75,
       1225.0,
-      1224.5
+      1225.0
      ],
-     "volume": 155205
+     "volume": 161486
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 519.75,
+     "price": 517.75,
      "prev_close": 483.75,
-     "change_pct": 7.44,
+     "change_pct": 7.03,
      "closes": [
       464.25,
       451.75,
@@ -66,17 +66,17 @@
       473.0,
       478.75,
       483.75,
-      519.75
+      517.75
      ],
-     "volume": 397053
+     "volume": 414860
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 329.9,
+     "price": 330.1,
      "prev_close": 317.7,
-     "change_pct": 3.84,
+     "change_pct": 3.9,
      "closes": [
       331.3,
       320.8,
@@ -99,17 +99,17 @@
       318.9,
       315.7,
       317.7,
-      329.9
+      330.1
      ],
-     "volume": 54239
+     "volume": 56965
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.04,
+     "price": 67.05,
      "prev_close": 69.35,
-     "change_pct": -3.33,
+     "change_pct": -3.32,
      "closes": [
       74.33,
       71.46,
@@ -132,17 +132,17 @@
       69.86,
       71.18,
       69.35,
-      67.04
+      67.05
      ],
-     "volume": 111559
+     "volume": 114010
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 703.5,
+     "price": 702.0,
      "prev_close": 681.5,
-     "change_pct": 3.23,
+     "change_pct": 3.01,
      "closes": [
       678.0,
       660.0,
@@ -165,17 +165,17 @@
       680.25,
       682.75,
       681.5,
-      703.5
+      702.0
      ],
-     "volume": 76011
+     "volume": 77925
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 92.2,
+     "price": 92.24,
      "prev_close": 94.39,
-     "change_pct": -2.32,
+     "change_pct": -2.28,
      "closes": [
       96.78,
       88.36,
@@ -198,17 +198,17 @@
       91.62,
       93.78,
       94.39,
-      92.2
+      92.24
      ],
-     "volume": 13637
+     "volume": 14213
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 172269.1,
+     "price": 172237.22,
      "prev_close": 171032.0,
-     "change_pct": 0.72,
+     "change_pct": 0.7,
      "closes": [
       174042.0,
       175335.0,
@@ -231,7 +231,7 @@
       167830.0,
       167927.0,
       171032.0,
-      172269.0938
+      172237.2188
      ],
      "volume": 0
     }
@@ -239,21 +239,21 @@
    "failed": []
   },
   "fx": {
-   "updated_at": "2026-08-24T17:25:04+00:00",
+   "updated_at": "2026-08-24T17:43:33+00:00",
    "awesomeapi_error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL",
    "usdbrl": {
-    "bid": 5.1451,
+    "bid": 5.1491,
     "ask": null,
     "high": null,
     "low": null,
-    "pct_change": -0.92
+    "pct_change": -0.85
    },
    "eurbrl": {
-    "bid": 5.9985,
+    "bid": 6.001,
     "ask": null,
     "high": null,
     "low": null,
-    "pct_change": -1.09
+    "pct_change": -1.04
    },
    "source": "Yahoo Finance",
    "ptax": {
@@ -263,7 +263,7 @@
    }
   },
   "rates": {
-   "updated_at": "2026-08-24T17:25:05+00:00",
+   "updated_at": "2026-08-24T17:43:34+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -272,13 +272,119 @@
    },
    "ipca_12m": 4.44
   },
-  "cepea": null,
+  "cepea": {
+   "updated_at": "2026-08-24T17:43:51+00:00",
+   "fonte": "Cepea/Esalq, via Notícias Agrícolas",
+   "indicador": {
+    "nome": "Indicador Soja ESALQ/B3 — Paranaguá",
+    "data": "21/08/2026",
+    "valor": 153.68,
+    "var_dia_pct": -0.61
+   },
+   "indicadores": [
+    {
+     "nome": "Indicador Soja ESALQ/B3 — Paranaguá",
+     "data": "21/08/2026",
+     "valor": 153.68,
+     "var_dia_pct": -0.61
+    },
+    {
+     "nome": "Indicador Soja CEPEA/ESALQ — Paraná",
+     "data": "21/08/2026",
+     "valor": 146.7,
+     "var_dia_pct": 0.31
+    }
+   ],
+   "premio_paranagua": [
+    {
+     "mes": "Agosto/26",
+     "valor": 1.5,
+     "var": 0.0
+    },
+    {
+     "mes": "Setembro/26",
+     "valor": 1.7,
+     "var": 0.0
+    },
+    {
+     "mes": "Outubro/26",
+     "valor": 1.6,
+     "var": 0.0
+    },
+    {
+     "mes": "Novembro/26",
+     "valor": 1.5,
+     "var": 0.0
+    }
+   ],
+   "fisico": [
+    {
+     "praca": "Sorriso/MT",
+     "valor": 128.9,
+     "var_dia_pct": 0.47
+    },
+    {
+     "praca": "Rondonópolis/MT",
+     "valor": 141.0,
+     "var_dia_pct": -0.98
+    },
+    {
+     "praca": "Primavera do Leste/MT",
+     "valor": 139.6,
+     "var_dia_pct": -0.99
+    },
+    {
+     "praca": "Rio Verde/GO",
+     "valor": 128.0,
+     "var_dia_pct": 0.0
+    },
+    {
+     "praca": "Jataí/GO",
+     "valor": 128.0,
+     "var_dia_pct": 0.0
+    },
+    {
+     "praca": "Campo Grande/MS",
+     "valor": 137.0,
+     "var_dia_pct": 0.0
+    },
+    {
+     "praca": "Maracaju/MS",
+     "valor": 135.0,
+     "var_dia_pct": 0.0
+    },
+    {
+     "praca": "São Gabriel do Oeste/MS",
+     "valor": 135.0,
+     "var_dia_pct": 0.0
+    },
+    {
+     "praca": "Oeste da Bahia/BA",
+     "valor": 138.75,
+     "var_dia_pct": 0.0
+    },
+    {
+     "praca": "Porto Paranaguá (disponível)",
+     "valor": 154.0,
+     "var_dia_pct": 0.0
+    },
+    {
+     "praca": "Porto Santos/SP",
+     "valor": 148.0,
+     "var_dia_pct": 0.0
+    }
+   ]
+  },
   "safra": {
-   "updated_at": "2026-08-24T17:25:08+00:00",
+   "updated_at": "2026-08-24T17:43:51+00:00",
    "failed": [],
    "us": {
     "released": "2026-08-17",
-    "week_ending": "August 16, 2026",
+    "week_ending": "2026-08-16",
+    "coverage": {
+     "states": 18,
+     "pct_area": 96
+    },
     "progress": [
      {
       "label": "Floração",
@@ -321,68 +427,87 @@
      "producao_mil_t": 171472.3,
      "produtividade_kg_ha": 3621.3
     },
+    "ciclo": {
+     "fase": "Entressafra",
+     "detalhe": "comercialização; vazio sanitário até meados de setembro"
+    },
     "var_producao_pct": 5.2,
     "var_area_pct": 2.7
    }
   },
   "curve": {
-   "updated_at": "2026-08-24T17:25:11+00:00",
+   "updated_at": "2026-08-24T17:43:53+00:00",
    "unit": "¢/bushel",
    "contracts": [
     {
      "symbol": "ZSU26.CBT",
      "label": "set/26",
-     "price": 1212.5,
-     "change_pct": -1.02,
-     "volume": 19693
+     "price": 1214.0,
+     "change_pct": -0.9,
+     "volume": 21176,
+     "open_interest": 35096,
+     "expires_at": "2026-09-14"
     },
     {
      "symbol": "ZSX26.CBT",
      "label": "nov/26",
-     "price": 1224.5,
-     "change_pct": -1.21,
-     "volume": 155275
+     "price": 1225.0,
+     "change_pct": -1.17,
+     "volume": 161500,
+     "open_interest": 480383,
+     "expires_at": "2026-11-13"
     },
     {
      "symbol": "ZSF27.CBT",
      "label": "jan/27",
-     "price": 1238.75,
-     "change_pct": -1.2,
-     "volume": 51000
+     "price": 1239.25,
+     "change_pct": -1.16,
+     "volume": 53528,
+     "open_interest": 152542,
+     "expires_at": "2027-01-14"
     },
     {
      "symbol": "ZSH27.CBT",
      "label": "mar/27",
-     "price": 1245.0,
-     "change_pct": -1.11,
-     "volume": 22065
+     "price": 1245.5,
+     "change_pct": -1.07,
+     "volume": 23202,
+     "open_interest": 137777,
+     "expires_at": "2027-03-12"
     },
     {
      "symbol": "ZSK27.CBT",
      "label": "mai/27",
-     "price": 1251.5,
-     "change_pct": -0.97,
-     "volume": 11992
+     "price": 1251.75,
+     "change_pct": -0.95,
+     "volume": 12644,
+     "open_interest": 87099,
+     "expires_at": "2027-05-14"
     },
     {
      "symbol": "ZSN27.CBT",
      "label": "jul/27",
-     "price": 1255.5,
-     "change_pct": -0.85,
-     "volume": 9741
+     "price": 1256.0,
+     "change_pct": -0.81,
+     "volume": 10072,
+     "open_interest": 51676,
+     "expires_at": "2027-07-14"
     },
     {
      "symbol": "ZSQ27.CBT",
      "label": "ago/27",
-     "price": 1239.75,
-     "change_pct": -0.68,
-     "volume": 1207
+     "price": 1239.0,
+     "change_pct": -0.74,
+     "volume": 1241,
+     "open_interest": 6208,
+     "expires_at": "2027-08-13"
     }
    ],
+   "total_open_interest": 950781,
    "failed": []
   },
   "options": {
-   "updated_at": "2026-08-24T17:25:12+00:00",
+   "updated_at": "2026-08-24T17:43:54+00:00",
    "trade_date": "2026-08-21",
    "cbot": {
     "futures": {
@@ -398,7 +523,7 @@
    }
   },
   "weather": {
-   "updated_at": "2026-08-24T17:25:13+00:00",
+   "updated_at": "2026-08-24T17:43:54+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -437,7 +562,8 @@
       24.4,
       24.0,
       26.0
-     ]
+     ],
+     "precip_30d": 2.8
     },
     {
      "name": "Sinop · MT",
@@ -476,7 +602,8 @@
       24.2,
       24.5,
       25.6
-     ]
+     ],
+     "precip_30d": 2.3
     },
     {
      "name": "Rio Verde · GO",
@@ -515,7 +642,8 @@
       21.0,
       23.9,
       25.3
-     ]
+     ],
+     "precip_30d": 0.4
     },
     {
      "name": "Dourados · MS",
@@ -554,18 +682,31 @@
       21.6,
       23.3,
       24.5
-     ]
+     ],
+     "precip_30d": 39.1
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-24T17:25:15+00:00",
+   "updated_at": "2026-08-24T17:43:56+00:00",
    "items": [
+    {
+     "title": "Aneel aprova reajuste médio de 9,58% nas tarifas da Neoenergia Elektro",
+     "link": "https://www.canalrural.com.br/economia/aneel-aprova-reajuste-medio-de-958-nas-tarifas-da-neoenergia-elektro/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T17:24:28+00:00"
+    },
     {
      "title": "USDA traz embarques semanais de soja e trigo dentro do esperado, mas milho abaixo - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVnd3dUc3bm9GRUJ5TWprLVNmbGtpSWVORk1QS2tFLXNXLW5mem1ZZTRRYWNwVmFrWU1Ec3pzeTFua0xzdjdhNklpT2tSZXZkRWVOdTBrZTlGb2l1WHdBQ1czNTluZ1o2YVMza3IxZWdrTnJndk40NzhkVm5FWnZrblpFdGdDRzItZFZFdlh3T1AyXzd4NmVCTURnYXpEd0Z5ZW5sak5UeVllR0xzdzJCeTZNUkMzUWVmNy1QbHBWd01EWEtjZC1reFE1UHhFY0wxRmNWOUpNVzFfbUHSAeABQVVfeXFMTjc3aDNWUDlSWGJvV0tVMy0wal9pQWo2dFVmRm1uc0hSbVJGMGhkSkdKaEZGR2tiX1d6ZlcyVEhGVE1xR1FJZFpkQ0dlaHplN0diTXdHYmNxWE5lZDdCU1JjQXh4ZkZrTlBLRUJUU3Y0QmpZZjU4UlR5Q29BZ0tmMmc0S2hFYWJzODZTenNxR1VXNW8tNFdqdnFQSTFUWGtFWHFIMV9xbThDUEs0YzQzdVVLSDlDYXQ4aGh5NDFTaUNIRWx5Y3RycFByeHdrMklqUU1jT01VUWJLUlNTTFE1U1g?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-24T17:02:43+00:00"
+    },
+    {
+     "title": "Inspeções de soja para exportação nos EUA sobem 43% na semana, aponta USDA - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRzBhVmhEemc5SkkwQXZPMGR4dWJuMjdDZGdjUFpubGNmQWlVU3o0ckI5eEFpdWJOMEZseC1XRVlET192RDg3MlA4QkVvQVluV2pNbDFfTEFIdW1ZUjlsb1gtV3hrcUJqVW1DRzU0OXRleFl6cUt6by1uR2hyeHhXWWt3QVdPOVhuaXcxSkJDSnppWTdyb09FcG5OV1Fna0V1YndBWFdvMFROZE9zOTl5TkFB?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T16:53:01+00:00"
     },
     {
      "title": "Inspeções de soja para exportação nos EUA sobem 43% na semana, aponta USDA",
@@ -640,22 +781,10 @@
      "published_at": "2026-08-24T14:55:00+00:00"
     },
     {
-     "title": "Avanço da terceira safra não é suficiente para reduzir preços do feijão, diz Cepea",
-     "link": "https://www.canalrural.com.br/agricultura/feijao/avanco-da-terceira-safra-nao-e-suficiente-para-reduzir-precos-do-feijao-diz-cepea/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T14:54:17+00:00"
-    },
-    {
      "title": "Soja brasileira amplia papel estratégico na transição energética e reforça avanços em sustentabilidade - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPUXk3QmlwNlZFNVNJaHM3QTdFaVFOd2N6R3dLZHBMUzJZdDNnZklmZWhxQWFWSzV3UlBWb21NWDlMNkMzLUJ4VEY3TEgxa043WmZjZjBqMzBsSU1PdjRPWkY2UkhwdDFvd1ZXNEV6OXE2RFQ2bmJqYmI2cEJhd0NaUElxMExkcU5PMzdWSk5PU05LTmE0OTJ5U2lEekJPNmloTjVrNVc4bGs1c0p0VUFNR1F4V2J2bFItWmRUaFRWWUV5ZldnSUtwX1hDbnl3dF9oUWgzeGxBZjh1V1dnTVY5bDZrRy1pWVNnU0FnZ3htcmQtLW9JMHAxMtIB_gFBVV95cUxOcnl2UlEwUm9zZDdZdWlpdV9NcEtTY25sNWNDZVZTSlhaOF9lMGJTNllxelNpUVFsYzgtZUVFLUhsQkJmVFd0VjFLYkVHak13cFlhS1BmdnJjM3BidjUyeEpuUmNicmgyb0U5YXN5RzUwTXVEVjhGdTBERktlMHRpS2FYN3hLVGZRZlJOZWJqUXNtcDA0Y0Vsd3A0OE9reE9ydVI2dmZneGhlZVlWVDR5RUhKWk1UNlRsVUxmZUZoS2N0ai1kRmNobG9Dci1PNUFHbW1zX0Jqa3J4R056V2pJRDdvSGx3eURrakZTY3dlM2szUFpodHJBMmxLVGh4QQ?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-24T14:15:13+00:00"
-    },
-    {
-     "title": "Pro Farmer estima safra menor de milho e maior de soja nos EUA ante o USDA - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRzZrX2cybGs2VkJfUXZwSXlucjhKdVBlUVdIX3RnQTY3S1Q2dVNpMXN1V0dDbl93SjBjTTZoSFplbTJweXM2Q1Uzakd5WmxaMmdOMFlJOHRmWnVUR1FXQzVwc1R6Yk9XNW1JSkQ2clZtUlVqSEVKMzVHbEFid1kwM1ljUUZZR3VKYjJvRzFyamxSWkZwTFBFMnFYVHZwTElGaWdGY3gyd1VyaHY5QXJVdTJ4S2dKek41?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T14:11:15+00:00"
     },
     {
      "title": "Clima e tensões globais impulsionam soja e milho, enquanto carne bovina perde fôlego; confira - Money Times",
@@ -747,10 +876,5 @@
    ]
   }
  },
- "errors": [
-  {
-   "section": "cepea",
-   "error": "403 Client Error: Forbidden for url: https://www.cepea.org.br/br/indicador/soja.aspx"
-  }
- ]
+ "errors": []
 }

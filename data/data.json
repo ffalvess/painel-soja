@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-24T00:55:04+00:00",
+ "generated_at": "2026-08-24T02:19:59+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-24T00:54:58+00:00",
+   "updated_at": "2026-08-24T02:19:53+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1233.25,
+     "price": 1234.0,
      "prev_close": 1225.0,
-     "change_pct": 0.67,
+     "change_pct": 0.73,
      "closes": [
       1237.5,
       1248.0,
@@ -34,16 +34,16 @@
       1222.25,
       1220.75,
       1225.0,
-      1233.25
+      1234.0
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 519.75,
+     "price": 520.5,
      "prev_close": 483.75,
-     "change_pct": 7.44,
+     "change_pct": 7.6,
      "closes": [
       464.0,
       464.25,
@@ -67,16 +67,16 @@
       473.0,
       478.75,
       483.75,
-      519.75
+      520.5
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 326.9,
+     "price": 327.4,
      "prev_close": 317.7,
-     "change_pct": 2.9,
+     "change_pct": 3.05,
      "closes": [
       329.9,
       331.3,
@@ -100,16 +100,16 @@
       318.9,
       315.7,
       317.7,
-      326.9
+      327.4
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 68.26,
+     "price": 67.94,
      "prev_close": 69.35,
-     "change_pct": -1.57,
+     "change_pct": -2.03,
      "closes": [
       75.59,
       74.33,
@@ -133,16 +133,16 @@
       69.86,
       71.18,
       69.35,
-      68.26
+      67.94
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 707.75,
+     "price": 712.25,
      "prev_close": 681.5,
-     "change_pct": 3.85,
+     "change_pct": 4.51,
      "closes": [
       696.25,
       678.0,
@@ -166,16 +166,16 @@
       680.25,
       682.75,
       681.5,
-      707.75
+      712.25
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 92.93,
+     "price": 92.58,
      "prev_close": 94.39,
-     "change_pct": -1.55,
+     "change_pct": -1.92,
      "closes": [
       100.69,
       96.78,
@@ -199,7 +199,7 @@
       91.62,
       93.78,
       94.39,
-      92.93
+      92.58
      ]
     },
     {
@@ -242,7 +242,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-24T00:54:58+00:00",
+   "updated_at": "2026-08-24T02:19:53+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -253,7 +253,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-24T00:55:02+00:00",
+   "updated_at": "2026-08-24T02:19:57+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -414,7 +414,7 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-24T00:55:04+00:00",
+   "updated_at": "2026-08-24T02:19:59+00:00",
    "items": [
     {
      "title": "TJ sugere possível extinção de processo contra “Moratória da Soja” - FOLHAMAX",

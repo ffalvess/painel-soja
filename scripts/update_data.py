@@ -15,6 +15,7 @@ Fontes:
   - USDA/NASS Crop Progress (via API da biblioteca Cornell): safra dos EUA
   - CONAB (série histórica de grãos): safra do Brasil
   - CME Group (FTP público ftp.cmegroup.com): volume de calls/puts de soja
+  - USDA/FAS PSD (api.fas.usda.gov, chave em USDA_FAS_KEY): oferta e demanda
   - Open-Meteo: previsão de chuva em cidades produtoras do Centro-Oeste
   - RSS: Google News, Canal Rural, G1 Agronegócios, Notícias Agrícolas
 """
@@ -23,6 +24,7 @@ import datetime as dt
 import email.utils
 import html
 import json
+import os
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -824,6 +826,135 @@ def collect_news() -> dict:
     return {"updated_at": now_iso(), "items": items[:30], "failed": failed}
 
 
+# ---------------------------------------------------------------- oferta e demanda
+
+FAS_BASE = "https://api.fas.usda.gov/api/psd"
+
+
+def fas(path: str):
+    """PSD do USDA/FAS. A chave vive no secret USDA_FAS_KEY."""
+    chave = os.environ.get("USDA_FAS_KEY", "").strip()
+    if not chave:
+        raise RuntimeError("USDA_FAS_KEY não configurada")
+    r = requests.get(
+        FAS_BASE + path,
+        headers={**HEADERS, "X-Api-Key": chave, "Accept": "application/json"},
+        timeout=TIMEOUT,
+    )
+    r.raise_for_status()
+    return r.json()
+
+
+def collect_sd() -> dict:
+    """Balanço de oferta e demanda da soja em grão — mundo, Brasil e EUA.
+
+    O código da commodity e os nomes dos atributos são descobertos na hora:
+    o PSD tem uma linha separada para farelo e óleo, e travar IDs numéricos
+    é a forma mais fácil de acabar publicando farelo como se fosse grão.
+    """
+    commodities = fas("/commodities")
+    grao = next(
+        (
+            c
+            for c in commodities
+            if "soybean" in c["commodityName"].lower()
+            and "oilseed" in c["commodityName"].lower()
+        ),
+        None,
+    )
+    if not grao:
+        raise RuntimeError("commodity 'Oilseed, Soybean' não encontrada no PSD")
+    codigo = grao["commodityCode"]
+    nomes = {
+        a["attributeId"]: a["attributeName"].strip()
+        for a in fas("/commodityAttributes")
+    }
+
+    ano = dt.date.today().year
+    # O ano-safra corrente vira em setembro; antes disso o PSD ainda
+    # publica o anterior como o mais recente com dados.
+    anos = [ano, ano - 1]
+
+    def balanco(path_fmt: str):
+        for a in anos:
+            registros = fas(path_fmt.format(ano=a))
+            if not registros:
+                continue
+            vals, mes = {}, None
+            for r in registros:
+                nome = nomes.get(r["attributeId"])
+                if nome and r.get("unitId") == 8:  # 1000 toneladas
+                    vals[nome] = round(r["value"] / 1000, 2)  # -> Mt
+                elif nome:
+                    vals[nome] = r["value"]
+                mes = r.get("month") or mes
+            if vals:
+                return a, mes, vals
+        return None, None, {}
+
+    def resumo(vals: dict) -> dict:
+        def pega(*chaves):
+            for k in chaves:
+                if k in vals:
+                    return vals[k]
+            return None
+
+        prod = pega("Production")
+        fim = pega("Ending Stocks")
+        cons = pega("Domestic Consumption", "Total Dom. Cons.", "TOTAL Dom. Cons.")
+        exp = pega("Exports", "Total Exports")
+        uso = (cons or 0) + (exp or 0)
+        return {
+            "producao": prod,
+            "estoque_inicial": pega("Beginning Stocks"),
+            "estoque_final": fim,
+            "consumo": cons,
+            "exportacao": exp,
+            "importacao": pega("Imports", "Total Imports"),
+            "area": pega("Area Harvested"),
+            "su_pct": round(fim / uso * 100, 1) if fim is not None and uso else None,
+        }
+
+    escopos = {}
+    alvos = {
+        "mundo": f"/commodity/{codigo}/world/year/{{ano}}",
+        "br": f"/commodity/{codigo}/country/BR/year/{{ano}}",
+        "us": f"/commodity/{codigo}/country/US/year/{{ano}}",
+    }
+    mes_ref, ano_ref = None, None
+    for nome, path in alvos.items():
+        a, mes, vals = balanco(path)
+        if not vals:
+            continue
+        atual = resumo(vals)
+        ano_ref, mes_ref = a, mes or mes_ref
+
+        _, _, vals_ant = balanco(path.replace("{ano}", str(a - 1)))
+        anterior = resumo(vals_ant) if vals_ant else None
+        if anterior and atual["producao"] and anterior["producao"]:
+            atual["var_producao_pct"] = round(
+                (atual["producao"] / anterior["producao"] - 1) * 100, 1
+            )
+        if anterior and atual["estoque_final"] and anterior["estoque_final"]:
+            atual["var_estoque_pct"] = round(
+                (atual["estoque_final"] / anterior["estoque_final"] - 1) * 100, 1
+            )
+        atual["anterior"] = anterior
+        escopos[nome] = atual
+
+    if not escopos:
+        raise RuntimeError("PSD não devolveu dados para nenhum escopo")
+
+    return {
+        "updated_at": now_iso(),
+        "commodity": grao["commodityName"].strip(),
+        "safra": f"{ano_ref}/{str((ano_ref or 0) + 1)[-2:]}" if ano_ref else None,
+        "vintage": mes_ref,
+        "unidade": "Mt",
+        "escopos": escopos,
+    }
+
+
 # ---------------------------------------------------------------- basis
 
 BU_POR_SACA = 60 / 27.2155  # bushels de soja em uma saca de 60 kg
@@ -985,6 +1116,7 @@ COLLECTORS = {
     "options": collect_options,
     "weather": collect_weather,
     "news": collect_news,
+    "sd": collect_sd,
 }
 
 DERIVED = {"basis": collect_basis}

@@ -892,7 +892,7 @@ def collect_sd() -> dict:
                 return a, mes, vals
         return None, None, {}
 
-    def resumo(vals: dict) -> dict:
+    def resumo(vals: dict, mundo: bool = False) -> dict:
         def pega(*chaves):
             for k in chaves:
                 if k in vals:
@@ -903,7 +903,9 @@ def collect_sd() -> dict:
         fim = pega("Ending Stocks")
         cons = pega("Domestic Consumption", "Total Dom. Cons.", "TOTAL Dom. Cons.")
         exp = pega("Exports", "Total Exports")
-        uso = (cons or 0) + (exp or 0)
+        # No agregado mundial a exportação é transferência entre países, não
+        # uso: somá-la contaria o mesmo grão duas vezes e achataria o S/U.
+        uso = (cons or 0) if mundo else (cons or 0) + (exp or 0)
         return {
             "producao": prod,
             "estoque_inicial": pega("Beginning Stocks"),
@@ -926,11 +928,12 @@ def collect_sd() -> dict:
         a, mes, vals = balanco(path)
         if not vals:
             continue
-        atual = resumo(vals)
+        eh_mundo = nome == "mundo"
+        atual = resumo(vals, eh_mundo)
         ano_ref, mes_ref = a, mes or mes_ref
 
         _, _, vals_ant = balanco(path.replace("{ano}", str(a - 1)))
-        anterior = resumo(vals_ant) if vals_ant else None
+        anterior = resumo(vals_ant, eh_mundo) if vals_ant else None
         if anterior and atual["producao"] and anterior["producao"]:
             atual["var_producao_pct"] = round(
                 (atual["producao"] / anterior["producao"] - 1) * 100, 1

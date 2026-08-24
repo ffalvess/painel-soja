@@ -13,6 +13,10 @@ esse JSON — não há servidor, banco de dados nem custo.
 
 ## Ativar (uma vez)
 
+0. **Chave do USDA:** em *Settings → Secrets and variables → Actions*, crie o
+   secret `USDA_FAS_KEY` com uma chave gratuita de https://api.fas.usda.gov.
+   Sem ela, só a seção de oferta e demanda fica indisponível; o resto do
+   painel funciona normalmente.
 1. **GitHub Pages:** em *Settings → Pages → Build and deployment*, escolha
    *Deploy from a branch*, branch `main`, pasta `/ (root)` e salve.
    O site ficará em `https://SEU-USUARIO.github.io/painel-soja/`.
@@ -33,6 +37,7 @@ esse JSON — não há servidor, banco de dados nem custo.
 | Indicadores CEPEA (Paranaguá e Paraná), prêmio de porto e balcão nas praças | Cepea/Esalq, via Notícias Agrícolas | O site do CEPEA passou a exigir verificação da Cloudflare e responde 403 a robôs; o Notícias Agrícolas republica citando a fonte |
 | Chuva 7 dias e acumulado de 30 dias (Sorriso, Sinop, Rio Verde, Dourados) | Open-Meteo (`past_days=31`) | Sem chave; o acumulado indica se a janela de plantio abre |
 | Notícias | Google News RSS, Canal Rural, G1 Agronegócios, Notícias Agrícolas | Links diretos para as matérias |
+| Oferta e demanda da soja (mundo, Brasil, EUA) | USDA/FAS PSD — `api.fas.usda.gov`, header `X-Api-Key` | Exige o secret `USDA_FAS_KEY`; código da commodity e atributos descobertos em tempo de execução |
 | Basis (paridade de exportação vs. indicador; interior vs. porto) | Derivado das seções acima | Casa o mês de embarque do prêmio com o contrato CBOT correspondente; a série é acumulada em `data/basis_history.json` |
 
 ## Páginas
@@ -59,6 +64,8 @@ esse JSON — não há servidor, banco de dados nem custo.
   site e API para IPs de nuvem, e o arquivo público do FTP traz apenas
   volume por produto. O OI que o painel mostra é o dos **futuros**, por
   vencimento (via Yahoo).
+- Estoque final do Brasil pelo USDA não bate com o da CONAB: as duas
+  instituições usam definições diferentes de estoque de passagem.
 - Não há fonte gratuita e estruturada com o **percentual plantado por
   semana no Brasil**: a CONAB publica em painel Power BI (o portal é uma
   SPA sem API aberta), a AgRural divulga em release e o USDA/FAS exige

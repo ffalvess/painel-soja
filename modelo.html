@@ -130,25 +130,15 @@ footer{margin-top:34px;color:var(--muted);font-size:12.5px}
     </div>
   </section>
 
-  <section>
-    <h2>Cenário 2026/27 — sanity check do modelo</h2>
+  <section id="sec-sd" hidden>
+    <h2>Cenário — sanity check do modelo <span class="tag live">ao vivo</span></h2>
     <div class="card">
-      <h3>O quadro que o modelo tem que reproduzir</h3>
-      <div class="src">Estimativas de agosto/26 usadas como referência de validação</div>
-      <div class="kpis" style="margin-top:12px">
-        <div class="kpi"><div class="lbl">Produção mundial 26/27</div>
-          <div class="val">442,25 Mt</div><div class="sub">recorde · +3,0%</div></div>
-        <div class="kpi"><div class="lbl">Estoque final mundial</div>
-          <div class="val">124,21 Mt</div><div class="sub">praticamente estável</div></div>
-        <div class="kpi"><div class="lbl">Estoque/produção</div>
-          <div class="val">28,1%</div><div class="sub">124,21 ÷ 442,25</div></div>
-        <div class="kpi"><div class="lbl">Estoque final Brasil</div>
-          <div class="val">8,25 Mt</div><div class="sub">maior desde 2017</div></div>
-      </div>
-      <p style="margin-top:14px;font-size:14px">Oferta ampla e relação estoque/uso confortável.
-        O modelo deve devolver <b>viés neutro-baixista, com cauda de alta condicionada a clima
-        e à demanda chinesa</b>. <b class="chain neg">Se devolver alta convicta, está quebrado</b> —
-        é o teste de fumaça antes de olhar qualquer métrica.</p>
+      <h3 id="sd-titulo">O quadro que o modelo tem que reproduzir</h3>
+      <div class="src" id="sd-src"></div>
+      <div class="kpis" style="margin-top:12px" id="sd-kpis"></div>
+      <div class="tblwrap" style="margin-top:14px"><table class="t" id="sd-tabela"></table></div>
+      <p style="margin-top:14px;font-size:14px" id="sd-leitura"></p>
+      <p class="note" id="sd-nota"></p>
     </div>
   </section>
 
@@ -248,9 +238,9 @@ footer{margin-top:34px;color:var(--muted);font-size:12.5px}
 
   <footer>
     Basis e paridade calculados a partir do painel principal (CBOT via Yahoo Finance,
-    dólar comercial e indicadores Cepea/Esalq via Notícias Agrícolas). Números de oferta
-    e demanda 2026/27 são a referência de agosto/26 usada como sanity check.
-    Conteúdo informativo, sem garantia — não constitui recomendação de negociação.
+    dólar comercial e indicadores Cepea/Esalq via Notícias Agrícolas). Oferta e demanda
+    direto da API PSD do USDA/FAS. Conteúdo informativo, sem garantia —
+    não constitui recomendação de negociação.
   </footer>
 </div>
 
@@ -345,6 +335,57 @@ function renderHist(serie){
     </svg>`;
 }
 
+const MESES = ["", "janeiro","fevereiro","março","abril","maio","junho",
+  "julho","agosto","setembro","outubro","novembro","dezembro"];
+
+function renderSD(sd){
+  if(!sd?.escopos) return;
+  const m = sd.escopos.mundo, br = sd.escopos.br, us = sd.escopos.us;
+  const vint = sd.vintage ? MESES[parseInt(sd.vintage,10)] : null;
+  $("sd-titulo").textContent = `Balanço mundial da soja ${sd.safra||""}`;
+  $("sd-src").textContent =
+    `USDA/FAS PSD · ${sd.commodity}` + (vint ? ` · estimativa de ${vint}` : "");
+
+  if(m){
+    const kpi = (lbl,val,sub) =>
+      `<div class="kpi"><div class="lbl">${lbl}</div><div class="val">${val}</div>
+       <div class="sub">${sub||""}</div></div>`;
+    $("sd-kpis").innerHTML =
+      kpi("Produção mundial", `${fmt(m.producao)} Mt`,
+          m.var_producao_pct!=null ? `${sgn(m.var_producao_pct,1)}% vs safra anterior` : "") +
+      kpi("Estoque final mundial", `${fmt(m.estoque_final)} Mt`,
+          m.var_estoque_pct!=null ? `${sgn(m.var_estoque_pct,1)}% vs safra anterior` : "") +
+      kpi("Estoque/uso mundial", `${fmt(m.su_pct,1)}%`, "estoque final ÷ consumo") +
+      kpi("Consumo mundial", `${fmt(m.consumo)} Mt`, "esmagamento + demais usos");
+  }
+
+  const linha = (nome, e) => e ? `<tr><td>${nome}</td><td>${fmt(e.producao)}</td>
+    <td>${fmt(e.consumo)}</td><td>${fmt(e.exportacao)}</td>
+    <td>${fmt(e.estoque_final)}</td><td>${fmt(e.su_pct,1)}%</td></tr>` : "";
+  $("sd-tabela").innerHTML = `<thead><tr><th>Escopo</th><th>Produção</th>
+    <th>Consumo</th><th>Exportação</th><th>Estoque final</th><th>Estoque/uso</th>
+    </tr></thead><tbody>${linha("Mundo",m)}${linha("Brasil",br)}${linha("EUA",us)}</tbody>`;
+
+  if(m){
+    const folgado = (m.su_pct ?? 0) >= 25 || (m.var_producao_pct ?? 0) > 0;
+    $("sd-leitura").innerHTML = folgado
+      ? `Oferta ampla e relação estoque/uso confortável. O modelo deve devolver
+         <b>viés neutro-baixista, com cauda de alta condicionada a clima e à demanda chinesa</b>.
+         <b class="chain neg">Se devolver alta convicta, está quebrado</b> — é o teste de fumaça
+         antes de olhar qualquer métrica.`
+      : `Oferta apertada para o padrão histórico: o viés neutro-baixista deixa de ser
+         o resultado esperado e o sanity check acima precisa ser refeito antes de
+         confiar em qualquer saída do modelo.`;
+  }
+  $("sd-nota").innerHTML =
+    "Todos os números em milhões de toneladas, direto da API do USDA/FAS — atualizam sozinhos " +
+    "a cada revisão do WASDE. <b>Estoque/uso</b> é estoque final dividido pelo consumo interno; " +
+    "para Brasil e EUA a exportação entra no uso, para o mundo não, porque ali ela é " +
+    "transferência entre países. O estoque final do Brasil pelo USDA não bate com o da CONAB: " +
+    "as duas usam definições diferentes de estoque de passagem.";
+  $("sec-sd").hidden = false;
+}
+
 /* diagrama do walk-forward: treino expandindo, purge, embargo, teste */
 function renderWalkForward(){
   const W=640, rowH=30, folds=4, x0=54, unit=44;
@@ -384,6 +425,7 @@ async function load(){
       $("stamp").textContent = "dados de " + new Intl.DateTimeFormat("pt-BR",
         {hour:"2-digit",minute:"2-digit",timeZone:"America/Sao_Paulo"}).format(new Date(d.generated_at));
     renderChain(b);
+    renderSD(d.sections?.sd);
     if(b?.historico?.length){ renderHist(b.historico); $("sec-hist").hidden=false; }
   }catch(err){
     $("stamp").textContent = "sem dados — rode o workflow de atualização";

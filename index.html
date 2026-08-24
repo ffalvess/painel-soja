@@ -176,6 +176,7 @@ footer a{color:var(--ink-2)}
     <div class="duo">
       <div class="card safra" id="safra-us" hidden></div>
       <div class="card safra" id="safra-br" hidden></div>
+      <div class="card safra" id="safra-sd" hidden></div>
     </div>
   </section>
 
@@ -477,11 +478,41 @@ function renderSafraBR(br, weather){
   return true;
 }
 
-function renderSafra(safra, weather){
-  if(!safra) return;
-  const ok1=renderSafraUS(safra.us);
-  const ok2=renderSafraBR(safra.br, weather);
-  if(ok1||ok2) $("sec-safra").hidden=false;
+const MESES_PT=["","janeiro","fevereiro","março","abril","maio","junho",
+  "julho","agosto","setembro","outubro","novembro","dezembro"];
+
+function renderSafraSD(sd){
+  const m=sd?.escopos?.mundo;
+  if(!m) return false;
+  const vint = sd.vintage ? ` · estimativa de ${MESES_PT[parseInt(sd.vintage,10)]}` : "";
+  const kpi=(lbl,val,sub)=>`<div class="kpi"><div class="lbl">${lbl}</div>
+    <div class="val">${val}</div><div class="sub">${sub||""}</div></div>`;
+  const linha=(nome,e)=> e ? `<div class="prow" style="padding:4px 0">
+      <span class="plbl" style="flex:0 0 70px">${nome}</span>
+      <span class="cmp" style="flex:1;gap:2px 14px">
+        <span>produção <em>${fmt(e.producao,0)} Mt</em></span>
+        <span>estoque/uso <em>${fmt(e.su_pct,1)}%</em></span></span></div>` : "";
+  $("safra-sd").innerHTML =
+    `<h3>Mundo — oferta e demanda ${sd.safra||""}</h3>
+     <div class="src">USDA/FAS PSD${vint}</div>
+     <div class="kpis" style="margin-top:10px">
+       ${kpi("Produção mundial", fmt(m.producao,1)+" Mt",
+             m.var_producao_pct!=null?deltaHtml(m.var_producao_pct)+" vs safra anterior":"")}
+       ${kpi("Estoque final", fmt(m.estoque_final,1)+" Mt",
+             m.var_estoque_pct!=null?deltaHtml(m.var_estoque_pct)+" vs safra anterior":"")}
+       ${kpi("Estoque/uso", fmt(m.su_pct,1)+"%", "estoque ÷ consumo")}
+     </div>
+     <div class="hint" style="margin-top:12px">Produção e folga de estoque por origem</div>
+     ${linha("Brasil", sd.escopos.br)}${linha("EUA", sd.escopos.us)}`;
+  $("safra-sd").hidden=false;
+  return true;
+}
+
+function renderSafra(safra, weather, sd){
+  const ok1=renderSafraUS(safra?.us);
+  const ok2=renderSafraBR(safra?.br, weather);
+  const ok3=renderSafraSD(sd);
+  if(ok1||ok2||ok3) $("sec-safra").hidden=false;
 }
 
 function renderNews(news){
@@ -539,7 +570,7 @@ function render(data){
   renderQuotes(s.quotes, s.fx);
   renderCurve(s.curve, s.fx);
   renderOptions(s.options);
-  renderSafra(s.safra, s.weather);
+  renderSafra(s.safra, s.weather, s.sd);
   renderNews(s.news);
   renderWeather(s.weather);
   const errs=(data.errors||[]).map(e=>e.section);

@@ -27,7 +27,7 @@ esse JSON — não há servidor, banco de dados nem custo.
 
 | Dado | Fonte | Observação |
 |---|---|---|
-| Soja, milho, farelo, óleo, trigo (CBOT), Brent, Ibovespa | Yahoo Finance (não oficial) | Atraso ~15 min; é a fonte mais frágil — se falhar, o painel mantém o último valor |
+| Soja, milho, farelo, óleo, trigo (CBOT), Brent, Ibovespa | Yahoo Finance (não oficial) | Atraso ~15 min; é a fonte mais frágil — se falhar, o painel mantém o último valor. Guarda três séries por símbolo (intradiário 1 h em 5 dias, diária em 1 ano, semanal em 5 anos) para o detalhe clicável |
 | Curva de vencimentos da soja (preço, variação, volume e **posições em aberto** por contrato) | Yahoo Finance — `/v7/finance/quote` com cookie + crumb | Próximos 7 vencimentos; o `openInterest` só vem por esse endpoint |
 | Volume de calls × puts de soja na CBOT | CME Group — FTP público (`ftp.cmegroup.com`, `daily_volume.xlsx`) | Dado do pregão anterior; a CME bloqueia o site/API para o Actions, mas o FTP é aberto. OI de opções por call/put não existe nesse arquivo |
 | Safra EUA (floração, formação de vagens, condição boa/excelente) | USDA/NASS Crop Progress, via API da biblioteca Cornell | Semanal (segundas), sem chave |
@@ -43,7 +43,9 @@ esse JSON — não há servidor, banco de dados nem custo.
 ## Páginas
 
 - `index.html` — painel do dia: câmbio, mercado físico, cotações, curva de
-  vencimentos, opções, safra, clima e notícias.
+  vencimentos, opções, safra, clima e notícias. Os cartões de cotação são
+  clicáveis e abrem a série de 1 dia a 5 anos, com as variações acumuladas
+  em dia, semana, mês, trimestre, ano e 5 anos.
 - `modelo.html` — decomposição do preço em paridade de exportação + basis
   (calculada a cada hora) e a especificação do modelo de direção de preço
   em 4–8 semanas. Linkada no cabeçalho do painel.

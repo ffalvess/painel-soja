@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-"""Sonda temporária (rodada 8): caça a API de progresso de safra da CONAB e
-valida a extração dos indicadores CEPEA na página do Notícias Agrícolas."""
+"""Sonda temporária (rodada 9): onde vive a API do portal da CONAB e quais
+fontes publicam o progresso de plantio/colheita no Brasil."""
 
-import json
 import re
 import sys
 
@@ -15,7 +14,6 @@ UA = {
     ),
     "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
 }
-CONAB = "https://portaldeinformacoes.conab.gov.br/"
 
 
 def sec(t):
@@ -23,89 +21,79 @@ def sec(t):
 
 
 def main() -> int:  # noqa: C901
-    # ---------- A. contexto de "api" no bundle da CONAB ----------
-    sec("conab-js-contexto-api")
-    try:
-        js = requests.get(CONAB + "main-AVLRI5XU.js", headers=UA, timeout=40).text
-        for m in re.finditer(r"api", js):
-            frag = js[max(0, m.start() - 120): m.start() + 160]
-            if any(k in frag for k in ("http", "url", "URL", "endpoint", "/v1")):
-                print("...", " ".join(frag.split()), "\n")
-    except Exception as e:  # noqa: BLE001
-        print("EXC:", e)
-
-    sec("conab-js-rotas")
-    try:
-        js = requests.get(CONAB + "main-AVLRI5XU.js", headers=UA, timeout=40).text
-        rotas = sorted(set(re.findall(r'path\s*:\s*"([^"]{2,60})"', js)))
-        print("rotas:", rotas[:40])
-        paths = sorted(set(re.findall(r'"(/[a-z0-9][\w./-]{3,60})"', js)))
-        print("paths:", paths[:60])
-    except Exception as e:  # noqa: BLE001
-        print("EXC:", e)
-
-    sec("conab-api-candidatos")
-    cands = [
-        "api/v1/progresso-safra", "api/v1/progressoSafra", "api/v1/progresso",
-        "api/v1/safra/progresso", "api/v1/graos/progresso-safra",
-        "api/v1/", "api/", "api/v1/produtos", "api/v1/safras",
-        "downloads/arquivos/ProgressoSafraSemanal.txt",
-        "downloads/arquivos/SerieHistoricaProgresso.txt",
-        "downloads/arquivos/AcompanhamentoSafraBrasileira.txt",
-    ]
-    for c in cands:
+    sec("conab-js-urls-absolutas")
+    for js in ("main-AVLRI5XU.js", "scripts-Y6FOZT2A.js"):
         try:
-            r = requests.get(CONAB + c, headers=UA, timeout=30)
-            body = " ".join(r.text[:220].split()) if r.text else ""
-            print(f"{c}: {r.status_code} ({len(r.content)}b) {body[:160]}")
+            t = requests.get(
+                "https://portaldeinformacoes.conab.gov.br/" + js, headers=UA, timeout=45
+            ).text
+            urls = sorted(set(re.findall(r'https?://[\w.-]+(?:/[\w./?=&%-]*)?', t)))
+            urls = [u for u in urls if "w3.org" not in u and "schema" not in u]
+            print(f"-- {js}: {len(urls)} urls")
+            for u in urls[:40]:
+                print("   ", u)
         except Exception as e:  # noqa: BLE001
-            print(f"{c}: EXC {type(e).__name__}")
+            print("EXC:", e)
 
-    # ---------- B. Notícias Agrícolas: tabelas de indicadores da soja ----------
-    sec("na-soja-tabelas")
-    try:
-        r = requests.get(
-            "https://www.noticiasagricolas.com.br/cotacoes/soja", headers=UA, timeout=40
-        )
-        print("status:", r.status_code, "bytes:", len(r.content))
-        html = r.text
-        blocos = re.findall(
-            r'<h2>\s*<a[^>]*title="([^"]+)".*?<table[^>]*>(.*?)</table>',
-            html, re.S,
-        )
-        print("blocos encontrados:", len(blocos))
-        for titulo, tabela in blocos:
-            linhas = re.findall(r"<tr>(.*?)</tr>", tabela, re.S)
-            dados = []
-            for ln in linhas:
-                celulas = [
-                    " ".join(re.sub(r"<[^>]+>", "", c).split())
-                    for c in re.findall(r"<td[^>]*>(.*?)</td>", ln, re.S)
-                ]
-                if celulas:
-                    dados.append(celulas)
-            print(f"  - {titulo!r}: {dados}")
-    except Exception as e:  # noqa: BLE001
-        print("EXC:", e)
+    sec("conab-hosts-api")
+    for url in (
+        "https://portaldeinformacoes.conab.gov.br/download",
+        "https://portaldeinformacoes.conab.gov.br/publico/paginado",
+        "https://api.conab.gov.br/api/v1/publico/paginado",
+        "https://portaldeinformacoes.conab.gov.br/backend/api/v1/publico/paginado",
+    ):
+        try:
+            r = requests.get(url, headers=UA, timeout=30)
+            ct = r.headers.get("Content-Type", "?")
+            print(f"{url} -> {r.status_code} ({len(r.content)}b) {ct}")
+            if "json" in ct:
+                print("   ", r.text[:600])
+        except Exception as e:  # noqa: BLE001
+            print(f"{url}: EXC {type(e).__name__}")
 
-    sec("na-pagina-historico")
-    try:
-        r = requests.get(
-            "https://www.noticiasagricolas.com.br/cotacoes/soja/"
-            "soja-indicador-cepea-esalq-porto-paranagua",
-            headers=UA, timeout=40,
-        )
-        print("status:", r.status_code, "bytes:", len(r.content))
-        linhas = re.findall(r"<tr>(.*?)</tr>", r.text, re.S)[:12]
-        for ln in linhas:
-            celulas = [
-                " ".join(re.sub(r"<[^>]+>", "", c).split())
-                for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", ln, re.S)
-            ]
-            if celulas:
-                print("   ", celulas)
-    except Exception as e:  # noqa: BLE001
-        print("EXC:", e)
+    # ---------- progresso de plantio no Brasil ----------
+    sec("br-progresso-fontes")
+    fontes = [
+        ("deral-pr-boletim",
+         "https://www.agricultura.pr.gov.br/deral/BoletimSemanal"),
+        ("deral-pr-plantio",
+         "https://www.agricultura.pr.gov.br/system/files/publico/safras/plantio_colheita.xls"),
+        ("imea-home", "https://www.imea.com.br/imea-site/"),
+        ("imea-relatorios", "https://www.imea.com.br/imea-site/relatorios-mercado"),
+        ("conab-boletim-graos",
+         "https://www.conab.gov.br/info-agro/safras/graos/boletim-da-safra-de-graos"),
+        ("na-plantio",
+         "https://www.noticiasagricolas.com.br/noticias/plantio"),
+        ("usda-fas-brasil",
+         "https://apps.fas.usda.gov/psdonline/api/download/commodity?commodityCode=2222000"),
+    ]
+    for nome, url in fontes:
+        try:
+            r = requests.get(url, headers=UA, timeout=35)
+            txt = " ".join(r.text.split())
+            print(f"\n{nome}: {r.status_code} ({len(r.content)}b) ct={r.headers.get('Content-Type','?')}")
+            for kw in ("plantio", "Plantio", "PLANTIO", "colheita", "semeadura"):
+                i = txt.find(kw)
+                if i > 0:
+                    print(f"   contém {kw!r}: ...{txt[max(0,i-150):i+300]}...")
+                    break
+        except Exception as e:  # noqa: BLE001
+            print(f"{nome}: EXC {type(e).__name__} {str(e)[:120]}")
+
+    sec("psd-usda-online")
+    # PSD Online: estimativas oficiais do USDA para a safra brasileira
+    for url in (
+        "https://apps.fas.usda.gov/psdonline/app/index.html",
+        "https://apps.fas.usda.gov/psdonline/api/psd/commodity/2222000/country/BR/year/2026",
+        "https://apps.fas.usda.gov/OpenData/api/psd/commodity/2222000/country/BR/year/2026",
+    ):
+        try:
+            r = requests.get(url, headers=UA, timeout=35)
+            print(f"{url} -> {r.status_code} ({len(r.content)}b)")
+            if "json" in r.headers.get("Content-Type", ""):
+                print("   ", r.text[:500])
+        except Exception as e:  # noqa: BLE001
+            print(f"{url}: EXC {type(e).__name__}")
 
     return 0
 

@@ -67,25 +67,36 @@ table.curve{width:100%;border-collapse:collapse;font-variant-numeric:tabular-num
 .curve th:first-child,.curve td:first-child{text-align:left}
 .curve tbody tr:last-child td{border-bottom:0}
 .curve .front td{font-weight:600}
-.volcell{position:relative;min-width:110px}
+.volcell{position:relative;min-width:130px}
+.volcell .share{font-size:11px;color:var(--muted);margin-left:5px}
 .volbar{position:absolute;left:6px;right:6px;bottom:3px;height:3px;border-radius:2px;background:var(--grid);overflow:hidden}
 .volbar i{display:block;height:100%;background:var(--accent);border-radius:2px}
 .foot{font-size:12px;color:var(--muted);margin-top:8px}
 
 /* safra */
-.duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:10px;align-items:start}
-.safra h3{font-size:13.5px;font-weight:650;margin-bottom:2px}
-.safra .src{font-size:12px;color:var(--muted);margin-bottom:10px}
-.prow{display:flex;align-items:center;gap:10px;padding:5px 0}
-.prow .plbl{flex:0 0 128px;font-size:13px;color:var(--ink-2)}
-.prow .pbar{flex:1;height:6px;border-radius:3px;background:var(--grid);overflow:hidden}
-.prow .pbar i{display:block;height:100%;background:var(--accent);border-radius:3px}
-.prow .pval{flex:0 0 44px;text-align:right;font-size:13.5px;font-weight:600}
-.prow .pref{flex:0 0 118px;font-size:11.5px;color:var(--muted);text-align:right}
-.cond{display:flex;height:14px;border-radius:4px;overflow:hidden;margin:8px 0 4px}
+.duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:10px;align-items:start}
+.safra h3{font-size:14px;font-weight:650;margin-bottom:2px}
+.safra .src{font-size:12px;color:var(--muted)}
+.safra .hint{font-size:12px;color:var(--ink-2);margin:8px 0 2px;padding-bottom:8px;border-bottom:1px solid var(--grid)}
+.stage{padding:9px 0;border-bottom:1px solid var(--grid)}
+.stage:last-child{border-bottom:0;padding-bottom:2px}
+.stage .top{display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+.stage .name{font-size:13.5px;font-weight:600}
+.stage .pct{font-size:16px;font-weight:650;font-variant-numeric:tabular-nums}
+.stage .pct small{font-size:11.5px;font-weight:500;color:var(--muted)}
+.track{position:relative;height:8px;border-radius:4px;background:var(--grid);margin:6px 0 5px}
+.track i{display:block;height:100%;background:var(--accent);border-radius:4px}
+.track b{position:absolute;top:-3px;margin-left:-1px;width:2px;height:14px;background:var(--ink-2);border-radius:1px}
+.cmp{display:flex;flex-wrap:wrap;gap:2px 14px;font-size:11.5px;color:var(--muted)}
+.cmp em{font-style:normal;font-weight:600;color:var(--ink-2)}
+.cmp .ahead{color:var(--up);font-weight:600}
+.cmp .behind{color:var(--down);font-weight:600}
+.cond{display:flex;height:15px;border-radius:4px;overflow:hidden;margin:6px 0 6px}
 .cond i{display:block;height:100%}
-.legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:11.5px;color:var(--muted)}
-.legend b{color:var(--ink-2);font-weight:600}
+.legend{display:flex;flex-wrap:wrap;gap:3px 12px;font-size:11.5px;color:var(--muted);margin-bottom:5px}
+.legend span{display:flex;align-items:center;gap:4px}
+.legend s{width:9px;height:9px;border-radius:2px;display:inline-block}
+.legend em{font-style:normal;font-weight:600;color:var(--ink-2)}
 .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:8px;margin-top:6px}
 .kpi .lbl{font-size:11.5px;color:var(--muted)}
 .kpi .val{font-size:19px;font-weight:650;margin-top:1px}
@@ -280,25 +291,34 @@ function renderCepea(cepea){
 function renderCurve(curve, fx){
   if(!curve || !curve.contracts?.length) return;
   const usd = fx?.usdbrl?.bid;
-  const maxVol = Math.max(...curve.contracts.map(c=>c.volume||0), 1);
-  const rows = curve.contracts.map((c,i)=>{
+  const cs = curve.contracts;
+  const temOI = cs.some(c=>c.open_interest!=null);
+  const maxOI = Math.max(...cs.map(c=>c.open_interest||0), 1);
+  const totalOI = curve.total_open_interest;
+  const rows = cs.map((c,i)=>{
     const saca = usd && c.price ? (c.price/100)*BU_POR_SACA*usd : null;
-    const volPct = Math.round((c.volume||0)/maxVol*100);
+    const oiPct = Math.round((c.open_interest||0)/maxOI*100);
+    const share = totalOI && c.open_interest ? Math.round(c.open_interest/totalOI*100) : null;
+    const oiCell = !temOI ? "" : `<td class="volcell">${c.open_interest!=null ? fmt(c.open_interest,0) : "—"}
+        ${share!=null?`<span class="share">${share}%</span>`:""}
+        <div class="volbar"><i style="width:${oiPct}%"></i></div></td>`;
     return `<tr${i===0?' class="front"':''}>
       <td>${c.label}</td>
       <td>${fmt(c.price)}</td>
       <td>${deltaHtml(c.change_pct)||"—"}</td>
       <td>${saca!=null ? "R$ "+fmt(saca) : "—"}</td>
-      <td class="volcell">${c.volume!=null ? fmt(c.volume,0) : "—"}
-        <div class="volbar"><i style="width:${volPct}%"></i></div></td>
+      <td>${c.volume!=null ? fmt(c.volume,0) : "—"}</td>
+      ${oiCell}
     </tr>`;
   }).join("");
   $("curve").innerHTML = `<thead><tr>
-    <th>Vencimento</th><th>Último (¢/bu)</th><th>Var. dia</th><th>≈ R$/saca</th><th>Volume (contratos)</th>
+    <th>Vencimento</th><th>Último (¢/bu)</th><th>Var. dia</th><th>≈ R$/saca</th>
+    <th>Volume do dia</th>${temOI?"<th>Em aberto (contratos)</th>":""}
     </tr></thead><tbody>${rows}</tbody>`;
-  $("curve-foot").textContent =
-    "Preço e volume por contrato via Yahoo Finance (atraso ~10 min). " +
-    (usd ? "Equivalência R$/saca de 60 kg pelo dólar comercial, sem prêmio de porto/frete." : "");
+  const partes = ["Preço, volume e posições em aberto por contrato via Yahoo Finance (atraso ~10 min)."];
+  if(temOI && totalOI) partes.push(`Total em aberto na curva: ${fmt(totalOI,0)} contratos — "em aberto" é quanto ainda está posicionado, não o giro do dia.`);
+  if(usd) partes.push("Equivalência R$/saca de 60 kg pelo dólar comercial, sem prêmio de porto/frete.");
+  $("curve-foot").textContent = partes.join(" ");
   $("sec-curve").hidden=false;
 }
 
@@ -327,26 +347,60 @@ const COND_COLORS={vp:"var(--down)",p:"color-mix(in srgb, var(--down) 45%, var(-
   f:"var(--baseline)",g:"color-mix(in srgb, var(--up) 45%, var(--surface))",e:"var(--up)"};
 const COND_LABELS={vp:"muito ruim",p:"ruim",f:"regular",g:"boa",e:"excelente"};
 
+function diaMes(iso){
+  if(!iso || !/^\d{4}-\d{2}-\d{2}$/.test(iso)) return iso||"";
+  return new Intl.DateTimeFormat("pt-BR",{day:"2-digit",month:"short",timeZone:"UTC"})
+    .format(new Date(iso+"T12:00:00Z")).replace(".","");
+}
+
+/* diferença em pontos percentuais, com sinal e cor */
+function pp(delta, adiantado, atrasado){
+  if(delta==null) return "";
+  const n=Math.abs(delta);
+  if(n===0) return `<span>em linha</span>`;
+  const cls = delta>0 ? "ahead" : "behind";
+  return `<span class="${cls}">${n} p.p. ${delta>0?adiantado:atrasado}</span>`;
+}
+
 function renderSafraUS(us){
   if(!us) return false;
+  const cob = us.coverage
+    ? ` · ${us.coverage.states} estados = ${us.coverage.pct_area}% da área dos EUA` : "";
   let html=`<h3>Estados Unidos — andamento da safra</h3>
-    <div class="src">USDA Crop Progress · semana até ${us.week_ending||us.released}</div>`;
+    <div class="src">USDA Crop Progress · semana encerrada em ${diaMes(us.week_ending)||us.released}${cob}</div>
+    <div class="hint">Quanto da área de soja já chegou a cada estágio. O traço marca a média das 5 safras anteriores na mesma época.</div>`;
+
   (us.progress||[]).forEach(p=>{
-    html+=`<div class="prow"><span class="plbl">${p.label}</span>
-      <span class="pbar"><i style="width:${p.current}%"></i></span>
-      <span class="pval">${p.current}%</span>
-      <span class="pref">ant. ${p.prev_week}% · média ${p.avg_5y}%</span></div>`;
+    const vsMedia = p.avg_5y!=null ? p.current - p.avg_5y : null;
+    html+=`<div class="stage">
+      <div class="top"><span class="name">${p.label}</span>
+        <span class="pct">${p.current}<small>% da área</small></span></div>
+      <div class="track"><i style="width:${Math.min(p.current,100)}%"></i>
+        ${p.avg_5y!=null?`<b style="left:${Math.min(p.avg_5y,100)}%" data-tip="média 5 anos: ${p.avg_5y}%"></b>`:""}</div>
+      <div class="cmp">
+        <span>semana passada <em>${p.prev_week}%</em></span>
+        <span>média 5 anos <em>${p.avg_5y}%</em></span>
+        ${pp(vsMedia,"adiantado","atrasado")}
+      </div></div>`;
   });
+
   const c=us.condition;
   if(c){
     const seg=Object.entries(c.dist).map(([k,v])=>
       v?`<i style="width:${v}%;background:${COND_COLORS[k]}" data-tip="${COND_LABELS[k]}: ${v}%"></i>`:"").join("");
+    const leg=Object.entries(c.dist).filter(([,v])=>v).map(([k,v])=>
+      `<span><s style="background:${COND_COLORS[k]}"></s>${COND_LABELS[k]} <em>${v}%</em></span>`).join("");
     const dw = c.gex_prev_week!=null ? c.gex - c.gex_prev_week : null;
     const dy = c.gex_prev_year!=null ? c.gex - c.gex_prev_year : null;
-    const rel=[dw!=null?`${dw>=0?"+":""}${dw} p.p. na semana`:"",
-               dy!=null?`${dy>=0?"+":""}${dy} p.p. vs ano passado`:""].filter(Boolean).join(" · ");
-    html+=`<div class="cond">${seg}</div>
-      <div class="legend"><span><b>${c.gex}%</b> boa/excelente</span><span>${rel}</span></div>`;
+    html+=`<div class="stage">
+      <div class="top"><span class="name">Condição da lavoura</span>
+        <span class="pct">${c.gex}<small>% boa ou excelente</small></span></div>
+      <div class="cond">${seg}</div>
+      <div class="legend">${leg}</div>
+      <div class="cmp">
+        ${c.gex_prev_week!=null?`<span>semana passada <em>${c.gex_prev_week}%</em> ${pp(dw,"melhor","pior")}</span>`:""}
+        ${c.gex_prev_year!=null?`<span>ano passado <em>${c.gex_prev_year}%</em> ${pp(dy,"melhor","pior")}</span>`:""}
+      </div></div>`;
   }
   $("safra-us").innerHTML=html;
   $("safra-us").hidden=false;

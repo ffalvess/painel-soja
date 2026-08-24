@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-24T20:22:28+00:00",
+ "generated_at": "2026-08-24T20:45:36+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-24T20:22:11+00:00",
+   "updated_at": "2026-08-24T20:45:21+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -173,9 +173,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.98,
+     "price": 91.96,
      "prev_close": 94.39,
-     "change_pct": -2.55,
+     "change_pct": -2.57,
      "closes": [
       96.78,
       88.36,
@@ -198,17 +198,17 @@
       91.62,
       93.78,
       94.39,
-      91.98
+      91.96
      ],
-     "volume": 16458
+     "volume": 16536
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 171942.19,
+     "price": 171906.72,
      "prev_close": 171032.0,
-     "change_pct": 0.53,
+     "change_pct": 0.51,
      "closes": [
       174042.0,
       175335.0,
@@ -231,7 +231,7 @@
       167830.0,
       167927.0,
       171032.0,
-      171942.1875
+      171906.7188
      ],
      "volume": 0
     }
@@ -239,21 +239,21 @@
    "failed": []
   },
   "fx": {
-   "updated_at": "2026-08-24T20:22:11+00:00",
+   "updated_at": "2026-08-24T20:45:21+00:00",
    "awesomeapi_error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL",
    "usdbrl": {
-    "bid": 5.1491,
+    "bid": 5.1496,
     "ask": null,
     "high": null,
     "low": null,
-    "pct_change": 0.23
+    "pct_change": 0.24
    },
    "eurbrl": {
-    "bid": 6.0036,
+    "bid": 6.0059,
     "ask": null,
     "high": null,
     "low": null,
-    "pct_change": 0.14
+    "pct_change": 0.18
    },
    "source": "Yahoo Finance",
    "ptax": {
@@ -263,7 +263,7 @@
    }
   },
   "rates": {
-   "updated_at": "2026-08-24T20:22:13+00:00",
+   "updated_at": "2026-08-24T20:45:22+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -273,7 +273,7 @@
    "ipca_12m": 4.44
   },
   "cepea": {
-   "updated_at": "2026-08-24T20:22:16+00:00",
+   "updated_at": "2026-08-24T20:45:24+00:00",
    "fonte": "Cepea/Esalq, via Notícias Agrícolas",
    "indicador": {
     "nome": "Indicador Soja ESALQ/B3 — Paranaguá",
@@ -298,22 +298,26 @@
    "premio_paranagua": [
     {
      "mes": "Agosto/26",
-     "valor": 1.5,
+     "usd_bu": 1.5,
+     "cents_bu": 150.0,
      "var": 0.0
     },
     {
      "mes": "Setembro/26",
-     "valor": 1.7,
+     "usd_bu": 1.7,
+     "cents_bu": 170.0,
      "var": 0.0
     },
     {
      "mes": "Outubro/26",
-     "valor": 1.6,
+     "usd_bu": 1.6,
+     "cents_bu": 160.0,
      "var": 0.0
     },
     {
      "mes": "Novembro/26",
-     "valor": 1.5,
+     "usd_bu": 1.5,
+     "cents_bu": 150.0,
      "var": 0.0
     }
    ],
@@ -376,7 +380,7 @@
    ]
   },
   "safra": {
-   "updated_at": "2026-08-24T20:22:16+00:00",
+   "updated_at": "2026-08-24T20:45:24+00:00",
    "failed": [],
    "us": {
     "released": "2026-08-24",
@@ -436,7 +440,7 @@
    }
   },
   "curve": {
-   "updated_at": "2026-08-24T20:22:20+00:00",
+   "updated_at": "2026-08-24T20:45:28+00:00",
    "unit": "¢/bushel",
    "contracts": [
     {
@@ -507,7 +511,7 @@
    "failed": []
   },
   "options": {
-   "updated_at": "2026-08-24T20:22:21+00:00",
+   "updated_at": "2026-08-24T20:45:28+00:00",
    "trade_date": "2026-08-21",
    "cbot": {
     "futures": {
@@ -523,7 +527,7 @@
    }
   },
   "weather": {
-   "updated_at": "2026-08-24T20:22:22+00:00",
+   "updated_at": "2026-08-24T20:45:29+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -688,8 +692,44 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-24T20:22:25+00:00",
+   "updated_at": "2026-08-24T20:45:32+00:00",
    "items": [
+    {
+     "title": "Soja fecha em baixa em Chicago com boas projeções da safra americana - CNN Brasil",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbl9kTFNZUVhmVFZtSGRQNzR0WWJrcVN1d29NdDNUemxrUnpqaXR6eFNRdU92NXFPMmNGSjI5aml2MXBQSGxTRUx3SzEyaW9KRXdEdHQ0VlA4UHFyQ3VKdEJVaDJrbWUxU1ktVnNoUDIxcVBDZWwwb0VRcUZXeXNHR2h1aFByVTVPOWxXd2IzZ1ZHLW1saElnTEJLVG1rYWhBSm12WG1B?oc=5",
+     "source": "CNN Brasil",
+     "published_at": "2026-08-24T20:26:50+00:00"
+    },
+    {
+     "title": "Produção de rações cresce 5,4% no primeiro trimestre de 2026",
+     "link": "https://www.canalrural.com.br/aves-e-suinos/producao-de-racoes-cresce-54-no-primeiro-trimestre-de-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T20:23:13+00:00"
+    },
+    {
+     "title": "USDA: condições de soja e milho pioram nos EUA; milho vai a menos de 60% de boas/excelentes - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTUw3RGxMNldncGQ2bVI3anBHYkJyQXQ1WjdDY0lubDhpbUF4cF85X054NGFDQURSVXZNeFZlR2x5RUVmSTVfbVV0RDdiVTNWNDllLTNfWnVmTHBQdHdLSlhQWV82WXJiVjlXd09WVC15UjRQM2hGUHdwLXZRUENMbDZCaGVkcWZrVjdBMUcyWWotemViQnRHNVA3VzRlNm5MTUNtRnNoOEdoRnh1YWdpNG9yX1hYR0VYZFJBY0VERldCRHo1YjF1N0VMZW51cUF2a21MdmtvbS1JSGtNcDdnWEowTnZyd9IB6wFBVV95cUxNLUZSQ25MMlprVkdiTW5pa1hUeTBndWZMRkdZWU1JbFZ0eHNFYklIMHZ4bmtiamhPcWpOS0ZfXzBqVXAtOWg0T2lmcDh5V3lCTWdvamlHUkNuMEFBNU4tM0xYU0Y5Sy1CcjVCRFlQSjl1LVhJWGpjX1lZa05qbDJDMHQtN25GLThPeFNBRWFEeWRoMHFOQm5teld2cGhfTG55MzUwdGtyTkNPdFl2Y1M5RVJsT1pKVkhSMnhaeTlSWGxkTEUxRkF2SDdWZGp3RTRYQnA2T2hXMmNXRDc4cWhhRy11NUJLQjVZR2xz?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-24T20:22:19+00:00"
+    },
+    {
+     "title": "BNDES recebe inscrições para projetos de bioinsumos até 31 de agosto",
+     "link": "https://www.canalrural.com.br/agricultura/bndes-recebe-inscricoes-para-projetos-de-bioinsumos-ate-31-de-agosto/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T20:11:33+00:00"
+    },
+    {
+     "title": "CNA recebe participantes do Líder MS para agenda de formação em Brasília",
+     "link": "https://www.canalrural.com.br/politica/cna-recebe-participantes-do-lider-ms-para-agenda-de-formacao-em-brasilia/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T20:04:07+00:00"
+    },
+    {
+     "title": "TCU pauta regras fiscais, biocombustíveis e Ferrovia Norte-Sul para terça-feira",
+     "link": "https://www.canalrural.com.br/politica/tcu-pauta-regras-fiscais-biocombustiveis-e-ferrovia-norte-sul-para-terca-feira/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T20:02:24+00:00"
+    },
     {
      "title": "Petróleo cai após sequência de altas e mantém sanções ao Irã no radar",
      "link": "https://www.canalrural.com.br/economia/petroleo-cai-apos-sequencia-de-altas-e-mantem-sancoes-ao-ira-no-radar/",
@@ -751,36 +791,6 @@
      "published_at": "2026-08-24T18:15:33+00:00"
     },
     {
-     "title": "Mudanças no ITR 2026 exigem atenção dos proprietários rurais",
-     "link": "https://www.canalrural.com.br/videos/mudancas-no-itr-2026-exigem-atencao-dos-proprietarios-rurais/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T18:15:22+00:00"
-    },
-    {
-     "title": "PEC do fim da escala 6×1 avança no Senado, votação fica para depois das eleições",
-     "link": "https://www.canalrural.com.br/videos/pec-do-fim-da-escala-6x1-avanca-no-senado-votacao-fica-para-depois-das-eleicoes/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T18:15:10+00:00"
-    },
-    {
-     "title": "Frente fria traz mudanças no clima e temperaturas em várias regiões do Brasil",
-     "link": "https://www.canalrural.com.br/videos/frente-fria-traz-mudancas-no-clima-e-temperaturas-em-varias-regioes-do-brasil/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T18:05:54+00:00"
-    },
-    {
-     "title": "Milho em alta em Chicago devido a perdas na safra dos EUA",
-     "link": "https://www.canalrural.com.br/videos/milho-em-alta-em-chicago-devido-a-perdas-na-safra-dos-eua/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T18:05:45+00:00"
-    },
-    {
-     "title": "USDA traz embarques semanais de soja e trigo dentro do esperado, mas milho abaixo - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVnd3dUc3bm9GRUJ5TWprLVNmbGtpSWVORk1QS2tFLXNXLW5mem1ZZTRRYWNwVmFrWU1Ec3pzeTFua0xzdjdhNklpT2tSZXZkRWVOdTBrZTlGb2l1WHdBQ1czNTluZ1o2YVMza3IxZWdrTnJndk40NzhkVm5FWnZrblpFdGdDRzItZFZFdlh3T1AyXzd4NmVCTURnYXpEd0Z5ZW5sak5UeVllR0xzdzJCeTZNUkMzUWVmNy1QbHBWd01EWEtjZC1reFE1UHhFY0wxRmNWOUpNVzFfbUHSAeABQVVfeXFMTjc3aDNWUDlSWGJvV0tVMy0wal9pQWo2dFVmRm1uc0hSbVJGMGhkSkdKaEZGR2tiX1d6ZlcyVEhGVE1xR1FJZFpkQ0dlaHplN0diTXdHYmNxWE5lZDdCU1JjQXh4ZkZrTlBLRUJUU3Y0QmpZZjU4UlR5Q29BZ0tmMmc0S2hFYWJzODZTenNxR1VXNW8tNFdqdnFQSTFUWGtFWHFIMV9xbThDUEs0YzQzdVVLSDlDYXQ4aGh5NDFTaUNIRWx5Y3RycFByeHdrMklqUU1jT01VUWJLUlNTTFE1U1g?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-24T17:02:43+00:00"
-    },
-    {
      "title": "Inspeções de soja para exportação nos EUA sobem 43% na semana, aponta USDA - Canal Rural",
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRzBhVmhEemc5SkkwQXZPMGR4dWJuMjdDZGdjUFpubGNmQWlVU3o0ckI5eEFpdWJOMEZseC1XRVlET192RDg3MlA4QkVvQVluV2pNbDFfTEFIdW1ZUjlsb1gtV3hrcUJqVW1DRzU0OXRleFl6cUt6by1uR2hyeHhXWWt3QVdPOVhuaXcxSkJDSnppWTdyb09FcG5OV1Fna0V1YndBWFdvMFROZE9zOTl5TkFB?oc=5",
      "source": "Canal Rural",
@@ -797,12 +807,6 @@
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNkZHZzNDUFNnbkVjTU1qazRNSG9UTktITVNoWXdjenU5dTkwUGtVaXM3Y0dib21lQ01LSUhLYWtDTVRjeDMwWmpqYTJiOU0zcjc1eDZLX1VraE5lUFNpN3lTQlpXUVdtYUdocHFiY1czUHFSRk5MNE9yaVFqRG50X1BR?oc=5",
      "source": "Sociedade Nacional de Agricultura",
      "published_at": "2026-08-24T15:03:00+00:00"
-    },
-    {
-     "title": "Plantas de cobertura elevam rendimento da soja - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPekhKcVJKNUhwZDltaXp4bFA5MWxiT1VqanlSempfZGxybUZuVi1ZQkIwUE1iM0NXQVl0Z21xTEdBWXdMbDFwd1FFZkJRTDVIclFjVUdSRG9IZTlISTJONEYzNUl1R29BVllzU203cEhNdXd0QUVEX2N0eEp2X2YyenY2RmtDa1FrVF8wODFQc0hEQVc2VUhYUUpFVQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-24T14:55:00+00:00"
     },
     {
      "title": "Soja sobe com demanda aquecida e menor oferta no mercado, segundo Cepea - Globo Rural",
@@ -876,7 +880,7 @@
    ]
   },
   "sd": {
-   "updated_at": "2026-08-24T20:22:28+00:00",
+   "updated_at": "2026-08-24T20:45:36+00:00",
    "commodity": "Oilseed, Soybean",
    "safra": "2026/27",
    "vintage": "08",
@@ -951,20 +955,20 @@
    }
   },
   "basis": {
-   "updated_at": "2026-08-24T20:22:28+00:00",
-   "cambio": 5.1491,
+   "updated_at": "2026-08-24T20:45:36+00:00",
+   "cambio": 5.1496,
    "cbot_cents": 1217.0,
-   "premio_cents": 1.5,
+   "premio_cents": 150.0,
    "premio_mes": "Agosto/26",
    "contrato": "set/26",
-   "flat_brl_saca": 138.15,
-   "paridade_brl_saca": 138.32,
+   "flat_brl_saca": 138.17,
+   "paridade_brl_saca": 155.19,
    "indicador_brl_saca": 153.68,
    "indicador_data": "21/08/2026",
    "basis_porto": {
-    "brl_saca": 15.36,
-    "cents_bu": 135.3,
-    "pct": 11.1
+    "brl_saca": -1.51,
+    "cents_bu": -13.3,
+    "pct": -1.0
    },
    "basis_interior": [
     {
@@ -989,13 +993,13 @@
      "praca": "Maracaju/MS",
      "valor": 135.0,
      "basis_brl_saca": -18.68,
-     "basis_cents_bu": -164.6
+     "basis_cents_bu": -164.5
     },
     {
      "praca": "São Gabriel do Oeste/MS",
      "valor": 135.0,
      "basis_brl_saca": -18.68,
-     "basis_cents_bu": -164.6
+     "basis_cents_bu": -164.5
     },
     {
      "praca": "Campo Grande/MS",
@@ -1026,10 +1030,10 @@
     {
      "data": "21/08/2026",
      "cbot_cents": 1217.0,
-     "cambio": 5.1491,
-     "paridade": 138.32,
+     "cambio": 5.1496,
+     "paridade": 155.19,
      "indicador": 153.68,
-     "basis": 15.36
+     "basis": -1.51
     }
    ]
   }

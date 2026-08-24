@@ -365,16 +365,18 @@ function renderOptions(options){
   chips.push({lbl:"Calls — volume do pregão", val:fmt(cb.calls.volume,0), sub:"contratos"+oi("calls")});
   chips.push({lbl:"Puts — volume do pregão", val:fmt(cb.puts.volume,0), sub:"contratos"+oi("puts")});
   if(cb.put_call_volume!=null){
-    const s = cb.put_call_volume<1 ? "predomínio de calls" : cb.put_call_volume>1 ? "predomínio de puts" : "equilibrado";
-    chips.push({lbl:"Razão Put/Call", val:fmt(cb.put_call_volume), sub:s});
+    const s = cb.put_call_volume<1 ? "girou mais call que put" : cb.put_call_volume>1 ? "girou mais put que call" : "equilibrado";
+    chips.push({lbl:"Razão Put/Call", val:fmt(cb.put_call_volume), sub:s+" — não é direção"});
   }
   if(cb.futures) chips.push({lbl:"Futuros — volume do pregão", val:fmt(cb.futures.volume,0),
     sub:"contratos"+ (cb.futures.oi!=null?` · aberto: ${fmt(cb.futures.oi,0)}`:"")});
   $("options").innerHTML = chips.map(c=>
     `<div class="card chip"><div class="lbl">${c.lbl}</div><div class="val">${c.val}</div><div class="sub">${c.sub||""}</div></div>`).join("");
   const d = options.trade_date ? options.trade_date.split("-").reverse().join("/") : "";
-  $("options-foot").textContent =
-    `Opções-padrão sobre o futuro de soja na CBOT, pregão de ${d}. Fonte: CME Group (FTP público; a CME não publica posições em aberto por produto nesse arquivo).`;
+  $("options-foot").innerHTML =
+    `Opções-padrão sobre o futuro de soja na CBOT, pregão de ${d}. Fonte: CME Group (FTP público; a CME não publica posições em aberto por produto nesse arquivo). ` +
+    `<b>Volume não indica direção:</b> toda call negociada tem comprador e vendedor, e vender call contra estoque físico é operação baixista. ` +
+    `Sem a posição em aberto e sem os strikes não dá para saber se essas operações abriram ou fecharam posição — a leitura direcional exige a densidade risco-neutra, na <a href="modelo.html">página do modelo</a>.`;
   $("sec-options").hidden=false;
 }
 

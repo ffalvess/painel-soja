@@ -24,14 +24,14 @@ esse JSON — não há servidor, banco de dados nem custo.
 | Dado | Fonte | Observação |
 |---|---|---|
 | Soja, milho, farelo, óleo, trigo (CBOT), Brent, Ibovespa | Yahoo Finance (não oficial) | Atraso ~15 min; é a fonte mais frágil — se falhar, o painel mantém o último valor |
-| Curva de vencimentos da soja (preço, variação e volume por contrato) | Yahoo Finance, contratos `ZS?nn.CBT` | Próximos 7 vencimentos |
-| Volume de calls × puts de soja na CBOT | CME Group — FTP público (`ftp.cmegroup.com`, `daily_volume.xlsx`) | Dado do pregão anterior; a CME bloqueia o site/API para o Actions, mas o FTP é aberto. OI por produto não é publicado nesse arquivo |
+| Curva de vencimentos da soja (preço, variação, volume e **posições em aberto** por contrato) | Yahoo Finance — `/v7/finance/quote` com cookie + crumb | Próximos 7 vencimentos; o `openInterest` só vem por esse endpoint |
+| Volume de calls × puts de soja na CBOT | CME Group — FTP público (`ftp.cmegroup.com`, `daily_volume.xlsx`) | Dado do pregão anterior; a CME bloqueia o site/API para o Actions, mas o FTP é aberto. OI de opções por call/put não existe nesse arquivo |
 | Safra EUA (floração, formação de vagens, condição boa/excelente) | USDA/NASS Crop Progress, via API da biblioteca Cornell | Semanal (segundas), sem chave |
 | Safra Brasil (área, produção, produtividade) | CONAB — série histórica de grãos | Atualizada nos levantamentos mensais |
 | Dólar e euro comercial | AwesomeAPI, com fallback Yahoo/PTAX | A AwesomeAPI limita os IPs do Actions (429) |
 | PTAX, Selic, CDI, IPCA | Banco Central (Olinda e SGS) | Fontes oficiais, estáveis |
-| Indicador soja Paranaguá | CEPEA/ESALQ (raspagem da página pública) | Sem API gratuita; se o site mudar, a seção some sem quebrar o resto |
-| Chuva 7 dias (Sorriso, Sinop, Rio Verde, Dourados) | Open-Meteo | Sem chave |
+| Indicadores CEPEA (Paranaguá e Paraná), prêmio de porto e balcão nas praças | Cepea/Esalq, via Notícias Agrícolas | O site do CEPEA passou a exigir verificação da Cloudflare e responde 403 a robôs; o Notícias Agrícolas republica citando a fonte |
+| Chuva 7 dias e acumulado de 30 dias (Sorriso, Sinop, Rio Verde, Dourados) | Open-Meteo (`past_days=31`) | Sem chave; o acumulado indica se a janela de plantio abre |
 | Notícias | Google News RSS, Canal Rural, G1 Agronegócios, Notícias Agrícolas | Links diretos para as matérias |
 
 ## Ajustes comuns
@@ -46,9 +46,15 @@ esse JSON — não há servidor, banco de dados nem custo.
 
 - Cotações não são em tempo real (atraso das fontes + atualização horária).
 - O cron do GitHub pode atrasar alguns minutos em horário de pico.
-- Posições em aberto (OI) de opções por call/put não têm fonte gratuita
-  acessível do Actions: a CME bloqueia o site/API para IPs de nuvem e o
-  arquivo público do FTP só traz volume por produto.
+- De **opções** só há volume, não posições em aberto: a CME bloqueia
+  site e API para IPs de nuvem, e o arquivo público do FTP traz apenas
+  volume por produto. O OI que o painel mostra é o dos **futuros**, por
+  vencimento (via Yahoo).
+- Não há fonte gratuita e estruturada com o **percentual plantado por
+  semana no Brasil**: a CONAB publica em painel Power BI (o portal é uma
+  SPA sem API aberta), a AgRural divulga em release e o USDA/FAS exige
+  chave de API. O painel mostra a fase do calendário e a chuva acumulada,
+  que é o gatilho prático do plantio.
 - Derivativos de soja da B3 (futuro SFI e opções) ficaram de fora: o boletim
   legado (`www2.bmf.com.br`) foi desligado no servidor e não há API pública
   gratuita; a liquidez desses contratos também é muito baixa.

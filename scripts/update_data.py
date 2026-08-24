@@ -11,7 +11,7 @@ Fontes:
     vencimentos), Brent, Ibovespa e câmbio de fallback
   - AwesomeAPI: dólar e euro comercial (limita IPs do Actions; há fallback)
   - Banco Central (Olinda/PTAX e SGS): PTAX, Selic, CDI, IPCA
-  - CEPEA/ESALQ: indicador soja Paranaguá (raspagem best-effort da página pública)
+  - Notícias Agrícolas: indicadores Cepea/Esalq, prêmio de porto e balcão
   - USDA/NASS Crop Progress (via API da biblioteca Cornell): safra dos EUA
   - CONAB (série histórica de grãos): safra do Brasil
   - CME Group (FTP público ftp.cmegroup.com): volume de calls/puts de soja
@@ -33,6 +33,7 @@ import requests
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "data.json"
 TIMEOUT = 25
+TAG_RE = re.compile(r"<[^>]+>")
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -222,38 +223,125 @@ def collect_rates() -> dict:
     return out
 
 
-# ---------------------------------------------------------------- CEPEA
+# ---------------------------------------------------------------- físico
+
+NA_SOJA = "https://www.noticiasagricolas.com.br/cotacoes/soja"
+
+# Praças do Centro-Oeste e portos, na ordem de exibição. O site traz o nome
+# da fonte entre parênteses depois da praça, então casamos por prefixo.
+PRACAS = [
+    "Sorriso/MT",
+    "Rondonópolis/MT",
+    "Primavera do Leste/MT",
+    "Rio Verde/GO",
+    "Jataí/GO",
+    "Campo Grande/MS",
+    "Maracaju/MS",
+    "São Gabriel do Oeste/MS",
+    "Oeste da Bahia/BA",
+    "Porto Paranaguá (disponível)",
+    "Porto Santos/SP",
+]
+
+
+def br_float(s: str):
+    s = (s or "").strip().replace("+", "")
+    if not s or "cota" in s.lower():
+        return None
+    try:
+        return float(s.replace(".", "").replace(",", "."))
+    except ValueError:
+        return None
+
+
+def parse_na_tabelas(page: str) -> dict:
+    """Extrai as tabelas de cotação da página, indexadas pelo título."""
+    blocos = re.findall(
+        r'<h2>\s*<a[^>]*title="([^"]+)".*?<table[^>]*>(.*?)</table>', page, re.S
+    )
+    tabelas = {}
+    for titulo, tabela in blocos:
+        linhas = []
+        for ln in re.findall(r"<tr>(.*?)</tr>", tabela, re.S):
+            celulas = [
+                " ".join(html.unescape(TAG_RE.sub("", c)).split())
+                for c in re.findall(r"<td[^>]*>(.*?)</td>", ln, re.S)
+            ]
+            if len(celulas) >= 2:
+                linhas.append(celulas)
+        tabelas[html.unescape(titulo).strip()] = linhas
+    return tabelas
+
 
 def collect_cepea() -> dict:
-    """Raspagem best-effort da página pública do indicador da soja.
+    """Indicadores CEPEA e mercado físico via Notícias Agrícolas.
 
-    A CEPEA não tem API gratuita; se o layout da página mudar, esta seção
-    simplesmente mantém o valor anterior (ou some do painel).
+    O site do CEPEA passou a exigir verificação da Cloudflare e devolve 403
+    para qualquer acesso automatizado. O Notícias Agrícolas republica os
+    mesmos indicadores citando a fonte, em HTML simples, e ainda traz o
+    prêmio de porto e os preços de balcão nas praças produtoras.
     """
-    r = get("https://www.cepea.esalq.usp.br/br/indicador/soja.aspx")
-    text = r.text
-    row = re.search(
-        r"<td[^>]*>\s*(\d{2}/\d{2}/\d{4})\s*</td>\s*"
-        r"<td[^>]*>\s*([\d.]+,\d+)\s*</td>\s*"
-        r"<td[^>]*>\s*(-?[\d.]*,?\d+)\s*</td>",
-        text,
-    )
-    if not row:
-        raise RuntimeError("padrão da tabela CEPEA não encontrado na página")
-    data, valor, var_dia = row.groups()
+    tabelas = parse_na_tabelas(get(NA_SOJA).text)
 
-    def br_float(s: str) -> float:
-        return float(s.replace(".", "").replace(",", "."))
+    def indicador(titulo: str, nome: str):
+        for linha in tabelas.get(titulo, []):
+            if len(linha) >= 3 and re.match(r"\d{2}/\d{2}/\d{4}", linha[0]):
+                valor = br_float(linha[1])
+                if valor is not None:
+                    return {
+                        "nome": nome,
+                        "data": linha[0],
+                        "valor": valor,
+                        "var_dia_pct": br_float(linha[2]),
+                    }
+        return None
 
-    return {
+    indicadores = [
+        i
+        for i in (
+            indicador(
+                "Indicador da Soja ESALQ/B3 - Paranaguá",
+                "Indicador Soja ESALQ/B3 — Paranaguá",
+            ),
+            indicador(
+                "Indicador da Soja Cepea/Esalq - Paraná",
+                "Indicador Soja CEPEA/ESALQ — Paraná",
+            ),
+        )
+        if i
+    ]
+    if not indicadores:
+        raise RuntimeError("indicadores da soja não encontrados na página")
+
+    out = {
         "updated_at": now_iso(),
-        "indicador": {
-            "nome": "Indicador Soja CEPEA/ESALQ — Paranaguá (saca 60kg)",
-            "data": data,
-            "valor": br_float(valor),
-            "var_dia_pct": br_float(var_dia),
-        },
+        "fonte": "Cepea/Esalq, via Notícias Agrícolas",
+        "indicador": indicadores[0],
+        "indicadores": indicadores,
     }
+
+    premio = [
+        {"mes": ln[0], "valor": br_float(ln[1]), "var": br_float(ln[2]) if len(ln) > 2 else None}
+        for ln in tabelas.get("Prêmio Soja Paranaguá/PR", [])
+        if "/" in ln[0] and br_float(ln[1]) is not None
+    ]
+    if premio:
+        out["premio_paranagua"] = premio
+
+    fisico = []
+    for ln in tabelas.get("Soja - Mercado Físico", []):
+        if len(ln) < 3:
+            continue
+        praca = next((p for p in PRACAS if ln[0].startswith(p)), None)
+        valor = br_float(ln[1])
+        if praca and valor is not None:
+            fisico.append(
+                {"praca": praca, "valor": valor, "var_dia_pct": br_float(ln[2])}
+            )
+    if fisico:
+        fisico.sort(key=lambda f: PRACAS.index(f["praca"]))
+        out["fisico"] = fisico
+    return out
 
 
 # ---------------------------------------------------------------- clima
@@ -267,6 +355,11 @@ CITIES = [
 
 
 def collect_weather() -> dict:
+    """Previsão de 7 dias e chuva acumulada nos 30 dias anteriores.
+
+    O acumulado recente é o que define se a janela de plantio abre: sem
+    umidade no solo o produtor não semeia, mesmo dentro do calendário.
+    """
     lats = ",".join(str(c[1]) for c in CITIES)
     lons = ",".join(str(c[2]) for c in CITIES)
     r = get(
@@ -276,22 +369,28 @@ def collect_weather() -> dict:
             "longitude": lons,
             "daily": "precipitation_sum,temperature_2m_max,temperature_2m_min",
             "forecast_days": 7,
+            "past_days": 31,
             "timezone": "America/Sao_Paulo",
         },
     )
     payload = r.json()
     if isinstance(payload, dict):
         payload = [payload]
+    hoje = dt.date.today().isoformat()
     cities = []
     for (name, _, _), res in zip(CITIES, payload):
         d = res["daily"]
+        datas = d["time"]
+        corte = next((i for i, t in enumerate(datas) if t >= hoje), len(datas))
+        passado = [p for p in d["precipitation_sum"][:corte] if p is not None]
         cities.append(
             {
                 "name": name,
-                "dates": d["time"],
-                "precip": d["precipitation_sum"],
-                "tmax": d["temperature_2m_max"],
-                "tmin": d["temperature_2m_min"],
+                "dates": datas[corte:],
+                "precip": d["precipitation_sum"][corte:],
+                "tmax": d["temperature_2m_max"][corte:],
+                "tmin": d["temperature_2m_min"][corte:],
+                "precip_30d": round(sum(passado[-30:]), 1),
             }
         )
     return {"updated_at": now_iso(), "cities": cities}
@@ -419,6 +518,38 @@ def collect_safra_us() -> dict:
     return out
 
 
+def fase_safra_br(hoje: dt.date = None) -> dict:
+    """Em que ponto do calendário da soja brasileira estamos.
+
+    Não existe fonte gratuita e estruturada com o percentual plantado por
+    semana (a CONAB publica em painel Power BI e a AgRural, em release);
+    o calendário abaixo, somado à chuva acumulada, dá a leitura do momento.
+    """
+    d = hoje or dt.date.today()
+    m, dia = d.month, d.day
+    if (m == 9 and dia >= 16) or m == 10:
+        return {
+            "fase": "Plantio",
+            "detalhe": "janela de semeadura aberta no Centro-Oeste",
+        }
+    if m in (11, 12):
+        return {
+            "fase": "Desenvolvimento",
+            "detalhe": "lavoura em desenvolvimento; plantio tardio no Sul",
+        }
+    if m in (1, 2, 3):
+        return {"fase": "Colheita", "detalhe": "colheita da safra de verão"}
+    if m in (4, 5):
+        return {
+            "fase": "Fim de colheita",
+            "detalhe": "encerramento da colheita e plantio da safrinha",
+        }
+    return {
+        "fase": "Entressafra",
+        "detalhe": "comercialização; vazio sanitário até meados de setembro",
+    }
+
+
 def collect_safra_br() -> dict:
     """Série histórica de grãos da CONAB (área, produção e produtividade)."""
     r = get(
@@ -452,7 +583,11 @@ def collect_safra_br() -> dict:
             else None,
         }
 
-    out = {"atual": fmt(atual), "anterior": fmt(anterior) if anterior else None}
+    out = {
+        "atual": fmt(atual),
+        "anterior": fmt(anterior) if anterior else None,
+        "ciclo": fase_safra_br(),
+    }
     if anterior:
         prev = por_safra[anterior]
         cur = por_safra[atual]
@@ -640,9 +775,6 @@ FEEDS = [
     ("G1 Agronegócios", "https://g1.globo.com/rss/g1/economia/agronegocios/"),
     ("Notícias Agrícolas", "https://www.noticiasagricolas.com.br/rss/noticias"),
 ]
-
-TAG_RE = re.compile(r"<[^>]+>")
-
 
 def parse_feed(source: str, url: str) -> list:
     r = get(url)

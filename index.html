@@ -75,8 +75,8 @@ table.curve{width:100%;border-collapse:collapse;font-variant-numeric:tabular-num
 
 /* safra */
 .duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:10px;align-items:start}
-.safra h3{font-size:14px;font-weight:650;margin-bottom:2px}
-.safra .src{font-size:12px;color:var(--muted)}
+.card h3{font-size:14px;font-weight:650;margin-bottom:2px}
+.card .src{font-size:12px;color:var(--muted)}
 .safra .hint{font-size:12px;color:var(--ink-2);margin:8px 0 2px;padding-bottom:8px;border-bottom:1px solid var(--grid)}
 .stage{padding:9px 0;border-bottom:1px solid var(--grid)}
 .stage:last-child{border-bottom:0;padding-bottom:2px}
@@ -141,7 +141,11 @@ footer a{color:var(--ink-2)}
 
   <section id="sec-cepea" hidden>
     <h2>Mercado físico</h2>
-    <div class="card cepea" id="cepea"></div>
+    <div class="chips" id="cepea-chips"></div>
+    <div class="duo" style="margin-top:10px">
+      <div class="card" id="fisico" hidden></div>
+      <div class="card" id="premio" hidden></div>
+    </div>
   </section>
 
   <section id="sec-quotes" hidden>
@@ -280,11 +284,36 @@ function renderQuotes(quotes, fx){
 }
 
 function renderCepea(cepea){
-  const ind=cepea?.indicador;
-  if(!ind) return;
-  $("cepea").innerHTML =
-    `<span class="val">R$ ${fmt(ind.valor)}</span>${deltaHtml(ind.var_dia_pct)}
-     <span class="lbl">${ind.nome}</span><span class="ref">ref. ${ind.data}</span>`;
+  if(!cepea) return;
+  const inds = cepea.indicadores || (cepea.indicador ? [cepea.indicador] : []);
+  if(!inds.length) return;
+  $("cepea-chips").innerHTML = inds.map(i=>
+    `<div class="card chip"><div class="lbl">${i.nome}</div>
+      <div class="val">R$ ${fmt(i.valor)}</div>
+      <div class="sub">${deltaHtml(i.var_dia_pct)} <span>saca 60 kg · ref. ${i.data}</span></div>
+     </div>`).join("");
+
+  if(cepea.fisico?.length){
+    const linhas = cepea.fisico.map(f=>
+      `<tr><td>${f.praca}</td><td>R$ ${fmt(f.valor)}</td><td>${deltaHtml(f.var_dia_pct)||"—"}</td></tr>`).join("");
+    $("fisico").innerHTML = `<h3>Balcão nas praças produtoras</h3>
+      <div class="src">R$ por saca de 60 kg, preço ao produtor</div>
+      <div class="tblwrap" style="margin-top:8px"><table class="curve">
+        <thead><tr><th>Praça</th><th>Preço</th><th>Var. dia</th></tr></thead>
+        <tbody>${linhas}</tbody></table></div>`;
+    $("fisico").hidden=false;
+  }
+
+  if(cepea.premio_paranagua?.length){
+    const linhas = cepea.premio_paranagua.map(p=>
+      `<tr><td>${p.mes}</td><td>${p.valor>0?"+":""}${fmt(p.valor)}</td></tr>`).join("");
+    $("premio").innerHTML = `<h3>Prêmio de porto — Paranaguá</h3>
+      <div class="src">US¢/bushel sobre o futuro de Chicago, por mês de embarque</div>
+      <div class="tblwrap" style="margin-top:8px"><table class="curve">
+        <thead><tr><th>Embarque</th><th>Prêmio</th></tr></thead>
+        <tbody>${linhas}</tbody></table></div>`;
+    $("premio").hidden=false;
+  }
   $("sec-cepea").hidden=false;
 }
 
@@ -407,12 +436,16 @@ function renderSafraUS(us){
   return true;
 }
 
-function renderSafraBR(br){
+function renderSafraBR(br, weather){
   if(!br || !br.atual) return false;
   const a=br.atual, p=br.anterior;
   const kpi=(lbl,val,sub)=>`<div class="kpi"><div class="lbl">${lbl}</div><div class="val">${val}</div><div class="sub">${sub||""}</div></div>`;
   let html=`<h3>Brasil — safra ${a.safra}</h3>
-    <div class="src">CONAB · levantamentos mensais (série histórica de grãos)</div><div class="kpis">`;
+    <div class="src">CONAB · levantamentos mensais (série histórica de grãos)</div>`;
+  if(br.ciclo){
+    html+=`<div class="hint"><b>${br.ciclo.fase}</b> — ${br.ciclo.detalhe}.</div>`;
+  }
+  html+=`<div class="kpis">`;
   html+=kpi("Produção", fmt(a.producao_mil_t/1000,1)+" Mt",
     br.var_producao_pct!=null?deltaHtml(br.var_producao_pct)+` vs ${p.safra}`:"");
   html+=kpi("Área plantada", fmt(a.area_mil_ha/1000,1)+" Mha",
@@ -420,15 +453,30 @@ function renderSafraBR(br){
   html+=kpi("Produtividade", fmt(a.produtividade_kg_ha,0),
     "kg/ha"+(p?` · ${p.safra}: ${fmt(p.produtividade_kg_ha,0)}`:""));
   html+="</div>";
+
+  const chuva=(weather?.cities||[]).filter(c=>c.precip_30d!=null);
+  if(chuva.length){
+    const linhas=chuva.map(c=>{
+      const mm=c.precip_30d;
+      const larg=Math.min(100, mm/150*100);
+      return `<div class="stage" style="padding:6px 0">
+        <div class="top"><span class="name" style="font-weight:500">${c.name}</span>
+          <span class="pct" style="font-size:14px">${fmt(mm,0)}<small> mm</small></span></div>
+        <div class="track" style="margin:4px 0 0"><i style="width:${larg}%"></i></div></div>`;
+    }).join("");
+    html+=`<div class="hint" style="margin-top:12px">Chuva acumulada nos últimos 30 dias —
+      é a umidade do solo que abre a janela de semeadura.</div>${linhas}`;
+  }
+
   $("safra-br").innerHTML=html;
   $("safra-br").hidden=false;
   return true;
 }
 
-function renderSafra(safra){
+function renderSafra(safra, weather){
   if(!safra) return;
   const ok1=renderSafraUS(safra.us);
-  const ok2=renderSafraBR(safra.br);
+  const ok2=renderSafraBR(safra.br, weather);
   if(ok1||ok2) $("sec-safra").hidden=false;
 }
 
@@ -487,7 +535,7 @@ function render(data){
   renderQuotes(s.quotes, s.fx);
   renderCurve(s.curve, s.fx);
   renderOptions(s.options);
-  renderSafra(s.safra);
+  renderSafra(s.safra, s.weather);
   renderNews(s.news);
   renderWeather(s.weather);
   const errs=(data.errors||[]).map(e=>e.section);

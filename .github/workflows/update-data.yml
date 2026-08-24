@@ -27,6 +27,8 @@ jobs:
         run: pip install requests openpyxl
 
       - name: Coletar dados
+        env:
+          USDA_FAS_KEY: ${{ secrets.USDA_FAS_KEY }}
         run: python scripts/update_data.py
 
       - name: Commitar dados atualizados

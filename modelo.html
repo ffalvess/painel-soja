@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modelo e basis — Painel Soja</title>
+<meta name="description" content="Decomposição do preço da soja em paridade de exportação e basis, e a especificação do modelo de direção de preço em 4–8 semanas.">
+<style>
+:root{
+  --page:#f9f9f7; --surface:#fcfcfb;
+  --ink:#0b0b0b; --ink-2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --baseline:#c3c2b7; --ring:rgba(11,11,11,.10);
+  --accent:#2a78d6; --up:#006300; --down:#d03b3b; --warn:#b06a00;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --page:#0d0d0d; --surface:#1a1a19;
+    --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
+    --accent:#3987e5; --up:#0ca30c; --down:#e66767; --warn:#e0a049;
+  }
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--page);color:var(--ink);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:15px;line-height:1.5;padding:20px 16px 48px}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto}
+header{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-bottom:6px}
+header h1{font-size:22px;font-weight:650}
+.navlink{font-size:13px;font-weight:600;color:var(--accent);text-decoration:none;
+  border:1px solid var(--ring);border-radius:999px;padding:4px 11px;background:var(--surface)}
+.navlink:hover{text-decoration:underline}
+header .stamp{color:var(--muted);font-size:13px;margin-left:auto}
+.lede{color:var(--ink-2);font-size:15px;max-width:76ch;margin-bottom:24px}
+section{margin-bottom:28px}
+h2{font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:10px}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:14px 16px}
+.card h3{font-size:14px;font-weight:650;margin-bottom:2px}
+.card .src{font-size:12px;color:var(--muted)}
+p{max-width:76ch}
+p+p{margin-top:10px}
+.duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:10px;align-items:start}
+
+/* cadeia de decomposição do preço */
+.chain{list-style:none;font-variant-numeric:tabular-nums}
+.chain li{display:flex;align-items:baseline;gap:10px;padding:8px 0;border-bottom:1px solid var(--grid)}
+.chain li:last-child{border-bottom:0}
+.chain .op{flex:0 0 20px;text-align:center;font-size:15px;font-weight:600;color:var(--muted)}
+.chain .lbl{flex:1;font-size:13.5px}
+.chain .lbl small{display:block;font-size:11.5px;color:var(--muted)}
+.chain .num{flex:0 0 auto;font-size:15px;font-weight:600;text-align:right}
+.chain li.total{background:linear-gradient(90deg,transparent,var(--grid));border-radius:6px;
+  padding-left:8px;margin:2px 0}
+.chain li.total .num{font-size:17px;font-weight:700}
+.chain .pos{color:var(--up)} .chain .neg{color:var(--down)}
+
+/* tabelas */
+.tblwrap{overflow-x:auto}
+table.t{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.t th{font-size:12px;color:var(--muted);font-weight:600;text-align:right;padding:5px 10px;
+  border-bottom:1px solid var(--grid);white-space:nowrap}
+.t td{font-size:13.5px;text-align:right;padding:7px 10px;border-bottom:1px solid var(--grid)}
+.t th:first-child,.t td:first-child{text-align:left}
+.t tbody tr:last-child td{border-bottom:0}
+.t td.wide{white-space:normal;max-width:38ch;font-size:13px;color:var(--ink-2)}
+
+/* barras de basis (negativas) */
+.bcell{position:relative;min-width:150px}
+.bbar{position:absolute;left:50%;right:6px;bottom:3px;height:3px;background:var(--grid);border-radius:2px}
+.bbar i{position:absolute;right:0;height:100%;background:var(--down);border-radius:2px}
+
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.kpi .lbl{font-size:12px;color:var(--muted)}
+.kpi .val{font-size:22px;font-weight:650;margin-top:1px}
+.kpi .sub{font-size:12px;color:var(--ink-2);margin-top:2px}
+
+.note{font-size:12.5px;color:var(--muted);margin-top:10px;max-width:80ch}
+.tag{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.03em;
+  text-transform:uppercase;padding:2px 8px;border-radius:999px;border:1px solid var(--ring)}
+.tag.live{color:var(--up)} .tag.spec{color:var(--accent)} .tag.block{color:var(--warn)}
+.formula{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14px;
+  background:var(--page);border:1px solid var(--grid);border-radius:8px;
+  padding:10px 12px;margin:10px 0;overflow-x:auto}
+ul.bul{margin:8px 0 0 18px;font-size:13.5px;color:var(--ink-2)}
+ul.bul li{margin-bottom:5px;max-width:74ch}
+svg.wf{display:block;width:100%;max-width:640px;height:auto;margin-top:6px}
+footer{margin-top:34px;color:var(--muted);font-size:12.5px}
+.empty{color:var(--muted);font-size:13.5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Modelo e basis</h1>
+    <a class="navlink" href="index.html">← Painel Soja</a>
+    <span class="stamp" id="stamp"></span>
+  </header>
+  <p class="lede">O alvo não é o nível do preço: é o <b>sinal do retorno em 4–8 semanas</b>.
+    E o preço que interessa ao produtor não é ¢/bushel — é
+    <b>ZS × USDBRL + basis</b>. O basis é estacionário, sazonal e função de frete,
+    ritmo de venda e capacidade portuária: bem mais previsível que o flat price,
+    e é onde está o alfa aplicável ao book.</p>
+
+  <section id="sec-chain" hidden>
+    <h2>Decomposição do preço — hoje <span class="tag live">ao vivo</span></h2>
+    <div class="duo">
+      <div class="card">
+        <h3>Do pregão de Chicago ao balcão do produtor</h3>
+        <div class="src" id="chain-src"></div>
+        <ul class="chain" id="chain"></ul>
+      </div>
+      <div class="card">
+        <h3>Basis do interior contra o porto</h3>
+        <div class="src">Desconto da praça contra Paranaguá — essencialmente frete
+          mais poder de barganha local</div>
+        <div class="tblwrap" style="margin-top:8px">
+          <table class="t" id="interior"></table>
+        </div>
+      </div>
+    </div>
+    <div class="note" id="chain-note"></div>
+  </section>
+
+  <section id="sec-hist" hidden>
+    <h2>Série do basis <span class="tag live">ao vivo</span></h2>
+    <div class="card">
+      <div id="hist"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Cenário 2026/27 — sanity check do modelo</h2>
+    <div class="card">
+      <h3>O quadro que o modelo tem que reproduzir</h3>
+      <div class="src">Estimativas de agosto/26 usadas como referência de validação</div>
+      <div class="kpis" style="margin-top:12px">
+        <div class="kpi"><div class="lbl">Produção mundial 26/27</div>
+          <div class="val">442,25 Mt</div><div class="sub">recorde · +3,0%</div></div>
+        <div class="kpi"><div class="lbl">Estoque final mundial</div>
+          <div class="val">124,21 Mt</div><div class="sub">praticamente estável</div></div>
+        <div class="kpi"><div class="lbl">Estoque/produção</div>
+          <div class="val">28,1%</div><div class="sub">124,21 ÷ 442,25</div></div>
+        <div class="kpi"><div class="lbl">Estoque final Brasil</div>
+          <div class="val">8,25 Mt</div><div class="sub">maior desde 2017</div></div>
+      </div>
+      <p style="margin-top:14px;font-size:14px">Oferta ampla e relação estoque/uso confortável.
+        O modelo deve devolver <b>viés neutro-baixista, com cauda de alta condicionada a clima
+        e à demanda chinesa</b>. <b class="chain neg">Se devolver alta convicta, está quebrado</b> —
+        é o teste de fumaça antes de olhar qualquer métrica.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Especificação do modelo <span class="tag spec">projeto</span></h2>
+    <div class="duo">
+      <div class="card">
+        <h3>Escolhas</h3>
+        <div class="tblwrap" style="margin-top:8px">
+        <table class="t">
+          <thead><tr><th>Item</th><th style="text-align:left">Escolha</th></tr></thead>
+          <tbody>
+            <tr><td>Alvo</td><td class="wide">Sinal do retorno em 4–8 semanas
+              (classificação), não nível</td></tr>
+            <tr><td>Algoritmo</td><td class="wide">Gradient boosting (LightGBM) — n é pequeno,
+              ~1.800 observações semanais desde 1990</td></tr>
+            <tr><td>Validação</td><td class="wide">Walk-forward expandindo, purged,
+              com embargo de 8 semanas</td></tr>
+            <tr><td>Métrica</td><td class="wide">Hit rate direcional + P&amp;L de uma regra de
+              hedge ratio — não R²</td></tr>
+            <tr><td>Expectativa</td><td class="wide">AUC 0,55–0,58.
+              <b>Acima disso é vazamento.</b></td></tr>
+          </tbody>
+        </table>
+        </div>
+        <p class="note"><b>Não usar LSTM nem transformer.</b> Razão sinal-ruído baixa e amostra
+          curta: a rede memoriza 2012 e 2020 e devolve AUC alta no papel que não sobrevive
+          fora da amostra.</p>
+      </div>
+      <div class="card">
+        <h3>Validação walk-forward com purge e embargo</h3>
+        <div class="src">Janela de treino expandindo; o gap impede que o alvo de 8 semanas
+          vaze do treino para o teste</div>
+        <div id="wf"></div>
+        <ul class="bul">
+          <li><b>Purge:</b> descarta do treino as observações cujo alvo de 4–8 semanas
+            se sobrepõe ao período de teste.</li>
+          <li><b>Embargo:</b> 8 semanas mortas depois do teste, para não reaproveitar
+            autocorrelação residual na dobra seguinte.</li>
+          <li>Sem isso, o hit rate sobe alguns pontos e o modelo parece funcionar —
+            é o modo mais comum de se enganar em série temporal financeira.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Densidade risco-neutra — Breeden-Litzenberger <span class="tag block">bloqueado</span></h2>
+    <div class="card">
+      <h3>Para a distribuição de preço, não estimar: extrair</h3>
+      <p style="margin-top:8px;font-size:14px">A segunda derivada do preço da call em relação
+        ao strike devolve a densidade que o próprio mercado está precificando — sem depender
+        de nenhum modelo preditivo:</p>
+      <div class="formula">q(K) = e<sup>rT</sup> · ∂²C(K, T) / ∂K²</div>
+      <p style="font-size:14px">É insumo imediato para estruturar <b>collar</b>, <b>acumulador</b>
+        e <b>fence</b> para o cliente, e é independente do classificador acima: um diz para onde
+        o preço tende, o outro diz quanto o mercado cobra por cada cenário.</p>
+      <p class="note"><b>Por que ainda não está no painel:</b> o cálculo precisa da cadeia de
+        opções de ZS por strike e vencimento. A CME bloqueia site e API para IPs de nuvem
+        (403 explícito de anti-scraping), o Yahoo devolve cadeia vazia para futuros e o
+        arquivo público do FTP da CME traz só volume agregado por produto — nenhum strike.
+        Com um feed que exponha strikes (Barchart, CME DataMine ou corretora), a implementação
+        é direta: interpolar C(K) em K, derivar duas vezes e normalizar.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Status de implementação</h2>
+    <div class="card">
+      <div class="tblwrap">
+      <table class="t">
+        <thead><tr><th>Camada</th><th style="text-align:left">Situação</th>
+          <th style="text-align:left">O que falta</th></tr></thead>
+        <tbody>
+          <tr><td>Decomposição paridade + basis</td>
+            <td class="wide"><span class="tag live">ao vivo</span> calculada a cada hora</td>
+            <td class="wide">—</td></tr>
+          <tr><td>Basis do interior por praça</td>
+            <td class="wide"><span class="tag live">ao vivo</span> 9 praças</td>
+            <td class="wide">—</td></tr>
+          <tr><td>Série histórica do basis</td>
+            <td class="wide"><span class="tag live">acumulando</span> desde hoje</td>
+            <td class="wide">Não há arquivo gratuito do indicador para reconstruir o passado;
+              a série é construída daqui para a frente</td></tr>
+          <tr><td>Classificador de direção 4–8 semanas</td>
+            <td class="wide"><span class="tag spec">projeto</span></td>
+            <td class="wide">Histórico semanal de features (CBOT, câmbio, basis, S&amp;D,
+              clima) e o backtest purged</td></tr>
+          <tr><td>Densidade risco-neutra</td>
+            <td class="wide"><span class="tag block">bloqueado</span></td>
+            <td class="wide">Feed de opções com strikes</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Basis e paridade calculados a partir do painel principal (CBOT via Yahoo Finance,
+    dólar comercial e indicadores Cepea/Esalq via Notícias Agrícolas). Números de oferta
+    e demanda 2026/27 são a referência de agosto/26 usada como sanity check.
+    Conteúdo informativo, sem garantia — não constitui recomendação de negociação.
+  </footer>
+</div>
+
+<script>
+"use strict";
+const $ = (id) => document.getElementById(id);
+const nf = (d=2) => new Intl.NumberFormat("pt-BR",{minimumFractionDigits:d,maximumFractionDigits:d});
+const fmt = (v,d=2) => v==null ? "—" : nf(d).format(v);
+const sgn = (v,d=2) => v==null ? "—" : (v>0?"+":"") + nf(d).format(v);
+
+function renderChain(b){
+  if(!b) return;
+  $("chain-src").textContent =
+    `CBOT ${b.contrato} · prêmio de embarque ${b.premio_mes||"—"} · indicador de ${b.indicador_data}`;
+  const li = (op,lbl,sub,num,cls="") =>
+    `<li class="${cls}"><span class="op">${op}</span>
+      <span class="lbl">${lbl}${sub?`<small>${sub}</small>`:""}</span>
+      <span class="num">${num}</span></li>`;
+  const bp = b.basis_porto || {};
+  let html = "";
+  html += li("", `Soja CBOT ${b.contrato}`, "futuro de referência do embarque",
+             `${fmt(b.cbot_cents)} <small>¢/bu</small>`);
+  html += li("+", "Prêmio de porto Paranaguá", `embarque ${b.premio_mes||"—"}`,
+             `<span class="pos">${sgn(b.premio_cents)}</span> <small>¢/bu</small>`);
+  html += li("×", "Dólar comercial", "conversão para reais", fmt(b.cambio,4));
+  html += li("=", "<b>Paridade de exportação</b>", "o que Chicago e o câmbio explicam",
+             `R$ ${fmt(b.paridade_brl_saca)}`, "total");
+  html += li("+", "<b>Basis do porto</b>",
+             `${sgn(bp.cents_bu,0)} ¢/bu · ${sgn(bp.pct,1)}% sobre a paridade`,
+             `<span class="${bp.brl_saca>=0?"pos":"neg"}">${sgn(bp.brl_saca)}</span>`);
+  html += li("=", "<b>Indicador Paranaguá</b>", "preço no porto, R$/saca de 60 kg",
+             `R$ ${fmt(b.indicador_brl_saca)}`, "total");
+  const pior = (b.basis_interior||[])[0];
+  if(pior){
+    html += li("−", "Basis do interior", `praça mais descontada: ${pior.praca}`,
+               `<span class="neg">${sgn(pior.basis_brl_saca)}</span>`);
+    html += li("=", `<b>Balcão em ${pior.praca}</b>`, "o que o produtor efetivamente recebe",
+               `R$ ${fmt(pior.valor)}`, "total");
+  }
+  $("chain").innerHTML = html;
+
+  const inter = b.basis_interior || [];
+  if(inter.length){
+    const max = Math.max(...inter.map(i=>Math.abs(i.basis_brl_saca)), 1);
+    $("interior").innerHTML = `<thead><tr><th>Praça</th><th>Balcão</th>
+      <th>Basis vs porto</th><th>¢/bu</th></tr></thead><tbody>` +
+      inter.map(i=>`<tr><td>${i.praca}</td><td>R$ ${fmt(i.valor)}</td>
+        <td class="bcell"><span class="neg">${sgn(i.basis_brl_saca)}</span>
+          <span class="bbar"><i style="width:${Math.abs(i.basis_brl_saca)/max*100}%"></i></span></td>
+        <td>${sgn(i.basis_cents_bu,0)}</td></tr>`).join("") + "</tbody>";
+  }
+  $("chain-note").innerHTML =
+    "A paridade é simplificada: não desconta frete rodoviário até o navio, taxas portuárias " +
+    "nem custo de originação, então o nível do basis do porto absorve tudo isso. Para o modelo " +
+    "isso não é problema — o que se modela é a <b>variação</b> do basis, não o seu nível.";
+  $("sec-chain").hidden = false;
+}
+
+function renderHist(serie){
+  if(!serie || !serie.length) return;
+  const el = $("hist");
+  if(serie.length < 3){
+    el.innerHTML = `<h3>${serie.length} observação${serie.length>1?"ões":""} coletada${serie.length>1?"s":""}</h3>
+      <div class="src">A série do basis começa a ser acumulada agora, uma observação por dia de
+      referência do indicador. Não existe arquivo gratuito para reconstruir o passado, então o
+      gráfico aparece quando houver histórico suficiente.</div>
+      <div class="tblwrap" style="margin-top:10px"><table class="t">
+      <thead><tr><th>Data</th><th>CBOT ¢/bu</th><th>Câmbio</th><th>Paridade</th>
+        <th>Indicador</th><th>Basis</th></tr></thead><tbody>` +
+      serie.map(s=>`<tr><td>${s.data}</td><td>${fmt(s.cbot_cents)}</td><td>${fmt(s.cambio,4)}</td>
+        <td>R$ ${fmt(s.paridade)}</td><td>R$ ${fmt(s.indicador)}</td>
+        <td><b>${sgn(s.basis)}</b></td></tr>`).join("") + "</tbody></table></div>";
+    return;
+  }
+  const W=640,H=170,P=34;
+  const vals = serie.map(s=>s.basis);
+  const min = Math.min(...vals), max = Math.max(...vals), span=(max-min)||1;
+  const x = i => P + i*(W-P-10)/(serie.length-1);
+  const y = v => H-24 - (v-min)*(H-46)/span;
+  const pts = serie.map((s,i)=>`${x(i).toFixed(1)},${y(s.basis).toFixed(1)}`).join(" ");
+  el.innerHTML = `<h3>Basis do porto — R$/saca</h3>
+    <div class="src">Indicador Paranaguá menos a paridade de exportação, por dia</div>
+    <svg class="wf" viewBox="0 0 ${W} ${H}" role="img" aria-label="Série do basis">
+      <line x1="${P}" y1="${H-24}" x2="${W-10}" y2="${H-24}" stroke="var(--baseline)"/>
+      <text x="4" y="${y(max)+4}" font-size="10" fill="var(--muted)">${fmt(max,1)}</text>
+      <text x="4" y="${y(min)+4}" font-size="10" fill="var(--muted)">${fmt(min,1)}</text>
+      <polyline points="${pts}" fill="none" stroke="var(--accent)" stroke-width="2"
+        stroke-linejoin="round"/>
+      <text x="${P}" y="${H-8}" font-size="10" fill="var(--muted)">${serie[0].data}</text>
+      <text x="${W-10}" y="${H-8}" font-size="10" fill="var(--muted)"
+        text-anchor="end">${serie[serie.length-1].data}</text>
+    </svg>`;
+}
+
+/* diagrama do walk-forward: treino expandindo, purge, embargo, teste */
+function renderWalkForward(){
+  const W=640, rowH=30, folds=4, x0=54, unit=44;
+  const H = folds*rowH + 46;
+  let g = "";
+  for(let f=0; f<folds; f++){
+    const y = 10 + f*rowH;
+    const treino = (f+2)*unit;
+    const xa = x0, xb = xa+treino, xc = xb+18, xd = xc+16, xe = xd+unit;
+    g += `<text x="6" y="${y+13}" font-size="10.5" fill="var(--muted)">dobra ${f+1}</text>`;
+    g += `<rect x="${xa}" y="${y}" width="${treino}" height="16" rx="3" fill="var(--accent)" opacity=".85"/>`;
+    g += `<rect x="${xb}" y="${y}" width="18" height="16" rx="3" fill="var(--down)" opacity=".35"/>`;
+    g += `<rect x="${xc}" y="${y}" width="16" height="16" rx="3" fill="var(--baseline)" opacity=".55"/>`;
+    g += `<rect x="${xd}" y="${y}" width="${unit}" height="16" rx="3" fill="var(--up)" opacity=".8"/>`;
+  }
+  const yl = 10 + folds*rowH + 6;
+  const leg = [["var(--accent)",".85","treino (expande)"],["var(--down)",".35","purge"],
+               ["var(--baseline)",".55","embargo 8 sem."],["var(--up)",".8","teste"]];
+  let lx = 54;
+  leg.forEach(([c,o,t])=>{
+    g += `<rect x="${lx}" y="${yl}" width="11" height="11" rx="2" fill="${c}" opacity="${o}"/>`;
+    g += `<text x="${lx+16}" y="${yl+10}" font-size="10.5" fill="var(--ink-2)">${t}</text>`;
+    lx += 26 + t.length*5.9;
+  });
+  g += `<text x="${W-4}" y="${yl+10}" font-size="10.5" fill="var(--muted)" text-anchor="end">tempo →</text>`;
+  $("wf").innerHTML = `<svg class="wf" viewBox="0 0 ${W} ${H}" role="img"
+    aria-label="Esquema de validação walk-forward com purge e embargo">${g}</svg>`;
+}
+
+async function load(){
+  renderWalkForward();
+  try{
+    const r = await fetch("data/data.json?t="+Date.now(), {cache:"no-store"});
+    const d = await r.json();
+    const b = d.sections?.basis;
+    if(d.generated_at)
+      $("stamp").textContent = "dados de " + new Intl.DateTimeFormat("pt-BR",
+        {hour:"2-digit",minute:"2-digit",timeZone:"America/Sao_Paulo"}).format(new Date(d.generated_at));
+    renderChain(b);
+    if(b?.historico?.length){ renderHist(b.historico); $("sec-hist").hidden=false; }
+  }catch(err){
+    $("stamp").textContent = "sem dados — rode o workflow de atualização";
+    console.error(err);
+  }
+}
+load();
+</script>
+</body>
+</html>

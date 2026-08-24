@@ -33,6 +33,15 @@ esse JSON — não há servidor, banco de dados nem custo.
 | Indicadores CEPEA (Paranaguá e Paraná), prêmio de porto e balcão nas praças | Cepea/Esalq, via Notícias Agrícolas | O site do CEPEA passou a exigir verificação da Cloudflare e responde 403 a robôs; o Notícias Agrícolas republica citando a fonte |
 | Chuva 7 dias e acumulado de 30 dias (Sorriso, Sinop, Rio Verde, Dourados) | Open-Meteo (`past_days=31`) | Sem chave; o acumulado indica se a janela de plantio abre |
 | Notícias | Google News RSS, Canal Rural, G1 Agronegócios, Notícias Agrícolas | Links diretos para as matérias |
+| Basis (paridade de exportação vs. indicador; interior vs. porto) | Derivado das seções acima | Casa o mês de embarque do prêmio com o contrato CBOT correspondente; a série é acumulada em `data/basis_history.json` |
+
+## Páginas
+
+- `index.html` — painel do dia: câmbio, mercado físico, cotações, curva de
+  vencimentos, opções, safra, clima e notícias.
+- `modelo.html` — decomposição do preço em paridade de exportação + basis
+  (calculada a cada hora) e a especificação do modelo de direção de preço
+  em 4–8 semanas. Linkada no cabeçalho do painel.
 
 ## Ajustes comuns
 
@@ -58,4 +67,8 @@ esse JSON — não há servidor, banco de dados nem custo.
 - Derivativos de soja da B3 (futuro SFI e opções) ficaram de fora: o boletim
   legado (`www2.bmf.com.br`) foi desligado no servidor e não há API pública
   gratuita; a liquidez desses contratos também é muito baixa.
+- A série histórica do basis é construída daqui para a frente: não há
+  arquivo gratuito do indicador para reconstruir o passado.
+- A densidade risco-neutra (Breeden-Litzenberger) não está implementada —
+  exige a cadeia de opções por strike, que nenhuma fonte gratuita expõe.
 - Uso pessoal/informativo; não redistribua os dados comercialmente.

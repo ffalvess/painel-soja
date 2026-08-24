@@ -32,6 +32,9 @@ header{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px;margin-bott
 header h1{font-size:22px;font-weight:650}
 header .date{color:var(--ink-2);text-transform:capitalize}
 header .stamp{color:var(--muted);font-size:13px;margin-left:auto}
+header .navlink{font-size:13px;font-weight:600;color:var(--accent);text-decoration:none;
+  border:1px solid var(--ring);border-radius:999px;padding:4px 11px;background:var(--surface)}
+header .navlink:hover{text-decoration:underline}
 section{margin-bottom:26px}
 h2{font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
 .card{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:14px 16px}
@@ -131,6 +134,7 @@ footer a{color:var(--ink-2)}
   <header>
     <h1>🌱 Painel Soja</h1>
     <span class="date" id="hoje"></span>
+    <a class="navlink" href="modelo.html">Modelo e basis →</a>
     <span class="stamp" id="stamp"></span>
   </header>
 

@@ -824,6 +824,155 @@ def collect_news() -> dict:
     return {"updated_at": now_iso(), "items": items[:30], "failed": failed}
 
 
+# ---------------------------------------------------------------- basis
+
+BU_POR_SACA = 60 / 27.2155  # bushels de soja em uma saca de 60 kg
+HIST = ROOT / "data" / "basis_history.json"
+HIST_MAX = 500
+
+
+MESES_PT = {
+    "jan": 1, "fev": 2, "mar": 3, "abr": 4, "mai": 5, "jun": 6,
+    "jul": 7, "ago": 8, "set": 9, "out": 10, "nov": 11, "dez": 12,
+}
+
+
+def mes_embarque(rotulo: str) -> tuple:
+    """'Agosto/26' -> (2026, 8)."""
+    nome, _, ano = rotulo.partition("/")
+    return (2000 + int(ano), MESES_PT.get(nome.strip()[:3].lower(), 1))
+
+
+def mes_contrato(rotulo: str) -> tuple:
+    """'set/26' -> (2026, 9)."""
+    nome, _, ano = rotulo.partition("/")
+    return (2000 + int(ano), MESES_PT.get(nome.strip()[:3].lower(), 1))
+
+
+def collect_basis(sections: dict) -> dict:
+    """Decompõe o preço que o produtor recebe em paridade de exportação + basis.
+
+    O cliente não recebe em ¢/bushel: recebe o indicador em R$/saca, que é
+    a paridade (CBOT + prêmio de porto, convertida pelo câmbio) mais um
+    basis. O basis é estacionário e sazonal — função de frete, ritmo de
+    venda e capacidade portuária — e é a parte modelável do preço.
+    """
+    fx = sections.get("fx") or {}
+    quotes = sections.get("quotes") or {}
+    cepea = sections.get("cepea") or {}
+
+    usd = (fx.get("usdbrl") or {}).get("bid")
+    zs = next(
+        (q.get("price") for q in quotes.get("items", []) if q.get("symbol") == "ZS=F"),
+        None,
+    )
+    if not usd or not zs:
+        raise RuntimeError("faltam dólar ou ZS=F para decompor o preço")
+
+    indicadores = cepea.get("indicadores") or []
+    porto = next((i for i in indicadores if "Paranaguá" in i["nome"]), None)
+    if not porto:
+        raise RuntimeError("indicador de Paranaguá indisponível")
+
+    premios = cepea.get("premio_paranagua") or []
+    premio = premios[0] if premios else None
+    premio_cents = premio["valor"] if premio else 0.0
+
+    # O prêmio é cotado por mês de embarque e precifica contra o contrato
+    # CBOT vigente naquele embarque — não contra o primeiro vencimento.
+    contrato = None
+    if premio:
+        alvo = mes_embarque(premio["mes"])
+        for c in (sections.get("curve") or {}).get("contracts", []):
+            if c.get("price") and mes_contrato(c["label"]) >= alvo:
+                contrato = c
+                break
+    if contrato:
+        zs = contrato["price"]
+
+    def cents_para_saca(cents: float) -> float:
+        return (cents / 100) * BU_POR_SACA * usd
+
+    def saca_para_cents(brl: float) -> float:
+        return (brl / usd) / BU_POR_SACA * 100
+
+    flat = cents_para_saca(zs)
+    paridade = cents_para_saca(zs + premio_cents)
+    basis_brl = round(porto["valor"] - paridade, 2)
+
+    out = {
+        "updated_at": now_iso(),
+        "cambio": usd,
+        "cbot_cents": zs,
+        "premio_cents": premio_cents,
+        "premio_mes": premio["mes"] if premio else None,
+        "contrato": contrato["label"] if contrato else "1º vencimento",
+        "flat_brl_saca": round(flat, 2),
+        "paridade_brl_saca": round(paridade, 2),
+        "indicador_brl_saca": porto["valor"],
+        "indicador_data": porto["data"],
+        "basis_porto": {
+            "brl_saca": basis_brl,
+            "cents_bu": round(saca_para_cents(basis_brl), 1),
+            "pct": round(basis_brl / paridade * 100, 1) if paridade else None,
+        },
+    }
+
+    # Basis do interior: desconto da praça contra o porto, que é essencialmente
+    # frete até Paranaguá mais o poder de barganha local.
+    interior = []
+    for f in cepea.get("fisico", []):
+        if f["praca"].startswith("Porto"):
+            continue
+        d = round(f["valor"] - porto["valor"], 2)
+        interior.append(
+            {
+                "praca": f["praca"],
+                "valor": f["valor"],
+                "basis_brl_saca": d,
+                "basis_cents_bu": round(saca_para_cents(d), 1),
+            }
+        )
+    if interior:
+        interior.sort(key=lambda x: x["basis_brl_saca"])
+        out["basis_interior"] = interior
+
+    out["historico"] = atualiza_historico(out)
+    return out
+
+
+def atualiza_historico(basis: dict) -> list:
+    """Acumula uma observação diária do basis — a série que o modelo vai usar.
+
+    Não existe histórico gratuito do indicador para reconstruir o passado,
+    então a série é construída daqui para a frente, uma observação por dia
+    de referência do indicador.
+    """
+    try:
+        serie = json.loads(HIST.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        serie = []
+
+    registro = {
+        "data": basis["indicador_data"],
+        "cbot_cents": basis["cbot_cents"],
+        "cambio": basis["cambio"],
+        "paridade": basis["paridade_brl_saca"],
+        "indicador": basis["indicador_brl_saca"],
+        "basis": basis["basis_porto"]["brl_saca"],
+    }
+    serie = [s for s in serie if s.get("data") != registro["data"]]
+    serie.append(registro)
+    serie.sort(key=lambda s: tuple(reversed(s["data"].split("/"))))
+    serie = serie[-HIST_MAX:]
+
+    HIST.parent.mkdir(parents=True, exist_ok=True)
+    HIST.write_text(
+        json.dumps(serie, ensure_ascii=False, indent=1), encoding="utf-8"
+    )
+    return serie
+
+
 # ---------------------------------------------------------------- main
 
 COLLECTORS = {
@@ -837,6 +986,8 @@ COLLECTORS = {
     "weather": collect_weather,
     "news": collect_news,
 }
+
+DERIVED = {"basis": collect_basis}
 
 
 def main() -> int:
@@ -859,6 +1010,16 @@ def main() -> int:
             sections[name] = old_sections.get(name)
             print(f"[erro] {name}: {e}", file=sys.stderr)
 
+    # Derivados: dependem das seções acima, então rodam depois delas.
+    for name, derive in DERIVED.items():
+        try:
+            sections[name] = derive(sections)
+            print(f"[ok]   {name}")
+        except Exception as e:  # noqa: BLE001
+            errors.append({"section": name, "error": str(e)})
+            sections[name] = old_sections.get(name)
+            print(f"[erro] {name}: {e}", file=sys.stderr)
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(
         json.dumps(
@@ -870,7 +1031,7 @@ def main() -> int:
     )
     print(f"gravado {OUT} ({len(errors)} erro(s))")
     # Só falha o job se absolutamente nada funcionou
-    return 1 if len(errors) == len(COLLECTORS) else 0
+    return 1 if len(errors) == len(COLLECTORS) + len(DERIVED) else 0
 
 
 if __name__ == "__main__":

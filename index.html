@@ -59,6 +59,38 @@ h2{font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
 .cepea .lbl{font-size:14px;color:var(--ink-2)}
 .cepea .ref{font-size:12px;color:var(--muted)}
 
+/* curva de vencimentos */
+.tblwrap{overflow-x:auto}
+table.curve{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.curve th{font-size:12px;color:var(--muted);font-weight:600;text-align:right;padding:4px 10px;border-bottom:1px solid var(--grid);white-space:nowrap}
+.curve td{font-size:14px;text-align:right;padding:7px 10px;border-bottom:1px solid var(--grid);white-space:nowrap}
+.curve th:first-child,.curve td:first-child{text-align:left}
+.curve tbody tr:last-child td{border-bottom:0}
+.curve .front td{font-weight:600}
+.volcell{position:relative;min-width:110px}
+.volbar{position:absolute;left:6px;right:6px;bottom:3px;height:3px;border-radius:2px;background:var(--grid);overflow:hidden}
+.volbar i{display:block;height:100%;background:var(--accent);border-radius:2px}
+.foot{font-size:12px;color:var(--muted);margin-top:8px}
+
+/* safra */
+.duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:10px;align-items:start}
+.safra h3{font-size:13.5px;font-weight:650;margin-bottom:2px}
+.safra .src{font-size:12px;color:var(--muted);margin-bottom:10px}
+.prow{display:flex;align-items:center;gap:10px;padding:5px 0}
+.prow .plbl{flex:0 0 128px;font-size:13px;color:var(--ink-2)}
+.prow .pbar{flex:1;height:6px;border-radius:3px;background:var(--grid);overflow:hidden}
+.prow .pbar i{display:block;height:100%;background:var(--accent);border-radius:3px}
+.prow .pval{flex:0 0 44px;text-align:right;font-size:13.5px;font-weight:600}
+.prow .pref{flex:0 0 118px;font-size:11.5px;color:var(--muted);text-align:right}
+.cond{display:flex;height:14px;border-radius:4px;overflow:hidden;margin:8px 0 4px}
+.cond i{display:block;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:11.5px;color:var(--muted)}
+.legend b{color:var(--ink-2);font-weight:600}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:8px;margin-top:6px}
+.kpi .lbl{font-size:11.5px;color:var(--muted)}
+.kpi .val{font-size:19px;font-weight:650;margin-top:1px}
+.kpi .sub{font-size:11.5px;color:var(--ink-2)}
+
 /* colunas notícias + clima */
 .cols{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:22px;align-items:start}
 @media (max-width:860px){.cols{grid-template-columns:1fr}}
@@ -106,6 +138,28 @@ footer a{color:var(--ink-2)}
     <div class="tiles" id="tiles"></div>
   </section>
 
+  <section id="sec-curve" hidden>
+    <h2>Soja CBOT — curva de vencimentos</h2>
+    <div class="card">
+      <div class="tblwrap"><table class="curve" id="curve"></table></div>
+      <div class="foot" id="curve-foot"></div>
+    </div>
+  </section>
+
+  <section id="sec-options" hidden>
+    <h2>Opções de soja em Chicago — calls × puts</h2>
+    <div class="chips" id="options"></div>
+    <div class="foot" id="options-foot"></div>
+  </section>
+
+  <section id="sec-safra" hidden>
+    <h2>Safra</h2>
+    <div class="duo">
+      <div class="card safra" id="safra-us" hidden></div>
+      <div class="card safra" id="safra-br" hidden></div>
+    </div>
+  </section>
+
   <div class="cols">
     <section id="sec-news" hidden>
       <h2>Notícias</h2>
@@ -120,9 +174,10 @@ footer a{color:var(--ink-2)}
   <div class="warn" id="warn" hidden></div>
 
   <footer>
-    Fontes: CME Group via Yahoo Finance (atraso ~15 min), AwesomeAPI, Banco Central do Brasil (PTAX/SGS),
-    CEPEA/ESALQ, Open-Meteo e feeds RSS das redações citadas. Dados informativos, sem garantia —
-    não constituem recomendação de negociação. Atualização automática a cada hora.
+    Fontes: CME Group via Yahoo Finance (atraso ~15 min) e FTP público da CME, AwesomeAPI,
+    Banco Central do Brasil (PTAX/SGS), CEPEA/ESALQ, USDA/NASS (Crop Progress), CONAB
+    (série histórica de grãos), Open-Meteo e feeds RSS das redações citadas. Dados informativos,
+    sem garantia — não constituem recomendação de negociação. Atualização automática a cada hora.
   </footer>
 </div>
 <div id="tip"></div>
@@ -222,6 +277,107 @@ function renderCepea(cepea){
   $("sec-cepea").hidden=false;
 }
 
+function renderCurve(curve, fx){
+  if(!curve || !curve.contracts?.length) return;
+  const usd = fx?.usdbrl?.bid;
+  const maxVol = Math.max(...curve.contracts.map(c=>c.volume||0), 1);
+  const rows = curve.contracts.map((c,i)=>{
+    const saca = usd && c.price ? (c.price/100)*BU_POR_SACA*usd : null;
+    const volPct = Math.round((c.volume||0)/maxVol*100);
+    return `<tr${i===0?' class="front"':''}>
+      <td>${c.label}</td>
+      <td>${fmt(c.price)}</td>
+      <td>${deltaHtml(c.change_pct)||"—"}</td>
+      <td>${saca!=null ? "R$ "+fmt(saca) : "—"}</td>
+      <td class="volcell">${c.volume!=null ? fmt(c.volume,0) : "—"}
+        <div class="volbar"><i style="width:${volPct}%"></i></div></td>
+    </tr>`;
+  }).join("");
+  $("curve").innerHTML = `<thead><tr>
+    <th>Vencimento</th><th>Último (¢/bu)</th><th>Var. dia</th><th>≈ R$/saca</th><th>Volume (contratos)</th>
+    </tr></thead><tbody>${rows}</tbody>`;
+  $("curve-foot").textContent =
+    "Preço e volume por contrato via Yahoo Finance (atraso ~10 min). " +
+    (usd ? "Equivalência R$/saca de 60 kg pelo dólar comercial, sem prêmio de porto/frete." : "");
+  $("sec-curve").hidden=false;
+}
+
+function renderOptions(options){
+  const cb=options?.cbot;
+  if(!cb?.calls || !cb?.puts) return;
+  const chips=[];
+  const oi = k => cb[k].oi!=null ? ` · aberto: ${fmt(cb[k].oi,0)}` : "";
+  chips.push({lbl:"Calls — volume do pregão", val:fmt(cb.calls.volume,0), sub:"contratos"+oi("calls")});
+  chips.push({lbl:"Puts — volume do pregão", val:fmt(cb.puts.volume,0), sub:"contratos"+oi("puts")});
+  if(cb.put_call_volume!=null){
+    const s = cb.put_call_volume<1 ? "predomínio de calls" : cb.put_call_volume>1 ? "predomínio de puts" : "equilibrado";
+    chips.push({lbl:"Razão Put/Call", val:fmt(cb.put_call_volume), sub:s});
+  }
+  if(cb.futures) chips.push({lbl:"Futuros — volume do pregão", val:fmt(cb.futures.volume,0),
+    sub:"contratos"+ (cb.futures.oi!=null?` · aberto: ${fmt(cb.futures.oi,0)}`:"")});
+  $("options").innerHTML = chips.map(c=>
+    `<div class="card chip"><div class="lbl">${c.lbl}</div><div class="val">${c.val}</div><div class="sub">${c.sub||""}</div></div>`).join("");
+  const d = options.trade_date ? options.trade_date.split("-").reverse().join("/") : "";
+  $("options-foot").textContent =
+    `Opções-padrão sobre o futuro de soja na CBOT, pregão de ${d}. Fonte: CME Group (FTP público; a CME não publica posições em aberto por produto nesse arquivo).`;
+  $("sec-options").hidden=false;
+}
+
+const COND_COLORS={vp:"var(--down)",p:"color-mix(in srgb, var(--down) 45%, var(--surface))",
+  f:"var(--baseline)",g:"color-mix(in srgb, var(--up) 45%, var(--surface))",e:"var(--up)"};
+const COND_LABELS={vp:"muito ruim",p:"ruim",f:"regular",g:"boa",e:"excelente"};
+
+function renderSafraUS(us){
+  if(!us) return false;
+  let html=`<h3>Estados Unidos — andamento da safra</h3>
+    <div class="src">USDA Crop Progress · semana até ${us.week_ending||us.released}</div>`;
+  (us.progress||[]).forEach(p=>{
+    html+=`<div class="prow"><span class="plbl">${p.label}</span>
+      <span class="pbar"><i style="width:${p.current}%"></i></span>
+      <span class="pval">${p.current}%</span>
+      <span class="pref">ant. ${p.prev_week}% · média ${p.avg_5y}%</span></div>`;
+  });
+  const c=us.condition;
+  if(c){
+    const seg=Object.entries(c.dist).map(([k,v])=>
+      v?`<i style="width:${v}%;background:${COND_COLORS[k]}" data-tip="${COND_LABELS[k]}: ${v}%"></i>`:"").join("");
+    const dw = c.gex_prev_week!=null ? c.gex - c.gex_prev_week : null;
+    const dy = c.gex_prev_year!=null ? c.gex - c.gex_prev_year : null;
+    const rel=[dw!=null?`${dw>=0?"+":""}${dw} p.p. na semana`:"",
+               dy!=null?`${dy>=0?"+":""}${dy} p.p. vs ano passado`:""].filter(Boolean).join(" · ");
+    html+=`<div class="cond">${seg}</div>
+      <div class="legend"><span><b>${c.gex}%</b> boa/excelente</span><span>${rel}</span></div>`;
+  }
+  $("safra-us").innerHTML=html;
+  $("safra-us").hidden=false;
+  return true;
+}
+
+function renderSafraBR(br){
+  if(!br || !br.atual) return false;
+  const a=br.atual, p=br.anterior;
+  const kpi=(lbl,val,sub)=>`<div class="kpi"><div class="lbl">${lbl}</div><div class="val">${val}</div><div class="sub">${sub||""}</div></div>`;
+  let html=`<h3>Brasil — safra ${a.safra}</h3>
+    <div class="src">CONAB · levantamentos mensais (série histórica de grãos)</div><div class="kpis">`;
+  html+=kpi("Produção", fmt(a.producao_mil_t/1000,1)+" Mt",
+    br.var_producao_pct!=null?deltaHtml(br.var_producao_pct)+` vs ${p.safra}`:"");
+  html+=kpi("Área plantada", fmt(a.area_mil_ha/1000,1)+" Mha",
+    br.var_area_pct!=null?deltaHtml(br.var_area_pct)+` vs ${p.safra}`:"");
+  html+=kpi("Produtividade", fmt(a.produtividade_kg_ha,0),
+    "kg/ha"+(p?` · ${p.safra}: ${fmt(p.produtividade_kg_ha,0)}`:""));
+  html+="</div>";
+  $("safra-br").innerHTML=html;
+  $("safra-br").hidden=false;
+  return true;
+}
+
+function renderSafra(safra){
+  if(!safra) return;
+  const ok1=renderSafraUS(safra.us);
+  const ok2=renderSafraBR(safra.br);
+  if(ok1||ok2) $("sec-safra").hidden=false;
+}
+
 function renderNews(news){
   if(!news || !news.items?.length) return;
   $("news").innerHTML = news.items.map(n=>
@@ -275,6 +431,9 @@ function render(data){
   renderFx(s.fx, s.rates);
   renderCepea(s.cepea);
   renderQuotes(s.quotes, s.fx);
+  renderCurve(s.curve, s.fx);
+  renderOptions(s.options);
+  renderSafra(s.safra);
   renderNews(s.news);
   renderWeather(s.weather);
   const errs=(data.errors||[]).map(e=>e.section);

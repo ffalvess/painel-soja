@@ -1,8 +1,10 @@
 # 🌱 Painel Soja
 
-Painel matinal do mercado de soja para o Centro-Oeste: cotações CBOT, câmbio,
-juros, indicador CEPEA, previsão de chuva nas regiões produtoras e notícias
-com link — tudo em uma página estática, atualizada automaticamente.
+Painel matinal do mercado de soja para o Centro-Oeste: cotações CBOT (com a
+curva de vencimentos e volume por contrato), calls × puts em Chicago, câmbio,
+juros, indicador CEPEA, andamento da safra nos EUA (USDA) e no Brasil (CONAB),
+previsão de chuva nas regiões produtoras e notícias com link — tudo em uma
+página estática, atualizada automaticamente.
 
 **Como funciona:** um GitHub Action (`.github/workflows/update-data.yml`) roda
 de hora em hora, executa `scripts/update_data.py`, que busca os dados nas
@@ -22,7 +24,11 @@ esse JSON — não há servidor, banco de dados nem custo.
 | Dado | Fonte | Observação |
 |---|---|---|
 | Soja, milho, farelo, óleo, trigo (CBOT), Brent, Ibovespa | Yahoo Finance (não oficial) | Atraso ~15 min; é a fonte mais frágil — se falhar, o painel mantém o último valor |
-| Dólar e euro comercial | AwesomeAPI | Quase em tempo real |
+| Curva de vencimentos da soja (preço, variação e volume por contrato) | Yahoo Finance, contratos `ZS?nn.CBT` | Próximos 7 vencimentos |
+| Volume de calls × puts de soja na CBOT | CME Group — FTP público (`ftp.cmegroup.com`, `daily_volume.xlsx`) | Dado do pregão anterior; a CME bloqueia o site/API para o Actions, mas o FTP é aberto. OI por produto não é publicado nesse arquivo |
+| Safra EUA (floração, formação de vagens, condição boa/excelente) | USDA/NASS Crop Progress, via API da biblioteca Cornell | Semanal (segundas), sem chave |
+| Safra Brasil (área, produção, produtividade) | CONAB — série histórica de grãos | Atualizada nos levantamentos mensais |
+| Dólar e euro comercial | AwesomeAPI, com fallback Yahoo/PTAX | A AwesomeAPI limita os IPs do Actions (429) |
 | PTAX, Selic, CDI, IPCA | Banco Central (Olinda e SGS) | Fontes oficiais, estáveis |
 | Indicador soja Paranaguá | CEPEA/ESALQ (raspagem da página pública) | Sem API gratuita; se o site mudar, a seção some sem quebrar o resto |
 | Chuva 7 dias (Sorriso, Sinop, Rio Verde, Dourados) | Open-Meteo | Sem chave |
@@ -40,4 +46,10 @@ esse JSON — não há servidor, banco de dados nem custo.
 
 - Cotações não são em tempo real (atraso das fontes + atualização horária).
 - O cron do GitHub pode atrasar alguns minutos em horário de pico.
+- Posições em aberto (OI) de opções por call/put não têm fonte gratuita
+  acessível do Actions: a CME bloqueia o site/API para IPs de nuvem e o
+  arquivo público do FTP só traz volume por produto.
+- Derivativos de soja da B3 (futuro SFI e opções) ficaram de fora: o boletim
+  legado (`www2.bmf.com.br`) foi desligado no servidor e não há API pública
+  gratuita; a liquidez desses contratos também é muito baixa.
 - Uso pessoal/informativo; não redistribua os dados comercialmente.

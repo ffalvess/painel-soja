@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-24T14:35:14+00:00",
+ "generated_at": "2026-08-24T15:33:15+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-24T14:35:08+00:00",
+   "updated_at": "2026-08-24T15:33:02+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1222.0,
+     "price": 1221.25,
      "prev_close": 1225.0,
-     "change_pct": -0.24,
+     "change_pct": -0.31,
      "closes": [
       1248.0,
       1208.5,
@@ -33,16 +33,16 @@
       1222.25,
       1220.75,
       1225.0,
-      1222.0
+      1221.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 512.75,
+     "price": 518.0,
      "prev_close": 483.75,
-     "change_pct": 5.99,
+     "change_pct": 7.08,
      "closes": [
       464.25,
       451.75,
@@ -65,16 +65,16 @@
       473.0,
       478.75,
       483.75,
-      512.75
+      518.0
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 325.9,
+     "price": 326.5,
      "prev_close": 317.7,
-     "change_pct": 2.58,
+     "change_pct": 2.77,
      "closes": [
       331.3,
       320.8,
@@ -97,16 +97,16 @@
       318.9,
       315.7,
       317.7,
-      325.9
+      326.5
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.57,
+     "price": 67.14,
      "prev_close": 69.35,
-     "change_pct": -2.57,
+     "change_pct": -3.19,
      "closes": [
       74.33,
       71.46,
@@ -129,16 +129,16 @@
       69.86,
       71.18,
       69.35,
-      67.57
+      67.14
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 699.5,
+     "price": 702.75,
      "prev_close": 681.5,
-     "change_pct": 2.64,
+     "change_pct": 3.12,
      "closes": [
       678.0,
       660.0,
@@ -161,16 +161,16 @@
       680.25,
       682.75,
       681.5,
-      699.5
+      702.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 92.73,
+     "price": 92.68,
      "prev_close": 94.39,
-     "change_pct": -1.76,
+     "change_pct": -1.81,
      "closes": [
       96.78,
       88.36,
@@ -193,16 +193,16 @@
       91.62,
       93.78,
       94.39,
-      92.73
+      92.68
      ]
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 171358.48,
+     "price": 172735.34,
      "prev_close": 171032.0,
-     "change_pct": 0.19,
+     "change_pct": 1.0,
      "closes": [
       174042.0,
       175335.0,
@@ -225,7 +225,7 @@
       167830.0,
       167927.0,
       171032.0,
-      171358.4844
+      172735.3438
      ]
     }
    ],
@@ -244,7 +244,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-24T14:35:11+00:00",
+   "updated_at": "2026-08-24T15:33:11+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -405,8 +405,68 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-24T14:35:14+00:00",
+   "updated_at": "2026-08-24T15:33:15+00:00",
    "items": [
+    {
+     "title": "Novo centro do Senar-SP leva tecnologia e inovação ao campo",
+     "link": "https://www.canalrural.com.br/agricultura/novo-centro-do-senar-sp-leva-tecnologia-e-inovacao-ao-campo/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T15:11:35+00:00"
+    },
+    {
+     "title": "Soja: Indicadores sobem ao maior patamar desde abril/2023 - Sociedade Nacional de Agricultura",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNkZHZzNDUFNnbkVjTU1qazRNSG9UTktITVNoWXdjenU5dTkwUGtVaXM3Y0dib21lQ01LSUhLYWtDTVRjeDMwWmpqYTJiOU0zcjc1eDZLX1VraE5lUFNpN3lTQlpXUVdtYUdocHFiY1czUHFSRk5MNE9yaVFqRG50X1BR?oc=5",
+     "source": "Sociedade Nacional de Agricultura",
+     "published_at": "2026-08-24T15:03:00+00:00"
+    },
+    {
+     "title": "Juros futuros sobem na B3 com atenção ao risco geopolítico",
+     "link": "https://www.canalrural.com.br/economia/juros-futuros-sobem-na-b3-com-atencao-ao-risco-geopolitico/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T15:02:53+00:00"
+    },
+    {
+     "title": "MDA cumpre agenda com quebradeiras de coco babaçu no Maranhão",
+     "link": "https://www.canalrural.com.br/politica/mda-cumpre-agenda-com-quebradeiras-de-coco-babacu-no-maranhao/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T15:01:46+00:00"
+    },
+    {
+     "title": "ANP abre inscrições para o Prêmio de Inovação Tecnológica 2026",
+     "link": "https://www.canalrural.com.br/diversos/anp-abre-inscricoes-para-o-premio-de-inovacao-tecnologica-2026/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T14:59:44+00:00"
+    },
+    {
+     "title": "Plantas de cobertura elevam rendimento da soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPekhKcVJKNUhwZDltaXp4bFA5MWxiT1VqanlSempfZGxybUZuVi1ZQkIwUE1iM0NXQVl0Z21xTEdBWXdMbDFwd1FFZkJRTDVIclFjVUdSRG9IZTlISTJONEYzNUl1R29BVllzU203cEhNdXd0QUVEX2N0eEp2X2YyenY2RmtDa1FrVF8wODFQc0hEQVc2VUhYUUpFVQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-24T14:55:00+00:00"
+    },
+    {
+     "title": "Avanço da terceira safra não é suficiente para reduzir preços do feijão, diz Cepea",
+     "link": "https://www.canalrural.com.br/agricultura/feijao/avanco-da-terceira-safra-nao-e-suficiente-para-reduzir-precos-do-feijao-diz-cepea/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T14:54:17+00:00"
+    },
+    {
+     "title": "BNDES e Finep aprovam R$ 21 bilhões para produção de biocombustíveis desde 2023",
+     "link": "https://www.canalrural.com.br/economia/bndes-e-finep-aprovam-r-21-bilhoes-para-producao-de-biocombustiveis-desde-2023/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T14:41:17+00:00"
+    },
+    {
+     "title": "Colheita da safrinha de milho chega a 92% no Centro-Sul, diz AgRural",
+     "link": "https://www.canalrural.com.br/agricultura/colheita-da-safrinha-de-milho-chega-a-92-no-centro-sul-diz-agrural/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T14:22:41+00:00"
+    },
+    {
+     "title": "Pro Farmer estima safra menor de milho e maior de soja nos EUA ante o USDA - Canal Rural",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRzZrX2cybGs2VkJfUXZwSXlucjhKdVBlUVdIX3RnQTY3S1Q2dVNpMXN1V0dDbl93SjBjTTZoSFplbTJweXM2Q1Uzakd5WmxaMmdOMFlJOHRmWnVUR1FXQzVwc1R6Yk9XNW1JSkQ2clZtUlVqSEVKMzVHbEFid1kwM1ljUUZZR3VKYjJvRzFyamxSWkZwTFBFMnFYVHZwTElGaWdGY3gyd1VyaHY5QXJVdTJ4S2dKek41?oc=5",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T14:11:15+00:00"
+    },
     {
      "title": "Pro Farmer estima safra menor de milho e maior de soja nos EUA ante o USDA",
      "link": "https://www.canalrural.com.br/agricultura/pro-farmer-estima-safra-menor-de-milho-e-maior-de-soja-nos-eua-ante-o-usda/",
@@ -426,40 +486,10 @@
      "published_at": "2026-08-24T13:57:52+00:00"
     },
     {
-     "title": "Fundos ampliam posição comprada em soja e milho na CBOT - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRTJhUnF0ay1tQzQxQmctaEdOZWZmeGRSdWlPcDlIeVUtSVV5YlYtamFVRnBYMjAtdThPUUpjM19RR2xfdzFtQTFZSFRtWC1UTkN4bV9NXzB3SGRJWmJNUTNaSW4tMDRjOEhPVVBoZHM3RGstNmxhOTM2RGx1aDlvc0U2TFFRQ2thUmt1dmlrV0JDM0RJUDVHLXhTVQ?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T13:32:27+00:00"
-    },
-    {
      "title": "Fundos ampliam posição comprada em soja e milho na CBOT",
      "link": "https://www.canalrural.com.br/economia/fundos-ampliam-posicao-comprada-em-soja-e-milho-na-cbot/",
      "source": "Canal Rural",
      "published_at": "2026-08-24T13:32:27+00:00"
-    },
-    {
-     "title": "Dólar oscila perto da estabilidade e mercado acompanha sanções ao Irã",
-     "link": "https://www.canalrural.com.br/economia/dolar-oscila-perto-da-estabilidade-e-mercado-acompanha-sancoes-ao-ira/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T13:28:06+00:00"
-    },
-    {
-     "title": "Milho ganha força com menor oferta vendedora e cenário externo, aponta Cepea",
-     "link": "https://www.canalrural.com.br/agricultura/milho/milho-ganha-forca-com-menor-oferta-vendedora-e-cenario-externo-aponta-cepea/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T13:17:22+00:00"
-    },
-    {
-     "title": "Soja atinge maior valor desde abril de 2023 no mercado brasileiro - O Presente Rural",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcW5KVXdBR3lMU0VoblJoTHJjRkM1RTZEWV9WZGtGZXNxa3gzcFpYb2lZWEt6amhWUThELVFjdHNyQm56dzRwdmZTaG45c3UwTTZKM3Rha2ZILWVXTUZJd3ZsMV8xLTByR2lKanNPM1JfZkh6Yi1QcTRyZ3JMZEFGQmNBY252blJPdTg4Q05rbFZhRm1LWHpRaXN1Um4?oc=5",
-     "source": "O Presente Rural",
-     "published_at": "2026-08-24T13:11:12+00:00"
-    },
-    {
-     "title": "Braskem é o retrato de uma indústria brasileira em crise",
-     "link": "https://www.canalrural.com.br/opiniao-noticias/braskem-e-o-retrato-de-uma-industria-brasileira-em-crise/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T13:02:09+00:00"
     },
     {
      "title": "Preços do milho e da soja avançam em agosto de 2026 - Feed&Food",
@@ -468,52 +498,22 @@
      "published_at": "2026-08-24T13:01:00+00:00"
     },
     {
-     "title": "Preço do etanol cai em 14 estados e mantém média nacional em R$ 3,91",
-     "link": "https://www.canalrural.com.br/economia/preco-do-etanol-cai-em-14-estados-e-mantem-media-nacional-em-r-391/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T12:33:28+00:00"
-    },
-    {
-     "title": "Frio perde força no Sul e baixa umidade segue em 11 estados",
-     "link": "https://www.canalrural.com.br/diversos/frio-perde-forca-no-sul-e-baixa-umidade-segue-em-11-estados/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T12:26:31+00:00"
-    },
-    {
-     "title": "Focus mantém IPCA de 2026 em 5,02%, acima do teto da meta",
-     "link": "https://www.canalrural.com.br/economia/focus-mantem-ipca-de-2026-em-502-acima-do-teto-da-meta/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T12:21:39+00:00"
-    },
-    {
-     "title": "Soja sobe no Brasil e registra maior patamar desde abril de 2023 - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVVVzWEMyaFFNTGJ5YlJmaHZvUHk1aGhfQUVuRWZrOU1mVDNkdlcybmxVbG9UZXN3THVNWHdWeXJzc042Q3NlQnVtaXg4TGhxR1F3akpRWW82c0VlTUd2Y2NKRlhQYlJSVzJITUlCVXR3aVRvQ0tGX210WUlDT0hNXzI3NERlOGVRRFRjQnRjMlNmcEllS2Z0UTVrV0RYWURMa3FnRnIwSlV2RlJlLU5oMlQ2QQ?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-24T12:20:00+00:00"
-    },
-    {
-     "title": "COP17 concentra negociações em financiamento para restauração do solo e combate à seca",
-     "link": "https://www.canalrural.com.br/economia/cop17-concentra-negociacoes-em-financiamento-para-restauracao-do-solo-e-combate-a-seca/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T12:15:55+00:00"
-    },
-    {
      "title": "Soja 2026/27 terá menor expansão de área em 20 anos, projeta Datagro - Agrimidia",
      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPajJLd0lkOVR4S0hMblZHYzlKejFuTXJEV24wcUUzT3FJSVBERklIOG42RFpadHFCa3g4U1lNczRPWnVPcjR5NnpWWkpRalItRlo2NW5tcUdYQVlUSDJhRzdxbk44eF9Ubkl0anpFWWZsR0hncTFtWUlWeloyUFcwZktRSlFSNkxzOC1XSnFiUGpCTU1fYkVlS1o3VDZvc2dad1R6S25QNy1aeHlXV0tjakQ2Mk9Fc1ZuZVRvU3VxaXRGWjRH?oc=5",
      "source": "Agrimidia",
      "published_at": "2026-08-24T11:37:46+00:00"
     },
     {
+     "title": "Soja/Cepea: Demanda firme leva Indicadores aos maiores patamares desde abril/23 - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQVNwQ2F5RFhteVdKc2JSTXpzY2x4UmdFSGJfdXJ2bDVfYXEtTFUzVU5zRUtuLXZuc2VHME9uNDJhOVJVUkdZNTh4Z3YzZHVVY3JlaE1qeXBkMG5mSVRNSnJicDBsQVVqZFJteHBiQjRSZzlGZ2ljQU90RTRLYVpWRjZxbGhaTi1Ma2JFel9qOE16S29uT3l3anVGazkwYnVxRWdaNm1mVmJJRXFybEplRGhlZ2t5M1kzd281QjB2UjZvQ3NaenFUVHVtelgwanlnZ2s3QldIVm3SAd4BQVVfeXFMTldZcGpicnlMbTd0eXQtV01MNnJ0QU5MS3FiSmJfYzcyTk9icXYxWkFKWHp6X2gyd2h4dVl1Zm9LRk5GdlNpS1FKYk9uVXVNZjA3TWVvcndBT3FmSk1EZUgyazBaT1ZnYjJHM2pLUTNabXA3MHcxTTVWT2pJbGg4TTVCZjhvd2NXRG95dFktbHBmcWJCMmpKT3NzZW1LT3VwekJaVk56eHpvM3Awa09ONDk1eE9ZV1BhSG5faGw0OFFkblA3eHRIVHFtU2VBcmFJbUtyNTJZaE1PVmxqZkhn?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-24T10:51:17+00:00"
+    },
+    {
      "title": "Soja abre a semana com estabilidade em Chicago; pressão do Pro Farmer, mas suporte do milho e da China - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMU13QTM5Um5XRHhmb0duTHpPWkZ3RmwxMzMyTXliMjdubHdTRXRIMVpXdFpZaUwxaV9hVFhtTHhvWUdicVNVRmxFNm15cHlpTWVrdkFOcHdyZFM1T1BZSHBXVHJCUzRqRjdzeDJ4Zy1ZRXpUdzNiNmxXSjVKWkJrYWZWWDJMbjJ2dy1YaFZnRXBaU0QxRTFCbWM3Q0c0YlhoNG9hTE82dThVREJzckx0R0ZBRkNHd3FTeVplTTEzQ1Z5ejJ5WXlaaXRpRktCaUtCN1FpT3lUSF93cG90V3B0QWFPSDlzcEt3QXBxR0lfT3RJcHRyckHSAfsBQVVfeXFMUG9HZDdUUE42aURnbHVMYVExXzNCeTRZcHFiQTNseHRJcDBJS3ZSazNna2lTYWJ2ZE1WZzhqb1NTNVkwY1cyM0FBZGV1UHJwSzFRWGlGZnlPUG1ENjZGLUF5b2VQd0U0ZWIzV282akNucm5nU2tGR3lDZnIzWVlHcEtfUnpHZ216MFpUclM2ZWhrYm1IQXk5YWM5RzRnR2s3dlBDN2ROYlo5eW1YbGFUenpqSHFBeDJKcEhORm9qVnVGQTQ0UFNwNlVYRy1fNi1OTXRJRUhUTmtrZXZ4c0JqV1RRemxKdEMxZDUydExvckp3YWFQVU9jOU5pSkE?oc=5",
      "source": "Notícias Agrícolas",
      "published_at": "2026-08-24T10:41:25+00:00"
-    },
-    {
-     "title": "Soja perto de novos patamares: veja quando vender - Agrolink",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNThHb21vYmxjb2pYM0tJVll1dkhSQXRYT29ueXhybmlfMmpSTkJFQ2tyMHdydWxDbFh3VUZ6RFo3dGdfMFpBUEVheV8yTGZFa0VCTmdCRmIxS3Z5b1g5RXFzV2dqaC1zdDdqNDdxbmV4UjZUdWtJSFI1OXB5U3lLTlVTSHJPUUliMExsd0UyX09IRWkzdnJ3bzhpQlBzV0U?oc=5",
-     "source": "Agrolink",
-     "published_at": "2026-08-24T09:21:00+00:00"
     },
     {
      "title": "Plantio de milho após colheita de soja eleva produtividade da oleaginosa, mostra estudo - Globo Rural",
@@ -597,6 +597,10 @@
   {
    "section": "fx",
    "error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL"
+  },
+  {
+   "section": "rates",
+   "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados/ultimos/12?formato=json"
   },
   {
    "section": "cepea",

@@ -127,6 +127,42 @@ footer a{color:var(--ink-2)}
 .empty{color:var(--muted);font-size:14px}
 #tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--page);
   font-size:12px;padding:4px 8px;border-radius:6px;opacity:0;transition:opacity .08s;z-index:9;white-space:nowrap}
+
+/* tiles clicáveis */
+.tile{cursor:pointer;position:relative;transition:border-color .12s,transform .12s}
+.tile:hover,.tile:focus-visible{border-color:var(--accent);outline:none}
+.tile:hover .zoom{opacity:1}
+.zoom{position:absolute;top:10px;right:12px;font-size:11px;color:var(--accent);opacity:0;transition:opacity .12s}
+
+/* modal de detalhe */
+#modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:none;z-index:20;
+  align-items:center;justify-content:center;padding:18px}
+#modal.open{display:flex}
+.sheet{background:var(--surface);border:1px solid var(--ring);border-radius:12px;
+  width:min(860px,100%);max-height:92vh;overflow-y:auto;padding:18px 20px 20px}
+.sheet .bar{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.sheet h3{font-size:19px;font-weight:650}
+.sheet .u{font-size:12.5px;color:var(--muted)}
+.sheet .close{margin-left:auto;background:none;border:0;color:var(--ink-2);font-size:22px;
+  line-height:1;cursor:pointer;padding:0 4px}
+.sheet .close:hover{color:var(--ink)}
+.sheet .now{display:flex;align-items:baseline;gap:10px;margin-top:8px;flex-wrap:wrap}
+.sheet .now .p{font-size:30px;font-weight:650;font-variant-numeric:tabular-nums}
+.ranges{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0 6px}
+.ranges button{font:inherit;font-size:12.5px;font-weight:600;padding:5px 12px;border-radius:999px;
+  border:1px solid var(--ring);background:var(--page);color:var(--ink-2);cursor:pointer}
+.ranges button:hover{border-color:var(--accent);color:var(--ink)}
+.ranges button[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.plot{width:100%;height:280px;display:block;touch-action:none}
+@media (max-width:600px){.plot{height:210px}}
+.plot .hair{stroke:var(--baseline);stroke-width:1;stroke-dasharray:3 3}
+.periodos{display:grid;grid-template-columns:repeat(auto-fit,minmax(84px,1fr));gap:8px;margin-top:14px;
+  border-top:1px solid var(--grid);padding-top:12px}
+.periodos .p{text-align:left}
+.periodos .p .k{font-size:11.5px;color:var(--muted)}
+.periodos .p .v{font-size:15px;font-weight:650;margin-top:1px;font-variant-numeric:tabular-nums}
+.periodos .p .v.up{color:var(--up)} .periodos .p .v.down{color:var(--down)}
+.periodos .p .v.flat{color:var(--muted)}
 </style>
 </head>
 <body>
@@ -202,6 +238,21 @@ footer a{color:var(--ink-2)}
 </div>
 <div id="tip"></div>
 
+<div id="modal" role="dialog" aria-modal="true" aria-labelledby="m-nome">
+  <div class="sheet" id="sheet">
+    <div class="bar">
+      <h3 id="m-nome"></h3><span class="u" id="m-unidade"></span>
+      <button class="close" id="m-fechar" aria-label="Fechar">×</button>
+    </div>
+    <div class="now"><span class="p" id="m-preco"></span><span id="m-delta"></span>
+      <span class="u" id="m-periodo"></span></div>
+    <div class="ranges" id="m-ranges" role="tablist" aria-label="Período"></div>
+    <svg class="plot" id="m-plot" preserveAspectRatio="none" role="img"></svg>
+    <div class="periodos" id="m-periodos"></div>
+    <div class="foot" id="m-foot"></div>
+  </div>
+</div>
+
 <script>
 "use strict";
 const $ = (id) => document.getElementById(id);
@@ -270,22 +321,166 @@ function renderFx(fx, rates){
   $("sec-fx").hidden=false;
 }
 
+let QUOTES=[];
+
 function renderQuotes(quotes, fx){
   if(!quotes || !quotes.items?.length) return;
+  QUOTES = quotes.items;
   const usd = fx?.usdbrl?.bid;
-  $("tiles").innerHTML = quotes.items.map(q=>{
+  $("tiles").innerHTML = quotes.items.map((q,i)=>{
     let extra="";
     if(q.symbol==="ZS=F" && usd && q.price){
       const saca=(q.price/100)*BU_POR_SACA*usd;
       extra=`<div class="extra">≈ <b>R$ ${fmt(saca)}/saca</b> · CBOT × câmbio, sem prêmio/frete</div>`;
     }
     const dig = q.price>=1000 ? 0 : 2;
-    return `<div class="card tile">
+    return `<div class="card tile" data-i="${i}" tabindex="0" role="button"
+        aria-label="Ver série de ${q.name}">
+      <span class="zoom">ver série ↗</span>
       <div class="lbl">${q.name}</div>
       <div class="row"><span class="val">${fmt(q.price,dig)}</span><span class="unit">${q.unit}</span>${deltaHtml(q.change_pct)}</div>
       ${extra}${sparkline(q.closes,q.unit)}</div>`;
   }).join("");
   $("sec-quotes").hidden=false;
+}
+
+/* ---------------------------------------------- detalhe da cotação */
+
+const RANGES=[
+  {id:"1d",  lbl:"1 dia",    serie:"intraday", dias:1},
+  {id:"1s",  lbl:"1 semana", serie:"intraday", dias:7},
+  {id:"1m",  lbl:"1 mês",    serie:"daily",    dias:30},
+  {id:"3m",  lbl:"3 meses",  serie:"daily",    dias:91},
+  {id:"1a",  lbl:"1 ano",    serie:"daily",    dias:365},
+  {id:"5a",  lbl:"5 anos",   serie:"weekly",   dias:1826},
+];
+const PERIODOS=[["dia","Dia"],["semana","Semana"],["mes","Mês"],
+  ["trimestre","Trimestre"],["ano","Ano"],["cinco_anos","5 anos"]];
+
+let atual=null, rangeAtual="1m";
+
+function fatia(q, r){
+  const s=q.series?.[r.serie];
+  if(!s?.c?.length) return null;
+  const fim=s.t[s.t.length-1], corte=fim-r.dias*86400;
+  const pts=[];
+  for(let i=0;i<s.t.length;i++) if(s.t[i]>=corte) pts.push([s.t[i],s.c[i]]);
+  return pts.length>1 ? pts : null;
+}
+
+function dataLabel(ts, r){
+  const d=new Date(ts*1000);
+  const opts = r.dias<=1 ? {hour:"2-digit",minute:"2-digit"}
+    : r.dias<=91 ? {day:"2-digit",month:"short"}
+    : {month:"short",year:"2-digit"};
+  return new Intl.DateTimeFormat("pt-BR",{...opts,timeZone:SP}).format(d).replace(".","");
+}
+
+function desenhaPlot(q, r){
+  const pts=fatia(q,r);
+  const svg=$("m-plot");
+  if(!pts){
+    svg.innerHTML=`<text x="12" y="28" font-size="13" fill="var(--muted)">
+      Sem histórico suficiente para este período.</text>`;
+    $("m-periodo").textContent=""; $("m-delta").innerHTML="";
+    return;
+  }
+  const W=900,H=300,L=52,R=12,T=14,B=26;
+  const vals=pts.map(p=>p[1]);
+  const min=Math.min(...vals), max=Math.max(...vals), span=(max-min)||1;
+  const x=i=>L+i*(W-L-R)/(pts.length-1);
+  const y=v=>T+(max-v)*(H-T-B)/span;
+  const sobe=vals[vals.length-1]>=vals[0];
+  const cor=sobe?"var(--up)":"var(--down)";
+  const linha=pts.map((p,i)=>`${x(i).toFixed(1)},${y(p[1]).toFixed(1)}`).join(" ");
+  const area=`${L},${H-B} ${linha} ${x(pts.length-1).toFixed(1)},${H-B}`;
+
+  // três guias horizontais com o valor à esquerda
+  let guias="";
+  for(let k=0;k<3;k++){
+    const v=min+span*k/2, yy=y(v);
+    guias+=`<line x1="${L}" y1="${yy.toFixed(1)}" x2="${W-R}" y2="${yy.toFixed(1)}"
+      stroke="var(--grid)" stroke-width="1"/>
+      <text x="${L-6}" y="${(yy+4).toFixed(1)}" text-anchor="end" font-size="11"
+        fill="var(--muted)">${fmt(v, span<10?2:0)}</text>`;
+  }
+  const marcas=[0, Math.floor((pts.length-1)/2), pts.length-1].map(i=>
+    `<text x="${x(i).toFixed(1)}" y="${H-6}" font-size="11" fill="var(--muted)"
+      text-anchor="${i===0?"start":i===pts.length-1?"end":"middle"}">${dataLabel(pts[i][0],r)}</text>`).join("");
+
+  svg.setAttribute("viewBox",`0 0 ${W} ${H}`);
+  svg.innerHTML=`<defs><linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="${cor}" stop-opacity=".18"/>
+      <stop offset="1" stop-color="${cor}" stop-opacity="0"/></linearGradient></defs>
+    ${guias}<polygon points="${area}" fill="url(#g)"/>
+    <polyline points="${linha}" fill="none" stroke="${cor}" stroke-width="2"
+      stroke-linejoin="round" stroke-linecap="round"/>
+    ${marcas}
+    <g id="hov" style="opacity:0"><line class="hair" y1="${T}" y2="${H-B}"/>
+      <circle r="4" fill="${cor}" stroke="var(--surface)" stroke-width="2"/></g>
+    <rect x="${L}" y="${T}" width="${W-L-R}" height="${H-T-B}" fill="transparent" id="cap"/>`;
+
+  const dig = Math.abs(vals[0])>=1000 ? 0 : 2;
+  const varPct=(vals[vals.length-1]/vals[0]-1)*100;
+  $("m-periodo").innerHTML=`<span>no período: </span>${deltaHtml(varPct)}`;
+
+  // leitura do gráfico ponto a ponto
+  const cap=svg.querySelector("#cap"), hov=svg.querySelector("#hov");
+  const linhaH=hov.querySelector("line"), ponto=hov.querySelector("circle");
+  const mover=(ev)=>{
+    const cx=(ev.touches?ev.touches[0]:ev).clientX;
+    const bb=svg.getBoundingClientRect();
+    const px=(cx-bb.left)/bb.width*W;
+    let i=Math.round((px-L)/((W-L-R)/(pts.length-1)));
+    i=Math.max(0,Math.min(pts.length-1,i));
+    hov.style.opacity=1;
+    linhaH.setAttribute("x1",x(i)); linhaH.setAttribute("x2",x(i));
+    ponto.setAttribute("cx",x(i)); ponto.setAttribute("cy",y(pts[i][1]));
+    tip.textContent=`${dataLabel(pts[i][0],r)} · ${fmt(pts[i][1],dig)} ${q.unit}`;
+    tip.style.opacity=1;
+    tip.style.left=Math.min(cx+12,window.innerWidth-tip.offsetWidth-8)+"px";
+    tip.style.top=(bb.top+12)+"px";
+  };
+  cap.addEventListener("pointermove",mover);
+  cap.addEventListener("pointerdown",mover);
+  cap.addEventListener("pointerleave",()=>{hov.style.opacity=0;tip.style.opacity=0;});
+}
+
+function abreDetalhe(i){
+  const q=QUOTES[i];
+  if(!q) return;
+  atual=q;
+  const dig = q.price>=1000 ? 0 : 2;
+  $("m-nome").textContent=q.name;
+  $("m-unidade").textContent=q.unit;
+  $("m-preco").textContent=fmt(q.price,dig);
+  $("m-delta").innerHTML=deltaHtml(q.change_pct)+' <span class="u">hoje</span>';
+
+  const disp=RANGES.filter(r=>fatia(q,r));
+  if(!disp.some(r=>r.id===rangeAtual)) rangeAtual=(disp[disp.length-1]||RANGES[2]).id;
+  $("m-ranges").innerHTML=disp.map(r=>
+    `<button role="tab" data-r="${r.id}" aria-selected="${r.id===rangeAtual}">${r.lbl}</button>`).join("");
+
+  const v=q.variacoes||{};
+  $("m-periodos").innerHTML=PERIODOS.filter(([k])=>v[k]!=null).map(([k,lbl])=>{
+    const n=v[k], cls=n>0.001?"up":n<-0.001?"down":"flat";
+    return `<div class="p"><div class="k">${lbl}</div>
+      <div class="v ${cls}">${n>0?"+":""}${fmt(n)}%</div></div>`;
+  }).join("") || `<div class="empty">Sem variações calculadas.</div>`;
+
+  $("m-foot").textContent =
+    "Yahoo Finance · intradiário em passos de 1 h, séries de até 1 ano em fechamentos "+
+    "diários e 5 anos em fechamentos semanais. Atraso de ~15 min.";
+
+  desenhaPlot(q, RANGES.find(r=>r.id===rangeAtual));
+  $("modal").classList.add("open");
+  $("m-fechar").focus();
+}
+
+function fechaDetalhe(){
+  $("modal").classList.remove("open");
+  tip.style.opacity=0;
+  atual=null;
 }
 
 function renderCepea(cepea){
@@ -582,6 +777,27 @@ function render(data){
     $("warn").hidden=false;
   }
 }
+
+/* abertura, troca de período e fechamento do detalhe */
+document.addEventListener("click",e=>{
+  const tile=e.target.closest?.(".tile");
+  if(tile){ abreDetalhe(+tile.dataset.i); return; }
+  const btn=e.target.closest?.("#m-ranges button");
+  if(btn && atual){
+    rangeAtual=btn.dataset.r;
+    document.querySelectorAll("#m-ranges button").forEach(b=>
+      b.setAttribute("aria-selected", b.dataset.r===rangeAtual));
+    desenhaPlot(atual, RANGES.find(r=>r.id===rangeAtual));
+    return;
+  }
+  if(e.target.id==="modal" || e.target.id==="m-fechar") fechaDetalhe();
+});
+document.addEventListener("keydown",e=>{
+  if(e.key==="Escape") fechaDetalhe();
+  if((e.key==="Enter"||e.key===" ") && e.target.classList?.contains("tile")){
+    e.preventDefault(); abreDetalhe(+e.target.dataset.i);
+  }
+});
 
 /* tooltip compartilhado (sparklines e barras de chuva) */
 const tip=$("tip");

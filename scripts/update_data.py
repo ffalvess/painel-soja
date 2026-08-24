@@ -126,11 +126,103 @@ def fetch_yahoo_quotes(symbols: list) -> dict:
     return {q["symbol"]: q for q in r.json()["quoteResponse"]["result"]}
 
 
+# Séries guardadas por símbolo. O painel fatia essas três para montar os
+# períodos de 1 dia a 5 anos sem ir buscar nada de novo no clique.
+YAHOO_SERIES = (
+    ("intraday", "5d", "60m"),
+    ("daily", "1y", "1d"),
+    ("weekly", "5y", "1wk"),
+)
+
+
+def fetch_yahoo_series(symbol: str, range_: str, interval: str):
+    """Devolve ({t: [...], c: [...]}, meta) para um símbolo e granularidade."""
+    last_err = None
+    for host in ("query1", "query2"):
+        try:
+            r = get(
+                f"https://{host}.finance.yahoo.com/v8/finance/chart/{symbol}",
+                params={"range": range_, "interval": interval},
+            )
+            res = r.json()["chart"]["result"][0]
+            ts = res.get("timestamp") or []
+            closes = res["indicators"]["quote"][0].get("close") or []
+            pares = [(t, round(c, 4)) for t, c in zip(ts, closes) if c is not None]
+            return {"t": [p[0] for p in pares], "c": [p[1] for p in pares]}, res["meta"]
+        except Exception as e:  # noqa: BLE001
+            last_err = e
+    raise RuntimeError(f"{symbol} {range_}/{interval}: {last_err}")
+
+
+def close_ate(serie: dict, alvo: int):
+    """Último fechamento em ou antes de `alvo` (timestamp unix)."""
+    anterior = None
+    for t, c in zip(serie["t"], serie["c"]):
+        if t <= alvo:
+            anterior = c
+        else:
+            break
+    return anterior
+
+
+HORIZONTES = (
+    ("semana", 7),
+    ("mes", 30),
+    ("trimestre", 91),
+    ("ano", 365),
+    ("cinco_anos", 1826),
+)
+
+
+def fetch_yahoo_completo(symbol: str) -> dict:
+    series, meta = {}, None
+    erros = []
+    for nome, rng, itv in YAHOO_SERIES:
+        try:
+            s, m = fetch_yahoo_series(symbol, rng, itv)
+            if s["c"]:
+                series[nome] = s
+                meta = meta or m
+        except Exception as e:  # noqa: BLE001
+            erros.append(str(e))
+    if "daily" not in series:
+        raise RuntimeError("; ".join(erros) or f"{symbol}: sem série diária")
+
+    diaria = series["daily"]
+    semanal = series.get("weekly", diaria)
+    price = (meta or {}).get("regularMarketPrice")
+    if price is None:
+        price = diaria["c"][-1]
+    prev = diaria["c"][-2] if len(diaria["c"]) >= 2 else None
+
+    agora = diaria["t"][-1]
+    variacoes = {}
+    if prev:
+        variacoes["dia"] = round((price / prev - 1) * 100, 2)
+    for nome, dias in HORIZONTES:
+        base = semanal if nome == "cinco_anos" else diaria
+        ref = close_ate(base, agora - dias * 86400)
+        # Só reporta o horizonte se a série realmente cobre o período.
+        if ref and base["t"][0] <= agora - dias * 86400:
+            variacoes[nome] = round((price / ref - 1) * 100, 2)
+
+    volume = (meta or {}).get("regularMarketVolume")
+    return {
+        "price": price,
+        "prev_close": prev,
+        "change_pct": variacoes.get("dia"),
+        "closes": diaria["c"][-22:],  # faísca do cartão
+        "volume": volume,
+        "variacoes": variacoes,
+        "series": series,
+    }
+
+
 def collect_quotes() -> dict:
     items, failed = [], []
     for symbol, name, unit in YAHOO_SYMBOLS:
         try:
-            q = fetch_yahoo_symbol(symbol)
+            q = fetch_yahoo_completo(symbol)
             items.append({"symbol": symbol, "name": name, "unit": unit, **q})
         except Exception as e:  # noqa: BLE001
             failed.append(f"{symbol}: {e}")

@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
-"""Sonda temporária (rodada 3): CME FTP com conexão nova por operação,
-páginas BMF em latin-1 e linhas de dados das tabelas de soja do USDA."""
+"""Sonda temporária (rodada 4): subdirs do FTP CME, daily_volume.xlsx,
+e páginas BMF com redirect manual (Location vem em latin-1)."""
 
 import io
-import json
 import sys
-import urllib.request
-import zipfile
 from ftplib import FTP
 
 import requests
@@ -36,116 +33,81 @@ def ftp_op(fn):
             pass
 
 
+def bmf_get(url: str, max_hops: int = 4) -> requests.Response:
+    """GET seguindo redirects na mão — o Location vem em latin-1 cru."""
+    for _ in range(max_hops):
+        r = requests.get(url, headers=UA, timeout=40, allow_redirects=False)
+        loc = r.headers.get("Location")
+        if r.status_code in (301, 302, 303, 307) and loc:
+            if loc.startswith("/"):
+                loc = "https://www2.bmf.com.br" + loc
+            url = loc
+            continue
+        return r
+    return r
+
+
 def main() -> int:  # noqa: C901
-    # ---- CME FTP, uma conexão por operação
-    sec("cme-ftp-ls-settle")
-    try:
-        print(ftp_op(lambda f: f.nlst("settle"))[:60])
-    except Exception as e:  # noqa: BLE001
-        print("EXC:", e)
-
-    sec("cme-ftp-ls-daily_volume")
-    try:
-        print(ftp_op(lambda f: f.nlst("daily_volume"))[:60])
-    except Exception as e:  # noqa: BLE001
-        print("EXC:", e)
-
-    sec("cme-ftp-retr-stlags")
-    try:
-        buf = io.BytesIO()
-
-        def grab(f):
-            def cb(data):
-                buf.write(data)
-                if buf.tell() > 20000:
-                    raise EOFError
-
-            try:
-                f.retrbinary("RETR settle/stlags", cb)
-            except EOFError:
-                pass
-            return buf
-
-        ftp_op(grab)
-        text = buf.getvalue().decode("latin-1", "replace")
-        print(f"bytes lidos: {buf.tell()}")
-        print(text[:6000])
-    except Exception as e:  # noqa: BLE001
-        print("EXC:", e)
-
-    sec("cme-ftp-urllib-stlags")
-    try:
-        with urllib.request.urlopen("ftp://ftp.cmegroup.com/settle/stlags", timeout=60) as f:
-            head = f.read(6000)
-        print(head.decode("latin-1", "replace"))
-    except Exception as e:  # noqa: BLE001
-        print("EXC:", e)
-
-    # ---- BMF clássico em latin-1
-    for merc in ("SOJ", "SFI"):
-        sec(f"bmf-pregao-{merc}")
+    for d in ("settle/TCF", "settle/east"):
+        sec(f"cme-ftp-ls-{d}")
         try:
-            r = requests.get(
-                "https://www2.bmf.com.br/pages/portal/bmfbovespa/boletim1/SistemaPregao1.asp",
-                params={"pagetype": "pop", "caminho": "Resumo Estatístico - Sistema Pregão", "Mercadoria": merc},
-                headers=UA,
-                timeout=40,
-            )
-            r.encoding = "latin-1"
-            text = " ".join(r.text.split())
-            print(f"status={r.status_code} bytes={len(r.content)}")
-            i = text.upper().find("VENCTO")
-            print("TRECHO:", text[max(0, i - 500): i + 4000] if i >= 0 else text[:2500])
+            print(ftp_op(lambda f, d=d: f.nlst(d))[:50])
         except Exception as e:  # noqa: BLE001
             print("EXC:", e)
 
-    sec("bmf-pregao-index")
+    sec("cme-daily-volume-xlsx")
+    try:
+        buf = io.BytesIO()
+        ftp_op(lambda f: f.retrbinary("RETR daily_volume/daily_volume.xlsx", buf.write))
+        print("bytes:", buf.tell())
+        try:
+            from openpyxl import load_workbook
+
+            wb = load_workbook(buf, read_only=True)
+            for ws in wb.worksheets[:2]:
+                print(f"-- aba {ws.title}")
+                for i, row in enumerate(ws.iter_rows(values_only=True)):
+                    print([str(c)[:30] if c is not None else "" for c in row[:10]])
+                    if i > 25:
+                        break
+        except ImportError:
+            print("(openpyxl indisponível)")
+    except Exception as e:  # noqa: BLE001
+        print("EXC:", e)
+
+    # BMF Resumo Estatístico com URL pré-codificada em latin-1
+    base = (
+        "https://www2.bmf.com.br/pages/portal/bmfbovespa/boletim1/SistemaPregao1.asp"
+        "?pagetype=pop&caminho=Resumo%20Estat%EDstico%20-%20Sistema%20Preg%E3o"
+    )
+    for merc in ("SOJ", "SFI"):
+        sec(f"bmf-pregao-{merc}")
+        try:
+            r = bmf_get(base + f"&Mercadoria={merc}")
+            r.encoding = "latin-1"
+            text = " ".join(r.text.split())
+            print(f"status={r.status_code} bytes={len(r.content)}")
+            up = text.upper()
+            for kw in ("FUTURO", "OPÇÕES", "OPCOES", "VENCTO", "ABERTO"):
+                print(f"contém {kw}: {kw in up}")
+            i = up.find("VENCTO")
+            print("TRECHO:", text[max(0, i - 800): i + 5000] if i >= 0 else text[:3000])
+        except Exception as e:  # noqa: BLE001
+            print("EXC:", e)
+
+    sec("bmf-ajustes-soja")
     try:
         r = requests.get(
-            "https://www2.bmf.com.br/pages/portal/bmfbovespa/boletim1/SistemaPregao1.asp",
-            params={"pagetype": "pop", "caminho": "Resumo Estatístico - Sistema Pregão"},
+            "https://www2.bmf.com.br/pages/portal/bmfbovespa/lumis/lum-ajustes-do-pregao-ptBR.asp",
             headers=UA,
             timeout=40,
         )
         r.encoding = "latin-1"
-        text = r.text
-        print(f"status={r.status_code} bytes={len(r.content)}")
-        import re
-
-        opts = re.findall(r"Mercadoria=([A-Z0-9]{2,4})[^>]*>([^<]{2,60})<", text)
-        seen = []
-        for code, label in opts:
-            if code not in [c for c, _ in seen]:
-                seen.append((code, label.strip()))
-        print("mercadorias:", seen[:80])
-        if not seen:
-            print("BODY:", " ".join(text[:2500].split()))
-    except Exception as e:  # noqa: BLE001
-        print("EXC:", e)
-
-    # ---- USDA: linhas completas das tabelas de soja
-    sec("usda-soy-tables")
-    try:
-        meta = requests.get(
-            "https://usda.library.cornell.edu/api/v1/release/findByIdentifier/CropProg?latest=true",
-            headers=UA,
-            timeout=30,
-        ).json()
-        zurl = next(f for f in meta["results"][0]["files"] if f.endswith(".zip"))
-        z = zipfile.ZipFile(io.BytesIO(requests.get(zurl, headers=UA, timeout=60).content))
-        text = z.read("prog_all_tables.csv").decode("latin-1", "replace")
-        lines = text.splitlines()
-        soy_ids = set()
-        for ln in lines:
-            parts = next(iter([ln.split(",", 2)]))
-            if len(parts) >= 3 and parts[1] == '"t"' and "oybean" in parts[2]:
-                soy_ids.add(parts[0])
-        print("tabelas de soja:", sorted(soy_ids))
-        for tid in sorted(soy_ids):
-            print(f"--- tabela {tid} ---")
-            for ln in lines:
-                if ln.split(",", 1)[0] == tid:
-                    print(ln)
+        text = " ".join(r.text.split())
+        up = text.upper()
+        i = up.find("SOJ")
+        print(f"status={r.status_code} bytes={len(r.content)} idx_soja={i}")
+        print("TRECHO:", text[max(0, i - 300): i + 2500] if i >= 0 else text[:1500])
     except Exception as e:  # noqa: BLE001
         print("EXC:", e)
 

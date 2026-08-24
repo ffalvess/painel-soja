@@ -17,7 +17,7 @@ jobs:
           python-version: "3.12"
 
       - name: Instalar dependências
-        run: pip install requests
+        run: pip install requests openpyxl
 
       - name: Sondar endpoints
         run: python scripts/probe_sources.py

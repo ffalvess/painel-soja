@@ -50,6 +50,12 @@ esse JSON — não há servidor, banco de dados nem custo.
   (calculada a cada hora) e a especificação do modelo de direção de preço
   em 4–8 semanas. Linkada no cabeçalho do painel.
 
+## Documentação
+
+`docs/Painel-Soja-Documentacao.docx` — documento completo: guia de uso e
+interpretação de cada seção, fontes, mecanismo de atualização, arquitetura,
+algoritmos, limitações, aplicação comercial, próximos passos e glossário.
+
 ## Ajustes comuns
 
 - **Frequência:** mude o `cron` em `.github/workflows/update-data.yml`

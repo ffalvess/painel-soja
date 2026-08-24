@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-24T19:24:02+00:00",
+ "generated_at": "2026-08-24T20:22:28+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-24T19:23:33+00:00",
+   "updated_at": "2026-08-24T20:22:11+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -173,9 +173,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 92.33,
+     "price": 91.98,
      "prev_close": 94.39,
-     "change_pct": -2.18,
+     "change_pct": -2.55,
      "closes": [
       96.78,
       88.36,
@@ -198,17 +198,17 @@
       91.62,
       93.78,
       94.39,
-      92.33
+      91.98
      ],
-     "volume": 16269
+     "volume": 16458
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 172190.19,
+     "price": 171942.19,
      "prev_close": 171032.0,
-     "change_pct": 0.68,
+     "change_pct": 0.53,
      "closes": [
       174042.0,
       175335.0,
@@ -231,7 +231,7 @@
       167830.0,
       167927.0,
       171032.0,
-      172190.1875
+      171942.1875
      ],
      "volume": 0
     }
@@ -239,21 +239,21 @@
    "failed": []
   },
   "fx": {
-   "updated_at": "2026-08-24T19:23:33+00:00",
+   "updated_at": "2026-08-24T20:22:11+00:00",
    "awesomeapi_error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL",
    "usdbrl": {
-    "bid": 5.1526,
+    "bid": 5.1491,
     "ask": null,
     "high": null,
     "low": null,
-    "pct_change": -0.78
+    "pct_change": 0.23
    },
    "eurbrl": {
-    "bid": 6.0083,
+    "bid": 6.0036,
     "ask": null,
     "high": null,
     "low": null,
-    "pct_change": -0.92
+    "pct_change": 0.14
    },
    "source": "Yahoo Finance",
    "ptax": {
@@ -263,7 +263,7 @@
    }
   },
   "rates": {
-   "updated_at": "2026-08-24T19:07:36+00:00",
+   "updated_at": "2026-08-24T20:22:13+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -273,7 +273,7 @@
    "ipca_12m": 4.44
   },
   "cepea": {
-   "updated_at": "2026-08-24T19:23:50+00:00",
+   "updated_at": "2026-08-24T20:22:16+00:00",
    "fonte": "Cepea/Esalq, via Notícias Agrícolas",
    "indicador": {
     "nome": "Indicador Soja ESALQ/B3 — Paranaguá",
@@ -376,42 +376,42 @@
    ]
   },
   "safra": {
-   "updated_at": "2026-08-24T19:23:50+00:00",
+   "updated_at": "2026-08-24T20:22:16+00:00",
    "failed": [],
    "us": {
-    "released": "2026-08-17",
-    "week_ending": "2026-08-16",
+    "released": "2026-08-24",
+    "week_ending": "2026-08-23",
     "coverage": {
      "states": 18,
      "pct_area": 96
     },
     "progress": [
      {
-      "label": "Floração",
-      "prev_year": 94,
-      "prev_week": 93,
-      "current": 96,
-      "avg_5y": 94
+      "label": "Formação de vagens",
+      "prev_year": 88,
+      "prev_week": 85,
+      "current": 91,
+      "avg_5y": 88
      },
      {
-      "label": "Formação de vagens",
-      "prev_year": 80,
-      "prev_week": 74,
-      "current": 85,
-      "avg_5y": 80
+      "label": "Queda de folhas",
+      "prev_year": 4,
+      "prev_week": null,
+      "current": 6,
+      "avg_5y": 4
      }
     ],
     "condition": {
      "dist": {
-      "vp": 2,
-      "p": 8,
-      "f": 29,
-      "g": 49,
+      "vp": 3,
+      "p": 9,
+      "f": 28,
+      "g": 48,
       "e": 12
      },
-     "gex": 61,
-     "gex_prev_week": 62,
-     "gex_prev_year": 68
+     "gex": 60,
+     "gex_prev_week": 61,
+     "gex_prev_year": 69
     }
    },
    "br": {
@@ -436,7 +436,7 @@
    }
   },
   "curve": {
-   "updated_at": "2026-08-24T19:23:54+00:00",
+   "updated_at": "2026-08-24T20:22:20+00:00",
    "unit": "¢/bushel",
    "contracts": [
     {
@@ -507,7 +507,7 @@
    "failed": []
   },
   "options": {
-   "updated_at": "2026-08-24T19:23:54+00:00",
+   "updated_at": "2026-08-24T20:22:21+00:00",
    "trade_date": "2026-08-21",
    "cbot": {
     "futures": {
@@ -523,7 +523,7 @@
    }
   },
   "weather": {
-   "updated_at": "2026-08-24T19:23:55+00:00",
+   "updated_at": "2026-08-24T20:22:22+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -688,8 +688,38 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-24T19:23:58+00:00",
+   "updated_at": "2026-08-24T20:22:25+00:00",
    "items": [
+    {
+     "title": "Petróleo cai após sequência de altas e mantém sanções ao Irã no radar",
+     "link": "https://www.canalrural.com.br/economia/petroleo-cai-apos-sequencia-de-altas-e-mantem-sancoes-ao-ira-no-radar/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T19:32:18+00:00"
+    },
+    {
+     "title": "Javalis-africanos recebem ‘dia de beleza’ com casqueamento e check-up veterinário no Zoo SP",
+     "link": "https://www.canalrural.com.br/curiosidades/javalis-africanos-recebem-dia-de-beleza-com-casqueamento-e-check-up-veterinario-no-zoo-sp/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T19:26:59+00:00"
+    },
+    {
+     "title": "Balança comercial registra superávit de US$ 2,115 bilhões na terceira semana de agosto",
+     "link": "https://www.canalrural.com.br/economia/balanca-comercial-registra-superavit-de-us-2115-bilhoes-na-terceira-semana-de-agosto/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T19:22:57+00:00"
+    },
+    {
+     "title": "Häagen-Dazs deixa de ser distribuída no Brasil",
+     "link": "https://www.canalrural.com.br/economia/haagen-dazs-deixa-de-ser-distribuida-no-brasil/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T19:19:33+00:00"
+    },
+    {
+     "title": "Preço da soja cai em Chicago com previsão de safra recorde - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOM0pMUXhNbTA0bjZfRFhzcXFLNHRBT2FlVmVWWng2VjBERENWcWNxaEFOQXFzTmZqVXpaOGE5MWU2dUZZeE5qdlpjTTBDYWNFeVM5c0ZwdmlSMF9VWDhDSTItOWtFN3R6R2JXbUtFVS13dmdzWTUyUmJGemdYNUhCbldFZTRTTFZhLXBUSVo0QkxONnhMWWJ2SjB2b2dRRTNSZXFzcW1yTkk3TTNuWjdmX2JSZ3F0cEJxSUHSAcgBQVVfeXFMTk1BNXF2dk9XNENsRG42eGctdVVjNFJYWnVMSjJqeUthRFlTUGJtOVltdy1GaEhwWmR1emdUYjdGdjJOTlpqeDJINDl4Ul9PS3BRa2ppOG80Y0w0WEVrWnlEV2JPaTJSTDRxcnpUN2l0bFB4dkhfNzR3cWZwZWNMVTA1aVhLV0wyWXNtRHdSOE95QnNEZzc5OGV1UGdnLXZrWU5hVmZmeDRuN1pVWkRLUmRxUFEwaC1BX09KZVA4amRXdEtnbFRtaG0?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-24T18:46:15+00:00"
+    },
     {
      "title": "Soja perde até R$ 2/sc no mercado de portos nesta 2ª feira com baixas em Chicago de mais de 1% - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUmxmUjloRnBLR3R0MXNYLTVqb2VkbDk4ZUp3ak1iZWR3Yi15cVRoYkdzYm5SOGdGZzRJaVVYdTI5UnpNeU5lVG5sNEVtQnh1V2pNbDd4YURYajJrNzQ4LUd1MW1rcmhBZ25iTkJiN0YwbWljZDNST2U4UGwySjdmUkdmNkJpbzhTRzNLbS1IUWFYbXVkVVAtbFJkZ0VLeGVNQVZMY2dOMkR6NTZCVW1xWkVlNUdySF84Y1YtUkJTU29ORjY1cENIblduZWpsY1R5bk9VRGV5Nm5xNnVXV1ZrY2NILWE3NEZIX2fSAe8BQVVfeXFMTzdmWTlGd2FGWEdUaUVFX0Z1ZUdiLURJdFRIekZTZVJfdkNSUXp6b0dCcXhKUXFnVU1IeEc1QTk0SU1OZEJLRnNoRnJoc0g2RmNmMjJackRHazFqdmp3VXRVMUJIWlR2aThjVGxXaUtNSGt1dHFaMk9MaTluekpQR1B0blhxMnZSemN4X1FQNGM5X2R4c3YyNl9NekQ2cWZHMGtBVk5pWEw3VlV0OEQ3Ri1ITWwtSDUtdXY3UjRvQ1JzZ19qS2FoamJVMUhvdk5GbFVuRGFKS2c3WFRrQ1hKQV9OQ3J2a0dPRzlCajBfSUE?oc=5",
@@ -745,30 +775,6 @@
      "published_at": "2026-08-24T18:05:45+00:00"
     },
     {
-     "title": "Canal Rural debate demandas do agronegócio com candidatos à presidência",
-     "link": "https://www.canalrural.com.br/videos/canal-rural-debate-demandas-do-agronegocio-com-candidatos-a-presidencia/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T18:05:31+00:00"
-    },
-    {
-     "title": "Senar-SP inaugura centro de tecnologia para inovação no agropecuário",
-     "link": "https://www.canalrural.com.br/videos/senar-sp-inaugura-centro-de-tecnologia-para-inovacao-no-agropecuario/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T18:05:20+00:00"
-    },
-    {
-     "title": "49ª Expointer recebe primeiros animais no Rio Grande do Sul",
-     "link": "https://www.canalrural.com.br/videos/49a-expointer-recebe-primeiros-animais-no-rio-grande-do-sul/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T18:05:10+00:00"
-    },
-    {
-     "title": "Senangus: nova raça combina rusticidade e qualidade de carne; conheça",
-     "link": "https://www.canalrural.com.br/pecuaria/senangus-nova-raca-combina-rusticidade-e-qualidade-de-carne-conheca/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T18:05:00+00:00"
-    },
-    {
      "title": "USDA traz embarques semanais de soja e trigo dentro do esperado, mas milho abaixo - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVnd3dUc3bm9GRUJ5TWprLVNmbGtpSWVORk1QS2tFLXNXLW5mem1ZZTRRYWNwVmFrWU1Ec3pzeTFua0xzdjdhNklpT2tSZXZkRWVOdTBrZTlGb2l1WHdBQ1czNTluZ1o2YVMza3IxZWdrTnJndk40NzhkVm5FWnZrblpFdGdDRzItZFZFdlh3T1AyXzd4NmVCTURnYXpEd0Z5ZW5sak5UeVllR0xzdzJCeTZNUkMzUWVmNy1QbHBWd01EWEtjZC1reFE1UHhFY0wxRmNWOUpNVzFfbUHSAeABQVVfeXFMTjc3aDNWUDlSWGJvV0tVMy0wal9pQWo2dFVmRm1uc0hSbVJGMGhkSkdKaEZGR2tiX1d6ZlcyVEhGVE1xR1FJZFpkQ0dlaHplN0diTXdHYmNxWE5lZDdCU1JjQXh4ZkZrTlBLRUJUU3Y0QmpZZjU4UlR5Q29BZ0tmMmc0S2hFYWJzODZTenNxR1VXNW8tNFdqdnFQSTFUWGtFWHFIMV9xbThDUEs0YzQzdVVLSDlDYXQ4aGh5NDFTaUNIRWx5Y3RycFByeHdrMklqUU1jT01VUWJLUlNTTFE1U1g?oc=5",
      "source": "Notícias Agrícolas",
@@ -793,10 +799,10 @@
      "published_at": "2026-08-24T15:03:00+00:00"
     },
     {
-     "title": "Clima e tensões globais impulsionam soja e milho, enquanto carne bovina perde fôlego; confira - Money Times",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUjZSLV9qcVBKaUNhUjRLU2xRVVpDTGhTMmwxM01BQkNRVl9QMmtZc2V4YmZPanJkS19NTUdxc1M0c3lMZHAzaVZrQ2ZaT3B6dkx4V1pBNGN3U2gxVHA0TnFka1FUSTFkVE5rQ1p4NzR2dVRQdWpBbHQyOUZWM09KdkFvTW9Va0xLV3NFZ3c3SlNwdGRkb2RYajdCUFI2RGpmLXZFdmYtWHp3Uk9Pc296THYwZ1dXdHM?oc=5",
-     "source": "Money Times",
-     "published_at": "2026-08-24T14:06:00+00:00"
+     "title": "Plantas de cobertura elevam rendimento da soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPekhKcVJKNUhwZDltaXp4bFA5MWxiT1VqanlSempfZGxybUZuVi1ZQkIwUE1iM0NXQVl0Z21xTEdBWXdMbDFwd1FFZkJRTDVIclFjVUdSRG9IZTlISTJONEYzNUl1R29BVllzU203cEhNdXd0QUVEX2N0eEp2X2YyenY2RmtDa1FrVF8wODFQc0hEQVc2VUhYUUpFVQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-24T14:55:00+00:00"
     },
     {
      "title": "Soja sobe com demanda aquecida e menor oferta no mercado, segundo Cepea - Globo Rural",
@@ -809,12 +815,6 @@
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVVVzWEMyaFFNTGJ5YlJmaHZvUHk1aGhfQUVuRWZrOU1mVDNkdlcybmxVbG9UZXN3THVNWHdWeXJzc042Q3NlQnVtaXg4TGhxR1F3akpRWW82c0VlTUd2Y2NKRlhQYlJSVzJITUlCVXR3aVRvQ0tGX210WUlDT0hNXzI3NERlOGVRRFRjQnRjMlNmcEllS2Z0UTVrV0RYWURMa3FnRnIwSlV2RlJlLU5oMlQ2QQ?oc=5",
      "source": "Agrolink",
      "published_at": "2026-08-24T12:20:00+00:00"
-    },
-    {
-     "title": "Soja no Matopiba: novo biofungicida nacional combate mancha-alvo e antracnose - Movimento Econômico",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWDRMZnZWWUVOUHhXS0hMaTNFTDlCRmpyamFGTm80U1BzMktpSWZlVVhvYjh1YUFWdVEyNGNnRkRGdTEyVXV0TkVWRmRXbGJNOEhQVjJjU21GcElHSll1R01XMTBuYlpielZMRUlzRFlzRDNQNDBoNjJsbzIzaW1BVG9VUnVUM2pDWFpJR1VWZ2hSbGtTWk82VnU4N3R5OGtCOGVvNnJDcmJqZkpOZUFBN2dmUXVnSlhXLXNNR0N6Ym5wY2dfMHdVR2dDMUJrSVU?oc=5",
-     "source": "Movimento Econômico",
-     "published_at": "2026-08-24T07:47:00+00:00"
     },
     {
      "title": "Preços da soja se elevam e queda produtiva dos EUA pode gerar novas altas - Canal Rural",
@@ -876,7 +876,7 @@
    ]
   },
   "sd": {
-   "updated_at": "2026-08-24T19:24:02+00:00",
+   "updated_at": "2026-08-24T20:22:28+00:00",
    "commodity": "Oilseed, Soybean",
    "safra": "2026/27",
    "vintage": "08",
@@ -951,93 +951,88 @@
    }
   },
   "basis": {
-   "updated_at": "2026-08-24T19:24:02+00:00",
-   "cambio": 5.1526,
+   "updated_at": "2026-08-24T20:22:28+00:00",
+   "cambio": 5.1491,
    "cbot_cents": 1217.0,
    "premio_cents": 1.5,
    "premio_mes": "Agosto/26",
    "contrato": "set/26",
-   "flat_brl_saca": 138.25,
-   "paridade_brl_saca": 138.42,
+   "flat_brl_saca": 138.15,
+   "paridade_brl_saca": 138.32,
    "indicador_brl_saca": 153.68,
    "indicador_data": "21/08/2026",
    "basis_porto": {
-    "brl_saca": 15.26,
-    "cents_bu": 134.3,
-    "pct": 11.0
+    "brl_saca": 15.36,
+    "cents_bu": 135.3,
+    "pct": 11.1
    },
    "basis_interior": [
     {
      "praca": "Sorriso/MT",
      "valor": 129.4,
      "basis_brl_saca": -24.28,
-     "basis_cents_bu": -213.7
+     "basis_cents_bu": -213.9
     },
     {
      "praca": "Rio Verde/GO",
      "valor": 130.0,
      "basis_brl_saca": -23.68,
-     "basis_cents_bu": -208.5
+     "basis_cents_bu": -208.6
     },
     {
      "praca": "Jataí/GO",
      "valor": 130.0,
      "basis_brl_saca": -23.68,
-     "basis_cents_bu": -208.5
+     "basis_cents_bu": -208.6
     },
     {
      "praca": "Maracaju/MS",
      "valor": 135.0,
      "basis_brl_saca": -18.68,
-     "basis_cents_bu": -164.4
+     "basis_cents_bu": -164.6
     },
     {
      "praca": "São Gabriel do Oeste/MS",
      "valor": 135.0,
      "basis_brl_saca": -18.68,
-     "basis_cents_bu": -164.4
+     "basis_cents_bu": -164.6
     },
     {
      "praca": "Campo Grande/MS",
      "valor": 137.0,
      "basis_brl_saca": -16.68,
-     "basis_cents_bu": -146.8
+     "basis_cents_bu": -146.9
     },
     {
      "praca": "Oeste da Bahia/BA",
      "valor": 139.13,
      "basis_brl_saca": -14.55,
-     "basis_cents_bu": -128.1
+     "basis_cents_bu": -128.2
     },
     {
      "praca": "Primavera do Leste/MT",
      "valor": 139.6,
      "basis_brl_saca": -14.08,
-     "basis_cents_bu": -123.9
+     "basis_cents_bu": -124.0
     },
     {
      "praca": "Rondonópolis/MT",
      "valor": 141.0,
      "basis_brl_saca": -12.68,
-     "basis_cents_bu": -111.6
+     "basis_cents_bu": -111.7
     }
    ],
    "historico": [
     {
      "data": "21/08/2026",
      "cbot_cents": 1217.0,
-     "cambio": 5.1526,
-     "paridade": 138.42,
+     "cambio": 5.1491,
+     "paridade": 138.32,
      "indicador": 153.68,
-     "basis": 15.26
+     "basis": 15.36
     }
    ]
   }
  },
- "errors": [
-  {
-   "section": "rates",
-   "error": "502 Server Error: Bad Gateway for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados/ultimos/12?formato=json"
-  }
- ]
+ "errors": []
 }

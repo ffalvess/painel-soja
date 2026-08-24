@@ -303,7 +303,7 @@ def collect_safra_us() -> dict:
     release = meta["results"][0]
     zip_url = next(f for f in release["files"] if f.endswith(".zip"))
     z = zipfile.ZipFile(io.BytesIO(get(zip_url).content))
-    text = z.read("prog_all_tables.csv").decode("latin-1", "replace")
+    text = z.read("prog_all_tables.csv").decode("cp1252", "replace")
 
     tables = {}
     for row in csv.reader(io.StringIO(text)):
@@ -361,7 +361,8 @@ def collect_safra_us() -> dict:
             # semana atual, média de 5 anos
             cur = data.get("18 States")
             if cur and len(cur) >= 4:
-                activity = title.replace("Soybeans", "").split("Selected")[0].strip()
+                activity = title.replace("Soybeans", "").split("Selected")[0]
+                activity = re.sub(r"[^A-Za-z ]", " ", activity).strip()
                 label = SOY_ACTIVITIES.get(activity.lower(), activity)
                 out["progress"].append(
                     {

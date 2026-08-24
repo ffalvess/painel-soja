@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-24T20:45:36+00:00",
+ "generated_at": "2026-08-24T21:22:42+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-24T20:45:21+00:00",
+   "updated_at": "2026-08-24T21:22:27+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -68,7 +68,7 @@
       483.75,
       515.0
      ],
-     "volume": 476513
+     "volume": 476510
     },
     {
      "symbol": "ZM=F",
@@ -173,9 +173,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.96,
+     "price": 91.99,
      "prev_close": 94.39,
-     "change_pct": -2.57,
+     "change_pct": -2.54,
      "closes": [
       96.78,
       88.36,
@@ -198,9 +198,9 @@
       91.62,
       93.78,
       94.39,
-      91.96
+      91.99
      ],
-     "volume": 16536
+     "volume": 16695
     },
     {
      "symbol": "^BVSP",
@@ -239,21 +239,21 @@
    "failed": []
   },
   "fx": {
-   "updated_at": "2026-08-24T20:45:21+00:00",
+   "updated_at": "2026-08-24T21:22:27+00:00",
    "awesomeapi_error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL",
    "usdbrl": {
-    "bid": 5.1496,
+    "bid": 5.1561,
     "ask": null,
     "high": null,
     "low": null,
-    "pct_change": 0.24
+    "pct_change": 0.37
    },
    "eurbrl": {
-    "bid": 6.0059,
+    "bid": 6.0129,
     "ask": null,
     "high": null,
     "low": null,
-    "pct_change": 0.18
+    "pct_change": 0.3
    },
    "source": "Yahoo Finance",
    "ptax": {
@@ -263,7 +263,7 @@
    }
   },
   "rates": {
-   "updated_at": "2026-08-24T20:45:22+00:00",
+   "updated_at": "2026-08-24T21:22:28+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -273,7 +273,7 @@
    "ipca_12m": 4.44
   },
   "cepea": {
-   "updated_at": "2026-08-24T20:45:24+00:00",
+   "updated_at": "2026-08-24T21:22:29+00:00",
    "fonte": "Cepea/Esalq, via Notícias Agrícolas",
    "indicador": {
     "nome": "Indicador Soja ESALQ/B3 — Paranaguá",
@@ -369,8 +369,8 @@
     },
     {
      "praca": "Porto Paranaguá (disponível)",
-     "valor": 154.0,
-     "var_dia_pct": 0.0
+     "valor": 153.0,
+     "var_dia_pct": -0.65
     },
     {
      "praca": "Porto Santos/SP",
@@ -380,7 +380,7 @@
    ]
   },
   "safra": {
-   "updated_at": "2026-08-24T20:45:24+00:00",
+   "updated_at": "2026-08-24T21:22:29+00:00",
    "failed": [],
    "us": {
     "released": "2026-08-24",
@@ -440,7 +440,7 @@
    }
   },
   "curve": {
-   "updated_at": "2026-08-24T20:45:28+00:00",
+   "updated_at": "2026-08-24T21:22:32+00:00",
    "unit": "¢/bushel",
    "contracts": [
     {
@@ -511,7 +511,7 @@
    "failed": []
   },
   "options": {
-   "updated_at": "2026-08-24T20:45:28+00:00",
+   "updated_at": "2026-08-24T21:22:33+00:00",
    "trade_date": "2026-08-21",
    "cbot": {
     "futures": {
@@ -527,7 +527,7 @@
    }
   },
   "weather": {
-   "updated_at": "2026-08-24T20:45:29+00:00",
+   "updated_at": "2026-08-24T21:22:33+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -692,11 +692,23 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-24T20:45:32+00:00",
+   "updated_at": "2026-08-24T21:22:36+00:00",
    "items": [
     {
+     "title": "Bolsas de Nova York fecham mistas com foco em comércio e geopolítica",
+     "link": "https://www.canalrural.com.br/economia/bolsas-de-nova-york-fecham-mistas-com-foco-em-comercio-e-geopolitica/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T20:47:07+00:00"
+    },
+    {
+     "title": "Como o couro é produzido? Conheça a jornada na indústria",
+     "link": "https://www.canalrural.com.br/curiosidades/como-o-couro-e-produzido-conheca-a-jornada-na-industria/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T20:30:04+00:00"
+    },
+    {
      "title": "Soja fecha em baixa em Chicago com boas projeções da safra americana - CNN Brasil",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbl9kTFNZUVhmVFZtSGRQNzR0WWJrcVN1d29NdDNUemxrUnpqaXR6eFNRdU92NXFPMmNGSjI5aml2MXBQSGxTRUx3SzEyaW9KRXdEdHQ0VlA4UHFyQ3VKdEJVaDJrbWUxU1ktVnNoUDIxcVBDZWwwb0VRcUZXeXNHR2h1aFByVTVPOWxXd2IzZ1ZHLW1saElnTEJLVG1rYWhBSm12WG1B?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVFRmU1lsUkZfcXcwa0lwU1pueGR0dktaT0daZjBEbDBnUmc1WG1Jb2U5QWtjYndobnBILU5YSHB6NllQTkk0TzN2R1NDdWxrcm1YazJ4S1JwTHBGSTdrckktUzNLQWpsZkxIM3FHb1NFS3c3NjZWSy1iTW5wLTU0ZGlKQndmY0VxVW4xZnN3dlgwTmx1STFkOEFSc2dMcHBTaGZqYW9fdllWXy1s?oc=5",
      "source": "CNN Brasil",
      "published_at": "2026-08-24T20:26:50+00:00"
     },
@@ -773,22 +785,10 @@
      "published_at": "2026-08-24T18:34:00+00:00"
     },
     {
-     "title": "Citricultura encerra safra com alta de 4,2% nas contratações",
-     "link": "https://www.canalrural.com.br/agricultura/citricultura-encerra-safra-com-alta-de-42-nas-contratacoes/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T18:31:28+00:00"
-    },
-    {
      "title": "Soja atinge maior valor desde abril de 2023 no mercado brasileiro - O Presente Rural",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcW5KVXdBR3lMU0VoblJoTHJjRkM1RTZEWV9WZGtGZXNxa3gzcFpYb2lZWEt6amhWUThELVFjdHNyQm56dzRwdmZTaG45c3UwTTZKM3Rha2ZILWVXTUZJd3ZsMV8xLTByR2lKanNPM1JfZkh6Yi1QcTRyZ3JMZEFGQmNBY252blJPdTg4Q05rbFZhRm1LWHpRaXN1Um4?oc=5",
      "source": "O Presente Rural",
      "published_at": "2026-08-24T18:20:40+00:00"
-    },
-    {
-     "title": "Agri Summit Brazil 2027 reunirá mil startups e 50 fundos de investimento",
-     "link": "https://www.canalrural.com.br/videos/agri-summit-brazil-2027-reunira-mil-startups-e-50-fundos-de-investimento/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T18:15:33+00:00"
     },
     {
      "title": "Inspeções de soja para exportação nos EUA sobem 43% na semana, aponta USDA - Canal Rural",
@@ -797,16 +797,16 @@
      "published_at": "2026-08-24T16:53:01+00:00"
     },
     {
-     "title": "Volume de soja inspecionado para exportação nos EUA sobe 43%, diz USDA - UOL Notícias",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONHNKcUNBei1xTzFFaEFOTTdQOWFScVRpeWZjX1cwVW10aVowc09HTzNUQWRBYjdKYmVJbHVjZGdHYlBwNVlRQ1ByTnRCb1VDaGxGM216Z2d0TWhiOVREc0g4b2g2Z0ZPQkZwQWRsOFRiZGdVTXd0aTlZTFlHV0ZySzd0eWxzWVJpdnJEeDhuMWNURWpjTXVaMS1aTmtuajRma3JnbDZjTmFWVTR6dktQRGh5NXBCeVZhYlZDcVRKMVVpRGxESGJZRVVvQmt2RjQ2cV9iRS16ZTQ4cEk?oc=5",
-     "source": "UOL Notícias",
-     "published_at": "2026-08-24T16:46:00+00:00"
-    },
-    {
      "title": "Soja: Indicadores sobem ao maior patamar desde abril/2023 - Sociedade Nacional de Agricultura",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNkZHZzNDUFNnbkVjTU1qazRNSG9UTktITVNoWXdjenU5dTkwUGtVaXM3Y0dib21lQ01LSUhLYWtDTVRjeDMwWmpqYTJiOU0zcjc1eDZLX1VraE5lUFNpN3lTQlpXUVdtYUdocHFiY1czUHFSRk5MNE9yaVFqRG50X1BR?oc=5",
      "source": "Sociedade Nacional de Agricultura",
      "published_at": "2026-08-24T15:03:00+00:00"
+    },
+    {
+     "title": "Plantas de cobertura elevam rendimento da soja - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPekhKcVJKNUhwZDltaXp4bFA5MWxiT1VqanlSempfZGxybUZuVi1ZQkIwUE1iM0NXQVl0Z21xTEdBWXdMbDFwd1FFZkJRTDVIclFjVUdSRG9IZTlISTJONEYzNUl1R29BVllzU203cEhNdXd0QUVEX2N0eEp2X2YyenY2RmtDa1FrVF8wODFQc0hEQVc2VUhYUUpFVQ?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-24T14:55:00+00:00"
     },
     {
      "title": "Soja sobe com demanda aquecida e menor oferta no mercado, segundo Cepea - Globo Rural",
@@ -880,7 +880,7 @@
    ]
   },
   "sd": {
-   "updated_at": "2026-08-24T20:45:36+00:00",
+   "updated_at": "2026-08-24T21:22:42+00:00",
    "commodity": "Oilseed, Soybean",
    "safra": "2026/27",
    "vintage": "08",
@@ -955,85 +955,85 @@
    }
   },
   "basis": {
-   "updated_at": "2026-08-24T20:45:36+00:00",
-   "cambio": 5.1496,
+   "updated_at": "2026-08-24T21:22:42+00:00",
+   "cambio": 5.1561,
    "cbot_cents": 1217.0,
    "premio_cents": 150.0,
    "premio_mes": "Agosto/26",
    "contrato": "set/26",
-   "flat_brl_saca": 138.17,
-   "paridade_brl_saca": 155.19,
+   "flat_brl_saca": 138.34,
+   "paridade_brl_saca": 155.39,
    "indicador_brl_saca": 153.68,
    "indicador_data": "21/08/2026",
    "basis_porto": {
-    "brl_saca": -1.51,
-    "cents_bu": -13.3,
-    "pct": -1.0
+    "brl_saca": -1.71,
+    "cents_bu": -15.0,
+    "pct": -1.1
    },
    "basis_interior": [
     {
      "praca": "Sorriso/MT",
      "valor": 129.4,
      "basis_brl_saca": -24.28,
-     "basis_cents_bu": -213.9
+     "basis_cents_bu": -213.6
     },
     {
      "praca": "Rio Verde/GO",
      "valor": 130.0,
      "basis_brl_saca": -23.68,
-     "basis_cents_bu": -208.6
+     "basis_cents_bu": -208.3
     },
     {
      "praca": "Jataí/GO",
      "valor": 130.0,
      "basis_brl_saca": -23.68,
-     "basis_cents_bu": -208.6
+     "basis_cents_bu": -208.3
     },
     {
      "praca": "Maracaju/MS",
      "valor": 135.0,
      "basis_brl_saca": -18.68,
-     "basis_cents_bu": -164.5
+     "basis_cents_bu": -164.3
     },
     {
      "praca": "São Gabriel do Oeste/MS",
      "valor": 135.0,
      "basis_brl_saca": -18.68,
-     "basis_cents_bu": -164.5
+     "basis_cents_bu": -164.3
     },
     {
      "praca": "Campo Grande/MS",
      "valor": 137.0,
      "basis_brl_saca": -16.68,
-     "basis_cents_bu": -146.9
+     "basis_cents_bu": -146.7
     },
     {
      "praca": "Oeste da Bahia/BA",
      "valor": 139.13,
      "basis_brl_saca": -14.55,
-     "basis_cents_bu": -128.2
+     "basis_cents_bu": -128.0
     },
     {
      "praca": "Primavera do Leste/MT",
      "valor": 139.6,
      "basis_brl_saca": -14.08,
-     "basis_cents_bu": -124.0
+     "basis_cents_bu": -123.9
     },
     {
      "praca": "Rondonópolis/MT",
      "valor": 141.0,
      "basis_brl_saca": -12.68,
-     "basis_cents_bu": -111.7
+     "basis_cents_bu": -111.5
     }
    ],
    "historico": [
     {
      "data": "21/08/2026",
      "cbot_cents": 1217.0,
-     "cambio": 5.1496,
-     "paridade": 155.19,
+     "cambio": 5.1561,
+     "paridade": 155.39,
      "indicador": 153.68,
-     "basis": -1.51
+     "basis": -1.71
     }
    ]
   }

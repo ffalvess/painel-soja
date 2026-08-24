@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-24T18:30:27+00:00",
+ "generated_at": "2026-08-24T19:03:06+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-24T18:30:13+00:00",
+   "updated_at": "2026-08-24T19:02:52+00:00",
    "items": [
     {
      "symbol": "ZS=F",
@@ -68,7 +68,7 @@
       483.75,
       515.0
      ],
-     "volume": 476513
+     "volume": 476510
     },
     {
      "symbol": "ZM=F",
@@ -173,9 +173,9 @@
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 91.95,
+     "price": 92.28,
      "prev_close": 94.39,
-     "change_pct": -2.59,
+     "change_pct": -2.24,
      "closes": [
       96.78,
       88.36,
@@ -198,17 +198,17 @@
       91.62,
       93.78,
       94.39,
-      91.95
+      92.28
      ],
-     "volume": 15418
+     "volume": 16218
     },
     {
      "symbol": "^BVSP",
      "name": "Ibovespa",
      "unit": "pontos",
-     "price": 172161.8,
+     "price": 172100.36,
      "prev_close": 171032.0,
-     "change_pct": 0.66,
+     "change_pct": 0.62,
      "closes": [
       174042.0,
       175335.0,
@@ -231,7 +231,7 @@
       167830.0,
       167927.0,
       171032.0,
-      172161.7969
+      172100.3594
      ],
      "volume": 0
     }
@@ -239,21 +239,21 @@
    "failed": []
   },
   "fx": {
-   "updated_at": "2026-08-24T18:30:13+00:00",
+   "updated_at": "2026-08-24T19:02:52+00:00",
    "awesomeapi_error": "429 Client Error: Too Many Requests for url: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL",
    "usdbrl": {
-    "bid": 5.1491,
+    "bid": 5.1515,
     "ask": null,
     "high": null,
     "low": null,
-    "pct_change": -0.85
+    "pct_change": -0.8
    },
    "eurbrl": {
-    "bid": 6.0049,
+    "bid": 6.0065,
     "ask": null,
     "high": null,
     "low": null,
-    "pct_change": -0.98
+    "pct_change": -0.95
    },
    "source": "Yahoo Finance",
    "ptax": {
@@ -263,7 +263,7 @@
    }
   },
   "rates": {
-   "updated_at": "2026-08-24T18:30:15+00:00",
+   "updated_at": "2026-08-24T19:02:53+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -273,7 +273,7 @@
    "ipca_12m": 4.44
   },
   "cepea": {
-   "updated_at": "2026-08-24T18:30:18+00:00",
+   "updated_at": "2026-08-24T19:02:55+00:00",
    "fonte": "Cepea/Esalq, via Notícias Agrícolas",
    "indicador": {
     "nome": "Indicador Soja ESALQ/B3 — Paranaguá",
@@ -320,28 +320,28 @@
    "fisico": [
     {
      "praca": "Sorriso/MT",
-     "valor": 128.9,
-     "var_dia_pct": 0.47
+     "valor": 129.4,
+     "var_dia_pct": 0.39
     },
     {
      "praca": "Rondonópolis/MT",
      "valor": 141.0,
-     "var_dia_pct": -0.98
+     "var_dia_pct": 0.0
     },
     {
      "praca": "Primavera do Leste/MT",
      "valor": 139.6,
-     "var_dia_pct": -0.99
+     "var_dia_pct": 0.0
     },
     {
      "praca": "Rio Verde/GO",
-     "valor": 128.0,
-     "var_dia_pct": 0.0
+     "valor": 130.0,
+     "var_dia_pct": 1.56
     },
     {
      "praca": "Jataí/GO",
-     "valor": 128.0,
-     "var_dia_pct": 0.0
+     "valor": 130.0,
+     "var_dia_pct": 1.56
     },
     {
      "praca": "Campo Grande/MS",
@@ -360,7 +360,7 @@
     },
     {
      "praca": "Oeste da Bahia/BA",
-     "valor": 138.75,
+     "valor": 139.13,
      "var_dia_pct": 0.0
     },
     {
@@ -370,13 +370,13 @@
     },
     {
      "praca": "Porto Santos/SP",
-     "valor": 148.0,
-     "var_dia_pct": 0.0
+     "valor": 151.0,
+     "var_dia_pct": 2.03
     }
    ]
   },
   "safra": {
-   "updated_at": "2026-08-24T18:30:18+00:00",
+   "updated_at": "2026-08-24T19:02:55+00:00",
    "failed": [],
    "us": {
     "released": "2026-08-17",
@@ -436,7 +436,7 @@
    }
   },
   "curve": {
-   "updated_at": "2026-08-24T18:30:22+00:00",
+   "updated_at": "2026-08-24T19:02:57+00:00",
    "unit": "¢/bushel",
    "contracts": [
     {
@@ -507,7 +507,7 @@
    "failed": []
   },
   "options": {
-   "updated_at": "2026-08-24T18:30:23+00:00",
+   "updated_at": "2026-08-24T19:02:58+00:00",
    "trade_date": "2026-08-21",
    "cbot": {
     "futures": {
@@ -523,7 +523,7 @@
    }
   },
   "weather": {
-   "updated_at": "2026-08-24T18:30:24+00:00",
+   "updated_at": "2026-08-24T19:02:59+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -688,8 +688,20 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-24T18:30:27+00:00",
+   "updated_at": "2026-08-24T19:03:01+00:00",
    "items": [
+    {
+     "title": "Soja perde até R$ 2/sc no mercado de portos nesta 2ª feira com baixas em Chicago de mais de 1% - Notícias Agrícolas",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUmxmUjloRnBLR3R0MXNYLTVqb2VkbDk4ZUp3ak1iZWR3Yi15cVRoYkdzYm5SOGdGZzRJaVVYdTI5UnpNeU5lVG5sNEVtQnh1V2pNbDd4YURYajJrNzQ4LUd1MW1rcmhBZ25iTkJiN0YwbWljZDNST2U4UGwySjdmUkdmNkJpbzhTRzNLbS1IUWFYbXVkVVAtbFJkZ0VLeGVNQVZMY2dOMkR6NTZCVW1xWkVlNUdySF84Y1YtUkJTU29ORjY1cENIblduZWpsY1R5bk9VRGV5Nm5xNnVXV1ZrY2NILWE3NEZIX2fSAe8BQVVfeXFMTzdmWTlGd2FGWEdUaUVFX0Z1ZUdiLURJdFRIekZTZVJfdkNSUXp6b0dCcXhKUXFnVU1IeEc1QTk0SU1OZEJLRnNoRnJoc0g2RmNmMjJackRHazFqdmp3VXRVMUJIWlR2aThjVGxXaUtNSGt1dHFaMk9MaTluekpQR1B0blhxMnZSemN4X1FQNGM5X2R4c3YyNl9NekQ2cWZHMGtBVk5pWEw3VlV0OEQ3Ri1ITWwtSDUtdXY3UjRvQ1JzZ19qS2FoamJVMUhvdk5GbFVuRGFKS2c3WFRrQ1hKQV9OQ3J2a0dPRzlCajBfSUE?oc=5",
+     "source": "Notícias Agrícolas",
+     "published_at": "2026-08-24T18:40:48+00:00"
+    },
+    {
+     "title": "Citricultura encerra safra com alta de 4,2% nas contratações",
+     "link": "https://www.canalrural.com.br/agricultura/citricultura-encerra-safra-com-alta-de-42-nas-contratacoes/",
+     "source": "Canal Rural",
+     "published_at": "2026-08-24T18:31:28+00:00"
+    },
     {
      "title": "Esmagamento de soja cresce 7,9% e já supera 23 milhões de toneladas no ano - O Presente Rural",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdnVKTjI5ejdMUWFVcGxmSVozTHRTMXFzQkN1NHpzNDFyQk1fYlpoam82V1RhekxfYWh3THNTQWR2TDRqV3FCdmVKUTBVQkVuV1dwTE4wUUJEQ2lSRmw0VDZMS2hpcGdkcDAyMUNIbmxiMG1kWEFhM29ObW5mSVdQUUo2R2NRYWtmeXJIeXN5WTRQQUwyNHRQOEZNMmdRaXdRSWFfSXRR?oc=5",
@@ -751,12 +763,6 @@
      "published_at": "2026-08-24T18:05:00+00:00"
     },
     {
-     "title": "Plano de Flávio Bolsonaro prevê incentivos a biocombustíveis",
-     "link": "https://www.canalrural.com.br/politica/plano-de-flavio-bolsonaro-preve-incentivos-a-biocombustiveis/",
-     "source": "Canal Rural",
-     "published_at": "2026-08-24T17:57:46+00:00"
-    },
-    {
      "title": "USDA traz embarques semanais de soja e trigo dentro do esperado, mas milho abaixo - Notícias Agrícolas",
      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVnd3dUc3bm9GRUJ5TWprLVNmbGtpSWVORk1QS2tFLXNXLW5mem1ZZTRRYWNwVmFrWU1Ec3pzeTFua0xzdjdhNklpT2tSZXZkRWVOdTBrZTlGb2l1WHdBQ1czNTluZ1o2YVMza3IxZWdrTnJndk40NzhkVm5FWnZrblpFdGdDRzItZFZFdlh3T1AyXzd4NmVCTURnYXpEd0Z5ZW5sak5UeVllR0xzdzJCeTZNUkMzUWVmNy1QbHBWd01EWEtjZC1reFE1UHhFY0wxRmNWOUpNVzFfbUHSAeABQVVfeXFMTjc3aDNWUDlSWGJvV0tVMy0wal9pQWo2dFVmRm1uc0hSbVJGMGhkSkdKaEZGR2tiX1d6ZlcyVEhGVE1xR1FJZFpkQ0dlaHplN0diTXdHYmNxWE5lZDdCU1JjQXh4ZkZrTlBLRUJUU3Y0QmpZZjU4UlR5Q29BZ0tmMmc0S2hFYWJzODZTenNxR1VXNW8tNFdqdnFQSTFUWGtFWHFIMV9xbThDUEs0YzQzdVVLSDlDYXQ4aGh5NDFTaUNIRWx5Y3RycFByeHdrMklqUU1jT01VUWJLUlNTTFE1U1g?oc=5",
      "source": "Notícias Agrícolas",
@@ -785,12 +791,6 @@
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPekhKcVJKNUhwZDltaXp4bFA5MWxiT1VqanlSempfZGxybUZuVi1ZQkIwUE1iM0NXQVl0Z21xTEdBWXdMbDFwd1FFZkJRTDVIclFjVUdSRG9IZTlISTJONEYzNUl1R29BVllzU203cEhNdXd0QUVEX2N0eEp2X2YyenY2RmtDa1FrVF8wODFQc0hEQVc2VUhYUUpFVQ?oc=5",
      "source": "Agrolink",
      "published_at": "2026-08-24T14:55:00+00:00"
-    },
-    {
-     "title": "Soja brasileira amplia papel estratégico na transição energética e reforça avanços em sustentabilidade - Notícias Agrícolas",
-     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPUXk3QmlwNlZFNVNJaHM3QTdFaVFOd2N6R3dLZHBMUzJZdDNnZklmZWhxQWFWSzV3UlBWb21NWDlMNkMzLUJ4VEY3TEgxa043WmZjZjBqMzBsSU1PdjRPWkY2UkhwdDFvd1ZXNEV6OXE2RFQ2bmJqYmI2cEJhd0NaUElxMExkcU5PMzdWSk5PU05LTmE0OTJ5U2lEekJPNmloTjVrNVc4bGs1c0p0VUFNR1F4V2J2bFItWmRUaFRWWUV5ZldnSUtwX1hDbnl3dF9oUWgzeGxBZjh1V1dnTVY5bDZrRy1pWVNnU0FnZ3htcmQtLW9JMHAxMtIB_gFBVV95cUxOcnl2UlEwUm9zZDdZdWlpdV9NcEtTY25sNWNDZVZTSlhaOF9lMGJTNllxelNpUVFsYzgtZUVFLUhsQkJmVFd0VjFLYkVHak13cFlhS1BmdnJjM3BidjUyeEpuUmNicmgyb0U5YXN5RzUwTXVEVjhGdTBERktlMHRpS2FYN3hLVGZRZlJOZWJqUXNtcDA0Y0Vsd3A0OE9reE9ydVI2dmZneGhlZVlWVDR5RUhKWk1UNlRsVUxmZUZoS2N0ai1kRmNobG9Dci1PNUFHbW1zX0Jqa3J4R056V2pJRDdvSGx3eURrakZTY3dlM2szUFpodHJBMmxLVGh4QQ?oc=5",
-     "source": "Notícias Agrícolas",
-     "published_at": "2026-08-24T14:15:13+00:00"
     },
     {
      "title": "Clima e tensões globais impulsionam soja e milho, enquanto carne bovina perde fôlego; confira - Money Times",
@@ -875,52 +875,127 @@
     "Notícias Agrícolas: 404 Client Error: Not Found for url: https://www.noticiasagricolas.com.br/rss/noticias"
    ]
   },
+  "sd": {
+   "updated_at": "2026-08-24T19:03:06+00:00",
+   "commodity": "Oilseed, Soybean",
+   "safra": "2026/27",
+   "vintage": "08",
+   "unidade": "Mt",
+   "escopos": {
+    "mundo": {
+     "producao": 442.25,
+     "estoque_inicial": 125.12,
+     "estoque_final": 124.21,
+     "consumo": 442.02,
+     "exportacao": 190.41,
+     "importacao": 189.27,
+     "area": 146641.0,
+     "su_pct": 19.6,
+     "var_producao_pct": 3.0,
+     "var_estoque_pct": -0.7,
+     "anterior": {
+      "producao": 429.46,
+      "estoque_inicial": 125.95,
+      "estoque_final": 125.12,
+      "consumo": 430.27,
+      "exportacao": 187.19,
+      "importacao": 187.17,
+      "area": 142740.0,
+      "su_pct": 20.3
+     }
+    },
+    "br": {
+     "producao": 186.0,
+     "estoque_inicial": 37.69,
+     "estoque_final": 36.89,
+     "consumo": 69.6,
+     "exportacao": 118.0,
+     "importacao": 0.8,
+     "area": 50000.0,
+     "su_pct": 19.7,
+     "var_producao_pct": 3.0,
+     "var_estoque_pct": -2.1,
+     "anterior": {
+      "producao": 180.5,
+      "estoque_inicial": 37.69,
+      "estoque_final": 37.69,
+      "consumo": 66.4,
+      "exportacao": 115.0,
+      "importacao": 0.9,
+      "area": 48500.0,
+      "su_pct": 20.8
+     }
+    },
+    "us": {
+     "producao": 122.99,
+     "estoque_inicial": 8.85,
+     "estoque_final": 8.71,
+     "consumo": 78.63,
+     "exportacao": 45.18,
+     "importacao": 0.68,
+     "area": 34714.0,
+     "su_pct": 7.0,
+     "var_producao_pct": 6.0,
+     "var_estoque_pct": -1.6,
+     "anterior": {
+      "producao": 115.99,
+      "estoque_inicial": 8.84,
+      "estoque_final": 8.85,
+      "consumo": 75.29,
+      "exportacao": 41.37,
+      "importacao": 0.68,
+      "area": 32552.0,
+      "su_pct": 7.6
+     }
+    }
+   }
+  },
   "basis": {
-   "updated_at": "2026-08-24T18:30:27+00:00",
-   "cambio": 5.1491,
+   "updated_at": "2026-08-24T19:03:06+00:00",
+   "cambio": 5.1515,
    "cbot_cents": 1217.0,
    "premio_cents": 1.5,
    "premio_mes": "Agosto/26",
    "contrato": "set/26",
-   "flat_brl_saca": 138.15,
-   "paridade_brl_saca": 138.32,
+   "flat_brl_saca": 138.22,
+   "paridade_brl_saca": 138.39,
    "indicador_brl_saca": 153.68,
    "indicador_data": "21/08/2026",
    "basis_porto": {
-    "brl_saca": 15.36,
-    "cents_bu": 135.3,
-    "pct": 11.1
+    "brl_saca": 15.29,
+    "cents_bu": 134.6,
+    "pct": 11.0
    },
    "basis_interior": [
     {
+     "praca": "Sorriso/MT",
+     "valor": 129.4,
+     "basis_brl_saca": -24.28,
+     "basis_cents_bu": -213.8
+    },
+    {
      "praca": "Rio Verde/GO",
-     "valor": 128.0,
-     "basis_brl_saca": -25.68,
-     "basis_cents_bu": -226.2
+     "valor": 130.0,
+     "basis_brl_saca": -23.68,
+     "basis_cents_bu": -208.5
     },
     {
      "praca": "Jataí/GO",
-     "valor": 128.0,
-     "basis_brl_saca": -25.68,
-     "basis_cents_bu": -226.2
-    },
-    {
-     "praca": "Sorriso/MT",
-     "valor": 128.9,
-     "basis_brl_saca": -24.78,
-     "basis_cents_bu": -218.3
+     "valor": 130.0,
+     "basis_brl_saca": -23.68,
+     "basis_cents_bu": -208.5
     },
     {
      "praca": "Maracaju/MS",
      "valor": 135.0,
      "basis_brl_saca": -18.68,
-     "basis_cents_bu": -164.6
+     "basis_cents_bu": -164.5
     },
     {
      "praca": "São Gabriel do Oeste/MS",
      "valor": 135.0,
      "basis_brl_saca": -18.68,
-     "basis_cents_bu": -164.6
+     "basis_cents_bu": -164.5
     },
     {
      "praca": "Campo Grande/MS",
@@ -930,9 +1005,9 @@
     },
     {
      "praca": "Oeste da Bahia/BA",
-     "valor": 138.75,
-     "basis_brl_saca": -14.93,
-     "basis_cents_bu": -131.5
+     "valor": 139.13,
+     "basis_brl_saca": -14.55,
+     "basis_cents_bu": -128.1
     },
     {
      "praca": "Primavera do Leste/MT",
@@ -944,17 +1019,17 @@
      "praca": "Rondonópolis/MT",
      "valor": 141.0,
      "basis_brl_saca": -12.68,
-     "basis_cents_bu": -111.7
+     "basis_cents_bu": -111.6
     }
    ],
    "historico": [
     {
      "data": "21/08/2026",
      "cbot_cents": 1217.0,
-     "cambio": 5.1491,
-     "paridade": 138.32,
+     "cambio": 5.1515,
+     "paridade": 138.39,
      "indicador": 153.68,
-     "basis": 15.36
+     "basis": 15.29
     }
    ]
   }

@@ -147,7 +147,7 @@ def fetch_yahoo_series(symbol: str, range_: str, interval: str):
             res = r.json()["chart"]["result"][0]
             ts = res.get("timestamp") or []
             closes = res["indicators"]["quote"][0].get("close") or []
-            pares = [(t, round(c, 4)) for t, c in zip(ts, closes) if c is not None]
+            pares = [(t, round(c, 2)) for t, c in zip(ts, closes) if c is not None]
             return {"t": [p[0] for p in pares], "c": [p[1] for p in pares]}, res["meta"]
         except Exception as e:  # noqa: BLE001
             last_err = e
@@ -200,11 +200,16 @@ def fetch_yahoo_completo(symbol: str) -> dict:
     if prev:
         variacoes["dia"] = round((price / prev - 1) * 100, 2)
     for nome, dias in HORIZONTES:
-        base = semanal if nome == "cinco_anos" else diaria
-        ref = close_ate(base, agora - dias * 86400)
-        # Só reporta o horizonte se a série realmente cobre o período.
-        if ref and base["t"][0] <= agora - dias * 86400:
-            variacoes[nome] = round((price / ref - 1) * 100, 2)
+        alvo = agora - dias * 86400
+        # Usa a série diária quando ela alcança o horizonte; senão a semanal.
+        # Só reporta se alguma delas de fato cobre o período — melhor omitir
+        # do que comparar contra o começo da série e inventar a variação.
+        for base in (diaria, semanal):
+            if base["t"] and base["t"][0] <= alvo:
+                ref = close_ate(base, alvo)
+                if ref:
+                    variacoes[nome] = round((price / ref - 1) * 100, 2)
+                break
 
     volume = (meta or {}).get("regularMarketVolume")
     return {
@@ -1258,7 +1263,7 @@ def main() -> int:
         json.dumps(
             {"generated_at": now_iso(), "sections": sections, "errors": errors},
             ensure_ascii=False,
-            indent=1,
+            separators=(",", ":"),
         ),
         encoding="utf-8",
     )

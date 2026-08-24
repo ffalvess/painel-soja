@@ -311,11 +311,12 @@ function renderCepea(cepea){
 
   if(cepea.premio_paranagua?.length){
     const linhas = cepea.premio_paranagua.map(p=>
-      `<tr><td>${p.mes}</td><td>${p.valor>0?"+":""}${fmt(p.valor)}</td></tr>`).join("");
+      `<tr><td>${p.mes}</td><td>${p.usd_bu>0?"+":""}${fmt(p.usd_bu)}</td>
+       <td>${p.cents_bu>0?"+":""}${fmt(p.cents_bu,0)}</td></tr>`).join("");
     $("premio").innerHTML = `<h3>Prêmio de porto — Paranaguá</h3>
-      <div class="src">US¢/bushel sobre o futuro de Chicago, por mês de embarque</div>
+      <div class="src">Sobre o futuro de Chicago, por mês de embarque</div>
       <div class="tblwrap" style="margin-top:8px"><table class="curve">
-        <thead><tr><th>Embarque</th><th>Prêmio</th></tr></thead>
+        <thead><tr><th>Embarque</th><th>US$/bu</th><th>¢/bu</th></tr></thead>
         <tbody>${linhas}</tbody></table></div>`;
     $("premio").hidden=false;
   }

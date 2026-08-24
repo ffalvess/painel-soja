@@ -322,8 +322,14 @@ def collect_cepea() -> dict:
         "indicadores": indicadores,
     }
 
+    # A tabela é cotada em US$/bushel (cabeçalho "US$/Bu"), não em centavos.
     premio = [
-        {"mes": ln[0], "valor": br_float(ln[1]), "var": br_float(ln[2]) if len(ln) > 2 else None}
+        {
+            "mes": ln[0],
+            "usd_bu": br_float(ln[1]),
+            "cents_bu": round(br_float(ln[1]) * 100, 1),
+            "var": br_float(ln[2]) if len(ln) > 2 else None,
+        }
         for ln in tabelas.get("Prêmio Soja Paranaguá/PR", [])
         if "/" in ln[0] and br_float(ln[1]) is not None
     ]
@@ -1010,7 +1016,7 @@ def collect_basis(sections: dict) -> dict:
 
     premios = cepea.get("premio_paranagua") or []
     premio = premios[0] if premios else None
-    premio_cents = premio["valor"] if premio else 0.0
+    premio_cents = (premio or {}).get("cents_bu") or 0.0
 
     # O prêmio é cotado por mês de embarque e precifica contra o contrato
     # CBOT vigente naquele embarque — não contra o primeiro vencimento.

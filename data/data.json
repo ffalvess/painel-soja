@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-24T04:38:26+00:00",
+ "generated_at": "2026-08-24T05:32:55+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-24T04:38:18+00:00",
+   "updated_at": "2026-08-24T05:32:47+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1232.75,
+     "price": 1233.25,
      "prev_close": 1225.0,
-     "change_pct": 0.63,
+     "change_pct": 0.67,
      "closes": [
       1248.0,
       1208.5,
@@ -33,16 +33,16 @@
       1222.25,
       1220.75,
       1225.0,
-      1232.75
+      1233.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 520.0,
+     "price": 519.75,
      "prev_close": 483.75,
-     "change_pct": 7.49,
+     "change_pct": 7.44,
      "closes": [
       464.25,
       451.75,
@@ -65,7 +65,7 @@
       473.0,
       478.75,
       483.75,
-      520.0
+      519.75
      ]
     },
     {
@@ -104,9 +104,9 @@
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 67.69,
+     "price": 67.72,
      "prev_close": 69.35,
-     "change_pct": -2.39,
+     "change_pct": -2.35,
      "closes": [
       74.33,
       71.46,
@@ -129,16 +129,16 @@
       69.86,
       71.18,
       69.35,
-      67.69
+      67.72
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 711.0,
+     "price": 709.0,
      "prev_close": 681.5,
-     "change_pct": 4.33,
+     "change_pct": 4.04,
      "closes": [
       678.0,
       660.0,
@@ -161,16 +161,16 @@
       680.25,
       682.75,
       681.5,
-      711.0
+      709.0
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.04,
+     "price": 93.01,
      "prev_close": 94.39,
-     "change_pct": -1.43,
+     "change_pct": -1.46,
      "closes": [
       96.78,
       88.36,
@@ -193,7 +193,7 @@
       91.62,
       93.78,
       94.39,
-      93.04
+      93.01
      ]
     },
     {
@@ -236,7 +236,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-24T04:38:18+00:00",
+   "updated_at": "2026-08-24T05:32:47+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -247,7 +247,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-24T04:38:22+00:00",
+   "updated_at": "2026-08-24T05:32:51+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -408,8 +408,14 @@
    ]
   },
   "news": {
-   "updated_at": "2026-08-24T04:38:26+00:00",
+   "updated_at": "2026-08-24T05:32:55+00:00",
    "items": [
+    {
+     "title": "Grãos avançam com riscos à oferta global - Agrolink",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTXIzWHBRSUxMNEZfWEFNbklvUnBldXpIOWRyMnR6Q0tOWEc3em1JdThtQ1lKSnRiU2FUSTJtRlNZdkpmbVREMXZZcGVic1lqYkdBM19sVXFVTnE5SlZHNFlUNlRHX0JvMG11bGFaX3lGMGxPc1V3bEkzS3RDVlNuYzBoZ2NDV2Mxc3RURkE4WW5XQU9JUlpSX04wUXVFTy1uVkV4ZFRMQmM4Rkt1NXNCNw?oc=5",
+     "source": "Agrolink",
+     "published_at": "2026-08-24T05:30:00+00:00"
+    },
     {
      "title": "TJ sugere possível extinção de processo contra “Moratória da Soja” - FOLHAMAX",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbWlpZFJCZ1Zzc3lHcHZWSVQ3WDJOUmxfNURuUFQ4UXFnUGRhVmZPSGVQYVJ4a2Y1dXhKekVhMGJmTlUxYl9RNzVnLUJoYWpVY3VlR1VwczdDZVZOQ3gxZGVaR3VhSjYxVFRPRmFfZkhxckhJdFgwdWYtUWl2cEtTd0NwYUNlZmJ5c1c2cnFjeThKc0toY0s2NW9uREptOHhDSXdCZklOYlU?oc=5",
@@ -489,12 +495,6 @@
      "published_at": "2026-08-23T16:42:00+00:00"
     },
     {
-     "title": "É tempo da colheita da soja no Amapá - G1",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa2pCT0U5X1BCcFQxUVhjVXBQLVIyQWxacHItaXZpRXhhZlkwbVhsZ1hySDhCZUZTUFFOV2pLdlYxaV95cVpDdGJZRGl1eERJQjh2TVpyX2gtYVNZTW4weE5KazZEU0I2eUxjNEpBckh1M2Fqa1lMT1Nta2RjOXA1eEI5RDRMbnZob0NjTGNPMXdkYzZqdlphOVBTc0x0bnNGS0ZHSnpXUFFfNFdGMXRfeDJR0gHAAUFVX3lxTFA1SU9sX0NvQ0xCUU9ac1pIMWZCQVZWNURfaFl0cFltei1TZDVzYmZJaF92aXQ1akp0T2lxWHdtMExSRDlUb29mOHk0Ulh6ck5BRUstOU8tb3pHdWQwUE5yeDRoYmdubHZ5UTFvbktLb0FTOFZwRFJrVEdRcl9UdUh6YldJaXhhUmhzVUR2VkYzaEFPU280M2FhT05hR0JHek9mMWhoZmc0NlF4Yk9XR3dJd3YzVFRndE1tdkI0NnQ5Mw?oc=5",
-     "source": "G1",
-     "published_at": "2026-08-23T13:30:03+00:00"
-    },
-    {
      "title": "UE pode reduzir em 95% importação de soja brasileira com tolerância zero a agrotóxicos - MundoCoop",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaEIxeUtkeGx1MTZzaWxkTl9QblNyVmJSZU1LLWM0NlNaM3JPdEJOUG1FUGdhVDhubzdVUjJ3RldwZmxXOGFaalNENlMyTGgxRkFka214RVlnaEI3MG5rWU5QYWg0YTRieFl5T2lVQ1VGVTI4cEtmSURQaVpqUXdVVFhvUkJIOWF3bC1rakpWSS0ySVM4WXBMZzJDbE5NSHBYMVhyb2xtSjJYb0ZiUU1NblAtREFoVTZOSkphTm8yMA?oc=5",
      "source": "MundoCoop",
@@ -519,10 +519,10 @@
      "published_at": "2026-08-23T08:00:45"
     },
     {
-     "title": "Milho ganha força enquanto soja espera por novos sinais de demanda internacional - Canal Rural",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdWFQeGJuM21LbUJobTFYNWFVYnRpUmVNYjhyYnpSaWM0azJQUGNlNVRhbHRLcUl1T1o4dHZGVjJUVUZHMjVFUlhpWVpUUlp6eTZrY2JhT2JRQmpwRFgyWk94RnRVMDd6OFhlOGEwLTdlQUNCRXZEU0otcUdzUFIycWlOdmdpOUVsMzhFbU1mZURROEI0YlJRVlpwN3VHVkF1VlZtajEwVC1PRTlTM2h5TTZNblg4RFpZYm5tdFF6Q00?oc=5",
-     "source": "Canal Rural",
-     "published_at": "2026-08-22T14:18:38+00:00"
+     "title": "Preço da soja cai após sequência de sete altas consecutivas - Globo Rural",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRmNTY0ZrSy1BM3l6dFoyb1M0QVBNYW5iVy1rQVNtLVBULXpIX3lPU0FDQ1pUMW5NUFlFelZjWTZsZy1Fb2VRQ2laeXBKTk4zdmgtRkJUUE16YUxrY3FiSlhYZmhhUnJKaEJ0OGE5OTA1b0VUWG5Pd1RIU1FHc2NYWXBfbmFzR2dPcW16emNNNG81aTVZMmQwTGh4RHZ1aFd4RVdCU3ZZTmZGMW14SFUybldLWVNVZ0RqTWQ0MEV0VdIBzgFBVV95cUxQR3d4NG9YVW54NzhwUXFKVE9RODVsQktFTVBpVnRnSDhwYlBQVmYwVFVGNms2RlZUQmdaUlNkUXZzaGdEa2pMOVpkM2VoUzNmajhZUnA0T2JzUFd5RXZVSnFyaWNjV2E1dlZwa3V3UUhZWGw5QzJDeE9YZ01zZi14cnhsallVVVdkd2VVeWxUWFVoZXV5S2VOVXZ2eEhaWndCTEVuX0pKX0RpWGRGN2RFcHlESTlzbmFrSjM3bWhyRXpNczJDSFlCTXBzWVVfUQ?oc=5",
+     "source": "Globo Rural",
+     "published_at": "2026-08-22T10:10:15+00:00"
     },
     {
      "title": "Soja Tem Alta \"Expressiva\" no Brasil e Atinge Maior Nível em Mais de 3 Anos, Diz Cepea - Forbes Brasil",

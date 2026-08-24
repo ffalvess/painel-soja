@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-08-23T23:14:35+00:00",
+ "generated_at": "2026-08-24T00:55:04+00:00",
  "sections": {
   "quotes": {
-   "updated_at": "2026-08-23T23:14:29+00:00",
+   "updated_at": "2026-08-24T00:54:58+00:00",
    "items": [
     {
      "symbol": "ZS=F",
      "name": "Soja CBOT",
      "unit": "¢/bushel",
-     "price": 1239.5,
-     "prev_close": 1220.75,
-     "change_pct": 1.54,
+     "price": 1233.25,
+     "prev_close": 1225.0,
+     "change_pct": 0.67,
      "closes": [
       1237.5,
       1248.0,
@@ -33,16 +33,17 @@
       1200.75,
       1222.25,
       1220.75,
-      1239.5
+      1225.0,
+      1233.25
      ]
     },
     {
      "symbol": "ZC=F",
      "name": "Milho CBOT",
      "unit": "¢/bushel",
-     "price": 508.5,
-     "prev_close": 478.75,
-     "change_pct": 6.21,
+     "price": 519.75,
+     "prev_close": 483.75,
+     "change_pct": 7.44,
      "closes": [
       464.0,
       464.25,
@@ -65,16 +66,17 @@
       463.25,
       473.0,
       478.75,
-      508.5
+      483.75,
+      519.75
      ]
     },
     {
      "symbol": "ZM=F",
      "name": "Farelo de soja",
      "unit": "US$/t curta",
-     "price": 325.8,
-     "prev_close": 315.7,
-     "change_pct": 3.2,
+     "price": 326.9,
+     "prev_close": 317.7,
+     "change_pct": 2.9,
      "closes": [
       329.9,
       331.3,
@@ -97,16 +99,17 @@
       313.0,
       318.9,
       315.7,
-      325.8
+      317.7,
+      326.9
      ]
     },
     {
      "symbol": "ZL=F",
      "name": "Óleo de soja",
      "unit": "¢/lb",
-     "price": 69.58,
-     "prev_close": 71.18,
-     "change_pct": -2.25,
+     "price": 68.26,
+     "prev_close": 69.35,
+     "change_pct": -1.57,
      "closes": [
       75.59,
       74.33,
@@ -129,16 +132,17 @@
       69.69,
       69.86,
       71.18,
-      69.58
+      69.35,
+      68.26
      ]
     },
     {
      "symbol": "ZW=F",
      "name": "Trigo CBOT",
      "unit": "¢/bushel",
-     "price": 699.25,
-     "prev_close": 682.75,
-     "change_pct": 2.42,
+     "price": 707.75,
+     "prev_close": 681.5,
+     "change_pct": 3.85,
      "closes": [
       696.25,
       678.0,
@@ -161,16 +165,17 @@
       664.5,
       680.25,
       682.75,
-      699.25
+      681.5,
+      707.75
      ]
     },
     {
      "symbol": "BZ=F",
      "name": "Petróleo Brent",
      "unit": "US$/barril",
-     "price": 93.57,
+     "price": 92.93,
      "prev_close": 94.39,
-     "change_pct": -0.87,
+     "change_pct": -1.55,
      "closes": [
       100.69,
       96.78,
@@ -194,7 +199,7 @@
       91.62,
       93.78,
       94.39,
-      93.57
+      92.93
      ]
     },
     {
@@ -237,7 +242,7 @@
   },
   "fx": null,
   "rates": {
-   "updated_at": "2026-08-23T23:14:29+00:00",
+   "updated_at": "2026-08-24T00:54:58+00:00",
    "selic": 14.0,
    "cdi": 13.9,
    "ipca_mes": {
@@ -248,7 +253,7 @@
   },
   "cepea": null,
   "weather": {
-   "updated_at": "2026-08-23T23:14:32+00:00",
+   "updated_at": "2026-08-24T00:55:02+00:00",
    "cities": [
     {
      "name": "Sorriso · MT",
@@ -272,21 +277,21 @@
      ],
      "tmax": [
       36.6,
-      36.6,
-      37.5,
-      37.8,
+      36.2,
       37.3,
+      37.7,
       37.0,
-      37.3
+      36.8,
+      37.8
      ],
      "tmin": [
       23.1,
       23.6,
-      24.1,
+      24.0,
       24.3,
-      23.6,
-      25.1,
-      24.9
+      23.7,
+      25.0,
+      24.8
      ]
     },
     {
@@ -302,7 +307,7 @@
      ],
      "precip": [
       0.0,
-      0.0,
+      0.1,
       0.0,
       0.0,
       0.0,
@@ -311,21 +316,21 @@
      ],
      "tmax": [
       35.9,
-      35.5,
-      36.8,
+      35.3,
       37.0,
-      35.8,
+      36.9,
       36.2,
-      36.4
+      35.9,
+      37.0
      ],
      "tmin": [
       23.0,
-      23.2,
-      23.2,
+      23.3,
+      23.0,
       23.4,
-      23.6,
-      25.0,
-      25.2
+      23.1,
+      24.8,
+      24.9
      ]
     },
     {
@@ -343,28 +348,28 @@
       0.0,
       0.0,
       0.0,
-      0.1,
+      0.0,
       0.0,
       0.0,
       0.0
      ],
      "tmax": [
       31.7,
-      32.9,
-      33.9,
+      32.7,
+      34.9,
       33.7,
-      33.2,
-      35.7,
-      35.6
+      33.9,
+      35.3,
+      36.4
      ],
      "tmin": [
       15.5,
-      17.6,
-      20.5,
-      22.8,
+      17.7,
+      20.6,
+      22.4,
       19.7,
-      21.9,
-      24.7
+      22.4,
+      24.3
      ]
     },
     {
@@ -381,36 +386,42 @@
      "precip": [
       0.0,
       0.0,
+      0.6,
+      3.9,
       0.0,
-      1.5,
       0.0,
-      0.0,
-      1.2
+      0.6
      ],
      "tmax": [
-      27.6,
-      28.4,
-      28.4,
-      28.5,
+      28.3,
+      28.6,
+      29.3,
+      29.8,
       33.4,
-      35.5,
-      34.6
+      35.6,
+      35.3
      ],
      "tmin": [
       12.3,
-      14.6,
-      17.0,
-      18.9,
-      18.7,
-      21.7,
-      24.1
+      14.8,
+      17.4,
+      17.7,
+      18.2,
+      22.0,
+      24.0
      ]
     }
    ]
   },
   "news": {
-   "updated_at": "2026-08-23T23:14:35+00:00",
+   "updated_at": "2026-08-24T00:55:04+00:00",
    "items": [
+    {
+     "title": "TJ sugere possível extinção de processo contra “Moratória da Soja” - FOLHAMAX",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbWlpZFJCZ1Zzc3lHcHZWSVQ3WDJOUmxfNURuUFQ4UXFnUGRhVmZPSGVQYVJ4a2Y1dXhKekVhMGJmTlUxYl9RNzVnLUJoYWpVY3VlR1VwczdDZVZOQ3gxZGVaR3VhSjYxVFRPRmFfZkhxckhJdFgwdWYtUWl2cEtTd0NwYUNlZmJ5c1c2cnFjeThKc0toY0s2NW9uREptOHhDSXdCZklOYlU?oc=5",
+     "source": "FOLHAMAX",
+     "published_at": "2026-08-23T23:43:00+00:00"
+    },
     {
      "title": "Comitiva de São Paulo vence Concurso da Queima do Alho na Festa do Peão de Barretos",
      "link": "https://www.canalrural.com.br/nacional/comitiva-de-sao-paulo-vence-concurso-da-queima-do-alho-na-festa-do-peao-de-barretos/",
@@ -446,12 +457,6 @@
      "link": "https://www.canalrural.com.br/nacional/aos-7-anos-pedro-luiz-vence-primeira-eliminatoria-da-montaria-em-carneiros/",
      "source": "Canal Rural",
      "published_at": "2026-08-23T20:19:32+00:00"
-    },
-    {
-     "title": "Agrosolidário leva bebida de soja e transforma doações em qualidade de vida para idosos em MT - HiperNotícias - Você bem informado",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRTRXX2dJT2RLYUdoNzl3Z2hmLTJtWk9xaVB5X1l3OWJRSldDaW1yMFhlQTNvQU9QaF9RMVhLUGdGZ3VRWGFfMWFOUXc1cFlseDc0X3JLYjFmNGdOWkZ0RjNjXzdhS284Yy1JY3VqNG9SYlZqMXFpa1ZkdG9NWDZYN0pPal9wN08zMEVvS2ctR0hjMnV1eDZKQnhQd2l3aFI0NzdmLWNhc2dnbG5YWjRmR3JCZzFUV2pPaEFYVG5CYTJwbW1NM1Jyd3ltSQ?oc=5",
-     "source": "HiperNotícias - Você bem informado",
-     "published_at": "2026-08-23T20:04:00+00:00"
     },
     {
      "title": "Embrapa identifica plantas resistentes à praga que pode comprometer até 100% da produção",

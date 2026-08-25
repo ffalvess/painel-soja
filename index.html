@@ -80,7 +80,7 @@ table.curve{width:100%;border-collapse:collapse;font-variant-numeric:tabular-num
 .duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:10px;align-items:start}
 .card h3{font-size:14px;font-weight:650;margin-bottom:2px}
 .card .src{font-size:12px;color:var(--muted)}
-.safra .hint{font-size:12px;color:var(--ink-2);margin:8px 0 2px;padding-bottom:8px;border-bottom:1px solid var(--grid)}
+.card .hint{font-size:12px;color:var(--ink-2);margin:8px 0 2px;padding-bottom:8px;border-bottom:1px solid var(--grid)}
 .stage{padding:9px 0;border-bottom:1px solid var(--grid)}
 .stage:last-child{border-bottom:0;padding-bottom:2px}
 .stage .top{display:flex;align-items:baseline;justify-content:space-between;gap:8px}
@@ -214,6 +214,18 @@ footer a{color:var(--ink-2)}
       <div class="card safra" id="safra-br" hidden></div>
       <div class="card safra" id="safra-sd" hidden></div>
     </div>
+  </section>
+
+  <section id="sec-embarques" hidden>
+    <h2>Embarques semanais dos EUA — demanda contra a meta do WASDE</h2>
+    <div class="duo">
+      <div class="card" id="emb-destaque"></div>
+      <div class="card" id="emb-destinos" hidden></div>
+    </div>
+    <div class="card" style="margin-top:10px">
+      <div class="tblwrap"><table class="curve" id="emb-tabela"></table></div>
+    </div>
+    <div class="foot" id="emb-foot"></div>
   </section>
 
   <div class="cols">
@@ -579,6 +591,12 @@ const COND_COLORS={vp:"var(--down)",p:"color-mix(in srgb, var(--down) 45%, var(-
   f:"var(--baseline)",g:"color-mix(in srgb, var(--up) 45%, var(--surface))",e:"var(--up)"};
 const COND_LABELS={vp:"muito ruim",p:"ruim",f:"regular",g:"boa",e:"excelente"};
 
+function diaMesBR(iso){
+  if(!iso) return "";
+  return new Intl.DateTimeFormat("pt-BR",{day:"2-digit",month:"short",timeZone:"UTC"})
+    .format(new Date(iso+"T12:00:00Z")).replace(".","");
+}
+
 function diaMes(iso){
   if(!iso || !/^\d{4}-\d{2}-\d{2}$/.test(iso)) return iso||"";
   return new Intl.DateTimeFormat("pt-BR",{day:"2-digit",month:"short",timeZone:"UTC"})
@@ -713,6 +731,136 @@ function renderSafra(safra, weather, sd){
   if(ok1||ok2||ok3) $("sec-safra").hidden=false;
 }
 
+/* ------------------------------------------------- embarques semanais */
+
+const Mt = (t,d=2) => t==null ? "—" : fmt(t/1e6,d)+" Mt";
+const kt = (t) => t==null ? "—" : fmt(t/1e3,0)+" mil t";
+
+function barrasEmbarque(serie, necessario){
+  if(!serie?.length) return "";
+  const W=420,H=110,P=6,base=H-18;
+  const max=Math.max(...serie.map(s=>s.v), necessario||0, 1);
+  const slot=(W-2*P)/serie.length, bw=Math.min(22,slot-3);
+  let g="";
+  serie.forEach((s,i)=>{
+    const x=P+i*slot+(slot-bw)/2;
+    const h=Math.max(1,(s.v/max)*(base-8));
+    const d=new Date(s.data+"T12:00:00Z");
+    const rot=new Intl.DateTimeFormat("pt-BR",{day:"2-digit",month:"2-digit",timeZone:"UTC"}).format(d);
+    g+=`<rect x="${x.toFixed(1)}" y="${(base-h).toFixed(1)}" width="${bw.toFixed(1)}" height="${h.toFixed(1)}"
+      rx="2" fill="var(--accent)" opacity="${i===serie.length-1?1:.55}"
+      data-tip="${rot}: ${fmt(s.v/1e3,0)} mil t"/>`;
+  });
+  if(necessario){
+    const y=base-(necessario/max)*(base-8);
+    g+=`<line x1="${P}" y1="${y.toFixed(1)}" x2="${W-P}" y2="${y.toFixed(1)}"
+      stroke="var(--down)" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <text x="${W-P}" y="${(y-4).toFixed(1)}" text-anchor="end" font-size="9.5"
+        fill="var(--down)">ritmo necessário</text>`;
+  }
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none"
+    style="display:block;width:100%;height:110px;margin-top:8px" role="img"
+    aria-label="Embarques das últimas semanas">
+    <line x1="${P}" y1="${base}" x2="${W-P}" y2="${base}" stroke="var(--baseline)"/>${g}</svg>`;
+}
+
+function renderEmbarques(emb){
+  const itens = emb?.itens;
+  if(!itens?.length) return;
+  const soja = itens.find(i=>i.chave==="soja") || itens[0];
+
+  /* destaque da soja */
+  const kpi=(lbl,val,sub,cls)=>`<div class="kpi"><div class="lbl">${lbl}</div>
+    <div class="val"${cls?` style="color:${cls}"`:""}>${val}</div>
+    <div class="sub">${sub||""}</div></div>`;
+  const vsSem = soja.semana_anterior ? (soja.semana/soja.semana_anterior-1)*100 : null;
+  const vsAno = soja.semana_ano_passado ? (soja.semana/soja.semana_ano_passado-1)*100 : null;
+  const ritmo = soja.indice_ritmo;
+  const corRitmo = ritmo==null ? null : ritmo>=100 ? "var(--up)" : "var(--down)";
+
+  let html = `<h3>${soja.nome} — safra ${soja.safra}</h3>
+    <div class="src">Semana encerrada em ${diaMesBR(soja.semana_ref)} · USDA Export Sales</div>
+    <div class="kpis" style="margin-top:10px">
+      ${kpi("Embarques da semana", kt(soja.semana),
+            vsSem!=null ? deltaHtml(vsSem)+" vs. semana anterior" : "")}
+      ${kpi("Acumulado da safra", Mt(soja.acumulado),
+            soja.pct_meta!=null ? `${fmt(soja.pct_meta,1)}% da meta` : "")}
+      ${kpi("Índice de ritmo", ritmo!=null ? fmt(ritmo,0) : "—",
+            ritmo!=null ? (ritmo>=100?"adiantado":"atrasado")+" frente ao WASDE" : "", corRitmo)}
+      ${kpi("Compromissos", soja.pct_compromissos!=null ? fmt(soja.pct_compromissos,1)+"%" : "—",
+            "da meta, já vendido ou embarcado")}
+    </div>`;
+
+  /* barra de progresso contra a meta, com a marca do esperado até hoje */
+  if(soja.meta){
+    const pa=Math.min(100, soja.acumulado/soja.meta*100);
+    const pc=Math.min(100, soja.compromissos/soja.meta*100);
+    const esperado=soja.fracao_safra!=null ? soja.fracao_safra*100 : null;
+    html += `<div class="hint" style="margin-top:12px">Acumulado e compromissos contra a
+      meta de ${Mt(soja.meta)} do WASDE</div>
+      <div class="track" style="height:14px;border-radius:7px;margin:6px 0 4px">
+        <i style="width:${pc}%;background:color-mix(in srgb, var(--accent) 35%, var(--surface))"></i>
+        <i style="width:${pa}%;position:absolute;top:0;left:0;background:var(--accent)"></i>
+        ${esperado!=null?`<b style="left:${esperado}%" data-tip="esperado até hoje: ${fmt(esperado,0)}%"></b>`:""}
+      </div>
+      <div class="cmp">
+        <span>embarcado <em>${fmt(pa,1)}%</em></span>
+        <span>com vendas em aberto <em>${fmt(pc,1)}%</em></span>
+        ${esperado!=null?`<span>esperado até hoje <em>${fmt(esperado,0)}%</em></span>`:""}
+      </div>`;
+  }
+  html += barrasEmbarque(soja.serie, soja.necessario_semanal);
+  if(soja.necessario_semanal){
+    html += `<div class="cmp" style="margin-top:4px"><span>para cumprir a meta faltam
+      <em>${kt(Math.max(0,soja.meta-soja.acumulado))}</em>, ou
+      <em>${kt(soja.necessario_semanal)}</em> por semana</span></div>`;
+  }
+  $("emb-destaque").innerHTML = html;
+
+  /* destinos */
+  if(soja.destinos?.length){
+    const linhas = soja.destinos.map(d=>
+      `<tr${d.china?' class="front"':''}><td>${d.pais}${d.china?" 🇨🇳":""}</td>
+       <td>${Mt(d.acumulado,1)}</td><td>${d.pct!=null?fmt(d.pct,1)+"%":"—"}</td></tr>`).join("");
+    $("emb-destinos").innerHTML = `<h3>Destinos da soja americana</h3>
+      <div class="src">Acumulado da safra ${soja.safra}, por país</div>
+      <div class="tblwrap" style="margin-top:8px"><table class="curve">
+        <thead><tr><th>Destino</th><th>Acumulado</th><th>Participação</th></tr></thead>
+        <tbody>${linhas}</tbody></table></div>`;
+    $("emb-destinos").hidden=false;
+  }
+
+  /* tabela do complexo */
+  const linha = i => {
+    const vs4 = i.media_4s ? (i.semana/i.media_4s-1)*100 : null;
+    const vsA = i.semana_ano_passado ? (i.semana/i.semana_ano_passado-1)*100 : null;
+    const r = i.indice_ritmo;
+    const cor = r==null ? "" : ` style="color:${r>=100?"var(--up)":"var(--down)"};font-weight:600"`;
+    return `<tr${i.chave==="soja"?' class="front"':''}>
+      <td>${i.nome}</td><td>${kt(i.semana)}</td>
+      <td>${vs4!=null?deltaHtml(vs4):"—"}</td>
+      <td>${vsA!=null?deltaHtml(vsA):"—"}</td>
+      <td>${Mt(i.acumulado)}</td>
+      <td>${i.meta?Mt(i.meta):"—"}</td>
+      <td>${i.pct_meta!=null?fmt(i.pct_meta,1)+"%":"—"}</td>
+      <td${cor}>${r!=null?fmt(r,0):"—"}</td></tr>`;
+  };
+  $("emb-tabela").innerHTML = `<thead><tr>
+      <th>Produto</th><th>Semana</th><th>vs. média 4 sem.</th><th>vs. ano passado</th>
+      <th>Acumulado</th><th>Meta WASDE</th><th>% da meta</th><th>Ritmo</th>
+    </tr></thead><tbody>${itens.map(linha).join("")}</tbody>`;
+
+  $("emb-foot").innerHTML =
+    `<b>Índice de ritmo</b> = acumulado ÷ (meta × fração do ano-safra decorrida) × 100. ` +
+    `Acima de 100, os embarques estão adiantados frente à projeção oficial; abaixo, atrasados. ` +
+    `A fração é linear e <b>não corrige a sazonalidade</b> — o embarque americano se concentra ` +
+    `de outubro a fevereiro, então no começo do ano-safra o índice exagera o atraso. ` +
+    `Os <b>compromissos</b> (embarcado + vendido em aberto) não sofrem desse viés e são a ` +
+    `leitura antecedente. Fonte: USDA/FAS Export Sales, publicado às quintas com ~1 semana ` +
+    `de defasagem; a meta vem do WASDE para a mesma safra.`;
+  $("sec-embarques").hidden=false;
+}
+
 function renderNews(news){
   if(!news || !news.items?.length) return;
   $("news").innerHTML = news.items.map(n=>
@@ -769,6 +917,7 @@ function render(data){
   renderCurve(s.curve, s.fx);
   renderOptions(s.options);
   renderSafra(s.safra, s.weather, s.sd);
+  renderEmbarques(s.embarques);
   renderNews(s.news);
   renderWeather(s.weather);
   const errs=(data.errors||[]).map(e=>e.section);

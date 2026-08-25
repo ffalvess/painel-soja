@@ -16,6 +16,7 @@ Fontes:
   - CONAB (série histórica de grãos): safra do Brasil
   - CME Group (FTP público ftp.cmegroup.com): volume de calls/puts de soja
   - USDA/FAS PSD (api.fas.usda.gov, chave em USDA_FAS_KEY): oferta e demanda
+  - USDA/FAS ESR (mesma chave): embarques e vendas semanais dos EUA
   - Open-Meteo: previsão de chuva em cidades produtoras do Centro-Oeste
   - RSS: Google News, Canal Rural, G1 Agronegócios, Notícias Agrícolas
 """
@@ -931,18 +932,22 @@ def collect_news() -> dict:
 
 # ---------------------------------------------------------------- oferta e demanda
 
-FAS_BASE = "https://api.fas.usda.gov/api/psd"
+FAS_BASE = "https://api.fas.usda.gov/api"
 
 
-def fas(path: str):
-    """PSD do USDA/FAS. A chave vive no secret USDA_FAS_KEY."""
+def fas(path: str, servico: str = "psd", timeout: int = TIMEOUT):
+    """API do USDA/FAS. A chave vive no secret USDA_FAS_KEY.
+
+    `servico` escolhe entre "psd" (balanço de oferta e demanda) e "esr"
+    (Export Sales — embarques e vendas semanais).
+    """
     chave = os.environ.get("USDA_FAS_KEY", "").strip()
     if not chave:
         raise RuntimeError("USDA_FAS_KEY não configurada")
     r = requests.get(
-        FAS_BASE + path,
+        f"{FAS_BASE}/{servico}{path}",
         headers={**HEADERS, "X-Api-Key": chave, "Accept": "application/json"},
-        timeout=TIMEOUT,
+        timeout=timeout,
     )
     r.raise_for_status()
     return r.json()
@@ -1058,6 +1063,205 @@ def collect_sd() -> dict:
         "vintage": mes_ref,
         "unidade": "Mt",
         "escopos": escopos,
+    }
+
+
+# ---------------------------------------------------------------- embarques
+
+# Commodities do ESR e como achar a correspondente no PSD, que usa outra
+# nomenclatura. O casamento é por nome, nunca por código fixo.
+ESR_ALVOS = [
+    ("soja", "Soybeans", lambda n: "oilseed" in n and "soybean" in n),
+    ("farelo", "Soybean cake & meal", lambda n: "meal" in n and "soybean" in n),
+    ("oleo", "Soybean Oil", lambda n: n.startswith("oil,") and "soybean" in n),
+    ("milho", "Corn", lambda n: n == "corn"),
+]
+CHINA = 5700
+SEMANAS_SERIE = 16
+
+
+def psd_export_us(psd_commodities: list, casa, nomes_attr: dict, ano: int):
+    """Projeção de exportação dos EUA no PSD, em toneladas."""
+    alvo = next(
+        (c for c in psd_commodities if casa(c["commodityName"].strip().lower())), None
+    )
+    if not alvo:
+        return None, None
+    registros = fas(f"/commodity/{alvo['commodityCode']}/country/US/year/{ano}")
+    for r in registros:
+        nome = nomes_attr.get(r["attributeId"], "")
+        if nome in ("Exports", "Total Exports") and r.get("unitId") == 8:
+            return r["value"] * 1000, alvo["commodityName"].strip()
+    return None, alvo["commodityName"].strip()
+
+
+def collect_embarques() -> dict:
+    """Embarques e vendas semanais dos EUA (USDA/FAS Export Sales).
+
+    O número da semana sozinho não diz nada — o que informa é o confronto
+    com o ritmo necessário para cumprir a projeção do WASDE, com a mesma
+    semana do ano anterior e com a média das últimas quatro.
+
+    Cuidado com o ano-safra: no ESR, marketYear N vai de setembro de N-1 a
+    agosto de N (a safra N-1/N); no PSD, marketYear N é a safra N/N+1. Ou
+    seja, PSD = ESR - 1. Confundir os dois compara safras diferentes e o
+    erro passa despercebido porque as ordens de grandeza são parecidas.
+    """
+    calendario = {}
+    for r in fas("/datareleasedates", "esr"):
+        cod = r["commodityCode"]
+        if cod not in calendario or r["marketYear"] > calendario[cod]["marketYear"]:
+            calendario[cod] = r
+
+    psd_commodities = fas("/commodities")
+    nomes_attr = {
+        a["attributeId"]: a["attributeName"].strip()
+        for a in fas("/commodityAttributes")
+    }
+    esr_commodities = {c["commodityName"]: c["commodityCode"] for c in fas("/commodities", "esr")}
+
+    def semanas(registros: list) -> dict:
+        """Agrega os países por semana: {data: {embarques, acumulado, aberto}}."""
+        out = {}
+        for r in registros:
+            dia = (r.get("weekEndingDate") or "")[:10]
+            if not dia:
+                continue
+            a = out.setdefault(dia, {"embarques": 0, "acumulado": 0, "aberto": 0})
+            a["embarques"] += r.get("weeklyExports") or 0
+            a["acumulado"] += r.get("accumulatedExports") or 0
+            a["aberto"] += r.get("outstandingSales") or 0
+        return out
+
+    itens, failed = [], []
+    ano_esr = None
+    for chave, nome_esr, casa_psd in ESR_ALVOS:
+        codigo = esr_commodities.get(nome_esr)
+        if not codigo:
+            failed.append(f"{chave}: '{nome_esr}' não está no catálogo do ESR")
+            continue
+        try:
+            atual, ano = None, None
+            for tentativa in (dt.date.today().year + 1, dt.date.today().year):
+                dados = fas(
+                    f"/exports/commodityCode/{codigo}/allCountries/marketYear/{tentativa}",
+                    "esr",
+                    timeout=60,
+                )
+                if dados:
+                    atual, ano = dados, tentativa
+                    break
+            if not atual:
+                failed.append(f"{chave}: ESR sem registros")
+                continue
+            ano_esr = ano_esr or ano
+
+            porsem = semanas(atual)
+            datas = sorted(porsem)
+            ult = datas[-1]
+            cur = porsem[ult]
+
+            # mesma semana do ano anterior, pela data equivalente
+            anterior = fas(
+                f"/exports/commodityCode/{codigo}/allCountries/marketYear/{ano - 1}",
+                "esr",
+                timeout=60,
+            )
+            ant = semanas(anterior)
+            alvo_ant = (dt.date.fromisoformat(ult) - dt.timedelta(days=364)).isoformat()
+            eq = min(ant, key=lambda d: abs(
+                (dt.date.fromisoformat(d) - dt.date.fromisoformat(alvo_ant)).days
+            )) if ant else None
+
+            # ritmo: quanto do ano-safra já passou, pelo calendário do próprio ESR
+            cal = calendario.get(codigo)
+            fracao = None
+            if cal:
+                ini = dt.date.fromisoformat(cal["marketYearStart"][:10])
+                fim = dt.date.fromisoformat(cal["marketYearEnd"][:10])
+                # o calendário publicado é o do ano-safra novo; desloca para o
+                # ano-safra efetivamente carregado
+                desloca = ano - cal["marketYear"]
+                ini = ini.replace(year=ini.year + desloca)
+                fim = fim.replace(year=fim.year + desloca)
+                total = (fim - ini).days
+                if total > 0:
+                    fracao = min(
+                        1.0, max(0.0, (dt.date.fromisoformat(ult) - ini).days / total)
+                    )
+
+            # o ano-safra do PSD é o do ESR menos um
+            meta, nome_psd = psd_export_us(psd_commodities, casa_psd, nomes_attr, ano - 1)
+
+            ultimas = datas[-4:]
+            media4 = sum(porsem[d]["embarques"] for d in ultimas) / len(ultimas)
+            compromissos = cur["acumulado"] + cur["aberto"]
+
+            item = {
+                "chave": chave,
+                "nome": {"soja": "Soja", "farelo": "Farelo de soja",
+                         "oleo": "Óleo de soja", "milho": "Milho"}[chave],
+                "semana": round(cur["embarques"]),
+                "semana_ref": ult,
+                "semana_anterior": round(porsem[datas[-2]]["embarques"]) if len(datas) > 1 else None,
+                "media_4s": round(media4),
+                "semana_ano_passado": round(ant[eq]["embarques"]) if eq else None,
+                "acumulado": round(cur["acumulado"]),
+                "acumulado_ano_passado": round(ant[eq]["acumulado"]) if eq else None,
+                "em_aberto": round(cur["aberto"]),
+                "compromissos": round(compromissos),
+                "meta": round(meta) if meta else None,
+                "meta_fonte": nome_psd,
+                "safra": f"{ano - 1}/{str(ano)[-2:]}",
+                "fracao_safra": round(fracao, 3) if fracao is not None else None,
+                "serie": [
+                    {"data": d, "v": round(porsem[d]["embarques"])}
+                    for d in datas[-SEMANAS_SERIE:]
+                ],
+            }
+            if meta:
+                item["pct_meta"] = round(cur["acumulado"] / meta * 100, 1)
+                item["pct_compromissos"] = round(compromissos / meta * 100, 1)
+                if fracao:
+                    item["indice_ritmo"] = round(
+                        (cur["acumulado"] / meta) / fracao * 100, 1
+                    )
+                semanas_restantes = max(1, round((1 - (fracao or 0)) * 52))
+                item["necessario_semanal"] = round(
+                    max(0, meta - cur["acumulado"]) / semanas_restantes
+                )
+
+            if chave == "soja":
+                porpais = {}
+                for r in atual:
+                    if (r.get("weekEndingDate") or "")[:10] != ult:
+                        continue
+                    porpais[r["countryCode"]] = r.get("accumulatedExports") or 0
+                nomes_pais = {
+                    c["countryCode"]: c["countryName"].strip()
+                    for c in fas("/countries", "esr")
+                }
+                top = sorted(porpais.items(), key=lambda kv: -kv[1])[:8]
+                item["destinos"] = [
+                    {
+                        "pais": nomes_pais.get(cod, str(cod)).title(),
+                        "acumulado": round(v),
+                        "pct": round(v / cur["acumulado"] * 100, 1) if cur["acumulado"] else None,
+                        "china": cod == CHINA,
+                    }
+                    for cod, v in top if v > 0
+                ]
+            itens.append(item)
+        except Exception as e:  # noqa: BLE001
+            failed.append(f"{chave}: {e}")
+
+    if not itens:
+        raise RuntimeError("; ".join(failed) or "ESR não devolveu nada")
+    return {
+        "updated_at": now_iso(),
+        "unidade": "toneladas",
+        "itens": itens,
+        "failed": failed,
     }
 
 
@@ -1223,6 +1427,7 @@ COLLECTORS = {
     "weather": collect_weather,
     "news": collect_news,
     "sd": collect_sd,
+    "embarques": collect_embarques,
 }
 
 DERIVED = {"basis": collect_basis}

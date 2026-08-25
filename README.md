@@ -99,7 +99,15 @@ algoritmos, limitações, aplicação comercial, próximos passos e glossário.
   que é o gatilho prático do plantio.
 - Derivativos de soja da B3 (futuro SFI e opções) ficaram de fora: o boletim
   legado (`www2.bmf.com.br`) foi desligado no servidor e não há API pública
-  gratuita; a liquidez desses contratos também é muito baixa.
+  gratuita; a liquidez desses contratos também é muito baixa. O Notícias
+  Agrícolas publica uma tabela "BRASIL (B3)" na mesma página que o painel já
+  raspa (soja, milho, café e boi, um vencimento cada) — é pouco, mas é um
+  caminho se algum dia isso interessar.
+- O **balcão nas praças** é cotado por cooperativas, sindicatos e corretoras,
+  e o painel mostra quem cotou cada uma. Consultorias como a Safras & Mercado
+  publicam as mesmas praças com base, prazo de pagamento e ponto de entrega
+  diferentes; divergências de alguns reais por saca contra o que sai na
+  imprensa são esperadas e não indicam erro.
 - A série histórica do basis é construída daqui para a frente: não há
   arquivo gratuito do indicador para reconstruir o passado.
 - A densidade risco-neutra (Breeden-Litzenberger) não está implementada —

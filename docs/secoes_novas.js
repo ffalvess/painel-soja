@@ -95,7 +95,10 @@ const algoritmos = [
     "horizonte de semanas."),
 
   H2("8.4 Seleção dos contratos da curva"),
-  P("A soja negocia em sete meses de vencimento, com códigos herdados do pregão viva-voz:"),
+  P("A soja negocia em sete meses de vencimento e o milho em cinco, com códigos herdados " +
+    "do pregão viva-voz. Os calendários são diferentes porque cada grão segue o seu ciclo: " +
+    "a soja acompanha o esmagamento, o milho a colheita americana."),
+  P("Soja:"),
   tabela(
     [{ t: "Código", p: 0.14 }, { t: "Mês", p: 0.2 }, { t: "Papel no ciclo", p: 0.66 }],
     [
@@ -108,12 +111,69 @@ const algoritmos = [
       ["X", "novembro", "Safra nova americana, o contrato mais líquido do ano"],
     ]),
   ESPACO(),
+  P("Milho:"),
+  tabela(
+    [{ t: "Código", p: 0.14 }, { t: "Mês", p: 0.2 }, { t: "Papel no ciclo", p: 0.66 }],
+    [
+      ["H", "março", "Safra velha americana, escoamento do estoque de inverno"],
+      ["K", "maio", "Referência da safra velha, antes do plantio americano definir a nova"],
+      ["N", "julho", "Polinização nos EUA — o contrato mais sensível a clima do ano"],
+      ["U", "setembro", "Transição, início da colheita americana; liquidez baixa"],
+      ["Z", "dezembro", "Safra nova americana, o contrato de referência do milho"],
+    ]),
+  ESPACO(),
   P("O algoritmo gera os próximos sete vencimentos a partir do mês corrente, com uma regra " +
     "de corte: passado o dia 15, o contrato do mês corrente é descartado, porque está " +
     "próximo demais do vencimento e a liquidez migrou. O símbolo é montado como o prefixo " +
     "da commodity, o código do mês, o ano com dois dígitos e o sufixo da bolsa."),
+  P("As duas curvas são buscadas numa requisição só. O endpoint que devolve posições em " +
+    "aberto exige cookie e crumb, e o Yahoo limita por IP — os IPs do GitHub Actions batem " +
+    "no limite com facilidade, então o par de autenticação é obtido uma vez por execução e " +
+    "reaproveitado entre os coletores."),
+  P("Cada contrato guarda também o spread para o vencimento anterior. Positivo é carrego: " +
+    "o mercado paga para estocar. Negativo é inversão: o mercado quer o grão agora. Além " +
+    "de ser a base da decisão de armazenagem, é esse número que explica o degrau descrito " +
+    "a seguir."),
 
-  H2("8.5 Séries temporais e variações multi-horizonte"),
+  H2("8.5 Contínuos e contratos: a armadilha da emenda"),
+  P("Os cartões de cotação usam símbolos terminados em “=F” — ZS=F, ZC=F, ZW=F, ZM=F, " +
+    "ZL=F, BZ=F. Nenhum deles é um contrato. São séries contínuas: apontam para o " +
+    "vencimento ativo e trocam de contrato sozinhas quando ele se aproxima do vencimento."),
+  P("O problema é como a troca aparece na série histórica. O Yahoo emenda o contrato novo " +
+    "no lugar do velho sem retroajustar os preços anteriores. Como vencimentos diferentes " +
+    "negociam a preços diferentes, no dia da rolagem a série dá um degrau que não " +
+    "corresponde a nenhum movimento de mercado."),
+  P("O caso que motivou a correção: em 25 de agosto de 2026 o ZC=F passou de setembro para " +
+    "dezembro de 2026. O fechamento anterior era 491,50 ¢/bu e o novo, 523,25 — um salto de " +
+    "31,75 ¢, que o painel exibia como alta de 6,46% num único dia. Três sinais mostravam " +
+    "que era emenda, não mercado:"),
+  tabela(
+    [{ t: "Sinal", p: 0.34 }, { t: "O que mostrava", p: 0.66 }],
+    [
+      ["Magnitude", "6,46% num dia excede o percentil 99 do próprio milho no último ano (5,44%), contra mediana diária de 0,75%"],
+      ["Intradiário", "Nenhum salto: a sessão inteira negociou entre 513 e 523, ou seja, abriu já no patamar novo"],
+      ["Spread", "+31,75 ¢ é exatamente o carrego setembro→dezembro do milho, cerca de 10 a 11 ¢ por mês"],
+    ]),
+  ESPACO(),
+  P("A correção tem três partes. A variação do dia passou a vir do endpoint de cotação, " +
+    "que compara o contrato com o fechamento dele mesmo e por isso é imune à emenda. O " +
+    "campo que nomeia o contrato por trás do contínuo passou a ser gravado, e o painel " +
+    "exibe o vencimento ao lado do nome em cada cartão — “Milho CBOT · dez/26”. E a curva " +
+    "de vencimentos, que antes só existia para a soja, passou a cobrir o milho: com " +
+    "setembro e dezembro visíveis lado a lado, o degrau deixa de ser uma alta fantasma e " +
+    "vira o que sempre foi, um spread de calendário."),
+  P("O que continua em aberto: as variações de mais de um dia (semana, mês, trimestre, ano, " +
+    "cinco anos) ainda saem da série emendada e ainda carregam os degraus das rolagens " +
+    "passadas. Retroajustar exige saber a data de cada rolagem, e nenhuma fonte gratuita " +
+    "publica esse histórico. O painel passou a acumular esse registro por conta própria, " +
+    "um por dia, no mesmo modelo da série do basis — daqui a alguns meses o retroajuste " +
+    "fica possível. Enquanto isso, a ressalva aparece no rodapé do gráfico."),
+  P("Vale lembrar que o milho não usa o mesmo fator de conversão da soja: o bushel de milho " +
+    "pesa 56 libras contra 60 da soja, como registra a tabela de conversões da seção 8.2. " +
+    "Converter milho em reais por saca com a constante da soja subestima o valor em cerca " +
+    "de 7%."),
+
+  H2("8.6 Séries temporais e variações multi-horizonte"),
   H3("Três granularidades"),
   P("Cada símbolo guarda três séries, escolhidas para cobrir todos os períodos do painel " +
     "com o menor volume de dados possível:"),
@@ -147,7 +207,7 @@ const algoritmos = [
     "estão ordenadas e têm no máximo algumas centenas de pontos, então o custo é " +
     "irrelevante. Com séries longas, busca binária seria o caminho."),
 
-  H2("8.6 Renderização dos gráficos no navegador"),
+  H2("8.7 Renderização dos gráficos no navegador"),
   P("Todos os gráficos são SVG gerado em JavaScript, sem biblioteca. A escolha do SVG em " +
     "vez de canvas se justifica por três motivos: os elementos são inspecionáveis e " +
     "acessíveis, escalam sem perda em qualquer densidade de tela, e o volume de pontos " +
@@ -170,7 +230,7 @@ const algoritmos = [
     "os pontos com timestamp dentro da janela e redesenha. Isso torna a interação " +
     "instantânea e mantém o painel funcional mesmo se a conexão cair depois da carga."),
 
-  H2("8.7 Balanço de oferta e demanda"),
+  H2("8.8 Balanço de oferta e demanda"),
   H3("Descoberta dinâmica em vez de identificadores fixos"),
   P("O catálogo do USDA tem linhas separadas para grão, farelo e óleo, com códigos numéricos " +
     "próximos e nomes parecidos. O algoritmo descobre o código da commodity e os " +
@@ -204,7 +264,7 @@ const algoritmos = [
     "recua um ano. O mês da estimativa vem no próprio registro e identifica a rodada do " +
     "WASDE a que os números pertencem."),
 
-  H2("8.8 Extração de dados semiestruturados"),
+  H2("8.9 Extração de dados semiestruturados"),
   P("Quatro fontes não oferecem API e exigem extração. Em todas, a estratégia é ancorar em " +
     "rótulos textuais em vez de posições fixas, porque posição quebra a cada mudança de " +
     "layout e rótulo geralmente sobrevive."),
@@ -236,7 +296,7 @@ const algoritmos = [
     "matéria costuma aparecer em mais de um feed com pequenas variações de pontuação. A " +
     "ordenação final é por data de publicação decrescente."),
 
-  H2("8.9 Robustez de rede"),
+  H2("8.10 Robustez de rede"),
   tabela(
     [{ t: "Fonte", p: 0.26 }, { t: "Estratégia", p: 0.74 }],
     [
@@ -248,7 +308,7 @@ const algoritmos = [
     ]),
   ESPACO(),
 
-  H2("8.10 Modelo de direção de preço (especificado, não implementado)"),
+  H2("8.11 Modelo de direção de preço (especificado, não implementado)"),
   P("A especificação está documentada na página do modelo e é reproduzida aqui com o " +
     "protocolo de validação detalhado."),
   tabela(
@@ -290,7 +350,7 @@ const algoritmos = [
   LI("Clima: chuva acumulada e desvio da normal nas regiões produtoras, em ambos os hemisférios."),
   LI("Posicionamento: posição líquida de fundos, quando a fonte estiver integrada."),
 
-  H2("8.11 Densidade risco-neutra (bloqueado por falta de dados)"),
+  H2("8.12 Densidade risco-neutra (bloqueado por falta de dados)"),
   P("O resultado de Breeden e Litzenberger (1978) diz que os preços das opções, lidos ao " +
     "longo dos preços de exercício, contêm a distribuição de probabilidade inteira que o " +
     "mercado atribui ao preço futuro. Não é preciso estimar nada — só extrair."),

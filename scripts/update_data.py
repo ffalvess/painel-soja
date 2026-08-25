@@ -1447,6 +1447,13 @@ def collect_basis(sections: dict) -> dict:
     premios = cepea.get("premio_paranagua") or []
     premio = premios[0] if premios else None
     premio_cents = (premio or {}).get("cents_bu") or 0.0
+    # Sem prêmio não existe paridade de exportação: o cálculo degenera em
+    # "indicador menos Chicago puro", que dá basis de +9% e parece um sinal
+    # forte de mercado quando é só um campo faltando. Melhor não publicar e
+    # deixar a seção herdar o último valor bom — o Notícias Agrícolas já
+    # removeu essa tabela da página no meio de um dia.
+    if not premio_cents:
+        raise RuntimeError("prêmio de Paranaguá indisponível — basis não calculado")
 
     # O prêmio é cotado por mês de embarque e precifica contra o contrato
     # CBOT vigente naquele embarque — não contra o primeiro vencimento.

@@ -37,13 +37,14 @@ esse JSON — não há servidor, banco de dados nem custo.
 | Indicadores CEPEA (Paranaguá e Paraná), prêmio de porto e balcão nas praças | Cepea/Esalq, via Notícias Agrícolas | O site do CEPEA passou a exigir verificação da Cloudflare e responde 403 a robôs; o Notícias Agrícolas republica citando a fonte |
 | Chuva 7 dias e acumulado de 30 dias (Sorriso, Sinop, Rio Verde, Dourados) | Open-Meteo (`past_days=31`) | Sem chave; o acumulado indica se a janela de plantio abre |
 | Notícias | Google News RSS, Canal Rural, G1 Agronegócios, Notícias Agrícolas | Links diretos para as matérias |
+| Embarques e vendas semanais dos EUA (complexo soja e milho) | USDA/FAS Export Sales (ESR) — `api.fas.usda.gov/api/esr`, header `X-Api-Key` | Mesma chave do PSD. Publicado às quintas com ~1 semana de defasagem. **Atenção:** no ESR o `marketYear` N é a safra N-1/N; no PSD é a safra N/N+1 |
 | Oferta e demanda da soja (mundo, Brasil, EUA) | USDA/FAS PSD — `api.fas.usda.gov`, header `X-Api-Key` | Exige o secret `USDA_FAS_KEY`; código da commodity e atributos descobertos em tempo de execução |
 | Basis (paridade de exportação vs. indicador; interior vs. porto) | Derivado das seções acima | Casa o mês de embarque do prêmio com o contrato CBOT correspondente; a série é acumulada em `data/basis_history.json` |
 
 ## Páginas
 
 - `index.html` — painel do dia: câmbio, mercado físico, cotações, curva de
-  vencimentos, opções, safra, clima e notícias. Os cartões de cotação são
+  vencimentos, opções, safra, embarques semanais, clima e notícias. Os cartões de cotação são
   clicáveis e abrem a série de 1 dia a 5 anos, com as variações acumuladas
   em dia, semana, mês, trimestre, ano e 5 anos.
 - `modelo.html` — decomposição do preço em paridade de exportação + basis
@@ -65,6 +66,14 @@ algoritmos, limitações, aplicação comercial, próximos passos e glossário.
 - **Contratos cotados:** edite `YAHOO_SYMBOLS`.
 
 ## Limitações conhecidas
+
+- O **índice de ritmo** dos embarques usa fração de ano-safra linear, que não
+  corrige a sazonalidade do embarque americano (concentrado de outubro a
+  fevereiro). No começo do ano-safra ele exagera o atraso. A correção exige
+  perfil sazonal histórico.
+- A **faixa esperada pelo mercado** para os embarques semanais, citada pelas
+  matérias ("dentro do esperado"), vem de pesquisa com analistas e não é
+  publicada de forma estruturada — o painel não a exibe.
 
 - Cotações não são em tempo real (atraso das fontes + atualização horária).
 - O cron do GitHub pode atrasar alguns minutos em horário de pico.

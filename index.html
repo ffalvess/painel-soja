@@ -776,7 +776,11 @@ function renderEmbarques(emb){
   const vsSem = soja.semana_anterior ? (soja.semana/soja.semana_anterior-1)*100 : null;
   const vsAno = soja.semana_ano_passado ? (soja.semana/soja.semana_ano_passado-1)*100 : null;
   const ritmo = soja.indice_ritmo;
-  const corRitmo = ritmo==null ? null : ritmo>=100 ? "var(--up)" : "var(--down)";
+  // faixa neutra: 99,7 e 100,3 arredondam ambos para 100 e não são
+  // diferença de ritmo — pintar um de verde e outro de vermelho confunde
+  const corDoRitmo = r => r==null ? null
+    : r >= 102 ? "var(--up)" : r <= 98 ? "var(--down)" : "var(--ink-2)";
+  const corRitmo = corDoRitmo(ritmo);
 
   let html = `<h3>${soja.nome} — safra ${soja.safra}</h3>
     <div class="src">Semana encerrada em ${diaMesBR(soja.semana_ref)} · USDA Export Sales</div>
@@ -786,7 +790,7 @@ function renderEmbarques(emb){
       ${kpi("Acumulado da safra", Mt(soja.acumulado),
             soja.pct_meta!=null ? `${fmt(soja.pct_meta,1)}% da meta` : "")}
       ${kpi("Índice de ritmo", ritmo!=null ? fmt(ritmo,0) : "—",
-            ritmo!=null ? (ritmo>=100?"adiantado":"atrasado")+" frente ao WASDE" : "", corRitmo)}
+            ritmo==null ? "" : (ritmo>=102?"adiantado":ritmo<=98?"atrasado":"em linha")+" frente ao WASDE", corRitmo)}
       ${kpi("Compromissos", soja.pct_compromissos!=null ? fmt(soja.pct_compromissos,1)+"%" : "—",
             "da meta, já vendido ou embarcado")}
     </div>`;
@@ -804,8 +808,8 @@ function renderEmbarques(emb){
         ${esperado!=null?`<b style="left:${esperado}%" data-tip="esperado até hoje: ${fmt(esperado,0)}%"></b>`:""}
       </div>
       <div class="cmp">
-        <span>embarcado <em>${fmt(pa,1)}%</em></span>
-        <span>com vendas em aberto <em>${fmt(pc,1)}%</em></span>
+        <span>embarcado <em>${fmt(soja.pct_meta,1)}%</em></span>
+        <span>com vendas em aberto <em>${fmt(soja.pct_compromissos,1)}%</em></span>
         ${esperado!=null?`<span>esperado até hoje <em>${fmt(esperado,0)}%</em></span>`:""}
       </div>`;
   }
@@ -835,7 +839,7 @@ function renderEmbarques(emb){
     const vs4 = i.media_4s ? (i.semana/i.media_4s-1)*100 : null;
     const vsA = i.semana_ano_passado ? (i.semana/i.semana_ano_passado-1)*100 : null;
     const r = i.indice_ritmo;
-    const cor = r==null ? "" : ` style="color:${r>=100?"var(--up)":"var(--down)"};font-weight:600"`;
+    const cor = r==null ? "" : ` style="color:${corDoRitmo(r)};font-weight:600"`;
     return `<tr${i.chave==="soja"?' class="front"':''}>
       <td>${i.nome}</td><td>${kt(i.semana)}</td>
       <td>${vs4!=null?deltaHtml(vs4):"—"}</td>
@@ -852,7 +856,8 @@ function renderEmbarques(emb){
 
   $("emb-foot").innerHTML =
     `<b>Índice de ritmo</b> = acumulado ÷ (meta × fração do ano-safra decorrida) × 100. ` +
-    `Acima de 100, os embarques estão adiantados frente à projeção oficial; abaixo, atrasados. ` +
+    `Acima de 102 os embarques estão adiantados frente à projeção oficial, abaixo de 98 atrasados, ` +
+    `e entre os dois em linha — a diferença nessa faixa é menor que o ruído semanal. ` +
     `A fração é linear e <b>não corrige a sazonalidade</b> — o embarque americano se concentra ` +
     `de outubro a fevereiro, então no começo do ano-safra o índice exagera o atraso. ` +
     `Os <b>compromissos</b> (embarcado + vendido em aberto) não sofrem desse viés e são a ` +

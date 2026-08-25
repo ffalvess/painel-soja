@@ -1,109 +1,72 @@
-"""Sonda temporária: extrai os números da matéria do Canal Rural.
+"""Sonda temporária: confere o físico do painel contra o Notícias Agrícolas.
 
-A URL direta devolve 403 para o IP do Actions (proteção anti-robô). O feed RSS
-do mesmo site é lido pelo coletor sem problema, então a sonda tenta várias
-rotas até uma responder.
+A matéria do Canal Rural (fonte Safras & Mercado) traz Rio Verde/GO a R$ 138,00
+e Rondonópolis/MT a R$ 138,00, enquanto o painel mostra R$ 130,00 e R$ 141,00.
+Antes de concluir que são só fontes diferentes, é preciso ver se o painel está
+lendo a tabela do Notícias Agrícolas corretamente.
 
 Rodar pelo workflow `probe.yml` e ler os logs. Remover depois.
 """
 
-import html
 import re
-import xml.etree.ElementTree as ET
+import sys
 
-import requests
+sys.path.insert(0, "scripts")
 
-SLUG = (
-    "negocios-da-soja-melhoram-mas-distancia-entre-compradores-e-vendedores-"
-    "limita-negocios"
-)
-BASE = "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/"
-URL = BASE + SLUG + "/"
+import requests  # noqa: E402
 
-NAVEGADOR = {
+URL = "https://www.noticiasagricolas.com.br/cotacoes/soja"
+
+HEADERS = {
     "User-Agent": (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 "
-        "(KHTML, like Gecko) Version/17.4 Safari/605.1.15"
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
     ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
-    "Referer": "https://www.google.com/",
-    "Upgrade-Insecure-Requests": "1",
+    "Accept-Language": "pt-BR,pt;q=0.9",
 }
 
 
-def limpa(bruto: str) -> str:
-    s = re.sub(r"(?is)<(script|style|noscript|svg)[^>]*>.*?</\1>", " ", bruto)
-    s = re.sub(r"(?i)</(p|div|h[1-6]|li|tr)\s*>", "\n", s)
-    s = re.sub(r"(?i)<br\s*/?>", "\n", s)
-    s = re.sub(r"(?i)</t[dh]\s*>", " | ", s)
-    s = re.sub(r"<[^>]+>", " ", s)
-    s = html.unescape(s)
-    s = re.sub(r"[ \t\xa0]+", " ", s)
-    return re.sub(r"\n\s*\n+", "\n", s).strip()
-
-
-def mostra(rotulo: str, texto: str) -> None:
-    print(f"\n{'=' * 78}\n{rotulo} — {len(texto)} caracteres\n{'=' * 78}")
-    print(texto[:12000])
-
-
-def tenta_direto() -> str:
-    """A página em si, com cabeçalhos de navegador."""
-    for url in (URL, URL + "amp/", BASE + SLUG + "/amp/", URL + "?amp=1"):
-        try:
-            r = requests.get(url, headers=NAVEGADOR, timeout=45, allow_redirects=True)
-            print(f"  {r.status_code}  {url}")
-            if r.ok and len(r.content) > 3000:
-                r.encoding = r.apparent_encoding or "utf-8"
-                return limpa(r.text)
-        except Exception as e:  # noqa: BLE001
-            print(f"  ERRO  {url}: {e}")
-    return ""
-
-
-def tenta_rss() -> str:
-    """O feed do site — o coletor já o lê sem tomar 403."""
-    try:
-        r = requests.get(
-            "https://www.canalrural.com.br/feed/", headers=NAVEGADOR, timeout=45
-        )
-        print(f"  feed: {r.status_code}, {len(r.content)} bytes")
-        r.raise_for_status()
-        root = ET.fromstring(r.content)
-        achou = ""
-        print("  itens no feed:")
-        for item in root.iter("item"):
-            link = (item.findtext("link") or "").strip()
-            titulo = (item.findtext("title") or "").strip()
-            print(f"    - {titulo[:90]}")
-            if SLUG in link:
-                partes = [titulo, item.findtext("pubDate") or ""]
-                for tag in ("description", "{http://purl.org/rss/1.0/modules/content/}encoded"):
-                    v = item.findtext(tag)
-                    if v:
-                        partes.append(limpa(v))
-                achou = "\n".join(partes)
-        return achou
-    except Exception as e:  # noqa: BLE001
-        print(f"  ERRO no feed: {e}")
-        return ""
-
-
 def main() -> None:
-    print("=== 1. página direta ===")
-    texto = tenta_direto()
-    if texto:
-        mostra("PÁGINA", texto)
-        return
+    r = requests.get(URL, headers=HEADERS, timeout=45)
+    print("status:", r.status_code, "| bytes:", len(r.content))
+    r.raise_for_status()
+    bruto = r.text
 
-    print("\n=== 2. feed RSS ===")
-    texto = tenta_rss()
-    if texto:
-        mostra("ITEM DO FEED", texto)
-        return
+    # Todas as tabelas, com cabeçalho, para ver qual coluna o coletor lê e se
+    # existe mais de uma cotação por praça (balcão x posto, à vista x a prazo).
+    tabelas = re.findall(r"(?is)<table.*?</table>", bruto)
+    print(f"\n{len(tabelas)} tabela(s) na página")
 
-    print("\nNenhuma rota funcionou.")
+    for i, t in enumerate(tabelas):
+        titulo = ""
+        # legenda/caption ou o h2/h3 imediatamente antes da tabela
+        m = re.search(r"(?is)<caption[^>]*>(.*?)</caption>", t)
+        if m:
+            titulo = re.sub(r"<[^>]+>", " ", m.group(1))
+        else:
+            pos = bruto.find(t)
+            antes = bruto[max(0, pos - 1200) : pos]
+            hs = re.findall(r"(?is)<h[1-4][^>]*>(.*?)</h[1-4]>", antes)
+            if hs:
+                titulo = re.sub(r"<[^>]+>", " ", hs[-1])
+        titulo = re.sub(r"\s+", " ", titulo).strip()
+
+        linhas = re.findall(r"(?is)<tr[^>]*>(.*?)</tr>", t)
+        print(f"\n{'=' * 78}\nTABELA {i}  —  {titulo!r}  ({len(linhas)} linhas)\n{'=' * 78}")
+        for linha in linhas[:22]:
+            cels = re.findall(r"(?is)<t[dh][^>]*>(.*?)</t[dh]>", linha)
+            cels = [re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", c)).strip() for c in cels]
+            cels = [c for c in cels if c]
+            if cels:
+                print("   " + " | ".join(cels))
+
+    print(f"\n{'=' * 78}\nBUSCA DIRETA POR PRAÇA\n{'=' * 78}")
+    texto = re.sub(r"<[^>]+>", " ", bruto)
+    texto = re.sub(r"[ \t\xa0]+", " ", texto)
+    for praca in ("Rio Verde", "Rondon", "Sorriso", "Jata", "Cascavel", "Dourados"):
+        for m in re.finditer(praca, texto):
+            trecho = texto[m.start() : m.start() + 160].replace("\n", " ")
+            print(f"  {praca:12} …{trecho}")
 
 
 if __name__ == "__main__":

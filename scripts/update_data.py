@@ -330,7 +330,11 @@ def collect_fx() -> dict:
         fx["eurbrl"] = pick("EURBRL")
         fx["source"] = "AwesomeAPI"
     except Exception as e:  # noqa: BLE001 - a AwesomeAPI limita IPs do Actions (429)
-        # Fallback: Yahoo Finance para dólar/euro comerciais
+        # Fallback: Yahoo Finance. Atenção — `BRL=X` não é o dólar comercial:
+        # é o spot negociado 24 h no exterior. Depois que o mercado brasileiro
+        # fecha os dois descolam, e a variação do dia chega a sair com sinal
+        # oposto (em 25/08/2026 o comercial fechou -0,29% e o Yahoo marcava
+        # +0,19%). Por isso o painel precisa saber de onde veio o número.
         fx["awesomeapi_error"] = str(e)
         for key, symbol in (("usdbrl", "BRL=X"), ("eurbrl", "EURBRL=X")):
             q = fetch_yahoo_symbol(symbol)
@@ -342,6 +346,7 @@ def collect_fx() -> dict:
                 "pct_change": q["change_pct"],
             }
         fx["source"] = "Yahoo Finance"
+        fx["spot_24h"] = True
 
     try:
         end = dt.date.today()
@@ -511,8 +516,24 @@ def collect_cepea() -> dict:
         praca = next((p for p in PRACAS if ln[0].startswith(p)), None)
         valor = br_float(ln[1])
         if praca and valor is not None:
+            # A tabela nomeia quem cotou — "Rio Verde/GO (Comigo)",
+            # "Rondonópolis/MT (Samir Rosa Assessoria Comercial)". São preços
+            # de balcão de cooperativas, sindicatos e corretoras, e é por isso
+            # que divergem de consultorias como a Safras & Mercado: base,
+            # prazo de pagamento e ponto de entrega são outros. Guardar o
+            # agente é o que torna a diferença legível em vez de suspeita.
+            # Só o que vem depois do nome da praça: em "Porto Paranaguá
+            # (disponível)" o parêntese é parte do próprio nome, não o agente.
+            resto = ln[0].strip()[len(praca) :]
+            m = re.search(r"\(([^)]+)\)\s*$", resto)
+            agente = m.group(1).strip() if m else None
             fisico.append(
-                {"praca": praca, "valor": valor, "var_dia_pct": br_float(ln[2])}
+                {
+                    "praca": praca,
+                    "valor": valor,
+                    "var_dia_pct": br_float(ln[2]),
+                    "agente": agente,
+                }
             )
     if fisico:
         fisico.sort(key=lambda f: PRACAS.index(f["praca"]))

@@ -48,6 +48,7 @@ h2{font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
 /* tiles de cotações */
 .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:10px}
 .tile .lbl{font-size:13px;color:var(--ink-2)}
+.tile .venc{font-size:11px;color:var(--muted);border:1px solid var(--grid);border-radius:4px;padding:1px 5px;margin-left:6px;white-space:nowrap}
 .tile .row{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-top:3px}
 .tile .val{font-size:24px;font-weight:600}
 .tile .unit{font-size:12px;color:var(--muted)}
@@ -70,6 +71,10 @@ table.curve{width:100%;border-collapse:collapse;font-variant-numeric:tabular-num
 .curve th:first-child,.curve td:first-child{text-align:left}
 .curve tbody tr:last-child td{border-bottom:0}
 .curve .front td{font-weight:600}
+.curve td.up{color:var(--up)}
+.curve td.down{color:var(--down)}
+#curvas{display:grid;grid-template-columns:repeat(auto-fit,minmax(740px,1fr));gap:10px;align-items:start}
+#curvas h3{margin-bottom:8px}
 .volcell{position:relative;min-width:130px}
 .volcell .share{font-size:11px;color:var(--muted);margin-left:5px}
 .volbar{position:absolute;left:6px;right:6px;bottom:3px;height:3px;border-radius:2px;background:var(--grid);overflow:hidden}
@@ -194,11 +199,9 @@ footer a{color:var(--ink-2)}
   </section>
 
   <section id="sec-curve" hidden>
-    <h2>Soja CBOT — curva de vencimentos</h2>
-    <div class="card">
-      <div class="tblwrap"><table class="curve" id="curve"></table></div>
-      <div class="foot" id="curve-foot"></div>
-    </div>
+    <h2>Curvas de vencimento na CBOT</h2>
+    <div id="curvas"></div>
+    <div class="foot" id="curve-foot"></div>
   </section>
 
   <section id="sec-options" hidden>
@@ -271,7 +274,13 @@ const $ = (id) => document.getElementById(id);
 const nf = (dig=2) => new Intl.NumberFormat("pt-BR",{minimumFractionDigits:dig,maximumFractionDigits:dig});
 const fmt = (v,dig=2) => v==null ? "—" : nf(dig).format(v);
 const SP = "America/Sao_Paulo";
-const BU_POR_SACA = 60/27.2155; // bushels de soja em uma saca de 60 kg
+// O bushel mede volume, e cada grão tem peso legal próprio: soja 60 lb
+// (27,2155 kg) e milho 56 lb (25,4012 kg). Converter milho com a constante da
+// soja subestima o R$/saca em ~7%.
+const KG_BUSHEL_SOJA = 27.2155;
+const BU_POR_SACA = 60/KG_BUSHEL_SOJA;
+const sacaDeCents = (cents, usd, kgBushel=KG_BUSHEL_SOJA) =>
+  usd && cents!=null ? (cents/100)*(60/kgBushel)*usd : null;
 
 function deltaHtml(pct){
   if(pct==null) return "";
@@ -342,14 +351,17 @@ function renderQuotes(quotes, fx){
   $("tiles").innerHTML = quotes.items.map((q,i)=>{
     let extra="";
     if(q.symbol==="ZS=F" && usd && q.price){
-      const saca=(q.price/100)*BU_POR_SACA*usd;
+      const saca=sacaDeCents(q.price, usd);
       extra=`<div class="extra">≈ <b>R$ ${fmt(saca)}/saca</b> · CBOT × câmbio, sem prêmio/frete</div>`;
     }
     const dig = q.price>=1000 ? 0 : 2;
+    // Símbolos "=F" são contínuos: apontam para o vencimento ativo e rolam
+    // sozinhos. Nomear o contrato evita ler o degrau da rolagem como alta.
+    const venc = q.contrato_rotulo ? `<span class="venc">${q.contrato_rotulo}</span>` : "";
     return `<div class="card tile" data-i="${i}" tabindex="0" role="button"
         aria-label="Ver série de ${q.name}">
       <span class="zoom">ver série ↗</span>
-      <div class="lbl">${q.name}</div>
+      <div class="lbl">${q.name}${venc}</div>
       <div class="row"><span class="val">${fmt(q.price,dig)}</span><span class="unit">${q.unit}</span>${deltaHtml(q.change_pct)}</div>
       ${extra}${sparkline(q.closes,q.unit)}</div>`;
   }).join("");
@@ -463,7 +475,7 @@ function abreDetalhe(i){
   if(!q) return;
   atual=q;
   const dig = q.price>=1000 ? 0 : 2;
-  $("m-nome").textContent=q.name;
+  $("m-nome").textContent=q.contrato_rotulo ? `${q.name} · ${q.contrato_rotulo}` : q.name;
   $("m-unidade").textContent=q.unit;
   $("m-preco").textContent=fmt(q.price,dig);
   $("m-delta").innerHTML=deltaHtml(q.change_pct)+' <span class="u">hoje</span>';
@@ -480,9 +492,14 @@ function abreDetalhe(i){
       <div class="v ${cls}">${n>0?"+":""}${fmt(n)}%</div></div>`;
   }).join("") || `<div class="empty">Sem variações calculadas.</div>`;
 
+  const emenda = q.symbol.endsWith("=F")
+    ? " Série contínua de primeiro vencimento: quando o contrato ativo troca, a série "+
+      "emenda o vencimento novo no lugar do velho. A variação do dia é do próprio "+
+      "contrato, mas as de mais de um dia ainda incluem o degrau dessas trocas."
+    : "";
   $("m-foot").textContent =
     "Yahoo Finance · intradiário em passos de 1 h, séries de até 1 ano em fechamentos "+
-    "diários e 5 anos em fechamentos semanais. Atraso de ~15 min.";
+    "diários e 5 anos em fechamentos semanais. Atraso de ~15 min." + emenda;
 
   desenhaPlot(q, RANGES.find(r=>r.id===rangeAtual));
   $("modal").classList.add("open");
@@ -530,37 +547,69 @@ function renderCepea(cepea){
   $("sec-cepea").hidden=false;
 }
 
-function renderCurve(curve, fx){
-  if(!curve || !curve.contracts?.length) return;
-  const usd = fx?.usdbrl?.bid;
-  const cs = curve.contracts;
+function tabelaCurva(curva, usd){
+  const cs = curva.contracts;
   const temOI = cs.some(c=>c.open_interest!=null);
+  const temSpread = cs.some(c=>c.spread_anterior!=null);
   const maxOI = Math.max(...cs.map(c=>c.open_interest||0), 1);
-  const totalOI = curve.total_open_interest;
+  const totalOI = curva.total_open_interest;
   const rows = cs.map((c,i)=>{
-    const saca = usd && c.price ? (c.price/100)*BU_POR_SACA*usd : null;
+    const saca = sacaDeCents(c.price, usd, curva.kg_bushel);
     const oiPct = Math.round((c.open_interest||0)/maxOI*100);
     const share = totalOI && c.open_interest ? Math.round(c.open_interest/totalOI*100) : null;
     const oiCell = !temOI ? "" : `<td class="volcell">${c.open_interest!=null ? fmt(c.open_interest,0) : "—"}
         ${share!=null?`<span class="share">${share}%</span>`:""}
         <div class="volbar"><i style="width:${oiPct}%"></i></div></td>`;
+    // Positivo = carrego (o mercado paga para estocar); negativo = inversão.
+    const sp = c.spread_anterior;
+    const spCell = !temSpread ? "" : `<td class="${sp>0?"up":sp<0?"down":""}">${
+      sp==null ? "—" : (sp>0?"+":"")+fmt(sp)}</td>`;
     return `<tr${i===0?' class="front"':''}>
       <td>${c.label}</td>
       <td>${fmt(c.price)}</td>
       <td>${deltaHtml(c.change_pct)||"—"}</td>
+      ${spCell}
       <td>${saca!=null ? "R$ "+fmt(saca) : "—"}</td>
       <td>${c.volume!=null ? fmt(c.volume,0) : "—"}</td>
       ${oiCell}
     </tr>`;
   }).join("");
-  $("curve").innerHTML = `<thead><tr>
-    <th>Vencimento</th><th>Último (¢/bu)</th><th>Var. dia</th><th>≈ R$/saca</th>
+  return `<thead><tr>
+    <th>Vencimento</th><th>Último (¢/bu)</th><th>Var. dia</th>
+    ${temSpread?"<th>vs. anterior (¢)</th>":""}<th>≈ R$/saca</th>
     <th>Volume do dia</th>${temOI?"<th>Em aberto (contratos)</th>":""}
     </tr></thead><tbody>${rows}</tbody>`;
-  const partes = ["Preço, volume e posições em aberto por contrato via Yahoo Finance (atraso ~10 min)."];
-  if(temOI && totalOI) partes.push(`Total em aberto na curva: ${fmt(totalOI,0)} contratos — "em aberto" é quanto ainda está posicionado, não o giro do dia.`);
-  if(usd) partes.push("Equivalência R$/saca de 60 kg pelo dólar comercial, sem prêmio de porto/frete.");
-  $("curve-foot").textContent = partes.join(" ");
+}
+
+function rodapeCurva(curva, usd){
+  const cs = curva.contracts;
+  const totalOI = curva.total_open_interest;
+  const partes = [];
+  const spreads = cs.map(c=>c.spread_anterior).filter(s=>s!=null);
+  if(spreads.length){
+    const carrego = spreads.filter(s=>s>0).length, inv = spreads.filter(s=>s<0).length;
+    partes.push(carrego>=inv
+      ? "Curva em carrego: os vencimentos mais longos valem mais, o mercado paga para estocar."
+      : "Curva invertida: os vencimentos curtos valem mais, o mercado quer o grão agora.");
+  }
+  if(totalOI) partes.push(`Total em aberto: ${fmt(totalOI,0)} contratos — "em aberto" é quanto ainda está posicionado, não o giro do dia.`);
+  if(usd) partes.push(`R$/saca de 60 kg pelo dólar comercial, bushel de ${fmt(curva.kg_bushel,4)} kg, sem prêmio de porto/frete.`);
+  return partes.join(" ");
+}
+
+function renderCurve(curve, fx){
+  const curvas = curve?.curvas?.filter(c=>c.contracts?.length) || [];
+  if(!curvas.length) return;
+  const usd = fx?.usdbrl?.bid;
+  $("curvas").innerHTML = curvas.map(c=>`<div class="card">
+      <h3>${c.nome}</h3>
+      <div class="tblwrap"><table class="curve">${tabelaCurva(c, usd)}</table></div>
+      <div class="foot">${rodapeCurva(c, usd)}</div>
+    </div>`).join("");
+  $("curve-foot").textContent =
+    "Preço, volume e posições em aberto por contrato via Yahoo Finance (atraso ~10 min). "+
+    "Cada linha é um contrato de verdade, com vencimento fixo — diferente dos cartões "+
+    "acima, que seguem o vencimento ativo e trocam de contrato sozinhos.";
   $("sec-curve").hidden=false;
 }
 

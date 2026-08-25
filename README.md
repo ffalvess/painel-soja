@@ -27,8 +27,8 @@ esse JSON — não há servidor, banco de dados nem custo.
 
 | Dado | Fonte | Observação |
 |---|---|---|
-| Soja, milho, farelo, óleo, trigo (CBOT), Brent, Ibovespa | Yahoo Finance (não oficial) | Atraso ~15 min; é a fonte mais frágil — se falhar, o painel mantém o último valor. Guarda três séries por símbolo (intradiário 1 h em 5 dias, diária em 1 ano, semanal em 5 anos) para o detalhe clicável |
-| Curva de vencimentos da soja (preço, variação, volume e **posições em aberto** por contrato) | Yahoo Finance — `/v7/finance/quote` com cookie + crumb | Próximos 7 vencimentos; o `openInterest` só vem por esse endpoint |
+| Soja, milho, farelo, óleo, trigo (CBOT), Brent, Ibovespa | Yahoo Finance (não oficial) | Atraso ~15 min; é a fonte mais frágil — se falhar, o painel mantém o último valor. Guarda três séries por símbolo (intradiário 1 h em 5 dias, diária em 1 ano, semanal em 5 anos) para o detalhe clicável. Os símbolos `=F` são **contínuos**: o painel mostra qual contrato está por trás de cada um (`underlyingSymbol`) |
+| Curvas de vencimento da **soja e do milho** (preço, variação, spread para o vencimento anterior, volume e **posições em aberto** por contrato) | Yahoo Finance — `/v7/finance/quote` com cookie + crumb | Próximos 7 vencimentos de cada grão, numa requisição só; o `openInterest` só vem por esse endpoint. Meses da soja F/H/K/N/Q/U/X, do milho H/K/N/U/Z |
 | Volume de calls × puts de soja na CBOT | CME Group — FTP público (`ftp.cmegroup.com`, `daily_volume.xlsx`) | Dado do pregão anterior; a CME bloqueia o site/API para o Actions, mas o FTP é aberto. OI de opções por call/put não existe nesse arquivo |
 | Safra EUA (floração, formação de vagens, condição boa/excelente) | USDA/NASS Crop Progress, via API da biblioteca Cornell | Semanal (segundas), sem chave |
 | Safra Brasil (área, produção, produtividade) | CONAB — série histórica de grãos | Atualizada nos levantamentos mensais |
@@ -43,10 +43,11 @@ esse JSON — não há servidor, banco de dados nem custo.
 
 ## Páginas
 
-- `index.html` — painel do dia: câmbio, mercado físico, cotações, curva de
-  vencimentos, opções, safra, embarques semanais, clima e notícias. Os cartões de cotação são
-  clicáveis e abrem a série de 1 dia a 5 anos, com as variações acumuladas
-  em dia, semana, mês, trimestre, ano e 5 anos.
+- `index.html` — painel do dia: câmbio, mercado físico, cotações, curvas de
+  vencimento de soja e milho, opções, safra, embarques semanais, clima e
+  notícias. Os cartões de cotação são clicáveis e abrem a série de 1 dia a
+  5 anos, com as variações acumuladas em dia, semana, mês, trimestre, ano e
+  5 anos.
 - `modelo.html` — decomposição do preço em paridade de exportação + basis
   (calculada a cada hora) e a especificação do modelo de direção de preço
   em 4–8 semanas. Linkada no cabeçalho do painel.
@@ -67,6 +68,15 @@ algoritmos, limitações, aplicação comercial, próximos passos e glossário.
 
 ## Limitações conhecidas
 
+- As **variações de mais de um dia** dos símbolos contínuos (`ZS=F`, `ZC=F`,
+  `ZM=F`, `ZL=F`, `ZW=F`, `BZ=F`) incluem o degrau das trocas de contrato.
+  O Yahoo emenda a série sem retroajustar, então na rolagem o preço salta do
+  vencimento velho para o novo — no milho, em 25/08/2026, isso apareceu como
+  +6,46% num dia, quando na verdade era o carrego setembro→dezembro (~32 ¢/bu).
+  A **variação do dia** já vem corrigida (vem do `/v7/quote`, que compara o
+  contrato com o fechamento dele mesmo) e o painel nomeia o contrato em cada
+  cartão. Retroajustar a série inteira exige o histórico de rolagens, que é
+  acumulado em `data/roll_history.json` daqui para a frente.
 - O **índice de ritmo** dos embarques usa fração de ano-safra linear, que não
   corrige a sazonalidade do embarque americano (concentrado de outubro a
   fevereiro). No começo do ano-safra ele exagera o atraso. A correção exige

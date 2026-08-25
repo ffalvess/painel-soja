@@ -104,20 +104,39 @@ def fetch_yahoo_symbol(symbol: str, range_: str = "1mo") -> dict:
     raise RuntimeError(f"{symbol}: {last_err}")
 
 
+_YAHOO_AUTH = None
+
+
+def yahoo_auth():
+    """Sessão autenticada do Yahoo (cookie + crumb), uma por execução.
+
+    O Yahoo limita por IP e o Actions bate no 429 com facilidade, então vale
+    pagar o par cookie+crumb só uma vez e reaproveitar entre os coletores.
+    """
+    global _YAHOO_AUTH
+    if _YAHOO_AUTH is None:
+        s = requests.Session()
+        s.headers.update(HEADERS)
+        s.get("https://fc.yahoo.com", timeout=TIMEOUT)
+        crumb = s.get(
+            "https://query1.finance.yahoo.com/v1/test/getcrumb", timeout=TIMEOUT
+        ).text.strip()
+        # Sob limite de taxa o Yahoo devolve 200 com o texto "Too Many
+        # Requests" no lugar do crumb — sem espaço nem "<" não é crumb válido.
+        if not crumb or "<" in crumb or " " in crumb:
+            raise RuntimeError(f"crumb do Yahoo inválido: {crumb[:40]!r}")
+        _YAHOO_AUTH = (s, crumb)
+    return _YAHOO_AUTH
+
+
 def fetch_yahoo_quotes(symbols: list) -> dict:
     """Cotações em lote pelo endpoint /v7/finance/quote.
 
     É o único caminho gratuito que devolve `openInterest` (posições em
-    aberto) por contrato. Exige cookie + crumb, obtidos a cada execução.
+    aberto) por contrato e `underlyingSymbol` (qual contrato está por trás de
+    um símbolo contínuo como `ZC=F`). Exige cookie + crumb.
     """
-    s = requests.Session()
-    s.headers.update(HEADERS)
-    s.get("https://fc.yahoo.com", timeout=TIMEOUT)
-    crumb = s.get(
-        "https://query1.finance.yahoo.com/v1/test/getcrumb", timeout=TIMEOUT
-    ).text.strip()
-    if not crumb or "<" in crumb:
-        raise RuntimeError("crumb do Yahoo inválido")
+    s, crumb = yahoo_auth()
     r = s.get(
         "https://query1.finance.yahoo.com/v7/finance/quote",
         params={"symbols": ",".join(symbols), "crumb": crumb},
@@ -224,12 +243,63 @@ def fetch_yahoo_completo(symbol: str) -> dict:
     }
 
 
+# Códigos de mês dos futuros (padrão das bolsas americanas).
+MESES_CBOT = {
+    "F": "jan", "G": "fev", "H": "mar", "J": "abr",
+    "K": "mai", "M": "jun", "N": "jul", "Q": "ago",
+    "U": "set", "V": "out", "X": "nov", "Z": "dez",
+}
+
+
+def rotulo_contrato(symbol: str):
+    """`ZCZ26.CBT` -> `dez/26`. None se o símbolo não tiver esse formato."""
+    m = re.match(r"^[A-Z]{2,3}([FGHJKMNQUVXZ])(\d{2})$", (symbol or "").split(".")[0])
+    return f"{MESES_CBOT[m.group(1)]}/{m.group(2)}" if m else None
+
+
+def aplica_quote_v7(item: dict, q: dict) -> dict:
+    """Nomeia o contrato do contínuo e corrige a variação do dia.
+
+    Um símbolo contínuo (`ZC=F`) não é um contrato: aponta para o vencimento
+    ativo e troca sozinho. A série do /v8/chart é emendada sem ajuste, então
+    no dia da rolagem o preço salta do contrato velho para o novo e a
+    variação calculada pela série vira o spread entre vencimentos — foi assim
+    que o milho apareceu com +6,46% em 25/08/2026, quando o ZC=F passou de
+    setembro para dezembro.
+
+    O /v7/quote compara o contrato com o fechamento dele mesmo, imune à
+    emenda, e ainda diz em `underlyingSymbol` qual contrato está cotando.
+    """
+    if not q:
+        return item
+    contrato = q.get("underlyingSymbol")
+    if contrato:
+        item["contrato"] = contrato
+        item["contrato_rotulo"] = rotulo_contrato(contrato)
+    change = q.get("regularMarketChangePercent")
+    prev = q.get("regularMarketPreviousClose")
+    if change is not None:
+        item["change_pct"] = round(change, 2)
+        item["variacoes"] = {**item.get("variacoes", {}), "dia": round(change, 2)}
+    if prev is not None:
+        item["prev_close"] = prev
+    return item
+
+
 def collect_quotes() -> dict:
     items, failed = [], []
+
+    quotes = {}
+    try:
+        quotes = fetch_yahoo_quotes([s for s, _, _ in YAHOO_SYMBOLS])
+    except Exception as e:  # noqa: BLE001 - sem crumb, fica só a série emendada
+        failed.append(f"lote /v7/quote: {e}")
+
     for symbol, name, unit in YAHOO_SYMBOLS:
         try:
             q = fetch_yahoo_completo(symbol)
-            items.append({"symbol": symbol, "name": name, "unit": unit, **q})
+            item = {"symbol": symbol, "name": name, "unit": unit, **q}
+            items.append(aplica_quote_v7(item, quotes.get(symbol)))
         except Exception as e:  # noqa: BLE001
             failed.append(f"{symbol}: {e}")
     if not items:
@@ -719,7 +789,10 @@ def collect_safra() -> dict:
 
 # ---------------------------------------------------------------- curva CBOT
 
-# Meses de vencimento da soja na CBOT (código, mês, rótulo pt-BR)
+# Meses de vencimento na CBOT (código, mês, rótulo pt-BR). Soja e milho têm
+# calendários diferentes: a soja segue o ciclo do esmagamento (jan, mar, mai,
+# jul, ago, set, nov) e o milho o da colheita americana (mar, mai, jul, set,
+# dez), com o dezembro como contrato da safra nova.
 SOY_MONTHS = [
     ("F", 1, "jan"),
     ("H", 3, "mar"),
@@ -730,20 +803,38 @@ SOY_MONTHS = [
     ("X", 11, "nov"),
 ]
 
+CORN_MONTHS = [
+    ("H", 3, "mar"),
+    ("K", 5, "mai"),
+    ("N", 7, "jul"),
+    ("U", 9, "set"),
+    ("Z", 12, "dez"),
+]
 
-def soy_contracts(n: int = 7) -> list:
-    """Próximos n vencimentos de soja na CBOT a partir do mês corrente."""
+# O bushel é uma medida de volume: cada grão tem um peso legal próprio. Soja
+# pesa 60 lb/bushel (27,2155 kg) e milho 56 lb (25,4012 kg). Usar a constante
+# da soja para converter milho em R$/saca erra ~7% para menos.
+CURVAS = [
+    {"id": "soja", "nome": "Soja CBOT", "prefixo": "ZS", "meses": SOY_MONTHS,
+     "kg_bushel": 27.2155},
+    {"id": "milho", "nome": "Milho CBOT", "prefixo": "ZC", "meses": CORN_MONTHS,
+     "kg_bushel": 25.4012},
+]
+
+
+def contratos_cbot(prefixo: str, meses: list, n: int = 7) -> list:
+    """Próximos n vencimentos de um grão na CBOT a partir do mês corrente."""
     today = dt.date.today()
     # o contrato vence por volta do dia 15; depois disso pula para o próximo
     cutoff = (today.year, today.month + (1 if today.day > 15 else 0))
     out = []
     for year in range(today.year, today.year + 3):
-        for code, month, label in SOY_MONTHS:
+        for code, month, label in meses:
             if (year, month) < cutoff:
                 continue
             out.append(
                 {
-                    "symbol": f"ZS{code}{year % 100:02d}.CBT",
+                    "symbol": f"{prefixo}{code}{year % 100:02d}.CBT",
                     "label": f"{label}/{year % 100:02d}",
                 }
             )
@@ -752,16 +843,9 @@ def soy_contracts(n: int = 7) -> list:
     return out
 
 
-def collect_curve() -> dict:
-    wanted = soy_contracts()
-    contracts, failed = [], []
-
-    quotes = {}
-    try:
-        quotes = fetch_yahoo_quotes([c["symbol"] for c in wanted])
-    except Exception as e:  # noqa: BLE001 - sem crumb, cai para o chart (sem OI)
-        failed.append(f"lote /v7/quote: {e}")
-
+def monta_contratos(wanted: list, quotes: dict, failed: list) -> list:
+    """Preenche preço/volume/OI de cada vencimento, com fallback pelo chart."""
+    contracts = []
     for c in wanted:
         q = quotes.get(c["symbol"])
         if q:
@@ -794,16 +878,61 @@ def collect_curve() -> dict:
         except Exception as e:  # noqa: BLE001
             failed.append(f"{c['symbol']}: {e}")
 
-    if not contracts:
+    # Spread para o vencimento anterior: positivo = carrego (o mercado paga
+    # para estocar), negativo = inversão (o mercado quer o grão agora). É esse
+    # degrau que aparece como "alta" quando o contínuo do Yahoo rola.
+    anterior = None
+    for c in contracts:
+        if c["price"] is not None and anterior is not None:
+            c["spread_anterior"] = round(c["price"] - anterior, 2)
+        else:
+            c["spread_anterior"] = None
+        if c["price"] is not None:
+            anterior = c["price"]
+    return contracts
+
+
+def collect_curve() -> dict:
+    failed = []
+    pedidos = {c["id"]: contratos_cbot(c["prefixo"], c["meses"]) for c in CURVAS}
+
+    # Um crumb e uma requisição só para as duas curvas — o /v7/quote do Yahoo
+    # limita por IP e o Actions bate no 429 com facilidade.
+    simbolos = [w["symbol"] for lista in pedidos.values() for w in lista]
+    quotes = {}
+    try:
+        quotes = fetch_yahoo_quotes(simbolos)
+    except Exception as e:  # noqa: BLE001 - sem crumb, cai para o chart (sem OI)
+        failed.append(f"lote /v7/quote: {e}")
+
+    curvas = []
+    for meta in CURVAS:
+        contracts = monta_contratos(pedidos[meta["id"]], quotes, failed)
+        if not contracts:
+            continue
+        ois = [c["open_interest"] for c in contracts if c.get("open_interest")]
+        curvas.append(
+            {
+                "id": meta["id"],
+                "nome": meta["nome"],
+                "unit": "¢/bushel",
+                "kg_bushel": meta["kg_bushel"],
+                "contracts": contracts,
+                "total_open_interest": sum(ois) if ois else None,
+            }
+        )
+
+    if not curvas:
         raise RuntimeError("; ".join(failed))
-    ois = [c["open_interest"] for c in contracts if c.get("open_interest")]
-    return {
-        "updated_at": now_iso(),
-        "unit": "¢/bushel",
-        "contracts": contracts,
-        "total_open_interest": sum(ois) if ois else None,
-        "failed": failed,
-    }
+    return {"updated_at": now_iso(), "curvas": curvas, "failed": failed}
+
+
+def curva_de(sections: dict, id_: str) -> dict:
+    """Uma curva pelo id, para quem depende de um grão específico."""
+    for c in (sections.get("curve") or {}).get("curvas", []):
+        if c.get("id") == id_:
+            return c
+    return {}
 
 
 # ---------------------------------------------------------------- opções CBOT
@@ -1324,7 +1453,7 @@ def collect_basis(sections: dict) -> dict:
     contrato = None
     if premio:
         alvo = mes_embarque(premio["mes"])
-        for c in (sections.get("curve") or {}).get("contracts", []):
+        for c in curva_de(sections, "soja").get("contracts", []):
             if c.get("price") and mes_contrato(c["label"]) >= alvo:
                 contrato = c
                 break
@@ -1414,6 +1543,42 @@ def atualiza_historico(basis: dict) -> list:
     return serie
 
 
+ROLLS = ROOT / "data" / "roll_history.json"
+
+
+def registra_rolagem(quotes: dict) -> None:
+    """Anota qual contrato estava por trás de cada contínuo, por dia.
+
+    Retroajustar a série emendada (para que as variações de mais de um dia
+    parem de incluir o degrau da troca de contrato) exige saber em que dia
+    cada rolagem aconteceu. Ninguém publica isso de graça, então acumulamos
+    daqui para a frente — mesmo caminho da série do basis.
+    """
+    try:
+        serie = json.loads(ROLLS.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        serie = []
+
+    hoje = dt.date.today().isoformat()
+    atual = {
+        i["symbol"]: i["contrato"]
+        for i in (quotes or {}).get("items", [])
+        if i.get("contrato")
+    }
+    if not atual:
+        return
+
+    serie = [s for s in serie if s.get("data") != hoje]
+    serie.append({"data": hoje, "contratos": atual})
+    serie.sort(key=lambda s: s["data"])
+    serie = serie[-HIST_MAX:]
+
+    ROLLS.parent.mkdir(parents=True, exist_ok=True)
+    ROLLS.write_text(
+        json.dumps(serie, ensure_ascii=False, indent=1), encoding="utf-8"
+    )
+
+
 # ---------------------------------------------------------------- main
 
 COLLECTORS = {
@@ -1462,6 +1627,11 @@ def main() -> int:
             errors.append({"section": name, "error": str(e)})
             sections[name] = old_sections.get(name)
             print(f"[erro] {name}: {e}", file=sys.stderr)
+
+    try:
+        registra_rolagem(sections.get("quotes") or {})
+    except Exception as e:  # noqa: BLE001 - histórico auxiliar, não trava a coleta
+        print(f"[erro] roll_history: {e}", file=sys.stderr)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(

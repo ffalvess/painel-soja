@@ -74,7 +74,6 @@ algoritmos, limitações, aplicação comercial, próximos passos e glossário.
 - A **faixa esperada pelo mercado** para os embarques semanais, citada pelas
   matérias ("dentro do esperado"), vem de pesquisa com analistas e não é
   publicada de forma estruturada — o painel não a exibe.
-
 - Cotações não são em tempo real (atraso das fontes + atualização horária).
 - O cron do GitHub pode atrasar alguns minutos em horário de pico.
 - De **opções** só há volume, não posições em aberto: a CME bloqueia

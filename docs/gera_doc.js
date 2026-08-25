@@ -549,6 +549,11 @@ const limitacoes = [
     "origem e não há API pública gratuita. A liquidez desses contratos também é muito baixa."),
   LIB("Série do basis começa agora", "não existe arquivo gratuito do indicador para " +
     "reconstruir o histórico. A série útil ao modelo se forma a partir de sua criação."),
+  LIB("Variações longas dos contínuos incluem a emenda de vencimento", "as séries de mais " +
+    "de um dia dos símbolos contínuos carregam os degraus das trocas de contrato, porque a " +
+    "fonte emenda sem retroajustar. A variação do dia já vem corrigida e cada cartão nomeia " +
+    "o contrato; o retroajuste do histórico depende do registro de rolagens que o painel " +
+    "passou a acumular. Detalhado na seção 8.5."),
   LIB("Um feed RSS indisponível", "o Notícias Agrícolas alterou o endereço do feed; as " +
     "outras três fontes de notícia cobrem a seção normalmente."),
   H2("9.3 Divergências metodológicas"),

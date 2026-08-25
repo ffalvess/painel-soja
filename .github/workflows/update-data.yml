@@ -40,6 +40,8 @@ jobs:
             echo "Nada mudou."
           else
             git commit -m "Atualiza dados de mercado"
-            git pull --rebase origin main
-            git push
+            # Branch corrente, não "main" fixo: assim dá para verificar uma
+            # mudança rodando o coletor no branch dela antes do merge.
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            git push origin "HEAD:$GITHUB_REF_NAME"
           fi

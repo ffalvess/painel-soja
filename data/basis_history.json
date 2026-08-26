@@ -17,10 +17,10 @@
  },
  {
   "data": "25/08/2026",
-  "cbot_cents": 1232.25,
-  "cambio": 5.1489,
-  "paridade": 156.9,
+  "cbot_cents": 1231.25,
+  "cambio": 5.148,
+  "paridade": 156.76,
   "indicador": 153.7,
-  "basis": -3.2
+  "basis": -3.06
  }
 ]

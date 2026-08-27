@@ -1631,10 +1631,19 @@ def atualiza_historico(basis: dict) -> list:
     except Exception:  # noqa: BLE001
         serie = []
 
+    # O prêmio de referência é o primeiro mês de embarque da tabela, e ele
+    # troca sozinho quando o mês corrente sai — em 27/08/2026, passar de
+    # Agosto para Setembro moveria o basis R$ 1,14/saca sem nada acontecer no
+    # mercado. Mesma armadilha do contínuo do milho. Guardar o mês e o
+    # contrato usados é o que permite distinguir, depois, movimento de troca
+    # de referência.
     registro = {
         "data": basis["indicador_data"],
         "cbot_cents": basis["cbot_cents"],
         "cambio": basis["cambio"],
+        "premio_cents": basis.get("premio_cents"),
+        "premio_mes": basis.get("premio_mes"),
+        "contrato": basis.get("contrato"),
         "paridade": basis["paridade_brl_saca"],
         "indicador": basis["indicador_brl_saca"],
         "basis": basis["basis_porto"]["brl_saca"],

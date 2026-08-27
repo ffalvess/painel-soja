@@ -308,11 +308,22 @@ function renderHist(serie){
       referência do indicador. Não existe arquivo gratuito para reconstruir o passado, então o
       gráfico aparece quando houver histórico suficiente.</div>
       <div class="tblwrap" style="margin-top:10px"><table class="t">
-      <thead><tr><th>Data</th><th>CBOT ¢/bu</th><th>Câmbio</th><th>Paridade</th>
-        <th>Indicador</th><th>Basis</th></tr></thead><tbody>` +
-      serie.map(s=>`<tr><td>${s.data}</td><td>${fmt(s.cbot_cents)}</td><td>${fmt(s.cambio,4)}</td>
+      <thead><tr><th>Data</th><th>CBOT ¢/bu</th><th>Prêmio</th><th>Referência</th>
+        <th>Câmbio</th><th>Paridade</th><th>Indicador</th><th>Basis</th></tr></thead><tbody>` +
+      serie.map((s,i)=>{
+        // O prêmio de referência troca de mês sozinho quando o mês corrente
+        // sai da tabela da fonte. Marcar a troca evita ler o degrau como
+        // movimento de mercado — mesma armadilha do contínuo do milho.
+        const ant = serie[i-1];
+        const trocou = ant && s.premio_mes && ant.premio_mes && s.premio_mes !== ant.premio_mes;
+        return `<tr><td>${s.data}</td><td>${fmt(s.cbot_cents)}</td>
+        <td>${s.premio_cents!=null?fmt(s.premio_cents,0)+" ¢":"—"}</td>
+        <td${trocou?' style="color:var(--down);font-weight:600" title="a referência mudou de mês — parte da variação do basis é troca de referência, não mercado"':""}>${
+          s.premio_mes||"—"}${trocou?" ⤳":""}${s.contrato?` · ${s.contrato}`:""}</td>
+        <td>${fmt(s.cambio,4)}</td>
         <td>R$ ${fmt(s.paridade)}</td><td>R$ ${fmt(s.indicador)}</td>
-        <td><b>${sgn(s.basis)}</b></td></tr>`).join("") + "</tbody></table></div>";
+        <td><b>${sgn(s.basis)}</b></td></tr>`;
+      }).join("") + "</tbody></table></div>";
     return;
   }
   const W=640,H=170,P=34;
@@ -321,18 +332,35 @@ function renderHist(serie){
   const x = i => P + i*(W-P-10)/(serie.length-1);
   const y = v => H-24 - (v-min)*(H-46)/span;
   const pts = serie.map((s,i)=>`${x(i).toFixed(1)},${y(s.basis).toFixed(1)}`).join(" ");
+
+  // O prêmio de referência troca de mês de embarque sozinho quando o mês
+  // corrente sai da tabela da fonte, e o basis dá um degrau que não é
+  // mercado — mesma armadilha do contínuo do milho. Marcar onde aconteceu.
+  const trocas = serie.map((s,i)=>({s,i,ant:serie[i-1]}))
+    .filter(({s,ant}) => ant && s.premio_mes && ant.premio_mes && s.premio_mes !== ant.premio_mes);
+  const marcas = trocas.map(({s,i}) =>
+    `<line x1="${x(i).toFixed(1)}" y1="14" x2="${x(i).toFixed(1)}" y2="${H-24}"
+       stroke="var(--down)" stroke-width="1" stroke-dasharray="3 3"/>
+     <circle cx="${x(i).toFixed(1)}" cy="${y(s.basis).toFixed(1)}" r="3.5"
+       fill="var(--down)"><title>referência mudou para ${s.premio_mes} — parte do degrau é troca de referência, não mercado</title></circle>`).join("");
+
   el.innerHTML = `<h3>Basis do porto — R$/saca</h3>
     <div class="src">Indicador Paranaguá menos a paridade de exportação, por dia</div>
     <svg class="wf" viewBox="0 0 ${W} ${H}" role="img" aria-label="Série do basis">
       <line x1="${P}" y1="${H-24}" x2="${W-10}" y2="${H-24}" stroke="var(--baseline)"/>
       <text x="4" y="${y(max)+4}" font-size="10" fill="var(--muted)">${fmt(max,1)}</text>
       <text x="4" y="${y(min)+4}" font-size="10" fill="var(--muted)">${fmt(min,1)}</text>
+      ${marcas}
       <polyline points="${pts}" fill="none" stroke="var(--accent)" stroke-width="2"
         stroke-linejoin="round"/>
       <text x="${P}" y="${H-8}" font-size="10" fill="var(--muted)">${serie[0].data}</text>
       <text x="${W-10}" y="${H-8}" font-size="10" fill="var(--muted)"
         text-anchor="end">${serie[serie.length-1].data}</text>
-    </svg>`;
+    </svg>
+    <div class="src" style="margin-top:6px">Referência atual: prêmio de embarque
+      ${serie[serie.length-1].premio_mes||"—"}${serie[serie.length-1].contrato?` contra o contrato ${serie[serie.length-1].contrato}`:""}.
+      ${trocas.length?`<b style="color:var(--down)">As marcas tracejadas são trocas do mês de
+      referência</b> — parte do degrau ali é mudança de referência, não movimento de mercado.`:""}</div>`;
 }
 
 const MESES = ["", "janeiro","fevereiro","março","abril","maio","junho",

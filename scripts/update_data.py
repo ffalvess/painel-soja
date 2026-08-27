@@ -50,6 +50,78 @@ def now_iso() -> str:
     return dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 
 
+# ------------------------------------------------------- cadência e frescor
+#
+# `updated_at` diz quando o robô rodou, e é a mesma hora para todas as seções.
+# Não diz nada sobre o frescor do dado: um embarque referente a 13/08 e uma
+# cotação de minutos atrás carregavam o mesmo carimbo. Quem responde "de
+# quando é este número" é `observado_em`, a data da própria observação.
+
+CADENCIA = {
+    "quotes": "intradiaria",
+    "curve": "intradiaria",
+    "fx": "intradiaria",
+    "options": "diaria",
+    "cepea": "diaria",
+    "basis": "diaria",
+    "weather": "diaria",
+    "news": "continua",
+    "rates": "mista",  # PTAX/Selic/CDI diários, IPCA mensal
+    "safra": "mista",  # EUA semanal (segundas), Brasil mensal
+    "embarques": "semanal",  # divulgado nas quintas, ~1 semana de defasagem
+    "sd": "mensal",  # WASDE
+}
+
+
+def data_br_iso(s):
+    """`25/08/2026` -> `2026-08-25`. None se não reconhecer."""
+    m = re.match(r"(\d{2})/(\d{2})/(\d{4})", (s or "").strip())
+    return f"{m.group(3)}-{m.group(2)}-{m.group(1)}" if m else None
+
+
+def observado_em(nome: str, sec):
+    """Data da observação de uma seção, quando a fonte a informa.
+
+    Só devolve o que dá para afirmar. Seção intradiária não tem data de
+    observação separada — o dado é de agora, e aí `updated_at` já basta.
+    """
+    if not isinstance(sec, dict):
+        return None
+    if nome == "cepea":
+        return data_br_iso((sec.get("indicador") or {}).get("data"))
+    if nome == "basis":
+        return data_br_iso(sec.get("indicador_data"))
+    if nome == "safra":
+        return (sec.get("us") or {}).get("week_ending")
+    if nome == "embarques":
+        datas = [i.get("semana_ref") for i in sec.get("itens") or [] if i.get("semana_ref")]
+        return max(datas) if datas else None
+    if nome == "sd":
+        # O PSD informa o mês do levantamento, não o dia. Precisão de mês.
+        return sec.get("vintage_iso")
+    return None
+
+
+def anota_cadencia(sections: dict) -> None:
+    """Carimba cada seção com cadência, data da observação e idade em dias."""
+    hoje = dt.date.today()
+    for nome, sec in sections.items():
+        if not isinstance(sec, dict):
+            continue
+        sec["cadencia"] = CADENCIA.get(nome, "desconhecida")
+        obs = observado_em(nome, sec)
+        if not obs:
+            continue
+        sec["observado_em"] = obs
+        try:
+            partes = [int(p) for p in obs.split("-")]
+            d = dt.date(partes[0], partes[1], partes[2] if len(partes) > 2 else 1)
+            sec["idade_dias"] = (hoje - d).days
+            sec["precisao_observacao"] = "dia" if len(partes) > 2 else "mes"
+        except (ValueError, IndexError):
+            pass
+
+
 def get(url: str, **kwargs) -> requests.Response:
     r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, **kwargs)
     r.raise_for_status()
@@ -1138,7 +1210,7 @@ def collect_sd() -> dict:
             registros = fas(path_fmt.format(ano=a))
             if not registros:
                 continue
-            vals, mes = {}, None
+            vals, mes, ano_cal = {}, None, None
             for r in registros:
                 nome = nomes.get(r["attributeId"])
                 if nome and r.get("unitId") == 8:  # 1000 toneladas
@@ -1146,9 +1218,11 @@ def collect_sd() -> dict:
                 elif nome:
                     vals[nome] = r["value"]
                 mes = r.get("month") or mes
+                # ano civil da divulgação — não confundir com o ano-safra
+                ano_cal = r.get("calendarYear") or ano_cal
             if vals:
-                return a, mes, vals
-        return None, None, {}
+                return a, mes, vals, ano_cal
+        return None, None, {}, None
 
     def resumo(vals: dict, mundo: bool = False) -> dict:
         def pega(*chaves):
@@ -1181,16 +1255,17 @@ def collect_sd() -> dict:
         "br": f"/commodity/{codigo}/country/BR/year/{{ano}}",
         "us": f"/commodity/{codigo}/country/US/year/{{ano}}",
     }
-    mes_ref, ano_ref = None, None
+    mes_ref, ano_ref, ano_cal_ref = None, None, None
     for nome, path in alvos.items():
-        a, mes, vals = balanco(path)
+        a, mes, vals, ano_cal = balanco(path)
         if not vals:
             continue
         eh_mundo = nome == "mundo"
         atual = resumo(vals, eh_mundo)
         ano_ref, mes_ref = a, mes or mes_ref
+        ano_cal_ref = ano_cal or ano_cal_ref
 
-        _, _, vals_ant = balanco(path.replace("{ano}", str(a - 1)))
+        _, _, vals_ant, _ = balanco(path.replace("{ano}", str(a - 1)))
         anterior = resumo(vals_ant, eh_mundo) if vals_ant else None
         if anterior and atual["producao"] and anterior["producao"]:
             atual["var_producao_pct"] = round(
@@ -1211,6 +1286,11 @@ def collect_sd() -> dict:
         "commodity": grao["commodityName"].strip(),
         "safra": f"{ano_ref}/{str((ano_ref or 0) + 1)[-2:]}" if ano_ref else None,
         "vintage": mes_ref,
+        # Mês do levantamento, com o ano civil da divulgação — o PSD não
+        # informa o dia, então a precisão é de mês.
+        "vintage_iso": (
+            f"{ano_cal_ref}-{str(mes_ref).zfill(2)}" if ano_cal_ref and mes_ref else None
+        ),
         "unidade": "Mt",
         "escopos": escopos,
     }
@@ -1655,6 +1735,8 @@ def main() -> int:
             errors.append({"section": name, "error": str(e)})
             sections[name] = old_sections.get(name)
             print(f"[erro] {name}: {e}", file=sys.stderr)
+
+    anota_cadencia(sections)
 
     try:
         registra_rolagem(sections.get("quotes") or {})

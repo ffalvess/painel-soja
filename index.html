@@ -37,6 +37,12 @@ header .navlink{font-size:13px;font-weight:600;color:var(--accent);text-decorati
 header .navlink:hover{text-decoration:underline}
 section{margin-bottom:26px}
 h2{font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+h2 .selo, h3 .selo{text-transform:none;letter-spacing:0;font-weight:500;font-size:11.5px;color:var(--muted);border:1px solid var(--grid);border-radius:999px;padding:1px 8px;margin-left:9px;white-space:nowrap;display:inline-block;vertical-align:middle}
+h3 .selo{margin-left:7px}
+h2 .selo.velho, h3 .selo.velho{color:#8a6100;border-color:#d8b45a;background:rgba(216,180,90,.10)}
+@media (prefers-color-scheme: dark){
+  h2 .selo.velho, h3 .selo.velho{color:#e8bf6a;border-color:#7a6329;background:rgba(232,191,106,.12)}
+}
 .card{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:14px 16px}
 
 /* chips de câmbio e juros */
@@ -74,7 +80,7 @@ table.curve{width:100%;border-collapse:collapse;font-variant-numeric:tabular-num
 .curve .agente{display:block;font-size:11px;color:var(--muted);font-weight:400;margin-top:1px}
 .curve td.up{color:var(--up)}
 .curve td.down{color:var(--down)}
-#curvas{display:grid;grid-template-columns:repeat(auto-fit,minmax(740px,1fr));gap:10px;align-items:start}
+#curvas{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(740px,100%),1fr));gap:10px;align-items:start}
 #curvas h3{margin-bottom:8px}
 .volcell{position:relative;min-width:130px}
 .volcell .share{font-size:11px;color:var(--muted);margin-left:5px}
@@ -694,8 +700,8 @@ function renderSafraUS(us){
       <div class="track"><i style="width:${Math.min(p.current,100)}%"></i>
         ${p.avg_5y!=null?`<b style="left:${Math.min(p.avg_5y,100)}%" data-tip="média 5 anos: ${p.avg_5y}%"></b>`:""}</div>
       <div class="cmp">
-        <span>semana passada <em>${p.prev_week}%</em></span>
-        <span>média 5 anos <em>${p.avg_5y}%</em></span>
+        ${p.prev_week!=null?`<span>semana passada <em>${p.prev_week}%</em></span>`:""}
+        ${p.avg_5y!=null?`<span>média 5 anos <em>${p.avg_5y}%</em></span>`:""}
         ${pp(vsMedia,"adiantado","atrasado")}
       </div></div>`;
   });
@@ -774,9 +780,14 @@ function renderSafraSD(sd){
       <span class="cmp" style="flex:1;gap:2px 14px">
         <span>produção <em>${fmt(e.producao,0)} Mt</em></span>
         <span>estoque/uso <em>${fmt(e.su_pct,1)}%</em></span></span></div>` : "";
+  // O WASDE é mensal e convive aqui com o progresso de safra, que é semanal.
+  // Sem a idade explícita, os dois parecem igualmente recentes.
+  const idade = sd.idade_dias==null ? ""
+    : ` · há ${sd.idade_dias} ${sd.idade_dias===1?"dia":"dias"}`;
   $("safra-sd").innerHTML =
-    `<h3>Mundo — oferta e demanda ${sd.safra||""}</h3>
-     <div class="src">USDA/FAS PSD${vint}</div>
+    `<h3>Mundo — oferta e demanda ${sd.safra||""}
+       <span class="selo${sd.idade_dias>45?" velho":""}">mensal${vint?" · "+vint.replace(" · ",""):""}${idade}</span></h3>
+     <div class="src">USDA/FAS PSD</div>
      <div class="kpis" style="margin-top:10px">
        ${kpi("Produção mundial", fmt(m.producao,1)+" Mt",
              m.var_producao_pct!=null?deltaHtml(m.var_producao_pct)+" vs safra anterior":"")}
@@ -978,10 +989,49 @@ function renderWeather(weather){
   $("sec-weather").hidden=false;
 }
 
+/* ------------------------------------------------ frescor por seção
+   `generated_at` é a hora em que o robô rodou — igual para todas as seções.
+   Não é frescor: um embarque referente a 13/08 e uma cotação de minutos
+   atrás carregavam o mesmo carimbo. O selo abaixo mostra a idade do dado
+   quando a fonte informa a data da observação, e a periodicidade quando não. */
+
+const CADENCIA_ROTULO = {
+  intradiaria:"atualiza a cada hora", diaria:"diário", semanal:"semanal",
+  mensal:"mensal", continua:"contínuo", mista:"periodicidade mista",
+};
+// A partir de quantos dias a idade indica fonte parada, por cadência.
+const IDADE_LIMITE = { diaria:5, semanal:12, mensal:45, mista:12 };
+
+function selo(sec){
+  if(!sec) return "";
+  const cad = sec.cadencia, rot = CADENCIA_ROTULO[cad] || "";
+  if(sec.observado_em == null) return rot ? `<span class="selo">${rot}</span>` : "";
+
+  const p = sec.observado_em.split("-");
+  const mes = sec.precisao_observacao === "mes";
+  const quando = mes ? `${p[1]}/${p[0].slice(2)}` : `${p[2]}/${p[1]}`;
+  const d = sec.idade_dias;
+  const idade = d==null ? "" : d<=0 ? "hoje" : d===1 ? "ontem" : `há ${d} dias`;
+  const velho = d!=null && d > (IDADE_LIMITE[cad] || 999);
+  return `<span class="selo${velho?" velho":""}" ${velho?'title="passou da divulgação esperada — pode ser fonte parada"':""}>
+    ${rot} · ${mes?"levantamento de":"referente a"} ${quando}${idade?` · ${idade}`:""}</span>`;
+}
+
+const SECOES = {fx:"sec-fx", cepea:"sec-cepea", quotes:"sec-quotes", curve:"sec-curve",
+  options:"sec-options", safra:"sec-safra", embarques:"sec-embarques",
+  news:"sec-news", weather:"sec-weather"};
+
+function marcaFrescor(s){
+  for(const [chave, id] of Object.entries(SECOES)){
+    const h2 = document.querySelector(`#${id} h2`);
+    if(h2 && !h2.querySelector(".selo")) h2.insertAdjacentHTML("beforeend", selo(s[chave]));
+  }
+}
+
 function render(data){
   const s=data.sections||{};
   $("hoje").textContent=new Intl.DateTimeFormat("pt-BR",{weekday:"long",day:"numeric",month:"long",timeZone:SP}).format(new Date());
-  if(data.generated_at) $("stamp").textContent=`dados de ${horaSP(data.generated_at)} (Brasília)`;
+  if(data.generated_at) $("stamp").textContent=`última coleta ${horaSP(data.generated_at)} (Brasília)`;
   renderFx(s.fx, s.rates);
   renderCepea(s.cepea);
   renderQuotes(s.quotes, s.fx);
@@ -991,6 +1041,7 @@ function render(data){
   renderEmbarques(s.embarques);
   renderNews(s.news);
   renderWeather(s.weather);
+  marcaFrescor(s);
   const errs=(data.errors||[]).map(e=>e.section);
   if(errs.length){
     $("warn").textContent=`Fontes indisponíveis na última atualização (mantido valor anterior): ${errs.join(", ")}.`;

@@ -78,8 +78,8 @@ table.curve{width:100%;border-collapse:collapse;font-variant-numeric:tabular-num
 .curve tbody tr:last-child td{border-bottom:0}
 .curve .front td{font-weight:600}
 .curve .agente{display:block;font-size:11px;color:var(--muted);font-weight:400;margin-top:1px}
-.curve td.up{color:var(--up)}
-.curve td.down{color:var(--down)}
+.curve td.spread{color:var(--ink-2)}
+.curve td.spread .estrut{display:block;font-size:10.5px;color:var(--muted);font-weight:400;letter-spacing:.02em}
 #curvas{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(740px,100%),1fr));gap:10px;align-items:start}
 #curvas h3{margin-bottom:8px}
 .volcell{position:relative;min-width:130px}
@@ -583,10 +583,15 @@ function tabelaCurva(curva, usd){
     const oiCell = !temOI ? "" : `<td class="volcell">${c.open_interest!=null ? fmt(c.open_interest,0) : "—"}
         ${share!=null?`<span class="share">${share}%</span>`:""}
         <div class="volbar"><i style="width:${oiPct}%"></i></div></td>`;
-    // Positivo = carrego (o mercado paga para estocar); negativo = inversão.
+    // Eixo diferente do da coluna ao lado: "Var. dia" compara o contrato com
+    // o fechamento dele mesmo (tempo); isto compara com o vencimento anterior
+    // (estrutura da curva). Positivo é carrego, negativo é inversão — nenhum
+    // dos dois é "alta" ou "baixa", então não usa o verde/vermelho de preço,
+    // que fazia a tabela parecer contraditória num dia de queda generalizada.
     const sp = c.spread_anterior;
-    const spCell = !temSpread ? "" : `<td class="${sp>0?"up":sp<0?"down":""}">${
-      sp==null ? "—" : (sp>0?"+":"")+fmt(sp)}</td>`;
+    const spCell = !temSpread ? "" : `<td class="spread">${
+      sp==null ? "—" : `${sp>0?"+":""}${fmt(sp)}<span class="estrut">${
+        sp>0?"carrego":sp<0?"inversão":"plano"}</span>`}</td>`;
     return `<tr${i===0?' class="front"':''}>
       <td>${c.label}</td>
       <td>${fmt(c.price)}</td>
@@ -599,7 +604,7 @@ function tabelaCurva(curva, usd){
   }).join("");
   return `<thead><tr>
     <th>Vencimento</th><th>Último (¢/bu)</th><th>Var. dia</th>
-    ${temSpread?"<th>vs. anterior (¢)</th>":""}<th>≈ R$/saca</th>
+    ${temSpread?'<th title="diferença de preço para o vencimento anterior da curva — não tem relação com a variação do dia">Spread p/ venc. anterior (¢)</th>':""}<th>≈ R$/saca</th>
     <th>Volume do dia</th>${temOI?"<th>Em aberto (contratos)</th>":""}
     </tr></thead><tbody>${rows}</tbody>`;
 }

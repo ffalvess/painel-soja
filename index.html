@@ -82,6 +82,12 @@ table.curve{width:100%;border-collapse:collapse;font-variant-numeric:tabular-num
 .curve td.spread .estrut{display:block;font-size:10.5px;color:var(--muted);font-weight:400;letter-spacing:.02em}
 #curvas{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(740px,100%),1fr));gap:10px;align-items:start}
 #curvas h3{margin-bottom:8px}
+.crushtop{display:flex;flex-wrap:wrap;gap:14px 28px;align-items:flex-start}
+#crush .lbl{font-size:12px;color:var(--muted)}
+#crush .row{display:flex;align-items:baseline;gap:8px;margin-top:2px}
+#crush .val{font-size:30px;font-weight:650}
+#crush .unit{font-size:12px;color:var(--muted)}
+#crush .extra{font-size:12.5px;color:var(--ink-2);margin-top:4px;font-variant-numeric:tabular-nums}
 .volcell{position:relative;min-width:130px}
 .volcell .share{font-size:11px;color:var(--muted);margin-left:5px}
 .volbar{position:absolute;left:6px;right:6px;bottom:3px;height:3px;border-radius:2px;background:var(--grid);overflow:hidden}
@@ -203,6 +209,11 @@ footer a{color:var(--ink-2)}
   <section id="sec-quotes" hidden>
     <h2>Grãos, energia e bolsa — últimos 30 dias</h2>
     <div class="tiles" id="tiles"></div>
+  </section>
+
+  <section id="sec-crush" hidden>
+    <h2>Margem de esmagamento em Chicago</h2>
+    <div class="card" id="crush"></div>
   </section>
 
   <section id="sec-curve" hidden>
@@ -625,6 +636,54 @@ function rodapeCurva(curva, usd){
   return partes.join(" ");
 }
 
+/* -------------------------------------------------- margem de esmagamento */
+
+function renderCrush(cr){
+  if(!cr || cr.valor==null) return;
+  const c = cr.componentes || {}, ct = cr.contratos || {};
+  const p = cr.percentil_1a;
+
+  // Posição no intervalo do último ano — situa o número em vez de deixá-lo solto.
+  const faixa = (cr.min_1a!=null && cr.max_1a!=null && cr.max_1a>cr.min_1a)
+    ? Math.round((cr.valor-cr.min_1a)/(cr.max_1a-cr.min_1a)*100) : null;
+  const medPos = (cr.min_1a!=null && cr.max_1a!=null && cr.max_1a>cr.min_1a && cr.mediana_1a!=null)
+    ? Math.round((cr.mediana_1a-cr.min_1a)/(cr.max_1a-cr.min_1a)*100) : null;
+
+  const contratos = [ct.soja&&`soja ${ct.soja}`, ct.farelo&&`farelo ${ct.farelo}`,
+                     ct.oleo&&`óleo ${ct.oleo}`].filter(Boolean).join(" · ");
+  const mistura = ct.soja && ct.farelo && ct.soja!==ct.farelo;
+
+  $("crush").innerHTML = `
+    <div class="crushtop">
+      <div>
+        <div class="lbl">Crush do quadro (board crush)</div>
+        <div class="row"><span class="val">US$ ${fmt(cr.valor)}</span><span class="unit">por bushel</span></div>
+        <div class="extra">${c.farelo!=null?`farelo ${fmt(c.farelo)} + óleo ${fmt(c.oleo)} − soja ${fmt(c.soja)}`:""}</div>
+      </div>
+      <div class="kpis" style="flex:1;min-width:260px">
+        ${p!=null?`<div class="kpi"><div class="lbl">Posição no ano</div>
+          <div class="val">p${p}</div><div class="sub">de ${cr.obs} pregões</div></div>`:""}
+        ${cr.part_oleo_pct!=null?`<div class="kpi"><div class="lbl">Óleo no valor dos produtos</div>
+          <div class="val">${fmt(cr.part_oleo_pct,1)}%</div><div class="sub">resto é farelo</div></div>`:""}
+        ${cr.mediana_1a!=null?`<div class="kpi"><div class="lbl">Mediana de 1 ano</div>
+          <div class="val">${fmt(cr.mediana_1a)}</div><div class="sub">mín ${fmt(cr.min_1a)} · máx ${fmt(cr.max_1a)}</div></div>`:""}
+      </div>
+    </div>
+    ${faixa!=null?`<div class="track" style="margin-top:12px">
+      <i style="width:${faixa}%"></i>
+      ${medPos!=null?`<b style="left:${medPos}%" data-tip="mediana do ano: ${fmt(cr.mediana_1a)}"></b>`:""}
+    </div>
+    <div class="cmp"><span>mín <em>${fmt(cr.min_1a)}</em></span>
+      <span style="margin-left:auto">máx <em>${fmt(cr.max_1a)}</em></span></div>`:""}
+    <div class="foot">Quanto a indústria ganha por bushel esmagado: vale do farelo mais o do
+      óleo, menos o da soja. Esmagamento rentável sustenta a demanda por grão e o prêmio de
+      porto. Contratos usados: ${contratos||"—"}.${mistura?" As pernas não são do mesmo mês —"+
+      " é como os contínuos de primeiro vencimento se alinham hoje, não uma escolha de janela."
+      :""} A série do ano herda os degraus de rolagem dos contínuos, que não se cancelam entre
+      as três pernas — serve para situar a margem, não para ler o dia da troca.</div>`;
+  $("sec-crush").hidden=false;
+}
+
 function renderCurve(curve, fx){
   const curvas = curve?.curvas?.filter(c=>c.contracts?.length) || [];
   if(!curvas.length) return;
@@ -1023,7 +1082,7 @@ function selo(sec){
 }
 
 const SECOES = {fx:"sec-fx", cepea:"sec-cepea", quotes:"sec-quotes", curve:"sec-curve",
-  options:"sec-options", safra:"sec-safra", embarques:"sec-embarques",
+  crush:"sec-crush", options:"sec-options", safra:"sec-safra", embarques:"sec-embarques",
   news:"sec-news", weather:"sec-weather"};
 
 function marcaFrescor(s){
@@ -1040,6 +1099,7 @@ function render(data){
   renderFx(s.fx, s.rates);
   renderCepea(s.cepea);
   renderQuotes(s.quotes, s.fx);
+  renderCrush(s.crush);
   renderCurve(s.curve, s.fx);
   renderOptions(s.options);
   renderSafra(s.safra, s.weather, s.sd);

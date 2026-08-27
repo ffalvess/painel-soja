@@ -70,6 +70,7 @@ CADENCIA = {
     "safra": "mista",  # EUA semanal (segundas), Brasil mensal
     "embarques": "semanal",  # divulgado nas quintas, ~1 semana de defasagem
     "sd": "mensal",  # WASDE
+    "crush": "intradiaria",
 }
 
 
@@ -1698,6 +1699,96 @@ def registra_rolagem(quotes: dict) -> None:
 
 # ---------------------------------------------------------------- main
 
+# ---------------------------------------------------------------- crush
+#
+# Margem de esmagamento em Chicago ("board crush"), em US$/bushel. Um bushel
+# de soja (60 lb) rende cerca de 44 lb de farelo e 11 lb de óleo:
+#   farelo: 44 lb ÷ 2.000 lb (short ton) = 0,022 × preço em US$/t curta
+#   óleo:   11 lb × preço em ¢/lb ÷ 100  = 0,11  × preço em ¢/lb
+#   soja:   preço em ¢/bu ÷ 100
+# É o número que diz se a indústria vai puxar ou soltar o prêmio: crush alto
+# significa esmagamento rentável, e esmagador rentável compra grão.
+FARELO_POR_BUSHEL = 0.022  # short tons
+OLEO_POR_BUSHEL = 0.11  # centavos -> dólares por libra
+
+
+def board_crush(soja_cents, farelo_usd_t, oleo_cents_lb):
+    """US$/bushel. None se faltar qualquer perna."""
+    if soja_cents is None or farelo_usd_t is None or oleo_cents_lb is None:
+        return None
+    return (
+        FARELO_POR_BUSHEL * farelo_usd_t
+        + OLEO_POR_BUSHEL * oleo_cents_lb
+        - soja_cents / 100
+    )
+
+
+def collect_crush(sections: dict) -> dict:
+    """Margem de esmagamento e sua posição no último ano.
+
+    A série histórica sai das próprias séries diárias já coletadas para os
+    três contratos — não precisa esperar acumular. Em compensação ela herda
+    os degraus de rolagem dos contínuos: as três pernas rolam em datas
+    diferentes, então o degrau não se cancela por completo. Serve para
+    situar a margem, não para medir o dia da rolagem.
+    """
+    itens = {i["symbol"]: i for i in (sections.get("quotes") or {}).get("items", [])}
+    faltam = [s for s in ("ZS=F", "ZM=F", "ZL=F") if s not in itens]
+    if faltam:
+        raise RuntimeError(f"faltam cotações para o crush: {', '.join(faltam)}")
+
+    zs, zm, zl = itens["ZS=F"], itens["ZM=F"], itens["ZL=F"]
+    valor = board_crush(zs.get("price"), zm.get("price"), zl.get("price"))
+    if valor is None:
+        raise RuntimeError("alguma perna do crush veio sem preço")
+
+    farelo = FARELO_POR_BUSHEL * zm["price"]
+    oleo = OLEO_POR_BUSHEL * zl["price"]
+
+    # Série do último ano, casando as três pernas pela data de fechamento.
+    def diaria(item):
+        s = (item.get("series") or {}).get("daily") or {}
+        return dict(zip(s.get("t") or [], s.get("c") or []))
+
+    ds, dm, dl = diaria(zs), diaria(zm), diaria(zl)
+    serie = []
+    for t in sorted(set(ds) & set(dm) & set(dl)):
+        v = board_crush(ds[t], dm[t], dl[t])
+        if v is not None:
+            serie.append({"t": t, "v": round(v, 4)})
+
+    vals = sorted(p["v"] for p in serie)
+    pct = None
+    if len(vals) >= 30:
+        abaixo = sum(1 for v in vals if v <= valor)
+        pct = round(abaixo / len(vals) * 100)
+
+    return {
+        "updated_at": now_iso(),
+        "unidade": "US$/bushel",
+        "valor": round(valor, 2),
+        "componentes": {
+            "farelo": round(farelo, 2),
+            "oleo": round(oleo, 2),
+            "soja": round(zs["price"] / 100, 2),
+        },
+        # Participação do óleo no valor dos produtos: sobe quando o biodiesel
+        # puxa o óleo e o farelo fica de carona.
+        "part_oleo_pct": round(oleo / (farelo + oleo) * 100, 1) if farelo + oleo else None,
+        "contratos": {
+            "soja": zs.get("contrato_rotulo"),
+            "farelo": zm.get("contrato_rotulo"),
+            "oleo": zl.get("contrato_rotulo"),
+        },
+        "percentil_1a": pct,
+        "min_1a": round(vals[0], 2) if vals else None,
+        "max_1a": round(vals[-1], 2) if vals else None,
+        "mediana_1a": round(vals[len(vals) // 2], 2) if vals else None,
+        "serie": serie[-90:],
+        "obs": len(serie),
+    }
+
+
 COLLECTORS = {
     "quotes": collect_quotes,
     "fx": collect_fx,
@@ -1712,7 +1803,7 @@ COLLECTORS = {
     "embarques": collect_embarques,
 }
 
-DERIVED = {"basis": collect_basis}
+DERIVED = {"basis": collect_basis, "crush": collect_crush}
 
 
 def main() -> int:

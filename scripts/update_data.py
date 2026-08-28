@@ -126,7 +126,11 @@ def anota_cadencia(sections: dict) -> None:
 
 
 def get(url: str, **kwargs) -> requests.Response:
-    r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, **kwargs)
+    # `timeout` sai de kwargs em vez de ser fixo: arquivo grande (a planilha
+    # do Pink Sheet tem 765 KB) não cabe nos 25 s padrão, e passar o argumento
+    # junto colidia com o valor fixo.
+    kwargs.setdefault("timeout", TIMEOUT)
+    r = requests.get(url, headers=HEADERS, **kwargs)
     r.raise_for_status()
     return r
 

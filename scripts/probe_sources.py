@@ -1,20 +1,16 @@
-"""Sonda temporária: dados para a análise de oportunidade (bloco A do plano).
+"""Sonda temporária: dados para a análise de oportunidade (bloco A).
 
-Duas perguntas que o WebSearch não respondeu:
+Segunda rodada. A primeira errou o filtro do IBGE — casou tabelas de
+agrotóxico de 2006 porque a expressão pegava "condição do produtor" nas
+classificações, não no nome da tabela. Agora filtra pelo nome da tabela e
+exige período 2017.
 
-  A2 — quantos produtores de soja existem, e de que tamanho? O IBGE tem o
-       número no Censo Agropecuário 2017, mas via API SIDRA, que a rede
-       daqui bloqueia. A tabela é descoberta pelo nome no catálogo, não
-       chutada por ID — mesma disciplina do USDA e do Pink Sheet.
-
-  A1 — os concorrentes publicam preço? A busca só devolveu páginas de
-       produto sem valor. Confirmar se é "sob consulta" mesmo, porque isso
-       muda o que dá para afirmar no documento.
+Também descobre a que corresponde cada preço da StoneX (R$ 3.060 / 5.814 /
+10.404), que a primeira rodada achou mas não soube interpretar.
 
 Rodar pelo workflow `probe.yml` e ler os logs. Remover depois.
 """
 
-import json
 import re
 import time
 
@@ -27,16 +23,7 @@ HEADERS = {
     ),
     "Accept-Language": "pt-BR,pt;q=0.9",
 }
-
-CATALOGO = "https://servicodados.ibge.gov.br/api/v3/agregados"
-SIDRA = "https://servicodados.ibge.gov.br/api/v3/agregados"
-
-# Páginas de produto dos concorrentes — só para ver se o preço é público.
-CONCORRENTES = [
-    ("SAFRAS pacote análises", "https://safras.com.br/produto/plataforma-safras-pacote-analises/"),
-    ("StoneX grãos premium", "https://loja.stonex.com/products/graos-premium-relatorios-de-mercado"),
-    ("StoneX loja grãos", "https://loja.stonex.com/collections/graos"),
-]
+API = "https://servicodados.ibge.gov.br/api/v3/agregados"
 
 
 def get(url, **kw):
@@ -44,91 +31,86 @@ def get(url, **kw):
     return requests.get(url, headers=HEADERS, **kw)
 
 
-def acha_tabelas():
-    """Catálogo do IBGE, filtrado pelo Censo Agropecuário."""
-    print(f"{'=' * 78}\nA2 — catálogo IBGE: tabelas do Censo Agropecuário\n{'=' * 78}")
-    r = get(CATALOGO)
-    print(f"  status {r.status_code}, {len(r.content):,} B")
+def tabelas_2017():
+    """Tabelas do Censo 2017 cujo NOME fala de lavoura temporária ou soja."""
+    print(f"{'=' * 78}\nA2 — tabelas do Censo Agropecuário 2017\n{'=' * 78}")
+    r = get(API)
     r.raise_for_status()
-    pesquisas = r.json()
-
-    alvos = []
-    for p in pesquisas:
-        nome = (p.get("nome") or "").lower()
-        if "censo agropecu" not in nome:
+    achados = []
+    for p in r.json():
+        nome_p = (p.get("nome") or "")
+        if "censo agropecu" not in nome_p.lower():
             continue
         for ag in p.get("agregados") or []:
-            n = (ag.get("nome") or "")
-            if re.search(r"lavoura tempor|soja|grupos de área|condição do produtor", n, re.I):
-                alvos.append((p.get("id"), ag.get("id"), n))
+            nome = ag.get("nome") or ""
+            # o nome da TABELA, não das classificações
+            if re.search(r"lavoura tempor|soja", nome, re.I):
+                achados.append((ag.get("id"), nome, nome_p))
+    print(f"  {len(achados)} tabela(s):")
+    for tid, nome, pesq in achados[:20]:
+        print(f"    {tid:>6}  {nome[:100]}")
+        print(f"            ({pesq[:70]})")
+    return achados
 
-    print(f"  {len(alvos)} tabela(s) candidata(s):")
-    for _, tid, n in alvos[:25]:
-        print(f"    {tid:>6}  {n[:110]}")
-    return alvos
 
-
-def metadados(tid):
-    """Variáveis e classificações da tabela — para montar a consulta certa."""
-    r = get(f"{SIDRA}/{tid}/metadados")
+def detalha(tid):
+    r = get(f"{API}/{tid}/metadados")
     if not r.ok:
-        print(f"    metadados {tid}: {r.status_code}")
-        return None
+        print(f"    {tid}: metadados {r.status_code}")
+        return
     m = r.json()
-    print(f"\n  --- tabela {tid}: {m.get('nome','')[:100]}")
-    print(f"      período: {(m.get('periodicidade') or {}).get('inicio')} "
-          f"a {(m.get('periodicidade') or {}).get('fim')}")
-    for v in (m.get("variaveis") or [])[:6]:
-        print(f"      var {v['id']}: {v['nome'][:80]} ({v.get('unidade','')})")
-    for c in (m.get("classificacoes") or [])[:6]:
+    per = m.get("periodicidade") or {}
+    if str(per.get("fim")) != "2017":
+        print(f"    {tid}: período termina em {per.get('fim')} — ignorando")
+        return
+    print(f"\n  === tabela {tid} — {m.get('nome','')[:95]}")
+    print(f"      período {per.get('inicio')}–{per.get('fim')}")
+    for v in (m.get("variaveis") or [])[:8]:
+        print(f"      var {v['id']}: {v['nome'][:75]} ({v.get('unidade','')})")
+    for c in (m.get("classificacoes") or []):
         cats = c.get("categorias") or []
-        soja = [k for k in cats if "soja" in (k.get("nome") or "").lower()]
-        print(f"      classif {c['id']}: {c['nome'][:60]} — {len(cats)} categorias"
-              + (f"  [SOJA: {[(k['id'], k['nome'][:40]) for k in soja][:3]}]" if soja else ""))
-        if re.search(r"grupos de área|área total", c.get("nome") or "", re.I):
-            print(f"        faixas: {[k['nome'][:26] for k in cats[:12]]}")
-    return m
+        nome_c = c.get("nome") or ""
+        soja = [k for k in cats if re.fullmatch(r"\s*soja.*", (k.get("nome") or ""), re.I)]
+        area = re.search(r"grupos de área|área total", nome_c, re.I)
+        marca = ""
+        if soja:
+            marca = f"  <<< SOJA em {[(k['id'], k['nome'][:30]) for k in soja][:2]}"
+        if area:
+            marca = f"  <<< FAIXAS DE ÁREA ({len(cats)})"
+        print(f"      classif {c['id']}: {nome_c[:55]} — {len(cats)} cat.{marca}")
+        if area:
+            for k in cats[:14]:
+                print(f"          {k['id']:>8}  {k['nome'][:44]}")
 
 
-def preco_publico():
-    print(f"\n{'=' * 78}\nA1 — preço dos concorrentes é público?\n{'=' * 78}")
-    for rot, url in CONCORRENTES:
+def stonex():
+    """A que corresponde cada preço? Extrai o contexto em volta dos valores."""
+    print(f"\n{'=' * 78}\nA1 — o que a StoneX vende por R$ 3.060 / 5.814 / 10.404\n{'=' * 78}")
+    for url in (
+        "https://loja.stonex.com/products/graos-premium-relatorios-de-mercado",
+        "https://loja.stonex.com/collections/graos",
+    ):
         try:
             r = get(url, timeout=45)
             txt = re.sub(r"<[^>]+>", " ", r.text)
             txt = re.sub(r"\s+", " ", txt)
-            # procura padrões de preço em reais
-            precos = re.findall(r"R\$\s?[\d.]+,\d{2}", txt)[:8]
-            sob = bool(re.search(r"sob consulta|solicite|fale com|consulte", txt, re.I))
-            print(f"  {r.status_code}  {rot}")
-            print(f"       preços na página: {precos or 'nenhum'}")
-            print(f"       menciona 'sob consulta/fale com': {'sim' if sob else 'não'}")
+            print(f"\n  {r.status_code}  {url.rsplit('/', 1)[-1]}")
+            for m in re.finditer(r"R\$\s?[\d.]+,\d{2}", txt):
+                ini = max(0, m.start() - 140)
+                print(f"     …{txt[ini:m.end() + 60]}…")
         except Exception as e:  # noqa: BLE001
-            print(f"  ERRO  {rot}: {str(e)[:90]}")
+            print(f"  ERRO: {str(e)[:90]}")
         time.sleep(2)
 
 
 def main():
     try:
-        alvos = acha_tabelas()
+        for tid, _, _ in tabelas_2017()[:8]:
+            detalha(tid)
+            time.sleep(0.6)
     except Exception as e:  # noqa: BLE001
-        print(f"  catálogo falhou: {str(e)[:140]}")
-        alvos = []
-
-    for _, tid, _ in alvos[:4]:
-        try:
-            metadados(tid)
-        except Exception as e:  # noqa: BLE001
-            print(f"    erro em {tid}: {str(e)[:90]}")
-        time.sleep(1)
-
-    preco_publico()
-
-    print(f"\n{'=' * 78}\nPRÓXIMO PASSO\n{'=' * 78}")
-    print("  Com o id da tabela, da variável e da classificação de grupos de área,")
-    print("  monta-se a consulta de valores. Sem isso o número de produtores de")
-    print("  soja por faixa de tamanho fica sem fonte — e vai para o documento")
-    print("  como lacuna assumida, não como estimativa inventada.")
+        print(f"  IBGE falhou: {str(e)[:140]}")
+    stonex()
 
 
 if __name__ == "__main__":

@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+
+# rascunhos datados do boletim: só os "atuais" (cliente.html / interno.html)
+# entram no repositório; um arquivo por semana só acumula ruído no histórico
+boletim/*-20*.html

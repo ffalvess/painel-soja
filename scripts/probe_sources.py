@@ -12,6 +12,7 @@ Nada de ID chutado: tudo sai dos metadados em tempo de execução.
 Rodar pelo workflow `probe.yml` e ler os logs. Remover depois.
 """
 
+import json
 import re
 import time
 
@@ -25,12 +26,32 @@ HEADERS = {
     "Accept-Language": "pt-BR,pt;q=0.9",
 }
 API = "https://servicodados.ibge.gov.br/api/v3/agregados"
-ALVOS = [6965, 6957, 6958, 6959]
+ALVOS = [6965]
+
+# A rodada anterior pediu N1|N3 com todas as faixas e ficou 17 min baixando —
+# o `timeout` do requests é entre bytes, então um corpo gigante não estoura.
+# Só Brasil, e um teto explícito de tamanho.
+LOCALIDADES = "N1[all]"
+TETO_BYTES = 8 * 1024 * 1024
 
 
 def get(url, **kw):
     kw.setdefault("timeout", 90)
-    return requests.get(url, headers=HEADERS, **kw)
+    return requests.get(url, **kw, headers=HEADERS)
+
+
+def get_limitado(url):
+    """Baixa em stream e desiste se passar do teto — sonda não pode travar."""
+    with requests.get(url, headers=HEADERS, timeout=90, stream=True) as r:
+        if not r.ok:
+            return r.status_code, None
+        buf = bytearray()
+        for pedaco in r.iter_content(65536):
+            buf += pedaco
+            if len(buf) > TETO_BYTES:
+                print(f"  >{TETO_BYTES // 1024} KiB — abortando o download")
+                return r.status_code, None
+        return r.status_code, bytes(buf)
 
 
 def acha_cat(classificacoes, padrao):
@@ -93,21 +114,20 @@ def valores(tid, m):
         partes.append(f"{c_soja}[{k_soja}]")
     if faixa:
         partes.append(f"{faixa['id']}[all]")
-    q = f"{API}/{tid}/periodos/2017/variaveis/{contagem['id']}?localidades=N1[all]|N3[all]"
+    q = f"{API}/{tid}/periodos/2017/variaveis/{contagem['id']}?localidades={LOCALIDADES}"
     if partes:
         q += "&classificacao=" + "|".join(partes)
 
     print(f"\n  var usada: {contagem['id']} — {contagem['nome'][:70]}")
     print(f"  soja: {c_soja}[{k_soja}] {nome_soja}")
     print(f"  faixa: {faixa['id'] if faixa else '—'} {(faixa or {}).get('nome', '')[:50]}")
-    print(f"  GET {q[:150]}")
+    print(f"  GET {q[:180]}")
 
-    r = get(q)
-    print(f"  HTTP {r.status_code}  {len(r.content)} B")
-    if not r.ok:
-        print(f"  corpo: {r.text[:300]}")
+    status, corpo = get_limitado(q)
+    print(f"  HTTP {status}  {len(corpo) if corpo else 0} B")
+    if not corpo:
         return
-    dados = r.json()
+    dados = json.loads(corpo)
     # v3 devolve [{variavel, resultados:[{classificacoes, series:[{localidade, serie}]}]}]
     for v in dados:
         for res in v.get("resultados") or []:
@@ -119,9 +139,7 @@ def valores(tid, m):
             for s in res.get("series") or []:
                 loc = (s.get("localidade") or {}).get("nome", "?")
                 val = list((s.get("serie") or {}).values())
-                if loc in ("Brasil", "Mato Grosso", "Mato Grosso do Sul", "Goiás",
-                           "Paraná", "Rio Grande do Sul", "Distrito Federal"):
-                    linhas.append(f"{loc}={val[0] if val else '?'}")
+                linhas.append(f"{loc}={val[0] if val else '?'}")
             if linhas:
                 print(f"    [{rot}]  " + "  ".join(linhas))
 

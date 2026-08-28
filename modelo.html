@@ -144,6 +144,13 @@ footer{margin-top:34px;color:var(--muted);font-size:12.5px}
     </div>
   </section>
 
+  <section id="sec-frete" hidden>
+    <h2>Quanto da diferença entre praças é frete? <span class="tag live">ao vivo</span></h2>
+    <div class="card">
+      <div id="frete"></div>
+    </div>
+  </section>
+
   <section id="sec-uso">
     <h2>Como usar o basis na prática <span class="tag live">ao vivo</span></h2>
 
@@ -405,6 +412,63 @@ function renderPernas(serie){
     </div>`;
 }
 
+const ROTULO_TIPO = {
+  comprador: "bid do comprador",
+  intermediario: "mercado, via intermediário",
+  entidade: "levantamento de entidade",
+};
+
+function renderFrete(f){
+  if(!f || !f.itens?.length) return;
+  const a = f.ajuste || {};
+  const pct = (v) => v==null ? "—" : (v*100).toFixed(0) + "%";
+  const explica = f.distancia_explica;
+
+  // O veredito primeiro, com as duas explicações lado a lado. Quando a
+  // distância não explica, dizer isso é a informação — não escondê-la atrás
+  // de um resíduo que a reta não sustenta.
+  const veredito = explica
+    ? `<b>A distância explica ${pct(a.r2_distancia)} da dispersão</b> entre as praças.
+       O frete implícito sai em <b>R$ ${fmt(Math.abs(a.brl_t_por_1000km),0)}/tonelada
+       por 1.000 km</b>, e o resíduo de cada praça é o que a distância não explica.`
+    : `<b style="color:var(--down)">A distância não explica a dispersão de hoje</b>
+       — R² de ${fmt(a.r2_distancia,3)} entre basis e quilômetro, contra o mínimo de
+       ${fmt(a.r2_minimo,2)} que este painel exige para publicar resíduo por praça.
+       ${a.r2_tipo_agente!=null ? `Já <b>o tipo de quem cotou explica ${pct(a.r2_tipo_agente)}</b>:
+       a diferença entre praças está mais em bid contra negócio fechado do que em
+       logística.` : ""}`;
+
+  const linhas = f.itens.map(i=>`<tr>
+    <td>${i.praca}${i.proxy?`<small style="color:var(--muted)"> · via ${i.proxy}</small>`:""}</td>
+    <td>${fmt(i.km,0)} km<small style="color:var(--muted)"> · ${i.porto}</small></td>
+    <td><b>${sgn(i.basis_brl_saca)}</b></td>
+    <td>${explica ? sgn(i.residuo) : "—"}</td>
+    <td><small>${ROTULO_TIPO[i.tipo_agente] || "não classificado"}</small></td>
+  </tr>`).join("");
+
+  const porTipo = (f.por_tipo||[]).filter(t=>t.tipo!=="sem classificacao");
+  $("frete").innerHTML = `
+    <h3>O que explica a diferença de basis entre as praças</h3>
+    <div class="src">${f.fonte||""}</div>
+    <p style="font-size:14px;margin:12px 0 0">${veredito}</p>
+    <div class="tblwrap" style="margin-top:12px"><table class="t">
+      <thead><tr><th>Praça</th><th>Distância ao porto mais próximo</th>
+        <th>Basis R$/sc</th><th>Resíduo</th><th>Quem cotou</th></tr></thead>
+      <tbody>${linhas}</tbody></table></div>
+    ${porTipo.length>1 ? `<div class="tblwrap" style="margin-top:12px"><table class="t">
+      <thead><tr><th>Tipo de cotação</th><th>Praças</th><th>Basis médio</th></tr></thead>
+      <tbody>${porTipo.map(t=>`<tr><td>${ROTULO_TIPO[t.tipo]||t.tipo}</td>
+        <td>${t.n}</td><td><b>${sgn(t.media)}</b></td></tr>`).join("")}</tbody>
+      </table></div>` : ""}
+    <p class="note"><b>Leia com cuidado:</b> ${f.obs||""}
+      A distância é medida por estrada, mas o modal não: Rondonópolis tem terminal
+      ferroviário e paga menos que o caminhão sugere. São ${a.n} praças num único
+      dia — é corte transversal, não série. E a classificação de quem cotou se
+      confunde com a região: a mesma corretora cobre as três praças de Mato Grosso
+      do Sul, então “efeito do agente” pode ser “efeito da região dele”.</p>`;
+  $("sec-frete").hidden = false;
+}
+
 function renderChain(b){
   if(!b) return;
   $("chain-src").textContent =
@@ -620,6 +684,7 @@ async function load(){
     renderSD(d.sections?.sd);
     if(b?.historico?.length){ renderHist(b.historico); $("sec-hist").hidden=false; }
     renderPernas(b?.historico);
+    renderFrete(d.sections?.frete);
   }catch(err){
     $("stamp").textContent = "sem dados — rode o workflow de atualização";
     console.error(err);

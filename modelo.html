@@ -268,15 +268,25 @@ function renderChain(b){
   html += li("×", "Dólar comercial", "conversão para reais", fmt(b.cambio,4));
   html += li("=", "<b>Paridade de exportação</b>", "o que Chicago e o câmbio explicam",
              `R$ ${fmt(b.paridade_brl_saca)}`, "total");
-  html += li("+", "<b>Basis do porto</b>",
-             `${sgn(bp.cents_bu,0)} ¢/bu · ${sgn(bp.pct,1)}% sobre a paridade`,
-             `<span class="${bp.brl_saca>=0?"pos":"neg"}">${sgn(bp.brl_saca)}</span>`);
+  // A cadeia é uma conta: o operador tem que refletir o sinal e o número
+  // mostrar a magnitude. Antes vinha "+ -8,63" no porto e, pior, "- -23,45"
+  // no interior — que faz o leitor calcular 155,05 - (-23,45) = 178,50
+  // quando o resultado exibido é 131,60. A conta não fechava na tela.
+  const desagio = (v) => v < 0
+    ? { op: "−", mag: Math.abs(v), rot: "Deságio", cls: "neg" }
+    : { op: "+", mag: v,           rot: "Prêmio",  cls: "pos" };
+
+  const dp = desagio(bp.brl_saca);
+  html += li(dp.op, `<b>${dp.rot} do porto</b>`,
+             `${fmt(Math.abs(bp.cents_bu),0)} ¢/bu · ${fmt(Math.abs(bp.pct),1)}% sobre a paridade`,
+             `<span class="${dp.cls}">R$ ${fmt(dp.mag)}</span>`);
   html += li("=", "<b>Indicador Paranaguá</b>", "preço no porto, R$/saca de 60 kg",
              `R$ ${fmt(b.indicador_brl_saca)}`, "total");
   const pior = (b.basis_interior||[])[0];
   if(pior){
-    html += li("−", "Basis do interior", `praça mais descontada: ${pior.praca}`,
-               `<span class="neg">${sgn(pior.basis_brl_saca)}</span>`);
+    const di = desagio(pior.basis_brl_saca);
+    html += li(di.op, `${di.rot} do interior`, `praça mais descontada: ${pior.praca}`,
+               `<span class="${di.cls}">R$ ${fmt(di.mag)}</span>`);
     html += li("=", `<b>Balcão em ${pior.praca}</b>`, "o que o produtor efetivamente recebe",
                `R$ ${fmt(pior.valor)}`, "total");
   }

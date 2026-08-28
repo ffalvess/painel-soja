@@ -77,6 +77,20 @@ table.t{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
 .kpi .sub{font-size:12px;color:var(--ink-2);margin-top:2px}
 
 .note{font-size:12.5px;color:var(--muted);margin-top:10px;max-width:80ch}
+.leitura{margin:10px 0 0;padding-left:20px;font-size:13.5px;line-height:1.55}
+.leitura li{margin-bottom:9px}
+.leitura.lim{font-size:13px}
+.pernas{width:100%;border-collapse:collapse;margin-top:10px;font-size:13.5px}
+.pernas th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--muted);font-weight:600;padding:0 10px 6px 0;border-bottom:1px solid var(--baseline)}
+.pernas td{padding:8px 10px 8px 0;border-bottom:1px solid var(--baseline);
+  font-variant-numeric:tabular-nums}
+.pernas tr:last-child td{border-bottom:none;font-weight:600}
+/* precisa ser block: em span inline a altura e o fundo não pegam */
+.pernas .barra{display:block;position:relative;height:9px;background:var(--baseline);
+  border-radius:2px;min-width:70px}
+.pernas .barra i{position:absolute;left:0;height:100%;background:var(--accent);border-radius:2px}
+.pernas .leg{font-size:12px;color:var(--muted);display:block}
 .tag{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.03em;
   text-transform:uppercase;padding:2px 8px;border-radius:999px;border:1px solid var(--ring)}
 .tag.live{color:var(--up)} .tag.spec{color:var(--accent)} .tag.block{color:var(--warn)}
@@ -128,6 +142,78 @@ footer{margin-top:34px;color:var(--muted);font-size:12.5px}
     <div class="card">
       <div id="hist"></div>
     </div>
+  </section>
+
+  <section id="sec-uso">
+    <h2>Como usar o basis na prática <span class="tag live">ao vivo</span></h2>
+
+    <div class="card">
+      <h3>Primeiro: qual perna mexeu</h3>
+      <div class="src">A paridade tem três pernas — CBOT, prêmio de porto e câmbio.
+        Elas não querem dizer a mesma coisa, e a diferença é o que separa ler o
+        basis de só olhar o número.</div>
+      <div id="pernas"></div>
+    </div>
+
+    <div class="duo" style="margin-top:14px">
+      <div class="card">
+        <h3>As três leituras que o número permite</h3>
+        <ol class="leitura">
+          <li><b>Direção do basis do porto.</b> Basis abrindo negativo significa
+            que o interno <i>não</i> acompanhou a paridade. A margem de quem
+            exporta melhora, e quem origina passa a ter espaço para pagar mais.
+            Basis fechando é o contrário: o interno correu na frente e o
+            exportador perdeu folga.</li>
+          <li><b>Dispersão entre praças.</b> A diferença de basis entre duas
+            praças deveria ser aproximadamente a diferença de frete até o porto.
+            Quando é maior, sobra algo que não é logística — demanda local,
+            esmagador comprando, armazém cheio.</li>
+          <li><b>Qual perna moveu a paridade.</b> Alta puxada por
+            <b>prêmio</b> é o exportador dizendo que quer grão agora. Alta puxada
+            por <b>câmbio</b> não diz nada sobre demanda de soja. Alta puxada por
+            <b>CBOT</b> é mundo, não Brasil.</li>
+        </ol>
+        <p class="note"><b>O que ainda não dá para fazer:</b> dizer se o basis
+          está caro ou barato. Isso exige percentil contra a própria história, e
+          a série começou a ser acumulada agora — não existe arquivo gratuito
+          para reconstruir o passado. Até lá, o número serve para
+          <b>direção e dispersão</b>, não para nível.</p>
+      </div>
+
+      <div class="card">
+        <h3>Limitações do número — ler antes de recomendar</h3>
+        <ol class="leitura lim">
+          <li><b>O prêmio é de um mês de embarque específico</b>, casado com o
+            contrato CBOT correspondente. Se o negócio que você está precificando
+            é de outro mês, esse basis não é o seu.</li>
+          <li><b>A paridade é simplificada.</b> Não desconta frete rodoviário até
+            o navio, taxas portuárias, custo de originação nem descontos de
+            qualidade. Todo esse custo está embutido no <i>nível</i> do basis —
+            por isso o nível não é interpretável e a variação é.</li>
+          <li><b>Horizontes misturados.</b> O indicador CEPEA é disponível à
+            vista e sai com um dia de defasagem; o futuro é ~15 min. No limite do
+            dia, parte da variação é diferença de relógio, não de mercado.</li>
+          <li><b>O basis do interior embute frete não medido.</b> O painel ainda
+            não coleta frete rodoviário, então uma praça que abre pode estar
+            dizendo “frete subiu”, não “comprador sumiu”.</li>
+          <li><b>Balcão tem agente.</b> Cada praça é cotada por um agente
+            diferente. Divergência entre praças pode ser de quem cotou, não do
+            mercado — o painel mostra o agente por isso.</li>
+          <li><b>Não é arbitragem executável.</b> Basis negativo não significa
+            “compre aqui e exporte”. O prêmio FOB é de carga em navio; você não
+            tem berço, e o produtor não vende FOB Paranaguá.</li>
+          <li><b>Troca de mês de referência dá degrau falso.</b> Quando o mês
+            corrente sai da tabela da fonte, o prêmio troca sozinho e o basis
+            salta sem que nada tenha acontecido. As marcas tracejadas no gráfico
+            acima são exatamente isso.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="note"><b>A regra que fecha:</b> nunca leve o basis sozinho para
+      uma recomendação. Leve a direção, a perna que moveu e a dispersão entre
+      praças — três evidências e a janela. Quem assina a recomendação é o
+      assessor, e ele precisa poder discordar do painel com base no raciocínio.</div>
   </section>
 
   <section id="sec-sd" hidden>
@@ -250,6 +336,74 @@ const $ = (id) => document.getElementById(id);
 const nf = (d=2) => new Intl.NumberFormat("pt-BR",{minimumFractionDigits:d,maximumFractionDigits:d});
 const fmt = (v,d=2) => v==null ? "—" : nf(d).format(v);
 const sgn = (v,d=2) => v==null ? "—" : (v>0?"+":"") + nf(d).format(v);
+
+// Constante do coletor: (¢/bu + prêmio)/100 × KG × câmbio = R$/saca.
+const KG_PARIDADE = 2.204623;
+
+// O prêmio nem sempre foi gravado na série (entrou depois). Onde falta, sai
+// da própria paridade por álgebra — é exato, não estimativa.
+const premioDe = (s) => s.premio_cents != null ? s.premio_cents
+  : (s.paridade != null && s.cambio ? s.paridade * 100 / (KG_PARIDADE * s.cambio) - s.cbot_cents
+                                    : null);
+
+function renderPernas(serie){
+  const el = $("pernas");
+  if(!el) return;
+  const s = (serie || []).filter(x => x.paridade != null && x.cambio && x.cbot_cents != null);
+  if(s.length < 2){
+    el.innerHTML = `<div class="src" style="margin-top:10px">Precisa de pelo menos duas
+      observações na série para separar as pernas. Hoje há ${s.length}.</div>`;
+    return;
+  }
+  const a = s[0], z = s[s.length-1];
+  const pa = premioDe(a), pz = premioDe(z);
+  if(pa == null || pz == null){ el.innerHTML = ""; return; }
+
+  const par = (c,p,x) => ((c + p) / 100) * KG_PARIDADE * x;
+  const base = par(a.cbot_cents, pa, a.cambio);
+  const total = par(z.cbot_cents, pz, z.cambio) - base;
+
+  // Efeito de cada perna: move uma de cada vez a partir do início. A soma não
+  // fecha exatamente porque as pernas se multiplicam — o resíduo vai à mostra.
+  const pernas = [
+    ["CBOT",   par(z.cbot_cents, pa, a.cambio) - base,
+     `${fmt(a.cbot_cents,2)} → ${fmt(z.cbot_cents,2)} ¢/bu`,
+     "mundo — não diz nada sobre a demanda pelo grão brasileiro"],
+    ["Prêmio", par(a.cbot_cents, pz, a.cambio) - base,
+     `${fmt(pa,0)} → ${fmt(pz,0)} ¢/bu`,
+     "o exportador dizendo se quer grão agora — a perna que mais informa"],
+    ["Câmbio", par(a.cbot_cents, pa, z.cambio) - base,
+     `${fmt(a.cambio,4)} → ${fmt(z.cambio,4)}`,
+     "financeiro — muda o preço em reais sem mudar nada de soja"],
+  ];
+  const soma = pernas.reduce((t,[,v]) => t + v, 0);
+  const maior = Math.max(...pernas.map(([,v]) => Math.abs(v)), 1e-9);
+
+  const dInd = (z.indicador != null && a.indicador != null) ? z.indicador - a.indicador : null;
+  const dBasis = (z.basis != null && a.basis != null) ? z.basis - a.basis : null;
+
+  el.innerHTML = `<table class="pernas">
+    <thead><tr><th>Perna</th><th>Movimento</th><th>Efeito na paridade</th>
+      <th style="width:26%">Peso</th></tr></thead>
+    <tbody>
+      ${pernas.map(([nome,v,mov,leg]) => `<tr>
+        <td>${nome}<span class="leg">${leg}</span></td>
+        <td>${mov}</td>
+        <td>${sgn(v)} R$/sc</td>
+        <td><span class="barra"><i style="width:${(Math.abs(v)/maior*100).toFixed(0)}%"></i></span></td>
+      </tr>`).join("")}
+      <tr><td>Paridade</td><td>${a.data} → ${z.data}</td>
+        <td>${sgn(total)} R$/sc</td>
+        <td><span class="leg">resíduo de interação ${sgn(total - soma)}</span></td></tr>
+    </tbody></table>
+    <div class="src" style="margin-top:9px">
+      No mesmo intervalo o indicador foi ${dInd == null ? "—" : sgn(dInd) + " R$/sc"}
+      e o basis do porto, ${dBasis == null ? "—" : sgn(dBasis) + " R$/sc"}.
+      ${dBasis == null ? "" : (dBasis < 0
+        ? "<b>Basis abriu:</b> o interno ficou para trás da paridade — margem do exportador melhorou."
+        : "<b>Basis fechou:</b> o interno correu na frente da paridade — o exportador perdeu folga.")}
+    </div>`;
+}
 
 function renderChain(b){
   if(!b) return;
@@ -465,6 +619,7 @@ async function load(){
     renderChain(b);
     renderSD(d.sections?.sd);
     if(b?.historico?.length){ renderHist(b.historico); $("sec-hist").hidden=false; }
+    renderPernas(b?.historico);
   }catch(err){
     $("stamp").textContent = "sem dados — rode o workflow de atualização";
     console.error(err);

@@ -700,6 +700,18 @@ function renderSinais(sn){
     <div class="foot">Retorno anualizado que o mercado paga por adiar a venda, sem descontar
       custo de armazenagem — compare com o seu custo para saber se compensa esperar.</div>
 
+    ${(sn.relacao_troca||[]).length?`
+    <div class="hint" style="margin-top:14px">Relação de troca — sacas de soja por tonelada de insumo</div>
+    <div class="tblwrap"><table class="curve">
+      <thead><tr><th>Insumo</th><th>US$/t</th><th>Sacas de soja</th><th>Posição em 5 anos</th></tr></thead>
+      <tbody>${sn.relacao_troca.map(r=>`<tr><td>${r.insumo}</td>
+        <td>${fmt(r.usd_t)}</td><td><b>${fmt(r.sacas_por_t,1)}</b></td>
+        <td>${r.percentil_5a==null?"—":"p"+r.percentil_5a}</td></tr>`).join("")}</tbody></table></div>
+    <div class="foot">Quantas sacas de soja é preciso vender para comprar uma tonelada de
+      fertilizante, ao preço e câmbio de hoje. O percentil é do <b>preço do insumo em dólar</b>
+      nos últimos 5 anos — não da relação de troca, que ainda não tem série. Fonte: Pink Sheet
+      do Banco Mundial, mensal${sn.relacao_troca[0]?.periodo?`, dado de ${sn.relacao_troca[0].periodo}`:""}.</div>`:""}
+
     ${pend.length?`<div class="pend"><b>Ainda sem histórico para percentil:</b> ${pend.join("; ")}.
       As séries começaram a ser acumuladas agora.</div>`:""}
 

@@ -1,0 +1,939 @@
+<title>Oportunidade do Painel Soja</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Archivo:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+  :root {
+    --ground:      #F2F3EE;
+    --surface:     #FBFBF8;
+    --ink:         #1B2018;
+    --muted:       #67705F;
+    --rule:        #D6D9CE;
+    --accent:      #9A6410;
+    --accent-soft: #EFE3CE;
+    --gap:         #8C3A1E;
+    --gap-soft:    #F2E0D8;
+
+    --serif:  "Fraunces", Georgia, "Times New Roman", serif;
+    --sans:   "Archivo", "Helvetica Neue", Arial, sans-serif;
+    --mono:   "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:      #14170F;
+      --surface:     #1C2018;
+      --ink:         #E8E9E1;
+      --muted:       #97A08D;
+      --rule:        #333A2C;
+      --accent:      #DCA84A;
+      --accent-soft: #2E2716;
+      --gap:         #E08A63;
+      --gap-soft:    #33201A;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground:      #14170F;
+    --surface:     #1C2018;
+    --ink:         #E8E9E1;
+    --muted:       #97A08D;
+    --rule:        #333A2C;
+    --accent:      #DCA84A;
+    --accent-soft: #2E2716;
+    --gap:         #E08A63;
+    --gap-soft:    #33201A;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.62;
+    margin: 0;
+    padding: 0 1.5rem 6rem;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 1080px; margin: 0 auto; }
+
+  /* ---------- cabeçalho ---------- */
+
+  header {
+    padding: 4.5rem 0 2.5rem;
+    border-bottom: 1px solid var(--rule);
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: .72rem;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: clamp(2.3rem, 5.4vw, 3.6rem);
+    line-height: 1.07;
+    letter-spacing: -.015em;
+    text-wrap: balance;
+    margin: 0;
+  }
+
+  .dek {
+    font-size: 1.14rem;
+    color: var(--muted);
+    max-width: 60ch;
+    margin: 0;
+  }
+
+  .meta {
+    font-family: var(--mono);
+    font-size: .76rem;
+    color: var(--muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem 1.4rem;
+  }
+
+  /* ---------- estrutura: prosa + trilho de procedência ---------- */
+
+  .bloco {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 15rem;
+    gap: 0 2.6rem;
+    padding: 3.2rem 0;
+    border-bottom: 1px solid var(--rule);
+    align-items: start;
+  }
+
+  /* min-width:0 é obrigatório: como item de grid o padrão é `auto`, que
+     resolve para o min-content — e o min-width da tabela empurraria a coluna
+     inteira para fora da tela no celular, sem o overflow-x nunca agir */
+  .bloco > .corpo {
+    max-width: 68ch;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+
+  .trilho {
+    font-family: var(--mono);
+    font-size: .74rem;
+    line-height: 1.55;
+    color: var(--muted);
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    border-left: 1px solid var(--rule);
+    padding-left: 1.2rem;
+    position: sticky;
+    top: 2rem;
+  }
+
+  .trilho b { color: var(--ink); font-weight: 500; display: block; }
+  .trilho a { color: var(--accent); }
+
+  @media (max-width: 860px) {
+    .bloco { grid-template-columns: 1fr; gap: 2rem; }
+    .trilho { position: static; }
+  }
+
+  h2 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: clamp(1.5rem, 3.2vw, 2rem);
+    line-height: 1.16;
+    letter-spacing: -.01em;
+    text-wrap: balance;
+    margin: 0;
+  }
+
+  h3 {
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 1.02rem;
+    letter-spacing: .002em;
+    margin: 1.4rem 0 -.3rem;
+  }
+
+  p { margin: 0; }
+
+  .num {
+    font-family: var(--mono);
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+  }
+
+  strong { font-weight: 600; }
+
+  em { font-style: italic; }
+
+  /* ---------- a tese ---------- */
+
+  .tese {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent);
+    padding: 2rem 2.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 3.2rem 0 0;
+  }
+
+  .tese p:first-of-type {
+    font-family: var(--serif);
+    font-size: clamp(1.25rem, 2.6vw, 1.55rem);
+    line-height: 1.35;
+    font-weight: 500;
+    text-wrap: pretty;
+  }
+
+  /* ---------- selo de procedência ---------- */
+
+  .selo {
+    font-family: var(--mono);
+    font-size: .66rem;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    padding: .12em .5em;
+    border-radius: 2px;
+    white-space: nowrap;
+  }
+  .selo.medido   { background: var(--accent-soft); color: var(--accent); }
+  .selo.derivado { background: transparent; color: var(--muted); border: 1px solid var(--rule); }
+  .selo.lacuna   { background: var(--gap-soft); color: var(--gap); }
+
+  /* ---------- tabelas ---------- */
+
+  .rolagem { overflow-x: auto; margin: .6rem 0; max-width: 100%; }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: .88rem;
+    min-width: 34rem;
+  }
+
+  th {
+    text-align: left;
+    font-family: var(--mono);
+    font-weight: 500;
+    font-size: .68rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom: 1px solid var(--ink);
+    padding: 0 .8rem .5rem 0;
+    vertical-align: bottom;
+  }
+
+  td {
+    border-bottom: 1px solid var(--rule);
+    padding: .62rem .8rem .62rem 0;
+    vertical-align: top;
+  }
+
+  td.n { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  tr:last-child td { border-bottom: none; }
+
+  caption {
+    caption-side: bottom;
+    text-align: left;
+    font-family: var(--mono);
+    font-size: .72rem;
+    color: var(--muted);
+    padding-top: .7rem;
+  }
+
+  /* ---------- grade ERRC ---------- */
+
+  .errc {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin: .4rem 0;
+  }
+
+  .errc > div {
+    background: var(--surface);
+    padding: 1.15rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+
+  .errc h4 {
+    font-family: var(--mono);
+    font-size: .7rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0;
+    font-weight: 500;
+  }
+
+  .errc p { font-size: .88rem; line-height: 1.5; }
+
+  /* ---------- forças de Porter ---------- */
+
+  .forcas { display: flex; flex-direction: column; gap: .1rem; }
+
+  .forca {
+    display: grid;
+    grid-template-columns: 8.5rem minmax(0, 1fr);
+    gap: 0 1.2rem;
+    padding: .85rem 0;
+    border-bottom: 1px solid var(--rule);
+    align-items: baseline;
+  }
+
+  .forca:last-child { border-bottom: none; }
+
+  .forca dt {
+    font-family: var(--mono);
+    font-size: .74rem;
+    letter-spacing: .04em;
+    color: var(--muted);
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+  }
+
+  .grau {
+    font-size: .68rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--ink);
+  }
+
+  .barra { display: flex; gap: 2px; }
+  .barra i { width: 9px; height: 3px; background: var(--rule); }
+  .barra i.on { background: var(--accent); }
+
+  .forca dd { margin: 0; font-size: .93rem; line-height: 1.55; }
+
+  @media (max-width: 620px) {
+    .forca { grid-template-columns: 1fr; gap: .45rem; }
+  }
+
+  /* ---------- lacunas ---------- */
+
+  .lacunas {
+    border: 1px solid var(--gap);
+    background: var(--gap-soft);
+    padding: 1.8rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .lacunas h2 { color: var(--gap); }
+
+  .lacunas ol { margin: 0; padding-left: 1.2rem; display: flex; flex-direction: column; gap: .85rem; }
+  .lacunas li { font-size: .93rem; line-height: 1.55; }
+
+  ul.limpa { margin: 0; padding-left: 1.15rem; display: flex; flex-direction: column; gap: .6rem; }
+  ul.limpa li { line-height: 1.55; }
+
+  footer {
+    padding: 3rem 0 0;
+    font-family: var(--mono);
+    font-size: .74rem;
+    color: var(--muted);
+    line-height: 1.7;
+    max-width: 68ch;
+  }
+
+  a { color: var(--accent); text-underline-offset: 2px; }
+  a:focus-visible, :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+</style>
+
+<div class="wrap">
+
+<header>
+  <span class="eyebrow">Bloco A · análise de oportunidade</span>
+  <h1>Oportunidade do Painel Soja</h1>
+  <p class="dek">O painel funciona e custa zero para rodar. A pergunta é o que
+  ele vira: instrumento de assessoria, isca de captação ou produto vendido por
+  assinatura. As três respostas têm contas diferentes.</p>
+  <div class="meta">
+    <span>28 de agosto de 2026</span>
+    <span>Pirâmide de Minto · Porter · TAM/SAM/SOM · ERRC</span>
+    <span>Cada número traz fonte, data e grau de certeza</span>
+  </div>
+</header>
+
+<div class="tese">
+  <p>Há oportunidade — mas não a de vender assinatura do painel. A via
+  defensável é usar o painel como <strong>instrumento que aumenta sua
+  capacidade de assessoria</strong> e o boletim como <strong>prova de
+  competência que alimenta captação</strong>. Assinatura autônoma é a terceira
+  etapa, não a primeira, e hoje está travada por uma licença que ninguém
+  resolveu ainda.</p>
+  <p>O motivo é curto: o dado é commodity e tem substituto gratuito abundante;
+  o que não é commodity é a decomposição do preço e a leitura assinada por
+  alguém em quem o produtor já confia. Isso não escala como software — escala
+  como reputação.</p>
+  <p>E há um dado a favor: o Centro-Oeste concentra
+  <strong>43% dos estabelecimentos de soja acima de 500 ha do Brasil</strong> e
+  metade dos acima de 1.000 ha. A região onde você já trabalha é onde o
+  cliente-alvo mora.</p>
+</div>
+
+<!-- ============ 1 ============ -->
+<section class="bloco">
+  <div class="corpo">
+    <span class="eyebrow">Sustentação 1 de 3</span>
+    <h2>Existe disposição a pagar perto de mil reais por mês — ancorada numa
+    marca que você não tem</h2>
+
+    <p>A StoneX é a única do grupo que publica preço. O produto
+    <em>Grãos Premium — Relatórios de Mercado</em> vende em três planos, com
+    teste grátis de 10 a 14 dias:</p>
+
+    <div class="rolagem">
+      <table>
+        <caption>StoneX, loja pública, consultada em 28/08/2026.
+        <span class="selo medido">medido</span></caption>
+        <thead>
+          <tr><th>Plano</th><th>Total</th><th>Equivale a</th><th>Teste</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Trimestral</td><td class="n">R$ 3.060,00</td><td class="n">R$ 1.020/mês</td><td class="n">10 dias</td></tr>
+          <tr><td>Semestral</td><td class="n">R$ 5.814,00</td><td class="n">R$ 969/mês</td><td class="n">10 dias</td></tr>
+          <tr><td>Anual</td><td class="n">R$ 10.404,00</td><td class="n">R$ 867/mês</td><td class="n">14 dias</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>O público declarado por ela é exatamente o seu: <em>“quem produz,
+    origina, processa, exporta e gerencia risco em grãos”</em>. Cobre soja,
+    milho e trigo.</p>
+
+    <p>Nenhum outro concorrente publica preço. SAFRAS &amp; Mercado vende a
+    <em>Plataforma SAFRAS — Pacote Análises</em> com escolha por commodity e
+    prazo de 3 ou 12 meses, parcelável em até 12 vezes, mas não mostra valor
+    nem escreve “sob consulta” — exige contato. Agrinvest e Hedgepoint idem.
+    Venda consultiva com ticket negociado é o padrão da categoria.</p>
+
+    <h3>O que isso significa e o que não significa</h3>
+    <p><strong>Significa</strong> que o mercado tolera R$ 900 a R$ 1.000 por mês
+    por relatório de grãos. <strong>Não significa</strong> que você possa cobrar
+    isso. O preço da StoneX carrega mesa de operações global, corretora
+    registrada e trinta anos de nome. Um painel sem marca não sustenta esse
+    número — e cobrar um quinto dele exigiria um volume de assinantes que a via
+    de assessoria, por construção, não tem.</p>
+
+    <p>Há uma leitura melhor: <strong>R$ 1.020/mês é o teto do que um cliente
+    seu já gasta com informação de mercado</strong>. Se o painel torna sua
+    assessoria melhor, ele disputa o honorário, não a assinatura — e honorário
+    de assessoria tem ticket maior e menos churn.</p>
+  </div>
+
+  <aside class="trilho">
+    <div>
+      <b>StoneX — preços</b>
+      loja.stonex.com, página do produto, lida por robô em 28/08/2026 11:33 UTC.
+      Valores extraídos do próprio HTML da tabela de planos.
+      <span class="selo medido">medido</span>
+    </div>
+    <div>
+      <b>SAFRAS &amp; Mercado</b>
+      safras.com.br, mesma data. Sem preço no HTML público; formulário de
+      contato.
+      <span class="selo medido">medido</span>
+    </div>
+    <div>
+      <b>Agrinvest, Hedgepoint</b>
+      Busca web, 28/08/2026. Nenhum preço público localizado. Ausência de
+      preço não prova ausência de tabela — prova que não é preço de prateleira.
+      <span class="selo derivado">derivado</span>
+    </div>
+  </aside>
+</section>
+
+<!-- ============ 2 ============ -->
+<section class="bloco">
+  <div class="corpo">
+    <span class="eyebrow">Sustentação 2 de 3</span>
+    <h2>O dado é commodity com substituto grátis; a decomposição não é</h2>
+
+    <p>Aplicando as cinco forças ao segmento “informação de comercialização de
+    grãos para produtor e originador no Centro-Oeste”:</p>
+
+    <dl class="forcas">
+      <div class="forca">
+        <dt><span class="grau">Substitutos</span>
+          <span class="barra"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span>
+          muito alta</dt>
+        <dd>É a força que decide o desenho. O IMEA publica boletim semanal de
+        soja de graça; o Notícias Agrícolas republica o indicador CEPEA de
+        graça; e o <strong>grupo de WhatsApp do corretor</strong> entrega
+        preço, prêmio e opinião em tempo real, com custo zero e confiança já
+        construída. Qualquer coisa que compita em “mostrar o preço” perde para
+        um grupo de WhatsApp.</dd>
+      </div>
+      <div class="forca">
+        <dt><span class="grau">Poder do comprador</span>
+          <span class="barra"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span>
+          alta</dt>
+        <dd>Custo de troca próximo de zero e teste grátis virou padrão da
+        categoria (a própria StoneX dá 10 a 14 dias). O comprador compara na
+        primeira semana e cancela sem atrito.</dd>
+      </div>
+      <div class="forca">
+        <dt><span class="grau">Fornecedores</span>
+          <span class="barra"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span>
+          alta</dt>
+        <dd>Concentrada num só fornecedor: o CEPEA/ESALQ. O indicador é
+        propriedade intelectual dele, e é o número que o produtor reconhece.
+        Consulta interna é livre; redistribuir numa lista é publicação. Essa é
+        a força que trava o produto autônomo, não a concorrência.</dd>
+      </div>
+      <div class="forca">
+        <dt><span class="grau">Novos entrantes</span>
+          <span class="barra"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span>
+          média</dt>
+        <dd>Barreira técnica baixíssima — este painel inteiro roda em GitHub
+        Actions a custo zero, e qualquer um repete. Barreira de confiança alta:
+        ninguém trava contrato de setembro por causa de um site desconhecido.</dd>
+      </div>
+      <div class="forca">
+        <dt><span class="grau">Rivalidade</span>
+          <span class="barra"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span>
+          média</dt>
+        <dd>Poucos players grandes, pouca guerra de preço aberta (ninguém
+        publica preço), diferenciação por marca e por relacionamento.</dd>
+      </div>
+    </dl>
+
+    <h3>Onde está a folga</h3>
+    <p>Quase todo mundo publica o <strong>número final</strong>: o indicador, o
+    prêmio, o futuro. O painel faz outra coisa — abre a conta. Ele casa o mês de
+    embarque do prêmio com o contrato CBOT correspondente, calcula a paridade de
+    exportação e mostra o <strong>basis como diferença explicada</strong>, não
+    como número solto. Isso exige juntar prêmio, câmbio e vencimento certo, e é
+    justamente por dar trabalho que quase ninguém publica aberto.</p>
+
+    <p>É uma hipótese, não um fato verificado: eu não auditei os relatórios
+    pagos dos concorrentes por dentro. O que sei é que não está no material
+    público deles.</p>
+  </div>
+
+  <aside class="trilho">
+    <div>
+      <b>IMEA</b>
+      Boletim Semanal — Soja, publicações abertas em imea.com.br. Cobre só Mato
+      Grosso.
+      <span class="selo medido">medido</span>
+    </div>
+    <div>
+      <b>Hedgepoint HUB</b>
+      Plataforma com “mais de 60 relatórios”, público declarado incluindo
+      produtores e cooperativas. Preço não público.
+      <span class="selo medido">medido</span>
+    </div>
+    <div>
+      <b>Grão Direto</b>
+      Volume negociado saltou de 1 Mt (2021) para 12 Mt (2025); meta de 18 a
+      20 Mt em 2026; funcionalidade lançada a “cerca de 5 mil clientes”.
+      Concorre no <em>negócio</em>, não na análise — mas encosta na mesma tela.
+      <span class="selo medido">medido</span>
+    </div>
+    <div>
+      <b>“Ninguém publica a decomposição”</b>
+      Baseado só no material público. Não auditei produto pago de concorrente.
+      <span class="selo lacuna">a verificar</span>
+    </div>
+  </aside>
+</section>
+
+<!-- ============ 3 ============ -->
+<section class="bloco">
+  <div class="corpo">
+    <span class="eyebrow">Sustentação 3 de 3</span>
+    <h2>O limite não é audiência — é licença, agenda e regulação</h2>
+
+    <p>A conta de mercado, feita de baixo para cima, mostra um universo
+    grande o suficiente para qualquer ambição — não é ele que restringe. O
+    Brasil tinha <span class="num">236.245</span> estabelecimentos produzindo
+    soja em grão no Censo Agropecuário de 2017. A distribuição por tamanho é o
+    que importa, porque assessoria de comercialização não se vende para quem
+    planta dez hectares:</p>
+
+    <div class="rolagem">
+      <table>
+        <caption>IBGE, Censo Agropecuário 2017, tabela 6965, variável 10084,
+        classificação “Soja em grão” × grupos de área total. As dezenove faixas
+        somam exatamente o total publicado.
+        <span class="selo medido">medido</span></caption>
+        <thead>
+          <tr><th>Faixa de área total do estabelecimento</th><th>Estabelecimentos</th><th>Do total</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Menos de 10 ha</td><td class="n">9.602</td><td class="n">4,1%</td></tr>
+          <tr><td>De 10 a menos de 50 ha</td><td class="n">138.393</td><td class="n">58,6%</td></tr>
+          <tr><td>De 50 a menos de 200 ha</td><td class="n">50.223</td><td class="n">21,3%</td></tr>
+          <tr><td>De 200 a menos de 500 ha</td><td class="n">17.559</td><td class="n">7,4%</td></tr>
+          <tr><td>De 500 a menos de 1.000 ha</td><td class="n">8.971</td><td class="n">3,8%</td></tr>
+          <tr><td>De 1.000 a menos de 2.500 ha</td><td class="n">7.249</td><td class="n">3,1%</td></tr>
+          <tr><td>De 2.500 a menos de 10.000 ha</td><td class="n">3.450</td><td class="n">1,5%</td></tr>
+          <tr><td>De 10.000 ha e mais</td><td class="n">694</td><td class="n">0,3%</td></tr>
+          <tr><td>Sem área declarada</td><td class="n">104</td><td class="n">0,0%</td></tr>
+          <tr><td><strong>Total</strong></td><td class="n"><strong>236.245</strong></td><td class="n">100%</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>A camada que gerencia risco de preço com alguma sofisticação começa por
+    volta de 500 ha: <strong><span class="num">20.364</span> estabelecimentos,
+    8,6% do total</strong>. Acima de 1.000 ha são
+    <span class="num">11.393</span>.</p>
+
+    <h3>E é no Centro-Oeste que essa camada está</h3>
+
+    <p>Este é o achado que mais muda a decisão. O Paraná e o Rio Grande do Sul
+    têm muito mais produtores de soja; o Centro-Oeste tem os grandes.</p>
+
+    <div class="rolagem">
+      <table>
+        <caption>Mesma consulta, recorte por unidade da federação.
+        <span class="selo medido">medido</span></caption>
+        <thead>
+          <tr><th>UF</th><th>200 a 500 ha</th><th>≥ 500 ha</th><th>≥ 1.000 ha</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Mato Grosso</td><td class="n">874</td><td class="n">4.206</td><td class="n">3.212</td></tr>
+          <tr><td>Goiás</td><td class="n">1.842</td><td class="n">2.528</td><td class="n">1.402</td></tr>
+          <tr><td>Mato Grosso do Sul</td><td class="n">1.142</td><td class="n">2.027</td><td class="n">1.137</td></tr>
+          <tr><td>Distrito Federal</td><td class="n">61</td><td class="n">70</td><td class="n">30</td></tr>
+          <tr><td><strong>Centro-Oeste</strong></td><td class="n"><strong>3.919</strong></td><td class="n"><strong>8.831</strong></td><td class="n"><strong>5.781</strong></td></tr>
+          <tr><td>Rio Grande do Sul</td><td class="n">4.634</td><td class="n">3.807</td><td class="n">1.680</td></tr>
+          <tr><td>Paraná</td><td class="n">5.088</td><td class="n">2.448</td><td class="n">816</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>O Centro-Oeste concentra <strong>43,4% de todos os estabelecimentos de
+    soja acima de 500 ha do país</strong> e <strong>50,7% dos acima de
+    1.000 ha</strong>. Mato Grosso sozinho tem
+    <span class="num">360</span> dos <span class="num">694</span>
+    estabelecimentos de 10.000 ha ou mais do Brasil — <strong>52%</strong>.
+    Enquanto isso o Paraná, com mais que o dobro de produtores de soja no
+    total, tem <span class="num">816</span> acima de 1.000 ha contra
+    <span class="num">3.212</span> só do Mato Grosso.</p>
+
+    <p>A consequência prática: <strong>a região onde você já atua é onde o
+    cliente-alvo se concentra</strong>, e é a região onde o painel já mede
+    basis por praça. Isso não é sorte de recorte — é a razão pela qual um
+    painel do Centro-Oeste vale mais que um painel do Brasil.</p>
+
+    <div class="rolagem">
+      <table>
+        <caption>Conta de baixo para cima. O ticket é o preço público da
+        StoneX; o honorário é o único número que só você tem.</caption>
+        <thead>
+          <tr><th>Camada</th><th>Medida</th><th>Valor</th><th>Certeza</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Universo</td>
+            <td>Área e produção de soja, 2025/26</td>
+            <td class="n">48,61 Mha · 180,46 Mt</td>
+            <td><span class="selo medido">medido</span></td>
+          </tr>
+          <tr>
+            <td>TAM</td>
+            <td>Estabelecimentos com soja ≥ 500 ha × R$ 1.020/mês</td>
+            <td class="n">20.364 · R$ 249 mi/ano</td>
+            <td><span class="selo derivado">derivado</span></td>
+          </tr>
+          <tr>
+            <td>SAM</td>
+            <td>Idem, restrito ao Centro-Oeste</td>
+            <td class="n">8.831 · R$ 108 mi/ano</td>
+            <td><span class="selo derivado">derivado</span></td>
+          </tr>
+          <tr>
+            <td>Ticket real</td>
+            <td>Honorário médio da sua assessoria</td>
+            <td class="n">—</td>
+            <td><span class="selo lacuna">só você tem</span></td>
+          </tr>
+          <tr>
+            <td>SOM</td>
+            <td>Clientes que você consegue atender bem</td>
+            <td class="n">—</td>
+            <td><span class="selo derivado">é agenda, não fatia</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p><strong>Três ressalvas antes de qualquer um usar esses R$ 249 milhões.</strong>
+    A faixa é a <em>área total do estabelecimento</em>, não a área de soja — um
+    estabelecimento de 600 ha pode ter 200 ha de soja. O censo é de 2017 e a
+    área de soja cresceu perto de 40% desde então, então a contagem é piso, não
+    retrato. E TAM calculado com preço de concorrente é um número de tamanho de
+    categoria, não de receita alcançável: <strong>ninguém captura TAM</strong>.</p>
+
+    <p><strong>A linha do SOM é a mais importante da tabela e a menos parecida
+    com um plano de negócio.</strong> Na via de assessoria, o mercado
+    endereçável não é uma fatia percentual de nada: é quantos clientes cabem na
+    sua semana. O painel move essa linha ao reduzir o tempo por cliente — e é
+    essa a métrica a medir na Fase 1 da validação, não intenção de compra.</p>
+
+    <h3>Três travas que precedem qualquer receita nova</h3>
+    <ul class="limpa">
+      <li><strong>Licença do CEPEA.</strong> Uso interno na assessoria é
+      consulta. Boletim enviado para uma lista é redistribuição. O estágio 2 do
+      mailing — lista pública — não abre sem autorização do CEPEA ou sem tirar
+      a série do corpo do boletim, mantendo só dado livremente redistribuível
+      (USDA, BCB, CONAB, CBOT com atribuição) mais análise própria.</li>
+      <li><strong>LGPD.</strong> Captura de e-mail é dado pessoal: base legal,
+      aviso de privacidade na landing, opt-in não pré-marcado, descadastro em
+      um clique.</li>
+      <li><strong>CVM.</strong> Recomendar posição em futuros e opções listadas
+      a terceiros encosta em atividade regulada (Res. 19 e 20). Assessoria de
+      comercialização de físico é outra coisa, mas o e-mail vai falar em travar
+      contrato de setembro. É consulta para o seu advogado, não para mim — está
+      registrado aqui uma vez.</li>
+    </ul>
+  </div>
+
+  <aside class="trilho">
+    <div>
+      <b>CONAB 2025/26</b>
+      48,61 Mha e 180,46 Mt; safra anterior 47,35 Mha e 171,47 Mt.
+      Coletado pelo painel na seção <span class="num">safra.br</span>.
+      <span class="selo medido">medido</span>
+    </div>
+    <div>
+      <b>Contagem de produtores</b>
+      IBGE, Censo Agropecuário 2017, tabela 6965, variável 10084, classificação
+      226[4896] “Soja em grão” × 220 “Grupos de área total”. Consultado em
+      28/08/2026.
+      <span class="selo medido">medido</span>
+    </div>
+    <div>
+      <b>Conferência</b>
+      As dezenove faixas somam 236.245, idêntico ao total publicado na própria
+      resposta — a consulta não perdeu nem duplicou categoria.
+    </div>
+    <div>
+      <b>Faixa é do estabelecimento</b>
+      “Grupos de área total” mede a área do estabelecimento inteiro, não a área
+      de soja. Um estabelecimento de 600 ha pode ter 200 ha de soja.
+    </div>
+    <div>
+      <b>O que o TAM não é</b>
+      R$ 249 mi/ano é tamanho de categoria calculado com preço de concorrente.
+      Ninguém captura TAM, e este em particular pressupõe que todo produtor
+      grande pagaria preço de StoneX.
+      <span class="selo derivado">derivado</span>
+    </div>
+  </aside>
+</section>
+
+<!-- ============ ERRC ============ -->
+<section class="bloco">
+  <div class="corpo">
+    <span class="eyebrow">Grade ERRC · Oceano Azul</span>
+    <h2>O que fazer diferente da StoneX e da SAFRAS</h2>
+
+    <p>Competir no mesmo eixo delas — mais cobertura, mais commodities, mais
+    relatório — é uma guerra que se perde por falta de equipe. A grade abaixo é
+    a alternativa: mudar o eixo.</p>
+
+    <div class="errc">
+      <div>
+        <h4>Eliminar</h4>
+        <p>Cobertura ampla de commodities. Trigo, café, boi e algodão não
+        entram. Também sai a ambição de ser fonte de notícia — o Notícias
+        Agrícolas faz isso melhor e de graça.</p>
+      </div>
+      <div>
+        <h4>Reduzir</h4>
+        <p>Volume de texto. O concorrente entrega 60 relatórios; a vantagem de
+        um consultor é entregar uma página que já decidiu o que importa
+        naquela semana.</p>
+      </div>
+      <div>
+        <h4>Aumentar</h4>
+        <p>Especificidade geográfica e temporal: praça, contrato de embarque,
+        janela. “Setembro em Sorriso” em vez de “o mercado de soja”.</p>
+      </div>
+      <div>
+        <h4>Criar</h4>
+        <p>A conta aberta: paridade de exportação, basis decomposto por praça
+        e percentil do momento contra a própria história. O número com o
+        raciocínio ao lado, para o cliente poder discordar.</p>
+      </div>
+    </div>
+
+    <h3>A regra que vale para tudo isso</h3>
+    <p>Nunca exibir veredito sozinho. Toda recomendação sai acompanhada das
+    evidências e da janela usada. Quem assina é você, não o painel — e essa é
+    exatamente a diferença entre assessoria e assinatura de dado.</p>
+  </div>
+
+  <aside class="trilho">
+    <div>
+      <b>Fonte da grade</b>
+      Kim &amp; Mauborgne, <em>Blue Ocean Strategy</em>. Preenchida contra o
+      material público dos concorrentes, não contra os produtos pagos.
+      <span class="selo derivado">derivado</span>
+    </div>
+    <div>
+      <b>Hipótese central</b>
+      A decomposição é o eixo defensável. Ainda não testada com usuário —
+      é o que o Bloco D existe para checar.
+      <span class="selo lacuna">a testar</span>
+    </div>
+  </aside>
+</section>
+
+<!-- ============ fontes ============ -->
+<section class="bloco">
+  <div class="corpo">
+    <span class="eyebrow">A3 · fontes secundárias</span>
+    <h2>O que dá para usar, de graça, sem pedir licença a ninguém</h2>
+
+    <p>A separação abaixo importa mais para o mailing do que para o painel: o
+    que é livremente redistribuível pode ir no corpo do boletim público; o
+    resto, só por referência.</p>
+
+    <div class="rolagem">
+      <table>
+        <caption>Situação em 28/08/2026. A leitura de licença é minha e não
+        substitui parecer jurídico.</caption>
+        <thead>
+          <tr><th>Fonte</th><th>O que entrega</th><th>Cadência</th><th>No boletim público</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>USDA — PSD e Export Sales</td><td>Oferta e demanda, embarques semanais</td><td>Mensal / semanal</td><td>Sim, com atribuição</td></tr>
+          <tr><td>CONAB</td><td>Área, produção, produtividade</td><td>Levantamento mensal</td><td>Sim, com atribuição</td></tr>
+          <tr><td>Banco Central</td><td>PTAX, Selic, CDI, IPCA</td><td>Diária / mensal</td><td>Sim</td></tr>
+          <tr><td>CBOT via Yahoo</td><td>Futuros, curva, opções</td><td>Intradiária, ~15 min de atraso</td><td>Sim, com atribuição</td></tr>
+          <tr><td>World Bank <em>Pink Sheet</em></td><td>Ureia, DAP, KCl, fosfato</td><td>Mensal</td><td>Sim</td></tr>
+          <tr><td>Open-Meteo</td><td>Chuva por praça</td><td>Diária</td><td>Sim</td></tr>
+          <tr><td>CEPEA/ESALQ</td><td>Indicador Paranaguá e Paraná</td><td>Diária</td><td><strong>Não sem autorização</strong></td></tr>
+          <tr><td>IMEA</td><td>Boletim e custo de produção, só MT</td><td>Semanal</td><td>Por referência</td></tr>
+          <tr><td>ANP</td><td>Diesel — pressão de custo e frete</td><td>Semanal</td><td>Sim <span class="selo lacuna">não integrada</span></td></tr>
+          <tr><td>SIFRECA/ESALQ</td><td>Frete rodoviário de grãos</td><td>Semanal</td><td>A verificar <span class="selo lacuna">não integrada</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <aside class="trilho">
+    <div>
+      <b>Já no painel</b>
+      Todas as linhas acima, menos ANP e SIFRECA. O fertilizante entrou pelo
+      Pink Sheet em agosto.
+      <span class="selo medido">medido</span>
+    </div>
+    <div>
+      <b>Regra de coleta</b>
+      Descobrir identificador em tempo de execução, nunca fixar no código. O
+      Pink Sheet rotaciona o ID da URL do arquivo — endereço chutado entrega
+      planilha velha sem erro nenhum.
+    </div>
+  </aside>
+</section>
+
+<!-- ============ lacunas ============ -->
+<section class="bloco">
+  <div class="corpo">
+    <div class="lacunas">
+      <h2>O que este documento não sabe</h2>
+      <p>Listado aqui em vez de escondido numa nota de rodapé, porque é a parte
+      que muda a decisão se alguém preencher.</p>
+      <ol>
+        <li><strong>Quantos produtores de soja existem hoje.</strong> O número
+        de 2017 é o censo mais recente que existe: o IBGE só faz Censo
+        Agropecuário a cada dez anos. Com a área crescendo perto de 40% desde
+        então, 236.245 é piso conhecido, não retrato atual.</li>
+        <li><strong>Seu honorário médio e quantos clientes você atende hoje.</strong>
+        Sem esses dois números não existe conta de retorno. São os únicos dados
+        deste documento que não estão em fonte pública nenhuma.</li>
+        <li><strong>O que os concorrentes entregam por dentro.</strong> A
+        hipótese de que ninguém publica a decomposição vale para o material
+        público. Dez dias de teste grátis na StoneX resolveriam isso por
+        R$ 0,00.</li>
+        <li><strong>Se o CEPEA autoriza.</strong> Não perguntei. É uma pergunta
+        de uma linha por e-mail e destrava ou mata o estágio 2 inteiro.</li>
+      </ol>
+    </div>
+  </div>
+  <aside class="trilho">
+    <div>
+      <b>Custo de fechar cada lacuna</b>
+      1: nada — não existe dado mais novo, o próximo censo é a única saída.
+      2: dez minutos seus. 3: um teste grátis. 4: um e-mail. Nenhuma custa
+      dinheiro.
+    </div>
+  </aside>
+</section>
+
+<!-- ============ decisão ============ -->
+<section class="bloco">
+  <div class="corpo">
+    <span class="eyebrow">Decorrência</span>
+    <h2>O que isso implica na ordem de fazer</h2>
+
+    <p>Nada aqui muda o plano combinado — mas muda a ênfase em dois pontos.</p>
+
+    <ul class="limpa">
+      <li><strong>A métrica da Fase 1 é a certa e vira a métrica principal.</strong>
+      Quantas vezes o painel mudou uma recomendação que você já ia fazer. Se
+      nunca muda, é conforto, não ferramenta — e nenhuma das outras contas
+      importa.</li>
+      <li><strong>O teste grátis da StoneX é pesquisa competitiva barata.</strong>
+      Dez dias mostram exatamente o que R$ 1.020/mês compra hoje, e é a única
+      forma honesta de confirmar ou derrubar a hipótese da decomposição.</li>
+      <li><strong>Perguntar ao CEPEA agora, não no estágio 2.</strong> A
+      resposta muda o desenho do boletim, e o boletim é o experimento do B5.
+      Descobrir depois de escrever quatro edições é caro.</li>
+      <li><strong>Não comece pela assinatura.</strong> Não porque seja
+      impossível, mas porque a ordem certa é: instrumento → prova → produto.
+      Quem começa pelo produto vende para ninguém; quem começa pelo instrumento
+      já tem cliente na segunda semana.</li>
+    </ul>
+  </div>
+
+  <aside class="trilho">
+    <div>
+      <b>Próximo bloco</b>
+      C — personas por <em>job story</em>: produtor, originador e trader, e o
+      que cada um vê primeiro ao abrir o painel.
+    </div>
+  </aside>
+</section>
+
+<footer>
+  Análise de oportunidade do Painel Soja · 28/08/2026 · Estrutura: pirâmide de
+  Minto (resposta primeiro), cinco forças de Porter, TAM/SAM/SOM de baixo para
+  cima, grade ERRC. Números marcados como <span class="selo medido">medido</span>
+  vêm de fonte primária consultada na data indicada;
+  <span class="selo derivado">derivado</span> é leitura minha sobre eles;
+  <span class="selo lacuna">lacuna</span> é o que não foi apurado e
+  deliberadamente não foi estimado.
+</footer>
+
+</div>

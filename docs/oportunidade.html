@@ -203,6 +203,75 @@
     margin: -.2rem 0 .2rem;
   }
 
+  /* ---------- arenas ---------- */
+
+  .arena { font-size: .86rem; min-width: 52rem; }
+  .arena th:first-child, .arena td:first-child { width: 15rem; }
+  .arena td { padding: .95rem .9rem .95rem 0; vertical-align: top; }
+  .arena .dim { font-weight: 600; font-size: .88rem; }
+  .arena .dim span {
+    display: block;
+    font-family: var(--mono);
+    font-size: .66rem;
+    color: var(--muted);
+    font-weight: 400;
+    margin-top: .2rem;
+  }
+  .arena .amanha { color: var(--accent); }
+  .arena th.amanha { color: var(--accent); border-bottom-color: var(--accent); }
+
+  /* ---------- job stories ---------- */
+
+  .jobs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(19rem, 100%), 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin: .5rem 0;
+  }
+  .jobs > article {
+    background: var(--surface);
+    padding: 1.3rem 1.35rem;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+  }
+  .jobs h4 {
+    font-family: var(--mono);
+    font-size: .7rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0;
+    font-weight: 500;
+  }
+  .job {
+    font-family: var(--serif);
+    font-size: 1rem;
+    line-height: 1.45;
+    margin: 0;
+    padding-left: .85rem;
+    border-left: 2px solid var(--accent);
+  }
+  .forcas-jtbd { display: flex; flex-direction: column; gap: .4rem; margin: 0; padding: 0; }
+  .forcas-jtbd div {
+    display: grid;
+    grid-template-columns: 5.4rem minmax(0, 1fr);
+    gap: .6rem;
+    font-size: .84rem;
+    line-height: 1.45;
+  }
+  .forcas-jtbd dt {
+    font-family: var(--mono);
+    font-size: .64rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding-top: .18rem;
+  }
+  .forcas-jtbd dd { margin: 0; }
+
   h2 {
     font-family: var(--serif);
     font-weight: 600;
@@ -1001,6 +1070,221 @@
       <span class="selo derivado">derivado</span>
     </div>
   </aside>
+</section>
+
+<!-- ============ arenas ============ -->
+<section class="bloco largo">
+  <div class="corpo">
+    <span class="eyebrow">Arenas · definição da indústria</span>
+    <h2>A arena não é “informação agrícola”. É a decisão de quando vender.</h2>
+
+    <p>A pergunta “em que indústria eu estou?” dá a resposta errada aqui.
+    Consultoria, mídia, corretora e software são indústrias diferentes, e o
+    produtor escolhe entre elas na mesma hora, pelo mesmo motivo. A arena
+    correta é definida pela <strong>decisão em disputa</strong> — travar ou
+    esperar — e nela o grupo de WhatsApp do corretor concorre com a StoneX em
+    pé de igualdade.</p>
+
+    <div class="rolagem">
+      <table class="arena">
+        <caption>Arenas na estrutura de Rita McGrath. A coluna de amanhã é
+        hipótese, não previsão — está aqui para ser derrubada pelo Bloco D.</caption>
+        <thead>
+          <tr><th>Dimensão</th><th>Como é hoje</th><th>Mudanças em curso</th><th class="amanha">Como pode ser amanhã</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="dim">Recursos disputados<span>o que está escasso</span></td>
+            <td>Não é o dado — o dado é abundante e grátis. É a <strong>atenção do
+            produtor na semana da decisão</strong> e a confiança de quem ele
+            escuta antes de assinar contrato</td>
+            <td>Excesso de fonte gratuita virou ruído; a escassez migrou de
+            informação para <em>síntese confiável</em></td>
+            <td class="amanha">Disputa por ser o único canal que ele abre antes
+            de decidir. Quem ocupa esse lugar não é substituível por dado melhor</td>
+          </tr>
+          <tr>
+            <td class="dim">Competidores<span>quem disputa a mesma decisão</span></td>
+            <td>Cinco camadas que não se enxergam como concorrentes: plataformas
+            globais, consultorias de análise, assessorias, gratuitos e
+            marketplaces. Na cabeça do produtor, todos ocupam o mesmo slot</td>
+            <td>Grão Direto trouxe capital de risco e efeito de rede; Hedgepoint
+            juntou mesa com plataforma de conteúdo; os gratuitos melhoraram</td>
+            <td class="amanha">Convergência: o marketplace quer recomendar e a
+            consultoria quer transacionar. <strong>O espaço que sobra é o de quem
+            não tem interesse na ponta da operação</strong></td>
+          </tr>
+          <tr>
+            <td class="dim">Clientes e seu <em>job to be done</em><span>por que contratam</span></td>
+            <td>Contratam para <strong>não errar sozinho</strong> — reduzir o
+            arrependimento de ter vendido cedo ou tarde demais. Não contratam
+            para “ter informação”</td>
+            <td>Sucessão familiar coloca uma geração mais nova, digital e
+            desconfiada de opinião sem número, na mesa da decisão</td>
+            <td class="amanha">O <em>job</em> não muda; muda a prova aceita.
+            Passa a exigir raciocínio verificável, não autoridade declarada</td>
+          </tr>
+          <tr>
+            <td class="dim">Cadeia de valor<span>atenção, busca, seleção, contrato, pagamento</span></td>
+            <td>Atenção por WhatsApp e rádio; seleção por indicação de vizinho;
+            contrato por telefone com o cerealista; pagamento por honorário ou
+            embutido no spread da corretagem</td>
+            <td>A ponta de transação digitalizou primeiro (85 mil usuários ativos
+            na Grão Direto); a ponta de <em>conselho</em> continua analógica</td>
+            <td class="amanha">Descompasso se resolve dos dois lados: o
+            marketplace sobe para o conselho, ou o conselho desce para a
+            transação. <strong>A janela de disrupção está exatamente aí</strong></td>
+          </tr>
+          <tr>
+            <td class="dim">Atributos da experiência<span>o que faz preferir</span></td>
+            <td>Confiança pessoal acima de tudo. Depois: rapidez da resposta,
+            linguagem da praça, e o número final entregue pronto</td>
+            <td>Começa a pesar mostrar a conta — a geração nova pergunta “de onde
+            veio esse número”</td>
+            <td class="amanha">De “ele acertou” para <strong>“eu entendi por
+            quê”</strong>. Raciocínio auditável vira atributo, e é o único que
+            não some quando o consultor erra uma vez</td>
+          </tr>
+          <tr>
+            <td class="dim">Capacidades e ativos<span>o que é preciso ter</span></td>
+            <td>Relacionamento e histórico de acerto. Custo fixo alto: cada
+            cliente consome horas de análise manual repetida</td>
+            <td>Coleta automatizada derrubou o custo marginal da análise a zero —
+            este painel roda de hora em hora sem custo</td>
+            <td class="amanha">Capacidade deixa de ser produzir a análise e passa
+            a ser <strong>traduzi-la para a praça do cliente</strong>. O painel
+            vira infraestrutura; o julgamento vira o produto</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>As três oportunidades de disrupção que a arena revela</h3>
+
+    <p><strong>1. O descompasso da cadeia.</strong> A transação digitalizou e o
+    conselho não. Quem ligar as duas pontas — recomendação que chega no mesmo
+    lugar onde o negócio é fechado — muda a arena. É também o maior risco: se a
+    Grão Direto subir para o conselho antes, ela chega com 85 mil usuários e
+    R$ 90 milhões em caixa.</p>
+
+    <p><strong>2. O custo marginal zero da análise.</strong> A vantagem histórica
+    dos incumbentes era produzir análise em escala, e isso agora custa quase
+    nada. A barreira que sobra é distribuição e confiança — que é exatamente o
+    ativo que um assessor já tem e uma plataforma não.</p>
+
+    <p><strong>3. A mudança do atributo aceito como prova.</strong> A arena
+    inteira entrega o número final. Se a exigência migra de “ele acertou” para
+    “eu entendi por quê”, quem já abre a conta muda de posição sem precisar
+    crescer. <em>Esta é a hipótese central do produto e continua não
+    testada.</em></p>
+
+    <p class="dica">Nota de método: a coluna “como pode ser amanhã” é onde
+    análise de arena costuma virar ficção. As três colunas de hoje têm fonte no
+    quadro comparativo; a de amanhã é hipótese formulada para ser testada nas
+    entrevistas, e está escrita em cima do que já está mudando, não do que seria
+    conveniente que mudasse.</p>
+  </div>
+</section>
+
+<!-- ============ JTBD ============ -->
+<section class="bloco largo">
+  <div class="corpo">
+    <span class="eyebrow">Jobs to be done · três personas</span>
+    <h2>O mesmo painel, três decisões diferentes</h2>
+
+    <p>O <em>job</em> nunca é “ver dados”. Ninguém contrata um painel; contrata
+    progresso numa situação concreta. Abaixo, a <em>job story</em> de cada
+    persona e as quatro forças que decidem se ela troca o que já usa — empurrão
+    da situação, atração da solução, ansiedade da novidade e apego ao hábito.
+    <strong>As duas primeiras você controla; as duas últimas decidem.</strong></p>
+
+    <div class="jobs">
+      <article>
+        <h4>Produtor</h4>
+        <p class="job">Quando <b>o preço subiu e eu não sei se é o topo</b>,
+        quero <b>saber onde este momento está na minha própria história</b>,
+        para <b>travar sem ficar remoendo se vendi cedo demais</b>.</p>
+        <dl class="forcas-jtbd">
+          <div><dt>Empurra</dt><dd>Arrependimento da safra passada; o vizinho que
+          travou melhor; conta de insumo vencendo</dd></div>
+          <div><dt>Atrai</dt><dd>Percentil em R$/saca da praça dele e a conta
+          aberta — “por que agora”</dd></div>
+          <div><dt>Ansiedade</dt><dd>Ser responsabilizado por uma decisão que
+          seguiu um número que não entendeu</dd></div>
+          <div><dt>Hábito</dt><dd>Ligar para o cerealista e perguntar “quanto tá
+          hoje”. Custa zero e sempre funcionou</dd></div>
+        </dl>
+        <p style="font-size:.84rem;margin:0"><b>Vê primeiro:</b> preço em R$/saca
+        da praça dele, percentil, e uma frase de leitura. <b>Ruído:</b> curva
+        inteira, crush, dólar.</p>
+      </article>
+
+      <article>
+        <h4>Originador</h4>
+        <p class="job">Quando <b>tenho meta de originação e o produtor não
+        vende</b>, quero <b>saber quanto de margem ainda tenho contra a
+        paridade</b>, para <b>decidir se melhoro o bid hoje ou seguro</b>.</p>
+        <dl class="forcas-jtbd">
+          <div><dt>Empurra</dt><dd>Meta mensal; navio programado; concorrente
+          pagando mais na mesma praça</dd></div>
+          <div><dt>Atrai</dt><dd>Basis por praça contra o porto, e qual perna da
+          paridade mexeu — prêmio ou câmbio</dd></div>
+          <div><dt>Ansiedade</dt><dd>Pagar acima do mercado e descobrir depois
+          que o basis fechou por frete, não por demanda</dd></div>
+          <div><dt>Hábito</dt><dd>Planilha própria com a paridade que ele mesmo
+          monta toda manhã</dd></div>
+        </dl>
+        <p style="font-size:.84rem;margin:0"><b>Vê primeiro:</b> basis por praça,
+        dispersão contra frete, decomposição da paridade. <b>Ruído:</b> percentil
+        de 5 anos, clima.</p>
+      </article>
+
+      <article>
+        <h4>Trader</h4>
+        <p class="job">Quando <b>a curva muda de formato</b>, quero <b>ver se o
+        carrego paga a armazenagem e o que o crush está sinalizando</b>, para
+        <b>montar ou desmontar posição entre vencimentos</b>.</p>
+        <dl class="forcas-jtbd">
+          <div><dt>Empurra</dt><dd>Curva invertendo; margem de esmagamento
+          apertando; posição a rolar</dd></div>
+          <div><dt>Atrai</dt><dd>Carrego por trecho em % ao ano contra a Selic, e
+          o board crush com percentil</dd></div>
+          <div><dt>Ansiedade</dt><dd>Fonte não auditada — ele não opera com
+          número de origem desconhecida</dd></div>
+          <div><dt>Hábito</dt><dd>Terminal que a mesa já paga, com dado
+          licenciado e suporte</dd></div>
+        </dl>
+        <p style="font-size:.84rem;margin:0"><b>Vê primeiro:</b> curva comparada,
+        carrego, crush, posições em aberto. <b>Ruído:</b> preço de balcão,
+        indicador físico.</p>
+      </article>
+    </div>
+
+    <h3>O que o JTBD decide de fato</h3>
+
+    <p><strong>A ansiedade do produtor é o argumento do produto.</strong> Ele
+    teme decidir com base num número que não entende — e a resposta a isso é
+    exatamente a conta aberta. Não é ornamento pedagógico: é remoção da força que
+    trava a adoção.</p>
+
+    <p><strong>O hábito é o concorrente real, não a StoneX.</strong> Ligar para o
+    cerealista custa zero, responde em trinta segundos e nunca deu errado o
+    bastante para doer. Qualquer coisa que exija mais esforço que uma ligação
+    precisa entregar algo que a ligação não entrega — e o que a ligação nunca
+    entrega é <em>o percentil</em> e <em>a conta</em>.</p>
+
+    <p><strong>O trader provavelmente não é cliente.</strong> A ansiedade dele é
+    procedência do dado, e o painel usa Yahoo Finance não licenciado. Isso não se
+    resolve com produto melhor; resolve-se com contrato de dado, que custa
+    dinheiro. É a persona a <strong>despriorizar</strong> — e essa é a conclusão
+    mais útil desta seção, porque é a que evita gastar meses construindo curva
+    comparada para quem não vai pagar.</p>
+
+    <p class="dica">Isto ainda são hipóteses. <em>Job stories</em> escritas sem
+    entrevista são a forma mais elegante de confirmar o que já se acreditava — a
+    regra do Mom Test vale aqui: perguntar sobre a última vez que ele decidiu e o
+    que fez, nunca se acha que usaria.</p>
+  </div>
 </section>
 
 <!-- ============ ERRC ============ -->

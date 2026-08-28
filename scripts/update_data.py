@@ -70,6 +70,7 @@ CADENCIA = {
     "safra": "mista",  # EUA semanal (segundas), Brasil mensal
     "embarques": "semanal",  # divulgado nas quintas, ~1 semana de defasagem
     "sd": "mensal",  # WASDE
+    "fertilizante": "mensal",  # Pink Sheet
     "crush": "intradiaria",
     "sinais": "intradiaria",
 }
@@ -98,7 +99,7 @@ def observado_em(nome: str, sec):
     if nome == "embarques":
         datas = [i.get("semana_ref") for i in sec.get("itens") or [] if i.get("semana_ref")]
         return max(datas) if datas else None
-    if nome == "sd":
+    if nome in ("sd", "fertilizante"):
         # O PSD informa o mês do levantamento, não o dia. Precisão de mês.
         return sec.get("vintage_iso")
     return None
@@ -1028,6 +1029,125 @@ def curva_de(sections: dict, id_: str) -> dict:
         if c.get("id") == id_:
             return c
     return {}
+
+
+# ---------------------------------------------------------------- fertilizante
+
+CMO_PAGINA = "https://www.worldbank.org/en/research/commodity-markets"
+
+# Nomes como aparecem na aba "Monthly Prices" do Pink Sheet. O casamento é por
+# trecho do nome, em minúsculas — a planilha tem espaço sobrando em "Urea " e
+# asterisco em "Potassium chloride **".
+FERTILIZANTES = [
+    ("ureia", "urea"),
+    ("dap", "dap"),
+    ("cloreto_potassio", "potassium chloride"),
+    ("fosfato", "phosphate rock"),
+]
+
+
+def collect_fertilizante() -> dict:
+    """Preços de fertilizante do Pink Sheet do Banco Mundial.
+
+    Mensal e aberto — a licença permite redistribuição, o que importa porque
+    o boletim eventualmente sai para uma lista.
+
+    A URL do arquivo carrega um identificador que rotaciona (a sonda pegou
+    `...0350012021` respondendo com dado velho enquanto a página apontava
+    para `...0050012026`). Por isso o link é descoberto na página do CMO em
+    tempo de execução — mesma disciplina de achar commodity por nome no USDA
+    em vez de fixar código.
+    """
+    import io
+
+    from openpyxl import load_workbook
+
+    pagina = get(CMO_PAGINA).text
+    links = re.findall(r'href="([^"]*CMO-Historical-Data-Monthly\.xlsx)"', pagina, re.I)
+    if not links:
+        raise RuntimeError("link do Pink Sheet mensal não encontrado na página do CMO")
+
+    r = get(links[0], timeout=90)
+    wb = load_workbook(io.BytesIO(r.content), read_only=True, data_only=True)
+    if "Monthly Prices" not in wb.sheetnames:
+        raise RuntimeError(f"aba 'Monthly Prices' ausente; abas: {wb.sheetnames}")
+    linhas = list(wb["Monthly Prices"].iter_rows(values_only=True))
+
+    # Linha 4 traz os nomes, a 5 as unidades, e os dados começam na 6 com o
+    # período no formato "2026M07" na primeira coluna.
+    nomes = [str(c).strip().lower() if c else "" for c in linhas[4]]
+    unidades = [str(c).strip() if c else "" for c in linhas[5]]
+
+    colunas = {}
+    for chave, alvo in FERTILIZANTES:
+        idx = next((i for i, n in enumerate(nomes) if n.startswith(alvo)), None)
+        if idx is not None:
+            colunas[chave] = idx
+
+    if not colunas:
+        raise RuntimeError(f"nenhum fertilizante encontrado entre {len(nomes)} colunas")
+
+    def valor(cel):
+        """A planilha usa '…' para dado ausente."""
+        if cel is None or isinstance(cel, str):
+            return None
+        return float(cel)
+
+    series = {k: [] for k in colunas}
+    periodos = []
+    for linha in linhas[6:]:
+        p = linha[0]
+        if not isinstance(p, str) or "M" not in p:
+            continue
+        periodos.append(p)
+        for chave, idx in colunas.items():
+            series[chave].append(valor(linha[idx]) if idx < len(linha) else None)
+
+    if not periodos:
+        raise RuntimeError("nenhum período lido na aba Monthly Prices")
+
+    # Última observação com valor, por fertilizante — nem todos saem no mesmo mês.
+    itens = []
+    for chave, alvo in FERTILIZANTES:
+        if chave not in colunas:
+            continue
+        vals = series[chave]
+        ult = next(
+            ((i, v) for i, v in reversed(list(enumerate(vals))) if v is not None), None
+        )
+        if not ult:
+            continue
+        i, v = ult
+        cinco_anos = [x for x in vals[max(0, i - 59) : i + 1] if x is not None]
+        pct = (
+            round(sum(1 for x in cinco_anos if x <= v) / len(cinco_anos) * 100)
+            if len(cinco_anos) >= 24
+            else None
+        )
+        itens.append(
+            {
+                "chave": chave,
+                "nome": nomes[colunas[chave]].replace("**", "").strip().title(),
+                "unidade": unidades[colunas[chave]].strip("()") or "$/mt",
+                "valor": round(v, 2),
+                "periodo": periodos[i],
+                "percentil_5a": pct,
+                "n_5a": len(cinco_anos),
+            }
+        )
+
+    if not itens:
+        raise RuntimeError("nenhum fertilizante com valor recente")
+
+    # `observado_em` no formato ISO de mês, para a anotação de cadência.
+    p = max(i["periodo"] for i in itens)
+    ano, mes = p.split("M")
+    return {
+        "updated_at": now_iso(),
+        "fonte": "Banco Mundial — Pink Sheet (Commodity Markets)",
+        "itens": itens,
+        "vintage_iso": f"{ano}-{mes.zfill(2)}",
+    }
 
 
 # ---------------------------------------------------------------- opções CBOT
@@ -1987,6 +2107,24 @@ def collect_sinais(sections: dict) -> dict:
             }
         )
 
+    # Relação de troca: quantas sacas de soja compram uma tonelada de
+    # fertilizante. É assim que o produtor decide compra de insumo — o preço
+    # do fertilizante sozinho não responde nada sem o preço do grão ao lado.
+    troca = []
+    fert = sections.get("fertilizante") or {}
+    for it in fert.get("itens", []):
+        if saca_hoje and usd and it.get("valor"):
+            troca.append(
+                {
+                    "insumo": it["nome"],
+                    "chave": it["chave"],
+                    "usd_t": it["valor"],
+                    "sacas_por_t": round(it["valor"] * usd / saca_hoje, 1),
+                    "periodo": it.get("periodo"),
+                    "percentil_5a": it.get("percentil_5a"),
+                }
+            )
+
     basis = sections.get("basis") or {}
     hist_basis = basis.get("historico") or []
     crush = sections.get("crush") or {}
@@ -2005,6 +2143,7 @@ def collect_sinais(sections: dict) -> dict:
         # É o que o data/roll_history.json está acumulando para corrigir.
         "vies_emenda": "alta" if any(c.get("cents", 0) > 0 for c in carrego) else "baixa",
         "carrego": carrego,
+        "relacao_troca": troca,
         "crush": {"valor": crush.get("valor"), "percentil_1a": crush.get("percentil_1a")},
         # O que ainda não dá para medir, dito na cara.
         "sem_historico": {
@@ -2037,6 +2176,7 @@ COLLECTORS = {
     "news": collect_news,
     "sd": collect_sd,
     "embarques": collect_embarques,
+    "fertilizante": collect_fertilizante,
 }
 
 DERIVED = {"basis": collect_basis, "crush": collect_crush, "sinais": collect_sinais}

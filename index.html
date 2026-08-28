@@ -82,6 +82,7 @@ table.curve{width:100%;border-collapse:collapse;font-variant-numeric:tabular-num
 .curve td.spread .estrut{display:block;font-size:10.5px;color:var(--muted);font-weight:400;letter-spacing:.02em}
 #curvas{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(740px,100%),1fr));gap:10px;align-items:start}
 #curvas h3{margin-bottom:8px}
+#sinais .reais{color:var(--muted)}
 .pend{font-size:12.5px;color:var(--ink-2);background:rgba(216,180,90,.10);border:1px solid var(--grid);border-radius:8px;padding:9px 12px;margin-top:12px}
 .curve td.estrut-cell{color:var(--muted);font-size:12px}
 .crushtop{display:flex;flex-wrap:wrap;gap:14px 28px;align-items:flex-start}
@@ -656,11 +657,12 @@ function renderSinais(sn){
 
   const cel = (k) => {
     const v = p[k]; if(!v) return "";
-    const pc = v.brl_saca ?? v.cents;
-    const unid = v.brl_saca!=null ? "R$/saca" : "¢/bu";
+    if(v.cents==null) return `<div class="kpi"><div class="lbl">Percentil · ${rot[k]}</div>
+      <div class="val">—</div><div class="sub">${v.n} pregões — pouco</div></div>`;
+    const emReais = v.brl_saca!=null ? `R$/saca p${v.brl_saca}` : "R$/saca indisponível";
     return `<div class="kpi"><div class="lbl">Percentil · ${rot[k]}</div>
-      <div class="val">${pc==null?"—":"p"+pc}</div>
-      <div class="sub">${pc==null?`${v.n} pregões — pouco`:`${v.n} pregões · ${unid}`}</div></div>`;
+      <div class="val">p${v.cents}</div>
+      <div class="sub">¢/bu · ${v.n} pregões<br><span class="reais">${emReais}</span></div></div>`;
   };
 
   const car = (sn.carrego||[]).map(c=>{

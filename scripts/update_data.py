@@ -1782,7 +1782,78 @@ def collect_basis(sections: dict) -> dict:
         out["basis_interior"] = interior
 
     out["historico"] = atualiza_historico(out)
+    out["pernas"] = decompoe_pernas(out["historico"])
     return out
+
+
+KG_PARIDADE = 2.204623  # (¢/bu + prêmio)/100 × isto × câmbio = R$/saca
+
+
+def premio_da_serie(s: dict):
+    """Prêmio da observação. Onde não foi gravado, sai da própria paridade.
+
+    O campo `premio_cents` entrou depois que a série começou, então as
+    primeiras observações não o têm. Recuperar por álgebra é exato — não é
+    estimativa —, e é o que permite decompor o movimento desde o início.
+    """
+    if s.get("premio_cents") is not None:
+        return s["premio_cents"]
+    if s.get("paridade") is None or not s.get("cambio") or s.get("cbot_cents") is None:
+        return None
+    return s["paridade"] * 100 / (KG_PARIDADE * s["cambio"]) - s["cbot_cents"]
+
+
+def decompoe_pernas(serie: list) -> dict | None:
+    """Separa a variação da paridade em CBOT, prêmio e câmbio.
+
+    As três não querem dizer a mesma coisa: prêmio subindo é o exportador
+    dizendo que quer grão agora; câmbio muda o preço em reais sem mudar nada
+    de soja; CBOT é mundo. Fica aqui, e não na tela, porque o boletim precisa
+    exatamente do mesmo número — gerador com aritmética própria diverge do
+    painel no dia em que um dos dois mudar.
+    """
+    ok = [
+        s for s in (serie or [])
+        if s.get("paridade") is not None and s.get("cambio") and s.get("cbot_cents") is not None
+    ]
+    if len(ok) < 2:
+        return None
+    a, z = ok[0], ok[-1]
+    pa, pz = premio_da_serie(a), premio_da_serie(z)
+    if pa is None or pz is None:
+        return None
+
+    def par(cbot, premio, cambio):
+        return ((cbot + premio) / 100) * KG_PARIDADE * cambio
+
+    base = par(a["cbot_cents"], pa, a["cambio"])
+    total = par(z["cbot_cents"], pz, z["cambio"]) - base
+    # efeito de cada perna: move uma de cada vez a partir do início. A soma não
+    # fecha exatamente porque as pernas se multiplicam — o resíduo vai à mostra.
+    pernas = [
+        {"perna": "cbot", "de": a["cbot_cents"], "para": z["cbot_cents"], "unidade": "¢/bu",
+         "efeito": round(par(z["cbot_cents"], pa, a["cambio"]) - base, 2)},
+        {"perna": "premio", "de": round(pa, 1), "para": round(pz, 1), "unidade": "¢/bu",
+         "efeito": round(par(a["cbot_cents"], pz, a["cambio"]) - base, 2)},
+        {"perna": "cambio", "de": a["cambio"], "para": z["cambio"], "unidade": "R$/US$",
+         "efeito": round(par(a["cbot_cents"], pa, z["cambio"]) - base, 2)},
+    ]
+    soma = sum(p["efeito"] for p in pernas)
+    return {
+        "de": a.get("data"),
+        "para": z.get("data"),
+        "pernas": pernas,
+        "total": round(total, 2),
+        "residuo_interacao": round(total - soma, 2),
+        "indicador_var": (
+            round(z["indicador"] - a["indicador"], 2)
+            if z.get("indicador") is not None and a.get("indicador") is not None else None
+        ),
+        "basis_var": (
+            round(z["basis"] - a["basis"], 2)
+            if z.get("basis") is not None and a.get("basis") is not None else None
+        ),
+    }
 
 
 def atualiza_historico(basis: dict) -> list:

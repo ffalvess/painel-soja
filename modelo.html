@@ -344,69 +344,47 @@ const nf = (d=2) => new Intl.NumberFormat("pt-BR",{minimumFractionDigits:d,maxim
 const fmt = (v,d=2) => v==null ? "—" : nf(d).format(v);
 const sgn = (v,d=2) => v==null ? "—" : (v>0?"+":"") + nf(d).format(v);
 
-// Constante do coletor: (¢/bu + prêmio)/100 × KG × câmbio = R$/saca.
-const KG_PARIDADE = 2.204623;
+// Nada de aritmética aqui: a decomposição vem pronta em basis.pernas, gravada
+// pelo coletor. O boletim lê o mesmo campo — se cada um calculasse por conta,
+// os dois divergiriam no dia em que um mudasse.
+// As casas são por perna, não por unidade: CBOT e prêmio são ambos ¢/bu, mas
+// 1262,5 arredondado para 1.263 perde meio centavo, que neste mercado é preço.
+const LEGENDA_PERNA = {
+  cbot:   ["CBOT",   "mundo — não diz nada sobre a demanda pelo grão brasileiro", 2],
+  premio: ["Prêmio", "o exportador dizendo se quer grão agora — a perna que mais informa", 0],
+  cambio: ["Câmbio", "financeiro — muda o preço em reais sem mudar nada de soja", 4],
+};
 
-// O prêmio nem sempre foi gravado na série (entrou depois). Onde falta, sai
-// da própria paridade por álgebra — é exato, não estimativa.
-const premioDe = (s) => s.premio_cents != null ? s.premio_cents
-  : (s.paridade != null && s.cambio ? s.paridade * 100 / (KG_PARIDADE * s.cambio) - s.cbot_cents
-                                    : null);
-
-function renderPernas(serie){
+function renderPernas(p){
   const el = $("pernas");
   if(!el) return;
-  const s = (serie || []).filter(x => x.paridade != null && x.cambio && x.cbot_cents != null);
-  if(s.length < 2){
+  if(!p || !p.pernas?.length){
     el.innerHTML = `<div class="src" style="margin-top:10px">Precisa de pelo menos duas
-      observações na série para separar as pernas. Hoje há ${s.length}.</div>`;
+      observações na série para separar as pernas.</div>`;
     return;
   }
-  const a = s[0], z = s[s.length-1];
-  const pa = premioDe(a), pz = premioDe(z);
-  if(pa == null || pz == null){ el.innerHTML = ""; return; }
-
-  const par = (c,p,x) => ((c + p) / 100) * KG_PARIDADE * x;
-  const base = par(a.cbot_cents, pa, a.cambio);
-  const total = par(z.cbot_cents, pz, z.cambio) - base;
-
-  // Efeito de cada perna: move uma de cada vez a partir do início. A soma não
-  // fecha exatamente porque as pernas se multiplicam — o resíduo vai à mostra.
-  const pernas = [
-    ["CBOT",   par(z.cbot_cents, pa, a.cambio) - base,
-     `${fmt(a.cbot_cents,2)} → ${fmt(z.cbot_cents,2)} ¢/bu`,
-     "mundo — não diz nada sobre a demanda pelo grão brasileiro"],
-    ["Prêmio", par(a.cbot_cents, pz, a.cambio) - base,
-     `${fmt(pa,0)} → ${fmt(pz,0)} ¢/bu`,
-     "o exportador dizendo se quer grão agora — a perna que mais informa"],
-    ["Câmbio", par(a.cbot_cents, pa, z.cambio) - base,
-     `${fmt(a.cambio,4)} → ${fmt(z.cambio,4)}`,
-     "financeiro — muda o preço em reais sem mudar nada de soja"],
-  ];
-  const soma = pernas.reduce((t,[,v]) => t + v, 0);
-  const maior = Math.max(...pernas.map(([,v]) => Math.abs(v)), 1e-9);
-
-  const dInd = (z.indicador != null && a.indicador != null) ? z.indicador - a.indicador : null;
-  const dBasis = (z.basis != null && a.basis != null) ? z.basis - a.basis : null;
+  const maior = Math.max(...p.pernas.map(x => Math.abs(x.efeito)), 1e-9);
 
   el.innerHTML = `<table class="pernas">
     <thead><tr><th>Perna</th><th>Movimento</th><th>Efeito na paridade</th>
       <th style="width:26%">Peso</th></tr></thead>
     <tbody>
-      ${pernas.map(([nome,v,mov,leg]) => `<tr>
+      ${p.pernas.map(x => {
+        const [nome, leg, d] = LEGENDA_PERNA[x.perna] || [x.perna, "", 2];
+        return `<tr>
         <td>${nome}<span class="leg">${leg}</span></td>
-        <td>${mov}</td>
-        <td>${sgn(v)} R$/sc</td>
-        <td><span class="barra"><i style="width:${(Math.abs(v)/maior*100).toFixed(0)}%"></i></span></td>
-      </tr>`).join("")}
-      <tr><td>Paridade</td><td>${a.data} → ${z.data}</td>
-        <td>${sgn(total)} R$/sc</td>
-        <td><span class="leg">resíduo de interação ${sgn(total - soma)}</span></td></tr>
+        <td>${fmt(x.de,d)} → ${fmt(x.para,d)} ${x.unidade}</td>
+        <td>${sgn(x.efeito)} R$/sc</td>
+        <td><span class="barra"><i style="width:${(Math.abs(x.efeito)/maior*100).toFixed(0)}%"></i></span></td>
+      </tr>`;}).join("")}
+      <tr><td>Paridade</td><td>${p.de||"—"} → ${p.para||"—"}</td>
+        <td>${sgn(p.total)} R$/sc</td>
+        <td><span class="leg">resíduo de interação ${sgn(p.residuo_interacao)}</span></td></tr>
     </tbody></table>
     <div class="src" style="margin-top:9px">
-      No mesmo intervalo o indicador foi ${dInd == null ? "—" : sgn(dInd) + " R$/sc"}
-      e o basis do porto, ${dBasis == null ? "—" : sgn(dBasis) + " R$/sc"}.
-      ${dBasis == null ? "" : (dBasis < 0
+      No mesmo intervalo o indicador foi ${p.indicador_var == null ? "—" : sgn(p.indicador_var) + " R$/sc"}
+      e o basis do porto, ${p.basis_var == null ? "—" : sgn(p.basis_var) + " R$/sc"}.
+      ${p.basis_var == null ? "" : (p.basis_var < 0
         ? "<b>Basis abriu:</b> o interno ficou para trás da paridade — margem do exportador melhorou."
         : "<b>Basis fechou:</b> o interno correu na frente da paridade — o exportador perdeu folga.")}
     </div>`;
@@ -683,7 +661,7 @@ async function load(){
     renderChain(b);
     renderSD(d.sections?.sd);
     if(b?.historico?.length){ renderHist(b.historico); $("sec-hist").hidden=false; }
-    renderPernas(b?.historico);
+    renderPernas(b?.pernas);
     renderFrete(d.sections?.frete);
   }catch(err){
     $("stamp").textContent = "sem dados — rode o workflow de atualização";

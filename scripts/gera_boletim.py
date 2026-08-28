@@ -110,18 +110,69 @@ def bloco_carrego(s):
     }
 
 
+ROTULO_TIPO = {
+    "comprador": "bid",
+    "intermediario": "mercado",
+    "entidade": "levantamento",
+}
+
+
 def bloco_basis(s):
     b = s.get("basis") or {}
     bp = b.get("basis_porto") or {}
     if bp.get("brl_saca") is None:
         return None
     v = bp["brl_saca"]
-    interior = (b.get("basis_interior") or [])[:3]
-    li = "".join(
-        f"<li>{i['praca']}: R$ {num(i['valor'])} "
-        f"<small>({sinal(i['basis_brl_saca'])} vs. porto)</small></li>"
-        for i in interior
-    )
+
+    # Ordenar praça por basis e chamar as três primeiras de "mais descontadas"
+    # era enganoso: hoje as três seriam exatamente as que não são cotação de
+    # intermediário. Enquanto a diferença de tipo de cotação for da ordem da
+    # diferença entre praças, cada linha sai com quem cotou ao lado.
+    tipos = {
+        f.get("praca"): f
+        for f in (s.get("cepea") or {}).get("fisico") or []
+    }
+    interior = (b.get("basis_interior") or [])[:4]
+    li = ""
+    for i in interior:
+        f = tipos.get(i["praca"]) or {}
+        rot = ROTULO_TIPO.get(f.get("tipo_agente"))
+        quem = f.get("agente")
+        marca = (
+            f" <small>· {quem}{f' ({rot})' if rot else ''}</small>" if quem else ""
+        )
+        li += (
+            f"<li>{i['praca']}: R$ {num(i['valor'])} "
+            f"<small>({sinal(i['basis_brl_saca'])} vs. porto)</small>{marca}</li>"
+        )
+
+    fr = s.get("frete") or {}
+    aj = fr.get("ajuste") or {}
+    nota_frete = ""
+    if aj.get("r2_distancia") is not None and not fr.get("distancia_explica"):
+        nota_frete = (
+            f" A distância até o porto <b>não</b> explica a diferença entre as praças "
+            f"(R² {num(aj['r2_distancia'], 3)})"
+            + (
+                f", enquanto o tipo de quem cotou explica "
+                f"{num((aj.get('r2_tipo_agente') or 0) * 100, 0)}%"
+                if aj.get("r2_tipo_agente") is not None else ""
+            )
+            + "."
+        )
+
+    dif = ""
+    por_tipo = {t["tipo"]: t for t in (fr.get("por_tipo") or [])}
+    if "intermediario" in por_tipo and len(por_tipo) > 1:
+        outros = [t for k, t in por_tipo.items() if k != "intermediario"]
+        if outros:
+            m_out = sum(t["media"] * t["n"] for t in outros) / sum(t["n"] for t in outros)
+            dif = (
+                f" Hoje a média de cotação de intermediário está R$ "
+                f"{num(abs(por_tipo['intermediario']['media'] - m_out))}/saca acima "
+                "das demais."
+            )
+
     return {
         "titulo": "Basis do porto",
         "destaque": f"{'Deságio' if v < 0 else 'Prêmio'} de R$ {num(abs(v))}/saca",
@@ -130,12 +181,72 @@ def bloco_basis(s):
             f"<p>Paridade R$ {num(b.get('paridade_brl_saca'))} · indicador Paranaguá "
             f"R$ {num(b.get('indicador_brl_saca'))}, referência de "
             f"{b.get('indicador_data') or '—'}.</p>"
-            + (f"<p>Praças mais descontadas:</p><ul>{li}</ul>" if li else "")
+            + (f"<p>Praças com maior desconto contra o porto:</p><ul>{li}</ul>" if li else "")
         ),
         "ressalva": (
             f"Calculado contra o prêmio de embarque de <b>{b.get('premio_mes') or '—'}</b> e o "
             f"contrato <b>{b.get('contrato') or '—'}</b>. Quando o mês de referência troca, o "
-            "basis dá um degrau que não é movimento de mercado."
+            "basis dá um degrau que não é movimento de mercado. "
+            "<b>Não compare praças sem olhar quem cotou:</b> onde o agente é o próprio "
+            "comprador o número é o bid dele, e bid fica abaixo do negócio fechado."
+            + dif + nota_frete
+        ),
+    }
+
+
+LEGENDA_PERNA = {
+    "cbot": ("CBOT", "mundo", 2),
+    "premio": ("Prêmio de porto", "o exportador querendo grão agora", 0),
+    "cambio": ("Câmbio", "financeiro, não é soja", 4),
+}
+
+
+def bloco_pernas(s):
+    """Qual perna moveu a paridade — a conta aberta, que é o diferencial.
+
+    Lê `basis.pernas`, gravado pelo coletor. Sem cálculo próprio aqui: se o
+    boletim recalculasse, divergiria do painel no dia em que um dos dois
+    mudasse, e é o boletim que leva a assinatura do consultor.
+    """
+    p = (s.get("basis") or {}).get("pernas") or {}
+    if not p.get("pernas"):
+        return None
+    linhas = ""
+    for x in p["pernas"]:
+        nome, leg, dig = LEGENDA_PERNA.get(x["perna"], (x["perna"], "", 2))
+        linhas += (
+            f"<tr><td>{nome} <small>{leg}</small></td>"
+            f"<td>{num(x['de'], dig)} → {num(x['para'], dig)} {x['unidade']}</td>"
+            f"<td><b>{sinal(x['efeito'])}</b></td></tr>"
+        )
+    maior = max(p["pernas"], key=lambda x: abs(x["efeito"]))
+    nome_maior = LEGENDA_PERNA.get(maior["perna"], (maior["perna"],))[0]
+    bv = p.get("basis_var")
+    leitura = ""
+    if bv is not None:
+        leitura = (
+            "<p>No mesmo intervalo o basis do porto "
+            + (
+                f"<b>abriu</b> {sinal(bv)} — o interno ficou para trás da paridade e a "
+                "margem de quem exporta melhorou."
+                if bv < 0
+                else f"<b>fechou</b> {sinal(bv)} — o interno correu na frente da paridade."
+            )
+            + "</p>"
+        )
+    return {
+        "titulo": "O que moveu a paridade",
+        "destaque": f"{sinal(p.get('total'))} R$/saca",
+        "apoio": f"de {p.get('de') or '—'} a {p.get('para') or '—'} · puxado por {nome_maior}",
+        "corpo": (
+            "<table><thead><tr><th>Perna</th><th>Movimento</th><th>Efeito</th></tr></thead>"
+            f"<tbody>{linhas}</tbody></table>" + leitura
+        ),
+        "ressalva": (
+            "As três pernas não querem dizer a mesma coisa. Prêmio subindo é o exportador "
+            "sinalizando que quer grão agora; câmbio muda o preço em reais sem mudar nada de "
+            "soja; CBOT é mundo. A soma não fecha exatamente porque as pernas se multiplicam — "
+            f"o resíduo de interação é {sinal(p.get('residuo_interacao'))}."
         ),
     }
 
@@ -268,7 +379,7 @@ def main() -> int:
     s = dados.get("sections") or {}
 
     blocos = [b for b in (
-        bloco_preco(s), bloco_basis(s), bloco_carrego(s),
+        bloco_preco(s), bloco_pernas(s), bloco_basis(s), bloco_carrego(s),
         bloco_crush(s), bloco_embarques(s),
     ) if b]
     if not blocos:

@@ -144,9 +144,63 @@
   .trilho b { color: var(--ink); font-weight: 500; display: block; }
   .trilho a { color: var(--accent); }
 
+  /* bloco de largura cheia: o quadro comparativo não cabe na coluna de prosa */
+  .bloco.largo { grid-template-columns: 1fr; }
+  .bloco.largo > .corpo { max-width: none; }
+
   @media (max-width: 860px) {
     .bloco { grid-template-columns: 1fr; gap: 2rem; }
     .trilho { position: static; }
+  }
+
+  /* ---------- quadro comparativo ---------- */
+
+  .quadro { font-size: .82rem; min-width: 62rem; }
+  .quadro td { padding: .8rem .9rem .8rem 0; }
+  .quadro th { padding-right: .9rem; }
+
+  .quadro tr.grupo td {
+    border-bottom: 1px solid var(--ink);
+    padding: 1.7rem 0 .45rem;
+    font-family: var(--mono);
+    font-size: .7rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .quadro tr.grupo:first-child td { padding-top: .2rem; }
+  .quadro tr.grupo td span { color: var(--muted); letter-spacing: .04em; text-transform: none; }
+
+  .quadro .nome { font-weight: 600; font-size: .9rem; white-space: nowrap; }
+  .quadro .sub {
+    display: block;
+    font-family: var(--mono);
+    font-size: .68rem;
+    color: var(--muted);
+    font-weight: 400;
+    white-space: normal;
+    margin-top: .18rem;
+  }
+  .quadro .falta { color: var(--gap); }
+
+  .escopo {
+    font-family: var(--mono);
+    font-size: .64rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    padding: .1em .45em;
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .escopo.int { border-color: var(--accent); color: var(--accent); }
+
+  .dica {
+    font-family: var(--mono);
+    font-size: .72rem;
+    color: var(--muted);
+    margin: -.2rem 0 .2rem;
   }
 
   h2 {
@@ -393,6 +447,11 @@
   <strong>43% dos estabelecimentos de soja acima de 500 ha do Brasil</strong> e
   metade dos acima de 1.000 ha. A região onde você já trabalha é onde o
   cliente-alvo mora.</p>
+  <p>Um ajuste de mira, vindo do quadro comparativo: <strong>o concorrente não
+  é a StoneX, é a AgRural</strong> — trinta anos, mesma frase de
+  posicionamento, mesmo cliente. Comparar-se com a camada global superestima o
+  adversário e sugere que não há espaço; comparar-se com a camada certa mostra
+  onde a folga está.</p>
 </div>
 
 <!-- ============ 1 ============ -->
@@ -425,11 +484,13 @@
     origina, processa, exporta e gerencia risco em grãos”</em>. Cobre soja,
     milho e trigo.</p>
 
-    <p>Nenhum outro concorrente publica preço. SAFRAS &amp; Mercado vende a
-    <em>Plataforma SAFRAS — Pacote Análises</em> com escolha por commodity e
-    prazo de 3 ou 12 meses, parcelável em até 12 vezes, mas não mostra valor
-    nem escreve “sob consulta” — exige contato. Agrinvest e Hedgepoint idem.
-    Venda consultiva com ticket negociado é o padrão da categoria.</p>
+    <p>Nenhum outro concorrente publica preço — nem os brasileiros, nem os
+    internacionais. SAFRAS &amp; Mercado vende a <em>Plataforma SAFRAS — Pacote
+    Análises</em> com escolha por commodity e prazo de 3 ou 12 meses,
+    parcelável em até 12 vezes, mas não mostra valor nem escreve “sob consulta”
+    — exige contato. Agrinvest, Hedgepoint, Datagro e Barchart idem. Venda
+    consultiva com ticket negociado é o padrão da categoria, e o quadro da
+    próxima seção mostra que isso vale de ponta a ponta.</p>
 
     <h3>O que isso significa e o que não significa</h3>
     <p><strong>Significa</strong> que o mercado tolera R$ 900 a R$ 1.000 por mês
@@ -465,6 +526,198 @@
       <span class="selo derivado">derivado</span>
     </div>
   </aside>
+</section>
+
+<!-- ============ quadro comparativo ============ -->
+<section class="bloco largo">
+  <div class="corpo">
+    <span class="eyebrow">A1 · quadro comparativo</span>
+    <h2>Quem já está no mercado, desde quando e vendendo o quê</h2>
+
+    <p>Os concorrentes não estão todos no mesmo negócio, e tratá-los como um
+    bloco único é o erro que faz um consultor achar que compete com a StoneX.
+    Estão em cinco camadas distintas — e <strong>só uma delas é a sua</strong>.
+    A coluna que mais importa é a última: o que cada um <em>não</em> entrega.</p>
+
+    <div class="rolagem">
+      <table class="quadro">
+        <caption>Levantado em 28/08/2026 a partir de material público:
+        sites institucionais, formulários da SEC, imprensa setorial e busca web.
+        Onde a fonte diverge, o intervalo está anotado. Nenhum número veio de
+        produto pago — não assinei nenhum concorrente.</caption>
+        <thead>
+          <tr>
+            <th>Empresa</th>
+            <th>Escopo</th>
+            <th>Desde</th>
+            <th>Porte</th>
+            <th>O que vende</th>
+            <th>Diferencial competitivo</th>
+            <th>O que não entrega</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr class="grupo"><td colspan="7">Camada 1 — plataformas globais de dado e risco <span>· vendem infraestrutura de mercado, não conselho</span></td></tr>
+
+          <tr>
+            <td class="nome">StoneX<span class="sub">EUA · Nasdaq SNEX</span></td>
+            <td><span class="escopo int">internacional</span></td>
+            <td class="n">1924</td>
+            <td>US$ 4,13 bi de receita e US$ 306 mi de lucro em 2025; 3.600 a 5.400 funcionários conforme a fonte e a data; 70+ escritórios em 6 continentes; 54 mil a 80 mil clientes institucionais e comerciais</td>
+            <td>Corretora (FCM), execução de hedge, câmbio, pagamentos e o pacote <em>Grãos Premium — Relatórios de Mercado</em></td>
+            <td>É a única com <strong>preço de prateleira</strong> (R$ 867–1.020/mês) e a única que fecha o ciclo: analisa, recomenda e executa a ordem. Comprou a R.J. O’Brien em 2025 e virou a maior FCM não bancária dos EUA</td>
+            <td class="falta">Leitura da praça. Um relatório global não sabe o basis de Sorriso nem quem está pagando prêmio hoje no seu raio de 200 km</td>
+          </tr>
+
+          <tr>
+            <td class="nome">Hedgepoint<span class="sub">Suíça · escritório em Passo Fundo</span></td>
+            <td><span class="escopo int">internacional</span></td>
+            <td class="n">2021</td>
+            <td>Spin-off da ED&amp;F Man Capital; presença em 5 continentes; 450+ produtos de hedge em 60+ commodities</td>
+            <td>Execução de hedge e o <em>Hedgepoint HUB</em>: 60+ relatórios, trilha educacional e encontros ao vivo</td>
+            <td>Combina mesa de operações com plataforma de conteúdo e formação. Vende para trading, cooperativa e indústria, não só para produtor</td>
+            <td class="falta">Preço não público. Produto desenhado para quem já opera derivativo — não para quem ainda decide se trava setembro</td>
+          </tr>
+
+          <tr>
+            <td class="nome">Barchart · cmdtyView<span class="sub">EUA</span></td>
+            <td><span class="escopo int">internacional</span></td>
+            <td class="n">1934</td>
+            <td>Rede global de preços físicos e índices de basis; API de dados</td>
+            <td>Terminal de mercado, índices de preço e basis, dados por API para agroindústria</td>
+            <td>Referência em <strong>índice de basis</strong> nos EUA — é o mais próximo do que o painel faz, e prova que a categoria existe</td>
+            <td class="falta">Preço não público, venda B2B. Cobertura de basis brasileiro rasa; feito para o cinturão americano</td>
+          </tr>
+
+          <tr class="grupo"><td colspan="7">Camada 2 — consultorias brasileiras de análise <span>· vendem cenário e projeção, em escala</span></td></tr>
+
+          <tr>
+            <td class="nome">SAFRAS &amp; Mercado<span class="sub">Porto Alegre · Grupo CMA</span></td>
+            <td><span class="escopo">nacional +</span></td>
+            <td class="n">1976</td>
+            <td>50 anos de operação; filiais na Argentina, Colômbia, EUA e Espanha; equipe própria de jornalistas</td>
+            <td><em>Plataforma SAFRAS — Pacote Análises</em>, por commodity, 3 ou 12 meses, em até 12×; agência de notícias</td>
+            <td>O <strong>maior banco de dados histórico de preços físicos</strong> do agro brasileiro, e cobertura de 14+ commodities. Profundidade de série que ninguém replica</td>
+            <td class="falta">Não publica preço nem “sob consulta” — exige contato. Amplitude cobrada em profundidade: análise de cenário, não recomendação para o seu contrato</td>
+          </tr>
+
+          <tr>
+            <td class="nome">Datagro<span class="sub">Barueri, SP</span></td>
+            <td><span class="escopo">nacional +</span></td>
+            <td class="n">1984</td>
+            <td>Clientes em 41 países; 40+ consultores; monitora 122 países em açúcar e etanol</td>
+            <td>Relatórios, conferências internacionais e consultoria; grãos como linha secundária</td>
+            <td>Autoridade em açúcar e etanol; as conferências são evento de referência do setor</td>
+            <td class="falta">Soja e milho não são o centro. Produto de cenário macro, distante da decisão de venda do produtor</td>
+          </tr>
+
+          <tr>
+            <td class="nome">Céleres<span class="sub">Uberlândia, MG</span></td>
+            <td><span class="escopo">nacional</span></td>
+            <td class="n">1999–2002</td>
+            <td>Conselho consultivo com pesquisadores de soja, milho, algodão e cana</td>
+            <td>Boletins semanais de soja e milho, diagnóstico e planejamento estratégico</td>
+            <td>Boletim virou fonte citada por imprensa — reputação construída via mídia, sem custo de mídia</td>
+            <td class="falta">Boletim é conteúdo de formador de opinião, não ferramenta de decisão por praça e vencimento</td>
+          </tr>
+
+          <tr class="grupo"><td colspan="7">Camada 3 — assessoria de comercialização <span>· é aqui que você compete de verdade</span></td></tr>
+
+          <tr>
+            <td class="nome">AgRural<span class="sub">Curitiba, PR</span></td>
+            <td><span class="escopo">nacional</span></td>
+            <td class="n">1996</td>
+            <td>Independente, fundada por Fernando Muraro; encontros de mercado presenciais</td>
+            <td><strong>Assessoria em comercialização</strong> de soja, milho e algodão; “Indicadores AgRural”; produto separado para produtor</td>
+            <td>Promessa mensurável e ousada: <strong>bater a média de preço do mercado</strong>, recomendando janelas mensais e trimestrais de venda. Estimativa de safra própria, citada pela imprensa internacional</td>
+            <td class="falta">É o concorrente mais direto que existe — mesma frase, mesmo cliente. O que falta é <em>abrir a conta</em>: entrega a janela, não a decomposição que a sustenta</td>
+          </tr>
+
+          <tr>
+            <td class="nome">Agrinvest<span class="sub">Curitiba · Sorriso · Maringá · Genebra</span></td>
+            <td><span class="escopo int">nacional +</span></td>
+            <td class="n">2004</td>
+            <td>22 anos; filial em Genebra; atende fundos no Brasil e na China</td>
+            <td>Corretagem de commodities, hedge, consultoria de compra de insumo e venda de grão, cursos e palestras</td>
+            <td>Tem <strong>escritório em Sorriso</strong> — está fisicamente no Centro-Oeste. Junta corretagem com consultoria e monetiza também por formação</td>
+            <td class="falta">Preço não público. Consultoria acoplada à corretagem, o que cria conflito de interesse que a assessoria independente não tem</td>
+          </tr>
+
+          <tr class="grupo"><td colspan="7">Camada 4 — gratuitos <span>· não concorrem por receita, concorrem pela atenção — e são o substituto real</span></td></tr>
+
+          <tr>
+            <td class="nome">IMEA<span class="sub">Cuiabá, MT · sem fins lucrativos</span></td>
+            <td><span class="escopo">regional</span></td>
+            <td class="n">1998 · 2008</td>
+            <td>42+ profissionais; 300+ indicadores nos 142 municípios de MT; mantido por Famato, Aprosoja, Ampa, Acrimat e Senar-MT</td>
+            <td>Boletim semanal de soja, custo de produção em Excel, indicadores de comercialização — <strong>tudo de graça</strong></td>
+            <td>Financiado pelo próprio setor, então não precisa cobrar. Custo de produção por região de MT é dado que ninguém mais publica aberto</td>
+            <td class="falta">Só Mato Grosso. Retrato agregado do estado, sem recomendação individual — e é exatamente por isso que não substitui assessoria</td>
+          </tr>
+
+          <tr>
+            <td class="nome">Notícias Agrícolas<span class="sub">Brasil</span></td>
+            <td><span class="escopo">nacional</span></td>
+            <td class="n">—</td>
+            <td>Veículo mais admirado da imprensa agro em 2021, 2023 e 2025; TV própria</td>
+            <td>Portal, TV e newsletter gratuitos; receita por publicidade e eventos</td>
+            <td>Republica o indicador CEPEA e o prêmio de porto de graça, com atribuição — é a porta de entrada de preço para o produtor brasileiro</td>
+            <td class="falta">Notícia, não decisão. Publica o número final sem a conta por trás</td>
+          </tr>
+
+          <tr>
+            <td class="nome">CEPEA/ESALQ<span class="sub">Piracicaba, SP · USP</span></td>
+            <td><span class="escopo">nacional</span></td>
+            <td class="n">1992</td>
+            <td>Centro de pesquisa universitário</td>
+            <td>Indicadores de preço de referência — a régua que o mercado inteiro usa</td>
+            <td>Não é concorrente: é <strong>fornecedor com poder</strong>. O indicador é propriedade intelectual dele e é o número que o produtor reconhece</td>
+            <td class="falta">Licença. Consulta é livre; redistribuir numa lista é publicação — é o gate do estágio 2 do mailing</td>
+          </tr>
+
+          <tr class="grupo"><td colspan="7">Camada 5 — transacional <span>· não vende análise, mas ocupa a mesma tela do produtor</span></td></tr>
+
+          <tr>
+            <td class="nome">Grão Direto<span class="sub">Uberaba, MG</span></td>
+            <td><span class="escopo">nacional</span></td>
+            <td class="n">2016</td>
+            <td>140+ colaboradores; 85 mil usuários ativos no 4º tri de 2024; 300 mil downloads; captou R$ 90 mi com Kaszek, SLC e Bradesco; volume saltou de 1 Mt (2021) para 12 Mt (2025)</td>
+            <td>Marketplace de compra e venda de grãos entre produtor, cerealista e trading</td>
+            <td>Capital de risco e efeito de rede. Vê <strong>o negócio fechado</strong>, não só a cotação — nenhum consultor tem esse dado</td>
+            <td class="falta">Não recomenda. Mostra oferta, não diz se é hora de vender — e um marketplace nunca vai dizer para esperar</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <h3>O que o quadro mostra que a lista não mostrava</h3>
+
+    <p><strong>Você não compete com a StoneX; compete com a AgRural.</strong>
+    Trinta anos de casa, mesma frase de posicionamento, mesmo cliente, e uma
+    promessa mais ousada que a sua — bater a média de preço do mercado.
+    Enquadrar a análise contra a camada 1 superestima o adversário e leva à
+    conclusão errada de que não há espaço.</p>
+
+    <p><strong>Idade é a barreira real.</strong> A mediana dos concorrentes de
+    análise passa de vinte anos: SAFRAS desde 1976, Datagro 1984, AgRural 1996,
+    Agrinvest 2004. Ninguém entrou nessa camada recentemente vendendo
+    relatório. Quem entrou depois de 2015 — Grão Direto, Hedgepoint — entrou
+    por <strong>transação</strong> ou por <strong>capital</strong>, não por
+    conteúdo. Isso é evidência a favor de não começar pela assinatura.</p>
+
+    <p><strong>Todos publicam o número final; a coluna “o que não entrega” se
+    repete.</strong> Sete dos onze entregam o resultado sem a conta. Essa
+    repetição é a evidência mais forte que a pesquisa produziu para a hipótese
+    da decomposição — mas continua sendo material público, e a AgRural, em
+    particular, pode muito bem abrir a conta dentro do produto pago dela.</p>
+
+    <p><strong>E há o que ninguém tem, nem os grandes:</strong> a combinação de
+    presença física no Centro-Oeste com decomposição aberta. A Agrinvest tem
+    escritório em Sorriso mas acopla corretagem; o IMEA tem MT inteiro mas não
+    recomenda; a StoneX tem tudo menos a praça.</p>
+  </div>
 </section>
 
 <!-- ============ 2 ============ -->
@@ -874,8 +1127,14 @@
         deste documento que não estão em fonte pública nenhuma.</li>
         <li><strong>O que os concorrentes entregam por dentro.</strong> A
         hipótese de que ninguém publica a decomposição vale para o material
-        público. Dez dias de teste grátis na StoneX resolveriam isso por
-        R$ 0,00.</li>
+        público. Dez dias de teste grátis na StoneX resolveriam metade disso
+        por R$ 0,00 — <strong>e a outra metade é a AgRural</strong>, que é o
+        concorrente que realmente importa e cujo produto pago eu não vi. Se
+        alguém já abre a conta, é ela.</li>
+        <li><strong>Preço da camada 3.</strong> O único preço público do
+        levantamento é o da StoneX, que está na camada errada para comparação.
+        Quanto AgRural e Agrinvest cobram continua desconhecido, e é esse o
+        número que ancoraria o seu.</li>
         <li><strong>Se o CEPEA autoriza.</strong> Não perguntei. É uma pergunta
         de uma linha por e-mail e destrava ou mata o estágio 2 inteiro.</li>
       </ol>
@@ -885,8 +1144,8 @@
     <div>
       <b>Custo de fechar cada lacuna</b>
       1: nada — não existe dado mais novo, o próximo censo é a única saída.
-      2: dez minutos seus. 3: um teste grátis. 4: um e-mail. Nenhuma custa
-      dinheiro.
+      2: dez minutos seus. 3: um teste grátis. 4: uma conversa com quem já é
+      cliente da AgRural. 5: um e-mail. Nenhuma custa dinheiro.
     </div>
   </aside>
 </section>
@@ -904,9 +1163,10 @@
       Quantas vezes o painel mudou uma recomendação que você já ia fazer. Se
       nunca muda, é conforto, não ferramenta — e nenhuma das outras contas
       importa.</li>
-      <li><strong>O teste grátis da StoneX é pesquisa competitiva barata.</strong>
-      Dez dias mostram exatamente o que R$ 1.020/mês compra hoje, e é a única
-      forma honesta de confirmar ou derrubar a hipótese da decomposição.</li>
+      <li><strong>Estude a AgRural antes da StoneX.</strong> Foi o que o quadro
+      mudou: ela é a camada certa. O teste grátis de dez dias da StoneX
+      continua valendo como pesquisa barata, mas responde sobre um adversário
+      com quem você não disputa cliente.</li>
       <li><strong>Perguntar ao CEPEA agora, não no estágio 2.</strong> A
       resposta muda o desenho do boletim, e o boletim é o experimento do B5.
       Descobrir depois de escrever quatro edições é caro.</li>

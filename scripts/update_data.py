@@ -28,13 +28,16 @@ import json
 import os
 import re
 import sys
+import time
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
 import requests
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "data" / "data.json"
+DATA = ROOT / "data"
+OUT = DATA / "data.json"
+SACAS_POR_TONELADA = 1000 / 60  # frete se cota em R$/t; o painel fala em saca
 TIMEOUT = 25
 TAG_RE = re.compile(r"<[^>]+>")
 HEADERS = {
@@ -527,6 +530,42 @@ def parse_na_tabelas(page: str) -> dict:
     return tabelas
 
 
+# Quem cota muda o que o número significa. Uma cooperativa ou esmagadora
+# publica o *bid dela* — a posição de abertura de quem compra. Uma corretora
+# publica onde o mercado negociou. Um sindicato publica levantamento junto aos
+# associados. Comparar bid com negócio fechado na mesma coluna faz o painel
+# afirmar diferença de mercado onde há diferença de tipo de cotação.
+#
+# Classificação manual e curta de propósito: o que não casar fica sem tipo, e
+# a tela diz "não classificado" em vez de chutar.
+TIPOS_AGENTE = [
+    (r"corretora|corretagem|assessoria|commodities|consultoria|cereais|dellagro|insoy",
+     "intermediario"),
+    (r"sindicato|sindical|associa|aiba|aprosoja|federa|faeg|famato|aprosmat",
+     "entidade"),
+    (r"comigo|coamo|cocamar|c\.?\s?vale|coopera|cooperativa|bunge|cargill|amaggi|"
+     r"louis dreyfus|ldc|adm\b|caramuru|olfar|granol|esmagadora",
+     "comprador"),
+]
+
+ROTULO_AGENTE = {
+    "comprador": "bid do comprador",
+    "intermediario": "mercado, via intermediário",
+    "entidade": "levantamento de entidade",
+}
+
+
+def tipo_agente(nome):
+    """`Comigo` -> 'comprador'; `VA Corretora de Cereais` -> 'intermediario'."""
+    if not nome:
+        return None
+    n = nome.casefold()
+    for padrao, tipo in TIPOS_AGENTE:
+        if re.search(padrao, n):
+            return tipo
+    return None
+
+
 def collect_cepea() -> dict:
     """Indicadores CEPEA e mercado físico via Notícias Agrícolas.
 
@@ -612,6 +651,7 @@ def collect_cepea() -> dict:
                     "valor": valor,
                     "var_dia_pct": br_float(ln[2]),
                     "agente": agente,
+                    "tipo_agente": tipo_agente(agente),
                 }
             )
     if fisico:
@@ -1742,7 +1782,78 @@ def collect_basis(sections: dict) -> dict:
         out["basis_interior"] = interior
 
     out["historico"] = atualiza_historico(out)
+    out["pernas"] = decompoe_pernas(out["historico"])
     return out
+
+
+KG_PARIDADE = 2.204623  # (¢/bu + prêmio)/100 × isto × câmbio = R$/saca
+
+
+def premio_da_serie(s: dict):
+    """Prêmio da observação. Onde não foi gravado, sai da própria paridade.
+
+    O campo `premio_cents` entrou depois que a série começou, então as
+    primeiras observações não o têm. Recuperar por álgebra é exato — não é
+    estimativa —, e é o que permite decompor o movimento desde o início.
+    """
+    if s.get("premio_cents") is not None:
+        return s["premio_cents"]
+    if s.get("paridade") is None or not s.get("cambio") or s.get("cbot_cents") is None:
+        return None
+    return s["paridade"] * 100 / (KG_PARIDADE * s["cambio"]) - s["cbot_cents"]
+
+
+def decompoe_pernas(serie: list) -> dict | None:
+    """Separa a variação da paridade em CBOT, prêmio e câmbio.
+
+    As três não querem dizer a mesma coisa: prêmio subindo é o exportador
+    dizendo que quer grão agora; câmbio muda o preço em reais sem mudar nada
+    de soja; CBOT é mundo. Fica aqui, e não na tela, porque o boletim precisa
+    exatamente do mesmo número — gerador com aritmética própria diverge do
+    painel no dia em que um dos dois mudar.
+    """
+    ok = [
+        s for s in (serie or [])
+        if s.get("paridade") is not None and s.get("cambio") and s.get("cbot_cents") is not None
+    ]
+    if len(ok) < 2:
+        return None
+    a, z = ok[0], ok[-1]
+    pa, pz = premio_da_serie(a), premio_da_serie(z)
+    if pa is None or pz is None:
+        return None
+
+    def par(cbot, premio, cambio):
+        return ((cbot + premio) / 100) * KG_PARIDADE * cambio
+
+    base = par(a["cbot_cents"], pa, a["cambio"])
+    total = par(z["cbot_cents"], pz, z["cambio"]) - base
+    # efeito de cada perna: move uma de cada vez a partir do início. A soma não
+    # fecha exatamente porque as pernas se multiplicam — o resíduo vai à mostra.
+    pernas = [
+        {"perna": "cbot", "de": a["cbot_cents"], "para": z["cbot_cents"], "unidade": "¢/bu",
+         "efeito": round(par(z["cbot_cents"], pa, a["cambio"]) - base, 2)},
+        {"perna": "premio", "de": round(pa, 1), "para": round(pz, 1), "unidade": "¢/bu",
+         "efeito": round(par(a["cbot_cents"], pz, a["cambio"]) - base, 2)},
+        {"perna": "cambio", "de": a["cambio"], "para": z["cambio"], "unidade": "R$/US$",
+         "efeito": round(par(a["cbot_cents"], pa, z["cambio"]) - base, 2)},
+    ]
+    soma = sum(p["efeito"] for p in pernas)
+    return {
+        "de": a.get("data"),
+        "para": z.get("data"),
+        "pernas": pernas,
+        "total": round(total, 2),
+        "residuo_interacao": round(total - soma, 2),
+        "indicador_var": (
+            round(z["indicador"] - a["indicador"], 2)
+            if z.get("indicador") is not None and a.get("indicador") is not None else None
+        ),
+        "basis_var": (
+            round(z["basis"] - a["basis"], 2)
+            if z.get("basis") is not None and a.get("basis") is not None else None
+        ),
+    }
 
 
 def atualiza_historico(basis: dict) -> list:
@@ -2020,6 +2131,209 @@ def percentil(valor, amostra) -> int:
     return round(sum(1 for v in amostra if v <= valor) / len(amostra) * 100)
 
 
+# Coordenadas das praças. Não são identificador que rotaciona — são fato
+# geográfico —, então ficam aqui em vez de serem descobertas a cada hora.
+# "Oeste da Bahia" não é município: usa Luís Eduardo Magalhães como proxy, e a
+# tela precisa dizer isso.
+PRACAS_GEO = {
+    "Sorriso/MT": (-12.5453, -55.7203),
+    "Rondonópolis/MT": (-16.4673, -54.6356),
+    "Primavera do Leste/MT": (-15.5561, -54.2960),
+    "Rio Verde/GO": (-17.7975, -50.9331),
+    "Jataí/GO": (-17.8814, -51.7211),
+    "Campo Grande/MS": (-20.4697, -54.6464),
+    "Maracaju/MS": (-21.6142, -55.1678),
+    "São Gabriel do Oeste/MS": (-19.3958, -54.5678),
+    "Oeste da Bahia/BA": (-12.1522, -45.0036),
+}
+PROXY_GEO = {"Oeste da Bahia/BA": "Luís Eduardo Magalhães"}
+
+PORTOS_GEO = {
+    "Paranaguá/PR": (-25.5163, -48.5225),
+    "Santos/SP": (-23.9608, -46.3336),
+}
+
+ROTAS = DATA / "rotas.json"
+OSRM = "https://router.project-osrm.org/route/v1/driving"
+
+
+def distancia_rodoviaria(a: tuple, b: tuple) -> float:
+    """Km por estrada entre dois pontos (lat, lon), pelo OSRM público."""
+    # o OSRM pede lon,lat — invertido em relação ao resto do mundo
+    url = f"{OSRM}/{a[1]},{a[0]};{b[1]},{b[0]}?overview=false"
+    rotas = get(url, timeout=40).json().get("routes") or []
+    if not rotas:
+        raise RuntimeError("OSRM não devolveu rota")
+    return rotas[0]["distance"] / 1000
+
+
+def carrega_rotas() -> dict:
+    """Distâncias já medidas. Geografia não muda, então mede uma vez e guarda."""
+    try:
+        return json.loads(ROTAS.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        return {}
+
+
+def mede_rotas() -> dict:
+    """Completa o cache só com o que falta — o serviço público é gratuito e
+    não deve ser martelado de hora em hora."""
+    cache = carrega_rotas()
+    novas = 0
+    for praca, pa in PRACAS_GEO.items():
+        for porto, pb in PORTOS_GEO.items():
+            chave = f"{praca}|{porto}"
+            if chave in cache:
+                continue
+            try:
+                cache[chave] = round(distancia_rodoviaria(pa, pb), 1)
+                novas += 1
+                time.sleep(1.1)
+            except Exception as e:  # noqa: BLE001
+                print(f"[aviso] rota {chave}: {e}", file=sys.stderr)
+    if novas:
+        ROTAS.parent.mkdir(parents=True, exist_ok=True)
+        ROTAS.write_text(
+            json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True) + "\n",
+            encoding="utf-8",
+        )
+        print(f"[ok]   rotas: {novas} nova(s), {len(cache)} no total")
+    return cache
+
+
+def regressao(xs: list, ys: list) -> tuple:
+    """Mínimos quadrados simples. Devolve (coef, intercepto, r2)."""
+    n = len(xs)
+    mx, my = sum(xs) / n, sum(ys) / n
+    sxx = sum((x - mx) ** 2 for x in xs)
+    if sxx == 0:
+        raise RuntimeError("sem variação em x")
+    coef = sum((x - mx) * (y - my) for x, y in zip(xs, ys)) / sxx
+    intercepto = my - coef * mx
+    sqt = sum((y - my) ** 2 for y in ys)
+    sqr = sum((y - (coef * x + intercepto)) ** 2 for x, y in zip(xs, ys))
+    return coef, intercepto, (1 - sqr / sqt) if sqt else None
+
+
+# Abaixo disso o ajuste não sustenta resíduo por praça. Publicar resíduo de uma
+# reta que não explica nada seria fabricar precisão — o defeito que este painel
+# passou a semana inteira corrigindo.
+R2_MINIMO = 0.30
+
+
+def media(vs: list) -> float:
+    return sum(vs) / len(vs)
+
+
+def r2_por_grupo(valores: list, grupos: list) -> float:
+    """Quanto da variância a classificação em grupos explica."""
+    m = media(valores)
+    sqt = sum((v - m) ** 2 for v in valores)
+    if not sqt:
+        return 0.0
+    por_grupo = {}
+    for v, g in zip(valores, grupos):
+        por_grupo.setdefault(g, []).append(v)
+    sqr = sum((v - media(por_grupo[g])) ** 2 for v, g in zip(valores, grupos))
+    return 1 - sqr / sqt
+
+
+def collect_frete(sections: dict) -> dict:
+    """Testa o que explica a dispersão do basis entre praças.
+
+    A pergunta que originou isto: quanto dos R$ 12 entre Rondonópolis e Rio
+    Verde é frete? Não existe fonte gratuita de *preço* de frete — SIFRECA
+    exige cadastro, o Notícias Agrícolas não publica, a calculadora do piso da
+    ANTT não responde e o dados.gov.br passou a exigir chave. O que dá para
+    medir de graça é a distância rodoviária (OSRM).
+
+    Com a distância medida, o próprio conjunto de praças testaria o frete
+    implícito. Só que a reta não ajusta: no primeiro cálculo com dados reais o
+    R² deu 0,000, e o tipo de quem cotou explicou 0,64. Por isso esta seção
+    devolve as duas comparações e só publica resíduo por praça quando o ajuste
+    justificar — caso contrário diz que não explica.
+    """
+    basis = (sections.get("basis") or {}).get("basis_interior") or []
+    if len(basis) < 4:
+        raise RuntimeError("praças de menos para separar distância de resto")
+    agentes = {
+        f.get("praca"): f for f in (sections.get("cepea") or {}).get("fisico") or []
+    }
+
+    cache = mede_rotas()
+    itens = []
+    for b in basis:
+        praca = b.get("praca")
+        if praca not in PRACAS_GEO or b.get("basis_brl_saca") is None:
+            continue
+        opcoes = [
+            (cache[f"{praca}|{p}"], p) for p in PORTOS_GEO if f"{praca}|{p}" in cache
+        ]
+        if not opcoes:
+            continue
+        km, porto = min(opcoes)
+        f = agentes.get(praca) or {}
+        itens.append({
+            "praca": praca,
+            "porto": porto,
+            "km": km,
+            "basis_brl_saca": b.get("basis_brl_saca"),
+            "agente": f.get("agente"),
+            "tipo_agente": f.get("tipo_agente"),
+            "proxy": PROXY_GEO.get(praca),
+        })
+    if len(itens) < 4:
+        raise RuntimeError(f"só {len(itens)} praça(s) com rota medida")
+
+    ys = [i["basis_brl_saca"] for i in itens]
+    coef, intercepto, r2 = regressao([i["km"] for i in itens], ys)
+    explica = r2 is not None and r2 >= R2_MINIMO
+
+    for i in itens:
+        if explica:
+            previsto = coef * i["km"] + intercepto
+            i["basis_previsto"] = round(previsto, 2)
+            i["residuo"] = round(i["basis_brl_saca"] - previsto, 2)
+        else:
+            i["basis_previsto"] = None
+            i["residuo"] = None
+    # a explicação concorrente: quem cotou. Extrair ANTES de reordenar `itens`,
+    # senão as duas listas passam a falar de praças diferentes.
+    tipos = [i["tipo_agente"] for i in itens]
+    r2_tipo = r2_por_grupo(ys, tipos) if len(set(tipos)) > 1 else None
+
+    itens.sort(key=lambda i: (-i["residuo"]) if explica else i["km"])
+    grupos = {}
+    for i in itens:
+        grupos.setdefault(i["tipo_agente"] or "sem classificacao", []).append(
+            i["basis_brl_saca"]
+        )
+
+    por_mil_km = -coef * 1000
+    return {
+        "itens": itens,
+        "distancia_explica": explica,
+        "ajuste": {
+            "r2_distancia": round(r2, 3) if r2 is not None else None,
+            "r2_tipo_agente": round(r2_tipo, 3) if r2_tipo is not None else None,
+            "brl_saca_por_1000km": round(por_mil_km, 2),
+            "brl_t_por_1000km": round(por_mil_km * SACAS_POR_TONELADA, 0),
+            "n": len(itens),
+            "r2_minimo": R2_MINIMO,
+        },
+        "por_tipo": [
+            {"tipo": t, "n": len(v), "media": round(media(v), 2)}
+            for t, v in sorted(grupos.items(), key=lambda kv: -media(kv[1]))
+        ],
+        "fonte": "distância rodoviária medida pelo OSRM",
+        "obs": (
+            "Não existe fonte gratuita de preço de frete: SIFRECA exige cadastro, "
+            "a calculadora do piso da ANTT não responde e o dados.gov.br passou a "
+            "exigir chave. A distância é medida; o frete, não."
+        ),
+    }
+
+
 def collect_sinais(sections: dict) -> dict:
     """Percentis de preço e carrego por vencimento, sem conclusão.
 
@@ -2183,7 +2497,12 @@ COLLECTORS = {
     "fertilizante": collect_fertilizante,
 }
 
-DERIVED = {"basis": collect_basis, "crush": collect_crush, "sinais": collect_sinais}
+DERIVED = {
+    "basis": collect_basis,
+    "crush": collect_crush,
+    "frete": collect_frete,
+    "sinais": collect_sinais,
+}
 
 
 def main() -> int:

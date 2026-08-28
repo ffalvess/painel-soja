@@ -78,6 +78,12 @@ table.curve{width:100%;border-collapse:collapse;font-variant-numeric:tabular-num
 .curve tbody tr:last-child td{border-bottom:0}
 .curve .front td{font-weight:600}
 .curve .agente{display:block;font-size:11px;color:var(--muted);font-weight:400;margin-top:1px}
+.tipoag{display:inline-block;font-size:9.5px;font-weight:600;letter-spacing:.04em;
+  text-transform:uppercase;padding:1px 4px;border-radius:2px;margin-left:3px;
+  border:1px solid currentColor;cursor:help}
+.tipoag.comprador{color:var(--down)}
+.tipoag.intermediario{color:var(--accent)}
+.tipoag.entidade{color:var(--muted)}
 .curve td.spread{color:var(--ink-2)}
 .curve td.spread .estrut{display:block;font-size:10.5px;color:var(--muted);font-weight:400;letter-spacing:.02em}
 #curvas{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(740px,100%),1fr));gap:10px;align-items:start}
@@ -560,18 +566,34 @@ function renderCepea(cepea){
     // corretoras. Consultorias como a Safras & Mercado publicam a mesma praça
     // com outra base e outro prazo, e a diferença chega a R$ 8/saca — sem o
     // agente na tela, isso parece erro do painel.
+    // O tipo de quem cotou muda o que o número é. Cooperativa e esmagadora
+    // publicam o próprio bid — posição de abertura de quem compra. Corretora
+    // publica onde negociou. Sem essa distinção o painel compara bid com
+    // negócio fechado como se fossem a mesma coisa.
+    const TIPO = {
+      comprador:     ["bid", "bid do comprador — posição de abertura de quem compra"],
+      intermediario: ["mercado", "intermediário reportando onde o mercado negociou"],
+      entidade:      ["levantamento", "levantamento de entidade junto aos associados"],
+    };
     const temAgente = cepea.fisico.some(f=>f.agente);
-    const linhas = cepea.fisico.map(f=>
-      `<tr><td>${f.praca}${f.agente?`<span class="agente">${f.agente}</span>`:""}</td>
-        <td>R$ ${fmt(f.valor)}</td><td>${deltaHtml(f.var_dia_pct)||"—"}</td></tr>`).join("");
+    const tipos = new Set(cepea.fisico.map(f=>f.tipo_agente).filter(Boolean));
+    const linhas = cepea.fisico.map(f=>{
+      const t = TIPO[f.tipo_agente];
+      return `<tr><td>${f.praca}${f.agente?`<span class="agente">${f.agente}${
+        t?` <b class="tipoag ${f.tipo_agente}" title="${t[1]}">${t[0]}</b>`:""}</span>`:""}</td>
+        <td>R$ ${fmt(f.valor)}</td><td>${deltaHtml(f.var_dia_pct)||"—"}</td></tr>`;
+    }).join("");
     $("fisico").innerHTML = `<h3>Balcão nas praças produtoras</h3>
       <div class="src">R$ por saca de 60 kg, preço ao produtor</div>
       <div class="tblwrap" style="margin-top:8px"><table class="curve">
         <thead><tr><th>Praça</th><th>Preço</th><th>Var. dia</th></tr></thead>
         <tbody>${linhas}</tbody></table></div>
       ${temAgente?`<div class="foot">Cotação de balcão do agente indicado em cada praça.
-        Outras consultorias publicam a mesma praça com base, prazo e ponto de entrega
-        diferentes — divergências de alguns reais por saca são esperadas.</div>`:""}`;
+        ${tipos.has("comprador")&&tipos.has("intermediario")?`<b>Atenção ao comparar:</b>
+        onde o agente é o próprio comprador, o número é o <b>bid</b> dele; onde é
+        corretora, é onde o mercado negociou. Bid tende a ficar abaixo do negócio
+        fechado, então parte da diferença entre praças é tipo de cotação, não mercado.`:""}
+        Base, prazo de pagamento e ponto de entrega também variam entre agentes.</div>`:""}`;
     $("fisico").hidden=false;
   }
 

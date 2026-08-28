@@ -1,12 +1,13 @@
-"""Sonda temporária: dados para a análise de oportunidade (bloco A).
+"""Sonda temporária: contagem de produtores de soja (bloco A2).
 
-Segunda rodada. A primeira errou o filtro do IBGE — casou tabelas de
-agrotóxico de 2006 porque a expressão pegava "condição do produtor" nas
-classificações, não no nome da tabela. Agora filtra pelo nome da tabela e
-exige período 2017.
+Terceira rodada. A segunda listou as 36 tabelas certas mas detalhou só as 8
+primeiras, que por ordem de ID eram todas de 2006 — a tabela que interessa,
+a 6965 ("Número de estabelecimentos agropecuários com lavoura temporária"),
+estava na lista e nunca foi aberta. Agora vai direto pelo ID.
 
-Também descobre a que corresponde cada preço da StoneX (R$ 3.060 / 5.814 /
-10.404), que a primeira rodada achou mas não soube interpretar.
+Fluxo: metadados -> descobre variável de contagem, categoria SOJA e a
+classificação de faixa de área -> monta a consulta de valores sozinha.
+Nada de ID chutado: tudo sai dos metadados em tempo de execução.
 
 Rodar pelo workflow `probe.yml` e ler os logs. Remover depois.
 """
@@ -24,6 +25,7 @@ HEADERS = {
     "Accept-Language": "pt-BR,pt;q=0.9",
 }
 API = "https://servicodados.ibge.gov.br/api/v3/agregados"
+ALVOS = [6965, 6957, 6958, 6959]
 
 
 def get(url, **kw):
@@ -31,86 +33,108 @@ def get(url, **kw):
     return requests.get(url, headers=HEADERS, **kw)
 
 
-def tabelas_2017():
-    """Tabelas do Censo 2017 cujo NOME fala de lavoura temporária ou soja."""
-    print(f"{'=' * 78}\nA2 — tabelas do Censo Agropecuário 2017\n{'=' * 78}")
-    r = get(API)
-    r.raise_for_status()
-    achados = []
-    for p in r.json():
-        nome_p = (p.get("nome") or "")
-        if "censo agropecu" not in nome_p.lower():
-            continue
-        for ag in p.get("agregados") or []:
-            nome = ag.get("nome") or ""
-            # o nome da TABELA, não das classificações
-            if re.search(r"lavoura tempor|soja", nome, re.I):
-                achados.append((ag.get("id"), nome, nome_p))
-    print(f"  {len(achados)} tabela(s):")
-    for tid, nome, pesq in achados[:20]:
-        print(f"    {tid:>6}  {nome[:100]}")
-        print(f"            ({pesq[:70]})")
-    return achados
+def acha_cat(classificacoes, padrao):
+    """Devolve (id_classificacao, id_categoria, nome) da 1a categoria que casa."""
+    for c in classificacoes:
+        for k in c.get("categorias") or []:
+            if re.search(padrao, (k.get("nome") or ""), re.I):
+                return c["id"], k["id"], k["nome"]
+    return None, None, None
 
 
-def detalha(tid):
+def metadados(tid):
     r = get(f"{API}/{tid}/metadados")
     if not r.ok:
-        print(f"    {tid}: metadados {r.status_code}")
-        return
+        print(f"  {tid}: metadados HTTP {r.status_code}")
+        return None
     m = r.json()
     per = m.get("periodicidade") or {}
+    print(f"\n{'=' * 78}\ntabela {tid} — {(m.get('nome') or '')[:110]}")
+    print(f"  período {per.get('inicio')}–{per.get('fim')}")
     if str(per.get("fim")) != "2017":
-        print(f"    {tid}: período termina em {per.get('fim')} — ignorando")
-        return
-    print(f"\n  === tabela {tid} — {m.get('nome','')[:95]}")
-    print(f"      período {per.get('inicio')}–{per.get('fim')}")
-    for v in (m.get("variaveis") or [])[:8]:
-        print(f"      var {v['id']}: {v['nome'][:75]} ({v.get('unidade','')})")
-    for c in (m.get("classificacoes") or []):
+        print("  não é 2017 — ignorando")
+        return None
+    for v in m.get("variaveis") or []:
+        print(f"  var {v['id']}: {v['nome'][:80]} ({v.get('unidade', '')})")
+    for c in m.get("classificacoes") or []:
         cats = c.get("categorias") or []
-        nome_c = c.get("nome") or ""
-        soja = [k for k in cats if re.fullmatch(r"\s*soja.*", (k.get("nome") or ""), re.I)]
-        area = re.search(r"grupos de área|área total", nome_c, re.I)
-        marca = ""
-        if soja:
-            marca = f"  <<< SOJA em {[(k['id'], k['nome'][:30]) for k in soja][:2]}"
-        if area:
-            marca = f"  <<< FAIXAS DE ÁREA ({len(cats)})"
-        print(f"      classif {c['id']}: {nome_c[:55]} — {len(cats)} cat.{marca}")
-        if area:
-            for k in cats[:14]:
-                print(f"          {k['id']:>8}  {k['nome'][:44]}")
+        print(f"  classif {c['id']}: {(c.get('nome') or '')[:60]} — {len(cats)} cat.")
+        soja = [k for k in cats if re.search(r"\bsoja\b", k.get("nome") or "", re.I)]
+        faixa = re.search(r"grupos de área|área total|classes de área", c.get("nome") or "", re.I)
+        for k in soja[:3]:
+            print(f"      SOJA -> {k['id']}  {k['nome'][:60]}")
+        if faixa:
+            for k in cats:
+                print(f"      faixa  {k['id']:>8}  {(k.get('nome') or '')[:50]}")
+    return m
 
 
-def stonex():
-    """A que corresponde cada preço? Extrai o contexto em volta dos valores."""
-    print(f"\n{'=' * 78}\nA1 — o que a StoneX vende por R$ 3.060 / 5.814 / 10.404\n{'=' * 78}")
-    for url in (
-        "https://loja.stonex.com/products/graos-premium-relatorios-de-mercado",
-        "https://loja.stonex.com/collections/graos",
-    ):
-        try:
-            r = get(url, timeout=45)
-            txt = re.sub(r"<[^>]+>", " ", r.text)
-            txt = re.sub(r"\s+", " ", txt)
-            print(f"\n  {r.status_code}  {url.rsplit('/', 1)[-1]}")
-            for m in re.finditer(r"R\$\s?[\d.]+,\d{2}", txt):
-                ini = max(0, m.start() - 140)
-                print(f"     …{txt[ini:m.end() + 60]}…")
-        except Exception as e:  # noqa: BLE001
-            print(f"  ERRO: {str(e)[:90]}")
-        time.sleep(2)
+def valores(tid, m):
+    """Monta e executa a consulta de valores a partir dos metadados."""
+    variaveis = m.get("variaveis") or []
+    classif = m.get("classificacoes") or []
+
+    contagem = next(
+        (v for v in variaveis if re.search(r"n[úu]mero de estabelecimentos", v["nome"], re.I)),
+        None,
+    )
+    if not contagem:
+        print("  sem variável de contagem de estabelecimentos — pulando valores")
+        return
+    c_soja, k_soja, nome_soja = acha_cat(classif, r"^\s*soja\b")
+    faixa = next(
+        (c for c in classif
+         if re.search(r"grupos de área|área total|classes de área", c.get("nome") or "", re.I)),
+        None,
+    )
+
+    partes = []
+    if c_soja:
+        partes.append(f"{c_soja}[{k_soja}]")
+    if faixa:
+        partes.append(f"{faixa['id']}[all]")
+    q = f"{API}/{tid}/periodos/2017/variaveis/{contagem['id']}?localidades=N1[all]|N3[all]"
+    if partes:
+        q += "&classificacao=" + "|".join(partes)
+
+    print(f"\n  var usada: {contagem['id']} — {contagem['nome'][:70]}")
+    print(f"  soja: {c_soja}[{k_soja}] {nome_soja}")
+    print(f"  faixa: {faixa['id'] if faixa else '—'} {(faixa or {}).get('nome', '')[:50]}")
+    print(f"  GET {q[:150]}")
+
+    r = get(q)
+    print(f"  HTTP {r.status_code}  {len(r.content)} B")
+    if not r.ok:
+        print(f"  corpo: {r.text[:300]}")
+        return
+    dados = r.json()
+    # v3 devolve [{variavel, resultados:[{classificacoes, series:[{localidade, serie}]}]}]
+    for v in dados:
+        for res in v.get("resultados") or []:
+            rot = " / ".join(
+                str(list((c.get("categoria") or {}).values())[0])[:34]
+                for c in res.get("classificacoes") or []
+            )
+            linhas = []
+            for s in res.get("series") or []:
+                loc = (s.get("localidade") or {}).get("nome", "?")
+                val = list((s.get("serie") or {}).values())
+                if loc in ("Brasil", "Mato Grosso", "Mato Grosso do Sul", "Goiás",
+                           "Paraná", "Rio Grande do Sul", "Distrito Federal"):
+                    linhas.append(f"{loc}={val[0] if val else '?'}")
+            if linhas:
+                print(f"    [{rot}]  " + "  ".join(linhas))
 
 
 def main():
-    try:
-        for tid, _, _ in tabelas_2017()[:8]:
-            detalha(tid)
-            time.sleep(0.6)
-    except Exception as e:  # noqa: BLE001
-        print(f"  IBGE falhou: {str(e)[:140]}")
-    stonex()
+    for tid in ALVOS:
+        try:
+            m = metadados(tid)
+            if m:
+                valores(tid, m)
+        except Exception as e:  # noqa: BLE001
+            print(f"  {tid} falhou: {type(e).__name__}: {str(e)[:140]}")
+        time.sleep(1.5)
 
 
 if __name__ == "__main__":

@@ -1661,6 +1661,50 @@ def atualiza_historico(basis: dict) -> list:
     return serie
 
 
+CURVAS_HIST = ROOT / "data" / "curve_history.json"
+
+
+def registra_curva(curve: dict) -> None:
+    """Guarda um retrato da curva por dia, para comparar a forma no tempo.
+
+    Sondamos se dava para reconstruir o passado buscando cada contrato já
+    vencido no Yahoo, e não dá de forma confiável: o ZSX25 (nov/25) devolve
+    308 pregões, mas o ZSN26 (jul/26, mais recente) e o ZCZ25 (dez/25, o
+    contrato de referência do milho) devolvem 404. Não é questão de idade —
+    a cobertura de vencidos é simplesmente inconsistente. E reconstruir a
+    curva de uma data exige *todos* os contratos vigentes naquele dia: se um
+    falta, o carrego daquela data sai errado.
+
+    Por isso a série é acumulada daqui para a frente, como a do basis.
+    """
+    try:
+        serie = json.loads(CURVAS_HIST.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        serie = []
+
+    hoje = dt.date.today().isoformat()
+    retrato = {
+        c["id"]: [
+            {"v": ct["label"], "p": ct["price"], "s": ct.get("spread_anterior")}
+            for ct in c.get("contracts", [])
+            if ct.get("price") is not None
+        ]
+        for c in (curve or {}).get("curvas", [])
+    }
+    if not any(retrato.values()):
+        return
+
+    serie = [s for s in serie if s.get("data") != hoje]
+    serie.append({"data": hoje, "curvas": retrato})
+    serie.sort(key=lambda s: s["data"])
+    serie = serie[-HIST_MAX:]
+
+    CURVAS_HIST.parent.mkdir(parents=True, exist_ok=True)
+    CURVAS_HIST.write_text(
+        json.dumps(serie, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
+    )
+
+
 ROLLS = ROOT / "data" / "roll_history.json"
 
 
@@ -1837,6 +1881,11 @@ def main() -> int:
             print(f"[erro] {name}: {e}", file=sys.stderr)
 
     anota_cadencia(sections)
+
+    try:
+        registra_curva(sections.get("curve") or {})
+    except Exception as e:  # noqa: BLE001 - histórico auxiliar, não trava a coleta
+        print(f"[erro] curve_history: {e}", file=sys.stderr)
 
     try:
         registra_rolagem(sections.get("quotes") or {})

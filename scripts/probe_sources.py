@@ -31,7 +31,7 @@ ALVOS = [6965]
 # A rodada anterior pediu N1|N3 com todas as faixas e ficou 17 min baixando —
 # o `timeout` do requests é entre bytes, então um corpo gigante não estoura.
 # Só Brasil, e um teto explícito de tamanho.
-LOCALIDADES = "N1[all]"
+LOCALIDADES = "N3[all]"
 TETO_BYTES = 8 * 1024 * 1024
 
 
@@ -135,9 +135,14 @@ def valores(tid, m):
                 str(list((c.get("categoria") or {}).values())[0])[:34]
                 for c in res.get("classificacoes") or []
             )
+            # só as UFs que interessam ao Centro-Oeste + as duas grandes do Sul
+            uf = ("Mato Grosso", "Mato Grosso do Sul", "Goiás", "Distrito Federal",
+                  "Paraná", "Rio Grande do Sul")
             linhas = []
             for s in res.get("series") or []:
                 loc = (s.get("localidade") or {}).get("nome", "?")
+                if loc not in uf:
+                    continue
                 val = list((s.get("serie") or {}).values())
                 linhas.append(f"{loc}={val[0] if val else '?'}")
             if linhas:

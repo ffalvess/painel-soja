@@ -1,0 +1,47 @@
+name: Gerar boletim semanal
+
+on:
+  # Sexta, 09:00 de Brasília (12:00 UTC) — depois do fechamento de quinta em
+  # Chicago e do Export Sales, com o fim de semana para revisar.
+  schedule:
+    - cron: "0 12 * * 5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: boletim
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Só lê data/data.json, que o coletor horário mantém atualizado.
+      # Nenhuma aritmética própria: se o boletim recalculasse, ele e o painel
+      # poderiam divergir e não daria para saber qual está certo.
+      - name: Gerar rascunho
+        run: python scripts/gera_boletim.py
+
+      # Deliberadamente NÃO envia. Um erro de dado num e-mail chega a todos os
+      # clientes de uma vez e não se desfaz. O envio é manual até haver
+      # semanas seguidas sem correção.
+      - name: Commitar rascunho
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add boletim/
+          if git diff --cached --quiet; then
+            echo "Nada mudou."
+          else
+            git commit -m "Rascunho do boletim semanal"
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            git push origin "HEAD:$GITHUB_REF_NAME"
+          fi

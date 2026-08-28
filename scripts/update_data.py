@@ -71,6 +71,7 @@ CADENCIA = {
     "embarques": "semanal",  # divulgado nas quintas, ~1 semana de defasagem
     "sd": "mensal",  # WASDE
     "crush": "intradiaria",
+    "sinais": "intradiaria",
 }
 
 
@@ -1833,6 +1834,154 @@ def collect_crush(sections: dict) -> dict:
     }
 
 
+# ---------------------------------------------------------------- sinais
+#
+# Camada de evidência para a decisão de travar preço. Deliberadamente NÃO
+# emite veredito: entrega os números que sustentam ou derrubam a decisão, com
+# a janela de cada um, para quem assina a recomendação poder discordar com
+# base no raciocínio. Quem assina é o consultor, não o painel.
+#
+# O que dá para medir hoje, e o que não dá, está explícito na saída — um
+# percentil calculado sobre cinco observações pareceria um número sem ser um.
+
+JANELAS = (("mes", 30), ("trimestre", 91), ("ano", 365))
+MIN_AMOSTRA = 18  # ~22 pregões cabem em 30 dias corridos; 25 zerava a janela de 1 mês
+
+
+def percentil(valor, amostra) -> int:
+    """Posição de `valor` dentro de `amostra`, de 0 a 100."""
+    return round(sum(1 for v in amostra if v <= valor) / len(amostra) * 100)
+
+
+def collect_sinais(sections: dict) -> dict:
+    """Percentis de preço e carrego por vencimento, sem conclusão.
+
+    Ressalvas que a interface precisa repetir:
+      - o percentil é do contínuo de primeiro vencimento, cuja série é
+        emendada nas rolagens; serve para situar o nível, não para medir
+        o dia da troca
+      - não existe série por vencimento, então o percentil é um só, do
+        front, e não de cada contrato da curva
+      - basis e carrego ainda não têm história suficiente para percentil
+    """
+    itens = {i["symbol"]: i for i in (sections.get("quotes") or {}).get("items", [])}
+    zs = itens.get("ZS=F")
+    if not zs or not zs.get("price"):
+        raise RuntimeError("sem ZS=F para calcular sinais")
+
+    usd = ((sections.get("fx") or {}).get("usdbrl") or {}).get("bid")
+    diaria = (zs.get("series") or {}).get("daily") or {}
+    ts, cs = diaria.get("t") or [], diaria.get("c") or []
+
+    # A decisão do produtor é em R$/saca, não em ¢/bu — e o câmbio move tanto
+    # quanto Chicago. Sem série de câmbio o percentil em reais não existe, e
+    # o de centavos responde a outra pergunta.
+    fx_serie = {}
+    try:
+        s_fx, _ = fetch_yahoo_series("BRL=X", "1y", "1d")
+        fx_serie = dict(zip(s_fx["t"], s_fx["c"]))
+    except Exception as e:  # noqa: BLE001 - sem câmbio histórico, só ¢/bu
+        fx_serie = {}
+        fx_erro = str(e)
+    else:
+        fx_erro = None
+
+    def dia(t):
+        return dt.datetime.utcfromtimestamp(t).date()
+
+    hoje = dt.date.today()
+    cents_hoje = zs["price"]
+    saca_hoje = (cents_hoje / 100) * BU_POR_SACA * usd if usd else None
+
+    # Casa cada fechamento da CBOT com o câmbio do mesmo dia. O câmbio negocia
+    # em dias que a bolsa não abre e vice-versa, então é interseção por data.
+    fx_por_dia = {dia(t): v for t, v in fx_serie.items() if v}
+    pares = []
+    for t, c in zip(ts, cs):
+        d = dia(t)
+        f = fx_por_dia.get(d)
+        pares.append((d, c, (c / 100) * BU_POR_SACA * f if f else None))
+
+    janelas = {}
+    for nome, dias in JANELAS:
+        corte = hoje - dt.timedelta(days=dias)
+        recorte = [p for p in pares if p[0] >= corte]
+        cents = [p[1] for p in recorte]
+        sacas = [p[2] for p in recorte if p[2] is not None]
+        janelas[nome] = {
+            "n": len(cents),
+            "cents": percentil(cents_hoje, cents) if len(cents) >= MIN_AMOSTRA else None,
+            "brl_saca": (
+                percentil(saca_hoje, sacas)
+                if saca_hoje is not None and len(sacas) >= MIN_AMOSTRA
+                else None
+            ),
+        }
+
+    # Carrego por vencimento: número de mercado puro, sem custo de armazenagem
+    # arbitrado. O retorno anualizado implícito é o que o mercado paga para
+    # esperar — o consultor compara com o custo dele.
+    carrego = []
+    curva = curva_de(sections, "soja")
+    contratos = [c for c in curva.get("contracts", []) if c.get("price")]
+    for i, c in enumerate(contratos):
+        if i == 0:
+            continue
+        ant = contratos[i - 1]
+        m0, m1 = mes_contrato(ant["label"]), mes_contrato(c["label"])
+        meses = (m1[0] - m0[0]) * 12 + (m1[1] - m0[1])
+        spread = c["price"] - ant["price"]
+        carrego.append(
+            {
+                "de": ant["label"],
+                "para": c["label"],
+                "meses": meses,
+                "cents": round(spread, 2),
+                "cents_mes": round(spread / meses, 2) if meses else None,
+                "aa_pct": (
+                    round(spread / ant["price"] * (12 / meses) * 100, 1) if meses else None
+                ),
+            }
+        )
+
+    basis = sections.get("basis") or {}
+    hist_basis = basis.get("historico") or []
+    crush = sections.get("crush") or {}
+
+    return {
+        "updated_at": now_iso(),
+        "contrato_referencia": zs.get("contrato_rotulo"),
+        "preco": {"cents": cents_hoje, "brl_saca": round(saca_hoje, 2) if saca_hoje else None},
+        "percentis": janelas,
+        "percentil_min_amostra": MIN_AMOSTRA,
+        # O percentil sai da série do contínuo, que é emendada nas rolagens.
+        # Em mercado de carrego cada rolagem troca um contrato barato por um
+        # caro, então a série deriva para cima e o percentil fica enviesado
+        # na mesma direção. Com ~6 rolagens ao ano a ~7 ¢ cada, a deriva é da
+        # ordem de 40 ¢ sobre ~1.270 ¢ — cerca de 15% da amplitude do ano.
+        # É o que o data/roll_history.json está acumulando para corrigir.
+        "vies_emenda": "alta" if any(c.get("cents", 0) > 0 for c in carrego) else "baixa",
+        "carrego": carrego,
+        "crush": {"valor": crush.get("valor"), "percentil_1a": crush.get("percentil_1a")},
+        # O que ainda não dá para medir, dito na cara.
+        "sem_historico": {
+            "basis": {
+                "obs": len(hist_basis),
+                "necessario": MIN_AMOSTRA,
+                "valor_hoje": (basis.get("basis_porto") or {}).get("brl_saca"),
+            },
+            "carrego": {
+                "obs": len(json.loads(CURVAS_HIST.read_text(encoding="utf-8")))
+                if CURVAS_HIST.exists()
+                else 0,
+                "necessario": MIN_AMOSTRA,
+            },
+        },
+        "cambio_historico": fx_erro is None,
+        "cambio_erro": fx_erro,
+    }
+
+
 COLLECTORS = {
     "quotes": collect_quotes,
     "fx": collect_fx,
@@ -1847,7 +1996,7 @@ COLLECTORS = {
     "embarques": collect_embarques,
 }
 
-DERIVED = {"basis": collect_basis, "crush": collect_crush}
+DERIVED = {"basis": collect_basis, "crush": collect_crush, "sinais": collect_sinais}
 
 
 def main() -> int:

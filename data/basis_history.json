@@ -34,12 +34,12 @@
  {
   "data": "27/08/2026",
   "cbot_cents": 1277.75,
-  "cambio": 5.2008,
+  "cambio": 5.1925,
   "premio_cents": 175.0,
   "premio_mes": "Agosto/26",
   "contrato": "set/26",
-  "paridade": 166.57,
+  "paridade": 166.3,
   "indicador": 155.05,
-  "basis": -11.52
+  "basis": -11.25
  }
 ]

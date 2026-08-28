@@ -527,6 +527,42 @@ def parse_na_tabelas(page: str) -> dict:
     return tabelas
 
 
+# Quem cota muda o que o número significa. Uma cooperativa ou esmagadora
+# publica o *bid dela* — a posição de abertura de quem compra. Uma corretora
+# publica onde o mercado negociou. Um sindicato publica levantamento junto aos
+# associados. Comparar bid com negócio fechado na mesma coluna faz o painel
+# afirmar diferença de mercado onde há diferença de tipo de cotação.
+#
+# Classificação manual e curta de propósito: o que não casar fica sem tipo, e
+# a tela diz "não classificado" em vez de chutar.
+TIPOS_AGENTE = [
+    (r"corretora|corretagem|assessoria|commodities|consultoria|cereais|dellagro|insoy",
+     "intermediario"),
+    (r"sindicato|sindical|associa|aiba|aprosoja|federa|faeg|famato|aprosmat",
+     "entidade"),
+    (r"comigo|coamo|cocamar|c\.?\s?vale|coopera|cooperativa|bunge|cargill|amaggi|"
+     r"louis dreyfus|ldc|adm\b|caramuru|olfar|granol|esmagadora",
+     "comprador"),
+]
+
+ROTULO_AGENTE = {
+    "comprador": "bid do comprador",
+    "intermediario": "mercado, via intermediário",
+    "entidade": "levantamento de entidade",
+}
+
+
+def tipo_agente(nome):
+    """`Comigo` -> 'comprador'; `VA Corretora de Cereais` -> 'intermediario'."""
+    if not nome:
+        return None
+    n = nome.casefold()
+    for padrao, tipo in TIPOS_AGENTE:
+        if re.search(padrao, n):
+            return tipo
+    return None
+
+
 def collect_cepea() -> dict:
     """Indicadores CEPEA e mercado físico via Notícias Agrícolas.
 
@@ -612,6 +648,7 @@ def collect_cepea() -> dict:
                     "valor": valor,
                     "var_dia_pct": br_float(ln[2]),
                     "agente": agente,
+                    "tipo_agente": tipo_agente(agente),
                 }
             )
     if fisico:

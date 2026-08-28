@@ -1662,6 +1662,49 @@ def atualiza_historico(basis: dict) -> list:
     return serie
 
 
+OPCOES_HIST = ROOT / "data" / "options_history.json"
+
+
+def registra_opcoes(options: dict) -> None:
+    """Acumula o volume de calls e puts por pregão.
+
+    Uma razão put/call isolada não diz nada: 0,58 é muito ou pouco? Só contra
+    a própria história. E como a CME publica o arquivo por pregão, sem série,
+    a comparação só existe se guardarmos — mesmo caso do basis e da curva.
+
+    Chaveado pela data do pregão (`trade_date`), não pela data da coleta: o
+    arquivo do FTP é do dia anterior, e o coletor roda de hora em hora.
+    """
+    cb = (options or {}).get("cbot") or {}
+    data = (options or {}).get("trade_date")
+    calls = (cb.get("calls") or {}).get("volume")
+    puts = (cb.get("puts") or {}).get("volume")
+    if not data or calls is None or puts is None:
+        return
+
+    try:
+        serie = json.loads(OPCOES_HIST.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        serie = []
+
+    registro = {
+        "data": data,
+        "calls": calls,
+        "puts": puts,
+        "futuros": (cb.get("futures") or {}).get("volume"),
+        "pc": cb.get("put_call_volume"),
+    }
+    serie = [r for r in serie if r.get("data") != data]
+    serie.append(registro)
+    serie.sort(key=lambda r: r["data"])
+    serie = serie[-HIST_MAX:]
+
+    OPCOES_HIST.parent.mkdir(parents=True, exist_ok=True)
+    OPCOES_HIST.write_text(
+        json.dumps(serie, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
+    )
+
+
 CURVAS_HIST = ROOT / "data" / "curve_history.json"
 
 
@@ -2030,6 +2073,11 @@ def main() -> int:
             print(f"[erro] {name}: {e}", file=sys.stderr)
 
     anota_cadencia(sections)
+
+    try:
+        registra_opcoes(sections.get("options") or {})
+    except Exception as e:  # noqa: BLE001 - histórico auxiliar, não trava a coleta
+        print(f"[erro] options_history: {e}", file=sys.stderr)
 
     try:
         registra_curva(sections.get("curve") or {})

@@ -2157,11 +2157,18 @@ ROTAS = DATA / "rotas.json"
 OSRM = "https://router.project-osrm.org/route/v1/driving"
 
 
+# Teto por execução: o coletor roda de hora em hora e o OSRM é um serviço
+# público gratuito. Geografia não muda, então as rotas que faltarem entram nas
+# próximas execuções — o que não pode é um serviço de terceiro segurar o job.
+ROTAS_POR_EXECUCAO = 4
+TIMEOUT_OSRM = 12
+
+
 def distancia_rodoviaria(a: tuple, b: tuple) -> float:
     """Km por estrada entre dois pontos (lat, lon), pelo OSRM público."""
     # o OSRM pede lon,lat — invertido em relação ao resto do mundo
     url = f"{OSRM}/{a[1]},{a[0]};{b[1]},{b[0]}?overview=false"
-    rotas = get(url, timeout=40).json().get("routes") or []
+    rotas = get(url, timeout=TIMEOUT_OSRM).json().get("routes") or []
     if not rotas:
         raise RuntimeError("OSRM não devolveu rota")
     return rotas[0]["distance"] / 1000
@@ -2179,25 +2186,32 @@ def mede_rotas() -> dict:
     """Completa o cache só com o que falta — o serviço público é gratuito e
     não deve ser martelado de hora em hora."""
     cache = carrega_rotas()
-    novas = 0
-    for praca, pa in PRACAS_GEO.items():
-        for porto, pb in PORTOS_GEO.items():
-            chave = f"{praca}|{porto}"
-            if chave in cache:
-                continue
-            try:
-                cache[chave] = round(distancia_rodoviaria(pa, pb), 1)
-                novas += 1
-                time.sleep(1.1)
-            except Exception as e:  # noqa: BLE001
-                print(f"[aviso] rota {chave}: {e}", file=sys.stderr)
-    if novas:
+    faltando = [
+        (f"{praca}|{porto}", pa, pb)
+        for praca, pa in PRACAS_GEO.items()
+        for porto, pb in PORTOS_GEO.items()
+        if f"{praca}|{porto}" not in cache
+    ]
+    # tentativas contam falha; gravadas, não. Assim um OSRM fora do ar não faz o
+    # coletor repetir dezoito tentativas a cada hora, e também não reescreve o
+    # arquivo sem ter aprendido nada.
+    gravadas = 0
+    for chave, pa, pb in faltando[:ROTAS_POR_EXECUCAO]:
+        try:
+            cache[chave] = round(distancia_rodoviaria(pa, pb), 1)
+            gravadas += 1
+            time.sleep(1.1)
+        except Exception as e:  # noqa: BLE001
+            print(f"[aviso] rota {chave}: {e}", file=sys.stderr)
+    if gravadas:
         ROTAS.parent.mkdir(parents=True, exist_ok=True)
         ROTAS.write_text(
             json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True) + "\n",
             encoding="utf-8",
         )
-        print(f"[ok]   rotas: {novas} nova(s), {len(cache)} no total")
+        pend = len(faltando) - gravadas
+        print(f"[ok]   rotas: +{gravadas}, {len(cache)} medidas"
+              + (f", {pend} pendente(s) para as próximas execuções" if pend > 0 else ""))
     return cache
 
 

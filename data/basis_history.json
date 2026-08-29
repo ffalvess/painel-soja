@@ -41,5 +41,16 @@
   "paridade": 166.3,
   "indicador": 155.05,
   "basis": -11.25
+ },
+ {
+  "data": "28/08/2026",
+  "cbot_cents": 1277.75,
+  "cambio": 5.185,
+  "premio_cents": 175.0,
+  "premio_mes": "Agosto/26",
+  "contrato": "set/26",
+  "paridade": 166.06,
+  "indicador": 159.76,
+  "basis": -6.3
  }
 ]

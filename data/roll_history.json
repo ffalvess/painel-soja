@@ -53,5 +53,16 @@
    "ZW=F": "ZWZ26.CBT",
    "BZ=F": "BZX26.NYM"
   }
+ },
+ {
+  "data": "2026-08-30",
+  "contratos": {
+   "ZS=F": "ZSX26.CBT",
+   "ZC=F": "ZCZ26.CBT",
+   "ZM=F": "ZMZ26.CBT",
+   "ZL=F": "ZLZ26.CBT",
+   "ZW=F": "ZWZ26.CBT",
+   "BZ=F": "BZX26.NYM"
+  }
  }
 ]

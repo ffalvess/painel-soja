@@ -805,6 +805,13 @@ function renderCrush(cr){
 // câmbio, que só acrescentaria ruído a uma diferença que é toda em dólar.
 let BASE_SEL = null;
 const sgn = (v,dig=2) => v==null ? "—" : (v>0?"+":"") + fmt(v,dig);
+// Liquidez é relativa ao vencimento mais ativo da própria curva. Vale marcar
+// porque a ponta da curva sai do painel com a mesma tipografia da frente, e
+// hoje o jul/28 fez 31 contratos contra 111.700 do nov/26.
+const LIQ = {
+  media: ["pouco negociado", "intermediario"],
+  baixa: ["quase sem negócio", "comprador"],
+};
 
 function renderBaseB3(b){
   const itens = b?.itens?.length ? b.itens : null;
@@ -817,7 +824,8 @@ function renderBaseB3(b){
 
   const opcoes = itens.map(i=>{
     const tem = i.base_fob!=null ? " · FOB" : (i.base_b3!=null ? " · B3" : "");
-    return `<option value="${i.label}"${i.label===BASE_SEL?" selected":""}>${i.label}${tem}</option>`;
+    const liq = i.liquidez==="baixa" ? " · quase sem negócio" : "";
+    return `<option value="${i.label}"${i.label===BASE_SEL?" selected":""}>${i.label}${tem}${liq}</option>`;
   }).join("");
 
   const linha = (rot, sub, v, base) => v==null ? "" : `<tr>
@@ -885,8 +893,9 @@ function renderBaseB3(b){
     <select id="base-sel" style="margin-top:10px;font-size:14px;padding:5px 8px;
       border:1px solid var(--ring);border-radius:7px;background:var(--surface);
       color:var(--ink)">${opcoes}</select>
-    ${sel.liquido?"":`<span class="tipoag entidade" style="margin-left:8px"
-      title="sem volume negociado no dia: o preço é marcação da bolsa">sem negócio</span>`}
+    ${LIQ[sel.liquidez] ? `<span class="tipoag ${LIQ[sel.liquidez][1]}" style="margin-left:8px"
+      title="${fmt(sel.volume,0)} contratos negociados hoje, ${fmt((sel.volume_rel||0)*100,1)}% do vencimento mais ativo da curva"
+      >${LIQ[sel.liquidez][0]}</span>` : ""}
     ${detalhe}
     ${grafico}
     <div class="foot"><b>Por que a base da B3 dá zero:</b> ${b.b3?.espelho||""}

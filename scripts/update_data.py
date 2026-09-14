@@ -2463,8 +2463,8 @@ def collect_base_b3(sections: dict) -> dict:
             "cbot_usd_saca": round(cbot_usd, 4),
             "volume": c.get("volume"),
             "open_interest": c.get("open_interest"),
-            # sem negócio no dia, o preço é marcação da bolsa, não mercado
-            "liquido": bool(c.get("volume")),
+            # preenchido depois, contra o volume da própria curva
+            "liquidez": None,
             "b3_usd_saca": None, "base_b3": None, "base_b3_pareada": None,
             "premio_cents": None, "fob_usd_saca": None, "base_fob": None,
         }
@@ -2485,6 +2485,21 @@ def collect_base_b3(sections: dict) -> dict:
             item["fob_usd_saca"] = round(fob, 4)
             item["base_fob"] = round(fob - cbot_usd, 3)
         itens.append(item)
+
+    # Liquidez relativa à própria curva, não por limiar absoluto: o que conta é
+    # se o vencimento negocia perto do que o mais ativo negocia. Booleano de
+    # "teve volume" não serve — hoje set/26 fez 1 contrato e jul/28 fez 31,
+    # contra 111.700 do nov/26, e os três apareceriam como preço firme.
+    pico = max((i["volume"] or 0) for i in itens) or 0
+    for i in itens:
+        v = i["volume"] or 0
+        i["volume_rel"] = round(v / pico, 4) if pico else None
+        i["liquidez"] = (
+            None if not pico
+            else "alta" if v >= 0.10 * pico
+            else "media" if v >= 0.01 * pico
+            else "baixa"
+        )
 
     com_b3 = [i for i in itens if i["base_b3"] is not None]
     com_fob = [i for i in itens if i["base_fob"] is not None]

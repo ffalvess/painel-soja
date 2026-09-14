@@ -97,12 +97,24 @@ algoritmos, limitações, aplicação comercial, próximos passos e glossário.
   SPA sem API aberta), a AgRural divulga em release e o USDA/FAS exige
   chave de API. O painel mostra a fase do calendário e a chuva acumulada,
   que é o gatilho prático do plantio.
-- Derivativos de soja da B3 (futuro SFI e opções) ficaram de fora: o boletim
-  legado (`www2.bmf.com.br`) foi desligado no servidor e não há API pública
-  gratuita; a liquidez desses contratos também é muito baixa. O Notícias
-  Agrícolas publica uma tabela "BRASIL (B3)" na mesma página que o painel já
-  raspa (soja, milho, café e boi, um vencimento cada) — é pouco, mas é um
-  caminho se algum dia isso interessar.
+- A B3 tem **dois** futuros de soja, e confundi-los inviabiliza qualquer
+  leitura de base:
+  - **SJC — Soja CME**, minicontrato liquidado contra o Mini Soybean da CME,
+    cotado em US$/saca. A base dele com Chicago é **zero por construção**: em
+    11/09/2026 deu −0,025 em jan/27 e −0,014 em mar/27. É esse que o painel
+    coleta, e ele entra como **controle negativo** — se um dia der longe de
+    zero, ou a fonte trocou de contrato ou a conversão quebrou.
+  - **SFI**, liquidado contra o Indicador ESALQ/B3 Paranaguá, teria base real
+    contra Chicago. Ficou de fora por falta de fonte: o proxy de ajustes em
+    `sistemaswebb3-derivativos` responde 404, o `arquivos.b3.com.br` é SPA, e
+    as páginas de ajuste — inclusive a legada em `www2.bmf.com.br` — vêm sem
+    `<table>` no HTML, renderizadas no cliente. A liquidez do SFI também é
+    muito baixa.
+
+  A base que o painel publica como real é a **FOB Paranaguá**: CBOT mais o
+  prêmio de embarque do mês. O prêmio cobre poucos meses e a B3 publica outros
+  poucos — em 14/09 não havia sobreposição —, então a maioria dos vencimentos
+  fica sem perna brasileira, e isso aparece em branco em vez de interpolado.
 - O **balcão nas praças** é cotado por cooperativas, sindicatos e corretoras,
   e o painel mostra quem cotou cada uma. Consultorias como a Safras & Mercado
   publicam as mesmas praças com base, prazo de pagamento e ponto de entrega

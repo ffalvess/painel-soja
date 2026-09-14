@@ -230,6 +230,11 @@ footer a{color:var(--ink-2)}
     <div class="card" id="crush"></div>
   </section>
 
+  <section id="sec-base" hidden>
+    <h2>Base contra Chicago, contrato a contrato</h2>
+    <div class="card" id="base-b3"></div>
+  </section>
+
   <section id="sec-curve" hidden>
     <h2>Curvas de vencimento na CBOT</h2>
     <div id="curvas"></div>
@@ -795,6 +800,101 @@ function renderCrush(cr){
   $("sec-crush").hidden=false;
 }
 
+// A base sai em US$/saca porque é a unidade em que a B3 cota e em que o
+// brasileiro pensa — e porque assim as duas pernas se comparam sem passar pelo
+// câmbio, que só acrescentaria ruído a uma diferença que é toda em dólar.
+let BASE_SEL = null;
+const sgn = (v,dig=2) => v==null ? "—" : (v>0?"+":"") + fmt(v,dig);
+
+function renderBaseB3(b){
+  const itens = b?.itens?.length ? b.itens : null;
+  if(!itens) return;
+  if(BASE_SEL === null || !itens.some(i=>i.label===BASE_SEL)){
+    // abre no primeiro vencimento que tenha alguma perna brasileira
+    BASE_SEL = (itens.find(i=>i.base_fob!=null||i.base_b3!=null) || itens[0]).label;
+  }
+  const sel = itens.find(i=>i.label===BASE_SEL);
+
+  const opcoes = itens.map(i=>{
+    const tem = i.base_fob!=null ? " · FOB" : (i.base_b3!=null ? " · B3" : "");
+    return `<option value="${i.label}"${i.label===BASE_SEL?" selected":""}>${i.label}${tem}</option>`;
+  }).join("");
+
+  const linha = (rot, sub, v, base) => v==null ? "" : `<tr>
+      <td>${rot}<span class="agente">${sub}</span></td>
+      <td>US$ ${fmt(v,2)}</td>
+      <td><b>${base==null?"—":sgn(base,3)}</b></td>
+      <td>${base==null?"—":sgn(base/BU_POR_SACA*100,1)+" ¢/bu"}</td></tr>`;
+
+  const semPerna = sel.base_fob==null && sel.base_b3==null;
+  const detalhe = `<div class="tblwrap" style="margin-top:10px"><table class="curve">
+      <thead><tr><th>Perna</th><th>Preço</th><th>Base vs. CBOT</th><th>em ¢/bu</th></tr></thead>
+      <tbody>
+        <tr><td>CBOT ${sel.label}<span class="agente">${sel.symbol||""} · ${fmt(sel.cbot_cents,2)} ¢/bu</span></td>
+            <td>US$ ${fmt(sel.cbot_usd_saca,2)}</td><td>—</td><td>—</td></tr>
+        ${linha("FOB Paranaguá", `CBOT + prêmio de ${fmt(sel.premio_cents,0)} ¢/bu`,
+                sel.fob_usd_saca, sel.base_fob)}
+        ${linha("B3 — Soja CME",
+                "espelho do minicontrato da CME" + (sel.b3_usd_saca!=null && !sel.base_b3_pareada
+                  ? " · <b style='color:var(--warn)'>sem CBOT do mesmo carimbo</b>" : ""),
+                sel.b3_usd_saca, sel.base_b3)}
+      </tbody></table></div>
+      ${semPerna?`<div class="foot"><b>Sem perna brasileira neste vencimento.</b>
+        O prêmio de Paranaguá cobre ${b.fob?.vencimentos||0} mês(es) e a B3 publica
+        ${b.b3?.vencimentos||0}. Onde não há cotação brasileira o painel deixa em branco,
+        em vez de interpolar.</div>`:""}`;
+
+  // gráfico: as três séries por vencimento, sem ligar pontos ausentes
+  const W=680,H=190,P=42, n=itens.length;
+  const vals = itens.flatMap(i=>[i.cbot_usd_saca,i.fob_usd_saca,i.b3_usd_saca]).filter(v=>v!=null);
+  const min=Math.min(...vals), max=Math.max(...vals), span=(max-min)||1;
+  const x = i => P + i*(W-P-12)/Math.max(1,n-1);
+  const y = v => H-26 - (v-min)*(H-48)/span;
+  // segmentos só entre pontos consecutivos que existem: buraco fica buraco
+  const serie = (campo, cor, larg) => itens.map((it,i)=>{
+    const a=it[campo], prox=itens[i+1]; if(a==null||!prox||prox[campo]==null) return "";
+    return `<line x1="${x(i).toFixed(1)}" y1="${y(a).toFixed(1)}" x2="${x(i+1).toFixed(1)}"
+      y2="${y(prox[campo]).toFixed(1)}" stroke="${cor}" stroke-width="${larg}"/>`;
+  }).join("") + itens.map((it,i)=> it[campo]==null ? "" :
+      `<circle cx="${x(i).toFixed(1)}" cy="${y(it[campo]).toFixed(1)}" r="${it.label===BASE_SEL?4.5:2.6}"
+        fill="${cor}"><title>${it.label}: US$ ${fmt(it[campo],2)}</title></circle>`).join("");
+
+  const grafico = `<svg class="wf" viewBox="0 0 ${W} ${H}" role="img"
+      aria-label="Preço por vencimento: CBOT, FOB Paranaguá e B3, em dólares por saca">
+      <line x1="${P}" y1="${H-26}" x2="${W-12}" y2="${H-26}" stroke="var(--grid)"/>
+      <line x1="${x(itens.findIndex(i=>i.label===BASE_SEL)).toFixed(1)}" y1="10"
+        x2="${x(itens.findIndex(i=>i.label===BASE_SEL)).toFixed(1)}" y2="${H-26}"
+        stroke="var(--grid)" stroke-dasharray="3 3"/>
+      <text x="4" y="${y(max)+4}" font-size="10" fill="var(--muted)">${fmt(max,1)}</text>
+      <text x="4" y="${y(min)+4}" font-size="10" fill="var(--muted)">${fmt(min,1)}</text>
+      ${serie("cbot_usd_saca","var(--accent)",2)}
+      ${serie("fob_usd_saca","var(--up)",2)}
+      ${serie("b3_usd_saca","var(--down)",2)}
+      <text x="${P}" y="${H-8}" font-size="10" fill="var(--muted)">${itens[0].label}</text>
+      <text x="${W-12}" y="${H-8}" font-size="10" fill="var(--muted)"
+        text-anchor="end">${itens[n-1].label}</text>
+    </svg>
+    <div class="foot"><span style="color:var(--accent)">■</span> CBOT ·
+      <span style="color:var(--up)">■</span> FOB Paranaguá ·
+      <span style="color:var(--down)">■</span> B3 (espelho da CME).
+      Ponto ausente fica ausente — os traços não atravessam vencimento sem cotação.</div>`;
+
+  $("base-b3").innerHTML = `
+    <h3>Escolha o vencimento</h3>
+    <div class="src">Tudo em US$/saca de 60 kg, ${fmt(b.bu_por_saca,4)} bushels por saca</div>
+    <select id="base-sel" style="margin-top:10px;font-size:14px;padding:5px 8px;
+      border:1px solid var(--ring);border-radius:7px;background:var(--surface);
+      color:var(--ink)">${opcoes}</select>
+    ${sel.liquido?"":`<span class="tipoag entidade" style="margin-left:8px"
+      title="sem volume negociado no dia: o preço é marcação da bolsa">sem negócio</span>`}
+    ${detalhe}
+    ${grafico}
+    <div class="foot"><b>Por que a base da B3 dá zero:</b> ${b.b3?.espelho||""}
+      ${b.obs||""}</div>`;
+  $("base-sel").onchange = (e)=>{ BASE_SEL = e.target.value; renderBaseB3(b); };
+  $("sec-base").hidden = false;
+}
+
 function renderCurve(curve, fx){
   const curvas = curve?.curvas?.filter(c=>c.contracts?.length) || [];
   if(!curvas.length) return;
@@ -1212,6 +1312,7 @@ function render(data){
   renderQuotes(s.quotes, s.fx);
   renderSinais(s.sinais);
   renderCrush(s.crush);
+  renderBaseB3(s.base_b3);
   renderCurve(s.curve, s.fx);
   renderOptions(s.options);
   renderSafra(s.safra, s.weather, s.sd);

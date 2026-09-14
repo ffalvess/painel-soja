@@ -627,6 +627,38 @@ def collect_cepea() -> dict:
     if premio:
         out["premio_paranagua"] = premio
 
+    # Futuro de soja da B3, em US$/saca de 60 kg. É o contrato **espelhado na
+    # CME** — 'Soja CME' está no próprio título da tabela —, não o SFI, que é
+    # liquidado contra o Indicador ESALQ/B3 Paranaguá. A base deste contra
+    # Chicago é zero por construção, e ele entra no painel exatamente para
+    # mostrar isso: serve de controle, não de sinal de mercado.
+    b3 = [
+        {
+            "mes": ln[0],
+            "usd_saca": br_float(ln[1]),
+            "var_pct": br_float(ln[2]) if len(ln) > 2 else None,
+        }
+        for ln in tabelas.get("Soja CME - B3 (Pregão Regular)", [])
+        if "/" in ln[0] and br_float(ln[1]) is not None
+    ]
+    if b3:
+        # O CBOT da MESMA página, com o mesmo carimbo. O ajuste da B3 sai à
+        # noite e o Yahoo entrega intradiário: comparar os dois fabrica base
+        # que é só diferença de relógio. Em 14/09 essa mistura transformou um
+        # espelho de -0,02 em -0,17 US$/saca.
+        chicago = [
+            {"mes": ln[0], "usd_bu": br_float(ln[1])}
+            for ln in tabelas.get("Soja - Bolsa de Chicago", [])
+            if "/" in ln[0] and br_float(ln[1]) is not None
+        ]
+        out["b3_soja"] = {
+            "contrato": "Soja CME (espelho do minicontrato da CME)",
+            "unidade": "US$/saca de 60 kg",
+            "fonte": "B3, via Notícias Agrícolas",
+            "itens": b3,
+            "cbot_mesma_pagina": chicago,
+        }
+
     fisico = []
     for ln in tabelas.get("Soja - Mercado Físico", []):
         if len(ln) < 3:
@@ -1682,16 +1714,30 @@ MESES_PT = {
 }
 
 
+def mes_ano(rotulo: str):
+    """'Agosto/26', 'set/26' e 'Janeiro/2027' -> (ano, mês).
+
+    O ano vem com dois ou quatro dígitos conforme a tabela: o prêmio de porto
+    usa 'Agosto/26' e a tabela da B3 usa 'Janeiro/2027'. Somar 2000 sem olhar
+    o tamanho transformaria 2027 em 4027.
+    """
+    nome, _, ano = (rotulo or "").partition("/")
+    ano = ano.strip()[:4]
+    if not ano.isdigit():
+        return None
+    a = int(ano)
+    mes = MESES_PT.get(nome.strip()[:3].lower())
+    return (a if a > 100 else 2000 + a, mes) if mes else None
+
+
 def mes_embarque(rotulo: str) -> tuple:
     """'Agosto/26' -> (2026, 8)."""
-    nome, _, ano = rotulo.partition("/")
-    return (2000 + int(ano), MESES_PT.get(nome.strip()[:3].lower(), 1))
+    return mes_ano(rotulo) or (2000, 1)
 
 
 def mes_contrato(rotulo: str) -> tuple:
     """'set/26' -> (2026, 9)."""
-    nome, _, ano = rotulo.partition("/")
-    return (2000 + int(ano), MESES_PT.get(nome.strip()[:3].lower(), 1))
+    return mes_ano(rotulo) or (2000, 1)
 
 
 def collect_basis(sections: dict) -> dict:
@@ -2356,6 +2402,124 @@ def collect_frete(sections: dict) -> dict:
     }
 
 
+BU_POR_SACA_SOJA = 60 / 27.2155  # bushels de soja numa saca de 60 kg
+
+
+def collect_base_b3(sections: dict) -> dict:
+    """Base contra Chicago, contrato a contrato, em US$/saca.
+
+    Duas pernas brasileiras, que cobrem vencimentos diferentes e significam
+    coisas diferentes:
+
+    **B3** — o contrato que a B3 publica em US$/saca é o espelho do
+    minicontrato da CME. A base dele com Chicago é **zero por construção**, e
+    conferir isso é o controle negativo do painel: se um dia der diferente de
+    zero, ou a fonte trocou de contrato ou a conversão quebrou. Em 11/09/2026,
+    jan/27 deu -0,025 e mar/27 -0,014 US$/saca.
+
+    **FOB Paranaguá** — CBOT mais o prêmio de embarque do mês. Essa é a base
+    que o físico negocia de verdade. O contrato da B3 com base real seria o
+    SFI, liquidado contra o Indicador ESALQ/B3 Paranaguá, mas ele não tem
+    fonte pública gratuita: os endpoints de ajuste da B3 respondem 404 e as
+    páginas são renderizadas no cliente.
+
+    O prêmio cobre poucos meses e a B3 publica outros poucos — hoje sem
+    sobreposição. A maioria dos vencimentos fica só com a perna americana, e
+    isso aparece como lacuna, não como interpolação.
+    """
+    curva = curva_de(sections, "soja") or {}
+    contratos = curva.get("contracts") or []
+    if not contratos:
+        raise RuntimeError("curva de soja indisponível")
+
+    cepea = sections.get("cepea") or {}
+    premios = {
+        mes_ano(p["mes"]): p
+        for p in (cepea.get("premio_paranagua") or [])
+        if mes_ano(p["mes"]) and p.get("cents_bu") is not None
+    }
+    b3_bloco = cepea.get("b3_soja") or {}
+    b3 = {
+        mes_ano(i["mes"]): i
+        for i in (b3_bloco.get("itens") or [])
+        if mes_ano(i["mes"]) and i.get("usd_saca") is not None
+    }
+    cbot_na = {
+        mes_ano(i["mes"]): i
+        for i in (b3_bloco.get("cbot_mesma_pagina") or [])
+        if mes_ano(i["mes"]) and i.get("usd_bu") is not None
+    }
+
+    itens = []
+    for c in contratos:
+        if c.get("price") is None:
+            continue
+        chave = mes_contrato(c["label"])
+        cbot_usd = c["price"] / 100 * BU_POR_SACA_SOJA
+        item = {
+            "label": c["label"],
+            "symbol": c.get("symbol"),
+            "cbot_cents": c["price"],
+            "cbot_usd_saca": round(cbot_usd, 4),
+            "volume": c.get("volume"),
+            "open_interest": c.get("open_interest"),
+            # sem negócio no dia, o preço é marcação da bolsa, não mercado
+            "liquido": bool(c.get("volume")),
+            "b3_usd_saca": None, "base_b3": None, "base_b3_pareada": None,
+            "premio_cents": None, "fob_usd_saca": None, "base_fob": None,
+        }
+        if chave in b3:
+            v = b3[chave]["usd_saca"]
+            item["b3_usd_saca"] = v
+            # contra o CBOT da mesma página e do mesmo carimbo, quando existir:
+            # o ajuste da B3 é do fim do dia e o Yahoo é intradiário, e a
+            # diferença de relógio vira base falsa
+            par = cbot_na.get(chave)
+            ref = par["usd_bu"] * BU_POR_SACA_SOJA if par else cbot_usd
+            item["base_b3"] = round(v - ref, 3)
+            item["base_b3_pareada"] = par is not None
+        if chave in premios:
+            pc = premios[chave]["cents_bu"]
+            fob = (c["price"] + pc) / 100 * BU_POR_SACA_SOJA
+            item["premio_cents"] = pc
+            item["fob_usd_saca"] = round(fob, 4)
+            item["base_fob"] = round(fob - cbot_usd, 3)
+        itens.append(item)
+
+    com_b3 = [i for i in itens if i["base_b3"] is not None]
+    com_fob = [i for i in itens if i["base_fob"] is not None]
+    return {
+        "itens": itens,
+        "unidade": "US$/saca de 60 kg",
+        "bu_por_saca": round(BU_POR_SACA_SOJA, 6),
+        "b3": {
+            "contrato": b3_bloco.get("contrato"),
+            "fonte": b3_bloco.get("fonte"),
+            "vencimentos": len(com_b3),
+            "base_media": (
+                round(sum(i["base_b3"] for i in com_b3) / len(com_b3), 3)
+                if com_b3 else None
+            ),
+            "espelho": "O contrato que a B3 publica é o espelho do minicontrato "
+                       "da CME: a base dele com Chicago é zero por construção. "
+                       "Está aqui como conferência, não como sinal de mercado.",
+        },
+        "fob": {
+            "vencimentos": len(com_fob),
+            "obs": "CBOT mais o prêmio de embarque de Paranaguá do mês — a base "
+                   "que o físico negocia.",
+        },
+        "sem_perna_brasileira": len(itens) - len({
+            i["label"] for i in itens
+            if i["base_b3"] is not None or i["base_fob"] is not None
+        }),
+        "obs": "O SFI, contrato da B3 liquidado contra o Indicador ESALQ/B3 "
+               "Paranaguá, teria base real contra Chicago — mas não tem fonte "
+               "pública gratuita: os endpoints de ajuste respondem 404 e as "
+               "páginas da B3 são renderizadas no cliente.",
+    }
+
+
 def collect_sinais(sections: dict) -> dict:
     """Percentis de preço e carrego por vencimento, sem conclusão.
 
@@ -2521,6 +2685,7 @@ COLLECTORS = {
 
 DERIVED = {
     "basis": collect_basis,
+    "base_b3": collect_base_b3,
     "crush": collect_crush,
     "frete": collect_frete,
     "sinais": collect_sinais,

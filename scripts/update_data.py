@@ -955,10 +955,14 @@ CORN_MONTHS = [
 # pesa 60 lb/bushel (27,2155 kg) e milho 56 lb (25,4012 kg). Usar a constante
 # da soja para converter milho em R$/saca erra ~7% para menos.
 CURVAS = [
+    # `n` é contagem de vencimentos, não data: a soja tem 7 contratos por ano,
+    # então 13 são sempre ~22 meses de horizonte, hoje e daqui a seis meses.
+    # Uma data-alvo envelheceria; a contagem, não. Em set/26 isso alcança
+    # jul/28, que é a safra 2027/28.
     {"id": "soja", "nome": "Soja CBOT", "prefixo": "ZS", "meses": SOY_MONTHS,
-     "kg_bushel": 27.2155},
+     "kg_bushel": 27.2155, "n": 13},
     {"id": "milho", "nome": "Milho CBOT", "prefixo": "ZC", "meses": CORN_MONTHS,
-     "kg_bushel": 25.4012},
+     "kg_bushel": 25.4012, "n": 7},
 ]
 
 
@@ -968,7 +972,8 @@ def contratos_cbot(prefixo: str, meses: list, n: int = 7) -> list:
     # o contrato vence por volta do dia 15; depois disso pula para o próximo
     cutoff = (today.year, today.month + (1 if today.day > 15 else 0))
     out = []
-    for year in range(today.year, today.year + 3):
+    # +4 anos cobre os 13 vencimentos de soja mesmo pedindo em dezembro
+    for year in range(today.year, today.year + 4):
         for code, month, label in meses:
             if (year, month) < cutoff:
                 continue
@@ -1034,7 +1039,10 @@ def monta_contratos(wanted: list, quotes: dict, failed: list) -> list:
 
 def collect_curve() -> dict:
     failed = []
-    pedidos = {c["id"]: contratos_cbot(c["prefixo"], c["meses"]) for c in CURVAS}
+    pedidos = {
+        c["id"]: contratos_cbot(c["prefixo"], c["meses"], c.get("n", 7))
+        for c in CURVAS
+    }
 
     # Um crumb e uma requisição só para as duas curvas — o /v7/quote do Yahoo
     # limita por IP e o Actions bate no 429 com facilidade.

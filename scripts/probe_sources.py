@@ -105,6 +105,62 @@ def paginas(corpo: bytes, limite=None):
             print(f"    página {n+1} falhou: {type(e).__name__}", flush=True)
 
 
+def passoE_extracao(data: dt.date):
+    """A extração no 02-1 produziu texto mesmo? Zero achado só vale se sim."""
+    cab(f"E — a extração do 02-1 produziu texto? ({data:%Y-%m-%d})")
+    st, corpo, motivo = baixa(url_capitulo(data, "02-1"), timeout=40, teto=TETO_GRANDE)
+    print(f"  BDI_02-1: {st}  {len(corpo) if corpo else 0} B  {motivo}", flush=True)
+    if not corpo:
+        return
+    amostra = {1, 50, 200, 450, 700, 880}
+    total_chars = 0
+    vazias = 0
+    palavras = {"soja": 0, "ajuste": 0, "futuro": 0, "vencimento": 0, "milho": 0,
+                "boi": 0, "agropecu": 0}
+    for n, txt in paginas(corpo):
+        total_chars += len(txt)
+        if not txt.strip():
+            vazias += 1
+        baixo = txt.lower()
+        for p in palavras:
+            palavras[p] += baixo.count(p)
+        if n in amostra:
+            print(f"\n  --- página {n} ({len(txt)} chars) ---", flush=True)
+            for x in [l for l in txt.splitlines() if l.strip()][:10]:
+                print(f"    | {x[:110]}", flush=True)
+    print(f"\n  total extraído: {total_chars} chars; páginas vazias: {vazias}", flush=True)
+    print(f"  palavras (minúsculas): {palavras}", flush=True)
+
+
+def passoF_capitulos(data: dt.date):
+    """Enumerar de verdade, em vez de chutar vizinhança de numeração."""
+    cab(f"F — quais capítulos existem? ({data:%Y-%m-%d})")
+    for i in range(1, 10):
+        for j in (1, 2, 3):
+            cap = f"{i:02d}-{j}"
+            st, corpo, motivo = baixa(url_capitulo(data, cap), timeout=20, teto=3 * 1024 * 1024)
+            tam = len(corpo) if corpo else 0
+            if st != 200 or not tam:
+                print(f"  BDI_{cap}: {st}", flush=True)
+                continue
+            titulo = ""
+            if "teto" not in motivo:
+                try:
+                    from pypdf import PdfReader
+
+                    leitor = PdfReader(io.BytesIO(corpo), strict=False)
+                    npg = len(leitor.pages)
+                    linhas = [x.strip() for x in
+                              (leitor.pages[0].extract_text() or "").splitlines() if x.strip()]
+                    titulo = f"{npg} pág | " + " / ".join(linhas[:3])[:150]
+                except Exception as e:  # noqa: BLE001
+                    titulo = f"(pypdf: {type(e).__name__})"
+            else:
+                titulo = "(grande, cortado no teto)"
+            print(f"  BDI_{cap}: 200  {tam:>9} B  {titulo}", flush=True)
+            time.sleep(0.8)
+
+
 def passoA_titulos(data: dt.date):
     cab(f"A — o que é cada capítulo? ({data:%Y-%m-%d})")
     for cap in ("03-1", "04-1"):
@@ -200,15 +256,11 @@ def passoD_extensoes(data: dt.date):
 def main():
     data = pregao_recente(1)
     print(f"  pregão de referência: {data:%Y-%m-%d}", flush=True)
-    for fn in (passoA_titulos, passoB_agro, passoD_extensoes):
+    for fn in (passoE_extracao, passoF_capitulos):
         try:
             fn(data)
         except Exception as e:  # noqa: BLE001
             print(f"  {fn.__name__} falhou: {type(e).__name__}: {str(e)[:140]}", flush=True)
-    try:
-        passoC_spa()
-    except Exception as e:  # noqa: BLE001
-        print(f"  passoC_spa falhou: {type(e).__name__}: {str(e)[:140]}", flush=True)
 
 
 if __name__ == "__main__":

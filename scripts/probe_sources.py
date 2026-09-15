@@ -105,6 +105,31 @@ def paginas(corpo: bytes, limite=None):
             print(f"    página {n+1} falhou: {type(e).__name__}", flush=True)
 
 
+def passoG_soja(data: dt.date):
+    """'soja' aparece 120x no 02-1 e 'futuro' zero. O que são essas linhas?
+
+    A decisão sobre o gráfico depende disso, então é para olhar, não supor.
+    """
+    cab(f"G — as 120 ocorrências de 'soja' no 02-1, uma a uma ({data:%Y-%m-%d})")
+    st, corpo, motivo = baixa(url_capitulo(data, "02-1"), timeout=40, teto=TETO_GRANDE)
+    print(f"  BDI_02-1: {st}  {len(corpo) if corpo else 0} B  {motivo}", flush=True)
+    if not corpo:
+        return
+    vistas, mostradas = set(), 0
+    for n, txt in paginas(corpo):
+        for linha in txt.splitlines():
+            if "soja" not in linha.lower():
+                continue
+            chave = linha.strip()[:60]
+            if chave in vistas:
+                continue
+            vistas.add(chave)
+            mostradas += 1
+            if mostradas <= 30:
+                print(f"    pág {n:>3} | {linha.strip()[:120]}", flush=True)
+    print(f"\n  linhas distintas com 'soja': {len(vistas)}", flush=True)
+
+
 def passoE_extracao(data: dt.date):
     """A extração no 02-1 produziu texto mesmo? Zero achado só vale se sim."""
     cab(f"E — a extração do 02-1 produziu texto? ({data:%Y-%m-%d})")
@@ -256,7 +281,7 @@ def passoD_extensoes(data: dt.date):
 def main():
     data = pregao_recente(1)
     print(f"  pregão de referência: {data:%Y-%m-%d}", flush=True)
-    for fn in (passoE_extracao, passoF_capitulos):
+    for fn in (passoG_soja,):
         try:
             fn(data)
         except Exception as e:  # noqa: BLE001

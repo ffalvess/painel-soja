@@ -105,16 +105,33 @@ algoritmos, limitações, aplicação comercial, próximos passos e glossário.
     coleta, e ele entra como **controle negativo** — se um dia der longe de
     zero, ou a fonte trocou de contrato ou a conversão quebrou.
   - **SFI**, liquidado contra o Indicador ESALQ/B3 Paranaguá, teria base real
-    contra Chicago. Ficou de fora por falta de fonte: o proxy de ajustes em
-    `sistemaswebb3-derivativos` responde 404, o `arquivos.b3.com.br` é SPA, e
-    as páginas de ajuste — inclusive a legada em `www2.bmf.com.br` — vêm sem
-    `<table>` no HTML, renderizadas no cliente. A liquidez do SFI também é
-    muito baixa.
+    contra Chicago. Ficou de fora por falta de fonte, e a busca foi até o fim:
+    o proxy de ajustes em `sistemaswebb3-derivativos` responde 404 e as
+    páginas de ajuste — inclusive a legada em `www2.bmf.com.br` — vêm sem
+    `<table>`, renderizadas no cliente. O **Boletim Diário de Mercado**, para
+    onde os preços de ajuste migraram em 10/12/2025, tem arquivo endereçável
+    por data (`arquivos.b3.com.br/bdi/download/bdi/{AAAA-MM-DD}/BDI_{cap}_{AAAAMMDD}.pdf`),
+    responde 200 sem autenticação e funciona para data arbitrária — mas **não
+    traz futuro agropecuário**. Os sete capítulos que existem são de bolsa de
+    valores: cotação de ações e opções sobre ação (891 páginas, com Código
+    ISIN), maiores oscilações, derivativos *mark to market* em séries de swap,
+    balcão, clearing, empréstimo de ativos e COE. Varrido o capítulo inteiro
+    de cotações — 7,6 milhões de caracteres, nenhuma página vazia —, não há
+    uma ocorrência de `SFI`, `SJC`, `CCM` ou `BGI`. As 120 aparições de "soja"
+    são **SOJA3**, a ação da Boa Safra Sementes, e suas opções. Também não
+    existe variante CSV, zip ou XML do boletim. A liquidez do SFI é, além
+    disso, muito baixa.
 
   A base que o painel publica como real é a **FOB Paranaguá**: CBOT mais o
-  prêmio de embarque do mês. O prêmio cobre poucos meses e a B3 publica outros
-  poucos — em 14/09 não havia sobreposição —, então a maioria dos vencimentos
-  fica sem perna brasileira, e isso aparece em branco em vez de interpolado.
+  prêmio de embarque do mês, exibida em `modelo.html`. O prêmio cobre poucos
+  meses, então a maioria dos vencimentos fica sem perna brasileira — o painel
+  deixa em branco em vez de interpolar.
+- **Não há gráfico de base por vencimento.** Chegou a existir, e saiu: das
+  duas pernas brasileiras que dava para montar, a da B3 era o SJC, cuja base
+  é zero por construção, e a FOB cobria dois vencimentos de treze. Onze pontos
+  vazios e três valendo zero não sustentam um gráfico. Volta quando houver
+  fonte do SFI — e a coleta crua de `cepea.b3_soja` continua no `data.json`
+  justamente para que a volta seja barata.
 - O **balcão nas praças** é cotado por cooperativas, sindicatos e corretoras,
   e o painel mostra quem cotou cada uma. Consultorias como a Safras & Mercado
   publicam as mesmas praças com base, prazo de pagamento e ponto de entrega

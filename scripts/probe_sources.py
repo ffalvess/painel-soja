@@ -1,32 +1,36 @@
-"""Sonda temporária: o SFI está no Boletim Diário de Mercado?
+"""Sonda temporária, rodada 2: o SFI está dentro do Boletim Diário?
 
-Contexto. A rodada anterior concluiu que a B3 não expõe ajuste por vencimento.
-Estava certa sobre os endpoints testados e **incompleta**: desde 10/12/2025 os
-preços de ajuste migraram para o Boletim Diário de Mercado, nos capítulos de
-Cotações. Os proxies antigos dão 404 porque o dado mudou de lugar.
+A rodada 1 estabeleceu metade do critério:
 
-Um resultado de busca expôs um endereço de arquivo por data:
+  - o endereço `arquivos.b3.com.br/bdi/download/bdi/{data}/BDI_{cap}_{data}.pdf`
+    responde 200 sem autenticação, e **não só para a data do exemplo**:
+    2026-09-14 e 2026-09-11 vieram com ~98 KB cada
+  - não há índice JSON (`index.json`, `bdi.json` dão 500); o diretório da data
+    devolve o HTML da SPA
+  - o capítulo **02-1** passou de 6 MiB e foi o único em que um código alvo
+    apareceu nos bytes crus: `BGI`. É o candidato a capítulo de agropecuário
+  - não existe variante `.csv`/`.zip`/`.txt` — testado no capítulo 03-1
 
-    https://arquivos.b3.com.br/bdi/download/bdi/2026-01-15/BDI_03-1_20260115.pdf
+O que **não** está estabelecido, e é o que decide o gráfico: o boletim traz o
+**SFI por vencimento, com preço de ajuste**? Achar `BGI` e não achar `SFI` nos
+bytes crus não prova nada — PDF comprime os fluxos de texto, então ausência ali
+não é ausência no documento. Só abrindo o arquivo.
 
-Alvo: o **SFI**, futuro de soja liquidado contra o Indicador ESALQ/B3
-Paranaguá. Não confundir com o **SJC**, minicontrato espelhado na CME, cuja
-base com Chicago é zero por construção — esse o painel já coleta.
+Esta rodada:
+  A. o que é cada capítulo? (título da primeira página dos pequenos)
+  B. baixar o 02-1 inteiro e **extrair o texto**: SFI aparece? com vencimento,
+     ajuste, volume e contratos em aberto?
+  C. a SPA do /bdi/ chama alguma API que liste capítulos ou sirva CSV?
+  D. variantes de extensão no 02-1 — a rodada 1 só testou no capítulo errado
 
-O que estabelecer:
-  1. o padrão de URL responde? 404 e 403 dizem coisas diferentes
-  2. existe índice de capítulos, ou é preciso varrer?
-  3. qual capítulo traz derivativo agropecuário?
-  4. existe variante CSV (ou zip)?
-  5. o ajuste vem com volume e contratos em aberto?
-
-Pegada: poucas requisições, espaçadas, timeout curto e teto de bytes — boletim
-em PDF é grande, e o timeout do requests conta entre bytes, não no total.
+Pegada: um download grande e algumas requisições pequenas. Teto de bytes e
+timeout curto continuam valendo — o timeout do requests conta entre bytes.
 
 Rodar pelo workflow `probe.yml` e ler os logs. Remover depois.
 """
 
 import datetime as dt
+import io
 import re
 import time
 
@@ -40,28 +44,39 @@ HEADERS = {
     "Accept-Language": "pt-BR,pt;q=0.9",
 }
 RAIZ = "https://arquivos.b3.com.br/bdi/download/bdi"
-TETO = 6 * 1024 * 1024
-ALVOS = ("SFI", "SJC", "CCM", "BGI", "SOJA", "Soja")
+TETO_GRANDE = 80 * 1024 * 1024
+TETO_PEQUENO = 4 * 1024 * 1024
+
+# O que procurar no texto extraído. SFI é o alvo; os outros situam a página.
+ALVOS = {
+    "SFI": r"\bSFI\b",
+    "SJC": r"\bSJC\b",
+    "soja financeiro": r"[Ss]oja.{0,40}[Ff]inanceir",
+    "BGI": r"\bBGI\b",
+    "CCM": r"\bCCM\b",
+    "ICF (café)": r"\bICF\b",
+}
 
 
-def baixa(url, timeout=20):
-    """Devolve (status, corpo|None, motivo). Para no teto: PDF de boletim é grande."""
+def baixa(url, timeout=25, teto=TETO_PEQUENO):
+    """(status, corpo|None, motivo). Para no teto: boletim em PDF é grande."""
+    t0 = time.time()
     try:
         with requests.get(url, headers=HEADERS, timeout=timeout, stream=True) as r:
             if not r.ok:
                 return r.status_code, None, ""
             buf = bytearray()
-            for pedaco in r.iter_content(65536):
+            for pedaco in r.iter_content(131072):
                 buf += pedaco
-                if len(buf) > TETO:
-                    return r.status_code, bytes(buf), "cortado no teto"
-            return r.status_code, bytes(buf), ""
+                if len(buf) > teto:
+                    return r.status_code, bytes(buf), f"cortado no teto ({time.time()-t0:.0f}s)"
+            return r.status_code, bytes(buf), f"{time.time()-t0:.0f}s"
     except Exception as e:  # noqa: BLE001
         return None, None, f"{type(e).__name__}: {str(e)[:70]}"
 
 
 def cab(t):
-    print(f"\n{'=' * 78}\n{t}\n{'=' * 78}")
+    print(f"\n{'=' * 78}\n{t}\n{'=' * 78}", flush=True)
 
 
 def pregao_recente(dias_atras=1):
@@ -72,98 +87,128 @@ def pregao_recente(dias_atras=1):
     return d
 
 
-def procura_alvos(corpo: bytes):
-    """Os códigos aparecem no conteúdo? PDF comprime texto, então é indicativo."""
-    achados = []
-    for alvo in ALVOS:
-        if alvo.encode("latin-1", "ignore") in corpo:
-            achados.append(alvo)
-    return achados
-
-
 def url_capitulo(data: dt.date, cap: str, ext: str = "pdf"):
     return f"{RAIZ}/{data:%Y-%m-%d}/BDI_{cap}_{data:%Y%m%d}.{ext}"
 
 
-def passo1_padrao():
-    cab("1 — o padrão de URL responde? (404 x 403 dizem coisas diferentes)")
-    casos = [
-        ("data conhecida do exemplo", dt.date(2026, 1, 15), "03-1", "pdf"),
-        ("pregão recente", pregao_recente(1), "03-1", "pdf"),
-        ("pregão de 3 dias atrás", pregao_recente(3), "03-1", "pdf"),
-    ]
-    vivos = []
-    for nome, data, cap, ext in casos:
-        url = url_capitulo(data, cap, ext)
-        st, corpo, motivo = baixa(url)
+def paginas(corpo: bytes, limite=None):
+    """Gera (n, texto) por página. pypdf falha em página solta sem derrubar tudo."""
+    from pypdf import PdfReader
+
+    leitor = PdfReader(io.BytesIO(corpo), strict=False)
+    total = len(leitor.pages)
+    print(f"  {total} páginas", flush=True)
+    for n in range(total if limite is None else min(total, limite)):
+        try:
+            yield n + 1, leitor.pages[n].extract_text() or ""
+        except Exception as e:  # noqa: BLE001
+            print(f"    página {n+1} falhou: {type(e).__name__}", flush=True)
+
+
+def passoA_titulos(data: dt.date):
+    cab(f"A — o que é cada capítulo? ({data:%Y-%m-%d})")
+    for cap in ("03-1", "04-1"):
+        st, corpo, motivo = baixa(url_capitulo(data, cap))
+        print(f"\n  BDI_{cap}: {st}  {len(corpo) if corpo else 0} B  {motivo}", flush=True)
+        if not corpo:
+            continue
+        for n, txt in paginas(corpo, limite=1):
+            linhas = [x.strip() for x in txt.splitlines() if x.strip()][:12]
+            for x in linhas:
+                print(f"    | {x[:100]}", flush=True)
+
+
+def passoB_agro(data: dt.date):
+    cab(f"B — o 02-1 traz o SFI, com ajuste por vencimento? ({data:%Y-%m-%d})")
+    st, corpo, motivo = baixa(url_capitulo(data, "02-1"), timeout=40, teto=TETO_GRANDE)
+    print(f"  BDI_02-1: {st}  {len(corpo) if corpo else 0} B  {motivo}", flush=True)
+    if not corpo:
+        print("  sem corpo — nada a extrair", flush=True)
+        return
+
+    achados = {k: [] for k in ALVOS}
+    contexto_sfi = []
+    t0 = time.time()
+    for n, txt in paginas(corpo):
+        for nome, padrao in ALVOS.items():
+            if re.search(padrao, txt):
+                achados[nome].append(n)
+                # a primeira página com SFI vale o texto inteiro: é onde se vê
+                # se vêm vencimento, ajuste, volume e contratos em aberto
+                if nome == "SFI" and not contexto_sfi:
+                    contexto_sfi = [n, txt]
+        if time.time() - t0 > 240:
+            print(f"  ... parando na página {n} (240s)", flush=True)
+            break
+
+    print("\n  ocorrências por código:", flush=True)
+    for nome, pgs in achados.items():
+        onde = f"{len(pgs)} pág, ex.: {pgs[:6]}" if pgs else "nenhuma"
+        marca = "   <<<" if pgs and nome == "SFI" else ""
+        print(f"    {nome:<18} {onde}{marca}", flush=True)
+
+    if contexto_sfi:
+        n, txt = contexto_sfi
+        print(f"\n  --- página {n}, texto integral (é aqui que se lê o ajuste) ---",
+              flush=True)
+        for x in txt.splitlines()[:90]:
+            if x.strip():
+                print(f"    | {x[:120]}", flush=True)
+
+
+def passoC_spa():
+    cab("C — a SPA do /bdi/ chama alguma API de capítulos ou CSV?")
+    st, corpo, motivo = baixa("https://arquivos.b3.com.br/bdi/", timeout=15)
+    print(f"  /bdi/  {st}  {len(corpo) if corpo else 0} B  {motivo}", flush=True)
+    if not corpo:
+        return
+    html = corpo.decode("utf-8", "ignore")
+    scripts = re.findall(r'src="([^"]+\.js)"', html)
+    print(f"  scripts: {scripts[:6]}", flush=True)
+    for s in scripts[:3]:
+        url = s if s.startswith("http") else f"https://arquivos.b3.com.br{s}"
+        st, js, motivo = baixa(url, timeout=20)
+        print(f"\n  {url.rsplit('/', 1)[-1]}: {st}  {len(js) if js else 0} B  {motivo}",
+              flush=True)
+        if not js:
+            continue
+        txt = js.decode("utf-8", "ignore")
+        # endereços e nomes de rota que valham sondagem depois
+        pistas = set()
+        for padrao in (r'["\'`](/[a-zA-Z0-9_\-/{}.$]{4,60})["\'`]',
+                       r'https://[a-z0-9.\-]*b3\.com\.br[a-zA-Z0-9_\-/{}.$]{0,60}'):
+            for m in re.findall(padrao, txt):
+                if re.search(r"bdi|api|download|csv|json|capitulo|chapter|arquiv", m, re.I):
+                    pistas.add(m[:90])
+        for p in sorted(pistas)[:25]:
+            print(f"    | {p}", flush=True)
+        time.sleep(1.0)
+
+
+def passoD_extensoes(data: dt.date):
+    cab(f"D — variantes de extensão no capítulo 02-1 ({data:%Y-%m-%d})")
+    for ext in ("csv", "zip", "xml", "txt"):
+        st, corpo, motivo = baixa(url_capitulo(data, "02-1", ext), timeout=15)
         tam = len(corpo) if corpo else 0
-        marca = ""
-        if st == 200 and tam:
-            vivos.append((data, cap))
-            marca = "   <<< RESPONDE"
-        elif st == 403:
-            marca = "   <<< 403: endereço certo, acesso fechado"
-        print(f"  {str(st):>5}  {tam:>9} B  {motivo:<24} {nome}{marca}")
-        print(f"         {url}")
-        time.sleep(1.5)
-    return vivos
-
-
-def passo2_indice(data: dt.date):
-    cab(f"2 — existe índice de capítulos para {data:%Y-%m-%d}?")
-    for nome, url in (
-        ("diretório da data", f"{RAIZ}/{data:%Y-%m-%d}/"),
-        ("index.json", f"{RAIZ}/{data:%Y-%m-%d}/index.json"),
-        ("bdi.json", f"{RAIZ}/{data:%Y-%m-%d}/bdi.json"),
-    ):
-        st, corpo, motivo = baixa(url, timeout=15)
-        print(f"  {str(st):>5}  {len(corpo) if corpo else 0:>8} B  {motivo:<22} {nome}")
-        if corpo and len(corpo) < 4000:
-            print(f"         {re.sub(rb'[^ -~]', b'.', corpo[:300]).decode()}")
+        marca = "   <<< EXISTE" if st == 200 and tam else ""
+        print(f"  .{ext:<4} {str(st):>5}  {tam:>9} B  {motivo:<20}{marca}", flush=True)
+        if corpo and tam:
+            print(f"         {re.sub(rb'[^ -~]', b'.', corpo[:260]).decode()}", flush=True)
         time.sleep(1.2)
 
 
-def passo3_capitulos(data: dt.date):
-    cab(f"3 — qual capítulo traz derivativo agropecuário? ({data:%Y-%m-%d})")
-    # numeração curta: o exemplo era 03-1, então varrer a vizinhança
-    caps = ["01-1", "02-1", "03-1", "03-2", "04-1", "05-1", "06-1"]
-    for cap in caps:
-        st, corpo, motivo = baixa(url_capitulo(data, cap))
-        tam = len(corpo) if corpo else 0
-        achados = procura_alvos(corpo) if corpo else []
-        marca = f"   <<< {achados}" if achados else ""
-        print(f"  BDI_{cap}: {str(st):>5}  {tam:>9} B  {motivo:<18}{marca}")
-        time.sleep(1.4)
-
-
-def passo4_csv(data: dt.date):
-    cab(f"4 — existe variante CSV ou zip? ({data:%Y-%m-%d})")
-    for ext in ("csv", "zip", "txt"):
-        st, corpo, motivo = baixa(url_capitulo(data, "03-1", ext), timeout=15)
-        tam = len(corpo) if corpo else 0
-        marca = "   <<< EXISTE" if st == 200 and tam else ""
-        print(f"  .{ext:<4} {str(st):>5}  {tam:>9} B  {motivo:<20}{marca}")
-        if corpo and tam:
-            print(f"         {re.sub(rb'[^ -~]', b'.', corpo[:260]).decode()}")
-        time.sleep(1.3)
-
-
 def main():
-    vivos = []
-    try:
-        vivos = passo1_padrao()
-    except Exception as e:  # noqa: BLE001
-        print(f"  passo1 falhou: {type(e).__name__}: {str(e)[:110]}")
-
-    data = vivos[0][0] if vivos else pregao_recente(1)
-    print(f"\n  -> seguindo com {data:%Y-%m-%d}"
-          f"{' (nenhum endereço respondeu no passo 1)' if not vivos else ''}")
-
-    for fn in (passo2_indice, passo3_capitulos, passo4_csv):
+    data = pregao_recente(1)
+    print(f"  pregão de referência: {data:%Y-%m-%d}", flush=True)
+    for fn in (passoA_titulos, passoB_agro, passoD_extensoes):
         try:
             fn(data)
         except Exception as e:  # noqa: BLE001
-            print(f"  {fn.__name__} falhou: {type(e).__name__}: {str(e)[:110]}")
+            print(f"  {fn.__name__} falhou: {type(e).__name__}: {str(e)[:140]}", flush=True)
+    try:
+        passoC_spa()
+    except Exception as e:  # noqa: BLE001
+        print(f"  passoC_spa falhou: {type(e).__name__}: {str(e)[:140]}", flush=True)
 
 
 if __name__ == "__main__":

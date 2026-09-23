@@ -220,13 +220,13 @@
  },
  {
   "data": "22/09/2026",
-  "cbot_cents": 1318.5,
-  "cambio": 5.1359,
+  "cbot_cents": 1317.75,
+  "cambio": 5.1604,
   "premio_cents": 185.0,
   "premio_mes": "Setembro/26",
   "contrato": "nov/26",
-  "paridade": 170.24,
+  "paridade": 170.96,
   "indicador": 161.93,
-  "basis": -8.31
+  "basis": -9.03
  }
 ]

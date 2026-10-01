@@ -19,14 +19,17 @@ Fontes:
   - USDA/FAS ESR (mesma chave): embarques e vendas semanais dos EUA
   - Open-Meteo: previsão de chuva em cidades produtoras do Centro-Oeste
   - RSS: Google News, Canal Rural, G1 Agronegócios, Notícias Agrícolas
+  - Yahoo ^IRX / FRED DTB3: juro do T-bill, insumo do simulador de collar e NDF
 """
 
 import datetime as dt
 import email.utils
 import html
 import json
+import math
 import os
 import re
+import statistics
 import sys
 import time
 import xml.etree.ElementTree as ET
@@ -76,6 +79,7 @@ CADENCIA = {
     "fertilizante": "mensal",  # Pink Sheet
     "crush": "intradiaria",
     "sinais": "intradiaria",
+    "derivativos": "diaria",
 }
 
 
@@ -2550,6 +2554,80 @@ def collect_sinais(sections: dict) -> dict:
     }
 
 
+# ---------------------------------------------------------------- derivativos
+#
+# Insumos do simulador de collar e NDF (simulador.html). Não há fonte
+# gratuita de volatilidade implícita da soja (a CME bloqueia a cadeia de
+# opções para IPs de nuvem) nem da curva de cupom cambial, então o
+# simulador parte da volatilidade REALIZADA e do juro do T-bill de 13
+# semanas como aproximação do cupom. Todos os campos são editáveis na
+# página; aqui só se calcula o ponto de partida.
+
+JANELAS_VOL = (("1m", 21), ("3m", 63), ("1a", 252))
+
+
+def vol_realizada(closes: list) -> dict:
+    """Volatilidade anualizada (% a.a.) dos log-retornos diários, por janela.
+
+    A série do contínuo é emendada nas rolagens sem ajuste: o dia da troca
+    vira um retorno que é spread entre vencimentos, não variação de preço.
+    Sem o histórico de rolagens para o ano inteiro, os saltos são cortados
+    por desvio robusto (mais de 6 MADs da mediana) — um corte largo, que
+    não come dia de relatório do USDA mas pega a emenda julho→agosto.
+    """
+    rets = [
+        math.log(b / a) for a, b in zip(closes, closes[1:]) if a and b and a > 0 and b > 0
+    ]
+    if len(rets) < 15:
+        return {}
+    med = statistics.median(rets)
+    mad = statistics.median(abs(r - med) for r in rets) * 1.4826
+    limpos = [r for r in rets if not mad or abs(r - med) <= 6 * mad]
+    out = {"cortados": len(rets) - len(limpos)}
+    for nome, n in JANELAS_VOL:
+        amostra = limpos[-n:]
+        if len(amostra) >= min(n, 15):
+            out[nome] = round(statistics.stdev(amostra) * math.sqrt(252) * 100, 1)
+    return out
+
+
+def juro_usd() -> dict:
+    """T-bill de 13 semanas (% a.a.): Yahoo ^IRX, com o FRED de reserva."""
+    try:
+        q = fetch_yahoo_symbol("^IRX", "1mo")
+        if q.get("price"):
+            return {"valor": round(q["price"], 2), "fonte": "T-bill 13 semanas (Yahoo ^IRX)"}
+    except Exception:  # noqa: BLE001 - tenta o FRED
+        pass
+    r = get("https://fred.stlouisfed.org/graph/fredgraph.csv?id=DTB3")
+    for linha in reversed(r.text.strip().splitlines()[1:]):
+        _, v = linha.split(",")
+        if v not in (".", ""):
+            return {"valor": round(float(v), 2), "fonte": "T-bill 3 meses (FRED DTB3)"}
+    raise RuntimeError("FRED DTB3 sem valor")
+
+
+def collect_derivativos(sections: dict) -> dict:
+    out = {"updated_at": now_iso(), "failed": []}
+    itens = {i["symbol"]: i for i in (sections.get("quotes") or {}).get("items", [])}
+    zs = itens.get("ZS=F") or {}
+    diaria = ((zs.get("series") or {}).get("daily") or {}).get("c") or []
+    if diaria:
+        out["vol_soja"] = vol_realizada(diaria)
+    try:
+        s, _ = fetch_yahoo_series("BRL=X", "1y", "1d")
+        out["vol_usdbrl"] = vol_realizada(s["c"])
+    except Exception as e:  # noqa: BLE001
+        out["failed"].append(f"BRL=X: {e}")
+    try:
+        out["juro_usd"] = juro_usd()
+    except Exception as e:  # noqa: BLE001
+        out["failed"].append(f"juro USD: {e}")
+    if not any(k in out for k in ("vol_soja", "vol_usdbrl", "juro_usd")):
+        raise RuntimeError("; ".join(out["failed"]) or "sem insumos")
+    return out
+
+
 COLLECTORS = {
     "quotes": collect_quotes,
     "fx": collect_fx,
@@ -2570,6 +2648,7 @@ DERIVED = {
     "crush": collect_crush,
     "frete": collect_frete,
     "sinais": collect_sinais,
+    "derivativos": collect_derivativos,
 }
 
 

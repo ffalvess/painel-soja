@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulador de collar e NDF — Painel Soja</title>
+<meta name="description" content="Simule a trava de preço da soja com collar de opções na CBOT e a trava do dólar com NDF, a partir de dados públicos: curva da CBOT, câmbio, CDI e juro americano.">
+<style>
+:root{
+  --page:#f9f9f7; --surface:#fcfcfb;
+  --ink:#0b0b0b; --ink-2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --baseline:#c3c2b7; --ring:rgba(11,11,11,.10);
+  --accent:#2a78d6; --up:#006300; --down:#d03b3b; --warn:#b06a00;
+  --upbg:rgba(0,99,0,.09); --downbg:rgba(208,59,59,.09);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --page:#0d0d0d; --surface:#1a1a19;
+    --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
+    --accent:#3987e5; --up:#0ca30c; --down:#e66767; --warn:#e0a049;
+    --upbg:rgba(12,163,12,.14); --downbg:rgba(230,103,103,.14);
+  }
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--page);color:var(--ink);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:15px;line-height:1.5;padding:20px 16px 48px}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto}
+header{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-bottom:6px}
+header h1{font-size:22px;font-weight:650}
+.navlink{font-size:13px;font-weight:600;color:var(--accent);text-decoration:none;
+  border:1px solid var(--ring);border-radius:999px;padding:4px 11px;background:var(--surface)}
+.navlink:hover{text-decoration:underline}
+header .stamp{color:var(--muted);font-size:13px;margin-left:auto}
+.lede{color:var(--ink-2);font-size:15px;max-width:78ch;margin-bottom:24px}
+section{margin-bottom:28px}
+h2{font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:10px}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:14px 16px}
+.card h3{font-size:14px;font-weight:650;margin-bottom:2px}
+.card .src{font-size:12px;color:var(--muted)}
+p{max-width:78ch}
+.duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:10px;align-items:start}
+
+/* formulário */
+.fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px 14px;margin-top:10px}
+.f label{display:block;font-size:12px;color:var(--muted);font-weight:600;margin-bottom:3px}
+.f input,.f select{width:100%;font:inherit;font-size:14.5px;color:var(--ink);background:var(--page);
+  border:1px solid var(--baseline);border-radius:7px;padding:6px 9px;font-variant-numeric:tabular-nums}
+.f input:focus,.f select:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:transparent}
+.f .hint{font-size:11.5px;color:var(--muted);margin-top:3px;line-height:1.35}
+.f .hint.src-default{color:var(--warn)}
+.f.row{display:flex;align-items:flex-end;gap:8px}
+.f.row>div{flex:1}
+button{font:inherit;font-size:13px;font-weight:600;color:var(--accent);background:var(--surface);
+  border:1px solid var(--ring);border-radius:7px;padding:6px 10px;cursor:pointer;white-space:nowrap}
+button:hover{border-color:var(--accent)}
+.chk{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--ink-2);margin-top:6px}
+.chk input{width:auto}
+
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
+.kpi .lbl{font-size:12px;color:var(--muted)}
+.kpi .val{font-size:22px;font-weight:650;margin-top:1px;font-variant-numeric:tabular-nums}
+.kpi .sub{font-size:12px;color:var(--ink-2);margin-top:2px;font-variant-numeric:tabular-nums}
+.kpi.hl{border-color:var(--accent)}
+
+/* gráfico */
+.chartbox{position:relative;margin-top:8px}
+svg.ch{display:block;width:100%;height:auto;font-variant-numeric:tabular-nums}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--ink-2);margin-top:8px}
+.legend i{display:inline-block;width:16px;height:0;border-top:2px solid;vertical-align:middle;margin-right:6px}
+.tip{position:absolute;pointer-events:none;background:var(--surface);border:1px solid var(--ring);
+  border-radius:8px;padding:7px 10px;font-size:12.5px;box-shadow:0 4px 14px rgba(0,0,0,.12);
+  white-space:nowrap;font-variant-numeric:tabular-nums;display:none;z-index:2}
+.tip b{font-weight:650}
+.tip .m{color:var(--muted)}
+
+/* matriz de cenários */
+.tblwrap{overflow-x:auto}
+table.mx{width:100%;border-collapse:separate;border-spacing:2px;font-variant-numeric:tabular-nums}
+.mx th{font-size:12px;color:var(--muted);font-weight:600;padding:5px 8px;text-align:center;white-space:nowrap}
+.mx th.rh{text-align:right}
+.mx td{text-align:center;padding:6px 8px;border-radius:6px;font-size:14px;font-weight:600;white-space:nowrap}
+.mx td small{display:block;font-size:11.5px;font-weight:500}
+.mx td.pos{background:var(--upbg)} .mx td.neg{background:var(--downbg)}
+.mx td.pos small{color:var(--up)} .mx td.neg small{color:var(--down)}
+.mx td.zero small{color:var(--muted)}
+.mx td.ref{outline:1.5px solid var(--baseline);outline-offset:-1.5px}
+.seg{display:inline-flex;border:1px solid var(--ring);border-radius:8px;overflow:hidden;margin-top:8px}
+.seg button{border:0;border-radius:0;color:var(--ink-2)}
+.seg button[aria-pressed="true"]{background:var(--accent);color:#fff}
+
+.tag{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.03em;
+  text-transform:uppercase;padding:2px 8px;border-radius:999px;border:1px solid var(--ring)}
+.tag.live{color:var(--up)}
+.formula{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13.5px;
+  background:var(--page);border:1px solid var(--grid);border-radius:8px;
+  padding:10px 12px;margin:10px 0;overflow-x:auto;white-space:pre}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px;max-width:84ch}
+ul.bul{margin:8px 0 0 18px;font-size:13.5px;color:var(--ink-2)}
+ul.bul li{margin-bottom:6px;max-width:80ch}
+.warnbox{border-left:3px solid var(--warn);padding:6px 10px;font-size:13px;color:var(--ink-2);
+  margin-top:10px;background:var(--surface);border-radius:0 6px 6px 0}
+footer{margin-top:34px;color:var(--muted);font-size:12.5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Simulador de collar e NDF</h1>
+    <a class="navlink" href="index.html">← Painel Soja</a>
+    <a class="navlink" href="modelo.html">Modelo e basis →</a>
+    <span class="stamp" id="stamp">carregando…</span>
+  </header>
+  <p class="lede">O produtor tem dois riscos na mesma saca: o preço em Chicago e o dólar.
+    O <b>collar</b> (compra de put + venda de call na CBOT) põe piso e teto no preço em
+    ¢/bushel; o <b>NDF</b> (venda de dólar a termo, liquidada pela diferença) trava o câmbio.
+    Juntos, viram uma faixa em <b>R$/saca</b>. Tudo aqui parte de dados públicos e
+    todos os campos são editáveis.</p>
+
+  <section>
+    <h2>Posição e mercado <span class="tag live" id="tag-live" hidden>dados de hoje</span></h2>
+    <div class="card">
+      <h3>O que vai ser vendido</h3>
+      <div class="src">Contrato e preço da curva CBOT; prêmio de Paranaguá e desconto da praça
+        do mercado físico (Cepea / Notícias Agrícolas)</div>
+      <div class="fields">
+        <div class="f"><label for="contrato">Contrato CBOT</label>
+          <select id="contrato"></select>
+          <div class="hint" id="h-contrato"></div></div>
+        <div class="f"><label for="futuro">Preço do futuro (¢/bu)</label>
+          <input id="futuro" type="number" step="0.25" min="1">
+          <div class="hint" id="h-futuro"></div></div>
+        <div class="f"><label for="sacas">Quantidade (sacas de 60 kg)</label>
+          <input id="sacas" type="number" step="500" min="1" value="10000">
+          <div class="hint" id="h-sacas"></div></div>
+        <div class="f"><label for="premio">Prêmio de porto (¢/bu)</label>
+          <input id="premio" type="number" step="1">
+          <div class="hint" id="h-premio"></div></div>
+        <div class="f"><label for="praca">Ponto de venda</label>
+          <select id="praca"></select>
+          <div class="hint" id="h-praca"></div></div>
+        <div class="f"><label for="desconto">Desconto porto → praça (R$/saca)</label>
+          <input id="desconto" type="number" step="0.5">
+          <div class="hint">Negativo: quanto a praça paga abaixo da paridade FOB</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Collar na CBOT</h2>
+    <div class="duo">
+      <div class="card">
+        <h3>Compra de put, venda de call</h3>
+        <div class="src" id="collar-src"></div>
+        <div class="fields">
+          <div class="f"><label for="kput">Strike da put — piso (¢/bu)</label>
+            <input id="kput" type="number" step="10">
+            <div class="hint" id="h-kput"></div></div>
+          <div class="f"><label for="kcall">Strike da call — teto (¢/bu)</label>
+            <input id="kcall" type="number" step="10">
+            <div class="hint" id="h-kcall"></div>
+            <label class="chk"><input type="checkbox" id="zerocost" checked> custo zero (ajusta a call)</label></div>
+          <div class="f"><label for="vol">Volatilidade da soja (% a.a.)</label>
+            <input id="vol" type="number" step="0.5" min="1">
+            <div class="hint" id="h-vol"></div></div>
+          <div class="f"><label for="rusd">Juro em dólar (% a.a.)</label>
+            <input id="rusd" type="number" step="0.05">
+            <div class="hint" id="h-rusd"></div></div>
+          <div class="f"><label for="pctcollar">Collar sobre (% do volume)</label>
+            <input id="pctcollar" type="number" step="5" min="0" max="200" value="100"></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Prêmios e faixa travada</h3>
+        <div class="src">Black-76 para opção sobre futuro; preço teórico, não cotação</div>
+        <div class="kpis" style="margin-top:10px" id="kpi-collar"></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>NDF de dólar</h2>
+    <div class="duo">
+      <div class="card">
+        <h3>Venda de dólar a termo</h3>
+        <div class="src">Termo pela paridade coberta de juros: CDI contra juro em dólar</div>
+        <div class="fields">
+          <div class="f"><label for="spot">Dólar à vista (R$)</label>
+            <input id="spot" type="number" step="0.001" min="0.1">
+            <div class="hint" id="h-spot"></div></div>
+          <div class="f"><label for="cdi">CDI (% a.a., base 252)</label>
+            <input id="cdi" type="number" step="0.05">
+            <div class="hint" id="h-cdi"></div></div>
+          <div class="f"><label for="cupom">Cupom cambial (% a.a., linear 360)</label>
+            <input id="cupom" type="number" step="0.05">
+            <div class="hint" id="h-cupom"></div></div>
+          <div class="f"><label for="venc">Vencimento do NDF</label>
+            <input id="venc" type="date">
+            <div class="hint" id="h-venc"></div></div>
+          <div class="f"><label for="pctndf">NDF sobre (% da receita em US$)</label>
+            <input id="pctndf" type="number" step="5" min="0" max="200" value="100"></div>
+          <div class="f"><label for="volfx">Volatilidade do dólar (% a.a.)</label>
+            <input id="volfx" type="number" step="0.5" min="1">
+            <div class="hint" id="h-volfx"></div></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Termo e nocional</h3>
+        <div class="src" id="ndf-src"></div>
+        <div class="kpis" style="margin-top:10px" id="kpi-ndf"></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Resultado no vencimento</h2>
+    <div class="card">
+      <h3>Receita por saca conforme o preço em Chicago</h3>
+      <div class="src" id="chart-src"></div>
+      <div class="chartbox" id="chartbox">
+        <div class="tip" id="tip"></div>
+      </div>
+      <div class="legend" id="legend"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Cenários de preço × dólar</h2>
+    <div class="card">
+      <h3>Receita na praça, em R$/saca, com collar + NDF</h3>
+      <div class="src" id="mx-src"></div>
+      <div class="seg" role="group" aria-label="O que a matriz mostra">
+        <button type="button" data-mx="hedge" aria-pressed="true">Com hedge</button>
+        <button type="button" data-mx="sem" aria-pressed="false">Sem hedge</button>
+      </div>
+      <div class="tblwrap" style="margin-top:10px"><table class="mx" id="mx"></table></div>
+      <div class="note" id="mx-note"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Como é calculado</h2>
+    <div class="card">
+      <div class="formula" id="formulas">Opções (Black-76):  put = e^(−rT)·[K·N(−d₂) − F·N(−d₁)]
+                    call = e^(−rT)·[F·N(d₁) − K·N(d₂)]
+                    d₁ = [ln(F/K) + σ²T/2] / (σ√T),  d₂ = d₁ − σ√T
+
+NDF (termo):        F_NDF = S · (1 + CDI)^(du/252) / (1 + cupom · dc/360)
+Ajuste do NDF:      (F_NDF − S_T) · nocional em US$       (vendido em dólar)
+
+Receita por saca:   [F_T + prêmio + put_T − call_T − custo do collar] / 100
+                    × 2,2046 bu/saca × S_T + desconto da praça + ajuste do NDF/saca</div>
+      <ul class="bul">
+        <li><b>Volatilidade realizada, não implícita.</b> A CME bloqueia a cadeia de opções para
+          robôs em nuvem e não há fonte gratuita da vol implícita. A realizada costuma ficar
+          abaixo da implícita em véspera de relatório do USDA e no plantio americano — aí o
+          prêmio real sai mais caro do que o simulado. Se tiver a vol do seu corretor, digite.</li>
+        <li><b>Sem smile.</b> A mesma vol vale para todos os strikes. Na soja a put fora do dinheiro
+          costuma negociar com vol maior que a call: o collar de custo zero real tende a ter teto
+          mais baixo do que o calculado aqui.</li>
+        <li><b>Opção americana tratada como europeia.</b> As opções da CBOT podem ser exercidas
+          antes; para opção sobre futuro com juro baixo a diferença é pequena.</li>
+        <li><b>Vencimento da opção.</b> Regra da CBOT: a última sexta-feira que antecede em pelo
+          menos dois dias úteis o último dia útil do mês anterior ao do contrato. Feriados
+          americanos são ignorados — confira a data com a corretora.</li>
+        <li><b>Cupom cambial.</b> O termo de mercado usa o cupom da B3 (DDI/FRC), que não tem fonte
+          gratuita estruturada. O ponto de partida é o T-bill americano; o cupom onshore
+          costuma ficar acima, o que deixa o termo de mercado <i>abaixo</i> do calculado. Dias
+          úteis contam só seg–sex, sem feriados.</li>
+        <li><b>CDI constante até o vencimento</b>, e não a curva de DI futuro.</li>
+        <li><b>O NDF trava uma quantidade fixa de dólares</b>, mas a receita em dólar varia com
+          Chicago. Se o preço cair abaixo do esperado, parte do NDF fica sem lastro físico
+          (sobre-hedge); se subir, parte da receita fica exposta ao câmbio. A matriz de
+          cenários mostra esse descasamento.</li>
+        <li>Custos de corretagem, margem, IOF, IR e o carrego do prêmio pago não entram.
+          Simulação educacional, não recomendação de operação.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>Fontes: curva CBOT (Yahoo Finance, ~15 min de atraso), dólar (AwesomeAPI/Yahoo),
+    CDI (Banco Central), T-bill (Yahoo ^IRX / FRED), prêmio e balcão (Cepea via Notícias
+    Agrícolas). Atualização automática de hora em hora.</footer>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const BU_SACA = 60 / 27.2155;            // bushels de soja por saca de 60 kg
+const STEP = 10;                         // intervalo de strike da soja na CBOT, ¢/bu
+const MESES = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+const MESES_LONGOS = ["janeiro","fevereiro","março","abril","maio","junho","julho",
+  "agosto","setembro","outubro","novembro","dezembro"];
+
+const nf = (v, d=2) => v == null || !isFinite(v) ? "—" :
+  v.toLocaleString("pt-BR", {minimumFractionDigits:d, maximumFractionDigits:d});
+const sgn = (v, d=2) => (v > 0 ? "+" : v < 0 ? "−" : "") + nf(Math.abs(v), d);
+const brl = (v, d=2) => "R$ " + nf(v, d);
+const dfmt = d => d.toLocaleDateString("pt-BR", {day:"2-digit", month:"2-digit", year:"numeric"});
+const iso = d => d.toISOString().slice(0, 10);
+const num = id => parseFloat($(id).value);
+
+// ------------------------------------------------------------ matemática
+function ncdf(x){
+  // Abramowitz-Stegun 7.1.26 via erf; erro < 1,5e-7
+  const t = 1 / (1 + 0.3275911 * Math.abs(x) / Math.SQRT2);
+  const y = 1 - (((((1.061405429*t - 1.453152027)*t) + 1.421413741)*t - 0.284496736)*t
+    + 0.254829592) * t * Math.exp(-x*x/2);
+  return x >= 0 ? (1 + y) / 2 : (1 - y) / 2;
+}
+function black76(F, K, T, sig, r){
+  if(T <= 0 || sig <= 0){
+    return {call: Math.max(F-K,0), put: Math.max(K-F,0), d1: NaN, d2: NaN};
+  }
+  const sT = sig * Math.sqrt(T);
+  const d1 = (Math.log(F/K) + sig*sig*T/2) / sT, d2 = d1 - sT;
+  const df = Math.exp(-r*T);
+  return {
+    call: df * (F*ncdf(d1) - K*ncdf(d2)),
+    put:  df * (K*ncdf(-d2) - F*ncdf(-d1)),
+    d1, d2, df
+  };
+}
+
+// --------------------------------------------------------------- datas
+const util = d => d.getDay() !== 0 && d.getDay() !== 6;
+function addDias(d, n){ const x = new Date(d); x.setDate(x.getDate()+n); return x; }
+function diasUteis(a, b){
+  let n = 0; for(let d = addDias(a,1); d <= b; d = addDias(d,1)) if(util(d)) n++;
+  return n;
+}
+function hoje(){ const d = new Date(); d.setHours(0,0,0,0); return d; }
+function parseRotulo(rot){                 // "mar/27" -> {mes:2, ano:2027}
+  const [m, a] = (rot || "").split("/");
+  const mes = MESES.indexOf(m);
+  return mes < 0 ? null : {mes, ano: 2000 + parseInt(a, 10)};
+}
+function vencOpcao(rot){
+  // Última sexta-feira que antecede em ≥ 2 dias úteis o último dia útil
+  // do mês anterior ao do contrato (opções-padrão de soja da CBOT).
+  const p = parseRotulo(rot); if(!p) return null;
+  let ult = new Date(p.ano, p.mes, 0);      // último dia do mês anterior
+  while(!util(ult)) ult = addDias(ult, -1);
+  let d = ult, uteis = 0;
+  while(uteis < 2){ d = addDias(d, -1); if(util(d)) uteis++; }
+  while(d.getDay() !== 5) d = addDias(d, -1);
+  return d;
+}
+
+// ---------------------------------------------------- vol de reserva (JS)
+function volRealizada(closes, n){
+  const r = [];
+  for(let i = 1; i < closes.length; i++)
+    if(closes[i] > 0 && closes[i-1] > 0) r.push(Math.log(closes[i]/closes[i-1]));
+  if(r.length < 15) return null;
+  const med = a => { const s = [...a].sort((x,y)=>x-y), m = s.length>>1;
+    return s.length % 2 ? s[m] : (s[m-1]+s[m])/2; };
+  const md = med(r), mad = med(r.map(x => Math.abs(x-md))) * 1.4826;
+  const limpos = r.filter(x => !mad || Math.abs(x-md) <= 6*mad).slice(-n);
+  const mu = limpos.reduce((a,b)=>a+b,0) / limpos.length;
+  const v = limpos.reduce((a,b)=>a+(b-mu)**2,0) / (limpos.length-1);
+  return Math.round(Math.sqrt(v*252)*1000)/10;
+}
+
+// ------------------------------------------------------------- estado
+let D = null;                      // seções do data.json
+let contratos = [];                // curva da soja
+let mxModo = "hedge";
+let callManual = false;
+
+function hint(id, txt, padrao){
+  const h = $(id); h.textContent = txt; h.classList.toggle("src-default", !!padrao);
+}
+
+function premioDoMes(rot){
+  // Prêmio de Paranaguá do mês de embarque igual ao do contrato; senão o
+  // mais distante cotado (o mais próximo da colheita).
+  const lista = D?.cepea?.premio_paranagua || [];
+  if(!lista.length) return null;
+  const p = parseRotulo(rot);
+  if(p){
+    const alvo = MESES_LONGOS[p.mes];
+    const hit = lista.find(x => (x.mes||"").toLowerCase().startsWith(alvo) &&
+      (x.mes||"").endsWith(String(p.ano).slice(2)));
+    if(hit) return {v: hit.cents_bu, mes: hit.mes, exato: true};
+  }
+  const ult = lista[lista.length-1];
+  return {v: ult.cents_bu, mes: ult.mes, exato: false};
+}
+
+function setupInputs(){
+  const s = D || {};
+  const curva = (s.curve?.curvas || []).find(c => c.id === "soja");
+  const h = hoje();
+  contratos = (curva?.contracts || []).filter(c => c.price && vencOpcao(c.label) > addDias(h, 3));
+  const sel = $("contrato");
+  if(contratos.length){
+    sel.innerHTML = contratos.map((c,i) =>
+      `<option value="${i}">${c.label} — ${nf(c.price,2)} ¢/bu</option>`).join("");
+    // padrão: primeiro vencimento de março (venda da safra), senão o segundo da curva
+    const iMar = contratos.findIndex(c => c.label.startsWith("mar/"));
+    sel.value = String(iMar >= 0 ? iMar : Math.min(1, contratos.length-1));
+  }else{
+    sel.innerHTML = `<option value="-1">sem curva — digite o preço</option>`;
+  }
+
+  const premios = s.cepea?.premio_paranagua;
+  if(!premios?.length){ $("premio").value = 0; hint("h-premio", "sem prêmio publicado — digite", true); }
+
+  // praças: paridade FOB + balcão do interior
+  const bp = s.basis?.basis_porto?.brl_saca;
+  const praca = $("praca");
+  const ops = [`<option value="fob">Paranaguá — paridade FOB</option>`];
+  if(bp != null) ops.push(`<option value="porto">Paranaguá — indicador Cepea</option>`);
+  (s.basis?.basis_interior || []).forEach((p,i) => {
+    if(p.basis_brl_saca != null && bp != null)
+      ops.push(`<option value="i${i}">${p.praca}</option>`);
+  });
+  ops.push(`<option value="manual">Outro (digite o desconto)</option>`);
+  praca.innerHTML = ops.join("");
+  const rv = (s.basis?.basis_interior || []).findIndex(p => /Sorriso/i.test(p.praca));
+  praca.value = rv >= 0 && bp != null ? `i${rv}` : "fob";
+
+  // dólar e juros
+  const spot = s.fx?.usdbrl?.bid;
+  $("spot").value = spot ? spot.toFixed(4) : "5.00";
+  hint("h-spot", spot ? `${s.fx.source}${s.fx.spot_24h ? " (spot 24 h)" : ""}` : "sem cotação — digite", !spot);
+  const cdi = s.rates?.cdi ?? s.rates?.selic;
+  $("cdi").value = cdi ?? 14;
+  hint("h-cdi", cdi != null ? "Banco Central (SGS 4389)" : "sem dado — digite", cdi == null);
+
+  const ju = s.derivativos?.juro_usd;
+  $("rusd").value = ju?.valor ?? 4.0;
+  hint("h-rusd", ju ? ju.fonte : "valor de referência — sem dado coletado ainda", !ju);
+  $("cupom").value = ju?.valor ?? 4.0;
+  hint("h-cupom", ju ? "T-bill como aproximação do cupom" : "valor de referência — digite o da B3", !ju);
+
+  // vol da soja: coletor → série do painel → 20%
+  const vs = s.derivativos?.vol_soja;
+  let vol = vs?.["3m"], vtxt = vol ? `realizada 3 meses; 1 mês ${nf(vs["1m"],1)}%, 1 ano ${nf(vs["1a"],1)}%` : "";
+  if(!vol){
+    const zs = (s.quotes?.items || []).find(i => i.symbol === "ZS=F");
+    const c = zs?.series?.daily?.c;
+    if(c?.length){ vol = volRealizada(c, 63); vtxt = "realizada 3 meses (série do painel)"; }
+  }
+  $("vol").value = vol ?? 20;
+  hint("h-vol", vol ? vtxt : "valor de referência — sem série", !vol);
+
+  const vf = s.derivativos?.vol_usdbrl?.["3m"];
+  $("volfx").value = vf ?? 15;
+  hint("h-volfx", vf ? "realizada 3 meses (BRL=X); usada na matriz" : "valor de referência; usada na matriz", !vf);
+
+  aplicaContrato();
+  aplicaPraca();
+}
+
+function contratoAtual(){
+  const i = parseInt($("contrato").value, 10);
+  return contratos[i] || null;
+}
+
+function aplicaContrato(){
+  const c = contratoAtual();
+  if(c){
+    $("futuro").value = c.price;
+    hint("h-futuro", `${c.symbol.replace(".CBT","")} · var. dia ${sgn(c.change_pct)}%`);
+    const v = vencOpcao(c.label);
+    hint("h-contrato", `Opção vence em ${dfmt(v)} · futuro em ${c.expires_at.split("-").reverse().join("/")}`);
+    $("venc").value = iso(v);
+    hint("h-venc", "padrão: vencimento da opção, para fechar junto");
+    const pr = premioDoMes(c.label);
+    if(pr){
+      $("premio").value = pr.v;
+      hint("h-premio", pr.exato ? `Paranaguá, embarque ${pr.mes}` :
+        `sem prêmio para ${c.label}; usado o de ${pr.mes} — ajuste`, !pr.exato);
+    }
+  }else{
+    if(!$("futuro").value) $("futuro").value = 1250;
+    const v = addDias(hoje(), 150);
+    if(!$("venc").value) $("venc").value = iso(v);
+  }
+  const F = num("futuro");
+  $("kput").value = Math.floor(F * 0.95 / STEP) * STEP;
+  callManual = false; $("zerocost").checked = true;
+  calcula();
+}
+
+function aplicaPraca(){
+  const v = $("praca").value, s = D || {};
+  const bp = s.basis?.basis_porto?.brl_saca;
+  let desc = null, txt = "";
+  if(v === "fob"){ desc = 0; txt = "Preço FOB no porto"; }
+  else if(v === "porto"){ desc = bp; txt = `Indicador ${s.basis?.indicador_data || ""} contra a paridade`; }
+  else if(v.startsWith("i")){
+    const p = s.basis.basis_interior[parseInt(v.slice(1),10)];
+    desc = bp + p.basis_brl_saca;
+    txt = `Balcão R$ ${nf(p.valor)} em ${s.basis?.indicador_data || ""}: base porto ${sgn(bp)} + interior ${sgn(p.basis_brl_saca)}`;
+  }
+  if(desc != null) $("desconto").value = desc.toFixed(2);
+  $("h-praca").textContent = txt;
+  calcula();
+}
+
+// --------------------------------------------------------------- cálculo
+function T_de(venc){ return Math.max(0, (venc - hoje()) / 864e5) / 365; }
+
+function resolveCustoZero(F, Kp, T, sig, r){
+  const put = black76(F, Kp, T, sig, r).put;
+  let best = null;
+  for(let K = Math.ceil(Math.max(F, Kp + STEP) / STEP) * STEP; K <= F * 2.5; K += STEP){
+    const c = black76(F, K, T, sig, r).call;
+    const dif = Math.abs(c - put);
+    if(!best || dif < best.dif) best = {K, dif};
+    if(c < put) break;                     // call cai com o strike: passou do ponto
+  }
+  return best ? best.K : Kp + 10*STEP;
+}
+
+function estado(){
+  const c = contratoAtual();
+  const F = num("futuro"), Kp = num("kput");
+  const sig = num("vol")/100, r = num("rusd")/100;
+  const vOpc = c ? vencOpcao(c.label) : new Date($("venc").value + "T00:00");
+  const T = T_de(vOpc);
+  if($("zerocost").checked && isFinite(F) && isFinite(Kp))
+    $("kcall").value = resolveCustoZero(F, Kp, T, sig, r);
+  const Kc = num("kcall");
+  const bp = black76(F, Kp, T, sig, r), bc = black76(F, Kc, T, sig, r);
+  const custo = bp.put - bc.call;                         // ¢/bu, positivo = débito
+
+  const S = num("spot"), cdi = num("cdi")/100, cupom = num("cupom")/100;
+  const venc = new Date($("venc").value + "T00:00");
+  const du = diasUteis(hoje(), venc), dc = Math.round((venc - hoje())/864e5);
+  const fwd = S * Math.pow(1 + cdi, du/252) / (1 + cupom * dc/360);
+
+  const sacas = num("sacas"), premio = num("premio") || 0, desc = num("desconto") || 0;
+  const pc = num("pctcollar")/100, pn = num("pctndf")/100;
+  const usdSaca = (F + premio) / 100 * BU_SACA;            // receita esperada US$/saca
+  const nocional = pn * sacas * usdSaca;                   // US$ vendidos a termo
+
+  return {c, F, Kp, Kc, sig, r, T, vOpc, bp, bc, custo, S, cdi, cupom, venc, du, dc, fwd,
+    sacas, premio, desc, pc, pn, usdSaca, nocional, volfx: num("volfx")/100};
+}
+
+// receita em R$/saca no vencimento, dado futuro FT (¢/bu) e dólar ST
+function receita(e, FT, ST, hedge){
+  let cents = FT + e.premio;
+  let ndf = 0;
+  if(hedge){
+    cents += e.pc * (Math.max(e.Kp - FT, 0) - Math.max(FT - e.Kc, 0) - e.custo);
+    ndf = e.nocional / e.sacas * (e.fwd - ST);
+  }
+  return cents / 100 * BU_SACA * ST + e.desc + ndf;
+}
+
+function kpi(lbl, val, sub, hl){
+  return `<div class="card kpi${hl?" hl":""}"><div class="lbl">${lbl}</div>
+    <div class="val">${val}</div>${sub ? `<div class="sub">${sub}</div>` : ""}</div>`;
+}
+
+function calcula(){
+  const e = estado();
+  if(![e.F, e.Kp, e.Kc, e.sig, e.S, e.fwd, e.sacas].every(isFinite)) return;
+  const conv = c => c / 100 * BU_SACA * e.fwd;              // ¢/bu → R$/saca no termo
+
+  hint("h-kput", `${nf(e.Kp/e.F*100-100,1)}% do futuro · ${nf(conv(e.Kp + e.premio) + e.desc)} R$/saca no termo`);
+  hint("h-kcall", `${sgn(e.Kc/e.F*100-100,1)}% do futuro · ${nf(conv(e.Kc + e.premio) + e.desc)} R$/saca no termo`);
+  const dias = Math.round(e.T*365);
+  $("collar-src").textContent = e.c
+    ? `${e.c.label}: ${dias} dias até o vencimento da opção (${dfmt(e.vOpc)})`
+    : `${dias} dias até o vencimento`;
+
+  const totalUsd = e.custo / 100 * BU_SACA * e.sacas * e.pc;
+  const piso = conv(e.Kp + e.premio - e.custo) + e.desc;
+  const teto = conv(e.Kc + e.premio - e.custo) + e.desc;
+  const pExPut = isFinite(e.bp.d2) ? ncdf(-e.bp.d2) : (e.F < e.Kp ? 1 : 0);
+  const pExCall = isFinite(e.bc.d2) ? ncdf(e.bc.d2) : (e.F > e.Kc ? 1 : 0);
+  $("kpi-collar").innerHTML =
+    kpi("Put comprada", `${nf(e.bp.put)} ¢`, `${nf(conv(e.bp.put))} R$/saca · ${nf(pExPut*100,0)}% de exercício`) +
+    kpi("Call vendida", `${nf(e.bc.call)} ¢`, `${nf(conv(e.bc.call))} R$/saca · ${nf(pExCall*100,0)}% de exercício`) +
+    kpi("Custo líquido", `${sgn(e.custo)} ¢`,
+      `${e.custo >= 0 ? "débito" : "crédito"} de US$ ${nf(Math.abs(totalUsd),0)} no total`) +
+    kpi("Piso na praça", brl(piso), "R$/saca, com o dólar no termo", true) +
+    kpi("Teto na praça", brl(teto), "R$/saca, com o dólar no termo", true) +
+    kpi("Sem hedge, hoje", brl(conv(e.F + e.premio) + e.desc), "futuro atual no dólar a termo");
+
+  const pontos = e.fwd - e.S;
+  $("ndf-src").textContent = `${e.dc} dias corridos, ${e.du} úteis até ${dfmt(e.venc)}`;
+  $("kpi-ndf").innerHTML =
+    kpi("Dólar a termo", brl(e.fwd, 4), `pontos: ${sgn(pontos*1000,1)} milésimos`, true) +
+    kpi("Prêmio do termo", `${sgn(pontos/e.S*100)}%`, `${nf((Math.pow(e.fwd/e.S, 365/Math.max(e.dc,1))-1)*100)}% a.a. equivalente`) +
+    kpi("Nocional vendido", `US$ ${nf(e.nocional,0)}`, `${nf(e.pn*100,0)}% de ${nf(e.sacas,0)} sacas × US$ ${nf(e.usdSaca)}`) +
+    kpi("Receita travada", brl(e.nocional * e.fwd, 0), "nocional × termo");
+
+  desenhaGrafico(e);
+  desenhaMatriz(e);
+}
+
+// --------------------------------------------------------------- gráfico
+function desenhaGrafico(e){
+  const box = $("chartbox");
+  const W = box.clientWidth < 560 ? 440 : 760, H = W < 600 ? 300 : 330, L = 50, R = 12, TOP = 16, B = 40;
+  const lo = e.F * 0.6, hi = e.F * 1.45;
+  const xs = Array.from({length: 121}, (_, i) => lo + (hi - lo) * i / 120);
+  const sem = xs.map(x => receita(e, x, e.fwd, false));
+  const com = xs.map(x => receita(e, x, e.fwd, true));
+  const all = sem.concat(com);
+  let yMin = Math.min(...all), yMax = Math.max(...all);
+  const pad = (yMax - yMin) * 0.06; yMin -= pad; yMax += pad;
+  const X = x => L + (x - lo) / (hi - lo) * (W - L - R);
+  const Y = y => TOP + (yMax - y) / (yMax - yMin) * (H - TOP - B);
+
+  const ticks = (a, b, n) => { const step = Math.pow(10, Math.floor(Math.log10((b-a)/n)));
+    const m = [1,2,2.5,5,10].find(k => (b-a)/(step*k) <= n) * step;
+    const out = []; for(let v = Math.ceil(a/m)*m; v <= b; v += m) out.push(v); return out; };
+
+  let g = "";
+  ticks(yMin, yMax, 6).forEach(v => {
+    g += `<line x1="${L}" x2="${W-R}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--grid)"/>`;
+    g += `<text x="${L-8}" y="${Y(v)+4}" font-size="11" fill="var(--muted)" text-anchor="end">${nf(v,0)}</text>`;
+  });
+  ticks(lo, hi, W < 600 ? 5 : 7).forEach(v => {
+    g += `<text x="${X(v)}" y="${H-B+18}" font-size="11" fill="var(--muted)" text-anchor="middle">${nf(v,0)}</text>`;
+  });
+  g += `<line x1="${L}" x2="${W-R}" y1="${H-B}" y2="${H-B}" stroke="var(--baseline)"/>`;
+  g += `<text x="${(L+W-R)/2}" y="${H-4}" font-size="11.5" fill="var(--muted)" text-anchor="middle">Futuro no vencimento (¢/bu)</text>`;
+  g += `<text x="12" y="${TOP+(H-TOP-B)/2}" font-size="11.5" fill="var(--muted)" text-anchor="middle" transform="rotate(-90 12 ${TOP+(H-TOP-B)/2})">R$/saca</text>`;
+
+  // faixa de ±1 desvio do futuro até o vencimento
+  const s1 = e.sig * Math.sqrt(e.T);
+  const b1 = Math.max(lo, e.F * Math.exp(-s1)), b2 = Math.min(hi, e.F * Math.exp(s1));
+  g += `<rect x="${X(b1)}" y="${TOP}" width="${X(b2)-X(b1)}" height="${H-TOP-B}" fill="var(--grid)" opacity=".45"/>`;
+  g += `<text x="${X(b1)+4}" y="${TOP+12}" font-size="10.5" fill="var(--muted)">±1 desvio</text>`;
+
+  const marca = (x, t) => { if(x < lo || x > hi) return;
+    g += `<line x1="${X(x)}" x2="${X(x)}" y1="${TOP}" y2="${H-B}" stroke="var(--baseline)" stroke-dasharray="3 3"/>`;
+    g += `<text x="${X(x)}" y="${H-B-6}" font-size="10.5" fill="var(--ink-2)" text-anchor="middle" paint-order="stroke" stroke="var(--surface)" stroke-width="3">${t}</text>`; };
+  marca(e.Kp, "put"); marca(e.Kc, "call"); marca(e.F, "hoje");
+
+  const path = ys => ys.map((y, i) => `${i ? "L" : "M"}${X(xs[i]).toFixed(1)},${Y(y).toFixed(1)}`).join("");
+  g += `<path d="${path(sem)}" fill="none" stroke="var(--muted)" stroke-width="2" stroke-dasharray="6 4"/>`;
+  g += `<path d="${path(com)}" fill="none" stroke="var(--accent)" stroke-width="2.25"/>`;
+  // rótulos diretos na ponta direita
+  const yS = Y(sem[sem.length-1]), yC = Y(com[com.length-1]);
+  const afasta = Math.abs(yS - yC) < 14 ? (yS < yC ? -7 : 7) : 0;
+  g += `<text x="${W-R-4}" y="${yS - 6 + afasta}" font-size="11" fill="var(--ink-2)" text-anchor="end">sem hedge</text>`;
+  g += `<text x="${W-R-4}" y="${yC + 14 - afasta}" font-size="11" fill="var(--ink-2)" text-anchor="end">collar + NDF</text>`;
+
+  g += `<g id="hover" style="display:none"><line id="hv-l" y1="${TOP}" y2="${H-B}" stroke="var(--ink-2)" stroke-width="1"/>
+    <circle id="hv-a" r="4.5" fill="var(--muted)" stroke="var(--surface)" stroke-width="2"/>
+    <circle id="hv-b" r="4.5" fill="var(--accent)" stroke="var(--surface)" stroke-width="2"/></g>`;
+  g += `<rect id="hit" x="${L}" y="${TOP}" width="${W-L-R}" height="${H-TOP-B}" fill="transparent"/>`;
+
+  const tip = $("tip");
+  box.innerHTML = `<svg class="ch" viewBox="0 0 ${W} ${H}" role="img"
+    aria-label="Receita por saca em função do futuro no vencimento, sem hedge e com collar mais NDF">${g}</svg>`;
+  box.appendChild(tip);
+  $("chart-src").textContent = `Dólar fixado no termo (${brl(e.fwd,4)}), prêmio ${nf(e.premio,0)} ¢/bu, desconto ${sgn(e.desc)} R$/saca. Área cinza: ±1 desvio do futuro até o vencimento (vol ${nf(e.sig*100,1)}%).`;
+  $("legend").innerHTML = `<span><i style="border-color:var(--muted);border-top-style:dashed"></i>Sem hedge</span>
+    <span><i style="border-color:var(--accent)"></i>Collar + NDF</span>`;
+
+  const svg = box.querySelector("svg"), hov = $("hover");
+  const move = ev => {
+    const pt = svg.createSVGPoint(); pt.x = ev.clientX; pt.y = ev.clientY;
+    const p = pt.matrixTransform(svg.getScreenCTM().inverse());
+    const i = Math.max(0, Math.min(xs.length-1, Math.round((p.x - L) / (W-L-R) * 120)));
+    const x = X(xs[i]);
+    hov.style.display = "";
+    $("hv-l").setAttribute("x1", x); $("hv-l").setAttribute("x2", x);
+    $("hv-a").setAttribute("cx", x); $("hv-a").setAttribute("cy", Y(sem[i]));
+    $("hv-b").setAttribute("cx", x); $("hv-b").setAttribute("cy", Y(com[i]));
+    tip.innerHTML = `<b>${nf(xs[i],0)} ¢/bu</b> <span class="m">(${sgn(xs[i]/e.F*100-100,1)}%)</span><br>
+      Sem hedge: <b>${brl(sem[i])}</b><br>Collar + NDF: <b>${brl(com[i])}</b><br>
+      <span class="m">Diferença ${sgn(com[i]-sem[i])} R$/saca</span>`;
+    tip.style.display = "block";
+    const bw = box.clientWidth, px = x / W * bw;
+    tip.style.left = Math.min(bw - tip.offsetWidth - 4, Math.max(4, px + 12)) + "px";
+    tip.style.top = "8px";
+  };
+  $("hit").addEventListener("pointermove", move);
+  $("hit").addEventListener("pointerleave", () => { hov.style.display = "none"; tip.style.display = "none"; });
+}
+
+// --------------------------------------------------------------- matriz
+function desenhaMatriz(e){
+  const sF = e.sig * Math.sqrt(e.T), sS = e.volfx * Math.sqrt(e.dc/365);
+  const fz = [-2, -1, -0.5, 0, 0.5, 1, 2];       // desvios do futuro
+  const sz = [-2, -1, 0, 1, 2];                  // desvios do dólar
+  const Fs = fz.map(z => e.F * Math.exp(z*sF)), Ss = sz.map(z => e.fwd * Math.exp(z*sS));
+  let h = `<thead><tr><th class="rh">Futuro ↓ · Dólar →</th>` +
+    Ss.map((s,j) => `<th>${nf(s,2)}<br><span style="font-weight:500">${sz[j] ? sgn(sz[j],0)+"σ" : "termo"}</span></th>`).join("") +
+    `</tr></thead><tbody>`;
+  Fs.forEach((f, i) => {
+    h += `<tr><th class="rh">${nf(f,0)} ¢ <span style="font-weight:500">(${fz[i] ? sgn(fz[i],1)+"σ" : "hoje"})</span></th>`;
+    Ss.forEach((s, j) => {
+      const com = receita(e, f, s, true), sem = receita(e, f, s, false);
+      const v = mxModo === "hedge" ? com : sem, d = com - sem;
+      const cls = mxModo === "hedge" ? (Math.abs(d) < 0.005 ? "zero" : d > 0 ? "pos" : "neg") : "";
+      const ref = fz[i] === 0 && sz[j] === 0 ? " ref" : "";
+      const sub = mxModo === "hedge" ? `<small>${sgn(d)} vs sem</small>` : "";
+      h += `<td class="${cls}${ref}" title="Futuro ${nf(f,0)} ¢/bu, dólar ${nf(s,4)}: com hedge ${brl(com)}, sem hedge ${brl(sem)}">${nf(v)}${sub}</td>`;
+    });
+    h += `</tr>`;
+  });
+  $("mx").innerHTML = h + `</tbody>`;
+  $("mx-src").textContent = `Linhas: futuro ${e.c ? e.c.label : ""} no vencimento da opção; colunas: dólar no vencimento do NDF. ` +
+    `Passos em desvios-padrão (vol da soja ${nf(e.sig*100,1)}%, do dólar ${nf(e.volfx*100,1)}%).`;
+  $("mx-note").textContent = mxModo === "hedge"
+    ? "Verde: o hedge rendeu mais que ficar descoberto; vermelho: rendeu menos (o custo de ter travado). Piso e teto só valem com o dólar no termo: com Chicago em queda o NDF fica maior que a receita em dólar, e um dólar alto empurra o resultado para baixo do piso; com Chicago em alta sobra receita sem NDF, e um dólar baixo a deixa abaixo do teto."
+    : "Receita sem nenhuma trava: futuro + prêmio convertidos pelo dólar do dia, menos o desconto da praça.";
+}
+
+// --------------------------------------------------------------- eventos
+["futuro","sacas","premio","desconto","vol","rusd","pctcollar","spot","cdi","cupom","venc","pctndf","volfx","kput"]
+  .forEach(id => $(id).addEventListener("input", calcula));
+$("kcall").addEventListener("input", () => { $("zerocost").checked = false; calcula(); });
+$("zerocost").addEventListener("change", calcula);
+$("contrato").addEventListener("change", aplicaContrato);
+$("praca").addEventListener("change", aplicaPraca);
+$("desconto").addEventListener("input", () => { $("praca").value = "manual"; $("h-praca").textContent = ""; });
+document.querySelectorAll("[data-mx]").forEach(b => b.addEventListener("click", () => {
+  mxModo = b.dataset.mx;
+  document.querySelectorAll("[data-mx]").forEach(x => x.setAttribute("aria-pressed", x === b));
+  calcula();
+}));
+
+let largura = 0;
+addEventListener("resize", () => {
+  const w = $("chartbox").clientWidth < 560;
+  if(w !== largura){ largura = w; calcula(); }
+});
+
+async function load(){
+  try{
+    const r = await fetch("data/data.json?t=" + Date.now(), {cache: "no-store"});
+    const d = await r.json();
+    D = d.sections || {};
+    if(d.generated_at){
+      $("stamp").textContent = "dados de " + new Intl.DateTimeFormat("pt-BR",
+        {day:"2-digit", month:"2-digit", hour:"2-digit", minute:"2-digit", timeZone:"America/Sao_Paulo"})
+        .format(new Date(d.generated_at));
+      $("tag-live").hidden = false;
+    }
+  }catch(err){
+    D = {};
+    $("stamp").textContent = "sem dados — preencha os campos à mão";
+    console.error(err);
+  }
+  setupInputs();
+}
+load();
+</script>
+</body>
+</html>

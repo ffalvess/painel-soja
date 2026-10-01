@@ -39,6 +39,7 @@ esse JSON — não há servidor, banco de dados nem custo.
 | Notícias | Google News RSS, Canal Rural, G1 Agronegócios, Notícias Agrícolas | Links diretos para as matérias |
 | Embarques e vendas semanais dos EUA (complexo soja e milho) | USDA/FAS Export Sales (ESR) — `api.fas.usda.gov/api/esr`, header `X-Api-Key` | Mesma chave do PSD. Publicado às quintas com ~1 semana de defasagem. **Atenção:** no ESR o `marketYear` N é a safra N-1/N; no PSD é a safra N/N+1 |
 | Oferta e demanda da soja (mundo, Brasil, EUA) | USDA/FAS PSD — `api.fas.usda.gov`, header `X-Api-Key` | Exige o secret `USDA_FAS_KEY`; código da commodity e atributos descobertos em tempo de execução |
+| Volatilidade realizada da soja e do dólar, juro do T-bill (insumos do simulador) | Derivado de `ZS=F`; Yahoo `BRL=X` e `^IRX`, com FRED `DTB3` de reserva | Seção `derivativos`. Sem vol implícita nem cupom cambial gratuitos: o simulador avisa e deixa editar |
 | Basis (paridade de exportação vs. indicador; interior vs. porto) | Derivado das seções acima | Casa o mês de embarque do prêmio com o contrato CBOT correspondente; a série é acumulada em `data/basis_history.json` |
 
 ## Páginas
@@ -51,6 +52,13 @@ esse JSON — não há servidor, banco de dados nem custo.
 - `modelo.html` — decomposição do preço em paridade de exportação + basis
   (calculada a cada hora) e a especificação do modelo de direção de preço
   em 4–8 semanas. Linkada no cabeçalho do painel.
+- `simulador.html` — simulador de **collar** (put comprada + call vendida na
+  CBOT, precificadas por Black-76) e **NDF** de dólar (termo pela paridade
+  coberta: CDI contra juro em dólar), com o resultado em R$/saca na praça,
+  gráfico de payoff e matriz de cenários de preço × câmbio. Parte da curva
+  CBOT, do dólar, do CDI, do prêmio de Paranaguá e do balcão; a
+  volatilidade é a **realizada** (não há fonte gratuita da implícita) e o
+  cupom cambial é aproximado pelo T-bill. Todos os campos são editáveis.
 
 ## Documentação
 

@@ -449,5 +449,16 @@
    "ZW=F": "ZW.CBT",
    "BZ=F": "BZ.NYM"
   }
+ },
+ {
+  "data": "2026-10-05",
+  "contratos": {
+   "ZS=F": "ZS.CBT",
+   "ZC=F": "ZC.CBT",
+   "ZM=F": "ZM.CBT",
+   "ZL=F": "ZL.CBT",
+   "ZW=F": "ZW.CBT",
+   "BZ=F": "BZ.NYM"
+  }
  }
 ]

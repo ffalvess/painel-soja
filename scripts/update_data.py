@@ -1696,7 +1696,7 @@ POLITICAS_TEMAS = [
     ("brasil_bio", "Brasil — mistura de biodiesel", "biodiesel mistura B15 OR B16 OR CNPE", "pt-BR", "BR:pt-419"),
     ("indonesia", "Indonésia — B40/B50", "Indonesia biodiesel B50 OR B40", "en-US", "US:en"),
     ("eua_rfs", "EUA — RFS e 45Z", "EPA RFS biomass-based diesel OR 45Z soybean oil OR RVO biofuel", "en-US", "US:en"),
-    ("ue_red", "União Europeia — RED III", "\"RED III\" biofuels OR soy ILUC biodiesel EU", "en-US", "US:en"),
+    ("ue_red", "União Europeia — RED III", "EU biofuels \"Renewable Energy Directive\" OR \"RED III\" OR ILUC soy", "en-US", "US:en"),
     ("china", "China — compras e tarifas", "China soybean purchases tariff", "en-US", "US:en"),
     ("capacidade", "Capacidade de esmagamento", "soybean crush plant OR crushing plant capacity", "en-US", "US:en"),
     ("capacidade_br", "Esmagamento no Brasil", "esmagamento soja fábrica OR planta OR capacidade", "pt-BR", "BR:pt-419"),

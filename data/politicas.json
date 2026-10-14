@@ -1,0 +1,201 @@
+{
+  "revisado_em": "2026-10-14",
+  "nota": "Quadro curado à mão. O fluxo de notícias por tema (seção 'politicas' de data.json) é atualizado de hora em hora e avisa quando um destes cartões precisa ser revisto. Datas e alíquotas conferidas nas fontes listadas em cada cartão; onde as fontes divergem, o cartão diz.",
+  "politicas": [
+    {
+      "id": "argentina",
+      "regiao": "Argentina",
+      "titulo": "Derechos de exportación (retenciones) do complexo soja",
+      "status": "vigente",
+      "status_rotulo": "Vigente · cronograma de baixa a partir de jan/27",
+      "situacao": "Decreto 423/2026 (vigente desde 05/06/2026) fixou o primeiro cronograma plurianual de redução. Grão: 24% durante 2026, caindo mês a mês a partir de 01/01/2027 até 21% em dez/2027 e 15% em dez/2028. Óleo bruto: 22,5% hoje, 19,5% em dez/2027 e 14% em dez/2028. Farelo e pellets terminam em cerca de 14% em dez/2028. A alíquota aplicada é a da data de embarque declarada na DJVE.",
+      "numeros": [
+        {"rotulo": "Grão hoje", "valor": "24%"},
+        {"rotulo": "Grão dez/27", "valor": "21%"},
+        {"rotulo": "Grão dez/28", "valor": "15%"},
+        {"rotulo": "Óleo bruto hoje", "valor": "22,5%"}
+      ],
+      "proximo_marco": {"data": "2027-01-01", "texto": "Começa a baixa mensal da alíquota do grão (primeiro degrau para 23,75%)."},
+      "mecanismo": "A retenção é um imposto sobre o preço FOB: o produtor argentino recebe o FOB menos a alíquota. Baixar a alíquota aumenta o preço ao produtor, estimula área e destrava vendas retidas. A Argentina é a maior exportadora mundial de farelo e de óleo de soja, então mais esmagamento argentino pesa primeiro sobre os derivados. O diferencial entre grão e derivados (hoje ~1,5 pp) define se compensa exportar grão ou esmagar no país.",
+      "efeito": {
+        "grao": {"dir": "baixa", "texto": "Mais oferta argentina compete com o Brasil pela China, sobretudo no 2º semestre."},
+        "farelo": {"dir": "baixa", "texto": "Principal canal: mais esmagamento em Rosario aumenta a oferta exportável de farelo."},
+        "oleo": {"dir": "baixa", "texto": "Mesmo canal do farelo; Argentina responde por ~40% do óleo exportado no mundo."}
+      },
+      "precedente": "Em set/2025 o governo zerou a retenção temporariamente até uma cota de US$ 7 bi, esgotada em 3 dias com compras maciças da China, que pressionaram o prêmio brasileiro e secaram a demanda chinesa por soja americana no período. Mostra a magnitude do efeito de uma retirada abrupta.",
+      "atencao": "Um cronograma conhecido de antemão faz o produtor reter grão à espera da alíquota menor. A baixa mês a mês (e não em degraus anuais) existe justamente para suavizar esse efeito.",
+      "fontes": [
+        {"titulo": "Infobae — redução de retenções (03/06/2026)", "url": "https://www.infobae.com/economia/2026/06/03/el-gobierno-oficializo-una-reduccion-en-las-retenciones-para-el-agro-y-los-biocombustibles/"},
+        {"titulo": "Beccar Varela — Decreto 423/2026", "url": "https://beccarvarela.com/novedades/reduccion-de-derechos-de-exportacion-para-el-sector-agroindustrial-decreto-n-423-2026/"},
+        {"titulo": "La Nación — cronograma até 2028", "url": "https://www.lanacion.com.ar/economia/el-gobierno-redujo-retenciones-al-agro-y-fijo-un-cronograma-de-bajas-hasta-2028-nid03062026/"},
+        {"titulo": "Ámbito — volta das retenções após a cota", "url": "https://www.ambito.com/economia/volvieron-las-retenciones-cuanto-es-la-alicuota-granos-alcanzar-el-cupo-que-establecio-el-gobierno-n6194713"}
+      ]
+    },
+    {
+      "id": "brasil_bio",
+      "regiao": "Brasil",
+      "titulo": "Mistura obrigatória de biodiesel (B15 → B16)",
+      "status": "pendente",
+      "status_rotulo": "B15 vigente · B16 atrasado",
+      "situacao": "B15 em vigor desde 01/08/2025 (Resolução CNPE nº 9/2025). A Lei do Combustível do Futuro (14.993/2024) prevê +1 pp ao ano até B20 em 2030, com B16 em mar/2026 — mas a lei depende de deliberação do CNPE, e a reunião de 11/05/2026 foi cancelada sem nova data. Testes de motor do B16 começaram em maio. Portaria do MME dá até 30/11/2026 para divulgar cronograma atualizado; o governo diz querer o B16 ainda em 2026.",
+      "numeros": [
+        {"rotulo": "Mistura atual", "valor": "B15"},
+        {"rotulo": "Meta legal 2030", "valor": "B20"},
+        {"rotulo": "Demanda com B16", "valor": ">10,7 mi m³"},
+        {"rotulo": "Óleo por +1 pp", "valor": "≈ +0,4 Mt/ano"}
+      ],
+      "proximo_marco": {"data": "2026-11-30", "texto": "Prazo do MME para o cronograma atualizado da mistura; aprovação do B16 depende do CNPE."},
+      "mecanismo": "O óleo de soja é ~70% da matéria-prima do biodiesel brasileiro. Cada ponto de mistura pede cerca de 0,6–0,7 bi de litros de biodiesel a mais por ano, ou ~0,4 Mt de óleo de soja — que sai da exportação ou de mais esmagamento. Mais esmagamento para atender o óleo gera farelo junto.",
+      "efeito": {
+        "grao": {"dir": "alta", "texto": "Leve: mais demanda interna de esmagamento disputa grão com a exportação."},
+        "farelo": {"dir": "baixa", "texto": "Esmagar para obter óleo produz ~4,5 t de farelo por t de óleo; sobra farelo para exportar."},
+        "oleo": {"dir": "alta", "texto": "Canal direto: reduz o óleo exportável do Brasil e sustenta o prêmio do óleo."}
+      },
+      "atencao": "Parecer técnico do MME alertou o CNPE sobre riscos de subir a mistura antes dos testes; a aprovação do plano de testes não autoriza misturas acima de B15.",
+      "fontes": [
+        {"titulo": "UDOP — CNPE cancelado após anúncio do B16", "url": "https://www.udop.com.br/noticia/2026/5/8/apos-anuncio-de-avancos-na-mistura-do-biodiesel-para-16-cnpe-e-cancelado"},
+        {"titulo": "Jusrural — por que o B16 não saiu", "url": "https://jusrural.com.br/artigos/b16-biodiesel-atraso-cronograma-lei-14993-cnpe-selo-biocombustivel-social-soja/"},
+        {"titulo": "Click Petróleo e Gás — StoneX, consumo de biodiesel 2026", "url": "https://en.clickpetroleoegas.com.br/consumo-de-biodiesel-no-brasil-crescera-em-2026-segundo-stonex-alta-projetada-impacto-da-soja-no-mix-b15-b16-e-perspectivas-do-mercado-de-biocombustiveis-hl1402/"}
+      ]
+    },
+    {
+      "id": "indonesia",
+      "regiao": "Indonésia",
+      "titulo": "Biodiesel B50 (óleo de palma)",
+      "status": "transicao",
+      "status_rotulo": "Obrigatório desde 01/07/2026 · em transição",
+      "situacao": "B50 obrigatório desde 01/07/2026, com três meses de transição: estoques de B40 puderam ser vendidos até 30/09/2026. No fim de agosto a distribuição estava em 75–80% do país (cerca de 90% nos postos da Pertamina); a meta era cobertura total em 01/10. O governo fará revisão completa em dezembro. O ministério diz precisar de cinco grandes usinas de biodiesel novas; três estão em construção.",
+      "numeros": [
+        {"rotulo": "Mistura", "valor": "B50"},
+        {"rotulo": "Cobertura fim ago", "valor": "75–80%"},
+        {"rotulo": "Palma uso interno", "valor": "12,7 → ~15 Mt"},
+        {"rotulo": "Diesel fóssil evitado", "valor": "~4 mi kL/ano"}
+      ],
+      "proximo_marco": {"data": "2026-12-01", "texto": "Revisão do governo sobre a transição do B50 (cobertura, subsídio e oferta de matéria-prima)."},
+      "mecanismo": "A Indonésia é a maior exportadora de óleo de palma. Cada ponto de mistura retira palma do mercado externo; Índia e China, os grandes compradores de óleo vegetal, substituem parte com óleo de soja. O subsídio do programa depende do diferencial entre o diesel e o óleo de palma: petróleo caro facilita, petróleo barato pressiona o fundo e pode atrasar o programa.",
+      "efeito": {
+        "grao": {"dir": "neutro", "texto": "Efeito indireto, via margem de esmagamento."},
+        "farelo": {"dir": "baixa", "texto": "Indireto: óleo mais valorizado incentiva esmagamento e mais farelo no mundo."},
+        "oleo": {"dir": "alta", "texto": "Menos palma exportada (~2–2,5 Mt) abre espaço para o óleo de soja na Índia e na China."}
+      },
+      "atencao": "Não há confirmação pública de que a cobertura total de 01/10 foi atingida. Gargalos de matéria-prima e de capacidade industrial podem levar a aplicação parcial.",
+      "fontes": [
+        {"titulo": "BioEnergy Times — B50 em 75–80% do país", "url": "https://bioenergytimes.com/indonesias-b50-biodiesel-rollout-reaches-75-80-nationwide-full-coverage-targeted-by-october/"},
+        {"titulo": "Antara — início do B50 em 29 terminais", "url": "https://en.antaranews.com/news/421164/indonesia-begins-b50-biodiesel-rollout-at-29-fuel-terminals"},
+        {"titulo": "Hydrocarbon Processing — lançamento em 01/07", "url": "https://www.hydrocarbonprocessing.com/news/2026/06/indonesia-on-track-to-launch-b50-biodiesel-program-on-july-1/"}
+      ]
+    },
+    {
+      "id": "eua_rfs",
+      "regiao": "Estados Unidos",
+      "titulo": "RFS “Set 2” (2026–27) e crédito 45Z",
+      "status": "vigente",
+      "status_rotulo": "Regra final em vigor · em litígio",
+      "situacao": "A EPA publicou a regra final em 27/03/2026 com volumes recorde: diesel de biomassa (BBD) de 8,86 bi RINs em 2026 e 8,95 bi em 2027 — 9,07 e 9,20 bi com a realocação de 70% das isenções de pequenas refinarias (SRE) de 2023–25. O corte de 50% no RIN para combustível e matéria-prima importados não entrou: foi adiado para 2028 em diante (próxima regra, “Set 3”). O fator de equivalência do diesel renovável cai para 1,5 em 2027. A regra é contestada no Tribunal de Apelações de D.C., mas segue valendo. No 45Z, desde 01/01/2026 só matéria-prima de EUA, Canadá e México gera crédito e o ILUC saiu do cálculo; o regulamento final do Tesouro ainda não saiu.",
+      "numeros": [
+        {"rotulo": "BBD 2026", "valor": "8,86 bi RINs"},
+        {"rotulo": "BBD 2027", "valor": "8,95 bi RINs"},
+        {"rotulo": "Com realocação SRE", "valor": "9,07 / 9,20 bi"},
+        {"rotulo": "Meio RIN importado", "valor": "adiado p/ 2028+"}
+      ],
+      "proximo_marco": {"data": null, "texto": "Proposta do “Set 3” (2028+), que deve trazer o meio RIN para importados; decisão no litígio em D.C.; regulamento final do 45Z."},
+      "mecanismo": "A RFS obriga refinarias a misturar volumes crescentes de diesel de biomassa, quase todo feito de óleos e gorduras. Com o 45Z e o meio RIN fechando a porta para óleo de cozinha e sebo importados, a demanda recai sobre o óleo de soja doméstico. A margem de esmagamento disparou (US$ 3,76/bu em maio contra média de US$ 1,51 em 2021–25) e o esmagamento americano opera perto do limite.",
+      "efeito": {
+        "grao": {"dir": "alta", "texto": "Esmagamento recorde nos EUA absorve grão e reduz o excedente exportável."},
+        "farelo": {"dir": "baixa", "texto": "Farelo vira subproduto: os EUA exportam volumes recorde e pressionam o farelo no mundo."},
+        "oleo": {"dir": "alta", "texto": "Principal vetor do preço do óleo em Chicago; os EUA praticamente deixam de exportar óleo."}
+      },
+      "atencao": "Um revés judicial ou a não realocação das SREs reduziria a demanda. O adiamento do meio RIN mantém aberta a importação de UCO e sebo até 2027.",
+      "fontes": [
+        {"titulo": "farmdoc daily — RVOs finais de BBD 2026–27", "url": "https://farmdocdaily.illinois.edu/2026/04/rewriting-the-rfs-playbook-final-2026-2027-rvos-for-biomass-based-diesel.html"},
+        {"titulo": "Farm Bureau — volumes recorde 2026–27", "url": "https://www.fb.org/market-intel/epa-sets-record-renewable-fuel-volumes-for-2026-2027"},
+        {"titulo": "ASA — além do RVO (meio RIN adiado)", "url": "https://soygrowers.com/news-releases/beyond-the-headline-rvo/"},
+        {"titulo": "Trinity Consultants — litígio e volumes", "url": "https://trinityconsultants.com/resources/epa-finalizes-record-high-rfs-set-2-volumes-for-2026-and-2027/"},
+        {"titulo": "Farm Bureau — crédito 45Z", "url": "https://www.fb.org/intel/markets/45z-clean-fuel-production-credit"},
+        {"titulo": "Argus — margens de esmagamento nos EUA", "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2824915-us-soy-crush-margins-soar-set-to-remain-high"}
+      ]
+    },
+    {
+      "id": "ue_red",
+      "regiao": "União Europeia",
+      "titulo": "RED III e classificação do óleo de soja (ILUC)",
+      "status": "pendente",
+      "status_rotulo": "Ato delegado bloqueado pelo Parlamento",
+      "situacao": "A RED III limita biocombustível de cultura alimentar ao consumo de 2020 + 1 pp, com teto de 7%, e exige 5,5% de avançados em 2030; a transposição pelos Estados-membros está atrasada e desigual. Em 10/04/2026 a Comissão adotou o Regulamento Delegado 2026/2680, que classificaria o óleo de soja como de alto risco de mudança indireta do uso da terra (ILUC), com saída progressiva até 2030 — o mesmo tratamento já dado à palma. Em 08/07/2026 o Parlamento Europeu aprovou objeção ao ato, que assim não entra em vigor.",
+      "numeros": [
+        {"rotulo": "Teto culturas", "valor": "2020 + 1 pp (máx. 7%)"},
+        {"rotulo": "Avançados 2030", "valor": "5,5%"},
+        {"rotulo": "Soja alto ILUC", "valor": "objetado 08/07/26"}
+      ],
+      "proximo_marco": {"data": null, "texto": "Resposta da Comissão à objeção: pode reapresentar o ato com outra base técnica."},
+      "mecanismo": "Se a soja for classificada como alto ILUC, o biodiesel de óleo de soja deixa de contar para as metas da UE até 2030. Isso corta demanda de óleo de soja na Europa, reduz o esmagamento europeu e — como o farelo sai junto — aumenta a dependência de farelo importado.",
+      "efeito": {
+        "grao": {"dir": "baixa", "texto": "Menos esmagamento na UE significa menos importação de grão (Brasil e EUA)."},
+        "farelo": {"dir": "alta", "texto": "A UE passaria a importar mais farelo pronto para compensar o esmagamento perdido."},
+        "oleo": {"dir": "baixa", "texto": "Perde-se um destino do óleo de soja; com a objeção, o risco ficou em suspenso."}
+      },
+      "atencao": "Junto vem a EUDR (lei antidesmatamento), que cobre a soja e passa a valer para médios e grandes operadores em 30/12/2026, após dois adiamentos; o resultado da revisão de abril/2026 não está confirmado.",
+      "fontes": [
+        {"titulo": "USDA GAIN — UE eliminará biocombustível de soja (abr/2026)", "url": "https://www.fas.usda.gov/data/gain/2026/04/european-union-european-union-phase-out-use-soy-based-biofuels"},
+        {"titulo": "OFI Magazine — Parlamento rejeita ato delegado", "url": "https://www.ofimagazine.com/news/european-parliament-rejects-delegated-act-on-soyabean-oil"},
+        {"titulo": "Grain Journal — rejeição da classificação", "url": "https://www.grainjournal.com/article/1147933/european-parliament-rejects-soybean-oil-high-iluc-risk-classification"},
+        {"titulo": "USDA GAIN — Biofuels Annual UE (jul/2026)", "url": "https://www.fas.usda.gov/data/gain-report/2026/07/Biofuels%20Annual_The%20Hague_European%20Union_E42026-0052.pdf"},
+        {"titulo": "Mongabay — EUDR adiada pela segunda vez", "url": "https://news.mongabay.com/short-article/2026/01/eudr-antideforestation-law-officially-delayed-for-second-year-in-a-row/"}
+      ]
+    },
+    {
+      "id": "china",
+      "regiao": "China / EUA",
+      "titulo": "Compromisso chinês de compra de soja americana",
+      "status": "vigente",
+      "status_rotulo": "Acordo de out/2025 · cumprimento parcial",
+      "situacao": "O acordo de outubro de 2025 prevê ao menos 12 Mt de soja americana no fim de 2025 (cumprido, com atraso, até fev/2026) e 25 Mt por ano em 2026, 2027 e 2028. Em setembro a China tinha passado da metade da meta de 2026; o USDA embute só 15 Mt para a China no balanço de 2026/27. As tarifas seguem em vigor e o cumprimento é tratado como termômetro da trégua comercial antes da cúpula presidencial.",
+      "numeros": [
+        {"rotulo": "Meta 2026–28", "valor": "25 Mt/ano"},
+        {"rotulo": "No balanço USDA 26/27", "valor": "15 Mt"}
+      ],
+      "proximo_marco": {"data": null, "texto": "Cúpula presidencial em Washington; ritmo das vendas semanais para a China (aba principal, embarques)."},
+      "mecanismo": "Cada tonelada que a China compra dos EUA por compromisso político deixa de ser comprada no Brasil. Cumprimento integral tira prêmio do porto brasileiro; abandono do acordo devolve a China ao Brasil e alarga o prêmio.",
+      "efeito": {
+        "grao": {"dir": "neutro", "texto": "Redistribui a demanda entre origens: altista para Chicago, baixista para o prêmio no Brasil."},
+        "farelo": {"dir": "neutro", "texto": "Pouco efeito direto: a China importa grão e esmaga em casa."},
+        "oleo": {"dir": "neutro", "texto": "Pouco efeito direto."}
+      },
+      "fontes": [
+        {"titulo": "Bloomberg — compras seletivas da China (21/09/2026)", "url": "https://www.bloomberg.com/news/articles/2026-09-21/china-s-selective-crop-buying-tests-us-trade-truce-before-summit"},
+        {"titulo": "StoneX — o teste de 10 Mt", "url": "https://www.stonex.com/en/insights/china-s-us-soybean-pledge-faces-a-10-million-ton-credibility-test/"},
+        {"titulo": "Ohio's Country Journal — compromissos e tarifas", "url": "https://ocj.com/2026/09/china-soybean-commitments-are-critical-amid-continued-tariffs/"}
+      ]
+    }
+  ],
+  "capacidade": {
+    "panorama": [
+      {
+        "pais": "Brasil",
+        "texto": "Capacidade de esmagamento subiu 13% em 2026, para 86,4 Mt/ano (Abiove). Plantas operando passaram de 131 para 148; paradas caíram de 12 para 6; em construção, de 6 para 3. Projetos previstos para os próximos 12 meses somam +7,4 Mt/ano e há cerca de US$ 1,5 bi em expansões anunciadas. Esmagamento previsto recorde de 63,5 Mt em 2026.",
+        "data": "2026-10",
+        "fonte": {"titulo": "The Poultry Site — Abiove", "url": "https://www.thepoultrysite.com/news/2026/10/brazils-soybean-crushing-capacity-jumps-13"}
+      },
+      {
+        "pais": "Estados Unidos",
+        "texto": "Capacidade máxima de cerca de 71 Mt/ano, operando perto do limite com a margem de esmagamento em níveis recorde. A ASA estimava 2,55 bi bu/ano no início de 2025, e os anúncios pendentes levariam a mais de 2,78 bi bu/ano até 2030 se saírem do papel — o ritmo depende da política de biocombustíveis.",
+        "data": "2026-05",
+        "fonte": {"titulo": "Argus — margens de esmagamento", "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2824915-us-soy-crush-margins-soar-set-to-remain-high"}
+      },
+      {
+        "pais": "Argentina",
+        "texto": "Cerca de 70 Mt/ano de capacidade de esmagamento de oleaginosas e ociosidade da ordem de 30% (BCR, 2025). A capacidade de biodiesel, ~4,4 Mt/ano, está praticamente parada. A baixa das retenções a partir de 2027 já motiva planta nova (Molinos Agro).",
+        "data": "2026-08",
+        "fonte": {"titulo": "La Nación — plantas paradas (01/07/2026)", "url": "https://www.lanacion.com.ar/economia/campo/hay-plantas-paradas-una-industria-que-demando-millonarias-inversiones-no-puede-aprovechar-un-negocio-nid01072026/"}
+      }
+    ],
+    "projetos": [
+      {"pais": "Argentina", "empresa": "Molinos Agro", "local": "Timbúes (Santa Fe)", "tipo": "Nova planta de esmagamento", "capacidade": "15.000 t/dia (~5 Mt/ano)", "status": "anunciado", "data": "2026-08", "previsao": null, "nota": "Justificada pela expectativa de mais soja com a baixa das retenções.", "fonte": {"titulo": "Diario Noticias Pehuajó", "url": "https://www.diarionoticiaspehuajo.com/2026-08-18/menos-retenciones-y-nuevas-inversiones-se-termina-el-castigo-a-la-soja-42253/"}},
+      {"pais": "EUA", "empresa": "CHS", "local": "Evansville (Wisconsin)", "tipo": "Nova planta de esmagamento", "capacidade": "80 mi bu/ano (~2,2 Mt)", "status": "anunciado", "data": "2026-09-14", "previsao": "outono de 2028", "nota": "US$ 700 mi; eleva a capacidade da CHS em 60%. Obras começam nas próximas semanas.", "fonte": {"titulo": "DTN", "url": "https://www.dtnpf.com/agriculture/web/ag/news/business-inputs/article/2026/09/14/chs-plans-700m-wis-soybean-crush-60"}},
+      {"pais": "EUA", "empresa": "ADM", "local": "4 plantas (inclui Green Bison, Dakota do Norte)", "tipo": "Expansão de plantas existentes", "capacidade": "+0,7 Mt/ano", "status": "construcao", "data": "2026-07-30", "previsao": null, "nota": "Troca de equipamentos; mais de 25 mi bu de demanda adicional.", "fonte": {"titulo": "Agweek", "url": "https://www.agweek.com/crops/soybeans/expansion-planned-at-green-bison-soy-processing"}},
+      {"pais": "Brasil", "empresa": "Diversas (Abiove)", "local": "—", "tipo": "Plantas novas e expansões", "capacidade": "+7,4 Mt/ano em 12 meses", "status": "construcao", "data": "2026-10", "previsao": "até out/2027", "nota": "Três plantas em construção; seis paradas.", "fonte": {"titulo": "Ukragroconsult — Abiove", "url": "https://ukragroconsult.com/en/news/brazils-soybean-crushing-capacity-rises-13/"}},
+      {"pais": "EUA", "empresa": "Continental Refining", "local": "Somerset (Kentucky)", "tipo": "Planta de esmagamento", "capacidade": "—", "status": "parado", "data": "2026-07-05", "previsao": null, "nota": "Parada desde incêndio em 05/07; segue ociosa nesta safra enquanto a empresa avalia o reparo.", "fonte": {"titulo": "World Grain", "url": "https://www.world-grain.com/articles/23330-crc-soybean-processing-plant-to-remain-idle"}},
+      {"pais": "Indonésia", "empresa": "Governo / Pertamina", "local": "—", "tipo": "Usinas de biodiesel para o B50", "capacidade": "5 grandes usinas necessárias", "status": "construcao", "data": "2026-06", "previsao": null, "nota": "Três em construção; gargalo para cumprir o B50 integralmente.", "fonte": {"titulo": "Hydrocarbon Processing", "url": "https://www.hydrocarbonprocessing.com/news/2026/06/indonesia-on-track-to-launch-b50-biodiesel-program-on-july-1/"}}
+    ]
+  }
+}

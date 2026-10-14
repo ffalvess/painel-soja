@@ -16,6 +16,10 @@ Fontes:
   - CONAB (série histórica de grãos): safra do Brasil
   - CME Group (FTP público ftp.cmegroup.com): volume de calls/puts de soja
   - USDA/FAS PSD (api.fas.usda.gov, chave em USDA_FAS_KEY): oferta e demanda
+  - USDA/FAS PSD (mesma chave): produção e exportação de grão, farelo e
+    óleo por país (oferta global)
+  - Google News RSS por tema: políticas (retenciones, mandatos de biodiesel,
+    RFS, RED III) e capacidade de esmagamento
   - USDA/FAS ESR (mesma chave): embarques e vendas semanais dos EUA
   - Open-Meteo: previsão de chuva em cidades produtoras do Centro-Oeste
   - RSS: Google News, Canal Rural, G1 Agronegócios, Notícias Agrícolas
@@ -73,6 +77,8 @@ CADENCIA = {
     "safra": "mista",  # EUA semanal (segundas), Brasil mensal
     "embarques": "semanal",  # divulgado nas quintas, ~1 semana de defasagem
     "sd": "mensal",  # WASDE
+    "oferta": "mensal",  # PSD, mesmo levantamento do WASDE
+    "politicas": "continua",
     "fertilizante": "mensal",  # Pink Sheet
     "crush": "intradiaria",
     "sinais": "intradiaria",
@@ -102,7 +108,7 @@ def observado_em(nome: str, sec):
     if nome == "embarques":
         datas = [i.get("semana_ref") for i in sec.get("itens") or [] if i.get("semana_ref")]
         return max(datas) if datas else None
-    if nome in ("sd", "fertilizante"):
+    if nome in ("sd", "oferta", "fertilizante"):
         # O PSD informa o mês do levantamento, não o dia. Precisão de mês.
         return sec.get("vintage_iso")
     return None
@@ -1502,6 +1508,237 @@ def collect_sd() -> dict:
     }
 
 
+# ---------------------------------------------------------------- oferta global
+
+# O complexo inteiro: o grão e os dois derivados. Casamento por nome, como no
+# ESR — travar o código numérico é como farelo acaba publicado como grão.
+OFERTA_PRODUTOS = [
+    ("grao", "Soja em grão", lambda n: "oilseed" in n and "soybean" in n),
+    ("farelo", "Farelo de soja", lambda n: "meal" in n and "soybean" in n),
+    ("oleo", "Óleo de soja", lambda n: n.startswith("oil,") and "soybean" in n),
+]
+# Nome do atributo no PSD -> chave no JSON. Só entram atributos em massa
+# (1000 t); taxa de extração e área ficam de fora para não misturar unidade.
+OFERTA_ATRIBUTOS = {
+    "Production": "producao",
+    "Exports": "exportacao",
+    "Total Exports": "exportacao",
+    "Imports": "importacao",
+    "Total Imports": "importacao",
+    "Domestic Consumption": "consumo",
+    "Total Dom. Cons.": "consumo",
+    "Crush": "esmagamento",
+    "Ending Stocks": "estoque_final",
+}
+OFERTA_ANOS = 6  # safra corrente + 5 anteriores
+OFERTA_TOP = 8
+# Sempre presentes na tabela de países, mesmo fora do top: são os três que
+# definem o preço de exportação do complexo.
+OFERTA_FIXOS = ("BR", "US", "AR")
+
+
+def collect_oferta() -> dict:
+    """Produção e exportação de grão, farelo e óleo — mundo e países.
+
+    Responde "quanto do complexo soja está sendo oferecido ao mundo, e por
+    quem": série de 6 safras do agregado mundial e o corte por país da safra
+    corrente (com a anterior ao lado), tudo do PSD em milhões de toneladas.
+    """
+    commodities = fas("/commodities")
+    nomes_attr = {
+        a["attributeId"]: a["attributeName"].strip() for a in fas("/commodityAttributes")
+    }
+    try:
+        unidades_mil_t = {
+            u["unitId"]
+            for u in fas("/unitsOfMeasure")
+            if "1000 mt" in (u.get("unitDescription") or "").lower().replace("(", "")
+        } or {8}
+    except Exception:  # noqa: BLE001 - catálogo auxiliar; 8 é o "(1000 MT)" do PSD
+        unidades_mil_t = {8}
+    try:
+        nomes_pais = {
+            c["countryCode"].strip(): c["countryName"].strip() for c in fas("/countries")
+        }
+    except Exception:  # noqa: BLE001 - sem o catálogo, mostra o código
+        nomes_pais = {}
+
+    def soma(registros: list, por_pais: bool = False):
+        """Registros do PSD -> {chave: Mt} (ou {país: {chave: Mt}})."""
+        out, mes, ano_cal = {}, None, None
+        for r in registros:
+            chave = OFERTA_ATRIBUTOS.get(nomes_attr.get(r["attributeId"], ""))
+            if not chave or r.get("unitId") not in unidades_mil_t:
+                continue
+            alvo = out.setdefault((r.get("countryCode") or "").strip(), {}) if por_pais else out
+            alvo[chave] = round(r["value"] / 1000, 3)
+            mes = r.get("month") or mes
+            ano_cal = r.get("calendarYear") or ano_cal
+        return out, mes, ano_cal
+
+    ano = dt.date.today().year
+    codigos = {}
+    for chave, _, casa in OFERTA_PRODUTOS:
+        c = next((c for c in commodities if casa(c["commodityName"].strip().lower())), None)
+        if c:
+            codigos[chave] = (c["commodityCode"], c["commodityName"].strip())
+    if "grao" not in codigos:
+        raise RuntimeError("commodity 'Oilseed, Soybean' não encontrada no PSD")
+
+    # Ano-safra de referência: o mais recente com dado para o grão. Os três
+    # produtos usam o mesmo, senão a comparação mistura safras.
+    ano_ref, mes_ref, ano_cal_ref = None, None, None
+    for a in (ano, ano - 1):
+        vals, mes, ano_cal = soma(fas(f"/commodity/{codigos['grao'][0]}/world/year/{a}"))
+        if vals.get("producao"):
+            ano_ref, mes_ref, ano_cal_ref = a, mes, ano_cal
+            break
+    if ano_ref is None:
+        raise RuntimeError("PSD sem produção mundial de soja para o ano corrente")
+
+    def safra(a):
+        return f"{a}/{str(a + 1)[-2:]}"
+
+    produtos = {}
+    for chave, nome, _ in OFERTA_PRODUTOS:
+        if chave not in codigos:
+            continue
+        codigo, nome_psd = codigos[chave]
+        serie = []
+        for a in range(ano_ref - OFERTA_ANOS + 1, ano_ref + 1):
+            vals, _, _ = soma(fas(f"/commodity/{codigo}/world/year/{a}"))
+            if vals:
+                serie.append({"ano": a, "safra": safra(a), **vals})
+        if not serie:
+            continue
+        atual = serie[-1] if serie[-1]["ano"] == ano_ref else {}
+
+        paises_atual, _, _ = soma(fas(f"/commodity/{codigo}/country/all/year/{ano_ref}"), True)
+        paises_ant, _, _ = soma(
+            fas(f"/commodity/{codigo}/country/all/year/{ano_ref - 1}"), True
+        )
+        paises_atual.pop("", None)
+
+        def top(campo):
+            return [
+                p
+                for p, v in sorted(
+                    paises_atual.items(), key=lambda kv: -(kv[1].get(campo) or 0)
+                )
+                if v.get(campo)
+            ][:OFERTA_TOP]
+
+        escolhidos = list(dict.fromkeys(top("producao") + top("exportacao") + list(OFERTA_FIXOS)))
+        prod_mundo, exp_mundo = atual.get("producao"), atual.get("exportacao")
+        paises = []
+        for p in escolhidos:
+            v = paises_atual.get(p)
+            if not v:
+                continue
+            ant = paises_ant.get(p) or {}
+            linha = {"codigo": p, "nome": nomes_pais.get(p, p), **v}
+            for campo in ("producao", "exportacao"):
+                if v.get(campo) is not None and ant.get(campo):
+                    linha[f"{campo}_ant"] = ant[campo]
+                    linha[f"var_{campo}_pct"] = round((v[campo] / ant[campo] - 1) * 100, 1)
+            # Quanto da produção do país vai para fora. Acima de 100% é
+            # reexportação ou consumo de estoque, e acontece no óleo.
+            if v.get("producao") and v.get("exportacao") is not None:
+                linha["exporta_pct"] = round(v["exportacao"] / v["producao"] * 100, 1)
+            if prod_mundo and v.get("producao") is not None:
+                linha["share_producao_pct"] = round(v["producao"] / prod_mundo * 100, 1)
+            if exp_mundo and v.get("exportacao") is not None:
+                linha["share_exportacao_pct"] = round(v["exportacao"] / exp_mundo * 100, 1)
+            paises.append(linha)
+        paises.sort(key=lambda l: -(l.get("producao") or 0))
+
+        ant_mundo = next((s for s in serie if s["ano"] == ano_ref - 1), {})
+        resumo = dict(atual)
+        for campo in ("producao", "exportacao", "esmagamento", "estoque_final"):
+            if atual.get(campo) is not None and ant_mundo.get(campo):
+                resumo[f"var_{campo}_pct"] = round((atual[campo] / ant_mundo[campo] - 1) * 100, 1)
+        if atual.get("producao") and atual.get("exportacao") is not None:
+            resumo["exporta_pct"] = round(atual["exportacao"] / atual["producao"] * 100, 1)
+        # Concentração: fatia dos três maiores exportadores no comércio mundial.
+        if exp_mundo:
+            top3 = sorted((v.get("exportacao") or 0 for v in paises_atual.values()), reverse=True)[:3]
+            resumo["top3_exportacao_pct"] = round(sum(top3) / exp_mundo * 100, 1)
+
+        produtos[chave] = {
+            "nome": nome,
+            "commodity": nome_psd,
+            "mundo": resumo,
+            "serie": serie,
+            "paises": paises,
+        }
+
+    if not produtos:
+        raise RuntimeError("PSD não devolveu dados de oferta para nenhum produto")
+
+    return {
+        "updated_at": now_iso(),
+        "safra": safra(ano_ref),
+        "vintage": mes_ref,
+        "vintage_iso": (
+            f"{ano_cal_ref}-{str(mes_ref).zfill(2)}" if ano_cal_ref and mes_ref else None
+        ),
+        "unidade": "Mt",
+        "produtos": produtos,
+    }
+
+
+# ---------------------------------------------------------------- políticas
+
+# Uma busca do Google News por tema. `when:` corta o que já envelheceu — o
+# feed devolve matéria de anos atrás quando o tema esfria.
+POLITICAS_TEMAS = [
+    ("argentina", "Argentina — retenciones", "retenciones soja OR derechos de exportación soja", "es-419", "AR:es-419"),
+    ("brasil_bio", "Brasil — mistura de biodiesel", "biodiesel mistura B15 OR B16 OR CNPE", "pt-BR", "BR:pt-419"),
+    ("indonesia", "Indonésia — B40/B50", "Indonesia biodiesel B50 OR B40", "en-US", "US:en"),
+    ("eua_rfs", "EUA — RFS e 45Z", "EPA RFS biomass-based diesel OR 45Z soybean oil OR RVO biofuel", "en-US", "US:en"),
+    ("ue_red", "União Europeia — RED III", "\"RED III\" biofuels OR soy ILUC biodiesel EU", "en-US", "US:en"),
+    ("china", "China — compras e tarifas", "China soybean purchases tariff", "en-US", "US:en"),
+    ("capacidade", "Capacidade de esmagamento", "soybean crush plant OR crushing plant capacity", "en-US", "US:en"),
+    ("capacidade_br", "Esmagamento no Brasil", "esmagamento soja fábrica OR planta OR capacidade", "pt-BR", "BR:pt-419"),
+]
+POLITICAS_DIAS = 60
+POLITICAS_ITENS = 6
+
+
+def collect_politicas() -> dict:
+    """Notícias de política e capacidade, uma lista por tema.
+
+    O quadro de cada política (situação, próximo marco, efeito no preço) é
+    curado à mão em data/politicas.json; isto aqui é o fluxo que avisa
+    quando o quadro precisa ser revisto.
+    """
+    from urllib.parse import quote_plus
+
+    temas, falhas = [], []
+    for chave, nome, consulta, lingua, ceid in POLITICAS_TEMAS:
+        pais = ceid.split(":")[0]
+        url = (
+            "https://news.google.com/rss/search?q="
+            + quote_plus(f"{consulta} when:{POLITICAS_DIAS}d")
+            + f"&hl={lingua}&gl={pais}&ceid={ceid}"
+        )
+        try:
+            itens, vistos = [], set()
+            for it in parse_feed("Google News", url):
+                k = re.sub(r"\W+", "", it["title"].lower())[:80]
+                if k not in vistos:
+                    vistos.add(k)
+                    itens.append(it)
+            itens.sort(key=lambda i: i["published_at"] or "", reverse=True)
+            temas.append({"chave": chave, "nome": nome, "itens": itens[:POLITICAS_ITENS]})
+        except Exception as e:  # noqa: BLE001
+            falhas.append(f"{nome}: {e}")
+            temas.append({"chave": chave, "nome": nome, "itens": []})
+    if all(not t["itens"] for t in temas):
+        raise RuntimeError("; ".join(falhas) or "nenhuma notícia de política")
+    return {"updated_at": now_iso(), "temas": temas, "failed": falhas}
+
+
 # ---------------------------------------------------------------- embarques
 
 # Commodities do ESR e como achar a correspondente no PSD, que usa outra
@@ -2561,6 +2798,8 @@ COLLECTORS = {
     "weather": collect_weather,
     "news": collect_news,
     "sd": collect_sd,
+    "oferta": collect_oferta,
+    "politicas": collect_politicas,
     "embarques": collect_embarques,
     "fertilizante": collect_fertilizante,
 }

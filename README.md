@@ -39,6 +39,8 @@ esse JSON — não há servidor, banco de dados nem custo.
 | Notícias | Google News RSS, Canal Rural, G1 Agronegócios, Notícias Agrícolas | Links diretos para as matérias |
 | Embarques e vendas semanais dos EUA (complexo soja e milho) | USDA/FAS Export Sales (ESR) — `api.fas.usda.gov/api/esr`, header `X-Api-Key` | Mesma chave do PSD. Publicado às quintas com ~1 semana de defasagem. **Atenção:** no ESR o `marketYear` N é a safra N-1/N; no PSD é a safra N/N+1 |
 | Oferta e demanda da soja (mundo, Brasil, EUA) | USDA/FAS PSD — `api.fas.usda.gov`, header `X-Api-Key` | Exige o secret `USDA_FAS_KEY`; código da commodity e atributos descobertos em tempo de execução |
+| Oferta global: produção, exportação, importação, consumo e esmagamento de **grão, farelo e óleo de soja**, mundo (6 safras) e por país | USDA/FAS PSD — `/commodity/{código}/world/...` e `/country/all/...` | Mesma chave `USDA_FAS_KEY`. Commodities casadas por nome; só entram atributos em 1000 t. Página `oferta.html` |
+| Notícias de política e capacidade (retenciones, B15/B16, B50, RFS/45Z, RED III, China, plantas de esmagamento) | Google News RSS, uma busca por tema, últimos 60 dias | Seção `politicas` do `data.json`. O quadro de cada política é curado à mão em `data/politicas.json` |
 | Basis (paridade de exportação vs. indicador; interior vs. porto) | Derivado das seções acima | Casa o mês de embarque do prêmio com o contrato CBOT correspondente; a série é acumulada em `data/basis_history.json` |
 
 ## Páginas
@@ -48,6 +50,17 @@ esse JSON — não há servidor, banco de dados nem custo.
   notícias. Os cartões de cotação são clicáveis e abrem a série de 1 dia a
   5 anos, com as variações acumuladas em dia, semana, mês, trimestre, ano e
   5 anos.
+- `oferta.html` — oferta global do complexo: produção × exportação mundial de
+  grão, farelo e óleo nas últimas 6 safras e quem oferta cada produto por país
+  (fatia do comércio mundial, % da produção exportada, variação contra a safra
+  anterior).
+- `politicas.html` — políticas que mexem no preço (retenciones argentinas,
+  mistura de biodiesel no Brasil, B50 na Indonésia, RFS e 45Z nos EUA, RED III
+  e EUDR na UE, compromisso China–EUA), com mapa de efeitos sobre grão, farelo
+  e óleo, próximo marco de cada uma e notícias recentes por tema; e o quadro de
+  capacidade de esmagamento (panorama por país e plantas anunciadas, em obra
+  ou paradas). O quadro é curado em `data/politicas.json` — revise
+  `revisado_em` e os cartões quando as notícias do tema mudarem a situação.
 - `modelo.html` — decomposição do preço em paridade de exportação + basis
   (calculada a cada hora) e a especificação do modelo de direção de preço
   em 4–8 semanas. Linkada no cabeçalho do painel.

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oferta global — Painel Soja</title>
+<meta name="description" content="Produção e exportação mundial de soja em grão, farelo e óleo de soja, por safra e por país (USDA/FAS PSD).">
+<style>
+:root{
+  --page:#f9f9f7; --surface:#fcfcfb;
+  --ink:#0b0b0b; --ink-2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --baseline:#c3c2b7; --ring:rgba(11,11,11,.10);
+  --accent:#2a78d6; --up:#006300; --down:#d03b3b; --warn:#b06a00;
+  --s-prod:#2a78d6; --s-exp:#eb6834;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --page:#0d0d0d; --surface:#1a1a19;
+    --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
+    --accent:#3987e5; --up:#0ca30c; --down:#e66767; --warn:#e0a049;
+    --s-prod:#3987e5; --s-exp:#d95926;
+  }
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--page);color:var(--ink);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:15px;line-height:1.5;padding:20px 16px 48px}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto}
+header{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-bottom:6px}
+header h1{font-size:22px;font-weight:650}
+.navlink{font-size:13px;font-weight:600;color:var(--accent);text-decoration:none;
+  border:1px solid var(--ring);border-radius:999px;padding:4px 11px;background:var(--surface)}
+.navlink:hover{text-decoration:underline}
+.navlink[aria-current]{color:var(--ink);border-color:var(--baseline)}
+header .stamp{color:var(--muted);font-size:13px;margin-left:auto}
+.lede{color:var(--ink-2);font-size:15px;max-width:80ch;margin-bottom:22px}
+section{margin-bottom:28px}
+h2{font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:10px}
+h2 .selo{text-transform:none;letter-spacing:0;font-weight:500;font-size:11.5px;color:var(--muted);
+  border:1px solid var(--grid);border-radius:999px;padding:1px 8px;margin-left:9px;white-space:nowrap}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:14px 16px}
+.card h3{font-size:14px;font-weight:650;margin-bottom:2px}
+.card .src{font-size:12px;color:var(--muted)}
+.tri{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:10px;align-items:start}
+
+/* KPIs por produto */
+.prod .kv{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px;margin-top:10px}
+.prod .lbl{font-size:12px;color:var(--muted)}
+.prod .val{font-size:21px;font-weight:650;font-variant-numeric:tabular-nums}
+.prod .val small{font-size:12px;font-weight:500;color:var(--muted);margin-left:3px}
+.prod .sub{font-size:12px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .down{color:var(--down)} .flat{color:var(--muted)}
+
+/* gráficos */
+.legend{display:flex;gap:16px;font-size:12.5px;color:var(--ink-2);margin:2px 0 10px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+svg.bars{display:block;width:100%;height:auto;margin-top:6px}
+svg.bars text{font-size:10.5px;fill:var(--muted);font-variant-numeric:tabular-nums}
+svg.bars .hit{fill:transparent;cursor:default}
+svg.bars .hit:hover{fill:var(--ink);fill-opacity:.04}
+
+/* abas de produto */
+.seg{display:inline-flex;border:1px solid var(--ring);border-radius:999px;padding:2px;background:var(--surface);margin-bottom:10px}
+.seg button{font:inherit;font-size:13px;font-weight:600;border:0;background:none;color:var(--ink-2);
+  padding:4px 13px;border-radius:999px;cursor:pointer}
+.seg button[aria-selected="true"]{background:var(--ink);color:var(--page)}
+
+.tblwrap{overflow-x:auto}
+table.t{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.t th{font-size:12px;color:var(--muted);font-weight:600;text-align:right;padding:5px 10px;
+  border-bottom:1px solid var(--grid);white-space:nowrap}
+.t td{font-size:13.5px;text-align:right;padding:7px 10px;border-bottom:1px solid var(--grid);white-space:nowrap}
+.t th:first-child,.t td:first-child{text-align:left}
+.t tbody tr:last-child td{border-bottom:0}
+.t tr.fixo td:first-child{font-weight:650}
+.t td small{color:var(--muted);font-size:11.5px;margin-left:4px}
+.share{display:inline-block;width:70px;height:6px;background:var(--grid);border-radius:2px;
+  position:relative;margin-left:8px;vertical-align:1px}
+.share i{position:absolute;left:0;top:0;bottom:0;border-radius:2px}
+
+.leitura{margin:6px 0 0;padding-left:20px;font-size:13.5px;line-height:1.55;max-width:90ch}
+.leitura li{margin-bottom:7px}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px;max-width:90ch}
+.empty{color:var(--muted);font-size:14px}
+#tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--page);
+  font-size:12px;padding:5px 8px;border-radius:6px;opacity:0;transition:opacity .08s;z-index:9;white-space:nowrap}
+footer{margin-top:34px;color:var(--muted);font-size:12.5px}
+@media (max-width:520px){ .prod .val{font-size:19px} header .stamp{margin-left:0;width:100%} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Oferta global</h1>
+    <a class="navlink" href="index.html">← Painel Soja</a>
+    <a class="navlink" href="oferta.html" aria-current="page">Oferta global</a>
+    <a class="navlink" href="politicas.html">Políticas e capacidade</a>
+    <a class="navlink" href="modelo.html">Modelo e basis</a>
+    <span class="stamp" id="stamp"></span>
+  </header>
+  <p class="lede">Quanto do complexo soja o mundo produz e quanto disso chega ao mercado
+    internacional — <b>grão, farelo e óleo</b> lado a lado. Produção mostra o tamanho do
+    bolo; exportação mostra a parte que disputa preço entre origens. Fonte: USDA/FAS PSD,
+    em milhões de toneladas.</p>
+
+  <div id="vazio" class="card empty" hidden></div>
+
+  <section id="sec-kpi" hidden>
+    <h2>Safra <span id="kpi-safra"></span> — mundo <span class="selo" id="kpi-selo"></span></h2>
+    <div class="tri" id="kpis"></div>
+  </section>
+
+  <section id="sec-leitura" hidden>
+    <h2>Leitura</h2>
+    <div class="card"><ul class="leitura" id="leitura"></ul></div>
+  </section>
+
+  <section id="sec-serie" hidden>
+    <h2>Produção × exportação mundial — 6 safras</h2>
+    <div class="legend"><span><i style="background:var(--s-prod)"></i>Produção</span>
+      <span><i style="background:var(--s-exp)"></i>Exportação</span></div>
+    <div class="tri" id="series"></div>
+    <div class="note">Cada produto na sua escala: o grão é medido em centenas de milhões de
+      toneladas e o óleo em dezenas, então um eixo comum achataria os derivados. A última
+      safra é projeção do USDA e muda a cada WASDE.</div>
+  </section>
+
+  <section id="sec-paises" hidden>
+    <h2>Quem oferta — por país</h2>
+    <div class="seg" role="tablist" aria-label="Produto" id="seg"></div>
+    <div class="card">
+      <div class="tblwrap"><table class="t" id="paises"></table></div>
+    </div>
+    <div class="note">Top 8 produtores e top 8 exportadores, mais Brasil, EUA e Argentina
+      sempre. “% exportado” é exportação sobre produção do próprio país; passa de 100%
+      quando o país reexporta ou consome estoque. A União Europeia aparece como um bloco,
+      como no PSD.</div>
+  </section>
+
+  <footer>Dados do USDA/FAS PSD, atualizados no levantamento mensal (WASDE). O coletor
+    roda de hora em hora, mas o número só muda quando o USDA publica.
+    <a href="politicas.html">Políticas que mexem nesta oferta →</a></footer>
+</div>
+<div id="tip"></div>
+<script>
+const $ = id => document.getElementById(id);
+const tip = $("tip");
+const PRODUTOS = [["grao","Grão"],["farelo","Farelo"],["oleo","Óleo"]];
+const PAISES_PT = {BR:"Brasil",US:"EUA",AR:"Argentina",CH:"China",E4:"União Europeia",IN:"Índia",
+  PY:"Paraguai",CA:"Canadá",RS:"Rússia",UY:"Uruguai",BL:"Bolívia",UP:"Ucrânia",MX:"México",
+  ID:"Indonésia",JA:"Japão",KS:"Coreia do Sul",TH:"Tailândia",VM:"Vietnã",EG:"Egito",TU:"Turquia",
+  IR:"Irã",BG:"Bangladesh",PK:"Paquistão",SF:"África do Sul",MY:"Malásia",TW:"Taiwan",PE:"Peru",
+  CO:"Colômbia",VE:"Venezuela",AL:"Argélia",MO:"Marrocos",SA:"Arábia Saudita",RP:"Filipinas",
+  NI:"Nigéria",KZ:"Cazaquistão",EZ:"Rep. Tcheca",NO:"Noruega",UK:"Reino Unido",CI:"Chile"};
+const FIXOS = ["BR","US","AR"];
+
+const fmt = (v,d=1) => v==null||isNaN(v) ? "—" :
+  Number(v).toLocaleString("pt-BR",{minimumFractionDigits:d,maximumFractionDigits:d});
+const esc = s => String(s??"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const nomePais = p => PAISES_PT[p.codigo] || p.nome || p.codigo;
+function delta(v){
+  if(v==null) return `<span class="flat">—</span>`;
+  const c = v>0.05?"up":v<-0.05?"down":"flat";
+  const s = v>0.05?"▲":v<-0.05?"▼":"●";
+  return `<span class="${c}">${s} ${fmt(Math.abs(v))}%</span>`;
+}
+const MESES=["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+
+function renderKpis(of){
+  $("kpi-safra").textContent = of.safra || "";
+  if(of.vintage_iso){
+    const [a,m] = of.vintage_iso.split("-");
+    $("kpi-selo").textContent = `levantamento USDA de ${MESES[+m-1]}/${a}`;
+  }
+  $("kpis").innerHTML = PRODUTOS.filter(([k])=>of.produtos[k]).map(([k])=>{
+    const p = of.produtos[k], m = p.mundo;
+    return `<div class="card prod">
+      <h3>${p.nome}</h3>
+      <div class="kv">
+        <div><div class="lbl">Produção</div>
+          <div class="val">${fmt(m.producao)}<small>Mt</small></div>
+          <div class="sub">${delta(m.var_producao_pct)} vs. safra anterior</div></div>
+        <div><div class="lbl">Exportação</div>
+          <div class="val">${fmt(m.exportacao)}<small>Mt</small></div>
+          <div class="sub">${delta(m.var_exportacao_pct)} vs. safra anterior</div></div>
+        <div><div class="lbl">Parcela exportada</div>
+          <div class="val">${fmt(m.exporta_pct)}<small>%</small></div>
+          <div class="sub">da produção cruza fronteira</div></div>
+        <div><div class="lbl">3 maiores exportadores</div>
+          <div class="val">${fmt(m.top3_exportacao_pct)}<small>%</small></div>
+          <div class="sub">do comércio mundial</div></div>
+      </div>
+      ${k==="grao"&&m.esmagamento!=null?`<div class="sub" style="margin-top:10px">Esmagamento mundial: <b>${fmt(m.esmagamento)} Mt</b> ${delta(m.var_esmagamento_pct)}</div>`:""}
+    </div>`;
+  }).join("");
+  $("sec-kpi").hidden = false;
+}
+
+function renderLeitura(of){
+  const li = [];
+  for(const [k] of PRODUTOS){
+    const p = of.produtos[k]; if(!p) continue;
+    const exp = [...p.paises].filter(x=>x.exportacao).sort((a,b)=>b.exportacao-a.exportacao);
+    if(!exp.length) continue;
+    const t = exp[0], s = exp[1];
+    let txt = `<b>${p.nome}:</b> ${nomePais(t)} lidera a exportação com ${fmt(t.share_exportacao_pct)}% do comércio mundial`;
+    if(s) txt += `, seguido por ${nomePais(s)} (${fmt(s.share_exportacao_pct)}%)`;
+    const prod = [...p.paises].sort((a,b)=>(b.producao||0)-(a.producao||0))[0];
+    if(prod && prod.codigo!==t.codigo)
+      txt += `. O maior produtor é ${nomePais(prod)}, que exporta só ${fmt(prod.exporta_pct)}% do que produz`;
+    li.push(txt+".");
+  }
+  // Argentina exporta derivados; o Brasil, grão. É a assimetria que faz a
+  // retenção argentina pesar mais no farelo e no óleo do que no grão.
+  const ar = k => of.produtos[k]?.paises.find(p=>p.codigo==="AR");
+  const br = k => of.produtos[k]?.paises.find(p=>p.codigo==="BR");
+  if(ar("farelo") && ar("grao") && br("grao")){
+    li.push(`A Argentina exporta ${fmt(ar("grao").exporta_pct)}% do grão que produz, mas
+      ${fmt(ar("farelo").share_exportacao_pct)}% de todo o farelo do mundo sai de lá; o Brasil
+      exporta ${fmt(br("grao").exporta_pct)}% do grão. Mudança na retenção argentina chega
+      primeiro aos derivados — ver <a href="politicas.html">Políticas</a>.`);
+  }
+  const us = of.produtos.oleo?.paises.find(p=>p.codigo==="US");
+  if(us && us.exporta_pct!=null)
+    li.push(`EUA exportam ${fmt(us.exporta_pct)}% do óleo que produzem: a RFS e o crédito 45Z
+      puxam o óleo para o biodiesel e o diesel renovável domésticos.`);
+  if(!li.length) return;
+  $("leitura").innerHTML = li.map(t=>`<li>${t}</li>`).join("");
+  $("sec-leitura").hidden = false;
+}
+
+function grafico(p){
+  const s = p.serie;
+  const W=360, H=190, L=34, R=6, T=10, B=24;
+  const max = Math.max(...s.map(r=>Math.max(r.producao||0, r.exportacao||0)))*1.08 || 1;
+  const passo = [1,2,5,10,20,25,50,100,200].find(v=>max/v<=5) || 100;
+  const y = v => T + (H-T-B)*(1 - v/max);
+  const gw = (W-L-R)/s.length, bw = Math.min(16,(gw-10)/2);
+  let g = "";
+  for(let v=0; v<=max; v+=passo){
+    g += `<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--grid)" stroke-width="1"/>`;
+    g += `<text x="${L-5}" y="${y(v)+3.5}" text-anchor="end">${v}</text>`;
+  }
+  // barra com topo arredondado de 4px e base reta no eixo
+  const barra = (x,v,cor) => {
+    if(!v) return "";
+    const yt=y(v), h=y(0)-yt, r=Math.min(4,h/2,bw/2);
+    return `<path d="M${x},${y(0)} V${yt+r} Q${x},${yt} ${x+r},${yt} H${x+bw-r} Q${x+bw},${yt} ${x+bw},${yt+r} V${y(0)} Z" fill="${cor}"/>`;
+  };
+  s.forEach((r,i)=>{
+    const cx = L + gw*i + gw/2;
+    g += barra(cx-bw-1, r.producao, "var(--s-prod)");
+    g += barra(cx+1, r.exportacao, "var(--s-exp)");
+    g += `<text x="${cx}" y="${H-8}" text-anchor="middle">${r.safra.slice(2)}</text>`;
+    const pct = r.producao ? ` · ${fmt(r.exportacao/r.producao*100)}% exportado` : "";
+    g += `<rect class="hit" x="${L+gw*i}" y="${T}" width="${gw}" height="${H-T-B}"
+      data-tip="${r.safra}: produção ${fmt(r.producao)} Mt · exportação ${fmt(r.exportacao)} Mt${pct}"/>`;
+  });
+  g += `<line x1="${L}" x2="${W-R}" y1="${y(0)}" y2="${y(0)}" stroke="var(--baseline)" stroke-width="1"/>`;
+  const ult = s[s.length-1];
+  return `<div class="card"><h3>${p.nome}</h3>
+    <div class="src">${fmt(ult.producao)} Mt produzidas · ${fmt(ult.exportacao)} Mt exportadas em ${ult.safra}</div>
+    <svg class="bars" viewBox="0 0 ${W} ${H}" role="img"
+      aria-label="${p.nome}: produção e exportação mundial por safra">${g}</svg>
+    <details style="margin-top:6px"><summary class="src" style="cursor:pointer">tabela</summary>
+      <div class="tblwrap"><table class="t"><thead><tr><th>Safra</th><th>Produção</th><th>Exportação</th><th>% export.</th></tr></thead>
+      <tbody>${s.map(r=>`<tr><td>${r.safra}</td><td>${fmt(r.producao)}</td><td>${fmt(r.exportacao)}</td>
+        <td>${r.producao?fmt(r.exportacao/r.producao*100):"—"}</td></tr>`).join("")}</tbody></table></div>
+    </details></div>`;
+}
+
+function renderSeries(of){
+  const html = PRODUTOS.filter(([k])=>of.produtos[k]?.serie?.length).map(([k])=>grafico(of.produtos[k])).join("");
+  if(!html) return;
+  $("series").innerHTML = html;
+  $("sec-serie").hidden = false;
+}
+
+let PRODUTO = "grao";
+function renderPaises(of){
+  const disp = PRODUTOS.filter(([k])=>of.produtos[k]?.paises?.length);
+  if(!disp.length) return;
+  if(!of.produtos[PRODUTO]) PRODUTO = disp[0][0];
+  $("seg").innerHTML = disp.map(([k,l])=>
+    `<button role="tab" data-k="${k}" aria-selected="${k===PRODUTO}">${l}</button>`).join("");
+  const p = of.produtos[PRODUTO];
+  const maxShare = Math.max(...p.paises.map(x=>x.share_exportacao_pct||0)) || 1;
+  const linhas = p.paises.map(x=>`<tr class="${FIXOS.includes(x.codigo)?"fixo":""}">
+    <td>${nomePais(x)}</td>
+    <td>${fmt(x.producao)}<small>${x.share_producao_pct!=null?fmt(x.share_producao_pct)+"%":""}</small></td>
+    <td>${delta(x.var_producao_pct)}</td>
+    <td>${fmt(x.exportacao)}</td>
+    <td>${delta(x.var_exportacao_pct)}</td>
+    <td>${fmt(x.exporta_pct)}%</td>
+    <td>${fmt(x.share_exportacao_pct)}%<span class="share"><i style="width:${(x.share_exportacao_pct||0)/maxShare*100}%;background:var(--s-exp)"></i></span></td>
+  </tr>`).join("");
+  $("paises").innerHTML = `<thead><tr><th>País</th><th>Produção (Mt · fatia)</th><th>vs. ant.</th>
+    <th>Exportação (Mt)</th><th>vs. ant.</th><th>% exportado</th><th>Fatia da exportação mundial</th></tr></thead>
+    <tbody>${linhas}</tbody>`;
+  $("sec-paises").hidden = false;
+}
+
+document.addEventListener("pointermove", e=>{
+  const t = e.target.closest?.("[data-tip]");
+  if(!t){ tip.style.opacity=0; return; }
+  tip.textContent = t.dataset.tip;
+  tip.style.opacity = 1;
+  tip.style.left = Math.min(e.clientX+12, window.innerWidth-tip.offsetWidth-8)+"px";
+  tip.style.top = (e.clientY+14)+"px";
+});
+
+let OF = null;
+$("seg").addEventListener("click", e=>{
+  const b = e.target.closest("button[data-k]"); if(!b) return;
+  PRODUTO = b.dataset.k; renderPaises(OF);
+});
+
+async function load(){
+  try{
+    const r = await fetch("data/data.json?t="+Date.now(), {cache:"no-store"});
+    const d = await r.json();
+    if(d.generated_at)
+      $("stamp").textContent = "dados de " + new Intl.DateTimeFormat("pt-BR",
+        {day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit",timeZone:"America/Sao_Paulo"}).format(new Date(d.generated_at));
+    OF = d.sections?.oferta;
+    if(!OF?.produtos){
+      const erro = (d.errors||[]).find(e=>e.section==="oferta");
+      $("vazio").innerHTML = "A oferta global aparece depois da primeira coleta com a chave do USDA (secret <code>USDA_FAS_KEY</code>)."
+        + (erro ? `<br><small>Último erro: ${esc(erro.error)}</small>` : "");
+      $("vazio").hidden = false;
+      return;
+    }
+    renderKpis(OF); renderLeitura(OF); renderSeries(OF); renderPaises(OF);
+  }catch(err){
+    $("stamp").textContent = "sem dados — rode o workflow de atualização";
+    console.error(err);
+  }
+}
+load();
+</script>
+</body>
+</html>

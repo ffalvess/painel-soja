@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Políticas e capacidade — Painel Soja</title>
+<meta name="description" content="Políticas que mexem no preço do complexo soja (retenciones, B15/B16, B50, RFS, RED III) e mudanças na capacidade de esmagamento no mundo.">
+<style>
+:root{
+  --page:#f9f9f7; --surface:#fcfcfb;
+  --ink:#0b0b0b; --ink-2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --baseline:#c3c2b7; --ring:rgba(11,11,11,.10);
+  --accent:#2a78d6; --up:#006300; --down:#d03b3b; --warn:#b06a00;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --page:#0d0d0d; --surface:#1a1a19;
+    --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,.10);
+    --accent:#3987e5; --up:#0ca30c; --down:#e66767; --warn:#e0a049;
+  }
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--page);color:var(--ink);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:15px;line-height:1.5;padding:20px 16px 48px}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto}
+header{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-bottom:6px}
+header h1{font-size:22px;font-weight:650}
+.navlink{font-size:13px;font-weight:600;color:var(--accent);text-decoration:none;
+  border:1px solid var(--ring);border-radius:999px;padding:4px 11px;background:var(--surface)}
+.navlink:hover{text-decoration:underline}
+.navlink[aria-current]{color:var(--ink);border-color:var(--baseline)}
+header .stamp{color:var(--muted);font-size:13px;margin-left:auto}
+.lede{color:var(--ink-2);font-size:15px;max-width:80ch;margin-bottom:22px}
+section{margin-bottom:30px}
+h2{font-size:13px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:10px}
+h2 .selo{text-transform:none;letter-spacing:0;font-weight:500;font-size:11.5px;color:var(--muted);
+  border:1px solid var(--grid);border-radius:999px;padding:1px 8px;margin-left:9px;white-space:nowrap}
+.card{background:var(--surface);border:1px solid var(--ring);border-radius:10px;padding:14px 16px}
+.note{font-size:12.5px;color:var(--muted);margin-top:10px;max-width:90ch}
+.empty{color:var(--muted);font-size:13.5px}
+
+/* matriz de efeitos */
+.tblwrap{overflow-x:auto}
+table.t{width:100%;border-collapse:collapse}
+.t th{font-size:12px;color:var(--muted);font-weight:600;text-align:left;padding:6px 10px;
+  border-bottom:1px solid var(--grid);white-space:nowrap}
+.t td{font-size:13.5px;padding:8px 10px;border-bottom:1px solid var(--grid);vertical-align:top}
+.t tbody tr:last-child td{border-bottom:0}
+.t td.pol a{font-weight:600;text-decoration:none}
+.t td.pol a:hover{text-decoration:underline}
+.t td.pol small{display:block;color:var(--muted);font-size:12px}
+.t td.marco{font-size:12.5px;color:var(--ink-2);min-width:150px}
+.dir{white-space:nowrap;font-weight:600;font-size:13px}
+.dir.alta{color:var(--up)} .dir.baixa{color:var(--down)} .dir.neutro{color:var(--muted)}
+
+/* cartões de política */
+.pols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,520px),1fr));gap:12px;align-items:start}
+.pol-card .reg{font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.pol-card h3{font-size:16px;font-weight:650;margin:2px 0 6px}
+.badge{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;
+  padding:2px 9px;border-radius:999px;border:1px solid var(--ring);color:var(--ink-2)}
+.badge::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--muted)}
+.badge.vigente::before{background:var(--up)}
+.badge.transicao::before{background:var(--accent)}
+.badge.pendente::before{background:var(--warn)}
+.pol-card p{font-size:13.5px;color:var(--ink);margin-top:10px;max-width:80ch}
+.pol-card .lbl{font-size:11.5px;font-weight:600;color:var(--muted);text-transform:uppercase;
+  letter-spacing:.05em;margin-top:14px;display:block}
+.nums{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.num{border:1px solid var(--grid);border-radius:8px;padding:5px 10px;min-width:100px}
+.num .r{font-size:11.5px;color:var(--muted)}
+.num .v{font-size:15px;font-weight:650;font-variant-numeric:tabular-nums}
+.marco-box{margin-top:12px;border-left:3px solid var(--accent);padding:4px 0 4px 10px;font-size:13.5px}
+.marco-box b{font-variant-numeric:tabular-nums}
+.marco-box .falta{color:var(--muted);font-size:12.5px}
+ul.ef{list-style:none;margin-top:6px}
+ul.ef li{display:flex;gap:10px;font-size:13.5px;padding:5px 0;border-bottom:1px solid var(--grid)}
+ul.ef li:last-child{border-bottom:0}
+ul.ef .prod{flex:0 0 52px;color:var(--ink-2);font-weight:600}
+ul.ef .dir{flex:0 0 72px}
+.obs{font-size:13px;color:var(--ink-2);margin-top:10px;background:var(--page);border:1px solid var(--grid);
+  border-radius:8px;padding:8px 10px}
+.obs b{color:var(--ink)}
+details{margin-top:12px}
+summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--accent)}
+ul.links{list-style:none;margin-top:6px}
+ul.links li{font-size:13px;padding:4px 0;border-bottom:1px solid var(--grid)}
+ul.links li:last-child{border-bottom:0}
+ul.links a{text-decoration:none} ul.links a:hover{text-decoration:underline}
+ul.links small{color:var(--muted);font-size:11.5px;margin-left:6px;white-space:nowrap}
+
+/* capacidade */
+.duo{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:10px;align-items:start}
+.pano h3{font-size:14px;font-weight:650}
+.pano p{font-size:13.5px;margin-top:6px}
+.pano .src{font-size:12px;color:var(--muted);margin-top:8px}
+.st{display:inline-block;font-size:11.5px;font-weight:600;padding:1px 8px;border-radius:999px;
+  border:1px solid var(--ring);white-space:nowrap}
+.st.anunciado{color:var(--accent)} .st.construcao{color:var(--warn)}
+.st.operando{color:var(--up)} .st.parado,.st.fechado{color:var(--down)}
+.t td.n{font-size:12.5px;color:var(--ink-2);min-width:220px}
+.news-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:10px;align-items:start}
+.news-grid h3{font-size:14px;font-weight:650;margin-bottom:4px}
+footer{margin-top:34px;color:var(--muted);font-size:12.5px}
+@media (max-width:520px){ header .stamp{margin-left:0;width:100%} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Políticas e capacidade</h1>
+    <a class="navlink" href="index.html">← Painel Soja</a>
+    <a class="navlink" href="oferta.html">Oferta global</a>
+    <a class="navlink" href="politicas.html" aria-current="page">Políticas e capacidade</a>
+    <a class="navlink" href="modelo.html">Modelo e basis</a>
+    <span class="stamp" id="stamp"></span>
+  </header>
+  <p class="lede">Decisões de governo que mudam quanto grão, farelo e óleo chega ao mercado —
+    imposto de exportação argentino, mandatos de biodiesel no Brasil e na Indonésia, RFS nos
+    EUA e RED III na Europa — e as fábricas que abrem, crescem ou param. Cada cartão diz o que
+    está valendo, o próximo marco e para que lado empurra cada produto.</p>
+
+  <section id="sec-matriz" hidden>
+    <h2>Mapa de efeitos <span class="selo" id="revisado"></span></h2>
+    <div class="card"><div class="tblwrap"><table class="t" id="matriz"></table></div></div>
+    <div class="note">Direção do efeito sobre o preço se a política avançar (retenção caindo,
+      mistura subindo, regra entrando em vigor). É o sentido do empurrão, não uma previsão:
+      clima, câmbio e demanda chinesa podem dominar no curto prazo.</div>
+  </section>
+
+  <section id="sec-pols" hidden>
+    <h2>Políticas em detalhe</h2>
+    <div class="pols" id="pols"></div>
+  </section>
+
+  <section id="sec-cap" hidden>
+    <h2>Capacidade produtiva de derivados</h2>
+    <div class="duo" id="panorama"></div>
+    <div class="card" style="margin-top:10px">
+      <div class="tblwrap"><table class="t" id="projetos"></table></div>
+    </div>
+  </section>
+
+  <section id="sec-news" hidden>
+    <h2>Notícias recentes — capacidade e comércio <span class="selo" id="news-selo"></span></h2>
+    <div class="news-grid" id="news"></div>
+  </section>
+
+  <div id="erro" class="card empty" hidden></div>
+
+  <footer>O quadro de cada política é revisado à mão (<code>data/politicas.json</code>); as
+    notícias por tema vêm do Google News e são atualizadas de hora em hora pelo mesmo robô
+    do painel. Quando uma notícia contradiz o cartão, vale a notícia até a revisão.
+    <a href="oferta.html">Oferta global →</a></footer>
+</div>
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s??"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const PROD = [["grao","Grão"],["farelo","Farelo"],["oleo","Óleo"]];
+const DIR = {alta:"▲ alta", baixa:"▼ baixa", neutro:"● neutro"};
+const STATUS = {anunciado:"Anunciado", construcao:"Em obra", operando:"Operando", parado:"Parado", fechado:"Fechado"};
+const MESES=["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+const SP = "America/Sao_Paulo";
+
+function dataBR(iso){
+  if(!iso) return "";
+  const p = iso.split("-");
+  if(p.length===2) return `${MESES[+p[1]-1]}/${p[0]}`;
+  return `${p[2]}/${p[1]}/${p[0]}`;
+}
+function falta(iso){
+  if(!iso || iso.length<10) return "";
+  const d = Math.round((new Date(iso+"T12:00:00") - new Date())/864e5);
+  if(d>1) return `em ${d} dias`;
+  if(d===1) return "amanhã";
+  if(d===0) return "hoje";
+  return `há ${-d} dias`;
+}
+function quando(iso){
+  if(!iso) return "";
+  const h = (Date.now()-new Date(iso))/36e5;
+  if(h<1) return "agora há pouco";
+  if(h<24) return `há ${Math.round(h)} h`;
+  const d = Math.round(h/24);
+  return d===1 ? "ontem" : `há ${d} dias`;
+}
+const dir = e => `<span class="dir ${e?.dir||"neutro"}">${DIR[e?.dir]||"—"}</span>`;
+
+function noticias(tema){
+  if(!tema?.itens?.length) return `<p class="empty" style="margin-top:6px">Sem notícias nos últimos 60 dias.</p>`;
+  return `<ul class="links">${tema.itens.map(n=>
+    `<li><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a>
+      <small>${esc(n.source)} · ${quando(n.published_at)}</small></li>`).join("")}</ul>`;
+}
+
+function renderMatriz(cur){
+  $("revisado").textContent = "quadro revisado em " + dataBR(cur.revisado_em);
+  $("matriz").innerHTML = `<thead><tr><th>Política</th>${PROD.map(([,l])=>`<th>${l}</th>`).join("")}<th>Próximo marco</th></tr></thead>
+    <tbody>${cur.politicas.map(p=>`<tr>
+      <td class="pol"><a href="#pol-${p.id}">${esc(p.regiao)}</a><small>${esc(p.titulo)}</small></td>
+      ${PROD.map(([k])=>`<td>${dir(p.efeito?.[k])}</td>`).join("")}
+      <td class="marco">${p.proximo_marco?.data?`<b>${dataBR(p.proximo_marco.data)}</b> · `:""}${esc(p.proximo_marco?.texto||"")}</td>
+    </tr>`).join("")}</tbody>`;
+  $("sec-matriz").hidden = false;
+}
+
+function renderPols(cur, temas){
+  $("pols").innerHTML = cur.politicas.map(p=>{
+    const m = p.proximo_marco;
+    const tema = temas?.find(t=>t.chave===p.id);
+    return `<article class="card pol-card" id="pol-${p.id}">
+      <div class="reg">${esc(p.regiao)}</div>
+      <h3>${esc(p.titulo)}</h3>
+      <span class="badge ${p.status}">${esc(p.status_rotulo)}</span>
+      ${p.numeros?.length?`<div class="nums">${p.numeros.map(n=>
+        `<div class="num"><div class="r">${esc(n.rotulo)}</div><div class="v">${esc(n.valor)}</div></div>`).join("")}</div>`:""}
+      <span class="lbl">Situação</span>
+      <p style="margin-top:4px">${esc(p.situacao)}</p>
+      ${m?`<div class="marco-box">Próximo marco: ${m.data?`<b>${dataBR(m.data)}</b> <span class="falta">${falta(m.data)}</span> — `:""}${esc(m.texto)}</div>`:""}
+      <span class="lbl">Como mexe no preço</span>
+      <p style="margin-top:4px">${esc(p.mecanismo)}</p>
+      <ul class="ef">${PROD.map(([k,l])=>p.efeito?.[k]?
+        `<li><span class="prod">${l}</span>${dir(p.efeito[k])}<span>${esc(p.efeito[k].texto)}</span></li>`:"").join("")}</ul>
+      ${p.precedente?`<div class="obs"><b>Precedente.</b> ${esc(p.precedente)}</div>`:""}
+      ${p.atencao?`<div class="obs"><b>Atenção.</b> ${esc(p.atencao)}</div>`:""}
+      <details ${tema?.itens?.length?"open":""}><summary>Notícias recentes${tema?.itens?.length?` (${tema.itens.length})`:""}</summary>
+        ${tema?noticias(tema):`<p class="empty" style="margin-top:6px">O fluxo de notícias aparece depois da próxima coleta.</p>`}</details>
+      <details><summary>Fontes do quadro (${p.fontes?.length||0})</summary>
+        <ul class="links">${(p.fontes||[]).map(f=>`<li><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.titulo)}</a></li>`).join("")}</ul>
+      </details>
+    </article>`;
+  }).join("");
+  $("sec-pols").hidden = false;
+}
+
+function renderCap(cap){
+  if(!cap) return;
+  $("panorama").innerHTML = (cap.panorama||[]).map(p=>`<div class="card pano">
+    <h3>${esc(p.pais)}</h3><p>${esc(p.texto)}</p>
+    <div class="src">${dataBR(p.data)} · <a href="${esc(p.fonte.url)}" target="_blank" rel="noopener">${esc(p.fonte.titulo)}</a></div>
+  </div>`).join("");
+  const proj = [...(cap.projetos||[])].sort((a,b)=>(b.data||"").localeCompare(a.data||""));
+  $("projetos").innerHTML = `<thead><tr><th>País</th><th>Empresa · local</th><th>Projeto</th><th>Capacidade</th>
+    <th>Situação</th><th>Data</th><th>Observação</th></tr></thead>
+    <tbody>${proj.map(p=>`<tr>
+      <td>${esc(p.pais)}</td>
+      <td><b>${esc(p.empresa)}</b><br><small style="color:var(--muted)">${esc(p.local)}</small></td>
+      <td>${esc(p.tipo)}</td>
+      <td style="white-space:nowrap">${esc(p.capacidade)}</td>
+      <td><span class="st ${p.status}">${STATUS[p.status]||esc(p.status)}</span>${p.previsao?`<br><small style="color:var(--muted)">prev. ${esc(p.previsao)}</small>`:""}</td>
+      <td style="white-space:nowrap">${dataBR(p.data)}</td>
+      <td class="n">${esc(p.nota)} <a href="${esc(p.fonte.url)}" target="_blank" rel="noopener" style="color:var(--muted)">fonte</a></td>
+    </tr>`).join("")}</tbody>`;
+  $("sec-cap").hidden = false;
+}
+
+function renderNews(pol){
+  if(!pol?.temas) return;
+  const usados = new Set(["argentina","brasil_bio","indonesia","eua_rfs","ue_red","china"]);
+  const resto = pol.temas.filter(t=>!usados.has(t.chave));
+  if(!resto.length) return;
+  $("news").innerHTML = resto.map(t=>`<div class="card"><h3>${esc(t.nome)}</h3>${noticias(t)}</div>`).join("");
+  $("news-selo").textContent = "atualizado " + quando(pol.updated_at);
+  $("sec-news").hidden = false;
+}
+
+async function load(){
+  let cur = null, d = null;
+  try{
+    cur = await (await fetch("data/politicas.json?t="+Date.now(), {cache:"no-store"})).json();
+  }catch(err){ console.error(err); }
+  try{
+    d = await (await fetch("data/data.json?t="+Date.now(), {cache:"no-store"})).json();
+    if(d.generated_at)
+      $("stamp").textContent = "notícias de " + new Intl.DateTimeFormat("pt-BR",
+        {day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit",timeZone:SP}).format(new Date(d.generated_at));
+  }catch(err){ console.error(err); }
+  const pol = d?.sections?.politicas;
+  if(cur?.politicas?.length){
+    renderMatriz(cur);
+    renderPols(cur, pol?.temas);
+    renderCap(cur.capacidade);
+  }else{
+    $("erro").textContent = "Não foi possível ler data/politicas.json.";
+    $("erro").hidden = false;
+  }
+  renderNews(pol);
+}
+load();
+</script>
+</body>
+</html>

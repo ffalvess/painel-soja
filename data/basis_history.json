@@ -418,13 +418,13 @@
  },
  {
   "data": "19/10/2026",
-  "cbot_cents": 1248.25,
-  "cambio": 5.008,
+  "cbot_cents": 1247.5,
+  "cambio": 5.0318,
   "premio_cents": 140.0,
   "premio_mes": "Outubro/26",
   "contrato": "nov/26",
-  "paridade": 153.27,
+  "paridade": 153.92,
   "indicador": 154.24,
-  "basis": 0.97
+  "basis": 0.32
  }
 ]

@@ -550,13 +550,13 @@
  },
  {
   "data": "05/11/2026",
-  "cbot_cents": 1180.0,
-  "cambio": 5.487,
+  "cbot_cents": 1180.25,
+  "cambio": 5.5037,
   "premio_cents": 160.0,
   "premio_mes": "Novembro/26",
   "contrato": "nov/26",
-  "paridade": 162.1,
+  "paridade": 162.62,
   "indicador": 158.53,
-  "basis": -3.57
+  "basis": -4.09
  }
 ]

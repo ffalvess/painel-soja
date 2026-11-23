@@ -992,12 +992,12 @@
  {
   "data": "2026-11-23",
   "contratos": {
-   "ZS=F": "ZS.CBT",
-   "ZC=F": "ZC.CBT",
-   "ZM=F": "ZM.CBT",
-   "ZL=F": "ZL.CBT",
-   "ZW=F": "ZW.CBT",
-   "BZ=F": "BZ.NYM"
+   "ZS=F": "ZSF27.CBT",
+   "ZC=F": "ZCH27.CBT",
+   "ZM=F": "ZMF27.CBT",
+   "ZL=F": "ZLF27.CBT",
+   "ZW=F": "ZWH27.CBT",
+   "BZ=F": "BZG27.NYM"
   }
  }
 ]
